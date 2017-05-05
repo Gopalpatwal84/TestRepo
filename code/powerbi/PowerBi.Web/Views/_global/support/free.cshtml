@@ -1,0 +1,125 @@
+﻿@model PowerBI.Web.Models.Pages.ViewMetadataModel
+@using Resources = PowerBI.Resources.Pages.Support.Free
+
+@{
+    Model.PageTitle = Resources.META_PAGETITLE;
+    Model.MetaDescription = Resources.META_DESCRIPTION;
+    Model.MetaKeywords = Resources.META_KEYWORDS;
+}
+
+<section class="section section-palette02 section-size2 section-heading-only">
+    <div class="row column">
+        <h1>@Resources.Hero_Heading</h1>
+    </div>
+</section>
+
+<section class="section">
+    <div class="row column">
+        <h3>@Resources.Purchase_Subheading</h3>
+        <h2>@Resources.Purchase_Heading</h2>
+        <ul class="linkList linkList-horizontal">
+            <li><a class="button button-featured" href="#" id="pro-sign-up" data-pops-up="modal-purchase-pro" data-event="supportfree-clicked-purchase" data-event-property="Purchase">@Resources.Purchase_Cta</a></li>
+            <li><a class="cta-secondary" href="@Html.LocalizeUrl("/pricing/")">@Resources.LearnMore_Cta<span class="glyphicon glyph-micro pbi-glyph-chevronrightmedium"></span></a></li>
+        </ul>
+        @Html.RawFormatInvariant(Resources.ContactUs_Cta_1, @Html.LocalizeUrl("article:powerbi-admin-forgot-your-password"), "data-event=\"supportfree-clicked-contactus\" data-event-property=\"Contact Us\"")
+    </div>
+</section>
+
+<section class="section">
+    <div class="row column">
+        <h2>@Resources.GetSupport_Heading</h2>
+    </div>
+    <div class="row row-size1">
+        <div class="column medium-4">
+            <a href="@Html.LocalizeUrl("/guided-learning/")" class="card card-large sd-equalize" data-set="self">
+                <span class="icon">@SvgHelper.GetSvg("play-video")</span>
+                <span class="top text-heading3">@Resources.GuidedLearning_Heading</span>
+                <span class="bottom">@Resources.GuidedLearning_Content</span>
+            </a>
+        </div>
+        <div class="column medium-4">
+            <a href="@Html.LocalizeUrl("article:powerbi-sample-datasets")" class="card card-large sd-equalize" data-set="self">
+                <span class="icon">@SvgHelper.GetSvg("finance")</span>
+                <span class="top text-heading3">@Resources.Samples_Heading</span>
+                <span class="bottom">@Resources.Samples_Content</span>
+            </a>
+        </div>
+        <div class="column medium-4">
+            <a href="@Html.LocalizeUrl("/documentation/powerbi-service-get-started/")" class="card card-large sd-equalize" data-set="self">
+                <span class="icon">@SvgHelper.GetSvg("search")</span>
+                <span class="top text-heading3">@Resources.Documentation_Heading</span>
+                <span class="bottom">@Resources.Documentation_Content</span>
+            </a>
+        </div>
+    </div>
+    <div class="row row-size3">
+        <div class="column medium-4">
+            <a href="https://community.powerbi.com/" class="card card-large sd-equalize" data-set="ask">
+                <span class="icon">@SvgHelper.GetSvg("team")</span>
+                <span class="top text-heading3">@Resources.Community_Heading</span>
+                <span class="bottom">@Resources.Community_Content</span>
+            </a>
+        </div>
+        <div class="column medium-4">
+            <a href="https://ideas.powerbi.com/forums/265200-power-bi" class="card card-large sd-equalize" data-set="ask">
+                <span class="icon">@SvgHelper.GetSvg("comment")</span>
+                <span class="top text-heading3">@Resources.SubmitAnIdea_Heading</span>
+                <span class="bottom">@Resources.SubmitAnIdea_Content</span>
+            </a>
+        </div>
+        <div class="column medium-4">
+            <a href="https://aka.ms/issues.powerbi.com" class="card card-large sd-equalize" data-set="ask">
+                <span class="icon">@SvgHelper.GetSvg("info")</span>
+                <span class="top text-heading3">@Resources.ReportIssue_Heading</span>
+                <span class="bottom">@Resources.ReportIssue_Content</span>
+            </a>
+        </div>
+    </div>
+</section>
+
+
+<section class="section section-size3 modal" id="modal-purchase-pro">
+    <a href="#" class="close">&times;</a>
+    <div class="row text-center">
+        <div class="column">
+            <h2 class="text-center">@Resources.Purchase_Heading</h2>
+            <p>@Resources.Purchase_Subheading1</p>
+        </div>
+    </div>
+    <div class="row">
+        <div class="column small-11 small-offset-1">
+            <p class="text-bold">@Resources.Purchase_Question1</p>
+            <ul class="linkList linkList-horizontal">
+                <li>
+                    <a href="#" id="purchase-wizard-existing-o365-yes" data-pops-up="modal-purchase-pro-admin" class="button button-featured">@Resources.Purchase_Yes</a>
+                </li>
+                <li>
+                    <a href="https://portal.office.com/Signup/MainSignup15.aspx?OfferId=03fb6305-216a-410f-856b-fd6142d94604&amp;dl=POWER_BI_PRO&amp;ali=1" id="purchase-wizard-existing-o365-no" class="button">@Resources.Purchase_NoUnsure</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</section>
+
+<section class="section section-size3 modal" id="modal-purchase-pro-admin">
+    <a href="#" class="close">&times;</a>
+    <div class="row text-center">
+        <div class="column">
+            <h2 class="text-center">@Resources.Purchase_Heading</h2>
+            <p>@Resources.Purchase_Subheading1</p>
+        </div>
+    </div>
+    <div class="row">
+        <div class="column small-11 small-offset-1">
+            <p class="text-bold">@Resources.Purchase_Question2</p>
+            <ul class="linkList linkList-horizontal">
+                <li>
+                    <a id="purchase-wizard-o365-admin-yes" class="button button-featured" target="_blank" href="https://portal.office.com/Signup/MainSignup15.aspx?OfferId=03fb6305-216a-410f-856b-fd6142d94604&dl=POWER_BI_PRO&ali=1">@Resources.Purchase_Yes</a>
+                </li>
+                <li>
+                    <a href="https://portal.office.com/Signup/MainSignup15.aspx?OfferId=03fb6305-216a-410f-856b-fd6142d94604&amp;dl=POWER_BI_PRO&amp;ali=1" id="purchase-wizard-o365-admin-no" class="button">@Resources.Purchase_No</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</section>

@@ -1,0 +1,243 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" id="root">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ConnectData_Content" xml:space="preserve">
+    <value>Подключайтесь к нескольким источникам данных с помощью Power BI. Независимо от того, где хранятся ваши данные — в облачной службе, такой как Marketo или Salesforce, или локально, — с помощью Power BI вы сможете подключаться к ним, а также очищать, формировать, моделировать и визуализировать их с помощью динамических отчетов и панелей мониторинга. Начните работу за считанные минуты благодаря пакетам содержимого, предварительно созданным панелям мониторинга и отчетам для популярных служб.</value>
+  </data>
+  <data name="ConnectData_Cta1" xml:space="preserve">
+    <value>Ознакомиться со списком служб предоставления содержимого, к которым можно подключиться</value>
+  </data>
+  <data name="ConnectData_Cta2" xml:space="preserve">
+    <value>Ознакомиться с мобильными приложениями iOS, Windows и Android</value>
+  </data>
+  <data name="ConnectData_Heading" xml:space="preserve">
+    <value>Любые данные — где угодно и как угодно</value>
+  </data>
+  <data name="Content1" xml:space="preserve">
+    <value>Для получения практически применимых ценных сведений не обязательно писать код или быть гуру статистики. Служба вопросов и ответов Power BI позволяет задавать вопросы и незамедлительно получать на них ответы в виде диаграмм и графиков, которые можно закреплять на панелях мониторинга. Кортана может отвечать на ваши вопросы на основе данных Power BI, при этом вам не понадобится покидать панель Кортаны.</value>
+  </data>
+  <data name="Customers_Content" xml:space="preserve">
+    <value>По состоянию на март 2016 г. пять миллионов подписчиков и 200 000 организаций по всему миру используют Power BI.</value>
+  </data>
+  <data name="Customers_Cta" xml:space="preserve">
+    <value>Читать истории клиентов</value>
+  </data>
+  <data name="CustomVisuals_Content" xml:space="preserve">
+    <value>Возможности Power BI не ограничиваются неким определенным набором функций. Благодаря пользовательским визуальным элементам Power BI может создавать практически любые визуализации.</value>
+  </data>
+  <data name="CustomVisuals_Cta" xml:space="preserve">
+    <value>Осмотреть коллекцию пользовательских визуальных элементов</value>
+  </data>
+  <data name="CustomVisuals_Heading" xml:space="preserve">
+    <value>Пользовательские визуализации</value>
+  </data>
+  <data name="Download_Content" xml:space="preserve">
+    <value>В отличие от других средств визуализации интерактивных данных.</value>
+  </data>
+  <data name="Download_Cta" xml:space="preserve">
+    <value>Скачивание Power BI Desktop</value>
+  </data>
+  <data name="Download_Heading" xml:space="preserve">
+    <value>Power BI Desktop бесплатна</value>
+  </data>
+  <data name="EmbedReports_Content" xml:space="preserve">
+    <value>&lt;p&gt;Благодаря тому, что в Power BI используются облачные технологии, добавлять и удалять пользователей можно в любое время. Кроме того, Power BI на 99,9&amp;#160;% гарантирует бесперебойную работу системы. Вы получите масштабируемый, высокозащищенный и надежный инструмент корпоративного уровня, при этом оптимизируя затраты, зависящие от количества пользователей и их персональных потребностей, связанных с данными. Благодаря встроенному в Power BI подключению к облачным и локальным источникам данных вы сможете сократить вложения в ИТ и инфраструктуру для извлечения, преобразования и загрузки данных. А учитывая то, что Power BI разрабатывалась корпорацией Майкрософт как компонент пакета служб для предприятий, вы сможете извлечь больше пользы из своих инвестиций в Azure и Office 365, а также сможете легко управлять доступом с помощью групп и безопасности на уровне строк.
+&lt;/p&gt;&lt;p&gt;
+Другими преимуществами службы Power BI являются ее открытость и расширяемость. Power BI удобна для разработчиков и поддерживает внедрение в приложения и порталы.&lt;/p&gt;</value>
+  </data>
+  <data name="EmbedReports_Cta" xml:space="preserve">
+    <value>Дополнительные сведения</value>
+  </data>
+  <data name="EmbedReports_Heading" xml:space="preserve">
+    <value>Пригодность для корпоративного использования</value>
+  </data>
+  <data name="Heading1" xml:space="preserve">
+    <value>Используйте ваши данные новыми способами</value>
+  </data>
+  <data name="Hero_Content" xml:space="preserve">
+    <value>Традиционные средства бизнес-аналитики, такие как Tableau, Qlik и др., больше ориентированы на профессионалов и дают ретроспективную оценку. А Power BI – это инструмент для широкого круга пользователей (не только специалистов), позволяющий получить представление о том, что происходит в данный момент. С Power BI всего за пять минут вы можете начать создание персонализированных панелей мониторинга для получения ответов на самые животрепещущие вопросы касательно вашего бизнеса.</value>
+  </data>
+  <data name="Hero_Cta" xml:space="preserve">
+    <value>Начните сейчас бесплатно</value>
+  </data>
+  <data name="Hero_Heading" xml:space="preserve">
+    <value>Ищете современное средство визуализации данных?</value>
+  </data>
+  <data name="META_DESCRIPTION" xml:space="preserve">
+    <value>Power BI преобразует данные вашей организации в привлекательные визуальные представления с широкими возможностями по сбору и упорядочению данных, позволяя сконцентрироваться на важнейших задачах. Будьте в курсе дел, отслеживайте тенденции по мере их возникновения и продвигайте ваш бизнес вперед.</value>
+  </data>
+  <data name="META_KEYWORDS" xml:space="preserve">
+    <value />
+  </data>
+  <data name="META_PAGETITLE" xml:space="preserve">
+    <value>Почему именно Power BI | Microsoft Power BI</value>
+  </data>
+  <data name="MicrosoftIntegrations_Content" xml:space="preserve">
+    <value>Power BI изначально разрабатывался для простого использования с Excel, Office 365, Azure и SQL Server. Отправляйте отчеты Excel в Power BI и закрепляйте их на панелях мониторинга Power BI или используйте в качестве источника данных. Воспользуйтесь преимуществами ваших текущих инвестиций, предоставляя своим работникам возможность поиска новых ценных практически применимых сведений с помощью знакомых инструментов.</value>
+  </data>
+  <data name="MicrosoftIntegrations_Cta" xml:space="preserve">
+    <value>Скачать Power BI Publisher для Excel</value>
+  </data>
+  <data name="MicrosoftIntegrations_Heading" xml:space="preserve">
+    <value>Простота использования с другими продуктами и службами Майкрософт</value>
+  </data>
+  <data name="PCmag_Content" xml:space="preserve">
+    <value>Журнал PC Magazine отметил Power BI наградой "Выбор редакции" в статье “The Best Self-Service Business Intelligence (BI) Tools of 2016” («Лучшие средства самостоятельной бизнес-аналитики 2016 года»).</value>
+  </data>
+  <data name="PCmag_Cta" xml:space="preserve">
+    <value>Читать статью</value>
+  </data>
+  <data name="QandA_Content" xml:space="preserve">
+    <value>Для получения практически применимых ценных сведений не обязательно писать код или быть гуру статистики. Служба вопросов и ответов Power BI позволяет задавать вопросы и незамедлительно получать на них ответы в виде диаграмм и графиков, которые можно закреплять на панелях мониторинга. Глубокая интеграция с Windows 10: Кортана делает бизнес-аналитику такой же простой, как и поиск — вы можете работать прямо с рабочего стола.</value>
+  </data>
+  <data name="QandA_Heading" xml:space="preserve">
+    <value>Используйте ваши данные новыми способами</value>
+  </data>
+  <data name="QuickInsights_Content" xml:space="preserve">
+    <value>Выполняйте автоматический поиск по наборам данных для получения скрытых ценных сведений за считанные секунды с помощью функции быстрого анализа данных: корреляции, выбросы, точки изменения тенденций и ключевые факторы на основе определенных плиток панели мониторинга и связанных с ними данных.</value>
+  </data>
+  <data name="QuickInsights_Heading" xml:space="preserve">
+    <value>Автоматический поиск по наборам данных для получения скрытых ценных сведений</value>
+  </data>
+  <data name="Realtime_Content" xml:space="preserve">
+    <value>В отличие от традиционных средств бизнес-аналитики, таких как Tableau or Qlik, способных выполнять только ретроспективный анализ, Power BI предоставляет доступ к информации в режиме реального времени, что позволяет выявлять тенденции на раннем этапе. Таким образом вы сможете заблаговременно предотвращать потенциальные проблемы и повышать эффективность. Передовая методика интеграции аналитических данных посредством сценариев R и визуальных элементов, Машинного обучения Microsoft Azure и Azure Stream Analytics позволяет использовать данные для прогнозирования вашего бизнеса. Прогнозная аналитика может помочь в осуществлении профилактических мер по корректированию курса для успешного достижения ваших целей.</value>
+  </data>
+  <data name="Realtime_Heading" xml:space="preserve">
+    <value>Выявляйте тенденции в реальном времени и принимайте более продуманные и обоснованные решения</value>
+  </data>
+  <data name="Recommendations_Heading" xml:space="preserve">
+    <value>Не ограничивайтесь нашими заверениями</value>
+  </data>
+  <data name="Sanddance_Content" xml:space="preserve">
+    <value>&lt;p&gt;С Power BI вы получаете постоянные инновации, которые помогут вам визуализировать и анализировать данные быстрее, эффективнее и осмысленнее. Наши активные пользователи постоянно поддерживают с нами обратную связь, указывая нам, какие возможности следует реализовать в еженедельных и ежемесячных выпусках Power BI&amp;#160;— таким образом это средство аналитики непрерывно совершенствуется. Благодаря тому, что Power BI является облачным инструментом, обновления будут загружаться автоматически, так что вам не придется об этом беспокоиться. &lt;/p&gt;
+&lt;p&gt;Помимо всего прочего, Power BI предлагает пользователям открытую стратегию создания и совместного использования пользовательских визуализаций наподобие SandDance (проекта Microsoft Research в сфере визуализации данных).&lt;/p&gt;</value>
+  </data>
+  <data name="Sanddance_Cta1" xml:space="preserve">
+    <value>Посмотреть, как работает SandDance</value>
+  </data>
+  <data name="Sanddance_Cta2" xml:space="preserve">
+    <value>Читать блог Power BI о SandDance</value>
+  </data>
+  <data name="Sanddance_Heading" xml:space="preserve">
+    <value>Стимулируемые пользователями инновации со скоростью, присущей облачным технологиям</value>
+  </data>
+  <data name="Meta_LocJobId" xml:space="preserve">
+    <value>192</value>
+  </data>
+</root>

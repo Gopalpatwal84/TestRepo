@@ -1,0 +1,75 @@
+﻿@import (reference) '../../../less/mixins.d.less';
+@import (reference) '../../../less/variables.d.less';
+
+.toggler {
+    &.toggler-selector {
+        font-weight: @font-light;
+        padding: 8px 60px 8px 10px;
+        text-decoration: none;
+        display: block;
+        position: relative;
+
+        &:after {
+            .arrow(8px, @color-slate01, 'down');
+            position: absolute;
+            right: 10px;
+            top: 18px;
+        }
+
+        &.open:after {
+            .arrow(8px, @color-slate01, 'up');
+            top: 10px;
+        }
+
+        &.toggler-selector-slate01 {
+            background-color: @color-slate01;
+            color: @color-palette01 !important;
+
+            &:after {
+                .arrow(8px, @color-palette01, 'down');
+            }
+
+            &.open:after {
+                .arrow(8px, @color-palette01, 'up');
+            }
+        }
+    }
+}
+
+.toggled {
+    &.toggled-selector {
+        font-weight: @font-light;
+        padding: 8px 10px;
+        list-style: none;
+        position: absolute;
+        z-index: 100;
+
+        li {
+            padding: 6px 0;
+            float: none;
+
+            a {
+                text-decoration: none;
+            }
+
+            .icon {
+                margin-top: -5px;
+            }
+        }
+
+        &.toggled-selector-slate01 {
+            background-color: @color-slate01;
+            color: @color-palette01 !important;
+
+            li {
+                background-color: @color-slate01;
+                padding: 6px 0;
+                float: none;
+
+                a {
+                    color: @color-palette01 !important;
+                }
+            }
+        }
+    }
+}

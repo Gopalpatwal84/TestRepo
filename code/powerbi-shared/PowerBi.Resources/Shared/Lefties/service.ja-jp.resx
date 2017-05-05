@@ -1,0 +1,969 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" id="root">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Area_Administration" xml:space="preserve">
+    <value>管理</value>
+  </data>
+  <data name="Area_Ask" xml:space="preserve">
+    <value>データに関する質問</value>
+  </data>
+  <data name="Area_Connect" xml:space="preserve">
+    <value>サービスへの接続</value>
+  </data>
+  <data name="Area_Dashboards" xml:space="preserve">
+    <value>ダッシュボード</value>
+  </data>
+  <data name="Area_DataDatabases" xml:space="preserve">
+    <value>データベースからのデータ</value>
+  </data>
+  <data name="Area_DataFiles" xml:space="preserve">
+    <value>ファイルからのデータ</value>
+  </data>
+  <data name="Area_DataRefresh" xml:space="preserve">
+    <value>データ更新</value>
+  </data>
+  <data name="Area_Gateways" xml:space="preserve">
+    <value>ゲートウェイ</value>
+  </data>
+  <data name="Area_GetStarted" xml:space="preserve">
+    <value>作業の開始</value>
+  </data>
+  <data name="Area_Reports" xml:space="preserve">
+    <value>レポート</value>
+  </data>
+  <data name="Area_Samples" xml:space="preserve">
+    <value>サンプル</value>
+  </data>
+  <data name="Area_Share" xml:space="preserve">
+    <value>作業の共有</value>
+  </data>
+  <data name="Area_Troubleshooting" xml:space="preserve">
+    <value>トラブルシューティング</value>
+  </data>
+  <data name="Area_Visualizations" xml:space="preserve">
+    <value>視覚エフェクト</value>
+  </data>
+  <data name="Link_3rdPartyGetStarted" xml:space="preserve">
+    <value>Power BI でのサード パーティのアプリの概要</value>
+  </data>
+  <data name="Link_Acumatica" xml:space="preserve">
+    <value>Acumatica コンテンツ パック</value>
+  </data>
+  <data name="Link_AddImageToDashboard" xml:space="preserve">
+    <value>ダッシュボードにイメージを追加</value>
+  </data>
+  <data name="Link_AddWidget" xml:space="preserve">
+    <value>ダッシュボードにイメージ、テキスト ボックス、ビデオ、または Web コードを追加する</value>
+  </data>
+  <data name="Link_AdobeAnalytics" xml:space="preserve">
+    <value>Adobe Analytics コンテンツ パック</value>
+  </data>
+  <data name="Link_AppFigures" xml:space="preserve">
+    <value>appFigures コンテンツ パック</value>
+  </data>
+  <data name="Link_AppInisghts" xml:space="preserve">
+    <value>Application Insights コンテンツ パック</value>
+  </data>
+  <data name="Link_AtInternetBridge" xml:space="preserve">
+    <value>AT Internet Bridge コンテンツ パック</value>
+  </data>
+  <data name="Link_AzureAuditLogs" xml:space="preserve">
+    <value>Azure Audit Logs コンテンツ パック</value>
+  </data>
+  <data name="Link_AzureEnterprise" xml:space="preserve">
+    <value>Microsoft Azure Enterprise コンテンツ パック</value>
+  </data>
+  <data name="Link_BasicConcepts" xml:space="preserve">
+    <value>Power BI - 基本的な概念</value>
+  </data>
+  <data name="Link_BigNumberTileDashboard" xml:space="preserve">
+    <value>質問をして Power BI ダッシュボードに重要な数値のタイルを作成</value>
+  </data>
+  <data name="Link_BigNumberTileReport" xml:space="preserve">
+    <value>Power BI レポートから重要な数値のタイルを作成</value>
+  </data>
+  <data name="Link_Bing" xml:space="preserve">
+    <value>Bing コンテンツ パック</value>
+  </data>
+  <data name="Link_BrowserSupport" xml:space="preserve">
+    <value>Power BI のサポートされているブラウザー</value>
+  </data>
+  <data name="Link_CircuitID" xml:space="preserve">
+    <value>Circuit ID コンテンツ パック</value>
+  </data>
+  <data name="Link_CollaborateWithGroup" xml:space="preserve">
+    <value>Power BI グループとの共同作業</value>
+  </data>
+  <data name="Link_ComScore" xml:space="preserve">
+    <value>comScore Digital Analytix コンテンツ パック</value>
+  </data>
+  <data name="Link_ConnectOneDrive" xml:space="preserve">
+    <value>グループの OneDrive for Business に保存されているファイルへの接続</value>
+  </data>
+  <data name="Link_ConnectToSamples" xml:space="preserve">
+    <value>チュートリアル: Power BI のサンプル コンテンツ パックを使用する</value>
+  </data>
+  <data name="Link_ConnectToServices" xml:space="preserve">
+    <value>コンテンツ パックを使用してサービスに接続する</value>
+  </data>
+  <data name="Link_CreateADashboard" xml:space="preserve">
+    <value>Power BI ダッシュボードを作成する</value>
+  </data>
+  <data name="Link_CreateFeaturedQuestions" xml:space="preserve">
+    <value>Power BI Q&amp;A のおすすめの質問を作成する</value>
+  </data>
+  <data name="Link_CreateGroup" xml:space="preserve">
+    <value>Power BI でのグループの作成</value>
+  </data>
+  <data name="Link_CreatePublishContentPack" xml:space="preserve">
+    <value>組織のコンテンツ パックを作成して発行する (チュートリアル)</value>
+  </data>
+  <data name="Link_CustomerProfitabilitySample" xml:space="preserve">
+    <value>Power BI のお客様の収益性のサンプル: 使ってみる</value>
+  </data>
+  <data name="Link_DashboardTiles" xml:space="preserve">
+    <value>Power BI のダッシュボードのタイル</value>
+  </data>
+  <data name="Link_DataSources" xml:space="preserve">
+    <value>Power BI のデータ ソース</value>
+  </data>
+  <data name="Link_DataWorkWell" xml:space="preserve">
+    <value>データを Power BI Q&amp;A に適合させる方法</value>
+  </data>
+  <data name="Link_DeleteContentPack" xml:space="preserve">
+    <value>組織のコンテンツ パックに対する接続を削除する</value>
+  </data>
+  <data name="Link_DesignTips" xml:space="preserve">
+    <value>優れた Power BI ダッシュボードのデザインに関するヒント</value>
+  </data>
+  <data name="Link_DisplayReportFullScreen" xml:space="preserve">
+    <value>全画面表示モード (テレビ モード) でダッシュボードとレポートを表示する</value>
+  </data>
+  <data name="Link_DisplayTileFullScreen" xml:space="preserve">
+    <value>全画面表示モード (テレビ モード) でダッシュボード タイルを表示する</value>
+  </data>
+  <data name="Link_DisplayTileInFocus" xml:space="preserve">
+    <value>フォーカス設定モードでダッシュボード タイルを表示する</value>
+  </data>
+  <data name="Link_DownloadFinancialSample" xml:space="preserve">
+    <value>Power BI 用の Financial Sample のダウンロード</value>
+  </data>
+  <data name="Link_DynamicsCRM" xml:space="preserve">
+    <value>Microsoft Dynamics CRM コンテンツ パック</value>
+  </data>
+  <data name="Link_DynamicsMarketing" xml:space="preserve">
+    <value>Microsoft Dynamics Marketing コンテンツ パック</value>
+  </data>
+  <data name="Link_DynamicsNav" xml:space="preserve">
+    <value>Microsoft Dynamics NAV コンテンツ パック</value>
+  </data>
+  <data name="Link_EditATile" xml:space="preserve">
+    <value>タイルの編集 -- サイズ変更、移動、名前の変更、ピン留め、削除、ハイパーリンクの追加</value>
+  </data>
+  <data name="Link_EnableCortana" xml:space="preserve">
+    <value>Cortana を Power BI で使用可能にする</value>
+  </data>
+  <data name="Link_Faq" xml:space="preserve">
+    <value>よく寄せられる質問</value>
+  </data>
+  <data name="Link_FindOpenContentPack" xml:space="preserve">
+    <value>組織のコンテンツ パックを検索し、接続する</value>
+  </data>
+  <data name="Link_GetStarted" xml:space="preserve">
+    <value>Power BI の概要</value>
+  </data>
+  <data name="Link_GitHub" xml:space="preserve">
+    <value>GitHub コンテンツ パック</value>
+  </data>
+  <data name="Link_GoogleAnalytics" xml:space="preserve">
+    <value>Google Analytics コンテンツ パック</value>
+  </data>
+  <data name="Link_HowToUse" xml:space="preserve">
+    <value>Power BI Q&amp;A を使用する方法</value>
+  </data>
+  <data name="Link_HumanResourceSample" xml:space="preserve">
+    <value>人事のサンプル: 使ってみる</value>
+  </data>
+  <data name="Link_IntroToCortana" xml:space="preserve">
+    <value>Power BI 用の Cortana の概要</value>
+  </data>
+  <data name="Link_LanguageSupport" xml:space="preserve">
+    <value>Power BI でサポートされる言語と国または地域</value>
+  </data>
+  <data name="Link_Lithium" xml:space="preserve">
+    <value>Lithium コンテンツ パック</value>
+  </data>
+  <data name="Link_MailChimp" xml:space="preserve">
+    <value>MailChimp コンテンツ パック</value>
+  </data>
+  <data name="Link_ManageContentPack" xml:space="preserve">
+    <value>組織のコンテンツ パックを管理、更新、削除する</value>
+  </data>
+  <data name="Link_ManageGroup" xml:space="preserve">
+    <value>Power BI および Office 365 でのグループ管理</value>
+  </data>
+  <data name="Link_Mandrill" xml:space="preserve">
+    <value>Mandrill コンテンツ パック</value>
+  </data>
+  <data name="Link_Marketo" xml:space="preserve">
+    <value>Marketo コンテンツ パック</value>
+  </data>
+  <data name="Link_MobileEngagement" xml:space="preserve">
+    <value>Azure Mobile Engagement コンテンツ パック</value>
+  </data>
+  <data name="Link_Office365" xml:space="preserve">
+    <value>Office365Mon コンテンツ パック</value>
+  </data>
+  <data name="Link_OpportunityAnalysisSample" xml:space="preserve">
+    <value>Power BI の営業案件の分析のサンプル: 使ってみる</value>
+  </data>
+  <data name="Link_OptimizeData" xml:space="preserve">
+    <value>Power BI クイック インサイト用のデータの最適化</value>
+  </data>
+  <data name="Link_PinATileFromDashboard" xml:space="preserve">
+    <value>ダッシュボードから別のダッシュボードにタイルをピン留め</value>
+  </data>
+  <data name="Link_PinATileFromExcel" xml:space="preserve">
+    <value>Excel から Power BI ダッシュボードにタイルをピン留めする</value>
+  </data>
+  <data name="Link_PinATileFromReport" xml:space="preserve">
+    <value>レポートから Power BI ダッシュボードにタイルをピン留め</value>
+  </data>
+  <data name="Link_PinATileToDashboardFromQA" xml:space="preserve">
+    <value>Q&amp;A 質問ボックスから Power BI ダッシュボードにタイルをピン留めする</value>
+  </data>
+  <data name="Link_PinReportToDashboard" xml:space="preserve">
+    <value>レポート ページ全体を Power BI ダッシュボードにピン留めする</value>
+  </data>
+  <data name="Link_Planview" xml:space="preserve">
+    <value>Planview Enterprise コンテンツ パック</value>
+  </data>
+  <data name="Link_Printing" xml:space="preserve">
+    <value>ダッシュボードの印刷、ダッシュボード タイルの印刷、レポートの印刷</value>
+  </data>
+  <data name="Link_ProcurementAnalysisSample" xml:space="preserve">
+    <value>調達の分析のサンプル: 使ってみる</value>
+  </data>
+  <data name="Link_ProjectOnline" xml:space="preserve">
+    <value>Project Online コンテンツ パック</value>
+  </data>
+  <data name="Link_ProjectPlace" xml:space="preserve">
+    <value>Projectplace コンテンツ パック</value>
+  </data>
+  <data name="Link_ProWhatIs" xml:space="preserve">
+    <value>Power BI Pro コンテンツとは</value>
+  </data>
+  <data name="Link_PublishForExcel" xml:space="preserve">
+    <value>Power BI Publisher for Excel</value>
+  </data>
+  <data name="Link_PublishToWeb" xml:space="preserve">
+    <value>Power BI から Web への発行</value>
+  </data>
+  <data name="Link_QandA" xml:space="preserve">
+    <value>Power BI での Q&amp;A</value>
+  </data>
+  <data name="Link_QrCodeTile" xml:space="preserve">
+    <value>タイルの QR コードを作成する</value>
+  </data>
+  <data name="Link_QualityAnalysisSample" xml:space="preserve">
+    <value>Power BI のサプライヤー クオリティ分析のサンプル: 使ってみる</value>
+  </data>
+  <data name="Link_Quickbooks" xml:space="preserve">
+    <value>QuickBooks Online コンテンツ パック</value>
+  </data>
+  <data name="Link_QuickInisghts" xml:space="preserve">
+    <value>Power BI のクイック インサイト</value>
+  </data>
+  <data name="Link_QuickInisghtsTypes" xml:space="preserve">
+    <value>Power BI でサポートされているクイック インサイトの種類</value>
+  </data>
+  <data name="Link_RemoveDashboard" xml:space="preserve">
+    <value>ダッシュボードの除去</value>
+  </data>
+  <data name="Link_RenameDashboard" xml:space="preserve">
+    <value>Power BI ダッシュボードの名前変更</value>
+  </data>
+  <data name="Link_Reports" xml:space="preserve">
+    <value>Power BI のレポート</value>
+  </data>
+  <data name="Link_RetailAnalysisSample" xml:space="preserve">
+    <value>Power BI の小売りの分析のサンプル: 使ってみる</value>
+  </data>
+  <data name="Link_Salesforce" xml:space="preserve">
+    <value>Salesforce コンテンツ パック</value>
+  </data>
+  <data name="Link_SalesMarketingSample" xml:space="preserve">
+    <value>Power BI の売上およびマーケティングのサンプル: 使ってみる</value>
+  </data>
+  <data name="Link_SampleDatasets" xml:space="preserve">
+    <value>Power BI 用のサンプル</value>
+  </data>
+  <data name="Link_SelfServiceSignup" xml:space="preserve">
+    <value>Power BI のセルフサービス サインアップ</value>
+  </data>
+  <data name="Link_Sendgrid" xml:space="preserve">
+    <value>SendGrid コンテンツ パック</value>
+  </data>
+  <data name="Link_ShareDashboard" xml:space="preserve">
+    <value>ダッシュボードとレポートを共有する方法</value>
+  </data>
+  <data name="Link_ShareDashboardLinkExcel" xml:space="preserve">
+    <value>OneDrive for Business 上の Excel ブックにリンクするダッシュボードを共有する</value>
+  </data>
+  <data name="Link_ShareUnshareDashboard" xml:space="preserve">
+    <value>同僚や他のユーザーとのダッシュボードの共有</value>
+  </data>
+  <data name="Link_Smartsheet" xml:space="preserve">
+    <value>Smartsheet コンテンツ パック</value>
+  </data>
+  <data name="Link_Sparkpost" xml:space="preserve">
+    <value>SparkPost コンテンツ パック</value>
+  </data>
+  <data name="Link_SpendAnalysisSample" xml:space="preserve">
+    <value>Power BI の IT 支出分析のサンプル: 使ってみる</value>
+  </data>
+  <data name="Link_SqlAuditing" xml:space="preserve">
+    <value>SQL Database Auditing コンテンツ パック</value>
+  </data>
+  <data name="Link_SqlSentry" xml:space="preserve">
+    <value>SQL Sentry コンテンツ パック</value>
+  </data>
+  <data name="Link_Stripe" xml:space="preserve">
+    <value>Stripe コンテンツ パック</value>
+  </data>
+  <data name="Link_SweetIQ" xml:space="preserve">
+    <value>SweetIQ コンテンツ パック</value>
+  </data>
+  <data name="Link_TipsForAsking" xml:space="preserve">
+    <value>Power BI の Q&amp;A で質問するヒントとテクニック</value>
+  </data>
+  <data name="Link_Twilio" xml:space="preserve">
+    <value>Twilio コンテンツ パック</value>
+  </data>
+  <data name="Link_Tygraph" xml:space="preserve">
+    <value>tyGraph コンテンツ パック</value>
+  </data>
+  <data name="Link_Uservoice" xml:space="preserve">
+    <value>UserVoice コンテンツ パック</value>
+  </data>
+  <data name="Link_GetStartedTutorial" xml:space="preserve">
+    <value>チュートリアル: Power BI の概要 Q&amp;A</value>
+  </data>
+  <data name="Link_Videos" xml:space="preserve">
+    <value>Power BI のビデオ</value>
+  </data>
+  <data name="Link_VisualStudioOnline" xml:space="preserve">
+    <value>Visual Studio Team Services コンテンツ パック</value>
+  </data>
+  <data name="Link_VMob" xml:space="preserve">
+    <value>VMob コンテンツ パック</value>
+  </data>
+  <data name="Link_Webinars" xml:space="preserve">
+    <value>Power BI ウェビナー</value>
+  </data>
+  <data name="Link_Webtrends" xml:space="preserve">
+    <value>Webtrends コンテンツ パック</value>
+  </data>
+  <data name="Link_WhatsNew" xml:space="preserve">
+    <value>Power BI サービスの新機能</value>
+  </data>
+  <data name="Link_WorkWithContentPack" xml:space="preserve">
+    <value>組織のコンテンツ パックの処理</value>
+  </data>
+  <data name="Link_Zendesk" xml:space="preserve">
+    <value>Zendesk コンテンツ パック</value>
+  </data>
+  <data name="Title" xml:space="preserve">
+    <value>Power BI サービス</value>
+  </data>
+  <data name="Link_AddFilterToReport" xml:space="preserve">
+    <value>Power BI でのレポートへのフィルターの追加</value>
+  </data>
+  <data name="Link_AddPageToReport" xml:space="preserve">
+    <value>Power BI レポートへのページの追加</value>
+  </data>
+  <data name="Link_AddVisualizations1" xml:space="preserve">
+    <value>チュートリアル: パート I、Power BI レポートへの視覚化の追加</value>
+  </data>
+  <data name="Link_AddVisualizations2" xml:space="preserve">
+    <value>チュートリアル: パート 2、Power BI レポートへの視覚化の追加</value>
+  </data>
+  <data name="Link_Administering" xml:space="preserve">
+    <value>組織内の Power BI を管理する</value>
+  </data>
+  <data name="Link_AlternateEmail" xml:space="preserve">
+    <value>Power BI の代替メール アドレス</value>
+  </data>
+  <data name="Link_AnalysisServices" xml:space="preserve">
+    <value>エンタープライズ データ ソースの管理 - Analysis Services</value>
+  </data>
+  <data name="Link_ArchivedWorkspace" xml:space="preserve">
+    <value>Power BI アーカイブ済みワークスペース</value>
+  </data>
+  <data name="Link_Azure" xml:space="preserve">
+    <value>Azure と Power BI</value>
+  </data>
+  <data name="Link_BasicAreaChart" xml:space="preserve">
+    <value>チュートリアル: 基本的な面グラフ</value>
+  </data>
+  <data name="Link_CapturingDiag" xml:space="preserve">
+    <value>Power BI 用に追加の診断情報をキャプチャする</value>
+  </data>
+  <data name="Link_ChangeReportDisplaySettings" xml:space="preserve">
+    <value>Power BI レポートのページ表示設定</value>
+  </data>
+  <data name="Link_ChangeTypeVisualization" xml:space="preserve">
+    <value>Power BI レポートでの視覚化の種類の変更</value>
+  </data>
+  <data name="Link_ChartSorting" xml:space="preserve">
+    <value>Power BI レポートでのグラフの並べ替え方法の変更</value>
+  </data>
+  <data name="Link_ClosingAccount" xml:space="preserve">
+    <value>Power BI アカウントを削除する</value>
+  </data>
+  <data name="Link_ColorFormatting" xml:space="preserve">
+    <value>色の書式設定と軸のプロパティの概要</value>
+  </data>
+  <data name="Link_ColorFormattingTips" xml:space="preserve">
+    <value>Power BI における色の書式設定に関するヒントとコツ</value>
+  </data>
+  <data name="Link_ComboChart" xml:space="preserve">
+    <value>チュートリアル: Power BI での複合グラフ</value>
+  </data>
+  <data name="Link_ConfigureIntune" xml:space="preserve">
+    <value>Intune でモバイル アプリを構成する</value>
+  </data>
+  <data name="Link_CopyPasteVisual" xml:space="preserve">
+    <value>Power BI での視覚化のコピーと貼り付け</value>
+  </data>
+  <data name="Link_CreateReport" xml:space="preserve">
+    <value>新しい Power BI レポートの作成</value>
+  </data>
+  <data name="Link_CustomizeVisuals" xml:space="preserve">
+    <value>チュートリアル：視覚エフェクトのタイトル、背景、および凡例のカスタマイズ</value>
+  </data>
+  <data name="Link_CustomVisualizations" xml:space="preserve">
+    <value>Power BI でのカスタム ビジュアル</value>
+  </data>
+  <data name="Link_CustomVisualizationsToReport" xml:space="preserve">
+    <value>カスタム ビジュアルを Power BI レポートに追加する</value>
+  </data>
+  <data name="Link_CustomXandY" xml:space="preserve">
+    <value>チュートリアル: X 軸と Y 軸のプロパティのカスタマイズ</value>
+  </data>
+  <data name="Link_DataRefresh" xml:space="preserve">
+    <value>Power BI でのデータの更新</value>
+  </data>
+  <data name="Link_DataRefreshCloudCsv" xml:space="preserve">
+    <value>OneDrive のコンマ区切り値 (.csv) ファイルから作成されたデータセットを更新する</value>
+  </data>
+  <data name="Link_DataRefreshCloudExcel" xml:space="preserve">
+    <value>Excel ブックから作成されたデータセットを更新する - クラウド</value>
+  </data>
+  <data name="Link_DataRefreshDesktopCloud" xml:space="preserve">
+    <value>Power BI Desktop ファイルから作成されたデータセットを更新する - クラウド</value>
+  </data>
+  <data name="Link_DataRefreshDesktopLocal" xml:space="preserve">
+    <value>Power BI Desktop ファイルから作成されたデータセットを更新する</value>
+  </data>
+  <data name="Link_DataRefreshLocalExcel" xml:space="preserve">
+    <value>Excel ブックから作成されたデータセットを更新する - ローカル</value>
+  </data>
+  <data name="Link_DeleteAReport" xml:space="preserve">
+    <value>Power BI からのレポートの削除</value>
+  </data>
+  <data name="Link_DeletePageFromReport" xml:space="preserve">
+    <value>Power BI レポートからのページの削除</value>
+  </data>
+  <data name="Link_DeleteVisual" xml:space="preserve">
+    <value>Power BI での視覚化の削除</value>
+  </data>
+  <data name="Link_DirectConnectSpark" xml:space="preserve">
+    <value>DirectQuery を使用する HDInsight 上の Spark</value>
+  </data>
+  <data name="Link_DirectQuerySql" xml:space="preserve">
+    <value>Azure SQL Database と DirectQuery</value>
+  </data>
+  <data name="Link_DirectQuerySqlDW" xml:space="preserve">
+    <value>Azure SQL Data Warehouse と DirectQuery</value>
+  </data>
+  <data name="Link_DisablePrivacyIssues" xml:space="preserve">
+    <value>プライバシー設定を無効にする</value>
+  </data>
+  <data name="Link_DoughnutCharts" xml:space="preserve">
+    <value>チュートリアル: Power BI でのドーナツ グラフ</value>
+  </data>
+  <data name="Link_DownloadCustomVisual" xml:space="preserve">
+    <value>Office ストアからカスタム ビジュアルをダウンロードし、使用する</value>
+  </data>
+  <data name="Link_DrillVisual" xml:space="preserve">
+    <value>Power BI での視覚化のドリルダウン</value>
+  </data>
+  <data name="Link_DuplicateReportPage" xml:space="preserve">
+    <value>Power BI でのレポート ページの複製</value>
+  </data>
+  <data name="Link_EditingView" xml:space="preserve">
+    <value>Power BI で読み取りビューから編集ビューに切り替える</value>
+  </data>
+  <data name="Link_EditorTakeTour" xml:space="preserve">
+    <value>レポート エディター...紹介を見る</value>
+  </data>
+  <data name="Link_ExportFromVisualization" xml:space="preserve">
+    <value>ビジュアルからデータをエクスポートする</value>
+  </data>
+  <data name="Link_FilledMaps" xml:space="preserve">
+    <value>チュートリアル: Power BI の塗り分け地図 (コロプレス)</value>
+  </data>
+  <data name="Link_FiltersAndHighlighting" xml:space="preserve">
+    <value>Power BI レポートのフィルターと強調表示について</value>
+  </data>
+  <data name="Link_ForgotPassword" xml:space="preserve">
+    <value>Power BI のパスワードを忘れた場合</value>
+  </data>
+  <data name="Link_FunnelCharts" xml:space="preserve">
+    <value>チュートリアル: Power BI のじょうごグラフ</value>
+  </data>
+  <data name="Link_GetDataIn" xml:space="preserve">
+    <value>ファイルからデータを取得</value>
+  </data>
+  <data name="Link_Histograms" xml:space="preserve">
+    <value>ヒストグラム</value>
+  </data>
+  <data name="Link_HistogramsTips" xml:space="preserve">
+    <value>Power BI マップの視覚エフェクトに関するヒントとテクニック</value>
+  </data>
+  <data name="Link_HyperlinksInTables" xml:space="preserve">
+    <value>テーブル内のハイパーリンク</value>
+  </data>
+  <data name="Link_HyperLinkToTextbox" xml:space="preserve">
+    <value>Power BI レポートのテキスト ボックスへのハイパーリンクの追加</value>
+  </data>
+  <data name="Link_InteractEditingView" xml:space="preserve">
+    <value>Power BI の編集ビューでレポートと対話する</value>
+  </data>
+  <data name="Link_InteractReadingView" xml:space="preserve">
+    <value>Power BI の読み取りビューでレポートと対話する</value>
+  </data>
+  <data name="Link_ManageCapacity" xml:space="preserve">
+    <value>Power BI のデータ容量を管理する</value>
+  </data>
+  <data name="Link_MoveVisual" xml:space="preserve">
+    <value>Power BI レポートでの視覚化の移動、サイズ変更、ポップアウト</value>
+  </data>
+  <data name="Link_OfficeDedicatedIssues" xml:space="preserve">
+    <value>Office 365 Dedicated - 既知の問題</value>
+  </data>
+  <data name="Link_PersonalGateway" xml:space="preserve">
+    <value>Power BI Gateway - Personal</value>
+  </data>
+  <data name="Link_PersonalGatewayTroubleshoot" xml:space="preserve">
+    <value>Power BI Gateway - Personal のトラブルシューティング</value>
+  </data>
+  <data name="Link_PublishFromExcel" xml:space="preserve">
+    <value>チュートリアル: Excel ブックから魅力的なレポートを即座に作成する</value>
+  </data>
+  <data name="Link_PurchasingPro" xml:space="preserve">
+    <value>Power BI Pro を購入する</value>
+  </data>
+  <data name="Link_RadialGauge" xml:space="preserve">
+    <value>チュートリアル: Power BI の放射状ゲージ グラフ</value>
+  </data>
+  <data name="Link_ReadingView" xml:space="preserve">
+    <value>Power BI レポートを読み取りビューで開く</value>
+  </data>
+  <data name="Link_ReduceExcel" xml:space="preserve">
+    <value>Power BI で表示する Excel ブックのサイズを減らす</value>
+  </data>
+  <data name="Link_RenameReport" xml:space="preserve">
+    <value>Power BI でのレポートの名前変更</value>
+  </data>
+  <data name="Link_ReorderPages" xml:space="preserve">
+    <value>Power BI のレポートでページを並べ替える</value>
+  </data>
+  <data name="Link_SameAzureAccount" xml:space="preserve">
+    <value>Power BI と Azure で同じアカウントのログインを使用する方法</value>
+  </data>
+  <data name="Link_SapHana" xml:space="preserve">
+    <value>エンタープライズ データ ソースの管理 - SAP HANA</value>
+  </data>
+  <data name="Link_SaveAReport" xml:space="preserve">
+    <value>Power BI でレポートを保存する</value>
+  </data>
+  <data name="Link_ScatterCharts" xml:space="preserve">
+    <value>チュートリアル: Power BI の散布図</value>
+  </data>
+  <data name="Link_ScheduledSqlRefresh" xml:space="preserve">
+    <value>Azure SQL Database のスケジュール設定された更新に関するトラブルシューティング</value>
+  </data>
+  <data name="Link_Security" xml:space="preserve">
+    <value>Power BI のセキュリティ</value>
+  </data>
+  <data name="Link_SigningUpWithOffice" xml:space="preserve">
+    <value>新しい Office 365 試用版で Power BI にサインアップする</value>
+  </data>
+  <data name="Link_Slicers" xml:space="preserve">
+    <value>チュートリアル: Power BI のスライサー</value>
+  </data>
+  <data name="Link_Sql" xml:space="preserve">
+    <value>エンタープライズ データ ソースの管理 - SQL</value>
+  </data>
+  <data name="Link_SSASTabular" xml:space="preserve">
+    <value>Power BI での SQL Server Analysis Services ライブ データ</value>
+  </data>
+  <data name="Link_TextboxesReports" xml:space="preserve">
+    <value>Power BI レポート内のテキスト ボックス</value>
+  </data>
+  <data name="Link_TileErrors" xml:space="preserve">
+    <value>タイルのエラーのトラブルシューティング</value>
+  </data>
+  <data name="Link_Treemaps" xml:space="preserve">
+    <value>チュートリアル: Power BI のツリーマップ</value>
+  </data>
+  <data name="Link_TroubleshootingRefreshScenarios" xml:space="preserve">
+    <value>更新に関するトラブルシューティング シナリオ</value>
+  </data>
+  <data name="Link_TutorialChangeReport" xml:space="preserve">
+    <value>チュートリアル: Power BI レポートのページの表示設定を変更する</value>
+  </data>
+  <data name="Link_UnableToAddOfficePartner" xml:space="preserve">
+    <value>Power BI を O365 パートナーに追加できない</value>
+  </data>
+  <data name="Link_UnsupportedData" xml:space="preserve">
+    <value>更新がサポートされていないデータ ソースのトラブルシューティング</value>
+  </data>
+  <data name="Link_UseAReportFilter" xml:space="preserve">
+    <value>レポート フィルターの使用方法</value>
+  </data>
+  <data name="Link_Visualizations" xml:space="preserve">
+    <value>Power BI での視覚化</value>
+  </data>
+  <data name="Link_VisualizationTypes" xml:space="preserve">
+    <value>Power BI での視覚化の種類</value>
+  </data>
+  <data name="Link_Waterfall" xml:space="preserve">
+    <value>チュートリアル: Power BI でのウォーターフォール図</value>
+  </data>
+  <data name="Link_GetDataCSV" xml:space="preserve">
+    <value>コンマ区切り値 (.csv) ファイルからデータを取得する</value>
+  </data>
+  <data name="Link_GetDataDesktop" xml:space="preserve">
+    <value>Power BI Desktop ファイルからデータを取得する</value>
+  </data>
+  <data name="Link_GetDataFromExcel" xml:space="preserve">
+    <value>Excel 2016 から Power BI へ発行する</value>
+  </data>
+  <data name="Link_WholeExcel" xml:space="preserve">
+    <value>Excel ブック ファイルからデータを取得する</value>
+  </data>
+  <data name="Link_AdminPortal" xml:space="preserve">
+    <value>管理ポータル</value>
+  </data>
+  <data name="Link_Aggregates" xml:space="preserve">
+    <value>Power BI での集計 (合計、平均値、最大値など)</value>
+  </data>
+  <data name="Link_AlpineMetrics" xml:space="preserve">
+    <value>Alpine Metrics Sales Predictions コンテンツ パック</value>
+  </data>
+  <data name="Link_AnalyzeExcelTroubleshoot" xml:space="preserve">
+    <value>Excel での分析のトラブルシューティング</value>
+  </data>
+  <data name="Link_AnalyzeInExcel" xml:space="preserve">
+    <value>Excel で分析</value>
+  </data>
+  <data name="Link_AzureDirectory" xml:space="preserve">
+    <value>カスタムの Azure ディレクトリを使用してサインアップする</value>
+  </data>
+  <data name="Link_AzureSearch" xml:space="preserve">
+    <value>Azure Search コンテンツ パック</value>
+  </data>
+  <data name="Link_AzureSecurity" xml:space="preserve">
+    <value>Azure Security Center のコンテンツ パック</value>
+  </data>
+  <data name="Link_ClickDimensions" xml:space="preserve">
+    <value>ClickDimensions コンテンツ パック</value>
+  </data>
+  <data name="Link_ConfigureProxy" xml:space="preserve">
+    <value>プロキシ設定の構成</value>
+  </data>
+  <data name="Link_DashboardsInPowerBI" xml:space="preserve">
+    <value>Power BI のダッシュボード</value>
+  </data>
+  <data name="Link_DynamicsAX" xml:space="preserve">
+    <value>Microsoft Dynamics AX コンテンツ パック</value>
+  </data>
+  <data name="Link_ExcelError" xml:space="preserve">
+    <value>エラー: Excel ワークブックにデータが見つかりませんでした</value>
+  </data>
+  <data name="Link_ExpressRoute" xml:space="preserve">
+    <value>Power BI と ExpressRoute</value>
+  </data>
+  <data name="Link_FavoriteDashboards" xml:space="preserve">
+    <value>Power BI でのお気に入りのダッシュボード</value>
+  </data>
+  <data name="Link_FeaturedDashboards" xml:space="preserve">
+    <value>Power BI でのおすすめダッシュボード</value>
+  </data>
+  <data name="Link_FreePowerBI" xml:space="preserve">
+    <value>組織内の Power BI (無料)</value>
+  </data>
+  <data name="Link_GatewayEnterpriseData" xml:space="preserve">
+    <value>Power BI Gateway での Q&amp;A の使用 - エンタープライズ データ (プレビュー)</value>
+  </data>
+  <data name="Link_Governance" xml:space="preserve">
+    <value>Power BI 管理と展開のアプローチ</value>
+  </data>
+  <data name="Link_ImportScheduledRefresh" xml:space="preserve">
+    <value>エンタープライズ データ ソースの管理 - インポート/スケジュールされた更新</value>
+  </data>
+  <data name="Link_Insightly" xml:space="preserve">
+    <value>Insightly コンテンツ パック</value>
+  </data>
+  <data name="Link_IntelliBoard" xml:space="preserve">
+    <value>IntelliBoard コンテンツ パック</value>
+  </data>
+  <data name="Link_KPIVisuals" xml:space="preserve">
+    <value>KPI ビジュアル</value>
+  </data>
+  <data name="Link_OrganizationalContentPacksIntro" xml:space="preserve">
+    <value>組織のコンテンツ パック: 概要</value>
+  </data>
+  <data name="Link_ProjectMadeira" xml:space="preserve">
+    <value>Project Madeira コンテンツ パック</value>
+  </data>
+  <data name="Link_QRCodeForReport" xml:space="preserve">
+    <value>レポートの QR コードを作成する</value>
+  </data>
+  <data name="Link_RowLevel" xml:space="preserve">
+    <value>Power BI を使用した行レベルのセキュリティ</value>
+  </data>
+  <data name="Link_ScheduledRefresh" xml:space="preserve">
+    <value>スケジュールされた更新の構成</value>
+  </data>
+  <data name="Link_Troux" xml:space="preserve">
+    <value>Troux コンテンツ パック</value>
+  </data>
+  <data name="Link_VisualInteraction" xml:space="preserve">
+    <value>レポート内のビジュアルの相互作用を変更します。</value>
+  </data>
+  <data name="Link_WindowsDevCenter" xml:space="preserve">
+    <value>Windows デベロッパー センター コンテンツ パック</value>
+  </data>
+  <data name="Link_Ziosk" xml:space="preserve">
+    <value>Ziosk コンテンツ パック</value>
+  </data>
+  <data name="Link_Zuora" xml:space="preserve">
+    <value>Zuora コンテンツ パック</value>
+  </data>
+  <data name="Link_GatewayOnPrem" xml:space="preserve">
+    <value>オンプレミス データ ゲートウェイ</value>
+  </data>
+  <data name="Link_GatewayOnPremFaq" xml:space="preserve">
+    <value>オンプレミス データ ゲートウェイに関するよく寄せられる質問 (FAQ)</value>
+  </data>
+  <data name="Link_GatewayOnPremInDepth" xml:space="preserve">
+    <value>オンプレミス データ ゲートウェイの詳細</value>
+  </data>
+  <data name="Link_GatewayOnPremTshoot" xml:space="preserve">
+    <value>オンプレミス データ ゲートウェイのトラブルシューティング</value>
+  </data>
+  <data name="Link_Prevedere" xml:space="preserve">
+    <value>Prevedere コンテンツ パック</value>
+  </data>
+  <data name="Link_Xero" xml:space="preserve">
+    <value>Xero コンテンツ パック</value>
+  </data>
+  <data name="Link_ReportsSeeData" xml:space="preserve">
+    <value>視覚化の作成に使用したデータを確認する</value>
+  </data>
+  <data name="Link_AdminAuditing" xml:space="preserve">
+    <value>Power BI の監査</value>
+  </data>
+  <data name="Link_O365PortalRetired" xml:space="preserve">
+    <value>Power BI for Office 365 の Power BI への移行</value>
+  </data>
+  <data name="Link_CreatePhoneViewDashboard" xml:space="preserve">
+    <value>ダッシュボードの Phone ビューを作成する</value>
+  </data>
+  <data name="Link_ServiceNotificationCenter" xml:space="preserve">
+    <value>Power BI の統合された通知センター</value>
+  </data>
+  <data name="Link_RenameReportPage" xml:space="preserve">
+    <value>Power BI でのレポート ページの名前変更</value>
+  </data>
+  <data name="Link_ReportTipsTricks" xml:space="preserve">
+    <value>Power BI サービスにおけるレポート作成のヒントとテクニック</value>
+  </data>
+  <data name="Link_GatewayOnPremOracle" xml:space="preserve">
+    <value>データ ソースの管理 - Oracle</value>
+  </data>
+  <data name="Link_ServiceSetAlerts" xml:space="preserve">
+    <value>Power BI service におけるデータ通知</value>
+  </data>
+  <data name="Link_ServiceNow" xml:space="preserve">
+    <value>ServiceNow Incidents コンテンツ パック</value>
+  </data>
+  <data name="Link_WhereIsMyTenant" xml:space="preserve">
+    <value>自分のテナントの場所はどこにありますか?</value>
+  </data>
+  <data name="Link_DataClassification" xml:space="preserve">
+    <value>ダッシュボード データの分類</value>
+  </data>
+  <data name="Link_XeroCredentialsRefresh" xml:space="preserve">
+    <value>更新が失敗した場合に Xero コンテンツ パックの資格情報を更新する方法</value>
+  </data>
+  <data name="Link_LiveStreaming" xml:space="preserve">
+    <value>Power BI でのリアルタイム ストリーミング (プレビュー)</value>
+  </data>
+  <data name="Link_RVisuals" xml:space="preserve">
+    <value>Power BI で R スクリプトを使用して、詳細なアナリティクスおよび視覚エフェクトを作成する</value>
+  </data>
+  <data name="Link_ArcGIS" xml:space="preserve">
+    <value>チュートリアル: Power BI の ArcGIS</value>
+  </data>
+  <data name="Link_PowerPoint" xml:space="preserve">
+    <value>PowerPoint に発行する</value>
+  </data>
+  <data name="Link_NewNav" xml:space="preserve">
+    <value>新しい Power BI ナビゲーション体験</value>
+  </data>
+  <data name="Link_PreviewFeatures" xml:space="preserve">
+    <value>Power BI プレビュー機能のオプトイン</value>
+  </data>
+  <data name="Link_EmbedReportSPO" xml:space="preserve">
+    <value>SharePoint Online にレポートを埋め込む</value>
+  </data>
+  <data name="Link_GovUSOverview" xml:space="preserve">
+    <value>米国政府用 Power BI</value>
+  </data>
+  <data name="Link_GovUSSignup" xml:space="preserve">
+    <value>米国政府組織を登録する</value>
+  </data>
+  <data name="Link_TipsGettingHelp" xml:space="preserve">
+    <value>ヘルプを得るための 10 のヒント</value>
+  </data>
+  <data name="Area_Resources" xml:space="preserve">
+    <value>リソース</value>
+  </data>
+  <data name="Link_Whitepapers" xml:space="preserve">
+    <value>ホワイトペーパー</value>
+  </data>
+  <data name="Meta_LocJobId" xml:space="preserve">
+    <value>212</value>
+  </data>
+</root>

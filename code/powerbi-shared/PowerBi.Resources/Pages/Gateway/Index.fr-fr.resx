@@ -1,0 +1,258 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" id="root">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AnalysisServicesConnector_Content" xml:space="preserve">
+    <value>Le connecteur Analysis Services permet de vous connecter à un serveur tabulaire Analysis Services et d’émettre des requêtes actives vers celui-ci pour une utilisation avec les tableaux de bord et rapports Power BI.</value>
+  </data>
+  <data name="AnalysisServicesConnector_Download_CTA" xml:space="preserve">
+    <value>Télécharger</value>
+  </data>
+  <data name="AnalysisServicesConnector_Heading" xml:space="preserve">
+    <value>Connecteur Analysis Services</value>
+  </data>
+  <data name="AnalysisServicesConnector_LearnMore_CTA" xml:space="preserve">
+    <value>En savoir plus</value>
+  </data>
+  <data name="Content_Headline" xml:space="preserve">
+    <value>Choisissez la passerelle la plus adaptée à vos besoins</value>
+  </data>
+  <data name="DownloadGateway" xml:space="preserve">
+    <value>Télécharger la passerelle</value>
+  </data>
+  <data name="EasySetup_Content" xml:space="preserve">
+    <value>Téléchargez et installez la passerelle avec un minimum d’interactions. Puis connectez-vous avec votre compte professionnel pour inscrire la passerelle à utiliser par les services cloud.</value>
+  </data>
+  <data name="EasySetup_Heading" xml:space="preserve">
+    <value>Configuration simplifiée</value>
+  </data>
+  <data name="EnterpriseDeployments_Content" xml:space="preserve">
+    <value>Cette passerelle permet aux organisations de servir un grand nombre d’utilisateurs. Elle permet également aux administrateurs de configurer le contrôle d’accès pour les sources de données individuelles et de surveiller l’utilisation.</value>
+  </data>
+  <data name="EnterpriseDeployments_Download_CTA" xml:space="preserve">
+    <value>Télécharger</value>
+  </data>
+  <data name="EnterpriseDeployments_Heading" xml:space="preserve">
+    <value>Pour les déploiements d’entreprise</value>
+  </data>
+  <data name="EnterpriseDeployments_Label" xml:space="preserve">
+    <value>Passerelle Power BI - Entreprise</value>
+  </data>
+  <data name="EnterpriseDeployments_LearnMore_CTA" xml:space="preserve">
+    <value>En savoir plus</value>
+  </data>
+  <data name="Features_ComingSoon" xml:space="preserve">
+    <value>Bientôt disponible</value>
+  </data>
+  <data name="Features_LearnMore" xml:space="preserve">
+    <value>En savoir plus</value>
+  </data>
+  <data name="Features_MSProducts" xml:space="preserve">
+    <value>Power BI, PowerApps, Azure Logic Apps (version préliminaire), Microsoft Flow</value>
+  </data>
+  <data name="Features_OnPremisesColumn_Heading" xml:space="preserve">
+    <value>Passerelle de données locale</value>
+  </data>
+  <data name="Features_PersonalColumn_Heading" xml:space="preserve">
+    <value>Passerelle Personal</value>
+  </data>
+  <data name="Features_PowerBI" xml:space="preserve">
+    <value>Power BI</value>
+  </data>
+  <data name="Features_Row1" xml:space="preserve">
+    <value>Importation de données et planification de l’actualisation</value>
+  </data>
+  <data name="Features_Row2" xml:space="preserve">
+    <value>Exécution en tant qu’application pour les utilisateurs qui ne disposent pas de droits d’administration sur l’ordinateur</value>
+  </data>
+  <data name="Features_Row3" xml:space="preserve">
+    <value>Exécution en tant qu’utilisateur unique avec vos informations d’identification</value>
+  </data>
+  <data name="Features_Row4" xml:space="preserve">
+    <value>Gestion de plusieurs utilisateurs avec un contrôle d’accès par source de données</value>
+  </data>
+  <data name="Features_Row5" xml:space="preserve">
+    <value>Prise en charge de DirectQuery pour SQL Server</value>
+  </data>
+  <data name="Features_Row6" xml:space="preserve">
+    <value>Prise en charge de la connexion active à Analysis Services</value>
+  </data>
+  <data name="Features_Row7" xml:space="preserve">
+    <value>Surveillance et audit pour la passerelle et les sources de données</value>
+  </data>
+  <data name="Features_CloudServices" xml:space="preserve">
+    <value>Services cloud associés</value>
+  </data>
+  <data name="Hero_Content" xml:space="preserve">
+    <value>Les passerelles locales vous permettent d’actualiser les données en vous connectant aux sources de données locales sans devoir déplacer les données. Interrogez de volumineux jeux de données et tirez parti de vos investissements existants. Elles offrent la flexibilité dont vous avez besoin pour répondre aux besoins individuels, ainsi qu’à ceux de votre organisation.</value>
+  </data>
+  <data name="Hero_Heading" xml:space="preserve">
+    <value>Actualisez vos rapports et tableaux de bord avec vos sources de données locales</value>
+  </data>
+  <data name="Hero_LearnMore" xml:space="preserve">
+    <value>En savoir plus</value>
+  </data>
+  <data name="META_DESCRIPTION" xml:space="preserve">
+    <value />
+  </data>
+  <data name="META_KEYWORDS" xml:space="preserve">
+    <value />
+  </data>
+  <data name="META_PAGETITLE" xml:space="preserve">
+    <value>Power BI Gateway | Microsoft Power BI</value>
+  </data>
+  <data name="OneGateway_Content" xml:space="preserve">
+    <value>Procédez à l’installation à une seule reprise et déployez plusieurs connexions de données locales dans Power BI, PowerApps, Microsoft Flow et Azure Logic Apps à l’aide d’une même passerelle.</value>
+  </data>
+  <data name="OneGateway_Heading" xml:space="preserve">
+    <value>Une seule passerelle pour l’ensemble de vos services cloud</value>
+  </data>
+  <data name="PersonalUse_Content" xml:space="preserve">
+    <value>Actualisez vos données locales rapidement sans attendre l’aide d’un administrateur informatique. Conçue pour une utilisation avec les jeux de données personnels, cette passerelle ne possède pas de fonctionnalités de surveillance centralisées.</value>
+  </data>
+  <data name="PersonalUse_Download_CTA" xml:space="preserve">
+    <value>Télécharger</value>
+  </data>
+  <data name="PersonalUse_Heading" xml:space="preserve">
+    <value>Pour une utilisation personnelle</value>
+  </data>
+  <data name="PersonalUse_Label" xml:space="preserve">
+    <value>Passerelle Power BI - Personal</value>
+  </data>
+  <data name="PersonalUse_LearnMore_CTA" xml:space="preserve">
+    <value>En savoir plus</value>
+  </data>
+  <data name="SecureAccess_Content" xml:space="preserve">
+    <value>Le transfert de données entre Power BI et la passerelle est sécurisé au moyen d’Azure Service Bus. Les informations d’identification fournies par les administrateurs de passerelle sont chiffrées pour protéger vos informations situées dans le cloud. Elles ne sont déchiffrées qu’une fois sur l’ordinateur sur lequel est installée la passerelle.</value>
+  </data>
+  <data name="SecureAccess_Heading" xml:space="preserve">
+    <value>Accès sécurisé aux données</value>
+  </data>
+  <data name="SSRS_Content" xml:space="preserve">
+    <value>Reporting Services 2016 permet aux utilisateurs d’épingler une visualisation issue d’un rapport à un tableau de bord dans Power BI.</value>
+  </data>
+  <data name="SSRS_Heading" xml:space="preserve">
+    <value>SQL Server Reporting Services 2016</value>
+  </data>
+  <data name="SSRS_LearnMore_CTA" xml:space="preserve">
+    <value>En savoir plus</value>
+  </data>
+  <data name="Meta_LocJobId" xml:space="preserve">
+    <value>151</value>
+  </data>
+</root>

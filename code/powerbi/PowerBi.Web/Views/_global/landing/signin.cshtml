@@ -1,0 +1,65 @@
+﻿@using System.Text.RegularExpressions
+@using Resources = PowerBI.Resources.Pages.Landing.Signin
+
+@{
+    Layout = "~/Views/_shared/_LayoutSimplified.cshtml";
+
+    Model.PageTitle = Resources.META_PAGETITLE;
+    Model.MetaDescription = Resources.META_DESCRIPTION;
+    Model.MetaKeywords = Resources.META_KEYWORDS;
+
+    var ru = Request.QueryString["ru"] ?? null;
+
+    var domain1Pattern = @"^(https?:\/\/[A-Za-z0-9-]+\.analysis-df\.windows\.net\/)";
+    var domain2Pattern = @"^(https?:\/\/[A-Za-z0-9-]+\.analysis\.windows-int\.net\/)";
+    var domain3Pattern = @"^(https?:\/\/[A-Za-z0-9-]+\.powerbi\.com\/)";
+
+    if (ru != null)
+    {
+        if (!Regex.IsMatch(ru, domain1Pattern) && !Regex.IsMatch(ru, domain2Pattern) && !Regex.IsMatch(ru, domain3Pattern))
+        {
+            ru = null;
+        }
+        else if (ru.IndexOf("noSignUpCheck=1") == -1)
+        {
+            ru = ru.Contains("?") ? ru + "&noSignUpCheck=1" : ru + "?noSignUpCheck=1";
+        }
+    }
+
+    var signinLink = ru ?? "https://app.powerbi.com/?noSignUpCheck=1";
+
+}
+
+<section class="section section-slate06 text-center">
+    <div class="row">
+        <div class="column text-center">
+            <span class="icon" style="fill: #f2c812; width: 150px; height: 150px;">
+                @SvgHelper.GetSvg("powerbilogo")
+            </span>
+        </div>
+    </div>
+    <div class="row">
+        <div class="column medium-8 medium-centered">
+            <h1 class="text-super">@Resources.Hero_Heading</h1>
+        </div>
+    </div>
+    <div class="row row-size2">
+        <div class="column medium-8 medium-centered">
+            <a class="button" href="@signinLink" data-event="global-clicked-getstartedcta" data-event-property="signin">@Resources.Hero_Cta</a>
+        </div>
+    </div>
+</section>
+
+<section class="section">
+    <div class="row">
+        <div class="column medium-8 medium-centered text-center">
+            <h2 class="text-heading1">@Resources.New_Heading</h2>
+            <p>@Resources.New_Copy</p>
+        </div>
+    </div>
+</section>
+
+@Html.Partial("section/_analytics-solutions")
+
+@Html.Partial("section/_signup")
+

@@ -1,0 +1,27 @@
+﻿@import (reference) '../../less/mixins.d.less';
+@import (reference) '../../less/variables.d.less';
+
+.search-result {
+    .title {
+        display: inline-block;
+        margin-bottom: 0;
+    }
+
+    .label {
+        display: inline-block;
+        margin-left: 10px;
+    }
+}
+
+.search-typeList {
+
+    li {
+        &.active {
+            border-bottom: 3px solid @color-font-standard;
+
+            a {
+                text-decoration: none;
+            }
+        }
+    }
+}

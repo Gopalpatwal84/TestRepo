@@ -1,0 +1,369 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" id="root">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Area_Connect" xml:space="preserve">
+    <value>Connectez-vous à vos données</value>
+  </data>
+  <data name="Area_GetStarted" xml:space="preserve">
+    <value>Commencer</value>
+  </data>
+  <data name="Area_LearnMore" xml:space="preserve">
+    <value>En savoir plus</value>
+  </data>
+  <data name="Area_Model" xml:space="preserve">
+    <value>Modélisez vos données</value>
+  </data>
+  <data name="Area_Reports" xml:space="preserve">
+    <value>Créer des rapports</value>
+  </data>
+  <data name="Area_Transform" xml:space="preserve">
+    <value>Transformez et mettez en forme des données</value>
+  </data>
+  <data name="Area_Troubleshoot" xml:space="preserve">
+    <value>Résolution des problèmes</value>
+  </data>
+  <data name="Link_AnalysisServicesMulti" xml:space="preserve">
+    <value>Données multidimensionnelles Analysis Services dans Power BI Desktop</value>
+  </data>
+  <data name="Link_AnalysisServicesTabular" xml:space="preserve">
+    <value>Données tabulaires Analysis Services dans Power BI Desktop</value>
+  </data>
+  <data name="Link_CalculatedColumns" xml:space="preserve">
+    <value>Colonnes calculées dans Power BI Desktop</value>
+  </data>
+  <data name="Link_CalculatedTables" xml:space="preserve">
+    <value>Tables calculées dans Power BI Desktop</value>
+  </data>
+  <data name="Link_Categorization" xml:space="preserve">
+    <value>Catégorisation des données dans Power BI Desktop</value>
+  </data>
+  <data name="Link_CommonQuery" xml:space="preserve">
+    <value>Tâches courantes relatives aux requêtes dans Power BI Desktop</value>
+  </data>
+  <data name="Link_Connect" xml:space="preserve">
+    <value>Se connecter à des données dans Power BI Desktop</value>
+  </data>
+  <data name="Link_CreateCalulatedColumns" xml:space="preserve">
+    <value>Didacticiel : création de colonnes calculées dans Power BI Desktop</value>
+  </data>
+  <data name="Link_CreateRelationships" xml:space="preserve">
+    <value>Créer et gérer des relations dans Power BI Desktop</value>
+  </data>
+  <data name="Link_CustomAnswerCards" xml:space="preserve">
+    <value>Créer des cartes de réponse personnalisées Power BI pour Cortana</value>
+  </data>
+  <data name="Link_CustomVisual" xml:space="preserve">
+    <value>Ajout d’un élément visuel personnalisé à un rapport (Power BI Desktop)</value>
+  </data>
+  <data name="Link_DataSources" xml:space="preserve">
+    <value>Sources de données dans Power BI Desktop</value>
+  </data>
+  <data name="Link_DataTypes" xml:space="preserve">
+    <value>Types de données dans Power BI Desktop</value>
+  </data>
+  <data name="Link_DataView" xml:space="preserve">
+    <value>Vue Données dans Power BI Desktop</value>
+  </data>
+  <data name="Link_DAX" xml:space="preserve">
+    <value>Principes fondamentaux de DAX dans Power BI Desktop</value>
+  </data>
+  <data name="Link_DirectQuery" xml:space="preserve">
+    <value>Utilisation de DirectQuery dans Power BI Desktop</value>
+  </data>
+  <data name="Link_Facebook" xml:space="preserve">
+    <value>Service tiers : connecteur Facebook pour Power BI Desktop</value>
+  </data>
+  <data name="Link_FacebookAnalytics" xml:space="preserve">
+    <value>Didacticiel : analyses de Facebook à l’aide de Power BI Desktop</value>
+  </data>
+  <data name="Link_GetDesktop" xml:space="preserve">
+    <value>Obtenir Power BI Desktop</value>
+  </data>
+  <data name="Link_GetStarted" xml:space="preserve">
+    <value>Prise en main de Power BI Desktop</value>
+  </data>
+  <data name="Link_GoogleAnalytics" xml:space="preserve">
+    <value>Service tiers : connecteur Google Analytics pour Power BI Desktop</value>
+  </data>
+  <data name="Link_ImportExcel" xml:space="preserve">
+    <value>Importer des classeurs Excel dans Power BI Desktop</value>
+  </data>
+  <data name="Link_KPIs" xml:space="preserve">
+    <value>Importation et affichage d’indicateurs de performance clés (KPI) (version préliminaire)</value>
+  </data>
+  <data name="Link_Measures" xml:space="preserve">
+    <value>Mesures dans Power BI Desktop</value>
+  </data>
+  <data name="Link_ProjectOnline" xml:space="preserve">
+    <value>Project Online : se connecter à des données au moyen de Power BI Desktop</value>
+  </data>
+  <data name="Link_Publish" xml:space="preserve">
+    <value>Publier à partir de Power BI Desktop</value>
+  </data>
+  <data name="Link_QueryOverview" xml:space="preserve">
+    <value>Présentation des requêtes dans Power BI Desktop</value>
+  </data>
+  <data name="Link_RelationshipView" xml:space="preserve">
+    <value>Vue Relation dans Power BI Desktop</value>
+  </data>
+  <data name="Link_ReportView" xml:space="preserve">
+    <value>Vue Rapport dans Power BI Desktop</value>
+  </data>
+  <data name="Link_ResolveIssuesImporting" xml:space="preserve">
+    <value>Résolution de problèmes d’importation de bases de données Access et de feuilles de calcul .XLS dans Power BI Desktop et Power Query</value>
+  </data>
+  <data name="Link_ResolveIssuesStarting" xml:space="preserve">
+    <value>Résoudre les problèmes de démarrage de Power BI Desktop</value>
+  </data>
+  <data name="Link_RScripts" xml:space="preserve">
+    <value>Exécution de scripts R dans Power BI Desktop</value>
+  </data>
+  <data name="Link_RVisuals" xml:space="preserve">
+    <value>Créer des éléments visuels Power BI avec R</value>
+  </data>
+  <data name="Link_SalesData" xml:space="preserve">
+    <value>Didacticiel : Analyse de données de ventes à partir d’Excel et d’un flux OData</value>
+  </data>
+  <data name="Link_SapHana" xml:space="preserve">
+    <value>Utiliser SAP HANA dans Power BI Desktop</value>
+  </data>
+  <data name="Link_ShapeData" xml:space="preserve">
+    <value>Mettre en forme et combiner des données dans Power BI Desktop</value>
+  </data>
+  <data name="Link_SortColumn" xml:space="preserve">
+    <value>Trier par colonne dans Power BI Desktop</value>
+  </data>
+  <data name="Link_Videos" xml:space="preserve">
+    <value>Vidéos relatives à Power BI Desktop</value>
+  </data>
+  <data name="Link_WebPage" xml:space="preserve">
+    <value>Didacticiel : importation et analyse des données à partir d’une page web à l’aide de Power BI Desktop</value>
+  </data>
+  <data name="Link_WhatsNew" xml:space="preserve">
+    <value>Nouveautés de la dernière mise à jour de Power BI Desktop</value>
+  </data>
+  <data name="Link_YourOwnMeasures" xml:space="preserve">
+    <value>Didacticiel : créer vos propres mesures dans Power BI Desktop</value>
+  </data>
+  <data name="Title" xml:space="preserve">
+    <value>Power BI Desktop</value>
+  </data>
+  <data name="Link_ConditionalTableFormatting" xml:space="preserve">
+    <value>Mise en forme conditionnelle des tableaux dans Power BI Desktop</value>
+  </data>
+  <data name="Link_CustomTooltips" xml:space="preserve">
+    <value>Personnalisation des info-bulles dans Power BI Desktop</value>
+  </data>
+  <data name="Link_InlineHeirarchy" xml:space="preserve">
+    <value>Utilisation des étiquettes de hiérarchie dans Power BI Desktop (version préliminaire)</value>
+  </data>
+  <data name="Link_Oracle" xml:space="preserve">
+    <value>Connexion à une base de données Oracle</value>
+  </data>
+  <data name="Link_OracleDirectQuery" xml:space="preserve">
+    <value>DirectQuery pour bases de données Oracle et Teradata</value>
+  </data>
+  <data name="Link_Prerequisites" xml:space="preserve">
+    <value>Conditions préalables de source de données Power BI</value>
+  </data>
+  <data name="Link_PreviousUpdates" xml:space="preserve">
+    <value>Mises à jour mensuelles précédentes de Power BI Desktop</value>
+  </data>
+  <data name="Link_PrivacyLevels" xml:space="preserve">
+    <value>Niveaux de confidentialité Power BI Desktop</value>
+  </data>
+  <data name="Link_SAPConnector" xml:space="preserve">
+    <value>Utilisation de SAP BW Connector dans Power BI Desktop (version préliminaire)</value>
+  </data>
+  <data name="Link_SendSmile" xml:space="preserve">
+    <value>Déclaration de confidentialité concernant l’option « Envoyer un sourire » de Power BI Desktop</value>
+  </data>
+  <data name="Link_TutorialRowLevelSecurity" xml:space="preserve">
+    <value>Didacticiel : sécurité dynamique au niveau des lignes avec le modèle tabulaire Analysis Services</value>
+  </data>
+  <data name="Link_UseOneDriveLinks" xml:space="preserve">
+    <value>Utilisation des liens OneDrive Entreprise dans Power BI Desktop</value>
+  </data>
+  <data name="Link_RLS" xml:space="preserve">
+    <value>Sécurité au niveau des lignes</value>
+  </data>
+  <data name="Link_MobileBarcodes" xml:space="preserve">
+    <value>Identifiez un champ de code-barres dans Power BI Desktop pour les applications mobiles Power BI</value>
+  </data>
+  <data name="Link_MobileGeofiltering" xml:space="preserve">
+    <value>Définissez un filtrage géographique dans Power BI Desktop pour les applications mobiles Power BI</value>
+  </data>
+  <data name="Link_AssumeRefIntegrity" xml:space="preserve">
+    <value>Paramètre d’intégrité référentielle supposée dans Power BI Desktop</value>
+  </data>
+  <data name="Link_BidirectionalFiltering" xml:space="preserve">
+    <value>Filtrage croisé bidirectionnel dans Power BI Desktop (Version d’évaluation)</value>
+  </data>
+  <data name="Link_ConnectCSV" xml:space="preserve">
+    <value>Se connecter à des fichiers CSV dans Power BI Desktop</value>
+  </data>
+  <data name="Link_ConnectExcel" xml:space="preserve">
+    <value>Se connecter à Excel dans Power BI Desktop</value>
+  </data>
+  <data name="Link_ConnectImpala" xml:space="preserve">
+    <value>Se connecter à une base de données Impala dans Power BI Desktop (Version préliminaire)</value>
+  </data>
+  <data name="Link_ConnectOData" xml:space="preserve">
+    <value>Se connecter à un flux OData dans Power BI Desktop</value>
+  </data>
+  <data name="Link_ConnectRedshift" xml:space="preserve">
+    <value>Se connecter à une base de données Amazon Redshift dans Power BI Desktop (Version préliminaire)</value>
+  </data>
+  <data name="Link_ConnectWeb" xml:space="preserve">
+    <value>Se connecter à une page Web à partir de Power BI Desktop</value>
+  </data>
+  <data name="Link_DirectDataEntryDesktop" xml:space="preserve">
+    <value>Entrer des données directement dans Power BI Desktop</value>
+  </data>
+  <data name="Link_RinQueryEditor" xml:space="preserve">
+    <value>Utilisation de R dans l’éditeur de requêtes</value>
+  </data>
+  <data name="Link_ShapeMap" xml:space="preserve">
+    <value>Utiliser Shape Maps dans Power BI Desktop (Version d’évaluation)</value>
+  </data>
+  <data name="Link_DesktopTipsAndTricks" xml:space="preserve">
+    <value>Trucs et astuces pour créer des rapports</value>
+  </data>
+  <data name="Link_CreatePhoneReport" xml:space="preserve">
+    <value>Créer des rapports optimisés pour les applications de téléphone Power BI</value>
+  </data>
+  <data name="Link_AnalyticsPane" xml:space="preserve">
+    <value>Volet d’analyse dans Power Bi Desktop</value>
+  </data>
+  <data name="Link_RIDE" xml:space="preserve">
+    <value>Utiliser un IDE R externe avec Power BI</value>
+  </data>
+  <data name="Link_Snowflake" xml:space="preserve">
+    <value>Se connecter à un entrepôt Snowflake Computing dans Power BI Desktop</value>
+  </data>
+  <data name="Link_RCustomVisuals" xml:space="preserve">
+    <value>Utiliser des visuels personnalisés optimisés pour R</value>
+  </data>
+  <data name="Link_SnapToGrid" xml:space="preserve">
+    <value>Utiliser le quadrillage et l’alignement sur la grille</value>
+  </data>
+  <data name="Meta_LocJobId" xml:space="preserve">
+    <value>209</value>
+  </data>
+</root>

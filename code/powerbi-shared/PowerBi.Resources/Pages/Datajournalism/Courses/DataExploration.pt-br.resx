@@ -1,0 +1,595 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" id="root">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="About_Content" xml:space="preserve">
+    <value>&lt;p&gt;O curso de Exploração de Dados fornece os tutoriais abaixo usando o Microsoft Power BI: 
+&lt;ul&gt;&lt;li&gt;Aprenda a criar histogramas e gráficos de caixa estreita para explorar as distribuições de dados. Veja como carregar os dados, aplicar alterações, ajustar consultas, mesclar diferentes conjuntos de dados e aproveitar as Visualizações Personalizadas para aprimorar sua análise.&lt;/li&gt;
+&lt;li&gt;Descubra como encontrar o fio da história nos dados e explore-os de diversas perspectivas com uma demonstração de análise de série temporal. Aprenda a criar um gráfico de linhas simples, adicionar uma linha de tendência, analisar dados sazonais e aleatórios e usar um script R.&lt;/li&gt;
+&lt;li&gt;Receba uma visão geral de como criar uma visualização com vários gráficos conectados.&lt;/li&gt;&lt;/ul&gt;
+&lt;/p&gt;</value>
+  </data>
+  <data name="Article_Content10_2" xml:space="preserve">
+    <value>&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;Insira o código abaixo&lt;/strong&gt; no editor (veja a explicação incluída) e pressione &lt;strong&gt;OK&lt;/strong&gt;.&lt;ol&gt;&lt;li&gt;&lt;p&gt; A biblioteca o usará para essa sessão R específica. Os pacotes são instalados uma vez no computador, porém é necessário usar o comando da biblioteca toda vez que usar um pacote&lt;/p&gt;
+  &lt;p&gt;library(Ecdat)&lt;/p&gt;
+&lt;p&gt;library(fpp)&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt; criamos aqui um objeto de série temporal baseado na quarta coluna com uma frequência de 12 meses por ano, a partir de janeiro de 2002&lt;/p&gt;&lt;p&gt;input &amp;lt;- ts(dataset[,4], frequency = 12, start = c(2002,1))&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;Para encontrar a tendência, calculamos a média de movimentação mensal [veja o tutorial 1 sobre a mudança de temperatura global para ver como você pode usar o DAX para calcular uma média de movimentação]&lt;/p&gt;
+  &lt;p&gt;trend = ma(input, order = 12, centre = T)&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Para expor a sazonalidade dos dados, aplicamos primeiro “detrend” da série temporal removendo a tendência&lt;/p&gt;
+  &lt;p&gt;detrend = input / trend&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;Separamos nosso conjunto de dados em agrupamentos de matrizes contendo todos os dados do mesmo mês (por coluna)&lt;/p&gt;
+&lt;p&gt;m = t(matrix(data = detrend, nrow = 12))&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Ao extrair a média da matriz, encontramos a sazonalidade&lt;/p&gt;
+  &lt;p&gt;seasonal = colMeans(m, na.rm = T)&lt;/p&gt;
+&lt;p&gt;seasonalData &amp;lt;- c()&lt;/p&gt;
+&lt;p&gt;for(i in 1:13)&lt;/p&gt;
+&lt;p&gt;{&lt;/p&gt;
+&lt;p&gt;seasonalData &amp;lt;- c(seasonal, seasonalData)&lt;/p&gt;
+&lt;p&gt;}&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt; Agora, podemos isolar o ruído dividindo a série temporal pelo ciclo de tendência&lt;/p&gt;
+  &lt;p&gt;random = input /(trend * seasonal)&lt;/p&gt;
+&lt;/li&gt;&lt;li&gt;&lt;p&gt;Os resultados são representados em uma nova tabela na qual combinamos a saída com nosso conjunto de dados inicial.&lt;/p&gt;
+  &lt;p&gt;output&amp;lt;- data.frame(seasonalData, trend, random, dataset)&lt;/p&gt;
+&lt;/li&gt;&lt;/ol&gt;&lt;/li&gt;
+&lt;li&gt;Expanda a tabela que foi criada e altere os tipos de dados da coluna &lt;strong&gt;Data&lt;/strong&gt; novamente para data.&lt;p&gt;&lt;img src="{0}" alt="" title="" /&gt;&lt;/p&gt;
+&lt;p&gt;Se desejar, você também pode excluir a coluna &lt;strong&gt;Nome&lt;/strong&gt;, pois ela apenas contém um rótulo “saída” para cada linha.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;Selecione &lt;strong&gt;Fechar e Aplicar&lt;/strong&gt;. Use as colunas recém-criadas para plotar sazonalidade, tendência e ruído em função do tempo. 
+&lt;p&gt;&lt;img src="{1}" alt="" title="" /&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;</value>
+  </data>
+  <data name="Article_Content11_4" xml:space="preserve">
+    <value>&lt;p&gt;&lt;img src="{0}" alt="" title="" /&gt;&lt;/p&gt;
+
+&lt;p&gt;Observe que o gráfico de colunas mostra um padrão geral, enquanto o gráfico de linhas exibe uma mudança mais clara na tendência. Experimente alternar os gráficos de coluna para linha para ver como cada um deles apresenta os dados. Observe também como as medidas subjacentes mudam a maneira como a tendência é mostrada e a história que os dados contam.&lt;/p&gt;
+
+&lt;p&gt;Da mesma forma, à medida que você analisa os dados, é importante examiná-los de diversos ângulos. Na visualização abaixo, as tendências de &lt;strong&gt;Emissões de CO2 (toneladas per capita)&lt;/strong&gt; e &lt;strong&gt;Emissões de CO2 (kg por PPC \U$ do PIB&lt;/strong&gt;) mostram aspectos muito diferentes das tendências. Experimente usar o Power BI para visualizar as outras métricas de emissões de CO2 para ver as interessantes tendências e os motivos pelos quais elas poderiam estar ocorrendo.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src="{1}" alt="" title="" /&gt;&lt;/p&gt;
+
+&lt;h3&gt;Etapa 2: Relações entre os dados&lt;/h3&gt;
+
+&lt;p&gt;Em um dos tutoriais anteriores, abordamos a mesclagem dos dados. O Power BI fornece outra maneira de trabalhar com várias tabelas de dados: Relações.&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;Abra o arquivo &lt;strong&gt;Where does your electricity come from final.pbix&lt;/strong&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Pressione o botão &lt;strong&gt;Relações&lt;/strong&gt; na barra de ícones à esquerda&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Selecione a linha que une as duas tabelas, o que revelará quais campos associam as duas relações&lt;/p&gt;
+
+&lt;p&gt;a. Para aprender a criar e gerenciar relações entre tabelas, &lt;a href="{2}"&gt;clique aqui&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;img src="{3}" alt="" title="" /&gt;&lt;/p&gt;</value>
+  </data>
+  <data name="Article_Content12_4" xml:space="preserve">
+    <value>&lt;h3&gt;Etapa 3: Cálculos de Dados usando Expressões DAX&lt;/h3&gt;
+
+&lt;p&gt;O Power BI fornece cálculos de dados padrão aplicáveis em muitos cenários. Contudo, há casos em que você precisa manter um controle maior. O Power BI fornece uma linguagem avançada para expressões chamada DAX (Data Access Expressions). Um bom começo é ler nosso tópico &lt;a href="{0}"&gt;Início Rápido: Aprenda os princípios básicos de DAX&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Neste tutorial, abordaremos duas expressões úteis que ajudam especificamente na narração dos dados.&lt;/p&gt;
+
+&lt;h4&gt;Criar um esquema de cor personalizado usando uma Expressão DAX&lt;/h4&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;Na faixa de opções &lt;strong&gt;Modelagem&lt;/strong&gt;, selecione &lt;strong&gt;Nova Coluna&lt;/strong&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Digite a seguinte expressão no editor de expressões&lt;/p&gt;
+
+&lt;p&gt;Emphasis Country = if('Metadata - Countries'[Nome do país] = "França", "Emphasis", if('Metadata - Countries'[Nome do país] = "Dinamarca", "Emphasis", if('Metadata - Countries'[Nome do país] = "Polônia", "Emphasis", "Other")))&lt;/p&gt;
+
+&lt;p&gt;Observação: note como a expressão seleciona valores específicos do campo &lt;strong&gt;Nome do País&lt;/strong&gt;, os atribui a uma categoria chamada &lt;strong&gt;Ênfase&lt;/strong&gt; e os valores restantes recebem a categoria &lt;strong&gt;Outro&lt;/strong&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Pressione o ícone de &lt;strong&gt;marca de seleção&lt;/strong&gt; à esquerda do editor&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Adicione a coluna &lt;strong&gt;País em ênfase&lt;/strong&gt; à propriedade &lt;strong&gt;Legenda&lt;/strong&gt; de um visual do Power BI (como um mapa coroplético como mostrado abaixo:&lt;/p&gt;
+
+&lt;p&gt;a. Defina &lt;strong&gt;Localização&lt;/strong&gt; como &lt;strong&gt;Nome do País&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;b. Defina &lt;strong&gt;Legenda&lt;/strong&gt; como &lt;strong&gt;País em Ênfase&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;c. Defina &lt;strong&gt;Saturação de Cor&lt;/strong&gt; como &lt;strong&gt;Código do País&lt;/strong&gt;&lt;/p&gt;
+
+&lt;pre&gt;i.  Observação: isso aparece como **Contagem de Códigos de País**
+&lt;/pre&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;No painel &lt;strong&gt;Formato&lt;/strong&gt;, expanda &lt;strong&gt;Cores de dados&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;a. Defina a cor de &lt;strong&gt;Ênfase&lt;/strong&gt; como &lt;strong&gt;amarelo&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;b. Defina a cor de &lt;strong&gt;Outro&lt;/strong&gt; como &lt;strong&gt;cinza&lt;/strong&gt; escuro&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;img src="{1}" alt="" title="" /&gt;&lt;/p&gt;
+
+&lt;p&gt;O mapa resultante será semelhante a este:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src="{2}" alt="" title="" /&gt;&lt;/p&gt;
+
+&lt;h4&gt;Criar um rótulo de texto que aparece apenas quando um único valor é selecionado&lt;/h4&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;Na faixa de opções &lt;strong&gt;Modelagem&lt;/strong&gt;, selecione &lt;strong&gt;Nova Medida&lt;/strong&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Digite a seguinte expressão no editor de expressões&lt;/p&gt;&lt;/li&gt;
+  &lt;p&gt;Selected Country Name = if(HASONEVALUE('Metadata - Countries'[Nome do país]), VALUES('Metadata - Countries'[Nome do país]) &amp;amp; " is selected", "")&lt;/p&gt;
+&lt;p&gt;Observação: note como a expressão está verificando se apenas um &lt;strong&gt;Nome do País&lt;/strong&gt; está selecionado para mostrar uma cadeia de caracteres específica. Caso contrário, nenhum valor será mostrado.&lt;/p&gt;
+&lt;li&gt;&lt;p&gt;Pressione o ícone de &lt;strong&gt;marca de seleção&lt;/strong&gt; à esquerda do editor&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Adicione um &lt;strong&gt;Visual de cartão&lt;/strong&gt; à página no painel de Visualização.&lt;/p&gt;
+
+&lt;p&gt;a. Defina Campos como &lt;strong&gt;Nome de País Selecionado&lt;/strong&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Observe que o valor está em branco&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;Selecione um país&lt;/strong&gt; no mapa&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Observe que o rótulo é exibido&lt;/p&gt;
+
+&lt;p&gt;Observação: você pode importar o visual do &lt;a href="{3}"&gt;Visualizador de Texto Longo&lt;/a&gt; para obter uma exibição alternativa dos dados.&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;</value>
+  </data>
+  <data name="Article_Content13_5" xml:space="preserve">
+    <value>&lt;p&gt;&lt;img src="{0}" alt="" title="" /&gt;&lt;/p&gt;
+&lt;h3&gt;Etapa 4: Selecionando as interações visuais adequadas&lt;/h3&gt;
+&lt;p&gt;Por padrão, o Power BI filtra e aplica realce cruzado nos dados para você. Examine as interações padrão e otimize-as para garantir que os dados sempre sejam demonstrados da melhor maneira possível.&lt;/p&gt;
+&lt;p&gt;Observe como o mapa aplica o realce cruzado por padrão no gráfico de coluna empilhado.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Selecione &lt;strong&gt;França&lt;/strong&gt; no mapa para ver o seguinte resultado.&lt;/li&gt;
+&lt;p&gt;&lt;img src="{1}" alt="" title="" /&gt;&lt;/p&gt;
+
+&lt;p&gt;Para controlar as interações visuais,&lt;/p&gt;
+&lt;li&gt;&lt;p&gt;Na faixa de opções &lt;strong&gt;Formatar&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;a. Selecione o botão &lt;strong&gt;Editar Interações&lt;/strong&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;p&gt;&lt;img src="{2}" alt="" title="" /&gt;&lt;/p&gt;
+&lt;li&gt;&lt;p&gt;Selecione o &lt;strong&gt;Mapa&lt;/strong&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Observe a barra de ferramentas que aparece no &lt;strong&gt;Gráfico de coluna empilhado&lt;/strong&gt; em 100%&lt;/p&gt;&lt;/li&gt;
+
+&lt;p&gt;&lt;img src="{3}" alt="" title="" /&gt;&lt;/p&gt;
+&lt;li&gt;&lt;p&gt;Selecione o ícone de filtro na barra de ferramentas. O Gráfico de coluna empilhado em 100% agora mostra a tendência para a França de forma mais clara.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src="{4}" alt="" title="" /&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;</value>
+  </data>
+  <data name="Article_Content14_2" xml:space="preserve">
+    <value>&lt;p&gt;Observação: o desafio dos dados em relação ao percentual do total é abordado em mais detalhes na &lt;strong&gt;Parte 2 – Suplemento de percentual do total&lt;/strong&gt;.&lt;/p&gt;
+&lt;h2&gt;Parte 2 – Suplemento do percentual do total&lt;/h2&gt;
+&lt;p&gt;No material do nosso curso, apresentamos o seguinte gráfico e mencionados que você precisaria ter cuidado ao usar os dados e a agregação. Isto ocorre porque os valores usados para criar o gráfico são representados como um “% do total”. Por isso, o gráfico está, na verdade, agregando um percentual. Isso pode causar um erro de dados típico que você provavelmente encontrará na sua análise de dados: resumir dados agregados usando SOMA, MÉDIA ou outros agregados que não representam os dados subjacentes. Vejamos como isso funciona neste caso.&lt;/p&gt;
+&lt;p&gt;&lt;img src="{0}" alt="" title="" /&gt;&lt;/p&gt;
+&lt;p&gt;Figura 1 Quando o gráfico é carregado pela primeira vez, nenhum país está selecionado, por isso a agregação de SOMA é aplicada aos dados subjacentes, que neste caso é um percentual. O total de todos os valores de percentual é, então, exibido e codificado visualmente. Isso está incorreto.&lt;/p&gt;
+&lt;p&gt;Os dados subjacentes deste conjunto de dados são identificados usando as seguintes colunas de dados:&lt;/p&gt;
+&lt;h3&gt;Valore(s) de Ano e País&lt;/h3&gt;
+&lt;p&gt;Os valores desse conjunto de dados são percentuais, médias, medianas, entre outros, e só podem ser exibidos corretamente se tanto o Ano quanto o País contiverem um único valor. Alguns campos são aditivos, como &lt;strong&gt;População e Total&lt;/strong&gt; por exemplo, e podem ser agregados entre os &lt;strong&gt;Países&lt;/strong&gt; em um &lt;strong&gt;Ano&lt;/strong&gt; específico, mas não ao longo dos &lt;strong&gt;Anos&lt;/strong&gt;. No gráfico acima, temos apenas um desses dois elementos: &lt;strong&gt;Ano&lt;/strong&gt; no eixo X.&lt;/p&gt;
+&lt;p&gt;No curso, quando apresentamos o visual de mapa e selecionamos um país no mapa, o gráfico começou repentinamente a mostrar os dados corretos. Veja abaixo um exemplo no qual selecionamos a França e o gráfico mostra os dados esperados. Podemos ver na dica de ferramenta que o valor transmitido para o visual e o valor codificado por ele, o rótulo de percentual entre parênteses, correspondem.&lt;/p&gt;
+&lt;p&gt;&lt;img src="{1}" alt="" title="" /&gt;&lt;/p&gt;
+&lt;p&gt;Figura 2 Quando apenas um país é selecionado, a combinação de ano e país é atendida e os dados corretos são mostrados. A dica de ferramenta confirma que o percentual agregado e o percentual real codificado visualmente no gráfico correspondem.&lt;/p&gt;
+&lt;p&gt;Esse tipo de problema em que a agregação incorreta é aplicada à granularidade errada dos dados é comum na análise dos dados. Ele requer atenção contínua para garantir a criação de visualização devidamente definidas.&lt;/p&gt;
+&lt;p&gt;Há vários casos comuns para os quais você deve se atentar. Nesse caso, estamos trabalhando com um percentual de medida sintética do total. Geralmente, somente é possível relatar medidas sintéticas na granulação exata em que ela foi calculada. Não é possível agregá-las. Por exemplo, um percentual médio de todos os países simplesmente não faz sentido. Da mesma forma, a soma do percentual do total tampouco faz sentido, exceto no caso da soma de todas as partes do mesmo valor decomposto na granularidade exata (cuja soma deve ser 100%).&lt;/p&gt;</value>
+  </data>
+  <data name="Article_Content15" xml:space="preserve">
+    <value>&lt;p&gt;Outro caso comum é o uso de médias. Ao calcular uma média, você precisa ter cuidado com a maneira de usá-la e apresentá-la. Se você calcular uma média de outra, o resultado será flagrantemente equivocado. Por exemplo, consideremos dois países, um deles produzindo 100 kWh de eletricidade por ano, com 80% dela proveniente da queima de carvão, e o segundo produzindo 10 kWh de eletricidade, com 50% dela proveniente da queima de carvão. Se você calcular a média dos percentuais, o resultado relataria 65% de produção de eletricidade proveniente de carvão, o que está incorreto. O valor correto seria 80kW + 5kWH / 110kWh = 77% da produção elétrica proveniente de carvão.&lt;/p&gt;
+
+&lt;p&gt;Por fim, um caso sutil é a degradação da precisão que ocorre quando os dados são extraídos ou projetados sem incluir sua precisão ou granularidade original. Um exemplo simples é arredondar os centavos de um valor de venda para a unidade inteira, perdendo a precisão dos centavos do número. Se você agregar o valor de vendas, o total geral calculado poderá variar significativamente se o mesmo cálculo for realizado no sistema de origem. Um caso ainda é mais complicado quando os indivíduos que extraem os dados não têm permissão para ver todos os itens de linha. Normalmente, as organizações permitem que indivíduos extraiam apenas os itens de linha para os quais têm permissão para visualizar e um total geral “oficial” é calculado com base em todos os itens de linha no sistema para que os números correspondam nos diversos relatórios gerados para diferentes pessoas. Se você tentar agregar os próprios dados do item de linha sem incluir os totais gerais na equação, os dados apresentados estarão incorretos.&lt;/p&gt;
+
+&lt;h3&gt;Como resolver esse tipo de problema?&lt;/h3&gt;
+
+&lt;p&gt;A raiz do problema são as métricas usadas no gráfico, que já são percentuais. Para evitar esse problema, precisamos recalcular os percentuais em uma métrica que inclua a granularidade da produção de eletricidade. Infelizmente, nosso conjunto de dados de trabalho está incompleto: não há métrica de produção total de eletricidade por país. Se houvesse, o cálculo seria fácil e não haveria necessidade de maiores explicações. Seria o caso de multiplicar a produção elétrica anual do país pelo percentual de cada origem e usar o valor resultante em nossas agregações.&lt;/p&gt;
+
+&lt;p&gt;Contudo, como os dados não incluem essa medida, devemos considerar as alternativas disponíveis. Há outra regra geral que devemos abordar antes de prosseguir: &lt;strong&gt;se tiver dúvida, não inclua&lt;/strong&gt;. Sua responsabilidade como analista é apresentar os dados de maneira genuína, tanto em visualizações de dados narrativas ou interativas e exploratórias. Se não estiver certo quanto à veracidade dos dados, você não deverá relatá-los até que esteja.&lt;/p&gt;
+
+&lt;p&gt;Há duas outras alternativas que abordaremos aqui. A primeira essencialmente evita um erro de cálculo, garantindo que nenhum dado seja retornado quando os dados estão em uma granularidade incorreta e não é possível ter certeza se estão corretos. É possível fazer isso usando uma medida DAX como mostrado a seguir:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;strong&gt;Conditional Electricity from Coal (% of total) = if(AND(HASONEVALUE(Data[Código do país]), HASONEVALUE(Data[Ano])), SUM(Data[Eletricidade proveniente de carvão (% do total)]), BLANK())&lt;/strong&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Observe que a fórmula acima verifica as condições críticas para então retornar um valor. Essa medida deverá ser repetida para cada um dos campos de percentual do total que temos para, então, plotá-los em um gráfico de coluna empilhado em 100%. O gráfico ficaria em branco até um país ser selecionado, quando então os dados corretos seriam mostrados. Você precisaria fornecer uma chamada de ação clara para instruir os leitores de que é necessário primeiro selecionar um país para mostrar a visualização dos dados. Mesmo assim, os leitores podem ficar confusos com uma grande área em branco no meio de uma visualização de dados interessante em outros aspectos.&lt;/p&gt;
+
+&lt;p&gt;…&lt;/p&gt;
+
+&lt;p&gt;A segunda alternativa requer retornar os dados para uma métrica que possa ser agregada. Para este exemplo, o ideal seria encontrar um conjunto de dados que mostre a produção de eletricidade em kWh para cada país. Infelizmente, ainda não encontramos tal conjunto de dados.&lt;/p&gt;
+
+&lt;p&gt;Por isso, acabamos precisando fazer algumas suposições para obter uma representação das métricas gerais nos países e regiões. Suposições nunca são perfeitas e precisam ser validadas com as partes interessadas e discutidas francamente. Mais importante, você deverá se preparar para explicar as suposições e sua metodologia como parte da publicação da sua visualização de dados. Se você não declarar suas suposições, a análise poderá ser considerada enganosa por algumas pessoas, deixando-o exposto a críticas. Por isso, é necessário ter cuidado ao fazer suposições. A comunicação com o leitor é a chave para o sucesso nesse caminho. Dito isso, os valores derivados ou construídos podem fornecer insights interessantes, desde que seu uso seja devidamente contextualizado.&lt;/p&gt;&lt;p&gt;Vejamos como resolver isso neste exemplo. Os dados incluem uma métrica semelhante à desejada: &lt;strong&gt;Consumo de energia elétrica (kWh per capita)&lt;/strong&gt;. Ela também inclui &lt;strong&gt;População, total&lt;/strong&gt;. Cada uma delas está disponível agregada por país e por ano. Então, se estivermos dispostos a supor que o consumo e a produção de energia elétrica são iguais, podemos calcular a criação de uma exibição sintética da produção por origem em kWh. Devo indicar que tal suposição pode ter desafios, por exemplo, o Canadá vende rotineiramente energia hidroelétrica para os Estados Unidos, que a consome. Contudo, a meta aqui é mostrar um percentual aproximado representativo dos valores totais entre os países e regiões. Como criador da visualização, preciso decidir se a medida figurativa resultante será significativa antes de apresentá-la.&lt;/p&gt;
+
+&lt;p&gt;A maneira mais fácil de realizar os cálculos desse exemplo é durante o carregamento dos dados na guia Consulta (Editar Consultas na faixa de opções), por isso usei o recurso Adicionar Coluna na consulta “Dados” para adicionar uma nova coluna chamada “Produção Elétrica Sintética – Carvão” com a seguinte fórmula:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;strong&gt;[#"População, total"] * [#"Consumo de energia elétrica (kWh per capita)"] * [#"Eletricidade proveniente de carvão (% do total)"] / 100&lt;/strong&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Repetimos esses cálculos para cada uma das fontes de eletricidade no conjunto de dados: petróleo, gás natural, hidroelétrica, nuclear e renováveis. O gráfico resultante é mostrado abaixo.&lt;/p&gt;</value>
+  </data>
+  <data name="Article_Content16_1" xml:space="preserve">
+    <value>&lt;p&gt;&lt;img src="{0}" alt="" title="" /&gt;&lt;/p&gt;
+
+&lt;p&gt;Figura 3 Gráfico atualizado com base em medidas sintéticas. As suposições são indicadas com clareza para informar o leitor. Os nomes das medidas indicam que os dados foram calculados.&lt;/p&gt;
+
+&lt;p&gt;Se compararmos o gráfico da Figura 3 com o da Figura 1, veremos uma grande diferença na tendência de cada série. Esse último gráfico de fato representa a realidade e quando as condições de precisão de um dado ano e país são atendidas, ele relata os mesmos dados que o gráfico acima.&lt;/p&gt;
+
+&lt;p&gt;Nesse exemplo, superamos o desafio de uma agregação incorreta, porém às custas de adicionar uma suposição que poderia ser criticada. Você pode ver pela extensão dessa explicação por que decidimos não incluir esse detalhe diretamente no vídeo do curso. O exemplo ilustra os desafios que você enfrentará como designer de visualização ao buscar apresentar os dados de maneira genuína para um público mais amplo.&lt;/p&gt;</value>
+  </data>
+  <data name="Article_Content1_4" xml:space="preserve">
+    <value>&lt;h2 id="exploring-distributions"&gt;Explorando as distribuições no Power BI&lt;/h2&gt;
+
+&lt;p&gt;Para esse tutorial, observaremos como podemos analisar os dados da pontuação do IDEB brasileiro fornecido por Alberto.&lt;/p&gt;
+
+&lt;p&gt;Você precisará de:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;Brazil Regions.xlsx&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;IDEB2009.csv&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3&gt;Etapa 1: Carregar os dados do IDEB&lt;/h3&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;Abra o &lt;em&gt;*Power BI Desktop *&lt;/em&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Use &lt;strong&gt;Interface do Usuário Obter Dados&lt;/strong&gt; para carregá-los de &lt;strong&gt;IDEB2009.csv&lt;/strong&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;p&gt;Faixa de Opções da Página Inicial -&gt; Obter Dados -&gt; CSV&lt;/p&gt;
+&lt;/ol&gt;
+&lt;p&gt;Observação: se você não estiver familiarizado com o processo, consulte os tutoriais anteriores. Além disso, as ações da Interface do Usuário são demonstradas com clareza na gravação de vídeo.&lt;/p&gt;
+
+&lt;h2&gt;Etapa 2: Criar um histograma básico usando um gráfico de colunas&lt;/h2&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;No &lt;strong&gt;Power BI Desktop&lt;/strong&gt;, em uma página de relatório em branco, insira um gráfico de &lt;strong&gt;Colunas Empilhadas&lt;/strong&gt; clicando no ícone na guia &lt;strong&gt;Visualizações&lt;/strong&gt;:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src="{0}" alt="" title="" /&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Associar os dados ao visual:&lt;/p&gt;
+
+&lt;p&gt;a. Adicionar a &lt;strong&gt;&lt;em&gt;pontuação&lt;/em&gt;&lt;/strong&gt; ao &lt;strong&gt;Eixo&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;b. Adicione &lt;strong&gt;&lt;em&gt;escola&lt;/em&gt;&lt;/strong&gt; ao &lt;strong&gt;Valor&lt;/strong&gt;&lt;/p&gt;
+
+&lt;pre&gt;i.  Observe que o Power BI agrega automaticamente escola à
+    “Contagem de escolas”
+&lt;/pre&gt;&lt;/li&gt;
+&lt;p&gt;&lt;img src="{1}" alt="" title="" /&gt;&lt;/p&gt;
+&lt;pre&gt;        O gráfico resultante é um histograma dos valores de dados
+        resultantes.
+&lt;/pre&gt;
+&lt;li&gt;&lt;p&gt;Você poderá ajustar as cores usando o painel &lt;strong&gt;Formatação&lt;/strong&gt; se desejar obter o visual completo:&lt;/p&gt;
+
+&lt;p&gt;a. Com o visual selecionado, &lt;strong&gt;escolha o painel de formatação&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;b. &lt;strong&gt;Expandir Cores de Dados&lt;/strong&gt; e &lt;strong&gt;escolha a cor&lt;/strong&gt; desejada&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;img src="{2}" alt="" title="" /&gt;&lt;/p&gt;
+
+&lt;h3&gt;Etapa 3: Ajustar os pontos de extremidade do Eixo&lt;/h3&gt;
+
+&lt;p&gt;Às vezes, é importante substituir os padrões no Power BI para garantir que os dados sejam comparáveis ao filtrar/realçar os dados. Nesse exemplo, definimos a escala dos eixos X e Y para garantir resultados comparáveis entre as soluções.&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;No painel de &lt;strong&gt;formatação&lt;/strong&gt;, expanda o &lt;strong&gt;Eixo X&lt;/strong&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Para a propriedade &lt;strong&gt;Extremidade&lt;/strong&gt;, definimos o valor de &lt;strong&gt;&lt;em&gt;8&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;img src="{3}" alt="" title="" /&gt;&lt;/p&gt;</value>
+  </data>
+  <data name="Article_Content2_8" xml:space="preserve">
+    <value>&lt;h3&gt;Etapa 4: Adicionar informações de estado de alta qualidade ao relatório&lt;/h3&gt;
+&lt;p&gt;O Power BI tem uma compreensão intrínseca das informações geográficas. A capacidade de dispor os dados corretamente no mapa é significativamente afetada pela especificidade dos dados. No caos das pontuações de IEDB, as informações de estado são ambíguas se dispostas em um mapa. Essa seção mostra como carregar dados de maior qualidade e adicioná-los às pontuações de IEDB que já possuímos.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;Use a opção &lt;strong&gt;Obter Dados -&gt; da Web&lt;/strong&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Digite a URL a seguir como mostrado na caixa de diálogo resultante: &lt;a href="{0}"&gt;{0}&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;p&gt;&lt;img src="{1}" alt="" title="" /&gt;&lt;/p&gt;
+&lt;li&gt;Na caixa de diálogo &lt;strong&gt;Navegador&lt;/strong&gt;, &lt;strong&gt;marque a caixa&lt;/strong&gt; ao lado de “Lista dos estados brasileiros[editar]” e pressione &lt;strong&gt;OK&lt;/strong&gt;.&lt;/li&gt;
+&lt;p&gt;&lt;img src="{2}" alt="" title="" /&gt;&lt;/p&gt;
+&lt;li&gt;&lt;p&gt;Mesclaremos ambas as consultas para adicionar informações de estado aos dados IEDB originais.&lt;/p&gt;
+&lt;p&gt;a. &lt;strong&gt;Selecione&lt;/strong&gt; &lt;strong&gt;a consulta IEDB2009&lt;/strong&gt; na Janela de consulta&lt;/p&gt;&lt;/li&gt;
+&lt;p&gt;&lt;img src="{3}" alt="" title="" /&gt;&lt;/p&gt;
+&lt;li&gt;Na faixa de opções, selecione o botão &lt;strong&gt;Mesclar Consultas&lt;/strong&gt;&lt;/li&gt;
+&lt;p&gt;&lt;img src="{4}" alt="" title="" /&gt;&lt;/p&gt;
+&lt;li&gt;&lt;p&gt;Na caixa de diálogo &lt;strong&gt;Mesclar&lt;/strong&gt;,&lt;/p&gt;
+&lt;p&gt;a. Selecione “&lt;strong&gt;Estado”&lt;/strong&gt; &lt;strong&gt;na consulta IEDB2009&lt;/strong&gt; e selecione “&lt;strong&gt;Abreviação”&lt;/strong&gt; &lt;strong&gt;na consulta da Lista de estados brasileiros&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;b. Selecione &lt;strong&gt;Externa Esquerda&lt;/strong&gt; na opção &lt;strong&gt;Tipo de Junção&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;c. Pressione &lt;strong&gt;OK&lt;/strong&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;p&gt;&lt;img src="{5}" alt="" title="" /&gt;&lt;/p&gt;
+&lt;li&gt;&lt;p&gt;Uma &lt;strong&gt;nova coluna&lt;/strong&gt; é adicionada à sua consulta.&lt;/p&gt;
+&lt;p&gt;a. Pressione o &lt;strong&gt;ícone de expansão&lt;/strong&gt; na parte superior esquerda do cabeçalho da coluna&lt;/p&gt;&lt;/li&gt;
+&lt;p&gt;&lt;img src="{6}" alt="" title="" /&gt;&lt;/p&gt;
+&lt;li&gt;&lt;p&gt;Na caixa de diálogo exibida&lt;/p&gt;
+&lt;p&gt;a. Desmarque &lt;strong&gt;(Selecionar Todas as Colunas)&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;b. Selecione &lt;strong&gt;Estado&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;c. Pressione &lt;strong&gt;OK&lt;/strong&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;p&gt;&lt;img src="{7}" alt="" title="" /&gt;&lt;/p&gt;
+&lt;li&gt;Uma nova coluna é adicionada. Clique duas vezes no &lt;strong&gt;cabeçalho da coluna&lt;/strong&gt; para alterar o nome dela para “&lt;strong&gt;nome do estado&lt;/strong&gt;”&lt;/li&gt;
+&lt;p&gt;a. &lt;img src="{8}" alt="" title="" /&gt;&lt;/p&gt;
+&lt;li&gt;&lt;p&gt;Para conceder um melhor código geográfico aos nomes dos estados, usaremos uma coluna personalizada adicional&lt;/p&gt;
+&lt;p&gt;a. Pressione o botão &lt;strong&gt;Adicionar Coluna Personalizada&lt;/strong&gt; na Faixa de Opções &lt;strong&gt;Adicionar Coluna&lt;/strong&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;</value>
+  </data>
+  <data name="Article_Content4_7" xml:space="preserve">
+    <value>&lt;blockquote&gt;
+  &lt;p&gt;&lt;img src="{0}" alt="" title="" /&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;b. Na caixa de diálogo &lt;strong&gt;Adicionar Coluna Personalizada&lt;/strong&gt;, insira a expressão:&lt;/p&gt;
+
+&lt;pre&gt;**\[nome do estado\] &amp;amp; “, Brasil”**
+&lt;/pre&gt;
+
+&lt;p&gt;&lt;img src="{1}" alt="" title="" /&gt;&lt;/p&gt;
+
+&lt;p&gt;c. Pressione &lt;strong&gt;OK&lt;/strong&gt;&lt;/p&gt;
+
+&lt;h3&gt;Etapa 5: Carregar metadados da Região&lt;/h3&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;Na janela &lt;strong&gt;Editor de Consulta&lt;/strong&gt;, selecione &lt;strong&gt;Nova Fonte -&gt; Excel&lt;/strong&gt; na Faixa de Opções da Página Inicial&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Selecione o &lt;strong&gt;arquivo Excel “Brazil Regions.xlsx”&lt;/strong&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Na caixa de diálogo &lt;strong&gt;Navegador&lt;/strong&gt;, marque a caixa ao lado de &lt;strong&gt;“BrazilRegions”&lt;/strong&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Pressione &lt;strong&gt;OK&lt;/strong&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;p&gt;&lt;img src="{2}" alt="" title="" /&gt;&lt;/p&gt;
+&lt;li&gt;&lt;p&gt;A nova consulta será carregada na janela de consulta&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Clique com o botão direito do mouse no cabeçalho da coluna do estado, selecione &lt;strong&gt;Dividir Coluna&lt;/strong&gt; e &lt;strong&gt;por Delimitador&lt;/strong&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;p&gt;&lt;img src="{3}" alt="" title="" /&gt;&lt;/p&gt;
+&lt;li&gt;&lt;p&gt;Na caixa de diálogo &lt;strong&gt;Dividir Coluna por Delimitador&lt;/strong&gt;,&lt;/p&gt;
+&lt;p&gt;a. Selecione &lt;strong&gt;Espaço&lt;/strong&gt; na lista suspensa &lt;strong&gt;Selecionar ou inserir delimitador&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;b. Selecione &lt;strong&gt;No delimitador mais à direita&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;c. Pressione &lt;strong&gt;OK&lt;/strong&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;p&gt;&lt;img src="{4}" alt="" title="" /&gt;&lt;/p&gt;
+&lt;li&gt;&lt;p&gt;Duas novas colunas são criadas, &lt;strong&gt;Estado.1&lt;/strong&gt; e &lt;strong&gt;Estado.2&lt;/strong&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Clique com o botão direito do mouse em um dos valores da coluna Estado.2&lt;/p&gt;
+&lt;p&gt;a. Selecione &lt;strong&gt;Substituir Valores...&lt;/strong&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;p&gt;&lt;img src="{5}" alt="" title="" /&gt;&lt;/p&gt;
+&lt;li&gt;&lt;p&gt;Na caixa de diálogo &lt;strong&gt;Substituir Valores&lt;/strong&gt;,&lt;/p&gt;
+&lt;p&gt;a. Digite “(“ para o &lt;strong&gt;Valor a ser Localizado&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;b. Deixe &lt;strong&gt;Substituir por&lt;/strong&gt; em branco&lt;/p&gt;
+&lt;p&gt;c. Pressione &lt;strong&gt;OK&lt;/strong&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;p&gt;&lt;img src="{6}" alt="" title="" /&gt;&lt;/p&gt;
+&lt;li&gt;&lt;p&gt;Repita as instruções acima para remover o “)” da coluna Estado.2&lt;/p&gt;
+&lt;p&gt;Observação: as etapas a seguir repetem o mesmo processo que você aprendeu anteriormente neste tutorial para mesclar a nova coluna de região e a consulta IDEB2009. Consulte as instruções acima para ver as instruções detalhadas de como realizar essas etapas.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Renomeie a coluna Estado.2 para &lt;strong&gt;“Abbr”&lt;/strong&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Selecione a &lt;strong&gt;consulta IDEB2009&lt;/strong&gt; na lista de Consultas&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Selecione &lt;strong&gt;Mesclar&lt;/strong&gt; na faixa de opções da Página Inicial&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Na caixa de diálogo &lt;strong&gt;Mesclar&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;a. Selecione a coluna &lt;strong&gt;estado&lt;/strong&gt; na consulta IDEB2009&lt;/p&gt;
+&lt;p&gt;b. Selecione a coluna &lt;strong&gt;Abbr&lt;/strong&gt; na consulta BrazilRegions&lt;/p&gt;
+&lt;p&gt;c. Pressione &lt;strong&gt;OK&lt;/strong&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Selecione o &lt;strong&gt;Ícone de expansão&lt;/strong&gt; na coluna &lt;strong&gt;Nova Coluna&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;a. Selecione somente a coluna &lt;strong&gt;Região&lt;/strong&gt; na lista suspensa&lt;/p&gt;
+&lt;p&gt;b. Selecione &lt;strong&gt;OK&lt;/strong&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Pressione &lt;strong&gt;Fechar e Aplicar&lt;/strong&gt; na faixa de opções da Página Inicial&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;</value>
+  </data>
+  <data name="Article_Content6_6" xml:space="preserve">
+    <value>&lt;p&gt;&lt;img src="{0}" alt="" title="" /&gt;&lt;/p&gt;
+&lt;h3&gt;Etapa 6: Criar um mapa interativo usando os novos dados&lt;/h3&gt;
+&lt;p&gt;Com as novas colunas, podemos criar um mapa para elaborar uma análise mais envolvente.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;No painel &lt;strong&gt;Visualizações&lt;/strong&gt;, selecione o visual &lt;strong&gt;Mapa Coroplético&lt;/strong&gt; para inseri-lo na tela&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Associe os dados a seguir ao visual&lt;/p&gt;
+&lt;p&gt;a. Adicione a coluna &lt;strong&gt;nome do estado brasileiro&lt;/strong&gt; ao &lt;strong&gt;Localização&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;b. Adicione a coluna &lt;strong&gt;pontuação&lt;/strong&gt; à &lt;strong&gt;Saturação de cor&lt;/strong&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;img src="{1}" alt="" title="" /&gt;&lt;/p&gt;
+&lt;p&gt;Outra opção é mostrada na gravação de vídeo:&lt;/p&gt;
+&lt;p&gt;a. Altere a agregação da coluna &lt;strong&gt;pontuação&lt;/strong&gt; para &lt;strong&gt;mediana&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;b. Experimente usar o painel de formatação para ajustar a cor no mapa e torná-lo mais visível.&lt;/p&gt;
+&lt;p&gt;c. Adicione a coluna &lt;strong&gt;Região&lt;/strong&gt; à tela e transforme-o em uma segmentação.&lt;/p&gt;
+&lt;h3&gt;Etapa 7: Agrupamento personalizado: visual personalizado de histograma&lt;/h3&gt;
+&lt;p&gt;Para concluir essa seção, primeiro &lt;strong&gt;baixe o visual personalizado de Histograma&lt;/strong&gt; de: &lt;a href="{2}"&gt;{2}&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;O Power BI tem uma galeria de visuais personalizados que você pode baixar. A galeria encontra-se aqui: &lt;a href="{3}"&gt;{3}&lt;/a&gt;&lt;/p&gt;&lt;ol&gt;
+&lt;li&gt;Abra a seguinte URL em um navegador da Web:&lt;/li&gt;
+&lt;p&gt;&lt;a href="{2}"&gt;{2}&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;img src="{4}" alt="" title="" /&gt;&lt;/p&gt;
+&lt;li&gt;&lt;p&gt;Pressione o botão &lt;strong&gt;Baixar Visual&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Observação: leia e examine os termos de uso antes de baixar o visual&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;No Power BI Desktop, pressione o botão &lt;strong&gt;…&lt;/strong&gt; no painel &lt;strong&gt;Visualizações&lt;/strong&gt; e siga as instruções para importar o visual&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Um novo visual é adicionado ao painel de visualizações&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Selecione o gráfico de colunas existente no seu relatório e pressione o ícone para os visuais do &lt;strong&gt;Histograma&lt;/strong&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;p&gt;&lt;img src="{5}" alt="" title="" /&gt;&lt;/p&gt;
+&lt;li&gt;&lt;p&gt;Abra o painel &lt;strong&gt;Formatação&lt;/strong&gt; com o visual do &lt;strong&gt;Histograma&lt;/strong&gt; selecionado&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Expanda as opções &lt;strong&gt;Geral&lt;/strong&gt; e insira um valor para a propriedade &lt;strong&gt;Compartimentos&lt;/strong&gt;. Isso permite definir tamanhos de compartimentalização personalizados para corresponder aos seus dados&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;</value>
+  </data>
+  <data name="Article_Content7_4" xml:space="preserve">
+    <value>&lt;h3&gt;Etapa 8: Gráficos de caixa com o Power BI&lt;/h3&gt;
+&lt;p&gt;Para essa seção, baixe o visual personalizado de Caixa Estreita (Jan Pieter) de:&lt;/p&gt;&lt;p&gt;&lt;a href="{0}"&gt;{0}&lt;/a&gt;&lt;/p&gt;&lt;ol&gt;
+&lt;li&gt;Siga a Interface do Usuário para baixar os visuais conforme descrito anteriormente no tutorial&lt;/li&gt;&lt;p&gt;&lt;img src="{1}" alt="" title="" /&gt;&lt;/p&gt;&lt;li&gt;&lt;p&gt;Importe o visual usando o botão &lt;strong&gt;…&lt;/strong&gt; no painel &lt;strong&gt;Visualizações&lt;/strong&gt; como mostrado anteriormente        &lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li&gt;&lt;p&gt;Selecione o visual de &lt;strong&gt;Histograma&lt;/strong&gt; e converta-o no visual de gráfico de caixa pressionando o ícone &lt;strong&gt;Gráfico de Caixa&lt;/strong&gt; no painel &lt;strong&gt;Visualizações&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;a. Observação: o visual aparecerá em branco neste ponto&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Defina o campo de dados para o Gráfico de Caixa da seguinte forma:&lt;/p&gt;
+&lt;p&gt;a. Defina a coluna &lt;strong&gt;estado&lt;/strong&gt; em &lt;strong&gt;Categoria&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;b. Defina a coluna &lt;strong&gt;escola&lt;/strong&gt; em &lt;strong&gt;Amostragem&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;c. Defina a coluna &lt;strong&gt;pontuação&lt;/strong&gt; em &lt;strong&gt;Valores&lt;/strong&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;O Gráfico de Caixa é renderizado de maneira semelhante ao que é mostrado abaixo:&lt;/p&gt;&lt;/li&gt;
+        &lt;p&gt;&lt;img src="{2}" alt="" title="" /&gt;&lt;/p&gt;
+         &lt;li&gt;
+                &lt;p&gt;Com o Gráfico de Caixa selecionado, abra o painel Formatação:&lt;/p&gt;
+                &lt;p&gt;a. Expanda as &lt;strong&gt;Opções de Gráfico&lt;/strong&gt;&lt;/p&gt;
+                &lt;p&gt;b. Altere o &lt;strong&gt;Tipo de gráfico&lt;/strong&gt; para &lt;strong&gt;1,5 IQR&lt;/strong&gt;&lt;/p&gt;
+                &lt;p&gt;c. Altere &lt;strong&gt;Exceções&lt;/strong&gt; para &lt;strong&gt;Ativado&lt;/strong&gt;&lt;/p&gt;
+                &lt;p&gt;&lt;img src="{3}" alt="" title="" /&gt;&lt;/p&gt;
+            &lt;/li&gt;&lt;/ol&gt;
+</value>
+  </data>
+  <data name="Article_Content8_2" xml:space="preserve">
+    <value>               &lt;p&gt;Seu gráfico final será parecido com o seguinte:&lt;/p&gt; &lt;p&gt;&lt;img src="{0}" alt="" title="" /&gt;&lt;/p&gt;
+        &lt;h2 id="time-series"&gt;Série temporal com os dados de emprego da Espanha&lt;/h2&gt;
+        &lt;p&gt;
+            Um dos exemplos no livro de Alberto &lt;em&gt;The Truthful Art&lt;/em&gt; (A Verdadeira Arte) é explicar como os métodos estatísticos de análise podem provar-se muito úteis para compreender os padrões e tendências que são difíceis de descobrir a olho nu. O tutorial a seguir contém dois exemplos disso. O primeiro exemplo mostra como adicionar uma linha de tendência reta ao seu visual sem calcular nada. No segundo exemplo, você usará um script R no Power BI para calcular sazonalidade, ruído e uma linha de tendência curva. Esses conceitos são explicados em mais detalhes na parte 2 do curso online.
+        &lt;/p&gt;
+        &lt;h3&gt;Etapa 1: Criar um gráfico de linhas com uma linha de tendência&lt;/h3&gt;
+            &lt;ol&gt;&lt;li&gt;
+                &lt;p&gt;
+                    Crie um gráfico de linhas com as datas no eixo y e SocialSecurityAffiliates no eixo x.
+                &lt;/p&gt;
+            &lt;/li&gt;
+            &lt;li&gt;
+                &lt;p&gt;
+                    No painel &lt;strong&gt;Análises&lt;/strong&gt; à direita, ative a &lt;strong&gt;Linha de Tendência&lt;/strong&gt;. Você pode renomear a linha de tendência e editar sua cor e transparência.
+                &lt;/p&gt;
+            &lt;/li&gt;
+&lt;p&gt;&lt;img src="{1}" alt="" title="" /&gt;&lt;/p&gt;
+&lt;li&gt;A repetição desse procedimento para a &lt;strong&gt;População 16 a 64&lt;/strong&gt; e &lt;strong&gt;Percentual&lt;/strong&gt; resultará nos visuais mostrados abaixo.&lt;/li&gt;
+&lt;/ol&gt;</value>
+  </data>
+  <data name="Article_Content9_2" xml:space="preserve">
+    <value>&lt;p&gt;&lt;img src="{0}" alt="" title="" /&gt;&lt;/p&gt;
+&lt;h3&gt;Etapa 2: Usar R para calcular sazonalidade, tendência e ruído aleatório&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;Verifique se o R está instalado no seu computador, bem como um editor de R, como o RStudio&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;No seu editor de R, instale os dois pacotes “Ecdat” e “fpp” executando o comando &lt;strong&gt;install.packages(Ecdat)&lt;/strong&gt; e &lt;strong&gt;install.packages(fpp)&lt;/strong&gt;. Isso instalará os pacotes no seu dispositivo. Os pacotes são instalados uma vez no computador, porém é necessário ativar a biblioteca do Power BI toda vez que usar um pacote.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;No Editor de Consultas, altere agora o tipo de dados da sua coluna &lt;strong&gt;Data&lt;/strong&gt; para texto. O script não funciona com um formato de data.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Na faixa de opções Transformar, selecione o botão &lt;strong&gt;Executar o Script R&lt;/strong&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;img src="{1}" alt="" title="" /&gt;&lt;/p&gt;</value>
+  </data>
+  <data name="Article_Continue_Content10_1" xml:space="preserve">
+    <value>&lt;h2&gt;Exploração avançada&lt;/h2&gt;&lt;p&gt;Nesse tutorial, abordaremos alguns princípios exibidos na demonstração. Ele não apresenta instruções passo a passo, pois muitas das etapas já foram abordadas em tutoriais anteriores.&lt;/p&gt;
+&lt;p&gt;Para concluir esse tutorial, abra o arquivo &lt;strong&gt;”Where does your electricity come from final.pbix”&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Caso deseje processar os dados você mesmo, baixe os dados mais recentes do site do Banco Mundial:&lt;/p&gt;
+&lt;ol&gt;&lt;li&gt;&lt;p&gt;Abra um navegador da Web para:&lt;/p&gt;
+&lt;p&gt;&lt;a href="{0}"&gt;{0}&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;Baixe o arquivo &lt;strong&gt;Climate Change (Excel)&lt;/strong&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3&gt;Etapa 1: Escolhendo um visual para mostrar a tendência dos dados&lt;/h3&gt;
+&lt;ol&gt;&lt;li&gt;&lt;p&gt;Crie uma página em branco&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Adicione um gráfico de colunas selecionando o &lt;strong&gt;gráfico de colunas&lt;/strong&gt; no painel de &lt;strong&gt;visualização&lt;/strong&gt; e associando os seguintes campos de dados:&lt;/p&gt;
+&lt;p&gt;a. Ano&lt;/p&gt;
+&lt;p&gt;b. Emissões de CO2 (kt)&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Adicione um gráfico de linhas selecionando o &lt;strong&gt;gráfico de linhas&lt;/strong&gt; no painel de &lt;strong&gt;visualizações&lt;/strong&gt; e associando os seguintes campos de dados:&lt;/p&gt;&lt;p&gt;a. Ano&lt;/p&gt;
+&lt;p&gt;b. Emissões de CO2 (toneladas per capita)&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;</value>
+  </data>
+  <data name="Download_Resources" xml:space="preserve">
+    <value>Baixe todos os recursos necessários para esses tutoriais</value>
+  </data>
+  <data name="Hero_Subtitle" xml:space="preserve">
+    <value>No segundo curso de Narração e Visualização dos Dados, Alberto Cairo discutirá como você pode usar a visualização para extrair significado dos seus dados. Alberto explica como condensar os dados e quando aproveitar formatos de gráfico como a caixa estreita. Também exploraremos uma análise de série temporal para enfocar a descoberta de tendências gerais e padrões sazonais. Além disso, Alberto ajudará a ensinar como conectar diferentes gráficos para conferir significado aos seus dados.</value>
+  </data>
+  <data name="Hero_Title" xml:space="preserve">
+    <value>Exploração de dados</value>
+  </data>
+  <data name="InThisArticle" xml:space="preserve">
+    <value>Neste artigo:</value>
+  </data>
+  <data name="META_DESCRIPTION" xml:space="preserve">
+    <value />
+  </data>
+  <data name="META_KEYWORDS" xml:space="preserve">
+    <value />
+  </data>
+  <data name="META_PAGETITLE" xml:space="preserve">
+    <value>Jornalismo de Dados – Exploração de Dados | Microsoft Power BI</value>
+  </data>
+  <data name="NextTopic" xml:space="preserve">
+    <value>Próximo Tópico: Visualizações Genuínas</value>
+  </data>
+  <data name="RightNav_Link1" xml:space="preserve">
+    <value>Explorando as Distribuições no Power BI</value>
+  </data>
+  <data name="RightNav_Link2" xml:space="preserve">
+    <value>Série temporal com os dados de emprego da Espanha</value>
+  </data>
+  <data name="Meta_LocJobId" xml:space="preserve">
+    <value>158</value>
+  </data>
+</root>

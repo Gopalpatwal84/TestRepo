@@ -1,0 +1,107 @@
+@import (reference) '../../variables.d.less';
+@import (reference) '../../mixins.d.less';
+
+/*
+Form
+
+Description.
+
+Markup:
+<div class="row">
+    <div class="column medium-4">
+        <div class="form-row">
+            <label for="text">Form field:</label>
+            <input type="text" id="text" placeholder="Form field" />
+        </div>
+        <div class="form-row">
+            <label for="select">Form field:</label>
+            <select id="select">
+                <option value="form-field">Form field</option>
+            </select>
+        </div>
+        <div class="form-row">
+            <label for="textarea">Form field:</label>
+            <textarea id="textarea" placeholder="Form field"></textarea>
+        </div>
+        <div class="form-row">
+            <input id="checkbox" name="checkbox" type="checkbox" value="true" />
+            <label for="checkbox">I accept</label>
+        </div>
+        <div class="form-row">
+            <div>
+                <input id="radio-1" name="radio" type="radio" value="1" />
+                <label for="radio-1">I accept</label>
+            </div>
+            <div>
+                <input id="radio-2" name="radio" type="radio" value="2" />
+                <label for="radio-2">I will accept</label>
+            </div>
+            <div>
+                <input id="radio-3" name="radio" type="radio" value="3" />
+                <label for="radio-3">I did accept</label>
+            </div>
+        </div>
+        <div class="form-row">
+            <button class="button" type="submit">Submit</button>
+        </div>
+    </div>
+</div>
+
+Style guide: form
+*/
+
+input[type='text'],
+select,
+textarea {
+	.box-sizing(border-box);
+	border: 2px solid @color-slate08;
+	color: @color-slate03;
+	display: block;
+	line-height: 1.2; // Override to avoid mis-aligment of textbox content on IE
+	outline: none;
+	padding: 5px; // Form field padding
+	width: 100%;
+
+	&:focus {
+		border: 2px solid @color-palette02;
+	}
+}
+
+fieldset {
+	border: none;
+	margin: 0;
+	padding: 0;
+}
+
+textarea {
+	height: 70px;
+}
+
+label {
+	cursor: pointer;
+	display: inline-block;
+	vertical-align: text-bottom;
+}
+
+.form-row {
+	.group();
+
+    & + & {
+	   margin-top: @spacing-size1;
+    }
+}
+
+.form-element {
+	display: block;
+	position: relative;
+}
+
+.character-count {
+	color: @color-font-light;
+	float: right;
+	font-size: @font-micro;
+
+	&.error {
+		color: @color-palette10;
+	}
+}

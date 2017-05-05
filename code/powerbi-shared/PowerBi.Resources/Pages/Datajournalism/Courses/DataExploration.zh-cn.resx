@@ -1,0 +1,595 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" id="root">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="About_Content" xml:space="preserve">
+    <value>&lt;p&gt;数据探索课程介绍使用 Microsoft Power BI 方面的内容： 
+&lt;ul&gt;&lt;li&gt;了解如何创建直方图和箱形图来探索数据分布。观看如何加载数据、应用更改、调整查询、合并多个数据集以及利用自定义可视化来扩大分析。&lt;/li&gt;
+&lt;li&gt;了解如何查找数据内的故事，使用时间序列分析演示从不同角度探索数据。学会创建简单折线图、添加趋势线、分析周期性和随机数据以及使用 R 脚本。&lt;/li&gt;
+&lt;li&gt;了解有关如何使用多个相连图形创建可视化的概述。&lt;/li&gt;&lt;/ul&gt;
+&lt;/p&gt;</value>
+  </data>
+  <data name="Article_Content10_2" xml:space="preserve">
+    <value>&lt;ol&gt;
+&lt;li&gt;在编辑器中&lt;strong&gt;输入下方代码&lt;/strong&gt;（查看包含的解释），并按“确定”&lt;strong&gt;&lt;/strong&gt;。&lt;ol&gt;&lt;li&gt;&lt;p&gt; 库将该代码用于特定的 R 会话。只需在计算机上安装一次包，但每次使用包时，都需要库命令&lt;/p&gt;
+  &lt;p&gt;library(Ecdat)&lt;/p&gt;
+&lt;p&gt;library(fpp)&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt; 我们从第四列创建时间序列对象，使用的频率为一年中的 12 个月，起始时间为 2002 年 1 月&lt;/p&gt;&lt;p&gt;input &amp;lt;- ts(dataset[,4], frequency = 12, start = c(2002,1))&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;若要了解趋势，则计算出每月移动平均值 [查看全球气温变化教程 1，了解如何使用 DAX 计算移动平均值]&lt;/p&gt;
+  &lt;p&gt;trend = ma(input, order = 12, centre = T)&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;若要找出数据中的周期性，首先需要删除趋势，去除时间序列的趋势&lt;/p&gt;
+  &lt;p&gt;detrend = input / trend&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;将数据集拆分到矩阵中，将同一个月的所有数据组合在一起（按列）&lt;/p&gt;
+&lt;p&gt;m = t(matrix(data = detrend, nrow = 12))&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;提取矩阵中的平均值就可找出数据的周期性&lt;/p&gt;
+  &lt;p&gt;seasonal = colMeans(m, na.rm = T)&lt;/p&gt;
+&lt;p&gt;seasonalData &amp;lt;- c()&lt;/p&gt;
+&lt;p&gt;for(i in 1:13)&lt;/p&gt;
+&lt;p&gt;{&lt;/p&gt;
+&lt;p&gt;seasonalData &amp;lt;- c(seasonal, seasonalData)&lt;/p&gt;
+&lt;p&gt;}&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt; 现在按趋势周期来划分时间序列，排除噪音&lt;/p&gt;
+  &lt;p&gt;random = input /(trend * seasonal)&lt;/p&gt;
+&lt;/li&gt;&lt;li&gt;&lt;p&gt;得出的结果将写入新的表格中，表格结合了输出数据和最初的数据集。&lt;/p&gt;
+  &lt;p&gt;output&amp;lt;- data.frame(seasonalData, trend, random, dataset)&lt;/p&gt;
+&lt;/li&gt;&lt;/ol&gt;&lt;/li&gt;
+&lt;li&gt;展开创建的表格，将“日期”&lt;strong&gt;&lt;/strong&gt;列的数据类型改回为日期。&lt;p&gt;&lt;img src="{0}" alt="" title="" /&gt;&lt;/p&gt;
+&lt;p&gt;还可按需删除“名称”&lt;strong&gt;&lt;/strong&gt;列，使该列的每行中只包含“输出”标签。&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;关闭并应用&lt;/strong&gt;。使用新建的列绘制出随时间变化的周期性、趋势和噪音。
+&lt;p&gt;&lt;img src="{1}" alt="" title="" /&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;</value>
+  </data>
+  <data name="Article_Content11_4" xml:space="preserve">
+    <value>&lt;p&gt;&lt;img src="{0}" alt="" title="" /&gt;&lt;/p&gt;
+
+&lt;p&gt;请注意，柱形图显示了整体的情况，而折线图显示了更清晰的变化趋势。尝试从柱形图切换到折线图，了解每种图形如何显示数据。此外还需注意，基础度量值会改变趋势的显示方式和数据所讲述的内容。&lt;/p&gt;
+
+&lt;p&gt;同样，在分析数据时，从多角度审查数据也十分重要。下方可视化中，&lt;strong&gt;CO2 排放量（人均排放公吨数）&lt;/strong&gt;和 &lt;strong&gt;CO2 排放量（每 PPP 或美元计 GDP 的排放千克数）&lt;/strong&gt;显示了趋势十分不同的方面。尝试使用 Power BI 来可视化其他 CO2 排放量指标，查看其他有趣的趋势并了解为什么会出现这些趋势。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src="{1}" alt="" title="" /&gt;&lt;/p&gt;
+
+&lt;h3&gt;步骤 2：数据间的关系&lt;/h3&gt;
+
+&lt;p&gt;之前教程讨论了合并数据。Power BI 提供了另一种处理多个数据表格的方法：关系。&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;打开文件 &lt;strong&gt;Where does your electricity come from final.pbix&lt;/strong&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;按左侧图标栏上的“关系”&lt;strong&gt;&lt;/strong&gt;按钮&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;选择联接两个图表的连线，此操作会显示联接两种关系的字段&lt;/p&gt;
+
+&lt;p&gt;a.若要了解如何创建和管理表格间的关系，请&lt;a href="{2}"&gt;单击此处&lt;/a&gt;。&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;img src="{3}" alt="" title="" /&gt;&lt;/p&gt;</value>
+  </data>
+  <data name="Article_Content12_4" xml:space="preserve">
+    <value>&lt;h3&gt;步骤 3：使用 DAX 表达式计算数据&lt;/h3&gt;
+
+&lt;p&gt;Power BI 提供了适用于多种场景的默认数据计算。然而，有时你需要更多的控制。Power BI 提供了丰富的表达式语言 - 数据访问表达式 (DAX)。开始时最好先查看 &lt;a href="{0}"&gt;Quick Start: Learn DAX Basics&lt;/a&gt;（快速入门：了解 DAX 基本信息）主题。&lt;/p&gt;
+
+&lt;p&gt;本教程将介绍两种有用的表达式来专门处理数据故事分享。&lt;/p&gt;
+
+&lt;h4&gt;使用 DAX 表达式创建自定义颜色方案&lt;/h4&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;在“建模”&lt;strong&gt;&lt;/strong&gt;功能区，选择“新建列”&lt;strong&gt;&lt;/strong&gt;。&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;在表达式编辑器中输入下列表达式&lt;/p&gt;
+
+&lt;p&gt;强调的国家 = if('Metadata - Countries'[国家名] = "法国", "强调", if('Metadata - Countries'[国家名] = "丹麦", "强调", if('Metadata - Countries'[国家名] = "波兰", "强调", "其他")))&lt;/p&gt;
+
+&lt;p&gt;注意：注意到表达式从“国家名”&lt;strong&gt;&lt;/strong&gt;字段选取了特定值，并赋予其“强调”&lt;strong&gt;&lt;/strong&gt;类别，而其他值被指定为“其他”&lt;strong&gt;&lt;/strong&gt;类别。&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;按编辑器左侧的“检查标记”&lt;strong&gt;&lt;/strong&gt;图标&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;将“强调的国家”&lt;strong&gt;&lt;/strong&gt;列添加至 Power BI 视觉对象（如下方的着色地图）的“图例”&lt;strong&gt;&lt;/strong&gt;属性&lt;/p&gt;
+
+&lt;p&gt;a.设置“位置”&lt;strong&gt;&lt;/strong&gt;为“国家名”&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;b.设置“图例”&lt;strong&gt;&lt;/strong&gt;为“强调的国家”&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;c.设置“色彩饱和度”&lt;strong&gt;&lt;/strong&gt;为“国家代码”&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;pre&gt;i. 注意：这会显示为 **国家代码数**
+&lt;/pre&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;在“格式”&lt;strong&gt;&lt;/strong&gt;窗格上，展开“数据颜色”&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;a.将“强调”&lt;strong&gt;&lt;/strong&gt;颜色设置为“黄色”&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;b.将“其他”&lt;strong&gt;&lt;/strong&gt;颜色设置为“灰色”&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;img src="{1}" alt="" title="" /&gt;&lt;/p&gt;
+
+&lt;p&gt;得出如下地图：&lt;/p&gt;
+
+&lt;p&gt;&lt;img src="{2}" alt="" title="" /&gt;&lt;/p&gt;
+
+&lt;h4&gt;创建文本标签，仅在选中单个值时显示此标签&lt;/h4&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;在“建模”&lt;strong&gt;&lt;/strong&gt;功能区，选择“新建度量值”&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;在表达式编辑器中输入下列表达式&lt;/p&gt;&lt;/li&gt;
+  &lt;p&gt;所选国家名 = if(HASONEVALUE('Metadata - Countries'[国家名]), VALUES('Metadata - Countries'[国家名]) &amp;amp; " is selected", "")&lt;/p&gt;
+&lt;p&gt;注意：注意到该表达式检查是否只选择了一个&lt;strong&gt;国家名&lt;/strong&gt;来显示特定字符串。否则将不会显示任何值。&lt;/p&gt;
+&lt;li&gt;&lt;p&gt;按编辑器左侧的“检查标记”&lt;strong&gt;&lt;/strong&gt;图标&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;从“可视化”窗格向页面添加&lt;strong&gt;卡片视觉对象&lt;/strong&gt;。&lt;/p&gt;
+
+&lt;p&gt;a.将“字段”设置为“所选国家名”&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;请注意该值为空&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;在地图上&lt;strong&gt;选择国家&lt;/strong&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;请注意出现了标签&lt;/p&gt;
+
+&lt;p&gt;注意：可导入&lt;a href="{3}"&gt;&lt;/a&gt;“长文本查看器”视觉对象作为数据的备用视图。&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;</value>
+  </data>
+  <data name="Article_Content13_5" xml:space="preserve">
+    <value>&lt;p&gt;&lt;img src="{0}" alt="" title="" /&gt;&lt;/p&gt;
+&lt;h3&gt;步骤 4：选择合适的视觉对象交互&lt;/h3&gt;
+&lt;p&gt;默认情况下，Power BI 会为你筛选并交叉突显数据。请务必检查默认交互并对其进行优化，以确保以最佳方式显示数据。&lt;/p&gt;
+&lt;p&gt;注意在默认情况下，地图会交叉突显堆积柱形图。&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;在地图上选择“法国”&lt;strong&gt;&lt;/strong&gt;，会出现如下结果。&lt;/li&gt;
+&lt;p&gt;&lt;img src="{1}" alt="" title="" /&gt;&lt;/p&gt;
+
+&lt;p&gt;控制视觉对象交互，&lt;/p&gt;
+&lt;li&gt;&lt;p&gt;在“格式”&lt;strong&gt;&lt;/strong&gt;功能区上&lt;/p&gt;
+&lt;p&gt;a.选择“编辑交互”&lt;strong&gt;&lt;/strong&gt;按钮&lt;/p&gt;&lt;/li&gt;
+&lt;p&gt;&lt;img src="{2}" alt="" title="" /&gt;&lt;/p&gt;
+&lt;li&gt;&lt;p&gt;选择“地图”&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;注意出现在 100% &lt;strong&gt;堆积柱形图&lt;/strong&gt;上的工具栏&lt;/p&gt;&lt;/li&gt;
+
+&lt;p&gt;&lt;img src="{3}" alt="" title="" /&gt;&lt;/p&gt;
+&lt;li&gt;&lt;p&gt;选择工具栏上的筛选器图标，此时 100% 堆积柱形图简单明了地显示了法国的趋势。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src="{4}" alt="" title="" /&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;</value>
+  </data>
+  <data name="Article_Content14_2" xml:space="preserve">
+    <value>&lt;p&gt;注意：在&lt;strong&gt;第 2 部分 - 所占百分比的补充内容&lt;/strong&gt;中详述了有关所占百分比的数据问题。&lt;/p&gt;
+&lt;h2&gt;第 2 部分 - 所占百分比的补充内容&lt;/h2&gt;
+&lt;p&gt;课程资料中列出了如下图表，并提到在使用数据和聚合时需要格外小心。这是因为用于创建图表的值显示为“所占百分比”。因此，此图表可有效聚合百分比。但这会造成典型的数据错误，该错误可能出现在数据分析过程中：使用 SUM、AVERAGE 或其他聚合来汇总聚合的数据无法表示基本数据。我们在此示例中了解下这种情况。&lt;/p&gt;
+&lt;p&gt;&lt;img src="{0}" alt="" title="" /&gt;&lt;/p&gt;
+&lt;p&gt;图 1 加载图表之初，并未选中任何国家，因此 SUM 应用到了基本数据，此示例中为百分比。随后图表显示了所有百分比值的总数，并对其进行了可视化编码。但这并不准确。&lt;/p&gt;
+&lt;p&gt;此数据集中的基本数据是通过以下数据列进行识别的：&lt;/p&gt;
+&lt;h3&gt;年份国家值&lt;/h3&gt;
+&lt;p&gt;只有当“年份”和“国家”均具有单个值时，才能准确显示数据集中的值（百分比、平均值、中位数等）。一些字段为加性字段，如“人口，总数”&lt;strong&gt;&lt;/strong&gt;，这些字段可在“国家”&lt;strong&gt;&lt;/strong&gt;的某一特定“年份”&lt;strong&gt;&lt;/strong&gt;上进行聚合，但不能跨多个“年份”进行&lt;strong&gt;&lt;/strong&gt;聚合。在上方图表中，只显示了两个元素中的一个 - X 轴上的“年份”&lt;strong&gt;&lt;/strong&gt;。&lt;/p&gt;
+&lt;p&gt;本课程介绍了地图视觉对象，选定一个国家后，图表会立即显示正确的数据。以下示例中选择了法国，并且图表显示出所需数据。可以从工具提示中看到，传输给视觉对象的值与视觉对象编码的值，以及括号中的百分比标签均匹配。&lt;/p&gt;
+&lt;p&gt;&lt;img src="{1}" alt="" title="" /&gt;&lt;/p&gt;
+&lt;p&gt;图 2 选中单个国家后，可实现国家和年份组合，并正确显示数据。工具提示会确认图表中聚合的百分比和进行可视化编码的实际百分比是否匹配。&lt;/p&gt;
+&lt;p&gt;将不正确的聚合应用至错误的数据粒度这类问题常出现在数据分析中。需要时刻注意，确保创建的是正确定义的可视化。&lt;/p&gt;
+&lt;p&gt;需要注意几种常见情况。在本示例中，我们处理的是综合度量值（所占百分比）。通常，只可在综合度量值所计算的粒度上报告该度量值。你无法聚合这些度量值，例如所有国家的平均所占百分比是无意义的。同样，除非在同一粒度汇总同一分解值的所有部分（其总和应为 100%），否则所占百分比的总和也无效。&lt;/p&gt;</value>
+  </data>
+  <data name="Article_Content15" xml:space="preserve">
+    <value>&lt;p&gt;另一常见情况是平均值的使用。计算平均值时，需要注意使用和表示平均值的方式。如果计算平均值的平均值，则会得出十分具有误导性的输出结果。例如，有两个国家，一个每年发电 100 kWh，其中 80% 电力由燃煤提供；另一个国家发电 10 kWh，其中 50% 由燃煤提供。如果对百分比进行平均，会得出错误数据，即有 65% 的电力由燃煤提供。正确的值应该为：80kW + 5kWH / 110kWh = 77%，即 77% 的电力为燃煤提供。&lt;/p&gt;
+
+&lt;p&gt;最后是精确性受损，这种情况不太容易发现。提取或表示数据时，未包括数据最初的精确性和粒度，此时精确性就会受损。举个简单的例子，截取最接近销售额 ($) 的整数时，会丢失美分部分。如果对销售额进行聚合，那么得出的总额与源系统计算得出的总额可能存在较大差异。还有一种更棘手的情况是，个人在提取数据时无权查看所有行项目。通常，组织允许个人提取其有权查看的行项目，以及系统中就所有行项目计算得出的“官方”总计，这样为不同人员生成的不同报表中的数字才能匹配。如果尝试对行项目数据本身进行聚合，而不将总计包含在方程式中，那么就会呈现错误的数据。&lt;/p&gt;
+
+&lt;h3&gt;如何解决这类问题？&lt;/h3&gt;
+
+&lt;p&gt;该问题的根本原因在于图表中使用的指标已经是百分比。要避免出现该问题，需要对包含发电量粒度的指标重新计算百分比。不幸的是，我们需要处理的数据集并不完整 - 没有按国家进行计量的总发电量。如果有，那么计算就会很简单，并且也无需进一步说明。可用各国的年发电量乘以对应的百分比，再将得出的值用于聚合。&lt;/p&gt;
+
+&lt;p&gt;然而，由于数据中不存在此度量值，我们需要考虑替代方法。在进行下一步之前要了解一个经验法则：&lt;strong&gt;有疑惑时，就停止&lt;/strong&gt;。无论是在描述性还是探索性交互式数据可视化中，分析者都务必要真实地呈现数据。如果不确定数据的精确性，那么在确定之前，就不应该进行报告。&lt;/p&gt;
+
+&lt;p&gt;这里我还将讨论其他两种替代方案。当数据粒度不正确并且无法确定数据是否正确时，第一种方案通过确保不返回数据，从根本上避免计算错误的出现。通过 DAX 度量值可实现此目的，操作如下：&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;strong&gt;煤炭产生的条件电力（所占百分比） = if(AND(HASONEVALUE(Data[国家代码]), HASONEVALUE(Data[年份])), SUM(Data[煤电（所占百分比）]), BLANK())&lt;/strong&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;请注意上述公式检查重要情况，且只返回一个值。需要为每个所占百分比字段重复使用此度量值，然后将结果绘制在 100% 堆积柱形图上。选定国家前，图表为空；选定国家后，图表上会显示准确的数据。你需要明确提醒读者，他们首先需要选定国家，然后数据可视化中才会出现数据。即使如此，除了有趣的数据可视化外，读者可能对中间大片的空白区域感到不解。&lt;/p&gt;
+
+&lt;p&gt;...&lt;/p&gt;
+
+&lt;p&gt;第二种替代方案需要将数据返回至可以进行聚合的指标中。在此示例中，最好的办法就是找出可显示每个国家发电量 (kWh) 的数据集。但很不幸，我们未能找到此数据集。&lt;/p&gt;
+
+&lt;p&gt;因此，我们需要进行假设，得到各个国家和地区整体指标的表现形式。进行假设始终会存在问题，所以需要经过有关人员的验证并进行公开的讨论。重要的是，还需制定计划来解释你的假设和方法论，这也是数据可视化的发布内容。如果没有对假设进行说明，那么分析可能会被视为造假，招致批评。所以在进行假设时要十分小心，与读者进行交流是成功的关键所在。话虽如此，但只要在使用过程中能将这些衍生或创建的值正确地置于背景中考虑，那么这些值就能提供有趣的见解。&lt;/p&gt;&lt;p&gt;我们来看看此示例中如何解决这个问题。数据中包含了所需指标：&lt;strong&gt;耗电量（人均用电度数）&lt;/strong&gt;。还包括了&lt;strong&gt;人口，总计&lt;/strong&gt;。每一个指标都可通过国家和年份进行聚合。因此，只要我们愿意假设耗电量与发电量等同，即可进行某些匹配，生成各个发电能源的发电量的综合视图（单位：kWh）。但要指出的是，这种假设可能比较不太准确，例如加拿大常会向美国出售水电供美国使用。然而，此处的目标是显示各国和各地区具有代表性的所占百分比的近似值。作为可视化的创建者，在进行展示前，需要确定得出的替代度量值是否有意义。&lt;/p&gt;
+
+&lt;p&gt;此示例中进行匹配的最简单方法是，数据加载期间在“查询”选项卡（功能区中的“编辑查询”）上，我已经通过下列公式使用“数据”查询上的“添加列”功能添加了一个名为“综合发电量 - 燃煤”的新列：&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;strong&gt;[#"人口，总计"] * [#"耗电量（人均用电度数）"] * [#"煤电（所占百分比）"] / 100&lt;/strong&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;我们为数据集中每种发电能源重复此计算：石油、天然气、水力、原子能和可再生能源。得出如下图表。&lt;/p&gt;</value>
+  </data>
+  <data name="Article_Content16_1" xml:space="preserve">
+    <value>&lt;p&gt;&lt;img src="{0}" alt="" title="" /&gt;&lt;/p&gt;
+
+&lt;p&gt;图 3 基于综合度量值更新的图表。向读者明确说明进行的假设。度量值名称表示已创建数据。&lt;/p&gt;
+
+&lt;p&gt;如果将图 1 中的图表与图 3 中的图表进行对比，会发现每个序列的趋势都有很大的不同。最后一个图表最具代表性，满足单个年份和单个国家的正确性条件时，它报告的数据与第一个图表相同。&lt;/p&gt;
+
+&lt;p&gt;在这个示例中，我们解决了聚合错误的难题，但却添加了假设，而这可能又是一个难题。从此说明的长度也可以了解，我们为什么没有直接在课程视频中详细介绍这一问题。在力图向广大读者真实呈现数据的过程中，作为数据可视化的设计者，你会遇到这些难题，此示例就对这些难题进行了说明。&lt;/p&gt;</value>
+  </data>
+  <data name="Article_Content1_4" xml:space="preserve">
+    <value>&lt;h2 id="exploring-distributions"&gt;在 Power BI 中探索分布&lt;/h2&gt;
+
+&lt;p&gt;本教程将探讨如何分析 Alberto 提供的巴西 IDEB 得分数据。&lt;/p&gt;
+
+&lt;p&gt;所需材料：&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;Brazil Regions.xlsx&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;IDEB2009.csv&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3&gt;步骤 1：加载 IDEB 数据&lt;/h3&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;打开 &lt;em&gt;*Power BI Desktop *&lt;/em&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;使用&lt;strong&gt;获取数据 UI&lt;/strong&gt; 从 &lt;strong&gt;IDEB2009.csv&lt;/strong&gt; 加载数据&lt;/p&gt;&lt;/li&gt;
+&lt;p&gt;开始功能区 -&gt; 获取数据 -&gt; CSV&lt;/p&gt;
+&lt;/ol&gt;
+&lt;p&gt;注意：如果不熟悉此过程，请查看之前的教程。视频录像中也清楚地展示了 UI 操作。&lt;/p&gt;
+
+&lt;h2&gt;步骤 2：使用柱形图创建基础直方图&lt;/h2&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;在“Power BI Desktop”&lt;strong&gt;&lt;/strong&gt;中的空白报表页上，单击“可视化”&lt;strong&gt;&lt;/strong&gt;选项卡上的堆积柱形图图标，插入一个&lt;strong&gt;堆积柱形图&lt;/strong&gt;：&lt;/p&gt;
+
+&lt;p&gt;&lt;img src="{0}" alt="" title="" /&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;将数据与视觉对象联接起来：&lt;/p&gt;
+
+&lt;p&gt;a.添加“得分”&lt;strong&gt;&lt;em&gt;&lt;/em&gt;&lt;/strong&gt;到&lt;strong&gt;&lt;/strong&gt;“轴”&lt;/p&gt;
+
+&lt;p&gt;b.添加“学校”&lt;strong&gt;&lt;em&gt;&lt;/em&gt;&lt;/strong&gt;到&lt;strong&gt;&lt;/strong&gt;“值”&lt;/p&gt;
+
+&lt;pre&gt;i. 请注意 Power BI 会自动将学校聚合为
+    “学校数”
+&lt;/pre&gt;&lt;/li&gt;
+&lt;p&gt;&lt;img src="{1}" alt="" title="" /&gt;&lt;/p&gt;
+&lt;pre&gt;        得出的图表为基础数据值的
+        直方图。
+&lt;/pre&gt;
+&lt;li&gt;&lt;p&gt;如果想让图表外观更完整，可以使用“格式设置”&lt;strong&gt;&lt;/strong&gt;窗格调整颜色：&lt;/p&gt;
+
+&lt;p&gt;a.选择视觉对象后，&lt;strong&gt;选择格式窗格&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;b.&lt;strong&gt;展开“数据颜色”&lt;/strong&gt;，并&lt;strong&gt;选择所需颜色&lt;/strong&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;img src="{2}" alt="" title="" /&gt;&lt;/p&gt;
+
+&lt;h3&gt;步骤 3：调整轴端点&lt;/h3&gt;
+
+&lt;p&gt;有时为确保数据可与筛选器/突显数据进行比较，需要覆盖 Power BI 中的默认值。此示例中，我们对 X 轴和 Y 轴的比例进行了设置，确保可在解决方案间比较结果。&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;在“格式设置”&lt;strong&gt;&lt;/strong&gt;窗格上，展开“X 轴”&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;在“终点”&lt;strong&gt;&lt;/strong&gt;属性中，将值设为 &lt;strong&gt;&lt;em&gt;8&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;img src="{3}" alt="" title="" /&gt;&lt;/p&gt;</value>
+  </data>
+  <data name="Article_Content2_8" xml:space="preserve">
+    <value>&lt;h3&gt;步骤 4：向报表添加高质量的说明信息&lt;/h3&gt;
+&lt;p&gt;Power BI 本身可理解地理信息。数据的独特性会严重影响 Power BI 正确地将数据对应到地图上。在 IDEB 得分的示例中，说明信息对应到地图上时含义不明确。此部分介绍如何加载较高质量的数据并将其添加到已有的 IDEB 得分数据中。&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;使用“获取数据”-&gt;“来自网站”&lt;strong&gt;&lt;/strong&gt;选项&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;将下方 URL 输入到得来的对话框中：&lt;a href="{0}"&gt;{0}&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;p&gt;&lt;img src="{1}" alt="" title="" /&gt;&lt;/p&gt;
+&lt;li&gt;在“浏览器”&lt;strong&gt;&lt;/strong&gt;对话框中，&lt;strong&gt;勾选&lt;/strong&gt;“巴西各州列表[编辑]”旁的框，然后按“确定”&lt;strong&gt;&lt;/strong&gt;。&lt;/li&gt;
+&lt;p&gt;&lt;img src="{2}" alt="" title="" /&gt;&lt;/p&gt;
+&lt;li&gt;&lt;p&gt;若要将说明信息添加到原来的 IDEB 数据中，需要合并查询。&lt;/p&gt;
+&lt;p&gt;a.&lt;strong&gt;选择&lt;/strong&gt;“查询”窗口中的“IDEB2009”查询&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;p&gt;&lt;img src="{3}" alt="" title="" /&gt;&lt;/p&gt;
+&lt;li&gt;在功能区中选择“合并查询”&lt;strong&gt;&lt;/strong&gt;按钮&lt;/li&gt;
+&lt;p&gt;&lt;img src="{4}" alt="" title="" /&gt;&lt;/p&gt;
+&lt;li&gt;&lt;p&gt;在“合并”&lt;strong&gt;&lt;/strong&gt;对话框中，&lt;/p&gt;
+&lt;p&gt;a.选择 &lt;strong&gt;IDEB2009 查询中的&lt;/strong&gt;&lt;strong&gt;“州”&lt;/strong&gt;，选择&lt;strong&gt;巴西各州列表查询&lt;/strong&gt;中的&lt;strong&gt;“缩写”&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;b.在“联接类型”&lt;strong&gt;&lt;/strong&gt;选项中选择“左外部”&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;c.按“确定”&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;p&gt;&lt;img src="{5}" alt="" title="" /&gt;&lt;/p&gt;
+&lt;li&gt;&lt;p&gt;已将&lt;strong&gt;新列&lt;/strong&gt;添加到查询。&lt;/p&gt;
+&lt;p&gt;a.按列标题左上方的&lt;strong&gt;展开图标&lt;/strong&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;p&gt;&lt;img src="{6}" alt="" title="" /&gt;&lt;/p&gt;
+&lt;li&gt;&lt;p&gt;在打开的对话框中&lt;/p&gt;
+&lt;p&gt;a.取消勾选“(选择所有列)”&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;b.选择“州”&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;c.按“确定”&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;p&gt;&lt;img src="{7}" alt="" title="" /&gt;&lt;/p&gt;
+&lt;li&gt;已添加新的列；双击&lt;strong&gt;列标题&lt;/strong&gt;，将列名更改为“州名称”&lt;strong&gt;&lt;/strong&gt;&lt;/li&gt;
+&lt;p&gt;a. &lt;img src="{8}" alt="" title="" /&gt;&lt;/p&gt;
+&lt;li&gt;&lt;p&gt;为使州名称能更好地进行地理编码，将使用其他自定义列&lt;/p&gt;
+&lt;p&gt;a.在“添加列”&lt;strong&gt;&lt;/strong&gt;功能区按“添加自定义列”&lt;strong&gt;&lt;/strong&gt;按钮&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;</value>
+  </data>
+  <data name="Article_Content4_7" xml:space="preserve">
+    <value>&lt;blockquote&gt;
+  &lt;p&gt;&lt;img src="{0}" alt="" title="" /&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;b.在“添加自定义列”&lt;strong&gt;&lt;/strong&gt;对话框中，输入该表达式：&lt;/p&gt;
+
+&lt;pre&gt;**\[state name\] &amp;amp; “, Brasil”**
+&lt;/pre&gt;
+
+&lt;p&gt;&lt;img src="{1}" alt="" title="" /&gt;&lt;/p&gt;
+
+&lt;p&gt;c.按“确定”&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;h3&gt;步骤 5：加载地区元数据&lt;/h3&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;在“查询编辑器”&lt;strong&gt;&lt;/strong&gt;窗口的“开始”功能区上，选择“新建源”-&gt;“Excel”&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;选择 &lt;strong&gt;Excel 文件“Brazil Regions.xlsx”&lt;/strong&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;在“浏览器”&lt;strong&gt;&lt;/strong&gt;对话框中，选中“BrazilRegions”&lt;strong&gt;&lt;/strong&gt;旁边的框&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;按“确定”&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;p&gt;&lt;img src="{2}" alt="" title="" /&gt;&lt;/p&gt;
+&lt;li&gt;&lt;p&gt;将在查询窗口中加载新查询&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;右键单击州列标题，选择“拆分列”&lt;strong&gt;&lt;/strong&gt;，选择“按分隔符”&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;p&gt;&lt;img src="{3}" alt="" title="" /&gt;&lt;/p&gt;
+&lt;li&gt;&lt;p&gt;在“按分隔符拆分列”&lt;strong&gt;&lt;/strong&gt;对话框中，&lt;/p&gt;
+&lt;p&gt;a.在“选择或输入分隔符”&lt;strong&gt;&lt;/strong&gt;下拉列表中选择“空格”&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;b.选择“最右侧分隔符”&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;c.按“确定”&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;p&gt;&lt;img src="{4}" alt="" title="" /&gt;&lt;/p&gt;
+&lt;li&gt;&lt;p&gt;已创建两个新的列 - &lt;strong&gt;州.1&lt;/strong&gt; 和&lt;strong&gt;州.2&lt;/strong&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;右键单击州.2 列中的一个值&lt;/p&gt;
+&lt;p&gt;a.选择“替换值...”&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;p&gt;&lt;img src="{5}" alt="" title="" /&gt;&lt;/p&gt;
+&lt;li&gt;&lt;p&gt;在“替换值”&lt;strong&gt;&lt;/strong&gt;对话框中，&lt;/p&gt;
+&lt;p&gt;a.输入“(”作为“要查找的值”&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;b.将“替换为”&lt;strong&gt;&lt;/strong&gt;留空&lt;/p&gt;
+&lt;p&gt;c.按“确定”&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;p&gt;&lt;img src="{6}" alt="" title="" /&gt;&lt;/p&gt;
+&lt;li&gt;&lt;p&gt;重复上述步骤，删除州.2 列中的“)”&lt;/p&gt;
+&lt;p&gt;注意：下列步骤会重复本教程此前涉及的相同过程，将新的区域列合并到 IDEB2009 查询中。请查看上方的说明了解有关如何完成这些步骤的详细介绍。&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;将州.2 列重命名为&lt;strong&gt;“缩写”&lt;/strong&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;选择查询列表中的 &lt;strong&gt;IDEB2009 查询&lt;/strong&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;在“开始”功能区选择“合并”&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;在“合并”&lt;strong&gt;&lt;/strong&gt;对话框中&lt;/p&gt;
+&lt;p&gt;a.选择 IDEB2009 查询中的“州”&lt;strong&gt;&lt;/strong&gt;列&lt;/p&gt;
+&lt;p&gt;b.选择 BrazilRegions 查询中的“缩写”&lt;strong&gt;&lt;/strong&gt;列&lt;/p&gt;
+&lt;p&gt;c.按“确定”&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;选择&lt;strong&gt;新列&lt;/strong&gt;上的&lt;strong&gt;展开图标&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;a.在下拉列表中仅选择&lt;strong&gt;&lt;/strong&gt;“区域”列&lt;/p&gt;
+&lt;p&gt;b.选择“确定”&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;按“开始”功能区中的“关闭并应用”&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;</value>
+  </data>
+  <data name="Article_Content6_6" xml:space="preserve">
+    <value>&lt;p&gt;&lt;img src="{0}" alt="" title="" /&gt;&lt;/p&gt;
+&lt;h3&gt;步骤 6：使用新数据建立交互地图&lt;/h3&gt;
+&lt;p&gt;借助新的列，可以创建地图，得到更具吸引力的分析。&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;在“可视化”&lt;strong&gt;&lt;/strong&gt;窗格中，选择&lt;strong&gt;&lt;/strong&gt;“着色地图”视觉对象，将其插入画布中&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;将下列数据与视觉对象联接起来&lt;/p&gt;
+&lt;p&gt;a.将“巴西各州名称”&lt;strong&gt;&lt;/strong&gt;列添加到“位置”&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;b.将“得分”&lt;strong&gt;&lt;/strong&gt;列添加到“色彩饱和度”&lt;strong&gt;&lt;/strong&gt;。&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;img src="{1}" alt="" title="" /&gt;&lt;/p&gt;
+&lt;p&gt;如视频录像所示可以根据需要进行下列操作：&lt;/p&gt;
+&lt;p&gt;a.将“得分”&lt;strong&gt;&lt;/strong&gt;列的聚合更改为“中位数”&lt;strong&gt;&lt;/strong&gt;。&lt;/p&gt;
+&lt;p&gt;b.使用“格式设置”窗格调整地图上的颜色，让其更清晰明了。&lt;/p&gt;
+&lt;p&gt;c.将“区域”&lt;strong&gt;&lt;/strong&gt;列添加到画布，将其转换成切片器。&lt;/p&gt;
+&lt;h3&gt;步骤 7：自定义装箱：直方图自定义视觉对象&lt;/h3&gt;
+&lt;p&gt;若要完成此部分，请先从 &lt;a href="{2}"&gt;{2}&lt;/a&gt; &lt;strong&gt;下载直方图自定义视觉对象&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Power BI 拥有自定义视觉对象库，可从中进行下载。库位于：&lt;a href="{3}"&gt;{3}&lt;/a&gt;&lt;/p&gt;&lt;ol&gt;
+&lt;li&gt;使用网页浏览器打开下方 URL：&lt;/li&gt;
+&lt;p&gt;&lt;a href="{2}"&gt;{2}&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;img src="{4}" alt="" title="" /&gt;&lt;/p&gt;
+&lt;li&gt;&lt;p&gt;按“下载视觉对象”&lt;strong&gt;&lt;/strong&gt;按钮&lt;/p&gt;
+&lt;p&gt;注意：下载视觉对象前请先查阅使用条款&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;在 Power BI Desktop 中的“可视化”&lt;strong&gt;&lt;/strong&gt;窗格中按“...”&lt;strong&gt;&lt;/strong&gt;按钮，并按指示导入视觉对象&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;已将新的视觉对象添加到“可视化”窗格&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;选择报表上的现有列，然后按&lt;strong&gt;&lt;/strong&gt;“直方图”视觉对象的按钮&lt;/p&gt;&lt;/li&gt;
+&lt;p&gt;&lt;img src="{5}" alt="" title="" /&gt;&lt;/p&gt;
+&lt;li&gt;&lt;p&gt;打开选中了&lt;strong&gt;&lt;/strong&gt;“直方图”视觉对象的“格式设置”&lt;strong&gt;&lt;/strong&gt;窗格&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;展开“常规”&lt;strong&gt;&lt;/strong&gt;选项，并为“箱”&lt;strong&gt;&lt;/strong&gt;属性输入一个值。允许设置自定义箱大小以匹配数据&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;</value>
+  </data>
+  <data name="Article_Content7_4" xml:space="preserve">
+    <value>&lt;h3&gt;步骤 8：使用 Power BI 绘制箱线图&lt;/h3&gt;
+&lt;p&gt;有关此部分，请下载箱形图 (Jan Pieter) 自定义视觉对象，下载位置：&lt;/p&gt;&lt;p&gt;&lt;a href="{0}"&gt;{0}&lt;/a&gt;&lt;/p&gt;&lt;ol&gt;
+&lt;li&gt;如教程之前所述，按照 UI 指示下载视觉对象&lt;/li&gt;&lt;p&gt;&lt;img src="{1}" alt="" title="" /&gt;&lt;/p&gt;&lt;li&gt;&lt;p&gt;如先前所示，使用“可视化”&lt;strong&gt;&lt;/strong&gt;窗格中的“...”&lt;strong&gt;&lt;/strong&gt;按钮导入视觉对象        &lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li&gt;&lt;p&gt;选中“直方图”&lt;strong&gt;&lt;/strong&gt;视觉对象，然后按“可视化”&lt;strong&gt;&lt;/strong&gt;窗格中的“箱线图”&lt;strong&gt;&lt;/strong&gt;图标，将其转换为箱线图视觉对象&lt;/p&gt;
+&lt;p&gt;a.注意：此时视觉对象看起来像是空的&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;按下方所示设置箱线图数据字段：&lt;/p&gt;
+&lt;p&gt;a.将“类别”&lt;strong&gt;&lt;/strong&gt;设置为“州”列&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;b.将“抽样”&lt;strong&gt;&lt;/strong&gt;设置为“学校”列&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;c.将“值”&lt;strong&gt;&lt;/strong&gt;设置为“得分”列&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;得出类似下图的箱线图：&lt;/p&gt;&lt;/li&gt;
+        &lt;p&gt;&lt;img src="{2}" alt="" title="" /&gt;&lt;/p&gt;
+         &lt;li&gt;
+                &lt;p&gt;选中箱线图后，打开“格式设置”窗格：&lt;/p&gt;
+                &lt;p&gt;a.展开“图表选项”&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+                &lt;p&gt;b.将“图表类型”&lt;strong&gt;&lt;/strong&gt;更改为“1.5 IQR”&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+                &lt;p&gt;c.将“离群值”&lt;strong&gt;&lt;/strong&gt;更改为“开启”&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+                &lt;p&gt;&lt;img src="{3}" alt="" title="" /&gt;&lt;/p&gt;
+            &lt;/li&gt;&lt;/ol&gt;
+</value>
+  </data>
+  <data name="Article_Content8_2" xml:space="preserve">
+    <value>               &lt;p&gt;最终得出图表与下图类似：&lt;/p&gt; &lt;p&gt;&lt;img src="{0}" alt="" title="" /&gt;&lt;/p&gt;
+        &lt;h2 id="time-series"&gt;西班牙雇佣数据时序分析&lt;/h2&gt;
+        &lt;p&gt;
+            Alberto 的《真实的艺术》&lt;em&gt;&lt;/em&gt;一书中的一个示例说明了，当使用肉眼难以了解模式和趋势时，利用统计法进行分析是多么的实用。下方教程包含两个相关示例。第一个示例展示了无需进行计算的情况下，如何向视觉对象添加直线趋势线。在第二个示例中，将在 Power BI 中使用 R 脚本计算周期性、噪音和曲线趋势线。在线课程的第 2 部分中进一步介绍了这些概念。
+        &lt;/p&gt;
+        &lt;h3&gt;步骤 1：创建趋势线折线图&lt;/h3&gt;
+            &lt;ol&gt;&lt;li&gt;
+                &lt;p&gt;
+                    创建一个折线图，Y 轴为日期，X 轴为 SocialSecurityAffiliates。
+                &lt;/p&gt;
+            &lt;/li&gt;
+            &lt;li&gt;
+                &lt;p&gt;
+                    在右侧的“分析”&lt;strong&gt;&lt;/strong&gt;窗格中，打开“趋势线”&lt;strong&gt;&lt;/strong&gt;。可重命名趋势线，并编辑透明度和颜色。
+                &lt;/p&gt;
+            &lt;/li&gt;
+&lt;p&gt;&lt;img src="{1}" alt="" title="" /&gt;&lt;/p&gt;
+&lt;li&gt;对 &lt;strong&gt;16-64 岁人口&lt;/strong&gt;和&lt;strong&gt;百分比&lt;/strong&gt;重复此操作，将得出如下图表。&lt;/li&gt;
+&lt;/ol&gt;</value>
+  </data>
+  <data name="Article_Content9_2" xml:space="preserve">
+    <value>&lt;p&gt;&lt;img src="{0}" alt="" title="" /&gt;&lt;/p&gt;
+&lt;h3&gt;步骤 2：使用 R 计算周期性、趋势和随机噪音&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;请确保计算机上安装了 R 以及 R 编辑器（如 RStudio）&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;运行 &lt;strong&gt;install.packages(Ecdat)&lt;/strong&gt; 和 &lt;strong&gt;install.packages(fpp)&lt;/strong&gt; 命令，在 R 编辑器中安装两个包 Ecdat 和 fpp。此操作将在设备上安装包。只需在计算机上安装一次包，但每次使用包时，都需从 Power BI 激活库。&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;现在在查询编辑器中，将“日期”&lt;strong&gt;&lt;/strong&gt;列的数据类型更改为文本。日期格式下，脚本不会运行。&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;在“转换”功能区中，选择“运行 R 脚本”&lt;strong&gt;&lt;/strong&gt;按钮。&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;img src="{1}" alt="" title="" /&gt;&lt;/p&gt;</value>
+  </data>
+  <data name="Article_Continue_Content10_1" xml:space="preserve">
+    <value>&lt;h2&gt;丰富的探索&lt;/h2&gt;&lt;p&gt;本教程将讲述演示中的一些原则。由于之前的教程中包含许多步骤，因此本教程不会提供分步说明。&lt;/p&gt;
+&lt;p&gt;若要完成本教程，请打开文件 &lt;strong&gt;Where does your electricity come from final.pbix&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;如果想自己处理数据，可从世界银行网站下载最新数据：&lt;/p&gt;
+&lt;ol&gt;&lt;li&gt;&lt;p&gt;打开网页浏览器，转到：&lt;/p&gt;
+&lt;p&gt;&lt;a href="{0}"&gt;{0}&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;下载文件 &lt;strong&gt;Climate Change (Excel)&lt;/strong&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3&gt;步骤 1：选择一个显示趋势化数据的视觉对象&lt;/h3&gt;
+&lt;ol&gt;&lt;li&gt;&lt;p&gt;创建空白页&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;在“可视化”&lt;strong&gt;&lt;/strong&gt;窗格中选择&lt;strong&gt;柱形图&lt;/strong&gt;，创建一个柱形图，并关联下列数据字段：&lt;/p&gt;
+&lt;p&gt;a.年份&lt;/p&gt;
+&lt;p&gt;b.CO2 排放量 (kt)&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;在“可视化”&lt;strong&gt;&lt;/strong&gt;窗格中选择&lt;strong&gt;折线图&lt;/strong&gt;，创建一个折线图，并关联下列数据字段：&lt;/p&gt;&lt;p&gt;a.年份&lt;/p&gt;
+&lt;p&gt;b.CO2 排放量（人均排放公吨数）&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;</value>
+  </data>
+  <data name="Download_Resources" xml:space="preserve">
+    <value>下载教程所需的全部资源</value>
+  </data>
+  <data name="Hero_Subtitle" xml:space="preserve">
+    <value>在第二课“数据可视化和故事分享”中，Alberto Cairo 将讨论如何使用可视化从数据中提取意义。Alberto 解释了如何压缩数据以及何时利用箱形图等图形格式。我们还将探索时序分析，着重了解整体趋势和周期性模式。此外，Alberto 还将分享如何连接不同的图形，赋予数据意义。</value>
+  </data>
+  <data name="Hero_Title" xml:space="preserve">
+    <value>数据探索</value>
+  </data>
+  <data name="InThisArticle" xml:space="preserve">
+    <value>在本文中：</value>
+  </data>
+  <data name="META_DESCRIPTION" xml:space="preserve">
+    <value />
+  </data>
+  <data name="META_KEYWORDS" xml:space="preserve">
+    <value />
+  </data>
+  <data name="META_PAGETITLE" xml:space="preserve">
+    <value>数据新闻 - 数据探索 | Microsoft Power BI</value>
+  </data>
+  <data name="NextTopic" xml:space="preserve">
+    <value>下一主题：真实可视化</value>
+  </data>
+  <data name="RightNav_Link1" xml:space="preserve">
+    <value>在 Power BI 中探索分布</value>
+  </data>
+  <data name="RightNav_Link2" xml:space="preserve">
+    <value>西班牙雇佣数据时序分析</value>
+  </data>
+  <data name="Meta_LocJobId" xml:space="preserve">
+    <value>163</value>
+  </data>
+</root>

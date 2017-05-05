@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<serviceSettings>
+  <services>
+    <group name="powerbi-default" default="true">
+      <search>
+        <connectionInfo region="West US" default="true" host="pwrbipreprod" key="#{keyvault:powerbi:services-search-westus-key}" />
+        <connectionInfo region="Unknown" host="pwrbipreprod" key="#{keyvault:powerbi:services-search-westus-key}" />
+      </search>
+    </group>
+    <group name="pwrbi-jobs">
+      <storage>
+        <connectionInfo region="West US" default="true" accountName="powerbiwebjobsint" key="#{keyvault:powerbi:services-storage-jobs-westus-key}" />
+        <connectionInfo region="Unknown" accountName="powerbiwebjobsint" key="#{keyvault:powerbi:services-storage-jobs-westus-key}" />
+      </storage>
+    </group>
+    <group name="group-a">
+      <redis>
+        <connectionInfo region="West US" default="true" host="powerbi-preprod-a.redis.cache.windows.net" key="#{keyvault:powerbi:services-redis-group-a-westus-key}" port="6380" timeout="5000" />
+        <connectionInfo region="Unknown" host="powerbi-preprod-a.redis.cache.windows.net" key="#{keyvault:powerbi:services-redis-group-a-westus-key}" port="6380" timeout="5000" />
+      </redis>
+    </group>
+    <group name="group-b">
+      <redis>
+        <connectionInfo region="West US" default="true" host="powerbi-preprod-b.redis.cache.windows.net" key="#{keyvault:powerbi:services-redis-group-b-westus-key}" port="6380" timeout="5000" />
+        <connectionInfo region="Unknown" host="powerbi-preprod-b.redis.cache.windows.net" key="#{keyvault:powerbi:services-redis-group-b-westus-key}" port="6380" timeout="5000" />
+      </redis>
+    </group>
+    <group name="group-c">
+      <redis>
+        <connectionInfo region="West US" default="true" host="powerbi-preprod-c.redis.cache.windows.net" key="#{keyvault:powerbi:services-redis-group-c-westus-key}" port="6380" timeout="5000" />
+        <connectionInfo region="Unknown" host="powerbi-preprod-c.redis.cache.windows.net" key="#{keyvault:powerbi:services-redis-group-c-westus-key}" port="6380" timeout="5000" />
+      </redis>
+    </group>
+  </services>
+</serviceSettings>

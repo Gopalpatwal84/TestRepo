@@ -1,0 +1,294 @@
+﻿/*
+group()
+
+AKA clearfix.
+
+Style guide: mixins.group
+*/
+/*
+arrow(@size: 10px, @color: @color-slate02, @direction: 'up')
+
+CSS arrow.
+
+@size - size of arrow, default `10px`.
+@color - color of arrow, default `@color-slate02`.
+@direction - arrow direction, default 'up'.
+
+Style guide: mixins.arrow
+*/
+/*
+chevronRightCss()
+
+Chevron right using CSS
+
+@size - optional size in px to set both height and width
+@top-offset - optional size in px to move the chevron up or down
+*/
+/*
+animation(@value)
+
+CSS animation helper.
+
+@value - value of the animation.
+
+Style guide: mixins.animation
+*/
+/*
+backface(@value)
+
+CSS backface helper.
+
+@value - value of backface.
+
+Style guide: mixins.backface
+*/
+/*
+box-sizing(@value)
+
+CSS box-sizing helper.
+
+@value - value of box-sizing.
+
+Style guide: mixins.box-sizing
+*/
+/*
+center()
+
+CSS centering helper.
+
+Style guide: mixins.center
+*/
+/*
+circle-background(@diameter)
+
+CSS circle-background helper.
+
+@diameter - diameter of the circle.
+
+Style guide: mixins.circle-background
+*/
+/*
+disable-highlight()
+
+Disables highlighting on an element.
+
+Style guide: mixins.disable-highlight
+*/
+/*
+grayscale(@percent)
+
+Force grayscale on an element.
+
+@percent - grayscale percent.
+
+Style guide: mixins.grayscale
+*/
+/*
+hamburger-helper(@percent)
+
+Helper to build out hamburger CSS.
+
+@height - height of hamburger, default `4px`.
+@width - width of hamburger, default `25px`.
+@color - color of hamburger, default `@color-palette01`.
+
+Style guide: mixins.hamburger-helper
+*/
+/*
+hide-text()
+
+Accessibility-friendly text hiding.
+
+Style guide: mixins.hide-text
+*/
+/*
+placeholder-color(@color)
+
+Force the color of the placeholder.
+
+@color - color of the placeholder text.
+
+Style guide: mixins.placeholder-color
+*/
+/*
+section-image-cutoff(@imgHeight, @offset: 30px)
+
+The section below shows a common pattern that has the following features:
+
+- no padding on the bottom of the section
+- vertically centered content
+- image cutoff on the bottom
+
+Use mixin on section. Use classes `.column-image` and `.column-content` with `.row-middled`.
+
+@imgHeight - height of the image.
+@offset - image offset from the section, default `30px`.
+
+Style guide: mixins.placeholder-color
+*/
+/*
+show-text()
+
+Accessibility-friendly text showing.
+
+Style guide: mixins.show-text
+*/
+/*
+transition(@value)
+
+CSS transition helper.
+
+@value - value of the transition.
+
+Style guide: mixins.transition
+*/
+/*
+transition-hover()
+
+CSS transition-hover helper.
+
+Style guide: mixins.transition-hover
+*/
+/*
+transform(@value)
+
+CSS transform helper.
+
+@value - value of the transform.
+
+Style guide: mixins.transform
+*/
+/*
+truncate-text()
+
+CSS truncate-text helper.
+
+Style guide: mixins.truncate-text
+*/
+.close {
+  color: #000000;
+  font-size: 23px;
+  font-weight: 700;
+  line-height: 1;
+  opacity: .2;
+  position: absolute;
+  right: 10px;
+  text-shadow: 0 1px 0 #ffffff;
+  top: 0;
+}
+.close:hover {
+  color: #000000;
+  opacity: 1;
+  text-decoration: none;
+}
+.subnav-collapse {
+  position: relative;
+  overflow: visible;
+}
+.subnav-collapse .subnavMenuToggle {
+  display: inline;
+}
+@media screen and (min-width: 960px) {
+  .subnav-collapse .subnavMenuToggle {
+    display: none;
+  }
+}
+.subnav-collapse .subnavMenuToggle .subnavMenuText:hover {
+  cursor: pointer;
+}
+.subnav-collapse .subnavMenuToggle .subnavMenuExpandIcon {
+  float: left;
+  width: 14px;
+  margin-right: 7px;
+  padding: 2px 0;
+}
+.subnav-collapse .subnavMenuToggle .subnavMenuExpandIcon:hover {
+  cursor: pointer;
+}
+.subnav-collapse .subnavMenuToggle .subnavMenuExpandIcon .icon-bar {
+  background-color: #ffffff;
+  width: 100%;
+  height: 2px;
+  margin: 4px 0;
+  display: block;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+.subnav-collapse .subnavMenuToggle .subnavMenuExpandIcon.expand .bar1 {
+  -ms-transform: rotate(45deg) translate(30%, 208%);
+  -o-transform: rotate(45deg) translate(30%, 208%);
+  -webkit-transform: rotate(45deg) translate(30%, 208%);
+  transform: rotate(45deg) translate(30%, 208%);
+}
+.subnav-collapse .subnavMenuToggle .subnavMenuExpandIcon.expand .bar2 {
+  opacity: 0;
+}
+.subnav-collapse .subnavMenuToggle .subnavMenuExpandIcon.expand .bar3 {
+  -ms-transform: rotate(-45deg) translate(30%, -208%);
+  -o-transform: rotate(-45deg) translate(30%, -208%);
+  -webkit-transform: rotate(-45deg) translate(30%, -208%);
+  transform: rotate(-45deg) translate(30%, -208%);
+}
+.subnav-collapse .subnavMenuLinks {
+  position: absolute;
+  left: 0;
+  top: 100%;
+  width: 100%;
+  height: 0;
+  background-color: rgba(0, 0, 0, 0.8);
+  z-index: 200;
+  overflow: hidden;
+  -webkit-transition: height 0.5s;
+  transition: height 0.5s;
+}
+@media screen and (min-width: 960px) {
+  .subnav-collapse .subnavMenuLinks {
+    position: static;
+    display: inline;
+  }
+}
+.subnav-collapse .subnavMenuLinks ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+@media screen and (max-width: 960px) {
+  .subnav-collapse .subnavMenuLinks ul li {
+    margin: 0;
+  }
+}
+.subnav-collapse .subnavMenuLinks .subnavLink {
+  border-top: 1px solid rgba(255, 255, 255, 0.2);
+  float: none;
+}
+@media screen and (min-width: 960px) {
+  .subnav-collapse .subnavMenuLinks .subnavLink {
+    margin-bottom: 0;
+    display: inline-block;
+    border: none;
+  }
+}
+.subnav-collapse .subnavMenuLinks .subnavLink a,
+.subnav-collapse .subnavMenuLinks .subnavLink a:visited,
+.subnav-collapse .subnavMenuLinks .subnavLink a:focus {
+  color: #ffffff;
+  padding: 10px 0;
+  display: block;
+}
+@media screen and (min-width: 960px) {
+  .subnav-collapse .subnavMenuLinks .subnavLink a,
+  .subnav-collapse .subnavMenuLinks .subnavLink a:visited,
+  .subnav-collapse .subnavMenuLinks .subnavLink a:focus {
+    display: inline;
+  }
+}
+.subnav-collapse .subnavMenuLinks .subnavLink a.active {
+  color: #f2c811;
+}
+.subnav-collapse .subnavMenuLinks .subnavLink a.active:hover {
+  text-decoration: none;
+  cursor: default;
+}
+div.subnav-collapse-tab:not(.active) {
+  display: none;
+}

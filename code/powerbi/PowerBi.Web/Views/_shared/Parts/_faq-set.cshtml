@@ -1,0 +1,13 @@
+﻿@model PowerBI.Web.Models.Parts.FaqSet
+
+<ol>
+    @foreach (var faq in Model.Faqs)
+    {
+        <li>
+            <a href="#" class="toggler">@faq.Key</a>
+            <div class="toggled" data-animation="slide">
+                @faq.Value
+            </div>
+        </li>
+    }
+</ol>

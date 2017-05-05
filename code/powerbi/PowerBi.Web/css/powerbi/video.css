@@ -1,0 +1,30 @@
+﻿.video {
+  display: block;
+  position: relative;
+}
+.video .icon {
+  left: 50%;
+  position: absolute;
+  top: 50%;
+  -ms-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  height: 15%;
+  width: 11%;
+}
+.video img {
+  width: 100%;
+}
+.inline-video-container .inline-video-wrapper {
+  width: 100%;
+}
+@media only screen and (min-width: 960px) {
+  .inline-video-container .inline-video-wrapper {
+    -ms-transform: translate(0, -50%);
+    -o-transform: translate(0, -50%);
+    -webkit-transform: translate(0, -50%);
+    transform: translate(0, -50%);
+    top: 50%;
+  }
+}

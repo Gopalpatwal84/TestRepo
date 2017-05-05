@@ -1,0 +1,1416 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" id="root">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="access_Content" xml:space="preserve">
+    <value>Fassen Sie Ihre Daten zentral zusammen, vereinfachen Sie sie mit selbst erstellten Abfragen, und teilen Sie sie in visuell starken Berichten.</value>
+  </data>
+  <data name="access_Heading" xml:space="preserve">
+    <value>Analysieren und visualisieren Sie Ihre Access-Daten</value>
+  </data>
+  <data name="access_InfoContent" xml:space="preserve">
+    <value>&lt;h3&gt;Bringen Sie Ihre Daten zusammen&lt;/h3&gt;
+&lt;p&gt;Importieren Sie große Datenvolumen von mehreren Quellen in Power BI Desktop. Bearbeiten Sie Ihre Daten, bevor Sie sie einbringen, oder modellieren und formen Sie Daten um, nachdem sie importiert wurden.&lt;/p&gt;
+&lt;h3&gt;Untersuchen Sie Ihre Daten jenseits der gewohnten Wege&lt;/h3&gt;
+&lt;p&gt;Untersuchen Sie Ihre Daten visuell mit einer Vielzahl von anpassbaren Berichten. Erstellen Sie Visualisierungen, indem Sie die gewünschten Felder einfach ziehen und ablegen. Wählen Sie aus einer großen Zahl von Diagrammen aus, um die Geschichte hinter Ihren Daten zu erzählen.&lt;/p&gt;
+&lt;h3&gt;Lassen Sie Ihre Daten für sich arbeiten&lt;/h3&gt;
+&lt;p&gt;Nachdem Sie Ihren Bericht erstellt haben, können Sie die Datei einfach wie jede andere Datei teilen. Sie können sie auch im Power BI-Dienst veröffentlichen, dann können Kollegen damit interagieren.&lt;/p&gt;</value>
+  </data>
+  <data name="access_InfoHeading" xml:space="preserve">
+    <value>Durch das Verbinden mit Power BI können Sie sich alle Daten an einem Ort anzeigen lassen und effizientere Entscheidungen treffen – schneller denn je.</value>
+  </data>
+  <data name="access_Name" xml:space="preserve">
+    <value>Access</value>
+  </data>
+  <data name="active_directory_Content" xml:space="preserve">
+    <value>Fassen Sie Ihre Daten zentral zusammen, vereinfachen Sie sie mit selbst erstellten Abfragen, und teilen Sie sie in visuell starken Berichten.  </value>
+  </data>
+  <data name="active_directory_Heading" xml:space="preserve">
+    <value>Analysieren und visualisieren Sie Ihre Active Directory-Daten</value>
+  </data>
+  <data name="active_directory_InfoContent" xml:space="preserve">
+    <value>&lt;h3&gt;Bringen Sie Ihre Daten zusammen&lt;/h3&gt;
+&lt;p&gt;Importieren Sie große Datenvolumen von mehreren Quellen in Power BI Desktop. Bearbeiten Sie Ihre Daten, bevor Sie sie einbringen, oder modellieren und formen Sie Daten um, nachdem sie importiert wurden.&lt;/p&gt;
+&lt;h3&gt;Untersuchen Sie Ihre Daten jenseits der gewohnten Wege&lt;/h3&gt;
+&lt;p&gt;Untersuchen Sie Ihre Daten visuell mit einer Vielzahl von anpassbaren Berichten. Erstellen Sie Visualisierungen, indem Sie die gewünschten Felder einfach ziehen und ablegen. Wählen Sie aus einer großen Zahl von Diagrammen aus, um die Geschichte hinter Ihren Daten zu erzählen.&lt;/p&gt;
+&lt;h3&gt;Lassen Sie Ihre Daten für sich arbeiten&lt;/h3&gt;
+&lt;p&gt;Nachdem Sie Ihren Bericht erstellt haben, können Sie die Datei einfach wie jede andere Datei teilen. Sie können sie auch im Power BI-Dienst veröffentlichen, dann können Kollegen damit interagieren.&lt;/p&gt;</value>
+  </data>
+  <data name="active_directory_InfoHeading" xml:space="preserve">
+    <value>Durch das Verbinden mit Power BI können Sie sich alle Daten an einem Ort anzeigen lassen und effizientere Entscheidungen treffen – schneller denn je.</value>
+  </data>
+  <data name="active_directory_Name" xml:space="preserve">
+    <value>Active Directory</value>
+  </data>
+  <data name="acumatica_Content" xml:space="preserve">
+    <value>Behalten Sie die Pipeline Ihrer Verkaufschancen im Blick, überwachen Sie den Status, und verfolgen Sie den Fortschritt Ihrer Projekte in Echtzeit mit dem Acumatica-Inhaltspaket in Power BI.</value>
+  </data>
+  <data name="acumatica_Heading" xml:space="preserve">
+    <value>Gewinnen Sie echte Einsichten aus Ihren Acumatica-Daten</value>
+  </data>
+  <data name="acumatica_InfoContent" xml:space="preserve">
+    <value>&lt;h3&gt;Erhalten Sie Antworten, mit denen Sie etwas anfangen können&lt;/h3&gt;
+&lt;p&gt;Stellen Sie sich vor, eine Abfrage für E-Commerce-Verkaufschancen nach Zeit, Menge oder Region auszuführen – oder einer Kombination dieser Faktoren – und die Antwort in Form einer beeindruckenden, interaktiven Visualisierung zu erhalten. In Power BI können Sie Fragen in natürlicher Sprache stellen und erhalten die Antworten von Acumatica in einer sinnfälligen, aussagekräftigen Form.&lt;/p&gt;
+&lt;h3&gt;Lassen Sie die Daten für sich arbeiten&lt;/h3&gt;
+&lt;p&gt;Sie sehen den Return on Investment unmittelbar, da Power BI und Acumatica Ihnen helfen, großartige Verkaufschancen zu erkennen, in einer Form, auf die Sie unmittelbar reagieren können.&lt;/p&gt;
+&lt;h3&gt;Untersuchen Sie Ihre Daten jenseits der gewohnten Wege&lt;/h3&gt;
+&lt;p&gt;Allgemeine Daten sind schön und gut, aber mit spezifischen Daten lässt sich mehr anfangen. Wenn Sie Ihre Daten mit dem Drag &amp;amp; Drop-Zeichenbereich mit Freiformunterstützung in Power BI untersuchen, können Sie die Elemente finden und hervorheben, die Ihnen wichtig sind. Verfassen Sie anschließend Berichte, indem Sie aus einer großen Bandbreite Ihre moderne Visualisierung auswählen.&lt;/p&gt;</value>
+  </data>
+  <data name="acumatica_InfoHeading" xml:space="preserve">
+    <value>Sie können jetzt in Echtzeit Einsichten aus Acumatica-Daten gewinnen, indem Sie eine Verbindung mithilfe von Power BI herstellen</value>
+  </data>
+  <data name="acumatica_Name" xml:space="preserve">
+    <value>Acumatica</value>
+  </data>
+  <data name="adobe_analytics_Content" xml:space="preserve">
+    <value>Verfolgen Sie Ihre individuellen Benutzer nach, überwachen Sie die Zeit, die im Mittel auf Ihrer Website verbracht wird, oder untersuchen Sie die Details der Seitenaufrufe.</value>
+  </data>
+  <data name="adobe_analytics_Heading" xml:space="preserve">
+    <value>Visualisieren und durchsuchen Sie Ihre Adobe Analytics-Daten</value>
+  </data>
+  <data name="adobe_analytics_InfoContent" xml:space="preserve">
+    <value>&lt;h3&gt;Untersuchen Sie die Metriken, die für Sie wichtig sind&lt;/h3&gt;
+&lt;p&gt;Jede Visualisierung auf dem Dashboard stellt wichtige Metriken des Berichts ins Zentrum. Klicken Sie auf eine Visualisierung, um auf die ihr zugrunde liegenden Daten zuzugreifen. Ein Drilldown in die Daten verhilft Ihnen zu neuen Einsichten.&lt;/p&gt;
+&lt;h3&gt;Passen Sie Ihr Dashboard und Ihre Berichte an&lt;/h3&gt;
+&lt;p&gt;Wechseln Sie in der Berichtsansicht in den Bearbeitungsmodus, und wählen Sie die Felder aus, die Sie überwachen möchten. Jede der Visualisierungen des Berichts kann an das Dashboard angeheftet werden.&lt;/p&gt;
+&lt;h3&gt;Aktualisieren Sie nach Ihrem eigenen Zeitplan&lt;/h3&gt;
+&lt;p&gt;Stellen Sie eine Verbindung mit Power BI her, um das vorkonfigurierte Dashboard anzuzeigen. Nach der anfänglichen Berichterstellung werden Dashboard und Berichte fortlaufend täglich aktualisiert. Sie können den Aktualisierungszeitplan steuern, um Berichte bei Bedarf abzurufen.&lt;/p&gt;</value>
+  </data>
+  <data name="adobe_analytics_InfoHeading" xml:space="preserve">
+    <value>Mit Power BI können Sie Ihre Datenmetriken auf einem einzelnen Dashboard visualisieren und so Unterstützung für bessere Entscheidungen erhalten. </value>
+  </data>
+  <data name="adobe_analytics_Name" xml:space="preserve">
+    <value>Adobe Analytics</value>
+  </data>
+  <data name="analysis_server_Content" xml:space="preserve">
+    <value>Interagieren Sie mit großen Datenvolumina, erstellen Sie dynamische Berichte und Mashups, und gewinnen Sie Einsichten aus Datenvisualisierungen.</value>
+  </data>
+  <data name="analysis_server_Heading" xml:space="preserve">
+    <value>Analysieren und visualisieren Sie Ihre SQL Server Analysis Services-Daten</value>
+  </data>
+  <data name="analysis_server_InfoContent" xml:space="preserve">
+    <value>&lt;h3&gt;Erstellen Sie Abfragen und Visualisierungen Ihrer Daten&lt;/h3&gt;
+&lt;p&gt;Verbinden Sie ihre Datenbank einfach mit Power BI, und erstellen Sie dynamische Mashups aus Daten und Metriken, über die Sie bereits verfügen.&lt;/p&gt;
+&lt;h3&gt;Untersuchen Sie Ihre Daten jenseits der gewohnten Wege&lt;/h3&gt;
+&lt;p&gt;Ob Sie relationale und nicht relationale Daten kombinieren, um ein umfassenderes Bild zu erhalten, oder dynamische Berichte erstellen möchten, um neue Einblicke freizugeben, mit Power BI können Sie Ihre Daten jenseits der gewohnten Wege untersuchen.&lt;/p&gt;
+&lt;h3&gt;Lassen Sie Ihre Daten für sich arbeiten&lt;/h3&gt;
+&lt;p&gt;Führen Sie Ihre Daten an einem Ort zusammen, und verschaffen Sie sich schnell die 360-Grad-Rundumsicht Ihres Unternehmens. Interagieren Sie mit Ihren Daten, um Antworten zu erhalten, und erstellen Sie visuell aussagekräftige Berichte, die die Geschichte erzählen, die in Ihren Daten steckt.&lt;/p&gt;</value>
+  </data>
+  <data name="analysis_server_InfoHeading" xml:space="preserve">
+    <value>Durch das Verbinden mit Power BI können Sie sich alle Daten an einem Ort anzeigen lassen und effizientere Entscheidungen treffen – schneller denn je.</value>
+  </data>
+  <data name="analysis_server_Name" xml:space="preserve">
+    <value>SQL Server Analysis Services</value>
+  </data>
+  <data name="appfigures_Content" xml:space="preserve">
+    <value>Überwachen Sie, wie Benutzer Ihre App verwenden, indem Sie wichtige Statistiken nachverfolgen. Mit Power BI und dem appFigures-Inhaltspaket geht das ganz einfach.</value>
+  </data>
+  <data name="appfigures_Heading" xml:space="preserve">
+    <value>Untersuchen und analysieren Sie Ihre appFigures-Daten</value>
+  </data>
+  <data name="appfigures_InfoContent" xml:space="preserve">
+    <value>&lt;h3&gt;Erhalten Sie klare Antworten auf Ihre Fragen zur App-Nutzung&lt;/h3&gt;
+&lt;p&gt;Stellen Sie eine Frage zu Ihren Daten, etwa, wie häufig die App in einem bestimmten Zeitraum heruntergeladen wurde. Oder zeigen Sie Aktivitäten regional und nach anderen Parametern durch Klicken an.&lt;/p&gt;
+&lt;h3&gt;Untersuchen Sie Ihre Daten auf neuartige Weise&lt;/h3&gt;
+&lt;p&gt;Sie können Ihre Daten untersuchen, indem Sie eine Power BI-Kachel auswählen und einen Drilldown in den zugrunde liegenden Bericht vornehmen. Wenn Sie mit dem Mauszeiger auf ein Element zeigen, werden weitere Details angezeigt. App-Verkäufe, Downloads und Werbestatistiken lassen sich einfach analysieren.&lt;/p&gt;
+&lt;h3&gt;Machen Sie sich die Aussagekraft Ihrer App-Daten zunutze&lt;/h3&gt;
+&lt;p&gt;Verwenden Sie Power BI, um appFigures-Daten abzurufen, untersuchen Sie Ihr Dataset mit modernen Visualisierungen, und erstellen Sie leicht lesbare Berichte, um bessere Einblicke zu gewinnen. Die Ergebnisse können auch an Ihr Dashboard angeheftet werden.&lt;/p&gt;</value>
+  </data>
+  <data name="appfigures_InfoHeading" xml:space="preserve">
+    <value>Sie können Daten zur App-Nutzung schnell interpretieren und auf Ihre Erkenntnisse reagieren, indem Sie eine Verbindung mit appFigures durch Ihr Power BI-Konto herstellen</value>
+  </data>
+  <data name="appfigures_Name" xml:space="preserve">
+    <value>appFigures</value>
+  </data>
+  <data name="azure_audit_logs_Content" xml:space="preserve">
+    <value>Analysieren und visualisieren Sie die Informationen in Ihren Azure-Überwachungsprotokollen, um neue Einsichten zu gewinnen.</value>
+  </data>
+  <data name="azure_audit_logs_Heading" xml:space="preserve">
+    <value>Visualisieren Sie Ihre Azure-Überwachungsprotokolle mit Power BI</value>
+  </data>
+  <data name="azure_audit_logs_InfoContent" xml:space="preserve">
+    <value>&lt;h3&gt;Sehen Sie alle Ihre Daten an einem Ort&lt;/h3&gt;
+&lt;p&gt;Stellen Sie eine Verbindung mit Power BI her, um ein anpassbares Dashboard anzuzeigen. Die Kacheln auf dem Dashboard geben Einblick in spezifische Vorgänge oder Ereignisse.&lt;/p&gt;
+&lt;h3&gt;Mit Drilldowns gewinnen Sie neue Einsichten&lt;/h3&gt;
+&lt;p&gt;Klicken Sie auf ein beliebiges visuelles Element auf dem Dashboard, um einen detaillierten Bericht anzuzeigen. Filtern Sie den Bericht, oder fügen Sie Felder hinzu, die Sie überwachen möchten. Heften Sie diese Ansicht an das Dashboard an.&lt;/p&gt;
+&lt;h3&gt;Dynamische Daten immer zur Hand&lt;/h3&gt;
+&lt;p&gt;Sobald Sie Ihre Daten mit Power BI verbunden haben, werden das Dashboard und die zugrundeliegenden Berichte täglich aktualisiert. Benötigen Sie einen anderen Zeitplan? Sie können den Aktualisierungszeitplan für das Dataset steuern.&lt;/p&gt;</value>
+  </data>
+  <data name="azure_audit_logs_InfoHeading" xml:space="preserve">
+    <value>Mit Power BI können Sie die Daten in Ihren Azure-Überwachungsprotokollen visualisieren und so neue Einblicke freilegen, die Ihnen helfen, bessere Entscheidungen zu treffen.</value>
+  </data>
+  <data name="azure_audit_logs_Name" xml:space="preserve">
+    <value>Azure-Überwachungsprotokolle</value>
+  </data>
+  <data name="azure_blob_storage_Content" xml:space="preserve">
+    <value>Mithilfe von Power BI können Sie Ihre Datenvolumen in praktisch allen Datenbanken in interaktive Berichte und Dashboards mit aussagekräftigen Visualisierungen umwandeln, die einfach freigegeben werden können.</value>
+  </data>
+  <data name="azure_blob_storage_Heading" xml:space="preserve">
+    <value>Gewinnen sinnvoller Erkenntnisse aus Ihren riesigen Datenmengen</value>
+  </data>
+  <data name="azure_blob_storage_InfoContent" xml:space="preserve">
+    <value>&lt;h3&gt;Erstellen Sie Abfragen und Visualisierungen Ihrer Daten&lt;/h3&gt;
+&lt;p&gt;Verbinden Sie ihre Datenbank einfach mit Power BI, und erstellen Sie dynamische Mashups aus Daten und Metriken, über die Sie bereits verfügen.&lt;/p&gt;
+&lt;h3&gt;Untersuchen Sie Ihre Daten jenseits der gewohnten Wege&lt;/h3&gt;
+&lt;p&gt;Ob Sie relationale und nicht relationale Daten kombinieren, um ein umfassenderes Bild zu erhalten, oder dynamische Berichte erstellen möchten, um neue Einblicke freizugeben, mit Power BI können Sie Ihre Daten jenseits der gewohnten Wege untersuchen.&lt;/p&gt;
+&lt;h3&gt;Lassen Sie Ihre Daten für sich arbeiten&lt;/h3&gt;
+&lt;p&gt;Führen Sie Ihre Daten an einem Ort zusammen, und verschaffen Sie sich schnell die 360-Grad-Rundumsicht Ihres Unternehmens. Interagieren Sie mit Ihren Daten, um Antworten zu erhalten, und erstellen Sie visuell aussagekräftige Berichte, die die Geschichte erzählen, die in Ihren Daten steckt.&lt;/p&gt;</value>
+  </data>
+  <data name="azure_blob_storage_InfoHeading" xml:space="preserve">
+    <value>Durch das Verbinden mit Power BI können Sie sich alle Daten an einem Ort anzeigen lassen und effizientere Entscheidungen treffen – schneller denn je.</value>
+  </data>
+  <data name="azure_blob_storage_Name" xml:space="preserve">
+    <value>Azure-BLOB-Speicher</value>
+  </data>
+  <data name="azure_documentdb_Content" xml:space="preserve">
+    <value>Mithilfe von Power BI können Sie Ihre Datenvolumen in praktisch allen Datenbanken in interaktive Berichte und Dashboards mit aussagekräftigen Visualisierungen umwandeln, die einfach freigegeben werden können.</value>
+  </data>
+  <data name="azure_documentdb_Heading" xml:space="preserve">
+    <value>Gewinnen sinnvoller Erkenntnisse aus Ihren riesigen Datenmengen</value>
+  </data>
+  <data name="azure_documentdb_InfoContent" xml:space="preserve">
+    <value>&lt;h3&gt;Erstellen Sie Abfragen und Visualisierungen Ihrer Daten&lt;/h3&gt;
+&lt;p&gt;Verbinden Sie ihre Datenbank einfach mit Power BI, und erstellen Sie dynamische Mashups aus Daten und Metriken, über die Sie bereits verfügen.&lt;/p&gt;
+&lt;h3&gt;Untersuchen Sie Ihre Daten jenseits der gewohnten Wege&lt;/h3&gt;
+&lt;p&gt;Ob Sie relationale und nicht relationale Daten kombinieren, um ein umfassenderes Bild zu erhalten, oder dynamische Berichte erstellen möchten, um neue Einblicke freizugeben, mit Power BI können Sie Ihre Daten jenseits der gewohnten Wege untersuchen.&lt;/p&gt;
+&lt;h3&gt;Lassen Sie Ihre Daten für sich arbeiten&lt;/h3&gt;
+&lt;p&gt;Führen Sie Ihre Daten an einem Ort zusammen, und verschaffen Sie sich schnell die 360-Grad-Rundumsicht Ihres Unternehmens. Interagieren Sie mit Ihren Daten, um Antworten zu erhalten, und erstellen Sie visuell aussagekräftige Berichte, die die Geschichte erzählen, die in Ihren Daten steckt.&lt;/p&gt;</value>
+  </data>
+  <data name="azure_documentdb_InfoHeading" xml:space="preserve">
+    <value>Durch das Verbinden mit Power BI können Sie sich alle Daten an einem Ort anzeigen lassen und effizientere Entscheidungen treffen – schneller denn je.</value>
+  </data>
+  <data name="azure_documentdb_Name" xml:space="preserve">
+    <value>Azure DocumentDB (Beta)</value>
+  </data>
+  <data name="azure_marketplace_Content" xml:space="preserve">
+    <value>Überwachen und steigern Sie Ihre Marketplace-Verkäufe mithilfe sofort verfügbarer Berichte und dynamischer Dashboards zu Verkauf, Downloads und Installationen.</value>
+  </data>
+  <data name="azure_marketplace_Heading" xml:space="preserve">
+    <value>Verwalten von Azure Marketplace-Vertriebsanalysen</value>
+  </data>
+  <data name="azure_marketplace_InfoContent" xml:space="preserve">
+    <value>&lt;h3&gt;Interagieren Sie mit Ihren Daten&lt;/h3&gt;
+&lt;p&gt;Sobald die Verbindung hergestellt ist, werden Ihre Daten auf dem vorkonfigurierten Dashboard angezeigt, das aus mehrere Visualisierungen oder Kacheln besteht. Klicken Sie auf eine beliebige Kachel, um den ihr zugrunde liegenden Bericht zu untersuchen. Filtern Sie die Daten, oder bearbeiten Sie die anzuzeigenden Felder, um die Metriken zu sehen, die Ihnen wichtig sind.&lt;/p&gt;
+&lt;h3&gt;Stellen Sie Fragen, und erhalten Sie Antworten&lt;/h3&gt;
+&lt;p&gt;Wenn Sie die „Belastungen gesamt nach Datum“ anzeigen möchten, erhalten Sie eine beeindruckende, interaktive Visualisierung als Antwort. Mit Power BI können Sie Fragen in natürlicher Sprache stellen und bekommen die passenden Diagramme zur Antwort.&lt;/p&gt;
+&lt;h3&gt;Aktualisieren Sie nach Ihrem eigenen Zeitplan&lt;/h3&gt;
+&lt;p&gt;Das Dashboard und die ihm zugrunde liegenden Berichte werden täglich aktualisiert. Sie können den Aktualisierungszeitplan steuern und die Häufigkeit für das Dataset ändern.&lt;/p&gt;</value>
+  </data>
+  <data name="azure_marketplace_InfoHeading" xml:space="preserve">
+    <value>Durch das Verbinden mit Power BI können Sie sich alle Daten an einem Ort anzeigen lassen und effizientere Entscheidungen treffen – schneller denn je.</value>
+  </data>
+  <data name="azure_marketplace_Name" xml:space="preserve">
+    <value>Azure Marketplace</value>
+  </data>
+  <data name="azure_mobile_engagement_Content" xml:space="preserve">
+    <value>Verfolgen Sie neue und aktive Benutzer nach, oder überwachen Sie Absturz- und Fehlerstatistiken. Passen Sie Ihr Dashboard an, um die für Sie wichtigen Metriken nachzuverfolgen.</value>
+  </data>
+  <data name="azure_mobile_engagement_Heading" xml:space="preserve">
+    <value>Überwachen Sie Ihre Azure Mobile Engagement-Daten in Power BI</value>
+  </data>
+  <data name="azure_mobile_engagement_InfoContent" xml:space="preserve">
+    <value>&lt;h3&gt;Verschaffen Sie sich den globalen Überblick&lt;/h3&gt;
+&lt;p&gt;Wenn Sie die Verbindung mit Power BI herstellen, werden Ihre Daten auf einem vorkonfigurierten Dashboard angezeigt, das wichtige Metriken hervorhebt. Zeigen Sie Metriken zu den Benutzern, der Sitzungslänge, der Geräteanzahl und vielem mehr an. Klicken Sie auf eine beliebige Kachel, um den ihr zugrunde liegenden Bericht anzuzeigen.&lt;/p&gt;
+&lt;h3&gt;Untersuchen Sie Ihre Daten jenseits der gewohnten Wege&lt;/h3&gt;
+&lt;p&gt;Wenn Sie auf dem Dashboard auf eine Kachel klicken, erhalten Sie Zugriff auf weitere Daten, die Sie filtern oder bearbeiten können. Passen Sie die Berichte an, um die für Sie wichtigen Daten nachzuverfolgen. Heften Sie Ihre bevorzugten Berichte an das Dashboard an.&lt;/p&gt;
+&lt;h3&gt;Aktualisieren Sie nach Ihrem eigenen Zeitplan&lt;/h3&gt;
+&lt;p&gt;Sobald Sie Ihre Daten mit Power BI verbunden haben, werden das Dashboard und die zugrundeliegenden Berichte täglich aktualisiert. Benötigen Sie einen anderen Zeitplan? Sie können den Aktualisierungszeitplan für das Dataset steuern.&lt;/p&gt;</value>
+  </data>
+  <data name="azure_mobile_engagement_InfoHeading" xml:space="preserve">
+    <value>Indem Sie Ihr Azure Mobile Engagement-Konto mit Power BI verbinden, können Sie Ihre Daten an einem Ort visualisieren, um schneller bessere Entscheidungen zu treffen.</value>
+  </data>
+  <data name="azure_mobile_engagement_Name" xml:space="preserve">
+    <value>Azure Mobile Engagement</value>
+  </data>
+  <data name="azure_sql_database_Content" xml:space="preserve">
+    <value>Interagieren Sie mit großen Datenvolumina, erstellen Sie dynamische Berichte und Mashups, und gewinnen Sie Einsichten aus Datenvisualisierungen.</value>
+  </data>
+  <data name="azure_sql_database_Heading" xml:space="preserve">
+    <value>Analysieren und visualisieren Sie Ihre Daten aus Azure SQL Database</value>
+  </data>
+  <data name="azure_sql_database_InfoContent" xml:space="preserve">
+    <value>&lt;h3&gt;Erstellen Sie Abfragen und Visualisierungen Ihrer Daten&lt;/h3&gt;
+&lt;p&gt;Verbinden Sie ihre Datenbank einfach mit Power BI, und erstellen Sie dynamische Mashups aus Daten und Metriken, über die Sie bereits verfügen.&lt;/p&gt;
+&lt;h3&gt;Untersuchen Sie Ihre Daten jenseits der gewohnten Wege&lt;/h3&gt;
+&lt;p&gt;Ob Sie relationale und nicht relationale Daten kombinieren, um ein umfassenderes Bild zu erhalten, oder dynamische Berichte erstellen möchten, um neue Einblicke freizugeben, mit Power BI können Sie Ihre Daten jenseits der gewohnten Wege untersuchen.&lt;/p&gt;
+&lt;h3&gt;Lassen Sie Ihre Daten für sich arbeiten&lt;/h3&gt;
+&lt;p&gt;Führen Sie Ihre Daten an einem Ort zusammen, und verschaffen Sie sich schnell die 360-Grad-Rundumsicht Ihres Unternehmens. Interagieren Sie mit Ihren Daten, um Antworten zu erhalten, und erstellen Sie visuell aussagekräftige Berichte, die die Geschichte erzählen, die in Ihren Daten steckt.&lt;/p&gt;</value>
+  </data>
+  <data name="azure_sql_database_InfoHeading" xml:space="preserve">
+    <value>Durch das Verbinden mit Power BI können Sie sich alle Daten an einem Ort anzeigen lassen und effizientere Entscheidungen treffen – schneller denn je.</value>
+  </data>
+  <data name="azure_sql_database_Name" xml:space="preserve">
+    <value>Azure SQL-Datenbank</value>
+  </data>
+  <data name="azure_sql_data_warehouse_Content" xml:space="preserve">
+    <value>Interagieren Sie mit großen Datenvolumina, erstellen Sie dynamische Berichte und Mashups, und gewinnen Sie Einsichten aus Datenvisualisierungen.</value>
+  </data>
+  <data name="azure_sql_data_warehouse_Heading" xml:space="preserve">
+    <value>Analysieren und visualisieren Sie Ihre Daten aus Azure SQL Data Warehouse</value>
+  </data>
+  <data name="azure_sql_data_warehouse_InfoContent" xml:space="preserve">
+    <value>&lt;h3&gt;Erstellen Sie Abfragen und Visualisierungen Ihrer Daten&lt;/h3&gt;
+&lt;p&gt;Verbinden Sie ihre Datenbank einfach mit Power BI, und erstellen Sie dynamische Mashups aus Daten und Metriken, über die Sie bereits verfügen.&lt;/p&gt;
+&lt;h3&gt;Untersuchen Sie Ihre Daten jenseits der gewohnten Wege&lt;/h3&gt;
+&lt;p&gt;Ob Sie relationale und nicht relationale Daten kombinieren, um ein umfassenderes Bild zu erhalten, oder dynamische Berichte erstellen möchten, um neue Einblicke freizugeben, mit Power BI können Sie Ihre Daten jenseits der gewohnten Wege untersuchen.&lt;/p&gt;
+&lt;h3&gt;Lassen Sie Ihre Daten für sich arbeiten&lt;/h3&gt;
+&lt;p&gt;Führen Sie Ihre Daten an einem Ort zusammen, und verschaffen Sie sich schnell die 360-Grad-Rundumsicht Ihres Unternehmens. Interagieren Sie mit Ihren Daten, um Antworten zu erhalten, und erstellen Sie visuell aussagekräftige Berichte, die die Geschichte erzählen, die in Ihren Daten steckt.&lt;/p&gt;</value>
+  </data>
+  <data name="azure_sql_data_warehouse_InfoHeading" xml:space="preserve">
+    <value>Durch das Verbinden mit Power BI können Sie sich alle Daten an einem Ort anzeigen lassen und effizientere Entscheidungen treffen – schneller denn je.</value>
+  </data>
+  <data name="azure_sql_data_warehouse_Name" xml:space="preserve">
+    <value>Azure SQL Data Warehouse</value>
+  </data>
+  <data name="azure_table_storage_Content" xml:space="preserve">
+    <value>Mithilfe von Power BI können Sie Ihre Datenvolumen in praktisch allen Datenbanken in interaktive Berichte und Dashboards mit aussagekräftigen Visualisierungen umwandeln, die einfach freigegeben werden können.</value>
+  </data>
+  <data name="azure_table_storage_Heading" xml:space="preserve">
+    <value>Gewinnen sinnvoller Erkenntnisse aus Ihren riesigen Datenmengen</value>
+  </data>
+  <data name="azure_table_storage_InfoContent" xml:space="preserve">
+    <value>&lt;h3&gt;Erstellen Sie Abfragen und Visualisierungen Ihrer Daten&lt;/h3&gt;
+&lt;p&gt;Verbinden Sie ihre Datenbank einfach mit Power BI, und erstellen Sie dynamische Mashups aus Daten und Metriken, über die Sie bereits verfügen.&lt;/p&gt;
+&lt;h3&gt;Untersuchen Sie Ihre Daten jenseits der gewohnten Wege&lt;/h3&gt;
+&lt;p&gt;Ob Sie relationale und nicht relationale Daten kombinieren, um ein umfassenderes Bild zu erhalten, oder dynamische Berichte erstellen möchten, um neue Einblicke freizugeben, mit Power BI können Sie Ihre Daten jenseits der gewohnten Wege untersuchen.&lt;/p&gt;
+&lt;h3&gt;Lassen Sie Ihre Daten für sich arbeiten&lt;/h3&gt;
+&lt;p&gt;Führen Sie Ihre Daten an einem Ort zusammen, und verschaffen Sie sich schnell die 360-Grad-Rundumsicht Ihres Unternehmens. Interagieren Sie mit Ihren Daten, um Antworten zu erhalten, und erstellen Sie visuell aussagekräftige Berichte, die die Geschichte erzählen, die in Ihren Daten steckt.&lt;/p&gt;</value>
+  </data>
+  <data name="azure_table_storage_InfoHeading" xml:space="preserve">
+    <value>Durch das Verbinden mit Power BI können Sie sich alle Daten an einem Ort anzeigen lassen und effizientere Entscheidungen treffen – schneller denn je.</value>
+  </data>
+  <data name="azure_table_storage_Name" xml:space="preserve">
+    <value>Azure-Tabellenspeicher</value>
+  </data>
+  <data name="circuit_id_Content" xml:space="preserve">
+    <value>Verfolgen Sie Ihre Anrufe und Nachrichten, einschließlich Metriken, wie etwa der Anzahl der Anrufe nach Tageszeit, der Anrufart, der Gesprächsdauer usw.</value>
+  </data>
+  <data name="circuit_id_Heading" xml:space="preserve">
+    <value>Verfolgen und überwachen Sie Ihre Circuit ID-Daten</value>
+  </data>
+  <data name="circuit_id_InfoContent" xml:space="preserve">
+    <value>&lt;h3&gt;Sehen Sie alle Ihre Daten an einem Ort&lt;/h3&gt;
+&lt;p&gt;Stellen Sie die Verbindung mit Power BI her, um ein geordnetes Dashboard und einen Bericht anzuzeigen, die Ihnen unmittelbar aus Ihren Daten gewonnene Einsichten präsentieren. Klicken Sie auf eine beliebige Kachel, um einen Drilldown in die Daten auszuführen und weitere Informationen anzuzeigen.&lt;/p&gt;
+&lt;h3&gt;Stellen Sie Fragen, und erhalten Sie Antworten&lt;/h3&gt;
+&lt;p&gt;Wenn Sie eine Anfrage wie „Zeige mir die Anzahl der Anrufe nach Datum an“ eingeben, erhalten Sie eine beeindruckende, interaktive Visualisierung zur Antwort. Mit Power BI können Sie Fragen in natürlicher Sprache stellen und bekommen die passenden Diagramme zur Antwort.&lt;/p&gt;
+&lt;h3&gt;Passen Sie Ihr Dashboard und Ihre Berichte an&lt;/h3&gt;
+&lt;p&gt;Wechseln Sie direkt aus der Berichtsansicht in den Bearbeitungsmodus, und wählen Sie die Felder aus, die Sie überwachen möchten. Jede der Visualisierungen des Berichts kann an das Dashboard angeheftet werden.&lt;/p&gt;</value>
+  </data>
+  <data name="circuit_id_InfoHeading" xml:space="preserve">
+    <value>Wenn Sie Circuit ID mit Power BI verbinden, können Sie alle Ihre Daten an einem Ort visualisieren und neue Einblicke zum Vorschein bringen, die Ihnen helfen, bessere Geschäftsentscheidungen zu treffen.</value>
+  </data>
+  <data name="circuit_id_Name" xml:space="preserve">
+    <value>Circuit-ID</value>
+  </data>
+  <data name="comscore_Content" xml:space="preserve">
+    <value>Sehen Sie, wie Ihre Kunden verschiedene Medien verwenden. Gewinnen Sie umsetzbare Erkenntnisse, um den Support für Ihre Kunden zu verbessern.</value>
+  </data>
+  <data name="comscore_Heading" xml:space="preserve">
+    <value>Visualisieren Sie Ihre Webanalysedaten, und gewinnen Sie Einsichten</value>
+  </data>
+  <data name="comscore_InfoContent" xml:space="preserve">
+    <value>&lt;h3&gt;Erhalten Sie visuelle Darstellungen aller Ihrer Daten auf einem einzelnen Dashboard&lt;/h3&gt;
+&lt;p&gt;Sobald Sie Ihr comScore Digital Analytics-Konto mit Power BI verbinden, wird ein vorkonfiguriertes Dashboard angezeigt, mit Kacheln, die eine Visualisierung geordneter Metriken anzeigen, einschließlich der Anzahl der Seitenaufrufe, der Besuche und Webanalysedaten.&lt;/p&gt;
+&lt;h3&gt;Mit Drilldowns gewinnen Sie neue Einsichten&lt;/h3&gt;
+&lt;p&gt;Klicken Sie auf ein beliebiges visuelles Element auf dem Dashboard, um einen detaillierten Bericht anzuzeigen. Filtern Sie den Bericht, oder fügen Sie Felder hinzu, die Sie überwachen möchten. Heften Sie diese Ansicht an das Dashboard an.&lt;/p&gt;
+&lt;h3&gt;Aktualisieren Sie nach Ihrem eigenen Zeitplan&lt;/h3&gt;
+&lt;p&gt;Das Dashboard und die ihm zugrunde liegenden Berichte werden täglich aktualisiert. Sie können steuern, wie oft die Daten aktualisiert werden.&lt;/p&gt;</value>
+  </data>
+  <data name="comscore_InfoHeading" xml:space="preserve">
+    <value>Indem Sie Ihre comScore Digital Analytix-Daten mit Power BI verbinden, erhalten Sie Visualisierungen aller Ihrer wichtigen Daten, die Ihnen helfen, bessere Geschäftsentscheidungen zu treffen.</value>
+  </data>
+  <data name="comscore_Name" xml:space="preserve">
+    <value>comScore</value>
+  </data>
+  <data name="csv_Content" xml:space="preserve">
+    <value>Erstellen Sie anhand Ihrer CSV-Dateien schnell visuelle Berichte, Analysen und Dashboards mit hoher Interaktivität und einfachen Freigabemöglichkeiten.</value>
+  </data>
+  <data name="csv_Heading" xml:space="preserve">
+    <value>Bessere Dashboards und Berichte für Ihre CSV-Dateidaten</value>
+  </data>
+  <data name="csv_InfoContent" xml:space="preserve">
+    <value>&lt;h3&gt;Analysieren und Optimieren&lt;/h3&gt;
+&lt;p&gt;Verschaffen Sie sich mithilfe vorkonfigurierter Analyseberichte, Dashboards und KPIs die richtigen Daten in einer leicht verständlichen Form. Führen Sie Drilldowns mit Filtern und detaillierten Berichten durch, um besser umsetzbare Einsichten zu gewinnen.&lt;/p&gt;
+&lt;h3&gt;Stellen Sie Fragen. Erhalten Sie Antworten.&lt;/h3&gt;
+&lt;p&gt;Stellen Sie Power BI Fragen in natürlicher Sprache, wie z.&amp;#160;B. „Wie viele Benutzer hatten wir im November?“. Die Antwort besteht in einem aktuellen Diagramm, das Sie für die fortlaufende Überwachung an Ihr Dashboard heften können.&lt;/p&gt;
+&lt;h3&gt;Bereitstellen der richtigen Daten für die, die sie brauchen&lt;/h3&gt;
+&lt;p&gt;Heften Sie die wichtigsten Visualisierungen aus benutzerdefinierten Berichten an Ihre Onlinedashboards an, um rasch eine Überwachungs- und Berichterstellungsressource zu erstellen, von der die ganze Organisation profitiert.&lt;/p&gt;</value>
+  </data>
+  <data name="csv_InfoHeading" xml:space="preserve">
+    <value>Durch das Verbinden mit Power BI können Sie sich alle Daten an einem Ort anzeigen lassen und effizientere Entscheidungen treffen – schneller denn je.</value>
+  </data>
+  <data name="csv_Name" xml:space="preserve">
+    <value>CSV</value>
+  </data>
+  <data name="excel_Content" xml:space="preserve">
+    <value>Fassen Sie Ihre Daten zentral zusammen, vereinfachen Sie sie mit selbst erstellten Abfragen, und teilen Sie sie in visuell starken Berichten.</value>
+  </data>
+  <data name="excel_Heading" xml:space="preserve">
+    <value>Analysieren und visualisieren Sie Ihre Excel-Daten</value>
+  </data>
+  <data name="excel_InfoContent" xml:space="preserve">
+    <value>&lt;h3&gt;Bringen Sie Ihre Daten zusammen&lt;/h3&gt;
+&lt;p&gt;Importieren Sie große Datenvolumen von mehreren Quellen in Power BI Desktop. Bearbeiten Sie Ihre Daten, bevor Sie sie einbringen, oder modellieren und formen Sie Daten um, nachdem sie importiert wurden.&lt;/p&gt;
+&lt;h3&gt;Untersuchen Sie Ihre Daten jenseits der gewohnten Wege&lt;/h3&gt;
+&lt;p&gt;Untersuchen Sie Ihre Daten visuell mit einer Vielzahl von anpassbaren Berichten. Erstellen Sie Visualisierungen, indem Sie die gewünschten Felder einfach ziehen und ablegen. Wählen Sie aus einer großen Zahl von Diagrammen aus, um die Geschichte hinter Ihren Daten zu erzählen.&lt;/p&gt;
+&lt;h3&gt;Lassen Sie Ihre Daten für sich arbeiten&lt;/h3&gt;
+&lt;p&gt;Nachdem Sie Ihren Bericht erstellt haben, können Sie die Datei einfach wie jede andere Datei teilen. Sie können sie auch im Power BI-Dienst veröffentlichen, dann können Kollegen damit interagieren.&lt;/p&gt;</value>
+  </data>
+  <data name="excel_InfoHeading" xml:space="preserve">
+    <value>Durch das Verbinden mit Power BI können Sie sich alle Daten an einem Ort anzeigen lassen und effizientere Entscheidungen treffen – schneller denn je.</value>
+  </data>
+  <data name="excel_Name" xml:space="preserve">
+    <value>Excel</value>
+  </data>
+  <data name="exchange_Content" xml:space="preserve">
+    <value>Fassen Sie Ihre Daten zentral zusammen, vereinfachen Sie sie mit selbst erstellten Abfragen, und teilen Sie sie in visuell starken Berichten.</value>
+  </data>
+  <data name="exchange_Heading" xml:space="preserve">
+    <value>Analysieren und visualisieren Sie Ihre Exchange-Daten</value>
+  </data>
+  <data name="exchange_InfoContent" xml:space="preserve">
+    <value>&lt;h3&gt;Bringen Sie Ihre Daten zusammen&lt;/h3&gt;
+&lt;p&gt;Importieren Sie große Datenvolumen von mehreren Quellen in Power BI Desktop. Bearbeiten Sie Ihre Daten, bevor Sie sie einbringen, oder modellieren und formen Sie Daten um, nachdem sie importiert wurden.&lt;/p&gt;
+&lt;h3&gt;Untersuchen Sie Ihre Daten jenseits der gewohnten Wege&lt;/h3&gt;
+&lt;p&gt;Untersuchen Sie Ihre Daten visuell mit einer Vielzahl von anpassbaren Berichten. Erstellen Sie Visualisierungen, indem Sie die gewünschten Felder einfach ziehen und ablegen. Wählen Sie aus einer großen Zahl von Diagrammen aus, um die Geschichte hinter Ihren Daten zu erzählen.&lt;/p&gt;
+&lt;h3&gt;Lassen Sie Ihre Daten für sich arbeiten&lt;/h3&gt;
+&lt;p&gt;Nachdem Sie Ihren Bericht erstellt haben, können Sie die Datei einfach wie jede andere Datei teilen. Sie können sie auch im Power BI-Dienst veröffentlichen, dann können Kollegen damit interagieren.&lt;/p&gt;</value>
+  </data>
+  <data name="exchange_InfoHeading" xml:space="preserve">
+    <value>Indem Sie Microsoft Exchange mit Power BI verbinden, können Sie Ihre Daten visualisieren, Erkenntnisse gewinnen und in kürzerer Zeit bessere Entscheidungen machen</value>
+  </data>
+  <data name="exchange_Name" xml:space="preserve">
+    <value>Exchange</value>
+  </data>
+  <data name="facebook_Content" xml:space="preserve">
+    <value>Verschaffen Sie sich auf einem zentralen Dashboard wichtige Erkenntnisse aus Ihren Facebook-Daten wie Fanzahlen, Interaktionsraten und Besucherstatistiken.</value>
+  </data>
+  <data name="facebook_Heading" xml:space="preserve">
+    <value>Bessere Dashboards und Analysen für Facebook</value>
+  </data>
+  <data name="facebook_InfoContent" xml:space="preserve">
+    <value>&lt;h3&gt;Untersuchen und analysieren Sie Ihre Daten leichter als bisher&lt;/h3&gt;
+&lt;p&gt;Power BI ruft Daten aus Ihrem Facebook-Konto ab und erstellt ein Dashboard und ein Dataset, die Ihnen das Untersuchen Ihrer Daten mithilfe moderner Visualisierungen ermöglichen. Außerdem können Sie Berichte auf einfache Weise erstellen und freigeben.&lt;/p&gt;
+&lt;h3&gt;Erkennen Sie Trends schnell&lt;/h3&gt;
+&lt;p&gt;Verwenden Sie die Facebook-Seitenanalyse in Power BI, um Trends aufzuspüren. Finden Sie heraus, wer Ihre engagiertesten Fans sind, welche Posts am meisten geteilt wurden und wie sich Trends mit der Zeit verändert haben.&lt;/p&gt;
+&lt;h3&gt;Keine Codeerstellung erforderlich&lt;/h3&gt;
+&lt;p&gt;Bei Power BI benötigen Sie keine Programmierkenntnisse, um Ihre Facebook-Seitendaten detailliert zu untersuchen. Die automatische Aktualisierung von Daten hilft Ihnen, auf der Höhe zu bleiben und informierte Entscheidungen zu treffen.&lt;/p&gt;</value>
+  </data>
+  <data name="facebook_InfoHeading" xml:space="preserve">
+    <value>Durch das Verbinden mit Power BI können Sie sich alle Daten an einem Ort anzeigen lassen und effizientere Entscheidungen treffen – schneller denn je.</value>
+  </data>
+  <data name="facebook_Name" xml:space="preserve">
+    <value>Facebook</value>
+  </data>
+  <data name="folder_Content" xml:space="preserve">
+    <value>Erstellen Sie anhand Ihrer Ordnerdateidaten schnell visuelle Berichte, Analysen und Dashboards mit hoher Interaktivität und einfachen Freigabemöglichkeiten.</value>
+  </data>
+  <data name="folder_Heading" xml:space="preserve">
+    <value>Bessere Dashboards und Berichte für Ihre Ordnerdateidaten</value>
+  </data>
+  <data name="folder_InfoContent" xml:space="preserve">
+    <value>&lt;h3&gt;Analysieren und Optimieren&lt;/h3&gt;
+&lt;p&gt;Verschaffen Sie sich mithilfe vorkonfigurierter Analyseberichte, Dashboards und KPIs die richtigen Daten in einer leicht verständlichen Form. Führen Sie Drilldowns mit Filtern und detaillierten Berichten durch, um besser umsetzbare Einsichten zu gewinnen.&lt;/p&gt;
+&lt;h3&gt;Stellen Sie Fragen. Erhalten Sie Antworten.&lt;/h3&gt;
+&lt;p&gt;Stellen Sie Power BI Fragen in natürlicher Sprache, wie z.&amp;#160;B. „Wie viele Benutzer hatten wir im November?“. Die Antwort besteht in einem aktuellen Diagramm, das Sie für die fortlaufende Überwachung an Ihr Dashboard heften können.&lt;/p&gt;
+&lt;h3&gt;Bereitstellen der richtigen Daten für die, die sie brauchen&lt;/h3&gt;
+&lt;p&gt;Heften Sie die wichtigsten Visualisierungen aus benutzerdefinierten Berichten an Ihre Onlinedashboards an, um rasch eine Überwachungs- und Berichterstellungsressource zu erstellen, von der die ganze Organisation profitiert.&lt;/p&gt;</value>
+  </data>
+  <data name="folder_InfoHeading" xml:space="preserve">
+    <value>Durch das Verbinden mit Power BI können Sie sich alle Daten an einem Ort anzeigen lassen und effizientere Entscheidungen treffen – schneller denn je.</value>
+  </data>
+  <data name="folder_Name" xml:space="preserve">
+    <value>Ordner</value>
+  </data>
+  <data name="github_Content" xml:space="preserve">
+    <value>Erhalten Sie Einblick in Ihr GitHub-Repository mit Daten zu den Mitwirkenden, Problemen, Pull Requests und aktiven Benutzern.</value>
+  </data>
+  <data name="github_Title" xml:space="preserve">
+    <value>GitHub-Projektverwaltung</value>
+  </data>
+  <data name="github_InfoContent" xml:space="preserve">
+    <value>&lt;h3&gt;Erhalten Sie Antworten auf Ihre Nutzungsfragen&lt;/h3&gt;
+&lt;p&gt;Visualisieren Sie verschiedene Arten von Repositoryaktivitäten in Power BI, um ganz neue Erkenntnisse zu gewinnen. Fragen Sie nach der Anzahl der Commits, nach den aktivsten Mitwirkenden und den Tageszeiten mit der höchsten Aktivität – und erhalten Sie die Antworten.&lt;/p&gt;
+&lt;h3&gt;Untersuchen Sie Daten in GitHub-Dashboards auf neue Weise&lt;/h3&gt;
+&lt;p&gt;Nutzen Sie die Power BI- und GitHub-Dashboards, um moderne Datenvisualisierungen und -berichte zu erstellen. Verwenden Sie die GitHub-Tools mit den Standardeinstellungen, oder passen Sie Berichte an, um die für Sie wichtigsten Informationen hervorzuheben.&lt;/p&gt;
+&lt;h3&gt;Machen Sie sich in GitHub-Berichten die Aussagekraft Ihrer Repositorydaten zunutze&lt;/h3&gt;
+&lt;p&gt;Mithilfe der Visualisierung von Repositorydaten können Sie Nutzungstrends nachverfolgen, neue Erkenntnisse gewinnen und Ihre Projekte effizienter gestalten. Teilen Sie Ihre Ergebnisse mit Ihrem Team und Projektbeteiligten in leicht lesbaren GitHub-Berichten.&lt;/p&gt;</value>
+  </data>
+  <data name="github_InfoHeading" xml:space="preserve">
+    <value>Verwenden Sie GitHub-Tools mit Power BI zum Einbeziehen Ihres Repositorys und Abrufen von Nutzungs- und Leistungsdaten an zentraler Stelle</value>
+  </data>
+  <data name="github_Name" xml:space="preserve">
+    <value>GitHub</value>
+  </data>
+  <data name="google_analytics_Content" xml:space="preserve">
+    <value>Holen Sie mehr aus Ihren Google Analytics-Daten heraus. Importieren und vergleichen Sie Daten aus vergleichbaren Datenquellen und -aggregatoren. Entwickeln Sie mit breiteren Korrelationen fesselndere Berichte.</value>
+  </data>
+  <data name="google_analytics_Heading" xml:space="preserve">
+    <value>Visualisieren und Erweitern von Google Analytics-Dashboards mit Microsoft Power BI</value>
+  </data>
+  <data name="google_analytics_InfoContent" xml:space="preserve">
+    <value>&lt;h3&gt;Erhalten Sie tiefgreifendere Antworten auf Datenfragen&lt;/h3&gt;
+&lt;p&gt;Indem Sie Ihre Webdaten mithilfe von Power BI erhellen, können Sie verborgene Beziehungen oder Muster bloßlegen, die Hinweise auf völlig neue Verkaufschancen geben. Stellen Sie verschiedene Fragen an Ihre Daten, um innovative Marketingideen und neue Wege zur Kundenansprache zu entdecken.&lt;/p&gt;
+&lt;h3&gt;Untersuchen Sie Ihre Daten auf neuartige Weise&lt;/h3&gt;
+&lt;p&gt;Setzen Sie Ihre GA-Daten mit externen Datentrends in Beziehung, die Einfluss auf den Markt haben. Sie können Marketingdaten mit Daten aus anderen Teilen der Firma zusammenbringen oder Daten aus externen Quellen importieren und Ihre Webperformance an den Branchentrends messen.&lt;/p&gt;
+&lt;h3&gt;Erweitern Sie den Horizont Ihrer geschäftlichen Einsichten&lt;/h3&gt;
+&lt;p&gt;Das Nachverfolgen des Verhaltens von Websitebesuchern stellt erst den Anfang der Performancebewertung von Unternehmen und Marke dar. Setzen Sie Power BI auf Ihre Google Analytics-Daten an, und erarbeiten Sie sich Geschäftseinsichten auf höherem Niveau.&lt;/p&gt;</value>
+  </data>
+  <data name="google_analytics_InfoHeading" xml:space="preserve">
+    <value>Power BI + Google Analytics = Benutzerdefinierte Berichterstellung für Ihre Webdaten</value>
+  </data>
+  <data name="google_analytics_Name" xml:space="preserve">
+    <value>Google Analytics</value>
+  </data>
+  <data name="hdfs_Content" xml:space="preserve">
+    <value>Fassen Sie Ihre Daten zentral zusammen, vereinfachen Sie sie mit selbst erstellten Abfragen, und teilen Sie sie in visuell starken Berichten.</value>
+  </data>
+  <data name="hdfs_Heading" xml:space="preserve">
+    <value>Analysieren und visualisieren Sie Ihre HDFS-Daten</value>
+  </data>
+  <data name="hdfs_InfoContent" xml:space="preserve">
+    <value>&lt;h3&gt;Bringen Sie Ihre Daten zusammen&lt;/h3&gt;
+&lt;p&gt;Importieren Sie große Datenvolumen von mehreren Quellen in Power BI Desktop. Bearbeiten Sie Ihre Daten, bevor Sie sie einbringen, oder modellieren und formen Sie Daten um, nachdem sie importiert wurden.&lt;/p&gt;
+&lt;h3&gt;Untersuchen Sie Ihre Daten jenseits der gewohnten Wege&lt;/h3&gt;
+&lt;p&gt;Untersuchen Sie Ihre Daten visuell mit einer Vielzahl von anpassbaren Berichten. Erstellen Sie Visualisierungen, indem Sie die gewünschten Felder einfach ziehen und ablegen. Wählen Sie aus einer großen Zahl von Diagrammen aus, um die Geschichte hinter Ihren Daten zu erzählen.&lt;/p&gt;
+&lt;h3&gt;Lassen Sie Ihre Daten für sich arbeiten&lt;/h3&gt;
+&lt;p&gt;Nachdem Sie Ihren Bericht erstellt haben, können Sie die Datei einfach wie jede andere Datei teilen. Sie können sie auch im Power BI-Dienst veröffentlichen, dann können Kollegen damit interagieren.&lt;/p&gt;</value>
+  </data>
+  <data name="hdfs_InfoHeading" xml:space="preserve">
+    <value>Durch das Verbinden mit Power BI können Sie sich alle Daten an einem Ort anzeigen lassen und effizientere Entscheidungen treffen – schneller denn je.</value>
+  </data>
+  <data name="hdfs_Name" xml:space="preserve">
+    <value>HDFS</value>
+  </data>
+  <data name="hdinsight_Content" xml:space="preserve">
+    <value>Fassen Sie Ihre Daten zentral zusammen, vereinfachen Sie sie mit selbst erstellten Abfragen, und teilen Sie sie in visuell starken Berichten.  </value>
+  </data>
+  <data name="hdinsight_Heading" xml:space="preserve">
+    <value>Analysieren und visualisieren Sie Ihre HDInsight-Daten</value>
+  </data>
+  <data name="hdinsight_InfoContent" xml:space="preserve">
+    <value>&lt;h3&gt;Bringen Sie Ihre Daten zusammen&lt;/h3&gt;
+&lt;p&gt;Importieren Sie große Datenvolumen von mehreren Quellen in Power BI Desktop. Bearbeiten Sie Ihre Daten, bevor Sie sie einbringen, oder modellieren und formen Sie Daten um, nachdem sie importiert wurden.&lt;/p&gt;
+&lt;h3&gt;Untersuchen Sie Ihre Daten jenseits der gewohnten Wege&lt;/h3&gt;
+&lt;p&gt;Untersuchen Sie Ihre Daten visuell mit einer Vielzahl von anpassbaren Berichten. Erstellen Sie Visualisierungen, indem Sie die gewünschten Felder einfach ziehen und ablegen. Wählen Sie aus einer großen Zahl von Diagrammen aus, um die Geschichte hinter Ihren Daten zu erzählen.&lt;/p&gt;
+&lt;h3&gt;Lassen Sie Ihre Daten für sich arbeiten&lt;/h3&gt;
+&lt;p&gt;Nachdem Sie Ihren Bericht erstellt haben, können Sie die Datei einfach wie jede andere Datei teilen. Sie können sie auch im Power BI-Dienst veröffentlichen, dann können Kollegen damit interagieren.&lt;/p&gt;</value>
+  </data>
+  <data name="hdinsight_InfoHeading" xml:space="preserve">
+    <value>Durch das Verbinden mit Power BI können Sie sich alle Daten an einem Ort anzeigen lassen und effizientere Entscheidungen treffen – schneller denn je.</value>
+  </data>
+  <data name="hdinsight_Name" xml:space="preserve">
+    <value>HDInsight</value>
+  </data>
+  <data name="ibmdb2_Content" xml:space="preserve">
+    <value>Fassen Sie Ihre Daten zentral zusammen, vereinfachen Sie sie mit selbst erstellten Abfragen, und teilen Sie sie in visuell starken Berichten.</value>
+  </data>
+  <data name="ibmdb2_Heading" xml:space="preserve">
+    <value>Analysieren und visualisieren Sie Ihre IBM DB2-Daten</value>
+  </data>
+  <data name="ibmdb2_InfoContent" xml:space="preserve">
+    <value>&lt;h3&gt;Bringen Sie Ihre Daten zusammen&lt;/h3&gt;
+&lt;p&gt;Importieren Sie große Datenvolumen von mehreren Quellen in Power BI Desktop. Bearbeiten Sie Ihre Daten, bevor Sie sie einbringen, oder modellieren und formen Sie Daten um, nachdem sie importiert wurden.&lt;/p&gt;
+&lt;h3&gt;Untersuchen Sie Ihre Daten jenseits der gewohnten Wege&lt;/h3&gt;
+&lt;p&gt;Untersuchen Sie Ihre Daten visuell mit einer Vielzahl von anpassbaren Berichten. Erstellen Sie Visualisierungen, indem Sie die gewünschten Felder einfach ziehen und ablegen. Wählen Sie aus einer großen Zahl von Diagrammen aus, um die Geschichte hinter Ihren Daten zu erzählen.&lt;/p&gt;
+&lt;h3&gt;Lassen Sie Ihre Daten für sich arbeiten&lt;/h3&gt;
+&lt;p&gt;Nachdem Sie Ihren Bericht erstellt haben, können Sie die Datei einfach wie jede andere Datei teilen. Sie können sie auch im Power BI-Dienst veröffentlichen, dann können Kollegen damit interagieren.&lt;/p&gt;</value>
+  </data>
+  <data name="ibmdb2_InfoHeading" xml:space="preserve">
+    <value>Durch das Verbinden mit Power BI können Sie sich alle Daten an einem Ort anzeigen lassen und effizientere Entscheidungen treffen – schneller denn je.</value>
+  </data>
+  <data name="ibmdb2_Name" xml:space="preserve">
+    <value>IBM DB2</value>
+  </data>
+  <data name="mailchimp_Content" xml:space="preserve">
+    <value>Mithilfe der Integration von Power BI und MailChimp können Sie Trends in Ihren Kampagnen und Berichten sowie bei einzelnen Abonnenten schnell erkennen. Verfolgen Sie Fortschritt nach, und erstellen Sie angepasste MailChimp-Berichte mit modernen Visualisierungen.</value>
+  </data>
+  <data name="mailchimp_Title" xml:space="preserve">
+    <value>MailChimp-Integration</value>
+  </data>
+  <data name="mailchimp_InfoContent" xml:space="preserve">
+    <value>&lt;h3&gt;Untersuchen und analysieren Sie MailChimp-Datenberichte mit weniger Aufwand&lt;/h3&gt;
+&lt;p&gt;Power BI ruft Daten per Pull bei Ihrem MailChimp-Konto ab und erstellt ein Dashboard und ein Dataset, die Ihnen das Untersuchen Ihrer Daten mithilfe moderner Visualisierungen ermöglichen, ferner können Sie Berichte auf einfache Weise erstellen und freigeben.&lt;/p&gt;
+&lt;h3&gt;Erkennen Sie mit MailChimp-Dashboards Trends schneller&lt;/h3&gt;
+&lt;p&gt;Verwenden Sie die MailChimp-Analyse in Power BI, um Berichte zu erstellen und Trends aufzuspüren. Finden Sie heraus, wer Ihre engagiertesten Abonnenten sind, an welchen Orten die meisten Kampagnen gestartet werden oder wie sich die Trends im Lauf der Zeit geändert haben.&lt;/p&gt;
+&lt;h3&gt;Keine Programmierung für die MailChimp-Integration nötig&lt;/h3&gt;
+&lt;p&gt;Für die Integration von Power BI und MailChimp benötigen Sie keine Programmierkenntnisse, um einen Drilldown in Ihre Berichten durchzuführen. Die automatische Aktualisierung von Daten hilft Ihnen, immer auf dem neuesten Stand der Daten zu bleiben und informierte Entscheidungen zu treffen.&lt;/p&gt;</value>
+  </data>
+  <data name="mailchimp_InfoHeading" xml:space="preserve">
+    <value>Verbinden Sie MailChimp und Power BI, um Dashboards zu erstellen und Ihre Daten einfach zu visualisieren und zu überwachen</value>
+  </data>
+  <data name="mailchimp_Name" xml:space="preserve">
+    <value>MailChimp</value>
+  </data>
+  <data name="mandrill_Content" xml:space="preserve">
+    <value>Überwachen Sie die Öffnungsrate, die Klicks und die Anzahl der Sendungen pro Monat. Visualisieren Sie das Wachstum Ihrer Kampagne, und entdecken Sie neue Verkaufschancen.</value>
+  </data>
+  <data name="mandrill_Heading" xml:space="preserve">
+    <value>Erhalten Sie Einblick in Ihre Marketingkampagnen</value>
+  </data>
+  <data name="mandrill_InfoContent" xml:space="preserve">
+    <value>&lt;h3&gt;Sehen Sie alle Ihre Daten an einem Ort&lt;/h3&gt;
+&lt;p&gt;Stellen Sie die Verbindung mit Power BI her, um ein geordnetes Dashboard und Berichte anzuzeigen, die Ihnen unmittelbar aus Ihren Daten gewonnene Einsichten präsentieren. Klicken Sie auf eine beliebige Kachel, um einen Drilldown in die Daten auszuführen und weitere Informationen anzuzeigen.&lt;/p&gt;
+&lt;h3&gt;Untersuchen Sie Ihre Daten jenseits der gewohnten Wege&lt;/h3&gt;
+&lt;p&gt;Jede Kachel auf dem Dashboard führt Sie zu verschiedenen Berichtsseiten, die visuelle Elemente enthalten. Zeigen Sie mit dem Mauszeiger auf ein beliebiges Element, um weitere Details anzuzeigen, oder wählen Sie einen bestimmten Wert für die Kreuzfilterung mit anderen visuellen Elementen auf der Seite aus. Heften Sie Ihre angepassten Berichte an das Dashboard an.&lt;/p&gt;
+&lt;h3&gt;Aktualisieren Sie nach Ihrem eigenen Zeitplan&lt;/h3&gt;
+&lt;p&gt;Das Dashboard und die ihm zugrunde liegenden Berichte werden einmal täglich aktualisiert. Sie können den Aktualisierungszeitplan steuern und die Häufigkeit für das Dataset ändern.&lt;/p&gt;</value>
+  </data>
+  <data name="mandrill_InfoHeading" xml:space="preserve">
+    <value>Wenn Sie Ihre Mandrill-Daten mit Power BI verbinden, erhalten Sie starke visuelle Informationen zu Ihren MailChimp-Kampagnen mit dem Schwerpunkt auf direkt umsetzbaren Erkenntnissen.</value>
+  </data>
+  <data name="mandrill_Name" xml:space="preserve">
+    <value>Mandrill</value>
+  </data>
+  <data name="marketo_Content" xml:space="preserve">
+    <value>Bringen Sie mithilfe der Marketo-Berichterstellung Ihre Daten an einem Ort zusammen, und überwachen Sie sie Zeigen Sie grafische Berichte Ihrer Daten an, die lokal und in der Cloud gespeichert sind. Stellen Sie in wenigen Minuten eine Verbindung mit Ihren Daten her, und zeigen Sie sie in vorkonfigurierten Power BI- und Marketo-Dashboards und -Berichten an.</value>
+  </data>
+  <data name="marketo_Title" xml:space="preserve">
+    <value>Marketo-Integration</value>
+  </data>
+  <data name="marketo_InfoContent" xml:space="preserve">
+    <value>&lt;h3&gt;Stellen Sie Fragen, und verschaffen Sie sich Antworten mithilfe von Marketo-Berichten&lt;/h3&gt;
+&lt;p&gt;Richten Sie Fragen an Ihre Marketo-Analysen, wie etwa „Wie viele Leads haben wir pro Bundesland?“ Power BI antwortet mit visuellen Ergebnissen, einschließlich Karten und Diagrammen, die Sie beim Auswerten Ihrer Daten unterstützen.&lt;/p&gt;
+&lt;h3&gt;Zeigen Sie mit Marketo-Dashboards Ihre Daten auf neue Weise an&lt;/h3&gt;
+&lt;p&gt;Der Power BI-Standardbericht bietet nützliche Einblicke, die Sie für die Analyse Ihrer Leadgenerierung verwenden können. Dieser Bericht und das Marketo-Dashboard können an Ihre spezifischen Bedürfnisse angepasst werden.&lt;/p&gt;
+&lt;h3&gt;Werten Sie Ihre Daten dank der Marketo-Integration besser aus&lt;/h3&gt;
+&lt;p&gt;Möchten Sie den Status Ihrer Marketingprogramme untersuchen? Power BI- und Marketo-Berichte können Ihnen die erfolgreichsten Programme mithilfe einer Vielzahl von Metriken zeigen und auf Verkaufschancen hinweisen, bei denen sich Möglichkeiten zur Optimierung bieten.&lt;/p&gt;</value>
+  </data>
+  <data name="marketo_InfoHeading" xml:space="preserve">
+    <value>Verbinden Sie Ihre Informationen mit der Power BI- und Marketo-Integration, um sich wertvolle Erkenntnisse zu verschaffen und bessere Entscheidungen schneller zu treffen</value>
+  </data>
+  <data name="marketo_Name" xml:space="preserve">
+    <value>Marketo</value>
+  </data>
+  <data name="microsoft_dynamicscrm_Content" xml:space="preserve">
+    <value>Gewinnen Sie Einblick in Ihre Vertriebspipeline, erkennen Sie die erfolgversprechendsten Leads, und machen Sie Ihre besten Verkaufschancen sichtbar.</value>
+  </data>
+  <data name="microsoft_dynamicscrm_Heading" xml:space="preserve">
+    <value>Visualisieren und analysieren Sie Ihre Microsoft Dynamics CRM-Daten</value>
+  </data>
+  <data name="microsoft_dynamicscrm_InfoContent" xml:space="preserve">
+    <value>&lt;h3&gt;Visualisieren Sie Ihre Verkaufschancen&lt;/h3&gt;
+&lt;p&gt;Power BI hilft Ihnen, Ihre Verkaufschancen auf einem einzelnen Dashboard zu identifizieren. Analysieren Sie Ihre Pipeline, oder zeigen Sie Ihre Verkäufe im Licht verschiedener Metriken an, um umsetzbare Erkenntnisse zu gewinnen.&lt;/p&gt;
+&lt;h3&gt;Gewinnen Sie Erkenntnisse über Ihre Kunden&lt;/h3&gt;
+&lt;p&gt;Vorkonfigurierte Arbeitsmappen stellen visuelle Elemente zu Schlüsselmetriken bereit, wie etwa dem Customer Engagement. Verstehen Sie die Fallanalyse nach Typ, Priorität und Geografie. Analysieren Sie die Dienstperformance anhand der Anzahl der Fälle, der Lösungsrate, der Prioritätsstufe usw.&lt;/p&gt;
+&lt;h3&gt;Gehen Sie Ihren Daten auf den Grund&lt;/h3&gt;
+&lt;p&gt;Mit einem Drilldown in jedes der Diagramme der oberen Ebene können Sie die Einzelheiten der Metriken, wie etwa den Account, die Leads, den Umsatz und den Service erkennen. Passen Sie diese Berichte an, um die benötigten Informationen zu erhalten.&lt;/p&gt;</value>
+  </data>
+  <data name="microsoft_dynamicscrm_InfoHeading" xml:space="preserve">
+    <value>Mit Power BI können Sie in Echtzeit Einblick in Ihre Microsoft Dynamics CRM-Daten gewinnen</value>
+  </data>
+  <data name="microsoft_dynamicscrm_Name" xml:space="preserve">
+    <value>Microsoft Dynamics CRM</value>
+  </data>
+  <data name="microsoft_dynamics_marketing_Content" xml:space="preserve">
+    <value>Analysieren Sie Ihre Daten zur Leadgenerierung mit visuellen Tools. Treffen Sie informierte Entscheidungen mit leicht verständlichen Analyseberichten, die auf einem einzelnen Dashboard angezeigt werden.</value>
+  </data>
+  <data name="microsoft_dynamics_marketing_Heading" xml:space="preserve">
+    <value>Überwachen und untersuchen Sie Ihre Microsoft Dynamics Marketing-Daten</value>
+  </data>
+  <data name="microsoft_dynamics_marketing_InfoContent" xml:space="preserve">
+    <value>&lt;h3&gt;Analysieren und Optimieren&lt;/h3&gt;
+&lt;p&gt;Erhalten Sie mithilfe von vorkonfigurierten Analyseberichten, Dashboards und KPIs die richtigen Daten in einer leicht verständlichen Form. Führen Sie Drilldowns mit Filtern und detaillierten Berichten durch, um besser umsetzbare Einsichten zu gewinnen.&lt;/p&gt;
+&lt;h3&gt;Stellen Sie Fragen. Erhalten Sie Antworten.&lt;/h3&gt;
+&lt;p&gt;Stellen Sie in Power BI Fragen wie „Zeige die Anzahl von Leadinteraktionen und Interaktionsarten über einen Zeitraum als Linie an“. Die Antwort besteht in einem aktuellen Diagramm, das Sie für die fortlaufende Überwachung an Ihr Dashboard heften können.&lt;/p&gt;
+&lt;h3&gt;Passen Sie Ihre Berichte und das Dashboard an&lt;/h3&gt;
+&lt;p&gt;Beginnen Sie mit einem leeren Bericht, und legen Sie aus einer umfassenden Liste die zu untersuchenden Felder mit Drag &amp;amp; Drop darauf ab. Heften Sie visuelle Elemente aus Ihren benutzerdefinierten Berichten an Ihren Dashboards an.&lt;/p&gt;</value>
+  </data>
+  <data name="microsoft_dynamics_marketing_InfoHeading" xml:space="preserve">
+    <value>Indem Sie Microsoft Dynamics Marketing mit Power BI verbinden, sehen Sie alle Ihre Daten zur Leadgenerierung an einem Ort, auf deren Grundlage Sie schneller besser informierte Entscheidungen treffen können</value>
+  </data>
+  <data name="microsoft_dynamics_marketing_Name" xml:space="preserve">
+    <value>Microsoft Dynamics Marketing</value>
+  </data>
+  <data name="microsoft_dynamics_nav_Content" xml:space="preserve">
+    <value>Analysieren Sie Ihre Umsätze und Ihren Profit. Verfolgen Sie Ihre Verkaufschancen in der Pipeline nach, und überwachen Sie Ihre Rentabilitätsmetriken, um neue Erkenntnisse zu gewinnen.</value>
+  </data>
+  <data name="microsoft_dynamics_nav_Heading" xml:space="preserve">
+    <value>Visualisieren und untersuchen Sie Ihre Microsoft Dynamics NAV-Daten</value>
+  </data>
+  <data name="microsoft_dynamics_nav_InfoContent" xml:space="preserve">
+    <value>&lt;h3&gt;Verschaffen Sie sich den globalen Überblick&lt;/h3&gt;
+&lt;p&gt;Wenn Sie die Verbindung mit Power BI herstellen, werden Ihre Daten auf einem vorkonfigurierten Dashboard angezeigt, das wichtige Metriken aus dem Dataset hervorhebt. Zeigen Sie Metriken zu Umsätzen, Monatszielen, Ertrag im Vergleich mit Ausgaben usw. an.&lt;/p&gt;
+&lt;h3&gt;Mit Drilldowns gewinnen Sie neue Einsichten&lt;/h3&gt;
+&lt;p&gt;Klicken Sie auf ein beliebiges visuelles Element auf dem Dashboard, um einen von sieben zugrundeliegenden Berichten anzuzeigen. Filtern Sie den Bericht, oder fügen Sie Felder hinzu, die Sie überwachen möchten. Heften Sie diese angepasste Ansicht an das Dashboard an, um die Nachverfolgung fortzusetzen.&lt;/p&gt;
+&lt;h3&gt;Aktualisieren Sie nach Ihrem eigenen Zeitplan&lt;/h3&gt;
+&lt;p&gt;Das Dashboard und die ihm zugrunde liegenden Berichte werden täglich aktualisiert. Sie können den Aktualisierungszeitplan steuern und die Häufigkeit für das Dataset ändern.&lt;/p&gt;</value>
+  </data>
+  <data name="microsoft_dynamics_nav_InfoHeading" xml:space="preserve">
+    <value>Mit Power BI können Sie alle Ihre Microsoft Dynamics NAV-Daten an einem Ort visualisieren und neue Einsichten für bessere Geschäftsentscheidungen gewinnen.</value>
+  </data>
+  <data name="microsoft_dynamics_nav_Name" xml:space="preserve">
+    <value>Microsoft Dynamics NAV</value>
+  </data>
+  <data name="mysql_Content" xml:space="preserve">
+    <value>Fassen Sie Ihre Daten zentral zusammen, vereinfachen Sie sie mit selbst erstellten Abfragen, und teilen Sie sie in visuell starken Berichten.</value>
+  </data>
+  <data name="mysql_Heading" xml:space="preserve">
+    <value>Analysieren und visualisieren Sie Ihre MySQL-Daten</value>
+  </data>
+  <data name="mysql_InfoContent" xml:space="preserve">
+    <value>&lt;h3&gt;Bringen Sie Ihre Daten zusammen&lt;/h3&gt;
+&lt;p&gt;Importieren Sie große Datenvolumen von mehreren Quellen in Power BI Desktop. Bearbeiten Sie Ihre Daten, bevor Sie sie einbringen, oder modellieren und formen Sie Daten um, nachdem sie importiert wurden.&lt;/p&gt;
+&lt;h3&gt;Untersuchen Sie Ihre Daten jenseits der gewohnten Wege&lt;/h3&gt;
+&lt;p&gt;Untersuchen Sie Ihre Daten visuell mit einer Vielzahl von anpassbaren Berichten. Erstellen Sie Visualisierungen, indem Sie die gewünschten Felder einfach ziehen und ablegen. Wählen Sie aus einer großen Zahl von Diagrammen aus, um die Geschichte hinter Ihren Daten zu erzählen.&lt;/p&gt;
+&lt;h3&gt;Lassen Sie Ihre Daten für sich arbeiten&lt;/h3&gt;
+&lt;p&gt;Nachdem Sie Ihren Bericht erstellt haben, können Sie die Datei einfach wie jede andere Datei teilen. Sie können sie auch im Power BI-Dienst veröffentlichen, dann können Kollegen damit interagieren.&lt;/p&gt;</value>
+  </data>
+  <data name="mysql_InfoHeading" xml:space="preserve">
+    <value>Durch das Verbinden mit Power BI können Sie sich alle Daten an einem Ort anzeigen lassen und effizientere Entscheidungen treffen – schneller denn je.</value>
+  </data>
+  <data name="mysql_Name" xml:space="preserve">
+    <value>MySQL</value>
+  </data>
+  <data name="odata_Content" xml:space="preserve">
+    <value>Fassen Sie Ihre Daten zentral zusammen, vereinfachen Sie sie mit selbst erstellten Abfragen, und teilen Sie sie in visuell starken Berichten.</value>
+  </data>
+  <data name="odata_Heading" xml:space="preserve">
+    <value>Analysieren und visualisieren Sie Ihre Odata-Daten</value>
+  </data>
+  <data name="odata_InfoContent" xml:space="preserve">
+    <value>&lt;h3&gt;Bringen Sie Ihre Daten zusammen&lt;/h3&gt;
+&lt;p&gt;Importieren Sie große Datenvolumen von mehreren Quellen in Power BI Desktop. Bearbeiten Sie Ihre Daten, bevor Sie sie einbringen, oder modellieren und formen Sie Daten um, nachdem sie importiert wurden.&lt;/p&gt;
+&lt;h3&gt;Untersuchen Sie Ihre Daten jenseits der gewohnten Wege&lt;/h3&gt;
+&lt;p&gt;Untersuchen Sie Ihre Daten visuell mit einer Vielzahl von anpassbaren Berichten. Erstellen Sie Visualisierungen, indem Sie die gewünschten Felder einfach ziehen und ablegen. Wählen Sie aus einer großen Zahl von Diagrammen aus, um die Geschichte hinter Ihren Daten zu erzählen.&lt;/p&gt;
+&lt;h3&gt;Lassen Sie Ihre Daten für sich arbeiten&lt;/h3&gt;
+&lt;p&gt;Nachdem Sie Ihren Bericht erstellt haben, können Sie die Datei einfach wie jede andere Datei teilen. Sie können sie auch im Power BI-Dienst veröffentlichen, dann können Kollegen damit interagieren.&lt;/p&gt;</value>
+  </data>
+  <data name="odata_InfoHeading" xml:space="preserve">
+    <value>Durch das Verbinden mit Power BI können Sie sich alle Daten an einem Ort anzeigen lassen und effizientere Entscheidungen treffen – schneller denn je.</value>
+  </data>
+  <data name="odata_Name" xml:space="preserve">
+    <value>OData</value>
+  </data>
+  <data name="odbc_Content" xml:space="preserve">
+    <value>Erstellen Sie anhand Ihrer ODBC-Verbindungen visuelle Berichte, Analysen und Dashboards mit hoher Interaktivität und einfachen Freigabemöglichkeiten.</value>
+  </data>
+  <data name="odbc_Heading" xml:space="preserve">
+    <value>Unmittelbares Überwachen von ODBC-Verbindungsdaten</value>
+  </data>
+  <data name="odbc_InfoContent" xml:space="preserve">
+    <value>&lt;h3&gt;Erstellen Sie Abfragen und Visualisierungen Ihrer Daten&lt;/h3&gt;
+&lt;p&gt;Verbinden Sie ihre Datenbank einfach mit Power BI, und erstellen Sie dynamische Mashups aus Daten und Metriken, über die Sie bereits verfügen.&lt;/p&gt;
+&lt;h3&gt;Untersuchen Sie Ihre Daten jenseits der gewohnten Wege&lt;/h3&gt;
+&lt;p&gt;Ob Sie relationale und nicht relationale Daten kombinieren, um ein umfassenderes Bild zu erhalten, oder dynamische Berichte erstellen möchten, um neue Einblicke freizugeben, mit Power BI können Sie Ihre Daten jenseits der gewohnten Wege untersuchen.&lt;/p&gt;
+&lt;h3&gt;Lassen Sie Ihre Daten für sich arbeiten&lt;/h3&gt;
+&lt;p&gt;Führen Sie Ihre Daten an einem Ort zusammen, und verschaffen Sie sich schnell die 360-Grad-Rundumsicht Ihres Unternehmens. Interagieren Sie mit Ihren Daten, um Antworten zu erhalten, und erstellen Sie visuell aussagekräftige Berichte, die die Geschichte erzählen, die in Ihren Daten steckt.&lt;/p&gt;</value>
+  </data>
+  <data name="odbc_InfoHeading" xml:space="preserve">
+    <value>Durch das Verbinden mit Power BI können Sie sich alle Daten an einem Ort anzeigen lassen und effizientere Entscheidungen treffen – schneller denn je.</value>
+  </data>
+  <data name="odbc_Name" xml:space="preserve">
+    <value>ODBC</value>
+  </data>
+  <data name="oracle_Content" xml:space="preserve">
+    <value>Fassen Sie Ihre Daten zentral zusammen, vereinfachen Sie sie mit selbst erstellten Abfragen, und teilen Sie sie in visuell starken Berichten.</value>
+  </data>
+  <data name="oracle_Heading" xml:space="preserve">
+    <value>Analysieren und visualisieren Sie Ihre Oracle-Daten</value>
+  </data>
+  <data name="oracle_InfoContent" xml:space="preserve">
+    <value>&lt;h3&gt;Bringen Sie Ihre Daten zusammen&lt;/h3&gt;
+&lt;p&gt;Importieren Sie große Datenvolumen von mehreren Quellen in Power BI Desktop. Bearbeiten Sie Ihre Daten, bevor Sie sie einbringen, oder modellieren und formen Sie Daten um, nachdem sie importiert wurden.&lt;/p&gt;
+&lt;h3&gt;Untersuchen Sie Ihre Daten jenseits der gewohnten Wege&lt;/h3&gt;
+&lt;p&gt;Untersuchen Sie Ihre Daten visuell mit einer Vielzahl von anpassbaren Berichten. Erstellen Sie Visualisierungen, indem Sie die gewünschten Felder einfach ziehen und ablegen. Wählen Sie aus einer großen Zahl von Diagrammen aus, um die Geschichte hinter Ihren Daten zu erzählen.&lt;/p&gt;
+&lt;h3&gt;Lassen Sie Ihre Daten für sich arbeiten&lt;/h3&gt;
+&lt;p&gt;Nachdem Sie Ihren Bericht erstellt haben, können Sie die Datei einfach wie jede andere Datei teilen. Sie können sie auch im Power BI-Dienst veröffentlichen, dann können Kollegen damit interagieren.&lt;/p&gt;</value>
+  </data>
+  <data name="oracle_InfoHeading" xml:space="preserve">
+    <value>Durch das Verbinden mit Power BI können Sie sich alle Daten an einem Ort anzeigen lassen und effizientere Entscheidungen treffen – schneller denn je.</value>
+  </data>
+  <data name="oracle_Name" xml:space="preserve">
+    <value>Oracle</value>
+  </data>
+  <data name="planview_enterprise_Content" xml:space="preserve">
+    <value>Zeigen Sie Ihre Managementdaten zu Ressourcen und Arbeit auf neue Weise an. Interagieren Sie mit Ihren Daten, um neue Erkenntnisse abzuleiten.</value>
+  </data>
+  <data name="planview_enterprise_Heading" xml:space="preserve">
+    <value>Visualisieren Sie Ihre Planview Enterprise-Daten</value>
+  </data>
+  <data name="planview_enterprise_InfoContent" xml:space="preserve">
+    <value>&lt;h3&gt;Erhalten Sie visuelle Darstellungen aller Ihrer Daten auf einem einzelnen Dashboard&lt;/h3&gt;
+&lt;p&gt;Sobald Sie Ihr Planview Enterprise-Konto mit Power BI verbinden, wird ein vorkonfiguriertes Dashboard angezeigt, mit Kacheln, die eine Visualisierung geordneter Metriken anzeigen, einschließlich der Portfolio-Investitionsausgaben, des Budgetstatus und mehr.&lt;/p&gt;
+&lt;h3&gt;Untersuchen Sie Ihre Daten jenseits der gewohnten Wege&lt;/h3&gt;
+&lt;p&gt;Ein Drilldown in den einzelnen Kacheln führt Sie zu verschiedenen Berichten. Sehen Sie, wie genau Ihre Projekte Ihren Prioritäten folgen. Passen Sie die Standardberichte an, um die für Sie wichtigen Metriken nachzuverfolgen. Heften Sie Ihre angepassten Berichte an das Dashboard an.&lt;/p&gt;
+&lt;h3&gt;Aktualisieren Sie nach Ihrem eigenen Zeitplan&lt;/h3&gt;
+&lt;p&gt;Das Dashboard und die ihm zugrunde liegenden Berichte werden täglich aktualisiert. Sie können den Aktualisierungszeitplan steuern und die Häufigkeit für das Dataset ändern.&lt;/p&gt;</value>
+  </data>
+  <data name="planview_enterprise_InfoHeading" xml:space="preserve">
+    <value>Verbinden Sie Ihre Planview Enterprise-Daten mit Power BI, um alle Ihre wichtigen Metriken an einem Ort zu vereinen.</value>
+  </data>
+  <data name="planview_enterprise_Name" xml:space="preserve">
+    <value>Planview Enterprise</value>
+  </data>
+  <data name="postgresql_Content" xml:space="preserve">
+    <value>Fassen Sie Ihre Daten zentral zusammen, vereinfachen Sie sie mit selbst erstellten Abfragen, und teilen Sie sie in visuell starken Berichten.</value>
+  </data>
+  <data name="postgresql_Heading" xml:space="preserve">
+    <value>Analysieren und visualisieren Sie Ihre PostgreSQL-Daten</value>
+  </data>
+  <data name="postgresql_InfoContent" xml:space="preserve">
+    <value>&lt;h3&gt;Bringen Sie Ihre Daten zusammen&lt;/h3&gt;
+&lt;p&gt;Importieren Sie große Datenvolumen von mehreren Quellen in Power BI Desktop. Bearbeiten Sie Ihre Daten, bevor Sie sie einbringen, oder modellieren und formen Sie Daten um, nachdem sie importiert wurden.&lt;/p&gt;
+&lt;h3&gt;Untersuchen Sie Ihre Daten jenseits der gewohnten Wege&lt;/h3&gt;
+&lt;p&gt;Untersuchen Sie Ihre Daten visuell mit einer Vielzahl von anpassbaren Berichten. Erstellen Sie Visualisierungen, indem Sie die gewünschten Felder einfach ziehen und ablegen. Wählen Sie aus einer großen Zahl von Diagrammen aus, um die Geschichte hinter Ihren Daten zu erzählen.&lt;/p&gt;
+&lt;h3&gt;Lassen Sie Ihre Daten für sich arbeiten&lt;/h3&gt;
+&lt;p&gt;Nachdem Sie Ihren Bericht erstellt haben, können Sie die Datei einfach wie jede andere Datei teilen. Sie können sie auch im Power BI-Dienst veröffentlichen, dann können Kollegen damit interagieren.&lt;/p&gt;</value>
+  </data>
+  <data name="postgresql_InfoHeading" xml:space="preserve">
+    <value>Durch das Verbinden mit Power BI können Sie sich alle Daten an einem Ort anzeigen lassen und effizientere Entscheidungen treffen – schneller denn je.</value>
+  </data>
+  <data name="postgresql_Name" xml:space="preserve">
+    <value>PostgreSQL</value>
+  </data>
+  <data name="quickbooks_online_Content" xml:space="preserve">
+    <value>Legen Sie neue Einblicke in den Cashflow, die Rentabilität und Ihre Kunden frei. Teilen Sie Ihre Quickbooks Online-Daten, und überwachen Sie auch unterwegs die neuesten Daten zu Einnahmen und Ausgaben.</value>
+  </data>
+  <data name="quickbooks_online_Heading" xml:space="preserve">
+    <value>Visualisieren und überwachen Sie Ihre Quickbooks Online-Daten</value>
+  </data>
+  <data name="quickbooks_online_InfoContent" xml:space="preserve">
+    <value>&lt;h3&gt;Treten Sie in Kontakt. Sehen Sie Ihre Daten.&lt;/h3&gt;
+&lt;p&gt;Verbinden Sie Power BI mit Ihrem Quickbooks Online-Konto, um das integrierte Dashboard die aktuellen Barmittel, den Gewinn- und Verlusttrend, die Nettoeinnahmen, die größten Kunden und mehr anzeigen zu lassen.&lt;/p&gt;
+&lt;h3&gt;Interagieren Sie mit Ihren Finanzberichten&lt;/h3&gt;
+&lt;p&gt;Wählen Sie ein Diagramm auf Ihrem Dashboard aus. Führen Sie Datenschnitte in Ihren Diagrammen aus, um Erkenntnisse zu einzelnen Geschäftsjahren zu gewinnen oder die meist verkauften Produkte oder Dienstleistungen anzuzeigen.&lt;/p&gt;
+&lt;h3&gt;Passen Sie Ihre Ansichten und Berichte an&lt;/h3&gt;
+&lt;p&gt;Ziehen Sie ein Säulendiagramm einem Balkendiagramm vor? Wählen Sie im Visualisierungsmenü den gewünschten Diagrammtyp aus. Möchten Sie Ihre Daten häufiger aktualisieren? Planen Sie eine regelmäßige Aktualisierungszeit.&lt;/p&gt;</value>
+  </data>
+  <data name="quickbooks_online_InfoHeading" xml:space="preserve">
+    <value>Indem Sie Ihre Quickbooks Online-Daten mit Power BI verbinden, bringen Sie alle Ihre Daten an einen Ort und gewinnen umsetzbare Erkenntnisse</value>
+  </data>
+  <data name="quickbooks_online_Name" xml:space="preserve">
+    <value>QuickBooks Online</value>
+  </data>
+  <data name="salesforce_Content" xml:space="preserve">
+    <value>Erhalten Sie Einsicht in Ihre Verkäufe, Accounts und Leads. Legen Sie Verkaufschancen frei, und teilen Sie die Ergebnisse mit Ihrem Team.</value>
+  </data>
+  <data name="salesforce_Heading" xml:space="preserve">
+    <value>Analysieren und visualisieren Sie Ihre Salesforce-Daten</value>
+  </data>
+  <data name="salesforce_InfoContent" xml:space="preserve">
+    <value>&lt;h3&gt;Visualisieren Sie Ihre Verkaufschancen&lt;/h3&gt;
+&lt;p&gt; Power BI hilft Ihnen, Ihre Verkaufschancen auf einem einzelnen Dashboard zu identifizieren. Analysieren Sie Ihre Pipeline, zeigen Sie Ihre Verkäufe im Licht verschiedener Metriken an, und gewinnen Sie Einsichten aus der Leadanalyse.&lt;/p&gt;
+&lt;h3&gt;Gewinnen Sie Erkenntnisse über Ihre Kunden&lt;/h3&gt;
+&lt;p&gt;Vorkonfigurierte Arbeitsmappen stellen visuelle Elemente zu Schlüsselmetriken bereit. Visualisieren Sie die Fallanalyse nach Typ, Priorität und Geografie. Analysieren Sie die Dienstperformance anhand der Prioritätsstufe, der Lösungsrate usw.&lt;/p&gt;
+&lt;h3&gt;Gehen Sie Ihren Daten auf den Grund&lt;/h3&gt;
+&lt;p&gt;Jedes Diagramm der obersten Ebene lässt sich erweitern, um spezifische Informationen zu Accounts, Leads, Ertrag und Dienstleistung bereitzustellen. Passen Sie diese Berichte an, um die benötigten Informationen zu erhalten.&lt;/p&gt;</value>
+  </data>
+  <data name="salesforce_InfoHeading" xml:space="preserve">
+    <value>Sie können jetzt in Echtzeit Einsichten aus Ihren Salesforce-Daten gewinnen, indem Sie eine Verbindung mithilfe von Power BI herstellen</value>
+  </data>
+  <data name="salesforce_Name" xml:space="preserve">
+    <value>Salesforce</value>
+  </data>
+  <data name="sendgrid_Content" xml:space="preserve">
+    <value>Importieren Sie Ihre E-Mail-Daten. Zeigen Sie Ihre Metriken in einem anpassbaren Dashboard an. Extrahieren Sie umsetzbare Erkenntnisse, und erkennen Sie neue Verkaufschancen.</value>
+  </data>
+  <data name="sendgrid_Heading" xml:space="preserve">
+    <value>Visualisieren Sie Ihre SendGrid-Daten</value>
+  </data>
+  <data name="sendgrid_InfoContent" xml:space="preserve">
+    <value>&lt;h3&gt;Überwachen Sie ganz einfach mehrere Metriken&lt;/h3&gt;
+&lt;p&gt;Importieren Sie Ihre Daten in das Power BI-Dashboard, und zeigen Sie E-Mail-Metriken an, wie etwa die Öffnungen, die Anzahl der Klicks und die Spamberichte. Verfolgen Sie Gesamttrends nach Zeitraum, Geografie oder Kategorie.&lt;/p&gt;
+&lt;h3&gt;Gehen Sie Ihren Daten auf den Grund&lt;/h3&gt;
+&lt;p&gt;Zwar können Sie auf dem Dashboard der obersten Ebene einen schnellen Überblick erhalten, weitere Einsichten ergeben sich aber, indem Sie jede Kachel in der Tiefe untersuchen.&lt;/p&gt;
+&lt;h3&gt;Analysieren von benutzerdefinierten Metriken&lt;/h3&gt;
+&lt;p&gt;Wenn Sie benutzerdefinierte Kategorien oder Tags verwenden, ist es mit Power BI wirklich sehr einfach, eine Zusammenfassung der E-Mail-Übermittlung nach verschiedenen Aktivitätsarten anzuzeigen.&lt;/p&gt;</value>
+  </data>
+  <data name="sendgrid_InfoHeading" xml:space="preserve">
+    <value>Indem Sie SendGrid mit Power BI verbinden, sehen Sie alle Ihre Daten an einem Ort, auf deren Grundlage Sie schneller denn je besser informierte Entscheidungen treffen können</value>
+  </data>
+  <data name="sendgrid_Name" xml:space="preserve">
+    <value>SendGrid</value>
+  </data>
+  <data name="sharepoint_Content" xml:space="preserve">
+    <value>Fassen Sie Ihre Daten zentral zusammen, vereinfachen Sie sie mit selbst erstellten Abfragen, und teilen Sie sie in visuell starken Berichten.</value>
+  </data>
+  <data name="sharepoint_Heading" xml:space="preserve">
+    <value>Analysieren und visualisieren Sie Ihre SharePoint-Daten</value>
+  </data>
+  <data name="sharepoint_InfoContent" xml:space="preserve">
+    <value>&lt;h3&gt;Bringen Sie Ihre Daten zusammen&lt;/h3&gt;
+&lt;p&gt;Importieren Sie große Datenvolumen von mehreren Quellen in Power BI Desktop. Bearbeiten Sie Ihre Daten, bevor Sie sie einbringen, oder modellieren und formen Sie Daten um, nachdem sie importiert wurden.&lt;/p&gt;
+&lt;h3&gt;Untersuchen Sie Ihre Daten jenseits der gewohnten Wege&lt;/h3&gt;
+&lt;p&gt;Untersuchen Sie Ihre Daten visuell mit einer Vielzahl von anpassbaren Berichten. Erstellen Sie Visualisierungen, indem Sie die gewünschten Felder einfach ziehen und ablegen. Wählen Sie aus einer großen Zahl von Diagrammen aus, um die Geschichte hinter Ihren Daten zu erzählen.&lt;/p&gt;
+&lt;h3&gt;Lassen Sie Ihre Daten für sich arbeiten&lt;/h3&gt;
+&lt;p&gt;Nachdem Sie Ihren Bericht erstellt haben, können Sie die Datei einfach wie jede andere Datei teilen. Sie können sie auch im Power BI-Dienst veröffentlichen, dann können Kollegen damit interagieren.&lt;/p&gt;</value>
+  </data>
+  <data name="sharepoint_InfoHeading" xml:space="preserve">
+    <value>Durch das Verbinden mit Power BI können Sie sich alle Daten an einem Ort anzeigen lassen und effizientere Entscheidungen treffen – schneller denn je.</value>
+  </data>
+  <data name="sharepoint_Name" xml:space="preserve">
+    <value>SharePoint</value>
+  </data>
+  <data name="spark_on_azure_Content" xml:space="preserve">
+    <value>Interagieren Sie mit großen Datenvolumina, erstellen Sie dynamische Berichte und Mashups, und gewinnen Sie Einsichten aus Datenvisualisierungen.</value>
+  </data>
+  <data name="spark_on_azure_Heading" xml:space="preserve">
+    <value>Analysieren und visualisieren Sie Ihre Spark für Azure HDInsight-Daten</value>
+  </data>
+  <data name="spark_on_azure_InfoContent" xml:space="preserve">
+    <value>&lt;h3&gt;Erstellen Sie Abfragen und Visualisierungen Ihrer Daten&lt;/h3&gt;
+&lt;p&gt;Verbinden Sie ihre Datenbank einfach mit Power BI, und erstellen Sie dynamische Mashups aus Daten und Metriken, über die Sie bereits verfügen.&lt;/p&gt;
+&lt;h3&gt;Untersuchen Sie Ihre Daten jenseits der gewohnten Wege&lt;/h3&gt;
+&lt;p&gt;Ob Sie relationale und nicht relationale Daten kombinieren, um ein umfassenderes Bild zu erhalten, oder dynamische Berichte erstellen möchten, um neue Einblicke freizugeben, mit Power BI können Sie Ihre Daten jenseits der gewohnten Wege untersuchen.&lt;/p&gt;
+&lt;h3&gt;Lassen Sie Ihre Daten für sich arbeiten&lt;/h3&gt;
+&lt;p&gt; Führen Sie Ihre Daten an einem Ort zusammen, und verschaffen Sie sich schnell die 360-Grad-Rundumsicht Ihres Unternehmens. Interagieren Sie mit Ihren Daten, um Antworten zu erhalten, und erstellen Sie visuell aussagekräftige Berichte, die die Geschichte erzählen, die in Ihren Daten steckt.&lt;/p&gt;</value>
+  </data>
+  <data name="spark_on_azure_InfoHeading" xml:space="preserve">
+    <value>Durch das Verbinden mit Power BI können Sie sich alle Daten an einem Ort anzeigen lassen und effizientere Entscheidungen treffen – schneller denn je.</value>
+  </data>
+  <data name="spark_on_azure_Name" xml:space="preserve">
+    <value>Spark on Azure HDInsight</value>
+  </data>
+  <data name="sql_database_auditing_Content" xml:space="preserve">
+    <value>Verstehen Sie Ihre Datenbankaktivitäten Untersuchen Sie Anomalien, um Erkenntnisse über Ihre Daten zu gewinnen.</value>
+  </data>
+  <data name="sql_database_auditing_Heading" xml:space="preserve">
+    <value>Analysieren Sie Ihre SQL-Datenbank-Überwachungsdaten</value>
+  </data>
+  <data name="sql_database_auditing_InfoContent" xml:space="preserve">
+    <value>&lt;h3&gt;Lassen Sie die Daten für sich arbeiten&lt;/h3&gt;
+&lt;p&gt;Mit dem vorkonfigurierten Power BI-Dashboard erhalten Sie umgehend Einblick in eine Reihe von Metriken in Echtzeit. Erkennen Sie ungewöhnliche Aktivitäten und Ereignisse.&lt;/p&gt;
+&lt;h3&gt;Untersuchen Sie Ihre Daten auf neuartige Weise&lt;/h3&gt;
+&lt;p&gt;Klicken Sie auf eine beliebige Kachel auf dem Dashboard, um weitere Einblicke in Ihre Metriken zu erhalten. Interagieren Sie mit dem zugrundeliegenden Bericht, um Ihre Daten auf verschiedene Weise zu untersuchen.&lt;/p&gt;
+&lt;h3&gt;Passen Sie Ihre Oberfläche an&lt;/h3&gt;
+&lt;p&gt;Berichte können so angepasst werden, dass sie die Metriken nachverfolgen, die Sie überwachen möchten. Heften Sie Ihre benutzerdefinierten Ansichten zum leichteren Verfolgen am Dashboard an.&lt;/p&gt;</value>
+  </data>
+  <data name="sql_database_auditing_InfoHeading" xml:space="preserve">
+    <value>Mit Power BI können Sie in Echtzeit Einblick in die Überwachungsdaten Ihrer SQL-Datenbank erlangen</value>
+  </data>
+  <data name="sql_database_auditing_Name" xml:space="preserve">
+    <value>SQL-Datenbanküberwachung</value>
+  </data>
+  <data name="sql_sentry_Content" xml:space="preserve">
+    <value>Überwachen Sie die von Ihnen nachverfolgten SQL Server-Bereitstellungen mithilfe der SQL Sentry-Cloud. Teilen Sie Ihre Erkenntnisse mit der gesamten Organisation.</value>
+  </data>
+  <data name="sql_sentry_Heading" xml:space="preserve">
+    <value>Überwachen und visualisieren Sie Ihre SQL Sentry-Daten</value>
+  </data>
+  <data name="sql_sentry_InfoContent" xml:space="preserve">
+    <value>&lt;h3&gt;Verschaffen Sie sich ein umfassendes Bild&lt;/h3&gt;
+&lt;p&gt;Wenn Sie eine Verbindung mit Power BI herstellen, rückt ein vorkonfiguriertes Dashboard Daten zum aktuellen Zustand der von Ihnen überwachten Server ins Zentrum, einschließlich der Serverintegrität, der Speicherauslastung und der Ausfallzeiten. Klicken Sie auf eine beliebige Kachel, um den ihr zugrunde liegenden Bericht anzuzeigen.&lt;/p&gt;
+&lt;h3&gt;Mit Drilldowns gewinnen Sie neue Einsichten&lt;/h3&gt;
+&lt;p&gt;Verwenden Sie das Treemap-Diagramm, um schnell eine Darstellung aller von den Servern generierten Ereignisse und die Verteilung über die Schweregrade anzuzeigen. Sehen Sie, welche Server von den einzelnen Ereignissen am stärksten betroffen sind.&lt;/p&gt;
+&lt;h3&gt;Stellen Sie Fragen, und erhalten Sie Antworten&lt;/h3&gt;
+&lt;p&gt;Wenn Sie fragen „Wie ist meine Betriebszeit in Prozent nach Datum?“ erhalten Sie eine beeindruckende, interaktive Visualisierung als Antwort. Mit Power BI können Sie Fragen in natürlicher Sprache stellen und bekommen die passenden Diagramme zur Antwort.&lt;/p&gt;</value>
+  </data>
+  <data name="sql_sentry_InfoHeading" xml:space="preserve">
+    <value>Verbinden Sie Ihre SQL Sentry-Daten mit Power BI, um alle Ihre Daten an einem Ort anzuzeigen.</value>
+  </data>
+  <data name="sql_sentry_Name" xml:space="preserve">
+    <value>SQL Sentry</value>
+  </data>
+  <data name="sql_server_Content" xml:space="preserve">
+    <value>Mithilfe von Power BI können Sie Ihre Datenvolumen in praktisch allen Datenbanken in interaktive Berichte und Dashboards mit aussagekräftigen Visualisierungen umwandeln, die einfach freigegeben werden können.</value>
+  </data>
+  <data name="sql_server_Heading" xml:space="preserve">
+    <value>Gewinnen sinnvoller Erkenntnisse aus Ihren riesigen Datenmengen</value>
+  </data>
+  <data name="sql_server_InfoContent" xml:space="preserve">
+    <value>&lt;h3 class="din-bold white"&gt;Erstellen Sie Abfragen und Visualisierungen Ihrer Daten&lt;/h3&gt;
+&lt;p class="default-text-light white"&gt;Verbinden Sie ihre Datenbank einfach mit Power BI, und erstellen Sie dynamische Mashups aus Daten und Metriken, über die Sie bereits verfügen.&lt;/p&gt;
+&lt;h3 class="din-bold white"&gt;Untersuchen Sie Ihre Daten jenseits der gewohnten Wege&lt;/h3&gt;
+&lt;p class="default-text-light white"&gt;Ob Sie relationale und nicht relationale Daten kombinieren, um ein umfassenderes Bild zu erhalten, oder dynamische Berichte erstellen möchten, um neue Einblicke freizugeben, mit Power BI können Sie Ihre Daten jenseits der gewohnten Wege untersuchen.&lt;/p&gt;
+&lt;h3 class="din-bold white"&gt;Lassen Sie Ihre Daten für sich arbeiten&lt;/h3&gt;
+&lt;p class="default-text-light white"&gt;Führen Sie Ihre Daten an einem Ort zusammen, und verschaffen Sie sich schnell die 360-Grad-Rundumsicht Ihres Unternehmens. Interagieren Sie mit Ihren Daten, um Antworten zu erhalten, und erstellen Sie visuell aussagekräftige Berichte, die die Geschichte erzählen, die in Ihren Daten steckt.&lt;/p&gt;</value>
+  </data>
+  <data name="sql_server_InfoHeading" xml:space="preserve">
+    <value>Durch das Verbinden mit Power BI können Sie sich alle Daten an einem Ort anzeigen lassen und effizientere Entscheidungen treffen – schneller denn je.</value>
+  </data>
+  <data name="sql_server_Name" xml:space="preserve">
+    <value>SQL Server</value>
+  </data>
+  <data name="stripe_Content" xml:space="preserve">
+    <value>Überwachen Sie Ereignisse, Kosten, Kunden und Rechnungen. Visualisieren Sie Ihre Geschäftsaktivitäten, und entdecken Sie neue Verkaufschancen.</value>
+  </data>
+  <data name="stripe_Heading" xml:space="preserve">
+    <value>Untersuchen und visualisieren Sie Ihre Stripe-Aktivität</value>
+  </data>
+  <data name="stripe_InfoContent" xml:space="preserve">
+    <value>&lt;h3&gt;Interagieren Sie mit Ihren Daten&lt;/h3&gt;
+&lt;p&gt;Sobald die Verbindung hergestellt ist, werden Ihre Daten auf dem vorkonfigurierten Dashboard angezeigt, das aus mehrere Visualisierungen oder Kacheln besteht. Klicken Sie auf eine beliebige Kachel, um den ihr zugrunde liegenden Bericht zu untersuchen. Filtern Sie die Daten, oder bearbeiten Sie die anzuzeigenden Felder, um die Metriken zu sehen, die Ihnen wichtig sind.&lt;/p&gt;
+&lt;h3&gt;Stellen Sie Fragen, und erhalten Sie Antworten&lt;/h3&gt;
+&lt;p&gt;Wenn Sie die „Belastungen gesamt nach Datum“ anzeigen möchten, erhalten Sie eine beeindruckende, interaktive Visualisierung als Antwort. Mit Power BI können Sie Fragen in natürlicher Sprache stellen und bekommen die passenden Diagramme zur Antwort.&lt;/p&gt;
+&lt;h3&gt;Aktualisieren Sie nach Ihrem eigenen Zeitplan&lt;/h3&gt;
+&lt;p&gt;Das Dashboard und die ihm zugrunde liegenden Berichte werden täglich aktualisiert. Sie können den Aktualisierungszeitplan steuern und die Häufigkeit für das Dataset ändern.&lt;/p&gt;</value>
+  </data>
+  <data name="stripe_InfoHeading" xml:space="preserve">
+    <value>Durch das Verbinden von Stripe mit Power BI können Sie alle Daten an einem Ort visualisieren und effizientere Entscheidungen treffen – schneller denn je.</value>
+  </data>
+  <data name="stripe_Name" xml:space="preserve">
+    <value>Stripe</value>
+  </data>
+  <data name="sweetiq_Content" xml:space="preserve">
+    <value>Verbinden Sie Ihr SweetIQ-Konto, um Ihre Nennungen, Standorte, Bewertungen und Rezensionen zu analysieren und zu überwachen.</value>
+  </data>
+  <data name="sweetiq_Heading" xml:space="preserve">
+    <value>Analysieren und überwachen Sie Ihre SweetIQ-Daten</value>
+  </data>
+  <data name="sweetiq_InfoContent" xml:space="preserve">
+    <value>&lt;h3&gt;Sehen Sie Ihre Daten&lt;/h3&gt;
+&lt;p&gt;Zeigen Sie Diagramme Ihrer genannten Standorte, Bewertungen und Rezensionen auf einem einheitlichen, vorkonfigurierten Dashboard an. Passen Sie das Dashboard an, um bestimmte Metriken zu überwachen.&lt;/p&gt;
+&lt;h3&gt;Drilldowns für tiefere Einblicke&lt;/h3&gt;
+&lt;p&gt;Klicken Sie auf eine beliebige Kachel, um weitere Berichte anzuzeigen. Sehen Sie die visualisierten Daten, die einzigartige Erkenntnisse möglich machen. Filtern Sie die Metriken, zu denen Sie weitere Informationen wünschen.&lt;/p&gt;
+&lt;h3&gt;Untersuchen Sie Ihre Daten auf neuartige Weise&lt;/h3&gt;
+&lt;p&gt;Heften Sie die Metriken, die Sie im Auge behalten möchten, am Dashboard an. Bearbeiten Sie zusätzliche Ansichten, oder fügen Sie sie hinzu, wie es Ihren Erfordernissen entspricht. Verwenden Sie das Fragefeld, um Ihre Analyse weiter einzugrenzen.&lt;/p&gt;</value>
+  </data>
+  <data name="sweetiq_InfoHeading" xml:space="preserve">
+    <value>Durch das Verbinden von SweetIQ mit Power BI können Sie sich alle Daten an einem Ort anzeigen lassen und schneller bessere Entscheidungen treffen.</value>
+  </data>
+  <data name="sweetiq_Name" xml:space="preserve">
+    <value>SweetIQ</value>
+  </data>
+  <data name="sybase_Content" xml:space="preserve">
+    <value>Wandeln Sie Ihre Datenvolumen rasch in interaktive Berichte und Dashboards mit vielen Visualisierungen um, die einfach freigegeben werden können.</value>
+  </data>
+  <data name="sybase_Heading" xml:space="preserve">
+    <value>Extrapower für Ihre Sybase-Metriken</value>
+  </data>
+  <data name="sybase_InfoContent" xml:space="preserve">
+    <value>&lt;h3&gt;Erstellen Sie Abfragen und Visualisierungen Ihrer Daten&lt;/h3&gt;
+&lt;p&gt;Verbinden Sie ihre Datenbank einfach mit Power BI, und erstellen Sie dynamische Mashups aus Daten und Metriken, über die Sie bereits verfügen.&lt;/p&gt;
+&lt;h3&gt;Untersuchen Sie Ihre Daten jenseits der gewohnten Wege&lt;/h3&gt;
+&lt;p&gt;Ob Sie relationale und nicht relationale Daten kombinieren, um ein umfassenderes Bild zu erhalten, oder dynamische Berichte erstellen möchten, um neue Einblicke freizugeben, mit Power BI können Sie Ihre Daten jenseits der gewohnten Wege untersuchen.&lt;/p&gt;
+&lt;h3&gt;Lassen Sie Ihre Daten für sich arbeiten&lt;/h3&gt;
+&lt;p&gt;Führen Sie Ihre Daten an einem Ort zusammen, und verschaffen Sie sich schnell die 360-Grad-Rundumsicht Ihres Unternehmens. Interagieren Sie mit Ihren Daten, um Antworten zu erhalten, und erstellen Sie visuell aussagekräftige Berichte, die die Geschichte erzählen, die in Ihren Daten steckt.&lt;/p&gt;</value>
+  </data>
+  <data name="sybase_InfoHeading" xml:space="preserve">
+    <value>Durch das Verbinden mit Power BI können Sie sich alle Daten an einem Ort anzeigen lassen und effizientere Entscheidungen treffen – schneller denn je.</value>
+  </data>
+  <data name="sybase_Name" xml:space="preserve">
+    <value>Sybase</value>
+  </data>
+  <data name="teradata_Content" xml:space="preserve">
+    <value>Wandeln Sie Ihre Datenvolumen rasch in interaktive Berichte und Dashboards mit vielen Visualisierungen um, die einfach freigegeben werden können.</value>
+  </data>
+  <data name="teradata_Heading" xml:space="preserve">
+    <value>Verwalten von Analysen mit Teradata-Dashboards</value>
+  </data>
+  <data name="teradata_InfoContent" xml:space="preserve">
+    <value>&lt;h3&gt;Erstellen Sie Abfragen und Visualisierungen Ihrer Daten&lt;/h3&gt;
+&lt;p&gt;Verbinden Sie ihre Datenbank einfach mit Power BI, und erstellen Sie dynamische Mashups aus Daten und Metriken, über die Sie bereits verfügen.&lt;/p&gt;
+&lt;h3&gt;Untersuchen Sie Ihre Daten jenseits der gewohnten Wege&lt;/h3&gt;
+&lt;p&gt;Ob Sie relationale und nicht relationale Daten kombinieren, um ein umfassenderes Bild zu erhalten, oder dynamische Berichte erstellen möchten, um neue Einblicke freizugeben, mit Power BI können Sie Ihre Daten jenseits der gewohnten Wege untersuchen.&lt;/p&gt;
+&lt;h3&gt;Lassen Sie Ihre Daten für sich arbeiten&lt;/h3&gt;
+&lt;p&gt;Führen Sie Ihre Daten an einem Ort zusammen, und verschaffen Sie sich schnell die 360-Grad-Rundumsicht Ihres Unternehmens. Interagieren Sie mit Ihren Daten, um Antworten zu erhalten, und erstellen Sie visuell aussagekräftige Berichte, die die Geschichte erzählen, die in Ihren Daten steckt.&lt;/p&gt;</value>
+  </data>
+  <data name="teradata_InfoHeading" xml:space="preserve">
+    <value>Durch das Verbinden mit Power BI können Sie sich alle Daten an einem Ort anzeigen lassen und effizientere Entscheidungen treffen – schneller denn je.</value>
+  </data>
+  <data name="teradata_Name" xml:space="preserve">
+    <value>Teradata</value>
+  </data>
+  <data name="text_Content" xml:space="preserve">
+    <value>Erstellen Sie anhand Ihrer Textdateidaten schnell visuelle Berichte, Analysen und Dashboards mit hoher Interaktivität und einfachen Freigabemöglichkeiten.</value>
+  </data>
+  <data name="text_Heading" xml:space="preserve">
+    <value>Bessere Dashboards und Berichte für Ihre Textdateidaten</value>
+  </data>
+  <data name="text_InfoContent" xml:space="preserve">
+    <value>&lt;h3&gt;Analysieren und Optimieren&lt;/h3&gt;
+&lt;p&gt;Verschaffen Sie sich mithilfe vorkonfigurierter Analyseberichte, Dashboards und KPIs die richtigen Daten in einer leicht verständlichen Form. Führen Sie Drilldowns mit Filtern und detaillierten Berichten durch, um besser umsetzbare Einsichten zu gewinnen.&lt;/p&gt;
+&lt;h3&gt;Stellen Sie Fragen. Erhalten Sie Antworten.&lt;/h3&gt;
+&lt;p&gt;Stellen Sie Power BI Fragen in natürlicher Sprache, wie z.&amp;#160;B. „Wie viele Benutzer hatten wir im November?“. Die Antwort besteht in einem aktuellen Diagramm, das Sie für die fortlaufende Überwachung an Ihr Dashboard heften können.&lt;/p&gt;
+&lt;h3&gt;Bereitstellen der richtigen Daten für die, die sie brauchen&lt;/h3&gt;
+&lt;p&gt;Heften Sie die wichtigsten Visualisierungen aus benutzerdefinierten Berichten an Ihre Onlinedashboards an, um rasch eine Überwachungs- und Berichterstellungsressource zu erstellen, von der die ganze Organisation profitiert.&lt;/p&gt;</value>
+  </data>
+  <data name="text_InfoHeading" xml:space="preserve">
+    <value>Durch das Verbinden mit Power BI können Sie sich alle Daten an einem Ort anzeigen lassen und effizientere Entscheidungen treffen – schneller denn je.</value>
+  </data>
+  <data name="text_Name" xml:space="preserve">
+    <value>Text</value>
+  </data>
+  <data name="twilio_Content" xml:space="preserve">
+    <value>Rufen Sie dank der Integration in Power BI Twilio-Telefontracking- und -Nachrichtendaten ab, überwachen Sie Ihre effektivsten Telefonnummern, und zeigen Sie Ihren wöchentlichen Fortschritt an. Teilen Sie Ihr Twilio-Dashboard, damit allen Beteiligten die gleichen Informationen zur Verfügung stehen.</value>
+  </data>
+  <data name="twilio_Title" xml:space="preserve">
+    <value>Twilio-Integration</value>
+  </data>
+  <data name="twilio_InfoContent" xml:space="preserve">
+    <value>&lt;h3&gt;Verschaffen Sie sich Antworten auf Fragen zum Twilio-Telefontracking und mehr&lt;/h3&gt;
+&lt;p&gt;Stellen Sie sich vor, Sie fragen sich: „Welches Gebiet hatte im letzten Monat das geringste Gewinnverhältnis?“. Als Antwort erhalten Sie eine ansprechende interaktive Visualisierung. Dank der Integration von Power BI und Twilio können Sie Fragen in natürlicher Sprache stellen und bekommen Dashboards mit den passenden Diagramme zur Antwort.&lt;/p&gt;
+&lt;h3&gt;Untersuchen Sie Daten in Twilio-Dashboards auf neue Weise&lt;/h3&gt;
+&lt;p&gt;Untersuchen Sie Telefontrackingdaten visuell. Mittels Drag&amp;#160;&amp;amp;&amp;#160;Drop können Sie Ihre Daten nach eigenen Wünschen visualisieren. Die intuitive Benutzeroberfläche und die zahlreichen, modernen Datenvisualisierungen erleichtern Ihnen die Twilio-Berichterstellung.&lt;/p&gt;
+&lt;h3&gt;Lassen Sie Ihre Twilio-Daten für sich arbeiten&lt;/h3&gt;
+&lt;p&gt;Möchten Sie gezielt Ihre profitabelsten Kunden ansprechen? Die Integration von Power BI und Twilio kann Ihnen helfen, die beste Rendite zu erzielen. Großartige Verkaufschancen lassen sich leicht finden und umsetzen.&lt;/p&gt;</value>
+  </data>
+  <data name="twilio_InfoHeading" xml:space="preserve">
+    <value>Dank der Integration von Power BI und Twilio können Sie alle Ihre Daten zentral zusammenführen, um schneller als je zuvor bessere Entscheidungen zu treffen</value>
+  </data>
+  <data name="twilio_Name" xml:space="preserve">
+    <value>Twilio</value>
+  </data>
+  <data name="tygraph_Content" xml:space="preserve">
+    <value>Sehen Sie, wie Inhalte von Benutzern konsumiert werden. Erhalten Sie Einsicht in das Maß an Engagement, und erkennen Sie, welche Threads besonders aktiv sind.</value>
+  </data>
+  <data name="tygraph_Heading" xml:space="preserve">
+    <value>Visualisieren und überwachen Sie Ihre Yammer-Daten</value>
+  </data>
+  <data name="tygraph_InfoContent" xml:space="preserve">
+    <value>&lt;h3&gt;Erhalten Sie visuelle Darstellungen aller Ihrer Daten auf einem einzelnen Dashboard&lt;/h3&gt;
+&lt;p&gt;Sobald Sie Ihr tyGraph-Konto mit Power BI verbinden, wird ein vorkonfiguriertes Dashboard angezeigt, mit Kacheln, die eine Visualisierung geordneter Metriken anzeigen, einschließlich der Netzwerkaktivität und mehr.&lt;/p&gt;
+&lt;h3&gt;Untersuchen Sie Ihre Daten jenseits der gewohnten Wege&lt;/h3&gt;
+&lt;p&gt;Ein Drilldown in den einzelnen Kacheln führt Sie zu den zugrundeliegenden Berichten. Zeigen Sie Ihre Metriken zu Gruppenaktivität oder Inhaltsnutzung an. Passen Sie die Standardberichte an, um die für Sie wichtigen Metriken nachzuverfolgen. Heften Sie Ihre angepassten Berichte an das Dashboard an.&lt;/p&gt;
+&lt;h3&gt;Stellen Sie Fragen, und erhalten Sie Antworten&lt;/h3&gt;
+&lt;p&gt; Wenn Sie die „Nachrichten gesamt nach Datum“ anzeigen möchten, erhalten Sie eine beeindruckende, interaktive Visualisierung als Antwort. Mit Power BI können Sie Fragen in natürlicher Sprache stellen und bekommen die passenden Diagramme zur Antwort.&lt;/p&gt;</value>
+  </data>
+  <data name="tygraph_InfoHeading" xml:space="preserve">
+    <value>Verbinden Sie Ihre tyGraph-Daten mit Power BI, um alle Ihre Yammer-Metriken an einem Ort anzuzeigen.</value>
+  </data>
+  <data name="tygraph_Name" xml:space="preserve">
+    <value>tyGraph</value>
+  </data>
+  <data name="uservoice_Content" xml:space="preserve">
+    <value>Gewinnen Sie Einblick in Ihr Kundenfeedback. Überwachen Sie Ihre Kundensupporterfahrung.</value>
+  </data>
+  <data name="uservoice_Heading" xml:space="preserve">
+    <value>Überwachen und visualisieren Sie Ihre UserVoice-Daten</value>
+  </data>
+  <data name="uservoice_InfoContent" xml:space="preserve">
+    <value>&lt;h3&gt;Lassen Sie die Daten für sich arbeiten&lt;/h3&gt;
+&lt;p&gt;Mit dem vorkonfigurierten Power BI-Dashboard erhalten Sie umgehend Einblick in eine Reihe von Schlüsselmetriken in Echtzeit. Passen Sie das Dashboard an, um die Daten zu sehen, die Sie überwachen möchten.&lt;/p&gt;
+&lt;h3&gt;Gehen Sie Ihren Daten auf den Grund&lt;/h3&gt;
+&lt;p&gt;Führen Sie einen Drilldown zu den Details von Benutzervorschlägen, offenen Tickets und Zufriedenheitsbewertungen der Kunden durch. Stellen Sie eine Frage in natürlicher Sprache, und erhalten Sie interaktive Visualisierungen zur Antwort.&lt;/p&gt;
+&lt;h3&gt;Untersuchen Sie Ihre Daten jenseits der gewohnten Wege&lt;/h3&gt;
+&lt;p&gt;Untersuchen Sie Ihre Daten visuell mithilfe eines Drag-&amp;amp;-Drop-Freihandzeichenbereichs, eines großen Umfangs anpassbarer Datenvisualisierungen und einer leicht zu verwendenden Benutzeroberfläche zur Berichterstellung.&lt;/p&gt;</value>
+  </data>
+  <data name="uservoice_InfoHeading" xml:space="preserve">
+    <value>Sie können jetzt in Echtzeit Einsichten aus Ihren UserVoice-Daten gewinnen, indem Sie eine Verbindung mithilfe von Power BI herstellen</value>
+  </data>
+  <data name="uservoice_Name" xml:space="preserve">
+    <value>UserVoice</value>
+  </data>
+  <data name="visual_studio_online_Content" xml:space="preserve">
+    <value>Indem Sie Visual Studio Team Services mit Power BI verbinden, können Sie Daten auf einfache Weise visualisieren und Einblicke in Ihre Daten erhalten, die bisher nicht möglich waren.</value>
+  </data>
+  <data name="visual_studio_online_Heading" xml:space="preserve">
+    <value>Neue Erkenntnisse mit Power BI und Visual Studio Team Services</value>
+  </data>
+  <data name="visual_studio_online_InfoContent" xml:space="preserve">
+    <value>&lt;h3&gt;Stellen Sie Fragen, und erhalten Sie Antworten&lt;/h3&gt;
+&lt;p&gt;Stellen Sie sich vor, Sie stellen eine Frage wie „Wie viele Pull Requests erhalten wir am Tag?“ und erhalten eine beeindruckend dargestellte Visualisierung Ihrer Antwort in einem geeigneten Format. Mit der natürlichsprachlichen Abfragefunktionalität in Power BI können Sie auf Ihre Daten zugreifen, ohne eine neue Sprache lernen zu müssen.&lt;/p&gt;
+&lt;h3&gt;Mehr Darstellungen, mehr Möglichkeiten&lt;/h3&gt;
+&lt;p&gt;Daten aus Visual Studio Online stellen einen natürlichen Partner für die komplexe Natur von Entwicklungsdaten dar. Mithilfe von Power BI können Sie benutzerdefinierte Berichte erstellen, die Ihnen die Darstellung von Informationen auf viele verschiedene Arten erlauben – damit erhalten Sie mehr Möglichkeiten, über Ihre Daten zu berichten und sie zu präsentieren.&lt;/p&gt;
+&lt;h3&gt;Treten Sie in Kontakt zu Ihren Daten&lt;/h3&gt;
+&lt;p&gt;Die Power BI-Weboberfläche ist durchgehend für Touchbedienung optimiert, sodass Sie Commits, Diagramme und andere visuelle Elemente einfach auf dem Touchscreen verschieben können. Seien Sie produktiv, während Sie spielerisch mit Ihren Daten umgehen.&lt;/p&gt;</value>
+  </data>
+  <data name="visual_studio_online_InfoHeading" xml:space="preserve">
+    <value>Visualisieren Sie Ihre Daten mit Power BI</value>
+  </data>
+  <data name="visual_studio_online_Name" xml:space="preserve">
+    <value>Visual Studio Team Services</value>
+  </data>
+  <data name="webtrends_Content" xml:space="preserve">
+    <value>Zeigen Sie Ihre wichtigsten Verkehrsquellen an, um Einsicht in ihre Kampagne zu erhalten. Segmentieren Sie Ihre Daten auf vielfältige Weise, um die Reise Ihres Besuchers besser zu verstehen.</value>
+  </data>
+  <data name="webtrends_Heading" xml:space="preserve">
+    <value>Visualisieren und analysieren Sie Ihre Webtrends-Daten</value>
+  </data>
+  <data name="webtrends_InfoContent" xml:space="preserve">
+    <value>&lt;h3&gt;Erhalten Sie visuelle Darstellungen aller Ihrer Daten auf einem einzelnen Dashboard&lt;/h3&gt;
+&lt;p&gt;Sobald Sie Ihre Webtrends-Daten mit Power BI verbinden, wird ein vorkonfiguriertes Dashboard angezeigt, mit Kacheln, die eine Visualisierung geordneter Metriken anzeigen, einschließlich der Datenverkehrsquelle, der Anzahl der Seitenaufrufe und der Dauer des Besuchs.&lt;/p&gt;
+&lt;h3&gt;Untersuchen Sie Ihre Daten jenseits der gewohnten Wege&lt;/h3&gt;
+&lt;p&gt;Führen Sie einen Drilldown in die Details des zugrundeliegenden Berichts aus. Erfahren Sie , wie Besucher auf Ihre Website gelangen und sie wieder verlassen. Passen Sie den Standardbericht an, um die für Sie wichtigen Metriken nachzuverfolgen. Heften Sie Ihren angepassten Bericht am Dashboard an, um den Verlauf fortlaufend überwachen zu können.&lt;/p&gt;
+&lt;h3&gt;Aktualisieren Sie nach Ihrem eigenen Zeitplan&lt;/h3&gt;
+&lt;p&gt;Das Dashboard und die ihm zugrunde liegenden Berichte werden täglich aktualisiert. Sie können steuern, wie oft die Daten aktualisiert werden.&lt;/p&gt;</value>
+  </data>
+  <data name="webtrends_InfoHeading" xml:space="preserve">
+    <value>Durch das Verbinden von Webtrends mit Power BI können Sie eine holistische Ansicht Ihrer Daten erhalten und schneller denn je effizientere Entscheidungen treffen.</value>
+  </data>
+  <data name="webtrends_Name" xml:space="preserve">
+    <value>Webtrends</value>
+  </data>
+  <data name="web_Content" xml:space="preserve">
+    <value>Erstellen Sie anhand Ihrer Webverbindungen visuelle Berichte, Analysen und Dashboards mit hoher Interaktivität und einfachen Freigabemöglichkeiten.</value>
+  </data>
+  <data name="web_Heading" xml:space="preserve">
+    <value>Bessere Dashboards und Berichte für Ihre Webdaten</value>
+  </data>
+  <data name="web_InfoContent" xml:space="preserve">
+    <value>&lt;h3&gt;Analysieren und Optimieren&lt;/h3&gt;
+&lt;p&gt;Verschaffen Sie sich mithilfe vorkonfigurierter Analyseberichte, Dashboards und KPIs die richtigen Daten in einer leicht verständlichen Form. Führen Sie Drilldowns mit Filtern und detaillierten Berichten durch, um besser umsetzbare Einsichten zu gewinnen.&lt;/p&gt;
+&lt;h3&gt;Stellen Sie Fragen. Erhalten Sie Antworten.&lt;/h3&gt;
+&lt;p&gt;Stellen Sie Power BI Fragen in natürlicher Sprache, wie z.&amp;#160;B. „Wie viele Benutzer hatten wir im November?“. Die Antwort besteht in einem aktuellen Diagramm, das Sie für die fortlaufende Überwachung an Ihr Dashboard heften können.&lt;/p&gt;
+&lt;h3&gt;Bereitstellen der richtigen Daten für die, die sie brauchen&lt;/h3&gt;
+&lt;p&gt;Heften Sie die wichtigsten Visualisierungen aus benutzerdefinierten Berichten an Ihre Onlinedashboards an, um rasch eine Überwachungs- und Berichterstellungsressource zu erstellen, von der die ganze Organisation profitiert.&lt;/p&gt;</value>
+  </data>
+  <data name="web_InfoHeading" xml:space="preserve">
+    <value>Durch das Verbinden mit Power BI können Sie sich alle Daten an einem Ort anzeigen lassen und effizientere Entscheidungen treffen – schneller denn je.</value>
+  </data>
+  <data name="web_Name" xml:space="preserve">
+    <value>Web</value>
+  </data>
+  <data name="xml_Content" xml:space="preserve">
+    <value>Erstellen Sie anhand Ihrer XML-Dateien schnell visuelle Berichte, Analysen und Dashboards mit hoher Interaktivität und einfachen Freigabemöglichkeiten.</value>
+  </data>
+  <data name="xml_Heading" xml:space="preserve">
+    <value>Bessere Dashboards und Berichte für Ihre XML-Dateidaten</value>
+  </data>
+  <data name="xml_InfoContent" xml:space="preserve">
+    <value>&lt;h3&gt;Analysieren und Optimieren&lt;/h3&gt;
+&lt;p&gt;Verschaffen Sie sich mithilfe vorkonfigurierter Analyseberichte, Dashboards und KPIs die richtigen Daten in einer leicht verständlichen Form. Führen Sie Drilldowns mit Filtern und detaillierten Berichten durch, um besser umsetzbare Einsichten zu gewinnen.&lt;/p&gt;
+&lt;h3&gt;Stellen Sie Fragen. Erhalten Sie Antworten.&lt;/h3&gt;
+&lt;p&gt;Stellen Sie Power BI Fragen in natürlicher Sprache, wie z.&amp;#160;B. „Wie viele Benutzer hatten wir im November?“. Die Antwort besteht in einem aktuellen Diagramm, das Sie für die fortlaufende Überwachung an Ihr Dashboard heften können.&lt;/p&gt;
+&lt;h3&gt;Bereitstellen der richtigen Daten für die, die sie brauchen&lt;/h3&gt;
+&lt;p&gt;Heften Sie die wichtigsten Visualisierungen aus benutzerdefinierten Berichten an Ihre Onlinedashboards an, um rasch eine Überwachungs- und Berichterstellungsressource zu erstellen, von der die ganze Organisation profitiert.&lt;/p&gt;</value>
+  </data>
+  <data name="xml_InfoHeading" xml:space="preserve">
+    <value>Durch das Verbinden mit Power BI können Sie sich alle Daten an einem Ort anzeigen lassen und effizientere Entscheidungen treffen – schneller denn je.</value>
+  </data>
+  <data name="xml_Name" xml:space="preserve">
+    <value>XML</value>
+  </data>
+  <data name="zendesk_Content" xml:space="preserve">
+    <value>Die Verbindung von Zendesk und Power BI gibt Ihnen eine noch einfachere Möglichkeit, Ihre Zendesk-Daten zu untersuchen und zu überwachen. Darüber hinaus können Sie mit dem Dashboard und dem Startset von Berichten im vorkonfigurierten Inhaltspaket sofort produktiv werden.</value>
+  </data>
+  <data name="zendesk_Heading" xml:space="preserve">
+    <value>Gewinnen Sie echte Einsichten aus Ihren Zendesk-Daten</value>
+  </data>
+  <data name="zendesk_InfoContent" xml:space="preserve">
+    <value>&lt;h3&gt;Ihr Dashboard, wie Sie es wünschen&lt;/h3&gt;
+&lt;p&gt;Mit Power BI und Zendesk können Sie auf kritische Informationen über Ihre Tickets, Agenten, Organisationen und mehr über ein anpassbares Dashboard zugreifen. Sie wählen die Datentypen und die Zeitachse aus; Power BI und Zendesk erledigen den Rest.&lt;/p&gt;
+&lt;h3&gt;Heften Sie wichtige Erkenntnisse an&lt;/h3&gt;
+&lt;p&gt;Möchten Sie sicherstellen, dass auf einen Datenpunkt leicht zugegriffen werden kann? Verwenden Sie die Anpassungsoption „Anheften“, um ihn an Ihr Dashboard anzuheften.&lt;/p&gt;
+&lt;h3&gt;Antworten auf Ihre Fragen&lt;/h3&gt;
+&lt;p&gt;Haben Sie Fragen zu den Ticketverkäufen oder den Umsätzen einer bestimmten Agentur für letzten Donnerstag? Sie erhalten die gewünschten Antworten über das Fragefeld auf dem Dashboard.&lt;/p&gt;</value>
+  </data>
+  <data name="zendesk_InfoHeading" xml:space="preserve">
+    <value>Holen Sie mehr aus Ihren Zendesk-Daten, indem Sie sie mit Power BI verbinden</value>
+  </data>
+  <data name="zendesk_Name" xml:space="preserve">
+    <value>Zendesk</value>
+  </data>
+  <data name="github_Heading" xml:space="preserve">
+    <value>Analysieren Sie Ihre GitHub-Aktivitäten mithilfe von Dashboard- und Berichterstellungstools</value>
+  </data>
+  <data name="mailchimp_Heading" xml:space="preserve">
+    <value>Verfolgen und analysieren Sie Ihre MailChimp-Daten mithilfe benutzerdefinierter Berichte</value>
+  </data>
+  <data name="twilio_ConnectContent" xml:space="preserve">
+    <value>Twilio-Telefontrackingdaten, Excel-Tabellen, lokale Datenquellen, Hadoop-Datasets, Streamingdaten und Clouddienste: Die Power BI-Integration bringt alle Ihre Daten zusammen, sodass Sie in Sekundenschnelle mit der Analyse beginnen können.</value>
+  </data>
+  <data name="twilio_ConnectHeading" xml:space="preserve">
+    <value>Verbinden Sie sich in Microsoft Power BI mit Twilio-Berichten und den für Sie wichtigsten Informationen</value>
+  </data>
+  <data name="twilio_META_DESCRIPTION" xml:space="preserve">
+    <value>Rufen Sie die Twilio-Informationen zu Telefontracking, Telefonnummerndaten und Messaging in ein umfangreiches Twilio-Dashboard ab. Die Integration von Power BI und Twilio vereinfacht die Berichterstellung.</value>
+  </data>
+  <data name="twilio_META_KEYWORDS" xml:space="preserve">
+    <value>Twilio-Telefontracking, Twilio-Integration, Twilio-Dashboard, Twilio-Berichterstellung</value>
+  </data>
+  <data name="twilio_Heading" xml:space="preserve">
+    <value>Analysieren und visualisieren Sie Twilio-Daten mithilfe benutzerfreundlicher Dashboards</value>
+  </data>
+  <data name="github_ConnectContent" xml:space="preserve">
+    <value>GitHub-Repositorydaten, Excel-Tabellen, lokale Datenquellen, Hadoop-Datasets, Streamingdaten und Clouddienste: Power BI bringt alle Ihre Daten zusammen, sodass Sie in Sekundenschnelle mit der Analyse beginnen können.</value>
+  </data>
+  <data name="github_ConnectHeading" xml:space="preserve">
+    <value>Ziehen Sie in Microsoft Power BI GitHub-Berichte und vieles mehr hinzu</value>
+  </data>
+  <data name="github_META_DESCRIPTION" xml:space="preserve">
+    <value>Exportieren Sie Ihr Repository in Power BI zum Vereinfachen der Berichterstellung mithilfe des GitHub-Dashboards. Mit unseren Tools können Sie Aktivitäten analysieren, um die GitHub-Projektverwaltung effektiv zu gestalten.</value>
+  </data>
+  <data name="github_META_KEYWORDS" xml:space="preserve">
+    <value>GitHub-Projektverwaltung, GitHub-Tools, GitHub-Dashboard, GitHub-Bericht</value>
+  </data>
+  <data name="github_META_TITLE" xml:space="preserve">
+    <value>GitHub-Projektverwaltungstools</value>
+  </data>
+  <data name="mailchimp_ConnectContent" xml:space="preserve">
+    <value>MailChimp-Berichterstellung, Excel-Tabellen, lokale Datenquellen, Hadoop-Datasets, Streamingdaten und Clouddienste: Power BI bringt alle Ihre Daten zusammen, sodass Sie in Sekundenschnelle mit der Analyse beginnen können.</value>
+  </data>
+  <data name="mailchimp_ConnectHeading" xml:space="preserve">
+    <value>Verbinden Sie sich dank der Integration von Microsoft Power BI und MailChimp mit den für Sie wichtigsten Informationen</value>
+  </data>
+  <data name="mailchimp_META_DESCRIPTION" xml:space="preserve">
+    <value>Nutzen Sie die Integration von MailChimp in Power BI, um Ihre Daten zu visualisieren und zu untersuchen. Registrieren Sie sich, und richten Sie noch heute die Berichterstellung mit dem MailChimp-Dashboard ein.</value>
+  </data>
+  <data name="mailchimp_META_KEYWORDS" xml:space="preserve">
+    <value>MailChimp-Integration, MailChimp-Dashboard, MailChimp-Berichte, MailChimp-Berichterstellung</value>
+  </data>
+  <data name="mailchimp_META_TITLE" xml:space="preserve">
+    <value>Integration mit dem MailChimp-Dashboard</value>
+  </data>
+  <data name="marketo_ConnectContent" xml:space="preserve">
+    <value>Marketo-Analysen, Excel-Tabellen, lokale Datenquellen, Hadoop-Datasets, Streamingdaten und Clouddienste: Power BI bringt alle Ihre Daten zusammen, sodass Sie in Sekundenschnelle mit der Analyse beginnen können.</value>
+  </data>
+  <data name="marketo_ConnectHeading" xml:space="preserve">
+    <value>Verbinden Sie sich dank der Integration von Microsoft Power BI und Marketo mit den für Sie wichtigsten Informationen</value>
+  </data>
+  <data name="marketo_META_DESCRIPTION" xml:space="preserve">
+    <value>Erstellen Sie Marketo-Dashboards für eine einfache Berichterstellung mit Power BI. Dank der Integration mit Marketo verschaffen Sie sich bei der Visualisierung von Analysen wertvolle Erkenntnisse für die Entscheidungsfindung.</value>
+  </data>
+  <data name="marketo_META_KEYWORDS" xml:space="preserve">
+    <value>Marketo-Integration, Marketo-Analysen, Marketo-Berichterstellung, Marketo-Dashboard</value>
+  </data>
+  <data name="marketo_META_TITLE" xml:space="preserve">
+    <value>Marketo-Analysen – Integration und Berichterstellung</value>
+  </data>
+  <data name="marketo_Heading" xml:space="preserve">
+    <value>Überwachen und überprüfen Sie Marketo-Analysen mithilfe von Power BI-Berichten</value>
+  </data>
+  <data name="twilio_META_TITLE" xml:space="preserve">
+    <value>Integration des Twilio-Telefontrackings</value>
+  </data>
+  <data name="default_Content" xml:space="preserve">
+    <value>Erstellen Sie auf Grundlage Ihrer Daten schnell visuelle Berichte, Analysen und Dashboards mit hoher Interaktivität und einfachen Freigabemöglichkeiten.</value>
+  </data>
+  <data name="default_Title" xml:space="preserve">
+    <value>{0}-Integration</value>
+    <comment>Integration name</comment>
+  </data>
+  <data name="default_InfoContent" xml:space="preserve">
+    <value>&lt;h3&gt;Analysieren und Optimieren&lt;/h3&gt;
+&lt;p&gt;Verschaffen Sie sich mithilfe vorkonfigurierter Analyseberichte, Dashboards und KPIs die richtigen Daten in einer leicht verständlichen Form. Führen Sie Drilldowns mit Filtern und detaillierten Berichten durch, um besser umsetzbare Einsichten zu gewinnen.&lt;/p&gt;
+&lt;h3&gt;Stellen Sie Fragen. Erhalten Sie Antworten.&lt;/h3&gt;
+&lt;p&gt;Stellen Sie Power BI Fragen in natürlicher Sprache, wie z.&amp;#160;B. „Wie viele Benutzer hatten wir im November?“. Die Antwort besteht in einem aktuellen Diagramm, das Sie für die fortlaufende Überwachung an Ihr Dashboard heften können.&lt;/p&gt;
+&lt;h3&gt;Bereitstellen der richtigen Daten für die, die sie brauchen&lt;/h3&gt;
+&lt;p&gt;Heften Sie die wichtigsten Visualisierungen aus benutzerdefinierten Berichten an Ihre Onlinedashboards an, um rasch eine Überwachungs- und Berichterstellungsressource zu erstellen, von der die ganze Organisation profitiert.&lt;/p&gt;</value>
+  </data>
+  <data name="default_InfoHeading" xml:space="preserve">
+    <value>Durch das Verbinden mit Power BI können Sie sich alle Daten an einem Ort anzeigen lassen und effizientere Entscheidungen treffen – schneller denn je.</value>
+  </data>
+  <data name="default_Heading" xml:space="preserve">
+    <value>Bessere Dashboards und Berichte für Ihre Daten</value>
+  </data>
+  <data name="xero_Content" xml:space="preserve">
+    <value>Mit Power BI können Sie ansprechende visuelle Berichte erstellen, mit denen sich Ihre Xero-Buchhaltungsdaten und Daten aus anderen Quellen an einem übersichtlichen Ort zusammenfassen lassen. Gewinnen Sie in wenigen Minuten einen vollständigen Überblick über Ihr Unternehmen – mit benutzerfreundlichen, vorkonfigurierten Dashboards und Berichten, die sich einfach per Drag &amp; Drop erstellen lassen.</value>
+  </data>
+  <data name="xero_Heading" xml:space="preserve">
+    <value>Erstellen von Visualisierungen und Auswertungen von Buchhaltungsdaten in kürzester Zeit</value>
+  </data>
+  <data name="xero_InfoContent" xml:space="preserve">
+    <value>&lt;h3&gt;Visualisieren und Analysieren von Xero-Daten im Handumdrehen&lt;/h3&gt;
+&lt;p&gt;Nutzen Sie die Power BI- und Xero-Dashboards, um moderne Datenvisualisierungen und -berichte zu erstellen. Mit Power BI können Kleinunternehmen und ihre Berater in Sekundenschnelle bestimmte Geschäftsmetriken wie die Liquiditätslage aufschlüsseln und automatisch sogenannte „schnelle Einblicke“ generieren.&lt;/p&gt;
+&lt;h3&gt;Vergleichen und Gegenüberstellen wichtiger Daten aus allen Anwendungen&lt;/h3&gt;
+&lt;p&gt;Vergleichen Sie Xero-Buchhaltungsdaten miteinander und mit den Daten anderer relevanter Anwendungen wie Microsoft Dynamics CRM, Mailchimp, Insightly, Google Analytics, Zendesk und Stripe.&lt;/p&gt;
+&lt;h3&gt;Nahtlose Freigabe&lt;/h3&gt;
+&lt;p&gt;Erstellen Sie neue Dashboards mit Auswahl in natürlicher Sprache. Teilen und speichern Sie visuell eindrucksvolle Dashboards und Berichte mit Kollegen – sicher, jederzeit und von praktisch überall aus. &lt;/p&gt;</value>
+  </data>
+  <data name="xero_InfoHeading" xml:space="preserve">
+    <value>Mit Xero-Tools und Power BI zu aussagekräftigen Einblicken in Ihre Buchhaltungsdaten – schnell und übersichtlich</value>
+  </data>
+  <data name="xero_Name" xml:space="preserve">
+    <value>Xero</value>
+  </data>
+  <data name="Meta_LocJobId" xml:space="preserve">
+    <value>110</value>
+  </data>
+</root>

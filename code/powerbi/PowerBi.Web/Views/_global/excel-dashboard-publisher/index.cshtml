@@ -1,0 +1,116 @@
+﻿@model PowerBI.Web.Models.Pages.ViewMetadataModel
+@using Resources = PowerBI.Resources.Pages.ExcelDashboardPublisher.Index;
+
+@{
+    Model.PageTitle = Resources.META_PAGETITLE;
+    Model.MetaKeywords = Resources.META_KEYWORDS;
+    Model.MetaDescription = Resources.META_DESCRIPTION;
+}
+
+<section class="section section-size3 section-palette02">
+    <div class="row">
+        <div class="column large-5">
+            <h1>@Resources.Hero_Heading</h1>
+        </div>
+        <div class="column large-6 large-offset-1">
+            <p>@Resources.Hero_Copy</p>
+        </div>
+    </div>
+</section>
+
+<section class="section section-slate01">
+    <div class="row">
+        <div class="column large-5">
+            <h2 class="text-heading3">@Resources.Try_Heading</h2>
+        </div>
+        <div class="column large-6 large-offset-1">
+            <ul class="linkList linkList-horizontal">
+                <li><a data-event="exceldashboardpublisher-clicked-download32bit" id="excelPubDownload32Bit" href="@Html.LocalizeUrl("go:722765")" class="button button-featured" data-pops-up="modal-download">@Resources.Download <br> (@Resources.D32Bit)</a></li>
+                <li><a data-event="exceldashboardpublisher-clicked-download64bit" id="excelPubDownload64Bit" href="@Html.LocalizeUrl("go:722766")" class="button button-featured" data-pops-up="modal-download">@Resources.Download <br> (@Resources.D64Bit)</a></li>
+            </ul>
+            <ul class="linkList">
+                <li><a href="https://www.microsoft.com/download/details.aspx?id=50729">@Resources.PreferredLanguage</a></li>
+                <li><a href="https://support.office.com/article/What-version-of-Office-am-I-using-932788b8-a3ce-44bf-bb09-e334518b8b19">@Resources.WhatVersion</a></li>
+            </ul>
+        </div>
+    </div>
+</section>
+
+<section class="section section-size0">
+    <img style="display:block;" src="@CdnHelper.GetCdnUrl("/pictures/pages/excel-dashboard-publisher/laptop.png")" alt="" />
+</section>
+
+<section class="section section-size3 section-palette02">
+    <div class="row">
+        <div class="column medium-7">
+            <p>@Resources.Sources_Copy</p>
+        </div>
+        <div class="column medium-4 medium-offset-1">
+            <a class="button" href="@Html.LocalizeUrl("go:722168")">@Resources.LearnMore</a>
+        </div>
+    </div>
+</section>
+
+<section class="section">
+    <div class="row row-size3">
+        <div class="column medium-4">
+            <div class="row">
+                <div class="column">
+                    <span class="icon icon-size3">@SvgHelper.GetSvg("cube")</span>
+                </div>
+            </div>
+            <div class="row row-size3">
+                <div class="column">
+                    <h3>@Resources.SingleDashboard_Heading</h3>
+                    <p>@Resources.SingleDashboard_Copy</p>
+                </div>
+            </div>
+        </div>
+        <div class="column medium-4">
+            <div class="row">
+                <div class="column">
+                    <span class="icon icon-size3">@SvgHelper.GetSvg("cycle")</span>
+                </div>
+            </div>
+            <div class="row row-size3">
+                <div class="column">
+                    <h3>@Resources.SaveShare_Heading</h3>
+                    <p>@Resources.SaveShare_Copy</p>
+                </div>
+            </div>
+        </div>
+        <div class="column medium-4">
+            <div class="row">
+                <div class="column">
+                    <span class="icon icon-size3">@SvgHelper.GetSvg("world")</span>
+                </div>
+            </div>
+            <div class="row row-size3">
+                <div class="column">
+                    <h3>@Resources.RightData_Heading</h3>
+                    <p>@Resources.RightData_Copy</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+@Html.Partial("section/_modal-download", new ModalDownload
+{
+    DownloadType="DownloadDesktopExcelPlugin",
+    SubmitRedirectUrl = "/excel-dashboard-publisher-pre-install/"
+})
+
+@section foot {
+    <script>
+        (function () {
+            $('[data-pops-up="modal-download"]').on('click', function () {
+                window.location = this.href;
+            });
+
+            $('body').on('click', '#modal-download .button', function () {
+                $('#modal-download .close').trigger('click');
+            });
+        })();
+    </script>
+}

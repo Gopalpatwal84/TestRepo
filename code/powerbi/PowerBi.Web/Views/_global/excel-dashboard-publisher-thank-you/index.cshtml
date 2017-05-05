@@ -1,0 +1,56 @@
+﻿@model PowerBI.Web.Models.Pages.ViewMetadataModel
+@using Resources = PowerBI.Resources.Pages.ExcelDashboardPublisherThankYou.Index
+
+@{
+    Model.PageTitle = Resources.META_PAGETITLE;
+    Model.MetaKeywords = Resources.META_KEYWORDS;
+    Model.MetaDescription = Resources.META_DESCRIPTION;
+}
+
+<section class="section section-size6 text-center">
+    <div class="row">
+        <div class="column">
+            <h1>@Resources.Heading</h1>
+        </div>
+    </div>
+    <div class="row row-size1">
+        <div class="column medium-8 medium-offset-2">
+            <p>@Resources.SubHeading</p>
+        </div>
+    </div>
+    <div class="row row-size2">
+        <div class="column">
+            <img src="@CdnHelper.GetCdnUrl("/pictures/pages/excel-dashboard-publisher-thank-you/animated.gif")" alt="" />
+        </div>
+    </div>
+    <div class="row row-size2">
+        <div class="column">
+            <p>@Resources.WantMore</p>
+        </div>
+    </div>
+    <div class="row row-size2">
+        <div class="column">
+            <a href="@Html.LocalizeUrl("go:722168")" class="button">@Resources.ViewDocs</a>
+        </div>
+    </div>
+</section>
+
+@section foot {
+    <script>
+        (function (global, qs2object, mxpnl) {
+            $(document).ready(function () {
+                var query = global.location.search.substring(1),
+                    urlParams = qs2object(query),
+                    qstring = urlParams['clientCorrelationId'];
+
+                if (!!qstring) {
+                    var distinctId = mxpnl.getDistinctId();
+                    var properties = {};
+                    properties.distinct_id = distinctId;
+                    mixpanel.alias(qstring, distinctId);
+                    mixpanel.track('PBI.Addin.InstallationCompletetedSuccessfully', properties);
+                }
+            });
+        })(window, window.sd.qs2object, window.onyx.analytics.eventSenders.mixpanel);
+    </script>
+}

@@ -1,0 +1,31 @@
+﻿@model PowerBI.Web.Features.Forms.Models.ContentRegistrationFormViewModel
+@using Form = PowerBI.Resources.Shared.Forms.Form
+
+@{
+    OnyxForms.SetupForms();
+    var formClass = Model.FormOptions.Class ?? string.Empty;
+    var submitText = Model.FormOptions.SubmitText ?? Form.StartDownload;
+}
+
+@using (var f = Html.BeginChameleonForm(Html.LocalizeUrl("/forms/submit-content-registration/").ToString(), method: FormMethod.Post, htmlAttributes: Html.Attrs().Attr("data-form-type", "content-registration")))
+{
+        <div class="column large-centered large-10">
+            @using (var s = f.BeginSection())
+            {
+                    @f.FormOptions(Model.FormOptions)
+                    @s.FieldFor(m => m.Email).WithoutLabel().Label(string.Empty).Placeholder(Form.Email_Placeholder_2)
+                    @s.FieldFor(m => m.Country).WithoutLabel().Label(string.Empty).WithNoneAs(Form.CountryRegion).Attr("data-dropdown-event", "ebook-selected-dropdown");
+                    <p class="text-left text-mini form-row">@Html.RawFormatInvariant(@Form.Terms_MsUseInfo, Html.LocalizeUrl("go:521839"))</p>
+                    <div class="country-consent" data-countries="@string.Join(" ", Model.CountriesRequiringContactConsent.Select(c => c.Slug))">
+                        @s.FieldFor(m => m.Consent).WithoutLabel().Label(string.Empty).InlineLabel(Form.Accept)
+                    </div>
+            }
+        </div>
+        <div class="column text-center">
+            @using (var n = f.BeginNavigation())
+            {
+                @n.Submit(submitText).AddClass("button-featured ebook-submit thankyou-modal").Id("eip-ebook")
+            }
+            <a class="hidden" data-pops-up="ebook-thankyou-modal"></a>
+        </div>
+}

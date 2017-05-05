@@ -1,0 +1,158 @@
+﻿@import (reference) '../../../less/mixins.d.less';
+@import (reference) '../../../less/variables.d.less';
+
+// PBI-363
+input[type='text'],
+select,
+textarea {
+    background-color: @color-palette01;
+    border-color: @color-slate06;
+    font-size: 18px;
+    font-weight: @font-light;
+    line-height: 1.3;
+    padding: 8px 12px 9px;
+
+    &:hover {
+        border-color: @color-slate04;
+    }
+
+    &:focus {
+        border-color: @color-palette02;
+        color: @color-slate02;
+    }
+
+    &.input-validation-error {
+        // jQuery Validate error class
+        border-color: @color-error;
+    }
+
+    &.utility {
+        border-color: @color-slate05;
+        background-color: transparent;
+        font-size: @font-mini;
+        border-width: 1px;
+    }
+}
+
+// PBI-363
+select {
+    color: @color-slate02;
+    font-weight: @font-semibold;
+    padding: 7px 12px;
+
+    option {
+        font-size: @font-heading5;
+    }
+}
+
+.form-email-only {
+    .group();
+
+    .form-row {
+        margin: 0;
+    }
+
+    fieldset,
+    .form-navigation {
+        float: left;
+    }
+
+    fieldset {
+        width: 100%;
+    }
+
+    .form-navigation {
+        margin-top: @spacing-size1;
+        width: 100%;
+    }
+}
+
+.form-small {
+    input[type='text'], 
+    select, 
+    textarea,
+    .button {
+        font-size: 14px;
+    }
+}
+
+.field-validation-error {
+    display: inline-block;
+    font-size: @font-mini;
+    color: @color-error;
+    margin: 10px 0;
+}
+
+.search-input {
+    position: relative;
+
+    .icon {
+        background: none;
+        border: none;
+        height: 28px;
+        padding: 0;
+        position: absolute;
+        right: 8px;
+        top: 8px;
+        width: 28px;
+    }
+
+    &.search-input-small {
+        input[type=text] {
+            font-size: @font-mini;
+            padding: 4px 10px 5px 10px;
+        }
+
+        .icon {
+            height: 14px;
+            right: 7px;
+            top: 7px;
+            width: 14px;
+        }
+    }
+}
+
+@media only screen and (min-width: @resolution-small) {
+    .form-email-only {
+        fieldset,
+        .form-navigation {
+            float: left;
+        }
+
+        fieldset {
+            width: 95*2/3%;
+            margin-right: 5*2/3%;
+        }
+
+        .form-navigation {
+            margin-top: 0;
+            width: 100*1/3%;
+        }
+    }
+
+    .form-medium-full {
+        fieldset {
+            margin-right: 0;
+            width: 100%;
+        }
+
+        .form-navigation {
+            margin-top: @spacing-size1;
+            width: 100%;
+        }
+    }
+}
+
+@media only screen and (min-width: @resolution-large) {
+    .form-medium-full {
+        fieldset {
+            margin-right: 5*2/3%;
+            width: 95*2/3%;
+        }
+
+        .form-navigation {
+            margin-top: 0;
+            width: 100*1/3%;
+        }
+    }
+}

@@ -1,0 +1,33 @@
+﻿@using Resources = PowerBI.Resources.Pages.GetStarted.Index 
+@using Forms = PowerBI.Resources.Shared.Forms.Form
+
+<section id="ebook-registration-modal" class="section section-size3 modal modal-large">
+    <a href="#" class="close">&times;</a>
+    <div class="row row-size1">
+        <div class="column large-5 text-center">
+            <img src="@CdnHelper.GetCdnUrl("/pictures/pages/get-started/ebook.png")" alt="" srcset="@CdnHelper.GetCdnUrl("/pictures/pages/get-started/ebook-2x.png") 2x" />
+        </div>
+        <div class="column xsmall-11 xsmall-centered large-7">
+            <div class="row row-size2">
+                <div class="column small-11 small-centered medium-11 medium-centered">
+                    <p class="text-heading3 show-for-medium">@Resources.EIPEbook_Heading</p>
+                    <p class="text-heading3 text-center hide-for-medium">@Resources.EIPEbook_Heading</p>
+                    <p class="show-for-medium">@Html.RawFormatInvariant(Resources.EIPEbook_Content)</p>
+                    <p class="hide-for-medium text-center">@Html.RawFormatInvariant(Resources.EIPEbook_Content)</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="row row-size2">
+        <div class="column medium-11 medium-centered">
+            @Html.CreateForm("ContentRegistration", new Acom.Forms.Models.FormOptions
+               {
+                   Class = "form-email-only",
+                   Slug = "ebook-registration",
+                   SubmitText = Forms.DownloadEbook
+               })
+        </div>
+    </div>
+</section>

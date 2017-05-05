@@ -1,0 +1,23 @@
+﻿@import (reference) '../../../less/mixins.d.less';
+@import (reference) '../../../less/variables.d.less';
+
+.cta-secondary {
+    font-size: 18px;
+    font-weight: @font-semibold;
+    padding: 7px 0 8px;
+    vertical-align: bottom;
+    display: inline-block;
+
+    .glyphicon {
+        .transition(margin-left .1s ease-in-out);
+        margin-left: 6px;
+    }
+
+    &:hover {
+        text-decoration: none;
+
+        .glyphicon {
+            margin-left: 8px;
+        }
+    }
+}

@@ -1,0 +1,108 @@
+﻿@model PowerBI.Web.Models.Pages.ViewMetadataModel
+@using Resources = PowerBI.Resources.Pages.CustomVisuals.Index;
+@{
+    Model.PageTitle = Resources.META_PAGETITLE;
+    Model.MetaKeywords = Resources.META_KEYWORDS;
+    Model.MetaDescription = Resources.META_DESCRIPTION;
+}
+
+<section class="section section-palette02">
+    <div class="row">
+        <div class="column text-center">
+            <h1>@Resources.Hero_Heading</h1>
+        </div>
+    </div>
+    <div class="row">
+        <div class="column medium-8 medium-centered">
+            <div class="shadow-palette05 border-radius">
+                <div class="carousel-header">
+                    <span class="dot"></span>
+                    <span class="dot"></span>
+                    <span class="dot"></span>
+                </div>
+                <div class="owl-carousel-narrow">
+                    <div class="text-center"><img alt="" src="@CdnHelper.GetCdnUrl("/pictures/pages/custom-visuals/visual-line-chart.png")" /></div>
+                    <div class="text-center"><img alt="" src="@CdnHelper.GetCdnUrl("/pictures/pages/custom-visuals/visual-data-dot-chart.png")" /></div>
+                    <div class="text-center"><img alt="" src="@CdnHelper.GetCdnUrl("/pictures/pages/custom-visuals/visual-bubble-chart.png")" /></div>
+                    <div class="text-center"><img alt="" src="@CdnHelper.GetCdnUrl("/pictures/pages/custom-visuals/visual-scatter-hexbin.png")" /></div>
+                    <div class="text-center"><img alt="" src="@CdnHelper.GetCdnUrl("/pictures/pages/custom-visuals/visual-synoptic-panel.png")" /></div>
+                    <div class="text-center"><img alt="" src="@CdnHelper.GetCdnUrl("/pictures/pages/custom-visuals/visual-donut-chart.png")" /></div>
+                    <div class="text-center"><img alt="" src="@CdnHelper.GetCdnUrl("/pictures/pages/custom-visuals/visual-bar-chart.png")" /></div>
+                    <div class="text-center"><img alt="" src="@CdnHelper.GetCdnUrl("/pictures/pages/custom-visuals/visual-gauge.png")" /></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="column medium-8 medium-centered text-center">
+            <p>@Resources.Hero_Content</p>
+        </div>
+    </div>
+    <div class="row row-size2">
+        <div class="column medium-8 medium-centered text-center">
+            <a class="button" href="@Html.LocalizeUrl("go:618345")" data-event="global-clicked-getstartedcta" data-event-property="get-started">@Resources.Hero_CTA</a>
+        </div>
+    </div>
+</section>
+
+<section class="section section-size6">
+    <div class="row">
+        <div class="column medium-4">
+            <div class="row">
+                <div class="column">
+                    <span class="icon icon-size3">@SvgHelper.GetSvg("code-editor")</span>
+                </div>
+            </div>
+            <div class="row row-size3">
+                <div class="column">
+                    <h3>@Resources.GetReady_Heading</h3>
+                    <p>@Resources.GetReady_Content</p>
+                </div>
+            </div>
+        </div>
+        <div class="column medium-4">
+            <div class="row">
+                <div class="column">
+                    <span class="icon icon-size3">@SvgHelper.GetSvg("expand-window")</span>
+                </div>
+            </div>
+            <div class="row row-size3">
+                <div class="column">
+                    <h3>@Resources.OpenAndModern_Heading</h3>
+                    <p>@Resources.OpenAndModern_Content</p>
+                </div>
+            </div>
+        </div>
+        <div class="column medium-4">
+            <div class="row">
+                <div class="column">
+                    <span class="icon icon-size3">@SvgHelper.GetSvg("enable-in-app")</span>
+                </div>
+            </div>
+            <div class="row row-size3">
+                <div class="column">
+                    <h3>@Resources.Extend_Heading</h3>
+                    <p>@Resources.Extend_Content</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+@section foot{
+    <script>
+        $(function () {
+            $(".owl-carousel-narrow").owlCarousel({
+                autoplay: false,
+                items: 1,
+                stagePadding: 80,
+                loop: true,
+                nav: true,
+                navText: [
+                    '<span class="icon">@SvgHelper.GetSvg("left-transparent")</span>',
+                    '<span class="icon">@SvgHelper.GetSvg("right-transparent")</span>'
+                ]
+            });
+        });
+    </script>
+}

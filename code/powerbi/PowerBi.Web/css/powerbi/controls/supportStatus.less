@@ -1,0 +1,39 @@
+﻿@import (reference) '../../../less/mixins.d.less';
+@import (reference) '../../../less/variables.d.less';
+
+.status {
+    background-color: @color-slate06;
+    border-bottom: 4px solid @color-palette02;
+    font-size: @font-heading3;
+    font-weight: @font-bold;
+    padding: 20px 20px 20px 70px;
+    position: relative;
+
+    &:before {
+        .transform-translate(0, -50%);
+        background-size: cover;
+        content: '';
+        display: block;
+        height: 30px;
+        left: 20px;
+        position: absolute;
+        top: 50%;
+        width: 30px;
+    }
+
+    &[data-state=green] {
+        border-bottom-color: @color-success;
+
+        &:before {
+            background-image: url(/pictures/pages/support/circle-check.svg);
+        }
+    }
+
+    &[data-state=red] {
+        border-bottom-color: @color-error;
+
+        &:before {
+            background-image: url(/pictures/pages/support/circle-x.svg);
+        }
+    }
+}

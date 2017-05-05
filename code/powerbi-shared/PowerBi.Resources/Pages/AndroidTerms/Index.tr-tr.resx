@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Content" xml:space="preserve">
+    <value>&lt;p&gt;Bu lisans koşulları, Microsoft Corporation (veya yaşadığınız yere g&#246;re bir bağlı şirketi) ile sizin aranızda yapılan s&#246;zleşmeyi oluşturur. L&#252;tfen bunları okuyun. Olması halinde yazılımı aldığınız ortamı i&#231;eren yukarıda adı ge&#231;en yazılım i&#231;in ge&#231;erlidir. Bu koşullar, yazılıma ve &#231;evrimi&#231;i hizmete y&#246;nelik her t&#252;rl&#252; Microsoft&lt;/p&gt;
+		&lt;ul&gt;
+			&lt;li&gt;g&#252;ncelleştirmeleri,&lt;/li&gt;
+			&lt;li&gt;ekleri,&lt;/li&gt;
+			&lt;li&gt;İnternet tabanlı hizmetleri ve&lt;/li&gt;
+			&lt;li&gt;destek hizmetleri&lt;/li&gt;
+		&lt;/ul&gt;
+		&lt;p&gt;i&#231;in de (bu &#246;ğelere başka koşullar eşlik etmediği s&#252;rece) ge&#231;erlidir. Başka koşulların eşlik etmesi halinde ilgili koşullar ge&#231;erli olacaktır.&lt;/p&gt;
+		&lt;p&gt;Yazılımı kullanmanız bu koşulları kabul ettiğiniz anlamına gelir. Bu koşulları kabul etmiyorsanız, yazılımı kullanmayın.&lt;/p&gt;
+		&lt;p&gt;Aşağıda a&#231;ıklandığı gibi bazı &#246;zelliklerin kullanılması, İnternet tabanlı hizmetler i&#231;in belirli standart bilgisayar bilgilerinin iletimine onay vermeniz anlamına da gelir.&lt;/p&gt;
+		&lt;hr&gt;
+		&lt;p&gt;Bu lisans koşullarına uyduğunuz takdirde aşağıdaki kalıcı haklara sahip olursunuz.&lt;/p&gt;
+		&lt;p&gt;1.	KURULUM VE KULLANIM HAKLARI. &lt;/p&gt;
+		&lt;blockquote&gt;
+			&lt;p&gt;a.	Kurulum ve Kullanım. Yazılımın istediğiniz sayıda kopyasını Windows cihazlarınıza y&#252;kleyebilir ve kullanabilirsiniz.&lt;/p&gt;
+			&lt;p&gt;b.	&#220;&#231;&#252;nc&#252; Taraf Bildirimleri. Yazılım, bu anlaşmada ifade edilen koşullar kapsamında, &#252;&#231;&#252;nc&#252; taraf&#231;a değil, Microsoft tarafından size lisanslanan &#252;&#231;&#252;nc&#252; taraf kodu i&#231;ermektedir. Herhangi bir &#252;&#231;&#252;nc&#252; taraf koda dair bildirimler, eğer varsa, sadece bilgilendirilmeniz i&#231;in dahil edilmiştir.&lt;/p&gt;
+		&lt;/blockquote&gt;
+		&lt;p&gt;2.	EK LİSANS GEREKSİNİMLERİ VE/VEYA KULLANIM HAKLARI.&lt;/p&gt;
+		&lt;blockquote&gt;
+			&lt;p&gt;a.	Ortam &#214;ğeleri ve Şablonlar. Yazılımla birlikte verilen ve oluşturduğunuz belgelerde ve projelerde kopyalanması ve kullanılması i&#231;in belirlenmiş g&#246;r&#252;nt&#252;leri, k&#252;&#231;&#252;k resimleri, animasyonları, sesleri, m&#252;zikleri, şekilleri, video klipleri ve şablonları kopyalayabilir ve kullanabilirsiniz. Bu belge ve projeleri ticari olmayan bir şekilde dağıtabilirsiniz. Bu ortam &#246;ğelerini veya şablonları başka bir ama&#231;la kullanmak isterseniz, buna izin verilip verilmediğini &#246;ğrenmek i&#231;in &lt;a href=&quot;http://www.microsoft.com/permission&quot; title=&quot;www.microsoft.com/permission&quot;&gt;www.microsoft.com/permission&lt;/a&gt; adresine gidin.&lt;/p&gt;
+		&lt;/blockquote&gt;
+		&lt;p&gt;3.	INTERNET ERİŞİMİ GEREKEBİLİR. Yazılımı kullanmanız nedeniyle ağ operat&#246;r&#252;n&#252;zle aranızda yer alan veri hizmet planının ve diğer t&#252;m anlaşmaların koşulları gereğince Internet erişimiyle, veri transferiyle ve diğer hizmetlerle bağlantılı &#252;cretlere maruz kalabilirsiniz. T&#252;m ağ operat&#246;r&#252; &#252;cretlerinden sadece siz sorumlusunuz.&lt;/p&gt;
+		&lt;p&gt;4.	&#220;&#199;&#220;NC&#220; TARAF BAĞLAYICILAR/UYGULAMALAR. Yazılım, &#231;eşitli &#252;&#231;&#252;nc&#252; taraf veri kaynaklarına bağlanmanıza olanak sağlar. Bu &#252;&#231;&#252;nc&#252; taraf kaynak sağlayıcılarının herhangi biri ile yaptığınız anlaşmalar, yalnızca siz ile ilgili &#252;&#231;&#252;nc&#252; taraf arasındadır ve bu gibi &#252;&#231;&#252;nc&#252; taraf kaynakları i&#231;in ge&#231;erli kullanım koşullarına ve anlaşmalara tabi olabilir. Bu &#252;&#231;&#252;nc&#252; taraf veri kaynaklarından verileri i&#231;eri aktarmaya yetkili olduğunuzu ve tek başınıza sorumlu olduğunuzu kabul edersiniz. Microsoft, &#252;&#231;&#252;nc&#252; taraflara ait veri kaynaklarından i&#231;eri aktardığınız herhangi bir veriyi izlemez, kontrol etmez veya bunlarla ilişkili herhangi bir sorumluluk kabul etmez ve bunun kalitesi, doğruluğu, niteliği ve/veya m&#252;lkiyetinden sorumlu değildir. Yazılımı kullanırken i&#231;eri aktardığınız verilere dayalı olarak oluşturduğunuz, dağıttığınız veya g&#246;r&#252;nt&#252;lediğiniz herhangi bir i&#231;erik i&#231;in tek başınıza sorumlu olduğunuzu kabul edersiniz.&lt;/p&gt;
+		&lt;p&gt;5.	INTERNET TABANLI HİZMETLER. Microsoft yazılımla birlikte İnternet tabanlı hizmetler sunar. Microsoft bu hizmetleri istediği zaman değiştirebilir veya iptal edebilir.&lt;/p&gt;
+		&lt;blockquote&gt;
+			&lt;p&gt;a.	Internet Tabanlı veya Kablosuz Hizmetler i&#231;in Onay. Yazılım, Internet tabanlı kablosuz hizmetlere bağlanabilir. Yazılımı kullanmanız, Internet tabanlı veya kablosuz hizmetler i&#231;in (aygıtınız, sisteminiz ve uygulama yazılımınız ve &#231;evre birimleri hakkındaki teknik bilgileri i&#231;eren, ancak bunlarla sınırlı kalmayan) standart aygıt bilgilerinin iletilmesine verdiğiniz onay yerine ge&#231;er. Hizmetleri kullanımınızla bağlantılı olarak başka koşullar sağlanıyorsa, bu koşullar da ge&#231;erlidir.&lt;/p&gt;
+			&lt;p&gt;b.	Internet Tabanlı Hizmetlerin K&#246;t&#252;ye Kullanımı. Herhangi bir Internet tabanlı hizmeti, bu hizmete zarar verecek veya başkasının bu hizmeti veya kablosuz ağı kullanımına zarar verecek şekilde kullanamazsınız. Hizmeti, herhangi bir yolla bir hizmete, veriye, hesaba veya ağa yetkisiz erişim elde etmek i&#231;in kullanamazsınız.&lt;/p&gt;
+		&lt;/blockquote&gt;
+		&lt;p&gt;6.	LİSANS KAPSAMI. Yazılımın satışı yapılmamakta, lisansı verilmektedir. İlgili yasalar size daha fazla hak vermiyorsa, Microsoft; zımnen, &#246;nceden yapılan bir beyana dayanarak itiraz hakkı bulunmayan veya diğer bir bi&#231;imde işbu anlaşma kapsamında a&#231;ık&#231;a verilmemiş diğer t&#252;m hakları saklı tutmaktadır. Yazılımdaki, onu yalnızca belirli şekilde kullanmanıza izin veren her t&#252;rl&#252; teknik sınırlamaya uymanız gerekir. Şunları yapamazsınız:
+			&lt;ul type=&quot;disc&quot;&gt;
+				&lt;li&gt;yazılımın teknik sınırlamalarını aşacak &#231;&#246;z&#252;mler &#252;retmek,&lt;/li&gt;
+				&lt;li&gt;bu sınırlamaya rağmen ilgili yasa h&#252;k&#252;mlerince a&#231;ık&#231;a izin verilen durumlar dışında, yazılım &#252;zerinde tersine m&#252;hendislik işlemi yapmak, yazılımı kaynak koda d&#246;n&#252;şt&#252;rmek ve assembler diline &#231;evirmek,&lt;/li&gt;
+				&lt;li&gt;yazılımın bu s&#246;zleşmede belirtilenden veya ilgili yasaların bu s&#246;zleşmede &#246;ng&#246;r&#252;lenden fazla kopyaya emredici h&#252;k&#252;mle izin vermesi halinde yasalarla izin verilenden fazla kopyasını oluşturmak,&lt;/li&gt;
+				&lt;li&gt;yazılımı başkalarının kopyalaması i&#231;in yayımlamak,&lt;/li&gt;
+				&lt;li&gt;yazılımı kiralamak, finansal kiralama yoluyla satmak veya &#246;d&#252;n&#231; vermek,&lt;/li&gt;
+				&lt;li&gt;yazılımı veya bu anlaşmayı bir &#252;&#231;&#252;nc&#252; tarafa devretmek veya&lt;/li&gt; 
+				&lt;li&gt;yazılımı ticari yazılım barındırma hizmetleri i&#231;in kullanmak.&lt;/li&gt;
+			&lt;/ul&gt;
+		&lt;/p&gt;
+		&lt;p&gt;7.	BELGELER. Bilgisayarınıza veya i&#231; ağınıza ge&#231;erli erişimi olan herhangi bir kişi, belgeleri kuruluşunuz i&#231;inde yararlanmak amacıyla kopyalayabilir ve kullanabilir.&lt;/p&gt;
+		&lt;p&gt;8.	İHRACAT SINIRLAMALARI. Yazılım, ABD ihracat yasaları ve y&#246;netmeliklerine tabidir. Yazılım konusunda ge&#231;erli olan t&#252;m yurti&#231;i ve uluslararası ihracat yasalarına ve d&#252;zenlemelerine uygun şekilde davranmanız gerekir. Bu yasalar, &#252;r&#252;n&#252;n g&#246;nderileceği yeri, son kullanıcılar ve son kullanıma ilişkin sınırlamaları i&#231;erir. Daha fazla bilgi i&#231;in bkz. &lt;a href=&quot;http://www.microsoft.com/exporting&quot; title=&quot;www.microsoft.com/exporting&quot;&gt;www.microsoft.com/exporting&lt;/a&gt;.&lt;/p&gt;
+		&lt;p&gt;9.	DESTEK HİZMETLERİ. Bu yazılım “olduğu gibi” sağlandığından, yazılım i&#231;in destek hizmeti veremeyebiliriz.&lt;/p&gt;
+		&lt;p&gt;10.	ANLAŞMANIN TAMAMI. Bu anlaşma eklerin, g&#252;ncelleştirmelerin, İnternet tabanlı hizmetlerin ve kullandığınız destek hizmetlerinin koşulları, yazılım ve destek hizmetlerine y&#246;nelik anlaşmanın tamamını oluşturur.&lt;/p&gt;
+		&lt;p&gt;11.	UYGULANACAK HUKUK.&lt;/p&gt;
+		&lt;blockquote&gt;
+			&lt;p&gt;a.	Amerika Birleşik Devletleri. Yazılımı Amerika Birleşik Devletleri&#39;nde aldıysanız, bu anlaşmanın yorumlanması ve ihlali iddiaları, milletlerarası bağlama kuralları hesaba katılmadan, Washington eyaleti kanunlarına tabi olacaktır. T&#252;ketici koruma kanunları, haksız rekabet ve haksız fiil kapsamındakiler de dahil diğer t&#252;m talepler bakımından yaşadığınız eyaletin kanunları ge&#231;erli olacaktır.&lt;/p&gt;
+			&lt;p&gt;b.	Amerika Birleşik Devletleri dışında. Bu yazılımı başka bir &#252;lkede satın aldıysanız, o &#252;lkenin yasaları ge&#231;erli olacaktır.&lt;/p&gt;
+		&lt;/blockquote&gt;
+		&lt;p&gt;12.	YASAL ETKİSİ. Bu anlaşma belirli yasal hakları a&#231;ıklamaktadır. Yaşadığınız &#252;lkenin yasalarına g&#246;re başka haklara sahip olabilirsiniz. Ayrıca, yazılımı aldığınız tarafla ilgili başka haklara da sahip olabilirsiniz. Bu anlaşma, &#252;lkenizin yasalarının izin vermediği durumlarda, &#252;lkenizin yasaları uyarınca sahip olduğunuz hakları değiştirmez.&lt;/p&gt;
+		&lt;p&gt;13.	GARANTİ REDDİ BEYANI. Yazılımın lisansı “olduğu gibi” verilmektedir. Yazılımın kullanımına ilişkin riskler tarafınızdan &#252;stlenilir. Microsoft tarafından hi&#231;bir a&#231;ık garanti verilmemekte veya koşul ileri s&#252;r&#252;lmemektedir. Yerel yasalara g&#246;re bu anlaşmanın değiştiremeyeceği ek t&#252;ketici haklarına veya kanuni garantilere sahip olabilirsiniz. Microsoft, b&#246;lgenizdeki yasalar &#231;er&#231;evesinde izin verilen &#246;l&#231;&#252;de, satılabilirlik, belirli bir amaca uygunluk ve ihlal bulunmaması ile ilgili zımni garantileri kapsam dışında bırakır.&lt;/p&gt;
+		&lt;p&gt;&lt;strong&gt;AVUSTRALYA İ&#199;İN – Avustralya T&#252;ketici Yasası kapsamında kanuni garantileriniz bulunmaktadır ve bu koşullardaki hi&#231; bir şey bu hakları etkilemeyi ama&#231;lamaz.&lt;/strong&gt;&lt;/p&gt;
+		&lt;p&gt;14.	TELAFİLER VE ZARARLARIN SINIRLANDIRILMASI VE HARİ&#199; TUTULMASI. Microsoft ve tedarik&#231;ilerinden, 5,00 ABD Doları’na kadar doğrudan zararları geri alabilirsiniz. Neticede oluşan, kar kaybı, &#246;zel, dolaylı veya m&#252;sbet zararlarla bağlantılı zararlar dahil diğer zararları telafi edemezsiniz.&lt;/p&gt;
+		&lt;p&gt;&lt;strong&gt;Bu sınırlama aşağıdaki haller i&#231;in ge&#231;erlidir:&lt;/strong&gt;&lt;/p&gt;
+		&lt;ul type=&quot;disc&quot;&gt;
+			&lt;li&gt;&lt;strong&gt;&#220;&#231;&#252;nc&#252; tarafların Internet sitelerindeki yazılım, hizmetler, (kod dahil) i&#231;erik veya &#252;&#231;&#252;nc&#252; tarafların programları ile ilgili konular ve&lt;/strong&gt;&lt;/li&gt;
+			&lt;li&gt;&lt;strong&gt;ilgili yasalar &#231;er&#231;evesinde izin verilen azami &#246;l&#231;&#252;de anlaşmanın ihlalinden, bir garantinin, taahh&#252;d&#252;n veya koşulun ihlalinden, kusursuz sorumluluktan, ihmal veya diğer haksız fiillerden kaynaklanan talepler.&lt;/strong&gt;&lt;/li&gt;
+		&lt;/ul&gt;
+		&lt;p&gt;&lt;strong&gt;Bu sınırlama, Microsoft&#39;un zararın oluşma olasılığını bilmesi veya bilmesinin gerekmesi halinde de ge&#231;erlidir. Yukarıdaki sınırlama veya hari&#231; tutma, &#252;lkeniz arızi, neticede oluşan veya diğer zararların sınırlanmasına veya hari&#231; tutulmasına izin vermediği takdirde sizin i&#231;in ge&#231;erli olmayabilir.&lt;/strong&gt;&lt;/p&gt;
+		&lt;hr&gt;
+		&lt;p&gt;Copyright &amp;#169; Microsoft. T&#252;m Hakları Saklıdır.&lt;/p&gt;
+		&lt;h3&gt;&lt;a href=&quot;/WinTerms/en-us#third-party-notices&quot; title=&quot;Third Party Notices&quot;&gt;Third Party Notices&lt;/a&gt;&lt;/h3&gt;
+		&lt;p&gt;&lt;strong&gt;This file is based on or incorporates material from the projects listed below (collectively, &quot;Third Party Code&quot;). Microsoft is not the original author of the Third Party Code. The original copyright notice and the license, under which Microsoft received such Third Party Code, are set forth below. Such licenses and notices are provided for informational purposes only. Microsoft, not the third party, licenses the Third Party Code to you under the terms set forth in the EULA for the Microsoft Product. Microsoft reserves all rights not expressly granted under this agreement, whether by implication, estoppel or otherwise.&lt;/strong&gt;&lt;/p&gt;</value>
+  </data>
+  <data name="Heading" xml:space="preserve">
+    <value>&lt;h1&gt;MICROSOFT YAZILIM LİSANSI KOŞULLARI&lt;/h1&gt;
+            &lt;h1&gt;WINDOWS İ&#199;İN MICROSOFT POWER BI &lt;/h1&gt;</value>
+  </data>
+  <data name="META_DESCRIPTION" xml:space="preserve">
+    <value />
+  </data>
+  <data name="META_KEYWORDS" xml:space="preserve">
+    <value />
+  </data>
+  <data name="META_PAGETITLE" xml:space="preserve">
+    <value>Power BI Android Terms of Service | Microsoft Power BI</value>
+  </data>
+</root>

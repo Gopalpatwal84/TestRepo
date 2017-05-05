@@ -1,0 +1,970 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Content" xml:space="preserve">
+    <value>&lt;p class="MsoNormal" style='margin-top:71.25pt;margin-right:0in;margin-bottom:
+.05pt;margin-left:0in;line-height:normal'&gt;&lt;span lang="PT-BR" style='font-size:
+21.0pt;font-family:"Times New Roman",serif;color:#4B5C66'&gt;Termos da API do
+Microsoft Power BI&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class="MsoNormal" style='line-height:normal'&gt;&lt;span lang="PT-BR" style='font-size:12.0pt;font-family:"Times New Roman",serif;color:#4B5C66'&gt;Obrigado
+por usar a interface de programação de aplicativos (API) do Power BI. A API do
+Power BI junto com quaisquer atualizações, revisões, substituições e quaisquer
+cópias feitas por ou para você são mencionadas nestes termos de serviço como
+“API do Power BI” da Microsoft. Este contrato é firmado entre você e a
+Microsoft Corporation (“Microsoft”). Às vezes, a Microsoft é mencionada como “nós”,
+“nos” ou “nosso”. Ao usar a API do Power BI, você concorda com estes termos de
+serviço (os “Termos da API”) e o Contrato do Serviço do Power BI e outros
+contratos, conforme aplicáveis, (coletivamente, o “Contrato”) que regem o uso
+do Power BI e dos aplicativos que o acompanham (“Serviço do Power BI”). Havendo
+inconsistência entre estes Termos da API e o Contrato, estes Termos da API
+prevalecerão.&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class="MsoNormal" style='line-height:normal'&gt;&lt;span lang="PT-BR" style='font-size:12.0pt;font-family:"Times New Roman",serif;color:#4B5C66'&gt;A
+Microsoft reserva para si o direito de atualizar e alterar, periodicamente,
+estes Termos da API ou quaisquer documentos incorporados por referência. A
+Microsoft pode alterar estes Termos da API publicando uma nova versão. O uso da
+API do Power BI depois de tais alterações constitui a aceitação delas.&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class="MsoNormal" style='line-height:normal'&gt;&lt;b&gt;&lt;span lang="PT-BR" style='font-size:12.0pt;font-family:"Times New Roman",serif;color:#4B5C66'&gt;Observe
+que nós não fornecemos garantias da API do Power BI. Os Termos da API também
+limitam nossa responsabilidade. Esses termos estão nas seções 10 e 11 e pedimos
+que você os leia com atenção.&lt;/span&gt;&lt;/b&gt;&lt;/p&gt;
+
+&lt;p class="MsoNormal" style='margin-bottom:.05pt;line-height:normal'&gt;&lt;b&gt;&lt;span lang="PT-BR" style='font-size:18.0pt;font-family:"Times New Roman",serif;
+color:#4B5C66'&gt;1. Acesso a API do Power BI.&lt;/span&gt;&lt;/b&gt;&lt;/p&gt;
+
+&lt;p class="MsoNormal" style='line-height:normal'&gt;&lt;span lang="PT-BR" style='font-size:12.0pt;font-family:"Times New Roman",serif;color:#4B5C66'&gt;Para
+usar a API do Power BI, você deve ter uma assinatura do Power BI e registrar
+seu aplicativo no Active Directory do Azure. Seu serviço deve fornecer a ID do
+cliente fornecida pelo Active Directory do Azure, conforme descrito na
+documentação da API do Power BI, e a Microsoft bloqueará solicitações com IDs
+de cliente inválidas. A Microsoft deverá ter controle exclusivo e total sobre
+os dados e o formato do Power BI.&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class="MsoNormal" style='line-height:normal'&gt;&lt;span lang="PT-BR" style='font-size:12.0pt;font-family:"Times New Roman",serif;color:#4B5C66'&gt;A
+Microsoft deverá ter o direito, a seu exclusivo critério, de rejeitar qualquer
+solicitação para usar a API do Power BI a qualquer momento e por qualquer
+motivo. A Microsoft não deverá ser responsabilizada por você por danos de
+qualquer natureza resultantes de sua decisão de rejeitar tal solicitação.&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class="MsoNormal" style='margin-bottom:.05pt;line-height:normal'&gt;&lt;b&gt;&lt;span lang="PT-BR" style='font-size:18.0pt;font-family:"Times New Roman",serif;
+color:#4B5C66'&gt;2. Restrições e Usos Licenciados.&lt;/span&gt;&lt;/b&gt;&lt;/p&gt;
+
+&lt;p class="MsoNormal" style='line-height:normal'&gt;&lt;span lang="PT-BR" style='font-size:12.0pt;font-family:"Times New Roman",serif;color:#4B5C66'&gt;A
+API do Power BI é propriedade da Microsoft e é licenciada a você em uma base
+mundial (exceto conforme a limitação exposta a seguir), não exclusiva e não
+sublicenciável nos termos e condições estabelecidos neste documento. Estes
+Termos da API definem o uso legal da API do Power Bi, todas as atualizações,
+revisões, substituições e quaisquer cópias da API do Power BI feitas por ou
+para você. Todos os direitos que não forem expressamente concedidos a você
+estão reservados pela Microsoft.&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class="MsoNormal" style='margin-left:.25in;text-indent:-.25in;line-height:
+normal'&gt;&lt;span lang="ES" style='font-size:10.0pt;font-family:Symbol;color:#4B5C66'&gt;·&lt;span style='font:7.0pt "Times New Roman"'&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+&lt;/span&gt;&lt;/span&gt;&lt;span lang="PT-BR" style='font-size:12.0pt;font-family:"Times New Roman",serif;
+color:#4B5C66'&gt;a. Licença. Sujeito aos termos e às restrições estabelecidas
+nestes Termos da API, a Microsoft concede a você um direito não exclusivo e não
+sublicenciável de usar a API do Power BI para desenvolver, testar, distribuir e
+oferecer suporte ao seu aplicativo.&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class="MsoNormal" style='margin-left:.25in;text-indent:-.25in;line-height:
+normal'&gt;&lt;span lang="ES" style='font-size:10.0pt;font-family:Symbol;color:#4B5C66'&gt;·&lt;span style='font:7.0pt "Times New Roman"'&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+&lt;/span&gt;&lt;/span&gt;&lt;span lang="PT-BR" style='font-size:12.0pt;font-family:"Times New Roman",serif;
+color:#4B5C66'&gt;b. Identidade Visual. Você não poderá usar a identidade visual
+nem os logotipos do Power BI sem a autorização expressa por escrito da
+Microsoft.&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class="MsoNormal" style='line-height:normal'&gt;&lt;span lang="PT-BR" style='font-size:12.0pt;font-family:"Times New Roman",serif;color:#4B5C66'&gt;c.&amp;nbsp;Limites
+de Taxa e Restrições de Campos de Dados. Você entende que há um limite de taxa
+e uma restrição aos campos de dados exibidos por aplicativo ou serviço que usam
+a API do Power BI, e você concorda que deverá sempre cumprir esse limite de
+taxa e as restrições nos campos de dados. Os limites de taxas e as restrições
+estão descritos na Documentação da API do Power BI disponível no site&lt;/span&gt;&lt;span lang="PT-BR" style='font-size:12.0pt;font-family:"Times New Roman",serif;
+color:#868F95'&gt;&amp;nbsp;&lt;/span&gt;&lt;span lang="PT-BR"&gt;&lt;a href="https://developer.yammer.com/" title="Doc da API"&gt;&lt;span style='font-size:
+12.0pt;font-family:"Times New Roman",serif;color:#4B5C66'&gt;dev.PowerBI.com&lt;/span&gt;&lt;/a&gt;&lt;/span&gt;&lt;span lang="PT-BR" style='font-size:12.0pt;font-family:"Times New Roman",serif;
+color:#868F95'&gt;. &lt;/span&gt;&lt;span lang="PT-BR" style='font-size:12.0pt;font-family:
+"Times New Roman",serif;color:#4B5C66'&gt;Esses limites de taxas e restrições
+estão sujeitos à alteração periodicamente a critério exclusivo da Microsoft,
+vigentes imediatamente após a publicação. A Microsoft poderá, a seu critério,
+limitar: (i) a taxa na qual o serviço, ou qualquer subconjunto dele, poderá ser
+solicitado, (ii) o valor do armazenamento disponibilizado a cada conta de
+serviço e/ou (iii) o comprimento dos segmentos de conteúdos individuais que
+poderão ser carregados para o, ou entregues do, serviço, (sendo tudo o que foi
+exposto anteriormente formas de “Controle de Fluxo”). A Microsoft pode executar
+este Controle de Fluxo globalmente por meio da API inteira do Power BI, por
+usuário final ou por qualquer outra base. Você não tomará medidas para
+contornar quaisquer medidas técnicas que nós implantamos para impor o Controle
+de Fluxo, e você entende e concorda que métodos programáticos destinados a
+contestar a limitação de taxa (inclusive mantendo um cache dos dados) são
+considerados uma violação destes Termos da API.&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class="MsoNormal" style='line-height:normal'&gt;&lt;span lang="PT-BR" style='font-size:12.0pt;font-family:"Times New Roman",serif;color:#4B5C66'&gt;d.
+Modificações. A Microsoft reserva para si o direito de lançar versões
+subsequentes da API do Power BI e exigir que você obtenha e use a versão mais
+recente. Se uma modificação for inaceitável para você, pare de usar a API do
+Power BI. Se você continuar acessando a API do Power BI, você será considerado
+como tendo aceito as modificações.&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class="MsoNormal" style='line-height:normal'&gt;&lt;span lang="PT-BR" style='font-size:12.0pt;font-family:"Times New Roman",serif;color:#4B5C66'&gt;e.
+Limitações e Condições do serviço. Podemos usar a tecnologia ou outros meios
+para proteger a API do Power BI, proteger nossos clientes ou impedir que você
+viole estes Termos da API. Esses meios poderão incluir, por exemplo, filtragem
+para interromper spam ou aumentar a segurança. Esses meios podem impedir ou
+interromper seu uso da API do Power BI, e você não poderá contornar nem tentar
+impedir nem desabilitar nenhum desses meios técnicos ou outros meios.&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class="MsoNormal" style='margin-bottom:.05pt;line-height:normal'&gt;&lt;b&gt;&lt;span lang="PT-BR" style='font-size:18.0pt;font-family:"Times New Roman",serif;
+color:#4B5C66'&gt;3. Direitos do proprietário.&lt;/span&gt;&lt;/b&gt;&lt;/p&gt;
+
+&lt;p class="MsoNormal" style='margin-left:.25in;text-indent:-.25in;line-height:
+normal'&gt;&lt;span lang="ES" style='font-size:10.0pt;font-family:Symbol;color:#4B5C66'&gt;·&lt;span style='font:7.0pt "Times New Roman"'&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+&lt;/span&gt;&lt;/span&gt;&lt;span lang="PT-BR" style='font-size:12.0pt;font-family:"Times New Roman",serif;
+color:#4B5C66'&gt;a. Direitos da Microsoft. Para fins dos Termos da API, “Direitos
+de Propriedade Intelectual” deve significar quaisquer e todos os direitos
+existentes periodicamente de acordo com a lei de patentes, lei de direitos autorais,
+lei de proteção de chips semicondutores, lei de direitos morais, lei de
+segredos comerciais, lei de marcas, lei de concorrência desleal, lei de
+direitos de publicidade, leis de direitos à privacidade e quaisquer e todos os
+outros direitos de propriedade e quaisquer e todos os aplicativos, renovações,
+extensões e restaurações deles, agora e daqui em diante vigentes no mundo
+inteiro. Conforme acordado entre você e a Microsoft, você reconhece que a
+Microsoft ou seus licenciantes possuem todos os direitos, titularidades de
+direito e interesses, incluindo, sem limitação, todos os Direitos de
+Propriedade Intelectual, em e para a API do Power BI e todos os resultados da
+API do Power BI (excluindo quaisquer componentes de software desenvolvidos por
+você que não incorporam a API do Power BI nem qualquer resultado ou executáveis
+da API do Power BI) e que você não deve adquirir nenhum direito, titularidade
+de direito ou interesse em ou para a API do Power BI, exceto conforme
+expressamente definido nos Termos da API.&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class="MsoNormal" style='margin-left:.25in;text-indent:-.25in;line-height:
+normal'&gt;&lt;span lang="ES" style='font-size:10.0pt;font-family:Symbol;color:#4B5C66'&gt;·&lt;span style='font:7.0pt "Times New Roman"'&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+&lt;/span&gt;&lt;/span&gt;&lt;span lang="PT-BR" style='font-size:12.0pt;font-family:"Times New Roman",serif;
+color:#4B5C66'&gt;b. Atribuição; Notificações Legais. As imagens fornecidas a você
+por meio da API do Power BI podem conter os nomes comerciais, as marcas, as
+marcas de serviço, os logotipos, os nomes de domínio e outros recursos de marca
+distintos da Microsoft e de seus parceiros. Você não pode excluir ou, de alguma
+forma, alterar esses nomes comerciais, marcas, marcas de serviço, logotipos,
+nomes de domínio e outros recursos de marca distintos. Você concorda em manter,
+e não remover, modificar, encobrir nem alterar, quaisquer links ou notificações
+que aparecem em qualquer imagem fornecida por meio do Serviço. Você reconhece e
+concorda que essas Notificações Legais complementam os Termos da API para a API
+do Power BI.&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class="MsoNormal" style='margin-left:.25in;text-indent:-.25in;line-height:
+normal'&gt;&lt;span lang="ES" style='font-size:10.0pt;font-family:Symbol;color:#4B5C66'&gt;·&lt;span style='font:7.0pt "Times New Roman"'&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+&lt;/span&gt;&lt;/span&gt;&lt;span lang="PT-BR" style='font-size:12.0pt;font-family:"Times New Roman",serif;
+color:#4B5C66'&gt;c. Digital Millennium Copyright Act. É a política da Microsoft
+responder às notificações de suposta violação a fim de cumprir o Digital
+Millennium Copyright Act (“DMCA”). Para obter instruções e mais informações,
+consulte a seção Notificação do DMCA dos TOU.&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class="MsoNormal" style='margin-bottom:.05pt;line-height:normal'&gt;&lt;b&gt;&lt;span lang="PT-BR" style='font-size:18.0pt;font-family:"Times New Roman",serif;
+color:#4B5C66'&gt;4. Código de Conduta.&lt;/span&gt;&lt;/b&gt;&lt;/p&gt;
+
+&lt;p class="MsoNormal" style='margin-left:.25in;text-indent:-.25in;line-height:
+normal'&gt;&lt;span lang="ES" style='font-size:10.0pt;font-family:Symbol;color:#4B5C66'&gt;·&lt;span style='font:7.0pt "Times New Roman"'&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+&lt;/span&gt;&lt;/span&gt;&lt;span lang="PT-BR" style='font-size:12.0pt;font-family:"Times New Roman",serif;
+color:#4B5C66'&gt;Você concorda que é responsável por sua própria conduta e pelo
+conteúdo ao usar a API do Power BI e por quaisquer consequências decorrentes.
+Você concorda em usar a API do Power BI apenas para as finalidades que sejam
+legais, apropriadas e de acordo com estes Termos da API e com as políticas e
+diretrizes aplicáveis.&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class="MsoNormal" style='margin-left:.25in;text-indent:-.25in;line-height:
+normal'&gt;&lt;span lang="ES" style='font-size:10.0pt;font-family:Symbol;color:#4B5C66'&gt;·&lt;span style='font:7.0pt "Times New Roman"'&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+&lt;/span&gt;&lt;/span&gt;&lt;span lang="PT-BR" style='font-size:12.0pt;font-family:"Times New Roman",serif;
+color:#4B5C66'&gt;a. Conduta apropriada. Ao usar a API do Power BI e desenvolver
+aplicativos, você deve:&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class="MsoNormal" style='margin-left:.25in;text-indent:-.25in;line-height:
+normal'&gt;&lt;span lang="EN" style='font-size:10.0pt;font-family:Symbol;color:#4B5C66'&gt;·&lt;span style='font:7.0pt "Times New Roman"'&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+&lt;/span&gt;&lt;/span&gt;&lt;span lang="PT-BR" style='font-size:12.0pt;font-family:"Times New Roman",serif;
+color:#4B5C66'&gt;respeitar a lei;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class="MsoNormal" style='margin-left:.25in;text-indent:-.25in;line-height:
+normal'&gt;&lt;span lang="ES" style='font-size:10.0pt;font-family:Symbol;color:#4B5C66'&gt;·&lt;span style='font:7.0pt "Times New Roman"'&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+&lt;/span&gt;&lt;/span&gt;&lt;span lang="PT-BR" style='font-size:12.0pt;font-family:"Times New Roman",serif;
+color:#4B5C66'&gt;respeitar todos os códigos de conduta ou outras notificações que
+fornecermos;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class="MsoNormal" style='margin-left:.25in;text-indent:-.25in;line-height:
+normal'&gt;&lt;span lang="ES" style='font-size:10.0pt;font-family:Symbol;color:#4B5C66'&gt;·&lt;span style='font:7.0pt "Times New Roman"'&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+&lt;/span&gt;&lt;/span&gt;&lt;span lang="PT-BR" style='font-size:12.0pt;font-family:"Times New Roman",serif;
+color:#4B5C66'&gt;manter a senha da sua conta do serviço confidencial;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class="MsoNormal" style='margin-left:.25in;text-indent:-.25in;line-height:
+normal'&gt;&lt;span lang="ES" style='font-size:10.0pt;font-family:Symbol;color:#4B5C66'&gt;·&lt;span style='font:7.0pt "Times New Roman"'&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+&lt;/span&gt;&lt;/span&gt;&lt;span lang="PT-BR" style='font-size:12.0pt;font-family:"Times New Roman",serif;
+color:#4B5C66'&gt;notificarmos-nos imediatamente se você se tomar conhecimento de
+uma violação de segurança relacionada ao Serviço Power BI e à API do Power BI.&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class="MsoNormal" style='margin-left:.25in;text-indent:-.25in;line-height:
+normal'&gt;&lt;span lang="ES" style='font-size:10.0pt;font-family:Symbol;color:#4B5C66'&gt;·&lt;span style='font:7.0pt "Times New Roman"'&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+&lt;/span&gt;&lt;/span&gt;&lt;span lang="PT-BR" style='font-size:12.0pt;font-family:"Times New Roman",serif;
+color:#4B5C66'&gt;b. Usos proibidos. Ao usar a API do Power BI e desenvolver
+aplicativos, você não:&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class="MsoNormal" style='margin-left:.25in;text-indent:-.25in;line-height:
+normal'&gt;&lt;span lang="ES" style='font-size:10.0pt;font-family:Symbol;color:#4B5C66'&gt;·&lt;span style='font:7.0pt "Times New Roman"'&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+&lt;/span&gt;&lt;/span&gt;&lt;span lang="PT-BR" style='font-size:12.0pt;font-family:"Times New Roman",serif;
+color:#4B5C66'&gt;difamará, abusará, assediará, espreitará, ameaçará ou, de outra
+forma, violará os direitos assegurados por lei a outras pessoas (como os
+direitos de privacidade e publicidade);&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class="MsoNormal" style='margin-left:.25in;text-indent:-.25in;line-height:
+normal'&gt;&lt;span lang="ES" style='font-size:10.0pt;font-family:Symbol;color:#4B5C66'&gt;·&lt;span style='font:7.0pt "Times New Roman"'&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+&lt;/span&gt;&lt;/span&gt;&lt;span lang="PT-BR" style='font-size:12.0pt;font-family:"Times New Roman",serif;
+color:#4B5C66'&gt;carregará, publicará, enviará por email nem transmitirá ou de
+outra forma disponibilizará qualquer conteúdo inadequado, difamatório,
+transgressor, obsceno ou ilícito.&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class="MsoNormal" style='margin-left:.25in;text-indent:-.25in;line-height:
+normal'&gt;&lt;span lang="ES" style='font-size:10.0pt;font-family:Symbol;color:#4B5C66'&gt;·&lt;span style='font:7.0pt "Times New Roman"'&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+&lt;/span&gt;&lt;/span&gt;&lt;span lang="PT-BR" style='font-size:12.0pt;font-family:"Times New Roman",serif;
+color:#4B5C66'&gt;carregará, postará, enviará por email nem transmitirá ou de
+outra forma disponibilizará qualquer conteúdo que viole quaisquer direitos de
+patentes, marcas, direitos autorais, segredo comercial ou outros direitos de
+propriedade de qualquer parte, a menos que você seja o proprietário dos
+direitos ou tenha permissão do proprietário para publicar tal conteúdo;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class="MsoNormal" style='margin-left:.25in;text-indent:-.25in;line-height:
+normal'&gt;&lt;span lang="ES" style='font-size:10.0pt;font-family:Symbol;color:#4B5C66'&gt;·&lt;span style='font:7.0pt "Times New Roman"'&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+&lt;/span&gt;&lt;/span&gt;&lt;span lang="PT-BR" style='font-size:12.0pt;font-family:"Times New Roman",serif;
+color:#4B5C66'&gt;carregará, postará, enviará por email nem transmitirá ou de
+outra forma disponibilizará mensagens que promovam esquemas de pirâmide,
+correntes ou anúncios ou mensagens comerciais perturbadores ou qualquer outra
+coisa proibida por lei, por estes Termos da API ou por quaisquer políticas ou
+diretrizes aplicáveis;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class="MsoNormal" style='margin-left:.25in;text-indent:-.25in;line-height:
+normal'&gt;&lt;span lang="ES" style='font-size:10.0pt;font-family:Symbol;color:#4B5C66'&gt;·&lt;span style='font:7.0pt "Times New Roman"'&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+&lt;/span&gt;&lt;/span&gt;&lt;span lang="PT-BR" style='font-size:12.0pt;font-family:"Times New Roman",serif;
+color:#4B5C66'&gt;usará a API do Power BI em conexão com ou para promover
+quaisquer produtos, serviços ou materiais que constituam, promovam ou sejam
+usados principalmente para a finalidade de lidar com: spyware, adware ou outros
+programas ou códigos mal-intencionados;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class="MsoNormal" style='margin-left:.25in;text-indent:-.25in;line-height:
+normal'&gt;&lt;span lang="ES" style='font-size:10.0pt;font-family:Symbol;color:#4B5C66'&gt;·&lt;span style='font:7.0pt "Times New Roman"'&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+&lt;/span&gt;&lt;/span&gt;&lt;span lang="PT-BR" style='font-size:12.0pt;font-family:"Times New Roman",serif;
+color:#4B5C66'&gt;baixará qualquer arquivo postado por outro usuário, estando
+ciente ou devendo estar razoavelmente ciente de que esse arquivo não pode ser
+legalmente distribuído dessa maneira;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class="MsoNormal" style='margin-left:.25in;text-indent:-.25in;line-height:
+normal'&gt;&lt;span lang="ES" style='font-size:10.0pt;font-family:Symbol;color:#4B5C66'&gt;·&lt;span style='font:7.0pt "Times New Roman"'&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+&lt;/span&gt;&lt;/span&gt;&lt;span lang="PT-BR" style='font-size:12.0pt;font-family:"Times New Roman",serif;
+color:#4B5C66'&gt;fingirá ser outra pessoa ou entidade nem falsificará ou excluirá
+quaisquer atribuições de autoria, notificações legais ou outros avisos ou
+designações de propriedade pertinentes, etiquetas de origem de software ou
+outros materiais;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class="MsoNormal" style='margin-left:.25in;text-indent:-.25in;line-height:
+normal'&gt;&lt;span lang="ES" style='font-size:10.0pt;font-family:Symbol;color:#4B5C66'&gt;·&lt;span style='font:7.0pt "Times New Roman"'&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+&lt;/span&gt;&lt;/span&gt;&lt;span lang="PT-BR" style='font-size:12.0pt;font-family:"Times New Roman",serif;
+color:#4B5C66'&gt;restringirá ou inibirá o uso e o acesso à API do Power BI;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class="MsoNormal" style='margin-left:.25in;text-indent:-.25in;line-height:
+normal'&gt;&lt;span lang="ES" style='font-size:10.0pt;font-family:Symbol;color:#4B5C66'&gt;·&lt;span style='font:7.0pt "Times New Roman"'&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+&lt;/span&gt;&lt;/span&gt;&lt;span lang="PT-BR" style='font-size:12.0pt;font-family:"Times New Roman",serif;
+color:#4B5C66'&gt;usará a API do Power BI para qualquer finalidade ilícita ou não
+autorizada;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class="MsoNormal" style='margin-left:.25in;text-indent:-.25in;line-height:
+normal'&gt;&lt;span lang="ES" style='font-size:10.0pt;font-family:Symbol;color:#4B5C66'&gt;·&lt;span style='font:7.0pt "Times New Roman"'&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+&lt;/span&gt;&lt;/span&gt;&lt;span lang="PT-BR" style='font-size:12.0pt;font-family:"Times New Roman",serif;
+color:#4B5C66'&gt;removerá quaisquer notificações de direitos autorais, marcas ou
+outros direitos de propriedade contidos na API do Power BI;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class="MsoNormal" style='margin-left:.25in;text-indent:-.25in;line-height:
+normal'&gt;&lt;span lang="ES" style='font-size:10.0pt;font-family:Symbol;color:#4B5C66'&gt;·&lt;span style='font:7.0pt "Times New Roman"'&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+&lt;/span&gt;&lt;/span&gt;&lt;span lang="PT-BR" style='font-size:12.0pt;font-family:"Times New Roman",serif;
+color:#4B5C66'&gt;interferirá em nem interromperá a API do Power BI ou os
+servidores ou redes conectados aos serviços do Power BI nem desobedecerá
+quaisquer requisitos, procedimentos, políticas ou regulamentos de redes
+conectados à API do Power BI;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class="MsoNormal" style='margin-left:.25in;text-indent:-.25in;line-height:
+normal'&gt;&lt;span lang="ES" style='font-size:10.0pt;font-family:Symbol;color:#4B5C66'&gt;·&lt;span style='font:7.0pt "Times New Roman"'&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+&lt;/span&gt;&lt;/span&gt;&lt;span lang="PT-BR" style='font-size:12.0pt;font-family:"Times New Roman",serif;
+color:#4B5C66'&gt;usará robôs, spiders, aplicativos para pesquisa em
+sites/recuperação relacionados à API do Power BI nem coletará informações sobre
+usuários para qualquer finalidade não autorizada;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class="MsoNormal" style='margin-left:.25in;text-indent:-.25in;line-height:
+normal'&gt;&lt;span lang="ES" style='font-size:10.0pt;font-family:Symbol;color:#4B5C66'&gt;·&lt;span style='font:7.0pt "Times New Roman"'&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+&lt;/span&gt;&lt;/span&gt;&lt;span lang="PT-BR" style='font-size:12.0pt;font-family:"Times New Roman",serif;
+color:#4B5C66'&gt;enviará conteúdo que expresse ou implique falsamente que tal
+Conteúdo seja patrocinado ou endossado pela Microsoft;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class="MsoNormal" style='margin-left:.25in;text-indent:-.25in;line-height:
+normal'&gt;&lt;span lang="ES" style='font-size:10.0pt;font-family:Symbol;color:#4B5C66'&gt;·&lt;span style='font:7.0pt "Times New Roman"'&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+&lt;/span&gt;&lt;/span&gt;&lt;span lang="PT-BR" style='font-size:12.0pt;font-family:"Times New Roman",serif;
+color:#4B5C66'&gt;criará contas de usuário por meios automatizados ou sob
+pretensões falsas ou fraudulentas nem obterá nem tentará obter várias chaves
+para a API do Power BI;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class="MsoNormal" style='margin-left:.25in;text-indent:-.25in;line-height:
+normal'&gt;&lt;span lang="ES" style='font-size:10.0pt;font-family:Symbol;color:#4B5C66'&gt;·&lt;span style='font:7.0pt "Times New Roman"'&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+&lt;/span&gt;&lt;/span&gt;&lt;span lang="PT-BR" style='font-size:12.0pt;font-family:"Times New Roman",serif;
+color:#4B5C66'&gt;promoverá nem fornecerá instruções sobre atividades ilícitas nem
+promoverá danos físicos ou ferimentos contra algum grupo ou indivíduo ou&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class="MsoNormal" style='margin-left:.25in;text-indent:-.25in;line-height:
+normal'&gt;&lt;span lang="ES" style='font-size:10.0pt;font-family:Symbol;color:#4B5C66'&gt;·&lt;span style='font:7.0pt "Times New Roman"'&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+&lt;/span&gt;&lt;/span&gt;&lt;span lang="PT-BR" style='font-size:12.0pt;font-family:"Times New Roman",serif;
+color:#4B5C66'&gt;transmitirá vírus, worms, falhas, cavalos de Troia ou itens de
+natureza destrutiva.&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class="MsoNormal" style='margin-left:.25in;text-indent:-.25in;line-height:
+normal'&gt;&lt;span lang="ES" style='font-size:10.0pt;font-family:Symbol;color:#4B5C66'&gt;·&lt;span style='font:7.0pt "Times New Roman"'&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+&lt;/span&gt;&lt;/span&gt;&lt;span lang="PT-BR" style='font-size:12.0pt;font-family:"Times New Roman",serif;
+color:#4B5C66'&gt;venderá, arrendará, compartilhará, transferirá ou s or
+sublicenciará a API do Power BI nem acessará os códigos dele, seja por ganho
+comercial ou monetário direto ou, de outra forma, sem a permissão prévia,
+expressa e por escrito da Microsoft ou&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class="MsoNormal" style='margin-left:.25in;text-indent:-.25in;line-height:
+normal'&gt;&lt;span lang="ES" style='font-size:10.0pt;font-family:Symbol;color:#4B5C66'&gt;·&lt;span style='font:7.0pt "Times New Roman"'&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+&lt;/span&gt;&lt;/span&gt;&lt;span lang="PT-BR" style='font-size:12.0pt;font-family:"Times New Roman",serif;
+color:#4B5C66'&gt;usará a API do Power BI de uma forma que exceda o volume
+razoável de solicitações, constitua uso excessivo ou abusivo ou de outra forma
+não cumpra ou seja inconsistente com alguma parte da documentação da API do
+Power BI localizada em &lt;/span&gt;&lt;span lang="PT-BR"&gt;&lt;a href="https://developer.yammer.com/" title="Doc da API"&gt;&lt;span style='font-size:
+12.0pt;font-family:"Times New Roman",serif;color:#4B5C66'&gt;dev.PowerBI.com&lt;/span&gt;&lt;/a&gt;&lt;/span&gt;&lt;span lang="PT-BR" style='font-size:12.0pt;font-family:"Times New Roman",serif;
+color:#4B5C66'&gt;&amp;nbsp;conforme determinado pela Microsoft a seu exclusivo
+critério;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class="MsoNormal" style='margin-left:.25in;text-indent:-.25in;line-height:
+normal'&gt;&lt;span lang="ES" style='font-size:10.0pt;font-family:Symbol;color:#4B5C66'&gt;·&lt;span style='font:7.0pt "Times New Roman"'&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+&lt;/span&gt;&lt;/span&gt;&lt;span lang="PT-BR" style='font-size:12.0pt;font-family:"Times New Roman",serif;
+color:#4B5C66'&gt;solicitará dados em nome de um usuário a fim de mostrar, exibir,
+transmitir ou fornecer tais dados a outros usuários.&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class="MsoNormal" style='margin-left:.25in;text-indent:-.25in;line-height:
+normal'&gt;&lt;span lang="ES" style='font-size:10.0pt;font-family:Symbol;color:#4B5C66'&gt;·&lt;span style='font:7.0pt "Times New Roman"'&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+&lt;/span&gt;&lt;/span&gt;&lt;span lang="PT-BR" style='font-size:12.0pt;font-family:"Times New Roman",serif;
+color:#4B5C66'&gt;Os usos proibidos imediatamente anteriores são a título de
+exemplo, e não representam uma limitação. A Microsoft reserva para si o
+direito, a seu exclusivo critério, de determinar se o uso que você faz da API
+do Power BI está de acordo com estes Termos da API.&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class="MsoNormal" style='margin-bottom:.05pt;line-height:normal'&gt;&lt;b&gt;&lt;span lang="PT-BR" style='font-size:18.0pt;font-family:"Times New Roman",serif;
+color:#4B5C66'&gt;5. Privacidade.&lt;/span&gt;&lt;/b&gt;&lt;/p&gt;
+
+&lt;p class="MsoNormal" style='line-height:normal'&gt;&lt;span lang="PT-BR" style='font-size:12.0pt;font-family:"Times New Roman",serif;color:#4B5C66'&gt;Todo
+o acesso à, e uso da, API do Power BI está sujeito à Política de Privacidade do
+Power BI, que está disponível &lt;/span&gt;&lt;span lang="PT-BR"&gt;&lt;a href="https://www.microsoft.com/EN-US/privacystatement/OnlineServices/Default.aspx"&gt;&lt;span lang="ES" style='font-size:12.0pt;font-family:"Times New Roman",serif'&gt;aqui&lt;/span&gt;&lt;/a&gt;&lt;/span&gt;&lt;span lang="PT-BR" style='font-size:12.0pt;font-family:"Times New Roman",serif;
+color:#4B5C66'&gt; (que pode ser atualizada periodicamente).&amp;nbsp;Nada nestes
+Termos da API impede a coleta nem a transferência de qualquer informação de
+identificação do usuário de Internet entre as partes. Você deve manter uma
+política de privacidade online conhecida para que seus sites e aplicativos que
+acessam a API do Power BI.&amp;nbsp;Esta política de privacidade deve, no mínimo,
+incluir uma divulgação completa, precisa e clara sobre a colocação, o uso e a
+leitura de cookies e de tecnologias relacionadas e sobre a coleta e o uso de
+dados relacionados à atividades dos usuários de seus sites e aplicativos.&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class="MsoNormal" style='margin-bottom:.05pt;line-height:normal'&gt;&lt;b&gt;&lt;span lang="PT-BR" style='font-size:18.0pt;font-family:"Times New Roman",serif;
+color:#4B5C66'&gt;6. Autenticação do Usuário e Segurança.&lt;/span&gt;&lt;/b&gt;&lt;/p&gt;
+
+&lt;p class="MsoNormal" style='line-height:normal'&gt;&lt;span lang="PT-BR" style='font-size:12.0pt;font-family:"Times New Roman",serif;color:#4B5C66'&gt;A
+Microsoft leva a segurança e a privacidade do usuário a sério, e você concorda
+em nos fornecer toda a assistência necessária para a operação do seu Aplicativo
+em conformidade com esses TErmos da API e com as leis aplicáveis.&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class="MsoNormal" style='line-height:normal'&gt;&lt;span lang="PT-BR" style='font-size:12.0pt;font-family:"Times New Roman",serif;color:#4B5C66'&gt;a. Protegendo
+o Conteúdo do Usuário. Você é o único responsável por proteger consentimento
+claro e expresso do usuário, conceder a você permissão para acessar a conta do Power
+BI do usuário, incluindo, se aplicável, recuperar informações específicas do
+usuário ou gravar informações na conta de tal usuário. Você cumprirá
+rigorosamente com o escopo de consentimento expresso que eles concederam a você
+ao acessar a conta do Power BI de tal usuário.&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class="MsoNormal" style='line-height:normal'&gt;&lt;span lang="PT-BR" style='font-size:12.0pt;font-family:"Times New Roman",serif;color:#4B5C66'&gt;b.
+Contato e Cooperação. Você (ou os contatos que você registrou no Active
+Directory do Azure junto com seu aplicativo) deverá poder ser contatado sempre
+por questões de segurança. Você poderá alterar este nome ou contato atualizando
+suas informações de locatário no Active Directory do Azure.&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class="MsoNormal" style='line-height:normal'&gt;&lt;span lang="PT-BR" style='font-size:12.0pt;font-family:"Times New Roman",serif;color:#4B5C66'&gt;c.
+Precauções contra Vírus. Todos os materiais, incluindo softwares e documentos,
+que você fornece para a Microsoft deverão ser verificados quanto a softwares
+antiworms e antivírus padrão do setor da Internet atualizados e ser
+determinados como sem a presença de vírus e worms. Quaisquer dados fornecidos
+para a Microsoft não deverão conter scripts ou códigos prejudiciais.&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class="MsoNormal" style='line-height:normal'&gt;&lt;span lang="PT-BR" style='font-size:12.0pt;font-family:"Times New Roman",serif;color:#4B5C66'&gt;d.
+Padrões do Setor. Suas redes, sistema operacional e softwares para servidores
+da Web, roteadores, bancos de dados e sistemas de computador (“Sistemas”)
+deverão ser adequadamente configurados para os padrões do setor da Internet,
+conforme exigido para operar com segurança seus Aplicativos. Se você não
+controlar totalmente algum aspecto do Sistema, você usará todo o controle e
+influência que você tiver sobre tais Sistemas e/ou seleção de Sistemas, e você
+não arquitetará nem selecionará os Sistemas de forma a evitar a obrigação
+exposta acima. Um exemplo de um servidor não aceitável é aquele que opera como
+um proxy aberto. Um exemplo de arquitetura de uma forma inaceitável seria
+selecionar um servidor operado por um fornecedor com práticas de segurança
+precárias de forma que você possa afirmar que você não controla tal servidor a
+fim de evitar ter que selecionar um servidor aceitável.&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class="MsoNormal" style='line-height:normal'&gt;&lt;span lang="PT-BR" style='font-size:12.0pt;font-family:"Times New Roman",serif;color:#4B5C66'&gt;e.
+Relatório. Você deverá relatar imediatamente quaisquer deficiências de
+segurança ou intrusões em seus Sistemas para a Microsoft por escrito enviando
+um email para &lt;/span&gt;&lt;span lang="PT-BR"&gt;&lt;a href="mailto:devpbi@microsoft.com"&gt;&lt;span lang="EN" style='font-size:12.0pt;font-family:"Times New Roman",serif'&gt;devpbi@microsoft.com&lt;/span&gt;&lt;/a&gt;&lt;/span&gt;&lt;span lang="PT-BR" style='font-size:12.0pt;font-family:"Times New Roman",serif;
+color:#4B5C66'&gt;. Você trabalhará com a Microsoft para corrigir imediatamente
+qualquer deficiência de segurança e desconectará imediatamente quaisquer
+invasores. No caso de tal deficiência de segurança ou invasão, você não fará
+nenhuma declaração pública (ou seja, na imprensa, em blogs, BBS, etc.) sem a
+permissão prévia expressa e por escrito da Microsoft em cada instância.&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class="MsoNormal" style='line-height:normal'&gt;&lt;span lang="PT-BR" style='font-size:12.0pt;font-family:"Times New Roman",serif;color:#4B5C66'&gt;f.
+Controle de Acesso aos Sistemas. Até a extensão que você tenha controle ou
+influência sobre os Sistemas, você registrará (fazendo uma marcação de data e
+hora) todas as instâncias de acesso aos Sistemas. Você criptografará os
+arquivos de nome do usuário e senha para os Sistemas que armazenam ou processam
+quaisquer dados de usuário do Power BI que tenham permissão da Microsoft para
+acessar. As senhas devem ser exclusivas, não intuitivas e alteradas com
+frequência. Você minimizará o acesso a e o uso das senhas. Onde for possível,
+os comandos que exigem privilégios adicionais deverão ser registrados com
+segurança (com data e hora) para permitir uma trilha de auditoria completa das
+atividades. Quando um indivíduo encerra seu vínculo empregatício com você, suas
+senhas e senhas de acesso a instalações deverão ser revogadas imediatamente.&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class="MsoNormal" style='line-height:normal'&gt;&lt;span lang="PT-BR" style='font-size:12.0pt;font-family:"Times New Roman",serif;color:#4B5C66'&gt;g.
+Análises de Segurança. A Microsoft terá o direito, mas não está obrigada a, às
+suas custas, ter um terceiro independente inspecionando e analisando sua
+conformidade com essas provisões de segurança. Você (às suas custas) corrigirá
+falhas de segurança detectadas por tal revisão assim que possível. Você
+certificará imediatamente para a Microsoft por escrito que a falha de segurança
+foi corrigida, junto com uma descrição das medidas corretivas tomadas. A
+Microsoft enviará a você uma notificação de 48 horas antes de conduzir tal
+análise. Qualquer revisão será conduzida durante as horas comerciais
+reguladores de tal forma a não interferir nas atividades comerciais regulares
+da empresa. Se uma análise revelar uma violação substancial de qualquer uma
+dessas provisões de segurança, você reembolsará a Microsoft pelos custos
+razoáveis da análise.&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class="MsoNormal" style='line-height:normal'&gt;&lt;span lang="PT-BR" style='font-size:12.0pt;font-family:"Times New Roman",serif;color:#4B5C66'&gt;h.
+Você também terá que cumprir com os requisitos e com a documentação descrita
+nos Requisitos de Segurança e na Documentação anexada como Anexo A destes
+Termos da API.&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class="MsoNormal" style='margin-bottom:.05pt;line-height:normal'&gt;&lt;b&gt;&lt;span lang="ES" style='font-size:18.0pt;font-family:"Times New Roman",serif;color:#4B5C66'&gt;&amp;nbsp;&lt;/span&gt;&lt;/b&gt;&lt;/p&gt;
+
+&lt;p class="MsoNormal" style='margin-bottom:.05pt;line-height:normal'&gt;&lt;b&gt;&lt;span lang="PT-BR" style='font-size:18.0pt;font-family:"Times New Roman",serif;
+color:#4B5C66'&gt;7&lt;/span&gt;&lt;/b&gt;&lt;b&gt;&lt;span lang="PT-BR" style='font-size:18.0pt;
+font-family:"Times New Roman",serif;color:#4B5C66'&gt;. Suporte e Disponibilidade.&lt;/span&gt;&lt;/b&gt;&lt;/p&gt;
+
+&lt;p class="MsoNormal" style='line-height:normal'&gt;&lt;span lang="PT-BR" style='font-size:12.0pt;font-family:"Times New Roman",serif;color:#4B5C66'&gt;A
+Microsoft poderá optar por fornecer a você suporte ou modificações para a API
+do Power BI (coletivamente, “Suporte”), a seu exclusivo critério. A Microsoft
+pode alterar, suspender ou descontinuar qualquer aspecto da API do Power BI a
+qualquer momento, inclusive a disponibilidade da API do Power BI. A Microsoft
+também pode impor limites em determinados recursos e serviços ou restringir seu
+acesso a partes ou a toda a API do Power BI ou ao site do Power BI sem
+notificação ou obrigação.&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class="MsoNormal" style='margin-bottom:.05pt;line-height:normal'&gt;&lt;b&gt;&lt;span lang="PT-BR" style='font-size:18.0pt;font-family:"Times New Roman",serif;
+color:#4B5C66'&gt;8&lt;/span&gt;&lt;/b&gt;&lt;b&gt;&lt;span lang="PT-BR" style='font-size:18.0pt;
+font-family:"Times New Roman",serif;color:#4B5C66'&gt;. Valores e Pagamentos.&lt;/span&gt;&lt;/b&gt;&lt;/p&gt;
+
+&lt;p class="MsoNormal" style='line-height:normal'&gt;&lt;span lang="PT-BR" style='font-size:12.0pt;font-family:"Times New Roman",serif;color:#4B5C66'&gt;A
+Microsoft reserva para si o direito de cobrar valores para uso futuro ou acesso
+à API do Power BI a critério exclusivo da Microsoft. Se a Microsoft decidir
+cobrar pela API do Power BI, tais cobranças serão divulgadas a você por meio de
+notificação prévia por escrito.&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class="MsoNormal" style='margin-bottom:.05pt;line-height:normal'&gt;&lt;b&gt;&lt;span lang="PT-BR" style='font-size:18.0pt;font-family:"Times New Roman",serif;
+color:#4B5C66'&gt;9&lt;/span&gt;&lt;/b&gt;&lt;b&gt;&lt;span lang="PT-BR" style='font-size:18.0pt;
+font-family:"Times New Roman",serif;color:#4B5C66'&gt;.&lt;/span&gt;&lt;/b&gt;&lt;span lang="PT-BR" style='font-size:18.0pt;font-family:"Times New Roman",serif;
+color:#4B5C66'&gt; &lt;b&gt;Isenção de Garantias.&lt;/b&gt;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class="MsoNormal" style='line-height:normal'&gt;&lt;span lang="PT-BR" style='font-size:12.0pt;font-family:"Times New Roman",serif;color:#4B5C66'&gt;A
+API DO POWER BI É FORNECIDA “NO ESTADO EM QUE SE ENCONTRA” E “MEDIANTE
+DISPONIBILIDADE” SEM GARANTIAS, SEJAM ELAS CONTRATUAIS OU LEGAIS, DE QUALQUER
+NATUREZA. A MICROSOFT ISENTA-SE EXPRESSAMENTE DE TODA E QUALQUER GARANTIA E
+CONDIÇÃO, INCLUINDO, SEM LIMITAÇÃO, QUALQUER GARANTIA LEGAL DE ATENDIMENTO A
+PADRÕES DE COMERCIALIZAÇÃO, ADEQUAÇÃO A UMA FINALIDADE ESPECÍFICA,
+DISPONIBILIDADE, SEGURANÇA, TITULARIDADE DO DIREITO E NÃO VIOLAÇÃO.&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class="MsoNormal" style='line-height:normal'&gt;&lt;span lang="PT-BR" style='font-size:12.0pt;font-family:"Times New Roman",serif;color:#4B5C66'&gt;A
+MICROSOFT NÃO DECLARA NEM GARANTE QUE A API DO POWER BI NÃO CONTÉM IMPRECISÕES,
+ERROS, BUGS OU INTERRUPÇÕES, NEM QUE ELA É CONFIÁVEL, PRECISA, COMPLETA OU, DE
+OUTRA FORMA, VÁLIDA. A MICROSOFT NÃO FAZ GARANTIAS DE QUE (i) A API DO POWER BI
+ATENDERÁ AOS SEUS REQUISITOS, (ii) O ACESSO AO SERVIÇO DE API DO POWER BI SERÁ
+ININTERRUPTO, (iii) OS RESULTADOS QUE PODERÁ SER OBTIDOS DO USO DA API DO POWER
+BI SERÃO PRECISOS OU CONFIÁVEIS, (iv) A QUALIDADE DE QUAISQUER PRODUTOS,
+SERVIÇOS, INFORMAÇÕES OU OUTROS MATERIAIS OBTIDOS POR VOCÊ POR MEIO DA API DO
+POWER BI ATENDERÁ ÀS SUAS EXPECTATIVAS E (v) QUAISQUER ERROS NA API DO POWER BI
+SERÃO CORRIGIDOS.&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class="MsoNormal" style='line-height:normal'&gt;&lt;span lang="PT-BR" style='font-size:12.0pt;font-family:"Times New Roman",serif;color:#4B5C66'&gt;O
+USO QUE VOCÊ FAZ DA API DO POWER BI FICA AO SEU CRITÉRIO E POR SEU RISCO, E
+VOCÊ SERÁ O ÚNICO RESPONSÁVEL POR QUAISQUER DANOS QUE RESULTEM DO USO DA API DO
+POWER BI. &lt;/span&gt;&lt;/p&gt;
+
+&lt;p class="MsoNormal" style='margin-bottom:.05pt;line-height:normal'&gt;&lt;b&gt;&lt;span lang="PT-BR" style='font-size:18.0pt;font-family:"Times New Roman",serif;
+color:#4B5C66'&gt;10&lt;/span&gt;&lt;/b&gt;&lt;b&gt;&lt;span lang="PT-BR" style='font-size:18.0pt;
+font-family:"Times New Roman",serif;color:#4B5C66'&gt;.&lt;/span&gt;&lt;/b&gt;&lt;span lang="PT-BR" style='font-size:18.0pt;font-family:"Times New Roman",serif;
+color:#4B5C66'&gt; &lt;b&gt;Limitação de Responsabilidade.&lt;/b&gt;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class="MsoNormal" style='line-height:normal'&gt;&lt;span lang="PT-BR" style='font-size:12.0pt;font-family:"Times New Roman",serif;color:#4B5C66'&gt;NÃO
+OBSTANTE QUALQUER OUTRA DISPOSIÇÃO CONTIDA NESTES TERMOS DA API, A
+RESPONSABILIDADE MÁXIMA AGREGADA DA MICROSOFT COM RELAÇÃO A VOCÊ E POR
+QUAISQUER E TODOS OS REQUERIMENTOS JUDICIAIS OU EXTRAJUDICIAIS DECORRENTES OU
+RELACIONADOS A ESTES TERMOS DA API, AO TÉRMINO OU À RESCISÃO, SEJA PORQUE TAL
+OBRIGAÇÃO É DECORRENTE DE QUALQUER REQUERIMENTO JUDICIAL OU EXTRAJUDICIAL COM
+BASE NO CONTRATO, NA GARANTIA, EM ATO ILÍCITO EXTRACONTRATUAL, FALHA DE
+FINALIDADE ESSENCIAL, USO DE NEGÓCIOS OU, DE OUTRA FORMA, EM NENHUM CASO
+EXCEDERÁ USD $10.00. NÃO SERÁ POSSÍVEL RECUPERAR NENHUM OUTRO DANO OU PERDAS,
+INCLUINDO, SEM LIMITAÇÃO, DANOS CONSEQUENCIAIS, LUCROS CESSANTES, ESPECIAIS,
+INDIRETOS, INCIDENTAIS OU PUNITIVOS. ESSAS LIMITAÇÕES E EXCLUSÕES SERÃO
+APLICÁVEIS SE ESSE RECURSO NÃO COMPENSÁ-LO TOTALMENTE POR QUAISQUER PERDAS OU
+NÃO CUMPRIR SUA FINALIDADE ESSENCIAL OU SE NÓS SOUBERMOS OU DEVÊSSEMOS SABER
+SOBRE A POSSIBILIDADE DE TAIS DANOS. NO LIMITE MÁXIMO PERMITIDO PELA
+LEGISLAÇÃO, ESSAS LIMITAÇÕES E EXCLUSÕES SE APLICAM A TUDO QUE SE RELACIONA A
+ESTES TERMOS DA API, COMO PERDA DE CONTEÚDO, VÍRUS QUE AFETEM O USO QUE VOCÊ
+FAZ DA API DO POWER BI; ATRASOS OU FALHAS AO INICIAR OU REALIZAR TRANSMISSÕES
+OU TRANSAÇÕES; REQUERIMENTOS JUDICIAIS OU EXTRAJUDICIAIS POR VIOLAÇÃO DE CONTRATO,
+GARANTIA OU CONDIÇÃO; RESPONSABILIDADE OBJETIVA; NEGLIGÊNCIA; FALSIDADE
+IDEOLÓGICA OU OMISSÃO; OUTRO ATO ILÍCITO EXTRACONTRATUAL; VIOLAÇÃO DE ESTATUTO
+OU REGULAMENTO; OU ENRIQUECIMENTO ILÍCITO. ALGUMAS OU TODAS ESSAS LIMITAÇÕES OU
+EXCLUSÕES PODERÃO NÃO SER APLICÁVEIS A VOCÊ SE O SEU ESTADO, PROVÍNCIA OU PAÍS
+NÃO PERMITIR A EXCLUSÃO OU LIMITAÇÃO DE DANOS INCIDENTAIS, CONSEQUENCIAIS OU
+OUTROS. &lt;/span&gt;&lt;/p&gt;
+
+&lt;p class="MsoNormal" style='margin-bottom:.05pt;line-height:normal'&gt;&lt;b&gt;&lt;span lang="PT-BR" style='font-size:18.0pt;font-family:"Times New Roman",serif;
+color:#4B5C66'&gt;11&lt;/span&gt;&lt;/b&gt;&lt;b&gt;&lt;span lang="PT-BR" style='font-size:18.0pt;
+font-family:"Times New Roman",serif;color:#4B5C66'&gt;.&lt;/span&gt;&lt;/b&gt;&lt;span lang="PT-BR" style='font-size:18.0pt;font-family:"Times New Roman",serif;
+color:#4B5C66'&gt; &lt;b&gt;Indenização.&lt;/b&gt;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class="MsoNormal" style='line-height:normal'&gt;&lt;span lang="PT-BR" style='font-size:12.0pt;font-family:"Times New Roman",serif;color:#4B5C66'&gt;Você
+indenizará e defenderá a Microsoft (e seus diretores, funcionários, afiliadas e
+representantes) de e contra quaisquer e todas as perdas, responsabilidades e
+custas (incluindo honorários advocatícios e custos razoáveis) sofridas e
+incorridas em virtude de quaisquer requerimentos judiciais ou extrajudiciais,
+processos ou ações com base em ou decorrentes de qualquer violação (ou suposta
+violação) da sua parte deste contrato ou de qualquer parte dele, que, de outra
+forma, esteja relacionado aos seus sites, aplicativos ou ao uso que você faz da
+API do Power BI. Você será o único responsável por defender qualquer outro
+requerimento judicial ou extrajudicial usando consultoria mutuamente acordada,
+sujeita ao direito da Microsoft de participar na consultoria que ela
+selecionar, e você não publicará nenhum requerimento judicial ou extrajudicial
+em qualquer acordo que imponha alguma obrigação ou responsabilidade sobre a
+Microsoft (ou seus diretores, funcionários, afiliadas e representantes) sem a
+autorização prévia da Microsoft; tal consentimento será fornecido pela
+Microsoft a seu exclusivo critério.&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class="MsoNormal" style='margin-bottom:.05pt;line-height:normal'&gt;&lt;b&gt;&lt;span lang="PT-BR" style='font-size:18.0pt;font-family:"Times New Roman",serif;
+color:#4B5C66'&gt;12&lt;/span&gt;&lt;/b&gt;&lt;b&gt;&lt;span lang="PT-BR" style='font-size:18.0pt;
+font-family:"Times New Roman",serif;color:#4B5C66'&gt;. Prazo de Vigência/Rescisão.&lt;/span&gt;&lt;/b&gt;&lt;/p&gt;
+
+&lt;p class="MsoNormal" style='line-height:normal'&gt;&lt;span lang="PT-BR" style='font-size:12.0pt;font-family:"Times New Roman",serif;color:#4B5C66'&gt;Estes
+Termos da API se tornarão vigentes no primeiro uso da API do Power BI e
+continuará vigente até ser rescindido por uma das partes. Você poderá rescindir
+estes Termos da API descontinuando o uso da API do Power BI. A Microsoft poderá
+rescindir estes Termos da API a qualquer momento e por qualquer motivo. Estes
+Termos da API serão rescindidos automaticamente se (i) você violar qualquer
+termo destes Termos da API ou os TOU, (ii) a Microsoft postar publicamente uma
+notificação de rescisão por escrito no site do Power BI, (iii) a Microsoft
+enviar uma notificação de rescisão por escrito a você ou (iv) a Microsoft parar
+de fornecer o acesso à API do Power BI para você.&amp;nbsp;As obrigações das partes
+de acordo com as Seções 3, 9, 10, 11, 12, 15, 16, 17, 18 e 19 deverão
+sobreviver ao término ou rescisão destes Termos da API por qualquer motivo.&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class="MsoNormal" style='margin-bottom:.05pt;line-height:normal'&gt;&lt;b&gt;&lt;span lang="PT-BR" style='font-size:18.0pt;font-family:"Times New Roman",serif;
+color:#4B5C66'&gt;13&lt;/span&gt;&lt;/b&gt;&lt;b&gt;&lt;span lang="PT-BR" style='font-size:18.0pt;
+font-family:"Times New Roman",serif;color:#4B5C66'&gt;. Cessão.&lt;/span&gt;&lt;/b&gt;&lt;/p&gt;
+
+&lt;p class="MsoNormal" style='line-height:normal'&gt;&lt;span lang="PT-BR" style='font-size:12.0pt;font-family:"Times New Roman",serif;color:#4B5C66'&gt;A
+Microsoft poderá ceder este contrato, de forma parcial ou na íntegra, a
+qualquer momento, com ou sem prévia notificação ao Cliente. Você não poderá
+ceder este contrato nem qualquer parte dele a nenhuma outra pessoa ou parte sem
+a autorização prévia por escrito, cuja autorização não deverá ser recusada sem
+justificativa. Qualquer tentativa de fazê-lo será considerada nula. Você não poderá
+transferir para qualquer outra pessoa, de forma temporária ou permanente,
+quaisquer direitos de uso da API do Power BI nem qualquer parte da API do Power
+BI.&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class="MsoNormal" style='margin-bottom:.05pt;line-height:normal'&gt;&lt;b&gt;&lt;span lang="PT-BR" style='font-size:18.0pt;font-family:"Times New Roman",serif;
+color:#4B5C66'&gt;14&lt;/span&gt;&lt;/b&gt;&lt;b&gt;&lt;span lang="PT-BR" style='font-size:18.0pt;
+font-family:"Times New Roman",serif;color:#4B5C66'&gt;. Inexistência de
+Beneficiários Terceiros.&lt;/span&gt;&lt;/b&gt;&lt;/p&gt;
+
+&lt;p class="MsoNormal" style='line-height:normal'&gt;&lt;span lang="PT-BR" style='font-size:12.0pt;font-family:"Times New Roman",serif;color:#4B5C66'&gt;Este
+contrato é exclusivo para o seu benefício e para o benefício da Microsoft. Ele
+não se destina para o benefício de qualquer parte, exceto para sucessores e
+cessionários de acordo com este contrato.&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class="MsoNormal" style='margin-bottom:.05pt;line-height:normal'&gt;&lt;b&gt;&lt;span lang="PT-BR" style='font-size:18.0pt;font-family:"Times New Roman",serif;
+color:#4B5C66'&gt;15&lt;/span&gt;&lt;/b&gt;&lt;b&gt;&lt;span lang="PT-BR" style='font-size:18.0pt;
+font-family:"Times New Roman",serif;color:#4B5C66'&gt;. Autonomia das Cláusulas.&lt;/span&gt;&lt;/b&gt;&lt;/p&gt;
+
+&lt;p class="MsoNormal" style='line-height:normal'&gt;&lt;span lang="PT-BR" style='font-size:12.0pt;font-family:"Times New Roman",serif;color:#4B5C66'&gt;Caso
+alguma cláusula destes Termos da API seja considerada ilícita, inválida ou
+inexequível por um tribunal da jurisdição competente, as cláusulas restantes
+permanecerão plenamente válidas.&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class="MsoNormal" style='margin-bottom:.05pt;line-height:normal'&gt;&lt;span lang="ES" style='font-size:18.0pt;font-family:"Times New Roman",serif;color:#4B5C66'&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class="MsoNormal" style='margin-bottom:.05pt;line-height:normal'&gt;&lt;b&gt;&lt;span lang="PT-BR" style='font-size:18.0pt;font-family:"Times New Roman",serif;
+color:#4B5C66'&gt;16&lt;/span&gt;&lt;/b&gt;&lt;b&gt;&lt;span lang="PT-BR" style='font-size:18.0pt;
+font-family:"Times New Roman",serif;color:#4B5C66'&gt;. Notificações.&lt;/span&gt;&lt;/b&gt;&lt;/p&gt;
+
+&lt;p class="MsoNormal" style='line-height:normal'&gt;&lt;span lang="PT-BR" style='font-size:12.0pt;font-family:"Times New Roman",serif;color:#4B5C66'&gt;Você
+consente em receber da Microsoft notificações sobre a API do Power BI ou
+informações que a lei exige que forneçamos por email para o endereço
+especificado quando você se inscreveu na API do Power BI. As notificações
+enviadas para você serão consideradas entregues e recebidas quando o email for
+enviado. Se você não concordar com o recebimento de notificações em formato
+eletrônico, deverá interromper o acesso à API do Power BI. &lt;/span&gt;&lt;/p&gt;
+
+&lt;p class="MsoNormal" style='margin-bottom:.05pt;line-height:normal'&gt;&lt;b&gt;&lt;span lang="PT-BR" style='font-size:18.0pt;font-family:"Times New Roman",serif;
+color:#4B5C66'&gt;17&lt;/span&gt;&lt;/b&gt;&lt;b&gt;&lt;span lang="PT-BR" style='font-size:18.0pt;
+font-family:"Times New Roman",serif;color:#4B5C66'&gt;. Ausência de Renúncia de
+Direitos por Parte da Microsoft.&lt;/span&gt;&lt;/b&gt;&lt;/p&gt;
+
+&lt;p class="MsoNormal" style='line-height:normal'&gt;&lt;span lang="PT-BR" style='font-size:12.0pt;font-family:"Times New Roman",serif;color:#4B5C66'&gt;O
+não exercício ou aplicação por parte da Microsoft de qualquer direito ou
+cláusula destes Termos da API não deverão constituir renúncia desse direito ou
+cláusula.&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class="MsoNormal" style='margin-bottom:.05pt;line-height:normal'&gt;&lt;b&gt;&lt;span lang="PT-BR" style='font-size:18.0pt;font-family:"Times New Roman",serif;
+color:#4B5C66'&gt;18&lt;/span&gt;&lt;/b&gt;&lt;b&gt;&lt;span lang="PT-BR" style='font-size:18.0pt;
+font-family:"Times New Roman",serif;color:#4B5C66'&gt;. Lei Reguladora;
+Jurisdição.&lt;/span&gt;&lt;/b&gt;&lt;/p&gt;
+
+&lt;p class="MsoNormal" style='margin-top:6.0pt;margin-right:0in;margin-bottom:0in;
+margin-left:0in;margin-bottom:.0001pt;line-height:normal'&gt;&lt;span lang="PT-BR" style='font-size:12.0pt;font-family:"Times New Roman",serif;color:#4B5C66'&gt;Estes
+Termos da API são regidos pelas leis do Estado de Washington. Caso exista uma
+jurisdição federal, as partes concordam com o foro e a jurisdição exclusivos
+dos tribunais federais situados em King County, Washington, nos EUA. Caso
+contrário, as partes concordam com o foro e a jurisdição exclusivos da Suprema
+Corte de King County, em Washington. Caso a Microsoft ou você contrate
+advogados para garantir quaisquer direitos que surgirem ou estiverem
+relacionados a estes Termos da API, a parte vencedora terá direito de ser
+ressarcida pelos honorários advocatícios, custas judiciais e outras despesas
+razoáveis, incluindo os custos e as taxas incorridos por recursos ou ação de
+falência ou similar.&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class="MsoNormal" style='margin-bottom:.05pt;line-height:normal'&gt;&lt;b&gt;&lt;span lang="ES" style='font-size:18.0pt;font-family:"Times New Roman",serif;color:#4B5C66'&gt;&amp;nbsp;&lt;/span&gt;&lt;/b&gt;&lt;/p&gt;
+
+&lt;p class="MsoNormal" style='margin-bottom:.05pt;line-height:normal'&gt;&lt;b&gt;&lt;span lang="PT-BR" style='font-size:18.0pt;font-family:"Times New Roman",serif;
+color:#4B5C66'&gt;19&lt;/span&gt;&lt;/b&gt;&lt;b&gt;&lt;span lang="PT-BR" style='font-size:18.0pt;
+font-family:"Times New Roman",serif;color:#4B5C66'&gt;. Acordo Integral.&lt;/span&gt;&lt;/b&gt;&lt;/p&gt;
+
+&lt;p class="MsoNormal" style='margin-top:6.0pt;margin-right:0in;margin-bottom:0in;
+margin-left:0in;margin-bottom:.0001pt;line-height:normal'&gt;&lt;span lang="PT-BR" style='font-size:12.0pt;font-family:"Times New Roman",serif;color:#4B5C66'&gt;Estes
+Termos da API constituem o acordo integral entre a Microsoft e você relativo ao
+assunto aqui apresentado.&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class="MsoNormal" style='line-height:normal'&gt;&lt;span lang="PT-BR" style='font-size:12.0pt;font-family:"Times New Roman",serif;color:#4B5C66'&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class="MsoNormal" style='margin-top:0in;margin-right:0in;margin-bottom:.05pt;
+margin-left:2.0in;text-indent:.5in;line-height:normal'&gt;&lt;span lang="PT-BR" style='font-size:18.0pt;font-family:"Times New Roman",serif;color:#4B5C66'&gt;Anexo
+A&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class="MsoNormal" align="center" style='margin-bottom:.05pt;text-align:center;
+line-height:normal'&gt;&lt;span lang="PT-BR" style='font-size:18.0pt;font-family:"Times New Roman",serif;
+color:#4B5C66'&gt;Requisitos de Segurança e Documentação&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class="MsoNormal" style='margin-bottom:.05pt;line-height:normal'&gt;&lt;b&gt;&lt;span lang="ES" style='font-size:18.0pt;font-family:"Times New Roman",serif;color:#4B5C66'&gt;&amp;nbsp;&lt;/span&gt;&lt;/b&gt;&lt;/p&gt;
+
+&lt;p class="MsoNormal" style='margin-bottom:.05pt;line-height:normal'&gt;&lt;b&gt;&lt;span lang="PT-BR" style='font-size:18.0pt;font-family:"Times New Roman",serif;
+color:#4B5C66'&gt;Requisitos de Segurança:&lt;/span&gt;&lt;/b&gt;&lt;/p&gt;
+
+&lt;p class="MsoNormal" style='margin-left:.25in;text-indent:-.25in;line-height:
+normal'&gt;&lt;span lang="ES" style='font-size:12.0pt;font-family:"Times New Roman",serif;
+color:#4B5C66'&gt;1.&lt;span style='font:7.0pt "Times New Roman"'&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+&lt;/span&gt;&lt;/span&gt;&lt;span lang="PT-BR" style='font-size:12.0pt;font-family:"Times New Roman",serif;
+color:#4B5C66'&gt;O parceiro fornecerá à Microsoft toda a documentação de
+segurança relevante (incluindo, sem limitação, a política de segurança,
+política de resposta a incidentes, avaliação de risco, classificação de dados,
+código e artefatos de análise estática e dinâmica de binários, resultados do
+teste de caneta, componentes usados por terceiros, etc.);&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class="MsoNormal" style='margin-left:.25in;text-indent:-.25in;line-height:
+normal'&gt;&lt;span lang="ES" style='font-size:12.0pt;font-family:"Times New Roman",serif;
+color:#4B5C66'&gt;2.&lt;span style='font:7.0pt "Times New Roman"'&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+&lt;/span&gt;&lt;/span&gt;&lt;span lang="PT-BR" style='font-size:12.0pt;font-family:"Times New Roman",serif;
+color:#4B5C66'&gt;Fornecer documentação explícita do uso do Parceiro dos dados do
+cliente do Power BI (finalidade de uso, dados específicos usados pelo Power BI,
+transmissão, armazenamento, etc.) e torná-la disponível aos usuários;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class="MsoNormal" style='margin-left:.25in;text-indent:-.25in;line-height:
+normal'&gt;&lt;span lang="ES" style='font-size:12.0pt;font-family:"Times New Roman",serif;
+color:#4B5C66'&gt;3.&lt;span style='font:7.0pt "Times New Roman"'&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+&lt;/span&gt;&lt;/span&gt;&lt;span lang="PT-BR" style='font-size:12.0pt;font-family:"Times New Roman",serif;
+color:#4B5C66'&gt;Afirmar que as vulnerabilidades identificadas que poderiam
+afetar os clientes do Power BI serão solucionadas em tempo hábil;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class="MsoNormal" style='margin-left:.25in;text-indent:-.25in;line-height:
+normal'&gt;&lt;span lang="ES" style='font-size:12.0pt;font-family:"Times New Roman",serif;
+color:#4B5C66'&gt;4.&lt;span style='font:7.0pt "Times New Roman"'&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+&lt;/span&gt;&lt;/span&gt;&lt;span lang="PT-BR" style='font-size:12.0pt;font-family:"Times New Roman",serif;
+color:#4B5C66'&gt;Afirmar que a Microsoft está autorizada a testar a segurança das
+ofertas de terceiros, conforme coordenado entre a Microsoft e você;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class="MsoNormal" style='margin-left:.25in;text-indent:-.25in;line-height:
+normal'&gt;&lt;span lang="ES" style='font-size:12.0pt;font-family:"Times New Roman",serif;
+color:#4B5C66'&gt;5.&lt;span style='font:7.0pt "Times New Roman"'&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+&lt;/span&gt;&lt;/span&gt;&lt;span lang="PT-BR" style='font-size:12.0pt;font-family:"Times New Roman",serif;
+color:#4B5C66'&gt;Você só manterá os dados que são necessários para executar sua
+finalidade indicada e excluirá informações adicionais e desnecessárias, conforme
+apropriado;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class="MsoNormal" style='margin-left:.25in;text-indent:-.25in;line-height:
+normal'&gt;&lt;span lang="ES" style='font-size:12.0pt;font-family:"Times New Roman",serif;
+color:#4B5C66'&gt;6.&lt;span style='font:7.0pt "Times New Roman"'&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+&lt;/span&gt;&lt;/span&gt;&lt;span lang="PT-BR" style='font-size:12.0pt;font-family:"Times New Roman",serif;
+color:#4B5C66'&gt;Todos os dados da Microsoft serão excluídos/destruídos de seus
+sistemas no término de sua relação com a Microsoft.&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class="MsoNormal" style='line-height:normal'&gt;&lt;span lang="PT-BR" style='font-size:12.0pt;font-family:"Times New Roman",serif;color:#4B5C66'&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class="MsoNormal" style='margin-bottom:.05pt;line-height:normal'&gt;&lt;b&gt;&lt;span lang="PT-BR" style='font-size:18.0pt;font-family:"Times New Roman",serif;
+color:#4B5C66'&gt;Documentação de Segurança &lt;/span&gt;&lt;/b&gt;&lt;/p&gt;
+
+&lt;p class="MsoNormal" style='line-height:normal'&gt;&lt;span lang="PT-BR" style='font-size:12.0pt;font-family:"Times New Roman",serif;color:#4B5C66'&gt;Se a
+retenção dos dados do cliente por parte da Microsoft for considerada uma
+exigência para a integração, a documentação de segurança a seguir será
+fornecida mediante solicitação:&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class="MsoNormal" style='margin-left:.25in;text-indent:-.25in;line-height:
+normal'&gt;&lt;span lang="ES" style='font-size:12.0pt;font-family:"Times New Roman",serif;
+color:#4B5C66'&gt;1.&lt;span style='font:7.0pt "Times New Roman"'&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+&lt;/span&gt;&lt;/span&gt;&lt;span lang="PT-BR" style='font-size:12.0pt;font-family:"Times New Roman",serif;
+color:#4B5C66'&gt;Descrição da arquitetura do sistema (incluindo a localização, a
+finalidade de componentes críticos do sistema, o destaque nos sistemas que
+acessarão os dados do cliente do Power BI, como os dados da Microsoft são
+armazenados, transmitidos, etc.)&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class="MsoNormal" style='margin-left:.25in;text-indent:-.25in;line-height:
+normal'&gt;&lt;span lang="ES" style='font-size:12.0pt;font-family:"Times New Roman",serif;
+color:#4B5C66'&gt;2.&lt;span style='font:7.0pt "Times New Roman"'&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+&lt;/span&gt;&lt;/span&gt;&lt;span lang="PT-BR" style='font-size:12.0pt;font-family:"Times New Roman",serif;
+color:#4B5C66'&gt;Relatórios ou certificações de segurança (SSAE16, SOC2,
+ISO27001, etc.)&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class="MsoNormal" style='margin-left:.25in;text-indent:-.25in;line-height:
+normal'&gt;&lt;span lang="ES" style='font-size:12.0pt;font-family:"Times New Roman",serif;
+color:#4B5C66'&gt;3.&lt;span style='font:7.0pt "Times New Roman"'&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+&lt;/span&gt;&lt;/span&gt;&lt;span lang="PT-BR" style='font-size:12.0pt;font-family:"Times New Roman",serif;
+color:#4B5C66'&gt;Medidas de segurança física para sistemas relevantes&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class="MsoNormal" style='margin-left:.25in;text-indent:-.25in;line-height:
+normal'&gt;&lt;span lang="ES" style='font-size:12.0pt;font-family:"Times New Roman",serif;
+color:#4B5C66'&gt;4.&lt;span style='font:7.0pt "Times New Roman"'&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+&lt;/span&gt;&lt;/span&gt;&lt;span lang="PT-BR" style='font-size:12.0pt;font-family:"Times New Roman",serif;
+color:#4B5C66'&gt;Quaisquer terceiros envolvidos no sistema geram contratos
+relevantes e informações de segurança&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class="MsoNormal" style='margin-left:.25in;text-indent:-.25in;line-height:
+normal'&gt;&lt;span lang="ES" style='font-size:12.0pt;font-family:"Times New Roman",serif;
+color:#4B5C66'&gt;5.&lt;span style='font:7.0pt "Times New Roman"'&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+&lt;/span&gt;&lt;/span&gt;&lt;span lang="PT-BR" style='font-size:12.0pt;font-family:"Times New Roman",serif;
+color:#4B5C66'&gt;Seu modelo de controle de acesso&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class="MsoNormal" style='margin-left:.25in;text-indent:-.25in;line-height:
+normal'&gt;&lt;span lang="ES" style='font-size:12.0pt;font-family:"Times New Roman",serif;
+color:#4B5C66'&gt;6.&lt;span style='font:7.0pt "Times New Roman"'&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+&lt;/span&gt;&lt;/span&gt;&lt;span lang="PT-BR" style='font-size:12.0pt;font-family:"Times New Roman",serif;
+color:#4B5C66'&gt;Sistemas específicos de segurança em vigor (IDS, HIDS,
+verificação de vulnerabilidade)&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class="MsoNormal" style='margin-left:.25in;text-indent:-.25in;line-height:
+normal'&gt;&lt;span lang="ES" style='font-size:12.0pt;font-family:"Times New Roman",serif;
+color:#4B5C66'&gt;7.&lt;span style='font:7.0pt "Times New Roman"'&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+&lt;/span&gt;&lt;/span&gt;&lt;span lang="PT-BR" style='font-size:12.0pt;font-family:"Times New Roman",serif;
+color:#4B5C66'&gt;As funções responsáveis pela segurança (equipe e gerenciamento)&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class="MsoNormal" style='margin-left:.25in;text-indent:-.25in;line-height:
+normal'&gt;&lt;span lang="ES" style='font-size:12.0pt;font-family:"Times New Roman",serif;
+color:#4B5C66'&gt;8.&lt;span style='font:7.0pt "Times New Roman"'&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+&lt;/span&gt;&lt;/span&gt;&lt;span lang="PT-BR" style='font-size:12.0pt;font-family:"Times New Roman",serif;
+color:#4B5C66'&gt;Como as credenciais da conta do sistema privilegiadas são
+protegidas&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class="MsoNormal" style='margin-left:.25in;text-indent:-.25in;line-height:
+normal'&gt;&lt;span lang="ES" style='font-size:12.0pt;font-family:"Times New Roman",serif;
+color:#4B5C66'&gt;9.&lt;span style='font:7.0pt "Times New Roman"'&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+&lt;/span&gt;&lt;/span&gt;&lt;span lang="PT-BR" style='font-size:12.0pt;font-family:"Times New Roman",serif;
+color:#4B5C66'&gt;Como o acesso a sistemas é provisionado, desprovisionado,
+monitorado&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class="MsoNormal" style='margin-left:.25in;text-indent:-.25in;line-height:
+normal'&gt;&lt;span lang="ES" style='font-size:12.0pt;font-family:"Times New Roman",serif;
+color:#4B5C66'&gt;10.&lt;span style='font:7.0pt "Times New Roman"'&gt;&amp;nbsp; &lt;/span&gt;&lt;/span&gt;&lt;span lang="PT-BR" style='font-size:12.0pt;font-family:"Times New Roman",serif;
+color:#4B5C66'&gt;A quais as funções do funcionário é permitido acesso a sistemas
+relevantes&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class="MsoNormal" style='margin-left:.25in;text-indent:-.25in;line-height:
+normal'&gt;&lt;span lang="ES" style='font-size:12.0pt;font-family:"Times New Roman",serif;
+color:#4B5C66'&gt;11.&lt;span style='font:7.0pt "Times New Roman"'&gt;&amp;nbsp; &lt;/span&gt;&lt;/span&gt;&lt;span lang="PT-BR" style='font-size:12.0pt;font-family:"Times New Roman",serif;
+color:#4B5C66'&gt;Qualquer auditoria, monitoramento e registro vigente&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class="MsoNormal" style='margin-left:.25in;text-indent:-.25in;line-height:
+normal'&gt;&lt;span lang="ES" style='font-size:12.0pt;font-family:"Times New Roman",serif;
+color:#4B5C66'&gt;12.&lt;span style='font:7.0pt "Times New Roman"'&gt;&amp;nbsp; &lt;/span&gt;&lt;/span&gt;&lt;span lang="PT-BR" style='font-size:12.0pt;font-family:"Times New Roman",serif;
+color:#4B5C66'&gt;Processo de segurança de aplicativos (práticas recomendadas de
+desenvolvimento seguro, teste de segurança, etc.)&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class="MsoNormal" style='margin-left:.25in;text-indent:-.25in;line-height:
+normal'&gt;&lt;span lang="ES" style='font-size:12.0pt;font-family:"Times New Roman",serif;
+color:#4B5C66'&gt;13.&lt;span style='font:7.0pt "Times New Roman"'&gt;&amp;nbsp; &lt;/span&gt;&lt;/span&gt;&lt;span lang="PT-BR" style='font-size:12.0pt;font-family:"Times New Roman",serif;
+color:#4B5C66'&gt;Quaisquer procedimentos para recuperação de desastres e resposta
+a incidentes&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class="MsoNormal" style='margin-left:.25in;text-indent:-.25in;line-height:
+normal'&gt;&lt;span lang="ES" style='font-size:12.0pt;font-family:"Times New Roman",serif;
+color:#4B5C66'&gt;14.&lt;span style='font:7.0pt "Times New Roman"'&gt;&amp;nbsp; &lt;/span&gt;&lt;/span&gt;&lt;span lang="PT-BR" style='font-size:12.0pt;font-family:"Times New Roman",serif;
+color:#4B5C66'&gt;Processo para solucionar patches de segurança&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class="MsoNormal" style='margin-left:.25in;text-indent:-.25in;line-height:
+normal'&gt;&lt;span lang="ES" style='font-size:12.0pt;font-family:"Times New Roman",serif;
+color:#4B5C66'&gt;15.&lt;span style='font:7.0pt "Times New Roman"'&gt;&amp;nbsp; &lt;/span&gt;&lt;/span&gt;&lt;span lang="PT-BR" style='font-size:12.0pt;font-family:"Times New Roman",serif;
+color:#4B5C66'&gt;Processo para aplicar patches de segurança de terceiros ao
+sistema para componentes de terceiros que estão em uso&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class="MsoNormal" style='margin-left:.25in;text-indent:-.25in;line-height:
+normal'&gt;&lt;span lang="ES" style='font-size:12.0pt;font-family:"Times New Roman",serif;
+color:#4B5C66'&gt;16.&lt;span style='font:7.0pt "Times New Roman"'&gt;&amp;nbsp; &lt;/span&gt;&lt;/span&gt;&lt;span lang="PT-BR" style='font-size:12.0pt;font-family:"Times New Roman",serif;
+color:#4B5C66'&gt;Como os dados do cliente Power BI são protegidos no
+armazenamento e em trânsito quando usados pelo aplicativo&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class="MsoNormal" style='line-height:normal'&gt;&lt;span lang="PT-BR" style='font-size:12.0pt;font-family:"Times New Roman",serif;color:#4B5C66'&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class="MsoNormal"&gt;&lt;span lang="ES" style='font-size:12.0pt;line-height:107%;
+font-family:"Times New Roman",serif;color:#4B5C66'&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;</value>
+  </data>
+  <data name="Heading" xml:space="preserve">
+    <value />
+  </data>
+  <data name="META_DESCRIPTION" xml:space="preserve">
+    <value />
+  </data>
+  <data name="META_KEYWORDS" xml:space="preserve">
+    <value />
+  </data>
+  <data name="META_PAGETITLE" xml:space="preserve">
+    <value>Termos de Serviço da API do Power BI | Microsoft Power BI</value>
+  </data>
+</root>

@@ -1,0 +1,75 @@
+﻿@import (reference) '../../variables.d.less';
+@import (reference) '../../mixins.d.less';
+@import '../helpers/font.d.less';
+
+html {
+    overflow-y: scroll;
+}
+
+body {
+    background-color: @color-background;
+    margin: 0;
+    padding: 0;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -ms-overflow-style: scrollbar;
+}
+
+a:focus {
+    outline: auto;
+}
+
+pre,
+code {
+    .font-code();
+    background-color: @color-slate09;
+    color: @color-font-standard;
+    padding: 3px;
+}
+
+pre {
+    border: 1px solid @color-slate07;
+    overflow: auto;
+    padding: 10px;
+
+    code {
+        border: none;
+        padding: 0;
+    }
+}
+
+sup {
+    line-height: 0;
+    font-size: 65%;
+    top: -0.5em;
+    position: relative;
+    vertical-align: baseline;
+}
+
+svg {
+    fill: inherit;
+    pointer-events: none;
+
+    * {
+        pointer-events: auto
+    }
+}
+
+img,
+svg,
+video {
+    height: auto;
+    max-width: 100%;
+}
+
+iframe{
+    max-width:100%;
+}
+
+input[type="submit"] {
+    cursor: pointer;
+}
+
+.hide-text {
+    .hide-text();
+}

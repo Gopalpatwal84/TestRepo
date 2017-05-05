@@ -1,0 +1,63 @@
+﻿@model PowerBI.Web.Models.Pages.SolutionTemplates.SolutionTemplatesViewModel
+@using Resources = PowerBI.Resources.Pages.SolutionTemplates.Index;
+@using SolutionTemplates = PowerBI.Resources.Shared.SolutionTemplates;
+
+
+@{
+    Model.PageTitle = Resources.META_PAGETITLE;
+    Model.MetaDescription = Resources.META_DESCRIPTION;
+    Model.MetaKeywords = Resources.META_KEYWORDS;
+}
+
+<section class="section section-size3 section-palette02">
+    <div class="row">
+        <div class="column large-5">
+            <h1>@Resources.Hero_Heading</h1>
+        </div>
+        <div class="column large-6 large-offset-1">
+            <p>@Resources.Hero_Content</p>
+        </div>
+    </div>
+</section>
+
+<section class="section section-size3 section-slate01 section-showcase-solution-templates">
+    <div class="row">
+        <div class="column medium-7 medium-centered text-center">
+            <h2 class="text-heading1">@Resources.Banner_Heading</h2>
+        </div>
+    </div>
+    <div class="row row-size1">
+        <div class="column medium-9 medium-centered text-center">
+            <p>@Resources.Banner_Content</p>
+        </div>
+    </div>
+</section>
+
+<section class="section">
+    @foreach (var solutionChunk in Model.SolutionTemplates.Chunk(2))
+    {
+        <div class="row">
+            @foreach (var solution in solutionChunk)
+                {
+                <div class="column medium-6">
+                    <div class="row">
+                        <div class="column">
+                            <span class="icon icon-solutions-template">@SvgHelper.GetSvg(solution.Icon)</span>
+                        </div>
+                    </div>
+                    <div class="row row-size1">
+                        <div class="column">
+                            <h3>@SolutionTemplates.ResourceManager.GetString(solution.Title_Lockey)</h3>
+                            <p class="sd-equalize" data-set="solutions-templates">@SolutionTemplates.ResourceManager.GetString(solution.IndexTagline_Lockey)</p>
+                        </div>
+                    </div>
+                    <div class="row row-size2">
+                        <div class="column">
+                            <a href="@Html.LocalizeUrl(solution.Url)" class="button">@Resources.LearnMore_Cta</a>
+                        </div>
+                    </div>
+                </div>
+            }
+        </div>
+    }
+</section>

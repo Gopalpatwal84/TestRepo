@@ -1,0 +1,204 @@
+﻿@model PowerBI.Web.Models.Pages.ViewMetadataModel
+@using Resources = PowerBI.Resources.Pages.Solutions.Index;
+
+@{
+    Model.PageTitle = Resources.META_PAGETITLE;
+    Model.MetaKeywords = Resources.META_KEYWORDS;
+    Model.MetaDescription = Resources.META_DESCRIPTION;
+}
+
+<section class="section section-size3 section-palette02">
+    <div class="row">
+        <div class="column medium-5">
+            <h1>@Resources.Hero_Heading</h1>
+        </div>
+        <div class="column medium-6 medium-offset-1">
+            <p>@Resources.Hero_Content</p>
+        </div>
+    </div>
+</section>
+
+<section class="section section-slate01 section-size0">
+    <div class="row">
+        <div class="column owl-controls-vertical">
+            <a href="#" data-index="0" class="text-heading4">
+                <span class="icon icon-size3"><img src="@CdnHelper.GetCdnUrl("/pictures/pages/solutions/marketing.png")" alt="" /></span>
+                <span class="dot-label show-for-medium">@Resources.Marketing_Heading</span>
+                <div class="underline"></div>
+            </a>
+            <a href="#" data-index="1" class="text-heading4">
+                <span class="icon icon-size3"><img src="@CdnHelper.GetCdnUrl("/pictures/pages/solutions/sales.png")" alt="" /></span>
+                <span class="dot-label show-for-medium">@Resources.Sales_Heading</span>
+                <div class="underline"></div>
+            </a>
+            <a href="#" data-index="2" class="text-heading4">
+                <span class="icon icon-size3"><img src="@CdnHelper.GetCdnUrl("/pictures/pages/solutions/customer-support.png")" alt="" /></span>
+                <span class="dot-label show-for-medium">@Resources.CustomerSupport_Heading</span>
+                <div class="underline"></div>
+            </a>
+            <a href="#" data-index="3" class="text-heading4">
+                <span class="icon icon-size3"><img src="@CdnHelper.GetCdnUrl("/pictures/pages/solutions/decision-maker.png")" alt="" /></span>
+                <span class="dot-label show-for-medium">@Resources.DecisionMaker_Heading</span>
+                <div class="underline"></div>
+            </a>
+        </div>
+    </div>
+</section>
+
+<div class="owl-carousel-vertical">
+    <section class="section section-size3 sd-equalize">
+        <div class="row">
+            <div class="column medium-8 medium-centered">
+                <div class="row column hide-for-medium">
+                    <p class="text-heading3">@Resources.Marketing_Heading</p>
+                </div>
+                <div class="row row-size1 column">
+                    <span class="icon icon-size3 icon-palette02">@SvgHelper.GetSvg("data")</span>
+                </div>
+                <div class="row row-size2 column">
+                    <h3>@Resources.Marketing_Market_Heading</h3>
+                    <p>@Resources.Marketing_Market_Content</p>
+                </div>
+                <div class="row column">
+                    <span class="icon icon-size3 icon-palette02">@SvgHelper.GetSvg("heart")</span>
+                </div>
+                <div class="row row-size2 column">
+                    <h3>@Resources.Marketing_Monitor_Heading</h3>
+                    <p>@Resources.Marketing_Monitor_Content</p>
+                </div>
+                <div class="row column">
+                    <span class="icon icon-size3 icon-palette02">@SvgHelper.GetSvg("talk")</span>
+                </div>
+                <div class="row row-size2 column">
+                    <h3>@Resources.Marketing_Talk_Heading</h3>
+                    <p>@Resources.Marketing_Talk_Content</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section section-size3 sd-equalize">
+        <div class="row">
+            <div class="column medium-8 medium-centered">
+                <div class="row column hide-for-medium">
+                    <p class="text-heading3">@Resources.Sales_Heading</p>
+                </div>
+                <div class="row row-size1 column">
+                    <span class="icon icon-size3 icon-palette02">@SvgHelper.GetSvg("dartboard")</span>
+                </div>
+                <div class="row row-size2 column">
+                    <h3>@Resources.Sales_Crush_Heading</h3>
+                    <p>@Resources.Sales_Crush_Content</p>
+                </div>
+                <div class="row column">
+                    <span class="icon icon-size3 icon-palette02">@SvgHelper.GetSvg("binoculars")</span>
+                </div>
+                <div class="row row-size2 column">
+                    <h3>@Resources.Sales_Management_Heading</h3>
+                    <p>@Resources.Sales_Management_Content</p>
+                </div>
+                <div class="row column">
+                    <span class="icon icon-size3 icon-palette02">@SvgHelper.GetSvg("extend")</span>
+                </div>
+                <div class="row row-size2 column">
+                    <h3>@Resources.Sales_Representative_Heading</h3>
+                    <p>@Resources.Sales_Representative_Content</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section section-size3 sd-equalize">
+        <div class="row">
+            <div class="column medium-8 medium-centered">
+                <div class="row column hide-for-medium">
+                    <p class="text-heading3">@Resources.CustomerSupport_Heading</p>
+                </div>
+                <div class="row row-size1 column">
+                    <span class="icon icon-size3 icon-palette02">@SvgHelper.GetSvg("win")</span>
+                </div>
+                <div class="row row-size2 column">
+                    <h3>@Resources.CustomerSupport_Win_Heading</h3>
+                    <p>@Resources.CustomerSupport_Win_Content</p>
+                </div>
+                <div class="row column">
+                    <span class="icon icon-size3 icon-palette02">@SvgHelper.GetSvg("star")</span>
+                </div>
+                <div class="row row-size2 column">
+                    <h3>@Resources.CustomerSupport_FiveStar_Heading</h3>
+                    <p>@Resources.CustomerSupport_FiveStar_Content</p>
+                </div>
+                <div class="row column">
+                    <span class="icon icon-size3 icon-palette02">@SvgHelper.GetSvg("pictures")</span>
+                </div>
+                <div class="row row-size2 column">
+                    <h3>@Resources.CustomerSupport_Bigger_Heading</h3>
+                    <p>@Resources.CustomerSupport_Bigger_Content</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section section-size3 sd-equalize">
+        <div class="row">
+            <div class="column medium-8 medium-centered">
+                <div class="row column hide-for-medium">
+                    <p class="text-heading3">@Resources.DecisionMaker_Heading</p>
+                </div>
+                <div class="row row-size1 column">
+                    <span class="icon icon-size3 icon-palette02">@SvgHelper.GetSvg("heart")</span>
+                </div>
+                <div class="row row-size2 column">
+                    <h3>@Resources.DecisionMaker_Monitor_Heading</h3>
+                    <p>@Resources.DecisionMaker_Monitor_Content</p>
+                </div>
+                <div class="row column">
+                    <span class="icon icon-size3 icon-palette02">@SvgHelper.GetSvg("search")</span>
+                </div>
+                <div class="row row-size2 column">
+                    <h3>@Resources.DecisionMaker_Explore_Heading</h3>
+                    <p>@Resources.DecisionMaker_Explore_Content</p>
+                </div>
+                <div class="row column">
+                    <span class="icon icon-size3 icon-palette02">@SvgHelper.GetSvg("people")</span>
+                </div>
+                <div class="row row-size2 column">
+                    <h3>@Resources.DecisionMaker_Team_Heading</h3>
+                    <p>@Resources.DecisionMaker_Team_Content</p>
+                </div>
+            </div>
+        </div>
+    </section>
+</div>
+
+@section foot {
+    <script>
+        $(function () {
+            var $carousel = $('.owl-carousel-vertical'),
+                $dots = $('.owl-controls-vertical a');
+
+            $carousel.owlCarousel({
+                autoplay: false,
+                items: 1,
+                loop: true,
+                animateOut: 'slideOutUp',
+                animateIn: 'slideInUp',
+                autoHeight: true,
+                mouseDrag: false,
+                touchDrag: false,
+                pullDrag: false
+            });
+
+            $dots.on('click', function (e) {
+                e.preventDefault();
+                var $dot = $(this);
+
+                $carousel.trigger('to.owl.carousel', $dot.data('index'));
+                $dots.removeClass('active');
+                $dot.addClass('active');
+            });
+
+            $dots.first().addClass('active');
+        });
+    </script>
+}

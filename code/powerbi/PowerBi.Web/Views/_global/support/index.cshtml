@@ -1,0 +1,130 @@
+﻿@model PowerBI.Web.Models.Pages.SupportViewModel
+@using Resources = PowerBI.Resources.Pages.Support.Index
+
+@{
+    Model.PageTitle = Resources.META_PAGETITLE;
+    Model.MetaDescription = Resources.META_DESCRIPTION;
+    Model.MetaKeywords = Resources.META_KEYWORDS;
+}
+
+<section class="section section-size3 section-palette02">
+    <div class="row column">
+        <h1 class="text-center">@Resources.SearchSupport</h1>
+        @using (Html.BeginForm("Index", "Search", FormMethod.Get, new { onsubmit = "event.stopPropagation();" }))
+        {
+            <div class="row">
+                <div class="column medium-5 medium-offset-3">  @Html.TextBox("q", null, new { placeholder = Resources.SearchSupport_Placeholder })</div>
+                <div class="column medium-4"><button type="submit" class="button">@Resources.SearchSupport_Cta</button></div>
+            </div>
+        }
+    </div>
+</section>
+
+<section class="section section-size0 section-slate06">
+    <div class="row column">
+        @if (!string.IsNullOrEmpty(Model.Status))
+        {
+            @Html.Raw(Model.Status)
+        }
+        else
+        {
+            <div class="status" data-state="red">
+                @Resources.LoadingServiceStatusFailed
+            </div>
+        }
+    </div>
+</section>
+
+<section class="section">
+    <div class="row">
+        <div class="column medium-6">
+            <h2>@Resources.TopIssuesAndQuestions</h2>
+            @Html.Partial("parts/_faq-set", new PowerBI.Web.Models.Parts.FaqSet(new Dictionary<string, IHtmlString>
+            {
+                { Resources.Faq1_Question, Html.RawFormatInvariant(Resources.Faq1_Answer,
+                    Html.LocalizeUrl("article:powerbi-refresh-data"),
+                    Html.LocalizeUrl("article:powerbi-refresh-excel-file-onedrive"))
+                },
+                { Resources.Faq2_Question, Html.RawFormatInvariant(Resources.Faq2_Answer, Html.LocalizeUrl("article:powerbi-admin-troubleshoot-analysis-service-connector"))},
+                { Resources.Faq3_Question, Html.RawFormatInvariant(Resources.Faq3_Answer, Html.LocalizeUrl("article:powerbi-admin-troubleshooting-power-bi-personal-gateway"))},
+                { Resources.Faq4_Question, Html.RawFormatInvariant(Resources.Faq4_Answer, Html.LocalizeUrl("article:powerbi-service-self-service-signup-for-power-bi"))},
+            }))
+        </div>
+    </div>
+    <div class="row column">
+        <h2>@Resources.SupportOptions</h2>
+    </div>
+    <div class="row row-size3">
+        <div class="column medium-4">
+            <a href="@Html.LocalizeUrl("/guided-learning/")" class="card card-block sd-equalize" data-set="support-options">
+                <span class="icon">@SvgHelper.GetSvg("play-video")</span>
+                <span class="top text-heading3">@Resources.GuidedLearning_Heading</span>
+                <span class="bottom">@Resources.GuidedLearning_Content</span>
+            </a>
+        </div>
+        <div class="column medium-4">
+            <a href="@Html.LocalizeUrl("/documentation/powerbi-sample-datasets/")" class="card card-block sd-equalize" data-set="support-options">
+                <span class="icon">@SvgHelper.GetSvg("clipboard")</span>
+                <span class="top text-heading3">@Resources.Samples_Heading</span>
+                <span class="bottom">@Resources.Samples_Content</span>
+            </a>
+        </div>
+        <div class="column medium-4">
+            <a href="@Html.LocalizeUrl("/documentation/powerbi-landing-page/")" class="card card-block sd-equalize" data-set="support-options">
+                <span class="icon">@SvgHelper.GetSvg("document")</span>
+                <span class="top text-heading3">@Resources.Documentation_Heading</span>
+                <span class="bottom">@Resources.Documentation_Content</span>
+            </a>
+        </div>
+    </div>
+    <div class="row row-size3">
+        <div class="column medium-4">
+            <a href="https://community.powerbi.com/" class="card card-block sd-equalize" data-set="support-options">
+                <span class="icon">@SvgHelper.GetSvg("team")</span>
+                <span class="top text-heading3">@Resources.Community_Heading</span>
+                <span class="bottom">@Resources.Community_Content</span>
+            </a>
+        </div>
+        <div class="column medium-4">
+            <a href="https://ideas.powerbi.com/forums/265200-power-bi" class="card card-block sd-equalize" data-set="support-options">
+                <span class="icon">@SvgHelper.GetSvg("lightbulb")</span>
+                <span class="top text-heading3">@Resources.SubmitAnIdea_Heading</span>
+                <span class="bottom">@Resources.SubmitAnIdea_Content</span>
+            </a>
+        </div>
+        <div class="column medium-4">
+            <a href="https://aka.ms/issues.powerbi.com" class="card card-block sd-equalize" data-set="support-options">
+                <span class="icon">@SvgHelper.GetSvg("exclamation-circle")</span>
+                <span class="top text-heading3">@Resources.ReportIssue_Heading</span>
+                <span class="bottom">@Resources.ReportIssue_Content</span>
+            </a>
+        </div>
+    </div>
+</section>
+
+<section class="section section-slate09 section-size3">
+    <div class="row">
+        <div class="column medium-6">
+            <p class="text-heading2">@Resources.StillHavingIssues_Heading</p>
+        </div>
+        <div class="column medium-6">
+            <p>@Resources.StillHavingIssues_Content</p>
+            <p><a href="@Html.LocalizeUrl("/support/pro/")" class="button">@Resources.CreateSupportTicket</a></p>
+            <p>@Html.RawFormatInvariant(Resources.BecomePro_1, Html.LocalizeUrl("/pricing/"))</p>
+        </div>
+    </div>
+</section>
+
+<section class="section section-size3">
+    <div class="row">
+        <div class="column medium-6">
+            <p class="text-heading2">@Resources.NationalClouds_Heading</p>
+        </div>
+        <div class="column medium-6">
+            <p>@Html.RawFormatInvariant(Resources.NationalClouds_Content_1, Html.LocalizeUrl("http://community.powerbi.com/"))</p>
+            <p><a href="@Html.LocalizeUrl("/clouds/#support")" class="button">@Resources.NationalClouds_Cta</a></p>
+        </div>
+    </div>
+</section>
+
+@Html.Partial("section/_signup-its-free")

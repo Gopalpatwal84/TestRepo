@@ -1,0 +1,986 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Content" xml:space="preserve">
+    <value>&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-top:71.25pt;margin-right:0in;margin-bottom:
+.05pt;margin-left:0in;line-height:normal&#39;&gt;&lt;span lang=&quot;NO-BOK&quot; style=&#39;font-size:
+21.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;Vilk&#229;r for API for
+Microsoft Power BI&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;line-height:normal&#39;&gt;&lt;span lang=&quot;NO-BOK&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;Takk
+for at du bruker API-en (Application Programming Interface) for Power BI.
+API-en for Power BI sammen med eventuelle oppdateringer, endringer og
+erstatninger, og eventuelle kopier laget av eller for deg refereres til i disse
+tjenestevilk&#229;rene som “API-en for Power BI” fra Microsoft. Dette er en avtale
+mellom deg og Microsoft Corporation (“Microsoft”). Noen ganger refereres
+Microsoft til som “vi”, “oss” eller “v&#229;r.” Hvis du velger &#229; bruke API-en for
+Power BI, samtykker du i disse tjenestevilk&#229;rene (“API-vilk&#229;rene”) og
+Serviceavtalen for Power BI eller eventuelle andre gjeldende avtaler (samlet “Avtalen”)
+som styrer bruken av Power BI og tilh&#248;rende programmer (“Tjeneste for Power
+BI”). Hvis det skulle v&#230;re uoverensstemmelser mellom disse API-vilk&#229;rene og Avtalen,
+skal API-vilk&#229;rene ha forrang.&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;line-height:normal&#39;&gt;&lt;span lang=&quot;NO-BOK&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;Microsoft
+forbeholder seg retten til &#229; oppdatere og gj&#248;re endringer i disse API-vilk&#229;rene
+eller andre dokumenter som er innarbeidet ved henvisning. Microsoft kan endre
+API-vilk&#229;rene ved &#229; publisere en ny versjon. Hvis du bruker API-en for Power BI
+etter slike endringer, godtar du samtidig endringene.&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;line-height:normal&#39;&gt;&lt;b&gt;&lt;span lang=&quot;NO-BOK&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;V&#230;r
+oppmerksom p&#229; at vi ikke gir begrensede rettigheter for API-en for Power BI.
+API-vilk&#229;rene begrenser ogs&#229; v&#229;rt erstatningsansvar. Disse vilk&#229;rene finnes
+under punkt 10 og 11, og vi ber deg lese dem n&#248;ye.&lt;/span&gt;&lt;/b&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-bottom:.05pt;line-height:normal&#39;&gt;&lt;b&gt;&lt;span lang=&quot;NO-BOK&quot; style=&#39;font-size:18.0pt;font-family:&quot;Times New Roman&quot;,serif;
+color:#4B5C66&#39;&gt;1. Tilgang til API-en for Power BI.&lt;/span&gt;&lt;/b&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;line-height:normal&#39;&gt;&lt;span lang=&quot;NO-BOK&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;Hvis
+du vil bruke API-en for Power BI, m&#229; du ha et Power BI-abonnement og registrere
+programmet ditt i Azure Active Directory. Tjenesten m&#229; oppgi klient-IDen som
+leveres av Azure Active Directory, som beskrevet i Power BI
+API-dokumentasjonen. Microsoft blokkerer foresp&#248;rsler med ugyldige klient-IDer.
+Microsoft skal ene og alene ha fullstendig kontroll over data og format for
+Power BI.&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;line-height:normal&#39;&gt;&lt;span lang=&quot;NO-BOK&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;Microsoft
+har rett til, etter eget skj&#248;nn, &#229; avvise eventuelle foresp&#248;rsler om &#229; bruke
+API-en for Power BI n&#229;r som helst og av en hvilken som helst &#229;rsak. Microsoft
+er ikke ansvarlig overfor deg for noen som helst skader som skyldes at slike
+foresp&#248;rsler avvises.&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-bottom:.05pt;line-height:normal&#39;&gt;&lt;b&gt;&lt;span lang=&quot;NO-BOK&quot; style=&#39;font-size:18.0pt;font-family:&quot;Times New Roman&quot;,serif;
+color:#4B5C66&#39;&gt;2. Lisensiert bruk og Begrensninger.&lt;/span&gt;&lt;/b&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;line-height:normal&#39;&gt;&lt;span lang=&quot;NO-BOK&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;API-en
+for Power BI eies av Microsoft og lisensieres til deg p&#229; en global (med unntak
+av begrensning nedenfor), ikke-eksklusiv, ikke-omsettelig basis ut fra
+vilk&#229;rene og betingelsene som er oppgitt her. API-vilk&#229;rene definerer den
+lovlige bruken av API-en for Power BI, eventuelle oppdateringer, endringer og
+erstatninger og eventuelle kopier av API-en for Power BI som lages av deg. Alle
+rettigheter som ikke uttrykkelig er gitt til deg, er forbeholdt Microsoft.&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-left:.25in;text-indent:-.25in;line-height:
+normal&#39;&gt;&lt;span lang=&quot;DE&quot; style=&#39;font-size:10.0pt;font-family:Symbol;color:#4B5C66&#39;&gt;&#183;&lt;span style=&#39;font:7.0pt &quot;Times New Roman&quot;&#39;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+&lt;/span&gt;&lt;/span&gt;&lt;span lang=&quot;NO-BOK&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;
+color:#4B5C66&#39;&gt;a.&amp;nbsp;Lisens. I henhold til vilk&#229;rene og betingelsene som er
+oppgitt i disse API-vilk&#229;rene, gir Microsoft deg en ikke-eksklusiv,
+ikke-omsettelig rettighet til &#229; bruke API-en for Power BI til &#229; utvikle, teste,
+distribuere og st&#248;tte programmet ditt. &lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-left:.25in;text-indent:-.25in;line-height:
+normal&#39;&gt;&lt;span lang=&quot;DE&quot; style=&#39;font-size:10.0pt;font-family:Symbol;color:#4B5C66&#39;&gt;&#183;&lt;span style=&#39;font:7.0pt &quot;Times New Roman&quot;&#39;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+&lt;/span&gt;&lt;/span&gt;&lt;span lang=&quot;NO-BOK&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;
+color:#4B5C66&#39;&gt;b.&amp;nbsp;Varemerking. Du kan ikke bruke Power BI-varemerker eller
+-logoer uten uttrykkelig skriftlig tillatelse fra Microsoft. &lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;line-height:normal&#39;&gt;&lt;span lang=&quot;NO-BOK&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;c.&amp;nbsp;Satsgrenser
+og Begrensninger for Datafelt. Du forst&#229;r at det er en satsgrense og en
+begrensning for datafelt som kan vises per program eller tjeneste som bruker
+API-en for Power BI, og du godtar &#229; overholde satsgrensen og begrensningene for
+datafelt til enhver tid. Satsgrensene og begrensningene beskrives i Power BI
+API-dokumentasjonen, som er tilgjengelig p&#229;&lt;/span&gt;&lt;span lang=&quot;NO-BOK&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#868F95&#39;&gt;&amp;nbsp;&lt;/span&gt;&lt;span lang=&quot;NO-BOK&quot;&gt;&lt;a href=&quot;http://developer.yammer.com/&quot; title=&quot;API-dokument&quot;&gt;&lt;span style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;dev.PowerBI.com&lt;/span&gt;&lt;/a&gt;&lt;/span&gt;&lt;span lang=&quot;NO-BOK&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;
+color:#868F95&#39;&gt;. &lt;/span&gt;&lt;span lang=&quot;NO-BOK&quot; style=&#39;font-size:12.0pt;font-family:
+&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;Disse satsgrensene og begrensningene kan
+endres av Microsoft etter Microsofts eget skj&#248;nn, og eventuelle endringer trer
+i kraft s&#229; snart de publiseres. Microsoft kan, etter eget skj&#248;nn, begrense: (i)
+satsen for &#229; ringe tjenesten eller deler av tjenesten, (ii) den tilgjengelige
+lagringsplassen for hver tjenestekonto, og/eller (iii) lengden p&#229; individuelle
+innholdssegmenter som kan lastes opp til, eller betjenes fra, tjenesten (alt
+det foreg&#229;ende regnes som ulike typer “Begrensninger”.) Microsoft kan utf&#248;re denne
+Begrensningen globalt p&#229; hele API-en for Power BI, per sluttbruker eller p&#229; en
+annen basis. Du m&#229; ikke pr&#248;ve &#229; omg&#229; tekniske tiltak vi har iverksatt for &#229;
+h&#229;ndheve Begrensninger, og du forst&#229;r og samtykker i at programmatiske metoder
+som har til hensikt &#229; omg&#229; satsbegrensninger (herunder ha en hurtigbuffer med
+data), regnes som brudd p&#229; API-vilk&#229;rene.&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;line-height:normal&#39;&gt;&lt;span lang=&quot;NO-BOK&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;d.&amp;nbsp;Endringer.
+Microsoft forbeholder seg retten til &#229; lansere etterf&#248;lgende versjoner av
+API-en for Power BI, og vi kan kreve at du skaffer deg og bruker den nyeste
+versjonen. Hvis du ikke godtar en endring, m&#229; du slutte &#229; bruke API-en for
+Power BI. Hvis du fortsetter &#229; aksessere API-en for Power BI, godtar du
+samtidig endringene.&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;line-height:normal&#39;&gt;&lt;span lang=&quot;NO-BOK&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;e.&amp;nbsp;Begrensninger
+og Vilk&#229;r for tjenesten. Vi kan bruke teknologi eller andre midler til &#229;
+beskytte API-en for Power BI, beskytte v&#229;re kunder eller stoppe deg fra &#229; bryte
+API-vilk&#229;rene. Eksempler p&#229; slike metoder omfatter filtrering for &#229; stoppe
+s&#248;ppelpost eller &#248;ke sikkerheten. Disse midlene kan hindre eller avbryte din
+bruk av API-en for Power BI, og du m&#229; ikke omg&#229; eller pr&#248;ve &#229; hindre eller
+deaktivere noen av disse teknologiene eller midlene.&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-bottom:.05pt;line-height:normal&#39;&gt;&lt;b&gt;&lt;span lang=&quot;NO-BOK&quot; style=&#39;font-size:18.0pt;font-family:&quot;Times New Roman&quot;,serif;
+color:#4B5C66&#39;&gt;3. Opphavsrettigheter.&lt;/span&gt;&lt;/b&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-left:.25in;text-indent:-.25in;line-height:
+normal&#39;&gt;&lt;span lang=&quot;NO-BOK&quot; style=&#39;font-size:10.0pt;font-family:Symbol;
+color:#4B5C66&#39;&gt;&#183;&lt;span style=&#39;font:7.0pt &quot;Times New Roman&quot;&#39;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+&lt;/span&gt;&lt;/span&gt;&lt;span lang=&quot;NO-BOK&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;
+color:#4B5C66&#39;&gt;a. Microsofts Rettigheter. Med hensyn til API-vilk&#229;rene skal “Immaterielle
+rettigheter” bety alle rettigheter som fra tid til annen finnes i henhold til
+patentlover, lover om opphavsrettigheter, lover for beskyttelse av
+halvlederbrikker, lover om moralske rettigheter, lover om
+forretningshemmeligheter, lover om varemerker, lover om urettferdig
+konkurranse, lover om publiseringsrettigheter, lover om personvern og eventuelt
+annet rettighetsbeskyttet materiale, samt andre programmer, fornyelser,
+utvidelser og gjenopprettelser av disse, som er gjeldende eller heretter trer i
+kraft p&#229; verdensbasis. Mellom deg og Microsoft bekrefter du at Microsoft eller
+Microsofts lisensgivere eier alle rettigheter, eierrettigheter og interesser,
+herunder – uten begrensning – alle Immaterielle Rettigheter i og til API-en for
+Power BI og alle utdata fra API-en for Power BI (unntatt eventuelle programvarekomponenter
+som er utviklet av deg, og som ikke omfatter API-en for Power BI eller andre
+utdata eller kj&#248;rbare filer for API-en for Power BI), og at du ikke skal skaffe
+noen rettigheter, eierrettigheter eller interesser i eller til API-en for Power
+BI, med unntak av det som er uttrykkelig oppgitt i API-vilk&#229;rene.&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-left:.25in;text-indent:-.25in;line-height:
+normal&#39;&gt;&lt;span lang=&quot;EN&quot; style=&#39;font-size:10.0pt;font-family:Symbol;color:#4B5C66&#39;&gt;&#183;&lt;span style=&#39;font:7.0pt &quot;Times New Roman&quot;&#39;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+&lt;/span&gt;&lt;/span&gt;&lt;span lang=&quot;NO-BOK&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;
+color:#4B5C66&#39;&gt;b. Henvisning, Juridiske Meldinger. Bildene som gis til deg
+gjennom API-en for Power BI, kan inneholde forretningsnavn, varemerker,
+tjenestemerker, logoer, domenenavn og andre varemerkekjennetegn som er
+egenartede for Microsoft og Microsofts partnere. Du kan ikke slette eller gj&#248;re
+noen endringer i disse forretningsnavnene, varemerkene, tjenestemerkene,
+logoene, domenenavnene og de andre varemerkekjennetegnene. Du godtar at du skal
+beholde og ikke fjerne, endre eller skjule eventuelle koblinger eller meldinger
+som vises p&#229; bildene du mottar vi Tjenesten. Du bekrefter og samtykker i at
+disse Juridiske Meldingene utfyller API-vilk&#229;rene for API-en for Power BI.&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-left:.25in;text-indent:-.25in;line-height:
+normal&#39;&gt;&lt;span lang=&quot;NO-BOK&quot; style=&#39;font-size:10.0pt;font-family:Symbol;
+color:#4B5C66&#39;&gt;&#183;&lt;span style=&#39;font:7.0pt &quot;Times New Roman&quot;&#39;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+&lt;/span&gt;&lt;/span&gt;&lt;span lang=&quot;NO-BOK&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;
+color:#4B5C66&#39;&gt;c. Digital Millennium Copyright Act. Microsoft har som policy &#229;
+svare p&#229; meldinger om p&#229;st&#229;tt krenkelse som er i tr&#229;d med Digital Millennium
+Copyright Act (“DMCA”). Hvis du vil ha beskrivelser og ytterligere informasjon,
+kan du se punktet om DMCA-meldinger i Vilk&#229;rene.&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-bottom:.05pt;line-height:normal&#39;&gt;&lt;b&gt;&lt;span lang=&quot;NO-BOK&quot; style=&#39;font-size:18.0pt;font-family:&quot;Times New Roman&quot;,serif;
+color:#4B5C66&#39;&gt;4. Regler for god oppf&#248;rsel.&lt;/span&gt;&lt;/b&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-left:.25in;text-indent:-.25in;line-height:
+normal&#39;&gt;&lt;span lang=&quot;NO-BOK&quot; style=&#39;font-size:10.0pt;font-family:Symbol;
+color:#4B5C66&#39;&gt;&#183;&lt;span style=&#39;font:7.0pt &quot;Times New Roman&quot;&#39;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+&lt;/span&gt;&lt;/span&gt;&lt;span lang=&quot;NO-BOK&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;
+color:#4B5C66&#39;&gt;Du samtykker i at du er ansvarlig for egen oppf&#248;rsel og eget
+innhold n&#229;r du bruker API-en for Power BI, og for eventuelle konsekvenser av
+egen oppf&#248;rsel og eget innhold. Du samtykker i at du skal bruke API-en for
+Power BI bare til form&#229;l som er lovlige, korrekte og i samsvar med disse
+API-vilk&#229;rene og eventuelle gjeldende policyer eller retningslinjer.&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-left:.25in;text-indent:-.25in;line-height:
+normal&#39;&gt;&lt;span lang=&quot;FR&quot; style=&#39;font-size:10.0pt;font-family:Symbol;color:#4B5C66&#39;&gt;&#183;&lt;span style=&#39;font:7.0pt &quot;Times New Roman&quot;&#39;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+&lt;/span&gt;&lt;/span&gt;&lt;span lang=&quot;NO-BOK&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;
+color:#4B5C66&#39;&gt;a. Passende oppf&#248;rsel. N&#229;r du bruker API-en for Power BI og
+utvikler programmer, m&#229; du&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-left:.25in;text-indent:-.25in;line-height:
+normal&#39;&gt;&lt;span lang=&quot;EN&quot; style=&#39;font-size:10.0pt;font-family:Symbol;color:#4B5C66&#39;&gt;&#183;&lt;span style=&#39;font:7.0pt &quot;Times New Roman&quot;&#39;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+&lt;/span&gt;&lt;/span&gt;&lt;span lang=&quot;NO-BOK&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;
+color:#4B5C66&#39;&gt;f&#248;lge gjeldende lover&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-left:.25in;text-indent:-.25in;line-height:
+normal&#39;&gt;&lt;span lang=&quot;EN&quot; style=&#39;font-size:10.0pt;font-family:Symbol;color:#4B5C66&#39;&gt;&#183;&lt;span style=&#39;font:7.0pt &quot;Times New Roman&quot;&#39;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+&lt;/span&gt;&lt;/span&gt;&lt;span lang=&quot;NO-BOK&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;
+color:#4B5C66&#39;&gt;rette deg etter alle regler for oppf&#248;rsel og andre meldinger vi
+gir deg&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-left:.25in;text-indent:-.25in;line-height:
+normal&#39;&gt;&lt;span lang=&quot;EN&quot; style=&#39;font-size:10.0pt;font-family:Symbol;color:#4B5C66&#39;&gt;&#183;&lt;span style=&#39;font:7.0pt &quot;Times New Roman&quot;&#39;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+&lt;/span&gt;&lt;/span&gt;&lt;span lang=&quot;NO-BOK&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;
+color:#4B5C66&#39;&gt;holde eventuelle passord for tjenestekonto hemmelig&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-left:.25in;text-indent:-.25in;line-height:
+normal&#39;&gt;&lt;span lang=&quot;EN&quot; style=&#39;font-size:10.0pt;font-family:Symbol;color:#4B5C66&#39;&gt;&#183;&lt;span style=&#39;font:7.0pt &quot;Times New Roman&quot;&#39;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+&lt;/span&gt;&lt;/span&gt;&lt;span lang=&quot;NO-BOK&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;
+color:#4B5C66&#39;&gt;straks varsle oss hvis du f&#229;r vite om et sikkerhetsbrudd knyttet
+til Tjenesten og API-en for Power BI&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-left:.25in;text-indent:-.25in;line-height:
+normal&#39;&gt;&lt;span lang=&quot;EN&quot; style=&#39;font-size:10.0pt;font-family:Symbol;color:#4B5C66&#39;&gt;&#183;&lt;span style=&#39;font:7.0pt &quot;Times New Roman&quot;&#39;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+&lt;/span&gt;&lt;/span&gt;&lt;span lang=&quot;NO-BOK&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;
+color:#4B5C66&#39;&gt;b. Forbudt bruk. N&#229;r du bruker API-en for Power BI og utvikler
+programmer, m&#229; du ikke&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-left:.25in;text-indent:-.25in;line-height:
+normal&#39;&gt;&lt;span lang=&quot;DE&quot; style=&#39;font-size:10.0pt;font-family:Symbol;color:#4B5C66&#39;&gt;&#183;&lt;span style=&#39;font:7.0pt &quot;Times New Roman&quot;&#39;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+&lt;/span&gt;&lt;/span&gt;&lt;span lang=&quot;NO-BOK&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;
+color:#4B5C66&#39;&gt;&#230;rekrenke, misbruke, trakassere, forf&#248;lge, true eller p&#229; annen
+m&#229;te krenke andres rettigheter (slik som personvern og vern mot
+offentliggj&#248;ring)&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-left:.25in;text-indent:-.25in;line-height:
+normal&#39;&gt;&lt;span lang=&quot;DE&quot; style=&#39;font-size:10.0pt;font-family:Symbol;color:#4B5C66&#39;&gt;&#183;&lt;span style=&#39;font:7.0pt &quot;Times New Roman&quot;&#39;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+&lt;/span&gt;&lt;/span&gt;&lt;span lang=&quot;NO-BOK&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;
+color:#4B5C66&#39;&gt;laste opp, dele, sende e-post med, overf&#248;re eller p&#229; andre m&#229;ter
+gj&#248;re tilgjengelig upassende, &#230;rekrenkende, krenkende, slibrig eller ulovlig
+innhold&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-left:.25in;text-indent:-.25in;line-height:
+normal&#39;&gt;&lt;span lang=&quot;DE&quot; style=&#39;font-size:10.0pt;font-family:Symbol;color:#4B5C66&#39;&gt;&#183;&lt;span style=&#39;font:7.0pt &quot;Times New Roman&quot;&#39;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+&lt;/span&gt;&lt;/span&gt;&lt;span lang=&quot;NO-BOK&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;
+color:#4B5C66&#39;&gt;laste opp, dele, sende e-post med, overf&#248;re eller p&#229; andre m&#229;ter
+gj&#248;re tilgjengelig innhold som krenker patenter, varemerker, opphavsretter,
+forretningshemmeligheter eller andre immaterielle rettigheter som tilh&#248;rer en
+annen part, med mindre du eier rettighetene eller har tillatelse fra eieren til
+&#229; dele slikt innhold&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-left:.25in;text-indent:-.25in;line-height:
+normal&#39;&gt;&lt;span lang=&quot;DE&quot; style=&#39;font-size:10.0pt;font-family:Symbol;color:#4B5C66&#39;&gt;&#183;&lt;span style=&#39;font:7.0pt &quot;Times New Roman&quot;&#39;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+&lt;/span&gt;&lt;/span&gt;&lt;span lang=&quot;NO-BOK&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;
+color:#4B5C66&#39;&gt;laste opp, dele, sende e-post med, overf&#248;re eller p&#229; andre m&#229;ter
+gj&#248;re tilgjengelig meldinger som fremmer pyramidespill eller kjedebrev eller
+inneholder forstyrrende reklamebudskap eller annonser eller annet som er
+forbudt i henhold til gjeldende lover, disse API-vilk&#229;rene eller gjeldende
+policyer eller retningslinjer&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-left:.25in;text-indent:-.25in;line-height:
+normal&#39;&gt;&lt;span lang=&quot;DE&quot; style=&#39;font-size:10.0pt;font-family:Symbol;color:#4B5C66&#39;&gt;&#183;&lt;span style=&#39;font:7.0pt &quot;Times New Roman&quot;&#39;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+&lt;/span&gt;&lt;/span&gt;&lt;span lang=&quot;NO-BOK&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;
+color:#4B5C66&#39;&gt;bruke API-en for Power BI i forbindelse med kampanjer for
+produkter, tjenester eller materialer som utgj&#248;r, fremmer eller brukes prim&#230;rt
+for &#229; drive forretninger med: spionprogram, annonseprogram eller annen skadelig
+programvare eller kode&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-left:.25in;text-indent:-.25in;line-height:
+normal&#39;&gt;&lt;span lang=&quot;DE&quot; style=&#39;font-size:10.0pt;font-family:Symbol;color:#4B5C66&#39;&gt;&#183;&lt;span style=&#39;font:7.0pt &quot;Times New Roman&quot;&#39;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+&lt;/span&gt;&lt;/span&gt;&lt;span lang=&quot;NO-BOK&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;
+color:#4B5C66&#39;&gt;laste ned filer som en annen bruker har delt, og som du vet,
+eller burde vite, ikke kan distribueres lovlig p&#229; en slik m&#229;te&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-left:.25in;text-indent:-.25in;line-height:
+normal&#39;&gt;&lt;span lang=&quot;DE&quot; style=&#39;font-size:10.0pt;font-family:Symbol;color:#4B5C66&#39;&gt;&#183;&lt;span style=&#39;font:7.0pt &quot;Times New Roman&quot;&#39;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+&lt;/span&gt;&lt;/span&gt;&lt;span lang=&quot;NO-BOK&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;
+color:#4B5C66&#39;&gt;representere andre personer eller enheter, eller forfalske eller
+slette informasjon om forfattere eller juridiske eller andre meldinger eller
+rettighetsbeskyttede merknader om opprinnelsen eller kilden til programvare
+eller annet materiale&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-left:.25in;text-indent:-.25in;line-height:
+normal&#39;&gt;&lt;span lang=&quot;EN&quot; style=&#39;font-size:10.0pt;font-family:Symbol;color:#4B5C66&#39;&gt;&#183;&lt;span style=&#39;font:7.0pt &quot;Times New Roman&quot;&#39;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+&lt;/span&gt;&lt;/span&gt;&lt;span lang=&quot;NO-BOK&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;
+color:#4B5C66&#39;&gt;begrense eller hindre andre personer &#229; bruke og nyte tilgang til
+API-en for Power BI&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-left:.25in;text-indent:-.25in;line-height:
+normal&#39;&gt;&lt;span lang=&quot;EN&quot; style=&#39;font-size:10.0pt;font-family:Symbol;color:#4B5C66&#39;&gt;&#183;&lt;span style=&#39;font:7.0pt &quot;Times New Roman&quot;&#39;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+&lt;/span&gt;&lt;/span&gt;&lt;span lang=&quot;NO-BOK&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;
+color:#4B5C66&#39;&gt;bruke API-en for Power BI til ulovlige eller uautoriserte form&#229;l&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-left:.25in;text-indent:-.25in;line-height:
+normal&#39;&gt;&lt;span lang=&quot;EN&quot; style=&#39;font-size:10.0pt;font-family:Symbol;color:#4B5C66&#39;&gt;&#183;&lt;span style=&#39;font:7.0pt &quot;Times New Roman&quot;&#39;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+&lt;/span&gt;&lt;/span&gt;&lt;span lang=&quot;NO-BOK&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;
+color:#4B5C66&#39;&gt;fjerne eventuelle meldinger om opphavsrett, varemerker eller
+annet rettighetsbeskyttet materiale som finnes i eller p&#229; API-en for Power BI&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-left:.25in;text-indent:-.25in;line-height:
+normal&#39;&gt;&lt;span lang=&quot;EN&quot; style=&#39;font-size:10.0pt;font-family:Symbol;color:#4B5C66&#39;&gt;&#183;&lt;span style=&#39;font:7.0pt &quot;Times New Roman&quot;&#39;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+&lt;/span&gt;&lt;/span&gt;&lt;span lang=&quot;NO-BOK&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;
+color:#4B5C66&#39;&gt;forstyrre API-en for Power BI eller servere eller nettverk som
+er tilkoblet Power BI-tjenestene, eller nekte &#229; overholde krav, prosedyrer,
+policyer eller regler for nettverk som er tilkoblet API-en for Power BI&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-left:.25in;text-indent:-.25in;line-height:
+normal&#39;&gt;&lt;span lang=&quot;EN&quot; style=&#39;font-size:10.0pt;font-family:Symbol;color:#4B5C66&#39;&gt;&#183;&lt;span style=&#39;font:7.0pt &quot;Times New Roman&quot;&#39;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+&lt;/span&gt;&lt;/span&gt;&lt;span lang=&quot;NO-BOK&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;
+color:#4B5C66&#39;&gt;bruke roboter, s&#248;keroboter, programmer for s&#248;k/henting p&#229;
+nettsteder i forbindelse med API-en for Power BI eller samle inn informasjon om
+brukere for uautoriserte form&#229;l&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-left:.25in;text-indent:-.25in;line-height:
+normal&#39;&gt;&lt;span lang=&quot;EN&quot; style=&#39;font-size:10.0pt;font-family:Symbol;color:#4B5C66&#39;&gt;&#183;&lt;span style=&#39;font:7.0pt &quot;Times New Roman&quot;&#39;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+&lt;/span&gt;&lt;/span&gt;&lt;span lang=&quot;NO-BOK&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;
+color:#4B5C66&#39;&gt;sende inn innhold som uttrykkelig eller stilltiende utgir seg for
+&#229; v&#230;re sponset eller st&#248;ttet av Microsoft&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-left:.25in;text-indent:-.25in;line-height:
+normal&#39;&gt;&lt;span lang=&quot;EN&quot; style=&#39;font-size:10.0pt;font-family:Symbol;color:#4B5C66&#39;&gt;&#183;&lt;span style=&#39;font:7.0pt &quot;Times New Roman&quot;&#39;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+&lt;/span&gt;&lt;/span&gt;&lt;span lang=&quot;NO-BOK&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;
+color:#4B5C66&#39;&gt;opprette brukerkontoer p&#229; automatiserte m&#229;ter eller av uriktige
+hensikter eller skaffe eller pr&#248;ve &#229; skaffe flere n&#248;kler for API-en for Power
+BI&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-left:.25in;text-indent:-.25in;line-height:
+normal&#39;&gt;&lt;span lang=&quot;DE&quot; style=&#39;font-size:10.0pt;font-family:Symbol;color:#4B5C66&#39;&gt;&#183;&lt;span style=&#39;font:7.0pt &quot;Times New Roman&quot;&#39;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+&lt;/span&gt;&lt;/span&gt;&lt;span lang=&quot;NO-BOK&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;
+color:#4B5C66&#39;&gt;fremme eller gi veiledende opplysninger om ulovlige aktiviteter
+eller fremme fysisk skade p&#229; grupper eller enkeltpersoner&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-left:.25in;text-indent:-.25in;line-height:
+normal&#39;&gt;&lt;span lang=&quot;EN&quot; style=&#39;font-size:10.0pt;font-family:Symbol;color:#4B5C66&#39;&gt;&#183;&lt;span style=&#39;font:7.0pt &quot;Times New Roman&quot;&#39;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+&lt;/span&gt;&lt;/span&gt;&lt;span lang=&quot;NO-BOK&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;
+color:#4B5C66&#39;&gt;overf&#248;re virus, ormer, mangler, trojanske hester eller andre
+skadelige elementer.&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-left:.25in;text-indent:-.25in;line-height:
+normal&#39;&gt;&lt;span lang=&quot;EN&quot; style=&#39;font-size:10.0pt;font-family:Symbol;color:#4B5C66&#39;&gt;&#183;&lt;span style=&#39;font:7.0pt &quot;Times New Roman&quot;&#39;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+&lt;/span&gt;&lt;/span&gt;&lt;span lang=&quot;NO-BOK&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;
+color:#4B5C66&#39;&gt;selge, lease, dele, overf&#248;re eller viderelisensiere API-en for
+Power BI eller tilgangskoder til denne, av direkte kommersielle eller
+&#248;konomiske hensikter eller p&#229; annen m&#229;te, uten uttrykkelig skriftlig
+forh&#229;ndstillatelse fra Microsoft&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-left:.25in;text-indent:-.25in;line-height:
+normal&#39;&gt;&lt;span lang=&quot;EN&quot; style=&#39;font-size:10.0pt;font-family:Symbol;color:#4B5C66&#39;&gt;&#183;&lt;span style=&#39;font:7.0pt &quot;Times New Roman&quot;&#39;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+&lt;/span&gt;&lt;/span&gt;&lt;span lang=&quot;NO-BOK&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;
+color:#4B5C66&#39;&gt;bruke API-en for Power BI p&#229; en m&#229;te som overskrider rimelig
+foresp&#248;rselsvolum, regnes som overdreven eller st&#248;tende bruk eller p&#229; andre m&#229;ter
+ikke overholder eller er i samsvar med deler av Power BI API-dokumentasjonen
+som kan finnes p&#229;&amp;nbsp;&lt;/span&gt;&lt;span lang=&quot;NO-BOK&quot;&gt;&lt;a href=&quot;http://developer.yammer.com/&quot; title=&quot;API-dokument&quot;&gt;&lt;span style=&#39;font-size:
+12.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;dev.PowerBI.com&lt;/span&gt;&lt;/a&gt;&lt;/span&gt;&lt;span lang=&quot;NO-BOK&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;
+color:#4B5C66&#39;&gt;, som fastsatt av Microsoft etter eget skj&#248;nn&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-left:.25in;text-indent:-.25in;line-height:
+normal&#39;&gt;&lt;span lang=&quot;EN&quot; style=&#39;font-size:10.0pt;font-family:Symbol;color:#4B5C66&#39;&gt;&#183;&lt;span style=&#39;font:7.0pt &quot;Times New Roman&quot;&#39;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+&lt;/span&gt;&lt;/span&gt;&lt;span lang=&quot;NO-BOK&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;
+color:#4B5C66&#39;&gt;be om data p&#229; vegne av &#233;n bruker for &#229; vise, overf&#248;re eller
+levere dataene til andre brukere&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-left:.25in;text-indent:-.25in;line-height:
+normal&#39;&gt;&lt;span lang=&quot;NO-BOK&quot; style=&#39;font-size:10.0pt;font-family:Symbol;
+color:#4B5C66&#39;&gt;&#183;&lt;span style=&#39;font:7.0pt &quot;Times New Roman&quot;&#39;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+&lt;/span&gt;&lt;/span&gt;&lt;span lang=&quot;NO-BOK&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;
+color:#4B5C66&#39;&gt;De foreg&#229;ende forbudte bruksm&#229;tene er tatt med som eksempler,
+ikke som en begrensning. Microsoft forbeholder seg retten til, etter eget
+skj&#248;nn, &#229; fastsl&#229; om din bruk av API-en for Power BI er i samsvar med disse
+API-vilk&#229;rene.&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-bottom:.05pt;line-height:normal&#39;&gt;&lt;b&gt;&lt;span lang=&quot;NO-BOK&quot; style=&#39;font-size:18.0pt;font-family:&quot;Times New Roman&quot;,serif;
+color:#4B5C66&#39;&gt;5. Personvern.&lt;/span&gt;&lt;/b&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;line-height:normal&#39;&gt;&lt;span lang=&quot;NO-BOK&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;All
+tilgang til og bruk av API-en for Power BI API er underlagt
+Personvernerkl&#230;ringen for Power BI, som er tilgjengelig &lt;/span&gt;&lt;span lang=&quot;NO-BOK&quot;&gt;&lt;a href=&quot;http://www.microsoft.com/privacystatement/en-us/OnlineServices/Default.aspx&quot;&gt;&lt;span style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif&#39;&gt;her&lt;/span&gt;&lt;/a&gt;&lt;/span&gt;&lt;span lang=&quot;NO-BOK&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;
+color:#4B5C66&#39;&gt; (kan oppdateres fra tid til annen).&amp;nbsp;Ingenting i disse
+API-vilk&#229;rene st&#248;tter innsamling eller overf&#248;ring av personlig identifiserbar
+informasjon om Internett-brukere mellom partene.&amp;nbsp;Du m&#229; ha en godt synlig
+elektronisk personvernerkl&#230;ring for nettstedene dine og programmer som har
+tilgang til API-en for Power BI.&amp;nbsp;Denne personvernerkl&#230;ringen m&#229; minst
+omfatte en fullstendig, n&#248;yaktig og tydelig fremlegging som omhandler
+plassering, bruk og lesing av informasjonskapsler og beslektede teknologier
+samt innsamling og bruk av data i forbindelse med aktiviteten til brukere av
+dine nettsteder og programmer.&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-bottom:.05pt;line-height:normal&#39;&gt;&lt;b&gt;&lt;span lang=&quot;NO-BOK&quot; style=&#39;font-size:18.0pt;font-family:&quot;Times New Roman&quot;,serif;
+color:#4B5C66&#39;&gt;6. Brukergodkjenning og Sikkerhet.&lt;/span&gt;&lt;/b&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;line-height:normal&#39;&gt;&lt;span lang=&quot;NO-BOK&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;Microsoft
+tar sikkerheten og personvernet til sluttbrukere sv&#230;rt alvorlig, og i tr&#229;d med
+API-vilk&#229;rene og eventuelle gjeldende lover samtykker du i &#229; tilby all
+n&#248;dvendig assistanse for driften av Programmet ditt.&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;line-height:normal&#39;&gt;&lt;span lang=&quot;NO-BOK&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;a.
+Sikre Brukersamtykke. Du er eneansvarlig for &#229; sikre et tydelig og uttrykkelig
+samtykke fra brukeren som gir deg tilgangstillatelse til brukerens Power
+BI-konto, og, hvis aktuelt, tillatelse til &#229; hente brukerspesifikk informasjon
+eller skrive informasjon til brukerens konto. Du m&#229; rette deg etter omfanget av
+det uttrykkelige samtykket du har f&#229;tt fra brukeren i forbindelse med tilgangen
+til Power BI-kontoen.&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;line-height:normal&#39;&gt;&lt;span lang=&quot;NO-BOK&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;b.
+Kontakt og Medvirkning. Du (eller kontakter du har registrert i Azure Active
+Directory sammen med programmet) m&#229; v&#230;re tilgjengelig til enhver tid for &#229;
+svare p&#229; sp&#248;rsm&#229;l eller bekymringer som gjelder sikkerheten. Du kan endre dette
+navnet eller denne kontakten ved &#229; oppdatere leierinformasjonen i Azure Active
+Directory.&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;line-height:normal&#39;&gt;&lt;span lang=&quot;NO-BOK&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;c.
+Virustiltak. Alle materialer, herunder programvare og dokumenter, som du gir
+Microsoft, m&#229; kontrolleres med oppdaterte versjoner av antivirus- og
+antiormprogramvare som regnes som Internett-bransjestandard, og de m&#229; v&#230;re helt
+fri for virus og ormer. Data du gir til Microsoft m&#229; ikke inneholde skadelige
+skript eller skadelig kode.&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;line-height:normal&#39;&gt;&lt;span lang=&quot;NO-BOK&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;d.
+Bransjestandarder. Dine nettverk, operativsystemer og programvare for
+nettserver(e), rutere, databaser og datamaskinsystemer (“Systemer”) m&#229;
+konfigureres etter Internett-bransjestandarder, slik det kreves for &#229; drive
+Programmet ditt sikkert. Hvis du ikke har fullstendig kontroll over alle delene
+av Systemet, skal du bruke all kontrollen og innflytelsen du har over slike
+Systemer og/eller utvalg av Systemer, og du skal ikke lage arkitektur for eller
+velge Systemer p&#229; en m&#229;te som gj&#248;r at du unng&#229;r den foreg&#229;ende forpliktelsen.
+Et eksempel p&#229; en server som ikke er godkjent, er en server som drives som en
+&#229;pen proxy. Et eksempel p&#229; ikke-godkjent arkitektur er &#229; velge en server som
+drives av en leverand&#248;r som ikke oppfyller sikkerhetsstandarden, slik at du kan
+anf&#248;re at du ikke kontrollerer serveren og slik unng&#229; &#229; velge en godkjent
+server.&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;line-height:normal&#39;&gt;&lt;span lang=&quot;NO-BOK&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;e.
+Rapportering. Sikkerhetsmangler eller inntrenging i Systemene som oppdages, m&#229;
+umiddelbart rapporteres til Microsoft skriftlig eller via e-post
+til&amp;nbsp;devpbi@microsoft.com. Du skal samarbeide med Microsoft for &#229; rette om
+sikkerhetsmangler s&#229; snart som mulig, og du m&#229; umiddelbart koble fra eventuelle
+inntrengere. Hvis du skulle oppdage sikkerhetsmangler eller inntrengere, m&#229; du
+ikke uttale deg offentlig om dette (dvs. gjennom presse, blogg, oppslagstavler
+osv.) uten uttrykkelig skriftlig forh&#229;ndstillatelse fra Microsoft.&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;line-height:normal&#39;&gt;&lt;span lang=&quot;NO-BOK&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;f.
+Kontrollere Tilgang til Systemer. I den grad du har kontroll eller innflytelse
+over Systemer, skal du loggf&#248;re (med tidspunkt og dato) alle forekomster av
+tilgang til Systemene. Du m&#229; kryptere filene med passord og brukernavn for
+Systemene som lagrer eller behandler Power BI-brukerdata som Microsoft har gitt
+deg tilgang til. Passord m&#229; v&#230;re unike og ikke opplagte, og de m&#229; endres ofte.
+Du m&#229; s&#248;rge for at tilgangen til og bruken av passord holdes p&#229; et minimum. S&#229;
+sant det er mulig, m&#229; kommandoer som krever tilleggsrettigheter, loggf&#248;res p&#229;
+en sikker m&#229;te (med tidspunkt og dato), slik at alle aktivitetene registreres
+med revisjonsspor. Hvis ansettelsesforholdet til en person opph&#248;rer, skal alle
+passord og passordtilganger for denne personen umiddelbart regnes som ugyldige.&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;line-height:normal&#39;&gt;&lt;span lang=&quot;NO-BOK&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;g.
+Sikkerhetsgjennomganger. Microsoft har rett, men ingen forpliktelse, til &#229;
+engasjere en uavhengig tredjepart for &#229; kontrollere og vurdere om du overholder
+alle sikkerhetsbestemmelsene. Microsoft tar p&#229; seg alle kostnadene for en slik
+gjennomgang. Du m&#229;, s&#229; snart som mulig og p&#229; egen kostnad, rette opp eventuelle
+feil og mangler ved sikkerheten som oppdages i l&#248;pet av en slik gjennomgang.
+Deretter m&#229; du straks gi en skriftlig melding til Microsoft som bekrefter at
+alle feil og mangler er rettet opp, og du m&#229; ogs&#229; gi en beskrivelse av de
+korrigerende handlingene. Microsoft varsler deg 48 timer f&#248;r en slik
+gjennomgang blir satt i gang. Alle gjennomganger skal utf&#248;res i den vanlige
+arbeidstiden og p&#229; en slik m&#229;te at den daglige forretningsdriften ikke
+forstyrres. Hvis det blir avdekket vesentlige brudd p&#229; noen av
+sikkerhetsbestemmelsene, skal du tilbakebetale rimelige kostnader for
+gjennomgangen til Microsoft.&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;line-height:normal&#39;&gt;&lt;span lang=&quot;NO-BOK&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;h. Du
+er ogs&#229; p&#229;lagt &#229; overholde kravene og dokumentasjonen som beskrives i
+Sikkerhetskrav og Sikkerhetsdokumentasjon i Vedlegg A til disse API-vilk&#229;rene.&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-bottom:.05pt;line-height:normal&#39;&gt;&lt;b&gt;&lt;span lang=&quot;NO-BOK&quot; style=&#39;font-size:18.0pt;font-family:&quot;Times New Roman&quot;,serif;
+color:#4B5C66&#39;&gt;7&lt;/span&gt;&lt;/b&gt;&lt;b&gt;&lt;span lang=&quot;NO-BOK&quot; style=&#39;font-size:18.0pt;
+font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;. St&#248;tte og Tilgjengelighet.&lt;/span&gt;&lt;/b&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;line-height:normal&#39;&gt;&lt;span lang=&quot;NO-BOK&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;Microsoft
+kan, etter eget skj&#248;nn, velge &#229; tilby deg st&#248;tte for eller endringer av API-en
+for Power BI (regnes samlet som “St&#248;tte”). Microsoft kan n&#229;r som helst endre,
+midlertidig stanse eller avslutte alle en hvilken som helst del av API-en for
+Power Bi, herunder tilgjengeligheten av API-en for Power BI. Microsoft kan ogs&#229;
+innf&#248;re grenser for bestemte funksjoner og tjenester eller begrense tilgangen
+din til deler av eller hele API-en for Power BI eller Power BI-webomr&#229;det uten
+&#229; varsle deg eller p&#229;ta seg erstatningsansvar.&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-bottom:.05pt;line-height:normal&#39;&gt;&lt;b&gt;&lt;span lang=&quot;NO-BOK&quot; style=&#39;font-size:18.0pt;font-family:&quot;Times New Roman&quot;,serif;
+color:#4B5C66&#39;&gt;8&lt;/span&gt;&lt;/b&gt;&lt;b&gt;&lt;span lang=&quot;NO-BOK&quot; style=&#39;font-size:18.0pt;
+font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;. Gebyrer og Betalinger.&lt;/span&gt;&lt;/b&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;line-height:normal&#39;&gt;&lt;span lang=&quot;NO-BOK&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;Microsoft
+forbeholder seg retten til etter eget skj&#248;nn &#229; kreve gebyrer for fremtidig bruk
+av eller tilgang til API-en for Power BI. Hvis Microsoft bestemmer seg for &#229;
+belaste deg for API-en for Power BI, skal du motta et skriftlig varsel om
+dette.&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-bottom:.05pt;line-height:normal&#39;&gt;&lt;b&gt;&lt;span lang=&quot;NO-BOK&quot; style=&#39;font-size:18.0pt;font-family:&quot;Times New Roman&quot;,serif;
+color:#4B5C66&#39;&gt;9&lt;/span&gt;&lt;/b&gt;&lt;b&gt;&lt;span lang=&quot;NO-BOK&quot; style=&#39;font-size:18.0pt;
+font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;.&lt;/span&gt;&lt;/b&gt;&lt;span lang=&quot;NO-BOK&quot; style=&#39;font-size:18.0pt;font-family:&quot;Times New Roman&quot;,serif;
+color:#4B5C66&#39;&gt; &lt;b&gt;Fraskrivelse av Begrensede Rettigheter.&lt;/b&gt;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;line-height:normal&#39;&gt;&lt;span lang=&quot;NO-BOK&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;API-EN
+FOR POWER BI BLIR LEVERT “SOM DEN ER” OG “SLIK DEN ER TILGJENGELIG” UTEN NOEN
+GARANTIER, UTTRYKKELIGE ELLER UNDERFORST&#197;TT. MICROSOFT FRASKRIVER SEG ALLE
+BEGRENSEDE RETTIGHETER OG VILK&#197;R, INKLUDERT, MEN IKKE BEGRENSET TIL,
+UNDERFORST&#197;TTE GARANTIER OM SALGBARHET, ANVENDELIGHET FOR BESTEMTE FORM&#197;L,
+TILGJENGELIGHET, SIKKERHET, EIERRETTIGHETER OG IKKE-KRENKELSE AV TREDJEPARTS
+RETTIGHETER.&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;line-height:normal&#39;&gt;&lt;span lang=&quot;NO-BOK&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;MICROSOFT
+ERKL&#198;RER ELLER GARANTERER IKKE AT API-EN FOR POWER BI ER UTEN UN&#216;YAKTIGHETER,
+FEIL ELLER AVBRUDD, ELLER AT DEN ER P&#197;LITELIG, N&#216;YAKTIG, FULLSTENDIG ELLER
+GYLDIG P&#197; ANDRE M&#197;TER. MICROSOFT GIR INGEN BEGRENSEDE RETTIGHETER OM AT (i)
+API-EN FOR POWER BI TILFREDSSTILLER ALLE DINE KRAV, (ii) TILGANGEN TIL
+API-TJENESTEN FOR POWER BI ER UTEN FORSTYRRELSER, (iii) RESULTATENE SOM OPPN&#197;S
+GJENNOM BRUKEN AV API-EN FOR POWER BI, ER N&#216;YAKTIGE ELLER P&#197;LITELIGE, (iv)
+KVALITETEN P&#197; PRODUKTER, TJENESTER, INFORMASJON ELLER ANNET MATERIALE SOM DU
+SKAFFER DEG GJENNOM API-EN FOR POWER BI, ER I TR&#197;D MED DINE FORVENTNINGER, OG
+(v) EVENTUELLE FEIL I API-EN FOR POWER BI BLIR RETTET OPP.&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;line-height:normal&#39;&gt;&lt;span lang=&quot;NO-BOK&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;ALL
+BRUK AV API-EN FOR POWER BI SKJER ETTER EGET SKJ&#216;NN OG P&#197; EGEN RISIKO, OG DU ER
+ENE OG ALENE ANSVARLIG FOR EVENTUELLE SKADER SOM M&#197;TTE OPPST&#197; FRA BRUKEN AV
+API-EN FOR POWER BI. &lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-bottom:.05pt;line-height:normal&#39;&gt;&lt;b&gt;&lt;span lang=&quot;NO-BOK&quot; style=&#39;font-size:18.0pt;font-family:&quot;Times New Roman&quot;,serif;
+color:#4B5C66&#39;&gt;10&lt;/span&gt;&lt;/b&gt;&lt;b&gt;&lt;span lang=&quot;NO-BOK&quot; style=&#39;font-size:18.0pt;
+font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;.&lt;/span&gt;&lt;/b&gt;&lt;span lang=&quot;NO-BOK&quot; style=&#39;font-size:18.0pt;font-family:&quot;Times New Roman&quot;,serif;
+color:#4B5C66&#39;&gt; &lt;b&gt;Begrensning av Ansvar&lt;/b&gt;.&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;line-height:normal&#39;&gt;&lt;span lang=&quot;NO-BOK&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;UAVHENGIG
+AV ANDRE BESTEMMELSER I DISSE API-VILK&#197;RENE SKAL MICROSOFTS MAKSIMALE SAMLETE
+ERSTATNINGSANSVAR OVERFOR DEG FOR EVENTUELLE KRAV SOM OPPST&#197;R SOM F&#216;LGE AV
+ELLER I FORBINDELSE MED APT-VILK&#197;RENE ELLER OPPH&#216;RET ELLER UTL&#216;PET AV DISSE
+VILK&#197;RENE, IKKE UNDER NOEN OMSTENDIGHETER OVERSKRIDE USD 10, UTEN HENSYN TIL OM
+ERSTATNINGSANSVARET OPPST&#197;R FRA KRAV BASERT P&#197; KONTRAKT, BEGRENSET RETTIGHET,
+ERSTATNINGSANSVAR UTENFOR KONTRAKT, MANGLENDE OPPFYLLELSE AV FORM&#197;L, ETABLERT
+FORRETNINGSSKIKK ELLER ANDRE FORHOLD. DU KAN IKKE F&#197; DEKKET ANNEN SKADE ELLER
+ANDRE TAP, INKLUDERT, MEN IKKE BEGRENSET TIL, F&#216;LGESKADE, TAP AV FORTJENESTE
+ELLER SPESIELL, INDIREKTE ELLER TILFELDIG SKADE ELLER STRAFFERSTATNING. DISSE
+BEGRENSNINGENE OG UTELATELSENE GJELDER SELV OM DENNE BEF&#216;YELSEN IKKE
+FULLSTENDIG KOMPENSERER DEG FOR EVENTUELLE TAP ELLER IKKE OPPFYLLER SITT
+FORM&#197;L, OG SELV OM VI VISSTE ELLER BURDE HA VISST OM MULIGHETEN FOR SKADEN. I
+DEN GRAD GJELDENDE LOV TILLATER DET, SKAL DISSE BEGRENSNINGENE OG UTELATELSENE
+GJELDE FOR ALLE FORHOLD KNYTTET TIL DISSE API-VILK&#197;RENE, SOM TAP AV INNHOLD,
+VIRUS SOM P&#197;VIRKER DIN BRUK AV API-EN FOR POWER BI, FORSINKELSER ELLER FEIL VED
+IGANGSETTING ELLER FULLF&#216;RING AV OVERF&#216;RINGER ELLER TRANSAKSJONER, KRAV KNYTTET
+TIL BRUDD P&#197; KONTRAKT ELLER BEGRENSEDE RETTIGHETER ELLER VILK&#197;R, OBJEKTIVT
+ANSVAR, UAKTSOMHET, URIKTIGE OPPLYSNINGER ELLER UTELATELSER, ANNET
+ERSTATNINGSANSVAR UTENFOR KONTRAKT, BRUDD P&#197; LOVER OG REGLER ELLER UBERETTIGET
+BERIKELSE. NOEN AV ELLER ALLE DISSE BEGRENSNINGENE ELLER UTELATELSENE GJELDER
+KANSKJE IKKE DEG HVIS DELSTATEN, PROVINSEN ELLER LANDET DITT IKKE TILLATER
+UTELATELSEN ELLER BEGRENSNINGEN AV TILFELDIG SKADE, F&#216;LGESKADE ELLER ANNEN
+SKADE. &lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-bottom:.05pt;line-height:normal&#39;&gt;&lt;b&gt;&lt;span lang=&quot;NO-BOK&quot; style=&#39;font-size:18.0pt;font-family:&quot;Times New Roman&quot;,serif;
+color:#4B5C66&#39;&gt;11&lt;/span&gt;&lt;/b&gt;&lt;b&gt;&lt;span lang=&quot;NO-BOK&quot; style=&#39;font-size:18.0pt;
+font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;.&lt;/span&gt;&lt;/b&gt;&lt;span lang=&quot;NO-BOK&quot; style=&#39;font-size:18.0pt;font-family:&quot;Times New Roman&quot;,serif;
+color:#4B5C66&#39;&gt; &lt;b&gt;Erstatning.&lt;/b&gt;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;line-height:normal&#39;&gt;&lt;span lang=&quot;NO-BOK&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;Du
+samtykker i &#229; erstatte og holde Microsoft (og Microsofts direkt&#248;rer, ledere,
+tilknyttede selskaper og agenter) skadesl&#248;s fra og mot eventuelle tap,
+erstatningsansvar og kostnader (herunder rimelige advokathonorarer og
+-kostnader) som inntreffer som et resultat av krav, juridiske prosesser eller
+s&#248;ksm&#229;l som er basert p&#229; eller oppst&#229;r som f&#248;lge av brudd (eller p&#229;st&#229;tt brudd)
+av deg p&#229; denne kontrakten, eller deler av den, som er relatert til dine
+webomr&#229;der, dine programmer eller din bruk av API-en for Power BI. I
+forbindelse med slike krav er du ene og alene ansvarlig for forsvaret, og du
+skal ta i bruk juridisk r&#229;dgivning og advokat som det er gjensidig enighet om,
+i henhold til Microsofts rett til &#229; delta med r&#229;dgivere og advokater etter eget
+valg. Du skal ikke offentliggj&#248;re noen krav eller samtykke i forlik som gj&#248;r at
+Microsoft (eller Microsofts direkt&#248;rer, ledere, tilknyttede selskaper eller
+agenter) m&#229; p&#229;ta seg forpliktelser eller erstatningsansvar, uten skriftlig
+forh&#229;ndstillatelse fra Microsoft. Slike tillatelser gir Microsoft etter eget
+skj&#248;nn.&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-bottom:.05pt;line-height:normal&#39;&gt;&lt;b&gt;&lt;span lang=&quot;NO-BOK&quot; style=&#39;font-size:18.0pt;font-family:&quot;Times New Roman&quot;,serif;
+color:#4B5C66&#39;&gt;12&lt;/span&gt;&lt;/b&gt;&lt;b&gt;&lt;span lang=&quot;NO-BOK&quot; style=&#39;font-size:18.0pt;
+font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;. Gyldighetsperiode/opph&#248;r.&lt;/span&gt;&lt;/b&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;line-height:normal&#39;&gt;&lt;span lang=&quot;NO-BOK&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;Disse
+API-vilk&#229;rene trer i kraft ved f&#248;rste bruk av API-en for Power BI og fortsetter
+&#229; ha gyldighet til noen av partene melder fra om opph&#248;r. Du kan avslutte
+API-vilk&#229;rene bare ved &#229; slutte &#229; bruke API-en for Power BI. Microsoft kan
+avslutte API-vilk&#229;rene n&#229;r som helst og uansett grunn. API-vilk&#229;rene opph&#248;rer
+automatisk hvis (i) du bryter noen av vilk&#229;rene i API-vilk&#229;rene eller
+Vilk&#229;rene, (ii) Microsoft offentliggj&#248;r et skriftlig varsel om opph&#248;r p&#229;
+webomr&#229;det for Power BI, (iii) Microsoft sender deg et skriftlig varsel om
+opph&#248;r eller (iv) Microsoft slutter &#229; gi deg tilgang til API-en for Power BI.
+Partenes forpliktelser under punkt 3, 9, 10, 11, 12, 15, 16, 17, 18 og 19 skal fortsette
+&#229; gjelde selv om API-vilk&#229;rene av en hvilken som helst grunn opph&#248;rer eller
+utl&#248;per.&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-bottom:.05pt;line-height:normal&#39;&gt;&lt;b&gt;&lt;span lang=&quot;NO-BOK&quot; style=&#39;font-size:18.0pt;font-family:&quot;Times New Roman&quot;,serif;
+color:#4B5C66&#39;&gt;13&lt;/span&gt;&lt;/b&gt;&lt;b&gt;&lt;span lang=&quot;NO-BOK&quot; style=&#39;font-size:18.0pt;
+font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;. Overdragelse.&lt;/span&gt;&lt;/b&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;line-height:normal&#39;&gt;&lt;span lang=&quot;NO-BOK&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;Vi
+kan overdra denne kontrakten, helt eller delvis, n&#229;r som helst, med eller uten
+varsel til deg. Du har ikke rett til &#229; overdra denne kontrakten eller deler av
+den til andre personer eller parter uten skriftlig forh&#229;ndstillatelse fra oss.
+Vi vil ikke nekte slik tillatelse uten rimelig grunn. Ethvert fors&#248;k p&#229; dette
+er ugyldig. Du kan ikke overf&#248;re til andre personer, midlertidig eller
+permanent, rettigheter til &#229; bruke API-en for Power BI eller noen deler av
+denne.&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-bottom:.05pt;line-height:normal&#39;&gt;&lt;b&gt;&lt;span lang=&quot;NO-BOK&quot; style=&#39;font-size:18.0pt;font-family:&quot;Times New Roman&quot;,serif;
+color:#4B5C66&#39;&gt;14&lt;/span&gt;&lt;/b&gt;&lt;b&gt;&lt;span lang=&quot;NO-BOK&quot; style=&#39;font-size:18.0pt;
+font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;. Ingen tredjepartsmottakere.&lt;/span&gt;&lt;/b&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;line-height:normal&#39;&gt;&lt;span lang=&quot;NO-BOK&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;Denne
+avtalen er utelukkende til fordel for deg og Microsoft. Den skal ikke v&#230;re til
+fordel for andre parter, med unntak av tillatte etterf&#248;lgere og overdragelsesmottakere
+i henhold til denne kontrakten.&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-bottom:.05pt;line-height:normal&#39;&gt;&lt;b&gt;&lt;span lang=&quot;NO-BOK&quot; style=&#39;font-size:18.0pt;font-family:&quot;Times New Roman&quot;,serif;
+color:#4B5C66&#39;&gt;15&lt;/span&gt;&lt;/b&gt;&lt;b&gt;&lt;span lang=&quot;NO-BOK&quot; style=&#39;font-size:18.0pt;
+font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;. Delvis ugyldighet.&lt;/span&gt;&lt;/b&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;line-height:normal&#39;&gt;&lt;span lang=&quot;NO-BOK&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;Hvis
+en kompetent jurisdiksjon fastsl&#229;r at noen bestemmelser i disse API-vilk&#229;rene
+er ulovlige, uholdbare eller urettskraftige, skal de gjenv&#230;rende bestemmelsene
+fortsatt ha full gyldighet.&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-bottom:.05pt;line-height:normal&#39;&gt;&lt;span lang=&quot;NO-BOK&quot; style=&#39;font-size:18.0pt;font-family:&quot;Times New Roman&quot;,serif;
+color:#4B5C66&#39;&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-bottom:.05pt;line-height:normal&#39;&gt;&lt;b&gt;&lt;span lang=&quot;NO-BOK&quot; style=&#39;font-size:18.0pt;font-family:&quot;Times New Roman&quot;,serif;
+color:#4B5C66&#39;&gt;16&lt;/span&gt;&lt;/b&gt;&lt;b&gt;&lt;span lang=&quot;NO-BOK&quot; style=&#39;font-size:18.0pt;
+font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;. Meldinger. &lt;/span&gt;&lt;/b&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;line-height:normal&#39;&gt;&lt;span lang=&quot;NO-BOK&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;Du
+samtykker i at Microsoft gir deg meldinger om API-en for Power BI eller
+opplysninger som Microsoft er lovp&#229;lagt &#229; gi, via e-post til adressen du oppgav
+da du registrerte deg for API-en for Power BI. Meldinger som sendes til deg med
+e-post, vil bli regnet som levert og mottatt den dagen slike e-postmeldinger
+sendes. Hvis du ikke samtykker i &#229; motta meldinger elektronisk, m&#229; du slutte &#229;
+aksessere API-en for Power BI. &lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-bottom:.05pt;line-height:normal&#39;&gt;&lt;b&gt;&lt;span lang=&quot;NO-BOK&quot; style=&#39;font-size:18.0pt;font-family:&quot;Times New Roman&quot;,serif;
+color:#4B5C66&#39;&gt;17&lt;/span&gt;&lt;/b&gt;&lt;b&gt;&lt;span lang=&quot;NO-BOK&quot; style=&#39;font-size:18.0pt;
+font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;. Ingen Avkall p&#229;
+Rettigheter fra Microsofts side.&lt;/span&gt;&lt;/b&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;line-height:normal&#39;&gt;&lt;span lang=&quot;NO-BOK&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;Hvis
+Microsoft unnlater &#229; ut&#248;ve eller h&#229;ndheve en rettighet eller bestemmelse i
+API-vilk&#229;rene, skal ikke dette utgj&#248;re et avkall p&#229; denne rettigheten eller
+bestemmelsen.&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-bottom:.05pt;line-height:normal&#39;&gt;&lt;b&gt;&lt;span lang=&quot;NO-BOK&quot; style=&#39;font-size:18.0pt;font-family:&quot;Times New Roman&quot;,serif;
+color:#4B5C66&#39;&gt;18&lt;/span&gt;&lt;/b&gt;&lt;b&gt;&lt;span lang=&quot;NO-BOK&quot; style=&#39;font-size:18.0pt;
+font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;. Gjeldende lov,
+jurisdiksjon.&lt;/span&gt;&lt;/b&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-top:6.0pt;margin-right:0in;margin-bottom:0in;
+margin-left:0in;margin-bottom:.0001pt;line-height:normal&#39;&gt;&lt;span lang=&quot;NO-BOK&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;Disse
+API-vilk&#229;rene er underlagt lovene i delstaten Washington, USA. Hvis saken h&#248;rer
+inn under f&#248;derale domstoler, samtykker hver part ugjenkallelig i domstolene og
+jurisdiksjonen til de f&#248;derale domstolene i King County, Washington. Hvis ikke
+samtykker hver part ugjenkallelig i domstolene og jurisdiksjonen i Superior
+Court of King County, Washington. Dersom enten Microsoft eller du benytter
+advokater for &#229; h&#229;ndheve eventuelle rettigheter som f&#248;lge av eller relatert til
+disse API-vilk&#229;rene, skal den seirende part ha rett til &#229; f&#229; tilbake rimelige
+advokathonorarer, kostnader og andre utgifter, inkludert kostnader og avgifter
+som p&#229;l&#248;per ved anke av dom eller ved konkurs eller lignende tiltak.&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-bottom:.05pt;line-height:normal&#39;&gt;&lt;b&gt;&lt;span lang=&quot;NO-BOK&quot; style=&#39;font-size:18.0pt;font-family:&quot;Times New Roman&quot;,serif;
+color:#4B5C66&#39;&gt;&amp;nbsp;&lt;/span&gt;&lt;/b&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-bottom:.05pt;line-height:normal&#39;&gt;&lt;b&gt;&lt;span lang=&quot;NO-BOK&quot; style=&#39;font-size:18.0pt;font-family:&quot;Times New Roman&quot;,serif;
+color:#4B5C66&#39;&gt;19&lt;/span&gt;&lt;/b&gt;&lt;b&gt;&lt;span lang=&quot;NO-BOK&quot; style=&#39;font-size:18.0pt;
+font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;. Fullstendig avtale.&lt;/span&gt;&lt;/b&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-top:6.0pt;margin-right:0in;margin-bottom:0in;
+margin-left:0in;margin-bottom:.0001pt;line-height:normal&#39;&gt;&lt;span lang=&quot;NO-BOK&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;Disse
+API-vilk&#229;rene utgj&#248;r den fullstendige avtalen mellom Microsoft og deg med
+hensyn til innholdet i disse.&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;line-height:normal&#39;&gt;&lt;span lang=&quot;NO-BOK&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-bottom:.05pt;line-height:normal&#39;&gt;&lt;span lang=&quot;NO-BOK&quot; style=&#39;font-size:18.0pt;font-family:&quot;Times New Roman&quot;,serif;
+color:#4B5C66&#39;&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-bottom:.05pt;line-height:normal&#39;&gt;&lt;span lang=&quot;NO-BOK&quot; style=&#39;font-size:18.0pt;font-family:&quot;Times New Roman&quot;,serif;
+color:#4B5C66&#39;&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-bottom:.05pt;line-height:normal&#39;&gt;&lt;span lang=&quot;NO-BOK&quot; style=&#39;font-size:18.0pt;font-family:&quot;Times New Roman&quot;,serif;
+color:#4B5C66&#39;&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-bottom:.05pt;line-height:normal&#39;&gt;&lt;span lang=&quot;NO-BOK&quot; style=&#39;font-size:18.0pt;font-family:&quot;Times New Roman&quot;,serif;
+color:#4B5C66&#39;&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-bottom:.05pt;line-height:normal&#39;&gt;&lt;span lang=&quot;NO-BOK&quot; style=&#39;font-size:18.0pt;font-family:&quot;Times New Roman&quot;,serif;
+color:#4B5C66&#39;&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-bottom:.05pt;line-height:normal&#39;&gt;&lt;span lang=&quot;NO-BOK&quot; style=&#39;font-size:18.0pt;font-family:&quot;Times New Roman&quot;,serif;
+color:#4B5C66&#39;&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-bottom:.05pt;line-height:normal&#39;&gt;&lt;span lang=&quot;NO-BOK&quot; style=&#39;font-size:18.0pt;font-family:&quot;Times New Roman&quot;,serif;
+color:#4B5C66&#39;&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-bottom:.05pt;line-height:normal&#39;&gt;&lt;span lang=&quot;NO-BOK&quot; style=&#39;font-size:18.0pt;font-family:&quot;Times New Roman&quot;,serif;
+color:#4B5C66&#39;&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-bottom:.05pt;line-height:normal&#39;&gt;&lt;span lang=&quot;NO-BOK&quot; style=&#39;font-size:18.0pt;font-family:&quot;Times New Roman&quot;,serif;
+color:#4B5C66&#39;&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; align=&quot;center&quot; style=&#39;margin-bottom:.05pt;text-align:center;
+line-height:normal&#39;&gt;&lt;span lang=&quot;NO-BOK&quot; style=&#39;font-size:18.0pt;font-family:&quot;Times New Roman&quot;,serif;
+color:#4B5C66&#39;&gt;Vedlegg A&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; align=&quot;center&quot; style=&#39;margin-bottom:.05pt;text-align:center;
+line-height:normal&#39;&gt;&lt;span lang=&quot;NO-BOK&quot; style=&#39;font-size:18.0pt;font-family:&quot;Times New Roman&quot;,serif;
+color:#4B5C66&#39;&gt;Sikkerhetskrav og Sikkerhetsdokumentasjon&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-bottom:.05pt;line-height:normal&#39;&gt;&lt;b&gt;&lt;span lang=&quot;NO-BOK&quot; style=&#39;font-size:18.0pt;font-family:&quot;Times New Roman&quot;,serif;
+color:#4B5C66&#39;&gt;&amp;nbsp;&lt;/span&gt;&lt;/b&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-bottom:.05pt;line-height:normal&#39;&gt;&lt;b&gt;&lt;span lang=&quot;NO-BOK&quot; style=&#39;font-size:18.0pt;font-family:&quot;Times New Roman&quot;,serif;
+color:#4B5C66&#39;&gt;Sikkerhetskrav:&lt;/span&gt;&lt;/b&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-left:.25in;text-indent:-.25in;line-height:
+normal&#39;&gt;&lt;span lang=&quot;NO-BOK&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;
+color:#4B5C66&#39;&gt;1.&lt;span style=&#39;font:7.0pt &quot;Times New Roman&quot;&#39;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+&lt;/span&gt;&lt;/span&gt;&lt;span lang=&quot;NO-BOK&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;
+color:#4B5C66&#39;&gt;Partneren skal gi all relevant sikkerhetsdokumentasjon til
+Microsoft (inkludert, men ikke begrenset til, sikkerhetspolicy, policy for
+hendelsesrespons, risikovurdering, dataklassifisering, kode og bin&#230;re statiske
+og dynamiske analyseartefakter, resultater fra penetreringstester,
+tredjepartskomponenter som er brukt, osv.),&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-left:.25in;text-indent:-.25in;line-height:
+normal&#39;&gt;&lt;span lang=&quot;NO-BOK&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;
+color:#4B5C66&#39;&gt;2.&lt;span style=&#39;font:7.0pt &quot;Times New Roman&quot;&#39;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+&lt;/span&gt;&lt;/span&gt;&lt;span lang=&quot;NO-BOK&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;
+color:#4B5C66&#39;&gt;oppgi eksplisitt dokumentasjon av Partnerens bruk av Power
+BI-kundedata (form&#229;l for bruk, spesifikke Power BI-data som er brukt,
+overf&#248;ring, lagring osv.) og gj&#248;re den tilgjengelig for andre brukere,&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-left:.25in;text-indent:-.25in;line-height:
+normal&#39;&gt;&lt;span lang=&quot;DE&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;
+color:#4B5C66&#39;&gt;3.&lt;span style=&#39;font:7.0pt &quot;Times New Roman&quot;&#39;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+&lt;/span&gt;&lt;/span&gt;&lt;span lang=&quot;NO-BOK&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;
+color:#4B5C66&#39;&gt;forsikre om at identifiserte sikkerhetssvakheter som kan p&#229;virke
+Power BI-kunder, skal h&#229;ndteres i tide,&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-left:.25in;text-indent:-.25in;line-height:
+normal&#39;&gt;&lt;span lang=&quot;DE&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;
+color:#4B5C66&#39;&gt;4.&lt;span style=&#39;font:7.0pt &quot;Times New Roman&quot;&#39;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+&lt;/span&gt;&lt;/span&gt;&lt;span lang=&quot;NO-BOK&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;
+color:#4B5C66&#39;&gt;forsikre om at Microsoft har godkjennelse til &#229; teste
+sikkerheten til tilbud fra tredjeparter, som koordinert mellom Microsoft og
+deg.&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-left:.25in;text-indent:-.25in;line-height:
+normal&#39;&gt;&lt;span lang=&quot;DE&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;
+color:#4B5C66&#39;&gt;5.&lt;span style=&#39;font:7.0pt &quot;Times New Roman&quot;&#39;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+&lt;/span&gt;&lt;/span&gt;&lt;span lang=&quot;NO-BOK&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;
+color:#4B5C66&#39;&gt;Du skal bare oppbevare data som er n&#248;dvendige for &#229; utf&#248;re sitt
+gitte form&#229;l, og du skal slette un&#248;dvendig informasjon og tilleggsinformasjon
+hvis n&#248;dvendig.&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-left:.25in;text-indent:-.25in;line-height:
+normal&#39;&gt;&lt;span lang=&quot;DE&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;
+color:#4B5C66&#39;&gt;6.&lt;span style=&#39;font:7.0pt &quot;Times New Roman&quot;&#39;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+&lt;/span&gt;&lt;/span&gt;&lt;span lang=&quot;NO-BOK&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;
+color:#4B5C66&#39;&gt;Alle Microsoft-data p&#229; systemene dine slettes/&#248;delegges n&#229;r
+forholdet ditt til Microsoft opph&#248;rer.&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;line-height:normal&#39;&gt;&lt;span lang=&quot;NO-BOK&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-bottom:.05pt;line-height:normal&#39;&gt;&lt;b&gt;&lt;span lang=&quot;NO-BOK&quot; style=&#39;font-size:18.0pt;font-family:&quot;Times New Roman&quot;,serif;
+color:#4B5C66&#39;&gt;Sikkerhetsdokumentasjon &lt;/span&gt;&lt;/b&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;line-height:normal&#39;&gt;&lt;span lang=&quot;NO-BOK&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;Hvis
+oppbevaring av Microsoft-kundedata anses som n&#248;dvendig for integrasjonen, m&#229;
+f&#248;lgende sikkerhetsdokumentasjon oppgis p&#229; foresp&#248;rsel:&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-left:.25in;text-indent:-.25in;line-height:
+normal&#39;&gt;&lt;span lang=&quot;DE&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;
+color:#4B5C66&#39;&gt;1.&lt;span style=&#39;font:7.0pt &quot;Times New Roman&quot;&#39;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+&lt;/span&gt;&lt;/span&gt;&lt;span lang=&quot;NO-BOK&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;
+color:#4B5C66&#39;&gt;Beskrivelse av systemarkitektur (inkludert plassering, form&#229;let
+til viktige systemkomponenter, markering av systemer som har tilgang til Power
+BI-kundedata, hvordan Microsoft-data lagres, overf&#248;res osv.)&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-left:.25in;text-indent:-.25in;line-height:
+normal&#39;&gt;&lt;span lang=&quot;EN&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;
+color:#4B5C66&#39;&gt;2.&lt;span style=&#39;font:7.0pt &quot;Times New Roman&quot;&#39;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+&lt;/span&gt;&lt;/span&gt;&lt;span lang=&quot;NO-BOK&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;
+color:#4B5C66&#39;&gt;Sikkerhetssertifiseringer eller -rapporter (SSAE16, SOC2,
+ISO27001 osv.)&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-left:.25in;text-indent:-.25in;line-height:
+normal&#39;&gt;&lt;span lang=&quot;EN&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;
+color:#4B5C66&#39;&gt;3.&lt;span style=&#39;font:7.0pt &quot;Times New Roman&quot;&#39;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+&lt;/span&gt;&lt;/span&gt;&lt;span lang=&quot;NO-BOK&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;
+color:#4B5C66&#39;&gt;Fysiske sikkerhetstiltak for relevante systemer&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-left:.25in;text-indent:-.25in;line-height:
+normal&#39;&gt;&lt;span lang=&quot;EN&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;
+color:#4B5C66&#39;&gt;4.&lt;span style=&#39;font:7.0pt &quot;Times New Roman&quot;&#39;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+&lt;/span&gt;&lt;/span&gt;&lt;span lang=&quot;NO-BOK&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;
+color:#4B5C66&#39;&gt;Opplysninger om eventuelle tredjeparter som er involvert i
+systemet, relevante kontrakter og sikkerhetsopplysninger&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-left:.25in;text-indent:-.25in;line-height:
+normal&#39;&gt;&lt;span lang=&quot;EN&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;
+color:#4B5C66&#39;&gt;5.&lt;span style=&#39;font:7.0pt &quot;Times New Roman&quot;&#39;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+&lt;/span&gt;&lt;/span&gt;&lt;span lang=&quot;NO-BOK&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;
+color:#4B5C66&#39;&gt;Modellen for tilgangskontroller&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-left:.25in;text-indent:-.25in;line-height:
+normal&#39;&gt;&lt;span lang=&quot;EN&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;
+color:#4B5C66&#39;&gt;6.&lt;span style=&#39;font:7.0pt &quot;Times New Roman&quot;&#39;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+&lt;/span&gt;&lt;/span&gt;&lt;span lang=&quot;NO-BOK&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;
+color:#4B5C66&#39;&gt;Virksomme sikkerhetsspesifikke systemer (IDS, HIDS,
+s&#229;rbarhetsskanning)&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-left:.25in;text-indent:-.25in;line-height:
+normal&#39;&gt;&lt;span lang=&quot;DE&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;
+color:#4B5C66&#39;&gt;7.&lt;span style=&#39;font:7.0pt &quot;Times New Roman&quot;&#39;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+&lt;/span&gt;&lt;/span&gt;&lt;span lang=&quot;NO-BOK&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;
+color:#4B5C66&#39;&gt;Sikkerhetsansvarlige roller (team og ledelse)&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-left:.25in;text-indent:-.25in;line-height:
+normal&#39;&gt;&lt;span lang=&quot;EN&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;
+color:#4B5C66&#39;&gt;8.&lt;span style=&#39;font:7.0pt &quot;Times New Roman&quot;&#39;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+&lt;/span&gt;&lt;/span&gt;&lt;span lang=&quot;NO-BOK&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;
+color:#4B5C66&#39;&gt;Opplysninger om beskyttelse av legitimasjon for systemkontoer
+som krever tilgangsrettigheter&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-left:.25in;text-indent:-.25in;line-height:
+normal&#39;&gt;&lt;span lang=&quot;EN&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;
+color:#4B5C66&#39;&gt;9.&lt;span style=&#39;font:7.0pt &quot;Times New Roman&quot;&#39;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+&lt;/span&gt;&lt;/span&gt;&lt;span lang=&quot;NO-BOK&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;
+color:#4B5C66&#39;&gt;Opplysninger om hvordan tilgang til systemer tildeles,
+annulleres, overv&#229;kes&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-left:.25in;text-indent:-.25in;line-height:
+normal&#39;&gt;&lt;span lang=&quot;EN&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;
+color:#4B5C66&#39;&gt;10.&lt;span style=&#39;font:7.0pt &quot;Times New Roman&quot;&#39;&gt;&amp;nbsp; &lt;/span&gt;&lt;/span&gt;&lt;span lang=&quot;NO-BOK&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;
+color:#4B5C66&#39;&gt;Hvilke ansattroller som gis tilgang til relevante systemer&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-left:.25in;text-indent:-.25in;line-height:
+normal&#39;&gt;&lt;span lang=&quot;EN&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;
+color:#4B5C66&#39;&gt;11.&lt;span style=&#39;font:7.0pt &quot;Times New Roman&quot;&#39;&gt;&amp;nbsp; &lt;/span&gt;&lt;/span&gt;&lt;span lang=&quot;NO-BOK&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;
+color:#4B5C66&#39;&gt;Alle prosesser for revisjon, overv&#229;king og loggf&#248;ring som er p&#229;
+plass&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-left:.25in;text-indent:-.25in;line-height:
+normal&#39;&gt;&lt;span lang=&quot;DE&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;
+color:#4B5C66&#39;&gt;12.&lt;span style=&#39;font:7.0pt &quot;Times New Roman&quot;&#39;&gt;&amp;nbsp; &lt;/span&gt;&lt;/span&gt;&lt;span lang=&quot;NO-BOK&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;
+color:#4B5C66&#39;&gt;Sikkerhetsprosesser for programmer (gode fremgangsm&#229;ter for
+sikker utvikling, sikkerhetstesting osv.)&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-left:.25in;text-indent:-.25in;line-height:
+normal&#39;&gt;&lt;span lang=&quot;EN&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;
+color:#4B5C66&#39;&gt;13.&lt;span style=&#39;font:7.0pt &quot;Times New Roman&quot;&#39;&gt;&amp;nbsp; &lt;/span&gt;&lt;/span&gt;&lt;span lang=&quot;NO-BOK&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;
+color:#4B5C66&#39;&gt;Prosedyrer for hendelsesrespons og katastrofegjenoppretting&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-left:.25in;text-indent:-.25in;line-height:
+normal&#39;&gt;&lt;span lang=&quot;EN&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;
+color:#4B5C66&#39;&gt;14.&lt;span style=&#39;font:7.0pt &quot;Times New Roman&quot;&#39;&gt;&amp;nbsp; &lt;/span&gt;&lt;/span&gt;&lt;span lang=&quot;NO-BOK&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;
+color:#4B5C66&#39;&gt;Prosess for h&#229;ndtering av sikkerhetsoppdateringer&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-left:.25in;text-indent:-.25in;line-height:
+normal&#39;&gt;&lt;span lang=&quot;EN&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;
+color:#4B5C66&#39;&gt;15.&lt;span style=&#39;font:7.0pt &quot;Times New Roman&quot;&#39;&gt;&amp;nbsp; &lt;/span&gt;&lt;/span&gt;&lt;span lang=&quot;NO-BOK&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;
+color:#4B5C66&#39;&gt;Prosess for bruk av eventuelle sikkerhetsoppdateringer fra
+tredjeparter for tredjepartskomponenter som er i bruk&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-left:.25in;text-indent:-.25in;line-height:
+normal&#39;&gt;&lt;span lang=&quot;EN&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;
+color:#4B5C66&#39;&gt;16.&lt;span style=&#39;font:7.0pt &quot;Times New Roman&quot;&#39;&gt;&amp;nbsp; &lt;/span&gt;&lt;/span&gt;&lt;span lang=&quot;NO-BOK&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;
+color:#4B5C66&#39;&gt;Opplysninger om hvordan Power BI-kundedata beskyttes ved lagring
+og under transitt n&#229;r de brukes av programmet&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;line-height:normal&#39;&gt;&lt;span lang=&quot;NO-BOK&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot;&gt;&lt;span lang=&quot;EN&quot; style=&#39;font-size:12.0pt;line-height:107%;
+font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;</value>
+  </data>
+  <data name="Heading" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="META_DESCRIPTION" xml:space="preserve">
+    <value />
+  </data>
+  <data name="META_KEYWORDS" xml:space="preserve">
+    <value />
+  </data>
+  <data name="META_PAGETITLE" xml:space="preserve">
+    <value>Power BI API Terms of Service | Microsoft Power BI</value>
+  </data>
+</root>

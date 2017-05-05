@@ -1,0 +1,85 @@
+@import (reference) '../../variables.d.less';
+@import (reference) '../../mixins.d.less';
+
+@color-transparency1: rgba(0, 0, 0, .2);
+@color-transparency2: rgba(0, 0, 0, .3);
+@color-transparency3: rgba(0, 0, 0, .4);
+@color-transparency4: rgba(255, 255, 255, .3);
+
+////////////////////
+// Navigation
+////////////////////
+.navigation.navigation-transparent {
+    color: #fff;
+    background-color: transparent;
+
+    ////////////////////
+    // Menu: Shared
+    ////////////////////
+    .menu-main,
+    .menu-secondary {
+        > li {
+            > a {
+                &:hover {
+                    background-color: @color-transparency1;
+                }
+
+                &:active {
+                    background-color: @color-transparency2;
+                }
+
+                &.active {
+                    background-color: @color-transparency3;
+                }
+            }
+        }
+    }
+
+    ////////////////////
+    // Menu: Main
+    ////////////////////
+    .menu-main {
+        background-color: @color-transparency3;
+    }
+
+    ////////////////////
+    // Menu: Drop
+    ////////////////////
+    .menu-drop {
+        background-color: @color-transparency3;
+
+        a {
+            &:hover,
+            &:active,
+            &.active {
+                background-color: @color-transparency1;
+            }
+        }
+    }
+
+    ////////////////////
+    // Menu: Pop
+    ////////////////////
+    .menu-pop {
+        background-color: @color-transparency3;
+
+        a {
+            &:hover,
+            &:active,
+            &.active {
+                background-color: @color-transparency1;
+            }
+        }
+    }
+
+    ////////////////////
+    // Hamburger
+    ////////////////////
+    .hamburger {
+        border-color: @color-transparency4;
+
+        .icon-hamburger {
+            border-color: @color-transparency4;
+        }
+    }
+}

@@ -1,0 +1,123 @@
+﻿@using Resources = PowerBI.Resources.Pages.Blog.Details;
+@using Shared = PowerBI.Resources.Shared.Blog;
+@using PowerBI.Web.Models;
+
+@model PowerBI.Web.Models.Pages.Blog.Details
+@{
+    Model.PageTitle = string.Format("{0} | {1}", Model.Post.Title, Resources.META_PAGETITLE);
+    Model.MetaKeywords = PageKeywordsHelper.EscapeKeywords(Model.Post.Tags.Select(t => t.Name));
+    Model.MetaDescription = Model.Post.Summary;
+
+    var authorPosition = string.IsNullOrWhiteSpace(Model.Post.Author.Position) ? string.Empty : Model.Post.Author.Position;
+    var authorName = string.IsNullOrWhiteSpace(Model.Post.Author.Name) ? Model.Post.Author.Slug : Model.Post.Author.Name;
+    var publishedDate = Model.Post.Published == DateTime.MinValue ? Shared.NotPublished : Model.Post.Published.ToLocalizedString("MMMM d, yyyy");
+
+    Model.AdditionalMetaTags.Add("ms.date", Model.Post.Published.ToString("MM/dd/yyyy"));
+}
+
+<section class="section section-size2 section-palette02 section-heading-only">
+    <div class="row">
+        <div class="column">
+            <h2 class="text-heading1"><a href="@Html.LocalizeUrl("/blog/")">@Shared.Hero_Heading</a></h2>
+        </div>
+    </div>
+</section>
+
+@if (Model.IsInPreview)
+{
+    <section class="section section-slate01 section-size1">
+        <div class="row">
+            <div class="column">
+                @Resources.BlogPostPreview
+            </div>
+        </div>
+    </section>
+}
+
+<section class="section">
+    <div class="row">
+        <div class="column large-7">
+            <div class="row">
+                <div class="column">
+                    <ol class="breadcrumbs text-heading4">
+                        <li><a href="@Html.LocalizeUrl("/blog/")">@Shared.AzureBlog</a></li>
+                        @foreach (var category in Model.Post.Categories)
+                        {
+                            <li><a href="@Html.LocalizeUrl(string.Format("/blog/category/{0}/", category.Slug))">@category.Name</a></li>
+                        }
+                    </ol>
+                </div>
+            </div>
+
+            <div class="row row-size1">
+                <div class="column">
+                    <article>
+                        <h1>@Model.Post.Title</h1>
+
+                        <div class="post-bio">
+                            <img src="@Model.Post.Author.ProfileImage" alt="" class="post-image" />
+                            <div class="post-author-meta">
+                                <strong><a href="@Html.LocalizeUrl(Model.Post.Author.Url)" title="@Html.FormatInvariant(Shared.PostsBy, authorName)" rel="author">@authorName</a></strong><br />
+                                <span>@authorPosition</span>
+                            </div>
+
+                            <span class="post-date">
+                                <span class="icon icon-palette02">
+                                    @SvgHelper.GetSvg("calendar")
+                                </span>
+                                @publishedDate
+                            </span>
+
+                            <span class="post-share">
+                            @if (Model.SocialModel != null)
+                            {
+                                @Html.RenderSocial(Model)
+                            }
+                            </span>
+                        </div>
+
+                        <div class="post-content">
+                            @Html.Raw(Model.Content)
+                        </div>
+                    </article>
+                </div>
+            </div>
+
+            @if (Model.Post.Tags.Any())
+            {
+                <div class="row">
+                    <div class="column">
+                        <ul class="linkList text-heading4 linkList-horizontal">
+                            @foreach (var tag in Model.Post.Tags)
+                            {
+                                <li><a href="@Html.LocalizeUrl(string.Format("/blog/tag/{0}/", tag.Slug))">@tag.Name</a></li>
+                            }
+                        </ul>
+                    </div>
+                </div>
+            }
+
+            <div class="row">
+                <div class="column">
+                    @Html.Partial("parts/_newsletter-signup")
+                </div>
+            </div>
+
+            <div class="row" style="margin-bottom: 150px">
+                <div id="disqus-container" class="column">
+                    @* This DIV will be automatically filled with the Disqus control. *@
+                </div>
+            </div>
+        </div>
+        <div class="column large-4 large-offset-1">
+            @Html.Partial("blog/_sidebar", Model.AllCategories)
+        </div>
+    </div>
+</section>
+
+@section foot {
+    @if (Model.DisqusModel != null)
+    {
+            @Html.Partial("parts/_disqus", Model.DisqusModel)
+    }
+}

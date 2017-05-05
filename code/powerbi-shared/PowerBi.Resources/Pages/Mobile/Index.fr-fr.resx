@@ -1,0 +1,207 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" id="root">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AlwaysKnow_Content" xml:space="preserve">
+    <value>Restez informé grâce aux alertes de données. Découvrez à temps des tendances clés et réagissez immédiatement.</value>
+  </data>
+  <data name="AlwaysKnow_Heading" xml:space="preserve">
+    <value>Soyez toujours informé</value>
+  </data>
+  <data name="Android" xml:space="preserve">
+    <value>Android</value>
+  </data>
+  <data name="AppStore" xml:space="preserve">
+    <value>l’App Store</value>
+  </data>
+  <data name="DataOnGo" xml:space="preserve">
+    <value>Vos données en déplacement</value>
+  </data>
+  <data name="DataOnGo_Content" xml:space="preserve">
+    <value>Rejoignez-nous pour cette session en ligne et apprenez à prendre des décisions en fonction des données où que vous soyez à l’aide de l’application mobile Power BI pour iOS, Android et Windows.</value>
+  </data>
+  <data name="DemandWebinar" xml:space="preserve">
+    <value>Webinaire à la demande</value>
+  </data>
+  <data name="Download" xml:space="preserve">
+    <value>Télécharger</value>
+  </data>
+  <data name="DownloadFrom" xml:space="preserve">
+    <value>Télécharger depuis</value>
+  </data>
+  <data name="Form_Cta" xml:space="preserve">
+    <value>Recevoir un lien</value>
+  </data>
+  <data name="GetLink_Heading" xml:space="preserve">
+    <value>Vous n’avez pas Power BI sur votre appareil mobile ? Entrez votre adresse e-mail et nous vous enverrons un lien de téléchargement</value>
+  </data>
+  <data name="GooglePlay" xml:space="preserve">
+    <value>Google Play</value>
+  </data>
+  <data name="Hero_Content" xml:space="preserve">
+    <value>Restez connecté à vos données à tout moment, où que vous soyez, grâce à l’application Power BI pour Windows, iOS et Android. À l’aide d’un simple geste, obtenez une vue globale de vos données d’entreprise quand vous êtes en déplacement.</value>
+  </data>
+  <data name="Hero_Heading" xml:space="preserve">
+    <value>Emportez vos données partout avec vous</value>
+  </data>
+  <data name="Hero_MoreStoreOptions_Cta" xml:space="preserve">
+    <value>Également disponible dans d’autres pays</value>
+  </data>
+  <data name="META_DESCRIPTION" xml:space="preserve">
+    <value>Power BI transforme les données de votre entreprise en riches éléments visuels que vous pouvez collecter et organiser sans difficulté comme vous le voulez, pour que vous puissiez vous concentrer sur ce qui est vraiment important. Restez au fait des changements, repérez les tendances en temps réel et poussez votre entreprise encore plus loin.</value>
+  </data>
+  <data name="META_KEYWORDS" xml:space="preserve">
+    <value />
+  </data>
+  <data name="META_PAGETITLE" xml:space="preserve">
+    <value>Mobile | Microsoft Power BI</value>
+  </data>
+  <data name="MoreStoreOptions_Heading" xml:space="preserve">
+    <value>Vous avez besoin d’une version spécifique à un pays ou une région ? Afficher plus d’options de magasin</value>
+  </data>
+  <data name="RegionCountry" xml:space="preserve">
+    <value>Pays :</value>
+  </data>
+  <data name="Region_China" xml:space="preserve">
+    <value>Chine</value>
+  </data>
+  <data name="Region_Global" xml:space="preserve">
+    <value>Global</value>
+  </data>
+  <data name="Register" xml:space="preserve">
+    <value>Inscription</value>
+  </data>
+  <data name="ShareDiscovers_Content" xml:space="preserve">
+    <value>Partagez des rapports et des tableaux de bord en temps réel pour que vous et votre équipe soyez sur la même longueur d’onde. Faites parler vos données pour susciter l’intérêt de vos clients et de vos collègues.</value>
+  </data>
+  <data name="ShareDiscovers_Heading" xml:space="preserve">
+    <value>Partagez vos découvertes avec votre équipe</value>
+  </data>
+  <data name="Visualize_Content" xml:space="preserve">
+    <value>Visualisez vos rapports et vos tableaux de bords personnalisés où que vous soyez. Interagissez facilement avec vos données grâce aux fonctionnalités tactiles des applications natives Power BI pour Windows, iOS et Android.</value>
+  </data>
+  <data name="Visualize_Heading" xml:space="preserve">
+    <value>Visualisez</value>
+  </data>
+  <data name="WindowsStore" xml:space="preserve">
+    <value>le Windows Store</value>
+  </data>
+  <data name="Meta_LocJobId" xml:space="preserve">
+    <value>174</value>
+  </data>
+</root>

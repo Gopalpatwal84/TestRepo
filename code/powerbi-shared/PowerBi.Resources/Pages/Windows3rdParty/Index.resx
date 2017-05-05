@@ -1,0 +1,535 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Content" xml:space="preserve">
+    <value>&lt;h3&gt;Third Party Notices&lt;/h3&gt;
+            &lt;h4&gt;Links&lt;/h4&gt;
+            &lt;p&gt;&lt;u&gt;&lt;a href="#PC"&gt;PC/Tablet&lt;/a&gt;&lt;/u&gt;&lt;/p&gt;
+            &lt;p&gt;&lt;u&gt;&lt;a href="#_AngularJS_-_WinJS"&gt;AngularJS – WinJS&lt;/a&gt;&lt;/u&gt;&lt;/p&gt;
+            &lt;p&gt;&lt;u&gt;&lt;a href="#_AngularUI_Router_v0.2.13"&gt;AngularUI Router v0.2.13&lt;/a&gt;&lt;/u&gt;&lt;/p&gt;
+            &lt;p&gt;&lt;u&gt;&lt;a href="#_winjs-localcontext-adapter"&gt;winjs-localcontext-adapter&lt;/a&gt;&lt;/u&gt;&lt;/p&gt;
+            &lt;p&gt;&lt;u&gt;&lt;a href="#_Localytics_Javascript_for"&gt;Localytics Javascript for Apps SDK v2.6.0&lt;/a&gt;&lt;/u&gt;&lt;/p&gt;
+            &lt;p&gt;&lt;u&gt;&lt;a href="#_Bond"&gt;Bond&lt;/a&gt;&lt;/u&gt;&lt;/p&gt;
+            &lt;p&gt;&lt;u&gt;&lt;a href="#_Hammer.js_v2.0.4"&gt;Hammer.js v2.0.4&lt;/a&gt;&lt;/u&gt;&lt;/p&gt;
+            &lt;p&gt;&lt;u&gt;&lt;a href="#_Angular_JS_1.1.5+"&gt;Angular JS 1.1.5+&lt;/a&gt;&lt;/u&gt;&lt;/p&gt;
+            &lt;p&gt;&lt;u&gt;&lt;a href="#_fabric.js_v1.4.13"&gt;fabric.js v1.4.13&lt;/a&gt;&lt;/u&gt;&lt;/p&gt;
+            &lt;p&gt;&lt;u&gt;&lt;a href="#_Mozilla_Public_License"&gt;Mozilla Public License, version 2.0&lt;/a&gt;&lt;/u&gt;&lt;/p&gt;
+            &lt;p&gt;&lt;u&gt;&lt;a href="#_Active_Directory_Authentication"&gt;Active Directory Authentication Library (ADAL)&lt;/a&gt;&lt;/u&gt;&lt;/p&gt;
+            &lt;p&gt;&lt;u&gt;&lt;a href="#_jQuery_UI_v1.11.1"&gt;jQuery UI v1.11.1&lt;/a&gt;&lt;/u&gt;&lt;/p&gt;
+            &lt;p&gt;&lt;u&gt;&lt;a href="#_AngularJS_v1.3.0"&gt;AngularJS v1.3.0&lt;/a&gt;&lt;/u&gt;&lt;/p&gt;
+            &lt;p&gt;&lt;u&gt;&lt;a href="#_Moment.js_v2.8.3"&gt;Moment.js v2.8.3&lt;/a&gt;&lt;/u&gt;&lt;/p&gt;
+            &lt;p&gt;&lt;u&gt;&lt;a href="#_Velocity_v1.1.0"&gt;Velocity v1.1.0&lt;/a&gt;&lt;/u&gt;&lt;/p&gt;
+            &lt;p&gt;&lt;u&gt;&lt;a href="#_D3.js_v3.5.5"&gt;D3.js v3.5.5&lt;/a&gt;&lt;/u&gt;&lt;/p&gt;
+            &lt;p&gt;&lt;u&gt;&lt;a href="#_Gridster"&gt;Gridster&lt;/a&gt;&lt;/u&gt;&lt;/p&gt;
+            &lt;p&gt;&lt;u&gt;&lt;a href="#_ngStorage_v0.3.0"&gt;ngStorage v0.3.0&lt;/a&gt;&lt;/u&gt;&lt;/p&gt;
+            &lt;p&gt;&lt;u&gt;&lt;a href="#_angular-file-upload_1.4.0"&gt;angular-file-upload 1.4.0&lt;/a&gt;&lt;/u&gt;&lt;/p&gt;
+            &lt;p&gt;&lt;u&gt;&lt;a href="#_jquery-visible_v1.0.0"&gt;jquery-visible v1.0.0&lt;/a&gt;&lt;/u&gt;&lt;/p&gt;
+            &lt;p&gt;&lt;u&gt;&lt;a href="#_DataTables_v1.10.2"&gt;DataTables v1.10.2&lt;/a&gt;&lt;/u&gt;&lt;/p&gt;
+            &lt;p&gt;&lt;u&gt;&lt;a href="#_Casablanca"&gt;Casablanca&lt;/a&gt;&lt;/u&gt;&lt;/p&gt;
+            &lt;p&gt;&lt;u&gt;&lt;a href="#_jQuery_v2.1.3"&gt;jQuery v2.1.3&lt;/a&gt;&lt;/u&gt;&lt;/p&gt;
+            &lt;p&gt;&lt;u&gt;&lt;a href="#_Boost_1.0"&gt;Boost 1.0&lt;/a&gt;&lt;/u&gt;&lt;/p&gt;
+            &lt;p&gt;&lt;strong&gt;This file is based on or incorporates material from the projects listed below (collectively, "Third Party Code"). Microsoft is not the original author of the Third Party Code. The original copyright notice and the license, under which Microsoft received such Third Party Code, are set forth below. Such licenses and notices are provided for informational purposes only. Microsoft, not the third party, licenses the Third Party Code to you under the terms set forth in the EULA for the Microsoft Product. Microsoft reserves all rights not expressly granted under this agreement, whether by implication, estoppel or otherwise.&lt;/strong&gt;&lt;/p&gt;
+            &lt;p&gt;THIRD PARTY NOTICES FOR MICROSOFT POWER BI FOR WINDOWS (MICROSOFT PRODUCT)&lt;/p&gt;
+            &lt;p&gt;START OF THIRD PARTY NOTICES&lt;/p&gt;
+            &lt;p&gt;This Third Party Notice file provides notices and information about the third party open source software or other materials listed below (Open Source Component) which may be included with the Microsoft Product. Microsoft reserves all other rights to the Open Source Component not expressly granted by Microsoft, whether by implication, estoppel or otherwise. It will be stated for each Open Source Component listed below whether the license terms of the Microsoft Product license agreement control or do not control as the terms governing the Open Source Component.&lt;/p&gt;
+            &lt;p&gt;This file is based on or incorporates material from the projects listed below (Third Party IP). The original copyright notice and the license under which Microsoft received such Third Party IP, are set forth below. Such licenses and notices are provided for informational purposes only. Microsoft licenses the Third Party IP to you under the licensing terms for the Microsoft product. Microsoft reserves all other rights not expressly granted under this agreement, whether by implication, estoppel or otherwise.&lt;/p&gt;
+            &lt;h3 id="PC"&gt;PC/Tablet&lt;/h3&gt;
+            &lt;p&gt;START OF LICENSE&lt;/p&gt;
+            &lt;p&gt;Files originating with or related to AngularJS - WinJS, a "[p]roject to smooth the AngularJS/WinJS interaction. This code is a shim layer which facilitates usage of WinJS UI controls in an Angular Windows application." See &lt;a href="https://github.com/winjs/angular-winjs"&gt;https://github.com/winjs/angular-winjs&lt;/a&gt;. While AngularJS - WinJS is currently copyright Microsoft, and licensed under the terms of the MIT License (see &lt;a href="https://github.com/winjs/angular-winjs/blob/master/License.txt"&gt;https://github.com/winjs/angular-winjs/blob/master/License.txt&lt;/a&gt;), as found in the materials this apparently older version of AngularJS - WinJS is copyright Josh Williams, and also licensed under the terms of the MIT License per the following LICENSE file in the materials (see also &lt;a href="https://github.com/codemonkeychris/angular-winjs"&gt;https://github.com/codemonkeychris/angular-winjs&lt;/a&gt; and&lt;a href="https://github.com/codemonkeychris/angular-winjs/blob/master/LICENSE"&gt;https://github.com/codemonkeychris/angular-winjs/blob/master/LICENSE&lt;/a&gt;):&lt;/p&gt;
+            &lt;h3 id="_AngularJS_-_WinJS"&gt;AngularJS - WinJS&lt;/h3&gt;
+            &lt;p&gt;The MIT License (MIT)&lt;/p&gt;
+            &lt;p&gt;Copyright © 2013 Josh Williams&lt;/p&gt;
+            &lt;p&gt;Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:&lt;/p&gt;
+            &lt;p&gt;The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.&lt;/p&gt;
+            &lt;p&gt;THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.&lt;/p&gt;
+            &lt;p&gt;END OF LICENSE&lt;/p&gt;
+            &lt;p&gt;START OF LICENSE&lt;/p&gt;
+            &lt;p&gt;Files originating with or related to AngularUI Router v0.2.13, "a routing framework for AngularJS, which allows you to organize the parts of your interface into a state machine. Unlike the &amp;#36;route service in the Angular ngRoute module, which is organized around URL routes, UI-Router is organized around states, which may optionally have routes, as well as other behavior, attached." See &lt;a href="https://github.com/angular-ui/ui-router/"&gt;https://github.com/angular-ui/ui-router/&lt;/a&gt;. This material is licensed under the terms of the MIT License:&lt;/p&gt;
+            &lt;h3 id="_AngularUI_Router_v0.2.13"&gt;AngularUI Router v0.2.13&lt;/h3&gt;
+            &lt;p&gt;The MIT License&lt;/p&gt;
+            &lt;p&gt;Copyright © 2014 The AngularUI Team, Karsten Sperling&lt;/p&gt;
+            &lt;p&gt;Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:&lt;/p&gt;
+            &lt;p&gt;The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.&lt;/p&gt;
+            &lt;p&gt;THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.&lt;/p&gt;
+            &lt;p&gt;END OF LICENSE&lt;/p&gt;
+            &lt;p&gt;START OF LICENSE&lt;/p&gt;
+            &lt;h3 id="_winjs-localcontext-adapter"&gt;winjs-localcontext-adapter&lt;/h3&gt;
+            &lt;p&gt;Files originating with or related to winjs-localcontext-adapter, a collection of "[s]hims and other snippets to assist with use of traditional JavaScript libraries within the locked-down local context of WinJS." See &lt;a href="https://github.com/blinkmobile/winjs-localcontext-adapter"&gt;https://github.com/blinkmobile/winjs-localcontext-adapter&lt;/a&gt;. This material is licensed under the terms of the BSD License:&lt;/p&gt;
+            &lt;p&gt;Copyright © 2014, Blink Mobile Interactive. All rights reserved.&lt;/p&gt;
+            &lt;p&gt;Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:&lt;/p&gt;
+            &lt;ul&gt;
+                &lt;li&gt;Redistributions of source code must retain the above copyright notice, this list of conditions and the following disclaimer.&lt;/li&gt;
+                &lt;li&gt;Redistributions in binary form must reproduce the above copyright notice, this list of conditions and the following disclaimer in the documentation and/or other materials provided with the distribution.&lt;/li&gt;
+                &lt;li&gt;Neither the name of the {organization} nor the names of its contributors may be used to endorse or promote products derived from this software without specific prior written permission.&lt;/li&gt;
+            &lt;/ul&gt;
+            &lt;p&gt;THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.&lt;/p&gt;
+            &lt;p&gt;END OF LICENSE&lt;/p&gt;
+            &lt;p&gt;START OF LICENSE&lt;/p&gt;
+            &lt;h3 id="_Localytics_Javascript_for"&gt;Localytics Javascript for Apps SDK v2.6.0&lt;/h3&gt;
+            &lt;p&gt;Files originating with or related to the Localytics Javascript for Apps SDK v2.6.0. See &lt;a href="https://support.localytics.com/SDK_Downloads"&gt;https://support.localytics.com/SDK_Downloads&lt;/a&gt;. A notice in file localytics.js states:&lt;/p&gt;
+            &lt;p&gt;/*!&lt;br /&gt;* Localytics HTML5/JavaScript Library&lt;br /&gt;* Copyright © 2013 Char Software Inc., DBA Localytics&lt;br /&gt;* &lt;br /&gt;* This code is provided under the Localytics Modified BSD License.&lt;br /&gt;* A copy of this license is available at&lt;br /&gt;* &lt;a href="http://www.localytics.com/docs/opensourceinfo/#license-documentation"&gt;http://www.localytics.com/docs/opensourceinfo/#license-documentation&lt;/a&gt;&lt;br /&gt;* &lt;br /&gt;* Please visit &lt;a href="http://www.localytics.com/"&gt;www.localytics.com&lt;/a&gt; for more information.&lt;br /&gt;*/&lt;/p&gt;
+            &lt;p&gt;See &lt;a href="https://support.localytics.com/Open_Source_Info"&gt;https://support.localytics.com/Open_Source_Info&lt;/a&gt;, which states:&lt;/p&gt;
+            &lt;p&gt;Copyright © 2009, Char Software, Inc. d/b/a Localytics. All rights reserved.&lt;/p&gt;
+            &lt;p&gt;Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:&lt;/p&gt;
+            &lt;p&gt;Redistributions of source code must retain the above copyright notice, this list of conditions and the following disclaimer.&lt;/p&gt;
+            &lt;p&gt;Neither the name of Char Software, Inc., Localytics nor the names of its contributors may be used to endorse or promote products derived from this software without specific prior written permission.&lt;/p&gt;
+            &lt;p&gt;THIS SOFTWARE IS PROVIDED BY CHAR SOFTWARE, INC. D/B/A LOCALYTICS "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL CHAR SOFTWARE, INC. D/B/A LOCALYTICS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.&lt;/p&gt;
+            &lt;p&gt;END OF LICENSE&lt;/p&gt;
+            &lt;p&gt;START OF LICENSE&lt;/p&gt;
+            &lt;h3 id="_Bond"&gt;Bond&lt;/h3&gt;
+            &lt;p&gt;Files originating with Bond, a cross-platform framework for working with schematized data. It supports cross-language de/serialization and powerful generic mechanisms for efficiently manipulating data. Bond is broadly used at Microsoft in high scale services. This material is licensed under the terms of the MIT License:&lt;/p&gt;
+            &lt;p&gt;Copyright © 2014 Microsoft&lt;/p&gt;
+            &lt;p&gt;Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:&lt;/p&gt;
+            &lt;p&gt;The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.&lt;/p&gt;
+            &lt;p&gt;THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.&lt;/p&gt;
+            &lt;p&gt;END OF LICENSE&lt;/p&gt;
+            &lt;p&gt;START OF LICENSE&lt;/p&gt;
+            &lt;h3 id="_Hammer.js_v2.0.4"&gt;Hammer.js v2.0.4&lt;/h3&gt;
+            &lt;p&gt;Files originating with or related to Hammer.js v2.0.4, a "javascript library for multi-touch gestures." See &lt;a href="https://github.com/hammerjs/hammer.js"&gt;https://github.com/hammerjs/hammer.js&lt;/a&gt;. This material is licensed under the terms of the MIT License:&lt;/p&gt;
+            &lt;p&gt;The MIT License (MIT)&lt;/p&gt;
+            &lt;p&gt;Copyright © 2011-2014 by Jorik Tangelder (Eight Media)&lt;/p&gt;
+            &lt;p&gt;Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:&lt;/p&gt;
+            &lt;p&gt;The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.&lt;/p&gt;
+            &lt;p&gt;THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.&lt;/p&gt;
+            &lt;p&gt;END OF LICENSE&lt;/p&gt;
+            &lt;p&gt;START OF LICENSE&lt;/p&gt;
+            &lt;h3 id="_Angular_JS_1.1.5+"&gt;Angular JS 1.1.5+&lt;/h3&gt;
+            &lt;p&gt;File prefaced by the following notice:&lt;/p&gt;
+            &lt;p&gt;// Type definitions for Angular JS 1.1.5+ (ui.router module)&lt;/p&gt;
+            &lt;p&gt;// Project: https://github.com/angular-ui/ui-router&lt;/p&gt;
+            &lt;p&gt;// Definitions by: Michel Salib &lt;a href="https://github.com/michelsalib"&gt;https://github.com/michelsalib&lt;/a&gt;&lt;/p&gt;
+            &lt;p&gt;// Definitions: https://github.com/borisyankov/DefinitelyTyped&lt;/p&gt;
+            &lt;p&gt;See &lt;a href="https://github.com/borisyankov/DefinitelyTyped"&gt;https://github.com/borisyankov/DefinitelyTyped&lt;/a&gt;. According to this webpage,&lt;/p&gt;
+            &lt;p&gt;This project is licensed under the MIT license.&lt;/p&gt;
+            &lt;p&gt;Copyrights on the definition files are respective of each contributor listed at the beginning of each definition file.&lt;/p&gt;
+            &lt;p&gt;It is unclear if AngularUI Router is in compliance with the terms of this project's license, which we infer would state in this instance:&lt;/p&gt;
+            &lt;p&gt;Copyright © 2014 Michel Salib&lt;/p&gt;
+            &lt;p&gt;Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:&lt;/p&gt;
+            &lt;p&gt;The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.&lt;/p&gt;
+            &lt;p&gt;THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.&lt;/p&gt;
+            &lt;p&gt;END OF LICENSE&lt;/p&gt;
+            &lt;p&gt;START OF LICENSE&lt;/p&gt;
+            &lt;h3 id="_fabric.js_v1.4.13"&gt;fabric.js v1.4.13&lt;/h3&gt;
+            &lt;p&gt;Files originating with or related to fabric.js v1.4.13, a "Javascript Canvas Library, SVG-to-Canvas (&amp;amp; canvas-to-SVG) Parser." See &lt;a href="http://fabricjs.com/"&gt;http://fabricjs.com&lt;/a&gt;and &lt;a href="https://github.com/kangax/fabric.js"&gt;https://github.com/kangax/fabric.js&lt;/a&gt;. This material is licensed under the terms of a permissive license (a modified MIT License with all conditions removed): Copyright © 2008-2014 Printio (Juriy Zaytsev, Maxim Chernyak)&lt;/p&gt;
+            &lt;p&gt;Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:&lt;/p&gt;
+            &lt;p&gt;THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.&lt;/p&gt;
+            &lt;p&gt;Certain files from fabric.js are adapted from &lt;a href="http://dxr.mozilla.org/mozilla-central/source/content/svg/content/src/nsSVGPathDataParser.cpp"&gt;http://dxr.mozilla.org/mozilla-central/source/content/svg/content/src/nsSVGPathDataParser.cpp&lt;/a&gt; by Andrea Bogazzi, which is subject to the Mozilla Public License v. 2.0. You may find a copy of the Corresponding Source code, if and as required under the Third Party Code License, either bundled with the Microsoft product or at &lt;a href="http://3rdpartysource.microsoft.com/"&gt;http://3rdpartysource.microsoft.com&lt;/a&gt;. If not bundled with the product, you may also obtain a copy of the source code for a period of one year after our last shipment of this product.&lt;/p&gt;
+            &lt;p&gt;Provided for Informational Purposes Only&lt;/p&gt;
+            &lt;h3 id="_Mozilla_Public_License"&gt;Mozilla Public License, version 2.0&lt;/h3&gt;
+            &lt;ol&gt;
+                &lt;li&gt;Definitions&lt;/li&gt;
+            &lt;/ol&gt;
+            &lt;p&gt;1.1. "Contributor"&lt;/p&gt;
+            &lt;p&gt;means each individual or legal entity that creates, contributes to the creation of, or owns Covered Software.&lt;/p&gt;
+            &lt;p&gt;1.2. "Contributor Version"&lt;/p&gt;
+            &lt;p&gt;means the combination of the Contributions of others (if any) used by a Contributor and that particular Contributor's Contribution.&lt;/p&gt;
+            &lt;p&gt;1.3. "Contribution"&lt;/p&gt;
+            &lt;p&gt;means Covered Software of a particular Contributor.&lt;/p&gt;
+            &lt;p&gt;1.4. "Covered Software"&lt;/p&gt;
+            &lt;p&gt;means Source Code Form to which the initial Contributor has attached the notice in Exhibit A, the Executable Form of such Source Code Form, and Modifications of such Source Code Form, in each case including portions thereof.&lt;/p&gt;
+            &lt;p&gt;1.5. "Incompatible With Secondary Licenses"&lt;/p&gt;
+            &lt;p&gt;means&lt;/p&gt;
+            &lt;p&gt;that the initial Contributor has attached the notice described in Exhibit B to the Covered Software; or&lt;/p&gt;
+            &lt;p&gt;that the Covered Software was made available under the terms of version 1.1 or earlier of the License, but not also under the terms of a Secondary License.&lt;/p&gt;
+            &lt;p&gt;1.6. "Executable Form"&lt;/p&gt;
+            &lt;p&gt;means any form of the work other than Source Code Form.&lt;/p&gt;
+            &lt;p&gt;1.7. "Larger Work"&lt;/p&gt;
+            &lt;p&gt;means a work that combines Covered Software with other material, in a separate file or files, that is not Covered Software.&lt;/p&gt;
+            &lt;p&gt;1.8. "License"&lt;/p&gt;
+            &lt;p&gt;means this document.&lt;/p&gt;
+            &lt;p&gt;1.9. "Licensable"&lt;/p&gt;
+            &lt;p&gt;means having the right to grant, to the maximum extent possible, whether at the time of the initial grant or subsequently, any and all of the rights conveyed by this License.&lt;/p&gt;
+            &lt;p&gt;1.10. "Modifications"&lt;/p&gt;
+            &lt;p&gt;means any of the following:&lt;/p&gt;
+            &lt;p&gt;any file in Source Code Form that results from an addition to, deletion from, or modification of the contents of Covered Software; or&lt;/p&gt;
+            &lt;p&gt;any new file in Source Code Form that contains any Covered Software.&lt;/p&gt;
+            &lt;p&gt;1.11. "Patent Claims" of a Contributor&lt;/p&gt;
+            &lt;p&gt;means any patent claim(s), including without limitation, method, process, and apparatus claims, in any patent Licensable by such Contributor that would be infringed, but for the grant of the License, by the making, using, selling, offering for sale, having made, import, or transfer of either its Contributions or its Contributor Version.&lt;/p&gt;
+            &lt;p&gt;1.12. "Secondary License"&lt;/p&gt;
+            &lt;p&gt;means either the GNU General Public License, Version 2.0, the GNU Lesser General Public License, Version 2.1, the GNU Affero General Public License, Version 3.0, or any later versions of those licenses.&lt;/p&gt;
+            &lt;p&gt;1.13. "Source Code Form"&lt;/p&gt;
+            &lt;p&gt;means the form of the work preferred for making modifications.&lt;/p&gt;
+            &lt;p&gt;1.14. "You" (or "Your")&lt;/p&gt;
+            &lt;p&gt;means an individual or a legal entity exercising rights under this License. For legal entities, "You" includes any entity that controls, is controlled by, or is under common control with You. For purposes of this definition, "control" means (a) the power, direct or indirect, to cause the direction or management of such entity, whether by contract or otherwise, or (b) ownership of more than fifty percent (50%) of the outstanding shares or beneficial ownership of such entity.&lt;/p&gt;
+            &lt;ol start="2"&gt;
+                &lt;li&gt;License Grants and Conditions&lt;/li&gt;
+            &lt;/ol&gt;
+            &lt;p&gt;2.1. Grants&lt;/p&gt;
+            &lt;p&gt;Each Contributor hereby grants You a world-wide, royalty-free, non-exclusive license:&lt;/p&gt;
+            &lt;p&gt;under intellectual property rights (other than patent or trademark) Licensable by such Contributor to use, reproduce, make available, modify, display, perform, distribute, and otherwise exploit its Contributions, either on an unmodified basis, with Modifications, or as part of a Larger Work; and&lt;/p&gt;
+            &lt;p&gt;under Patent Claims of such Contributor to make, use, sell, offer for sale, have made, import, and otherwise transfer either its Contributions or its Contributor Version.&lt;/p&gt;
+            &lt;p&gt;2.2. Effective Date&lt;/p&gt;
+            &lt;p&gt;The licenses granted in Section 2.1 with respect to any Contribution become effective for each Contribution on the date the Contributor first distributes such Contribution.&lt;/p&gt;
+            &lt;p&gt;2.3. Limitations on Grant Scope&lt;/p&gt;
+            &lt;p&gt;The licenses granted in this Section 2 are the only rights granted under this License. No additional rights or licenses will be implied from the distribution or licensing of Covered Software under this License. Notwithstanding Section 2.1(b) above, no patent license is granted by a Contributor:&lt;/p&gt;
+            &lt;p&gt;for any code that a Contributor has removed from Covered Software; or&lt;/p&gt;
+            &lt;p&gt;for infringements caused by: (i) Your and any other third party's modifications of Covered Software, or (ii) the combination of its Contributions with other software (except as part of its Contributor Version); or&lt;/p&gt;
+            &lt;p&gt;under Patent Claims infringed by Covered Software in the absence of its Contributions.&lt;/p&gt;
+            &lt;p&gt;This License does not grant any rights in the trademarks, service marks, or logos of any Contributor (except as may be necessary to comply with the notice requirements in Section 3.4).&lt;/p&gt;
+            &lt;p&gt;2.4. Subsequent Licenses&lt;/p&gt;
+            &lt;p&gt;No Contributor makes additional grants as a result of Your choice to distribute the Covered Software under a subsequent version of this License (see Section 10.2) or under the terms of a Secondary License (if permitted under the terms of Section 3.3).&lt;/p&gt;
+            &lt;p&gt;2.5. Representation&lt;/p&gt;
+            &lt;p&gt;Each Contributor represents that the Contributor believes its Contributions are its original creation(s) or it has sufficient rights to grant the rights to its Contributions conveyed by this License.&lt;/p&gt;
+            &lt;p&gt;2.6. Fair Use&lt;/p&gt;
+            &lt;p&gt;This License is not intended to limit any rights You have under applicable copyright doctrines of fair use, fair dealing, or other equivalents.&lt;/p&gt;
+            &lt;p&gt;2.7. Conditions&lt;/p&gt;
+            &lt;p&gt;Sections 3.1, 3.2, 3.3, and 3.4 are conditions of the licenses granted in Section 2.1.&lt;/p&gt;
+            &lt;ol start="3"&gt;
+                &lt;li&gt;Responsibilities&lt;/li&gt;
+            &lt;/ol&gt;
+            &lt;p&gt;3.1. Distribution of Source Form&lt;/p&gt;
+            &lt;p&gt;All distribution of Covered Software in Source Code Form, including any Modifications that You create or to which You contribute, must be under the terms of this License. You must inform recipients that the Source Code Form of the Covered Software is governed by the terms of this License, and how they can obtain a copy of this License. You may not attempt to alter or restrict the recipients' rights in the Source Code Form.&lt;/p&gt;
+            &lt;p&gt;3.2. Distribution of Executable Form&lt;/p&gt;
+            &lt;p&gt;If You distribute Covered Software in Executable Form then:&lt;/p&gt;
+            &lt;p&gt;such Covered Software must also be made available in Source Code Form, as described in Section 3.1, and You must inform recipients of the Executable Form how they can obtain a copy of such Source Code Form by reasonable means in a timely manner, at a charge no more than the cost of distribution to the recipient; and&lt;/p&gt;
+            &lt;p&gt;You may distribute such Executable Form under the terms of this License, or sublicense it under different terms, provided that the license for the Executable Form does not attempt to limit or alter the recipients' rights in the Source Code Form under this License.&lt;/p&gt;
+            &lt;p&gt;3.3. Distribution of a Larger Work&lt;/p&gt;
+            &lt;p&gt;You may create and distribute a Larger Work under terms of Your choice, provided that You also comply with the requirements of this License for the Covered Software. If the Larger Work is a combination of Covered Software with a work governed by one or more Secondary Licenses, and the Covered Software is not Incompatible With Secondary Licenses, this License permits You to additionally distribute such Covered Software under the terms of such Secondary License(s), so that the recipient of the Larger Work may, at their option, further distribute the Covered Software under the terms of either this License or such Secondary License(s).&lt;/p&gt;
+            &lt;p&gt;3.4. Notices&lt;/p&gt;
+            &lt;p&gt;You may not remove or alter the substance of any license notices (including copyright notices, patent notices, disclaimers of warranty, or limitations of liability) contained within the Source Code Form of the Covered Software, except that You may alter any license notices to the extent required to remedy known factual inaccuracies.&lt;/p&gt;
+            &lt;p&gt;3.5. Application of Additional Terms&lt;/p&gt;
+            &lt;p&gt;You may choose to offer, and to charge a fee for, warranty, support, indemnity or liability obligations to one or more recipients of Covered Software. However, You may do so only on Your own behalf, and not on behalf of any Contributor. You must make it absolutely clear that any such warranty, support, indemnity, or liability obligation is offered by You alone, and You hereby agree to indemnify every Contributor for any liability incurred by such Contributor as a result of warranty, support, indemnity or liability terms You offer. You may include additional disclaimers of warranty and limitations of liability specific to any jurisdiction.&lt;/p&gt;
+            &lt;ol start="4"&gt;
+                &lt;li&gt;Inability to Comply Due to Statute or Regulation&lt;/li&gt;
+            &lt;/ol&gt;
+            &lt;p&gt;If it is impossible for You to comply with any of the terms of this License with respect to some or all of the Covered Software due to statute, judicial order, or regulation then You must: (a) comply with the terms of this License to the maximum extent possible; and (b) describe the limitations and the code they affect. Such description must be placed in a text file included with all distributions of the Covered Software under this License. Except to the extent prohibited by statute or regulation, such description must be sufficiently detailed for a recipient of ordinary skill to be able to understand it.&lt;/p&gt;
+            &lt;ol start="5"&gt;
+                &lt;li&gt;Termination&lt;/li&gt;
+            &lt;/ol&gt;
+            &lt;p&gt;5.1. The rights granted under this License will terminate automatically if You fail to comply with any of its terms. However, if You become compliant, then the rights granted under this License from a particular Contributor are reinstated (a) provisionally, unless and until such Contributor explicitly and finally terminates Your grants, and (b) on an ongoing basis, if such Contributor fails to notify You of the non-compliance by some reasonable means prior to 60 days after You have come back into compliance. Moreover, Your grants from a particular Contributor are reinstated on an ongoing basis if such Contributor notifies You of the non-compliance by some reasonable means, this is the first time You have received notice of non-compliance with this License from such Contributor, and You become compliant prior to 30 days after Your receipt of the notice.&lt;/p&gt;
+            &lt;p&gt;5.2. If You initiate litigation against any entity by asserting a patent infringement claim (excluding declaratory judgment actions, counter-claims, and cross-claims) alleging that a Contributor Version directly or indirectly infringes any patent, then the rights granted to You by any and all Contributors for the Covered Software under Section 2.1 of this License shall terminate.&lt;/p&gt;
+            &lt;p&gt;5.3. In the event of termination under Sections 5.1 or 5.2 above, all end user license agreements (excluding distributors and resellers) which have been validly granted by You or Your distributors under this License prior to termination shall survive termination.&lt;/p&gt;
+            &lt;ol start="6"&gt;
+                &lt;li&gt;Disclaimer of Warranty&lt;/li&gt;
+            &lt;/ol&gt;
+            &lt;p&gt;Covered Software is provided under this License on an "as is" basis, without warranty of any kind, either expressed, implied, or statutory, including, without limitation, warranties that the Covered Software is free of defects, merchantable, fit for a particular purpose or non-infringing. The entire risk as to the quality and performance of the Covered Software is with You. Should any Covered Software prove defective in any respect, You (not any Contributor) assume the cost of any necessary servicing, repair, or correction. This disclaimer of warranty constitutes an essential part of this License. No use of any Covered Software is authorized under this License except under this disclaimer.&lt;/p&gt;
+            &lt;ol start="7"&gt;
+                &lt;li&gt;Limitation of Liability&lt;/li&gt;
+            &lt;/ol&gt;
+            &lt;p&gt;Under no circumstances and under no legal theory, whether tort (including negligence), contract, or otherwise, shall any Contributor, or anyone who distributes Covered Software as permitted above, be liable to You for any direct, indirect, special, incidental, or consequential damages of any character including, without limitation, damages for lost profits, loss of goodwill, work stoppage, computer failure or malfunction, or any and all other commercial damages or losses, even if such party shall have been informed of the possibility of such damages. This limitation of liability shall not apply to liability for death or personal injury resulting from such party's negligence to the extent applicable law prohibits such limitation. Some jurisdictions do not allow the exclusion or limitation of incidental or consequential damages, so this exclusion and limitation may not apply to You.&lt;/p&gt;
+            &lt;ol start="8"&gt;
+                &lt;li&gt;Litigation&lt;/li&gt;
+            &lt;/ol&gt;
+            &lt;p&gt;Any litigation relating to this License may be brought only in the courts of a jurisdiction where the defendant maintains its principal place of business and such litigation shall be governed by laws of that jurisdiction, without reference to its conflict-of-law provisions. Nothing in this Section shall prevent a party's ability to bring cross-claims or counter-claims.&lt;/p&gt;
+            &lt;ol start="9"&gt;
+                &lt;li&gt;Miscellaneous&lt;/li&gt;
+            &lt;/ol&gt;
+            &lt;p&gt;This License represents the complete agreement concerning the subject matter hereof. If any provision of this License is held to be unenforceable, such provision shall be reformed only to the extent necessary to make it enforceable. Any law or regulation which provides that the language of a contract shall be construed against the drafter shall not be used to construe this License against a Contributor.&lt;/p&gt;
+            &lt;ol start="10"&gt;
+                &lt;li&gt;Versions of the License&lt;/li&gt;
+            &lt;/ol&gt;
+            &lt;p&gt;10.1. New Versions&lt;/p&gt;
+            &lt;p&gt;Mozilla Foundation is the license steward. Except as provided in Section 10.3, no one other than the license steward has the right to modify or publish new versions of this License. Each version will be given a distinguishing version number.&lt;/p&gt;
+            &lt;p&gt;10.2. Effect of New Versions&lt;/p&gt;
+            &lt;p&gt;You may distribute the Covered Software under the terms of the version of the License under which You originally received the Covered Software, or under the terms of any subsequent version published by the license steward.&lt;/p&gt;
+            &lt;p&gt;10.3. Modified Versions&lt;/p&gt;
+            &lt;p&gt;If you create software not governed by this License, and you want to create a new license for such software, you may create and use a modified version of this License if you rename the license and remove any references to the name of the license steward (except to note that such modified license differs from this License).&lt;/p&gt;
+            &lt;p&gt;10.4. Distributing Source Code Form that is Incompatible With Secondary Licenses&lt;/p&gt;
+            &lt;p&gt;If You choose to distribute Source Code Form that is Incompatible With Secondary Licenses under the terms of this version of the License, the notice described in Exhibit B of this License must be attached.&lt;/p&gt;
+            &lt;p&gt;Exhibit A - Source Code Form License Notice&lt;/p&gt;
+            &lt;p&gt;This Source Code Form is subject to the terms of the Mozilla Public License, v. 2.0. If a copy of the MPL was not distributed with this file, You can obtain one at &lt;a href="http://mozilla.org/MPL/2.0/"&gt;http://mozilla.org/MPL/2.0/&lt;/a&gt;.&lt;/p&gt;
+            &lt;p&gt;If it is not possible or desirable to put the notice in a particular file, then You may include the notice in a location (such as a LICENSE file in a relevant directory) where a recipient would be likely to look for such a notice.&lt;/p&gt;
+            &lt;p&gt;You may add additional accurate notices of copyright ownership.&lt;/p&gt;
+            &lt;p&gt;Exhibit B - "Incompatible With Secondary Licenses" Notice&lt;/p&gt;
+            &lt;p&gt;This Source Code Form is "Incompatible With Secondary Licenses", as defined by the Mozilla Public License, v. 2.0.&lt;/p&gt;
+            &lt;p&gt;END OF LICENSE&lt;/p&gt;
+            &lt;p&gt;START OF LICENSE&lt;/p&gt;
+            &lt;h3 id="_Active_Directory_Authentication"&gt;Active Directory Authentication Library (ADAL)&lt;/h3&gt;
+            &lt;p&gt;Files originating with Active Directory Authentication Library (ADAL) for .NET, Windows Store, Windows Phone 8.1 and Windows Phone 8.1 Silverlight, which "provides easy to use authentication functionality for your .NET client and Windows Store apps by taking advantage of Windows Server Active Directory and Windows Azure Active Directory. Here you can find the source code for the library." See&lt;a href="https://github.com/AzureAD/azure-activedirectory-library-for-dotnet/"&gt;https://github.com/AzureAD/azure-activedirectory-library-for-dotnet/&lt;/a&gt;. Licensed under the Apache License, Version 2.0 (the "License"); you may not use this file except in compliance with the License. You may obtain a copy of the License at&lt;/p&gt;
+            &lt;p&gt;&lt;a href="http://www.apache.org/licenses/LICENSE-2.0"&gt;http://www.apache.org/licenses/LICENSE-2.0&lt;/a&gt;&lt;/p&gt;
+            &lt;p&gt;Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License.&lt;/p&gt;
+            &lt;p&gt;END OF LICENSE&lt;/p&gt;
+            &lt;p&gt;START OF LICENSE&lt;/p&gt;
+            &lt;h3 id="_jQuery_UI_v1.11.1"&gt;jQuery UI v1.11.1&lt;/h3&gt;
+            &lt;p&gt;Files originating with or related to jQuery UI v1.11.1, which "provides abstractions for low-level interaction and animation, advanced effects and high-level, themeable widgets, built on top of the jQuery JavaScript Library, that you can use to build highly interactive web applications." See&lt;a href="http://jqueryui.com/"&gt;http://jqueryui.com&lt;/a&gt;. This material is licensed under the terms of the MIT License:&lt;/p&gt;
+            &lt;p&gt;Copyright 2007, 2014 jQuery Foundation and other contributors, &lt;a href="https://jquery.org/"&gt;https://jquery.org/&lt;/a&gt;&lt;/p&gt;
+            &lt;p&gt;This software consists of voluntary contributions made by many individuals. For exact contribution history, see the revision history available at&lt;a href="https://github.com/jquery/jquery-ui"&gt;https://github.com/jquery/jquery-ui&lt;/a&gt;&lt;/p&gt;
+            &lt;p&gt;The following license applies to all parts of this software except as documented below:&lt;/p&gt;
+            &lt;p&gt;====&lt;/p&gt;
+            &lt;p&gt;Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions: The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software. THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.&lt;/p&gt;
+            &lt;p&gt;====&lt;/p&gt;
+            &lt;p&gt;Copyright and related rights for sample code are waived via CC0. Sample code is defined as all source code contained within the demos directory. CC0: &lt;a href="http://creativecommons.org/publicdomain/zero/1.0/"&gt;http://creativecommons.org/publicdomain/zero/1.0/&lt;/a&gt;&lt;/p&gt;
+            &lt;p&gt;====&lt;/p&gt;
+            &lt;p&gt;All files located in the node_modules and external directories are externally maintained libraries used by this software which have their own licenses; we recommend you read them, as their terms may differ from the terms above.&lt;/p&gt;
+            &lt;p&gt;END OF LICENSE&lt;/p&gt;
+            &lt;p&gt;START OF LICENSE&lt;/p&gt;
+            &lt;h3 id="_AngularJS_v1.3.0"&gt;AngularJS v1.3.0&lt;/h3&gt;
+            &lt;p&gt;Files originating with or related to AngularJS v1.3.0, a JavaScript framework which "lets you write client-side web applications as if you had a smarter browser. It lets you use good old HTML (or HAML, Jade and friends!) as your template language and lets you extend HTML's syntax to express your application's components clearly and succinctly. It automatically synchronizes data from your UI (view) with your JavaScript objects (model) through 2-way data binding. To help you structure your application better and make it easy to test, AngularJS teaches the browser how to do dependency injection and inversion of control." See &lt;a href="https://github.com/angular/angular.js"&gt;https://github.com/angular/angular.js&lt;/a&gt;. This material is licensed under the terms of the MIT License:&lt;/p&gt;
+            &lt;p&gt;The MIT License&lt;/p&gt;
+            &lt;p&gt;Copyright © 2010-2014 Google, Inc.&lt;a href="http://angularjs.org/"&gt;http://angularjs.org&lt;/a&gt;&lt;/p&gt;
+            &lt;p&gt;Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:&lt;/p&gt;
+            &lt;p&gt;The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.&lt;/p&gt;
+            &lt;p&gt;THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.&lt;/p&gt;
+            &lt;p&gt;END OF LICENSE&lt;/p&gt;
+            &lt;p&gt;START OF LICENSE&lt;/p&gt;
+            &lt;h3 id="_Moment.js_v2.8.3"&gt;Moment.js v2.8.3&lt;/h3&gt;
+            &lt;p&gt;Files originating with or related to Moment.js v2.8.3, a "lightweight javascript date library for parsing, validating, manipulating, and formatting dates." See &lt;a href="http://momentjs.com/"&gt;http://momentjs.com&lt;/a&gt; and &lt;a href="https://github.com/timrwood/moment/"&gt;https://github.com/timrwood/moment/&lt;/a&gt;. This material is licensed under the terms of the MIT License:&lt;/p&gt;
+            &lt;p&gt;Copyright © 2011-2014 Tim Wood, Iskren Chernev, Moment.js contributors&lt;/p&gt;
+            &lt;p&gt;Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:&lt;/p&gt;
+            &lt;p&gt;The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software. THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.&lt;/p&gt;
+            &lt;p&gt;END OF LICENSE&lt;/p&gt;
+            &lt;p&gt;START OF LICENSE&lt;/p&gt;
+            &lt;h3 id="_Velocity_v1.1.0"&gt;Velocity v1.1.0&lt;/h3&gt;
+            &lt;p&gt;Files originating with or related to Velocity v1.1.0, "an animation engine that re-implements jQuery's &amp;#36;.animate() for significantly greater performance (making Velocity also faster than CSS animation libraries) while including several new features." See &lt;a href="http://julian.com/research/velocity/"&gt;http://julian.com/research/velocity/&lt;/a&gt;. This material is licensed under the terms of the MIT License:&lt;/p&gt;
+            &lt;p&gt;The MIT License (MIT)&lt;/p&gt;
+            &lt;p&gt;Copyright © 2014 Julian Shapiro&lt;/p&gt;
+            &lt;p&gt;Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:&lt;/p&gt;
+            &lt;p&gt;The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software. THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.&lt;/p&gt;
+            &lt;p&gt;END OF LICENSE&lt;/p&gt;
+            &lt;p&gt;START OF LICENSE&lt;/p&gt;
+            &lt;h3 id="_D3.js_v3.5.5"&gt;D3.js v3.5.5&lt;/h3&gt;
+            &lt;p&gt;Files originating with or related to D3.js v3.5.5 "a JavaScript library for manipulating documents based on data. D3 helps you bring data to life using HTML, SVG and CSS. D3's emphasis on web standards gives you the full capabilities of modern browsers without tying yourself to a proprietary framework, combining powerful visualization components and a data-driven approach to DOM manipulation." See &lt;a href="http://d3js.org/"&gt;http://d3js.org&lt;/a&gt; and&lt;a href="https://github.com/mbostock/d3"&gt;https://github.com/mbostock/d3&lt;/a&gt;. This material is distributed under the terms of the BSD License (see&lt;a href="https://github.com/mbostock/d3/blob/master/LICENSE"&gt;https://github.com/mbostock/d3/blob/master/LICENSE&lt;/a&gt;):&lt;/p&gt;
+            &lt;p&gt;Copyright © 2010-2015, Michael Bostock&lt;/p&gt;
+            &lt;p&gt;All rights reserved.&lt;/p&gt;
+            &lt;p&gt;Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:&lt;/p&gt;
+            &lt;ul&gt;
+                &lt;li&gt;Redistributions of source code must retain the above copyright notice, this list of conditions and the following disclaimer.&lt;/li&gt;
+                &lt;li&gt;Redistributions in binary form must reproduce the above copyright notice, this list of conditions and the following disclaimer in the documentation and/or other materials provided with the distribution.&lt;/li&gt;
+                &lt;li&gt;The name Michael Bostock may not be used to endorse or promote products derived from this software without specific prior written permission.&lt;/li&gt;
+            &lt;/ul&gt;
+            &lt;p&gt;THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL MICHAEL BOSTOCK BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.&lt;/p&gt;
+            &lt;p&gt;END OF LICENSE&lt;/p&gt;
+            &lt;p&gt;START OF LICENSE&lt;/p&gt;
+            &lt;h3 id="_Gridster"&gt;Gridster&lt;/h3&gt;
+            &lt;p&gt;Files originating with or related to Gridster, "a jQuery plugin that makes building intuitive draggable layouts from elements spanning multiple columns. You can even dynamically add and remove elements from the grid." See &lt;a href="http://gridster.net/"&gt;http://gridster.net/&lt;/a&gt; and &lt;a href="https://github.com/ducksboard/gridster.js"&gt;https://github.com/ducksboard/gridster.js&lt;/a&gt;. This material is licensed under the terms of the MIT License:&lt;/p&gt;
+            &lt;p&gt;Copyright © 2012 Ducksboard&lt;/p&gt;
+            &lt;p&gt;Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:&lt;/p&gt;
+            &lt;p&gt;The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software. THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.&lt;/p&gt;
+            &lt;p&gt;END OF LICENSE&lt;/p&gt;
+            &lt;p&gt;START OF LICENSE&lt;/p&gt;
+            &lt;h3 id="_ngStorage_v0.3.0"&gt;ngStorage v0.3.0&lt;/h3&gt;
+            &lt;p&gt;Files originating with or related to ngStorage v0.3.0, an "AngularJS module that makes Web Storage working in the Angular Way. Contains two services: &amp;#36;localStorage and &amp;#36;sessionStorage." See &lt;a href="https://github.com/gsklee/ngStorage"&gt;https://github.com/gsklee/ngStorage&lt;/a&gt;. This material is licensed under the terms of the MIT License:&lt;/p&gt;
+            &lt;p&gt;The MIT License (MIT)&lt;/p&gt;
+            &lt;p&gt;Copyright © 2013 Gias Kay Lee&lt;/p&gt;
+            &lt;p&gt;Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:&lt;/p&gt;
+            &lt;p&gt;The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software. THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.&lt;/p&gt;
+            &lt;p&gt;END OF LICENSE&lt;/p&gt;
+            &lt;p&gt;START OF LICENSE&lt;/p&gt;
+            &lt;h3 id="_angular-file-upload_1.4.0"&gt;angular-file-upload 1.4.0&lt;/h3&gt;
+            &lt;p&gt;Files originating with or related to angular-file-upload 1.4.0, "[a]n AngularJS directive for file upload using HTML5 with FileAPI polyfill for unsupported browsers". See &lt;a href="https://github.com/danialfarid/angular-file-upload"&gt;https://github.com/danialfarid/angular-file-upload&lt;/a&gt;. This material is licensed under the terms of the MIT License:&lt;/p&gt;
+            &lt;p&gt;The MIT License (MIT)&lt;/p&gt;
+            &lt;p&gt;Copyright © 2013 danialfarid&lt;/p&gt;
+            &lt;p&gt;Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:&lt;/p&gt;
+            &lt;p&gt;The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.&lt;/p&gt;
+            &lt;p&gt;THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.&lt;/p&gt;
+            &lt;p&gt;END OF LICENSE&lt;/p&gt;
+            &lt;p&gt;START OF LICENSE&lt;/p&gt;
+            &lt;h3 id="_jquery-visible_v1.0.0"&gt;jquery-visible v1.0.0&lt;/h3&gt;
+            &lt;p&gt;Files originating with or related to jquery-visible v1.0.0, a "jquery plugin which allows us to quickly check if an element is within the browsers visual viewport regardless of the window scroll position." See &lt;a href="https://github.com/customd/jquery-visible"&gt;https://github.com/customd/jquery-visible&lt;/a&gt;. This material is licensed under the terms of the MIT License:&lt;/p&gt;
+            &lt;p&gt;Copyright © 2012 Digital Fusion, &lt;a href="http://teamdf.com/"&gt;http://teamdf.com/&lt;/a&gt;&lt;/p&gt;
+            &lt;p&gt;Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:&lt;/p&gt;
+            &lt;p&gt;The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.&lt;/p&gt;
+            &lt;p&gt;THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.&lt;/p&gt;
+            &lt;p&gt;END OF LICENSE&lt;/p&gt;
+            &lt;p&gt;START OF LICENSE&lt;/p&gt;
+            &lt;h3 id="_DataTables_v1.10.2"&gt;DataTables v1.10.2&lt;/h3&gt;
+            &lt;p&gt;Files originating with or related to DataTables v1.10.2, "a table enhancing plug-in for the jQuery Javascript library, adding sorting, paging and filtering abilities to plain HTML tables with minimal effort." See &lt;a href="https://github.com/DataTables/DataTables"&gt;https://github.com/DataTables/DataTables&lt;/a&gt;. This material is licensed under the terms of the MIT License:&lt;/p&gt;
+            &lt;p&gt;Copyright © 2008-2013 SpryMedia Limited&lt;/p&gt;
+            &lt;p&gt;&lt;a href="http://datatables.net/"&gt;http://datatables.net&lt;/a&gt;&lt;/p&gt;
+            &lt;p&gt;Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:&lt;/p&gt;
+            &lt;p&gt;The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.&lt;/p&gt;
+            &lt;p&gt;THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.&lt;/p&gt;
+            &lt;p&gt;END OF LICENSE&lt;/p&gt;
+            &lt;p&gt;START OF LICENSE&lt;/p&gt;
+            &lt;h3 id="_Casablanca"&gt;Casablanca&lt;/h3&gt;
+            &lt;p&gt;&lt;a href="https://casablanca.codeplex.com/"&gt;https://casablanca.codeplex.com/&lt;/a&gt;&lt;/p&gt;
+            &lt;p&gt;Copyright © Microsoft Corporation. All rights reserved.&lt;/p&gt;
+            &lt;p&gt;Licensed under the Apache License, Version 2.0 (the "License"); you may not use this file except in compliance with the License. You may obtain a copy of the License at &lt;a href="http://www.apache.org/licenses/LICENSE-2.0"&gt;http://www.apache.org/licenses/LICENSE-2.0&lt;/a&gt;&lt;/p&gt;
+            &lt;p&gt;Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License.&lt;/p&gt;
+            &lt;p&gt;Casablanca contains third-party materials licensed under the following terms:&lt;/p&gt;
+            &lt;p&gt;WebSocket++&lt;/p&gt;
+            &lt;p&gt;&lt;a href="http://www.zaphoyd.com/websocketpp"&gt;http://www.zaphoyd.com/websocketpp&lt;/a&gt;&lt;/p&gt;
+            &lt;p&gt;Copyright © 2013, Peter Thorson. All rights reserved.&lt;/p&gt;
+            &lt;p&gt;Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:&lt;/p&gt;
+            &lt;p&gt;Redistributions of source code must retain the above copyright notice, this list of conditions and the following disclaimer.&lt;/p&gt;
+            &lt;p&gt;Redistributions in binary form must reproduce the above copyright notice, this list of conditions and the following disclaimer in the documentation and/or other materials provided with the distribution.&lt;/p&gt;
+            &lt;p&gt;Neither the name of the WebSocket++ Project nor the names of its contributors may be used to endorse or promote products derived from this software without specific prior written permission.&lt;/p&gt;
+            &lt;p&gt;THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL PETER THORSON BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.&lt;/p&gt;
+            &lt;p&gt;UnitTest++&lt;/p&gt;
+            &lt;p&gt;&lt;a href="http://unittest-cpp.sourceforge.net/"&gt;http://unittest-cpp.sourceforge.net&lt;/a&gt;&lt;/p&gt;
+            &lt;p&gt;Copyright © 2006 Noel Llopis and Charles Nicholson&lt;/p&gt;
+            &lt;p&gt;Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:&lt;/p&gt;
+            &lt;p&gt;The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software. THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.&lt;/p&gt;
+            &lt;p&gt;SafeInt&lt;/p&gt;
+            &lt;p&gt;&lt;a href="http://safeint.codeplex.com/"&gt;http://safeint.codeplex.com/&lt;/a&gt;&lt;/p&gt;
+            &lt;p&gt;Copyright © Microsoft Corporation&lt;/p&gt;
+            &lt;p&gt;Licensed under the terms of the Microsoft Public License (Ms-PL)&lt;/p&gt;
+            &lt;p&gt;This license governs use of the accompanying software. If you use the software, you accept this license. If you do not accept the license, do not use the software.&lt;/p&gt;
+            &lt;ol&gt;
+                &lt;li&gt;&lt;strong&gt;&lt;strong&gt; Definitions&lt;/strong&gt;&lt;/strong&gt;&lt;/li&gt;
+            &lt;/ol&gt;
+            &lt;p&gt;The terms "reproduce," "reproduction," "derivative works," and "distribution" have the same meaning here as under U.S. copyright law.&lt;/p&gt;
+            &lt;p&gt;A "contribution" is the original software, or any additions or changes to the software.&lt;/p&gt;
+            &lt;p&gt;A "contributor" is any person that distributes its contribution under this license.&lt;/p&gt;
+            &lt;p&gt;"Licensed patents" are a contributor's patent claims that read directly on its contribution.&lt;/p&gt;
+            &lt;ol start="2"&gt;
+                &lt;li&gt;&lt;strong&gt;&lt;strong&gt; Grant of Rights&lt;/strong&gt;&lt;/strong&gt;&lt;/li&gt;
+            &lt;/ol&gt;
+            &lt;p&gt;(A) Copyright Grant- Subject to the terms of this license, including the license conditions and limitations in section 3, each contributor grants you a non-exclusive, worldwide, royalty-free copyright license to reproduce its contribution, prepare derivative works of its contribution, and distribute its contribution or any derivative works that you create.&lt;/p&gt;
+            &lt;p&gt;(B) Patent Grant- Subject to the terms of this license, including the license conditions and limitations in section 3, each contributor grants you a non-exclusive, worldwide, royalty-free license under its licensed patents to make, have made, use, sell, offer for sale, import, and/or otherwise dispose of its contribution in the software or derivative works of the contribution in the software.&lt;/p&gt;
+            &lt;ol start="3"&gt;
+                &lt;li&gt;&lt;strong&gt;&lt;strong&gt; Conditions and Limitations&lt;/strong&gt;&lt;/strong&gt;&lt;/li&gt;
+            &lt;/ol&gt;
+            &lt;p&gt;(A) No Trademark License- This license does not grant you rights to use any contributors' name, logo, or trademarks.&lt;/p&gt;
+            &lt;p&gt;(B) If you bring a patent claim against any contributor over patents that you claim are infringed by the software, your patent license from such contributor to the software ends automatically.&lt;/p&gt;
+            &lt;p&gt;(C) If you distribute any portion of the software, you must retain all copyright, patent, trademark, and attribution notices that are present in the software.&lt;/p&gt;
+            &lt;p&gt;(D) If you distribute any portion of the software in source code form, you may do so only under this license by including a complete copy of this license with your distribution. If you distribute any portion of the software in compiled or object code form, you may only do so under a license that complies with this license.&lt;/p&gt;
+            &lt;p&gt;(E) The software is licensed "as-is." You bear the risk of using it. The contributors give no express warranties, guarantees or conditions. You may have additional consumer rights under your local laws which this license cannot change. To the extent permitted under your local laws, the contributors exclude the implied warranties of merchantability, fitness for a particular purpose and non-infringement.&lt;/p&gt;
+            &lt;p&gt;END OF LICENSE&lt;/p&gt;
+            &lt;p&gt;START OF LICENSE&lt;/p&gt;
+            &lt;h3 id="_jQuery_v2.1.3"&gt;jQuery v2.1.3&lt;/h3&gt;
+            &lt;p&gt;Files originating with or related to jQuery v2.1.3, a "fast, concise, library that simplifies how to traverse HTML documents, handle events, perform animations, and AJAX." See &lt;a href="http://jquery.com/"&gt;http://jquery.com&lt;/a&gt;. This material is licensed under the terms of the MIT License:&lt;/p&gt;
+            &lt;p&gt;Copyright 2014 jQuery Foundation and other contributors&lt;/p&gt;
+            &lt;p&gt;&lt;a href="http://jquery.com/"&gt;http://jquery.com&lt;/a&gt;&lt;/p&gt;
+            &lt;p&gt;Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:&lt;/p&gt;
+            &lt;p&gt;The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.&lt;/p&gt;
+            &lt;p&gt;THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.&lt;/p&gt;
+            &lt;p&gt;END OF LICENSE&lt;/p&gt;
+            &lt;p&gt;START OF LICENSE&lt;/p&gt;
+            &lt;h3 id="_Boost_1.0"&gt;Boost 1.0&lt;/h3&gt;
+            &lt;p&gt;Copyright Beman Dawes, David Abrahams, 1998-2005.&lt;/p&gt;
+            &lt;p&gt;Copyright Rene Rivera 2004-2007.&lt;/p&gt;
+            &lt;p&gt;Distributed under the Boost Software License, Version 1.0.&lt;/p&gt;
+            &lt;p&gt;Permission is hereby granted, free of charge, to any person or organization obtaining a copy of the software and accompanying documentation covered by this license (the "Software") to use, reproduce, display, distribute, execute, and transmit the Software, and to prepare derivative works of the Software, and to permit third-parties to whom the Software is furnished to do so, all subject to the following:&lt;/p&gt;
+            &lt;p&gt;The copyright notices in the Software and this entire statement, including the above license grant, this restriction and the following disclaimer, must be included in all copies of the Software, in whole or in part, and all derivative works of the Software, unless such copies or derivative works are solely in the form of machine-executable object code generated by a source language processor.&lt;/p&gt;
+            &lt;p&gt;THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, TITLE AND NON-INFRINGEMENT. IN NO EVENT SHALL THE COPYRIGHT HOLDERS OR ANYONE DISTRIBUTING THE SOFTWARE BE LIABLE FOR ANY DAMAGES OR OTHER LIABILITY, WHETHER IN CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.&lt;/p&gt;
+            &lt;p&gt;END OF LICENSE&lt;/p&gt;
+            &lt;p&gt;END OF THIRD PARTY NOTICES&lt;/p&gt;</value>
+  </data>
+  <data name="Heading" xml:space="preserve">
+    <value>&lt;h1&gt;THIRD PARTY NOTICES FOR MICROSOFT POWER BI FOR WINDOWS&lt;/h1&gt;</value>
+  </data>
+  <data name="META_DESCRIPTION" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Meta_ExcludeFromLocalization" xml:space="preserve">
+    <value>true</value>
+    <comment>DO NOT LOCALIZE. This field represents metadata that is used by the ACOM localization automation.</comment>
+  </data>
+  <data name="META_KEYWORDS" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Meta_LocalizationType" xml:space="preserve">
+    <value>legal</value>
+    <comment>DO NOT LOCALIZE. This field represents metadata that is used by the ACOM localization automation.</comment>
+  </data>
+  <data name="META_PAGETITLE" xml:space="preserve">
+    <value>Windows 3rd Party Terms of Service | Microsoft Power BI</value>
+  </data>
+</root>

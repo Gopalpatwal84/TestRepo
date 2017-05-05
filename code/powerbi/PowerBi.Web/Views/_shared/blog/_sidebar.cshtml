@@ -1,0 +1,68 @@
+﻿@using Shared = PowerBI.Resources.Shared.Blog;
+
+@model IEnumerable<PowerBI.Entities.Blogs.BlogCategory>
+
+@{ 
+    var currentDate = DateTime.UtcNow;
+    var oldestPostDate = new DateTime(2013, 07, 01);
+}
+
+<aside>
+    <div class="row">
+        <div class="column">
+            <h4>@Shared.GetStartedSectionTitle</h4>
+            <p>@Shared.GetStartedSection</p>
+        </div>
+    </div>
+
+    <div class="row row-size2">
+        <div class="column">
+            <a class="button button-featured" href="@Html.LocalizeUrl("/?WT.mc_id=PBI_Blog_What_Is_PBI")">@Shared.ReadMore</a>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="column">
+            <h4>@Shared.Subscribe_Heading</h4>
+        </div>
+    </div>
+
+    <div class="row row-size2">
+        <div class="column">
+            <a class="button button-featured" href="@Html.LocalizeUrl("/blog/feed/")">
+                <span class="icon">
+                    @SvgHelper.GetSvg("rss")
+                </span>
+                @Shared.Subscribe
+            </a>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="column">
+            <h4>@Shared.SearchByCategory</h4>
+            <ul class="linkList">
+                @foreach (var category in Model)
+                {
+                    <li><a href="@Html.LocalizeUrl(category.Url)">@category.Name</a></li>
+                }
+            </ul>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="column">
+            <h4>@Shared.ArticlesByDate</h4>
+            <ul class="linkList">
+                @while (currentDate >= oldestPostDate)
+                {
+                    var monthNumber = currentDate.Month.ToString("d2");
+
+                    <li><a href="@Html.LocalizeUrl(string.Format("/blog/{0}/{1}/", currentDate.Year, monthNumber))">@currentDate.ToString("MMMM yyyy")</a></li>
+
+                    currentDate = currentDate.AddMonths(-1);
+                }
+            </ul>
+        </div>
+    </div>
+</aside>

@@ -1,0 +1,20 @@
+﻿.integration {
+  color: #000000 !important;
+  display: block;
+  height: 150px;
+  margin: 0 auto 20px;
+}
+.integration:hover {
+  text-decoration: none;
+}
+.integration:hover img {
+  opacity: .7;
+}
+.integration img {
+  display: block;
+  margin: 0 auto;
+}
+.integration-all + .integration-all,
+.integration-featured + .integration-featured {
+  margin-top: 0;
+}

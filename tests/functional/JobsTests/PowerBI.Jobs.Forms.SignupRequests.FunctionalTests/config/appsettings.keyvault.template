@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<appSettings>
+  <!-- General -->
+  <add key="RetryCount" value="10" />
+  <add key="RetryBackoffSpan" value="P0Y0M0DT0H0M5S" />
+  <add key="DoCleanUp" value="true" />
+  <!-- So the queue name is resolved based on the slot (uses static closed class KnownSlots) -->
+  <add key="ACOM.Web.Configuration.AcomConfiguration.SlotName" value="unknown" />
+  <!-- Global Fixture Settings -->
+  <add key="MessageDiagnosticsInfoTable" value="MessageDiagnosticsInfoUnknown" />
+</appSettings>

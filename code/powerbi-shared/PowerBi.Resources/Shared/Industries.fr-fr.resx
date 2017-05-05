@@ -1,0 +1,270 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" id="root">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Airline_DetailsTagline" xml:space="preserve">
+    <value>&lt;p&gt;Un ingénieur d’exploitation en charge de la flotte d’aéronefs d’une compagnie aérienne de premier plan doit constamment évaluer les coûts et interruptions liés à une maintenance ad hoc, par rapport aux risques et aux coûts encore supérieurs liés à d’éventuelles défaillances techniques. &lt;/p&gt;
+&lt;p&gt;Le rapport dans cette solution donne un aperçu de l’état de la flotte, ainsi qu’un récapitulatif des prédictions relatives aux changements à court terme de l’intégrité technique de la flotte. Les prédictions sont basées sur plusieurs modèles d’apprentissage automatique, et utilisent l’enregistreur à accès rapide des aéronefs (similaire à la boîte noire) ainsi que d’autres sources de données. Le rapport présente le résultat détaillé de l’un des modèles d’apprentissage automatique contributeurs, qui prévoit la durée de vie utile restante des organes vitaux du moteur.&lt;/p&gt;
+&lt;p&gt;Le rapport, visuellement riche, fournit une vue d’ensemble des plans de vol et des localisations, pour faciliter le choix du lieu d’intervention technique sur aéronefs et des autres aéronefs les mieux placés pour les remplacer. Le rapport comprend aussi un diagramme de Sankey, qui permet de rationaliser les différentes pondérations d’indicateur de performance clé (KPI) de la flotte sur la base des types de fuselage, ainsi qu’une carte thermique 3D impressionnante présentant l’aspect d’un réacteur. Ces éléments visuels permettent aux acteurs du secteur du transport aérien d’avoir une compréhension intuitive de la situation.&lt;/p&gt;</value>
+  </data>
+  <data name="Airline_DetailTitle" xml:space="preserve">
+    <value>Encourager la planification de la maintenance à grande échelle</value>
+  </data>
+  <data name="Airline_IndexTagline" xml:space="preserve">
+    <value>Cette solution est basée sur le système de maintenance prédictive réel d’une compagnie de premier plan. Les données proviennent de diverses sources, dont les flux de données de l’Internet des objets en provenance des moteurs d’aéronef, les plans de vol, les renseignements météorologiques et les journaux. La solution s’appuie sur Azure HDInsight pour l’ingénierie des fonctionnalités, sur Azure Machine Learning pour la détection des anomalies opérationnelles et sur Azure SQL DW pour l’interrogation hautement performante des pétaoctets de données recueillies. Ce rapport utilise également des visualisations personnalisées spécialement conçues pour le secteur du transport aérien.</value>
+  </data>
+  <data name="Airline_Title" xml:space="preserve">
+    <value>Compagnie aérienne</value>
+  </data>
+  <data name="CPG_DetailsTagline" xml:space="preserve">
+    <value>&lt;p&gt;Le secteur des biens emballés pour la vente au détail (CPG) est concurrentiel. Toutes les marques et catégories luttent quotidiennement pour obtenir l’attention et la préférence des clients. Il est difficile d’accroître votre part de marché et l’analyse des CPG est le seul moyen d’exceller en la matière. &lt;/p&gt;
+&lt;p&gt;Surveillez tous les indicateurs clés en un endroit grâce à Power&amp;#160;BI&amp;#160;: niveaux des stocks, rentabilité, chaîne logistique, canaux et tarification. Évitez les ruptures de stock grâce à des rapports et des alertes en temps réel. &lt;/p&gt;
+&lt;p&gt;Gérez votre empreinte mondiale grâce à des tableaux de bord de pointe et déterminez les emplacements auxquels les données sont plus détaillées. Évaluez clairement les performances de toutes vos marques et catégories par le biais de modèles avancés et de rapports détaillés. &lt;/p&gt;
+&lt;p&gt;Surveillez les résultats de vos campagnes marketing et leur impact sur les ventes, la part de marché et les bénéfices. Examinez en détail l’aspect financier de toutes vos opérations grâce à des rapports interactifs pour obtenir un aperçu rapide et prendre des mesures significatives.&lt;/p&gt;</value>
+  </data>
+  <data name="CPG_DetailTitle" xml:space="preserve">
+    <value>Augmentez votre part de marché grâce à une analyse plus approfondie des données et une bonne compréhension des tendances</value>
+  </data>
+  <data name="CPG_IndexTagline" xml:space="preserve">
+    <value>Les produits de consommation se trouvent au centre des disciplines suivantes : exploitation, marketing, vente et finance, entre autres. Analysez les données en perpétuelle évolution pour optimiser les ventes, les bénéfices et la fidélisation des clients.</value>
+  </data>
+  <data name="CPG_Title" xml:space="preserve">
+    <value>Biens emballés pour la vente au détail (CPG)</value>
+  </data>
+  <data name="Insurance_DetailsTagline" xml:space="preserve">
+    <value>&lt;p&gt;La gestion des risques est le principal objectif des compagnies d’assurance. Cependant, le volume de données et de variables traité par l’analyse des assurances est conséquent. C’est pour cette raison que les professionnels de l’assurance ont besoin d’outils et de méthodes leur permettant d’identifier rapidement les tendances et d’agir en conséquence. &lt;/p&gt;
+&lt;p&gt;Power&amp;#160;BI aide les analystes en assurance à visualiser facilement les données relatives aux demandes, aux primes, aux fraudes, aux ventes et à la satisfaction des clients en un endroit. Détectez rapidement les tendances liées aux demandes et au paiement. &lt;/p&gt;
+&lt;p&gt;Identifiez les tendances qui pourraient mener à la détection des fraudes et configurer des alertes automatisées pour les détecter rapidement. Créez des paramètres personnalisés et surveillez le coût moyen ou le temps moyen nécessaires pour traiter les demandes. &lt;/p&gt;
+&lt;p&gt;Visualisez les répercussions de votre stratégie de tarification et la rentabilité. Surveillez la satisfaction des clients et identifiez de nouvelles opportunités commerciales ou de nouveaux risques potentiels afin d’agir rapidement en conséquence.&lt;/p&gt;</value>
+  </data>
+  <data name="Insurance_DetailTitle" xml:space="preserve">
+    <value>Surveillez les risques, gérez les ventes et les demandes, et détectez les fraudes grâce à l’analyse visuelle des données</value>
+  </data>
+  <data name="Insurance_IndexTagline" xml:space="preserve">
+    <value>Les données affluent des opérations des compagnies d’assurance : les ventes de polices d’assurance, les demandes, les fraudes, la complexité des couvertures et les primes fournissent aux entreprises un ensemble de tendances et d’informations n’attendant qu’à être exploitées.</value>
+  </data>
+  <data name="Insurance_Title" xml:space="preserve">
+    <value>Assurance</value>
+  </data>
+  <data name="Manufacturing_DetailsTagline" xml:space="preserve">
+    <value>&lt;p&gt;Suivez en temps réel les indicateurs de performance clés&amp;#160;: exploitation des machines, efficacité des procédés, coûts, niveaux des stocks, pertes et temps de cycle. &lt;/p&gt;
+&lt;p&gt;Les fabricants doivent collaborer, surveiller et discuter des données en temps réel disponibles pour atteindre l’excellence opérationnelle. Power&amp;#160;BI aide votre équipe à surveiller les données en temps réel provenant de plusieurs sources dans un tableau de bord et à identifier les problèmes, si nécessaire. Obtenez des alertes en temps réel grâce aux applications mobiles Power&amp;#160;BI et améliorez l’efficacité de vos opérations pour arriver à une plus grande agilité et réduire le temps de réaction. &lt;/p&gt;
+&lt;p&gt;Surveillez de bout en bout votre chaîne logistique et identifiez les problèmes et les points critiques avant qu’ils ne touchent les procédés stratégiques. Partagez vos tableaux de bord avec vos fournisseurs et partenaires de façon à leur permettre de s’adapter aux dernières informations disponibles et à alléger et améliorer vos procédés. Surveillez les entrées et sorties de haute qualité provenant de toutes les sources, y compris vos clients, afin de prendre des décisions rapides et significatives qui amélioreront la qualité de la fabrication.&lt;/p&gt;</value>
+  </data>
+  <data name="Manufacturing_DetailTitle" xml:space="preserve">
+    <value>Visibilité en temps réel de votre chaîne logistique pour des décisions plus efficaces et plus rapides</value>
+  </data>
+  <data name="Manufacturing_IndexTagline" xml:space="preserve">
+    <value>Le procédé de fabrication doit être une machine bien huilée pour garantir la réussite. Le meilleur moyen d’y arriver est de profiter d’une bonne visibilité pour chaque procédé, tout en ayant une vision globale.</value>
+  </data>
+  <data name="Manufacturing_Title" xml:space="preserve">
+    <value>Fabrication</value>
+  </data>
+  <data name="ProfessionalServices_DetailsTagline" xml:space="preserve">
+    <value>&lt;p&gt;Peu importe si votre entreprise est spécialisée dans la consultation, les services juridiques, l’immobilier ou les soins de santé. Elle s’articule autour des personnes. Vous devez surveiller les performances à l’aide des bons ICP pour optimiser les résultats et accroître l’efficacité. Vous devez communiquer ces données à votre personnel pour agir rapidement et améliorer les résultats. &lt;/p&gt;
+&lt;p&gt;Power&amp;#160;BI vous permet de surveiller les bons ICP, de les personnaliser, de les visualiser pour une meilleure compréhension et de les partager, le tout sur la même plateforme. Calculez les métriques en direct, telles que les revenus annuels par employé, la marge des projets, les factures, l’exploitation et la satisfaction des clients, pour extraire des éclairages de vos performances et relever des défis. Effectuez une analyse descendante jusqu’au niveau individuel et permettez à tous les employés de votre entreprise d’avoir accès aux données, tout en faisant en sorte qu’elles restent sécurisées et gouvernées. &lt;/p&gt;
+&lt;p&gt;Concentrez-vous facilement sur différents emplacements, rôles, projets et équipes pour acquérir une vision claire à tous les niveaux. Surveillez la satisfaction des clients pour vous assurer de la qualité de vos produits et services, tout en vous garantissant que vos opérations restent en flux tendu.&lt;/p&gt;</value>
+  </data>
+  <data name="ProfessionalServices_DetailTitle" xml:space="preserve">
+    <value>Concentrez-vous sur votre personnel grâce à des données plus précises</value>
+  </data>
+  <data name="ProfessionalServices_IndexTagline" xml:space="preserve">
+    <value>Les entreprises de services professionnelles ont une chose en commun : leur ressource la plus importante est le personnel. Fournissez les bonnes données et la bonne technologie à vos professionnels pour qu’ils optimisent la qualité proposée à vos clients.</value>
+  </data>
+  <data name="ProfessionalServices_Title" xml:space="preserve">
+    <value>Services professionnels</value>
+  </data>
+  <data name="Retail_DetailsTagline" xml:space="preserve">
+    <value>&lt;p&gt;Le volume de données disponibles pour les détaillants est massif&amp;#160;: les transactions, la chaîne logistique, les comportements d’achat, les tendances, les ventes sur plusieurs canaux et la couverture globale ne représentent qu’une infime portion des sources de données utilisables par les entreprises pour optimiser leurs bénéfices. &lt;/p&gt;
+&lt;p&gt;Les entreprises ont besoin d’évolutivité, de simplicité d’utilisation, d’accessibilité et d’une connectivité en direct pour donner du sens à toutes ces données. Power&amp;#160;BI rassemble toutes ces données en un endroit et fait en sorte qu’elles restent à jour, ce qui vous permet de prendre les bonnes décisions au bon moment. Partagez vos analyses des ventes au détail en magasin, au siège, à l’usine ou au centre de distribution. &lt;/p&gt;
+&lt;p&gt;Avec Power&amp;#160;BI, peu importe où vous êtes, vos données restent disponibles et à jour. Comprenez les comportements et les sentiments des clients, en ligne ou en magasin, puis visualisez les mouvements et les interactions des acheteurs, en identifiant les opportunités de façon à mieux les servir et à optimiser les recettes.&lt;/p&gt;</value>
+  </data>
+  <data name="Retail_DetailTitle" xml:space="preserve">
+    <value>Meilleure compréhension des clients, de la tarification, des PDV, des stocks et des canaux</value>
+  </data>
+  <data name="Retail_IndexTagline" xml:space="preserve">
+    <value>Le shopping a évolué. Les acheteurs d’aujourd’hui disposent d’appareils, d’options et de davantage d’informations à portée de main. Ayez une meilleure visibilité des informations qui permettront à votre entreprise de réussir.</value>
+  </data>
+  <data name="Retail_Title" xml:space="preserve">
+    <value>Vente au détail</value>
+  </data>
+  <data name="Energy_DetailsTagline" xml:space="preserve">
+    <value>&lt;p&gt;Le stockage de l’énergie n’est pas rentable. De ce fait, les services publics et les générateurs électriques doivent prévoir la consommation d’énergie future de façon à pouvoir équilibrer efficacement l’offre en fonction de la demande. Aux heures de pointe, un approvisionnement limité risque d’entraîner des pannes de courant. À l’inverse, un approvisionnement trop important peut être à l’origine du gaspillage des ressources. Les techniques avancées de prévision de la demande détaillent la demande heure par heure et les heures de pointe d’un jour spécifique, ce qui permet à un fournisseur d’énergie d’optimiser le processus de production d’électricité. Le présent rapport se concentre sur la prévision de la demande dans le secteur de l’énergie. Il indique l’état de la consommation d’énergie par région et prévoit la consommation à venir afin d’optimiser les opérations.&lt;/p&gt;
+&lt;p&gt;La page «&amp;#160;Résumé de l’état de la solution énergétique&amp;#160;» indique l’état global de la consommation d’énergie pour chaque région. Pour connaître l’état de la consommation d’énergie de chaque région, l’utilisateur peut sélectionner la région concernée en cliquant sur le filtre, dans le volet de gauche.&lt;/p&gt;
+&lt;p&gt;La page «&amp;#160;Prévision de la solution énergétique&amp;#160;» indique les résultats relatifs à la prévision de la demande provenant du modèle Azure&amp;#160;Machine&amp;#160;Learning, ainsi que différentes mesures d’erreur permettant à l’utilisateur d’identifier la qualité du modèle. La température et ses prévisions servent de fonction dans le modèle Azure&amp;#160;Machine&amp;#160;Learning.&lt;p/&gt;</value>
+  </data>
+  <data name="Energy_DetailTitle" xml:space="preserve">
+    <value>Énergie</value>
+  </data>
+  <data name="Energy_IndexTagline" xml:space="preserve">
+    <value>Le présent rapport se concentre sur la prévision de la demande dans le secteur de l’énergie. Les différents affichages indiquent l’état de la consommation d’énergie par région et des prévisions de la consommation à venir afin d’optimiser les opérations.</value>
+  </data>
+  <data name="Energy_Title" xml:space="preserve">
+    <value>Énergie</value>
+  </data>
+  <data name="Telecommunications_DetailsTagline" xml:space="preserve">
+    <value>&lt;p&gt;Les entreprises ont besoin d’une stratégie efficace pour gérer le phénomène d’attrition. L’attrition englobe les clients cessant d’utiliser un service, ceux optant pour le service d’un concurrent, ceux choisissant une expérience de niveau inférieur pour un service et ceux diminuant leur engagement vis-à-vis d’un service.&lt;/p&gt;
+&lt;p&gt;Dans la présente étude de cas, nous analysons de quelle façon un opérateur de téléphonie mobile peut tirer profit d’Azure pour identifier de façon proactive les clients les plus susceptibles de le quitter à court terme, dans le but d’améliorer le service proposé et de créer des campagnes de sensibilisation personnalisées destinées à fidéliser ces clients. Les opérateurs de téléphonie mobile sont confrontés à un marché extrêmement concurrentiel. Un grand nombre d’entre eux perdent de l’argent provenant des clients des services postpayés en raison de ce phénomène d’attrition. Ainsi, la capacité à identifier de façon précise et proactive l’attrition à grande échelle peut représenter un avantage concurrentiel significatif. Voici quelques facteurs influençant l’attrition dans le secteur de la téléphonie mobile&amp;#160;: perception de perturbations de service fréquentes, mauvaises expériences liées au service clientèle dans les boutiques en ligne&amp;#160;/ de détail, offres intéressantes proposées par des opérateurs concurrents (meilleur forfait famille, meilleur forfait de données, etc.).&lt;/p&gt;
+&lt;p&gt;Un opérateur de téléphonie mobile doit disposer d’une vision complète de sa base de données d’utilisateurs pour permettre à sa société de conserver une longueur d’avance sur la concurrence.&lt;/p&gt;</value>
+  </data>
+  <data name="Telecommunications_DetailTitle" xml:space="preserve">
+    <value>Opérateur de téléphonie mobile</value>
+  </data>
+  <data name="Telecommunications_IndexTagline" xml:space="preserve">
+    <value>Découvrez de quelle façon une entreprise de télécommunications proposant des services de téléphonie mobile peut tirer profit de la suite Cortana Intelligence Suite et de Power BI pour permettre à ses parties prenantes d’analyser les facteurs influençant l’attrition.</value>
+  </data>
+  <data name="Telecommunications_Title" xml:space="preserve">
+    <value>Télécommunications</value>
+  </data>
+  <data name="PublicSector_DetailsTagline" xml:space="preserve">
+    <value>&lt;h3&gt;Éducation&lt;/h3&gt;
+&lt;p&gt;Comme le montrent les statistiques, le taux de scolarisation dans l’enseignement primaire enregistre une forte expansion à mesure des progrès réalisés notamment dans les pays en voie de développement, en partie grâce aux objectifs du millénaire pour le développement dont l’une des priorités était l’augmentation du taux de scolarisation dans l’enseignement primaire. Toutefois, dans le monde entier, presque 1&amp;#160;enfant sur 10 n’est pas scolarisé, dont un nombre disproportionné de filles (60&amp;#160;%). Le taux de scolarisation dans l’enseignement supérieur a également augmenté, mais il reste faible à l’échelle mondiale et souffre de fortes disparités entre les pays développés et ceux en voie de développement.&lt;/p&gt;
+&lt;p&gt;Bien que la corrélation avec le PIB soit cohérente, il est important de noter un léger déclin du pourcentage de PIB alloué à l’éducation, dû principalement à la dernière récession. Il est encourageant de constater que le fossé entre les sexes se réduit en ce qui concerne le taux de scolarisation dans l’enseignement supérieur. Toutefois, comme indiqué plus haut, le tableau change radicalement si l’on compare les pays développés et en voie de développement et le taux de scolarisation dans l’enseignement primaire est loin de suivre le même schéma.&lt;/p&gt;
+&lt;br&gt;
+&lt;h3&gt;Santé&lt;/h3&gt;
+
+&lt;p&gt;Les données indiquent que l’espérance de vie a augmenté ces dernières années, ce qui est un fait largement reconnu. Ce qui saute aux yeux, c’est la différence entre les hommes et les femmes qui reste la même au fil des années. Évidemment, c’est la population des pays qui allouent davantage de fonds dans le domaine de la santé qui en bénéficie. Il est intéressant de noter que le taux de fertilité baisse à mesure que le PIB augmente.&lt;/p&gt;
+&lt;br&gt;
+&lt;h3&gt;PME/TPE&lt;/h3&gt;
+
+&lt;p&gt;Lorsque l’environnement économique est favorable, la création d’entreprise enregistre une augmentation. La corrélation avec le PIB est évidente. Il est intéressant de constater que le pic d’activité des PME/TPE s’est produit avant la dernière récession.&lt;/p&gt;
+&lt;br&gt;
+&lt;h3&gt;Changement climatique&lt;/h3&gt;
+
+&lt;p&gt;Le changement climatique est un sujet qui est loin de faire l’unanimité. Si nous examinons les données disponibles, nous pouvons confirmer certaines variables connues. Il y a une corrélation directe entre le PIB et l’émission de gaz à effet de serre. Les émissions de CO2 augmentent à mesure que l’économie d’un pays s’améliore. Ce phénomène n’est pas dépendant de la source de la production d’électricité. Les émissions de CO2 s’accroissent également à mesure que la population d’un pays augmente. Vous remarquerez une tendance similaire si vous comparez certains des pays les plus riches en termes d’économie et de population.&lt;/p&gt;
+&lt;p&gt;Les données montrent également que la moyenne des températures augmente. Vous remarquerez que l’augmentation des températures n’est pas en progression constante. Tous les modèles de projection indiquent que la température augmente au fil des années.&lt;/p&gt;</value>
+  </data>
+  <data name="PublicSector_IndexTagline" xml:space="preserve">
+    <value>Les données du secteur public sont disponibles par le biais de diverses sources en ligne. La plupart de ces données sont gratuites. Cela offre une formidable opportunité de corréler la façon dont les politiques publiques ont un impact sur les changements en matière de climat, d’éducation et de santé.</value>
+  </data>
+  <data name="PublicSector_Title" xml:space="preserve">
+    <value>Secteur public</value>
+  </data>
+  <data name="CapitalMarkets_DetailsTagline" xml:space="preserve">
+    <value>Le tableau de bord « Personal Consumption Expenditure » (dépenses de consommation des ménages) est utilisé par le service Treasury de Microsoft pour suivre les tendances en termes de dépenses (en trillions de dollars) sur plus de 200 biens et services individuels (allant des véhicules aux cartes de fidélité des musées) achetés aux États-Unis. Le jeu de données est publié chaque mois par le Bureau d’analyse économique. Il est organisé sous forme de hiérarchie à 8 niveaux que Power BI peut instantanément explorer pour voir les changements au niveau le plus précis. Ce tableau de bord permet à Microsoft d’analyser les tendances année après année en termes de dépenses, ainsi que de visualiser quels sont les biens/services qui sont le plus utilisés par les consommateurs aux États-Unis. En outre, il permet à l’équipe Treasury d’évaluer le climat économique et de comprendre notre position dans le cycle économique.</value>
+  </data>
+  <data name="CapitalMarkets_IndexTagline" xml:space="preserve">
+    <value>Le tableau de bord « Personal Consumption Expenditure » suit les dépenses des consommateurs aux États-Unis pour un large éventail de biens et services afin de suivre le cycle économique des États-Unis et d’évaluer les tendances en termes de dépenses et le climat économique</value>
+  </data>
+  <data name="CapitalMarkets_Title" xml:space="preserve">
+    <value>Marchés financiers</value>
+  </data>
+  <data name="Meta_LocJobId" xml:space="preserve">
+    <value>199</value>
+  </data>
+</root>

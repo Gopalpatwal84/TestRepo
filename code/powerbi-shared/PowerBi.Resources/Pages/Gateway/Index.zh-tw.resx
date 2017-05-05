@@ -1,0 +1,258 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" id="root">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AnalysisServicesConnector_Content" xml:space="preserve">
+    <value>Analysis Services Connector 可讓您連接到用於搭配 Power BI 儀表板和報表的 Analysis Services 表格式伺服器，以及對其發出即時查詢。</value>
+  </data>
+  <data name="AnalysisServicesConnector_Download_CTA" xml:space="preserve">
+    <value>下載</value>
+  </data>
+  <data name="AnalysisServicesConnector_Heading" xml:space="preserve">
+    <value>Analysis Services 連接器</value>
+  </data>
+  <data name="AnalysisServicesConnector_LearnMore_CTA" xml:space="preserve">
+    <value>深入了解</value>
+  </data>
+  <data name="Content_Headline" xml:space="preserve">
+    <value>請選擇最符合您需求的閘道器。</value>
+  </data>
+  <data name="DownloadGateway" xml:space="preserve">
+    <value>下載閘道器</value>
+  </data>
+  <data name="EasySetup_Content" xml:space="preserve">
+    <value>以最少的互動下載並安裝閘道器。然後使用您的組織帳戶登入，以註冊雲端服務要使用的閘道器。</value>
+  </data>
+  <data name="EasySetup_Heading" xml:space="preserve">
+    <value>輕鬆安裝</value>
+  </data>
+  <data name="EnterpriseDeployments_Content" xml:space="preserve">
+    <value>組織可使用這個閘道器來服務大量的使用者。同時可讓系統管理員針對個別資料來源設定存取控制，以及監視使用情況。</value>
+  </data>
+  <data name="EnterpriseDeployments_Download_CTA" xml:space="preserve">
+    <value>下載</value>
+  </data>
+  <data name="EnterpriseDeployments_Heading" xml:space="preserve">
+    <value>適用於企業部署</value>
+  </data>
+  <data name="EnterpriseDeployments_Label" xml:space="preserve">
+    <value>Power BI Gateway - Enterprise</value>
+  </data>
+  <data name="EnterpriseDeployments_LearnMore_CTA" xml:space="preserve">
+    <value>深入了解</value>
+  </data>
+  <data name="Features_ComingSoon" xml:space="preserve">
+    <value>即將推出</value>
+  </data>
+  <data name="Features_LearnMore" xml:space="preserve">
+    <value>深入了解</value>
+  </data>
+  <data name="Features_MSProducts" xml:space="preserve">
+    <value>Power BI、PowerApps、Azure Logic Apps (Preview)、Microsoft Flow</value>
+  </data>
+  <data name="Features_OnPremisesColumn_Heading" xml:space="preserve">
+    <value>內部部署資料閘道器</value>
+  </data>
+  <data name="Features_PersonalColumn_Heading" xml:space="preserve">
+    <value>個人閘道器</value>
+  </data>
+  <data name="Features_PowerBI" xml:space="preserve">
+    <value>Power BI</value>
+  </data>
+  <data name="Features_Row1" xml:space="preserve">
+    <value>匯入資料及設定排程重新整理</value>
+  </data>
+  <data name="Features_Row2" xml:space="preserve">
+    <value>針對不是電腦系統管理員的使用者，以應用程式的方式執行</value>
+  </data>
+  <data name="Features_Row3" xml:space="preserve">
+    <value>使用認證以單一使用者身分執行</value>
+  </data>
+  <data name="Features_Row4" xml:space="preserve">
+    <value>為具有各個資料來源存取控制的使用者提供服務</value>
+  </data>
+  <data name="Features_Row5" xml:space="preserve">
+    <value>支援使用 SQL Server 的 DirectQuery</value>
+  </data>
+  <data name="Features_Row6" xml:space="preserve">
+    <value>支援即時連接 Analysis Services</value>
+  </data>
+  <data name="Features_Row7" xml:space="preserve">
+    <value>對閘道器和資料來源進行監視與稽核</value>
+  </data>
+  <data name="Features_CloudServices" xml:space="preserve">
+    <value>搭配運作的雲端服務</value>
+  </data>
+  <data name="Hero_Content" xml:space="preserve">
+    <value>透過內部部署閘道器，您可以藉由連線到內部部署資料來源，讓資料保持在最新狀態，而不需要移動資料。查詢大型資料集，並從您的現有投資獲益。閘道器提供滿足個別需求以及組織需求的必要彈性。</value>
+  </data>
+  <data name="Hero_Heading" xml:space="preserve">
+    <value>讓您的儀表板及報表與內部部署資料來源保持同步</value>
+  </data>
+  <data name="Hero_LearnMore" xml:space="preserve">
+    <value>深入了解</value>
+  </data>
+  <data name="META_DESCRIPTION" xml:space="preserve">
+    <value />
+  </data>
+  <data name="META_KEYWORDS" xml:space="preserve">
+    <value />
+  </data>
+  <data name="META_PAGETITLE" xml:space="preserve">
+    <value>Power BI Gateway | Microsoft Power BI</value>
+  </data>
+  <data name="OneGateway_Content" xml:space="preserve">
+    <value>使用同一個閘道器，只要安裝一次就能在 Power BI、PowerApps、Microsoft Flow 與 Azure Logic Apps 佈署多個內部部署資料連線。</value>
+  </data>
+  <data name="OneGateway_Heading" xml:space="preserve">
+    <value>一個閘道器適用於所有雲端服務</value>
+  </data>
+  <data name="PersonalUse_Content" xml:space="preserve">
+    <value>無須等候 IT 管理員，即可快速更新您的內部部署資料。這種閘道器是針對搭配個人資料集使用所設計，不含中央監視功能。</value>
+  </data>
+  <data name="PersonalUse_Download_CTA" xml:space="preserve">
+    <value>下載</value>
+  </data>
+  <data name="PersonalUse_Heading" xml:space="preserve">
+    <value>適用於個人用途</value>
+  </data>
+  <data name="PersonalUse_Label" xml:space="preserve">
+    <value>Power BI Gateway - Personal</value>
+  </data>
+  <data name="PersonalUse_LearnMore_CTA" xml:space="preserve">
+    <value>深入了解</value>
+  </data>
+  <data name="SecureAccess_Content" xml:space="preserve">
+    <value>Power BI 與閘道器之間的資料傳輸會透過 Azure 服務匯流排加以保護。閘道器管理員提供的認證會經過加密，以協助在雲端保護您的資訊，而且只會在閘道器電腦上解密。</value>
+  </data>
+  <data name="SecureAccess_Heading" xml:space="preserve">
+    <value>安全的資料存取</value>
+  </data>
+  <data name="SSRS_Content" xml:space="preserve">
+    <value>有了 Reporting Services 2016，使用者就可在 Power BI 中，將視覺效果從報表釘選到儀表板。</value>
+  </data>
+  <data name="SSRS_Heading" xml:space="preserve">
+    <value>SQL Server Reporting Services 2016</value>
+  </data>
+  <data name="SSRS_LearnMore_CTA" xml:space="preserve">
+    <value>深入了解</value>
+  </data>
+  <data name="Meta_LocJobId" xml:space="preserve">
+    <value>151</value>
+  </data>
+</root>

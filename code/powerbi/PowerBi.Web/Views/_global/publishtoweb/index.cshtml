@@ -1,0 +1,553 @@
+﻿@model PowerBI.Web.Models.Pages.ViewMetadataModel
+@using Resources = PowerBI.Resources.Pages.Publishtoweb.Index
+@using Industries = PowerBI.Resources.Shared.PublishToWebIndustries
+@using Stories = PowerBI.Resources.Shared.PublishToWebStories
+
+@{
+    Model.PageTitle = Resources.META_PAGETITLE;
+    Model.MetaKeywords = Resources.META_KEYWORDS;
+    Model.MetaDescription = Resources.META_DESCRIPTION;
+}
+
+<section class="section section-slate02 section-laptop-dashboard section-size6">
+    <div class="row row-size2 column text-center">
+        <h1>@Resources.Hero_Heading</h1>
+    </div>
+    <div class="row row-size3 text-center">
+        <div class="column medium-10 medium-centered">
+            <p>@Resources.Hero_Copy</p>
+        </div>
+    </div>
+    <div class="row row-size4">
+        <div class="column medium-11 medium-centered">
+            <div class="row">
+                <div class="column medium-4 medium-centered">
+                    <ul class="linkList linkList-horizontal">
+                        <li><a href="@Html.LocalizeUrl("/get-started/?WT.mc_id=Publish_to_web", isFullyQualified: true)" class="button button-featured pull-left" data-event="global-clicked-getstartedcta">@Resources.GetStarted_Cta</a></li>
+                        <li><a class="cta-secondary pull-right" href="https://youtu.be/S0FQTdZZ8Wc" data-pops-up="modal-video">@Resources.WatchNow <span class="glyphicon glyph-micro pbi-glyph-chevronrightmedium"></span></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="section">
+    <div class="row">
+        <div class="column large-4">
+            <div class="row">
+                <div class="column">
+                    <span class="icon icon-size3 icon-palette02">@SvgHelper.GetSvg("pie-chart")</span>
+                </div>
+            </div>
+            <div class="row row-size3">
+                <div class="column">
+                    <h3>@Resources.Craft_Heading</h3>
+                    <p>@Resources.Craft_Copy</p>
+                </div>
+            </div>
+        </div>
+        <div class="column large-4">
+            <div class="row">
+                <div class="column">
+                    <span class="icon icon-size3">@SvgHelper.GetSvg("connect")</span>
+                </div>
+            </div>
+            <div class="row row-size3">
+                <div class="column">
+                    <h3>@Resources.Tell_Heading</h3>
+                    <p>@Resources.Tell_Copy</p>
+                </div>
+            </div>
+        </div>
+        <div class="column large-4">
+            <div class="row">
+                <div class="column">
+                    <span class="icon icon-size3 icon-palette02">@SvgHelper.GetSvg("people")</span>
+                </div>
+            </div>
+            <div class="row row-size3">
+                <div class="column">
+                    <h3>@Resources.Own_Heading</h3>
+                    <p>@Resources.Own_Copy</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="section section-size1 section-slate01 subnav-collapse">
+    <div class="row">
+        <div class="column">
+            <div class="subnavMenuToggle">
+                <span class="subnavMenuExpandIcon">
+                    <span class="icon-bar bar1"></span>
+                    <span class="icon-bar bar2"></span>
+                    <span class="icon-bar bar3"></span>
+                </span>
+                <span class="subnavMenuText text-heading5">Industries</span>
+            </div>
+        </div>
+        <div class="subnavMenuLinks">
+            <div class="column">
+                <ul class="linkList linkList-horizontal sd-tabs publishtoweb-subnav">
+                    <li class="subnavLink"><a href="#nonprofits-tab" id="nonprofits-subnav" class="active" onclick="return false;">@Resources.Subnav_Nonprofits</a></li>
+                    <li class="subnavLink"><a href="#business-tab" id="business-subnav">@Resources.Subnav_Business</a></li>
+                    <li class="subnavLink"><a href="#media-tab" id="media-subnav">@Resources.Subnav_Media</a></li>
+                    <li class="subnavLink"><a href="#public-sector-tab" id="public-sector-subnav">@Resources.Subnav_PublicSector</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+
+<div class="tabs-content">
+    <div id="nonprofits-tab" class="active industry-tab subnav-collapse-tab">
+        <section class="section section-palette02">
+            <div class="row">
+                <div class="column medium-5">
+                    <h2 class="text-heading1">@Industries.Nonprofits_HeroHeading</h2>
+                </div>
+                <div class="column medium-6 medium-offset-1">
+                    <p>@Html.RawFormatInvariant(Industries.Nonprofits_HeroDetails_1, "https://www.microsoft.com/en-us/philanthropies/product-donations/products/powerbi")</p>
+                </div>
+            </div>
+        </section>
+
+        <div class="owl-carousel-vertical" id="owl-carousel-vertical1">
+            <section class="section">
+                <div class="row">
+                    <div class="owl-carousel-base owl-carousel-nonprofits-stories">
+                        <div>
+                            <div class="column large-6">
+                                <img class="shadow" src="@CdnHelper.GetCdnUrl("/pictures/shared/publishtoweb/pact-story.png")" alt="" />
+                            </div>
+                            <div class="column large-6 sd-equalize" data-set="nonprofits-stories">
+                                <div class="row row-size2">
+                                    <div class="column">
+                                        <h3>@Stories.Pact_Title</h3>
+                                        <p>@Stories.Pact_Details</p>
+                                    </div>
+                                </div>
+                                <div class="row row-size2">
+                                    <div class="column">
+                                        <a class="button" href="http://www.pactworld.org/our-results">@Resources.ReadMore</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="column large-6">
+                                <img class="shadow" src="@CdnHelper.GetCdnUrl("/pictures/shared/publishtoweb/elizabeth-glaser-story.png")" alt="" />
+                            </div>
+                            <div class="column large-6 sd-equalize" data-set="nonprofits-stories">
+                                <div class="row row-size2">
+                                    <div class="column">
+                                        <h3>@Stories.ElizabethGlaser_Title</h3>
+                                        <p>@Stories.ElizabethGlaser_Details</p>
+                                    </div>
+                                </div>
+                                <div class="row row-size2">
+                                    <div class="column">
+                                        <a class="button" href="@Html.LocalizeUrl("go:723970")">@Resources.ReadMore</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="column large-6">
+                                <img class="shadow" src="@CdnHelper.GetCdnUrl("/pictures/shared/publishtoweb/crs-story.png")" alt="" />
+                            </div>
+                            <div class="column large-6 sd-equalize" data-set="nonprofits-stories">
+                                <div class="row row-size2">
+                                    <div class="column">
+                                        <h3>@Stories.CatholicReliefServices_Title</h3>
+                                        <p>@Stories.CatholicReliefServices_Details</p>
+                                    </div>
+                                </div>
+                                <div class="row row-size2">
+                                    <div class="column">
+                                        <a class="button" href="http://remind.crsindia.org/">@Resources.ReadMore</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="column large-6">
+                                <img class="shadow" src="@CdnHelper.GetCdnUrl("/pictures/shared/publishtoweb/water-aid-story.png")" alt="" />
+                            </div>
+                            <div class="column large-6 sd-equalize" data-set="nonprofits-stories">
+                                <div class="row row-size2">
+                                    <div class="column">
+                                        <h3>@Stories.WaterAid_Title</h3>
+                                        <p>@Stories.WaterAid_Details</p>
+                                    </div>
+                                </div>
+                                <div class="row row-size2">
+                                    <div class="column">
+                                        <a class="button" href="http://wateraidindia.in/our-impact/news/enhancing-local-capacity-lasting-change/">@Resources.ReadMore</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="section section-slate02 section-nonprofits-publishtoweb">
+                <div class="row">
+                    <div class="column medium-10 medium-centered text-center">
+                        <blockquote class="large-quote text-heading2">@Industries.Nonprofits_Quote</blockquote>
+                        <p>@Industries.Nonprofits_QuoteAuthor</p>
+                    </div>
+                </div>
+                <div class="row column text-center">
+                    <a class="button button-alt" href="@Html.LocalizeUrl("/get-started/")">@Resources.GetStarted_Cta</a>
+                </div>
+            </section>
+        </div>
+
+        <section class="section section-slate01 section-size0">
+            <div class="row">
+                <div class="column owl-controls-vertical" id="owl-controls-vertical1">
+                    <a href="#" data-index="0" class="text-heading4" id="nonprofits-stories">
+                        <span class="icon icon-size4">@SvgHelper.GetSvg("plus")</span>
+                        <span class="dot-label show-for-medium">@Resources.Stories</span>
+                        <div class="underline"></div>
+                    </a>
+                    <a href="#" data-index="1" class="text-heading4 vertical-control-testimonials" id="nonprofits-testimonials">
+                        <span class="icon icon-size4">@SvgHelper.GetSvg("speech-bubble")</span>
+                        <span class="dot-label show-for-medium">@Resources.Testimonials</span>
+                        <div class="underline"></div>
+                    </a>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <div id="business-tab" class="industry-tab subnav-collapse-tab">
+        <section class="section section-palette02">
+            <div class="row">
+                <div class="column medium-5">
+                    <h2 class="text-heading1">@Industries.Businesses_HeroHeading</h2>
+                </div>
+                <div class="column medium-6 medium-offset-1">
+                    <p>@Industries.Businesses_HeroDetails</p>
+                </div>
+            </div>
+        </section>
+
+        <div class="owl-carousel-vertical" id="owl-carousel-vertical2">
+            <section class="section">
+                <div class="row">
+                    <div>
+                        <div>
+                            <div class="column large-6">
+                                <img class="shadow" src="@CdnHelper.GetCdnUrl("/pictures/shared/publishtoweb/jj-food-services-story.png")" alt="" />
+                            </div>
+                            <div class="column large-6">
+                                <div class="row row-size2">
+                                    <div class="column">
+                                        <h3>@Stories.JJFoodServices_Title</h3>
+                                        <p>@Stories.JJFoodServices_Details</p>
+                                    </div>
+                                </div>
+                                <div class="row row-size2">
+                                    <div class="column">
+                                        <a class="button" href="@Html.LocalizeUrl("go:723967")">@Resources.ReadMore</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="section section-slate02 section-businesses-publishtoweb">
+                <div class="row">
+                    <div class="column medium-10 medium-centered text-center">
+                        <blockquote class="large-quote text-heading2">@Industries.Businesses_Quote</blockquote>
+                        <p>@Industries.Businesses_QuoteAuthor</p>
+                    </div>
+                </div>
+                <div class="row column text-center">
+                    <a class="button button-alt" href="@Html.LocalizeUrl("/get-started/")">@Resources.GetStarted_Cta</a>
+                </div>
+            </section>
+        </div>
+
+        <section class="section section-slate01 section-size0">
+            <div class="row">
+                <div class="column owl-controls-vertical" id="owl-controls-vertical2">
+                    <a href="#" data-index="0" class="text-heading4">
+                        <span class="icon icon-size4">@SvgHelper.GetSvg("plus")</span>
+                        <span class="dot-label show-for-medium">@Resources.Stories</span>
+                        <div class="underline"></div>
+                    </a>
+                    <a href="#" data-index="1" class="text-heading4 vertical-control-testimonials">
+                        <span class="icon icon-size4">@SvgHelper.GetSvg("speech-bubble")</span>
+                        <span class="dot-label show-for-medium">@Resources.Testimonials</span>
+                        <div class="underline"></div>
+                    </a>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <div id="media-tab" class="industry-tab subnav-collapse-tab">
+        <section class="section section-palette02">
+            <div class="row">
+                <div class="column medium-5">
+                    <h2 class="text-heading1">@Industries.Media_HeroHeading</h2>
+                </div>
+                <div class="column medium-6 medium-offset-1">
+                    <p>@Industries.Media_HeroDetails</p>
+                </div>
+            </div>
+        </section>
+
+        <div class="owl-carousel-vertical" id="owl-carousel-vertical3">
+            <section class="section">
+                <div class="row">
+                    <div>
+                        <div>
+                            <div class="column large-6">
+                                <img class="shadow" src="@CdnHelper.GetCdnUrl("/pictures/shared/publishtoweb/king-5-story.png")" alt="" />
+                            </div>
+                            <div class="column large-6">
+                                <div class="row row-size2">
+                                    <div class="column">
+                                        <h3>@Stories.King5_Title</h3>
+                                        <p>@Stories.King5_Details</p>
+                                    </div>
+                                </div>
+                                <div class="row row-size2">
+                                    <div class="column">
+                                        <a class="button" href="@Html.LocalizeUrl("go:808059")">@Resources.ReadMore</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="section section-slate02 section-media-publishtoweb">
+                <div class="row">
+                    <div class="column medium-10 medium-centered text-center">
+                        <blockquote class="large-quote text-heading2">@Industries.Media_Quote</blockquote>
+                        <p>@Industries.Media_QuoteAuthor</p>
+                    </div>
+                </div>
+                <div class="row column text-center">
+                    <a class="button button-alt" href="@Html.LocalizeUrl("/get-started/")">@Resources.GetStarted_Cta</a>
+                </div>
+            </section>
+        </div>
+
+        <section class="section section-slate01 section-size0">
+            <div class="row">
+                <div class="column owl-controls-vertical" id="owl-controls-vertical3">
+                    <a href="#" data-index="0" class="text-heading4">
+                        <span class="icon icon-size4">@SvgHelper.GetSvg("plus")</span>
+                        <span class="dot-label show-for-medium">@Resources.Stories</span>
+                        <div class="underline"></div>
+                    </a>
+                    <a href="#" data-index="1" class="text-heading4 vertical-control-testimonials">
+                        <span class="icon icon-size4">@SvgHelper.GetSvg("speech-bubble")</span>
+                        <span class="dot-label show-for-medium">@Resources.Testimonials</span>
+                        <div class="underline"></div>
+                    </a>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <div id="public-sector-tab" class="industry-tab subnav-collapse-tab">
+        <section class="section section-palette02">
+            <div class="row">
+                <div class="column medium-6">
+                    <h2 class="text-heading1">@Industries.PublicSector_HeroHeading</h2>
+                </div>
+                <div class="column medium-6">
+                    <p>@Industries.PublicSector_HeroDetails</p>
+                </div>
+            </div>
+        </section>
+
+        <div class="owl-carousel-vertical" id="owl-carousel-vertical4">
+            <section class="section">
+                <div class="row">
+                    <div>
+                        <div>
+                            <div class="column large-6">
+                                <img class="shadow" src="@CdnHelper.GetCdnUrl("/pictures/shared/publishtoweb/civic-innovation-project-story.png")" alt="" />
+                            </div>
+                            <div class="column large-6">
+                                <div class="row row-size2">
+                                    <div class="column">
+                                        <h3>@Stories.CivicInnovationProject_Title</h3>
+                                        <p>@Stories.CivicInnovationProject_Details</p>
+                                    </div>
+                                </div>
+                                <div class="row row-size2">
+                                    <div class="column">
+                                        <a class="button" href="http://www.civicinnovationproject.com/news">@Resources.ReadMore</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="section section-slate02 section-public-sector-publishtoweb">
+                <div class="row">
+                    <div class="column medium-10 medium-centered text-center">
+                        <blockquote class="large-quote text-heading2">@Industries.PublicSector_Quote</blockquote>
+                        <p>@Industries.PublicSector_QuoteAuthor</p>
+                    </div>
+                </div>
+                <div class="row column text-center">
+                    <a class="button button-alt" href="@Html.LocalizeUrl("/get-started/")">@Resources.GetStarted_Cta</a>
+                </div>
+            </section>
+        </div>
+
+        <section class="section section-slate01 section-size0">
+            <div class="row">
+                <div class="column owl-controls-vertical" id="owl-controls-vertical4">
+                    <a href="#" data-index="0" class="text-heading4">
+                        <span class="icon icon-size4">@SvgHelper.GetSvg("plus")</span>
+                        <span class="dot-label show-for-medium">@Resources.Stories</span>
+                        <div class="underline"></div>
+                    </a>
+                    <a href="#" data-index="1" class="text-heading4 vertical-control-testimonials">
+                        <span class="icon icon-size4">@SvgHelper.GetSvg("speech-bubble")</span>
+                        <span class="dot-label show-for-medium">@Resources.Testimonials</span>
+                        <div class="underline"></div>
+                    </a>
+                </div>
+            </div>
+        </section>
+    </div>
+</div>
+
+<section class="section section-size4">
+    <div class="row column text-center">
+        <h2 class="text-heading1">@Resources.GetStarted_Heading</h2>
+    </div>
+    <div class="row">
+        <div class="column medium-4">
+            <a href="@Html.LocalizeUrl("/guided-learning/")" class="card card-block sd-equalize" data-set="publishtoweb-options">
+                <span class="icon">@SvgHelper.GetSvg("play-video")</span>
+                <span class="text-heading3 top">@Resources.GuidedLearning_Heading</span>
+                <span class="bottom">@Resources.GuidedLearning_Content</span>
+            </a>
+        </div>
+        <div class="column medium-4">
+            <a href="@Html.LocalizeUrl("/documentation/powerbi-landing-page/")" class="card card-block sd-equalize" data-set="publishtoweb-options">
+                <span class="icon">@SvgHelper.GetSvg("search")</span>
+                <span class="text-heading3 top">@Resources.ProductDocumentation_Heading</span>
+                <span class="bottom">@Resources.ProductDocumentation_Content</span>
+            </a>
+        </div>
+        <div class="column medium-4">
+            <a href="@Html.LocalizeUrl("article: powerbi-service-publish-to-web")" class="card card-block sd-equalize" data-set="publishtoweb-options">
+                <span class="icon">@SvgHelper.GetSvg("search")</span>
+                <span class="text-heading3 top">@Resources.PublishtowebDocumentation_Heading</span>
+                <span class="bottom">@Resources.PublishtowebDocumentation_Content</span>
+            </a>
+        </div>
+    </div>
+    <div class="row row-size2">
+        <div class="column medium-4">
+            <a href="@Html.LocalizeUrl("article: powerbi-webinars")" class="card card-block sd-equalize" data-set="publishtoweb-options">
+                <span class="icon">@SvgHelper.GetSvg("person-with-monitor")</span>
+                <span class="text-heading3 top">@Resources.Webinars_Heading</span>
+                <span class="bottom">@Resources.Webinars_Content</span>
+            </a>
+        </div>
+        <div class="column medium-4">
+            <a href="https://www.youtube.com/watch?v=d2bZpNZ6uIA" class="card card-block sd-equalize" data-set="publishtoweb-options">
+                <span class="icon">@SvgHelper.GetSvg("pencil")</span>
+                <span class="text-heading3 top">@Resources.TipsAndTricks_Heading</span>
+                <span class="bottom">@Resources.TipsAndTricks_Content</span>
+            </a>
+        </div>
+        <div class="column medium-4">
+            <a href="@Html.LocalizeUrl("https://www.youtube.com/channel/UCy--PYvwBwAeuYaR8JLmrfg")" class="card card-block sd-equalize" data-set="publishtoweb-options">
+                <span class="icon">@SvgHelper.GetSvg("monitor")</span>
+                <span class="text-heading3 top">@Resources.YouTubeVideos_Heading</span>
+                <span class="bottom">@Resources.YouTubeVideos_Content</span>
+            </a>
+        </div>
+    </div>
+</section>
+
+<section class="section section-slate01">
+    <div class="row column text-center">
+        <h2 class="text-heading1">@Resources.GetInspired_Heading</h2>
+    </div>
+    <div class="row row-size3">
+        <div class="column medium-4">
+            <div class="row column">
+                <h5>@Resources.CommunityGallery_Heading</h5>
+            </div>
+            <div class="row row-size2 column">
+                <p>@Resources.CommunityGallery_Content</p>
+            </div>
+            <div class="row row-size4 column">
+                <a class="button button-featured" href="https://aka.ms/datastories">@Resources.ViewNow</a>
+            </div>
+        </div>
+        <div class="column medium-4">
+            <div class="row column">
+                <h5>@Resources.CustomVisualsGallery_Heading</h5>
+            </div>
+            <div class="row row-size2 column">
+                <p>@Resources.CustomVisualsGallery_Content</p>
+            </div>
+            <div class="row row-size4 column">
+                <a class="button button-featured" href="https://app.powerbi.com/visuals/">@Resources.ViewNow</a>
+            </div>
+        </div>
+        <div class="column medium-4">
+            <div class="row column">
+                <h5>@Resources.UserGroups_Heading</h5>
+            </div>
+            <div class="row row-size2 column">
+                <p>@Resources.UserGroups_Content</p>
+            </div>
+            <div class="row row-size4 column">
+                <a class="button button-featured" href="http://community.powerbi.com/t5/Power-BI-User-Groups/ct-p/Groups">@Resources.ViewNow</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="section modal modal-video" id="modal-video" data-video-embed="https://www.youtube.com/embed/S0FQTdZZ8Wc?showinfo=0&amp;autoplay=1">
+    <button class="close">&times;</button>
+    <div class="row column">
+        <iframe frameborder="0" allowfullscreen></iframe>
+    </div>
+</section>
+
+@section foot{
+    <script>
+        $(function () {
+
+            $(".owl-carousel-base").owlCarousel({
+                autoplay: true,
+                items: 1,
+                loop: true,
+                nav: true,
+                navText: [
+                    '<span class="icon">@SvgHelper.GetSvg("left-transparent")</span>',
+                    '<span class="icon">@SvgHelper.GetSvg("right-transparent")</span>'
+                ],
+            });
+
+        });
+    </script>
+}

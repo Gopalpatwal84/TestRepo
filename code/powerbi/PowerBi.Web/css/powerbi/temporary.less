@@ -1,0 +1,49 @@
+﻿@import '../../less/variables.d.less';
+@import '../../less/mixins.d.less';
+
+// Sundog nuget update 4/5/2017
+
+// framework/section.less:88. Overwrites change that removes invisible section borders, so for now 
+// we'll remain pixel-perfect 
+.section {
+    &.section + &.section {
+        border-top: 1px solid @color-slate09;
+    }
+    &.section + &.section-gradient, 
+    &.section + &.section[class*='section-slate'], 
+    &.section + &.section[class*='section-palette']{
+        border-top: none;
+    }
+}
+
+// framework/section.less:16. Overwrites change that sets the search icon SVG fill to white because it's in a light section.
+.search-input, .video {
+    .icon svg{
+        fill: inherit;
+    }
+}
+
+// framework/base.less:18 This is an important accessibility fix, but adds
+// a thick outline to the Guided Learning links in Firefox. This makes it thinner.
+a:focus {
+    outline-width: 1px;
+}
+
+// framework/form.less:89. Overwrites a change that reduced the spacing between form rows. 
+.form-row + .form-row {
+    margin-top: 25px;
+}
+
+// no specific source. Sundog deleted color-palette13. We were using this specific font color.
+.text-palette13 {
+   color: #fcd116;
+}
+
+// framework/link.less:38. Overwrites a change to the caret in arrow links.
+.arrowLink {
+    &:after {
+        content: '\25B6';
+        margin-left: @spacing-size1;
+    }
+}
+// End Sundog update

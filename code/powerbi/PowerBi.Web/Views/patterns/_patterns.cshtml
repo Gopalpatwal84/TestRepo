@@ -1,0 +1,31 @@
+﻿@using Acom.Mvc.Bundles
+@using PowerBI.Web.DynamicContent
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Pattern</title>
+    @Styles.Render(CoreCss.Path.LocalPath)
+</head>
+<body>
+    <div class="container @ViewBag.Container">
+        @RenderBody()
+    </div>
+
+    <!--[if lt IE 9]>
+        <script src="@CdnHelper.GetCdnUrl("/scripts/sundog/lib/jquery-1.11.3.min.js")"></script>
+        <script src="@CdnHelper.GetCdnUrl("/scripts/sundog/lib/respond.min.js")"></script>
+    <![endif]-->
+    <!--[if gte IE 9]><!-->
+    <script src="@CdnHelper.GetCdnUrl("/scripts/sundog/lib/jquery-2.1.4.min.js")"></script>
+    <!--<![endif]-->
+
+    @Scripts.Render(CoreScripts.Path.LocalPath)
+
+    @RenderSection("foot", false)
+</body>
+</html>

@@ -1,0 +1,87 @@
+@import (reference) '../../variables.d.less';
+@import (reference) '../../mixins.d.less';
+
+/*
+Play In Section
+
+Trigger a video to be played within a section.
+
+Markup:
+<section class="section">
+    <div class="row" style="height: 400px;">
+        <a href="#" class="button sd-playinsection" data-src="https://channel9.msdn.com/Shows/Visual-Studio-Toolbox/App-Development-with-Cortana/player">Play video</a>
+    </div>
+</section>
+
+Styleguide playinsection
+*/
+
+/*
+Play In Section: AMP
+
+Trigger an AMP video to be played within a section.
+
+Markup:
+<section class="section">
+    <div class="row" style="height: 400px;">
+        <a href="#" class="button sd-playinsection" data-player="ams" data-src="//pwrappsmediaprimary.streaming.mediaservices.windows.net/45d36e05-2dd4-4242-a278-be8046960340/intro.ism/manifest">Play video</a>
+    </div>
+</section>
+
+Styleguide playinsection.amp
+*/
+
+/*
+Play In Section: Alt
+
+Description.
+
+Markup: playInSection.alt.html
+
+Styleguide playinsection.alt
+*/
+
+/*
+Play In Section: Background
+
+Description.
+
+Markup: playInSection.background.html
+
+Styleguide playinsection.background
+*/
+
+.sd-playinsection-container {
+    .center();
+    z-index: 999;
+}
+
+.sd-playinsection-mask {
+    bottom: 0;
+    background-color: @color-slate01;
+    background-color: rgba(0,0,0,.8);
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: 997;
+}
+
+.sd-playinsection-close {
+    display: block;
+    height: 36px;
+    left: 50%;
+    position: absolute;
+    top: 0;
+    width: 36px;
+    z-index: 998;
+    padding: 0;
+    border: none;
+    background-color: transparent;
+    &:before {
+        color: @color-palette01;
+        content: '\00d7';
+        font-size: 50px;
+        line-height: 25px;
+    }
+}

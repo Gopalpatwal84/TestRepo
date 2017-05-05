@@ -1,0 +1,38 @@
+﻿@model PowerBI.Web.Features.Forms.Models.PartnersInvitationRequestViewModel
+
+@using Form = PowerBI.Resources.Shared.Forms.Form
+@using Resources = PowerBI.Resources.Shared.Forms.PartnersInvitationRequest
+
+@{
+    OnyxForms.SetupForms();
+    var formClass = Model.FormOptions.Class ?? string.Empty;
+    var submitText = Model.FormOptions.SubmitText ?? Form.Submit;
+
+    using (var f = Html.BeginChameleonForm(Html.LocalizeUrl("/forms/submit-partners-invitation-request/").ToString(), method: FormMethod.Post, htmlAttributes: Html.Attrs().AddClass(formClass).Attr("data-error", Resources.Form_Error)))
+    {
+        using (var s = f.BeginSection())
+        {
+            <h2>@Resources.TellUsAboutYourOrganization_Heading</h2>
+            @f.FormOptions(Model.FormOptions)
+            <p> @Resources.Form_Heading </p>
+            <br />
+            @s.FieldFor(m => m.FirstName).Label(Resources.FirstName_Label);
+            @s.FieldFor(m => m.LastName).Label(Resources.LastName_Label);
+            @s.FieldFor(m => m.Email).Label(Resources.Email_Label);
+            @s.FieldFor(m => m.Company).Label(Resources.Company_Label);
+            @s.FieldFor(m => m.Country).Label(Resources.Country_Label);
+            @s.FieldFor(m => m.JobRole).Label(Resources.Title_Label);
+            @s.FieldFor(m => m.MpnId).Label(Resources.MpnId_Label)
+                       
+            @Html.RawFormatInvariant(Resources.Disclaimer_Text, Html.LocalizeUrl("go:521839"))
+            <div class="country-consent" data-countries="@string.Join(" ", Model.CountriesRequiringContactConsent.Select(c => c.Slug))">
+                @s.FieldFor(m => m.Consent).WithoutLabel().Label(string.Empty).InlineLabel(Form.Accept)
+            </div>
+        }
+        <br/>
+        using (var n = f.BeginNavigation())
+        {
+            @n.Submit(submitText).AddClass("button-featured").Id("power-bi-contact-us-click")
+        }
+    }
+}

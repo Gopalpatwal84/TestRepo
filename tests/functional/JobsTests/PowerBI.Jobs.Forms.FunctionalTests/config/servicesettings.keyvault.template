@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<serviceSettings>
+  <services>
+    <group name="pwrbi-jobs">
+      <storage>
+        <connectionInfo region="West US" default="true" accountName="powerbiwebjobsint" key="#{keyvault:powerbi:services-storage-jobs-westus-key}" />
+        <connectionInfo region="Unknown" accountName="powerbiwebjobsint" key="#{keyvault:powerbi:services-storage-jobs-westus-key}" />
+      </storage>
+      <documentdb>
+        <connectionInfo region="West US" default="true" host="https://pwrbi-westus-int-01.documents.azure.com" key="#{keyvault:powerbi:services-documentdb-forms-westus-key}" />
+        <connectionInfo region="Unknown" host="https://pwrbi-westus-int-01.documents.azure.com" key="#{keyvault:powerbi:services-documentdb-forms-westus-key}" />
+      </documentdb>
+    </group>
+  </services>
+</serviceSettings>

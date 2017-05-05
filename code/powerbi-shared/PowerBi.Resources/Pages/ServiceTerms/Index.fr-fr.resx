@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Content" xml:space="preserve">
+    <value>&lt;p&gt;&lt;a href="/en-us/terms-of-service/" title="English"&gt;English&lt;/a&gt;
+        &lt;/p&gt;
+        &lt;p&gt;Nous vous remercions d’avoir choisi Microsoft!&lt;/p&gt;
+        &lt;p&gt;
+        &lt;p&gt;Le présent contrat conclu entre Microsoft Corporation et vous décrit vos droits d’utilisation de l’Évaluation du logiciel et du service (le « Service ») Power BI. En utilisant le Service, vous devez respecter ces conditions (« le présent Contrat »).&lt;/p&gt;
+        &lt;p&gt;Vous pouvez vous abonner à un compte professionnel Microsoft avec une adresse électronique fournie par votre entreprise (par exemple, votre employeur ou établissement d’enseignement). Sachez que si vous vous abonnez au Service et l’utilisez via un compte professionnel (par exemple, votre adresse électronique professionnelle), le propriétaire du nom de domaine de l’entreprise (comme votre employeur ou établissement d’enseignement) pourra prendre le contrôle de votre compte et avoir accès à vos données ainsi qu’à vos activités passées.&lt;/p&gt;
+        &lt;p&gt;Dans un souci de commodité, nous avons formulé certains termes du présent Contrat sous forme de questions-réponses. Il vous est très fortement conseillé de lire l’intégralité du présent Contrat, car tous les termes sont importants et constituent ensemble un contrat légal, qui vous est applicable dès que vous l’avez accepté.&lt;/p&gt;
+        &lt;ol&gt;
+            &lt;li&gt;Acceptation et modifications du Contrat
+                &lt;ol&gt;
+                    &lt;li&gt;Que dois-je faire pour accepter le présent Contrat? En utilisant ou en accédant au Service, ou en acceptant les présentes conditions au moyen de l’option disponible dans l’interface utilisateur, vous acceptez de respecter le présent Contrat sans y apporter de modification. Si vous n’acceptez pas ces conditions, vous ne devez pas utiliser le Service.&lt;/li&gt;
+                    &lt;li&gt;Microsoft peut-elle modifier le présent Contrat après que je l’ai accepté? Oui. Microsoft peut modifier ou corriger les présentes conditions occasionnellement. Le cas échéant, vous en serez informé au moyen de l’interface utilisateur, dans un message électronique ou par tout autre moyen raisonnable. Après la date d’entrée en vigueur de la modification, votre utilisation du Service vaudra acceptation des nouvelles conditions. Si vous refusez la modification, vous devez cesser d’utiliser le service. Dans le cas contraire, les nouvelles conditions s’appliquent.&lt;/li&gt;
+                    &lt;li&gt;Quels sont les types de modifications susceptibles d’être apportés au Service ? Nous travaillons constamment à l’amélioration du Service et sommes susceptibles de le modifier à tout moment. Étant donné qu’il s’agit d’une évaluation, le Service peut ne pas fonctionner correctement ou comme une version finale. Nous sommes susceptibles de cesser de fournir des parties du Service, de temps à autre. Nous pouvons notamment le faire si la fourniture d’un Service cesse d’être viable, si la technologie progresse, si les commentaires des clients rendent une modification nécessaire, si nos contrats avec des tiers ne nous permettent plus de mettre leur matériel à disposition, ou si des problèmes externes rendent une telle fourniture imprudente ou impossible.&lt;/li&gt;
+                    &lt;li&gt;Qu’advient-il des commentaires? Quelle utilisation faites-vous de mes commentaires ? En acceptant d’utiliser le Service, vous acceptez de fournir des commentaires à Microsoft en retour. Vous concédez à Microsoft, à titre gratuit, sous licence, tous les droits de propriété intellectuelle et autres droits nécessaires pour permettre à Microsoft d’utiliser, de partager et de commercialiser vos commentaires de quelque manière que ce soit et à toute fin. Vous concédez également à des tiers, à titre gratuit, sous licence, tous les droits de propriété intellectuelle et autres droits nécessaires pour permettre à leurs produits, technologies et services d’être utilisés ou de servir d’interface avec n’importe quelle partie spécifique d’un logiciel ou service Microsoft qui inclut ces commentaires. Vous ne donnerez pas d’informations faisant l’objet de toute licence qui impose à Microsoft de concéder sous licence son logiciel ou ses services à des tiers du fait que nous y incluons vos commentaires. Les droits concédés dans ce paragraphe sont perpétuels et mondiaux, et resteront en vigueur après la résiliation ou l’expiration du présent Contrat.&lt;/li&gt;
+                &lt;/ol&gt;
+            &lt;/li&gt;
+            &lt;li&gt;Vos données
+                &lt;ol&gt;
+                    &lt;li&gt;À qui appartient le Contenu que j’apporte sur le Service?
+                        &lt;p&gt;Comme convenu entre Microsoft et vous, ce Contenu vous appartient, à moins que le propriétaire de votre compte professionnel ne prenne le contrôle de votre compte. Le Service vous permet de communiquer avec des tiers et de partager ou stocker divers types de fichiers, tels que des photographies, documents, musiques et vidéos. Les contenus de vos communications et fichiers sont votre « Contenu » et, à l’exception des documents que nous vous concédons sous licence et que vous avez incorporés dans votre propre Contenu (tels que des images clipart), nous ne revendiquons aucun droit de propriété sur le Contenu que vous apportez sur le Service. Vous êtes responsable de votre Contenu.&lt;/p&gt;
+                        &lt;p&gt;Si le propriétaire du nom de domaine d’entreprise a pris le contrôle de votre compte, veuillez contacter votre administrateur afin de connaître vos droits sur votre Contenu.&lt;/p&gt;
+                    &lt;/li&gt;
+                    &lt;li&gt;Qui peut avoir accès à mon Contenu? Si vous partagez le Contenu dans des zones publiques du Service, via des fonctionnalités permettant le partage public de Contenu, ou dans des zones partagées accessibles à des tiers de votre choix, vous acceptez que tout individu avec lequel vous partagez le Contenu puisse utiliser, sauvegarder, reproduire, distribuer, afficher et transmettre gratuitement ce Contenu en relation avec son utilisation du Service ainsi que de tout autre produit et service de Microsoft ou de ses affiliés. Si vous ne souhaitez pas que d’autres personnes aient cette possibilité, n’utilisez pas le Service pour partager votre Contenu. En outre, si le propriétaire du nom de domaine d’entreprise a pris le contrôle de votre compte, votre administrateur aura accès à votre Contenu.
+                        &lt;p&gt;Vous garantissez et déclarez que, pendant la durée du présent Contrat, vous disposez (et continuerez à disposer) de tous les droits requis pour le Contenu que vous téléchargez ou partagez sur le Service, et que l’utilisation de ce Contenu, comme indiqué dans l’article 2.2, ne transgresse aucune loi.&lt;/p&gt;
+                    &lt;/li&gt;
+                    &lt;li&gt;Que fait Microsoft avec mon Contenu? Lorsque vous transmettez ou téléchargez le Contenu sur le Service, vous concédez gratuitement à Microsoft le droit d’utiliser le Contenu dans le monde entier, dans la mesure nécessaire pour : vous fournir le Service et améliorer ses produits et services. Microsoft utilise et protège votre Contenu conformément à la Déclaration relative aux données personnelles mentionnée dans l’article 4.&lt;/li&gt;
+                    &lt;li&gt;Quels sont les types de contenus ou d’actions interdits? Afin de protéger nos clients et le Service, nous avons instauré un Code de conduite régissant l’utilisation du Service. Les contenus ou actions allant à l’encontre du présent Contrat sont interdits.
+                        &lt;ol class="roman_counter"&gt;
+                            &lt;li&gt;N’utilisez pas le Service pour commettre des actes illégaux.&lt;/li&gt;
+                            &lt;li&gt;Ne participez à aucune activité qui exploite, porte atteinte ou menace de porter atteinte à des enfants.&lt;/li&gt;
+                            &lt;li&gt;N’envoyez pas de courrier indésirable et n’utilisez pas votre compte pour aider d’autres à le faire. Le courrier indésirable est un courrier, une publication ou un message non sollicité(e).&lt;/li&gt;
+                            &lt;li&gt;Ne publiez pas d’images inappropriées (par exemple, nudité, bestialité, pornographie).&lt;/li&gt;
+                            &lt;li&gt;Ne participez à aucune activité malhonnête ou trompeuse (par exemple, tentative d’extorquer de l’argent sous de faux prétextes, en se faisant passer pour quelqu’un d’autre).&lt;/li&gt;
+                            &lt;li&gt;Ne participez à aucune activité portant atteinte au Service ou à des tiers (par exemple, virus, harcèlement, discours haineux, prônant la violence à l’encontre de tiers).&lt;/li&gt;
+                            &lt;li&gt;Ne portez pas atteinte aux droits de tiers (par exemple, partage non autorisé de musiques protégées par des droits d’auteur, revente ou autre distribution de Bing maps, de photographies et d’autre Contenu).&lt;/li&gt;
+                            &lt;li&gt;Ne participez à aucune activité violant les données personnelles de tiers.&lt;/li&gt;
+                            &lt;li&gt;N’utilisez pas le Service d’une quelconque manière qui pourrait interférer avec, perturber, affecter ou empêcher l’utilisation du Service par d’autres utilisateurs, ou qui pourrait endommager, désactiver, surcharger ou affecter le fonctionnement du Service, de quelque manière que ce soit.&lt;/li&gt;
+                            &lt;li&gt;N’envoyez pas de publicités, sollicitations, documents promotionnels, courriers indésirables, chaînes ou opérations pyramidales, non sollicités ou non autorisés, et abstenez-vous de dissimuler ou de falsifier l’identité d’expéditeurs de courriers électroniques dans le but d’envoyer des courriers ou autres messages commerciaux indésirables.&lt;/li&gt;
+                            &lt;li&gt;Abstenez-vous de récupérer ou de collecter des informations sur des tiers, notamment leurs adresses électroniques, sans leur consentement.&lt;/li&gt;
+                            &lt;li&gt;N’utilisez pas de robot, d’araignée, de collecteur ou autre moyen automatisé ou interface n’étant pas fourni(e) par nous pour accéder au Service ou extraire des données.&lt;/li&gt;
+                            &lt;li&gt;Ne reconstituez pas la logique de tout aspect du Service, et abstenez-vous de faire quoi que ce soit pour découvrir le code source ou passer outre ou contourner les mesures visant à prévenir ou à limiter l’accès à tout(e) zone, contenu ou code du Service (sauf autorisation légale).&lt;/li&gt;
+                            &lt;li&gt;N’utilisez pas ou ne tentez pas d’utiliser tout compte que vous n’êtes pas autorisé à utiliser.&lt;/li&gt;
+                            &lt;li&gt;N’usurpez pas l’identité de toute personne ou entité, ne publiez rien au nom d’une personne ou entité quelle qu’elle soit, ne dénaturez pas vos liens avec une personne ou entité.&lt;/li&gt;
+                            &lt;li&gt;Ne tentez pas de contourner toute technique de filtrage de contenu que nous pourrions employer, ni d’accéder à tout service, ou toute zone du Service, dont l’accès vous est interdit.&lt;/li&gt;
+                        &lt;/ol&gt;
+                        &lt;p&gt;Dans de nombreux cas, Microsoft est avertie des violations du Code de conduite par des réclamations de clients, mais nous pouvons utiliser des moyens automatisés pour détecter la pornographie infantile ou des abus susceptibles de porter atteinte au système, à nos clients ou à des tiers. En enquêtant sur ces affaires, Microsoft ou ses représentants vérifieront le Contenu afin de résoudre le problème. Ceci s’ajoute aux utilisations que nous décrivons dans le présent Contrat et les Déclarations relatives aux données personnelles.&lt;/p&gt;
+                    &lt;/li&gt;
+                    &lt;li&gt;Microsoft peut-elle retirer mon Contenu du Service? Oui. Microsoft supprimera, limitera la diffusion de, ou désactivera l’accès à, votre Contenu si nous estimons qu’il viole le présent Contrat, ou si nous recevons une réclamation d’un autre utilisateur, une notification de violation de droits de propriété intellectuelle ou une ordonnance légale de suppression. Nous pouvons également bloquer la transmission d’une communication (comme un courrier électronique ou message instantané) vers ou depuis le Service, dans le cadre de nos efforts visant à protéger le Service ou nos clients ou à faire appliquer les termes du présent Contrat.&lt;/li&gt;
+                &lt;/ol&gt;
+            &lt;/li&gt;
+            &lt;li&gt;Durée et annulation/résiliation du Service
+                &lt;ol&gt;
+                    &lt;li&gt;Quelle est la durée du présent Contrat? Le présent contrat restera en vigueur jusqu’au 30 septembre 2015 ou jusqu’à la mise sur le marché du Service, selon la date la plus proche.&lt;/li&gt;
+                    &lt;li&gt;Que se passe-t-il si je ne respecte pas le présent Contrat ? Si vous violez le présent Contrat, nous pourrons prendre diverses mesures parmi lesquelles supprimer votre Contenu du Service, suspendre ou annuler votre accès au Service, désactiver ou résilier votre compte professionnel et/ou signaler une telle activité aux autorités compétentes. Le Contenu supprimé risque d’être irrécupérable.&lt;/li&gt;
+                    &lt;li&gt;Dans quelle autre circonstance puis-je perdre l’accès au Service? Oui. Microsoft peut cesser de fournir certaines parties du Service, conformément à l’article 1.3.
+                        &lt;p&gt;En outre, si le propriétaire du nom de domaine d’entreprise a pris le contrôle de votre compte, votre administrateur pourrait modifier votre accès au Service.&lt;/p&gt;
+                    &lt;/li&gt;
+                    &lt;li&gt;Comment peut-on résilier le Service? Vous pouvez résilier le Service associé à votre compte professionnel à tout moment et pour tout motif, à moins que le propriétaire de votre compte professionnel n’en prenne le contrôle. Si tel est le cas, demandez à votre administrateur de résilier votre compte. Pour en savoir plus sur la fermeture de votre compte, veuillez consulter la documentation suivante: &lt;a target="_blank" href="http://go.microsoft.com/fwlink/?LinkID=619087"&gt;http://go.microsoft.com/fwlink/?LinkID=619087&lt;/a&gt;.
+                        &lt;p&gt;Microsoft peut également suspendre ou annuler le Service, ou résilier le présent Contrat, à tout moment et pour tout motif, sur préavis de trente (30) jours.&lt;/p&gt;
+                    &lt;/li&gt;
+                    &lt;li&gt;Que se passe-t-il en cas de résiliation de mon Service ? Si votre Service est résilié (par vous, nous ou votre administrateur), votre droit d’utiliser le Service cesse immédiatement, et votre licence d’utilisation du logiciel lié au Service prend fin. Vous devrez alors désinstaller le logiciel. Nous pouvons également le désactiver. Si votre compte professionnel est fermé (par vous, nous ou votre administrateur), votre droit d’utiliser votre compte cesse immédiatement. Si le Service est résilié, nous conserverons votre Contenu sur un compte aux fonctions limitées pendant quatre-vingt-dix (90) jours. Au terme de la période de rétention de quatre-vingt-dix (90) jours, Microsoft désactivera votre compte et effacera le Contenu. Le Service peut ne pas permettre la rétention ou l’extraction du logiciel fourni par vous. Microsoft ne peut être tenue pour responsable en cas de suppression de votre Contenu comme décrit dans le présent Article.&lt;/li&gt;
+                &lt;/ol&gt;
+            &lt;/li&gt;
+            &lt;li&gt;Protection des données personnelles
+                &lt;p&gt;Nous accordons une grande importance à la protection de vos données personnelles. Veuillez noter que puisqu’il s’agit d’une évaluation, le service peut être soumis à des engagements de sécurité, de conformité et de protection des données personnelles distincts ou restreints. Nous expliquons la manière dont nous utilisons et protégeons votre Contenu et toute information que nous collectons auprès de vous dans la Déclaration relative aux données &lt;a target="_blank" href='http://go.microsoft.com/fwlink/?LinkId=512132'&gt;personnelles des Services en Ligne Microsoft&lt;/a&gt; (la « Déclaration relative aux données personnelles ») . La Déclaration relative aux données personnelles est importante, aussi veuillez la lire attentivement. Le présent contrat intègre la Déclaration relative aux données personnelles par référence. En utilisant le Service ou en acceptant ces termes, vous consentez à ce que Microsoft collecte, utilise et divulgue votre Contenu ainsi que vos informations conformément à la Déclaration relative aux données personnelles. Les références au Centre de Gestion de la Confidentialité dans la Déclaration relative aux données personnelles ne s’appliquent pas. Vous consentez également à ce que Microsoft utilise les coordonnées que vous avez fournies pour vous adresser des communications concernant votre utilisation des produits et services Microsoft ainsi que la sécurité de votre compte. Nous pouvons également vous envoyer des courriers électroniques promotionnels et vous contacter par téléphone au sujet des produits et services Microsoft.&lt;/p&gt;
+                &lt;p&gt;Pour les besoins de la Déclaration relative aux données personnelles, jusqu’à ce que le propriétaire du nom de domaine Internet de votre compte professionnel (par exemple, « votre employeur ») prenne le contrôle de votre compte, les références à l’administrateur et au client s’appliqueront à vous.&lt;/p&gt;
+            &lt;/li&gt;
+            &lt;li&gt;Interruptions du Service et sauvegarde
+                &lt;p&gt;Nous nous efforçons d’assurer la continuité du Service, cependant tous les services en ligne subissent occasionnellement des perturbations et des pannes, et Microsoft ne saurait être responsable de toute interruption ou de tout préjudice que vous pourriez subir dans ce cas. Vous devriez sauvegarder régulièrement le Contenu que vous stockez sur le Service. La mise en place et le suivi d’un plan de sauvegarde régulière peuvent vous aider à prévenir toute perte de votre Contenu.&lt;/p&gt;
+            &lt;/li&gt;
+            &lt;li&gt;Logiciel
+                &lt;ol&gt;
+                    &lt;li&gt;Quelles conditions s’appliquent au logiciel fourni dans le cadre du Service ? A moins d’être accompagné d’un contrat de licence distinct, tout logiciel fourni par nous dans le cadre du Service est régi par les termes du présent Contrat. Ce logiciel est concédé sous licence et non vendu, et Microsoft se réserve tous les droits sur le logiciel n’étant pas expressément concédés par Microsoft, que ce soit de manière induite, par préclusion ou de quelque autre manière. Si le présent Contrat régit le site Web que vous consultez, le code ou les scripts de tiers liés à ce site Web ou qui y sont référencés vous sont concédés sous licence par les tiers à qui ils appartiennent, et non par Microsoft.&lt;/li&gt;
+                    &lt;li&gt;Comment puis-je utiliser le logiciel fourni dans le cadre du Service ? Nous vous concédons le droit d’installer et d’exécuter une (1) copie du logiciel par dispositif dans le monde, afin qu’il soit utilisé par une seule personne à la fois dans le cadre de votre utilisation du Service, sous réserve de votre conformité avec tous les termes du présent Contrat.&lt;/li&gt;
+                    &lt;li&gt;L’utilisation du logiciel ou du Service est-elle soumise à certaines restrictions ? Oui. Outre les autres restrictions contenues dans le présent Contrat, vous n’êtes pas autorisé à passer outre ou contourner les mesures de protection techniques du logiciel ou du Service ni à reconstituer la logique, décompiler ou désassembler tout logiciel ou autre aspect du Service n’étant pas inclus dans, ou accessible via le Service, sauf et uniquement dans la mesure où ces opérations seraient expressément permises par la loi relative aux droits d’auteur applicable ; à séparer des composants du logiciel ou du Service afin de les utiliser sur différents dispositifs ; à publier, copier, louer ou prêter le logiciel ou le Service ; à transférer le logiciel, des licences du logiciel ou des droits d’accès ou d’utilisation du Service. Vous n’êtes pas autorisé à utiliser le Service d’une quelconque manière non autorisée pouvant interférer avec son utilisation par une autre personne ou pour accéder à tout service, donnée, compte ou réseau. Vous n’êtes pas autorisé à accéder au Service via des applications de tiers non autorisées.&lt;/li&gt;
+                    &lt;li&gt;Comment le logiciel est-il mis à jour ? Nous pouvons procéder à des vérifications automatiques de la version du logiciel. Nous pouvons également occasionnellement télécharger automatiquement les mises à jour du logiciel. Vous reconnaissez accepter ces mises à jour conformément à ces termes sauf si d’autres termes accompagnent les mises à jour. Le cas échéant, ces derniers prévalent. Microsoft n’est pas obligée de rendre les mises à jour disponibles et ne garantit aucunement la prise en charge de la version du système pour laquelle vous avez acquis le logiciel sous licence.&lt;/li&gt;
+                &lt;/ol&gt;
+            &lt;/li&gt;
+            &lt;li&gt;Indépendance des clauses
+                &lt;p&gt;Si une stipulation du présent Contrat est jugée illégale, non valable ou inopposable par un tribunal d’une juridiction compétente, les stipulations restantes demeureront valables et pleinement applicables.&lt;/p&gt;
+            &lt;/li&gt;
+            &lt;li&gt;ABSENCE DE GARANTIE
+                &lt;p&gt;MICROSOFT ET CHACUN DE NOS AFFILIÉS, REVENDEURS, DISTRIBUTEURS ET FOURNISSEURS EXCLUENT TOUTE GARANTIE EXPRESSE OU IMPLICITE, OU CONDITION, CONCERNANT VOTRE UTILISATION DU SERVICE. VOUS RECONNAISSEZ QUE VOUS UTILISEZ LE SERVICE À VOS PROPRES RISQUES ET QUE NOUS FOURNISSONS LE SERVICE « EN L’ÉTAT », « AVEC TOUTES LES IMPERFECTIONS » et « TEL QUE DISPONIBLE ». MICROSOFT NE GARANTIT PAS L’EXACTITUDE NI LA PERTINENCE DES INFORMATIONS DISPONIBLES SUR LE SERVICE. DANS LA LIMITE AUTORISÉE PAR VOTRE LÉGISLATION LOCALE, NOUS EXCLUONS TOUTE GARANTIE IMPLICITE, Y COMPRIS TOUTE GARANTIE DE QUALITÉ, D’ADÉQUATION À UN USAGE PARTICULIER, D’ABSENCE DE DÉFAUT DE FABRICATION ET DE VIOLATION. VOUS POUVEZ BÉNÉFICIER D’AUTRES DROITS EN VERTU DE VOTRE LÉGISLATION LOCALE. AUCUNE STIPULATION DU PRÉSENT CONTRAT N’A POUR EFFET DE LIMITER CES DROITS, S’ILS SONT APPLICABLES.&lt;/p&gt;
+                &lt;p&gt;VOUS RECONNAISSEZ QUE LES SYSTÈMES INFORMATIQUES ET DE TÉLÉCOMMUNICATION NE SONT PAS EXEMPTS DE DÉFAUTS ET SONT SUSCEPTIBLES D’OCCASIONNER DES INTERRUPTIONS DE SERVICE. NOUS NE GARANTISSONS PAS QUE LE SERVICE FONCTIONNERA DE MANIÈRE ININTERROMPUE, RÉGULIÈRE, SÉCURISÉE OU EXEMPTE D’ERREURS, NI QU’AUCUNE PERTE DE DONNÉES NE SE PRODUIRA.&lt;/p&gt;
+            &lt;/li&gt;
+            &lt;li&gt;Limitation de responsabilité
+                &lt;p&gt;Si Microsoft viole le présent Contrat, vous convenez que vous pourrez obtenir pour seul recours auprès de Microsoft ou de ses affiliés, revendeurs, distributeurs et fournisseurs un dédommagement plafonné à 10,00 USD. VOUS NE POUVEZ PRÉTENDRE À AUCUNE AUTRE INDEMNISATION POUR LES AUTRES DOMMAGES OU PERTES, Y COMPRIS, NOTAMMENT, POUR LES DOMMAGES SPÉCIAUX, INDIRECTS, INCIDENTS, ACCESSOIRES OU PRONONCÉS À TITRE DE SANCTION ET LES PERTES DE BÉNÉFICES. Ces limitations et exclusions s’appliquent également si ce recours ne compense pas intégralement le préjudice subi ou ne produit pas d’effet, ou si nous avions ou aurions dû avoir connaissance de l’éventualité de tels dommages. Dans la limite autorisée par la réglementation, ces limitations et exclusions s’appliquent à tout ce qui est lié au présent Contrat, comme la perte de Contenu, tout virus affectant votre utilisation du Service, les retards ou échecs de lancement ou d’aboutissement de transmissions ou de transactions, les réclamations pour manquement aux termes du contrat ou violation de garantie, en cas de responsabilité sans faute, pour négligence, fausse déclaration ou omission, trouble de jouissance ou autre délit, violation d’une loi ou règlementation, ou enrichissement injuste. Certaines de ces limitations et exclusions peuvent ne pas vous être applicables si votre État, province ou pays n’autorise pas l’exclusion ou la limitation de responsabilité pour les dommages incidents, indirects ou de quelque nature que ce soit.&lt;/p&gt;
+            &lt;/li&gt;
+            &lt;li&gt;Droit applicable et attribution de compétence
+                &lt;p&gt;Les lois de l’État de Washington régissent le présent Contrat. En cas de compétence fédérale, les parties consentent à la compétence exclusive des tribunaux fédéraux siégeant dans le comté de King, État de Washington, États-Unis. Dans le cas contraire, les parties consentent à la compétence exclusive de la Cour Supérieure du comté de King, État de Washington, États-Unis. Si vous ou Microsoft choisissez de vous faire représenter par un avocat pour faire valoir vos droits en vertu ou dans le cadre du présent Contrat, la partie gagnante pourra prétendre au remboursement de ses honoraires d’avocats et de conseils, coûts et autres dépenses raisonnables, y compris les frais et honoraires encourus dans le cadre d’une procédure d’appel, de mise en faillite ou autre procédure similaire.&lt;/p&gt;
+            &lt;/li&gt;
+            &lt;li&gt;Sites Web, services et connecteurs de Microsoft et de tiers
+                &lt;p&gt;Vous pouvez avoir accès à des sites Web ou services de Microsoft ou de tiers via le Service. Ces autres services de Microsoft sont régis par leurs propres termes et Déclarations relatives aux données personnelles.&lt;/p&gt;
+                &lt;p&gt;Le Service utilise également Bing maps, et notamment des géocodes. Votre utilisation de Bing Maps est régie par les Conditions d’Utilisation de l’Utilisateur Final de Bing Maps disponibles &lt;a target="_blank" href='http://go.microsoft.com/?linkid=9710837'&gt;à l’adresse&lt;/a&gt; ainsi que par la Déclaration relative aux données personnelles de Bing Maps, disponible &lt;a target="_blank" href='http://go.microsoft.com/fwlink/?LinkID=248686'&gt;à l’adresse&lt;/a&gt;.&lt;/p&gt;
+                &lt;p&gt;Microsoft n’est pas responsable des sites Web tiers ou de leurs politiques relatives aux données personnelles, ni des services ou documents disponibles via ces services tiers. Nous vous encourageons à la vigilance lorsque vous quittez notre site Web et vous suggérons de lire la Déclaration relative aux données personnelles de chaque site Web collectant des informations personnelles identifiantes. Vous êtes seul responsable de vos transactions avec des tiers (y compris des annonceurs). Votre utilisation de sites Web ou services tiers peut être soumise aux conditions générales du tiers en question.&lt;/p&gt;
+                &lt;p&gt;Le Service peut vous permettre de vous connecter à différentes sources de données tierces. Les contrats que vous concluez avec tout fournisseur de sources de données tierces n’engagent que vous et ledit fournisseur de sources de données tierces, et peuvent être régis par d’autres conditions d’utilisation ou contrats s’appliquant à ces sources tierces. Vous acceptez l’entière responsabilité et déclarez disposer de l’autorité nécessaire à l’importation de données à partir de ces sources de données tierces. Microsoft ne surveille pas, ne contrôle pas et ne pourra être tenue pour responsable des données que vous importez depuis des sources de données tierces, et exclut par les présentes toute responsabilité quant à la qualité, l’exactitude, la nature et/ou les droits de propriété desdites sources. Vous acceptez l’entière responsabilité de tout Contenu que vous créez, transmettez, distribuez ou affichez, et qui est basé sur les données que vous importez lors de l’utilisation du Service.&lt;/p&gt;
+            &lt;/li&gt;
+            &lt;li&gt;Maintien en vigueur de certaines clauses
+                &lt;p&gt;Le présent article ainsi que les articles 4, 8, 9, 10 et 15, ainsi que les articles qui de par leur teneur s’appliquent après la résiliation ou l’annulation du présent Contrat, demeureront applicables après la résiliation ou l’annulation du présent Contrat.&lt;/p&gt;
+            &lt;/li&gt;
+            &lt;li&gt;Cession et transfert
+                &lt;p&gt;Nous pouvons céder le présent Contrat, en totalité ou en partie, à tout moment, sans préavis. En revanche, vous n’êtes pas autorisé à céder le présent Contrat ni à transférer des droits d’utilisation du Service.&lt;/p&gt;
+            &lt;/li&gt;
+            &lt;li&gt;Notifications
+                &lt;p&gt;Vous consentez à ce que Microsoft vous adresse des notifications concernant le Service ou des informations que la réglementation nous impose de vous fournir, par courrier électronique à l’adresse de messagerie que vous avez spécifiée lors de votre abonnement au Service. Les notifications qui vous sont transmises par courrier électronique seront réputées avoir été envoyées et reçues à la date de transmission du message électronique. Si vous ne consentez pas à la réception de notifications électroniques, vous devez cesser d’utiliser le Service.&lt;/p&gt;
+            &lt;/li&gt;
+            &lt;li&gt;Intégralité des accords
+                &lt;p&gt;Le présent Contrat annule et remplace la totalité des communications antérieures et présentes, écrites ou orales, concernant l’objet du présent Contrat.&lt;/p&gt;
+            &lt;/li&gt;
+            &lt;li&gt;Absence de tiers bénéficiaires
+                &lt;p&gt;Le présent Contrat est exclusivement conclu à votre et notre profit. Il ne peut bénéficier à aucune autre personne, à l’exception des successeurs et ayant droits de Microsoft.&lt;/p&gt;
+            &lt;/li&gt;
+            &lt;li&gt;Restrictions à l’exportation
+                &lt;p&gt;Le logiciel et les services gratuits de Microsoft sont soumis aux lois en matière de technologie et d’exportation en vigueur aux États-Unis et dans d’autres juridictions, et vous vous engagez à respecter toutes ces lois et réglementations applicables au logiciel et/ou aux services. La permission du Gouvernement des États-Unis est nécessaire pour transférer ce logiciel et ces services gratuits aux gouvernements de tout pays placé sous embargo ou à des tiers prohibés. Veuillez consulter le site Web du ministère des Finances américain (&lt;a target="_blank" href="http://go.microsoft.com/fwlink/?LinkID=243206"&gt;http://go.microsoft.com/fwlink/?LinkID=243206&lt;/a&gt; pour obtenir de plus amples informations. En outre, les services payants sont soumis aux lois et réglementations américaines en matière d’exportation, que vous devez respecter. Ces lois comportent des restrictions sur les destinations, les utilisateurs finaux et les utilisations finales. Pour plus d’informations, consultez le site Exporting Microsoft Products(&lt;a target="_blank" href="http://www.microsoft.com/en-us/exporting"&gt;http://www.microsoft.com/en-us/exporting&lt;/a&gt;).&lt;/p&gt;
+            &lt;/li&gt;
+            &lt;li class="no_number"&gt;NOTIFICATIONS
+                &lt;p&gt;Notifications et procédure à suivre pour les actions en cas d’action en violation de tout droit de propriété intellectuelle. Microsoft respecte les droits de propriété intellectuelle de tierces parties. Si vous souhaitez adresser une notification de violation de droits de propriété intellectuelle, y compris en cas de violation des droits d’auteur, veuillez suivre nos procédures relatives aux Notifications de Violation (&lt;a target="_blank" href="https://www.microsoft.com/info/cpyrtInfrg.aspx"&gt;https://www.microsoft.com/info/cpyrtInfrg.aspx&lt;/a&gt;). LES DEMANDES QUI NE RESPECTENT PAS LA PROCÉDURE SUIVANTE NE RECEVRONT AUCUNE RÉPONSE.&lt;/p&gt;
+                &lt;p&gt;Microsoft suit la procédure décrite dans l’article 17, Code des États-Unis d’Amérique, Section 512(c)(2) pour répondre aux notifications de violation de droits d’auteur. Dans des circonstances appropriées, Microsoft peut également désactiver ou résilier les comptes d’utilisateurs du Service Microsoft récidivistes. Notifications et procédures relatives à la propriété intellectuelle dans la publicité. Veuillez consulter nos &lt;a target="_blank" href='http://go.microsoft.com/fwlink/?LinkId=243207'&gt;Directives relatives à la Propriété Intellectuelle&lt;/a&gt; traitant des questions relatives à la propriété intellectuelle sur notre réseau publicitaire.&lt;/p&gt;
+                &lt;p&gt;Mentions de marques et de droits d’auteur. L’intégralité du Service est soumise au Copyright © 2014 Microsoft Corporation et/ou de ses fournisseurs, One Microsoft Way, Redmond, Washington 98052, États-Unis. Tous droits réservés. Les droits de propriété, droits d’auteur et autres droits de propriété intellectuelle sur le Service et son contenu appartiennent à Microsoft ou à ses fournisseurs. Microsoft et les noms, logos et icônes de tous les produits, logiciels et services de Microsoft sont des marques commerciales ou déposées de Microsoft (&lt;a target="_blank" href="http://www.microsoft.com/about/legal/en/us/IntellectualProperty/Trademarks/EN-US.aspx"&gt;http://www.microsoft.com/about/legal/en/us/IntellectualProperty/Trademarks/EN-US.aspx&lt;/a&gt;) aux États-Unis et/ou dans d’autres pays. Les noms réels de produits et sociétés mentionnés dans les présentes sont susceptibles d’être des marques commerciales de leurs propriétaires respectifs. Tous les droits qui ne vous sont pas expressément concédés dans le présent Contrat sont réservés.&lt;/p&gt;
+            &lt;/li&gt;
+        &lt;/ol&gt;</value>
+  </data>
+  <data name="Heading" xml:space="preserve">
+    <value>&lt;h1&gt;Conditions d’utilisation de l’Évaluation Microsoft&amp;nbsp;Power&amp;nbsp;BI&lt;/h1&gt;</value>
+  </data>
+  <data name="META_DESCRIPTION" xml:space="preserve">
+    <value />
+  </data>
+  <data name="META_KEYWORDS" xml:space="preserve">
+    <value />
+  </data>
+  <data name="META_PAGETITLE" xml:space="preserve">
+    <value>Conditions d’utilisation | Microsoft Power BI</value>
+  </data>
+</root>

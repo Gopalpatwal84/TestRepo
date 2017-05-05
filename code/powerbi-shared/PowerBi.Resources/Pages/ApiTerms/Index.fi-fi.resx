@@ -1,0 +1,969 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Content" xml:space="preserve">
+    <value>&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-top:71.25pt;margin-right:0in;margin-bottom:
+.05pt;margin-left:0in;line-height:normal&#39;&gt;&lt;span lang=&quot;FI&quot; style=&#39;font-size:21.0pt;
+font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;Microsoft Power BI APIn
+ehdot&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;line-height:normal&#39;&gt;&lt;span lang=&quot;FI&quot; style=&#39;font-size:
+12.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;Kiitoksia Power BI
+-sovellusohjelmointirajapinnan (API) k&#228;ytt&#228;misest&#228;. Power BI APIa sek&#228; sen
+p&#228;ivityksi&#228;, versioita, korvauksia ja kopioita, jotka asiakas tekee tai joita
+asiakkaalle tehd&#228;&#228;n, kutsutaan n&#228;iss&#228; palvelun ehdoissa nimell&#228; Microsoft
+”Power BI API”. T&#228;m&#228; on asiakkaan Microsoft Corporationin (”Microsoft”) v&#228;linen
+sopimus. T&#228;ss&#228; sopimuksessa Microsoftiin viitataan sanalla Microsoft.
+K&#228;ytt&#228;m&#228;ll&#228; Power BI APIa asiakas hyv&#228;ksyy n&#228;m&#228; palvelun ehdot (”API-ehdot”)
+sek&#228; Power BI:n Palvelusopimuksen tai muut sopimukset, jotka voivat olla
+voimassa, (”Sopimus”), jotka koskevat Power BI:n ja siihen liittyvien
+sovellusten (”Power BI -palvelu”) k&#228;ytt&#246;&#228;. Jos n&#228;iden API-ehtojen ja Sopimuksen
+v&#228;lill&#228; on ristiriita, n&#228;m&#228; API-ehdot ovat voimassa.&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;line-height:normal&#39;&gt;&lt;span lang=&quot;FI&quot; style=&#39;font-size:
+12.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;Microsoft pid&#228;tt&#228;&#228;
+itsell&#228;&#228;n oikeuden ajoittain p&#228;ivitt&#228;&#228; ja muuttaa n&#228;it&#228; API-ehtoja tai siihen
+viittauksella sis&#228;llytettyj&#228; asiakirjoja. Microsoft voi muuttaa n&#228;it&#228; API-ehtoja
+julkaisemalla uuden version. Power BI APIn k&#228;ytt&#246; muutoksen j&#228;lkeen osoittaa
+muutosten hyv&#228;ksynn&#228;n.&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;line-height:normal&#39;&gt;&lt;b&gt;&lt;span lang=&quot;FI&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;On
+syyt&#228; huomata, ett&#228; Microsoft ei anna Power BI APIlle mit&#228;&#228;n takuita. API-ehdot
+my&#246;s rajoittavat Microsoftin korvausvelvollisuutta. N&#228;m&#228; ehdot ovat kohdissa 10
+ja 11, ja asiakasta pyydet&#228;&#228;n lukemaan ne huolellisesti.&lt;/span&gt;&lt;/b&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-bottom:.05pt;line-height:normal&#39;&gt;&lt;b&gt;&lt;span lang=&quot;FI&quot; style=&#39;font-size:18.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;1.
+Power BI APIn k&#228;ytt&#246;.&lt;/span&gt;&lt;/b&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;line-height:normal&#39;&gt;&lt;span lang=&quot;FI&quot; style=&#39;font-size:
+12.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;Jotta asiakas voisi
+k&#228;ytt&#228;&#228; Power BI APIa, h&#228;nell&#228; on oltava Power BI -tilaus ja h&#228;nen on
+rekister&#246;it&#228;v&#228; sovelluksensa Azure Active Directoryyn. Asiakkaan palvelun on
+annettava Azure Active Directoryn antama asiakastunnus, mik&#228; on kuvattu Power
+BI APIn ohjeissa, ja Microsoft est&#228;&#228; pyynn&#246;t, joissa on virheellinen
+asiakastunnus. Microsoft yksin hallitsee Power BI:n tietoja ja muotoa.&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;line-height:normal&#39;&gt;&lt;span lang=&quot;FI&quot; style=&#39;font-size:
+12.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;Microsoftille on
+oikeus omasta p&#228;&#228;t&#246;ksest&#228;&#228;n hyl&#228;t&#228; mik&#228; tahansa pyynt&#246; k&#228;ytt&#228;&#228; Power BI APIa
+milloin ja mist&#228; syyst&#228; tahansa. Microsoft ei ole korvausvelvollinen
+asiakkaalle mink&#228;&#228;nlaisista vahingoista, jotka aiheutuvat sen p&#228;&#228;t&#246;ksest&#228;
+hyl&#228;t&#228; t&#228;llainen pyynt&#246;.&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-bottom:.05pt;line-height:normal&#39;&gt;&lt;b&gt;&lt;span lang=&quot;FI&quot; style=&#39;font-size:18.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;2.
+K&#228;ytt&#246;oikeudellinen k&#228;ytt&#246; ja rajoitukset.&lt;/span&gt;&lt;/b&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;line-height:normal&#39;&gt;&lt;span lang=&quot;FI&quot; style=&#39;font-size:
+12.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;Microsoft omistaa
+Power BI APIn, ja sen k&#228;ytt&#246;oikeus on my&#246;nnetty asiakkaalle maailmanlaajuisella
+(poikkeuksena alla olevat rajoitukset), ei-yksinoikeudellisella,
+ei-edelleenmy&#246;nnett&#228;v&#228;ll&#228; perusteella t&#228;ss&#228; m&#228;&#228;ritetyin ehdoin. N&#228;m&#228; API-ehdot
+m&#228;&#228;ritt&#228;v&#228;t Power BI APIn, kaikkien p&#228;ivitysten, versioiden, korvausta ja
+asiakkaan tekemien tai asiakkaalle tehtyjen Power BI API -kopioiden laillisen
+k&#228;yt&#246;n. Microsoft pid&#228;tt&#228;&#228; kaikki oikeudet, joita ei ole asiakkaalle
+nimenomaisesti my&#246;nnetty.&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-left:.25in;text-indent:-.25in;line-height:
+normal&#39;&gt;&lt;span lang=&quot;FI&quot; style=&#39;font-size:10.0pt;font-family:Symbol;color:#4B5C66&#39;&gt;&#183;&lt;span style=&#39;font:7.0pt &quot;Times New Roman&quot;&#39;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+&lt;/span&gt;&lt;/span&gt;&lt;span lang=&quot;FI&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;
+color:#4B5C66&#39;&gt;a. K&#228;ytt&#246;oikeus. N&#228;iss&#228; API-ehdoissa olevien ehtojen ja
+rajoitusten puitteissa Microsoft my&#246;nt&#228;&#228; asiakkaalle ei-yksinoikeudellisen,
+ei-edelleenmy&#246;nnett&#228;v&#228;n oikeuden k&#228;ytt&#228;&#228; Power BI APIa kehitt&#228;m&#228;&#228;n, testaamaan,
+jakamaan ja tukemaan asiakkaan sovellusta. &lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-left:.25in;text-indent:-.25in;line-height:
+normal&#39;&gt;&lt;span lang=&quot;FI&quot; style=&#39;font-size:10.0pt;font-family:Symbol;color:#4B5C66&#39;&gt;&#183;&lt;span style=&#39;font:7.0pt &quot;Times New Roman&quot;&#39;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+&lt;/span&gt;&lt;/span&gt;&lt;span lang=&quot;FI&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;
+color:#4B5C66&#39;&gt;b.&amp;nbsp;Br&#228;nd&#228;ys. Asiakas ei saa k&#228;ytt&#228;&#228; Power BI -br&#228;ndi&#228; tai
+-logoja ilman Microsoftin kirjallista lupaa. &lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;line-height:normal&#39;&gt;&lt;span lang=&quot;FI&quot; style=&#39;font-size:
+12.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;c.&amp;nbsp;Nopeusrajoitukset
+ja tietokenttien rajoitukset. Asiakas hyv&#228;ksyy, ett&#228; Power BI APIa k&#228;ytt&#228;vill&#228;
+sovelluksilla tai palveluilla on nopeusrajoitus ja tietokenttien
+esitt&#228;misrajoitus, ja asiakas suostuu aina noudattamaan t&#228;t&#228; nopeusrajoitusta
+ja tietokenttien rajoituksia. Nopeusrajoitukset ja rajoitukset on kuvattu Power
+BI APIn ohjeissa, osoitteessa&lt;/span&gt;&lt;span lang=&quot;FI&quot; style=&#39;font-size:12.0pt;
+font-family:&quot;Times New Roman&quot;,serif;color:#868F95&#39;&gt;&amp;nbsp;&lt;/span&gt;&lt;span lang=&quot;FI&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;dev.PowerBI.com&lt;/span&gt;&lt;span lang=&quot;FI&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#868F95&#39;&gt;.
+&lt;/span&gt;&lt;span lang=&quot;FI&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;
+color:#4B5C66&#39;&gt;N&#228;m&#228; nopeusrajoitukset ja rajoitukset voivat muuttua ajoittain
+Microsoftin omasta p&#228;&#228;t&#246;ksest&#228; ja ne ovat voimassa heti julkaisuhetkell&#228;.
+Microsoft voi omasta p&#228;&#228;t&#246;ksest&#228;&#228;n rajoittaa (i) nopeutta, jolla palvelua tai
+sen osaa voidaan kutsua, (ii) kullekin palvelutilille saatavilla olevan tallennustilan
+m&#228;&#228;r&#228;&#228; ja/tai (iii) palveluun ladattavissa tai sielt&#228; haettavissa olevien
+yksitt&#228;isten sis&#228;lt&#246;segmenttien pituutta (kaikki edell&#228; mainitut ovat
+”Rajoittamisen” muotoja). Microsoft voi suorittaa t&#228;m&#228;n Rajoittamisen
+maailmanlaajuisesti koko Power BI APIssa, k&#228;ytt&#228;j&#228;kohtaisesti tai mill&#228; tahansa
+muulla perusteella. Asiakas ei yrit&#228; kiert&#228;&#228; teknisi&#228; toimia, joilla Microsoft
+toteuttaa Rajoittamisen, ja asiakas hyv&#228;ksyy sen, ett&#228; ohjelmalliset menetelm&#228;t
+kiert&#228;&#228; nopeuden rajoittamista (tietojen v&#228;limuistin yll&#228;pit&#228;minen mukaan
+luettuna) tulkitaan n&#228;iden API-ehtojen rikkomiseksi.&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;line-height:normal&#39;&gt;&lt;span lang=&quot;FI&quot; style=&#39;font-size:
+12.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;d. Muutokset.
+Microsoft pid&#228;tt&#228;&#228; itsell&#228;&#228;n oikeuden julkaista Power BI APIn my&#246;hempi&#228;
+versioita ja vaatia asiakasta hankkimaan ja k&#228;ytt&#228;m&#228;&#228;n uusinta versiota. Jos
+muutos ei sovi asiakkaalle, asiakkaan tulee lopettaa Power BI APIn k&#228;ytt&#246;. Jos
+asiakas jatkaa Power BI APIn k&#228;ytt&#246;&#228;, h&#228;nen tulkitaan hyv&#228;ksyneen muutokset.&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;line-height:normal&#39;&gt;&lt;span lang=&quot;FI&quot; style=&#39;font-size:
+12.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;e. Palvelun
+rajoitukset ja ehdot. Microsoft saattaa k&#228;ytt&#228;&#228; tekniikoita tai muita
+menetelmi&#228; suojatakseen Power BI APIa, asiakkaitaan tai est&#228;&#228;kseen asiakasta
+rikkomasta n&#228;it&#228; API-ehtoja. T&#228;llaisia menetelmi&#228; ovat esimerkiksi
+roskapostisuodatus ja tietoturvan parantaminen. N&#228;m&#228; menetelm&#228;t voivat haitata
+tai est&#228;&#228; asiakkaan Power BI APIn k&#228;ytt&#246;&#228;, eik&#228; asiakas saa yritt&#228;&#228; kiert&#228;&#228;,
+kumota tai poistaa n&#228;it&#228; teknisi&#228; tai muita menetelmi&#228; k&#228;yt&#246;st&#228;.&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-bottom:.05pt;line-height:normal&#39;&gt;&lt;b&gt;&lt;span lang=&quot;FI&quot; style=&#39;font-size:18.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;3.
+Omistusoikeudet.&lt;/span&gt;&lt;/b&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-left:.25in;text-indent:-.25in;line-height:
+normal&#39;&gt;&lt;span lang=&quot;FI&quot; style=&#39;font-size:10.0pt;font-family:Symbol;color:#4B5C66&#39;&gt;&#183;&lt;span style=&#39;font:7.0pt &quot;Times New Roman&quot;&#39;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+&lt;/span&gt;&lt;/span&gt;&lt;span lang=&quot;FI&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;
+color:#4B5C66&#39;&gt;a. Microsoftin oikeudet. API-ehdoissa ”Immateriaalioikeudet”
+tarkoittavat kaikkia oikeuksia, jotka ovat olemassa patenttioikeuden,
+tekij&#228;noikeuden, puolijohdepiirin suojauslain, moraalisten oikeuksien lain,
+kauppasalaisuuslain, tavaramerkkilain, ep&#228;reilun kilpailun lain,
+julkisuusoikeuslain, tietosuojalain ja kaikkien muiden yksinoikeudellisten
+lakien mukaan, ja kaikkia niiden sovelluksia, uusimisia, laajennuksia ja
+palautuksia, jotka ovat voimassa maailmanlaajuisesti t&#228;ll&#228; hetkell&#228; tai
+my&#246;hemmin. Kun asia on asiakkaan Microsoftin v&#228;linen, asiakas hyv&#228;ksyy, ett&#228;
+Microsoft tai sen lisenssinhaltijat omistavat kaikki oikeudet, omistusoikeuden
+ja muut oikeudet rajoituksetta kaikkiin Immateriaalioikeuksiin Power BI APIssa
+ja Power BI APIn tulosteissa (pois lukien asiakkaan kehitt&#228;m&#228;t
+ohjelmistokomponentit, jotka eiv&#228;t itsess&#228;&#228;n sis&#228;ll&#228; Power BI APIa tai Power BI
+APIn tulosteita tai suoritettavia osia) eik&#228; asiakas hanki Power BI APIn
+oikeuksia, omistusoikeuksia tai muita oikeuksia, joita ei nimenomaisesti ole
+m&#228;&#228;ritetty API-ehdoissa.&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-left:.25in;text-indent:-.25in;line-height:
+normal&#39;&gt;&lt;span lang=&quot;FI&quot; style=&#39;font-size:10.0pt;font-family:Symbol;color:#4B5C66&#39;&gt;&#183;&lt;span style=&#39;font:7.0pt &quot;Times New Roman&quot;&#39;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+&lt;/span&gt;&lt;/span&gt;&lt;span lang=&quot;FI&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;
+color:#4B5C66&#39;&gt;b. Nime&#228;minen, laillisuusilmoitukset. Power BI APIlla
+asiakkaalle toimitetut kuvat voivat sis&#228;lt&#228;&#228; tuotenimi&#228;, tavaramerkkej&#228;,
+palvelunimi&#228;, logoja, toimialueen nimi&#228; ja muita Microsoftin ja sen
+kumppaneiden br&#228;ndiominaisuuksia. Asiakas ei saa poistaa tai mill&#228;&#228;n tavalla
+muuttaa n&#228;it&#228; tuotenimi&#228;, tavaramerkkej&#228;, palvelunimi&#228;, logoja, toimialueen
+nimi&#228; ja muita br&#228;ndiominaisuuksia. Asiakas suostuu s&#228;ilytt&#228;m&#228;&#228;n ja olemaan
+poistamatta, muokkaamatta, peitt&#228;m&#228;tt&#228; tai muuttamatta mit&#228;&#228;n linkki&#228; tai
+ilmoitusta, joka n&#228;kyy Palvelun kautta toimitetussa kuvassa. Asiakas hyv&#228;ksyy,
+ett&#228; n&#228;m&#228; Laillisuusilmoitukset t&#228;ydent&#228;v&#228;t Power BI APIn API-ehtoja.&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-left:.25in;text-indent:-.25in;line-height:
+normal&#39;&gt;&lt;span lang=&quot;EN&quot; style=&#39;font-size:10.0pt;font-family:Symbol;color:#4B5C66&#39;&gt;&#183;&lt;span style=&#39;font:7.0pt &quot;Times New Roman&quot;&#39;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+&lt;/span&gt;&lt;/span&gt;&lt;span lang=&quot;FI&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;
+color:#4B5C66&#39;&gt;c. Yhdysvaltain Digital Millennium Copyright Act -laki.
+Microsoftin k&#228;yt&#228;nt&#246;n&#228; on vastata ilmoituksiin v&#228;itetyst&#228; rikkomuksesta, mik&#228;
+noudattaa Digital Millennium Copyright Act -lakia (”DMCA”). Ohjeet ja
+lis&#228;tietoja on K&#228;ytt&#246;ehtojen kohdassa DMCA-ilmoitus.&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-bottom:.05pt;line-height:normal&#39;&gt;&lt;b&gt;&lt;span lang=&quot;FI&quot; style=&#39;font-size:18.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;4.
+K&#228;yt&#246;ss&#228;&#228;nn&#246;t.&lt;/span&gt;&lt;/b&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-left:.25in;text-indent:-.25in;line-height:
+normal&#39;&gt;&lt;span lang=&quot;FI&quot; style=&#39;font-size:10.0pt;font-family:Symbol;color:#4B5C66&#39;&gt;&#183;&lt;span style=&#39;font:7.0pt &quot;Times New Roman&quot;&#39;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+&lt;/span&gt;&lt;/span&gt;&lt;span lang=&quot;FI&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;
+color:#4B5C66&#39;&gt;Asiakas hyv&#228;ksyy sen, ett&#228; h&#228;n on vastuussa omasta toiminnastaan
+ja sis&#228;ll&#246;st&#228;&#228;n ja niiden seuraamuksista Power BI APIa k&#228;ytett&#228;ess&#228;. Asiakas
+suostuu siihen, ett&#228; h&#228;n k&#228;ytt&#228;&#228; Power BI APIa vain lailliseen, oikeaan ja
+n&#228;it&#228; API-ehtoja sek&#228; sovellettavia k&#228;yt&#228;nt&#246;j&#228; ja ohjeita noudattavaan
+tarkoitukseen.&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-left:.25in;text-indent:-.25in;line-height:
+normal&#39;&gt;&lt;span lang=&quot;FI&quot; style=&#39;font-size:10.0pt;font-family:Symbol;color:#4B5C66&#39;&gt;&#183;&lt;span style=&#39;font:7.0pt &quot;Times New Roman&quot;&#39;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+&lt;/span&gt;&lt;/span&gt;&lt;span lang=&quot;FI&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;
+color:#4B5C66&#39;&gt;a. Asiallinen k&#228;yt&#246;s. K&#228;ytt&#228;ess&#228;&#228;n Power BI APIa ja sovelluksia
+kehitt&#228;ess&#228;&#228;n asiakas suostuu&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-left:.25in;text-indent:-.25in;line-height:
+normal&#39;&gt;&lt;span lang=&quot;EN&quot; style=&#39;font-size:10.0pt;font-family:Symbol;color:#4B5C66&#39;&gt;&#183;&lt;span style=&#39;font:7.0pt &quot;Times New Roman&quot;&#39;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+&lt;/span&gt;&lt;/span&gt;&lt;span lang=&quot;FI&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;
+color:#4B5C66&#39;&gt;noudattamaan lakia&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-left:.25in;text-indent:-.25in;line-height:
+normal&#39;&gt;&lt;span lang=&quot;EN&quot; style=&#39;font-size:10.0pt;font-family:Symbol;color:#4B5C66&#39;&gt;&#183;&lt;span style=&#39;font:7.0pt &quot;Times New Roman&quot;&#39;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+&lt;/span&gt;&lt;/span&gt;&lt;span lang=&quot;FI&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;
+color:#4B5C66&#39;&gt;noudattamaan kaikkia Microsoftin toimittamia k&#228;yt&#246;sohjeita tai
+muita ilmoituksia&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-left:.25in;text-indent:-.25in;line-height:
+normal&#39;&gt;&lt;span lang=&quot;EN&quot; style=&#39;font-size:10.0pt;font-family:Symbol;color:#4B5C66&#39;&gt;&#183;&lt;span style=&#39;font:7.0pt &quot;Times New Roman&quot;&#39;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+&lt;/span&gt;&lt;/span&gt;&lt;span lang=&quot;FI&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;
+color:#4B5C66&#39;&gt;pit&#228;m&#228;&#228;n palvelutilin salasanan salassa&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-left:.25in;text-indent:-.25in;line-height:
+normal&#39;&gt;&lt;span lang=&quot;EN&quot; style=&#39;font-size:10.0pt;font-family:Symbol;color:#4B5C66&#39;&gt;&#183;&lt;span style=&#39;font:7.0pt &quot;Times New Roman&quot;&#39;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+&lt;/span&gt;&lt;/span&gt;&lt;span lang=&quot;FI&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;
+color:#4B5C66&#39;&gt;ilmoittamaan Microsoftille v&#228;litt&#246;m&#228;sti, jos ilmenee Power BI
+-palveluun ja Power BI APIin liittyv&#228; tietoturvaongelma.&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-left:.25in;text-indent:-.25in;line-height:
+normal&#39;&gt;&lt;span lang=&quot;EN&quot; style=&#39;font-size:10.0pt;font-family:Symbol;color:#4B5C66&#39;&gt;&#183;&lt;span style=&#39;font:7.0pt &quot;Times New Roman&quot;&#39;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+&lt;/span&gt;&lt;/span&gt;&lt;span lang=&quot;FI&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;
+color:#4B5C66&#39;&gt;b. Kielletty k&#228;ytt&#246;. K&#228;ytt&#228;ess&#228;&#228;n Power BI APIa ja sovelluksia
+kehitt&#228;ess&#228;&#228;n asiakas ei saa&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-left:.25in;text-indent:-.25in;line-height:
+normal&#39;&gt;&lt;span lang=&quot;EN&quot; style=&#39;font-size:10.0pt;font-family:Symbol;color:#4B5C66&#39;&gt;&#183;&lt;span style=&#39;font:7.0pt &quot;Times New Roman&quot;&#39;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+&lt;/span&gt;&lt;/span&gt;&lt;span lang=&quot;FI&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;
+color:#4B5C66&#39;&gt;halventaa, solvata, h&#228;irik&#246;id&#228;, h&#228;irit&#228; tai uhkailla tai muulla
+tavoin loukata muiden oikeuksia (kuten yksityisyys- ja mainosoikeuksia)&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-left:.25in;text-indent:-.25in;line-height:
+normal&#39;&gt;&lt;span lang=&quot;EN&quot; style=&#39;font-size:10.0pt;font-family:Symbol;color:#4B5C66&#39;&gt;&#183;&lt;span style=&#39;font:7.0pt &quot;Times New Roman&quot;&#39;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+&lt;/span&gt;&lt;/span&gt;&lt;span lang=&quot;FI&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;
+color:#4B5C66&#39;&gt;ladata, julkaista, postittaa tai l&#228;hett&#228;&#228; tai muulla tavalla
+asettaa saataville mit&#228;&#228;n sopimatonta, loukkaavaa, oikeuksia rikkovaa,
+h&#228;vyt&#246;nt&#228; tai laitonta sis&#228;lt&#246;&#228;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-left:.25in;text-indent:-.25in;line-height:
+normal&#39;&gt;&lt;span lang=&quot;EN&quot; style=&#39;font-size:10.0pt;font-family:Symbol;color:#4B5C66&#39;&gt;&#183;&lt;span style=&#39;font:7.0pt &quot;Times New Roman&quot;&#39;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+&lt;/span&gt;&lt;/span&gt;&lt;span lang=&quot;FI&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;
+color:#4B5C66&#39;&gt;ladata, julkaista, postittaa tai l&#228;hett&#228;&#228; tai muulla tavalla
+asettaa saataville mit&#228;&#228;n sis&#228;lt&#246;&#228;, joka rikkoo mit&#228;&#228;n mink&#228;&#228;n osapuolen
+patenttioikeutta, tavaramerkki&#228;, tekij&#228;noikeutta, liikesalaisuutta tai muuta yksinoikeudellista
+oikeutta, ellei asiakas omista kyseisi&#228; oikeuksia tai h&#228;nell&#228; ole omistajan
+lupaa julkaista kyseist&#228; sis&#228;lt&#246;&#228;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-left:.25in;text-indent:-.25in;line-height:
+normal&#39;&gt;&lt;span lang=&quot;EN&quot; style=&#39;font-size:10.0pt;font-family:Symbol;color:#4B5C66&#39;&gt;&#183;&lt;span style=&#39;font:7.0pt &quot;Times New Roman&quot;&#39;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+&lt;/span&gt;&lt;/span&gt;&lt;span lang=&quot;FI&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;
+color:#4B5C66&#39;&gt;ladata, julkaista, postittaa tai l&#228;hett&#228;&#228; tai muulla tavalla
+asettaa saataville viestej&#228;, jotka mainostavat pyramidihuijauksia,
+ketjukirjeit&#228; tai h&#228;iritsevi&#228; kaupallisia viestej&#228; tai mainoksia tai mit&#228;&#228;n
+muuta lain, n&#228;iden API-ehtojen tai sovellettavien k&#228;yt&#228;nt&#246;jen ja ohjeiden
+vastaista&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-left:.25in;text-indent:-.25in;line-height:
+normal&#39;&gt;&lt;span lang=&quot;EN&quot; style=&#39;font-size:10.0pt;font-family:Symbol;color:#4B5C66&#39;&gt;&#183;&lt;span style=&#39;font:7.0pt &quot;Times New Roman&quot;&#39;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+&lt;/span&gt;&lt;/span&gt;&lt;span lang=&quot;FI&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;
+color:#4B5C66&#39;&gt;k&#228;ytt&#228;&#228; Power BI APIa mink&#228;&#228;n sellaisen tuotteen, palvelun tai
+materiaalin yhteydess&#228; tai markkinoimaan niit&#228;, jotka k&#228;sittelev&#228;t
+vakoiluohjelmistoa, mainosohjelmistoa tai muita vihamielisi&#228; ohjelmia tai
+koodia&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-left:.25in;text-indent:-.25in;line-height:
+normal&#39;&gt;&lt;span lang=&quot;EN&quot; style=&#39;font-size:10.0pt;font-family:Symbol;color:#4B5C66&#39;&gt;&#183;&lt;span style=&#39;font:7.0pt &quot;Times New Roman&quot;&#39;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+&lt;/span&gt;&lt;/span&gt;&lt;span lang=&quot;FI&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;
+color:#4B5C66&#39;&gt;ladata mit&#228;&#228;n toisen julkaisemaa tiedostoa, kun asiakas tiet&#228;&#228;
+tai h&#228;nen tulisi kohtuudellisesti tiet&#228;&#228;, ettei t&#228;m&#228; voi laillisesti jakaa sit&#228;
+kyseisell&#228; tavalla&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-left:.25in;text-indent:-.25in;line-height:
+normal&#39;&gt;&lt;span lang=&quot;EN&quot; style=&#39;font-size:10.0pt;font-family:Symbol;color:#4B5C66&#39;&gt;&#183;&lt;span style=&#39;font:7.0pt &quot;Times New Roman&quot;&#39;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+&lt;/span&gt;&lt;/span&gt;&lt;span lang=&quot;FI&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;
+color:#4B5C66&#39;&gt;tekeyty&#228; toiseksi henkil&#246;ksi tai yhti&#246;ksi, tai v&#228;&#228;rent&#228;&#228; tai
+poistaa mit&#228;&#228;n tekij&#246;iden tietoja, oikeudellisia tai muita huomautuksia,
+kohteen omistajan ilmaisevia huomautuksia, ohjelmiston alkuper&#228;n tai l&#228;hteen
+ilmaisevia merkint&#246;j&#228; tai muuta aineistoa&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-left:.25in;text-indent:-.25in;line-height:
+normal&#39;&gt;&lt;span lang=&quot;EN&quot; style=&#39;font-size:10.0pt;font-family:Symbol;color:#4B5C66&#39;&gt;&#183;&lt;span style=&#39;font:7.0pt &quot;Times New Roman&quot;&#39;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+&lt;/span&gt;&lt;/span&gt;&lt;span lang=&quot;FI&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;
+color:#4B5C66&#39;&gt;rajoittaa tai est&#228;&#228; toisten k&#228;ytt&#228;jien Power BI APIn k&#228;ytt&#246;&#228; tai
+hy&#246;dynt&#228;mist&#228;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-left:.25in;text-indent:-.25in;line-height:
+normal&#39;&gt;&lt;span lang=&quot;EN&quot; style=&#39;font-size:10.0pt;font-family:Symbol;color:#4B5C66&#39;&gt;&#183;&lt;span style=&#39;font:7.0pt &quot;Times New Roman&quot;&#39;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+&lt;/span&gt;&lt;/span&gt;&lt;span lang=&quot;FI&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;
+color:#4B5C66&#39;&gt;k&#228;ytt&#228;&#228; Power BI APIa mihink&#228;&#228;n laittomaan tai luvattomaan
+tarkoitukseen&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-left:.25in;text-indent:-.25in;line-height:
+normal&#39;&gt;&lt;span lang=&quot;EN&quot; style=&#39;font-size:10.0pt;font-family:Symbol;color:#4B5C66&#39;&gt;&#183;&lt;span style=&#39;font:7.0pt &quot;Times New Roman&quot;&#39;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+&lt;/span&gt;&lt;/span&gt;&lt;span lang=&quot;FI&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;
+color:#4B5C66&#39;&gt;poistaa mit&#228;&#228;n tekij&#228;noikeusilmoitusta, tavaramerkki-ilmoitusta
+tai muuta yksinoikeudellisen oikeuden ilmoitusta, joka on Power BI APIssa&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-left:.25in;text-indent:-.25in;line-height:
+normal&#39;&gt;&lt;span lang=&quot;EN&quot; style=&#39;font-size:10.0pt;font-family:Symbol;color:#4B5C66&#39;&gt;&#183;&lt;span style=&#39;font:7.0pt &quot;Times New Roman&quot;&#39;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+&lt;/span&gt;&lt;/span&gt;&lt;span lang=&quot;FI&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;
+color:#4B5C66&#39;&gt;h&#228;irit&#228; tai haitata Power BI APIa tai Power BI -palveluihin
+liitettyj&#228; palvelimia tai verkkoja tai olla noudattamatta mit&#228;&#228;n Power BI APIin
+yhteydess&#228; olevien verkkojen vaatimuksia, menettelyit&#228;, k&#228;yt&#228;nt&#246;j&#228; tai s&#228;&#228;nt&#246;j&#228;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-left:.25in;text-indent:-.25in;line-height:
+normal&#39;&gt;&lt;span lang=&quot;EN&quot; style=&#39;font-size:10.0pt;font-family:Symbol;color:#4B5C66&#39;&gt;&#183;&lt;span style=&#39;font:7.0pt &quot;Times New Roman&quot;&#39;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+&lt;/span&gt;&lt;/span&gt;&lt;span lang=&quot;FI&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;
+color:#4B5C66&#39;&gt;k&#228;ytt&#228;&#228; mit&#228;&#228;n robottia, hakurobottia, sivuston hakusovellusta
+Power BI APIn yhteydess&#228; tai ker&#228;t&#228; tietoja k&#228;ytt&#228;jist&#228; mihink&#228;&#228;n luvattomaan
+tarkoitukseen&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-left:.25in;text-indent:-.25in;line-height:
+normal&#39;&gt;&lt;span lang=&quot;EN&quot; style=&#39;font-size:10.0pt;font-family:Symbol;color:#4B5C66&#39;&gt;&#183;&lt;span style=&#39;font:7.0pt &quot;Times New Roman&quot;&#39;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+&lt;/span&gt;&lt;/span&gt;&lt;span lang=&quot;FI&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;
+color:#4B5C66&#39;&gt;l&#228;hett&#228;&#228; sis&#228;lt&#246;&#228;, joka virheellisesti osoittaa tai vihjaa, ett&#228;
+Microsoft hyv&#228;ksyy tai tukee sit&#228;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-left:.25in;text-indent:-.25in;line-height:
+normal&#39;&gt;&lt;span lang=&quot;EN&quot; style=&#39;font-size:10.0pt;font-family:Symbol;color:#4B5C66&#39;&gt;&#183;&lt;span style=&#39;font:7.0pt &quot;Times New Roman&quot;&#39;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+&lt;/span&gt;&lt;/span&gt;&lt;span lang=&quot;FI&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;
+color:#4B5C66&#39;&gt;luoda k&#228;ytt&#228;j&#228;tilej&#228; automaattisesti tai virheelliseen tai
+petokselliseen tarkoitukseen tai hankkia tai yritt&#228;&#228; hankkia useita avaimia
+Power BI APIin&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-left:.25in;text-indent:-.25in;line-height:
+normal&#39;&gt;&lt;span lang=&quot;EN&quot; style=&#39;font-size:10.0pt;font-family:Symbol;color:#4B5C66&#39;&gt;&#183;&lt;span style=&#39;font:7.0pt &quot;Times New Roman&quot;&#39;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+&lt;/span&gt;&lt;/span&gt;&lt;span lang=&quot;FI&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;
+color:#4B5C66&#39;&gt;markkinoida tai antaa ohjeellisia tietoja laittomista toimista
+tai kannustaa fyysiseen vahingoittamiseen tai vammauttamiseen mit&#228;&#228;n ryhm&#228;&#228; tai
+henkil&#246;&#228; vastaan&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-left:.25in;text-indent:-.25in;line-height:
+normal&#39;&gt;&lt;span lang=&quot;EN&quot; style=&#39;font-size:10.0pt;font-family:Symbol;color:#4B5C66&#39;&gt;&#183;&lt;span style=&#39;font:7.0pt &quot;Times New Roman&quot;&#39;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+&lt;/span&gt;&lt;/span&gt;&lt;span lang=&quot;FI&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;
+color:#4B5C66&#39;&gt;l&#228;hett&#228;&#228; viruksia, matoja, vikoja, troijalaisia tai muita
+haitallisia kohteita&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-left:.25in;text-indent:-.25in;line-height:
+normal&#39;&gt;&lt;span lang=&quot;EN&quot; style=&#39;font-size:10.0pt;font-family:Symbol;color:#4B5C66&#39;&gt;&#183;&lt;span style=&#39;font:7.0pt &quot;Times New Roman&quot;&#39;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+&lt;/span&gt;&lt;/span&gt;&lt;span lang=&quot;FI&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;
+color:#4B5C66&#39;&gt;myyd&#228;, vuokrata, jakaa tai siirt&#228;&#228; Power BI APIa tai sen
+k&#228;ytt&#246;oikeuskoodeja tai my&#246;nt&#228;&#228; niiden k&#228;ytt&#246;oikeutta edelleen, olipa kyseess&#228;
+suora kaupallinen tai rahallinen etu tai muu syy, ilman Microsoftin kirjallista
+lupaa&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-left:.25in;text-indent:-.25in;line-height:
+normal&#39;&gt;&lt;span lang=&quot;EN&quot; style=&#39;font-size:10.0pt;font-family:Symbol;color:#4B5C66&#39;&gt;&#183;&lt;span style=&#39;font:7.0pt &quot;Times New Roman&quot;&#39;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+&lt;/span&gt;&lt;/span&gt;&lt;span lang=&quot;FI&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;
+color:#4B5C66&#39;&gt;k&#228;ytt&#228;&#228; Power BI APIa tavalla, joka ylitt&#228;&#228; kohtuullisen pyynnin
+m&#228;&#228;r&#228;n, muodostaa ylenpalttisen tai haitallisen k&#228;yt&#246;n tai muulla tavalla ei noudata
+Power BI APIn ohjeita, jotka ovat osoitteessa dev.PowerBI.com, mink&#228; Microsoft
+yksin p&#228;&#228;tt&#228;&#228;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-left:.25in;text-indent:-.25in;line-height:
+normal&#39;&gt;&lt;span lang=&quot;EN&quot; style=&#39;font-size:10.0pt;font-family:Symbol;color:#4B5C66&#39;&gt;&#183;&lt;span style=&#39;font:7.0pt &quot;Times New Roman&quot;&#39;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+&lt;/span&gt;&lt;/span&gt;&lt;span lang=&quot;FI&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;
+color:#4B5C66&#39;&gt;pyyt&#228;&#228; tietoja yhden k&#228;ytt&#228;j&#228;n puolesta esitt&#228;&#228;kseen,
+siirt&#228;&#228;kseen tai toimittaakseen tiedot muille k&#228;ytt&#228;jille.&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-left:.25in;text-indent:-.25in;line-height:
+normal&#39;&gt;&lt;span lang=&quot;FI&quot; style=&#39;font-size:10.0pt;font-family:Symbol;color:#4B5C66&#39;&gt;&#183;&lt;span style=&#39;font:7.0pt &quot;Times New Roman&quot;&#39;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+&lt;/span&gt;&lt;/span&gt;&lt;span lang=&quot;FI&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;
+color:#4B5C66&#39;&gt;Edell&#228; mainitut kielletyt k&#228;yt&#246;t ovat esimerkkej&#228;, eiv&#228;t
+rajoituksia. Microsoft pid&#228;tt&#228;&#228; itsell&#228;&#228;n oikeuden omasta p&#228;&#228;t&#246;ksest&#228;&#228;n
+m&#228;&#228;ritt&#228;&#228;, noudattaako asiakkaan Power BI APIn k&#228;ytt&#246; n&#228;it&#228; API-ehtoja.&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-bottom:.05pt;line-height:normal&#39;&gt;&lt;b&gt;&lt;span lang=&quot;FI&quot; style=&#39;font-size:18.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;5.
+Tietosuoja.&lt;/span&gt;&lt;/b&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;line-height:normal&#39;&gt;&lt;span lang=&quot;FI&quot; style=&#39;font-size:
+12.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;Kaikkea Power BI APIn
+k&#228;ytt&#246;&#228; koskee Power BI:n tietosuojalauseke, joka on saatavilla &lt;/span&gt;&lt;span lang=&quot;FI&quot;&gt;&lt;a href=&quot;http://www.microsoft.com/privacystatement/en-us/OnlineServices/Default.aspx&quot;&gt;&lt;span style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif&#39;&gt;t&#228;&#228;ll&#228;&lt;/span&gt;&lt;/a&gt;&lt;/span&gt;&lt;span lang=&quot;FI&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;
+(ja jota voidaan ajoittain p&#228;ivitt&#228;&#228;).&amp;nbsp;Mik&#228;&#228;n n&#228;iden API-ehtojen osa ei
+k&#228;sittele Internet-k&#228;ytt&#228;jien henkil&#246;kohtaisten tietojen ker&#228;&#228;mist&#228; tai
+siirt&#228;mist&#228; osapuolten v&#228;lill&#228;.&amp;nbsp;Asiakkaalla on oltava selv&#228;sti n&#228;kyv&#228;
+online-tietosuojak&#228;yt&#228;nt&#246; omissa sivustoissaan ja sovelluksissaan, jotka
+k&#228;ytt&#228;v&#228;t Power BI APIa.&amp;nbsp;T&#228;m&#228;n tietosuojak&#228;yt&#228;nn&#246;n on sis&#228;llett&#228;v&#228;
+v&#228;hint&#228;&#228;n t&#228;ysi, tarkka ja selv&#228; kuvaus siit&#228;, miten ev&#228;steit&#228; ja vastaavaa
+tekniikkaa luodaan, k&#228;ytet&#228;&#228;n ja luetaan sek&#228; miten asiakas ker&#228;&#228; ja k&#228;ytt&#228;&#228;
+tietoja, jotka liittyv&#228;t asiakkaan sivuston ja sovellusten k&#228;ytt&#228;jien
+toimintaan.&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-bottom:.05pt;line-height:normal&#39;&gt;&lt;b&gt;&lt;span lang=&quot;FI&quot; style=&#39;font-size:18.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;6.
+K&#228;ytt&#228;j&#228;n todentaminen ja tietoturva.&lt;/span&gt;&lt;/b&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;line-height:normal&#39;&gt;&lt;span lang=&quot;FI&quot; style=&#39;font-size:
+12.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;Microsoft suhtautuu
+k&#228;ytt&#228;jien tietoturvaan ja yksityisyyteen eritt&#228;in vakavasti, ja asiakas
+suostuu auttamaan Microsoftia kaikin tarvittavin tavoin, jotta asiakkaan
+Sovellus toimisi n&#228;iden API-ehtojen ja sovellettavien lakien mukaisesti.&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;line-height:normal&#39;&gt;&lt;span lang=&quot;FI&quot; style=&#39;font-size:
+12.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;a. K&#228;ytt&#228;j&#228;n luvan
+hankkiminen. Asiakas on yksin vastuussa hankkimaan selke&#228; ja nimenomainen
+k&#228;ytt&#228;j&#228;n suostumus, joka my&#246;nt&#228;&#228; asiakkaalle luvan k&#228;ytt&#228;&#228; kyseisen k&#228;ytt&#228;j&#228;n
+Power BI -tili&#228; mukaan lukien k&#228;ytt&#228;j&#228;kohtaisten tietojen hakemisen tai
+tietojen kirjoittamisen kyseisen k&#228;ytt&#228;j&#228;n tiliss&#228;. Asiakas noudattaa tarkoin
+t&#228;m&#228;n nimenomaisen luvan laajuutta, kun h&#228;n k&#228;ytt&#228;&#228; kyseisen k&#228;ytt&#228;j&#228;n Power BI
+-tili&#228;.&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;line-height:normal&#39;&gt;&lt;span lang=&quot;FI&quot; style=&#39;font-size:
+12.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;b. Yhteyden ottaminen
+ja yhteisty&#246;. Asiakkaan (tai sovelluksen yhteydess&#228; Azure Active Directoryyn
+rekister&#246;ityjen yhteystietojen) on oltava tavoitettavissa koska tahansa
+tietoturvaan liittyviss&#228; kysymyksiss&#228; ja huolenaiheissa. Asiakas voi muuttaa
+t&#228;t&#228; nime&#228; tai yhteystietoa p&#228;ivitt&#228;m&#228;ll&#228; tietonsa Azure Active Directoryssa.&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;line-height:normal&#39;&gt;&lt;span lang=&quot;FI&quot; style=&#39;font-size:
+12.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;c. Virusvarotoimet.
+Kaikki asiakkaan Microsoftille l&#228;hett&#228;m&#228; aineisto, ohjelmisto ja asiakirjat
+mukaan lukien, on tarkastettava ajan tasalla olevalla Internet-alan standardia
+noudattavalla virus- ja madontorjuntaohjelmistolla, ja siin&#228; ei saa olla
+viruksia tai matoja. Microsoftille annetuissa tiedoissa ei saa olla haitallisia
+komentosarjoja tai koodia.&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;line-height:normal&#39;&gt;&lt;span lang=&quot;FI&quot; style=&#39;font-size:
+12.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;d. Alan standardit.
+Asiakkaan verkot, k&#228;ytt&#246;j&#228;rjestelm&#228; ja verkkopalvelinten ohjelmisto,
+reitittimet, tietokannat ja tietokonej&#228;rjestelm&#228;t (”J&#228;rjestelm&#228;t”) on
+m&#228;&#228;ritett&#228;v&#228; Internet-alan standardien mukaan, jolla asiakkaan Sovellusta voi k&#228;ytt&#228;&#228;.
+Jos asiakas ei hallitse t&#228;ysin jotain J&#228;rjestelm&#228;n osaa, asiakas k&#228;ytt&#228;&#228;
+kaikkea hallinta- tai vaikutusvaltaa, joka h&#228;nell&#228; on kyseisiin J&#228;rjestelmiin
+ja/tai J&#228;rjestelmien valikoimaan eik&#228; asiakas suunnittele tai valitse
+J&#228;rjestelmi&#228; sill&#228; tavalla, ett&#228; h&#228;n voisi v&#228;ltt&#228;&#228; t&#228;m&#228;n velvoitteen. Esimerkki
+sopimattomasta palvelimesta on sellainen, joka toimii avoimena
+v&#228;lityspalvelimena. Esimerkki ei-hyv&#228;ksytt&#228;v&#228;st&#228; suunnittelemisesta on valita
+palvelin, jonka operaattori k&#228;ytt&#228;&#228; standardia heikompia tietoturvak&#228;yt&#228;nt&#246;j&#228;,
+jotta asiakas voi v&#228;itt&#228;&#228;, ettei h&#228;n hallitse kyseist&#228; palvelinta eik&#228;
+asiakkaan tarvitsisi valita hyv&#228;ksytt&#228;v&#228;&#228; palvelinta.&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;line-height:normal&#39;&gt;&lt;span lang=&quot;FI&quot; style=&#39;font-size:
+12.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;e. Raportointi.
+Asiakkaan on ilmoitettava havaitsemistaan J&#228;rjestelm&#228;ns&#228; tietosuojan puutteista
+tai tunkeutumisista Microsoftille kirjallisesti s&#228;hk&#246;postitse osoitteeseen &lt;/span&gt;&lt;span lang=&quot;FI&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif&#39;&gt;devpbi@microsoft.com&lt;span style=&#39;color:#4B5C66&#39;&gt;. Asiakas toimii yhdess&#228; Microsoftin kanssa korjatakseen
+mahdollisen tietosuojapuutteen ja katkaisee heti mahdolliset tunkeutumis- tai
+tunkeutujayhteydet. Jos t&#228;llainen turvallisuuspuute tai tunkeutuminen ilmenee,
+asiakas ei ilmoita siit&#228; julkisesti (esimerkiksi lehdist&#246;lle, blogeissa,
+ilmoitustauluissa ja niin edelleen) ilman Microsoftin kirjallista lupaa.&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;line-height:normal&#39;&gt;&lt;span lang=&quot;FI&quot; style=&#39;font-size:
+12.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;f. J&#228;rjestelmien
+k&#228;ytt&#246;oikeuden hallinta. Siin&#228; m&#228;&#228;rin, miss&#228; asiakas hallitsee J&#228;rjestelmi&#228; tai
+vaikuttaa niihin, asiakas kirjaa (aika ja p&#228;iv&#228;m&#228;&#228;r&#228; -leimoilla) kaikki
+J&#228;rjestelmien k&#228;ytt&#246;esiintym&#228;t. Asiakas salaa J&#228;rjestelmien salasana- ja
+k&#228;ytt&#228;j&#228;tunnustiedostot, jotka tallentavat tai k&#228;sittelev&#228;t Power BI
+-k&#228;ytt&#228;j&#228;tietoja, joita Microsoft on antanut asiakkaan k&#228;ytt&#228;&#228;. Salasanojen on
+oltava yksil&#246;llisi&#228; ja vaikeasti arvattavia, ja ne on vaihdettava usein.
+Asiakas minimoi salasanojen k&#228;ytt&#246;oikeutta ja k&#228;ytt&#246;&#228;. Jos se on mahdollista,
+lis&#228;k&#228;ytt&#246;oikeuksia edellytt&#228;v&#228;t komennot tulee kirjata suojatusti (ajalla ja
+p&#228;iv&#228;m&#228;&#228;r&#228;ll&#228;), jotta toimintojen t&#228;ysi auditointipolku olisi mahdollinen. Kun
+henkil&#246; lopettaa ty&#246;suhteensa asiakkaan kanssa, h&#228;nen salasanansa ja salasanan
+k&#228;ytt&#246;mahdollisuutensa tulee p&#228;&#228;tt&#228;&#228; v&#228;litt&#246;m&#228;sti.&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;line-height:normal&#39;&gt;&lt;span lang=&quot;FI&quot; style=&#39;font-size:
+12.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;g. Tietoturvatarkistukset.
+Microsoftilla on oikeus, mutta ei velvollisuutta, omalla kustannuksellaan
+pyyt&#228;&#228; itsen&#228;ist&#228; kolmatta osapuolta tarkastamaan ja tarkistamaan, ett&#228; asiakas
+noudattaa n&#228;it&#228; tietosuojaehtoja. Asiakas (omalla kustannuksellaan) korjaa
+tarkastuksessa havaitut tietosuojaongelmat mahdollisimman nopeasti. Asiakas
+sitten todistaa Microsoftille kirjallisesti, ett&#228; tietoturvaongelma on
+korjattu, ja sis&#228;lt&#228;&#228; kuvauksen tehdyist&#228; korjaustoimenpiteist&#228;. Microsoft
+antaa asiakkaalle 48 tunnin varoitusajan ennen tarkastuksen tekemist&#228;.
+T&#228;llainen tarkastus suoritetaan virka-aikana tavalla, joka ei h&#228;iritse
+tavallista liiketoimintaa. Jos tarkastus osoittaa n&#228;iden tietoturvaehtojen
+merkitt&#228;v&#228;n rikkomuksen, asiakas hyvitt&#228;&#228; Microsoftille tarkastuksen
+kohtuulliset kustannukset.&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;line-height:normal&#39;&gt;&lt;span lang=&quot;FI&quot; style=&#39;font-size:
+12.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;h. Asiakkaan on my&#246;s
+noudatettava n&#228;iden API-ehtojen liitteen A Tietoturvavaatimukset ja
+dokumentaatio vaatimuksia ja dokumentaatiota.&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-bottom:.05pt;line-height:normal&#39;&gt;&lt;b&gt;&lt;span lang=&quot;FI&quot; style=&#39;font-size:18.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;&amp;nbsp;&lt;/span&gt;&lt;/b&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-bottom:.05pt;line-height:normal&#39;&gt;&lt;b&gt;&lt;span lang=&quot;FI&quot; style=&#39;font-size:18.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;7&lt;/span&gt;&lt;/b&gt;&lt;b&gt;&lt;span lang=&quot;FI&quot; style=&#39;font-size:18.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;.
+Tuki ja saatavuus.&lt;/span&gt;&lt;/b&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;line-height:normal&#39;&gt;&lt;span lang=&quot;FI&quot; style=&#39;font-size:
+12.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;Microsoft voi omasta
+p&#228;&#228;t&#246;ksest&#228;&#228;n halutessaan antaa asiakkaalle Power BI APIn tukea tai muokkauksia
+(yhdess&#228; ”Tuki”). Microsoft voi muuttaa, keskeytt&#228;&#228; tai lopettaa Power BI APIn
+mink&#228; tahansa osan koska tahansa, Power BI APIn saatavuus mukaan luettuna.
+Microsoft voi my&#246;s lis&#228;t&#228; rajoituksia tiettyihin ominaisuuksiin ja palveluihin
+tai rajoittaa asiakkaan p&#228;&#228;sy&#228; Power BI APIin tai sen osiin tai Power BI
+-sivustoon ilman ennakkoilmoitusta tai korvausvelvollisuutta.&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-bottom:.05pt;line-height:normal&#39;&gt;&lt;b&gt;&lt;span lang=&quot;FI&quot; style=&#39;font-size:18.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;8&lt;/span&gt;&lt;/b&gt;&lt;b&gt;&lt;span lang=&quot;FI&quot; style=&#39;font-size:18.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;.
+Maksut.&lt;/span&gt;&lt;/b&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;line-height:normal&#39;&gt;&lt;span lang=&quot;FI&quot; style=&#39;font-size:
+12.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;Microsoft pid&#228;tt&#228;&#228;
+oikeuden Microsoftin omasta p&#228;&#228;t&#246;ksest&#228; veloittaa maksuja Power BI APIn
+tulevasta k&#228;yt&#246;st&#228; tai k&#228;ytt&#246;oikeudesta. Jos Microsoft p&#228;&#228;tt&#228;&#228; veloittaa Power
+BI APIsta, muutoksista ilmoitetaan asiakkaalle kirjallisella ilmoituksella.&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-bottom:.05pt;line-height:normal&#39;&gt;&lt;b&gt;&lt;span lang=&quot;FI&quot; style=&#39;font-size:18.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;9&lt;/span&gt;&lt;/b&gt;&lt;b&gt;&lt;span lang=&quot;FI&quot; style=&#39;font-size:18.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;.&lt;/span&gt;&lt;/b&gt;&lt;span lang=&quot;FI&quot; style=&#39;font-size:18.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;
+&lt;b&gt;Takuiden poissulkeminen.&lt;/b&gt;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;line-height:normal&#39;&gt;&lt;span lang=&quot;FI&quot; style=&#39;font-size:
+12.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;POWER BI API
+TOIMITETAAN ”SELLAISENAAN” JA ”SELLAISENA KUIN SE ON SAATAVILLA” ILMAN
+MINK&#196;&#196;NLAISTA NIMENOMAISTA TAI OLETETTUA TAKUUTA. MICROSOFT NIMENOMAISESTI
+KIIST&#196;&#196; KAIKKI TAKUUT, MUKAAN LUKIEN OLETETUT TAKUUT SOPIVUUDESTA KAUPANK&#196;YNNIN
+KOHTEEKSI, SOPIVUUDESTA TIETTYYN TARKOITUKSEEN, SAATAVUUDESTA, TIETOSUOJASTA,
+OMISTUSOIKEUDESTA JA OIKEUKSIEN RIKKOMATTOMUUDESTA.&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;line-height:normal&#39;&gt;&lt;span lang=&quot;FI&quot; style=&#39;font-size:
+12.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;MICROSOFT EI TAKAA,
+ETT&#196; POWER BI APISSA EI OLISI EP&#196;T&#196;SM&#196;LLISYYKSI&#196;, VIRHEIT&#196;, OHJELMOINTIVIRHEIT&#196;
+TAI KESKEYTYKSI&#196; TAI ETT&#196; SE OLISI LUOTETTAVA, TARKKA, T&#196;YDELLINEN TAI MUULLA
+TAVALLA KELVOLLINEN. MICROSOFT EI TAKAA, ETT&#196; (i) POWER BI API T&#196;YTT&#196;&#196;
+ASIAKKAAN VAATIMUKSET, (ii) POWER BI API -PALVELUN K&#196;YTETT&#196;VYYS OLISI
+KESKEYTYKSET&#214;NT&#196;, (iii) POWER BI APIA K&#196;YTT&#196;M&#196;LL&#196; SAADUT TULOKSET OLISIVAT
+TARKKOJA TAI LUOTETTAVIA, (iv) POWER BI APIN AVULLA HANKITTUJEN TUOTTEIDEN,
+PALVELUIDEN, TIETOJEN TAI MUUN AINEISTON LAATU T&#196;YTT&#196;ISI ASIAKKAAN ODOTUKSET JA
+(v) KAIKKI POWER BI APIN VIRHEET KORJATTAISIIN.&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;line-height:normal&#39;&gt;&lt;span lang=&quot;FI&quot; style=&#39;font-size:
+12.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;ASIAKKAAN POWER BI
+APIN K&#196;YTT&#214; TAPAHTUU ASIAKKAAN OMALLA P&#196;&#196;T&#214;KSELL&#196; JA RISKILL&#196;, JA ASIAKAS ON
+YKSIN VASTUUSSA KAIKISTA VAHINGOISTA, JOTKA JOHTUVAT POWER BI APIN K&#196;YT&#214;ST&#196;. &lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-bottom:.05pt;line-height:normal&#39;&gt;&lt;b&gt;&lt;span lang=&quot;FI&quot; style=&#39;font-size:18.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;10&lt;/span&gt;&lt;/b&gt;&lt;b&gt;&lt;span lang=&quot;FI&quot; style=&#39;font-size:18.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;.&lt;/span&gt;&lt;/b&gt;&lt;span lang=&quot;FI&quot; style=&#39;font-size:18.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;
+&lt;b&gt;Vastuunrajoitus.&lt;/b&gt;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;line-height:normal&#39;&gt;&lt;span lang=&quot;FI&quot; style=&#39;font-size:
+12.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;POIS LUKIEN MUUT
+EHDOT, JOTKA OVAT N&#196;ISS&#196; API-EHDOISSA, MICROSOFTIN SUURIN
+KOKONAISKORVAUSVELVOLLISUUS ASIAKKAALLE MIST&#196;&#196;N JA KAIKISTA
+KORVAUSVAATIMUKSISTA, JOTKA LIITTYV&#196;T N&#196;IHIN API-EHTOIHIN, SEN IRTISANOMISEEN
+TAI VANHENTUMISEEN, AIHEUTUIPA KORVAUSVELVOLLISUUS JOSTAIN
+KORVAUSVAATIMUKSESTA, JOKA PERUSTUU SOPIMUKSEEN, TAKUUSEEN, RIKKOMUKSEEN,
+TUOTTEEN MERKITT&#196;V&#196;&#196;N TOIMIMATTOMUUTEEN, KAUPANK&#196;YNTIK&#196;YTT&#214;&#214;N TAI MUUTEN, EI
+MISS&#196;&#196;N TAPAUKSESSA OLE SUUREMPI KUIN 10 YHDYSVALTAIN DOLLARIA. ASIAKAS EI VOI
+HAKEA MUITA VAHINGONKORVAUKSIA TAI TAPPIOITA, MUKAAN LUKIEN RAJOITUKSETTA
+V&#196;LILLISET, LIIKEVOITON MENETT&#196;MISEEN LIITTYV&#196;T, ERITYISET, EP&#196;SUORAT,
+SATUNNAISET TAI RANGAISTUKSENALAISET VAHINGOT. N&#196;M&#196; RAJOITUKSET OVAT VOIMASSA MY&#214;S
+TILANTEISSA, JOISSA KORVAUS EI T&#196;YSIN KORVAA ASIAKASTA KAIKKIA MENETYKSI&#196;, EI
+T&#196;YT&#196; OLENNAISTA TARKOITUSTAAN TAI VAIKKA MICROSOFT TIET&#196;ISI TAI SEN OLISI
+TULLUT TIET&#196;&#196; VAHINKOJEN MAHDOLLISUUDESTA. ELLEI SOVELLETTAVAN LAIN
+PAKOLLISISTA S&#196;&#196;D&#214;KSIST&#196; MUUTA JOHDU, N&#196;M&#196; RAJOITUKSET KOSKEVAT KAIKKEA T&#196;H&#196;N
+SOPIMUKSEEN LIITTYV&#196;&#196;, KUTEN SIS&#196;LL&#214;N MENETYST&#196;, VIRUSTA, JOKA VAIKUTTAA
+ASIAKKAAN PALVELUIDEN K&#196;YTT&#214;&#214;N, VIIVEET L&#196;HETYSTEN TAI TAPAHTUMIEN
+ALOITTAMISESSA TAI VIIMEISTELEMISESS&#196;, SOPIMUKSEN, TAKUUN TAI EHDON RIKKOMISEN
+KORVAUSVAATIMUKSIA, SUORAA KORVAUSVELVOLLISUUTTA, HUOLIMATTOMUUTTA,
+HARHAANJOHTAMISTA, PUUTETTA, OIKEUKSIEN RIKKOMISTA, S&#196;&#196;D&#214;KSEN RIKKOMUSTA TAI
+EP&#196;REILUA VARAINHANKINTAA. JOTKIN TAI MITK&#196;&#196;N N&#196;IST&#196; RAJOITUKSISTA TAI
+POISSULKEMISISTA EIV&#196;T EHK&#196; KOSKE ASIAKASTA, JOS H&#196;NEN ASUINMAANSA TAI
+-PAIKKAKUNTANSA EI SALLI SATUNNAISTEN, V&#196;LILLISTEN TAI MUIDEN VAHINKOJEN
+POISSULKEMISTA TAI RAJOITTAMISTA. &lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-bottom:.05pt;line-height:normal&#39;&gt;&lt;b&gt;&lt;span lang=&quot;FI&quot; style=&#39;font-size:18.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;11&lt;/span&gt;&lt;/b&gt;&lt;b&gt;&lt;span lang=&quot;FI&quot; style=&#39;font-size:18.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;.&lt;/span&gt;&lt;/b&gt;&lt;span lang=&quot;FI&quot; style=&#39;font-size:18.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;
+&lt;b&gt;Vastuusta vapauttaminen.&lt;/b&gt;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;line-height:normal&#39;&gt;&lt;span lang=&quot;FI&quot; style=&#39;font-size:
+12.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;Asiakas suojaa ja
+puolustaa Microsoftia (ja sen johtajia, p&#228;&#228;llik&#246;it&#228;, konserniyhti&#246;it&#228; ja
+edustajia) tappioilta, korvausvelvollisuuksilta ja kuluilta (kohtuulliset
+asianajopalkkiot mukaan lukien), jotka aiheutuvat korvausvaatimuksista,
+oikeustoimista tai haasteista liittyen asiakkaan suorittamaan t&#228;m&#228;n sopimuksen
+tai sen osan rikkomiseen (tai v&#228;itettyyn rikkomiseen) ja joka muulla tavalla
+liittyy asiakkaan sivustoihin, asiakkaan sovelluksiin tai asiakkaan
+suorittamaan Power BI APIn k&#228;ytt&#246;&#246;n.&amp;nbsp;Asiakas on yksin vastuussa t&#228;llaisen
+korvausvaatimuksen puolustamisesta k&#228;ytt&#228;m&#228;ll&#228; yhdess&#228; sovittua neuvojaa, ja
+Microsoftilla on oikeus osallistua valitsemallaan edustajalla, eik&#228; asiakas
+julkaise mit&#228;&#228;n korvausvaatimusta tai sovi mit&#228;&#228;n sovittelua, joka osoittaisi
+mit&#228;&#228;n Microsoftin (tai sen johtajien, p&#228;&#228;llik&#246;iden, konserniyhti&#246;iden tai
+edustajien) velvollisuutta tai korvausvelvollisuutta ilman Microsoftin omasta
+p&#228;&#228;t&#246;ksest&#228;&#228;n antamaa lupaa.&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-bottom:.05pt;line-height:normal&#39;&gt;&lt;b&gt;&lt;span lang=&quot;FI&quot; style=&#39;font-size:18.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;12&lt;/span&gt;&lt;/b&gt;&lt;b&gt;&lt;span lang=&quot;FI&quot; style=&#39;font-size:18.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;.
+Voimassaolo ja irtisanominen.&lt;/span&gt;&lt;/b&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;line-height:normal&#39;&gt;&lt;span lang=&quot;FI&quot; style=&#39;font-size:
+12.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;N&#228;m&#228; API-ehdot
+astuvat voimaan, kun asiakas k&#228;ytt&#228;&#228; Power BI APIa ensimm&#228;isen kerran, ja ovat
+voimassa, kunnes jompikumpi osapuoli irtisanoo ne. Asiakas voi irtisanoa n&#228;m&#228;
+API-ehdot lopettamalla Power BI APIn k&#228;yt&#246;n. Microsoft voi irtisanoa n&#228;m&#228;
+API-ehdot milloin tahansa ja mist&#228; tahansa syyst&#228;. N&#228;m&#228; API-ehdot irtisanotaan
+automaattisesti, jos (i) asiakas rikkoo mit&#228; tahansa n&#228;iden API-ehtojen tai
+K&#228;ytt&#246;ehtojen ehtoa, (ii) Microsoft julkaisee kirjallisen
+irtisanomisilmoituksen Power BI:n sivustossa, (iii) Microsoft l&#228;hett&#228;&#228;
+asiakkaalle kirjallisen irtisanomisilmoituksen tai (iv) Microsoft lopettaa
+Power BI APIn k&#228;ytt&#246;oikeuden toimittamisen asiakkaalle.&amp;nbsp;Kohtien 3, 9, 10,
+11, 12, 15, 16, 17, 18 ja 19 mukaiset osapuolten velvollisuudet j&#228;&#228;v&#228;t voimaan
+n&#228;iden API-ehtojen irtisanomisen syyst&#228; riippumatta.&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-bottom:.05pt;line-height:normal&#39;&gt;&lt;b&gt;&lt;span lang=&quot;FI&quot; style=&#39;font-size:18.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;13&lt;/span&gt;&lt;/b&gt;&lt;b&gt;&lt;span lang=&quot;FI&quot; style=&#39;font-size:18.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;.
+Sopimuksen siirto.&lt;/span&gt;&lt;/b&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;line-height:normal&#39;&gt;&lt;span lang=&quot;FI&quot; style=&#39;font-size:
+12.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;Microsoftilla on
+oikeus milloin tahansa siirt&#228;&#228; t&#228;m&#228; sopimus kokonaisuudessaan tai osittain
+ilmoittamatta siit&#228; erikseen asiakkaalle. Asiakas ei saa siirt&#228;&#228; t&#228;t&#228; sopimusta
+tai sen mit&#228;&#228;n osaa millek&#228;&#228;n toiselle henkil&#246;lle tai osapuolelle ilman
+kirjallista lupaa, jota ei kohtuuttomasti ev&#228;t&#228;. Asiakkaan yritys siirt&#228;&#228;
+sopimus on mit&#228;t&#246;n. Asiakas ei saa tilap&#228;isesti eik&#228; pysyv&#228;sti siirt&#228;&#228; Power BI
+APIn tai mink&#228;&#228;n Power BI APIn osan k&#228;ytt&#246;oikeutta kenellek&#228;&#228;n muulle.&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-bottom:.05pt;line-height:normal&#39;&gt;&lt;b&gt;&lt;span lang=&quot;FI&quot; style=&#39;font-size:18.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;14&lt;/span&gt;&lt;/b&gt;&lt;b&gt;&lt;span lang=&quot;FI&quot; style=&#39;font-size:18.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;.
+Ei kolmannen osapuolen edunsaajia.&lt;/span&gt;&lt;/b&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;line-height:normal&#39;&gt;&lt;span lang=&quot;FI&quot; style=&#39;font-size:
+12.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;T&#228;m&#228; sopimus on
+tarkoitettu ainoastaan asiakkaan ja Microsoftin hy&#246;dyksi. T&#228;ll&#228; sopimuksella ei
+ole muita edunsaajia lukuun ottamatta t&#228;ss&#228; sopimuksessa mainittuja seuraajia
+ja tahoja, joille sopimus on siirretty.&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-bottom:.05pt;line-height:normal&#39;&gt;&lt;b&gt;&lt;span lang=&quot;FI&quot; style=&#39;font-size:18.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;15&lt;/span&gt;&lt;/b&gt;&lt;b&gt;&lt;span lang=&quot;FI&quot; style=&#39;font-size:18.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;.
+Sopimusehtojen erillisyys.&lt;/span&gt;&lt;/b&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;line-height:normal&#39;&gt;&lt;span lang=&quot;FI&quot; style=&#39;font-size:
+12.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;Jos jokin
+toimivaltainen tuomioistuin pit&#228;&#228; jotakin n&#228;iden API-ehtojen m&#228;&#228;r&#228;yst&#228;
+laittomana, p&#228;tem&#228;tt&#246;m&#228;n&#228; tai t&#228;yt&#228;nt&#246;&#246;npanokelvottomana, kaikkia muita
+API-ehtojen m&#228;&#228;r&#228;yksi&#228; sovelletaan edelleen.&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-bottom:.05pt;line-height:normal&#39;&gt;&lt;b&gt;&lt;span lang=&quot;FI&quot; style=&#39;font-size:18.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;16&lt;/span&gt;&lt;/b&gt;&lt;b&gt;&lt;span lang=&quot;FI&quot; style=&#39;font-size:18.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;.
+Ilmoitukset. &lt;/span&gt;&lt;/b&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;line-height:normal&#39;&gt;&lt;span lang=&quot;FI&quot; style=&#39;font-size:
+12.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;Asiakas hyv&#228;ksyy sen,
+ett&#228; Microsoft toimittaa h&#228;nelle ilmoituksia Power BI APIsta tai tietoja, jotka
+laki velvoittaa l&#228;hett&#228;m&#228;&#228;n, s&#228;hk&#246;postitse Power BI APIa tilattaessa annettuun
+osoitteeseen. K&#228;ytt&#228;j&#228;lle s&#228;hk&#246;postitse l&#228;hetetyt ilmoitukset katsotaan l&#228;hetetyiksi
+ja vastaanotetuiksi s&#228;hk&#246;postin l&#228;hetysp&#228;iv&#228;n&#228;. Jos asiakas ei hyv&#228;ksy
+ilmoitusten toimittamista s&#228;hk&#246;isess&#228; muodossa, h&#228;nen on lopetettava Power BI
+APIn k&#228;ytt&#246;. &lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-bottom:.05pt;line-height:normal&#39;&gt;&lt;b&gt;&lt;span lang=&quot;FI&quot; style=&#39;font-size:18.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;17&lt;/span&gt;&lt;/b&gt;&lt;b&gt;&lt;span lang=&quot;FI&quot; style=&#39;font-size:18.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;.
+Microsoft ei luovu oikeuksistaan.&lt;/span&gt;&lt;/b&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;line-height:normal&#39;&gt;&lt;span lang=&quot;FI&quot; style=&#39;font-size:
+12.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;Mik&#228;li Microsoft ei
+kykene panemaan t&#228;yt&#228;nt&#246;&#246;n jotain n&#228;iden API-ehtojen oikeutta tai ehtoa, t&#228;m&#228;n
+ei tule miss&#228;&#228;n tapauksessa tulkita tarkoittavan luopumista kyseisest&#228;
+oikeudesta tai ehdosta.&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-bottom:.05pt;line-height:normal&#39;&gt;&lt;b&gt;&lt;span lang=&quot;FI&quot; style=&#39;font-size:18.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;18&lt;/span&gt;&lt;/b&gt;&lt;b&gt;&lt;span lang=&quot;FI&quot; style=&#39;font-size:18.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;.
+Sovellettava laki; toimivalta.&lt;/span&gt;&lt;/b&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-top:6.0pt;margin-right:0in;margin-bottom:0in;
+margin-left:0in;margin-bottom:.0001pt;line-height:normal&#39;&gt;&lt;span lang=&quot;FI&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;N&#228;iden
+API-ehtojen tulkintaan sovelletaan Yhdysvaltain Washingtonin osavaltion lakeja.
+Jos liittovaltiolla on asiassa toimivaltaa, kumpikin Sopimuksen osapuoli
+suostuu siihen, ett&#228; kaikki t&#228;h&#228;n Sopimukseen liittyv&#228; tuomiovalta on
+Washingtonin King Countyssa sijaitsevalla liittovaltion tuomioistuimella. Jos
+liittovaltiolla ei ole asiassa toimivaltaa, kaikki tuomiovalta on Washingtonin
+King Countyn ylioikeudella. Jos joko Microsoft tai asiakas palkkaa asianajajia
+oikeuksien t&#228;yt&#228;nt&#246;&#246;npanemiseksi n&#228;ihin API-ehtoihin liittyen tai sen vuoksi,
+voittaneella osapuolella on oikeus saada kohtuullisia korvauksia
+asianajopalkkioista, kustannuksista ja muista kuluista, mukaan lukien
+valituksista korkeampaan oikeuteen, konkurssista tai vastaavasta toimesta.&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-bottom:.05pt;line-height:normal&#39;&gt;&lt;b&gt;&lt;span lang=&quot;FI&quot; style=&#39;font-size:18.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;&amp;nbsp;&lt;/span&gt;&lt;/b&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-bottom:.05pt;line-height:normal&#39;&gt;&lt;b&gt;&lt;span lang=&quot;FI&quot; style=&#39;font-size:18.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;19&lt;/span&gt;&lt;/b&gt;&lt;b&gt;&lt;span lang=&quot;FI&quot; style=&#39;font-size:18.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;.
+Koko Sopimus.&lt;/span&gt;&lt;/b&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-top:6.0pt;margin-right:0in;margin-bottom:0in;
+margin-left:0in;margin-bottom:.0001pt;line-height:normal&#39;&gt;&lt;span lang=&quot;FI&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;N&#228;m&#228;
+API-ehdot sis&#228;lt&#228;&#228; kaiken sen, mit&#228; asiakkaan ja Microsoftin v&#228;lill&#228; on
+sovittu.&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;line-height:normal&#39;&gt;&lt;span lang=&quot;FI&quot; style=&#39;font-size:
+12.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-bottom:.05pt;line-height:normal&#39;&gt;&lt;span lang=&quot;FI&quot; style=&#39;font-size:18.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-bottom:.05pt;line-height:normal&#39;&gt;&lt;span lang=&quot;FI&quot; style=&#39;font-size:18.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-bottom:.05pt;line-height:normal&#39;&gt;&lt;span lang=&quot;FI&quot; style=&#39;font-size:18.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-bottom:.05pt;line-height:normal&#39;&gt;&lt;span lang=&quot;FI&quot; style=&#39;font-size:18.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-bottom:.05pt;line-height:normal&#39;&gt;&lt;span lang=&quot;FI&quot; style=&#39;font-size:18.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-bottom:.05pt;line-height:normal&#39;&gt;&lt;span lang=&quot;FI&quot; style=&#39;font-size:18.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-bottom:.05pt;line-height:normal&#39;&gt;&lt;span lang=&quot;FI&quot; style=&#39;font-size:18.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-bottom:.05pt;line-height:normal&#39;&gt;&lt;span lang=&quot;FI&quot; style=&#39;font-size:18.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; align=&quot;center&quot; style=&#39;margin-bottom:.05pt;text-align:center;
+line-height:normal&#39;&gt;&lt;span lang=&quot;FI&quot; style=&#39;font-size:18.0pt;font-family:&quot;Times New Roman&quot;,serif;
+color:#4B5C66&#39;&gt;Liite A&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; align=&quot;center&quot; style=&#39;margin-bottom:.05pt;text-align:center;
+line-height:normal&#39;&gt;&lt;span lang=&quot;FI&quot; style=&#39;font-size:18.0pt;font-family:&quot;Times New Roman&quot;,serif;
+color:#4B5C66&#39;&gt;Tietoturvavaatimukset ja dokumentaatio&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-bottom:.05pt;line-height:normal&#39;&gt;&lt;b&gt;&lt;span lang=&quot;FI&quot; style=&#39;font-size:18.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;&amp;nbsp;&lt;/span&gt;&lt;/b&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-bottom:.05pt;line-height:normal&#39;&gt;&lt;b&gt;&lt;span lang=&quot;FI&quot; style=&#39;font-size:18.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;Tietoturvavaatimukset:&lt;/span&gt;&lt;/b&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-left:.25in;text-indent:-.25in;line-height:
+normal&#39;&gt;&lt;span lang=&quot;FI&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;
+color:#4B5C66&#39;&gt;1.&lt;span style=&#39;font:7.0pt &quot;Times New Roman&quot;&#39;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+&lt;/span&gt;&lt;/span&gt;&lt;span lang=&quot;FI&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;
+color:#4B5C66&#39;&gt;Kumppani toimittaa Microsoftille kaiken asianmukaisen
+tietoturvadokumentaation (mukaan lukien rajoituksetta tietosuojak&#228;yt&#228;nn&#246;n,
+tapauksiin vastaamisk&#228;yt&#228;nn&#246;n, riskiarvioinnin, tietojen luokituksen, koodin ja
+binaarikoodin staattisen ja dynaamisen analyysiresurssin, kyn&#228;testitulokset,
+k&#228;ytetyt kolmannen osapuolen komponentit ja niin edelleen).&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-left:.25in;text-indent:-.25in;line-height:
+normal&#39;&gt;&lt;span lang=&quot;FI&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;
+color:#4B5C66&#39;&gt;2.&lt;span style=&#39;font:7.0pt &quot;Times New Roman&quot;&#39;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+&lt;/span&gt;&lt;/span&gt;&lt;span lang=&quot;FI&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;
+color:#4B5C66&#39;&gt;Asiakas toimittaa yksityiskohtaisen dokumentaation siit&#228;, kuinka
+Kumppani k&#228;ytt&#228;&#228; Power BI -asiakastietoja (k&#228;ytt&#246;tarkoitus, mitk&#228; Power BI
+-tiedot k&#228;ytet&#228;&#228;n, siirto, s&#228;ilytys ja niin edelleen), ja asettaa sen
+k&#228;ytt&#228;jien saataville.&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-left:.25in;text-indent:-.25in;line-height:
+normal&#39;&gt;&lt;span lang=&quot;FI&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;
+color:#4B5C66&#39;&gt;3.&lt;span style=&#39;font:7.0pt &quot;Times New Roman&quot;&#39;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+&lt;/span&gt;&lt;/span&gt;&lt;span lang=&quot;FI&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;
+color:#4B5C66&#39;&gt;Asiakas vakuuttaa, ett&#228; tunnistetut Power BI -asiakkaisiin
+mahdollisesti vaikuttavat viat korjataan nopeasti.&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-left:.25in;text-indent:-.25in;line-height:
+normal&#39;&gt;&lt;span lang=&quot;FI&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;
+color:#4B5C66&#39;&gt;4.&lt;span style=&#39;font:7.0pt &quot;Times New Roman&quot;&#39;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+&lt;/span&gt;&lt;/span&gt;&lt;span lang=&quot;FI&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;
+color:#4B5C66&#39;&gt;Asiakas vakuuttaa, ett&#228; Microsoftilla on lupa testata kolmannen
+osapuolen tarjousten tietoturva Microsoftin ja asiakkaan koordinoimin keinoin.&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-left:.25in;text-indent:-.25in;line-height:
+normal&#39;&gt;&lt;span lang=&quot;FI&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;
+color:#4B5C66&#39;&gt;5.&lt;span style=&#39;font:7.0pt &quot;Times New Roman&quot;&#39;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+&lt;/span&gt;&lt;/span&gt;&lt;span lang=&quot;FI&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;
+color:#4B5C66&#39;&gt;Asiakas s&#228;ilytt&#228;&#228; vain tiedot, joita tarvitaan ilmoitetun
+tarkoituksen suorittamiseen, ja poistaa tarpeettomat ja ylim&#228;&#228;r&#228;iset tiedot.&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-left:.25in;text-indent:-.25in;line-height:
+normal&#39;&gt;&lt;span lang=&quot;FI&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;
+color:#4B5C66&#39;&gt;6.&lt;span style=&#39;font:7.0pt &quot;Times New Roman&quot;&#39;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+&lt;/span&gt;&lt;/span&gt;&lt;span lang=&quot;FI&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;
+color:#4B5C66&#39;&gt;Kaikki Microsoftin tiedot poistetaan asiakkaan j&#228;rjestelmist&#228;,
+kun asiakkaan suhde Microsoftin kanssa p&#228;&#228;ttyy.&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;line-height:normal&#39;&gt;&lt;span lang=&quot;FI&quot; style=&#39;font-size:
+12.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-bottom:.05pt;line-height:normal&#39;&gt;&lt;b&gt;&lt;span lang=&quot;FI&quot; style=&#39;font-size:18.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;Tietoturvadokumentaatio
+&lt;/span&gt;&lt;/b&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;line-height:normal&#39;&gt;&lt;span lang=&quot;FI&quot; style=&#39;font-size:
+12.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;Jos Microsoftin
+asiakastietojen s&#228;ilytyst&#228; pidet&#228;&#228;n vaadittavana integraatiota varten, seuraava
+tietoturvadokumentaatio on toimitettava pyydett&#228;ess&#228;:&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-left:.25in;text-indent:-.25in;line-height:
+normal&#39;&gt;&lt;span lang=&quot;FI&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;
+color:#4B5C66&#39;&gt;1.&lt;span style=&#39;font:7.0pt &quot;Times New Roman&quot;&#39;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+&lt;/span&gt;&lt;/span&gt;&lt;span lang=&quot;FI&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;
+color:#4B5C66&#39;&gt;J&#228;rjestelm&#228;arkkitehtuurin kuvaus (mukaan lukien sijainti,
+kriittisten j&#228;rjestelm&#228;komponenttien k&#228;ytt&#246;tarkoitus, korostaen j&#228;rjestelm&#228;t,
+jotka k&#228;ytt&#228;v&#228;t Power BI -asiakastietoja, miten Microsoft-tiedot tallennetaan,
+l&#228;hetet&#228;&#228;n ja niin edelleen).&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-left:.25in;text-indent:-.25in;line-height:
+normal&#39;&gt;&lt;span lang=&quot;FI&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;
+color:#4B5C66&#39;&gt;2.&lt;span style=&#39;font:7.0pt &quot;Times New Roman&quot;&#39;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+&lt;/span&gt;&lt;/span&gt;&lt;span lang=&quot;FI&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;
+color:#4B5C66&#39;&gt;Tietoturvasertifikaatit tai -raportit (SSAE16, SOC2, ISO27001 ja
+niin edelleen).&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-left:.25in;text-indent:-.25in;line-height:
+normal&#39;&gt;&lt;span lang=&quot;EN&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;
+color:#4B5C66&#39;&gt;3.&lt;span style=&#39;font:7.0pt &quot;Times New Roman&quot;&#39;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+&lt;/span&gt;&lt;/span&gt;&lt;span lang=&quot;FI&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;
+color:#4B5C66&#39;&gt;Asianmukaisten j&#228;rjestelmien fyysiset suojatoimet.&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-left:.25in;text-indent:-.25in;line-height:
+normal&#39;&gt;&lt;span lang=&quot;FI&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;
+color:#4B5C66&#39;&gt;4.&lt;span style=&#39;font:7.0pt &quot;Times New Roman&quot;&#39;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+&lt;/span&gt;&lt;/span&gt;&lt;span lang=&quot;FI&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;
+color:#4B5C66&#39;&gt;J&#228;rjestelm&#228;ss&#228; osallisena olevat kolmannet osapuolet. Asiakkaan
+on toimitettava asianmukaiset sopimukset ja tietoturvatiedot.&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-left:.25in;text-indent:-.25in;line-height:
+normal&#39;&gt;&lt;span lang=&quot;EN&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;
+color:#4B5C66&#39;&gt;5.&lt;span style=&#39;font:7.0pt &quot;Times New Roman&quot;&#39;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+&lt;/span&gt;&lt;/span&gt;&lt;span lang=&quot;FI&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;
+color:#4B5C66&#39;&gt;Asiakkaan k&#228;ytt&#246;oikeuksien hallintamalli.&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-left:.25in;text-indent:-.25in;line-height:
+normal&#39;&gt;&lt;span lang=&quot;EN&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;
+color:#4B5C66&#39;&gt;6.&lt;span style=&#39;font:7.0pt &quot;Times New Roman&quot;&#39;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+&lt;/span&gt;&lt;/span&gt;&lt;span lang=&quot;FI&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;
+color:#4B5C66&#39;&gt;K&#228;yt&#246;ss&#228; olevat tietoturvaj&#228;rjestelm&#228;t (IDS, HIDS,
+tietoturvaongelmien tarkastus).&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-left:.25in;text-indent:-.25in;line-height:
+normal&#39;&gt;&lt;span lang=&quot;EN&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;
+color:#4B5C66&#39;&gt;7.&lt;span style=&#39;font:7.0pt &quot;Times New Roman&quot;&#39;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+&lt;/span&gt;&lt;/span&gt;&lt;span lang=&quot;FI&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;
+color:#4B5C66&#39;&gt;Tietoturvasta vastuussa olevat roolit (ty&#246;ryhm&#228; ja hallinta).&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-left:.25in;text-indent:-.25in;line-height:
+normal&#39;&gt;&lt;span lang=&quot;EN&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;
+color:#4B5C66&#39;&gt;8.&lt;span style=&#39;font:7.0pt &quot;Times New Roman&quot;&#39;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+&lt;/span&gt;&lt;/span&gt;&lt;span lang=&quot;FI&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;
+color:#4B5C66&#39;&gt;Kuinka suuremman k&#228;ytt&#246;oikeuden j&#228;rjestelm&#228;tilin
+k&#228;ytt&#228;j&#228;tunnuksia suojataan.&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-left:.25in;text-indent:-.25in;line-height:
+normal&#39;&gt;&lt;span lang=&quot;EN&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;
+color:#4B5C66&#39;&gt;9.&lt;span style=&#39;font:7.0pt &quot;Times New Roman&quot;&#39;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+&lt;/span&gt;&lt;/span&gt;&lt;span lang=&quot;FI&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;
+color:#4B5C66&#39;&gt;Kuinka j&#228;rjestelmien k&#228;ytt&#246;oikeus varataan, varaus poistetaan,
+valvotaan.&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-left:.25in;text-indent:-.25in;line-height:
+normal&#39;&gt;&lt;span lang=&quot;EN&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;
+color:#4B5C66&#39;&gt;10.&lt;span style=&#39;font:7.0pt &quot;Times New Roman&quot;&#39;&gt;&amp;nbsp; &lt;/span&gt;&lt;/span&gt;&lt;span lang=&quot;FI&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;Mille
+ty&#246;ntekij&#228;rooleille my&#246;nnet&#228;&#228;n asiaankuuluvien j&#228;rjestelmien k&#228;ytt&#246;oikeus.&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-left:.25in;text-indent:-.25in;line-height:
+normal&#39;&gt;&lt;span lang=&quot;IT&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;
+color:#4B5C66&#39;&gt;11.&lt;span style=&#39;font:7.0pt &quot;Times New Roman&quot;&#39;&gt;&amp;nbsp; &lt;/span&gt;&lt;/span&gt;&lt;span lang=&quot;FI&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;K&#228;yt&#246;ss&#228;
+oleva auditointi, valvonta ja kirjaaminen.&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-left:.25in;text-indent:-.25in;line-height:
+normal&#39;&gt;&lt;span lang=&quot;IT&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;
+color:#4B5C66&#39;&gt;12.&lt;span style=&#39;font:7.0pt &quot;Times New Roman&quot;&#39;&gt;&amp;nbsp; &lt;/span&gt;&lt;/span&gt;&lt;span lang=&quot;FI&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;Sovelluksen
+tietosuojaprosessi (suojatun kehityksen parhaat k&#228;yt&#228;nn&#246;t, tietoturvatestaus ja
+niin edelleen).&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-left:.25in;text-indent:-.25in;line-height:
+normal&#39;&gt;&lt;span lang=&quot;ES-AR&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;
+color:#4B5C66&#39;&gt;13.&lt;span style=&#39;font:7.0pt &quot;Times New Roman&quot;&#39;&gt;&amp;nbsp; &lt;/span&gt;&lt;/span&gt;&lt;span lang=&quot;FI&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;Tapahtumiin
+vastaamisen ja vikatilanteesta palautumisen menetelm&#228;t.&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-left:.25in;text-indent:-.25in;line-height:
+normal&#39;&gt;&lt;span lang=&quot;EN&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;
+color:#4B5C66&#39;&gt;14.&lt;span style=&#39;font:7.0pt &quot;Times New Roman&quot;&#39;&gt;&amp;nbsp; &lt;/span&gt;&lt;/span&gt;&lt;span lang=&quot;FI&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;Tietoturvap&#228;ivitysten
+vastaamisprosessi.&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-left:.25in;text-indent:-.25in;line-height:
+normal&#39;&gt;&lt;span lang=&quot;EN&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;
+color:#4B5C66&#39;&gt;15.&lt;span style=&#39;font:7.0pt &quot;Times New Roman&quot;&#39;&gt;&amp;nbsp; &lt;/span&gt;&lt;/span&gt;&lt;span lang=&quot;FI&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;Prosessi,
+miten kolmannen osapuolen tietoturvap&#228;ivitykset otetaan k&#228;ytt&#246;&#246;n k&#228;yt&#246;ss&#228;
+olevissa kolmannen osapuolen komponenteissa.&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-left:.25in;text-indent:-.25in;line-height:
+normal&#39;&gt;&lt;span lang=&quot;EN&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;
+color:#4B5C66&#39;&gt;16.&lt;span style=&#39;font:7.0pt &quot;Times New Roman&quot;&#39;&gt;&amp;nbsp; &lt;/span&gt;&lt;/span&gt;&lt;span lang=&quot;FI&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;Miten
+Power BI -asiakastietoja suojataan sovelluksen k&#228;yt&#246;n aikana tallennustilassa
+ja siirrett&#228;ess&#228;.&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;line-height:normal&#39;&gt;&lt;span lang=&quot;FI&quot; style=&#39;font-size:
+12.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot;&gt;&lt;span lang=&quot;EN&quot; style=&#39;font-size:12.0pt;line-height:107%;
+font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;</value>
+  </data>
+  <data name="Heading" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="META_DESCRIPTION" xml:space="preserve">
+    <value />
+  </data>
+  <data name="META_KEYWORDS" xml:space="preserve">
+    <value />
+  </data>
+  <data name="META_PAGETITLE" xml:space="preserve">
+    <value>Power BI API Terms of Service | Microsoft Power BI</value>
+  </data>
+</root>

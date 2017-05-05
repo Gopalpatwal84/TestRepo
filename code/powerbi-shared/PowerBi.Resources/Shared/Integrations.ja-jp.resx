@@ -1,0 +1,1416 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" id="root">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="access_Content" xml:space="preserve">
+    <value>データを一元化し、作成したクエリで簡素化し、高度に視覚化されたレポートで共有します。</value>
+  </data>
+  <data name="access_Heading" xml:space="preserve">
+    <value>Access データの分析と視覚化</value>
+  </data>
+  <data name="access_InfoContent" xml:space="preserve">
+    <value>&lt;h3&gt;データの一元化&lt;/h3&gt;
+&lt;p&gt;複数のソースからの大量のデータを Power BI Desktop にインポートします。取り込む前にデータを編集し、取り込んだデータを変換、整形します。&lt;/p&gt;
+&lt;h3&gt;最新の方法でデータを調査しましょう&lt;/h3&gt;
+&lt;p&gt;カスタマイズ可能なさまざまなレポートで、視覚的にデータを調査します。表示するフィールドをドラッグ アンド ドロップしてデータを視覚化します。さまざまなチャートやグラフから選択して、データにストーリーを持たせます。&lt;/p&gt;
+&lt;h3&gt;データを思い通りに活用しましょう&lt;/h3&gt;
+&lt;p&gt;レポートを作成したら、他のファイルと同じようにファイルを共有できます。データを Power BI サービスに公開することで、同僚もデータと対話できるようになります。&lt;/p&gt;</value>
+  </data>
+  <data name="access_InfoHeading" xml:space="preserve">
+    <value>Power BI に接続することにより、すべてのデータを 1 か所にまとめ、これまでにない速さでより良い決定を行えるようになります</value>
+  </data>
+  <data name="access_Name" xml:space="preserve">
+    <value>Access</value>
+  </data>
+  <data name="active_directory_Content" xml:space="preserve">
+    <value>データを一元化し、作成したクエリで簡素化し、高度に視覚化されたレポートで共有します。 </value>
+  </data>
+  <data name="active_directory_Heading" xml:space="preserve">
+    <value>Active Directory データの分析と視覚化</value>
+  </data>
+  <data name="active_directory_InfoContent" xml:space="preserve">
+    <value>&lt;h3&gt;データの一元化&lt;/h3&gt;
+&lt;p&gt;複数のソースからの大量のデータを Power BI Desktop にインポートします。取り込む前にデータを編集し、取り込んだデータを変換、整形します。&lt;/p&gt;
+&lt;h3&gt;最新の方法でデータを調査しましょう&lt;/h3&gt;
+&lt;p&gt;カスタマイズ可能なさまざまなレポートで、視覚的にデータを調査します。表示するフィールドをドラッグ アンド ドロップしてデータを視覚化します。さまざまなチャートやグラフから選択して、データにストーリーを持たせます。&lt;/p&gt;
+&lt;h3&gt;データを思い通りに活用しましょう&lt;/h3&gt;
+&lt;p&gt;レポートを作成したら、他のファイルと同じようにファイルを共有できます。データを Power BI サービスに公開することで、同僚もデータと対話できるようになります。&lt;/p&gt;</value>
+  </data>
+  <data name="active_directory_InfoHeading" xml:space="preserve">
+    <value>Power BI に接続することにより、すべてのデータを 1 か所にまとめ、これまでにない速さでより良い決定を行えるようになります</value>
+  </data>
+  <data name="active_directory_Name" xml:space="preserve">
+    <value>Active Directory</value>
+  </data>
+  <data name="acumatica_Content" xml:space="preserve">
+    <value>営業案件のパイプラインを追跡し、進行状況を監視し、Power BI の Acumatica コンテンツ パックでプロジェクトの動きをリアルタイムで確認できます。</value>
+  </data>
+  <data name="acumatica_Heading" xml:space="preserve">
+    <value>Acumatica データからリアルな洞察を得る</value>
+  </data>
+  <data name="acumatica_InfoContent" xml:space="preserve">
+    <value>&lt;h3&gt;取得した答えを活用する&lt;/h3&gt;
+&lt;p&gt;時期ごと、金額ごと、地域ごと、またはこれらを組み合わせた要素ごとの E コマースの案件について質問すると、対話型の素晴らしいビジュアル表示で回答が返ってくるのを想像してみてください。Power BI では、自然言語で質問すると、意味のある高度な形式で Acumatica から回答が返ります。&lt;/p&gt;
+&lt;h3&gt;データを思い通りに活用しましょう&lt;/h3&gt;
+&lt;p&gt;即座に ROI を表示できるようになります。これは、Power BI と Acumatica により、大口の営業案件を見つけて、すぐに実施できるようにすることが可能なためです。&lt;/p&gt;
+&lt;h3&gt;最新の方法でデータを調査しましょう&lt;/h3&gt;
+&lt;p&gt;汎用的なデータも役立ちますが、具体的なデータはさらに役立ちます。Power BI の自由形式のドラッグ アンド ドロップ キャンバスでデータを調査し、自分にとって重要な要素を見つけて強調表示することができます。その後、さまざまな最新のビジュアル化の中から選択してレポートを作成できます。&lt;/p&gt;</value>
+  </data>
+  <data name="acumatica_InfoHeading" xml:space="preserve">
+    <value>Power BI 経由で接続して、Acumatica データからリアルタイムにインサイトを取得できます。</value>
+  </data>
+  <data name="acumatica_Name" xml:space="preserve">
+    <value>Acumatica</value>
+  </data>
+  <data name="adobe_analytics_Content" xml:space="preserve">
+    <value>訪問者数を追跡し、サイトに費やした時間を監視し、ページ ビューに関する詳細にドリルダウンします。</value>
+  </data>
+  <data name="adobe_analytics_Heading" xml:space="preserve">
+    <value>Adobe Analytics データの視覚化と探索</value>
+  </data>
+  <data name="adobe_analytics_InfoContent" xml:space="preserve">
+    <value>&lt;h3&gt;重要なメトリックを調査する&lt;/h3&gt;
+&lt;p&gt;ダッシュボードの各ビジュアル化により、レポートに関する重要なメトリックが表示されます。ビジュアル化をクリックして、基になるデータにアクセスします。データをドリルダウンして、新しい洞察を得ます。&lt;/p&gt;
+&lt;h3&gt;ダッシュボードとレポートのカスタマイズ&lt;/h3&gt;
+&lt;p&gt;編集モードに切り替えて、レポートを表示しながら、監視するフィールドを選択します。レポートからビジュアル化をダッシュボードにピン留めすることもできます。&lt;/p&gt;
+&lt;h3&gt;スケジュールを最新の情報に更新&lt;/h3&gt;
+&lt;p&gt;Power BI に接続して、すぐに使用可能なダッシュボードを表示します。最初のインポートの後、ダッシュボードとレポートは毎日更新されます。必要なときにレポートを取得するように、更新スケジュールを制御できます。&lt;/p&gt;</value>
+  </data>
+  <data name="adobe_analytics_InfoHeading" xml:space="preserve">
+    <value>Power BI では単一のダッシュボードでデータ メトリックを視覚化できるため、より良い決定を行えます。</value>
+  </data>
+  <data name="adobe_analytics_Name" xml:space="preserve">
+    <value>Adobe Analytics</value>
+  </data>
+  <data name="analysis_server_Content" xml:space="preserve">
+    <value>大量のデータと対話したり、動的なレポートやマッシュアップを作成したり、データのビジュアル化から洞察を得ることができます。</value>
+  </data>
+  <data name="analysis_server_Heading" xml:space="preserve">
+    <value>SQL Server Analysis Services データの分析と視覚化</value>
+  </data>
+  <data name="analysis_server_InfoContent" xml:space="preserve">
+    <value>&lt;h3&gt;データの照会と視覚化&lt;/h3&gt;
+&lt;p&gt;データベースに Power BI で接続して、既にあるデータやメトリックで動的マッシュアップを作成します。&lt;/p&gt;
+&lt;h3&gt;最新の方法でデータを調査しましょう&lt;/h3&gt;
+&lt;p&gt;リレーショナル データと非リレーショナル データを組み合わせてより完全なビューを得る場合でも、動的レポートを作成して新しい見識を得る場合でも、Power BI では新しい方法でデータを探索できます。&lt;/p&gt;
+&lt;h3&gt;データを思い通りに活用しましょう&lt;/h3&gt;
+&lt;p&gt;データを 1 つの場所に集め、ビジネスの 360 度ビューを素早く取得します。データと対話して回答を得て、データにストーリーを持たせる高度に視覚化されたレポートを作成します。&lt;/p&gt;</value>
+  </data>
+  <data name="analysis_server_InfoHeading" xml:space="preserve">
+    <value>Power BI に接続することにより、すべてのデータを 1 か所にまとめ、これまでにない速さでより良い決定をします</value>
+  </data>
+  <data name="analysis_server_Name" xml:space="preserve">
+    <value>SQL Server Analysis Services</value>
+  </data>
+  <data name="appfigures_Content" xml:space="preserve">
+    <value>重要な統計を追跡して、アプリがどのように使用されているかを監視します。これは、Power BI と appFigures コンテンツ パックを使って簡単に行えます。</value>
+  </data>
+  <data name="appfigures_Heading" xml:space="preserve">
+    <value>appFigures データの探索と分析</value>
+  </data>
+  <data name="appfigures_InfoContent" xml:space="preserve">
+    <value>&lt;h3&gt;アプリ使用状況についての質問に対する明瞭な回答を得る&lt;/h3&gt;
+&lt;p&gt;一定の期間に発生したダウンロード回数など、データについて質問をしたり、地域ごと、またはその他のパラメーター別のクリック アクティビティを表示したりすることもできます。&lt;/p&gt;
+&lt;h3&gt;新しい方法でデータを調査しましょう&lt;/h3&gt;
+&lt;p&gt;Power BI タイルを選択したり、基になるレポートをドリルダウンして、データを探索できます。項目にポインターを合わせると詳細が表示されます。アプリの販売数、ダウンロード数、および広告統計情報を簡単に分析できます。&lt;/p&gt;
+&lt;h3&gt;アプリ データを思い通りに活用しましょう&lt;/h3&gt;
+&lt;p&gt;Power BI を使用して、appFigures データの取得、最新のビジュアル化によるデータセットの探索、わかりやすいレポートの生成を行い、洞察をさらに深めます。結果をダッシュボードにピン留めすることもできます。&lt;/p&gt;</value>
+  </data>
+  <data name="appfigures_InfoHeading" xml:space="preserve">
+    <value>Power BI アカウント経由で appFigures に接続して、アプリの使用状況データを素早く解読し、それに応じて行動できます。</value>
+  </data>
+  <data name="appfigures_Name" xml:space="preserve">
+    <value>appFigures</value>
+  </data>
+  <data name="azure_audit_logs_Content" xml:space="preserve">
+    <value>Azure の監査ログの情報を分析、視覚化して、新しい洞察を得ることができます。</value>
+  </data>
+  <data name="azure_audit_logs_Heading" xml:space="preserve">
+    <value>Power BI による Azure の監査ログの視覚化</value>
+  </data>
+  <data name="azure_audit_logs_InfoContent" xml:space="preserve">
+    <value>&lt;h3&gt;すべてのデータを 1 か所に表示&lt;/h3&gt;
+&lt;p&gt;Power BI に接続して、カスタマイズ可能なダッシュボードを表示します。ダッシュボードのタイルに、特定の運用またはイベントに関する洞察が示されます。&lt;/p&gt;
+&lt;h3&gt;ドリルダウンして新しい洞察を得る&lt;/h3&gt;
+&lt;p&gt;ダッシュボードのビジュアルをクリックすると、詳細なレポートが表示されます。レポートをフィルターするか、監視するフィールドを追加します。このビューをダッシュボードにピン留めします。&lt;/p&gt;
+&lt;h3&gt;リアル タイム データを思い通りに活用&lt;/h3&gt;
+&lt;p&gt;データをいったん Power BI に接続すれば、ダッシュボードと基になるレポートが毎日更新されます。更新頻度を変えるには データセットの更新スケジュールを管理できます。&lt;/p&gt;</value>
+  </data>
+  <data name="azure_audit_logs_InfoHeading" xml:space="preserve">
+    <value>Power BI を使用すると、Azure の監査ログのデータを視覚化して、新しい見識を得ることで、より良い決定を行えるようになります。</value>
+  </data>
+  <data name="azure_audit_logs_Name" xml:space="preserve">
+    <value>Azure の監査ログ</value>
+  </data>
+  <data name="azure_blob_storage_Content" xml:space="preserve">
+    <value>Power BI は、ほぼあらゆるデータベースの大量のデータをすばやく対話型のレポートとダッシュボードに変換し、高度に視覚化された共有しやすいものにします。</value>
+  </data>
+  <data name="azure_blob_storage_Heading" xml:space="preserve">
+    <value>ビッグ データを理解する</value>
+  </data>
+  <data name="azure_blob_storage_InfoContent" xml:space="preserve">
+    <value>&lt;h3&gt;データの照会と視覚化&lt;/h3&gt;
+&lt;p&gt;データベースに Power BI で接続して、既にあるデータやメトリックで動的マッシュアップを作成します。&lt;/p&gt;
+&lt;h3&gt;最新の方法でデータを調査しましょう&lt;/h3&gt;
+&lt;p&gt;リレーショナル データと非リレーショナル データを組み合わせてより完全なビューを得る場合でも、動的レポートを作成して新しい見識を得る場合でも、Power BI では新しい方法でデータを探索できます。&lt;/p&gt;
+&lt;h3&gt;データを思い通りに活用しましょう&lt;/h3&gt;
+&lt;p&gt;データを 1 つの場所に集め、ビジネスの 360 度ビューを素早く取得します。データと対話して回答を得て、データにストーリーを持たせる高度に視覚化されたレポートを作成します。&lt;/p&gt;</value>
+  </data>
+  <data name="azure_blob_storage_InfoHeading" xml:space="preserve">
+    <value>Power BI に接続することにより、すべてのデータを 1 か所にまとめ、これまでにない速さでより良い決定をします</value>
+  </data>
+  <data name="azure_blob_storage_Name" xml:space="preserve">
+    <value>Azure BLOB ストレージ</value>
+  </data>
+  <data name="azure_documentdb_Content" xml:space="preserve">
+    <value>Power BI は、ほぼあらゆるデータベースの大量のデータをすばやく対話型のレポートとダッシュボードに変換し、高度に視覚化された共有しやすいものにします。</value>
+  </data>
+  <data name="azure_documentdb_Heading" xml:space="preserve">
+    <value>ビッグ データを理解する</value>
+  </data>
+  <data name="azure_documentdb_InfoContent" xml:space="preserve">
+    <value>&lt;h3&gt;データの照会と視覚化&lt;/h3&gt;
+&lt;p&gt;データベースに Power BI で接続して、既にあるデータやメトリックで動的マッシュアップを作成します。&lt;/p&gt;
+&lt;h3&gt;最新の方法でデータを調査しましょう&lt;/h3&gt;
+&lt;p&gt;リレーショナル データと非リレーショナル データを組み合わせてより完全なビューを得る場合でも、動的レポートを作成して新しい見識を得る場合でも、Power BI では新しい方法でデータを探索できます。&lt;/p&gt;
+&lt;h3&gt;データを思い通りに活用しましょう&lt;/h3&gt;
+&lt;p&gt;データを 1 つの場所に集め、ビジネスの 360 度ビューを素早く取得します。データと対話して回答を得て、データにストーリーを持たせる高度に視覚化されたレポートを作成します。&lt;/p&gt;</value>
+  </data>
+  <data name="azure_documentdb_InfoHeading" xml:space="preserve">
+    <value>Power BI に接続することにより、すべてのデータを 1 か所にまとめ、これまでにない速さでより良い決定をします</value>
+  </data>
+  <data name="azure_documentdb_Name" xml:space="preserve">
+    <value>Azure DocumentDB (ベータ)</value>
+  </data>
+  <data name="azure_marketplace_Content" xml:space="preserve">
+    <value>売上、ダウンロード、インストールのインスタント レポートと動的なダッシュボードで Marketplace の売上を監視し、増加させます。</value>
+  </data>
+  <data name="azure_marketplace_Heading" xml:space="preserve">
+    <value>Azure Marketplace の売上分析を管理する</value>
+  </data>
+  <data name="azure_marketplace_InfoContent" xml:space="preserve">
+    <value>&lt;h3&gt;データと対話する&lt;/h3&gt;
+&lt;p&gt;接続したら、7 つのさまざまなビジュアル化やタイルで構成された、すぐに使用可能なダッシュボードにデータが表示されます。任意のタイルをクリックして、基になるレポートを探索します。データをフィルター処理するか、表示するフィールドを編集して、重要なメトリックを確認します。&lt;/p&gt;
+&lt;h3&gt;質問すると答えが返ってくる&lt;/h3&gt;
+&lt;p&gt;「日別の合計料金」と質問すると、対話型の素晴らしいビジュアル表示で回答が返ります。Power BI では、自然言語で質問を入力すると、適切なチャートやグラフが回答として返ってきます。&lt;/p&gt;
+&lt;h3&gt;スケジュールを最新の情報に更新&lt;/h3&gt;
+&lt;p&gt;ダッシュボードと基になるレポートは毎日更新されます。更新スケジュールを制御し、データセットでの頻度を変更することもできます。&lt;/p&gt;</value>
+  </data>
+  <data name="azure_marketplace_InfoHeading" xml:space="preserve">
+    <value>Power BI に接続することにより、すべてのデータを 1 か所にまとめ、これまでにない速さでより良い決定をします</value>
+  </data>
+  <data name="azure_marketplace_Name" xml:space="preserve">
+    <value>Azure Marketplace</value>
+  </data>
+  <data name="azure_mobile_engagement_Content" xml:space="preserve">
+    <value>新規またはアクティブなユーザーを追跡したり、クラッシュやエラーの回数を監視できます。ダッシュボードを重要なメトリックを追跡するようにカスタマイズします。</value>
+  </data>
+  <data name="azure_mobile_engagement_Heading" xml:space="preserve">
+    <value>Power BI での Azure Mobile Engagement データの監視</value>
+  </data>
+  <data name="azure_mobile_engagement_InfoContent" xml:space="preserve">
+    <value>&lt;h3&gt;グローバル ビューを取得する&lt;/h3&gt;
+&lt;p&gt;Power BI に接続すると、重要なメトリックを示す、すぐに使用可能なダッシュボードにデータが表示されます。ユーザー、セッションの長さ、デバイス数などに関するメトリックを表示します。任意のタイルをクリックして、基になるレポートにアクセスします。&lt;/p&gt;
+&lt;h3&gt;最新の方法でデータを調査しましょう&lt;/h3&gt;
+&lt;p&gt;ダッシュボードのタイルをクリックすると、より多くのデータにアクセスしてフィルターや編集を実行できます。重要なデータを追跡するようにレポートをカスタマイズします。お気に入りのレポートをダッシュボードにピン留めします。&lt;/p&gt;
+&lt;h3&gt;スケジュールを最新の情報に更新&lt;/h3&gt;
+&lt;p&gt;データをいったん Power BI に接続すれば、ダッシュボードと基になるレポートが毎日更新されます。更新頻度を変えるには データセットの更新スケジュールを管理できます。&lt;/p&gt;</value>
+  </data>
+  <data name="azure_mobile_engagement_InfoHeading" xml:space="preserve">
+    <value>Azure Mobile Engagement アカウントを Power BI に接続することで、1 か所でデータを視覚化できるため、より良い決定をより速く行えるようになります。</value>
+  </data>
+  <data name="azure_mobile_engagement_Name" xml:space="preserve">
+    <value>Azure Mobile Engagement</value>
+  </data>
+  <data name="azure_sql_database_Content" xml:space="preserve">
+    <value>大量のデータと対話したり、動的なレポートやマッシュアップを作成したり、データのビジュアル化から洞察を得ることができます。</value>
+  </data>
+  <data name="azure_sql_database_Heading" xml:space="preserve">
+    <value>Azure SQL Database データの分析と視覚化</value>
+  </data>
+  <data name="azure_sql_database_InfoContent" xml:space="preserve">
+    <value>&lt;h3&gt;データの照会と視覚化&lt;/h3&gt;
+&lt;p&gt;データベースに Power BI で接続して、既にあるデータやメトリックで動的マッシュアップを作成します。&lt;/p&gt;
+&lt;h3&gt;最新の方法でデータを調査しましょう&lt;/h3&gt;
+&lt;p&gt;リレーショナル データと非リレーショナル データを組み合わせてより完全なビューを得る場合でも、動的レポートを作成して新しい見識を得る場合でも、Power BI では新しい方法でデータを探索できます。&lt;/p&gt;
+&lt;h3&gt;データを思い通りに活用しましょう&lt;/h3&gt;
+&lt;p&gt;データを 1 つの場所に集め、ビジネスの 360 度ビューを素早く取得します。データと対話して回答を得て、データにストーリーを持たせる高度に視覚化されたレポートを作成します。&lt;/p&gt;</value>
+  </data>
+  <data name="azure_sql_database_InfoHeading" xml:space="preserve">
+    <value>Power BI に接続することにより、すべてのデータを 1 か所にまとめ、これまでにない速さでより良い決定をします</value>
+  </data>
+  <data name="azure_sql_database_Name" xml:space="preserve">
+    <value>Azure SQL Database</value>
+  </data>
+  <data name="azure_sql_data_warehouse_Content" xml:space="preserve">
+    <value>大量のデータと対話したり、動的なレポートやマッシュアップを作成したり、データのビジュアル化から洞察を得ることができます。</value>
+  </data>
+  <data name="azure_sql_data_warehouse_Heading" xml:space="preserve">
+    <value>Azure SQL Data Warehouse データの分析と視覚化</value>
+  </data>
+  <data name="azure_sql_data_warehouse_InfoContent" xml:space="preserve">
+    <value>&lt;h3&gt;データの照会と視覚化&lt;/h3&gt;
+&lt;p&gt;データベースに Power BI で接続して、既にあるデータやメトリックで動的マッシュアップを作成します。&lt;/p&gt;
+&lt;h3&gt;最新の方法でデータを調査しましょう&lt;/h3&gt;
+&lt;p&gt;リレーショナル データと非リレーショナル データを組み合わせてより完全なビューを得る場合でも、動的レポートを作成して新しい見識を得る場合でも、Power BI では新しい方法でデータを探索できます。&lt;/p&gt;
+&lt;h3&gt;データを思い通りに活用しましょう&lt;/h3&gt;
+&lt;p&gt;データを 1 つの場所に集め、ビジネスの 360 度ビューを素早く取得します。データと対話して回答を得て、データにストーリーを持たせる高度に視覚化されたレポートを作成します。&lt;/p&gt;</value>
+  </data>
+  <data name="azure_sql_data_warehouse_InfoHeading" xml:space="preserve">
+    <value>Power BI に接続することにより、すべてのデータを 1 か所にまとめ、これまでにない速さでより良い決定をします</value>
+  </data>
+  <data name="azure_sql_data_warehouse_Name" xml:space="preserve">
+    <value>Azure SQL Data Warehouse</value>
+  </data>
+  <data name="azure_table_storage_Content" xml:space="preserve">
+    <value>Power BI は、ほぼあらゆるデータベースの大量のデータをすばやく対話型のレポートとダッシュボードに変換し、高度に視覚化された共有しやすいものにします。</value>
+  </data>
+  <data name="azure_table_storage_Heading" xml:space="preserve">
+    <value>ビッグ データを理解する</value>
+  </data>
+  <data name="azure_table_storage_InfoContent" xml:space="preserve">
+    <value>&lt;h3&gt;データの照会と視覚化&lt;/h3&gt;
+&lt;p&gt;データベースに Power BI で接続して、既にあるデータやメトリックで動的マッシュアップを作成します。&lt;/p&gt;
+&lt;h3&gt;最新の方法でデータを調査しましょう&lt;/h3&gt;
+&lt;p&gt;リレーショナル データと非リレーショナル データを組み合わせてより完全なビューを得る場合でも、動的レポートを作成して新しい見識を得る場合でも、Power BI では新しい方法でデータを探索できます。&lt;/p&gt;
+&lt;h3&gt;データを思い通りに活用しましょう&lt;/h3&gt;
+&lt;p&gt;データを 1 つの場所に集め、ビジネスの 360 度ビューを素早く取得します。データと対話して回答を得て、データにストーリーを持たせる高度に視覚化されたレポートを作成します。&lt;/p&gt;</value>
+  </data>
+  <data name="azure_table_storage_InfoHeading" xml:space="preserve">
+    <value>Power BI に接続することにより、すべてのデータを 1 か所にまとめ、これまでにない速さでより良い決定をします</value>
+  </data>
+  <data name="azure_table_storage_Name" xml:space="preserve">
+    <value>Azure テーブル ストレージ</value>
+  </data>
+  <data name="circuit_id_Content" xml:space="preserve">
+    <value>1 日の時間ごとの通話数、通話の種類、通話時間などのメトリックを含む、通話やメッセージを追跡します。</value>
+  </data>
+  <data name="circuit_id_Heading" xml:space="preserve">
+    <value>サーキット ID データの追跡と監視</value>
+  </data>
+  <data name="circuit_id_InfoContent" xml:space="preserve">
+    <value>&lt;h3&gt;すべてのデータを 1 か所に表示&lt;/h3&gt;
+&lt;p&gt;Power BI に接続し、精選されたダッシュボードやレポートを表示して、データから洞察をダイレクトに引き出します。タイルをクリックして、データをドリルダウンして詳細を探ることができます。&lt;/p&gt;
+&lt;h3&gt;質問すると答えが返ってくる&lt;/h3&gt;
+&lt;p&gt;「日別の通話数を教えてください」などのリクエストをすると、見事に視覚化された対話式の回答が得られることを想像してみてください。Power BI では、自然言語で質問を入力すると、適切なチャートやグラフが回答として返ってきます。&lt;/p&gt;
+&lt;h3&gt;ダッシュボードとレポートのカスタマイズ&lt;/h3&gt;
+&lt;p&gt;編集モードに切り替えて、レポートを表示しながら、監視するフィールドを選択します。レポートからビジュアル化をダッシュボードにピン留めすることもできます。&lt;/p&gt;</value>
+  </data>
+  <data name="circuit_id_InfoHeading" xml:space="preserve">
+    <value>サーキット ID を Power BI に接続すると、すべてのデータを 1 つの場所で視覚化して新しい洞察を得られるため、ビジネス上のより適切な意思決定を行えます。</value>
+  </data>
+  <data name="circuit_id_Name" xml:space="preserve">
+    <value>サーキット ID</value>
+  </data>
+  <data name="comscore_Content" xml:space="preserve">
+    <value>顧客がさまざまなメディアをどのように使用しているか確認します。実施可能な洞察を見つけ、顧客をより適切にサポートします。</value>
+  </data>
+  <data name="comscore_Heading" xml:space="preserve">
+    <value>Web 分析データを視覚化して洞察を得る</value>
+  </data>
+  <data name="comscore_InfoContent" xml:space="preserve">
+    <value>&lt;h3&gt;単一のダッシュボードであらゆるデータを視覚化する&lt;/h3&gt;
+&lt;p&gt;Power BI で comScore Digital Analytics アカウントに接続したら、すぐに使用可能なダッシュボードのタイルに、精選されたメトリック (ページ ビュー、訪問者数、Web 分析など) が視覚化されます。&lt;/p&gt;
+&lt;h3&gt;ドリルダウンして新しい洞察を得る&lt;/h3&gt;
+&lt;p&gt;ダッシュボードのビジュアルをクリックすると、詳細なレポートが表示されます。レポートをフィルターするか、監視するフィールドを追加します。このビューをダッシュボードにピン留めします。&lt;/p&gt;
+&lt;h3&gt;スケジュールを最新の情報に更新&lt;/h3&gt;
+&lt;p&gt;ダッシュボードと基になるレポートは毎日更新されます。データを更新する頻度を制御できます。&lt;/p&gt;</value>
+  </data>
+  <data name="comscore_InfoHeading" xml:space="preserve">
+    <value>Power BI で comScore Digital Analytix データに接続することで重要なあらゆるデータをビジュアル化できるため、ビジネス上のより適切な意思決定を行えるようになります。</value>
+  </data>
+  <data name="comscore_Name" xml:space="preserve">
+    <value>comScore</value>
+  </data>
+  <data name="csv_Content" xml:space="preserve">
+    <value>視覚化されたレポート、分析、ダッシュボードを CSV ファイルからすばやく作成し、そのすべてを対話性の高い、共有しやすいものにします。</value>
+  </data>
+  <data name="csv_Heading" xml:space="preserve">
+    <value>CSV ファイル データのダッシュボードとレポートを改善</value>
+  </data>
+  <data name="csv_InfoContent" xml:space="preserve">
+    <value>&lt;h3&gt;分析と最適化&lt;/h3&gt;
+&lt;p&gt;簡単に消費できる方法で、すぐに使用可能なアナリティクス レポート、ダッシュボード、KPI を使用して適切なデータを取得します。フィルターや詳細レポートを使ってドリルダウンし、より実施可能な洞察を取得できます。&lt;/p&gt;
+&lt;h3&gt;質問すると、答えが返ってきます。&lt;/h3&gt;
+&lt;p&gt;"11 月のユーザー数は?" など、自然言語で Power BI に質問します。 最新のチャートにより表示された結果をダッシュボードにピン留めして継続的に監視できます。&lt;/p&gt;
+&lt;h3&gt;適切なユーザーに適切な情報を提供&lt;/h3&gt;
+&lt;p&gt;カスタム レポートから重要な視覚化をオンライン ダッシュボードにピン留めして、組織全体に役立つ監視とレポート用のリソースをすばやく作成します。&lt;/p&gt;</value>
+  </data>
+  <data name="csv_InfoHeading" xml:space="preserve">
+    <value>Power BI に接続することにより、すべてのデータを 1 か所にまとめ、これまでにない速さでより良い決定をします</value>
+  </data>
+  <data name="csv_Name" xml:space="preserve">
+    <value>CSV</value>
+  </data>
+  <data name="excel_Content" xml:space="preserve">
+    <value>データを一元化し、作成したクエリで簡素化し、高度に視覚化されたレポートで共有します。</value>
+  </data>
+  <data name="excel_Heading" xml:space="preserve">
+    <value>Excel データの分析と視覚化</value>
+  </data>
+  <data name="excel_InfoContent" xml:space="preserve">
+    <value>&lt;h3&gt;データの一元化&lt;/h3&gt;
+&lt;p&gt;複数のソースからの大量のデータを Power BI Desktop にインポートします。取り込む前にデータを編集し、取り込んだデータを変換、整形します。&lt;/p&gt;
+&lt;h3&gt;最新の方法でデータを調査しましょう&lt;/h3&gt;
+&lt;p&gt;カスタマイズ可能なさまざまなレポートで、視覚的にデータを調査します。表示するフィールドをドラッグ アンド ドロップしてデータを視覚化します。さまざまなチャートやグラフから選択して、データにストーリーを持たせます。&lt;/p&gt;
+&lt;h3&gt;データを思い通りに活用しましょう&lt;/h3&gt;
+&lt;p&gt;レポートを作成したら、他のファイルと同じようにファイルを共有できます。データを Power BI サービスに公開することで、同僚もデータと対話できるようになります。&lt;/p&gt;</value>
+  </data>
+  <data name="excel_InfoHeading" xml:space="preserve">
+    <value>Power BI に接続することにより、すべてのデータを 1 か所にまとめ、これまでにない速さでより良い決定を行えるようになります</value>
+  </data>
+  <data name="excel_Name" xml:space="preserve">
+    <value>Excel</value>
+  </data>
+  <data name="exchange_Content" xml:space="preserve">
+    <value>データを一元化し、作成したクエリで簡素化し、高度に視覚化されたレポートで共有します。</value>
+  </data>
+  <data name="exchange_Heading" xml:space="preserve">
+    <value>Exchange データの分析と視覚化</value>
+  </data>
+  <data name="exchange_InfoContent" xml:space="preserve">
+    <value>&lt;h3&gt;データの一元化&lt;/h3&gt;
+&lt;p&gt;複数のソースからの大量のデータを Power BI Desktop にインポートします。取り込む前にデータを編集し、取り込んだデータを変換、整形します。&lt;/p&gt;
+&lt;h3&gt;最新の方法でデータを調査しましょう&lt;/h3&gt;
+&lt;p&gt;カスタマイズ可能なさまざまなレポートで、視覚的にデータを調査します。表示するフィールドをドラッグ アンド ドロップしてデータを視覚化します。さまざまなチャートやグラフから選択して、データにストーリーを持たせます。&lt;/p&gt;
+&lt;h3&gt;データを思い通りに活用しましょう&lt;/h3&gt;
+&lt;p&gt;レポートを作成したら、他のファイルと同じようにファイルを共有できます。データを Power BI サービスに公開することで、同僚もデータと対話できるようになります。&lt;/p&gt;</value>
+  </data>
+  <data name="exchange_InfoHeading" xml:space="preserve">
+    <value>Microsoft Exchange を Power BI に接続することにより、データを視覚化し、洞察を得て、より良い決定をより速く行えるようになります。</value>
+  </data>
+  <data name="exchange_Name" xml:space="preserve">
+    <value>Exchange</value>
+  </data>
+  <data name="facebook_Content" xml:space="preserve">
+    <value>ファンの数、投稿エンゲージメント率、閲覧者の統計など、Facebook データからの重要な洞察をすべて 1 つのダッシュボードで得られます。</value>
+  </data>
+  <data name="facebook_Heading" xml:space="preserve">
+    <value>Facebook のダッシュボードと分析を改善</value>
+  </data>
+  <data name="facebook_InfoContent" xml:space="preserve">
+    <value>&lt;h3&gt;データをより簡単に探索、分析&lt;/h3&gt;
+&lt;p&gt;Power BI は Facebook アカウントからデータを取得してダッシュボードとデータセットを生成し、最新の視覚化でデータを調査できるようにします。レポートの作成と共有は簡単です。&lt;/p&gt;
+&lt;h3&gt;傾向をすばやく特定&lt;/h3&gt;
+&lt;p&gt;Power BI で Facebook ページ分析を使用して、傾向を見極めます。最も積極的に関与しているファン、最も多く共有されている投稿、時間の経過に伴う傾向の変化などがわかります。&lt;/p&gt;
+&lt;h3&gt;コーディングは不要&lt;/h3&gt;
+&lt;p&gt;Power BI で Facebook ページ データを分析するのに、コーディングに関する知識は不要です。また、自動データ更新によって情報に基づく決定をいつでも下すことができます。&lt;/p&gt;</value>
+  </data>
+  <data name="facebook_InfoHeading" xml:space="preserve">
+    <value>Power BI に接続することにより、すべてのデータを 1 か所にまとめ、これまでにない速さでより良い決定をします</value>
+  </data>
+  <data name="facebook_Name" xml:space="preserve">
+    <value>Facebook</value>
+  </data>
+  <data name="folder_Content" xml:space="preserve">
+    <value>視覚化されたレポート、分析、ダッシュボードをフォルダー ファイル データからすばやく作成し、そのすべてを対話性の高い、共有しやすいものにします。</value>
+  </data>
+  <data name="folder_Heading" xml:space="preserve">
+    <value>フォルダー ファイル データのダッシュボードとレポートを改善</value>
+  </data>
+  <data name="folder_InfoContent" xml:space="preserve">
+    <value>&lt;h3&gt;分析と最適化&lt;/h3&gt;
+&lt;p&gt;簡単に消費できる方法で、すぐに使用可能なアナリティクス レポート、ダッシュボード、KPI を使用して適切なデータを取得します。フィルターや詳細レポートを使ってドリルダウンし、より実施可能な洞察を取得できます。&lt;/p&gt;
+&lt;h3&gt;質問すると、答えが返ってきます。&lt;/h3&gt;
+&lt;p&gt;"11 月のユーザー数は?" など、自然言語で Power BI に質問します。 最新のチャートにより表示された結果をダッシュボードにピン留めして継続的に監視できます。&lt;/p&gt;
+&lt;h3&gt;適切なユーザーに適切な情報を提供&lt;/h3&gt;
+&lt;p&gt;カスタム レポートから重要な視覚化をオンライン ダッシュボードにピン留めして、組織全体に役立つ監視とレポート用のリソースをすばやく作成します。&lt;/p&gt;</value>
+  </data>
+  <data name="folder_InfoHeading" xml:space="preserve">
+    <value>Power BI に接続することにより、すべてのデータを 1 か所にまとめ、これまでにない速さでより良い決定をします</value>
+  </data>
+  <data name="folder_Name" xml:space="preserve">
+    <value>フォルダー</value>
+  </data>
+  <data name="github_Content" xml:space="preserve">
+    <value>GitHub リポジトリに関する情報を入手します。これには、投稿、問題、プル要求、アクティブなユーザーなどに関するデータが含まれます。</value>
+  </data>
+  <data name="github_Title" xml:space="preserve">
+    <value>GitHub プロジェクト管理</value>
+  </data>
+  <data name="github_InfoContent" xml:space="preserve">
+    <value>&lt;h3&gt;使用状況に関する質問の回答を得る&lt;/h3&gt;
+&lt;p&gt;Power BI でさまざまなタイプのリポジトリ アクティビティを可視化して、新しい洞察を得ます。コミットの回数、最大の貢献者、どの時間帯かなどに関する質問と回答を取得できます。&lt;/p&gt;
+&lt;h3&gt;GitHub ダッシュボードを使用して、新しい方法でデータを探索しましょう&lt;/h3&gt;
+&lt;p&gt;Power BI と GitHub のダッシュボードを活用して、データの最新のビジュアル化やレポートを作成できます。提供される GitHub ツールをそのまま使用するか、最も関心のある情報を強調表示するようにレポートをカスタマイズします。&lt;/p&gt;
+&lt;h3&gt;GitHub レポートでリポジトリ データを思い通りに活用しましょう&lt;/h3&gt;
+&lt;p&gt;リポジトリ データのビジュアル化を使用して、使用状況の傾向を追跡し、新しい洞察を得て、プロジェクトの効率を向上させます。読みやすい GitHub レポートで、発見をチームや関係者と共有できます。&lt;/p&gt;</value>
+  </data>
+  <data name="github_InfoHeading" xml:space="preserve">
+    <value>Power BI で GitHub ツールを使用して、リポジトリを取り込んで、使用状況やパフォーマンスに関するデータを 1 か所にまとめる</value>
+  </data>
+  <data name="github_Name" xml:space="preserve">
+    <value>Github</value>
+  </data>
+  <data name="google_analytics_Content" xml:space="preserve">
+    <value>Google アナリティクス データの威力を拡大しましょう。比較可能なデータ ソースとアグリゲーターからデータをインポートして比較します。より広範な関連付けを使用して、より説得力のあるビジュアル レポートを開発します。</value>
+  </data>
+  <data name="google_analytics_Heading" xml:space="preserve">
+    <value>Microsoft Power BI で Google アナリティクスのダッシュボードを視覚化し、強化します。</value>
+  </data>
+  <data name="google_analytics_InfoContent" xml:space="preserve">
+    <value>&lt;h3&gt;データに関する質問に対するさらに詳しい回答を得る&lt;/h3&gt;
+&lt;p&gt;Power BI で Web データを増幅させることにより、見つかっていない関係やパターンを明らかにし、まったく新しい営業案件を発見できます。データにさまざまな質問をして、新規顧客を惹き込む革新的なマーケティング アイデアや方法を見つけます。&lt;/p&gt;
+&lt;h3&gt;新しい方法でデータを調査しましょう&lt;/h3&gt;
+&lt;p&gt;GA データを、マーケットプレースに影響を及ぼす外部データの傾向に関連付けます。マーケティング データを会社の他の部署のデータに関連付けたり、外部ソースからデータをインポートして、業界の傾向に照らして Web パフォーマンスを評価したりすることができます。&lt;/p&gt;
+&lt;h3&gt;ビジネス上の洞察を拡大する&lt;/h3&gt;
+&lt;p&gt;サイト訪問者の行動の追跡は、ビジネスやブランドのパフォーマンスの分析の初めのほんの一歩です。Power BI を Google アナリティクス データで機能させることで、ビジネス上の洞察をより高いレベルに引き上げることができます。&lt;/p&gt;</value>
+  </data>
+  <data name="google_analytics_InfoHeading" xml:space="preserve">
+    <value>Power BI と Google アナリティクスを掛け合わせて Web データのカスタム レポートを実現</value>
+  </data>
+  <data name="google_analytics_Name" xml:space="preserve">
+    <value>Google アナリティクス</value>
+  </data>
+  <data name="hdfs_Content" xml:space="preserve">
+    <value>データを一元化し、作成したクエリで簡素化し、高度に視覚化されたレポートで共有します。</value>
+  </data>
+  <data name="hdfs_Heading" xml:space="preserve">
+    <value>HDFS データの分析と視覚化</value>
+  </data>
+  <data name="hdfs_InfoContent" xml:space="preserve">
+    <value>&lt;h3&gt;データの一元化&lt;/h3&gt;
+&lt;p&gt;複数のソースからの大量のデータを Power BI Desktop にインポートします。取り込む前にデータを編集し、取り込んだデータを変換、整形します。&lt;/p&gt;
+&lt;h3&gt;最新の方法でデータを調査しましょう&lt;/h3&gt;
+&lt;p&gt;カスタマイズ可能なさまざまなレポートで、視覚的にデータを調査します。表示するフィールドをドラッグ アンド ドロップしてデータを視覚化します。さまざまなチャートやグラフから選択して、データにストーリーを持たせます。&lt;/p&gt;
+&lt;h3&gt;データを思い通りに活用しましょう&lt;/h3&gt;
+&lt;p&gt;レポートを作成したら、他のファイルと同じようにファイルを共有できます。データを Power BI サービスに公開することで、同僚もデータと対話できるようになります。&lt;/p&gt;</value>
+  </data>
+  <data name="hdfs_InfoHeading" xml:space="preserve">
+    <value>Power BI に接続することにより、すべてのデータを 1 か所にまとめ、これまでにない速さでより良い決定を行えるようになります</value>
+  </data>
+  <data name="hdfs_Name" xml:space="preserve">
+    <value>HDFS</value>
+  </data>
+  <data name="hdinsight_Content" xml:space="preserve">
+    <value>データを一元化し、作成したクエリで簡素化し、高度に視覚化されたレポートで共有します。 </value>
+  </data>
+  <data name="hdinsight_Heading" xml:space="preserve">
+    <value>HDInsight データの分析と視覚化</value>
+  </data>
+  <data name="hdinsight_InfoContent" xml:space="preserve">
+    <value>&lt;h3&gt;データの一元化&lt;/h3&gt;
+&lt;p&gt;複数のソースからの大量のデータを Power BI Desktop にインポートします。取り込む前にデータを編集し、取り込んだデータを変換、整形します。&lt;/p&gt;
+&lt;h3&gt;最新の方法でデータを調査しましょう&lt;/h3&gt;
+&lt;p&gt;カスタマイズ可能なさまざまなレポートで、視覚的にデータを調査します。表示するフィールドをドラッグ アンド ドロップしてデータを視覚化します。さまざまなチャートやグラフから選択して、データにストーリーを持たせます。&lt;/p&gt;
+&lt;h3&gt;データを思い通りに活用しましょう&lt;/h3&gt;
+&lt;p&gt;レポートを作成したら、他のファイルと同じようにファイルを共有できます。データを Power BI サービスに公開することで、同僚もデータと対話できるようになります。&lt;/p&gt;</value>
+  </data>
+  <data name="hdinsight_InfoHeading" xml:space="preserve">
+    <value>Power BI に接続することにより、すべてのデータを 1 か所にまとめ、これまでにない速さでより良い決定を行えるようになります</value>
+  </data>
+  <data name="hdinsight_Name" xml:space="preserve">
+    <value>HDInsight</value>
+  </data>
+  <data name="ibmdb2_Content" xml:space="preserve">
+    <value>データを一元化し、作成したクエリで簡素化し、高度に視覚化されたレポートで共有します。</value>
+  </data>
+  <data name="ibmdb2_Heading" xml:space="preserve">
+    <value>IBM DB2 データの分析と視覚化</value>
+  </data>
+  <data name="ibmdb2_InfoContent" xml:space="preserve">
+    <value>&lt;h3&gt;データの一元化&lt;/h3&gt;
+&lt;p&gt;複数のソースからの大量のデータを Power BI Desktop にインポートします。取り込む前にデータを編集し、取り込んだデータを変換、整形します。&lt;/p&gt;
+&lt;h3&gt;最新の方法でデータを調査しましょう&lt;/h3&gt;
+&lt;p&gt;カスタマイズ可能なさまざまなレポートで、視覚的にデータを調査します。表示するフィールドをドラッグ アンド ドロップしてデータを視覚化します。さまざまなチャートやグラフから選択して、データにストーリーを持たせます。&lt;/p&gt;
+&lt;h3&gt;データを思い通りに活用しましょう&lt;/h3&gt;
+&lt;p&gt;レポートを作成したら、他のファイルと同じようにファイルを共有できます。データを Power BI サービスに公開することで、同僚もデータと対話できるようになります。&lt;/p&gt;</value>
+  </data>
+  <data name="ibmdb2_InfoHeading" xml:space="preserve">
+    <value>Power BI に接続することにより、すべてのデータを 1 か所にまとめ、これまでにない速さでより良い決定を行えるようになります</value>
+  </data>
+  <data name="ibmdb2_Name" xml:space="preserve">
+    <value>IBM DB2</value>
+  </data>
+  <data name="mailchimp_Content" xml:space="preserve">
+    <value>Power BI と MailChimp 統合を使用して、キャンペーン、レポート、および個々のサブスクライバー間でのトレンドを素早く見極めます。進行状況を追跡し、最新のビジュアル化でカスタマイズされた MailChimp レポートを作成できます。</value>
+  </data>
+  <data name="mailchimp_Title" xml:space="preserve">
+    <value>MailChimp 統合</value>
+  </data>
+  <data name="mailchimp_InfoContent" xml:space="preserve">
+    <value>&lt;h3&gt;MailChimp データ レポートをより簡単に探索して分析する&lt;/h3&gt;
+&lt;p&gt;Power BI は MailChimp アカウントからデータを取得し、ダッシュボードやデータセットを生成します。ここでは、最新のビジュアル化によりデータを調査できるのに加え、レポートを簡単に共有できます。&lt;/p&gt;
+&lt;h3&gt;MailChimp ダッシュボードを使用して傾向を迅速に見極める&lt;/h3&gt;
+&lt;p&gt;Power BI で MailChimp アナリティクスを使用して、レポートを作成し、傾向を見定めます。最も積極的に関与しているサブスクライバー、キャンペーンを最も多く開催している場所、時間の経過に伴う傾向の変化などがわかります。&lt;/p&gt;
+&lt;h3&gt;MailChimp 統合にはコーディングは必要ありません&lt;/h3&gt;
+&lt;p&gt;Power BI と MailChimp 統合では、レポートの詳細情報を掘り下げるのに、コーディングに関する知識は要りません。また、自動データ更新によって十分な情報を得たうえで決定を下すことができます。&lt;/p&gt;</value>
+  </data>
+  <data name="mailchimp_InfoHeading" xml:space="preserve">
+    <value>MailChimp と Power BI を接続して、ダッシュボードを作成して、データを簡単に視覚化、監視する</value>
+  </data>
+  <data name="mailchimp_Name" xml:space="preserve">
+    <value>MailChimp</value>
+  </data>
+  <data name="mandrill_Content" xml:space="preserve">
+    <value>開封率、クリック数、月ごとの送信回数を監視します。キャンペーンの成長を視覚化し、新たな収益機会を見つけます。</value>
+  </data>
+  <data name="mandrill_Heading" xml:space="preserve">
+    <value>マーケティング キャンペーンに関する洞察を得る</value>
+  </data>
+  <data name="mandrill_InfoContent" xml:space="preserve">
+    <value>&lt;h3&gt;すべてのデータを 1 か所に表示&lt;/h3&gt;
+&lt;p&gt;Power BI に接続し、精選されたダッシュボードやレポートを表示して、データから直接洞察をに引き出します。タイルをクリックして、データをドリルダウンして詳細を探ることができます。&lt;/p&gt;
+&lt;h3&gt;最新の方法でデータを調査しましょう&lt;/h3&gt;
+&lt;p&gt;ダッシュボード上の各タイルにより、視覚化を含むさまざまなレポート ページに移動できます。項目にポインターを合わせて詳細を表示したり、特定の値を選択して、ページ上の他のビジュアルをクロス フィルターします。カスタマイズ レポートをダッシュボードにピン留めします。&lt;/p&gt;
+&lt;h3&gt;スケジュールを最新の情報に更新&lt;/h3&gt;
+&lt;p&gt;ダッシュボードと基になるレポートは 1 日に 1 度更新されます。更新スケジュールを制御し、データセットでの頻度を変更することもできます。&lt;/p&gt;</value>
+  </data>
+  <data name="mandrill_InfoHeading" xml:space="preserve">
+    <value>Mandrill データを Power BI に接続することにより、MailChimp キャンペーンに関する高度に視覚化された情報を取得して、実行可能な洞察を得ることができます。</value>
+  </data>
+  <data name="mandrill_Name" xml:space="preserve">
+    <value>Mandrill</value>
+  </data>
+  <data name="marketo_Content" xml:space="preserve">
+    <value>Marketo レポートを使用して、データをまとめて、1 か所で監視します。オンプレミスまたはクラウドのデータのグラフィカル レポートを表示します。事前ビルドされている Power BI と Marketo のダッシュボードとレポートを使えば、わずか数分でデータをつなぎ、表示させることができます。</value>
+  </data>
+  <data name="marketo_Title" xml:space="preserve">
+    <value>Marketo 統合</value>
+  </data>
+  <data name="marketo_InfoContent" xml:space="preserve">
+    <value>&lt;h3&gt;Marketo レポートで質問すると答えが返ってくる&lt;/h3&gt;
+&lt;p&gt;Marketo アナリティクスに「都市ごとの潜在顧客数はどのくらいですか」など質問してみてください。 Power BI により、データをわかりやすくするマップやグラフを含む視覚的な結果が返されます。&lt;/p&gt;
+&lt;h3&gt;Marketo ダッシュボードを使用して、新しい方法でデータを表示しましょう&lt;/h3&gt;
+&lt;p&gt;Power BI の既定のレポートで提供される洞察を利用して、潜在顧客の創出を分析できます。このレポートと Marketo ダッシュボードは、独自のニーズに合わせてカスタマイズできます。&lt;/p&gt;
+&lt;h3&gt;Marketo 統合でデータを思い通りに活用しましょう&lt;/h3&gt;
+&lt;p&gt;マーケティング プログラムの効果を知る必要がありますか。 Power BI と Marketo レポートを使用すると、さまざまなメトリックを使って上位のプログラムを表示できるため、営業案件を最適化できます。&lt;/p&gt;</value>
+  </data>
+  <data name="marketo_InfoHeading" xml:space="preserve">
+    <value>Power BI と Marketo 統合で情報をつなぎ、貴重な洞察を得て、より良い決定をより速く行う</value>
+  </data>
+  <data name="marketo_Name" xml:space="preserve">
+    <value>Marketo</value>
+  </data>
+  <data name="microsoft_dynamicscrm_Content" xml:space="preserve">
+    <value>販売パイプラインに関する洞察を取得し、最も見込みのある潜在顧客を発見し、上位の営業案件を明らかにできます。</value>
+  </data>
+  <data name="microsoft_dynamicscrm_Heading" xml:space="preserve">
+    <value>Microsoft Dynamics CRM データの視覚化と分析</value>
+  </data>
+  <data name="microsoft_dynamicscrm_InfoContent" xml:space="preserve">
+    <value>&lt;h3&gt;営業案件の視覚化&lt;/h3&gt;
+&lt;p&gt;Power BI を使用することで、単一のダッシュボードで営業案件を識別します。パイプラインを分析し、さまざまなメトリックを使用して売上を表示して、実施可能な洞察を取得します。&lt;/p&gt;
+&lt;h3&gt;顧客に関する洞察を得る&lt;/h3&gt;
+&lt;p&gt;すぐに使用可能なブックにより、顧客の契約など、主要な指標で視覚化を実現できます。種類、優先度、地理的な場所別のケース分析を把握します。案件数、解決率、優先度レベルなどに基づいてサービスのパフォーマンスを分析します。&lt;/p&gt;
+&lt;h3&gt;データの詳細を考察する&lt;/h3&gt;
+&lt;p&gt;最上位レベルの各チャートをドリルダウンして、取引先企業、潜在顧客、収益、サービスなどの指標の詳細を理解します。必要な情報を取得するようにこれらのレポートをカスタマイズします。&lt;/p&gt;</value>
+  </data>
+  <data name="microsoft_dynamicscrm_InfoHeading" xml:space="preserve">
+    <value>Power BI を使用することにより、Microsoft Dynamics CRM データからリアルタイムにインサイトを取得できます。</value>
+  </data>
+  <data name="microsoft_dynamicscrm_Name" xml:space="preserve">
+    <value>Microsoft Dynamics CRM</value>
+  </data>
+  <data name="microsoft_dynamics_marketing_Content" xml:space="preserve">
+    <value>ビジュアル ツールを使用して潜在顧客の創出に関するデータを分析します。単一のダッシュボードに簡単に使用できるアナリティクス レポートを表示して、十分な情報を得たうえで決定を行うことができます。</value>
+  </data>
+  <data name="microsoft_dynamics_marketing_Heading" xml:space="preserve">
+    <value>Microsoft Dynamics Marketing データの監視と探索</value>
+  </data>
+  <data name="microsoft_dynamics_marketing_InfoContent" xml:space="preserve">
+    <value>&lt;h3&gt;分析と最適化&lt;/h3&gt;
+&lt;p&gt;簡単に消費できる方法で、すぐに使用可能なアナリティクス レポート、ダッシュボード、KPI を使用して適切なデータを取得します。フィルターや詳細レポートを使ってドリルダウンし、より実施可能な洞察を取得できます。&lt;/p&gt;
+&lt;h3&gt;質問すると、答えが返ってきます。&lt;/h3&gt;
+&lt;p&gt;Power BI で、「一定期間における潜在顧客とのやり取りの回数、やり取りのタイプを折れ線グラフで示してください」など質問してみてください。 最新のチャートにより表示された結果をダッシュボードにピン留めして継続的に監視できます。&lt;/p&gt;
+&lt;h3&gt;レポートとダッシュボードのカスタマイズ&lt;/h3&gt;
+&lt;p&gt;空のレポートから開始し、総合リストから調査するフィールドをドラッグ アンド ドロップします。カスタム レポートのビジュアル化をダッシュボードにピン留めします。&lt;/p&gt;</value>
+  </data>
+  <data name="microsoft_dynamics_marketing_InfoHeading" xml:space="preserve">
+    <value>Microsoft Dynamics Marketing を Power BI に接続することにより、1 か所で潜在顧客の創出に関するすべてのデータを表示できるため、情報に基づいた決定をより速く下せます。</value>
+  </data>
+  <data name="microsoft_dynamics_marketing_Name" xml:space="preserve">
+    <value>Microsoft Dynamics Marketing</value>
+  </data>
+  <data name="microsoft_dynamics_nav_Content" xml:space="preserve">
+    <value>売上や利益を分析します。営業案件のパイプラインを追跡し、収益性メトリックを監視して新しい洞察を得ます。</value>
+  </data>
+  <data name="microsoft_dynamics_nav_Heading" xml:space="preserve">
+    <value>Microsoft Dynamics NAV データの視覚化と探索</value>
+  </data>
+  <data name="microsoft_dynamics_nav_InfoContent" xml:space="preserve">
+    <value>&lt;h3&gt;グローバル ビューを取得する&lt;/h3&gt;
+&lt;p&gt;Power BI に接続すると、データセットから重要な指標を表示するすぐに使用可能なダッシュボードにデータが表示されます。売上、月次目標、収益と支出の比較などのメトリックを表示できます。&lt;/p&gt;
+&lt;h3&gt;ドリルダウンして新しい洞察を得る&lt;/h3&gt;
+&lt;p&gt;ダッシュボードのビジュアル化をクリックして、7 つの基になるレポートのいずれかを表示します。レポートをフィルターするか、監視するフィールドを追加します。このカスタマイズしたビューをダッシュボードにピン留めして追跡を続行できます。&lt;/p&gt;
+&lt;h3&gt;スケジュールを最新の情報に更新&lt;/h3&gt;
+&lt;p&gt;ダッシュボードと基になるレポートは毎日更新されます。更新スケジュールを制御し、データセットでの頻度を変更することもできます。&lt;/p&gt;</value>
+  </data>
+  <data name="microsoft_dynamics_nav_InfoHeading" xml:space="preserve">
+    <value>Power BI を使用すると、1 か所ですべての Microsoft Dynamics NAV データを視覚化できるため、新しい洞察を見つけてビジネス上のより適切な意思決定を行えます。</value>
+  </data>
+  <data name="microsoft_dynamics_nav_Name" xml:space="preserve">
+    <value>Microsoft Dynamics NAV</value>
+  </data>
+  <data name="mysql_Content" xml:space="preserve">
+    <value>データを一元化し、作成したクエリで簡素化し、高度に視覚化されたレポートで共有します。</value>
+  </data>
+  <data name="mysql_Heading" xml:space="preserve">
+    <value>MySQL データの分析と視覚化</value>
+  </data>
+  <data name="mysql_InfoContent" xml:space="preserve">
+    <value>&lt;h3&gt;データの一元化&lt;/h3&gt;
+&lt;p&gt;複数のソースからの大量のデータを Power BI Desktop にインポートします。取り込む前にデータを編集し、取り込んだデータを変換、整形します。&lt;/p&gt;
+&lt;h3&gt;最新の方法でデータを調査しましょう&lt;/h3&gt;
+&lt;p&gt;カスタマイズ可能なさまざまなレポートで、視覚的にデータを調査します。表示するフィールドをドラッグ アンド ドロップしてデータを視覚化します。さまざまなチャートやグラフから選択して、データにストーリーを持たせます。&lt;/p&gt;
+&lt;h3&gt;データを思い通りに活用しましょう&lt;/h3&gt;
+&lt;p&gt;レポートを作成したら、他のファイルと同じようにファイルを共有できます。データを Power BI サービスに公開することで、同僚もデータと対話できるようになります。&lt;/p&gt;</value>
+  </data>
+  <data name="mysql_InfoHeading" xml:space="preserve">
+    <value>Power BI に接続することにより、すべてのデータを 1 か所にまとめ、これまでにない速さでより良い決定を行えるようになります</value>
+  </data>
+  <data name="mysql_Name" xml:space="preserve">
+    <value>MySQL</value>
+  </data>
+  <data name="odata_Content" xml:space="preserve">
+    <value>データを一元化し、作成したクエリで簡素化し、高度に視覚化されたレポートで共有します。</value>
+  </data>
+  <data name="odata_Heading" xml:space="preserve">
+    <value>Odata データの分析と視覚化</value>
+  </data>
+  <data name="odata_InfoContent" xml:space="preserve">
+    <value>&lt;h3&gt;データの一元化&lt;/h3&gt;
+&lt;p&gt;複数のソースからの大量のデータを Power BI Desktop にインポートします。取り込む前にデータを編集し、取り込んだデータを変換、整形します。&lt;/p&gt;
+&lt;h3&gt;最新の方法でデータを調査しましょう&lt;/h3&gt;
+&lt;p&gt;カスタマイズ可能なさまざまなレポートで、視覚的にデータを調査します。表示するフィールドをドラッグ アンド ドロップしてデータを視覚化します。さまざまなチャートやグラフから選択して、データにストーリーを持たせます。&lt;/p&gt;
+&lt;h3&gt;データを思い通りに活用しましょう&lt;/h3&gt;
+&lt;p&gt;レポートを作成したら、他のファイルと同じようにファイルを共有できます。データを Power BI サービスに公開することで、同僚もデータと対話できるようになります。&lt;/p&gt;</value>
+  </data>
+  <data name="odata_InfoHeading" xml:space="preserve">
+    <value>Power BI に接続することにより、すべてのデータを 1 か所にまとめ、これまでにない速さでより良い決定を行えるようになります</value>
+  </data>
+  <data name="odata_Name" xml:space="preserve">
+    <value>OData</value>
+  </data>
+  <data name="odbc_Content" xml:space="preserve">
+    <value>視覚化されたレポート、分析、ダッシュボードを ODBC 接続から作成し、そのすべてを対話性の高い、共有しやすいものにします。</value>
+  </data>
+  <data name="odbc_Heading" xml:space="preserve">
+    <value>ODBC 接続データを瞬時に監視する</value>
+  </data>
+  <data name="odbc_InfoContent" xml:space="preserve">
+    <value>&lt;h3&gt;データの照会と視覚化&lt;/h3&gt;
+&lt;p&gt;データベースに Power BI で接続して、既にあるデータやメトリックで動的マッシュアップを作成します。&lt;/p&gt;
+&lt;h3&gt;最新の方法でデータを調査しましょう&lt;/h3&gt;
+&lt;p&gt;リレーショナル データと非リレーショナル データを組み合わせてより完全なビューを得る場合でも、動的レポートを作成して新しい見識を得る場合でも、Power BI では新しい方法でデータを探索できます。&lt;/p&gt;
+&lt;h3&gt;データを思い通りに活用しましょう&lt;/h3&gt;
+&lt;p&gt;データを 1 つの場所に集め、ビジネスの 360 度ビューを素早く取得します。データと対話して回答を得て、データにストーリーを持たせる高度に視覚化されたレポートを作成します。&lt;/p&gt;</value>
+  </data>
+  <data name="odbc_InfoHeading" xml:space="preserve">
+    <value>Power BI に接続することにより、すべてのデータを 1 か所にまとめ、これまでにない速さでより良い決定をします</value>
+  </data>
+  <data name="odbc_Name" xml:space="preserve">
+    <value>ODBC</value>
+  </data>
+  <data name="oracle_Content" xml:space="preserve">
+    <value>データを一元化し、作成したクエリで簡素化し、高度に視覚化されたレポートで共有します。</value>
+  </data>
+  <data name="oracle_Heading" xml:space="preserve">
+    <value>Oracle データの分析と視覚化</value>
+  </data>
+  <data name="oracle_InfoContent" xml:space="preserve">
+    <value>&lt;h3&gt;データの一元化&lt;/h3&gt;
+&lt;p&gt;複数のソースからの大量のデータを Power BI Desktop にインポートします。取り込む前にデータを編集し、取り込んだデータを変換、整形します。&lt;/p&gt;
+&lt;h3&gt;最新の方法でデータを調査しましょう&lt;/h3&gt;
+&lt;p&gt;カスタマイズ可能なさまざまなレポートで、視覚的にデータを調査します。表示するフィールドをドラッグ アンド ドロップしてデータを視覚化します。さまざまなチャートやグラフから選択して、データにストーリーを持たせます。&lt;/p&gt;
+&lt;h3&gt;データを思い通りに活用しましょう&lt;/h3&gt;
+&lt;p&gt;レポートを作成したら、他のファイルと同じようにファイルを共有できます。データを Power BI サービスに公開することで、同僚もデータと対話できるようになります。&lt;/p&gt;</value>
+  </data>
+  <data name="oracle_InfoHeading" xml:space="preserve">
+    <value>Power BI に接続することにより、すべてのデータを 1 か所にまとめ、これまでにない速さでより良い決定を行えるようになります</value>
+  </data>
+  <data name="oracle_Name" xml:space="preserve">
+    <value>Oracle</value>
+  </data>
+  <data name="planview_enterprise_Content" xml:space="preserve">
+    <value>リソースおよび作業管理データを新しい方法で表示します。データを操作して、最新の洞察を取得します。</value>
+  </data>
+  <data name="planview_enterprise_Heading" xml:space="preserve">
+    <value>Planview Enterprise データの視覚化</value>
+  </data>
+  <data name="planview_enterprise_InfoContent" xml:space="preserve">
+    <value>&lt;h3&gt;単一のダッシュボードであらゆるデータを視覚化する&lt;/h3&gt;
+&lt;p&gt;Power BI で Planview Enterprise アカウントに接続したら、すぐに使用可能なダッシュボードのタイルに、精選されたメトリック (ポートフォリオの投資支出、予算状況など) を視覚化します。&lt;/p&gt;
+&lt;h3&gt;最新の方法でデータを調査しましょう&lt;/h3&gt;
+&lt;p&gt;各タイルをドリルダウンして、他のレポートを表示します。プロジェクトが優先順位とどのくらい整合性が取れているかを確認します。標準のレポートを重要なメトリックを追跡するようにカスタマイズします。カスタマイズ レポートをダッシュボードにピン留めします。&lt;/p&gt;
+&lt;h3&gt;スケジュールを最新の情報に更新&lt;/h3&gt;
+&lt;p&gt;ダッシュボードと基になるレポートは毎日更新されます。更新スケジュールを制御し、データセットでの頻度を変更することもできます。&lt;/p&gt;</value>
+  </data>
+  <data name="planview_enterprise_InfoHeading" xml:space="preserve">
+    <value>Planview Enterprise データを Power BI に接続して、1 つの場所で重要なメトリックをすべて取得できます。</value>
+  </data>
+  <data name="planview_enterprise_Name" xml:space="preserve">
+    <value>Planview Enterprise</value>
+  </data>
+  <data name="postgresql_Content" xml:space="preserve">
+    <value>データを一元化し、作成したクエリで簡素化し、高度に視覚化されたレポートで共有します。</value>
+  </data>
+  <data name="postgresql_Heading" xml:space="preserve">
+    <value>PostgreSQL データの分析と視覚化</value>
+  </data>
+  <data name="postgresql_InfoContent" xml:space="preserve">
+    <value>&lt;h3&gt;データの一元化&lt;/h3&gt;
+&lt;p&gt;複数のソースからの大量のデータを Power BI Desktop にインポートします。取り込む前にデータを編集し、取り込んだデータを変換、整形します。&lt;/p&gt;
+&lt;h3&gt;最新の方法でデータを調査しましょう&lt;/h3&gt;
+&lt;p&gt;カスタマイズ可能なさまざまなレポートで、視覚的にデータを調査します。表示するフィールドをドラッグ アンド ドロップしてデータを視覚化します。さまざまなチャートやグラフから選択して、データにストーリーを持たせます。&lt;/p&gt;
+&lt;h3&gt;データを思い通りに活用しましょう&lt;/h3&gt;
+&lt;p&gt;レポートを作成したら、他のファイルと同じようにファイルを共有できます。データを Power BI サービスに公開することで、同僚もデータと対話できるようになります。&lt;/p&gt;</value>
+  </data>
+  <data name="postgresql_InfoHeading" xml:space="preserve">
+    <value>Power BI に接続することにより、すべてのデータを 1 か所にまとめ、これまでにない速さでより良い決定を行えるようになります</value>
+  </data>
+  <data name="postgresql_Name" xml:space="preserve">
+    <value>PostgreSQL</value>
+  </data>
+  <data name="quickbooks_online_Content" xml:space="preserve">
+    <value>キャッシュ フロー、収益性、取引先に関する新しい洞察を見つけます。Quickbooks Online データを共有し、外出先でも最新の収入と支出を監視できます。</value>
+  </data>
+  <data name="quickbooks_online_Heading" xml:space="preserve">
+    <value>Quickbooks Online データの視覚化と監視</value>
+  </data>
+  <data name="quickbooks_online_InfoContent" xml:space="preserve">
+    <value>&lt;h3&gt;常時接続して、データを表示。&lt;/h3&gt;
+&lt;p&gt;Power BI を Quickbooks Online アカウントに接続して組み込みのダッシュボードを表示します。ここでは、手元現金、損益の傾向、純利益、上位の取引先などを表示できます。&lt;/p&gt;
+&lt;h3&gt;会計報告書を操作する&lt;/h3&gt;
+&lt;p&gt;ダッシュボードでチャートまたはグラフを選択します。チャートをスライスして、会計年度別の洞察を取得するか、最も良く売れている製品またはサービスを表示します。&lt;/p&gt;
+&lt;h3&gt;ビューやレポートのカスタマイズ&lt;/h3&gt;
+&lt;p&gt;横棒グラフより縦棒グラフをご希望ですか。 ビジュアル化メニューで希望するグラフの種類を選択します。データを最新の状態に更新する頻度を増やす必要がありますか。 定期的な更新時期をスケジュールできます。&lt;/p&gt;</value>
+  </data>
+  <data name="quickbooks_online_InfoHeading" xml:space="preserve">
+    <value>Quickbooks Online データを Power BI に接続することにより、すべてのデータを 1 か所で取得できるため、実施可能な洞察を取得できます。</value>
+  </data>
+  <data name="quickbooks_online_Name" xml:space="preserve">
+    <value>QuickBooks Online</value>
+  </data>
+  <data name="salesforce_Content" xml:space="preserve">
+    <value>売上、取引先企業、潜在顧客に関する洞察を取得します。営業案件を明らかにし、発見をチームと共有します。</value>
+  </data>
+  <data name="salesforce_Heading" xml:space="preserve">
+    <value>Salesforce データの分析と視覚化</value>
+  </data>
+  <data name="salesforce_InfoContent" xml:space="preserve">
+    <value>&lt;h3&gt;営業案件の視覚化&lt;/h3&gt;
+&lt;p&gt; Power BI を使用することで、単一のダッシュボードで営業案件を識別します。パイプラインを分析し、さまざまなメトリックにわたって売上を表示して、潜在顧客分析で洞察を得ます。&lt;/p&gt;
+&lt;h3&gt;顧客に関する洞察を得る&lt;/h3&gt;
+&lt;p&gt;すぐに使用可能なブックにより、主要な指標に基づいて視覚化します。案件の分析を種類、優先度、地理的な場所別に視覚化します。優先度レベル、解決率ごとにサービスのパフォーマンスを分析します。&lt;/p&gt;
+&lt;h3&gt;データの詳細を考察する&lt;/h3&gt;
+&lt;p&gt;最上位レベルの各チャートを展開して、取引先企業、潜在顧客、収益、サービスに関する詳細を表示します。必要な情報を取得するようにこれらのレポートをカスタマイズします。&lt;/p&gt;</value>
+  </data>
+  <data name="salesforce_InfoHeading" xml:space="preserve">
+    <value>Power BI 経由で接続して、Salesforce データからリアルタイムに洞察を取得できます。</value>
+  </data>
+  <data name="salesforce_Name" xml:space="preserve">
+    <value>Salesforce</value>
+  </data>
+  <data name="sendgrid_Content" xml:space="preserve">
+    <value>電子メール データをインポートします。カスタマイズ可能なダッシュボードにメトリックを表示します。実行可能な洞察を抽出し、新しい営業案件を見つけます。</value>
+  </data>
+  <data name="sendgrid_Heading" xml:space="preserve">
+    <value>SendGrid データの視覚化</value>
+  </data>
+  <data name="sendgrid_InfoContent" xml:space="preserve">
+    <value>&lt;h3&gt;複数のメトリックを簡単に監視&lt;/h3&gt;
+&lt;p&gt;データを Power BI ダッシュボードにインポートし、開封率、クリック数、スパム報告数などの電子メール指標を表示します。期間、地理的な場所、カテゴリ別の全体的な傾向を追跡します。&lt;/p&gt;
+&lt;h3&gt;データの詳細を考察する&lt;/h3&gt;
+&lt;p&gt;最上位レベルのダッシュボードから簡単な概要を取得しつつ、各タイルを詳細に探索してさらに洞察を得ることができます。&lt;/p&gt;
+&lt;h3&gt;カスタム指標の分析&lt;/h3&gt;
+&lt;p&gt;カスタム カテゴリまたはタグを使用した場合、Power BI では電子メール配信の詳細をアクティビティの種類別に極めて簡単に表示できます。&lt;/p&gt;</value>
+  </data>
+  <data name="sendgrid_InfoHeading" xml:space="preserve">
+    <value>SendGrid を Power BI に接続することにより、1 か所ですべてのデータを表示できるため、これまでにない速さで十分な情報に基づいた意思決定をします。</value>
+  </data>
+  <data name="sendgrid_Name" xml:space="preserve">
+    <value>SendGrid</value>
+  </data>
+  <data name="sharepoint_Content" xml:space="preserve">
+    <value>データを一元化し、作成したクエリで簡素化し、高度に視覚化されたレポートで共有します。</value>
+  </data>
+  <data name="sharepoint_Heading" xml:space="preserve">
+    <value>SharePoint データの分析と視覚化</value>
+  </data>
+  <data name="sharepoint_InfoContent" xml:space="preserve">
+    <value>&lt;h3&gt;データの一元化&lt;/h3&gt;
+&lt;p&gt;複数のソースからの大量のデータを Power BI Desktop にインポートします。取り込む前にデータを編集し、取り込んだデータを変換、整形します。&lt;/p&gt;
+&lt;h3&gt;最新の方法でデータを調査しましょう&lt;/h3&gt;
+&lt;p&gt;カスタマイズ可能なさまざまなレポートで、視覚的にデータを調査します。表示するフィールドをドラッグ アンド ドロップしてデータを視覚化します。さまざまなチャートやグラフから選択して、データにストーリーを持たせます。&lt;/p&gt;
+&lt;h3&gt;データを思い通りに活用しましょう&lt;/h3&gt;
+&lt;p&gt;レポートを作成したら、他のファイルと同じようにファイルを共有できます。データを Power BI サービスに公開することで、同僚もデータと対話できるようになります。&lt;/p&gt;</value>
+  </data>
+  <data name="sharepoint_InfoHeading" xml:space="preserve">
+    <value>Power BI に接続することにより、すべてのデータを 1 か所にまとめ、これまでにない速さでより良い決定を行えるようになります</value>
+  </data>
+  <data name="sharepoint_Name" xml:space="preserve">
+    <value>SharePoint</value>
+  </data>
+  <data name="spark_on_azure_Content" xml:space="preserve">
+    <value>大量のデータと対話したり、動的なレポートやマッシュアップを作成したり、データのビジュアル化から洞察を得ることができます。</value>
+  </data>
+  <data name="spark_on_azure_Heading" xml:space="preserve">
+    <value>Azure HDInsight データでの Spark の分析と視覚化</value>
+  </data>
+  <data name="spark_on_azure_InfoContent" xml:space="preserve">
+    <value>&lt;h3&gt;データの照会と視覚化&lt;/h3&gt;
+&lt;p&gt;データベースに Power BI で接続して、既にあるデータやメトリックで動的マッシュアップを作成します。&lt;/p&gt;
+&lt;h3&gt;最新の方法でデータを調査しましょう&lt;/h3&gt;
+&lt;p&gt;リレーショナル データと非リレーショナル データを組み合わせてより完全なビューを得る場合でも、動的レポートを作成して新しい見識を得る場合でも、Power BI では新しい方法でデータを探索できます。&lt;/p&gt;
+&lt;h3&gt;データを思い通りに活用しましょう&lt;/h3&gt;
+&lt;p&gt; データを 1 つの場所に集め、ビジネスの 360 度ビューを素早く取得します。データと対話して回答を得て、データにストーリーを持たせる高度に視覚化されたレポートを作成します。&lt;/p&gt;</value>
+  </data>
+  <data name="spark_on_azure_InfoHeading" xml:space="preserve">
+    <value>Power BI に接続することにより、すべてのデータを 1 か所にまとめ、これまでにない速さでより良い決定をします</value>
+  </data>
+  <data name="spark_on_azure_Name" xml:space="preserve">
+    <value>Azure HDInsight 上の Spark</value>
+  </data>
+  <data name="sql_database_auditing_Content" xml:space="preserve">
+    <value>データベース アクティビティを理解します。異常を調査し、データに関する洞察を取得します。</value>
+  </data>
+  <data name="sql_database_auditing_Heading" xml:space="preserve">
+    <value>SQL Database Auditing データの視覚的な分析</value>
+  </data>
+  <data name="sql_database_auditing_InfoContent" xml:space="preserve">
+    <value>&lt;h3&gt;データを思い通りに活用しましょう&lt;/h3&gt;
+&lt;p&gt;Power BI のすぐに使用可能なダッシュボードを使用して、さまざまなメトリックを通じてリアルタイムの分析を直ちに行えます。不審なアクティビティやイベントを見つけます。&lt;/p&gt;
+&lt;h3&gt;新しい方法でデータを調査しましょう&lt;/h3&gt;
+&lt;p&gt;ダッシュボード上のタイルをクリックして、メトリックについてさらに分析できます。基になるレポートと対話して、さまざまな方法でデータを探索します。&lt;/p&gt;
+&lt;h3&gt;エクスペリエンスのカスタマイズ&lt;/h3&gt;
+&lt;p&gt;監視する指標を追跡するようにレポートをカスタマイズできます。簡単な追跡のため、カスタム ビューをダッシュボードにピン留めします。&lt;/p&gt;</value>
+  </data>
+  <data name="sql_database_auditing_InfoHeading" xml:space="preserve">
+    <value>Power BI を使用すると、SQL Database Auditing データに関するリアル タイムな洞察を得ることができます。</value>
+  </data>
+  <data name="sql_database_auditing_Name" xml:space="preserve">
+    <value>SQL Database Auditing</value>
+  </data>
+  <data name="sql_sentry_Content" xml:space="preserve">
+    <value>SQL Sentry Cloud を使用して、追跡する Monitor the SQL Server デプロイを監視します。組織全体でインサイトを共有します。</value>
+  </data>
+  <data name="sql_sentry_Heading" xml:space="preserve">
+    <value>SQL Sentry データの監視と視覚化</value>
+  </data>
+  <data name="sql_sentry_InfoContent" xml:space="preserve">
+    <value>&lt;h3&gt;包括的なビューを表示する&lt;/h3&gt;
+&lt;p&gt;Power BI に接続すると、すぐに使用可能なダッシュボードに、監視しているサーバーの現在の状態 (サーバーの状態、メモリ使用量、ダウンタイムなど) に関するデータが表示されます。任意のタイルをクリックして、基になるレポートにアクセスします。&lt;/p&gt;
+&lt;h3&gt;ドリルダウンして新しい洞察を得る&lt;/h3&gt;
+&lt;p&gt;ツリーマップを使用して、サーバーが生成したすべてのイベントやさまざまな重大度にわたる分布のビューを素早く表示します。各種のイベントで最も影響を受けたサーバーを表示できます。&lt;/p&gt;
+&lt;h3&gt;質問すると答えが返ってくる&lt;/h3&gt;
+&lt;p&gt;「日別の稼働率を教えてください」と質問すると、対話型の素晴らしいビジュアル表示で回答が返ってきます。Power BI では、自然言語で質問を入力すると、適切なチャートやグラフが回答として返ってきます。&lt;/p&gt;</value>
+  </data>
+  <data name="sql_sentry_InfoHeading" xml:space="preserve">
+    <value>SQL Sentry データを Power BI に接続して、1 つの場所ですべてのデータを表示します。</value>
+  </data>
+  <data name="sql_sentry_Name" xml:space="preserve">
+    <value>SQL Sentry</value>
+  </data>
+  <data name="sql_server_Content" xml:space="preserve">
+    <value>Power BI は、ほぼあらゆるデータベースの大量のデータをすばやく対話型のレポートとダッシュボードに変換し、高度に視覚化された共有しやすいものにします。</value>
+  </data>
+  <data name="sql_server_Heading" xml:space="preserve">
+    <value>ビッグ データを理解する</value>
+  </data>
+  <data name="sql_server_InfoContent" xml:space="preserve">
+    <value>&lt;h3 class="din-bold white"&gt;データの照会と視覚化&lt;/h3&gt;
+&lt;p class="default-text-light white"&gt;データベースに Power BI で接続して、既にあるデータやメトリックで動的マッシュアップを作成します。&lt;/p&gt;
+&lt;h3 class="din-bold white"&gt;最新の方法でデータを調査しましょう&lt;/h3&gt;
+&lt;p class="default-text-light white"&gt;リレーショナル データと非リレーショナル データを組み合わせてより完全なビューを得る場合でも、動的レポートを作成して新しい見識を得る場合でも、Power BI では新しい方法でデータを探索できます。&lt;/p&gt;
+&lt;h3 class="din-bold white"&gt;データを思い通りに活用しましょう&lt;/h3&gt;
+&lt;p class="default-text-light white"&gt;データを 1 つの場所に集め、ビジネスの 360 度ビューを素早く取得します。データと対話して回答を得て、データにストーリーを持たせる高度に視覚化されたレポートを作成します。&lt;/p&gt;</value>
+  </data>
+  <data name="sql_server_InfoHeading" xml:space="preserve">
+    <value>Power BI に接続することにより、すべてのデータを 1 か所にまとめ、これまでにない速さでより良い決定をします</value>
+  </data>
+  <data name="sql_server_Name" xml:space="preserve">
+    <value>SQL Server</value>
+  </data>
+  <data name="stripe_Content" xml:space="preserve">
+    <value>イベント、料金、顧客、および請求書を監視します。業務活動を視覚化し、新たな収益機会を見つけます。</value>
+  </data>
+  <data name="stripe_Heading" xml:space="preserve">
+    <value>Stripe アクティビティの探索と視覚化</value>
+  </data>
+  <data name="stripe_InfoContent" xml:space="preserve">
+    <value>&lt;h3&gt;データと対話する&lt;/h3&gt;
+&lt;p&gt;接続したら、7 つのさまざまなビジュアル化やタイルで構成された、すぐに使用可能なダッシュボードにデータが表示されます。任意のタイルをクリックして、基になるレポートを探索します。データをフィルター処理するか、表示するフィールドを編集して、重要なメトリックを確認します。&lt;/p&gt;
+&lt;h3&gt;質問すると答えが返ってくる&lt;/h3&gt;
+&lt;p&gt;「日別の合計料金」と質問すると、対話型の素晴らしいビジュアル表示で回答が返ります。Power BI では、自然言語で質問を入力すると、適切なチャートやグラフが回答として返ってきます。&lt;/p&gt;
+&lt;h3&gt;スケジュールを最新の情報に更新&lt;/h3&gt;
+&lt;p&gt;ダッシュボードと基になるレポートは毎日更新されます。更新スケジュールを制御し、データセットでの頻度を変更することもできます。&lt;/p&gt;</value>
+  </data>
+  <data name="stripe_InfoHeading" xml:space="preserve">
+    <value>Stripe を Power BI に接続することにより、すべてのデータを 1 か所に視覚化し、これまでにない速さでより良い決定を行えるようになります。</value>
+  </data>
+  <data name="stripe_Name" xml:space="preserve">
+    <value>Stripe</value>
+  </data>
+  <data name="sweetiq_Content" xml:space="preserve">
+    <value>SweetIQ アカウントに接続し、一覧、場所、評価、およびレビューを分析、監視します。</value>
+  </data>
+  <data name="sweetiq_Heading" xml:space="preserve">
+    <value>SweetIQ データの分析と監視</value>
+  </data>
+  <data name="sweetiq_InfoContent" xml:space="preserve">
+    <value>&lt;h3&gt;データを表示&lt;/h3&gt;
+&lt;p&gt;一覧、場所、評価、およびレビューのチャートやグラフを単一のすぐに使用可能なダッシュボードに表示します。特定のメトリックを監視するようにダッシュボードをカスタマイズします。&lt;/p&gt;
+&lt;h3&gt;ドリルダウンによる詳細な分析&lt;/h3&gt;
+&lt;p&gt;タイルをクリックして、詳細なレポートを表示します。ビジュアル化されたデータを表示して、独自のインサイトを得ます。さらに情報が必要なメトリックをフィルターできます。&lt;/p&gt;
+&lt;h3&gt;新しい方法でデータを調査しましょう&lt;/h3&gt;
+&lt;p&gt;監視する必要のあるメトリックをダッシュボードにピン留めします。必要に応じて、追加のビューを編集または追加できます。質問ボックスを使って、分析をさらに絞り込みます。&lt;/p&gt;</value>
+  </data>
+  <data name="sweetiq_InfoHeading" xml:space="preserve">
+    <value>SweetIQ を Power BI に接続することにより、すべてのデータを 1 か所にまとめ、これまでにない速さでより良い決定をします</value>
+  </data>
+  <data name="sweetiq_Name" xml:space="preserve">
+    <value>SweetIQ</value>
+  </data>
+  <data name="sybase_Content" xml:space="preserve">
+    <value>大量のデータをすばやく対話型のレポートとダッシュボードに変換し、高度に視覚化された共有しやすいものにします。</value>
+  </data>
+  <data name="sybase_Heading" xml:space="preserve">
+    <value>Sybase メトリックのパワーアップ</value>
+  </data>
+  <data name="sybase_InfoContent" xml:space="preserve">
+    <value>&lt;h3&gt;データの照会と視覚化&lt;/h3&gt;
+&lt;p&gt;データベースに Power BI で接続して、既にあるデータやメトリックで動的マッシュアップを作成します。&lt;/p&gt;
+&lt;h3&gt;最新の方法でデータを調査しましょう&lt;/h3&gt;
+&lt;p&gt;リレーショナル データと非リレーショナル データを組み合わせてより完全なビューを得る場合でも、動的レポートを作成して新しい見識を得る場合でも、Power BI では新しい方法でデータを探索できます。&lt;/p&gt;
+&lt;h3&gt;データを思い通りに活用しましょう&lt;/h3&gt;
+&lt;p&gt;データを 1 つの場所に集め、ビジネスの 360 度ビューを素早く取得します。データと対話して回答を得て、データにストーリーを持たせる高度に視覚化されたレポートを作成します。&lt;/p&gt;</value>
+  </data>
+  <data name="sybase_InfoHeading" xml:space="preserve">
+    <value>Power BI に接続することにより、すべてのデータを 1 か所にまとめ、これまでにない速さでより良い決定をします</value>
+  </data>
+  <data name="sybase_Name" xml:space="preserve">
+    <value>Sybase</value>
+  </data>
+  <data name="teradata_Content" xml:space="preserve">
+    <value>大量のデータをすばやく対話型のレポートとダッシュボードに変換し、高度に視覚化された共有しやすいものにします。</value>
+  </data>
+  <data name="teradata_Heading" xml:space="preserve">
+    <value>Teradata ダッシュボードでの分析管理</value>
+  </data>
+  <data name="teradata_InfoContent" xml:space="preserve">
+    <value>&lt;h3&gt;データの照会と視覚化&lt;/h3&gt;
+&lt;p&gt;データベースに Power BI で接続して、既にあるデータやメトリックで動的マッシュアップを作成します。&lt;/p&gt;
+&lt;h3&gt;最新の方法でデータを調査しましょう&lt;/h3&gt;
+&lt;p&gt;リレーショナル データと非リレーショナル データを組み合わせてより完全なビューを得る場合でも、動的レポートを作成して新しい見識を得る場合でも、Power BI では新しい方法でデータを探索できます。&lt;/p&gt;
+&lt;h3&gt;データを思い通りに活用しましょう&lt;/h3&gt;
+&lt;p&gt;データを 1 つの場所に集め、ビジネスの 360 度ビューを素早く取得します。データと対話して回答を得て、データにストーリーを持たせる高度に視覚化されたレポートを作成します。&lt;/p&gt;</value>
+  </data>
+  <data name="teradata_InfoHeading" xml:space="preserve">
+    <value>Power BI に接続することにより、すべてのデータを 1 か所にまとめ、これまでにない速さでより良い決定をします</value>
+  </data>
+  <data name="teradata_Name" xml:space="preserve">
+    <value>Teradata</value>
+  </data>
+  <data name="text_Content" xml:space="preserve">
+    <value>視覚化されたレポート、分析、ダッシュボードをテキスト ファイルからすばやく作成し、そのすべてを対話性の高い、共有しやすいものにします。</value>
+  </data>
+  <data name="text_Heading" xml:space="preserve">
+    <value>テキスト ファイル データのダッシュボードとレポートを改善</value>
+  </data>
+  <data name="text_InfoContent" xml:space="preserve">
+    <value>&lt;h3&gt;分析と最適化&lt;/h3&gt;
+&lt;p&gt;簡単に消費できる方法で、すぐに使用可能なアナリティクス レポート、ダッシュボード、KPI を使用して適切なデータを取得します。フィルターや詳細レポートを使ってドリルダウンし、より実施可能な洞察を取得できます。&lt;/p&gt;
+&lt;h3&gt;質問すると、答えが返ってきます。&lt;/h3&gt;
+&lt;p&gt;"11 月のユーザー数は?" など、自然言語で Power BI に質問します。 最新のチャートにより表示された結果をダッシュボードにピン留めして継続的に監視できます。&lt;/p&gt;
+&lt;h3&gt;適切なユーザーに適切な情報を提供&lt;/h3&gt;
+&lt;p&gt;カスタム レポートから重要な視覚化をオンライン ダッシュボードにピン留めして、組織全体に役立つ監視とレポート用のリソースをすばやく作成します。&lt;/p&gt;</value>
+  </data>
+  <data name="text_InfoHeading" xml:space="preserve">
+    <value>Power BI に接続することにより、すべてのデータを 1 か所にまとめ、これまでにない速さでより良い決定をします</value>
+  </data>
+  <data name="text_Name" xml:space="preserve">
+    <value>テキスト</value>
+  </data>
+  <data name="twilio_Content" xml:space="preserve">
+    <value>Power BI 統合で、Twilio 呼び出し追跡とメッセージ データを取得して、効率の高い電話番号を監視し、週ごとの進行状況を確認します。Twilio ダッシュボードを共有してチームの足並みを揃えます。</value>
+  </data>
+  <data name="twilio_Title" xml:space="preserve">
+    <value>Twilio 統合</value>
+  </data>
+  <data name="twilio_InfoContent" xml:space="preserve">
+    <value>&lt;h3&gt;Twilio 呼び出し追跡などに関する質問の答えが返ってくる&lt;/h3&gt;
+&lt;p&gt;自然言語を入力するだけで視覚化された回答が得られることを想像してみてください。Power BI と Twilio 統合では、自然言語で質問を入力すると、適切なチャートやグラフを含むダッシュボードが回答として返ってきます。&lt;/p&gt;
+&lt;h3&gt;Twilio ダッシュボードを使用して、新しい方法でデータを探索しましょう&lt;/h3&gt;
+&lt;p&gt;自由形式のドラッグ アンド ドロップのキャンバス、さまざまな最新のデータ視覚化、使いやすい Twilio レポート操作で、視覚的に呼び出し追跡データなどを探索します。&lt;/p&gt;
+&lt;h3&gt;Twilio データを思い通りに活用しましょう&lt;/h3&gt;
+&lt;p&gt;最も収益の高い顧客を対象にしたいと思いますか。 Twilio との Power BI 統合は、営業案件を容易に見つけて実行に移し、最高の ROI を実現するのに役立ちます。&lt;/p&gt;</value>
+  </data>
+  <data name="twilio_InfoHeading" xml:space="preserve">
+    <value>Power BI と Twilio 統合で、すべてのデータを 1 か所にまとめ、これまでにない速さでより良い決定を行えるようになります</value>
+  </data>
+  <data name="twilio_Name" xml:space="preserve">
+    <value>Twilio</value>
+  </data>
+  <data name="tygraph_Content" xml:space="preserve">
+    <value>ユーザーによるコンテンツの使用方法を表示します。契約のレベルを分析して、どのスレッドが最もアクティブかを識別します。</value>
+  </data>
+  <data name="tygraph_Heading" xml:space="preserve">
+    <value>Yammer データの視覚化と監視</value>
+  </data>
+  <data name="tygraph_InfoContent" xml:space="preserve">
+    <value>&lt;h3&gt;単一のダッシュボードであらゆるデータを視覚化する&lt;/h3&gt;
+&lt;p&gt;Power BI で tyGraph アカウントに接続したら、すぐに使用可能なダッシュボードのタイルに、精選されたメトリック (ネットワーク活動) を視覚化します。&lt;/p&gt;
+&lt;h3&gt;最新の方法でデータを調査しましょう&lt;/h3&gt;
+&lt;p&gt;各タイルをドリルダウンして、基になるレポートを表示します。グループ活動やコンテンツ利用のメトリックを表示します。重要なメトリックを追跡するように標準のレポートをカスタマイズします。カスタマイズ レポートをダッシュボードにピン留めします。&lt;/p&gt;
+&lt;h3&gt;質問すると答えが返ってくる&lt;/h3&gt;
+&lt;p&gt; 「日別の総メッセージ数」と質問すると、対話型の素晴らしいビジュアル表示で回答が返ります。Power BI では、自然言語で質問を入力すると、適切なチャートやグラフが回答として返ってきます。&lt;/p&gt;</value>
+  </data>
+  <data name="tygraph_InfoHeading" xml:space="preserve">
+    <value>tyGraph データを Power BI に接続して、1 つの場所ですべての Yammer メトリックを表示できます。</value>
+  </data>
+  <data name="tygraph_Name" xml:space="preserve">
+    <value>tyGraph</value>
+  </data>
+  <data name="uservoice_Content" xml:space="preserve">
+    <value>カスタマー フィードバックに関する洞察を得ます。カスタマー サポート エクスペリエンスを監視します。</value>
+  </data>
+  <data name="uservoice_Heading" xml:space="preserve">
+    <value>UserVoice データの監視と視覚化</value>
+  </data>
+  <data name="uservoice_InfoContent" xml:space="preserve">
+    <value>&lt;h3&gt;データを思い通りに活用しましょう&lt;/h3&gt;
+&lt;p&gt;Power BI のすぐに使用可能なダッシュボードを使用して、さまざまな主要なメトリックを通じてリアルタイムの分析を直ちに行えます。監視するデータを表示するようにダッシュボードをカスタマイズします。&lt;/p&gt;
+&lt;h3&gt;データの詳細を考察する&lt;/h3&gt;
+&lt;p&gt;ユーザーの提案、空きチケット、ユーザー満足度の詳細にドリルダウンします。自然言語で質問すると、対話式のビジュアル化が返ってきます。&lt;/p&gt;
+&lt;h3&gt;最新の方法でデータを調査しましょう&lt;/h3&gt;
+&lt;p&gt;自由形式のドラッグ アンド ドロップのキャンバス、カスタマイズ可能な広範なデータのビジュアル化、および使いやすいレポート作成操作で、視覚的にデータを調査します。&lt;/p&gt;</value>
+  </data>
+  <data name="uservoice_InfoHeading" xml:space="preserve">
+    <value>Power BI 経由で接続して、UserVoice データからリアルタイムに洞察を取得します。</value>
+  </data>
+  <data name="uservoice_Name" xml:space="preserve">
+    <value>UserVoice</value>
+  </data>
+  <data name="visual_studio_online_Content" xml:space="preserve">
+    <value>Power BI に Visual Studio Team Services を接続することにより、データを簡単に視覚化して、データを分析します。これは、以前は実現できなかったことです。</value>
+  </data>
+  <data name="visual_studio_online_Heading" xml:space="preserve">
+    <value>Power BI と Visual Studio Online で新しい洞察を得る</value>
+  </data>
+  <data name="visual_studio_online_InfoContent" xml:space="preserve">
+    <value>&lt;h3&gt;質問すると答えが返ってくる&lt;/h3&gt;
+&lt;p&gt;「1 日にいくつのプル要求を受信しているか」と質問すると、適切な形式で見事に視覚化された回答が得られることを想像してみてください。Power BI の自然言語クエリ機能により、新しい言語を習得することなくデータにアクセスできます。&lt;/p&gt;
+&lt;h3&gt;より多くのビューや方法から選択&lt;/h3&gt;
+&lt;p&gt;Visual Studio Online のデータは、開発データの複雑性に自然にフィットします。Power BI では、さまざまな方法で情報を表示できるカスタマイズ レポートを作成できます。ここには、レポート作成やデータ提示用のさらに多数のオプションがあります。&lt;/p&gt;
+&lt;h3&gt;データの操作&lt;/h3&gt;
+&lt;p&gt;Power BI Web 操作性は完全にタッチ向けに最適化されているため、タッチスクリーンでコミット数、グラフ、またその他のビジュアル間で簡単に切り替えを行えます。大量のデータを楽しみながら操作できます。&lt;/p&gt;</value>
+  </data>
+  <data name="visual_studio_online_InfoHeading" xml:space="preserve">
+    <value>Power BI を使用したデータの視覚化</value>
+  </data>
+  <data name="visual_studio_online_Name" xml:space="preserve">
+    <value>Visual Studio Team Services</value>
+  </data>
+  <data name="webtrends_Content" xml:space="preserve">
+    <value>上位のトラフィック ソースを表示して、キャンペーンを詳しく分析します。さまざまな方法でデータをスライスして、訪問者のアクセス行動を詳細に把握します。</value>
+  </data>
+  <data name="webtrends_Heading" xml:space="preserve">
+    <value>Webtrends データの視覚化と分析</value>
+  </data>
+  <data name="webtrends_InfoContent" xml:space="preserve">
+    <value>&lt;h3&gt;単一のダッシュボードであらゆるデータを視覚化する&lt;/h3&gt;
+&lt;p&gt;Power BI で Webtrends データに接続したら、すぐに使用可能なダッシュボードのタイルに、精選されたメトリック (トラフィック ソース、ページ ビュー、訪問時間など) を視覚化できます。&lt;/p&gt;
+&lt;h3&gt;最新の方法でデータを調査しましょう&lt;/h3&gt;
+&lt;p&gt;基になるレポートの詳細にドリルダウンします。訪問者がサイトにどのように入り、どのように出るのかを把握します。重要なメトリックを追跡するように標準のレポートをカスタマイズします。カスタマイズ レポートをダッシュボードにピン留めして、継続的に監視します。&lt;/p&gt;
+&lt;h3&gt;スケジュールを最新の情報に更新&lt;/h3&gt;
+&lt;p&gt;ダッシュボードと基になるレポートは毎日更新されます。データを更新する頻度を制御できます。&lt;/p&gt;</value>
+  </data>
+  <data name="webtrends_InfoHeading" xml:space="preserve">
+    <value>Webtrends を Power BI に接続することにより、データの全体像を把握できるため、これまでにない速さでより良い決定を行えるようになります。</value>
+  </data>
+  <data name="webtrends_Name" xml:space="preserve">
+    <value>Webtrends</value>
+  </data>
+  <data name="web_Content" xml:space="preserve">
+    <value>視覚化されたレポート、分析、ダッシュボードを Web 接続からすばやく作成し、そのすべてを対話性の高い、共有しやすいものにします。</value>
+  </data>
+  <data name="web_Heading" xml:space="preserve">
+    <value>Web データのダッシュボードとレポートを改善</value>
+  </data>
+  <data name="web_InfoContent" xml:space="preserve">
+    <value>&lt;h3&gt;分析と最適化&lt;/h3&gt;
+&lt;p&gt;簡単に消費できる方法で、すぐに使用可能なアナリティクス レポート、ダッシュボード、KPI を使用して適切なデータを取得します。フィルターや詳細レポートを使ってドリルダウンし、より実施可能な洞察を取得できます。&lt;/p&gt;
+&lt;h3&gt;質問すると、答えが返ってきます。&lt;/h3&gt;
+&lt;p&gt;"11 月のユーザー数は?" など、自然言語で Power BI に質問します。 最新のチャートにより表示された結果をダッシュボードにピン留めして継続的に監視できます。&lt;/p&gt;
+&lt;h3&gt;適切なユーザーに適切な情報を提供&lt;/h3&gt;
+&lt;p&gt;カスタム レポートから重要な視覚化をオンライン ダッシュボードにピン留めして、組織全体に役立つ監視とレポート用のリソースをすばやく作成します。&lt;/p&gt;</value>
+  </data>
+  <data name="web_InfoHeading" xml:space="preserve">
+    <value>Power BI に接続することにより、すべてのデータを 1 か所にまとめ、これまでにない速さでより良い決定をします</value>
+  </data>
+  <data name="web_Name" xml:space="preserve">
+    <value>Web</value>
+  </data>
+  <data name="xml_Content" xml:space="preserve">
+    <value>視覚化されたレポート、分析、ダッシュボードを XML ファイルからすばやく作成し、そのすべてを対話性の高い、共有しやすいものにします。</value>
+  </data>
+  <data name="xml_Heading" xml:space="preserve">
+    <value>XML ファイル データのダッシュボードとレポートを改善</value>
+  </data>
+  <data name="xml_InfoContent" xml:space="preserve">
+    <value>&lt;h3&gt;分析と最適化&lt;/h3&gt;
+&lt;p&gt;簡単に消費できる方法で、すぐに使用可能なアナリティクス レポート、ダッシュボード、KPI を使用して適切なデータを取得します。フィルターや詳細レポートを使ってドリルダウンし、より実施可能な洞察を取得できます。&lt;/p&gt;
+&lt;h3&gt;質問すると、答えが返ってきます。&lt;/h3&gt;
+&lt;p&gt;"11 月のユーザー数は?" など、自然言語で Power BI に質問します。 最新のチャートにより表示された結果をダッシュボードにピン留めして継続的に監視できます。&lt;/p&gt;
+&lt;h3&gt;適切なユーザーに適切な情報を提供&lt;/h3&gt;
+&lt;p&gt;カスタム レポートから重要な視覚化をオンライン ダッシュボードにピン留めして、組織全体に役立つ監視とレポート用のリソースをすばやく作成します。&lt;/p&gt;</value>
+  </data>
+  <data name="xml_InfoHeading" xml:space="preserve">
+    <value>Power BI に接続することにより、すべてのデータを 1 か所にまとめ、これまでにない速さでより良い決定をします</value>
+  </data>
+  <data name="xml_Name" xml:space="preserve">
+    <value>XML</value>
+  </data>
+  <data name="zendesk_Content" xml:space="preserve">
+    <value>Zendesk と Power BI に接続することにより、Zendesk データをさらに簡単に探索、監視できるようになります。また、すぐに使用可能なコンテンツ パックのダッシュボードやレポートのスターター セットを使用して、すぐに生産的に作業できます。</value>
+  </data>
+  <data name="zendesk_Heading" xml:space="preserve">
+    <value>Zendesk データからリアルな洞察を得る</value>
+  </data>
+  <data name="zendesk_InfoContent" xml:space="preserve">
+    <value>&lt;h3&gt;独自のダッシュボード、独自の方法&lt;/h3&gt;
+&lt;p&gt;Power BI と Zendesk を使用すると、カスタマイズ可能なダッシュボードを通じてチケット、エージェント、組織などに関する重要な情報にアクセスできます。データの種類やタイムラインを選択するだけで、他のことは Power BI と Zendesk に任せられます。&lt;/p&gt;
+&lt;h3&gt;重要な洞察をピン留めする&lt;/h3&gt;
+&lt;p&gt;データ ポイントに簡単にアクセスする必要がありますか。 ピン留めカスタマイズ オプションを使用して、データをダッシュボードに追加できます。&lt;/p&gt;
+&lt;h3&gt;質問すると答えが返ってくる&lt;/h3&gt;
+&lt;p&gt;先週の木曜日の全体的なチケットの売上または特定のエージェントの売上に関して質問してみてください。 ダッシュボードの質問ボックスから必要な回答を取得できます。&lt;/p&gt;</value>
+  </data>
+  <data name="zendesk_InfoHeading" xml:space="preserve">
+    <value>Power BI に接続して、Zendesk データをさらに分析</value>
+  </data>
+  <data name="zendesk_Name" xml:space="preserve">
+    <value>Zendesk</value>
+  </data>
+  <data name="github_Heading" xml:space="preserve">
+    <value>ダッシュボード とレポートのツールを使用して、GitHub のアクティビティを分析する</value>
+  </data>
+  <data name="mailchimp_Heading" xml:space="preserve">
+    <value>カスタム レポートを使用した MailChimp データの追跡と分析</value>
+  </data>
+  <data name="twilio_ConnectContent" xml:space="preserve">
+    <value>Power BI 統合は、数秒で分析を始められる、Twilio 呼び出し追跡、Excel スプレッドシート、オンプレミス データ ソース、Hadoop データセット、ストリーミング データ、およびクラウド サービスなど、すべてのデータをまとめます。</value>
+  </data>
+  <data name="twilio_ConnectHeading" xml:space="preserve">
+    <value>Twilio レポートで重要なデータに接続し、Microsoft Power BI からさらに多くを得る</value>
+  </data>
+  <data name="twilio_META_DESCRIPTION" xml:space="preserve">
+    <value>Twilio 呼び出し追跡、電話番号データとメッセージ情報を包括的な Twilio ダッシュボードに取り込みます。Power BI と Twilio 統合によってレポート作成が簡素化されます。</value>
+  </data>
+  <data name="twilio_META_KEYWORDS" xml:space="preserve">
+    <value>Twilio 呼び出し追跡、twilio 統合、twilio ダッシュボード、twilio レポート</value>
+  </data>
+  <data name="twilio_Heading" xml:space="preserve">
+    <value>使いやすいダッシュボードを使用して Twilio データを分析し、ビジュアル化する</value>
+  </data>
+  <data name="github_ConnectContent" xml:space="preserve">
+    <value>Power BI は、数秒で分析が始められるように、GitHub リポジトリ データ、Excel スプレッドシート、オンプレミス データ ソース、Hadoop データセット、ストリーミング データ、およびクラウド サービスなど、すべてのデータをまとめます。</value>
+  </data>
+  <data name="github_ConnectHeading" xml:space="preserve">
+    <value>GitHub ダッシュボード レポートから得た情報を、Microsoft Power BI でさらに活用する</value>
+  </data>
+  <data name="github_META_DESCRIPTION" xml:space="preserve">
+    <value>GitHub ダッシュボード レポートを簡単に行うために、リポジトリを Power BI にエクスポートします。ツールを使用してアクティビティを分析すれば、より効果的に GitHub プロジェクトを管理できます。</value>
+  </data>
+  <data name="github_META_KEYWORDS" xml:space="preserve">
+    <value>github プロジェクト管理、github ツール、github ダッシュボード、github レポート</value>
+  </data>
+  <data name="github_META_TITLE" xml:space="preserve">
+    <value>GitHub プロジェクト管理ツール</value>
+  </data>
+  <data name="mailchimp_ConnectContent" xml:space="preserve">
+    <value>Power BI は、数秒で分析を始められるように、MailChimp レポート、Excel スプレッドシート、オンプレミス データ ソース、Hadoop データセット、ストリーミング データ、およびクラウド サービスなど、すべてのデータをまとめます。</value>
+  </data>
+  <data name="mailchimp_ConnectHeading" xml:space="preserve">
+    <value>MailChimp の Microsoft Power BI 統合で重要なデータに接続し、さらに多くを得る</value>
+  </data>
+  <data name="mailchimp_META_DESCRIPTION" xml:space="preserve">
+    <value>Power BI と MailChimp の統合を活用して、データをビジュアル化して探索します。今すぐ MailChimp ダッシュボード レポートにサインアップして、セットアップしましょう。</value>
+  </data>
+  <data name="mailchimp_META_KEYWORDS" xml:space="preserve">
+    <value>mailchimp 統合、mailchimp ダッシュボード、mailchimp レポート、mailchimp レポート</value>
+  </data>
+  <data name="mailchimp_META_TITLE" xml:space="preserve">
+    <value>MailChimp ダッシュボード統合</value>
+  </data>
+  <data name="marketo_ConnectContent" xml:space="preserve">
+    <value>Power BI は、数秒で分析を始められるよう、Marketo アナリティクス、Excel スプレッドシート、オンプレミス データ ソース、Hadoop データセット、ストリーミング データ、およびクラウド サービスなど、すべてのデータをまとめます。</value>
+  </data>
+  <data name="marketo_ConnectHeading" xml:space="preserve">
+    <value>Marketo の Microsoft Power BI 統合で重要なデータに接続し、さらに多くを得る</value>
+  </data>
+  <data name="marketo_META_DESCRIPTION" xml:space="preserve">
+    <value>Marketo ダッシュボードを作成すれば、Power BI で簡単にレポート作成ができます。Marketo 統合で分析をビジュアル化すると、意思決定を行うための貴重な洞察を得ることができます。</value>
+  </data>
+  <data name="marketo_META_KEYWORDS" xml:space="preserve">
+    <value>marketo 統合、marketo アナリティクス、marketo レポート、marketo ダッシュボード</value>
+  </data>
+  <data name="marketo_META_TITLE" xml:space="preserve">
+    <value>Marketo アナリティクス統合とレポート</value>
+  </data>
+  <data name="marketo_Heading" xml:space="preserve">
+    <value>Power BI レポートで Marketo アナリティクスの監視と確認を行う</value>
+  </data>
+  <data name="twilio_META_TITLE" xml:space="preserve">
+    <value>Twilio 呼び出し追跡の統合</value>
+  </data>
+  <data name="default_Content" xml:space="preserve">
+    <value>視覚化されたレポート、分析、ダッシュボードをデータからすばやく作成し、そのすべてを対話性の高い、共有しやすいものにします。</value>
+  </data>
+  <data name="default_Title" xml:space="preserve">
+    <value>{0} 統合</value>
+    <comment>Integration name</comment>
+  </data>
+  <data name="default_InfoContent" xml:space="preserve">
+    <value>&lt;h3&gt;分析と最適化&lt;/h3&gt;
+&lt;p&gt;簡単に消費できる方法で、すぐに使用可能なアナリティクス レポート、ダッシュボード、KPI を使用して適切なデータを取得します。フィルターや詳細レポートを使ってドリルダウンし、より実施可能な洞察を取得できます。&lt;/p&gt;
+&lt;h3&gt;質問すると、答えが返ってきます。&lt;/h3&gt;
+&lt;p&gt;"11 月のユーザー数は?" など、自然言語で Power BI に質問します。 最新のチャートにより表示された結果をダッシュボードにピン留めして継続的に監視できます。&lt;/p&gt;
+&lt;h3&gt;適切なユーザーに適切な情報を提供&lt;/h3&gt;
+&lt;p&gt;カスタム レポートから重要な視覚化をオンライン ダッシュボードにピン留めして、組織全体に役立つ監視とレポート用のリソースをすばやく作成します。&lt;/p&gt;</value>
+  </data>
+  <data name="default_InfoHeading" xml:space="preserve">
+    <value>Power BI に接続することにより、すべてのデータを 1 か所にまとめ、これまでにない速さでより良い決定をします</value>
+  </data>
+  <data name="default_Heading" xml:space="preserve">
+    <value>データのダッシュボードとレポートを改善</value>
+  </data>
+  <data name="xero_Content" xml:space="preserve">
+    <value>Power BI を使用すると、Xero 会計データやその他のデータ ソースを 1 か所にまとめて、説得力のあるビジュアル レポートを作成できます。使いやすくてドラッグ アンド ドロップに対応した構築済みのダッシュボードやレポートを使用して、ビジネスの全体像を確認できます。</value>
+  </data>
+  <data name="xero_Heading" xml:space="preserve">
+    <value>視覚化により会計データについての強力な洞察を瞬時に得る</value>
+  </data>
+  <data name="xero_InfoContent" xml:space="preserve">
+    <value>&lt;h3&gt;Xero データを瞬時に視覚化および分析&lt;/h3&gt;
+&lt;p&gt;Power BI と Xero ダッシュボードを活用して、最新のデータのビジュアル化やレポートを作成できます。Power BI は、小規模ビジネスやアドバイザーが現金持高など特定のビジネス メトリックについて掘り下げ、数秒で自動的に “クイック分析情報” を生成するのを強化します。&lt;/p&gt;
+&lt;h3&gt;すべてのアプリで重要なデータを比較および対照&lt;/h3&gt;
+&lt;p&gt;Xero 会計データを、Microsoft Dynamics CRM、Mailchimp、Insightly、Google Analytics、Zendesk、Stripe などの他の重要なアプリケーションと横並びで比較します。&lt;/p&gt;
+&lt;h3&gt;シームレスに共有&lt;/h3&gt;
+&lt;p&gt;自然言語を選択して新しいダッシュボードを構築します。視覚的にインパクトのあるダッシュボードやレポートを、時間や場所を問わずに同僚と安全に共有および保存できます。&lt;/p&gt;</value>
+  </data>
+  <data name="xero_InfoHeading" xml:space="preserve">
+    <value>Xero ツールを Power BI と併用して、会計データについての強力な洞察を、瞬時に美しく、すべて 1 つの場所で得る</value>
+  </data>
+  <data name="xero_Name" xml:space="preserve">
+    <value>Xero</value>
+  </data>
+  <data name="Meta_LocJobId" xml:space="preserve">
+    <value>110</value>
+  </data>
+</root>

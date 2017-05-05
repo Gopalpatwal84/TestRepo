@@ -1,0 +1,969 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" id="root">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Area_Administration" xml:space="preserve">
+    <value>관리</value>
+  </data>
+  <data name="Area_Ask" xml:space="preserve">
+    <value>데이터에 대해 질문하기</value>
+  </data>
+  <data name="Area_Connect" xml:space="preserve">
+    <value>서비스에 연결</value>
+  </data>
+  <data name="Area_Dashboards" xml:space="preserve">
+    <value>대시보드</value>
+  </data>
+  <data name="Area_DataDatabases" xml:space="preserve">
+    <value>데이터베이스의 데이터</value>
+  </data>
+  <data name="Area_DataFiles" xml:space="preserve">
+    <value>파일의 데이터</value>
+  </data>
+  <data name="Area_DataRefresh" xml:space="preserve">
+    <value>데이터 새로 고침</value>
+  </data>
+  <data name="Area_Gateways" xml:space="preserve">
+    <value>게이트웨이</value>
+  </data>
+  <data name="Area_GetStarted" xml:space="preserve">
+    <value>시작</value>
+  </data>
+  <data name="Area_Reports" xml:space="preserve">
+    <value>보고서</value>
+  </data>
+  <data name="Area_Samples" xml:space="preserve">
+    <value>샘플</value>
+  </data>
+  <data name="Area_Share" xml:space="preserve">
+    <value>작업 공유</value>
+  </data>
+  <data name="Area_Troubleshooting" xml:space="preserve">
+    <value>문제 해결</value>
+  </data>
+  <data name="Area_Visualizations" xml:space="preserve">
+    <value>시각화</value>
+  </data>
+  <data name="Link_3rdPartyGetStarted" xml:space="preserve">
+    <value>Power BI 타사 앱 시작</value>
+  </data>
+  <data name="Link_Acumatica" xml:space="preserve">
+    <value>Acumatica 콘텐츠 팩</value>
+  </data>
+  <data name="Link_AddImageToDashboard" xml:space="preserve">
+    <value>대시보드에 이미지 추가</value>
+  </data>
+  <data name="Link_AddWidget" xml:space="preserve">
+    <value>대시보드에 이미지, 텍스트 상자, 동영상 또는 웹 코드 추가</value>
+  </data>
+  <data name="Link_AdobeAnalytics" xml:space="preserve">
+    <value>Adobe Analytics 콘텐츠 팩</value>
+  </data>
+  <data name="Link_AppFigures" xml:space="preserve">
+    <value>appFigures 콘텐츠 팩</value>
+  </data>
+  <data name="Link_AppInisghts" xml:space="preserve">
+    <value>Application Insights 콘텐츠 팩</value>
+  </data>
+  <data name="Link_AtInternetBridge" xml:space="preserve">
+    <value>AT Internet Bridge 콘텐츠 팩</value>
+  </data>
+  <data name="Link_AzureAuditLogs" xml:space="preserve">
+    <value>Azure Audit Logs 콘텐츠 팩</value>
+  </data>
+  <data name="Link_AzureEnterprise" xml:space="preserve">
+    <value>Microsoft Azure 엔터프라이즈 콘텐츠 팩</value>
+  </data>
+  <data name="Link_BasicConcepts" xml:space="preserve">
+    <value>Power BI - 기본 개념</value>
+  </data>
+  <data name="Link_BigNumberTileDashboard" xml:space="preserve">
+    <value>질문을 하여 Power BI 대시보드에 대한 큰 숫자 타일을 만듭니다</value>
+  </data>
+  <data name="Link_BigNumberTileReport" xml:space="preserve">
+    <value>Power BI 보고서에서 큰 숫자 타일 만들기</value>
+  </data>
+  <data name="Link_Bing" xml:space="preserve">
+    <value>Bing 콘텐츠 팩</value>
+  </data>
+  <data name="Link_BrowserSupport" xml:space="preserve">
+    <value>Power BI에 지원되는 브라우저</value>
+  </data>
+  <data name="Link_CircuitID" xml:space="preserve">
+    <value>회로 ID 콘텐츠 팩</value>
+  </data>
+  <data name="Link_CollaborateWithGroup" xml:space="preserve">
+    <value>Power BI 그룹과 공동 작업</value>
+  </data>
+  <data name="Link_ComScore" xml:space="preserve">
+    <value>comScore Digital Analytix 콘텐츠 팩</value>
+  </data>
+  <data name="Link_ConnectOneDrive" xml:space="preserve">
+    <value>그룹의 비즈니스용 OneDrive의 파일에 연결</value>
+  </data>
+  <data name="Link_ConnectToSamples" xml:space="preserve">
+    <value>자습서: Power BI 샘플 콘텐츠 팩 사용</value>
+  </data>
+  <data name="Link_ConnectToServices" xml:space="preserve">
+    <value>콘텐츠 팩을 사용하여 서비스에 연결</value>
+  </data>
+  <data name="Link_CreateADashboard" xml:space="preserve">
+    <value>Power BI 대시보드 만들기</value>
+  </data>
+  <data name="Link_CreateFeaturedQuestions" xml:space="preserve">
+    <value>Power BI 질문 및 답변에 대한 추천 질문 만들기</value>
+  </data>
+  <data name="Link_CreateGroup" xml:space="preserve">
+    <value>Power BI에서 그룹 만들기</value>
+  </data>
+  <data name="Link_CreatePublishContentPack" xml:space="preserve">
+    <value>조직 콘텐츠 팩 만들기 및 게시(자습서)</value>
+  </data>
+  <data name="Link_CustomerProfitabilitySample" xml:space="preserve">
+    <value>Power BI용 고객 수익성 샘플: 둘러보기</value>
+  </data>
+  <data name="Link_DashboardTiles" xml:space="preserve">
+    <value>Power BI의 대시보드 타일</value>
+  </data>
+  <data name="Link_DataSources" xml:space="preserve">
+    <value>Power BI용 데이터 원본</value>
+  </data>
+  <data name="Link_DataWorkWell" xml:space="preserve">
+    <value>Power BI의 질문 및 답변에서 데이터가 잘 작동하도록 설정</value>
+  </data>
+  <data name="Link_DeleteContentPack" xml:space="preserve">
+    <value>조직 콘텐츠 팩에 대한 연결 제거</value>
+  </data>
+  <data name="Link_DesignTips" xml:space="preserve">
+    <value>멋진 Power BI 대시보드를 디자인하기 위한 팁</value>
+  </data>
+  <data name="Link_DisplayReportFullScreen" xml:space="preserve">
+    <value>전체 화면 모드(TV 모드)에서 대시보드 및 보고서 표시</value>
+  </data>
+  <data name="Link_DisplayTileFullScreen" xml:space="preserve">
+    <value>전체 화면 모드(TV 모드)에서 대시보드 타일 표시</value>
+  </data>
+  <data name="Link_DisplayTileInFocus" xml:space="preserve">
+    <value>포커스 모드에서 대시보드 타일 표시</value>
+  </data>
+  <data name="Link_DownloadFinancialSample" xml:space="preserve">
+    <value>Power BI용 재무 샘플 통합 문서 다운로드</value>
+  </data>
+  <data name="Link_DynamicsCRM" xml:space="preserve">
+    <value>Microsoft Dynamics CRM 콘텐츠 팩</value>
+  </data>
+  <data name="Link_DynamicsMarketing" xml:space="preserve">
+    <value>Microsoft Dynamics 마케팅 콘텐츠 팩</value>
+  </data>
+  <data name="Link_DynamicsNav" xml:space="preserve">
+    <value>Microsoft Dynamics NAV 콘텐츠 팩</value>
+  </data>
+  <data name="Link_EditATile" xml:space="preserve">
+    <value>타일 편집 - 하이퍼링크 크기 조정, 이동, 이름 바꾸기, 고정, 삭제, 추가</value>
+  </data>
+  <data name="Link_EnableCortana" xml:space="preserve">
+    <value>Power BI에 대해 Cortana 사용</value>
+  </data>
+  <data name="Link_Faq" xml:space="preserve">
+    <value>질문과 대답</value>
+  </data>
+  <data name="Link_FindOpenContentPack" xml:space="preserve">
+    <value>조직 콘텐츠 팩 찾기 및 연결</value>
+  </data>
+  <data name="Link_GetStarted" xml:space="preserve">
+    <value>Power BI 시작</value>
+  </data>
+  <data name="Link_GitHub" xml:space="preserve">
+    <value>GitHub 콘텐츠 팩</value>
+  </data>
+  <data name="Link_GoogleAnalytics" xml:space="preserve">
+    <value>Google Analytics 콘텐츠 팩</value>
+  </data>
+  <data name="Link_HowToUse" xml:space="preserve">
+    <value>Power BI 사용 방법 질문 및 답변</value>
+  </data>
+  <data name="Link_HumanResourceSample" xml:space="preserve">
+    <value>인적 자원 샘플: 둘러보기</value>
+  </data>
+  <data name="Link_IntroToCortana" xml:space="preserve">
+    <value>Power BI용 Cortana 소개</value>
+  </data>
+  <data name="Link_LanguageSupport" xml:space="preserve">
+    <value>Power BI에 지원되는 언어 및 국가/지역</value>
+  </data>
+  <data name="Link_Lithium" xml:space="preserve">
+    <value>Lithium 콘텐츠 팩</value>
+  </data>
+  <data name="Link_MailChimp" xml:space="preserve">
+    <value>MailChimp 콘텐츠 팩</value>
+  </data>
+  <data name="Link_ManageContentPack" xml:space="preserve">
+    <value>조직 콘텐츠 팩 관리, 업데이트 및 삭제</value>
+  </data>
+  <data name="Link_ManageGroup" xml:space="preserve">
+    <value>Power BI 및 Office 365에서 그룹 관리</value>
+  </data>
+  <data name="Link_Mandrill" xml:space="preserve">
+    <value>Mandrill 콘텐츠 팩</value>
+  </data>
+  <data name="Link_Marketo" xml:space="preserve">
+    <value>Marketo 콘텐츠 팩</value>
+  </data>
+  <data name="Link_MobileEngagement" xml:space="preserve">
+    <value>Azure Mobile Engagement 콘텐츠 팩</value>
+  </data>
+  <data name="Link_Office365" xml:space="preserve">
+    <value>Office365Mon 콘텐츠 팩</value>
+  </data>
+  <data name="Link_OpportunityAnalysisSample" xml:space="preserve">
+    <value>Power BI의 기회 분석 샘플: 둘러보기</value>
+  </data>
+  <data name="Link_OptimizeData" xml:space="preserve">
+    <value>Power BI 신속한 정보 활용을 위해 데이터 최적화</value>
+  </data>
+  <data name="Link_PinATileFromDashboard" xml:space="preserve">
+    <value>하나의 대시보드에서 다른 대시보드에 타일 고정</value>
+  </data>
+  <data name="Link_PinATileFromExcel" xml:space="preserve">
+    <value>Excel에서 Power BI 대시보드에 타일 고정</value>
+  </data>
+  <data name="Link_PinATileFromReport" xml:space="preserve">
+    <value>보고서에서 Power BI 대시보드에 타일 고정</value>
+  </data>
+  <data name="Link_PinATileToDashboardFromQA" xml:space="preserve">
+    <value>질문 및 답변 상자에서 Power BI 대시보드에 타일 고정</value>
+  </data>
+  <data name="Link_PinReportToDashboard" xml:space="preserve">
+    <value>전체 보고서 페이지를 Power BI 대시보드에 고정</value>
+  </data>
+  <data name="Link_Planview" xml:space="preserve">
+    <value>Planview Enterprise 콘텐츠 팩</value>
+  </data>
+  <data name="Link_Printing" xml:space="preserve">
+    <value>대시보드 인쇄, 대시보드 타일 인쇄, 보고서 페이지 인쇄</value>
+  </data>
+  <data name="Link_ProcurementAnalysisSample" xml:space="preserve">
+    <value>조달 분석 샘플: 둘러보기</value>
+  </data>
+  <data name="Link_ProjectOnline" xml:space="preserve">
+    <value>Project Online 콘텐츠 팩</value>
+  </data>
+  <data name="Link_ProjectPlace" xml:space="preserve">
+    <value>Projectplace 콘텐츠 팩</value>
+  </data>
+  <data name="Link_ProWhatIs" xml:space="preserve">
+    <value>Power BI Pro 콘텐츠란?</value>
+  </data>
+  <data name="Link_PublishForExcel" xml:space="preserve">
+    <value>Excel용 Power BI 게시자</value>
+  </data>
+  <data name="Link_PublishToWeb" xml:space="preserve">
+    <value>Power BI에서 웹에 게시</value>
+  </data>
+  <data name="Link_QandA" xml:space="preserve">
+    <value>Power BI의 질문 및 답변</value>
+  </data>
+  <data name="Link_QrCodeTile" xml:space="preserve">
+    <value>타일에 대한 QR 코드 만들기</value>
+  </data>
+  <data name="Link_QualityAnalysisSample" xml:space="preserve">
+    <value>Power BI용 공급업체 품질 분석 샘플: 둘러보기</value>
+  </data>
+  <data name="Link_Quickbooks" xml:space="preserve">
+    <value>QuickBooks Online 콘텐츠 팩</value>
+  </data>
+  <data name="Link_QuickInisghts" xml:space="preserve">
+    <value>Power BI의 신속한 정보 활용</value>
+  </data>
+  <data name="Link_QuickInisghtsTypes" xml:space="preserve">
+    <value>Power BI에서 지원되는 신속한 정보 활용 유형</value>
+  </data>
+  <data name="Link_RemoveDashboard" xml:space="preserve">
+    <value>대시보드 제거</value>
+  </data>
+  <data name="Link_RenameDashboard" xml:space="preserve">
+    <value>Power BI 대시보드 이름 바꾸기</value>
+  </data>
+  <data name="Link_Reports" xml:space="preserve">
+    <value>Power BI의 보고서</value>
+  </data>
+  <data name="Link_RetailAnalysisSample" xml:space="preserve">
+    <value>Power BI의 소매점 분석 샘플: 둘러보기</value>
+  </data>
+  <data name="Link_Salesforce" xml:space="preserve">
+    <value>Salesforce 콘텐츠 팩</value>
+  </data>
+  <data name="Link_SalesMarketingSample" xml:space="preserve">
+    <value>Power BI의 영업 및 마케팅 샘플: 둘러보기</value>
+  </data>
+  <data name="Link_SampleDatasets" xml:space="preserve">
+    <value>Power BI용 샘플</value>
+  </data>
+  <data name="Link_SelfServiceSignup" xml:space="preserve">
+    <value>Power BI에 대한 셀프 서비스 등록</value>
+  </data>
+  <data name="Link_Sendgrid" xml:space="preserve">
+    <value>SendGrid 콘텐츠 팩</value>
+  </data>
+  <data name="Link_ShareDashboard" xml:space="preserve">
+    <value>내 대시보드 및 보고서를 어떻게 공유해야 하나요?</value>
+  </data>
+  <data name="Link_ShareDashboardLinkExcel" xml:space="preserve">
+    <value>비즈니스용 OneDrive의 Excel 통합 문서에 연결하는 대시보드 공유</value>
+  </data>
+  <data name="Link_ShareUnshareDashboard" xml:space="preserve">
+    <value>동료 및 다른 사용자와 대시보드 공유</value>
+  </data>
+  <data name="Link_Smartsheet" xml:space="preserve">
+    <value>Smartsheet 콘텐츠 팩</value>
+  </data>
+  <data name="Link_Sparkpost" xml:space="preserve">
+    <value>SparkPost 콘텐츠 팩</value>
+  </data>
+  <data name="Link_SpendAnalysisSample" xml:space="preserve">
+    <value>Power BI의 IT 지출 분석 샘플: 둘러보기</value>
+  </data>
+  <data name="Link_SqlAuditing" xml:space="preserve">
+    <value>SQL 데이터베이스 감사 콘텐츠 팩</value>
+  </data>
+  <data name="Link_SqlSentry" xml:space="preserve">
+    <value>SQL Sentry 콘텐츠 팩</value>
+  </data>
+  <data name="Link_Stripe" xml:space="preserve">
+    <value>Stripe 콘텐츠 팩</value>
+  </data>
+  <data name="Link_SweetIQ" xml:space="preserve">
+    <value>SweetIQ 콘텐츠 팩</value>
+  </data>
+  <data name="Link_TipsForAsking" xml:space="preserve">
+    <value>Power BI Q&amp;A에서 질문하기 위한 팁과 요령</value>
+  </data>
+  <data name="Link_Twilio" xml:space="preserve">
+    <value>Twilio 콘텐츠 팩</value>
+  </data>
+  <data name="Link_Tygraph" xml:space="preserve">
+    <value>tyGraph 콘텐츠 팩</value>
+  </data>
+  <data name="Link_Uservoice" xml:space="preserve">
+    <value>UserVoice 콘텐츠 팩</value>
+  </data>
+  <data name="Link_GetStartedTutorial" xml:space="preserve">
+    <value>자습서: Power BI 질문 및 답변 시작</value>
+  </data>
+  <data name="Link_Videos" xml:space="preserve">
+    <value>Power BI 동영상</value>
+  </data>
+  <data name="Link_VisualStudioOnline" xml:space="preserve">
+    <value>Visual Studio Team Services 콘텐츠 팩</value>
+  </data>
+  <data name="Link_VMob" xml:space="preserve">
+    <value>VMob 콘텐츠 팩</value>
+  </data>
+  <data name="Link_Webinars" xml:space="preserve">
+    <value>Power BI 웹 세미나</value>
+  </data>
+  <data name="Link_Webtrends" xml:space="preserve">
+    <value>Webtrends 콘텐츠 팩</value>
+  </data>
+  <data name="Link_WhatsNew" xml:space="preserve">
+    <value>Power BI 서비스의 새로운 기능</value>
+  </data>
+  <data name="Link_WorkWithContentPack" xml:space="preserve">
+    <value>조직 콘텐츠 팩 작업</value>
+  </data>
+  <data name="Link_Zendesk" xml:space="preserve">
+    <value>Zendesk 콘텐츠 팩</value>
+  </data>
+  <data name="Title" xml:space="preserve">
+    <value>Power BI 서비스</value>
+  </data>
+  <data name="Link_AddFilterToReport" xml:space="preserve">
+    <value>Power BI의 보고서에 필터 추가</value>
+  </data>
+  <data name="Link_AddPageToReport" xml:space="preserve">
+    <value>Power BI 보고서에 페이지 추가</value>
+  </data>
+  <data name="Link_AddVisualizations1" xml:space="preserve">
+    <value>자습서: 1부, Power BI 보고서에 시각화 추가</value>
+  </data>
+  <data name="Link_AddVisualizations2" xml:space="preserve">
+    <value>자습서: 2부, Power BI 보고서에 시각화 추가</value>
+  </data>
+  <data name="Link_Administering" xml:space="preserve">
+    <value>조직에서 Power BI 관리</value>
+  </data>
+  <data name="Link_AlternateEmail" xml:space="preserve">
+    <value>Power BI에 대한 대체 메일 주소</value>
+  </data>
+  <data name="Link_AnalysisServices" xml:space="preserve">
+    <value>엔터프라이즈 데이터 원본 관리 - Analysis Services</value>
+  </data>
+  <data name="Link_ArchivedWorkspace" xml:space="preserve">
+    <value>Power BI 보관 작업 영역</value>
+  </data>
+  <data name="Link_Azure" xml:space="preserve">
+    <value>Azure 및 Power BI</value>
+  </data>
+  <data name="Link_BasicAreaChart" xml:space="preserve">
+    <value>자습서: 기본 영역형 차트</value>
+  </data>
+  <data name="Link_CapturingDiag" xml:space="preserve">
+    <value>Power BI에 대한 추가 진단 정보 캡처</value>
+  </data>
+  <data name="Link_ChangeReportDisplaySettings" xml:space="preserve">
+    <value>Power BI 보고서의 페이지 표시 설정</value>
+  </data>
+  <data name="Link_ChangeTypeVisualization" xml:space="preserve">
+    <value>Power BI 보고서에서 시각화 유형 변경</value>
+  </data>
+  <data name="Link_ChartSorting" xml:space="preserve">
+    <value>Power BI 보고서에서 차트 정렬 방식 변경</value>
+  </data>
+  <data name="Link_ClosingAccount" xml:space="preserve">
+    <value>Power BI 계정 닫기</value>
+  </data>
+  <data name="Link_ColorFormatting" xml:space="preserve">
+    <value>색 서식 지정 및 축 속성 시작</value>
+  </data>
+  <data name="Link_ColorFormattingTips" xml:space="preserve">
+    <value>Power BI의 색 서식을 위한 팁과 힌트</value>
+  </data>
+  <data name="Link_ComboChart" xml:space="preserve">
+    <value>자습서: Power BI의 콤보 차트</value>
+  </data>
+  <data name="Link_ConfigureIntune" xml:space="preserve">
+    <value>Intune으로 모바일 앱 구성</value>
+  </data>
+  <data name="Link_CopyPasteVisual" xml:space="preserve">
+    <value>Power BI에서 시각적 요소 복사 및 붙여넣기</value>
+  </data>
+  <data name="Link_CreateReport" xml:space="preserve">
+    <value>새 Power BI 보고서 만들기</value>
+  </data>
+  <data name="Link_CustomizeVisuals" xml:space="preserve">
+    <value>자습서: 시각화 제목, 배경 및 범례 사용자 지정</value>
+  </data>
+  <data name="Link_CustomVisualizations" xml:space="preserve">
+    <value>Power BI의 사용자 지정 시각화</value>
+  </data>
+  <data name="Link_CustomVisualizationsToReport" xml:space="preserve">
+    <value>Power BI 보고서에 사용자 지정 시각화 추가</value>
+  </data>
+  <data name="Link_CustomXandY" xml:space="preserve">
+    <value>자습서: X축 및 Y축 속성 사용자 지정</value>
+  </data>
+  <data name="Link_DataRefresh" xml:space="preserve">
+    <value>Power BI에서 데이터 새로 고침</value>
+  </data>
+  <data name="Link_DataRefreshCloudCsv" xml:space="preserve">
+    <value>OneDrive에서 쉼표로 구분된 값(.csv) 파일로부터 만들어진 데이터 집합 새로 고침</value>
+  </data>
+  <data name="Link_DataRefreshCloudExcel" xml:space="preserve">
+    <value>Excel 통합 문서로부터 만들어진 데이터 집합 새로 고침 - 클라우드</value>
+  </data>
+  <data name="Link_DataRefreshDesktopCloud" xml:space="preserve">
+    <value>Power BI Desktop 파일로부터 만들어진 데이터 집합 새로 고침 - 클라우드</value>
+  </data>
+  <data name="Link_DataRefreshDesktopLocal" xml:space="preserve">
+    <value>Power BI Desktop 파일로부터 만들어진 데이터 집합 새로 고침 - 로컬</value>
+  </data>
+  <data name="Link_DataRefreshLocalExcel" xml:space="preserve">
+    <value>Excel 통합 문서로부터 만들어진 데이터 집합 새로 고침 - 로컬</value>
+  </data>
+  <data name="Link_DeleteAReport" xml:space="preserve">
+    <value>Power BI에서 보고서 삭제</value>
+  </data>
+  <data name="Link_DeletePageFromReport" xml:space="preserve">
+    <value>Power BI 보고서에서 페이지 삭제</value>
+  </data>
+  <data name="Link_DeleteVisual" xml:space="preserve">
+    <value>Power BI에서 시각화 삭제</value>
+  </data>
+  <data name="Link_DirectConnectSpark" xml:space="preserve">
+    <value>DirectQuery를 포함하는 HDInsight의 Spark</value>
+  </data>
+  <data name="Link_DirectQuerySql" xml:space="preserve">
+    <value>DirectQuery를 사용한 Azure SQL Database</value>
+  </data>
+  <data name="Link_DirectQuerySqlDW" xml:space="preserve">
+    <value>DirectQuery를 사용한 Azure SQL Database</value>
+  </data>
+  <data name="Link_DisablePrivacyIssues" xml:space="preserve">
+    <value>개인 정보 설정 사용 안함</value>
+  </data>
+  <data name="Link_DoughnutCharts" xml:space="preserve">
+    <value>자습서: Power BI의 도넛형 차트</value>
+  </data>
+  <data name="Link_DownloadCustomVisual" xml:space="preserve">
+    <value>Office 스토어에서 사용자 지정 시각적 개체 다운로드 및 사용</value>
+  </data>
+  <data name="Link_DrillVisual" xml:space="preserve">
+    <value>Power BI에서 시각화 드릴다운</value>
+  </data>
+  <data name="Link_DuplicateReportPage" xml:space="preserve">
+    <value>Power BI에서 보고서 페이지 복제</value>
+  </data>
+  <data name="Link_EditingView" xml:space="preserve">
+    <value>Power BI에서 읽기용 보기에서 편집용 보기로 전환</value>
+  </data>
+  <data name="Link_EditorTakeTour" xml:space="preserve">
+    <value>보고서 편집기... 둘러보기</value>
+  </data>
+  <data name="Link_ExportFromVisualization" xml:space="preserve">
+    <value>시각화에서 데이터 내보내기</value>
+  </data>
+  <data name="Link_FilledMaps" xml:space="preserve">
+    <value>자습서: Power BI의 등치 지역도(코로플레스)</value>
+  </data>
+  <data name="Link_FiltersAndHighlighting" xml:space="preserve">
+    <value>필터 및 Power BI 보고서에서 강조 표시 정보</value>
+  </data>
+  <data name="Link_ForgotPassword" xml:space="preserve">
+    <value>Power BI 암호를 잊은 경우</value>
+  </data>
+  <data name="Link_FunnelCharts" xml:space="preserve">
+    <value>자습서: Power BI의 깔때기형 차트</value>
+  </data>
+  <data name="Link_GetDataIn" xml:space="preserve">
+    <value>파일에서 데이터 가져오기</value>
+  </data>
+  <data name="Link_Histograms" xml:space="preserve">
+    <value>히스토그램</value>
+  </data>
+  <data name="Link_HistogramsTips" xml:space="preserve">
+    <value>Power BI Map 시각화를 위한 팁과 힌트</value>
+  </data>
+  <data name="Link_HyperlinksInTables" xml:space="preserve">
+    <value>테이블에서 하이퍼링크</value>
+  </data>
+  <data name="Link_HyperLinkToTextbox" xml:space="preserve">
+    <value>Power BI 보고서에서 텍스트 상자에 하이퍼링크 추가</value>
+  </data>
+  <data name="Link_InteractEditingView" xml:space="preserve">
+    <value>Power BI의 편집용 보기에서 보고서와 상호 작용</value>
+  </data>
+  <data name="Link_InteractReadingView" xml:space="preserve">
+    <value>Power BI의 읽기용 보기에서 보고서와 상호 작용</value>
+  </data>
+  <data name="Link_ManageCapacity" xml:space="preserve">
+    <value>Power BI의 데이터 용량 관리</value>
+  </data>
+  <data name="Link_MoveVisual" xml:space="preserve">
+    <value>Power BI 보고서에서 시각화 이동, 크기 조정 및 팝아웃</value>
+  </data>
+  <data name="Link_OfficeDedicatedIssues" xml:space="preserve">
+    <value>Office 365 전용 - 알려진 문제</value>
+  </data>
+  <data name="Link_PersonalGateway" xml:space="preserve">
+    <value>Power BI 게이트웨이 - 개인</value>
+  </data>
+  <data name="Link_PersonalGatewayTroubleshoot" xml:space="preserve">
+    <value>Power BI Gateway - Personal 문제 해결</value>
+  </data>
+  <data name="Link_PublishFromExcel" xml:space="preserve">
+    <value>자습서: Excel 통합 문서에서 뛰어난 보고서 빠르게 작성</value>
+  </data>
+  <data name="Link_PurchasingPro" xml:space="preserve">
+    <value>Power BI Pro 구매</value>
+  </data>
+  <data name="Link_RadialGauge" xml:space="preserve">
+    <value>자습서: Power BI의 방사형 계기 차트</value>
+  </data>
+  <data name="Link_ReadingView" xml:space="preserve">
+    <value>읽기용 보기에서 Power BI 보고서 열기</value>
+  </data>
+  <data name="Link_ReduceExcel" xml:space="preserve">
+    <value>Power BI에서 보기 위해 Excel 통합 문서 크기 줄이기</value>
+  </data>
+  <data name="Link_RenameReport" xml:space="preserve">
+    <value>Power BI에서 보고서 이름 바꾸기</value>
+  </data>
+  <data name="Link_ReorderPages" xml:space="preserve">
+    <value>Power BI에서 보고서의 페이지 순서 바꾸기</value>
+  </data>
+  <data name="Link_SameAzureAccount" xml:space="preserve">
+    <value>Power BI 및 Azure에서 동일한 계정 로그인을 사용하는 방법</value>
+  </data>
+  <data name="Link_SapHana" xml:space="preserve">
+    <value>엔터프라이즈 데이터 원본 관리 - SAP HANA</value>
+  </data>
+  <data name="Link_SaveAReport" xml:space="preserve">
+    <value>Power BI에 보고서 저장</value>
+  </data>
+  <data name="Link_ScatterCharts" xml:space="preserve">
+    <value>자습서: Power BI의 분산형 차트</value>
+  </data>
+  <data name="Link_ScheduledSqlRefresh" xml:space="preserve">
+    <value>Azure SQL Database에 대해 예약된 새로 고침의 문제 해결</value>
+  </data>
+  <data name="Link_Security" xml:space="preserve">
+    <value>Power BI 보안</value>
+  </data>
+  <data name="Link_SigningUpWithOffice" xml:space="preserve">
+    <value>새 Office 365 평가판으로 Power BI에 등록</value>
+  </data>
+  <data name="Link_Slicers" xml:space="preserve">
+    <value>자습서: Power BI의 슬라이서</value>
+  </data>
+  <data name="Link_Sql" xml:space="preserve">
+    <value>엔터프라이즈 데이터 소스 관리 - SQL</value>
+  </data>
+  <data name="Link_SSASTabular" xml:space="preserve">
+    <value>Power BI의 SQL Server Analysis Services 라이브 데이터</value>
+  </data>
+  <data name="Link_TextboxesReports" xml:space="preserve">
+    <value>Power BI 보고서의 텍스트 상자</value>
+  </data>
+  <data name="Link_TileErrors" xml:space="preserve">
+    <value>타일 오류 문제 해결</value>
+  </data>
+  <data name="Link_Treemaps" xml:space="preserve">
+    <value>자습서: Power BI의 트리맵</value>
+  </data>
+  <data name="Link_TroubleshootingRefreshScenarios" xml:space="preserve">
+    <value>새로 고침 시나리오 문제 해결</value>
+  </data>
+  <data name="Link_TutorialChangeReport" xml:space="preserve">
+    <value>자습서: Power BI 보고서에서 페이지에 대한 디스플레이 설정 변경</value>
+  </data>
+  <data name="Link_UnableToAddOfficePartner" xml:space="preserve">
+    <value>O365 파트너에게 Power BI를 추가할 수 없음</value>
+  </data>
+  <data name="Link_UnsupportedData" xml:space="preserve">
+    <value>새로 고침을 지원하지 않는 데이터 소스 문제 해결</value>
+  </data>
+  <data name="Link_UseAReportFilter" xml:space="preserve">
+    <value>보고서 필터를 사용하는 방법</value>
+  </data>
+  <data name="Link_Visualizations" xml:space="preserve">
+    <value>Power BI의 시각화</value>
+  </data>
+  <data name="Link_VisualizationTypes" xml:space="preserve">
+    <value>Power BI의 시각화 유형</value>
+  </data>
+  <data name="Link_Waterfall" xml:space="preserve">
+    <value>자습서: Power BI의 폭포 차트</value>
+  </data>
+  <data name="Link_GetDataCSV" xml:space="preserve">
+    <value>쉼표로 구분된 값(.csv) 파일에서 데이터 가져오기</value>
+  </data>
+  <data name="Link_GetDataDesktop" xml:space="preserve">
+    <value>Power BI Desktop 파일에서 데이터 가져오기</value>
+  </data>
+  <data name="Link_GetDataFromExcel" xml:space="preserve">
+    <value>Excel 2016에서 Power BI로 게시</value>
+  </data>
+  <data name="Link_WholeExcel" xml:space="preserve">
+    <value>Excel 통합 문서 파일에서 데이터 가져오기</value>
+  </data>
+  <data name="Link_AdminPortal" xml:space="preserve">
+    <value>관리 포털</value>
+  </data>
+  <data name="Link_Aggregates" xml:space="preserve">
+    <value>Power BI의 집계(합계, 평균, 최대값 등)</value>
+  </data>
+  <data name="Link_AlpineMetrics" xml:space="preserve">
+    <value>Alpine Metrics Sales Predictions 콘텐츠 팩</value>
+  </data>
+  <data name="Link_AnalyzeExcelTroubleshoot" xml:space="preserve">
+    <value>Excel에서 분석 문제 해결</value>
+  </data>
+  <data name="Link_AnalyzeInExcel" xml:space="preserve">
+    <value>Excel에서 분석</value>
+  </data>
+  <data name="Link_AzureDirectory" xml:space="preserve">
+    <value>사용자 지정 Azure 디렉터리로 등록</value>
+  </data>
+  <data name="Link_AzureSearch" xml:space="preserve">
+    <value>Azure Search 콘텐츠 팩</value>
+  </data>
+  <data name="Link_AzureSecurity" xml:space="preserve">
+    <value>Azure Security Center 콘텐츠 팩</value>
+  </data>
+  <data name="Link_ClickDimensions" xml:space="preserve">
+    <value>ClickDimensions 콘텐츠 팩</value>
+  </data>
+  <data name="Link_ConfigureProxy" xml:space="preserve">
+    <value>프록시 설정 구성</value>
+  </data>
+  <data name="Link_DashboardsInPowerBI" xml:space="preserve">
+    <value>Power BI의 대시보드</value>
+  </data>
+  <data name="Link_DynamicsAX" xml:space="preserve">
+    <value>Microsoft Dynamics AX 콘텐츠 팩</value>
+  </data>
+  <data name="Link_ExcelError" xml:space="preserve">
+    <value>오류: Excel 통합 문서에서 데이터를 찾을 수 없습니다.</value>
+  </data>
+  <data name="Link_ExpressRoute" xml:space="preserve">
+    <value>Power BI 및 Express 경로</value>
+  </data>
+  <data name="Link_FavoriteDashboards" xml:space="preserve">
+    <value>Power BI의 즐겨 찾는 대시보드</value>
+  </data>
+  <data name="Link_FeaturedDashboards" xml:space="preserve">
+    <value>Power BI의 주요 대시보드</value>
+  </data>
+  <data name="Link_FreePowerBI" xml:space="preserve">
+    <value>조직의 Power BI(무료)</value>
+  </data>
+  <data name="Link_GatewayEnterpriseData" xml:space="preserve">
+    <value>Power BI Gateway - Enterprise 데이터(미리 보기)로 질문 및 답변 사용</value>
+  </data>
+  <data name="Link_Governance" xml:space="preserve">
+    <value>Power BI 관리 및 배포 접근 방법</value>
+  </data>
+  <data name="Link_ImportScheduledRefresh" xml:space="preserve">
+    <value>엔터프라이즈 데이터 원본 관리 - 가져오기/예약된 새로 고침</value>
+  </data>
+  <data name="Link_Insightly" xml:space="preserve">
+    <value>Insightly 콘텐츠 팩</value>
+  </data>
+  <data name="Link_IntelliBoard" xml:space="preserve">
+    <value>IntelliBoard 콘텐츠 팩</value>
+  </data>
+  <data name="Link_KPIVisuals" xml:space="preserve">
+    <value>KPI 시각적 개체</value>
+  </data>
+  <data name="Link_OrganizationalContentPacksIntro" xml:space="preserve">
+    <value>조직 콘텐츠 팩: 소개</value>
+  </data>
+  <data name="Link_ProjectMadeira" xml:space="preserve">
+    <value>Project Madeira 콘텐츠 팩</value>
+  </data>
+  <data name="Link_QRCodeForReport" xml:space="preserve">
+    <value>보고서에 대한 QR 코드 만들기</value>
+  </data>
+  <data name="Link_RowLevel" xml:space="preserve">
+    <value>Power BI를 사용한 행 수준 보안</value>
+  </data>
+  <data name="Link_ScheduledRefresh" xml:space="preserve">
+    <value>예약된 새로 고침 구성</value>
+  </data>
+  <data name="Link_Troux" xml:space="preserve">
+    <value>Troux 콘텐츠 팩</value>
+  </data>
+  <data name="Link_VisualInteraction" xml:space="preserve">
+    <value>보고서에서 시각적 개체가 조작되는 방식 변경</value>
+  </data>
+  <data name="Link_WindowsDevCenter" xml:space="preserve">
+    <value>Windows 개발자 센터 콘텐츠 팩</value>
+  </data>
+  <data name="Link_Ziosk" xml:space="preserve">
+    <value>Ziosk 콘텐츠 팩</value>
+  </data>
+  <data name="Link_Zuora" xml:space="preserve">
+    <value>Zuora 콘텐츠 팩</value>
+  </data>
+  <data name="Link_GatewayOnPrem" xml:space="preserve">
+    <value>온-프레미스 데이터 게이트웨이</value>
+  </data>
+  <data name="Link_GatewayOnPremFaq" xml:space="preserve">
+    <value>온-프레미스 데이터 게이트웨이 FAQ</value>
+  </data>
+  <data name="Link_GatewayOnPremInDepth" xml:space="preserve">
+    <value>온-프레미스 데이터 게이트웨이 - 심층 분석</value>
+  </data>
+  <data name="Link_GatewayOnPremTshoot" xml:space="preserve">
+    <value>온-프레미스 데이터 게이트웨이 문제 해결</value>
+  </data>
+  <data name="Link_Prevedere" xml:space="preserve">
+    <value>Prevedere 콘텐츠 팩</value>
+  </data>
+  <data name="Link_Xero" xml:space="preserve">
+    <value>Xero 콘텐츠 팩</value>
+  </data>
+  <data name="Link_ReportsSeeData" xml:space="preserve">
+    <value>시각적 개체를 만드는 데 사용되는 데이터 참조</value>
+  </data>
+  <data name="Link_AdminAuditing" xml:space="preserve">
+    <value>Power BI 감사</value>
+  </data>
+  <data name="Link_O365PortalRetired" xml:space="preserve">
+    <value>Office 365용 Power BI는 Power BI로 전환됨</value>
+  </data>
+  <data name="Link_CreatePhoneViewDashboard" xml:space="preserve">
+    <value>대시보드의 휴대폰 보기 만들기</value>
+  </data>
+  <data name="Link_ServiceNotificationCenter" xml:space="preserve">
+    <value>Power BI 통합 알림 센터</value>
+  </data>
+  <data name="Link_RenameReportPage" xml:space="preserve">
+    <value>Power BI에서 보고서 페이지 이름 바꾸기</value>
+  </data>
+  <data name="Link_ReportTipsTricks" xml:space="preserve">
+    <value>Power BI 서비스에서 보고서를 만들기 위한 팁과 힌트</value>
+  </data>
+  <data name="Link_GatewayOnPremOracle" xml:space="preserve">
+    <value>데이터 원본 관리 - Oracle</value>
+  </data>
+  <data name="Link_ServiceSetAlerts" xml:space="preserve">
+    <value>Power BI 서비스에서 데이터 경고</value>
+  </data>
+  <data name="Link_ServiceNow" xml:space="preserve">
+    <value>ServiceNow Incidents 콘텐츠 팩</value>
+  </data>
+  <data name="Link_WhereIsMyTenant" xml:space="preserve">
+    <value>내 테넌트는 어디에 있나요?</value>
+  </data>
+  <data name="Link_DataClassification" xml:space="preserve">
+    <value>대시보드 데이터 분류</value>
+  </data>
+  <data name="Link_XeroCredentialsRefresh" xml:space="preserve">
+    <value>새로 고침에 실패한 경우 Xero 콘텐츠 팩 자격 증명을 새로 고치는 방법</value>
+  </data>
+  <data name="Link_LiveStreaming" xml:space="preserve">
+    <value>Power BI(Preview)의 실시간 스트리밍</value>
+  </data>
+  <data name="Link_RVisuals" xml:space="preserve">
+    <value>Power BI에서 R 스크립트를 사용하여 고급 분석 및 시각화 만들기</value>
+  </data>
+  <data name="Link_ArcGIS" xml:space="preserve">
+    <value>자습서: Power BI의 ArcGIS</value>
+  </data>
+  <data name="Link_PowerPoint" xml:space="preserve">
+    <value>PowerPoint에 게시</value>
+  </data>
+  <data name="Link_NewNav" xml:space="preserve">
+    <value>새로운 Power BI 탐색 환경</value>
+  </data>
+  <data name="Link_PreviewFeatures" xml:space="preserve">
+    <value>Power BI 미리 보기 기능용 옵트인</value>
+  </data>
+  <data name="Link_EmbedReportSPO" xml:space="preserve">
+    <value>SharePoint Online에 보고서 포함</value>
+  </data>
+  <data name="Link_GovUSOverview" xml:space="preserve">
+    <value>미국 정부용 Power BI</value>
+  </data>
+  <data name="Link_GovUSSignup" xml:space="preserve">
+    <value>미국 정부 기관 등록</value>
+  </data>
+  <data name="Link_TipsGettingHelp" xml:space="preserve">
+    <value>지원을 받기 위한 10가지 팁</value>
+  </data>
+  <data name="Area_Resources" xml:space="preserve">
+    <value>리소스</value>
+  </data>
+  <data name="Link_Whitepapers" xml:space="preserve">
+    <value>백서</value>
+  </data>
+  <data name="Meta_LocJobId" xml:space="preserve">
+    <value>212</value>
+  </data>
+</root>

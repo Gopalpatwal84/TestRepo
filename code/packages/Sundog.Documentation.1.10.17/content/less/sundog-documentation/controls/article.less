@@ -1,0 +1,47 @@
+@import (reference) '../../mixins.d.less';
+@import (reference) '../../variables.d.less';
+
+@imageSize: 30px;
+
+/*
+Article
+
+Full article layout.
+
+Markup: article.html
+
+Style guide: article
+*/
+
+.article-header {
+    border-bottom: 1px solid @color-slate08;
+
+    .author-meta {
+        margin: @spacing-size2 0;
+
+        img {
+            border-radius: @imageSize/2;
+            display: inline-block;
+            height: @imageSize;
+            width: @imageSize;
+        }
+
+        p {
+            display: inline-block;
+            line-height: @spacing-size1;
+            padding-left: @spacing-size1;
+            vertical-align: top;
+
+            &.article-date {
+                float: right;
+            }
+        }
+    }
+}
+
+[itemprop="articlebody"] {
+    img {
+        margin: @spacing-size1 0;
+        vertical-align:middle;
+    }
+}

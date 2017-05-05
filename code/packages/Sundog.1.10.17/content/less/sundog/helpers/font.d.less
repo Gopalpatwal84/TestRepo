@@ -1,0 +1,149 @@
+/*
+font-internal(@size, @line-height)
+
+Internal font definer.
+
+@size - size of the font.
+@line-height - line-height of the font.
+
+Style guide: mixins.font-internal
+*/
+.font-internal(@size, @line-height) when (unit(@size) >= 24) {
+    font-weight: @font-light;
+    font-size: @size;
+    line-height: @line-height;
+}
+
+.font-internal(@size, @line-height) when (unit(@size) < 24) {
+    font-weight: @font-normal;
+    font-size: @size;
+    line-height: @line-height;
+}
+
+/*
+font-super()
+
+Preset definition for font-super.
+
+Style guide: mixins.font-super
+*/
+.font-super() {
+    .font-internal(@font-super, 1.16);
+    letter-spacing: -.01em;
+}
+
+/*
+font-heading1()
+
+Preset definition for font-heading1.
+
+Style guide: mixins.font-heading1
+*/
+.font-heading1() {
+    .font-internal(@font-heading1, 1.22);
+    letter-spacing: -.01em;
+}
+
+/*
+font-heading2()
+
+Preset definition for font-heading2.
+
+Style guide: mixins.font-heading2
+*/
+.font-heading2() {
+    .font-internal(@font-heading2, 1.18);
+}
+
+/*
+font-heading3()
+
+Preset definition for font-heading3.
+
+Style guide: mixins.font-heading3
+*/
+.font-heading3() {
+    .font-internal(@font-heading3, 1.17);
+}
+
+/*
+font-heading4()
+
+Preset definition for font-heading4.
+
+Style guide: mixins.font-heading4
+*/
+.font-heading4() {
+    .font-internal(@font-heading4, 1.2);
+}
+
+/*
+font-heading5()
+
+Preset definition for font-heading5.
+
+Style guide: mixins.font-heading5
+*/
+.font-heading5() {
+    .font-internal(@font-heading5, 1.33);
+}
+
+/*
+font-heading6()
+
+Preset definition for font-heading6.
+
+Style guide: mixins.font-heading6
+*/
+.font-heading6() {
+    .font-internal(@font-heading6, 1.5);
+}
+
+/*
+font-regular()
+
+Preset definition for font-regular.
+
+Style guide: mixins.font-regular
+*/
+.font-regular() {
+    .font-internal(@font-regular, 1.5);
+    font-weight: @font-normal;
+}
+
+/*
+font-mini()
+
+Preset definition for font-mini.
+
+Style guide: mixins.font-mini
+*/
+.font-mini() {
+    .font-internal(@font-mini, 1.2);
+    font-weight: @font-normal;
+}
+
+/*
+font-micro()
+
+Preset definition for font-micro.
+
+Style guide: mixins.font-micro
+*/
+.font-micro() {
+    .font-internal(@font-micro, 1.2);
+    font-weight: @font-normal;
+}
+
+/*
+font-code()
+
+Preset definition for font-code.
+
+Style guide: mixins.font-code
+*/
+.font-code() {
+    .font-internal(@font-mini, 1.3);
+    font-family: Consolas, "Courier New", monospace;
+    font-weight: @font-normal;
+}

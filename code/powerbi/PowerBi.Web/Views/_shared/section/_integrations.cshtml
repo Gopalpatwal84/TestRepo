@@ -1,0 +1,66 @@
+﻿@model  PowerBI.Web.Models.Parts.IntegrationsSectionViewModel
+@using Resources = PowerBI.Resources.Shared.Section.Integrations
+@using Integrations = PowerBI.Resources.Shared.Integrations
+
+@{
+    var heading = Integrations.ResourceManager.GetString(Model.Integration?.ConnectHeadingLocKey ?? string.Empty);
+    if (string.IsNullOrEmpty(heading))
+    {
+        heading = Resources.Heading;
+    }
+
+    var content = Integrations.ResourceManager.GetString(Model.Integration?.ConnectContentLocKey ?? string.Empty);
+    if (string.IsNullOrEmpty(content))
+    {
+        content = Resources.Content;
+    }
+}
+
+<section id="connect-wrapper" class="section">
+    <div class="row text-center">
+        <div class="column medium-10 large-8 medium-centered">
+            <h2 class="text-heading1">@heading</h2>
+            <p>@content</p>
+        </div>
+    </div>
+
+    <div class="row integration-featured text-center">
+            @foreach (var integration in Model.FeaturedIntegrations)
+            {
+                @integrationContainer(integration, integration.Equals(Model.FeaturedIntegrations.Last()))
+            }
+    </div>
+
+    <div class="row row-size3 integration-all" style="display: none;">
+        @foreach (var integrationGroup in Model.AllIntegrations.Chunk(6))
+        {
+            foreach (var integration in integrationGroup)
+            {
+                @integrationContainer(integration, integration.Equals(Model.AllIntegrations.Last()))
+            }
+        }
+        
+        <div class="column text-center">
+            <a href="@Html.LocalizeUrl("article:powerbi-desktop-data-sources")">@Resources.SeeAllDataSources_Cta</a>
+        </div>
+    </div>
+
+    <div class="row row-size3 text-center">
+        <div class="column">
+            <a href="#" class="button integration-featured" id="show-all">@Html.Raw(Resources.ShowMore)</a>
+            <a href="#" class="button integration-all" id="show-featured" style="display: none;">@Resources.ShowFewer</a>
+        </div>
+    </div>
+</section>
+
+@helper integrationContainer(PowerBI.Entities.Integration integration, bool last)
+{
+    string cssClass = last ? "end" : string.Empty;
+    
+    <div class="column xsmall-6 small-3 medium-4 large-2 @cssClass">
+        <a href="@Html.LocalizeUrl(integration.Url)" class="integration text-center">
+            <img src="@CdnHelper.GetCdnUrl(integration.ImageIcon)" srcset="@CdnHelper.GetCdnUrl(integration.ImageIcon2x) 2x" alt="@Integrations.ResourceManager.GetString(integration.NameLocKey)" />
+            @Integrations.ResourceManager.GetString(integration.NameLocKey)
+        </a>
+    </div>
+}

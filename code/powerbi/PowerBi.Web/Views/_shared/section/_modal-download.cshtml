@@ -1,0 +1,24 @@
+﻿@model PowerBI.Web.Models.Parts.ModalDownload
+@using Resources = PowerBI.Resources.Shared.Section.ModalDownload
+@using Forms = PowerBI.Resources.Shared.Forms.Form
+
+<section id="modal-download" class="section section-size3 modal text-center">
+    <a href="#" class="close">&times;</a>
+    <div class="row">
+        <div class="column large-10 large-centered">
+            <p class="text-heading1 text-center">@Resources.Download_Heading</p>
+            @Html.Raw(Resources.Download_Content)
+        </div>
+    </div>
+    <div class="row">
+        <div class="column large-10 large-centered">
+            @Html.CreateForm(Model.DownloadType, new Acom.Forms.Models.FormOptions
+            {
+                Class = "form-email-only",
+                Slug = "powerbi-desktop-download",
+                SubmitRedirectUrl = Html.LocalizeUrl(Model.SubmitRedirectUrl ?? "/desktop-thank-you/").ToString(),
+            })
+            <p class="text-mini">@Html.RawFormatInvariant(Forms.Terms_GetStarted, Html.LocalizeUrl("/terms-of-service/"))</p>
+        </div>
+    </div>
+</section>

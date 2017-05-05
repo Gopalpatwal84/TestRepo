@@ -1,0 +1,829 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="About_Content" xml:space="preserve">
+    <value>&lt;p&gt;The Data Exploration course will provide tutorials on the below using Microsoft Power BI: 
+&lt;ul&gt;&lt;li&gt;Learn how to create histograms and box and whisker plots to explore data distributions. Watch how to load in data, apply changes, adjust queries, merge multiple datasets, and leverage Custom Visualizations to augment your analysis.&lt;/li&gt;
+&lt;li&gt;Discover how to find a story within data and explore the data from different perspectives with a time series analysis demo. Learn to create a simple line chart, add a trend line, analyze seasonal and random data, and use an R script.&lt;/li&gt;
+&lt;li&gt;Receive an overview on how to create a visualization with multiple connecting graphics.&lt;/li&gt;&lt;/ul&gt;
+&lt;/p&gt;</value>
+  </data>
+  <data name="Article_Content10_2" xml:space="preserve">
+    <value>&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;Enter the code below&lt;/strong&gt; in the editor (see explanation included),
+and press &lt;strong&gt;OK&lt;/strong&gt;.&lt;ol&gt;&lt;li&gt;&lt;p&gt; library will use it for that particular R session. You install
+    packages once on your machine but you need the library command every
+    time you use a package&lt;/p&gt;
+  &lt;p&gt;library(Ecdat)&lt;/p&gt;
+&lt;p&gt;library(fpp)&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt; here we create a time series object out of the fourth column, using
+    a frequency of 12 months a year, starting from January 2002&lt;/p&gt;&lt;p&gt;input &amp;lt;- ts(dataset[,4], frequency = 12, start = c(2002,1))&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;To find the trend, we calculate the monthly moving average [see
+    tutorial 1 on global temperature change to see how you can use DAX
+    for calculating a moving average]&lt;/p&gt;
+  &lt;p&gt;trend = ma(input, order = 12, centre = T)&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;To expose the seasonality in the data we first ‘detrend’ the time
+    series by removing the trend&lt;/p&gt;
+  &lt;p&gt;detrend = input / trend&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;we split out our dataset into a matrix grouping together all the
+    data from the same month (by column)&lt;/p&gt;
+&lt;p&gt;m = t(matrix(data = detrend, nrow = 12))&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;By taking the mean from the matrix, we find the seasonality&lt;/p&gt;
+  &lt;p&gt;seasonal = colMeans(m, na.rm = T)&lt;/p&gt;
+&lt;p&gt;seasonalData &amp;lt;- c()&lt;/p&gt;
+&lt;p&gt;for(i in 1:13)&lt;/p&gt;
+&lt;p&gt;&amp;#123;&lt;/p&gt;
+&lt;p&gt;seasonalData &amp;lt;- c(seasonal, seasonalData)&lt;/p&gt;
+&lt;p&gt;&amp;#125;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt; Now we can isolate the noise by dividing the time series by the
+    trend-cycle&lt;/p&gt;
+  &lt;p&gt;random = input /(trend * seasonal)&lt;/p&gt;
+&lt;/li&gt;&lt;li&gt;&lt;p&gt;The results are written to a new table where we combine the output
+    with our initial dataset.&lt;/p&gt;
+  &lt;p&gt;output&amp;lt;- data.frame(seasonalData, trend, random, dataset)&lt;/p&gt;
+&lt;/li&gt;&lt;/ol&gt;&lt;/li&gt;
+&lt;li&gt;Expand the table that has been created, and change the data type of
+the &lt;strong&gt;Date&lt;/strong&gt; column back into date.&lt;p&gt;&lt;img src="{0}" alt="" title="" /&gt;&lt;/p&gt;
+&lt;p&gt;If you want you can delete the &lt;strong&gt;Name&lt;/strong&gt; column as well, it only
+contains an ‘output’ label for each row.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Close and Apply&lt;/strong&gt;. Use the newly created columns to plot
+seasonality, trend, and noise over time. 
+&lt;p&gt;&lt;img src="{1}" alt="" title="" /&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;</value>
+  </data>
+  <data name="Article_Content11_4" xml:space="preserve">
+    <value>&lt;p&gt;&lt;img src="{0}" alt="" title="" /&gt;&lt;/p&gt;
+
+&lt;p&gt;Notice that the column chart shows an overall pattern, but the line
+chart displays a clearer trend change. Experiment with switching the
+charts from column to line to see how each chart presents data. Also,
+notice that the underlying measures change how the trend appears and
+what story the data tells.&lt;/p&gt;
+
+&lt;p&gt;Likewise, as you analyze data, it’s important to review it from multiple
+angles. In the below visualization, the trends in &lt;strong&gt;CO2 emissions
+(metric tons per capita)&lt;/strong&gt; and &lt;strong&gt;CO2 emissions (kg per PPP \$ of GDP&lt;/strong&gt;),
+show very different aspects of the trends. Experiment with using Power
+BI to visualize the other CO2 emissions metrics to see interesting
+trends and reason through why those trends could be occurring.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src="{1}" alt="" title="" /&gt;&lt;/p&gt;
+
+&lt;h3&gt;Step 2: Relationships between data&lt;/h3&gt;
+
+&lt;p&gt;In a previous tutorial, we covered merging data. Power BI provides
+another way to work with multiple tables of data: Relationships.&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;Open the file &lt;strong&gt;Where does your electricity come from final.pbix&lt;/strong&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Press the &lt;strong&gt;Relationships&lt;/strong&gt; button on the left icon bar&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Select the line joining the two tables, this reveals which fields
+bind the two relationships together&lt;/p&gt;
+
+&lt;p&gt;a.  To learn to create and manage relationships between tables,
+    &lt;a href="{2}"&gt;click
+    here&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;img src="{3}" alt="" title="" /&gt;&lt;/p&gt;</value>
+  </data>
+  <data name="Article_Content12_4" xml:space="preserve">
+    <value>&lt;h3&gt;Step 3: Data Calculations using DAX Expressions&lt;/h3&gt;
+
+&lt;p&gt;Power BI provides default data calculations that address many scenarios.
+However, there are cases when you need more control. Power BI provides a
+rich language for expressions called Data Access Expressions (DAX). A
+good starting point is to review our &lt;a href="{0}"&gt;Quick Start: Learn DAX
+Basics&lt;/a&gt;
+topic.&lt;/p&gt;
+
+&lt;p&gt;In this tutorial, we’ll cover two useful expressions that help with data
+storytelling specifically.&lt;/p&gt;
+
+&lt;h4&gt;Creating a custom color scheme using an DAX Expression&lt;/h4&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;On the &lt;strong&gt;Modeling&lt;/strong&gt; ribbon, select &lt;strong&gt;New Column&lt;/strong&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Enter the following expression in the expression editor&lt;/p&gt;
+
+&lt;p&gt;Emphasis Country = if('Metadata - Countries'[Country Name] =
+"France", "Emphasis", if('Metadata - Countries'[Country Name] =
+"Denmark", "Emphasis", if('Metadata - Countries'[Country Name] =
+"Poland", "Emphasis", "Other")))&lt;/p&gt;
+
+&lt;p&gt;Note: notice how the expression is picking specific values of the
+&lt;strong&gt;Country Name&lt;/strong&gt; field and is assigning them to a category called
+&lt;strong&gt;Emphasis&lt;/strong&gt; and the remainder of the values is given a category of
+&lt;strong&gt;Other&lt;/strong&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Press the &lt;strong&gt;check mark&lt;/strong&gt; icon to the left of the editor&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Add the &lt;strong&gt;Emphasis Country&lt;/strong&gt; column to the &lt;strong&gt;Legend&lt;/strong&gt; property of a
+Power BI visual (such as a filled map as shown below:&lt;/p&gt;
+
+&lt;p&gt;a.  Set &lt;strong&gt;Location&lt;/strong&gt; to &lt;strong&gt;Country Name&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;b.  Set &lt;strong&gt;Legend&lt;/strong&gt; to &lt;strong&gt;Emphasis Country&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;c.  Set &lt;strong&gt;Color Saturation&lt;/strong&gt; to &lt;strong&gt;Country Code&lt;/strong&gt;&lt;/p&gt;
+
+&lt;pre&gt;i.  Note: this appears as **Count of Country Code**
+&lt;/pre&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;In the &lt;strong&gt;Format&lt;/strong&gt; pane, expand &lt;strong&gt;Data colors&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;a.  Set the color for &lt;strong&gt;Emphasis&lt;/strong&gt; to a &lt;strong&gt;yellow&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;b.  Set the color for &lt;strong&gt;Other&lt;/strong&gt; to dark &lt;strong&gt;gray&lt;/strong&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;img src="{1}" alt="" title="" /&gt;&lt;/p&gt;
+
+&lt;p&gt;The resulting map looks as follows:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src="{2}" alt="" title="" /&gt;&lt;/p&gt;
+
+&lt;h4&gt;Creating a text label that appears only when a single value is selected&lt;/h4&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;On the &lt;strong&gt;Modeling&lt;/strong&gt; ribbon, select &lt;strong&gt;New Measure&lt;/strong&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Enter the following expression in the expression editor&lt;/p&gt;&lt;/li&gt;
+  &lt;p&gt;Selected Country Name = if(HASONEVALUE('Metadata - Countries'[Country
+Name]), VALUES('Metadata - Countries'[Country Name]) &amp;amp; " is
+selected", "")&lt;/p&gt;
+&lt;p&gt;Note: notice how the expression is checking if only one &lt;strong&gt;Country Name&lt;/strong&gt;
+is selected to show a specific string. Otherwise, it will show no value.&lt;/p&gt;
+&lt;li&gt;&lt;p&gt;Press the &lt;strong&gt;check mark&lt;/strong&gt; icon to the left of the editor&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Add a &lt;strong&gt;Card visual&lt;/strong&gt; to the page from the Visualization pane.&lt;/p&gt;
+
+&lt;p&gt;a.  Set Fields to &lt;strong&gt;Selected Country Name&lt;/strong&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Notice that the value is blank&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;Select a country&lt;/strong&gt; on the map&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Notice the label appears&lt;/p&gt;
+
+&lt;p&gt;Note: you can import the &lt;a href="{3}"&gt;Long Text
+Viewer&lt;/a&gt;
+visual for an alternate view of the data.&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;</value>
+  </data>
+  <data name="Article_Content13_5" xml:space="preserve">
+    <value>&lt;p&gt;&lt;img src="{0}" alt="" title="" /&gt;&lt;/p&gt;
+&lt;h3&gt;Step 4: Selecting appropriate visual interactions&lt;/h3&gt;
+&lt;p&gt;By default, Power BI filters and cross highlights data for you. Be sure
+to review the default interactions and optimize them to ensure they’re
+showing the data in the best way.&lt;/p&gt;
+&lt;p&gt;Notice that by default the map cross highlights the stacked column
+chart.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Select &lt;strong&gt;France&lt;/strong&gt; on the map, and see that the result is as follow.&lt;/li&gt;
+&lt;p&gt;&lt;img src="{1}" alt="" title="" /&gt;&lt;/p&gt;
+
+&lt;p&gt;To control the visual interactions,&lt;/p&gt;
+&lt;li&gt;&lt;p&gt;On the &lt;strong&gt;Format&lt;/strong&gt; ribbon&lt;/p&gt;
+&lt;p&gt;a.  Select the &lt;strong&gt;Edit Interactions&lt;/strong&gt; button&lt;/p&gt;&lt;/li&gt;
+&lt;p&gt;&lt;img src="{2}" alt="" title="" /&gt;&lt;/p&gt;
+&lt;li&gt;&lt;p&gt;Select the &lt;strong&gt;Map&lt;/strong&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Notice the tool bar that appears on the 100% &lt;strong&gt;Stacked column
+chart&lt;/strong&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;p&gt;&lt;img src="{3}" alt="" title="" /&gt;&lt;/p&gt;
+&lt;li&gt;&lt;p&gt;Select the filter icon on the tool bar, the 100% Stacked column
+chart now shows the trend for France in an easier to see way.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src="{4}" alt="" title="" /&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;</value>
+  </data>
+  <data name="Article_Content14_2" xml:space="preserve">
+    <value>&lt;p&gt;Note: The data challenge related to percent of total is covered in
+detail in &lt;strong&gt;Part 2 - Supplement on percent of total&lt;/strong&gt;.&lt;/p&gt;
+&lt;h2&gt;Part 2 - Supplement on percent of total&lt;/h2&gt;
+&lt;p&gt;In our course material, we presented the following chart and mentioned
+that you need to be careful when using the data and the aggregation. The
+reason is the values used to create the chart are represented as a “% of
+total”. So, this chart is effectively aggregating over a percentage.
+This can cause a typical data error that you are likely to encounter in
+your data analysis: summarizing aggregated data using SUM, AVERAGE, or
+other aggregates is not representative of the underlying data. Let’s see
+how this works in this case.&lt;/p&gt;
+&lt;p&gt;&lt;img src="{0}" alt="" title="" /&gt;&lt;/p&gt;
+&lt;p&gt;Figure 1 When the chart is first loaded no country is selected so the
+SUM aggregate being applied to the underlying data, which in this case
+is a percentage. The total of all percentage values is then displayed
+and visually encoded. This is inaccurate.&lt;/p&gt;
+&lt;p&gt;The underlying data in this dataset is identified using the following
+columns of data:&lt;/p&gt;
+&lt;h3&gt;Year Country Value(s)&lt;/h3&gt;
+&lt;p&gt;Values in the dataset that are percentages, averages, medians, etc. can
+only be displayed accurately if both Year and Country have a single
+value. Some fields are additive, for example &lt;strong&gt;Population, Total,&lt;/strong&gt; and
+can be aggregated across &lt;strong&gt;Countries&lt;/strong&gt; for a specific &lt;strong&gt;Year&lt;/strong&gt;, but not
+across &lt;strong&gt;Years&lt;/strong&gt;. In the chart above, we only have one of those two
+elements present – &lt;strong&gt;Year&lt;/strong&gt; on the x-axis.&lt;/p&gt;
+&lt;p&gt;In the course, we introduced the map visual and selected one country on
+the map, the chart suddenly started to show correct data. Below is an
+example where we select France and the chart shows the data one would
+expect. You can see from the tooltip that the value passed to the visual
+and the value encoded by the visual, the percentage label in
+parenthesis, match.&lt;/p&gt;
+&lt;p&gt;&lt;img src="{1}" alt="" title="" /&gt;&lt;/p&gt;
+&lt;p&gt;Figure 2 When a single country is selected, the combination of year and
+country are met and the data is correctly displayed. The tooltip
+confirms that the aggregated percentage and the actual percentage
+visually encoded in the chart match.&lt;/p&gt;
+&lt;p&gt;This kind of issue where the incorrect aggregate is applied to the wrong
+granularity of data is common in data analysis. It requires continual
+attention to ensure you are building visualizations that are correctly
+defined.&lt;/p&gt;
+&lt;p&gt;There are several common cases to watch out for. In this case, we’re
+dealing with a synthetic measure % of total. Generally, you can only
+report on synthetic measures exactly at the grain they were computed.
+You can’t aggregate them, for example an average percentage of total for
+all countries is meaningless. Similarly, the sum of percentage of total
+is also meaningless unless the sum of all the parts of the same
+decomposed value at the exact granularity (and it should sum to 100% ).&lt;/p&gt;</value>
+  </data>
+  <data name="Article_Content15" xml:space="preserve">
+    <value>&lt;p&gt;Another common case is the use of averages. When you compute an average,
+you need to be careful how you use and present it. If you take an
+average of an average, you’ve produced a grossly misleading output. For
+example, if we have two countries, one producing 100 kWh of electricity
+a year, with 80% coming from burning coal, and a second country
+producing 10 kWh of electricity, with 50% coming from burning coal. If
+you average the percentages, you would report 65% of electric production
+as coming from coal, which is incorrect. The correct value would be 80kW
++ 5kWH / 110kWh = 77% of electric production comes from coal.&lt;/p&gt;
+
+&lt;p&gt;Lastly an insidious case is the loss of precision that occurs when data
+is extracted or projected without including its original precision or
+granularity. Simple examples include truncating a sales amount to the
+nearest dollar, missing the cents part of the number. If you aggregate
+over the sales amount, the grand total you compute may significantly
+vary from the same calculation performed at the source system. An even
+more tricky case where individuals extracting data do not have
+permission to see all line items. Typically, organizations enable
+individuals to extract the line items they have permission to see, and
+an ‘official’ grand total that is computed over all the line items in
+the system so numbers match across different reports generated for
+different people. If you attempt then to aggregate over the line item
+data itself, without including the grand totals in the equation, you
+will present wrong data.&lt;/p&gt;
+
+&lt;h3&gt;How to solve this kind of issue?&lt;/h3&gt;
+
+&lt;p&gt;The root cause of the issue is the metrics used in the chart are already
+percentages. To avoid the issue, we need to re-compute the percentages
+over a metric that includes the granularity of electricity production.
+The dataset we have to work with is unfortunately incomplete – there’s
+no total production of electricity by country metric. If there was, the
+calculation would be easy and there would be no need any further
+explanations. We would multiply the country’s yearly electric production
+by the percentage of each source and use the resulting value in our
+aggregations.&lt;/p&gt;
+
+&lt;p&gt;However, since the data does not include this measure, we need to
+consider our alternatives. There’s one rule of thumb we should cover
+before going forward: &lt;strong&gt;when in doubt, leave it out&lt;/strong&gt;. Your
+responsibility as an analyst is to truthfully present data, whether in a
+narrative or exploratory interactive data visualization. If you’re
+unsure of the veracity of the data, then you should not report it, until
+you are certain.&lt;/p&gt;
+
+&lt;p&gt;There are two other alternatives I’ll discuss here. The first
+essentially avoids the miscalculation by ensuring no data is returned
+when the data is at the wrong granularity and you cannot be sure it is
+correct. You can do this using a DAX measure as follows:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;strong&gt;Conditional Electricity from Coal (% of total) =
+if(AND(HASONEVALUE(Data[Country Code]), HASONEVALUE(Data[Year])),
+SUM(Data[Electricity from coal (% of total)]), BLANK())&lt;/strong&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Notice the above formula checks the critical conditions and only then
+returns a value. You’d repeat this measure for each of the % of total
+fields we have and then you’ll plot them on a 100% stacked column chart.
+The chart would show blank until a country is selected, at which point
+accurate data would be shown. You’d need to provide a clear call to
+action to tell your readers they first need to select a country before
+the data visualization shows data. Even so, readers may be confused by
+the large blank area in the middle of an otherwise interesting data
+visualization.&lt;/p&gt;
+
+&lt;p&gt;…&lt;/p&gt;
+
+&lt;p&gt;The second alternative requires you to return the data to a metric that
+can be aggregated. For this example, the ideal would be to find a
+dataset that shows electricity production in kWh for each country.
+Unfortunately, we’ve yet to find this dataset.&lt;/p&gt;
+
+&lt;p&gt;So, we end up needing to make some assumptions to get a representation
+of the overall metrics across countries and regions. Assumptions are
+always imperfect and need to be validated with stakeholders and
+discussed openly. Importantly, you’ll want to plan to explain the
+assumptions and your methodology as part of publishing your data
+visualization. Should you fail to state your assumptions, your analysis
+might be considered deceptive by some, opening you to criticism. So,
+care should be taken in making assumptions and communication to the
+reader is key to success on this path. That being said, the derived or
+constructed values can provide interesting insights so long as they’re
+correctly contextualized in usage.&lt;/p&gt;&lt;p&gt;Let’s see how to solve this in this example. The data includes a metric
+that is like our desired one: &lt;strong&gt;Electric power consumption (kWh per
+capita)&lt;/strong&gt;. It also includes &lt;strong&gt;Population, total&lt;/strong&gt;. Each of these is
+available aggregated by country and year. So, if we’re willing to assume
+that electric power consumption and electric power production are equal,
+we can do some math to create a synthetic view of production by source
+in kWh. I should call out that this assumption could be challenged, for
+example Canada routinely sells hydroelectric power to the United States,
+which consumes it. However, the goal here is to show representative
+approximation % of total values across countries and regions. As the
+visualization creator, I need to decide whether the resulting proxy
+measure will be meaningful before I present it.&lt;/p&gt;
+
+&lt;p&gt;The easiest way to do the math for this example is during data load In
+the Query tab (Edit Queries in the ribbon), I’ve used the Add Column
+feature on the “Data” query to add a new column called “Synthetic
+Electric Production – Coal” with the following formula:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;strong&gt;[#"Population, total"] * [#"Electric power consumption (kWh
+per capita)"] * [#"Electricity from coal (% of total)"] / 100&lt;/strong&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;We repeated this calculation for each of the sources of electricity in
+the dataset: oil, natural gas, hydroelectric, nuclear, and renewables.
+The resulting chart is shown below.&lt;/p&gt;</value>
+  </data>
+  <data name="Article_Content16_1" xml:space="preserve">
+    <value>&lt;p&gt;&lt;img src="{0}" alt="" title="" /&gt;&lt;/p&gt;
+
+&lt;p&gt;Figure 3 Updated chart based on synthetic measures. Assumptions are
+clearly stated to inform the reader. Measure names indicate the data is
+constructed.&lt;/p&gt;
+
+&lt;p&gt;If you compare chart in Figure 3 to the chart in Figure 1, you will see
+a large difference in the trend for each series. This last chart is
+representative, and when the correctness conditions of a single year and
+a single country are satisfied, it reports the same data as the top
+chart.&lt;/p&gt;
+
+&lt;p&gt;In this example we’ve overcome the challenge of an incorrect aggregate,
+but at the cost of adding an assumption that could be challenged. You
+can see from the length of this explanation why we chose not to include
+this detail directly in the course video. The example is illustrative of
+the challenges you as the data visualization designer will face as you
+seek to truthfully present data to a broad audience.&lt;/p&gt;</value>
+  </data>
+  <data name="Article_Content1_4" xml:space="preserve">
+    <value>&lt;h2 id="exploring-distributions"&gt;Exploring distributions in Power BI&lt;/h2&gt;
+
+&lt;p&gt;For this tutorial, we will look at how we can analyze data for the
+Brazilian IDEB scores provided by Alberto.&lt;/p&gt;
+
+&lt;p&gt;What you will need:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;Brazil Regions.xlsx&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;IDEB2009.csv&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3&gt;Step 1: Loading the IDEB data&lt;/h3&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;Open &lt;em&gt;*Power BI Desktop *&lt;/em&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Use &lt;strong&gt;Get Data UI&lt;/strong&gt; to load from the &lt;strong&gt;IDEB2009.csv&lt;/strong&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;p&gt;Home Ribbon -&amp;gt; Get Data -&amp;gt; CSV&lt;/p&gt;
+&lt;/ol&gt;
+&lt;p&gt;Note: if you are unfamiliar with the process, please refer to earlier
+tutorials. Also, the UI actions are clearly shown in the video
+recording.&lt;/p&gt;
+
+&lt;h2&gt;Step 2: Create a basic histogram using a column chart&lt;/h2&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;In &lt;strong&gt;Power BI Desktop&lt;/strong&gt;, on a blank report page, insert a &lt;strong&gt;Stacked
+Column&lt;/strong&gt; chart by clicking the icon in the &lt;strong&gt;Visualizations&lt;/strong&gt; tab:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src="{0}" alt="" title="" /&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Bind data to the visual:&lt;/p&gt;
+
+&lt;p&gt;a.  Add &lt;strong&gt;&lt;em&gt;score&lt;/em&gt;&lt;/strong&gt; to &lt;strong&gt;Axis&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;b.  Add &lt;strong&gt;&lt;em&gt;school&lt;/em&gt;&lt;/strong&gt; to &lt;strong&gt;Value&lt;/strong&gt;&lt;/p&gt;
+
+&lt;pre&gt;i.  Notice Power BI automatically aggregates the school to
+    “Count of school”
+&lt;/pre&gt;&lt;/li&gt;
+&lt;p&gt;&lt;img src="{1}" alt="" title="" /&gt;&lt;/p&gt;
+&lt;pre&gt;        The resulting chart is a histogram of the underlying
+        data values.
+&lt;/pre&gt;
+&lt;li&gt;&lt;p&gt;You can adjust the colors using the &lt;strong&gt;Formatting&lt;/strong&gt; pane if you’d
+like to achieve the completed look:&lt;/p&gt;
+
+&lt;p&gt;a.  With the visual selected, &lt;strong&gt;select the format pane&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;b.  &lt;strong&gt;Expand Data Colors&lt;/strong&gt;, and &lt;strong&gt;select the color&lt;/strong&gt; of your
+    choosing&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;img src="{2}" alt="" title="" /&gt;&lt;/p&gt;
+
+&lt;h3&gt;Step 3: Adjusting Axis endpoints&lt;/h3&gt;
+
+&lt;p&gt;Sometimes to ensure data is comparable as you filter/highlight data it’s
+important to override the defaults within Power BI. In this example, we
+set the scale for X and Y axis to ensure we have comparable results
+across the solutions.&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;In the &lt;strong&gt;formatting&lt;/strong&gt; pane, expand &lt;strong&gt;X-Axis&lt;/strong&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;For the &lt;strong&gt;End&lt;/strong&gt; property, set a value of &lt;strong&gt;&lt;em&gt;8&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;img src="{3}" alt="" title="" /&gt;&lt;/p&gt;</value>
+  </data>
+  <data name="Article_Content2_8" xml:space="preserve">
+    <value>&lt;h3&gt;Step 4: Adding high quality state information to the report&lt;/h3&gt;
+&lt;p&gt;Power BI has an intrinsic understanding of geographic information. The
+ability to place data correctly on the map is significantly impacted by
+the specificity of the data. In the case of the IEDB scores, the state
+information is ambiguous when placed on a map. This section shows how to
+load higher quality data and add it to the IEDB scores data we already
+have.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;Use the &lt;strong&gt;Get Data-&amp;gt; from web&lt;/strong&gt; option&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Enter the following url as shown in the resulting dialog:
+&lt;a href="{0}"&gt;{0}&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;p&gt;&lt;img src="{1}" alt="" title="" /&gt;&lt;/p&gt;
+&lt;li&gt;In the &lt;strong&gt;Navigator&lt;/strong&gt; dialog, &lt;strong&gt;check the box&lt;/strong&gt; next to “List of
+Brazilian states[edit],” then press &lt;strong&gt;OK&lt;/strong&gt;.&lt;/li&gt;
+&lt;p&gt;&lt;img src="{2}" alt="" title="" /&gt;&lt;/p&gt;
+&lt;li&gt;&lt;p&gt;To add state information to the original IEDB data, we will merge
+the queries.&lt;/p&gt;
+&lt;p&gt;a.  &lt;strong&gt;Select&lt;/strong&gt; &lt;strong&gt;the IEDB2009 query&lt;/strong&gt; in the query Window&lt;/p&gt;&lt;/li&gt;
+&lt;p&gt;&lt;img src="{3}" alt="" title="" /&gt;&lt;/p&gt;
+&lt;li&gt;In the ribbon, select the &lt;strong&gt;Merge Queries&lt;/strong&gt; button&lt;/li&gt;
+&lt;p&gt;&lt;img src="{4}" alt="" title="" /&gt;&lt;/p&gt;
+&lt;li&gt;&lt;p&gt;In the &lt;strong&gt;Merge&lt;/strong&gt; dialog,&lt;/p&gt;
+&lt;p&gt;a.  Select ‘&lt;strong&gt;State’&lt;/strong&gt; &lt;strong&gt;in the IEDB2009 query&lt;/strong&gt; and select
+    ‘&lt;strong&gt;Abbreviation’&lt;/strong&gt; &lt;strong&gt;in the List of Brazilian states query&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;b.  Select &lt;strong&gt;Left Outer&lt;/strong&gt; in the &lt;strong&gt;Join Kind&lt;/strong&gt; option&lt;/p&gt;
+&lt;p&gt;c.  Press &lt;strong&gt;OK&lt;/strong&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;p&gt;&lt;img src="{5}" alt="" title="" /&gt;&lt;/p&gt;
+&lt;li&gt;&lt;p&gt;A &lt;strong&gt;new column&lt;/strong&gt; is added to your query.&lt;/p&gt;
+&lt;p&gt;a.  Press the &lt;strong&gt;expand icon&lt;/strong&gt; on the top left of the column header&lt;/p&gt;&lt;/li&gt;
+&lt;p&gt;&lt;img src="{6}" alt="" title="" /&gt;&lt;/p&gt;
+&lt;li&gt;&lt;p&gt;In the dialog that opens&lt;/p&gt;
+&lt;p&gt;a.  Uncheck &lt;strong&gt;(Select All Columns)&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;b.  Select &lt;strong&gt;State&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;c.  Press &lt;strong&gt;OK&lt;/strong&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;p&gt;&lt;img src="{7}" alt="" title="" /&gt;&lt;/p&gt;
+&lt;li&gt;A new column is added; double click the &lt;strong&gt;column header&lt;/strong&gt; to change
+the name of the column to “&lt;strong&gt;state name&lt;/strong&gt;”&lt;/li&gt;
+&lt;p&gt;a.  &lt;img src="{8}" alt="" title="" /&gt;&lt;/p&gt;
+&lt;li&gt;&lt;p&gt;To make the state names geocode better, we will use an additional
+custom column&lt;/p&gt;
+&lt;p&gt;a.  Press &lt;strong&gt;Add Custom Column&lt;/strong&gt; button in the &lt;strong&gt;Add Column&lt;/strong&gt; Ribbon&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;</value>
+  </data>
+  <data name="Article_Content4_7" xml:space="preserve">
+    <value>&lt;blockquote&gt;
+  &lt;p&gt;&lt;img src="{0}" alt="" title="" /&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;b.  In the &lt;strong&gt;Add Custom Column&lt;/strong&gt; dialog, enter the expression:&lt;/p&gt;
+
+&lt;pre&gt;**\[state name\] &amp;amp; “, Brasil”**
+&lt;/pre&gt;
+
+&lt;p&gt;&lt;img src="{1}" alt="" title="" /&gt;&lt;/p&gt;
+
+&lt;p&gt;c.  Press &lt;strong&gt;OK&lt;/strong&gt;&lt;/p&gt;
+
+&lt;h3&gt;Step 5: Loading Region metadata&lt;/h3&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;In the &lt;strong&gt;Query Editor&lt;/strong&gt; windows select &lt;strong&gt;New Source -&amp;gt; Excel&lt;/strong&gt; on
+the Home Ribbon&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Select the &lt;strong&gt;Excel file “Brazil Regions.xlsx”&lt;/strong&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;In the &lt;strong&gt;Navigator&lt;/strong&gt; dialog, check the box next to
+&lt;strong&gt;“BrazilRegions”&lt;/strong&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Press &lt;strong&gt;OK&lt;/strong&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;p&gt;&lt;img src="{2}" alt="" title="" /&gt;&lt;/p&gt;
+&lt;li&gt;&lt;p&gt;In the query window, the new query will load&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Right click the state column header, select &lt;strong&gt;Split Column&lt;/strong&gt;, select
+&lt;strong&gt;by Delimiter&lt;/strong&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;p&gt;&lt;img src="{3}" alt="" title="" /&gt;&lt;/p&gt;
+&lt;li&gt;&lt;p&gt;In the &lt;strong&gt;Split Column by Delimiter&lt;/strong&gt; dialog,&lt;/p&gt;
+&lt;p&gt;a.  Select &lt;strong&gt;Space&lt;/strong&gt; in the &lt;strong&gt;Select or enter delimiter&lt;/strong&gt; drop down&lt;/p&gt;
+&lt;p&gt;b.  Select &lt;strong&gt;At the right-most delimiter&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;c.  Press &lt;strong&gt;OK&lt;/strong&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;p&gt;&lt;img src="{4}" alt="" title="" /&gt;&lt;/p&gt;
+&lt;li&gt;&lt;p&gt;Two new columns are created &lt;strong&gt;State.1&lt;/strong&gt; and &lt;strong&gt;State.2&lt;/strong&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Right click one of the values in the State.2 column&lt;/p&gt;
+&lt;p&gt;a.  Select &lt;strong&gt;Replace Values…&lt;/strong&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;p&gt;&lt;img src="{5}" alt="" title="" /&gt;&lt;/p&gt;
+&lt;li&gt;&lt;p&gt;In the &lt;strong&gt;Replace Values&lt;/strong&gt; dialog,&lt;/p&gt;
+&lt;p&gt;a.  Enter “(“ for the &lt;strong&gt;Value to Find&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;b.  Leave &lt;strong&gt;Replace With&lt;/strong&gt; blank&lt;/p&gt;
+&lt;p&gt;c.  Press &lt;strong&gt;OK&lt;/strong&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;p&gt;&lt;img src="{6}" alt="" title="" /&gt;&lt;/p&gt;
+&lt;li&gt;&lt;p&gt;Repeat the above instructions to remove the “)” from the State.2
+column&lt;/p&gt;
+&lt;p&gt;Note: the following steps repeat the same process you learned
+earlier in this tutorial to merge the new region column into the
+IDEB2009 query. Please see instructions above for details
+instruction on how to accomplish these steps.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Rename the State.2 column to &lt;strong&gt;“Abbr”&lt;/strong&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Select the &lt;strong&gt;IDEB2009 query&lt;/strong&gt; in the Queries list&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Select &lt;strong&gt;Merge&lt;/strong&gt; on the Home ribbon&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;In the &lt;strong&gt;Merge&lt;/strong&gt; dialog&lt;/p&gt;
+&lt;p&gt;a.  Select the &lt;strong&gt;state&lt;/strong&gt; column in the IDEB2009 query&lt;/p&gt;
+&lt;p&gt;b.  Select the &lt;strong&gt;Abbr&lt;/strong&gt; column in the BrazilRegions query&lt;/p&gt;
+&lt;p&gt;c.  Press &lt;strong&gt;OK&lt;/strong&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Select the &lt;strong&gt;Expand icon&lt;/strong&gt; on the &lt;strong&gt;New Column&lt;/strong&gt; column&lt;/p&gt;
+&lt;p&gt;a.  Select only the &lt;strong&gt;Region&lt;/strong&gt; column in the dropdown&lt;/p&gt;
+&lt;p&gt;b.  Select &lt;strong&gt;OK&lt;/strong&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Press &lt;strong&gt;Close &amp;amp; Apply&lt;/strong&gt; in the Home ribbon&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;</value>
+  </data>
+  <data name="Article_Content6_6" xml:space="preserve">
+    <value>&lt;p&gt;&lt;img src="{0}" alt="" title="" /&gt;&lt;/p&gt;
+&lt;h3&gt;Step 6: Build an interactive map using the new data&lt;/h3&gt;
+&lt;p&gt;With the new columns, we can create a map to make a more compelling
+analysis.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;In the &lt;strong&gt;Visualizations&lt;/strong&gt; pane, select the &lt;strong&gt;Filled Map&lt;/strong&gt; visual to
+insert it on the canvas&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Bind the following data to the visual&lt;/p&gt;
+&lt;p&gt;a.  Add the &lt;strong&gt;state name brazil&lt;/strong&gt; column to &lt;strong&gt;Location&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;b.  Add the &lt;strong&gt;score&lt;/strong&gt; column to &lt;strong&gt;Color saturation&lt;/strong&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;img src="{1}" alt="" title="" /&gt;&lt;/p&gt;
+&lt;p&gt;Optionally, as shown in the video recording:&lt;/p&gt;
+&lt;p&gt;a.  Change the aggregate for the &lt;strong&gt;score&lt;/strong&gt; column to &lt;strong&gt;median&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;b.  Explore using the formatting pane to adjust the color on the map to
+    make them easier to see.&lt;/p&gt;
+&lt;p&gt;c.  Add the &lt;strong&gt;Region&lt;/strong&gt; column to the canvas and make it into a slicer.&lt;/p&gt;
+&lt;h3&gt;Step 7: Custom binning: Histogram custom visual&lt;/h3&gt;
+&lt;p&gt;To complete this section, first &lt;strong&gt;download the Histogram custom visual&lt;/strong&gt;
+from: &lt;a href="{2}"&gt;{2}&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Power BI has a gallery of custom visuals you can download. The gallery
+is located here: &lt;a href="{3}"&gt;{3}&lt;/a&gt;&lt;/p&gt;&lt;ol&gt;
+&lt;li&gt;Open a web browser to the following URL:&lt;/li&gt;
+&lt;p&gt;&lt;a href="{2}"&gt;{2}&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;img src="{4}" alt="" title="" /&gt;&lt;/p&gt;
+&lt;li&gt;&lt;p&gt;Press the &lt;strong&gt;Download Visual&lt;/strong&gt; button&lt;/p&gt;
+&lt;p&gt;Note: please read and review the terms of use prior to downloading
+the visual&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;In Power BI Desktop press the &lt;strong&gt;…&lt;/strong&gt; button in the &lt;strong&gt;Visualizations&lt;/strong&gt;
+pane and follow the instructions to import the visual&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;A new visual is added to the visualizations pane&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Select the existing column chart on your report, then press the icon
+for the &lt;strong&gt;Histogram&lt;/strong&gt; visuals&lt;/p&gt;&lt;/li&gt;
+&lt;p&gt;&lt;img src="{5}" alt="" title="" /&gt;&lt;/p&gt;
+&lt;li&gt;&lt;p&gt;Open the &lt;strong&gt;Formatting&lt;/strong&gt; pane with the &lt;strong&gt;Histogram&lt;/strong&gt; visual selected&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Expand the &lt;strong&gt;General&lt;/strong&gt; options and enter a value for the
+&lt;strong&gt;Bins&lt;/strong&gt; property. This allows you to set custom bin sizes to match
+your data&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;</value>
+  </data>
+  <data name="Article_Content7_4" xml:space="preserve">
+    <value>&lt;h3&gt;Step 8: Box plots with Power BI&lt;/h3&gt;
+&lt;p&gt;For this section, please download the Box and Whisker (Jan Pieter)
+custom visual from:&lt;/p&gt;&lt;p&gt;&lt;a href="{0}"&gt;{0}&lt;/a&gt;&lt;/p&gt;&lt;ol&gt;
+&lt;li&gt;Follow the UI to download the visuals as described earlier in the
+tutorial&lt;/li&gt;&lt;p&gt;&lt;img src="{1}" alt="" title="" /&gt;&lt;/p&gt;&lt;li&gt;&lt;p&gt;Import the visual using the &lt;strong&gt;…&lt;/strong&gt; button in the &lt;strong&gt;Visualizations&lt;/strong&gt; pane as shown before        &lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li&gt;&lt;p&gt;Select the &lt;strong&gt;Histogram&lt;/strong&gt; visual then convert it to the box plot
+visual by pressing the &lt;strong&gt;Box Plot&lt;/strong&gt; icon in the &lt;strong&gt;Visualizations&lt;/strong&gt;
+pane&lt;/p&gt;
+&lt;p&gt;a.  Note: the visual will look blank at this point&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Set the data field for the Box Plot as follows:&lt;/p&gt;
+&lt;p&gt;a.  Set &lt;strong&gt;state&lt;/strong&gt; column on &lt;strong&gt;Category&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;b.  Set &lt;strong&gt;school&lt;/strong&gt; column on &lt;strong&gt;Sampling&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;c.  Set &lt;strong&gt;score&lt;/strong&gt; column on &lt;strong&gt;Values&lt;/strong&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;The Box Plot is rendered similarly to the below view:&lt;/p&gt;&lt;/li&gt;
+        &lt;p&gt;&lt;img src="{2}" alt="" title="" /&gt;&lt;/p&gt;
+         &lt;li&gt;
+                &lt;p&gt;With the Box Plot selected, open the Formatting pane:&lt;/p&gt;
+                &lt;p&gt;a.  Expand &lt;strong&gt;Chart Options&lt;/strong&gt;&lt;/p&gt;
+                &lt;p&gt;b.  Change &lt;strong&gt;Chart type&lt;/strong&gt; to &lt;strong&gt;1.5 IQR&lt;/strong&gt;&lt;/p&gt;
+                &lt;p&gt;c.  Change &lt;strong&gt;Outliers&lt;/strong&gt; to &lt;strong&gt;On&lt;/strong&gt;&lt;/p&gt;
+                &lt;p&gt;&lt;img src="{3}" alt="" title="" /&gt;&lt;/p&gt;
+            &lt;/li&gt;&lt;/ol&gt;
+</value>
+  </data>
+  <data name="Article_Content8_2" xml:space="preserve">
+    <value>               &lt;p&gt;Your final chart will look like the following:&lt;/p&gt; &lt;p&gt;&lt;img src="{0}" alt="" title="" /&gt;&lt;/p&gt;
+        &lt;h2 id="time-series"&gt;Time series with Spanish employment data&lt;/h2&gt;
+        &lt;p&gt;
+            One of the examples in Alberto’s book &lt;em&gt;The Truthful Art&lt;/em&gt; is explaining
+            how leveraging statistical methods for analysis can prove to be very
+            useful in understanding patterns and trends that are difficult to
+            discover with the eye. The following tutorial contains two examples of
+            this. The first example shows how to add a straight trend line to your
+            visual without calculating anything. In the second example, you will use
+            an R script in Power BI to calculate seasonality, noise and a curved
+            trend line. These concepts are further explained in part 2 of the online
+            course.
+        &lt;/p&gt;
+        &lt;h3&gt;Step 1: Creating a line chart with trend line&lt;/h3&gt;
+            &lt;ol&gt;&lt;li&gt;
+                &lt;p&gt;
+                    Create a line chart with date on the y-axis and
+                    SocialSecurityAffiliates on the x-axis.
+                &lt;/p&gt;
+            &lt;/li&gt;
+            &lt;li&gt;
+                &lt;p&gt;
+                    In the &lt;strong&gt;Analytics&lt;/strong&gt; pane on the right, turn the &lt;strong&gt;Trend Line&lt;/strong&gt; on.
+                    You can rename the trend line, and edit transparency and color.
+                &lt;/p&gt;
+            &lt;/li&gt;
+&lt;p&gt;&lt;img src="{1}" alt="" title="" /&gt;&lt;/p&gt;
+&lt;li&gt;Repeating this for &lt;strong&gt;Population 16-64&lt;/strong&gt; and &lt;strong&gt;Percentage&lt;/strong&gt; will get
+you the visuals as shown below.&lt;/li&gt;
+&lt;/ol&gt;</value>
+  </data>
+  <data name="Article_Content9_2" xml:space="preserve">
+    <value>&lt;p&gt;&lt;img src="{0}" alt="" title="" /&gt;&lt;/p&gt;
+&lt;h3&gt;Step 2: Using R to calculate seasonality, trend, and random noise&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;Make sure you have installed R on your machine, as well as an R
+editor such as RStudio&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;In your R editor install the two packages ‘Ecdat’ and ‘fpp’ by
+running the command &lt;strong&gt;install.packages(Ecdat)&lt;/strong&gt; and
+&lt;strong&gt;install.packages(fpp)&lt;/strong&gt;. This will install the packages on
+your device. You install packages once on your machine, but you will
+need to activate the library from Power BI every time you use
+a package.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;In the Query Editor, now change the data type of your &lt;strong&gt;Date&lt;/strong&gt;
+column into text. The script will not work with a date format.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;In the Transform ribbon, select the &lt;strong&gt;Run R Script&lt;/strong&gt; button.&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;img src="{1}" alt="" title="" /&gt;&lt;/p&gt;</value>
+  </data>
+  <data name="Article_Continue_Content10_1" xml:space="preserve">
+    <value>&lt;h2&gt;Rich exploration&lt;/h2&gt;&lt;p&gt;In this tutorial, we will cover some of the principles shown in the
+demo. It will not present step-by-step instructions, since many of the
+steps are covered by previous tutorials.&lt;/p&gt;
+&lt;p&gt;To complete this tutorial, please open the file &lt;strong&gt;“Where does your
+electricity come from final.pbix”&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;If you want to process the data yourself, you can download the latest
+data from the World Banks’s website:&lt;/p&gt;
+&lt;ol&gt;&lt;li&gt;&lt;p&gt;Open a web browser to:&lt;/p&gt;
+&lt;p&gt;&lt;a href="{0}"&gt;{0}&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;Download the file &lt;strong&gt;Climate Change (Excel)&lt;/strong&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3&gt;Step 1: Choosing a visual to show trended data&lt;/h3&gt;
+&lt;ol&gt;&lt;li&gt;&lt;p&gt;Create a blank page&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Add a column chart by selecting the &lt;strong&gt;column chart&lt;/strong&gt; in the
+&lt;strong&gt;visualization&lt;/strong&gt; pane and binding the following data fields:&lt;/p&gt;
+&lt;p&gt;a.  Year&lt;/p&gt;
+&lt;p&gt;b.  CO2 emissions (kt)&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Add a line chart by selecting the &lt;strong&gt;line chart&lt;/strong&gt; in the
+&lt;strong&gt;visualizations&lt;/strong&gt; pane and binding the following data fields:&lt;/p&gt;&lt;p&gt;a.  Year&lt;/p&gt;
+&lt;p&gt;b.  CO2 emissions (metric tons per capita)&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;</value>
+  </data>
+  <data name="Download_Resources" xml:space="preserve">
+    <value>Download all the resources needed for these tutorials</value>
+  </data>
+  <data name="Hero_Subtitle" xml:space="preserve">
+    <value>In the second Data Visualization and Storytelling course Alberto Cairo will discuss how you can use visualization to extract meaning from your data. Alberto explains how to condense data and when to leverage graphic forms like a box and whisker plot. We will also explore time series analysis to focus on uncovering overall trends and seasonal patterns. Additionally, Alberto will help share how to connect different graphics to give meaning to your data.</value>
+  </data>
+  <data name="Hero_Title" xml:space="preserve">
+    <value>Data Exploration</value>
+  </data>
+  <data name="InThisArticle" xml:space="preserve">
+    <value>In this article:</value>
+  </data>
+  <data name="META_DESCRIPTION" xml:space="preserve">
+    <value />
+  </data>
+  <data name="META_KEYWORDS" xml:space="preserve">
+    <value />
+  </data>
+  <data name="META_PAGETITLE" xml:space="preserve">
+    <value>Data Journalism - Data Exploration | Microsoft Power BI</value>
+  </data>
+  <data name="NextTopic" xml:space="preserve">
+    <value>Next Topic: Truthful Visualizations</value>
+  </data>
+  <data name="RightNav_Link1" xml:space="preserve">
+    <value>Exploring Distributions in Power BI</value>
+  </data>
+  <data name="RightNav_Link2" xml:space="preserve">
+    <value>Time Series with Spanish Employment Data</value>
+  </data>
+</root>

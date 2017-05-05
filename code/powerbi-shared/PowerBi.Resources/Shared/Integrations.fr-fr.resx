@@ -1,0 +1,1416 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" id="root">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="access_Content" xml:space="preserve">
+    <value>Centralisez vos données, simplifiez-les en créant des requêtes et partagez-les dans des rapports très visuels.</value>
+  </data>
+  <data name="access_Heading" xml:space="preserve">
+    <value>Analysez et visualisez vos données Access</value>
+  </data>
+  <data name="access_InfoContent" xml:space="preserve">
+    <value>&lt;h3&gt;Rassemblez vos données&lt;/h3&gt;
+&lt;p&gt;Importez de grands volumes de données à partir de plusieurs sources dans Power&amp;#160;BI&amp;#160;Desktop. Modifiez les données avant de les extraire ou transformez-les et formez-les après leur importation.&lt;/p&gt;
+&lt;h3&gt;Explorez vos données autrement&lt;/h3&gt;
+&lt;p&gt;Explorez visuellement vos données avec un large éventail de rapports personnalisables. Créez des visualisations en glissant-déposant les champs que vous souhaitez afficher. Choisissez parmi un large éventail de graphiques pour raconter l’histoire de vos données.&lt;/p&gt;
+&lt;h3&gt;Laissez vos données parler d’elles-mêmes&lt;/h3&gt;
+&lt;p&gt;Une fois que vous avez créé votre rapport, vous pouvez le partager comme n’importe quel autre fichier. Vous pouvez également le publier dans le service Power&amp;#160;BI où vos collègues pourront y accéder.&lt;/p&gt;</value>
+  </data>
+  <data name="access_InfoHeading" xml:space="preserve">
+    <value>En vous connectant à Power BI, retrouvez toutes vos données au même endroit et prenez de meilleures décisions, plus rapidement que jamais</value>
+  </data>
+  <data name="access_Name" xml:space="preserve">
+    <value>Access</value>
+  </data>
+  <data name="active_directory_Content" xml:space="preserve">
+    <value>Centralisez vos données, simplifiez-les en créant des requêtes et partagez-les dans des rapports très visuels.  </value>
+  </data>
+  <data name="active_directory_Heading" xml:space="preserve">
+    <value>Analysez et visualisez vos données Active Directory</value>
+  </data>
+  <data name="active_directory_InfoContent" xml:space="preserve">
+    <value>&lt;h3&gt;Rassemblez vos données&lt;/h3&gt;
+&lt;p&gt;Importez de grands volumes de données à partir de plusieurs sources dans Power&amp;#160;BI&amp;#160;Desktop. Modifiez les données avant de les extraire ou transformez-les et formez-les après leur importation.&lt;/p&gt;
+&lt;h3&gt;Explorez vos données autrement&lt;/h3&gt;
+&lt;p&gt;Explorez visuellement vos données avec un large éventail de rapports personnalisables. Créez des visualisations en glissant-déposant les champs que vous souhaitez afficher. Choisissez parmi un large éventail de graphiques pour raconter l’histoire de vos données.&lt;/p&gt;
+&lt;h3&gt;Laissez vos données parler d’elles-mêmes&lt;/h3&gt;
+&lt;p&gt;Une fois que vous avez créé votre rapport, vous pouvez le partager comme n’importe quel autre fichier. Vous pouvez également le publier dans le service Power&amp;#160;BI où vos collègues pourront y accéder.&lt;/p&gt;</value>
+  </data>
+  <data name="active_directory_InfoHeading" xml:space="preserve">
+    <value>En vous connectant à Power BI, retrouvez toutes vos données au même endroit et prenez de meilleures décisions, plus rapidement que jamais</value>
+  </data>
+  <data name="active_directory_Name" xml:space="preserve">
+    <value>Active Directory</value>
+  </data>
+  <data name="acumatica_Content" xml:space="preserve">
+    <value>Suivez votre pipeline d’opportunités, surveillez l’avancement et observez l’évolution de vos projets en temps réel avec le pack de contenu Acumatica dans Power BI.</value>
+  </data>
+  <data name="acumatica_Heading" xml:space="preserve">
+    <value>Obtenez des informations réelles à partir de vos données Acumatica</value>
+  </data>
+  <data name="acumatica_InfoContent" xml:space="preserve">
+    <value>&lt;h3&gt;Recevez des réponses utiles&lt;/h3&gt;
+&lt;p&gt;Imaginez-vous rechercher des opportunités dans le domaine du commerce électronique par délai, quantité ou région (ou un ensemble de facteurs) et recevoir la réponse sous la forme d’une visualisation interactive exceptionnelle. Power&amp;#160;BI vous permet de poser des questions en langage naturel et d’obtenir des réponses d’Acumatica sous une forme explicite et percutante.&lt;/p&gt;
+&lt;h3&gt;Laissez les données parler d’elles-mêmes&lt;/h3&gt;
+&lt;p&gt;Vous pouvez observer un retour sur investissement immédiat, car Power&amp;#160;BI et Acumatica vous permettent de découvrir de formidables opportunités et de les exploiter immédiatement.&lt;/p&gt;
+&lt;h3&gt;Explorez vos données autrement&lt;/h3&gt;
+&lt;p&gt;Des données générales sont utiles, mais des données spécifiques sont encore plus intéressantes. Lorsque vous explorez vos données avec une interface de glisser-déposer à structure libre dans Power BI, vous pouvez trouver et mettre en avant les éléments importants pour vous. Créez ensuite des rapports en choisissant parmi un large éventail de visualisations modernes.&lt;/p&gt;</value>
+  </data>
+  <data name="acumatica_InfoHeading" xml:space="preserve">
+    <value>Vous pouvez désormais obtenir des informations en temps réel à partir de données Acumatica en vous connectant via Power BI</value>
+  </data>
+  <data name="acumatica_Name" xml:space="preserve">
+    <value>Acumatica</value>
+  </data>
+  <data name="adobe_analytics_Content" xml:space="preserve">
+    <value>Suivez vos visiteurs uniques, surveillez la durée moyenne de consultation de votre site et examinez en détail les affichages de pages.</value>
+  </data>
+  <data name="adobe_analytics_Heading" xml:space="preserve">
+    <value>Visualisez et explorez vos données Adobe Analytics</value>
+  </data>
+  <data name="adobe_analytics_InfoContent" xml:space="preserve">
+    <value>&lt;h3&gt;Explorez les mesures qui sont importantes pour vous&lt;/h3&gt;
+&lt;p&gt;Chaque visualisation du tableau de bord présente les mesures importantes à propos du rapport. Cliquez sur une visualisation pour accéder aux données sous-jacentes. Explorez les données au niveau du détail pour obtenir de nouvelles informations.&lt;/p&gt;
+&lt;h3&gt;Personnalisez votre tableau de bord et vos rapports&lt;/h3&gt;
+&lt;p&gt;Passez en mode Édition lorsque vous affichez les rapports et sélectionnez les champs à surveiller. Toutes les visualisations issues des rapports peuvent être épinglées au tableau de bord.&lt;/p&gt;
+&lt;h3&gt;Actualisez les données selon une planification&lt;/h3&gt;
+&lt;p&gt;Connectez-vous à Power&amp;#160;BI pour ouvrir le tableau de bord prêt à l’emploi. Après l’importation initiale, le tableau de bord et les rapports sont mis à jour quotidiennement. Vous pouvez contrôler la planification de l’actualisation pour obtenir des rapports quand vous en avez besoin.&lt;/p&gt;</value>
+  </data>
+  <data name="adobe_analytics_InfoHeading" xml:space="preserve">
+    <value>Power BI vous permet de visualiser vos mesures de données dans un tableau de bord unique, ce qui vous aidera à prendre de meilleures décisions. </value>
+  </data>
+  <data name="adobe_analytics_Name" xml:space="preserve">
+    <value>Adobe Analytics</value>
+  </data>
+  <data name="analysis_server_Content" xml:space="preserve">
+    <value>Interagissez avec de grands volumes de données, créez des rapports dynamiques et des Mashups et obtenez des informations à partir des visualisations de données.</value>
+  </data>
+  <data name="analysis_server_Heading" xml:space="preserve">
+    <value>Analysez et visualisez vos données SQL Server Analysis Services</value>
+  </data>
+  <data name="analysis_server_InfoContent" xml:space="preserve">
+    <value>&lt;h3&gt;Interrogez et visualisez vos données&lt;/h3&gt;
+&lt;p&gt;Connectez simplement votre base de données à Power&amp;#160;BI et créez des Mashups dynamiques avec les données et mesures déjà en votre possession.&lt;/p&gt;
+&lt;h3&gt;Explorez vos données autrement&lt;/h3&gt;
+&lt;p&gt;Que vous souhaitiez combiner des données relationnelles et non relationnelles pour obtenir une vue d’ensemble plus complète ou créer des rapports dynamiques pour dévoiler de nouvelles informations, Power&amp;#160;BI vous permet d’explorer vos données autrement.&lt;/p&gt;
+&lt;h3&gt;Laissez vos données parler d’elles-mêmes&lt;/h3&gt;
+&lt;p&gt;Rassemblez vos données dans un même emplacement et obtenez rapidement une vue à 360&amp;#160;degrés de votre activité. Interagissez avec vos données pour obtenir des réponses et créez des rapports très visuels racontant l’histoire de vos données.&lt;/p&gt;</value>
+  </data>
+  <data name="analysis_server_InfoHeading" xml:space="preserve">
+    <value>En vous connectant à Power BI, retrouvez toutes vos données au même endroit et prenez de meilleures décisions, plus rapidement que jamais</value>
+  </data>
+  <data name="analysis_server_Name" xml:space="preserve">
+    <value>SQL Server Analysis Services</value>
+  </data>
+  <data name="appfigures_Content" xml:space="preserve">
+    <value>Surveillez la manière dont les personnes utilisent votre application en suivant les statistiques importantes. Rien de plus simple avec Power BI et le pack de contenu appFigures.</value>
+  </data>
+  <data name="appfigures_Heading" xml:space="preserve">
+    <value>Explorez et analysez vos données appFigures</value>
+  </data>
+  <data name="appfigures_InfoContent" xml:space="preserve">
+    <value>&lt;h3&gt;Obtenez des réponses claires aux questions que vous vous posez sur l’utilisation de votre application&lt;/h3&gt;
+&lt;p&gt;Posez une question relative à vos données, par exemple concernant le nombre de téléchargements de l’application pendant une période donnée. Vous pouvez également afficher les activités de clic par région et d’autres paramètres.&lt;/p&gt;
+&lt;h3&gt;Explorez vos données autrement&lt;/h3&gt;
+&lt;p&gt;Vous pouvez explorer vos données en sélectionnant une vignette Power&amp;#160;BI et en examinant le rapport sous-jacent. Passez la souris sur un élément pour afficher plus de détails. Vous pouvez facilement analyser les ventes, téléchargements et statistiques de publicité concernant votre application.&lt;/p&gt;
+&lt;h3&gt;Laissez les données de votre application parler d’elles-mêmes&lt;/h3&gt;
+&lt;p&gt;Power&amp;#160;BI permet de récupérer des données appFigures, d’explorer votre jeu de données avec des visualisations modernes et de générer des rapports faciles à lire pour obtenir des informations plus pointues. Vous pouvez également épingler les résultats à votre tableau de bord.&lt;/p&gt;</value>
+  </data>
+  <data name="appfigures_InfoHeading" xml:space="preserve">
+    <value>Interprétez et utilisez rapidement les données sur l’utilisation de votre application en vous connectant à appFigures via votre compte Power BI</value>
+  </data>
+  <data name="appfigures_Name" xml:space="preserve">
+    <value>appFigures</value>
+  </data>
+  <data name="azure_audit_logs_Content" xml:space="preserve">
+    <value>Analysez et visualisez les données de vos journaux d’audit Azure pour découvrir de nouvelles informations.</value>
+  </data>
+  <data name="azure_audit_logs_Heading" xml:space="preserve">
+    <value>Visualisez vos journaux d’audit Azure avec Power BI</value>
+  </data>
+  <data name="azure_audit_logs_InfoContent" xml:space="preserve">
+    <value>&lt;h3&gt;Consultez toutes vos données dans un même emplacement&lt;/h3&gt;
+&lt;p&gt;Connectez-vous à Power BI pour ouvrir un tableau de bord personnalisable. Les vignettes du tableau de bord fournissent des informations sur des opérations ou événements spécifiques.&lt;/p&gt;
+&lt;h3&gt;Explorez les données au niveau du détail pour obtenir de nouvelles informations&lt;/h3&gt;
+&lt;p&gt;Cliquez sur un visuel du tableau de bord pour afficher un rapport détaillé. Filtrez le rapport ou ajoutez les champs à surveiller. Épinglez cet affichage dans le tableau de bord.&lt;/p&gt;
+&lt;h3&gt;Des données en temps réel à portée de main&lt;/h3&gt;
+&lt;p&gt;Une fois que vous connectez vos données à Power&amp;#160;BI, le tableau de bord et les rapports sous-jacents sont actualisés quotidiennement. Vous souhaitez mettre en place une nouvelle planification&amp;#160;? Contrôlez la planification de l’actualisation sur le jeu de données.&lt;/p&gt;</value>
+  </data>
+  <data name="azure_audit_logs_InfoHeading" xml:space="preserve">
+    <value>Avec Power BI, vous pouvez visualiser les données de vos journaux d’audit Azure, ce qui vous permet de dévoiler de nouvelles informations et de prendre de meilleures décisions.</value>
+  </data>
+  <data name="azure_audit_logs_Name" xml:space="preserve">
+    <value>Journaux d’audit Azure</value>
+  </data>
+  <data name="azure_blob_storage_Content" xml:space="preserve">
+    <value>Power BI convertit rapidement les volumes de données de toutes vos bases de données (ou presque) en rapports et en tableaux de bord interactifs très visuels et faciles à partager.</value>
+  </data>
+  <data name="azure_blob_storage_Heading" xml:space="preserve">
+    <value>Donnez du sens à vos données Big Data</value>
+  </data>
+  <data name="azure_blob_storage_InfoContent" xml:space="preserve">
+    <value>&lt;h3&gt;Interrogez et visualisez vos données&lt;/h3&gt;
+&lt;p&gt;Connectez simplement votre base de données à Power&amp;#160;BI et créez des Mashups dynamiques avec les données et mesures déjà en votre possession.&lt;/p&gt;
+&lt;h3&gt;Explorez vos données autrement&lt;/h3&gt;
+&lt;p&gt;Que vous souhaitiez combiner des données relationnelles et non relationnelles pour obtenir une vue d’ensemble plus complète ou créer des rapports dynamiques pour dévoiler de nouvelles informations, Power&amp;#160;BI vous permet d’explorer vos données autrement.&lt;/p&gt;
+&lt;h3&gt;Laissez vos données parler d’elles-mêmes&lt;/h3&gt;
+&lt;p&gt;Rassemblez vos données dans un même emplacement et obtenez rapidement une vue à 360&amp;#160;degrés de votre activité. Interagissez avec vos données pour obtenir des réponses et créez des rapports très visuels racontant l’histoire de vos données.&lt;/p&gt;</value>
+  </data>
+  <data name="azure_blob_storage_InfoHeading" xml:space="preserve">
+    <value>En vous connectant à Power BI, retrouvez toutes vos données au même endroit et prenez de meilleures décisions, plus rapidement que jamais</value>
+  </data>
+  <data name="azure_blob_storage_Name" xml:space="preserve">
+    <value>Stockage d’objets blob Azure</value>
+  </data>
+  <data name="azure_documentdb_Content" xml:space="preserve">
+    <value>Power BI convertit rapidement les volumes de données de toutes vos bases de données (ou presque) en rapports et en tableaux de bord interactifs très visuels et faciles à partager.</value>
+  </data>
+  <data name="azure_documentdb_Heading" xml:space="preserve">
+    <value>Donnez du sens à vos données Big Data</value>
+  </data>
+  <data name="azure_documentdb_InfoContent" xml:space="preserve">
+    <value>&lt;h3&gt;Interrogez et visualisez vos données&lt;/h3&gt;
+&lt;p&gt;Connectez simplement votre base de données à Power&amp;#160;BI et créez des Mashups dynamiques avec les données et mesures déjà en votre possession.&lt;/p&gt;
+&lt;h3&gt;Explorez vos données autrement&lt;/h3&gt;
+&lt;p&gt;Que vous souhaitiez combiner des données relationnelles et non relationnelles pour obtenir une vue d’ensemble plus complète ou créer des rapports dynamiques pour dévoiler de nouvelles informations, Power&amp;#160;BI vous permet d’explorer vos données autrement.&lt;/p&gt;
+&lt;h3&gt;Laissez vos données parler d’elles-mêmes&lt;/h3&gt;
+&lt;p&gt;Rassemblez vos données dans un même emplacement et obtenez rapidement une vue à 360&amp;#160;degrés de votre activité. Interagissez avec vos données pour obtenir des réponses et créez des rapports très visuels racontant l’histoire de vos données.&lt;/p&gt;</value>
+  </data>
+  <data name="azure_documentdb_InfoHeading" xml:space="preserve">
+    <value>En vous connectant à Power BI, retrouvez toutes vos données au même endroit et prenez de meilleures décisions, plus rapidement que jamais</value>
+  </data>
+  <data name="azure_documentdb_Name" xml:space="preserve">
+    <value>Azure DocumentDB (bêta)</value>
+  </data>
+  <data name="azure_marketplace_Content" xml:space="preserve">
+    <value>Surveillez et augmentez vos ventes Marketplace grâce à des rapports instantanés et des tableaux de bord dynamiques sur les ventes, les téléchargements et les installations.</value>
+  </data>
+  <data name="azure_marketplace_Heading" xml:space="preserve">
+    <value>Gérez l’analyse des ventes d’Azure Marketplace</value>
+  </data>
+  <data name="azure_marketplace_InfoContent" xml:space="preserve">
+    <value>&lt;h3&gt;Interagissez avec vos données&lt;/h3&gt;
+&lt;p&gt;Une fois la connexion établie, vos données s’affichent dans le tableau de bord prêt à l’emploi constitué de plusieurs visualisations ou vignettes. Cliquez sur une vignette pour explorer le rapport sous-jacent. Filtrez les données ou modifiez les champs à afficher pour consulter les mesures qui ont de l’importance pour vous.&lt;/p&gt;
+&lt;h3&gt;Posez des questions, obtenez des réponses&lt;/h3&gt;
+&lt;p&gt;Si vous demandez à afficher le «&amp;#160;Total des frais par date&amp;#160;», vous obtenez une visualisation interactive exceptionnelle en réponse. Avec Power&amp;#160;BI, vous pouvez poser des questions en langage naturel et obtenir les graphiques qu’il vous faut en réponse.&lt;/p&gt;
+&lt;h3&gt;Actualisez les données selon une planification&lt;/h3&gt;
+&lt;p&gt;Le tableau de bord et les rapports sous-jacents sont actualisés quotidiennement. Vous pouvez contrôler la planification de l’actualisation et modifier la fréquence sur le jeu de données.&lt;/p&gt;</value>
+  </data>
+  <data name="azure_marketplace_InfoHeading" xml:space="preserve">
+    <value>En vous connectant à Power BI, retrouvez toutes vos données au même endroit et prenez de meilleures décisions, plus rapidement que jamais</value>
+  </data>
+  <data name="azure_marketplace_Name" xml:space="preserve">
+    <value>Azure Marketplace</value>
+  </data>
+  <data name="azure_mobile_engagement_Content" xml:space="preserve">
+    <value>Suivez les utilisateurs nouveaux et actifs ou surveillez le nombre de blocages et d’erreurs. Personnalisez le tableau de bord pour suivre les mesures qui sont importantes pour vous.</value>
+  </data>
+  <data name="azure_mobile_engagement_Heading" xml:space="preserve">
+    <value>Surveillez vos données Azure Mobile Engagement dans Power BI</value>
+  </data>
+  <data name="azure_mobile_engagement_InfoContent" xml:space="preserve">
+    <value>&lt;h3&gt;Bénéficiez d’une vue globale&lt;/h3&gt;
+&lt;p&gt;Lorsque vous vous connectez à Power&amp;#160;BI, vos données sont affichées dans un tableau de bord prêt à l’emploi qui présente les mesures importantes. Affichez les mesures relatives aux utilisateurs, à la durée des sessions, au nombre d’appareils et bien plus encore. Cliquez sur une vignette pour accéder au rapport sous-jacent.&lt;/p&gt;
+&lt;h3&gt;Explorez vos données autrement&lt;/h3&gt;
+&lt;p&gt;Lorsque vous cliquez sur une vignette du tableau de bord, vous accédez à des données supplémentaires que vous pouvez filtrer ou modifier. Personnalisez les rapports pour suivre les données qui vous importent. Épinglez vos rapports favoris au tableau de bord.&lt;/p&gt;
+&lt;h3&gt;Actualisez les données selon une planification&lt;/h3&gt;
+&lt;p&gt;Une fois que vous connectez vos données à Power&amp;#160;BI, le tableau de bord et les rapports sous-jacents sont actualisés quotidiennement. Vous souhaitez mettre en place une nouvelle planification&amp;#160;? Contrôlez la planification de l’actualisation sur le jeu de données.&lt;/p&gt;</value>
+  </data>
+  <data name="azure_mobile_engagement_InfoHeading" xml:space="preserve">
+    <value>En connectant votre compte Azure Mobile Engagement à Power BI, vous pouvez visualiser vos données dans un emplacement unique et prendre de meilleures décisions plus rapidement.</value>
+  </data>
+  <data name="azure_mobile_engagement_Name" xml:space="preserve">
+    <value>Azure Mobile Engagement</value>
+  </data>
+  <data name="azure_sql_database_Content" xml:space="preserve">
+    <value>Interagissez avec de grands volumes de données, créez des rapports dynamiques et des Mashups et obtenez des informations à partir des visualisations de données.</value>
+  </data>
+  <data name="azure_sql_database_Heading" xml:space="preserve">
+    <value>Analysez et visualisez vos données Azure SQL Database</value>
+  </data>
+  <data name="azure_sql_database_InfoContent" xml:space="preserve">
+    <value>&lt;h3&gt;Interrogez et visualisez vos données&lt;/h3&gt;
+&lt;p&gt;Connectez simplement votre base de données à Power&amp;#160;BI et créez des Mashups dynamiques avec les données et mesures déjà en votre possession.&lt;/p&gt;
+&lt;h3&gt;Explorez vos données autrement&lt;/h3&gt;
+&lt;p&gt;Que vous souhaitiez combiner des données relationnelles et non relationnelles pour obtenir une vue d’ensemble plus complète ou créer des rapports dynamiques pour dévoiler de nouvelles informations, Power&amp;#160;BI vous permet d’explorer vos données autrement.&lt;/p&gt;
+&lt;h3&gt;Laissez vos données parler d’elles-mêmes&lt;/h3&gt;
+&lt;p&gt;Rassemblez vos données dans un même emplacement et obtenez rapidement une vue à 360&amp;#160;degrés de votre activité. Interagissez avec vos données pour obtenir des réponses et créez des rapports très visuels racontant l’histoire de vos données.&lt;/p&gt;</value>
+  </data>
+  <data name="azure_sql_database_InfoHeading" xml:space="preserve">
+    <value>En vous connectant à Power BI, retrouvez toutes vos données au même endroit et prenez de meilleures décisions, plus rapidement que jamais</value>
+  </data>
+  <data name="azure_sql_database_Name" xml:space="preserve">
+    <value>Azure SQL Database</value>
+  </data>
+  <data name="azure_sql_data_warehouse_Content" xml:space="preserve">
+    <value>Interagissez avec de grands volumes de données, créez des rapports dynamiques et des Mashups et obtenez des informations à partir des visualisations de données.</value>
+  </data>
+  <data name="azure_sql_data_warehouse_Heading" xml:space="preserve">
+    <value>Analysez et visualisez vos données Azure SQL Data Warehouse</value>
+  </data>
+  <data name="azure_sql_data_warehouse_InfoContent" xml:space="preserve">
+    <value>&lt;h3&gt;Interrogez et visualisez vos données&lt;/h3&gt;
+&lt;p&gt;Connectez simplement votre base de données à Power&amp;#160;BI et créez des Mashups dynamiques avec les données et mesures déjà en votre possession.&lt;/p&gt;
+&lt;h3&gt;Explorez vos données autrement&lt;/h3&gt;
+&lt;p&gt;Que vous souhaitiez combiner des données relationnelles et non relationnelles pour obtenir une vue d’ensemble plus complète ou créer des rapports dynamiques pour dévoiler de nouvelles informations, Power&amp;#160;BI vous permet d’explorer vos données autrement.&lt;/p&gt;
+&lt;h3&gt;Laissez vos données parler d’elles-mêmes&lt;/h3&gt;
+&lt;p&gt;Rassemblez vos données dans un même emplacement et obtenez rapidement une vue à 360&amp;#160;degrés de votre activité. Interagissez avec vos données pour obtenir des réponses et créez des rapports très visuels racontant l’histoire de vos données.&lt;/p&gt;</value>
+  </data>
+  <data name="azure_sql_data_warehouse_InfoHeading" xml:space="preserve">
+    <value>En vous connectant à Power BI, retrouvez toutes vos données au même endroit et prenez de meilleures décisions, plus rapidement que jamais</value>
+  </data>
+  <data name="azure_sql_data_warehouse_Name" xml:space="preserve">
+    <value>Azure SQL Data Warehouse</value>
+  </data>
+  <data name="azure_table_storage_Content" xml:space="preserve">
+    <value>Power BI convertit rapidement les volumes de données de toutes vos bases de données (ou presque) en rapports et en tableaux de bord interactifs très visuels et faciles à partager.</value>
+  </data>
+  <data name="azure_table_storage_Heading" xml:space="preserve">
+    <value>Donnez du sens à vos données Big Data</value>
+  </data>
+  <data name="azure_table_storage_InfoContent" xml:space="preserve">
+    <value>&lt;h3&gt;Interrogez et visualisez vos données&lt;/h3&gt;
+&lt;p&gt;Connectez simplement votre base de données à Power&amp;#160;BI et créez des Mashups dynamiques avec les données et mesures déjà en votre possession.&lt;/p&gt;
+&lt;h3&gt;Explorez vos données autrement&lt;/h3&gt;
+&lt;p&gt;Que vous souhaitiez combiner des données relationnelles et non relationnelles pour obtenir une vue d’ensemble plus complète ou créer des rapports dynamiques pour dévoiler de nouvelles informations, Power&amp;#160;BI vous permet d’explorer vos données autrement.&lt;/p&gt;
+&lt;h3&gt;Laissez vos données parler d’elles-mêmes&lt;/h3&gt;
+&lt;p&gt;Rassemblez vos données dans un même emplacement et obtenez rapidement une vue à 360&amp;#160;degrés de votre activité. Interagissez avec vos données pour obtenir des réponses et créez des rapports très visuels racontant l’histoire de vos données.&lt;/p&gt;</value>
+  </data>
+  <data name="azure_table_storage_InfoHeading" xml:space="preserve">
+    <value>En vous connectant à Power BI, retrouvez toutes vos données au même endroit et prenez de meilleures décisions, plus rapidement que jamais</value>
+  </data>
+  <data name="azure_table_storage_Name" xml:space="preserve">
+    <value>Stockage de table Azure</value>
+  </data>
+  <data name="circuit_id_Content" xml:space="preserve">
+    <value>Suivez vos appels et messages, y compris des mesures telles que le nombre d’appels par heure, les types d’appel, la durée d’appel et bien plus encore.</value>
+  </data>
+  <data name="circuit_id_Heading" xml:space="preserve">
+    <value>Suivez et surveillez vos données Circuit ID</value>
+  </data>
+  <data name="circuit_id_InfoContent" xml:space="preserve">
+    <value>&lt;h3&gt;Consultez toutes vos données dans un même emplacement&lt;/h3&gt;
+&lt;p&gt;Connectez-vous à Power&amp;#160;BI pour afficher un tableau de bord organisé et un rapport qui affiche les informations issues de vos données. Cliquez sur une vignette pour explorer en détail les données et y rechercher de nouvelles informations.&lt;/p&gt;
+&lt;h3&gt;Posez des questions, obtenez des réponses&lt;/h3&gt;
+&lt;p&gt;Si vous effectuez une requête telle que «&amp;#160;Afficher le nombre d’appels par date&amp;#160;», vous obtenez une visualisation interactive exceptionnelle en réponse. Avec Power&amp;#160;BI, vous pouvez poser des questions en langage naturel et obtenir les graphiques qu’il vous faut en réponse.&lt;/p&gt;
+&lt;h3&gt;Personnalisez votre tableau de bord et vos rapports&lt;/h3&gt;
+&lt;p&gt;Passez en mode Édition lorsque vous affichez les rapports et sélectionnez les champs à surveiller. Toutes les visualisations issues des rapports peuvent être épinglées au tableau de bord.&lt;/p&gt;</value>
+  </data>
+  <data name="circuit_id_InfoHeading" xml:space="preserve">
+    <value>Lorsque vous connectez Circuit ID à Power BI, vous pouvez visualiser toutes vos données dans un même emplacement, et ainsi dévoiler de nouvelles informations pour prendre de meilleures décisions.</value>
+  </data>
+  <data name="circuit_id_Name" xml:space="preserve">
+    <value>Circuit ID</value>
+  </data>
+  <data name="comscore_Content" xml:space="preserve">
+    <value>Découvrez la manière dont vos clients utilisent différents supports. Recherchez des informations pratiques pour mieux assister vos clients.</value>
+  </data>
+  <data name="comscore_Heading" xml:space="preserve">
+    <value>Visualisez vos données d’analyse web et obtenez des informations à leur sujet</value>
+  </data>
+  <data name="comscore_InfoContent" xml:space="preserve">
+    <value>&lt;h3&gt;Retrouvez les visuels de l’ensemble de vos données dans un tableau de bord unique&lt;/h3&gt;
+&lt;p&gt;Une fois que vous avez connecté votre compte comScore Digital Analytics à Power&amp;#160;BI, un tableau de bord prêt à l’emploi apparaît. Il inclut des vignettes affichant des mesures organisées, notamment les consultations de pages, les visites et les analyses web.&lt;/p&gt;
+&lt;h3&gt;Explorez les données au niveau du détail pour obtenir de nouvelles informations&lt;/h3&gt;
+&lt;p&gt;Cliquez sur un visuel du tableau de bord pour afficher un rapport détaillé. Filtrez le rapport ou ajoutez les champs à surveiller. Épinglez cet affichage dans le tableau de bord.&lt;/p&gt;
+&lt;h3&gt;Actualisez les données selon une planification&lt;/h3&gt;
+&lt;p&gt;Le tableau de bord et les rapports sous-jacents sont actualisés quotidiennement. Vous pouvez contrôler la fréquence d’actualisation des données.&lt;/p&gt;</value>
+  </data>
+  <data name="comscore_InfoHeading" xml:space="preserve">
+    <value>En connectant vos données comScore Digital Analytix à Power BI, obtenez des visualisations de toutes vos données importantes et prenez de meilleures décisions.</value>
+  </data>
+  <data name="comscore_Name" xml:space="preserve">
+    <value>comScore</value>
+  </data>
+  <data name="csv_Content" xml:space="preserve">
+    <value>Créez rapidement des rapports, des analyses et des tableaux de bord graphiques hautement interactifs et faciles à partager à partir de vos fichiers CSV.</value>
+  </data>
+  <data name="csv_Heading" xml:space="preserve">
+    <value>Obtenez de meilleurs tableaux de bord et rapports pour les données de vos fichiers CSV</value>
+  </data>
+  <data name="csv_InfoContent" xml:space="preserve">
+    <value>&lt;h3&gt;Analysez et optimisez&lt;/h3&gt;
+&lt;p&gt;Obtenez les données appropriées avec les rapports d’analyse, les tableaux de bord et les indicateurs de performance clés prêts à l’emploi et faciles à utiliser. Explorez les données au niveau du détail avec les filtres et rapports détaillés pour obtenir des informations utilisables.&lt;/p&gt;
+&lt;h3&gt;Posez des questions. Recevez des réponses.&lt;/h3&gt;
+&lt;p&gt;Posez des questions à Power&amp;#160;BI en langage naturel, comme «&amp;#160;combien de clients avons-nous eus en novembre&amp;#160;?&amp;#160;» Un graphique à jour affiche les résultats que vous pouvez épingler à votre tableau de bord pour un suivi en continu.&lt;/p&gt;
+&lt;h3&gt;Communiquez les bonnes informations aux bonnes personnes&lt;/h3&gt;
+&lt;p&gt;Épinglez des visualisations clés de rapports personnalisés à vos tableaux de bord en ligne, pour créer rapidement une ressource de suivi et de rapport utile à toute votre organisation.&lt;/p&gt;</value>
+  </data>
+  <data name="csv_InfoHeading" xml:space="preserve">
+    <value>En vous connectant à Power BI, retrouvez toutes vos données au même endroit et prenez de meilleures décisions, plus rapidement que jamais</value>
+  </data>
+  <data name="csv_Name" xml:space="preserve">
+    <value>CSV</value>
+  </data>
+  <data name="excel_Content" xml:space="preserve">
+    <value>Centralisez vos données, simplifiez-les en créant des requêtes et partagez-les dans des rapports très visuels.</value>
+  </data>
+  <data name="excel_Heading" xml:space="preserve">
+    <value>Analysez et visualisez vos données Excel</value>
+  </data>
+  <data name="excel_InfoContent" xml:space="preserve">
+    <value>&lt;h3&gt;Rassemblez vos données&lt;/h3&gt;
+&lt;p&gt;Importez de grands volumes de données à partir de plusieurs sources dans Power&amp;#160;BI&amp;#160;Desktop. Modifiez les données avant de les extraire ou transformez-les et formez-les après leur importation.&lt;/p&gt;
+&lt;h3&gt;Explorez vos données autrement&lt;/h3&gt;
+&lt;p&gt;Explorez visuellement vos données avec un large éventail de rapports personnalisables. Créez des visualisations en glissant-déposant les champs que vous souhaitez afficher. Choisissez parmi un large éventail de graphiques pour raconter l’histoire de vos données.&lt;/p&gt;
+&lt;h3&gt;Laissez vos données parler d’elles-mêmes&lt;/h3&gt;
+&lt;p&gt;Une fois que vous avez créé votre rapport, vous pouvez le partager comme n’importe quel autre fichier. Vous pouvez également le publier dans le service Power&amp;#160;BI où vos collègues pourront y accéder.&lt;/p&gt;</value>
+  </data>
+  <data name="excel_InfoHeading" xml:space="preserve">
+    <value>En vous connectant à Power BI, retrouvez toutes vos données au même endroit et prenez de meilleures décisions, plus rapidement que jamais</value>
+  </data>
+  <data name="excel_Name" xml:space="preserve">
+    <value>Excel</value>
+  </data>
+  <data name="exchange_Content" xml:space="preserve">
+    <value>Centralisez vos données, simplifiez-les en créant des requêtes et partagez-les dans des rapports très visuels.</value>
+  </data>
+  <data name="exchange_Heading" xml:space="preserve">
+    <value>Analysez et visualisez vos données Exchange</value>
+  </data>
+  <data name="exchange_InfoContent" xml:space="preserve">
+    <value>&lt;h3&gt;Rassemblez vos données&lt;/h3&gt;
+&lt;p&gt;Importez de grands volumes de données à partir de plusieurs sources dans Power&amp;#160;BI&amp;#160;Desktop. Modifiez les données avant de les extraire ou transformez-les et formez-les après leur importation.&lt;/p&gt;
+&lt;h3&gt;Explorez vos données autrement&lt;/h3&gt;
+&lt;p&gt;Explorez visuellement vos données avec un large éventail de rapports personnalisables. Créez des visualisations en glissant-déposant les champs que vous souhaitez afficher. Choisissez parmi un large éventail de graphiques pour raconter l’histoire de vos données.&lt;/p&gt;
+&lt;h3&gt;Laissez vos données parler d’elles-mêmes&lt;/h3&gt;
+&lt;p&gt;Une fois que vous avez créé votre rapport, vous pouvez le partager comme n’importe quel autre fichier. Vous pouvez également le publier dans le service Power&amp;#160;BI où vos collègues pourront y accéder.&lt;/p&gt;</value>
+  </data>
+  <data name="exchange_InfoHeading" xml:space="preserve">
+    <value>En connectant Microsoft Exchange à Power BI, visualisez vos données, obtenez des informations et prenez de meilleures décisions plus rapidement</value>
+  </data>
+  <data name="exchange_Name" xml:space="preserve">
+    <value>Exchange</value>
+  </data>
+  <data name="facebook_Content" xml:space="preserve">
+    <value>Récupérez des informations essentielles à partir de vos données Facebook, notamment le nombre de fans, les taux de post-engagement et les statistiques d’audience, le tout sur un même tableau de bord.</value>
+  </data>
+  <data name="facebook_Heading" xml:space="preserve">
+    <value>Obtenez de meilleurs tableaux de bord et de meilleures analyses pour Facebook</value>
+  </data>
+  <data name="facebook_InfoContent" xml:space="preserve">
+    <value>&lt;h3&gt;Explorez et analysez vos données plus facilement&lt;/h3&gt;
+&lt;p&gt;Power&amp;#160;BI extrait des données de votre compte Facebook, puis génère un tableau de bord et un jeu de données qui vous permettent d’explorer vos données avec des visualisations modernes. Créez et partagez facilement des rapports.&lt;/p&gt;
+&lt;h3&gt;Identifiez rapidement les tendances&lt;/h3&gt;
+&lt;p&gt;Utilisez les analyses de vos pages Facebook dans Power&amp;#160;BI pour identifier les tendances. Découvrez qui sont vos fans les plus engagés, quelles publications ont été le plus partagées et comment les tendances ont évolué dans le temps.&lt;/p&gt;
+&lt;h3&gt;Aucun codage requis&lt;/h3&gt;
+&lt;p&gt;Avec Power&amp;#160;BI, il n’est pas nécessaire d’avoir des connaissances en codage pour analyser en détail les données de vos pages Facebook. Les mises à jour automatiques des données vous aident à prendre des décisions en connaissance de cause.&lt;/p&gt;</value>
+  </data>
+  <data name="facebook_InfoHeading" xml:space="preserve">
+    <value>En vous connectant à Power BI, retrouvez toutes vos données au même endroit et prenez de meilleures décisions, plus rapidement que jamais</value>
+  </data>
+  <data name="facebook_Name" xml:space="preserve">
+    <value>Facebook</value>
+  </data>
+  <data name="folder_Content" xml:space="preserve">
+    <value>Créez rapidement des rapports, des analyses et des tableaux de bord graphiques hautement interactifs et faciles à partager à partir des données des fichiers de vos dossiers.</value>
+  </data>
+  <data name="folder_Heading" xml:space="preserve">
+    <value>Obtenez de meilleurs tableaux de bord et rapports pour les données des fichiers de vos dossiers</value>
+  </data>
+  <data name="folder_InfoContent" xml:space="preserve">
+    <value>&lt;h3&gt;Analysez et optimisez&lt;/h3&gt;
+&lt;p&gt;Obtenez les données appropriées avec les rapports d’analyse, les tableaux de bord et les indicateurs de performance clés prêts à l’emploi et faciles à utiliser. Explorez les données au niveau du détail avec les filtres et rapports détaillés pour obtenir des informations utilisables.&lt;/p&gt;
+&lt;h3&gt;Posez des questions. Recevez des réponses.&lt;/h3&gt;
+&lt;p&gt;Posez des questions à Power&amp;#160;BI en langage naturel, comme «&amp;#160;combien de clients avons-nous eus en novembre&amp;#160;?&amp;#160;» Un graphique à jour affiche les résultats que vous pouvez épingler à votre tableau de bord pour un suivi en continu.&lt;/p&gt;
+&lt;h3&gt;Communiquez les bonnes informations aux bonnes personnes&lt;/h3&gt;
+&lt;p&gt;Épinglez des visualisations clés de rapports personnalisés à vos tableaux de bord en ligne, pour créer rapidement une ressource de suivi et de rapport utile à toute votre organisation.&lt;/p&gt;</value>
+  </data>
+  <data name="folder_InfoHeading" xml:space="preserve">
+    <value>En vous connectant à Power BI, retrouvez toutes vos données au même endroit et prenez de meilleures décisions, plus rapidement que jamais</value>
+  </data>
+  <data name="folder_Name" xml:space="preserve">
+    <value>Dossier</value>
+  </data>
+  <data name="github_Content" xml:space="preserve">
+    <value>Explorez votre référentiel GitHub avec des données relatives aux contributions, problèmes, requêtes d’extraction et utilisateurs actifs.</value>
+  </data>
+  <data name="github_Title" xml:space="preserve">
+    <value>Gestion de projet GitHub</value>
+  </data>
+  <data name="github_InfoContent" xml:space="preserve">
+    <value>&lt;h3&gt;Obtenez des réponses aux questions que vous vous posez sur l’utilisation&lt;/h3&gt;
+&lt;p&gt;Visualisez différents types d’activité de référentiel dans Power BI pour obtenir des informations à jour. Obtenez des réponses à vos questions sur le nombre de validations, les meilleurs contributeurs et les heures d’activité.&lt;/p&gt;
+&lt;h3&gt;Utilisez les tableaux de bord GitHub pour explorer les données autrement&lt;/h3&gt;
+&lt;p&gt;Tirez parti du tableau de bord Power&amp;#160;BI et GitHub pour créer des rapports et des visualisations de données récentes. Utilisez les outils GitHut en l’état ou personnalisez les rapports pour mettre en avant les informations qui vous intéressent le plus.&lt;/p&gt;
+&lt;h3&gt;Exploitez les données de dépôt dans les rapports GitHub&lt;/h3&gt;
+&lt;p&gt;Suivez les tendances en matière d’utilisation, tirez de nouveaux enseignements et améliorez l’efficacité de vos projets avec la visualisation des données de dépôt. Partagez vos découvertes avec votre équipe et les parties prenantes dans des rapports GitHub faciles à lire.&lt;/p&gt;</value>
+  </data>
+  <data name="github_InfoHeading" xml:space="preserve">
+    <value>Utilisez les outils GitHub avec Power BI pour exploiter votre dépôt et obtenir des données d’utilisation et de performances à un même emplacement</value>
+  </data>
+  <data name="github_Name" xml:space="preserve">
+    <value>Github</value>
+  </data>
+  <data name="google_analytics_Content" xml:space="preserve">
+    <value>Développez la puissance de vos données Google Analytics. Importez et comparez les données provenant de sources de données et d’agrégateurs comparables. Développez des rapports visuels plus attrayants avec des corrélations élargies.</value>
+  </data>
+  <data name="google_analytics_Heading" xml:space="preserve">
+    <value>Visualisez et étendez vos tableaux de bord Google Analytics avec Microsoft Power BI</value>
+  </data>
+  <data name="google_analytics_InfoContent" xml:space="preserve">
+    <value>&lt;h3&gt;Obtenez des réponses plus précises aux questions sur les données&lt;/h3&gt;
+&lt;p&gt;En amplifiant vos données web dans Power&amp;#160;BI, vous pouvez dévoiler des relations ou modèles masqués qui pointent vers de toutes nouvelles opportunités. Posez différentes questions sur vos données pour découvrir des méthodes et idées marketing innovantes pour attirer de nouveaux clients.&lt;/p&gt;
+&lt;h3&gt;Explorez vos données autrement&lt;/h3&gt;
+&lt;p&gt;Corrélez vos données GA avec les tendances sur les données externes qui influencent le marché. Vous pouvez connecter des données marketing à des données provenant d’autres portions de la société ou importer les données de sources externes et comparer vos performances web avec les tendances du secteur.&lt;/p&gt;
+&lt;h3&gt;Développez les informations liées à votre société&lt;/h3&gt;
+&lt;p&gt;Le suivi du comportement des visiteurs qui consultent votre site n’est que la première étape concernant la mesure des performances de votre entreprise et de votre marque. Connectez Power&amp;#160;BI à vos données Google Analytics pour accéder à des informations de niveau supérieur.&lt;/p&gt;</value>
+  </data>
+  <data name="google_analytics_InfoHeading" xml:space="preserve">
+    <value>Power BI + Google Analytics = la génération de rapports personnalisés pour vos données web</value>
+  </data>
+  <data name="google_analytics_Name" xml:space="preserve">
+    <value>Google Analytics</value>
+  </data>
+  <data name="hdfs_Content" xml:space="preserve">
+    <value>Centralisez vos données, simplifiez-les en créant des requêtes et partagez-les dans des rapports très visuels.</value>
+  </data>
+  <data name="hdfs_Heading" xml:space="preserve">
+    <value>Analysez et visualisez vos données HDFS</value>
+  </data>
+  <data name="hdfs_InfoContent" xml:space="preserve">
+    <value>&lt;h3&gt;Rassemblez vos données&lt;/h3&gt;
+&lt;p&gt;Importez de grands volumes de données à partir de plusieurs sources dans Power&amp;#160;BI&amp;#160;Desktop. Modifiez les données avant de les extraire ou transformez-les et formez-les après leur importation.&lt;/p&gt;
+&lt;h3&gt;Explorez vos données autrement&lt;/h3&gt;
+&lt;p&gt;Explorez visuellement vos données avec un large éventail de rapports personnalisables. Créez des visualisations en glissant-déposant les champs que vous souhaitez afficher. Choisissez parmi un large éventail de graphiques pour raconter l’histoire de vos données.&lt;/p&gt;
+&lt;h3&gt;Laissez vos données parler d’elles-mêmes&lt;/h3&gt;
+&lt;p&gt;Une fois que vous avez créé votre rapport, vous pouvez le partager comme n’importe quel autre fichier. Vous pouvez également le publier dans le service Power&amp;#160;BI où vos collègues pourront y accéder.&lt;/p&gt;</value>
+  </data>
+  <data name="hdfs_InfoHeading" xml:space="preserve">
+    <value>En vous connectant à Power BI, retrouvez toutes vos données au même endroit et prenez de meilleures décisions, plus rapidement que jamais</value>
+  </data>
+  <data name="hdfs_Name" xml:space="preserve">
+    <value>HDFS</value>
+  </data>
+  <data name="hdinsight_Content" xml:space="preserve">
+    <value>Centralisez vos données, simplifiez-les en créant des requêtes et partagez-les dans des rapports très visuels.  </value>
+  </data>
+  <data name="hdinsight_Heading" xml:space="preserve">
+    <value>Analysez et visualisez vos données HDInsight</value>
+  </data>
+  <data name="hdinsight_InfoContent" xml:space="preserve">
+    <value>&lt;h3&gt;Rassemblez vos données&lt;/h3&gt;
+&lt;p&gt;Importez de grands volumes de données à partir de plusieurs sources dans Power&amp;#160;BI&amp;#160;Desktop. Modifiez les données avant de les extraire ou transformez-les et formez-les après leur importation.&lt;/p&gt;
+&lt;h3&gt;Explorez vos données autrement&lt;/h3&gt;
+&lt;p&gt;Explorez visuellement vos données avec un large éventail de rapports personnalisables. Créez des visualisations en glissant-déposant les champs que vous souhaitez afficher. Choisissez parmi un large éventail de graphiques pour raconter l’histoire de vos données.&lt;/p&gt;
+&lt;h3&gt;Laissez vos données parler d’elles-mêmes&lt;/h3&gt;
+&lt;p&gt;Une fois que vous avez créé votre rapport, vous pouvez le partager comme n’importe quel autre fichier. Vous pouvez également le publier dans le service Power&amp;#160;BI où vos collègues pourront y accéder.&lt;/p&gt;</value>
+  </data>
+  <data name="hdinsight_InfoHeading" xml:space="preserve">
+    <value>En vous connectant à Power BI, retrouvez toutes vos données au même endroit et prenez de meilleures décisions, plus rapidement que jamais</value>
+  </data>
+  <data name="hdinsight_Name" xml:space="preserve">
+    <value>HDInsight</value>
+  </data>
+  <data name="ibmdb2_Content" xml:space="preserve">
+    <value>Centralisez vos données, simplifiez-les en créant des requêtes et partagez-les dans des rapports très visuels.</value>
+  </data>
+  <data name="ibmdb2_Heading" xml:space="preserve">
+    <value>Analysez et visualisez vos données IBM DB2</value>
+  </data>
+  <data name="ibmdb2_InfoContent" xml:space="preserve">
+    <value>&lt;h3&gt;Rassemblez vos données&lt;/h3&gt;
+&lt;p&gt;Importez de grands volumes de données à partir de plusieurs sources dans Power&amp;#160;BI&amp;#160;Desktop. Modifiez les données avant de les extraire ou transformez-les et formez-les après leur importation.&lt;/p&gt;
+&lt;h3&gt;Explorez vos données autrement&lt;/h3&gt;
+&lt;p&gt;Explorez visuellement vos données avec un large éventail de rapports personnalisables. Créez des visualisations en glissant-déposant les champs que vous souhaitez afficher. Choisissez parmi un large éventail de graphiques pour raconter l’histoire de vos données.&lt;/p&gt;
+&lt;h3&gt;Laissez vos données parler d’elles-mêmes&lt;/h3&gt;
+&lt;p&gt;Une fois que vous avez créé votre rapport, vous pouvez le partager comme n’importe quel autre fichier. Vous pouvez également le publier dans le service Power&amp;#160;BI où vos collègues pourront y accéder.&lt;/p&gt;</value>
+  </data>
+  <data name="ibmdb2_InfoHeading" xml:space="preserve">
+    <value>En vous connectant à Power BI, retrouvez toutes vos données au même endroit et prenez de meilleures décisions, plus rapidement que jamais</value>
+  </data>
+  <data name="ibmdb2_Name" xml:space="preserve">
+    <value>IBM DB2</value>
+  </data>
+  <data name="mailchimp_Content" xml:space="preserve">
+    <value>Utilisez l’intégration Power BI et MailChimp pour identifier rapidement les tendances dans vos campagnes, rapports et abonnés individuels. Suivez la progression et créez des rapports MailChimp personnalisés avec des visualisations récentes.</value>
+  </data>
+  <data name="mailchimp_Title" xml:space="preserve">
+    <value>Intégration MailChimp</value>
+  </data>
+  <data name="mailchimp_InfoContent" xml:space="preserve">
+    <value>&lt;h3&gt;Explorez et analysez plus facilement les rapports de données MailChimp&lt;/h3&gt;
+&lt;p&gt;Power&amp;#160;BI extrait des données de votre compte MailChimp et génère un tableau de bord et un jeu de données qui vous permettent d’explorer vos données avec des visualisations modernes, ainsi que de créer et de partager facilement des rapports.&lt;/p&gt;
+&lt;h3&gt;Identifiez rapidement les tendances avec les tableaux de bord MailChimp&lt;/h3&gt;
+&lt;p&gt;Utilisez les données d’analyse MailChimp dans Power&amp;#160;BI pour créer des rapports et repérer les tendances. Découvrez qui sont vos abonnés les plus engagés, quels pays lancent le plus de campagnes et la façon dont les tendances ont évolué dans le temps.&lt;/p&gt;
+&lt;h3&gt;Intégration MailChimp sans aucun développement nécessaire&lt;/h3&gt;
+&lt;p&gt;Avec l’intégration Power&amp;#160;BI et MailChimp, vous n’avez pas besoin de savoir développer pour analyser en détail vos rapports. Les mises à jour de données automatiques vous aident à rester maître de vos données et à prendre des décisions informées.&lt;/p&gt;</value>
+  </data>
+  <data name="mailchimp_InfoHeading" xml:space="preserve">
+    <value>Connectez MailChimp et Power BI pour créer des tableaux de bord et ainsi visualiser et suivre facilement vos données</value>
+  </data>
+  <data name="mailchimp_Name" xml:space="preserve">
+    <value>MailChimp</value>
+  </data>
+  <data name="mandrill_Content" xml:space="preserve">
+    <value>Surveillez le taux d’ouverture, les clics et les envois mensuels. Visualisez la croissance de votre campagne et dévoilez de nouvelles opportunités.</value>
+  </data>
+  <data name="mandrill_Heading" xml:space="preserve">
+    <value>Obtenez des informations sur vos campagnes marketing</value>
+  </data>
+  <data name="mandrill_InfoContent" xml:space="preserve">
+    <value>&lt;h3&gt;Consultez toutes vos données dans un même emplacement&lt;/h3&gt;
+&lt;p&gt;Connectez-vous à Power&amp;#160;BI pour afficher un tableau de bord organisé et des rapports qui affichent les informations issues de vos données. Cliquez sur une vignette pour explorer en détail les données et y rechercher de nouvelles informations.&lt;/p&gt;
+&lt;h3&gt;Explorez vos données autrement&lt;/h3&gt;
+&lt;p&gt;Chaque vignette du tableau de bord pointe vers différentes pages de rapports qui incluent des visuels. Passez la souris sur un élément pour afficher plus de détails ou sélectionnez une valeur spécifique pour définir un filtre sur les autres visuels de la page. Épinglez vos rapports personnalisés au tableau de bord.&lt;/p&gt;
+&lt;h3&gt;Actualisez les données selon une planification&lt;/h3&gt;
+&lt;p&gt;Le tableau de bord et les rapports sous-jacents sont actualisés une fois par jour. Vous pouvez contrôler la planification de l’actualisation et modifier la fréquence sur le jeu de données.&lt;/p&gt;</value>
+  </data>
+  <data name="mandrill_InfoHeading" xml:space="preserve">
+    <value>En connectant vos données Mandrill à Power BI, obtenez des informations hautement visuelles et utiles sur vos campagnes MailChimp.</value>
+  </data>
+  <data name="mandrill_Name" xml:space="preserve">
+    <value>Mandrill</value>
+  </data>
+  <data name="marketo_Content" xml:space="preserve">
+    <value>Centralisez vos données et suivez-les d’un même emplacement via la génération de rapports Marketo. Affichez des rapports graphiques de vos données résidant localement et dans le cloud. Connectez vos données et visualisez-les à l’aide de tableaux de bord et de rapports Power BI et Marketo prédéfinis en quelques minutes.</value>
+  </data>
+  <data name="marketo_Title" xml:space="preserve">
+    <value>Intégration Marketo</value>
+  </data>
+  <data name="marketo_InfoContent" xml:space="preserve">
+    <value>&lt;h3&gt;Obtenez des réponses à vos questions via la génération de rapports Marketo&lt;/h3&gt;
+&lt;p&gt;Posez des questions sur les données d’analyse Marketo, par exemple, «&amp;#160;Combien de prospects avons-nous par région&amp;#160;?&amp;#160;» Power&amp;#160;BI répond avec des résultats visuels incluant des cartes et des graphiques affichant vos données.&lt;/p&gt;
+&lt;h3&gt;Utilisez des tableaux de bord Marketo pour voir vos données sous un angle nouveau&lt;/h3&gt;
+&lt;p&gt;Le rapport Power&amp;#160;BI par défaut inclut des informations utiles que vous pouvez utiliser pour analyser la génération de prospects. Vous pouvez personnaliser ce rapport et le tableau de bord Marketo en fonction de vos besoins spécifiques.&lt;/p&gt;
+&lt;h3&gt;Exploitez vos données avec l’intégration Marketo&lt;/h3&gt;
+&lt;p&gt;Vous voulez connaître l’état de vos programmes marketing&amp;#160;? Les rapports Power&amp;#160;BI et Marketo peuvent faire ressortir les meilleurs programmes en s’appuyant sur un large éventail de mesures et vous indiquer les opportunités que vous pouvez optimiser.&lt;/p&gt;</value>
+  </data>
+  <data name="marketo_InfoHeading" xml:space="preserve">
+    <value>Connectez vos informations à l’intégration Power BI et Marketo pour tirer des enseignements précieux qui vous aideront à prendre des décisions plus avisées et plus rapides</value>
+  </data>
+  <data name="marketo_Name" xml:space="preserve">
+    <value>Marketo</value>
+  </data>
+  <data name="microsoft_dynamicscrm_Content" xml:space="preserve">
+    <value>Obtenez des informations sur votre pipeline de vente, découvrez les prospects les plus prometteurs et dévoilez vos principales opportunités.</value>
+  </data>
+  <data name="microsoft_dynamicscrm_Heading" xml:space="preserve">
+    <value>Visualisez et analysez vos données Microsoft Dynamics CRM</value>
+  </data>
+  <data name="microsoft_dynamicscrm_InfoContent" xml:space="preserve">
+    <value>&lt;h3&gt;Visualisez vos opportunités&lt;/h3&gt;
+&lt;p&gt;Power&amp;#160;BI vous aide à identifier les opportunités dans un tableau de bord unique. Analysez votre pipeline ou affichez vos ventes selon diverses mesures pour obtenir des informations utiles.&lt;/p&gt;
+&lt;h3&gt;Obtenez des informations sur vos clients&lt;/h3&gt;
+&lt;p&gt;Les classeurs prêts à l’emploi fournissent des visuels sur les principales mesures telles que l’engagement des clients. Présentez l’analyse des incidents par type, priorité et zone géographique. Analysez les performances des services concernant un certain nombre d’incidents, le taux de résolution, le niveau de priorité et bien plus encore.&lt;/p&gt;
+&lt;h3&gt;Explorez les données en détail&lt;/h3&gt;
+&lt;p&gt;Explorez au niveau du détail chaque graphique de niveau supérieur pour comprendre les spécificités des mesures telles que le compte, les prospects, le chiffre d’affaires et le service. Personnalisez ces rapports pour obtenir les informations dont vous avez besoin.&lt;/p&gt;</value>
+  </data>
+  <data name="microsoft_dynamicscrm_InfoHeading" xml:space="preserve">
+    <value>Avec Power BI, vous pouvez obtenir des informations en temps réel à partir de vos données Microsoft Dynamics CRM</value>
+  </data>
+  <data name="microsoft_dynamicscrm_Name" xml:space="preserve">
+    <value>Microsoft Dynamics CRM</value>
+  </data>
+  <data name="microsoft_dynamics_marketing_Content" xml:space="preserve">
+    <value>Analysez vos données de génération de prospects avec des outils visuels. Prenez des décisions informées avec des rapports d’analyse faciles à utiliser affichés dans un tableau de bord unique.</value>
+  </data>
+  <data name="microsoft_dynamics_marketing_Heading" xml:space="preserve">
+    <value>Suivez et explorez vos données Microsoft Dynamics Marketing</value>
+  </data>
+  <data name="microsoft_dynamics_marketing_InfoContent" xml:space="preserve">
+    <value>&lt;h3&gt;Analysez et optimisez&lt;/h3&gt;
+&lt;p&gt;Obtenez les données appropriées avec les rapports d’analyse, des tableaux de bord et des indicateurs de performance clé prêts à l’emploi et faciles à utiliser. Explorez les données au niveau du détail avec les filtres et rapports détaillés pour obtenir des informations utilisables.&lt;/p&gt;
+&lt;h3&gt;Posez des questions. Recevez des réponses.&lt;/h3&gt;
+&lt;p&gt;Dans Power&amp;#160;BI, posez des questions telles que «&amp;#160;Afficher le nombre d’interactions de prospects et de types d’interaction sur une période donnée&amp;#160;». Un graphique à jour affiche les résultats que vous pouvez épingler à votre tableau de bord pour un suivi en continu.&lt;/p&gt;
+&lt;h3&gt;Personnalisez votre tableau de bord et vos rapports&lt;/h3&gt;
+&lt;p&gt;Commencez avec un rapport vide et glissez-déposez les champs à explorer à partir d’une liste exhaustive. Épinglez les visuels de vos rapports personnalisés à vos tableaux de bord.&lt;/p&gt;</value>
+  </data>
+  <data name="microsoft_dynamics_marketing_InfoHeading" xml:space="preserve">
+    <value>En connectant Microsoft Dynamics Marketing à Power BI, retrouvez toutes vos données relatives à la génération de prospects au même endroit, ce qui vous permet de prendre des décisions mieux informées plus rapidement</value>
+  </data>
+  <data name="microsoft_dynamics_marketing_Name" xml:space="preserve">
+    <value>Microsoft Dynamics Marketing</value>
+  </data>
+  <data name="microsoft_dynamics_nav_Content" xml:space="preserve">
+    <value>Analysez vos ventes et vos bénéfices. Suivez votre pipeline d’opportunités et surveillez vos mesures de rentabilité pour obtenir de nouvelles informations.</value>
+  </data>
+  <data name="microsoft_dynamics_nav_Heading" xml:space="preserve">
+    <value>Visualisez et explorez vos données Microsoft Dynamics NAV</value>
+  </data>
+  <data name="microsoft_dynamics_nav_InfoContent" xml:space="preserve">
+    <value>&lt;h3&gt;Bénéficiez d’une vue globale&lt;/h3&gt;
+&lt;p&gt;Lorsque vous vous connectez à Power&amp;#160;BI, vos données sont affichées dans un tableau de bord prêt à l’emploi qui présente les mesures importantes issues du jeu de données. Affichez des mesures sur les ventes, les objectifs mensuels, les recettes et les dépenses et bien plus encore.&lt;/p&gt;
+&lt;h3&gt;Explorez les données au niveau du détail pour obtenir de nouvelles informations&lt;/h3&gt;
+&lt;p&gt;Cliquez sur un visuel du tableau de bord pour afficher l’un des sept rapports sous-jacents. Filtrez le rapport ou ajoutez les champs à surveiller. Épinglez cet affichage personnalisé au tableau de bord pour poursuivre le suivi.&lt;/p&gt;
+&lt;h3&gt;Actualisez les données selon une planification&lt;/h3&gt;
+&lt;p&gt;Le tableau de bord et les rapports sous-jacents sont actualisés quotidiennement. Vous pouvez contrôler la planification de l’actualisation et modifier la fréquence sur le jeu de données.&lt;/p&gt;</value>
+  </data>
+  <data name="microsoft_dynamics_nav_InfoHeading" xml:space="preserve">
+    <value>Avec Power BI, vous pouvez visualiser toutes vos données Microsoft Dynamics NAV dans un emplacement unique, et ainsi dévoiler de nouvelles informations pour prendre de meilleures décisions.</value>
+  </data>
+  <data name="microsoft_dynamics_nav_Name" xml:space="preserve">
+    <value>Microsoft Dynamics NAV</value>
+  </data>
+  <data name="mysql_Content" xml:space="preserve">
+    <value>Centralisez vos données, simplifiez-les en créant des requêtes et partagez-les dans des rapports très visuels.</value>
+  </data>
+  <data name="mysql_Heading" xml:space="preserve">
+    <value>Analysez et visualisez vos données MySQL</value>
+  </data>
+  <data name="mysql_InfoContent" xml:space="preserve">
+    <value>&lt;h3&gt;Rassemblez vos données&lt;/h3&gt;
+&lt;p&gt;Importez de grands volumes de données à partir de plusieurs sources dans Power&amp;#160;BI&amp;#160;Desktop. Modifiez les données avant de les extraire ou transformez-les et formez-les après leur importation.&lt;/p&gt;
+&lt;h3&gt;Explorez vos données autrement&lt;/h3&gt;
+&lt;p&gt;Explorez visuellement vos données avec un large éventail de rapports personnalisables. Créez des visualisations en glissant-déposant les champs que vous souhaitez afficher. Choisissez parmi un large éventail de graphiques pour raconter l’histoire de vos données.&lt;/p&gt;
+&lt;h3&gt;Laissez vos données parler d’elles-mêmes&lt;/h3&gt;
+&lt;p&gt;Une fois que vous avez créé votre rapport, vous pouvez le partager comme n’importe quel autre fichier. Vous pouvez également le publier dans le service Power&amp;#160;BI où vos collègues pourront y accéder.&lt;/p&gt;</value>
+  </data>
+  <data name="mysql_InfoHeading" xml:space="preserve">
+    <value>En vous connectant à Power BI, retrouvez toutes vos données au même endroit et prenez de meilleures décisions, plus rapidement que jamais</value>
+  </data>
+  <data name="mysql_Name" xml:space="preserve">
+    <value>MySQL</value>
+  </data>
+  <data name="odata_Content" xml:space="preserve">
+    <value>Centralisez vos données, simplifiez-les en créant des requêtes et partagez-les dans des rapports très visuels.</value>
+  </data>
+  <data name="odata_Heading" xml:space="preserve">
+    <value>Analysez et visualisez vos données Odata</value>
+  </data>
+  <data name="odata_InfoContent" xml:space="preserve">
+    <value>&lt;h3&gt;Rassemblez vos données&lt;/h3&gt;
+&lt;p&gt;Importez de grands volumes de données à partir de plusieurs sources dans Power&amp;#160;BI&amp;#160;Desktop. Modifiez les données avant de les extraire ou transformez-les et formez-les après leur importation.&lt;/p&gt;
+&lt;h3&gt;Explorez vos données autrement&lt;/h3&gt;
+&lt;p&gt;Explorez visuellement vos données avec un large éventail de rapports personnalisables. Créez des visualisations en glissant-déposant les champs que vous souhaitez afficher. Choisissez parmi un large éventail de graphiques pour raconter l’histoire de vos données.&lt;/p&gt;
+&lt;h3&gt;Laissez vos données parler d’elles-mêmes&lt;/h3&gt;
+&lt;p&gt;Une fois que vous avez créé votre rapport, vous pouvez le partager comme n’importe quel autre fichier. Vous pouvez également le publier dans le service Power&amp;#160;BI où vos collègues pourront y accéder.&lt;/p&gt;</value>
+  </data>
+  <data name="odata_InfoHeading" xml:space="preserve">
+    <value>En vous connectant à Power BI, retrouvez toutes vos données au même endroit et prenez de meilleures décisions, plus rapidement que jamais</value>
+  </data>
+  <data name="odata_Name" xml:space="preserve">
+    <value>OData</value>
+  </data>
+  <data name="odbc_Content" xml:space="preserve">
+    <value>Créez des rapports, des analyses et des tableaux de bord graphiques hautement interactifs et faciles à partager à partir de vos connexions ODBC.</value>
+  </data>
+  <data name="odbc_Heading" xml:space="preserve">
+    <value>Suivez instantanément les données de votre connexion ODBC</value>
+  </data>
+  <data name="odbc_InfoContent" xml:space="preserve">
+    <value>&lt;h3&gt;Interrogez et visualisez vos données&lt;/h3&gt;
+&lt;p&gt;Connectez simplement votre base de données à Power&amp;#160;BI et créez des Mashups dynamiques avec les données et mesures déjà en votre possession.&lt;/p&gt;
+&lt;h3&gt;Explorez vos données autrement&lt;/h3&gt;
+&lt;p&gt;Que vous souhaitiez combiner des données relationnelles et non relationnelles pour obtenir une vue d’ensemble plus complète ou créer des rapports dynamiques pour dévoiler de nouvelles informations, Power&amp;#160;BI vous permet d’explorer vos données autrement.&lt;/p&gt;
+&lt;h3&gt;Laissez vos données parler d’elles-mêmes&lt;/h3&gt;
+&lt;p&gt;Rassemblez vos données dans un même emplacement et obtenez rapidement une vue à 360&amp;#160;degrés de votre activité. Interagissez avec vos données pour obtenir des réponses et créez des rapports très visuels racontant l’histoire de vos données.&lt;/p&gt;</value>
+  </data>
+  <data name="odbc_InfoHeading" xml:space="preserve">
+    <value>En vous connectant à Power BI, retrouvez toutes vos données au même endroit et prenez de meilleures décisions, plus rapidement que jamais</value>
+  </data>
+  <data name="odbc_Name" xml:space="preserve">
+    <value>ODBC</value>
+  </data>
+  <data name="oracle_Content" xml:space="preserve">
+    <value>Centralisez vos données, simplifiez-les en créant des requêtes et partagez-les dans des rapports très visuels.</value>
+  </data>
+  <data name="oracle_Heading" xml:space="preserve">
+    <value>Analysez et visualisez vos données Oracle</value>
+  </data>
+  <data name="oracle_InfoContent" xml:space="preserve">
+    <value>&lt;h3&gt;Rassemblez vos données&lt;/h3&gt;
+&lt;p&gt;Importez de grands volumes de données à partir de plusieurs sources dans Power&amp;#160;BI&amp;#160;Desktop. Modifiez les données avant de les extraire ou transformez-les et formez-les après leur importation.&lt;/p&gt;
+&lt;h3&gt;Explorez vos données autrement&lt;/h3&gt;
+&lt;p&gt;Explorez visuellement vos données avec un large éventail de rapports personnalisables. Créez des visualisations en glissant-déposant les champs que vous souhaitez afficher. Choisissez parmi un large éventail de graphiques pour raconter l’histoire de vos données.&lt;/p&gt;
+&lt;h3&gt;Laissez vos données parler d’elles-mêmes&lt;/h3&gt;
+&lt;p&gt;Une fois que vous avez créé votre rapport, vous pouvez le partager comme n’importe quel autre fichier. Vous pouvez également le publier dans le service Power&amp;#160;BI où vos collègues pourront y accéder.&lt;/p&gt;</value>
+  </data>
+  <data name="oracle_InfoHeading" xml:space="preserve">
+    <value>En vous connectant à Power BI, retrouvez toutes vos données au même endroit et prenez de meilleures décisions, plus rapidement que jamais</value>
+  </data>
+  <data name="oracle_Name" xml:space="preserve">
+    <value>Oracle</value>
+  </data>
+  <data name="planview_enterprise_Content" xml:space="preserve">
+    <value>Affichez autrement vos données relatives à la gestion du personnel et des ressources. Interagissez avec vos données pour obtenir des informations actualisées.</value>
+  </data>
+  <data name="planview_enterprise_Heading" xml:space="preserve">
+    <value>Visualisez vos données Planview Enterprise</value>
+  </data>
+  <data name="planview_enterprise_InfoContent" xml:space="preserve">
+    <value>&lt;h3&gt;Retrouvez les visuels de l’ensemble de vos données dans un tableau de bord unique&lt;/h3&gt;
+&lt;p&gt;Une fois que vous avez connecté votre compte Planview Enterprise à Power&amp;#160;BI, un tableau de bord prêt à l’emploi apparaît. Il inclut des vignettes affichant des mesures organisées, notamment les dépenses en portefeuilles de placements, l’état du budget et bien plus encore.&lt;/p&gt;
+&lt;h3&gt;Explorez vos données autrement&lt;/h3&gt;
+&lt;p&gt;Explorez chaque vignette pour afficher différents rapports. Observez le degré d’alignement de vos projets avec vos priorités. Personnalisez les rapports standard pour suivre les mesures qui sont importantes pour vous. Épinglez vos rapports personnalisés au tableau de bord.&lt;/p&gt;
+&lt;h3&gt;Actualisez les données selon une planification&lt;/h3&gt;
+&lt;p&gt;Le tableau de bord et les rapports sous-jacents sont actualisés quotidiennement. Vous pouvez contrôler la planification de l’actualisation et modifier la fréquence sur le jeu de données.&lt;/p&gt;</value>
+  </data>
+  <data name="planview_enterprise_InfoHeading" xml:space="preserve">
+    <value>Connectez vos données Planview Enterprise à Power BI pour obtenir toutes les données importantes dans un emplacement unique.</value>
+  </data>
+  <data name="planview_enterprise_Name" xml:space="preserve">
+    <value>Planview Enterprise</value>
+  </data>
+  <data name="postgresql_Content" xml:space="preserve">
+    <value>Centralisez vos données, simplifiez-les en créant des requêtes et partagez-les dans des rapports très visuels.</value>
+  </data>
+  <data name="postgresql_Heading" xml:space="preserve">
+    <value>Analysez et visualisez vos données PostgreSQL</value>
+  </data>
+  <data name="postgresql_InfoContent" xml:space="preserve">
+    <value>&lt;h3&gt;Rassemblez vos données&lt;/h3&gt;
+&lt;p&gt;Importez de grands volumes de données à partir de plusieurs sources dans Power&amp;#160;BI&amp;#160;Desktop. Modifiez les données avant de les extraire ou transformez-les et formez-les après leur importation.&lt;/p&gt;
+&lt;h3&gt;Explorez vos données autrement&lt;/h3&gt;
+&lt;p&gt;Explorez visuellement vos données avec un large éventail de rapports personnalisables. Créez des visualisations en glissant-déposant les champs que vous souhaitez afficher. Choisissez parmi un large éventail de graphiques pour raconter l’histoire de vos données.&lt;/p&gt;
+&lt;h3&gt;Laissez vos données parler d’elles-mêmes&lt;/h3&gt;
+&lt;p&gt;Une fois que vous avez créé votre rapport, vous pouvez le partager comme n’importe quel autre fichier. Vous pouvez également le publier dans le service Power&amp;#160;BI où vos collègues pourront y accéder.&lt;/p&gt;</value>
+  </data>
+  <data name="postgresql_InfoHeading" xml:space="preserve">
+    <value>En vous connectant à Power BI, retrouvez toutes vos données au même endroit et prenez de meilleures décisions, plus rapidement que jamais</value>
+  </data>
+  <data name="postgresql_Name" xml:space="preserve">
+    <value>PostgreSQL</value>
+  </data>
+  <data name="quickbooks_online_Content" xml:space="preserve">
+    <value>Dévoilez de nouvelles informations concernant le flux de trésorerie, la rentabilité et les clients. Partagez vos données Quickbooks Online et suivez en continu les dernières recettes et dépenses.</value>
+  </data>
+  <data name="quickbooks_online_Heading" xml:space="preserve">
+    <value>Visualisez et surveillez vos données Quickbooks Online</value>
+  </data>
+  <data name="quickbooks_online_InfoContent" xml:space="preserve">
+    <value>&lt;h3&gt;Restez connecté. Consultez vos données.&lt;/h3&gt;
+&lt;p&gt;Connectez Power&amp;#160;BI à votre compte Quickbooks&amp;#160;Online pour afficher le tableau de bord intégré montrant les espèces en caisse, les tendances en matière de compte de résultat, le résultat net, les meilleurs clients et bien plus encore.&lt;/p&gt;
+&lt;h3&gt;Interagissez avec vos rapports financiers&lt;/h3&gt;
+&lt;p&gt;Sélectionnez un graphique dans votre tableau de bord. Segmentez vos graphiques pour obtenir des informations par exercice ou voir les produits ou services les plus vendus.&lt;/p&gt;
+&lt;h3&gt;Personnalisez vos affichages et rapports&lt;/h3&gt;
+&lt;p&gt;Vous préférez un histogramme à un graphique à barres&amp;#160;? Choisissez le type de graphique souhaité dans le menu des visualisations. Vous souhaitez actualiser vos données plus souvent&amp;#160;? Planifiez une heure d’actualisation régulière.&lt;/p&gt;</value>
+  </data>
+  <data name="quickbooks_online_InfoHeading" xml:space="preserve">
+    <value>En connectant vos données Quickbooks Online à Power BI, retrouvez toutes vos données au même endroit et obtenez des informations utilisables</value>
+  </data>
+  <data name="quickbooks_online_Name" xml:space="preserve">
+    <value>QuickBooks en ligne</value>
+  </data>
+  <data name="salesforce_Content" xml:space="preserve">
+    <value>Obtenez des informations sur les ventes, les comptes et les prospects. Dévoilez des opportunités et partagez vos découvertes avec votre équipe.</value>
+  </data>
+  <data name="salesforce_Heading" xml:space="preserve">
+    <value>Analysez et visualisez vos données Salesforce</value>
+  </data>
+  <data name="salesforce_InfoContent" xml:space="preserve">
+    <value>&lt;h3&gt;Visualisez vos opportunités&lt;/h3&gt;
+&lt;p&gt; Power&amp;#160;BI vous aide à identifier les opportunités dans un tableau de bord unique. Analysez votre pipeline, affichez vos ventes en fonction de diverses mesures et obtenez des informations grâce à l’analyse des prospects.&lt;/p&gt;
+&lt;h3&gt;Obtenez des informations sur vos clients&lt;/h3&gt;
+&lt;p&gt;Les classeurs prêts à l’emploi fournissent des visuels sur les principales mesures. Visualisez l’analyse des incidents par type, priorité et zone géographique. Analysez les performances des services par niveau de priorité, taux de résolution et bien plus encore.&lt;/p&gt;
+&lt;h3&gt;Explorez les données en détail&lt;/h3&gt;
+&lt;p&gt;Chaque graphique de premier niveau se développe pour fournir des informations spécifiques sur les comptes, les prospects, le chiffre d’affaires et le service. Personnalisez ces rapports pour obtenir les informations dont vous avez besoin.&lt;/p&gt;</value>
+  </data>
+  <data name="salesforce_InfoHeading" xml:space="preserve">
+    <value>Vous pouvez désormais obtenir des informations en temps réel à partir de vos données Salesforce en vous connectant via Power BI</value>
+  </data>
+  <data name="salesforce_Name" xml:space="preserve">
+    <value>Salesforce</value>
+  </data>
+  <data name="sendgrid_Content" xml:space="preserve">
+    <value>Importez vos données de messagerie électronique. Affichez vos mesures dans un tableau de bord personnalisable. Extrayez des informations utilisables et dévoilez de nouvelles opportunités.</value>
+  </data>
+  <data name="sendgrid_Heading" xml:space="preserve">
+    <value>Visualisez vos données SendGrid</value>
+  </data>
+  <data name="sendgrid_InfoContent" xml:space="preserve">
+    <value>&lt;h3&gt;Surveillez facilement plusieurs mesures&lt;/h3&gt;
+&lt;p&gt;Importez vos données dans le tableau de bord Power&amp;#160;BI et affichez des mesures relatives aux courriers électroniques telles que les ouvertures, les clics et les rapports sur le courrier indésirable. Suivez les tendances globales par période, zone géographique ou catégorie.&lt;/p&gt;
+&lt;h3&gt;Explorez les données en détail&lt;/h3&gt;
+&lt;p&gt;Vous pouvez obtenir une vue d’ensemble rapide à partir du tableau de bord de niveau supérieur, ainsi que dévoiler de nouvelles informations en explorant chaque vignette en détail.&lt;/p&gt;
+&lt;h3&gt;Analysez les mesures personnalisées&lt;/h3&gt;
+&lt;p&gt;Si vous utilisez des catégories personnalisées ou des mots clés, Power&amp;#160;BI facilite l’affichage de la répartition des remises de courrier électronique par type d’activité.&lt;/p&gt;</value>
+  </data>
+  <data name="sendgrid_InfoHeading" xml:space="preserve">
+    <value>En connectant SendGrid à Power BI, retrouvez toutes vos données au même endroit, ce qui vous permet de prendre des décisions mieux informées plus rapidement qu’auparavant</value>
+  </data>
+  <data name="sendgrid_Name" xml:space="preserve">
+    <value>SendGrid</value>
+  </data>
+  <data name="sharepoint_Content" xml:space="preserve">
+    <value>Centralisez vos données, simplifiez-les en créant des requêtes et partagez-les dans des rapports très visuels.</value>
+  </data>
+  <data name="sharepoint_Heading" xml:space="preserve">
+    <value>Analysez et visualisez vos données SharePoint</value>
+  </data>
+  <data name="sharepoint_InfoContent" xml:space="preserve">
+    <value>&lt;h3&gt;Rassemblez vos données&lt;/h3&gt;
+&lt;p&gt;Importez de grands volumes de données à partir de plusieurs sources dans Power&amp;#160;BI&amp;#160;Desktop. Modifiez les données avant de les extraire ou transformez-les et formez-les après leur importation.&lt;/p&gt;
+&lt;h3&gt;Explorez vos données autrement&lt;/h3&gt;
+&lt;p&gt;Explorez visuellement vos données avec un large éventail de rapports personnalisables. Créez des visualisations en glissant-déposant les champs que vous souhaitez afficher. Choisissez parmi un large éventail de graphiques pour raconter l’histoire de vos données.&lt;/p&gt;
+&lt;h3&gt;Laissez vos données parler d’elles-mêmes&lt;/h3&gt;
+&lt;p&gt;Une fois que vous avez créé votre rapport, vous pouvez le partager comme n’importe quel autre fichier. Vous pouvez également le publier dans le service Power&amp;#160;BI où vos collègues pourront y accéder.&lt;/p&gt;</value>
+  </data>
+  <data name="sharepoint_InfoHeading" xml:space="preserve">
+    <value>En vous connectant à Power BI, retrouvez toutes vos données au même endroit et prenez de meilleures décisions, plus rapidement que jamais</value>
+  </data>
+  <data name="sharepoint_Name" xml:space="preserve">
+    <value>SharePoint</value>
+  </data>
+  <data name="spark_on_azure_Content" xml:space="preserve">
+    <value>Interagissez avec de grands volumes de données, créez des rapports dynamiques et des Mashups et obtenez des informations à partir des visualisations de données.</value>
+  </data>
+  <data name="spark_on_azure_Heading" xml:space="preserve">
+    <value>Analysez et visualisez vos données Spark sur Azure HDInsight</value>
+  </data>
+  <data name="spark_on_azure_InfoContent" xml:space="preserve">
+    <value>&lt;h3&gt;Interrogez et visualisez vos données&lt;/h3&gt;
+&lt;p&gt;Connectez simplement votre base de données à Power&amp;#160;BI et créez des Mashups dynamiques avec les données et mesures déjà en votre possession.&lt;/p&gt;
+&lt;h3&gt;Explorez vos données autrement&lt;/h3&gt;
+&lt;p&gt;Que vous souhaitiez combiner des données relationnelles et non relationnelles pour obtenir une vue d’ensemble plus complète ou créer des rapports dynamiques pour dévoiler de nouvelles informations, Power&amp;#160;BI vous permet d’explorer vos données autrement.&lt;/p&gt;
+&lt;h3&gt;Laissez vos données parler d’elles-mêmes&lt;/h3&gt;
+&lt;p&gt; Rassemblez vos données dans un même emplacement et obtenez rapidement une vue à 360&amp;#160;degrés de votre activité. Interagissez avec vos données pour obtenir des réponses et créez des rapports très visuels racontant l’histoire de vos données.&lt;/p&gt;</value>
+  </data>
+  <data name="spark_on_azure_InfoHeading" xml:space="preserve">
+    <value>En vous connectant à Power BI, retrouvez toutes vos données au même endroit et prenez de meilleures décisions, plus rapidement que jamais</value>
+  </data>
+  <data name="spark_on_azure_Name" xml:space="preserve">
+    <value>Spark dans Azure HDInsight</value>
+  </data>
+  <data name="sql_database_auditing_Content" xml:space="preserve">
+    <value>Comprenez l’activité de votre base de données. Explorez les anomalies pour obtenir des informations sur vos données.</value>
+  </data>
+  <data name="sql_database_auditing_Heading" xml:space="preserve">
+    <value>Analysez visuellement vos données d’audit SQL Database</value>
+  </data>
+  <data name="sql_database_auditing_InfoContent" xml:space="preserve">
+    <value>&lt;h3&gt;Laissez les données parler d’elles-mêmes&lt;/h3&gt;
+&lt;p&gt;Avec le tableau de bord Power&amp;#160;BI prêt à l’emploi, vous obtenez des informations en temps réel sur un large éventail de mesures. Recherchez une activité et des événements inhabituels.&lt;/p&gt;
+&lt;h3&gt;Explorez vos données autrement&lt;/h3&gt;
+&lt;p&gt;Cliquez sur une vignette du tableau de bord pour obtenir plus d’informations sur vos mesures. Interagissez avec le rapport sous-jacent pour explorer vos données de différentes façons.&lt;/p&gt;
+&lt;h3&gt;Personnalisez votre expérience&lt;/h3&gt;
+&lt;p&gt;Vous pouvez personnaliser les rapports pour suivre les mesures à surveiller. Épinglez vos affichages personnalisés au tableau de bord pour un suivi facilité.&lt;/p&gt;</value>
+  </data>
+  <data name="sql_database_auditing_InfoHeading" xml:space="preserve">
+    <value>Avec Power BI, vous pouvez obtenir des informations en temps réel sur vos données d’audit SQL Database</value>
+  </data>
+  <data name="sql_database_auditing_Name" xml:space="preserve">
+    <value>Audit SQL Database</value>
+  </data>
+  <data name="sql_sentry_Content" xml:space="preserve">
+    <value>Surveillez les déploiements SQL Server dont vous effectuez le suivi à l’aide de SQL Sentry Cloud. Partagez les informations au sein de votre organisation.</value>
+  </data>
+  <data name="sql_sentry_Heading" xml:space="preserve">
+    <value>Surveillez et visualisez vos données SQL Sentry</value>
+  </data>
+  <data name="sql_sentry_InfoContent" xml:space="preserve">
+    <value>&lt;h3&gt;Obtenez une vue d’ensemble complète&lt;/h3&gt;
+&lt;p&gt;Lorsque vous vous connectez à Power&amp;#160;BI, un tableau de bord prêt à l’emploi affiche des données sur l’état actuel des serveurs que vous surveillez, y compris leur intégrité, l’utilisation de la mémoire et les temps d’arrêt. Cliquez sur une vignette pour accéder au rapport sous-jacent.&lt;/p&gt;
+&lt;h3&gt;Explorez les données au niveau du détail pour obtenir de nouvelles informations&lt;/h3&gt;
+&lt;p&gt;Utilisez l’arborescence pour afficher rapidement une vue de tous les événements générés par les serveurs et de leur répartition par gravité. Découvrez sur quels serveurs chaque type d’événement a un impact majeur.&lt;/p&gt;
+&lt;h3&gt;Posez des questions, obtenez des réponses&lt;/h3&gt;
+&lt;p&gt;Si vous effectuez une requête telle que «&amp;#160;Quel est mon pourcentage de temps d’arrêt par date&amp;#160;?&amp;#160;», vous obtenez une visualisation interactive exceptionnelle en réponse. Avec Power&amp;#160;BI, vous pouvez poser des questions en langage naturel et obtenir les graphiques qu’il vous faut en réponse.&lt;/p&gt;</value>
+  </data>
+  <data name="sql_sentry_InfoHeading" xml:space="preserve">
+    <value>Connectez vos données SQL Sentry à Power BI pour afficher toutes vos données dans un même emplacement.</value>
+  </data>
+  <data name="sql_sentry_Name" xml:space="preserve">
+    <value>SQL Sentry</value>
+  </data>
+  <data name="sql_server_Content" xml:space="preserve">
+    <value>Power BI convertit rapidement les volumes de données de toutes vos bases de données (ou presque) en rapports et en tableaux de bord interactifs très visuels et faciles à partager.</value>
+  </data>
+  <data name="sql_server_Heading" xml:space="preserve">
+    <value>Donnez du sens à vos données Big Data</value>
+  </data>
+  <data name="sql_server_InfoContent" xml:space="preserve">
+    <value>&lt;h3 class="din-bold white"&gt;Interrogez et visualisez vos données&lt;/h3&gt;
+&lt;p class="default-text-light white"&gt;Connectez simplement votre base de données à Power&amp;#160;BI et créez des Mashups dynamiques avec les données et mesures déjà en votre possession.&lt;/p&gt;
+&lt;h3 class="din-bold white"&gt;Explorez vos données autrement&lt;/h3&gt;
+&lt;p class="default-text-light white"&gt;Que vous souhaitiez combiner des données relationnelles et non relationnelles pour obtenir une vue d’ensemble plus complète ou créer des rapports dynamiques pour dévoiler de nouvelles informations, Power&amp;#160;BI vous permet d’explorer vos données autrement.&lt;/p&gt;
+&lt;h3 class="din-bold white"&gt;Laissez vos données parler d’elles-mêmes&lt;/h3&gt;
+&lt;p class="default-text-light white"&gt;Rassemblez vos données dans un même emplacement et obtenez rapidement une vue à 360&amp;#160;degrés de votre activité. Interagissez avec vos données pour obtenir des réponses et créez des rapports très visuels racontant l’histoire de vos données.&lt;/p&gt;</value>
+  </data>
+  <data name="sql_server_InfoHeading" xml:space="preserve">
+    <value>En vous connectant à Power BI, retrouvez toutes vos données au même endroit et prenez de meilleures décisions, plus rapidement que jamais</value>
+  </data>
+  <data name="sql_server_Name" xml:space="preserve">
+    <value>SQL Server</value>
+  </data>
+  <data name="stripe_Content" xml:space="preserve">
+    <value>Suivez vos événements, frais, clients et factures. Visualisez l’activité de votre entreprise et dévoilez de nouvelles opportunités.</value>
+  </data>
+  <data name="stripe_Heading" xml:space="preserve">
+    <value>Explorez et visualisez votre activité Stripe</value>
+  </data>
+  <data name="stripe_InfoContent" xml:space="preserve">
+    <value>&lt;h3&gt;Interagissez avec vos données&lt;/h3&gt;
+&lt;p&gt;Une fois la connexion établie, vos données s’affichent dans le tableau de bord prêt à l’emploi constitué de plusieurs visualisations ou vignettes. Cliquez sur une vignette pour explorer le rapport sous-jacent. Filtrez les données ou modifiez les champs à afficher pour consulter les mesures qui ont de l’importance pour vous.&lt;/p&gt;
+&lt;h3&gt;Posez des questions, obtenez des réponses&lt;/h3&gt;
+&lt;p&gt;Si vous demandez à afficher le «&amp;#160;Total des frais par date&amp;#160;», vous obtenez une visualisation interactive exceptionnelle en réponse. Avec Power&amp;#160;BI, vous pouvez poser des questions en langage naturel et obtenir les graphiques qu’il vous faut en réponse.&lt;/p&gt;
+&lt;h3&gt;Actualisez les données selon une planification&lt;/h3&gt;
+&lt;p&gt;Le tableau de bord et les rapports sous-jacents sont actualisés quotidiennement. Vous pouvez contrôler la planification de l’actualisation et modifier la fréquence sur le jeu de données.&lt;/p&gt;</value>
+  </data>
+  <data name="stripe_InfoHeading" xml:space="preserve">
+    <value>En connectant Stripe à Power BI, visualisez toutes vos données dans un même emplacement, ce qui vous permet de prendre de meilleures décisions, plus rapidement.</value>
+  </data>
+  <data name="stripe_Name" xml:space="preserve">
+    <value>Stripe</value>
+  </data>
+  <data name="sweetiq_Content" xml:space="preserve">
+    <value>Connectez votre compte SweetIQ pour analyser et suivre vos listes, emplacements, classements et évaluations.</value>
+  </data>
+  <data name="sweetiq_Heading" xml:space="preserve">
+    <value>Analysez et surveillez vos données SweetIQ</value>
+  </data>
+  <data name="sweetiq_InfoContent" xml:space="preserve">
+    <value>&lt;h3&gt;Consultez vos données&lt;/h3&gt;
+&lt;p&gt;Affichez les graphiques représentant les emplacements, classements et évaluations de vos listes dans un tableau de bord unique prêt à l’emploi. Personnalisez le tableau de bord pour surveiller des mesures spécifiques.&lt;/p&gt;
+&lt;h3&gt;Explorez les données au niveau du détail pour obtenir des informations plus pointues&lt;/h3&gt;
+&lt;p&gt;Cliquez sur une vignette pour afficher davantage de rapports. Consultez les données sous forme de visualisations pour obtenir des informations uniques. Filtrez les mesures sur lesquelles vous souhaitez obtenir des informations.&lt;/p&gt;
+&lt;h3&gt;Explorez vos données autrement&lt;/h3&gt;
+&lt;p&gt;Épinglez les mesures que vous souhaitez observer au tableau de bord. Modifiez ou ajoutez des affichages en fonction de vos besoins. Utilisez la zone Question pour affiner un peu plus votre analyse.&lt;/p&gt;</value>
+  </data>
+  <data name="sweetiq_InfoHeading" xml:space="preserve">
+    <value>En connectant SweetIQ à Power BI, retrouvez toutes vos données au même endroit, ce qui vous permet de prendre de meilleures décisions, plus rapidement</value>
+  </data>
+  <data name="sweetiq_Name" xml:space="preserve">
+    <value>SweetIQ</value>
+  </data>
+  <data name="sybase_Content" xml:space="preserve">
+    <value>Convertissez rapidement vos volumes de données en rapports et en tableaux de bord interactifs, hautement visuels et faciles à partager.</value>
+  </data>
+  <data name="sybase_Heading" xml:space="preserve">
+    <value>Exploitez mieux vos métriques Sybase</value>
+  </data>
+  <data name="sybase_InfoContent" xml:space="preserve">
+    <value>&lt;h3&gt;Interrogez et visualisez vos données&lt;/h3&gt;
+&lt;p&gt;Connectez simplement votre base de données à Power&amp;#160;BI et créez des Mashups dynamiques avec les données et mesures déjà en votre possession.&lt;/p&gt;
+&lt;h3&gt;Explorez vos données autrement&lt;/h3&gt;
+&lt;p&gt;Que vous souhaitiez combiner des données relationnelles et non relationnelles pour obtenir une vue d’ensemble plus complète ou créer des rapports dynamiques pour dévoiler de nouvelles informations, Power&amp;#160;BI vous permet d’explorer vos données autrement.&lt;/p&gt;
+&lt;h3&gt;Laissez vos données parler d’elles-mêmes&lt;/h3&gt;
+&lt;p&gt;Rassemblez vos données dans un même emplacement et obtenez rapidement une vue à 360&amp;#160;degrés de votre activité. Interagissez avec vos données pour obtenir des réponses et créez des rapports très visuels racontant l’histoire de vos données.&lt;/p&gt;</value>
+  </data>
+  <data name="sybase_InfoHeading" xml:space="preserve">
+    <value>En vous connectant à Power BI, retrouvez toutes vos données au même endroit et prenez de meilleures décisions, plus rapidement que jamais</value>
+  </data>
+  <data name="sybase_Name" xml:space="preserve">
+    <value>Sybase</value>
+  </data>
+  <data name="teradata_Content" xml:space="preserve">
+    <value>Convertissez rapidement vos volumes de données en rapports et en tableaux de bord interactifs, hautement visuels et faciles à partager.</value>
+  </data>
+  <data name="teradata_Heading" xml:space="preserve">
+    <value>Gérez les analyses avec des tableaux de bord Teradata</value>
+  </data>
+  <data name="teradata_InfoContent" xml:space="preserve">
+    <value>&lt;h3&gt;Interrogez et visualisez vos données&lt;/h3&gt;
+&lt;p&gt;Connectez simplement votre base de données à Power&amp;#160;BI et créez des Mashups dynamiques avec les données et mesures déjà en votre possession.&lt;/p&gt;
+&lt;h3&gt;Explorez vos données autrement&lt;/h3&gt;
+&lt;p&gt;Que vous souhaitiez combiner des données relationnelles et non relationnelles pour obtenir une vue d’ensemble plus complète ou créer des rapports dynamiques pour dévoiler de nouvelles informations, Power&amp;#160;BI vous permet d’explorer vos données autrement.&lt;/p&gt;
+&lt;h3&gt;Laissez vos données parler d’elles-mêmes&lt;/h3&gt;
+&lt;p&gt;Rassemblez vos données dans un même emplacement et obtenez rapidement une vue à 360&amp;#160;degrés de votre activité. Interagissez avec vos données pour obtenir des réponses et créez des rapports très visuels racontant l’histoire de vos données.&lt;/p&gt;</value>
+  </data>
+  <data name="teradata_InfoHeading" xml:space="preserve">
+    <value>En vous connectant à Power BI, retrouvez toutes vos données au même endroit et prenez de meilleures décisions, plus rapidement que jamais</value>
+  </data>
+  <data name="teradata_Name" xml:space="preserve">
+    <value>Teradata</value>
+  </data>
+  <data name="text_Content" xml:space="preserve">
+    <value>Créez rapidement des rapports, des analyses et des tableaux de bord graphiques hautement interactifs et faciles à partager à partir de vos fichiers texte.</value>
+  </data>
+  <data name="text_Heading" xml:space="preserve">
+    <value>Obtenez de meilleurs tableaux de bord et rapports pour les données de vos fichiers texte</value>
+  </data>
+  <data name="text_InfoContent" xml:space="preserve">
+    <value>&lt;h3&gt;Analysez et optimisez&lt;/h3&gt;
+&lt;p&gt;Obtenez les données appropriées avec les rapports d’analyse, les tableaux de bord et les indicateurs de performance clés prêts à l’emploi et faciles à utiliser. Explorez les données au niveau du détail avec les filtres et rapports détaillés pour obtenir des informations utilisables.&lt;/p&gt;
+&lt;h3&gt;Posez des questions. Recevez des réponses.&lt;/h3&gt;
+&lt;p&gt;Posez des questions à Power&amp;#160;BI en langage naturel, comme «&amp;#160;combien de clients avons-nous eus en novembre&amp;#160;?&amp;#160;» Un graphique à jour affiche les résultats que vous pouvez épingler à votre tableau de bord pour un suivi en continu.&lt;/p&gt;
+&lt;h3&gt;Communiquez les bonnes informations aux bonnes personnes&lt;/h3&gt;
+&lt;p&gt;Épinglez des visualisations clés de rapports personnalisés à vos tableaux de bord en ligne, pour créer rapidement une ressource de suivi et de rapport utile à toute votre organisation.&lt;/p&gt;</value>
+  </data>
+  <data name="text_InfoHeading" xml:space="preserve">
+    <value>En vous connectant à Power BI, retrouvez toutes vos données au même endroit et prenez de meilleures décisions, plus rapidement que jamais</value>
+  </data>
+  <data name="text_Name" xml:space="preserve">
+    <value>Text</value>
+  </data>
+  <data name="twilio_Content" xml:space="preserve">
+    <value>Exploitez les données de messages et de suivi d’appels Twilio, analysez vos numéros de téléphone les plus efficaces et évaluez votre progression d’une semaine sur l’autre grâce à l’intégration Power BI. Partagez votre tableau de bord Twilio pour tenir toute votre équipe informée.</value>
+  </data>
+  <data name="twilio_Title" xml:space="preserve">
+    <value>Intégration Twilio</value>
+  </data>
+  <data name="twilio_InfoContent" xml:space="preserve">
+    <value>&lt;h3&gt;Obtenez des réponses aux questions que vous vous posez sur le suivi d’appels Twilio et bien plus encore&lt;/h3&gt;
+&lt;p&gt;Imaginez-vous demander «&amp;#160;Quel territoire a obtenu le taux de gains le plus bas le mois dernier&amp;#160;?&amp;#160;» et obtenir une visualisation interactive impressionnante en guise de réponse. Avec l’intégration Power&amp;#160;BI et Twilio, vous pouvez poser des questions en langage naturel et obtenir des réponses sous forme de tableaux de bord constitués de graphiques.&lt;/p&gt;
+&lt;h3&gt;Utilisez les tableaux de bord Twilio pour explorer les données autrement&lt;/h3&gt;
+&lt;p&gt;Explorez visuellement vos données de suivi d’appels et profitez d’autres fonctions via un canevas glisser-déplacer à structure libre, un large choix de visualisations de données récentes et une fonctionnalité de génération de rapports Twilio simple d’utilisation.&lt;/p&gt;
+&lt;h3&gt;Laissez vos données Twilio parler d’elles-mêmes&lt;/h3&gt;
+&lt;p&gt;Vous voulez cibler vos clients les plus rentables&amp;#160;? L’intégration de Power&amp;#160;BI à Twilio peut vous permettre d’obtenir le meilleur retour sur investissement possible en facilitant le repérage des opportunités à privilégier.&lt;/p&gt;</value>
+  </data>
+  <data name="twilio_InfoHeading" xml:space="preserve">
+    <value>Avec l’intégration Power BI et Twilio, toutes vos données se trouvent à un même emplacement, ce qui vous permet de prendre des décisions plus avisées et plus rapides</value>
+  </data>
+  <data name="twilio_Name" xml:space="preserve">
+    <value>Twilio</value>
+  </data>
+  <data name="tygraph_Content" xml:space="preserve">
+    <value>Découvrez la manière dont les utilisateurs consomment le contenu. Obtenez des informations sur le niveau d’engagement et découvrez les fils de discussion les plus actifs.</value>
+  </data>
+  <data name="tygraph_Heading" xml:space="preserve">
+    <value>Visualisez et surveillez vos données Yammer</value>
+  </data>
+  <data name="tygraph_InfoContent" xml:space="preserve">
+    <value>&lt;h3&gt;Retrouvez les visuels de l’ensemble de vos données dans un tableau de bord unique&lt;/h3&gt;
+&lt;p&gt;Une fois que vous avez connecté votre compte tyGraph à Power&amp;#160;BI, un tableau de bord prêt à l’emploi apparaît. Il inclut des vignettes affichant des mesures organisées, notamment l’activité réseau et bien plus encore.&lt;/p&gt;
+&lt;h3&gt;Explorez vos données autrement&lt;/h3&gt;
+&lt;p&gt;Explorez chaque vignette pour afficher le rapport sous-jacent. Affichez les mesures sur l’activité de groupe ou la consommation de contenu. Personnalisez les rapports standard pour suivre les mesures qui sont importantes pour vous. Épinglez vos rapports personnalisés au tableau de bord.&lt;/p&gt;
+&lt;h3&gt;Posez des questions, obtenez des réponses&lt;/h3&gt;
+&lt;p&gt; Si vous demandez à afficher le «&amp;#160;Total des messages par date&amp;#160;», vous obtenez une visualisation interactive exceptionnelle en réponse. Avec Power&amp;#160;BI, vous pouvez poser des questions en langage naturel et obtenir les graphiques qu’il vous faut en réponse.&lt;/p&gt;</value>
+  </data>
+  <data name="tygraph_InfoHeading" xml:space="preserve">
+    <value>Connectez vos données tyGraph à Power BI pour afficher toutes vos mesures Yammer dans un même emplacement.</value>
+  </data>
+  <data name="tygraph_Name" xml:space="preserve">
+    <value>tyGraph</value>
+  </data>
+  <data name="uservoice_Content" xml:space="preserve">
+    <value>Obtenez des informations sur les commentaires des clients. Surveillez votre service client.</value>
+  </data>
+  <data name="uservoice_Heading" xml:space="preserve">
+    <value>Surveillez et visualisez vos données UserVoice</value>
+  </data>
+  <data name="uservoice_InfoContent" xml:space="preserve">
+    <value>&lt;h3&gt;Laissez les données parler d’elles-mêmes&lt;/h3&gt;
+&lt;p&gt;Avec le tableau de bord Power&amp;#160;BI prêt à l’emploi, vous obtenez des informations en temps réel sur un large éventail de mesures clés. Personnalisez le tableau de bord pour afficher les données à surveiller.&lt;/p&gt;
+&lt;h3&gt;Explorez les données en détail&lt;/h3&gt;
+&lt;p&gt;Explorez le détail des suggestions utilisateur, des tickets ouverts et des notations concernant la satisfaction des clients. Posez une question dans un langage naturel et obtenez des visualisations interactives en réponse.&lt;/p&gt;
+&lt;h3&gt;Explorez vos données autrement&lt;/h3&gt;
+&lt;p&gt;Explorez vos données visuellement grâce à un canevas de glisser-déposer à structure libre, un large choix de visualisations de données personnalisables et une fonctionnalité de création de rapports facile à utiliser.&lt;/p&gt;</value>
+  </data>
+  <data name="uservoice_InfoHeading" xml:space="preserve">
+    <value>Vous pouvez désormais obtenir des informations en temps réel à partir de données UserVoice en vous connectant via Power BI</value>
+  </data>
+  <data name="uservoice_Name" xml:space="preserve">
+    <value>UserVoice</value>
+  </data>
+  <data name="visual_studio_online_Content" xml:space="preserve">
+    <value>En connectant Visual Studio Team Services à Power BI, vous pouvez facilement visualiser les données et obtenir des informations (qui n’étaient pas disponibles auparavant) les concernant.</value>
+  </data>
+  <data name="visual_studio_online_Heading" xml:space="preserve">
+    <value>Obtenez de nouvelles informations avec Power BI et Visual Studio Team Services</value>
+  </data>
+  <data name="visual_studio_online_InfoContent" xml:space="preserve">
+    <value>&lt;h3&gt;Posez des questions, obtenez des réponses&lt;/h3&gt;
+&lt;p&gt;Imaginez-vous demander le nombre de requêtes de tirage reçues par jour et recevoir en réponse une visualisation au rendu impeccable et au format adapté. Avec la fonctionnalité de requête en langage naturel de Power&amp;#160;BI, vous pouvez accéder à vos données sans devoir apprendre un nouveau langage.&lt;/p&gt;
+&lt;h3&gt;Davantage d’affichages, de nouvelles méthodes&lt;/h3&gt;
+&lt;p&gt;Les données issues de Visual Studio Online sont idéales pour la nature complexe des données de développement. Avec Power&amp;#160;BI, vous pouvez créer des rapports personnalisés qui permettent d’afficher les informations de différentes manières, vous offrant ainsi des options supplémentaires en matière de création de rapports et de présentation des données.&lt;/p&gt;
+&lt;h3&gt;Restez en contact avec vos données&lt;/h3&gt;
+&lt;p&gt;L’expérience web Power&amp;#160;BI est entièrement optimisée pour les fonctionnalités tactiles. Vous pouvez facilement afficher successivement des validations, des graphiques et d’autres visuels sur votre écran tactile. Soyez productif tout en vous amusant avec vos données.&lt;/p&gt;</value>
+  </data>
+  <data name="visual_studio_online_InfoHeading" xml:space="preserve">
+    <value>Visualisez vos données avec Power BI</value>
+  </data>
+  <data name="visual_studio_online_Name" xml:space="preserve">
+    <value>Visual Studio Team Services</value>
+  </data>
+  <data name="webtrends_Content" xml:space="preserve">
+    <value>Affichez les principales sources de trafic pour obtenir des informations sur votre campagne. Segmentez vos données de diverses manières pour mieux comprendre le parcours des visiteurs.</value>
+  </data>
+  <data name="webtrends_Heading" xml:space="preserve">
+    <value>Visualisez et analysez vos données Webtrends</value>
+  </data>
+  <data name="webtrends_InfoContent" xml:space="preserve">
+    <value>&lt;h3&gt;Retrouvez les visuels de l’ensemble de vos données dans un tableau de bord unique&lt;/h3&gt;
+&lt;p&gt;Une fois que vous avez connecté votre compte Webtrends à Power&amp;#160;BI, un tableau de bord prêt à l’emploi apparaît. Il inclut des vignettes affichant des mesures organisées, notamment la source du trafic, les consultations de pages et la durée des visites.&lt;/p&gt;
+&lt;h3&gt;Explorez vos données autrement&lt;/h3&gt;
+&lt;p&gt;Explorez en détail le rapport sous-jacent. Découvrez la manière dont les visiteurs entrent sur le site et en sortent. Personnalisez le rapport standard pour suivre les mesures qui sont importantes pour vous. Épinglez votre rapport personnalisé au tableau de bord pour un suivi en continu.&lt;/p&gt;
+&lt;h3&gt;Actualisez les données selon une planification&lt;/h3&gt;
+&lt;p&gt;Le tableau de bord et les rapports sous-jacents sont actualisés quotidiennement. Vous pouvez contrôler la fréquence d’actualisation des données.&lt;/p&gt;</value>
+  </data>
+  <data name="webtrends_InfoHeading" xml:space="preserve">
+    <value>En connectant Webtrends à Power BI, obtenez une vue holistique de vos données, ce qui vous permet de prendre de meilleures décisions, plus rapidement.</value>
+  </data>
+  <data name="webtrends_Name" xml:space="preserve">
+    <value>Webtrends</value>
+  </data>
+  <data name="web_Content" xml:space="preserve">
+    <value>Créez des rapports, des analyses et des tableaux de bord graphiques hautement interactifs et faciles à partager à partir de vos connexions web.</value>
+  </data>
+  <data name="web_Heading" xml:space="preserve">
+    <value>Obtenez de meilleurs tableaux de bord et rapports pour vos données web</value>
+  </data>
+  <data name="web_InfoContent" xml:space="preserve">
+    <value>&lt;h3&gt;Analysez et optimisez&lt;/h3&gt;
+&lt;p&gt;Obtenez les données appropriées avec les rapports d’analyse, les tableaux de bord et les indicateurs de performance clés prêts à l’emploi et faciles à utiliser. Explorez les données au niveau du détail avec les filtres et rapports détaillés pour obtenir des informations utilisables.&lt;/p&gt;
+&lt;h3&gt;Posez des questions. Recevez des réponses.&lt;/h3&gt;
+&lt;p&gt;Posez des questions à Power&amp;#160;BI en langage naturel, comme «&amp;#160;combien de clients avons-nous eus en novembre&amp;#160;?&amp;#160;» Un graphique à jour affiche les résultats que vous pouvez épingler à votre tableau de bord pour un suivi en continu.&lt;/p&gt;
+&lt;h3&gt;Communiquez les bonnes informations aux bonnes personnes&lt;/h3&gt;
+&lt;p&gt;Épinglez des visualisations clés de rapports personnalisés à vos tableaux de bord en ligne, pour créer rapidement une ressource de suivi et de rapport utile à toute votre organisation.&lt;/p&gt;</value>
+  </data>
+  <data name="web_InfoHeading" xml:space="preserve">
+    <value>En vous connectant à Power BI, retrouvez toutes vos données au même endroit et prenez de meilleures décisions, plus rapidement que jamais</value>
+  </data>
+  <data name="web_Name" xml:space="preserve">
+    <value>web</value>
+  </data>
+  <data name="xml_Content" xml:space="preserve">
+    <value>Créez rapidement des rapports, des analyses et des tableaux de bord graphiques hautement interactifs et faciles à partager à partir de vos fichiers XML.</value>
+  </data>
+  <data name="xml_Heading" xml:space="preserve">
+    <value>Obtenez de meilleurs tableaux de bord et rapports pour les données de vos fichiers XML</value>
+  </data>
+  <data name="xml_InfoContent" xml:space="preserve">
+    <value>&lt;h3&gt;Analysez et optimisez&lt;/h3&gt;
+&lt;p&gt;Obtenez les données appropriées avec les rapports d’analyse, les tableaux de bord et les indicateurs de performance clés prêts à l’emploi et faciles à utiliser. Explorez les données au niveau du détail avec les filtres et rapports détaillés pour obtenir des informations utilisables.&lt;/p&gt;
+&lt;h3&gt;Posez des questions. Recevez des réponses.&lt;/h3&gt;
+&lt;p&gt;Posez des questions à Power&amp;#160;BI en langage naturel, comme «&amp;#160;combien de clients avons-nous eus en novembre&amp;#160;?&amp;#160;» Un graphique à jour affiche les résultats que vous pouvez épingler à votre tableau de bord pour un suivi en continu.&lt;/p&gt;
+&lt;h3&gt;Communiquez les bonnes informations aux bonnes personnes&lt;/h3&gt;
+&lt;p&gt;Épinglez des visualisations clés de rapports personnalisés à vos tableaux de bord en ligne, pour créer rapidement une ressource de suivi et de rapport utile à toute votre organisation.&lt;/p&gt;</value>
+  </data>
+  <data name="xml_InfoHeading" xml:space="preserve">
+    <value>En vous connectant à Power BI, retrouvez toutes vos données au même endroit et prenez de meilleures décisions, plus rapidement que jamais</value>
+  </data>
+  <data name="xml_Name" xml:space="preserve">
+    <value>XML</value>
+  </data>
+  <data name="zendesk_Content" xml:space="preserve">
+    <value>En connectant Zendesk à Power BI, vous pouvez facilement explorer et suivre vos données Zendesk. En outre, le tableau de bord et l’ensemble de rapports de démarrage du pack prêt à l’emploi vous permettent d’être productif immédiatement.</value>
+  </data>
+  <data name="zendesk_Heading" xml:space="preserve">
+    <value>Obtenez des informations réelles à partir de vos données Zendesk</value>
+  </data>
+  <data name="zendesk_InfoContent" xml:space="preserve">
+    <value>&lt;h3&gt;Votre tableau de bord, votre méthode de travail&lt;/h3&gt;
+&lt;p&gt;Avec Power&amp;#160;BI et Zendesk, vous pouvez accéder à des informations essentielles sur les tickets, agents, organisations, etc. via un tableau de bord personnalisable. Choisissez les types de données et la chronologie. Power&amp;#160;BI et Zendesk s’occupent du reste.&lt;/p&gt;
+&lt;h3&gt;Épinglez les informations essentielles&lt;/h3&gt;
+&lt;p&gt;Vous voulez vous assurer qu’un point de données est facilement accessible&amp;#160;? Utilisez l’option de personnalisation de l’épinglage pour l’ajouter à votre tableau de bord.&lt;/p&gt;
+&lt;h3&gt;Recevez des réponses à vos questions&lt;/h3&gt;
+&lt;p&gt;Vous avez des questions sur le nombre total de ventes de tickets ou les ventes d’un agent spécifique le jeudi de la semaine précédente&amp;#160;? Vous pouvez obtenir les réponses dont vous avez besoin via la zone Question du tableau de bord.&lt;/p&gt;</value>
+  </data>
+  <data name="zendesk_InfoHeading" xml:space="preserve">
+    <value>Obtenez davantage d’informations de vos données Zendesk en vous connectant via Power BI</value>
+  </data>
+  <data name="zendesk_Name" xml:space="preserve">
+    <value>Zendesk</value>
+  </data>
+  <data name="github_Heading" xml:space="preserve">
+    <value>Analysez votre activité GitHub avec des outils de tableau de bord et de génération de rapports</value>
+  </data>
+  <data name="mailchimp_Heading" xml:space="preserve">
+    <value>Suivez et analysez vos données MailChimp avec des rapports personnalisés</value>
+  </data>
+  <data name="twilio_ConnectContent" xml:space="preserve">
+    <value>Données de suivi d’appels Twilio, feuilles de calcul Excel, sources de données locales, jeux de données Hadoop, données en streaming et services cloud : l’intégration Power BI regroupe toutes vos données pour que vous puissiez les analyser rapidement.</value>
+  </data>
+  <data name="twilio_ConnectHeading" xml:space="preserve">
+    <value>Restez connecté à l’essentiel avec les rapports Twilio et autres fonctionnalités Microsoft Power BI</value>
+  </data>
+  <data name="twilio_META_DESCRIPTION" xml:space="preserve">
+    <value>Regroupez les informations de suivi d’appels Twilio, les données sur les numéros de téléphone et les informations de messagerie dans un tableau de bord Twilio complet. L’intégration Power BI et Twilio simplifie la génération de rapports.</value>
+  </data>
+  <data name="twilio_META_KEYWORDS" xml:space="preserve">
+    <value>Suivi d’appels Twilio, intégration twilio, tableau de bord twilio, génération de rapports twilio</value>
+  </data>
+  <data name="twilio_Heading" xml:space="preserve">
+    <value>Analysez et visualisez les données Twilio à l’aide de tableaux de bord simples d’utilisation</value>
+  </data>
+  <data name="github_ConnectContent" xml:space="preserve">
+    <value>Données de dépôt GitHub, feuilles de calcul Excel, sources de données locales, jeux de données Hadoop, données en streaming et services cloud : Power BI regroupe toutes vos données pour que vous puissiez les analyser rapidement.</value>
+  </data>
+  <data name="github_ConnectHeading" xml:space="preserve">
+    <value>Avec Microsoft Power BI, tirez parti de la génération de rapports de tableau de bord GitHub et bien plus encore</value>
+  </data>
+  <data name="github_META_DESCRIPTION" xml:space="preserve">
+    <value>Exportez votre dépôt vers Power BI pour faciliter la génération de rapports de tableau de bord GitHub. Nos outils vous aident à analyser l’activité pour une gestion de projet GitHub plus efficace.</value>
+  </data>
+  <data name="github_META_KEYWORDS" xml:space="preserve">
+    <value>gestion de projet github, outils github, tableau de bord github, rapport github</value>
+  </data>
+  <data name="github_META_TITLE" xml:space="preserve">
+    <value>Outils de gestion de projet GitHub</value>
+  </data>
+  <data name="mailchimp_ConnectContent" xml:space="preserve">
+    <value>Génération de rapports MailChimp, feuilles de calcul Excel, sources de données locales, jeux de données Hadoop, données en streaming et services cloud : Power BI regroupe toutes vos données pour que vous puissiez les analyser rapidement.</value>
+  </data>
+  <data name="mailchimp_ConnectHeading" xml:space="preserve">
+    <value>Restez connecté à l’essentiel avec l’intégration Microsoft Power BI pour MailChimp et profitez de bien d’autre avantages</value>
+  </data>
+  <data name="mailchimp_META_DESCRIPTION" xml:space="preserve">
+    <value>Tirez parti de l’intégration de MailChimp à Power BI pour visualiser et explorer vos données. Inscrivez-vous et configurez dès aujourd’hui la génération de rapports de tableau de bord MailChimp.</value>
+  </data>
+  <data name="mailchimp_META_KEYWORDS" xml:space="preserve">
+    <value>intégration mailchimp, tableau de bord mailchimp, rapports mailchimp, génération de rapports mailchimp</value>
+  </data>
+  <data name="mailchimp_META_TITLE" xml:space="preserve">
+    <value>Intégration de tableau de bord MailChimp</value>
+  </data>
+  <data name="marketo_ConnectContent" xml:space="preserve">
+    <value>Données d’analyse Marketo, feuilles de calcul Excel, sources de données locales, jeux de données Hadoop, données en streaming et services cloud : Power BI regroupe toutes vos données pour que vous puissiez les analyser rapidement.</value>
+  </data>
+  <data name="marketo_ConnectHeading" xml:space="preserve">
+    <value>Restez connecté à l’essentiel avec l’intégration Microsoft Power BI pour Marketo et profitez de bien d’autre avantages</value>
+  </data>
+  <data name="marketo_META_DESCRIPTION" xml:space="preserve">
+    <value>Créez des tableaux de bord Marketo pour faciliter la génération de rapports avec Power BI. L’intégration Marketo vous permet de visualiser les données d’analyse et ainsi de prendre des décisions avisées basées sur des renseignements précieux.</value>
+  </data>
+  <data name="marketo_META_KEYWORDS" xml:space="preserve">
+    <value>intégration marketo, données d’analyse marketo, génération de rapports marketo, tableau de bord marketo</value>
+  </data>
+  <data name="marketo_META_TITLE" xml:space="preserve">
+    <value>Intégration et rapports d’analyse Marketo</value>
+  </data>
+  <data name="marketo_Heading" xml:space="preserve">
+    <value>Suivez et examinez les données d’analyse Marketo via la génération de rapports Power BI</value>
+  </data>
+  <data name="twilio_META_TITLE" xml:space="preserve">
+    <value>Intégration du suivi d’appels Twilio</value>
+  </data>
+  <data name="default_Content" xml:space="preserve">
+    <value>Créez rapidement des rapports, des analyses et des tableaux de bord graphiques hautement interactifs et faciles à partager.</value>
+  </data>
+  <data name="default_Title" xml:space="preserve">
+    <value>{0} Intégration</value>
+    <comment>Integration name</comment>
+  </data>
+  <data name="default_InfoContent" xml:space="preserve">
+    <value>&lt;h3&gt;Analysez et optimisez&lt;/h3&gt;
+&lt;p&gt;Obtenez les données appropriées avec les rapports d’analyse, les tableaux de bord et les indicateurs de performance clés prêts à l’emploi et faciles à utiliser. Explorez les données au niveau du détail avec les filtres et rapports détaillés pour obtenir des informations utilisables.&lt;/p&gt;
+&lt;h3&gt;Posez des questions. Recevez des réponses.&lt;/h3&gt;
+&lt;p&gt;Posez des questions à Power&amp;#160;BI en langage naturel, comme «&amp;#160;combien de clients avons-nous eus en novembre&amp;#160;?&amp;#160;» Un graphique à jour affiche les résultats que vous pouvez épingler à votre tableau de bord pour un suivi en continu.&lt;/p&gt;
+&lt;h3&gt;Communiquez les bonnes informations aux bonnes personnes&lt;/h3&gt;
+&lt;p&gt;Épinglez des visualisations clés de rapports personnalisés à vos tableaux de bord en ligne, pour créer rapidement une ressource de suivi et de rapport utile à toute votre organisation.&lt;/p&gt;</value>
+  </data>
+  <data name="default_InfoHeading" xml:space="preserve">
+    <value>En vous connectant à Power BI, retrouvez toutes vos données au même endroit et prenez de meilleures décisions, plus rapidement que jamais</value>
+  </data>
+  <data name="default_Heading" xml:space="preserve">
+    <value>Obtenez de meilleurs tableaux de bord et rapports pour vos données</value>
+  </data>
+  <data name="xero_Content" xml:space="preserve">
+    <value>Avec Power BI, vous pouvez développer des rapports visuels parlants qui regroupent les données de comptabilité Xero et toutes vos autres sources de données, dans un même endroit. Générez en quelques minutes un aperçu à 360° de vos activités grâce aux rapports et aux tableaux de bord préconçus et faciles à utiliser, faisant appel à la méthode glisser-déplacer.</value>
+  </data>
+  <data name="xero_Heading" xml:space="preserve">
+    <value>Visualisez et extrayez instantanément des informations pertinentes de vos données de comptabilité</value>
+  </data>
+  <data name="xero_InfoContent" xml:space="preserve">
+    <value>&lt;h3&gt;Visualisez et analysez instantanément vos données Xero&lt;/h3&gt;
+&lt;p&gt;Tirez parti du tableau de bord Power&amp;#160;BI et Xero pour créer des rapports et des visualisations de données récentes. Power&amp;#160;BI permet aux petites entreprises et à leurs conseillers d’étudier en détail des métriques métier spécifiques telles que la position de trésorerie et de générer automatiquement des informations rapides en quelques secondes.&lt;/p&gt;
+&lt;h3&gt;Comparez et confrontez les données critiques de toutes vos applications&lt;/h3&gt;
+&lt;p&gt;Comparez vos données de comptabilité Xero côte à côte avec d’autres applications critiques telles que Microsoft Dynamics CRM, Mailchimp, Insightly, Google Analytics, Zendesk et Stripe.&lt;/p&gt;
+&lt;h3&gt;Partagez en toute transparence&lt;/h3&gt;
+&lt;p&gt;Créez de nouveaux tableaux de bord avec une sélection en langage naturel. Partagez et enregistrez des rapports et des tableaux de bord au visuel convaincant avec vos collègues, en toute sécurité, en tout lieu et à tout moment. &lt;/p&gt;</value>
+  </data>
+  <data name="xero_InfoHeading" xml:space="preserve">
+    <value>Utilisez les outils Xero avec Power BI pour obtenir des informations pertinentes sur vos données de comptabilité instantanément, de façon élaborée et dans un même emplacement</value>
+  </data>
+  <data name="xero_Name" xml:space="preserve">
+    <value>Xero</value>
+  </data>
+  <data name="Meta_LocJobId" xml:space="preserve">
+    <value>110</value>
+  </data>
+</root>

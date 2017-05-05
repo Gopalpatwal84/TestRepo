@@ -1,0 +1,22 @@
+﻿@model PowerBI.Web.Features.Forms.Models.NewsletterFormViewModel
+
+@using Form = PowerBI.Resources.Shared.Forms.Form
+
+@{
+	OnyxForms.SetupForms();
+	var formClass = Model.FormOptions.Class ?? string.Empty;
+	var submitText = Model.FormOptions.SubmitText ?? Form.Submit;
+}
+
+@using (var f = Html.BeginChameleonForm(Html.LocalizeUrl("/forms/submit-newsletter/").ToString(), method: FormMethod.Post, htmlAttributes: Html.Attrs().AddClass(formClass).Attr("data-form-type", "newsletter")))
+{
+	using (var s = f.BeginSection())
+	{
+		@f.FormOptions(Model.FormOptions)
+		@s.FieldFor(m => m.Email).Placeholder(Form.Email_Placeholder_2).WithoutLabel().Label(string.Empty);
+	}
+	using (var n = f.BeginNavigation())
+	{
+		@n.Submit(submitText).AddClass("button-featured button-block")
+	}
+}

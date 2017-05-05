@@ -1,0 +1,83 @@
+﻿.habla-desktop {
+  display: none;
+}
+@media only screen and (min-width: 768px) {
+  .habla-desktop {
+    display: block;
+  }
+  #hbl_region #habla_window_div {
+    box-shadow: -1px -1px 4px rgba(50, 50, 50, 0.2) !important;
+    border-radius: 5px 5px 0 0 !important;
+    border: 1px solid #967100 !important;
+    border-bottom: none !important;
+    background-color: #f2c811 !important;
+    margin: 0 40px !important;
+  }
+  #hbl_region .hbl_pal_title_bg {
+    background-color: #f2c811 !important;
+  }
+  #hbl_region #habla_window_div #habla_oplink_a {
+    color: #000000 !important;
+  }
+  #hbl_region #habla_window_div #habla_sizebutton_a:hover {
+    background-color: transparent !important;
+  }
+  #hbl_region #habla_window_div .habla_button {
+    background-image: url(/pictures/shared/icons/olark-buttons-dark.png) !important;
+  }
+  #hbl_region input {
+    padding: 4px 12px;
+  }
+  .habla-desktop #hbl_region .habla_window_div_base {
+    z-index: 100;
+  }
+  /*show olark window above banner when it is open*/
+  .habla-desktop #hbl_region .olrk-state-expanded .habla_window_div_base {
+    z-index: 300;
+  }
+  #habla_window_div.olrk-fixed-bottom .habla_panel_border,
+  #habla_window_div.olrk-fixed-bottom #habla_topbar_div {
+    border-radius: 0 !important;
+  }
+  #hbl_region #habla_window_div {
+    border-radius: 0 !important;
+  }
+  .custom-olark-container {
+    background-color: #f2c811;
+    position: fixed;
+    bottom: -35px;
+    right: 227px;
+    border: 1px solid #000000;
+    padding: 8px;
+    padding-bottom: 2px;
+    border: 1px solid #967100;
+    border-bottom: none !important;
+  }
+  .chat-row-phone {
+    right: 188px;
+    color: #000000;
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
+  .demo-contact {
+    width: 108px;
+    right: 76px;
+    font-size: 14px;
+    text-align: center;
+    padding: 6px;
+    padding-bottom: 7px;
+    color: #000000;
+  }
+  .custom-olark-container .icon {
+    height: 16px;
+    width: 16px;
+  }
+  .custom-olark-container {
+    cursor: pointer;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .custom-olark-container {
+    display: none;
+  }
+}

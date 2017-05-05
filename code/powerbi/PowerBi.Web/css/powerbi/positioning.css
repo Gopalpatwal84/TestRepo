@@ -1,0 +1,19 @@
+﻿@media only screen and (min-width: 768px) {
+  .center-vertical {
+    position: relative;
+    top: 50%;
+    -ms-transform: translate(0, -50%);
+    -o-transform: translate(0, -50%);
+    -webkit-transform: translate(0, -50%);
+    transform: translate(0, -50%);
+  }
+}
+.force-static {
+  position: static !important;
+}
+.display-inline {
+  display: inline;
+}
+.display-block {
+  display: block;
+}

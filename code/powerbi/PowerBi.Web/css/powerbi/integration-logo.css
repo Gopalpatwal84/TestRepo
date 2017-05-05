@@ -1,0 +1,50 @@
+﻿.integration-logo {
+  position: relative;
+}
+.integration-logo .logo {
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+  -ms-transform: translate(-10px, -40%);
+  -o-transform: translate(-10px, -40%);
+  -webkit-transform: translate(-10px, -40%);
+  transform: translate(-10px, -40%);
+  border: 5px solid #ffffff;
+  left: 0;
+  position: absolute;
+  top: 50%;
+  width: 35%;
+  height: 40%;
+  background-color: #ffffff;
+}
+.integration-logo .logo img {
+  max-height: 100%;
+}
+.integration-logos {
+  height: 90px;
+}
+.integration-logos .logo-powerbi,
+.integration-logos .glyphicon,
+.integration-logos .integration-logo {
+  height: 90px;
+  float: left;
+  line-height: 90px;
+}
+.integration-logos .logo-powerbi {
+  margin-right: 25px;
+  margin-top: 0;
+}
+.integration-logos .glyphicon {
+  margin-right: 15px;
+}
+.integration-logos .logo {
+  display: inline-block;
+  height: 28px;
+  margin-right: 6px;
+  max-width: 28px;
+  width: 25%;
+}
+.integration-logos .powerbi {
+  display: inline-block;
+  height: 28px;
+  max-width: 75px;
+  width: 78%;
+}

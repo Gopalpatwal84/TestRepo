@@ -1,0 +1,34 @@
+﻿@using PowerBI.Web.Models
+
+<section class="section">
+    <div class="row">
+        <div class="column">
+            <h1>Pagination</h1>
+            <p>We do it server side</p>
+            <code>
+                @(@"@Html.Partial(""_pagination"", new Pagination(1,10,100))")
+            </code>
+        </div>
+    </div>
+</section>
+
+<section class="section">
+    <div class="row">
+        <div class="column">
+            <h2>Beginning</h2>
+            @Html.Partial("~/Views/_shared/_pagination.cshtml", new Pagination(1, 10, 100))
+        </div>
+    </div>
+    <div class="row">
+        <div class="column">
+            <h2>Middle</h2>
+            @Html.Partial("~/Views/_shared/_pagination.cshtml", new Pagination(5, 10, 100))
+        </div>
+    </div>
+    <div class="row">
+        <div class="column">
+            <h2>End</h2>
+            @Html.Partial("~/Views/_shared/_pagination.cshtml", new Pagination(10, 10, 100))
+        </div>
+    </div>
+</section>

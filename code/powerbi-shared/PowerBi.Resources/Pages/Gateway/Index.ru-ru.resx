@@ -1,0 +1,258 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" id="root">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AnalysisServicesConnector_Content" xml:space="preserve">
+    <value>Соединитель служб Analysis Services позволяет вам подключаться к табличному серверу Analysis Services и отправлять динамические запросы к нему при использовании с панелями мониторинга и отчетами Power BI.</value>
+  </data>
+  <data name="AnalysisServicesConnector_Download_CTA" xml:space="preserve">
+    <value>Скачать</value>
+  </data>
+  <data name="AnalysisServicesConnector_Heading" xml:space="preserve">
+    <value>Соединитель служб Analysis Services</value>
+  </data>
+  <data name="AnalysisServicesConnector_LearnMore_CTA" xml:space="preserve">
+    <value>Дополнительные сведения</value>
+  </data>
+  <data name="Content_Headline" xml:space="preserve">
+    <value>Выберите шлюз, который лучше всего подходит под ваши требования</value>
+  </data>
+  <data name="DownloadGateway" xml:space="preserve">
+    <value>Скачать шлюз</value>
+  </data>
+  <data name="EasySetup_Content" xml:space="preserve">
+    <value>Скачайте и установите шлюз, выполнив несколько простых действий. Затем войдите в учетную запись своей организации для регистрации шлюза, чтобы он использовался облачными службами.</value>
+  </data>
+  <data name="EasySetup_Heading" xml:space="preserve">
+    <value>Простая настройка</value>
+  </data>
+  <data name="EnterpriseDeployments_Content" xml:space="preserve">
+    <value>Этот шлюз используется организациями для обслуживания большого количества пользователей. Он также позволяет администраторам настроить управление доступом для отдельных источников данных и мониторинга использования.</value>
+  </data>
+  <data name="EnterpriseDeployments_Download_CTA" xml:space="preserve">
+    <value>Скачать</value>
+  </data>
+  <data name="EnterpriseDeployments_Heading" xml:space="preserve">
+    <value>Для корпоративных развертываний</value>
+  </data>
+  <data name="EnterpriseDeployments_Label" xml:space="preserve">
+    <value>Корпоративный шлюз Power BI</value>
+  </data>
+  <data name="EnterpriseDeployments_LearnMore_CTA" xml:space="preserve">
+    <value>Дополнительные сведения</value>
+  </data>
+  <data name="Features_ComingSoon" xml:space="preserve">
+    <value>Скоро выйдет</value>
+  </data>
+  <data name="Features_LearnMore" xml:space="preserve">
+    <value>Дополнительные сведения</value>
+  </data>
+  <data name="Features_MSProducts" xml:space="preserve">
+    <value>Power BI, PowerApps, Azure Logic Apps (предварительная версия), Microsoft Flow</value>
+  </data>
+  <data name="Features_OnPremisesColumn_Heading" xml:space="preserve">
+    <value>Локальный шлюз данных</value>
+  </data>
+  <data name="Features_PersonalColumn_Heading" xml:space="preserve">
+    <value>Личный шлюз</value>
+  </data>
+  <data name="Features_PowerBI" xml:space="preserve">
+    <value>Power BI</value>
+  </data>
+  <data name="Features_Row1" xml:space="preserve">
+    <value>Импорт данных и настройка графика обновлений</value>
+  </data>
+  <data name="Features_Row2" xml:space="preserve">
+    <value>Запуск в качестве приложения для пользователей, которые не являются администраторами на компьютере</value>
+  </data>
+  <data name="Features_Row3" xml:space="preserve">
+    <value>Запуск в роли одного пользователя с вашими учетными данными</value>
+  </data>
+  <data name="Features_Row4" xml:space="preserve">
+    <value>Обслуживает нескольких пользователей с управлением доступом для каждого источника данных</value>
+  </data>
+  <data name="Features_Row5" xml:space="preserve">
+    <value>Поддержка DirectQuery для SQL Server</value>
+  </data>
+  <data name="Features_Row6" xml:space="preserve">
+    <value>Поддержка динамического подключения к Analysis Services</value>
+  </data>
+  <data name="Features_Row7" xml:space="preserve">
+    <value>Мониторинг и аудит для шлюза и источников данных</value>
+  </data>
+  <data name="Features_CloudServices" xml:space="preserve">
+    <value>Совместимые облачные службы</value>
+  </data>
+  <data name="Hero_Content" xml:space="preserve">
+    <value>Благодаря локальным шлюзам вы можете постоянно обновлять данные, подключаясь к локальным источникам данных, без необходимости их перемещения. Запрашивайте большие наборы данных и получайте преимущества от уже имеющихся вложений. Шлюз предоставляет необходимую гибкость для удовлетворения ваших требований и требований вашей организации.</value>
+  </data>
+  <data name="Hero_Heading" xml:space="preserve">
+    <value>Сохраняйте актуальность своих панелей мониторинга и отчетов благодаря локальным источникам данных</value>
+  </data>
+  <data name="Hero_LearnMore" xml:space="preserve">
+    <value>Дополнительные сведения</value>
+  </data>
+  <data name="META_DESCRIPTION" xml:space="preserve">
+    <value />
+  </data>
+  <data name="META_KEYWORDS" xml:space="preserve">
+    <value />
+  </data>
+  <data name="META_PAGETITLE" xml:space="preserve">
+    <value>Шлюз Power BI | Microsoft Power BI</value>
+  </data>
+  <data name="OneGateway_Content" xml:space="preserve">
+    <value>Установите и развертывайте множество локальных подключений к данным в Power BI, PowerApps, Microsoft Flow и Azure Logic Apps при помощи всего одного шлюза.</value>
+  </data>
+  <data name="OneGateway_Heading" xml:space="preserve">
+    <value>Один шлюз для всех ваших облачных служб</value>
+  </data>
+  <data name="PersonalUse_Content" xml:space="preserve">
+    <value>Быстро обновляйте локальные данные, не дожидаясь ИТ-администратора. У этого шлюза нет функций центрального мониторинга, так как он разработан для использования с персональными наборами данных.</value>
+  </data>
+  <data name="PersonalUse_Download_CTA" xml:space="preserve">
+    <value>Скачать</value>
+  </data>
+  <data name="PersonalUse_Heading" xml:space="preserve">
+    <value>Для персонального использования</value>
+  </data>
+  <data name="PersonalUse_Label" xml:space="preserve">
+    <value>Шлюз Power BI — персональный</value>
+  </data>
+  <data name="PersonalUse_LearnMore_CTA" xml:space="preserve">
+    <value>Дополнительные сведения</value>
+  </data>
+  <data name="SecureAccess_Content" xml:space="preserve">
+    <value>Передача данных между Power BI и шлюзом защищена с помощью служебной шины Azure. Учетные данные, предоставляемые администраторами шлюза, шифруются для защиты информации в облаке и расшифровываются только на компьютере шлюза.</value>
+  </data>
+  <data name="SecureAccess_Heading" xml:space="preserve">
+    <value>Безопасный доступ к данным</value>
+  </data>
+  <data name="SSRS_Content" xml:space="preserve">
+    <value>С помощью служб Reporting Services 2016 пользователи могут закрепить визуализацию из отчета на панели мониторинга в Power BI.</value>
+  </data>
+  <data name="SSRS_Heading" xml:space="preserve">
+    <value>Службы SQL Server Reporting Services 2016</value>
+  </data>
+  <data name="SSRS_LearnMore_CTA" xml:space="preserve">
+    <value>Дополнительные сведения</value>
+  </data>
+  <data name="Meta_LocJobId" xml:space="preserve">
+    <value>151</value>
+  </data>
+</root>

@@ -1,0 +1,116 @@
+﻿@model PowerBI.Web.Models.Pages.ViewMetadataModel
+@using Resources = PowerBI.Resources.Pages.Desktop.Index;
+
+@{
+    Model.PageTitle = Resources.META_PAGETITLE;
+    Model.MetaKeywords = Resources.META_KEYWORDS;
+    Model.MetaDescription = Resources.META_DESCRIPTION;
+}
+
+<section class="section section-size3 section-palette02">
+    <div class="row">
+        <div class="column large-5">
+            <h1>@Resources.Hero_Heading</h1>
+        </div>
+        <div class="column large-6 large-offset-1">
+            <p>@Resources.Hero_Copy</p>
+        </div>
+    </div>
+</section>
+
+<section class="section section-slate01">
+    <div class="row">
+        <div class="column large-5">
+            <h2 class="text-heading3">@Resources.LearnMore_Heading</h2>
+        </div>
+        <div class="column large-6 large-offset-1">
+            <ul class="linkList linkList-horizontal">
+                <li>
+                    <a href="@Html.LocalizeUrl("go:521662")" id="desktop-download" class="button button-featured" data-pops-up="modal-download" data-event="global-clicked-getstartedcta" data-event-property="download">
+                        @Resources.Download
+                    </a>
+                </li>
+                <li><a class="cta-secondary" href="@Html.LocalizeUrl("article:powerbi-desktop-getting-started")">@Resources.LearnMore<span class="glyphicon glyph-micro pbi-glyph-chevronrightmedium"></span></a></li>
+            </ul>
+            <a href="http://www.microsoft.com/download/details.aspx?id=45331" class="text-mini">@Resources.AdvancedDownloadOptions</a>
+        </div>
+    </div>
+</section>
+
+<section class="section section-size0">
+    <img style="display:block;" src="@CdnHelper.GetCdnUrl("/pictures/pages/desktop/laptop.png")" alt="" />
+</section>
+
+<section class="section section-size3 section-palette02">
+    <div class="row">
+        <div class="column medium-7">
+            <p>@Resources.WhatsNew_Copy</p>
+        </div>
+        <div class="column medium-4 medium-offset-1">
+            <a class="button" href="@Html.LocalizeUrl("article:powerbi-desktop-latest-update")">@Resources.WhatsNew</a>
+        </div>
+    </div>
+</section>
+
+<section class="section">
+    <div class="row row-size3">
+        <div class="column medium-4">
+            <div class="row">
+                <div class="column">
+                    <span class="icon icon-size3">@SvgHelper.GetSvg("cube")</span>
+                </div>
+            </div>
+            <div class="row row-size3">
+                <div class="column">
+                    <h3>@Resources.Transform_Heading</h3>
+                    <p>@Resources.Transform_Copy</p>
+                </div>
+            </div>
+        </div>
+        <div class="column medium-4">
+            <div class="row">
+                <div class="column">
+                    <span class="icon icon-size3">@SvgHelper.GetSvg("cycle")</span>
+                </div>
+            </div>
+            <div class="row row-size3">
+                <div class="column">
+                    <h3>@Resources.Complete_Heading</h3>
+                    <p>@Resources.Complete_Copy</p>
+                </div>
+            </div>
+        </div>
+        <div class="column medium-4">
+            <div class="row">
+                <div class="column">
+                    <span class="icon icon-size3">@SvgHelper.GetSvg("world")</span>
+                </div>
+            </div>
+            <div class="row row-size3">
+                <div class="column">
+                    <h3>@Resources.DesignOnce_Heading</h3>
+                    <p>@Resources.DesignOnce_Copy</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+@Html.Partial("section/_modal-download-gated")
+@section foot {
+    <script>
+        (function () {
+            $('[data-pops-up="modal-download"]').on('click', function () {
+                window.location = this.href;
+            });
+            $('body').on('click', '#modal-download .button', function () {
+                $('#modal-download .close').trigger('click');
+            });
+
+            $('body').on('submit', '#modal-gartner form', function () {
+                $('#modal-gartner .close').trigger('click');
+                window.open('https://www.gartner.com/doc/reprints?id=1-2XYY9ZR&ct=160204&st=sb ', '_blank')
+            });
+        })();
+    </script>
+}

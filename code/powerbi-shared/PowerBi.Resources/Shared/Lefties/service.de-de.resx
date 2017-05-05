@@ -1,0 +1,969 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" id="root">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Area_Administration" xml:space="preserve">
+    <value>Verwaltung</value>
+  </data>
+  <data name="Area_Ask" xml:space="preserve">
+    <value>Fragen an Ihre Daten stellen</value>
+  </data>
+  <data name="Area_Connect" xml:space="preserve">
+    <value>Verbinden mit Diensten</value>
+  </data>
+  <data name="Area_Dashboards" xml:space="preserve">
+    <value>Dashboards</value>
+  </data>
+  <data name="Area_DataDatabases" xml:space="preserve">
+    <value>Daten aus Datenbanken</value>
+  </data>
+  <data name="Area_DataFiles" xml:space="preserve">
+    <value>Daten aus Dateien</value>
+  </data>
+  <data name="Area_DataRefresh" xml:space="preserve">
+    <value>Datenaktualisierung</value>
+  </data>
+  <data name="Area_Gateways" xml:space="preserve">
+    <value>Gateways</value>
+  </data>
+  <data name="Area_GetStarted" xml:space="preserve">
+    <value>Erste Schritte</value>
+  </data>
+  <data name="Area_Reports" xml:space="preserve">
+    <value>Berichte</value>
+  </data>
+  <data name="Area_Samples" xml:space="preserve">
+    <value>Beispiele</value>
+  </data>
+  <data name="Area_Share" xml:space="preserve">
+    <value>Freigeben Ihrer Arbeit</value>
+  </data>
+  <data name="Area_Troubleshooting" xml:space="preserve">
+    <value>Problembehandlung</value>
+  </data>
+  <data name="Area_Visualizations" xml:space="preserve">
+    <value>Visualisierungen</value>
+  </data>
+  <data name="Link_3rdPartyGetStarted" xml:space="preserve">
+    <value>Power BI – Erste Schritte mit Drittanbieter-Apps</value>
+  </data>
+  <data name="Link_Acumatica" xml:space="preserve">
+    <value>Acumatica-Inhaltspaket</value>
+  </data>
+  <data name="Link_AddImageToDashboard" xml:space="preserve">
+    <value>Hinzufügen eines Bilds zu einem Dashboard</value>
+  </data>
+  <data name="Link_AddWidget" xml:space="preserve">
+    <value>Hinzufügen von Bildern, Textfeldern, Videos oder Webcode zum Dashboard</value>
+  </data>
+  <data name="Link_AdobeAnalytics" xml:space="preserve">
+    <value>Adobe Analytics-Inhaltspaket</value>
+  </data>
+  <data name="Link_AppFigures" xml:space="preserve">
+    <value>appFigures-Inhaltspaket</value>
+  </data>
+  <data name="Link_AppInisghts" xml:space="preserve">
+    <value>Application Insights-Inhaltspaket</value>
+  </data>
+  <data name="Link_AtInternetBridge" xml:space="preserve">
+    <value>AT Internet Bridge-Inhaltspaket</value>
+  </data>
+  <data name="Link_AzureAuditLogs" xml:space="preserve">
+    <value>Azure-Überwachungsprotokoll-Inhaltspaket</value>
+  </data>
+  <data name="Link_AzureEnterprise" xml:space="preserve">
+    <value>Microsoft Azure Enterprise-Inhaltspaket</value>
+  </data>
+  <data name="Link_BasicConcepts" xml:space="preserve">
+    <value>Power BI – Grundkonzepte</value>
+  </data>
+  <data name="Link_BigNumberTileDashboard" xml:space="preserve">
+    <value>Erstellen einer großen numerischen Kachel für ein Power BI-Dashboard durch Stellen einer Frage</value>
+  </data>
+  <data name="Link_BigNumberTileReport" xml:space="preserve">
+    <value>Erstellen einer großen numerischen Kachel aus einem Power BI-Bericht</value>
+  </data>
+  <data name="Link_Bing" xml:space="preserve">
+    <value>Bing-Inhaltspaket</value>
+  </data>
+  <data name="Link_BrowserSupport" xml:space="preserve">
+    <value>Unterstützte Browser für Power BI</value>
+  </data>
+  <data name="Link_CircuitID" xml:space="preserve">
+    <value>Circuit ID-Inhaltspaket</value>
+  </data>
+  <data name="Link_CollaborateWithGroup" xml:space="preserve">
+    <value>Zusammenarbeit mit Ihrer Power BI-Gruppe</value>
+  </data>
+  <data name="Link_ComScore" xml:space="preserve">
+    <value>comScore Digital Analytix-Inhaltspaket</value>
+  </data>
+  <data name="Link_ConnectOneDrive" xml:space="preserve">
+    <value>Herstellen einer Verbindung mit Dateien im Gruppenbereich auf OneDrive for Business</value>
+  </data>
+  <data name="Link_ConnectToSamples" xml:space="preserve">
+    <value>Tutorial: Verwenden der Power BI-Beispielinhaltspakete</value>
+  </data>
+  <data name="Link_ConnectToServices" xml:space="preserve">
+    <value>Herstellen einer Dienstverbindung mit Inhaltspaketen</value>
+  </data>
+  <data name="Link_CreateADashboard" xml:space="preserve">
+    <value>Erstellen eines Power BI-Dashboards</value>
+  </data>
+  <data name="Link_CreateFeaturedQuestions" xml:space="preserve">
+    <value>Erstellen von ausgewählten Fragen für Power BI Q&amp;A</value>
+  </data>
+  <data name="Link_CreateGroup" xml:space="preserve">
+    <value>Erstellen einer Gruppe in Power BI</value>
+  </data>
+  <data name="Link_CreatePublishContentPack" xml:space="preserve">
+    <value>Erstellen und Veröffentlichen von organisationsbezogenen Inhaltspaketen (Tutorial)</value>
+  </data>
+  <data name="Link_CustomerProfitabilitySample" xml:space="preserve">
+    <value>Beispiel zur Kundenrentabilität für Power BI: Tour</value>
+  </data>
+  <data name="Link_DashboardTiles" xml:space="preserve">
+    <value>Dashboardkacheln in Power BI</value>
+  </data>
+  <data name="Link_DataSources" xml:space="preserve">
+    <value>Datenquellen für Power BI</value>
+  </data>
+  <data name="Link_DataWorkWell" xml:space="preserve">
+    <value>Optimieren Ihrer Daten für Q&amp;A in Power BI</value>
+  </data>
+  <data name="Link_DeleteContentPack" xml:space="preserve">
+    <value>Entfernen der Verbindung mit einem organisationsbezogenen Inhaltspaket</value>
+  </data>
+  <data name="Link_DesignTips" xml:space="preserve">
+    <value>Tipps zum Gestalten von Power BI-Dashboards</value>
+  </data>
+  <data name="Link_DisplayReportFullScreen" xml:space="preserve">
+    <value>Anzeigen von Dashboards und Berichten im Vollbildmodus (TV-Modus)</value>
+  </data>
+  <data name="Link_DisplayTileFullScreen" xml:space="preserve">
+    <value>Anzeigen einer Dashboardkachel im Vollbildmodus (TV-Modus)</value>
+  </data>
+  <data name="Link_DisplayTileInFocus" xml:space="preserve">
+    <value>Anzeigen einer Dashboardkachel im Fokusmodus</value>
+  </data>
+  <data name="Link_DownloadFinancialSample" xml:space="preserve">
+    <value>Herunterladen der Arbeitsmappe mit dem Finanzbeispiel für Power BI</value>
+  </data>
+  <data name="Link_DynamicsCRM" xml:space="preserve">
+    <value>Microsoft Dynamics CRM-Inhaltspaket</value>
+  </data>
+  <data name="Link_DynamicsMarketing" xml:space="preserve">
+    <value>Microsoft Dynamics Marketing-Inhaltspaket</value>
+  </data>
+  <data name="Link_DynamicsNav" xml:space="preserve">
+    <value>Microsoft Dynamics NAV-Inhaltspaket</value>
+  </data>
+  <data name="Link_EditATile" xml:space="preserve">
+    <value>Bearbeiten einer Kachel – Größe ändern, verschieben, umbenennen, anheften, löschen, Link hinzufügen</value>
+  </data>
+  <data name="Link_EnableCortana" xml:space="preserve">
+    <value>Aktivieren von Cortana für Power BI</value>
+  </data>
+  <data name="Link_Faq" xml:space="preserve">
+    <value>Häufig gestellte Fragen</value>
+  </data>
+  <data name="Link_FindOpenContentPack" xml:space="preserve">
+    <value>Suchen von und Verbinden mit organisationsbezogenen Inhaltspaketen</value>
+  </data>
+  <data name="Link_GetStarted" xml:space="preserve">
+    <value>Erste Schritte mit Power BI</value>
+  </data>
+  <data name="Link_GitHub" xml:space="preserve">
+    <value>GitHub-Inhaltspaket</value>
+  </data>
+  <data name="Link_GoogleAnalytics" xml:space="preserve">
+    <value>Google Analytics-Inhaltspaket</value>
+  </data>
+  <data name="Link_HowToUse" xml:space="preserve">
+    <value>Power BI Q&amp;A verwenden</value>
+  </data>
+  <data name="Link_HumanResourceSample" xml:space="preserve">
+    <value>Beispiel für Personalwesen: Tour</value>
+  </data>
+  <data name="Link_IntroToCortana" xml:space="preserve">
+    <value>Einführung in Cortana für Power BI</value>
+  </data>
+  <data name="Link_LanguageSupport" xml:space="preserve">
+    <value>Unterstützte Sprachen und Länder/Regionen für Power BI</value>
+  </data>
+  <data name="Link_Lithium" xml:space="preserve">
+    <value>Lithium-Inhaltspaket</value>
+  </data>
+  <data name="Link_MailChimp" xml:space="preserve">
+    <value>MailChimp-Inhaltspaket</value>
+  </data>
+  <data name="Link_ManageContentPack" xml:space="preserve">
+    <value>Verwalten, Aktualisieren und Löschen von organisationsbezogenen Inhaltspaketen</value>
+  </data>
+  <data name="Link_ManageGroup" xml:space="preserve">
+    <value>Verwalten Ihrer Gruppe in Power BI und Office 365</value>
+  </data>
+  <data name="Link_Mandrill" xml:space="preserve">
+    <value>Mandrill-Inhaltspaket</value>
+  </data>
+  <data name="Link_Marketo" xml:space="preserve">
+    <value>Marketo-Inhaltspaket</value>
+  </data>
+  <data name="Link_MobileEngagement" xml:space="preserve">
+    <value>Azure Mobile Engagement-Inhaltspaket</value>
+  </data>
+  <data name="Link_Office365" xml:space="preserve">
+    <value>Office365Mon-Inhaltspaket</value>
+  </data>
+  <data name="Link_OpportunityAnalysisSample" xml:space="preserve">
+    <value>Analysebeispiel für Verkaufschancen für Power BI: Tour</value>
+  </data>
+  <data name="Link_OptimizeData" xml:space="preserve">
+    <value>Optimieren von Daten für schnelle Einblicke in Power BI</value>
+  </data>
+  <data name="Link_PinATileFromDashboard" xml:space="preserve">
+    <value>Anheften einer Kachel aus einem Dashboard an ein anderes Dashboard</value>
+  </data>
+  <data name="Link_PinATileFromExcel" xml:space="preserve">
+    <value>Anheften einer Kachel an ein Power BI-Dashboard aus Excel</value>
+  </data>
+  <data name="Link_PinATileFromReport" xml:space="preserve">
+    <value>Anheften einer Kachel an ein Power BI-Dashboard aus einem Bericht</value>
+  </data>
+  <data name="Link_PinATileToDashboardFromQA" xml:space="preserve">
+    <value>Anheften einer Kachel an ein Power BI-Dashboard aus dem Fragefeld für Fragen und Antworten (F&amp;A)</value>
+  </data>
+  <data name="Link_PinReportToDashboard" xml:space="preserve">
+    <value>Anheften einer gesamten Berichtsseite an ein Power BI-Dashboard</value>
+  </data>
+  <data name="Link_Planview" xml:space="preserve">
+    <value>Planview Enterprise-Inhaltspaket</value>
+  </data>
+  <data name="Link_Printing" xml:space="preserve">
+    <value>Drucken eines Dashboards, Drucken einer Dashboardkachel, Drucken einer Berichtsseite</value>
+  </data>
+  <data name="Link_ProcurementAnalysisSample" xml:space="preserve">
+    <value>Beispiel zur Beschaffungsanalyse: Tour</value>
+  </data>
+  <data name="Link_ProjectOnline" xml:space="preserve">
+    <value>Project Online-Inhaltspaket</value>
+  </data>
+  <data name="Link_ProjectPlace" xml:space="preserve">
+    <value>Projectplace-Inhaltspaket</value>
+  </data>
+  <data name="Link_ProWhatIs" xml:space="preserve">
+    <value>Power BI Pro-Inhalt – was ist das?</value>
+  </data>
+  <data name="Link_PublishForExcel" xml:space="preserve">
+    <value>Power BI Publisher für Excel</value>
+  </data>
+  <data name="Link_PublishToWeb" xml:space="preserve">
+    <value>Webveröffentlichungen aus Power BI</value>
+  </data>
+  <data name="Link_QandA" xml:space="preserve">
+    <value>Fragen und Antworten in Power BI</value>
+  </data>
+  <data name="Link_QrCodeTile" xml:space="preserve">
+    <value>Erstellen eines QR-Codes für eine Kachel</value>
+  </data>
+  <data name="Link_QualityAnalysisSample" xml:space="preserve">
+    <value>Analysebeispiel für Lieferantenqualität für Power BI: Tour</value>
+  </data>
+  <data name="Link_Quickbooks" xml:space="preserve">
+    <value>QuickBooks Online-Inhaltspaket</value>
+  </data>
+  <data name="Link_QuickInisghts" xml:space="preserve">
+    <value>Schnelle Einblicke in Power BI</value>
+  </data>
+  <data name="Link_QuickInisghtsTypes" xml:space="preserve">
+    <value>Von Power BI unterstützte schnelle Einblicke</value>
+  </data>
+  <data name="Link_RemoveDashboard" xml:space="preserve">
+    <value>Entfernen eines Dashboards</value>
+  </data>
+  <data name="Link_RenameDashboard" xml:space="preserve">
+    <value>Umbenennen eines Power BI-Dashboards</value>
+  </data>
+  <data name="Link_Reports" xml:space="preserve">
+    <value>Berichte in Power BI</value>
+  </data>
+  <data name="Link_RetailAnalysisSample" xml:space="preserve">
+    <value>Analysebeispiel für Einzelhandel für Power BI: Tour</value>
+  </data>
+  <data name="Link_Salesforce" xml:space="preserve">
+    <value>Salesforce-Inhaltspaket</value>
+  </data>
+  <data name="Link_SalesMarketingSample" xml:space="preserve">
+    <value>Vertriebs- und Marketingbeispiel für Power BI: Tour</value>
+  </data>
+  <data name="Link_SampleDatasets" xml:space="preserve">
+    <value>Beispiele für Power BI</value>
+  </data>
+  <data name="Link_SelfServiceSignup" xml:space="preserve">
+    <value>Self-Service-Registrierung für Power BI</value>
+  </data>
+  <data name="Link_Sendgrid" xml:space="preserve">
+    <value>SendGrid-Inhaltspaket</value>
+  </data>
+  <data name="Link_ShareDashboard" xml:space="preserve">
+    <value>Wie soll ich Dashboards und Berichte freigeben?</value>
+  </data>
+  <data name="Link_ShareDashboardLinkExcel" xml:space="preserve">
+    <value>Freigeben eines Dashboards, das mit einer Excel-Arbeitsmappe auf OneDrive for Business verknüpft ist</value>
+  </data>
+  <data name="Link_ShareUnshareDashboard" xml:space="preserve">
+    <value>Freigeben eines Dashboards für Kollegen und andere</value>
+  </data>
+  <data name="Link_Smartsheet" xml:space="preserve">
+    <value>Smartsheet-Inhaltspaket</value>
+  </data>
+  <data name="Link_Sparkpost" xml:space="preserve">
+    <value>SparkPost-Inhaltspaket</value>
+  </data>
+  <data name="Link_SpendAnalysisSample" xml:space="preserve">
+    <value>Analysebeispiel für IT-Investitionen für Power BI: Tour</value>
+  </data>
+  <data name="Link_SqlAuditing" xml:space="preserve">
+    <value>Inhaltspaket für die SQL-Datenbanküberwachung</value>
+  </data>
+  <data name="Link_SqlSentry" xml:space="preserve">
+    <value>SQL Sentry-Inhaltspaket</value>
+  </data>
+  <data name="Link_Stripe" xml:space="preserve">
+    <value>Stripe-Inhaltspaket</value>
+  </data>
+  <data name="Link_SweetIQ" xml:space="preserve">
+    <value>SweetIQ-Inhaltspaket</value>
+  </data>
+  <data name="Link_TipsForAsking" xml:space="preserve">
+    <value>Tipps und Tricks für Fragen mit Q&amp;A in Power BI</value>
+  </data>
+  <data name="Link_Twilio" xml:space="preserve">
+    <value>Twilio-Inhaltspaket</value>
+  </data>
+  <data name="Link_Tygraph" xml:space="preserve">
+    <value>tyGraph-Inhaltspaket</value>
+  </data>
+  <data name="Link_Uservoice" xml:space="preserve">
+    <value>UserVoice-Inhaltspaket</value>
+  </data>
+  <data name="Link_GetStartedTutorial" xml:space="preserve">
+    <value>Tutorial: Erste Schritte mit Power BI Q&amp;A</value>
+  </data>
+  <data name="Link_Videos" xml:space="preserve">
+    <value>Power BI-Videos</value>
+  </data>
+  <data name="Link_VisualStudioOnline" xml:space="preserve">
+    <value>Visual Studio Team Services-Inhaltspaket</value>
+  </data>
+  <data name="Link_VMob" xml:space="preserve">
+    <value>VMob-Inhaltspaket</value>
+  </data>
+  <data name="Link_Webinars" xml:space="preserve">
+    <value>Power BI-Webinare</value>
+  </data>
+  <data name="Link_Webtrends" xml:space="preserve">
+    <value>Webtrends-Inhaltspaket</value>
+  </data>
+  <data name="Link_WhatsNew" xml:space="preserve">
+    <value>Neuheiten bei Power BI</value>
+  </data>
+  <data name="Link_WorkWithContentPack" xml:space="preserve">
+    <value>Arbeiten mit organisationsbezogenen Inhaltspaketen</value>
+  </data>
+  <data name="Link_Zendesk" xml:space="preserve">
+    <value>Zendesk-Inhaltspaket</value>
+  </data>
+  <data name="Title" xml:space="preserve">
+    <value>Power BI-Dienst</value>
+  </data>
+  <data name="Link_AddFilterToReport" xml:space="preserve">
+    <value>Hinzufügen eines Filters zu einem Bericht in Power BI</value>
+  </data>
+  <data name="Link_AddPageToReport" xml:space="preserve">
+    <value>Hinzufügen einer Seite zu einem Power BI-Bericht</value>
+  </data>
+  <data name="Link_AddVisualizations1" xml:space="preserve">
+    <value>Lernprogramm: Teil 1 – Hinzufügen von Visualisierungen zu einem Power BI-Bericht</value>
+  </data>
+  <data name="Link_AddVisualizations2" xml:space="preserve">
+    <value>Lernprogramm: Teil 2 – Hinzufügen von Visualisierungen zu einem Power BI-Bericht</value>
+  </data>
+  <data name="Link_Administering" xml:space="preserve">
+    <value>Verwalten von Power BI in Ihrer Organisation</value>
+  </data>
+  <data name="Link_AlternateEmail" xml:space="preserve">
+    <value>Alternative E-Mail-Adresse für Power BI</value>
+  </data>
+  <data name="Link_AnalysisServices" xml:space="preserve">
+    <value>Verwalten der Enterprisedatenquelle – Analysis Services</value>
+  </data>
+  <data name="Link_ArchivedWorkspace" xml:space="preserve">
+    <value>Archivierter Arbeitsbereich in Power BI</value>
+  </data>
+  <data name="Link_Azure" xml:space="preserve">
+    <value>Azure und Power BI</value>
+  </data>
+  <data name="Link_BasicAreaChart" xml:space="preserve">
+    <value>Lernprogramm: Grundlegende Flächendiagramme</value>
+  </data>
+  <data name="Link_CapturingDiag" xml:space="preserve">
+    <value>Erfassen von zusätzlichen Diagnoseinformationen für Power BI</value>
+  </data>
+  <data name="Link_ChangeReportDisplaySettings" xml:space="preserve">
+    <value>Einstellungen für die Seitenanzeige in einem Power BI-Bericht</value>
+  </data>
+  <data name="Link_ChangeTypeVisualization" xml:space="preserve">
+    <value>Ändern des Visualisierungstyps in einem Power BI-Bericht</value>
+  </data>
+  <data name="Link_ChartSorting" xml:space="preserve">
+    <value>Ändern der Sortierung eines Diagramms in einem Power BI-Bericht</value>
+  </data>
+  <data name="Link_ClosingAccount" xml:space="preserve">
+    <value>Schließen des Power BI-Kontos</value>
+  </data>
+  <data name="Link_ColorFormatting" xml:space="preserve">
+    <value>Erste Schritte mit Farbeinstellungen und Achseneigenschaften</value>
+  </data>
+  <data name="Link_ColorFormattingTips" xml:space="preserve">
+    <value>Tipps und Tricks zur Farbformatierung in Power BI</value>
+  </data>
+  <data name="Link_ComboChart" xml:space="preserve">
+    <value>Tutorial: Kombinationsdiagramm in Power BI</value>
+  </data>
+  <data name="Link_ConfigureIntune" xml:space="preserve">
+    <value>Konfigurieren mobiler Apps mit Intune</value>
+  </data>
+  <data name="Link_CopyPasteVisual" xml:space="preserve">
+    <value>Kopieren und Einfügen einer Visualisierung in Power BI</value>
+  </data>
+  <data name="Link_CreateReport" xml:space="preserve">
+    <value>Erstellen eines neuen Power BI-Berichts</value>
+  </data>
+  <data name="Link_CustomizeVisuals" xml:space="preserve">
+    <value>Tutorial: Anpassen von Visualisierungstitel, Hintergrund und Legende</value>
+  </data>
+  <data name="Link_CustomVisualizations" xml:space="preserve">
+    <value>Benutzerdefinierte Visualisierungen in Power BI</value>
+  </data>
+  <data name="Link_CustomVisualizationsToReport" xml:space="preserve">
+    <value>Hinzufügen benutzerdefinierter Visualisierungen zu Power BI-Berichten</value>
+  </data>
+  <data name="Link_CustomXandY" xml:space="preserve">
+    <value>Tutorial: Anpassen der Eigenschaften der X- und Y-Achse</value>
+  </data>
+  <data name="Link_DataRefresh" xml:space="preserve">
+    <value>Aktualisieren von Daten in Power BI</value>
+  </data>
+  <data name="Link_DataRefreshCloudCsv" xml:space="preserve">
+    <value>Aktualisieren eines Datasets, das aus einer Datei mit kommagetrennten Werten (CSV) auf OneDrive erstellt wurde</value>
+  </data>
+  <data name="Link_DataRefreshCloudExcel" xml:space="preserve">
+    <value>Aktualisieren eines aus einer Excel-Arbeitsmappe erstellten Datasets – Cloud</value>
+  </data>
+  <data name="Link_DataRefreshDesktopCloud" xml:space="preserve">
+    <value>Aktualisieren eines aus einer Power BI Desktop-Datei erstellten Datasets – Cloud</value>
+  </data>
+  <data name="Link_DataRefreshDesktopLocal" xml:space="preserve">
+    <value>Aktualisieren eines aus einer Power BI Desktop-Datei erstellten Datasets – lokal</value>
+  </data>
+  <data name="Link_DataRefreshLocalExcel" xml:space="preserve">
+    <value>Aktualisieren eines aus einer Excel-Arbeitsmappe erstellten Datasets – lokal</value>
+  </data>
+  <data name="Link_DeleteAReport" xml:space="preserve">
+    <value>Löschen eines Berichts aus Power BI</value>
+  </data>
+  <data name="Link_DeletePageFromReport" xml:space="preserve">
+    <value>Löschen einer Seite aus einem Power BI-Bericht</value>
+  </data>
+  <data name="Link_DeleteVisual" xml:space="preserve">
+    <value>Löschen einer Visualisierung in Power BI</value>
+  </data>
+  <data name="Link_DirectConnectSpark" xml:space="preserve">
+    <value>Spark on HDInsight mit DirectQuery</value>
+  </data>
+  <data name="Link_DirectQuerySql" xml:space="preserve">
+    <value>Azure SQL-Datenbank mit DirectQuery</value>
+  </data>
+  <data name="Link_DirectQuerySqlDW" xml:space="preserve">
+    <value>Azure SQL Data Warehouse mit DirectQuery</value>
+  </data>
+  <data name="Link_DisablePrivacyIssues" xml:space="preserve">
+    <value>Deaktivieren von Datenschutzeinstellungen</value>
+  </data>
+  <data name="Link_DoughnutCharts" xml:space="preserve">
+    <value>Lernprogramm: Ringdiagramme in Power BI</value>
+  </data>
+  <data name="Link_DownloadCustomVisual" xml:space="preserve">
+    <value>Herunterladen und Verwenden von benutzerdefinierten Visualisierungen aus dem Office Store</value>
+  </data>
+  <data name="Link_DrillVisual" xml:space="preserve">
+    <value>Drilldown in einer Visualisierung in Power BI</value>
+  </data>
+  <data name="Link_DuplicateReportPage" xml:space="preserve">
+    <value>Duplizieren einer Berichtsseite in Power BI</value>
+  </data>
+  <data name="Link_EditingView" xml:space="preserve">
+    <value>Wechseln Sie von der Leseansicht zur Bearbeitungsansicht in Power BI</value>
+  </data>
+  <data name="Link_EditorTakeTour" xml:space="preserve">
+    <value>Berichts-Editor – Verschaffen Sie sich einen Überblick</value>
+  </data>
+  <data name="Link_ExportFromVisualization" xml:space="preserve">
+    <value>Exportieren von Daten aus einer Visualisierung</value>
+  </data>
+  <data name="Link_FilledMaps" xml:space="preserve">
+    <value>Tutorial: Flächenkartogramme (Choroplethenkarten) in Power BI</value>
+  </data>
+  <data name="Link_FiltersAndHighlighting" xml:space="preserve">
+    <value>Informationen zu Filtern und Hervorhebungen in Power BI-Berichten</value>
+  </data>
+  <data name="Link_ForgotPassword" xml:space="preserve">
+    <value>Sie haben Ihr Kennwort für Power BI vergessen?</value>
+  </data>
+  <data name="Link_FunnelCharts" xml:space="preserve">
+    <value>Tutorial: Trichterdiagramme in Power BI</value>
+  </data>
+  <data name="Link_GetDataIn" xml:space="preserve">
+    <value>Abrufen von Daten aus Dateien</value>
+  </data>
+  <data name="Link_Histograms" xml:space="preserve">
+    <value>Histogramme</value>
+  </data>
+  <data name="Link_HistogramsTips" xml:space="preserve">
+    <value>Tipps und Tricks für Power BI-Kartenvisualisierungen</value>
+  </data>
+  <data name="Link_HyperlinksInTables" xml:space="preserve">
+    <value>Links in Tabellen</value>
+  </data>
+  <data name="Link_HyperLinkToTextbox" xml:space="preserve">
+    <value>Hinzufügen eines Links zu einem Textfeld in einem Power BI-Bericht</value>
+  </data>
+  <data name="Link_InteractEditingView" xml:space="preserve">
+    <value>Interagieren mit einem Bericht in der Bearbeitungsansicht von Power BI</value>
+  </data>
+  <data name="Link_InteractReadingView" xml:space="preserve">
+    <value>Interagieren mit einem Bericht in der Leseansicht von Power BI</value>
+  </data>
+  <data name="Link_ManageCapacity" xml:space="preserve">
+    <value>Verwalten der Datenkapazität in Power BI</value>
+  </data>
+  <data name="Link_MoveVisual" xml:space="preserve">
+    <value>Verschieben, Ändern der Größe und Aufklappen einer Visualisierung in einem Power BI-Bericht</value>
+  </data>
+  <data name="Link_OfficeDedicatedIssues" xml:space="preserve">
+    <value>Office 365 dediziert – bekannte Probleme</value>
+  </data>
+  <data name="Link_PersonalGateway" xml:space="preserve">
+    <value>Power BI Gateway – Personal</value>
+  </data>
+  <data name="Link_PersonalGatewayTroubleshoot" xml:space="preserve">
+    <value>Problembehandlung für Power BI Gateway – Personal</value>
+  </data>
+  <data name="Link_PublishFromExcel" xml:space="preserve">
+    <value>Tutorial: Im Handumdrehen von einer Excel-Arbeitsmappe zum eindrucksvollen Bericht</value>
+  </data>
+  <data name="Link_PurchasingPro" xml:space="preserve">
+    <value>Erwerb von Power BI Pro</value>
+  </data>
+  <data name="Link_RadialGauge" xml:space="preserve">
+    <value>Lernprogramm: Diagramme für radiales Messgerät in Power BI</value>
+  </data>
+  <data name="Link_ReadingView" xml:space="preserve">
+    <value>Öffnen eines Power BI-Berichts in der Leseansicht</value>
+  </data>
+  <data name="Link_ReduceExcel" xml:space="preserve">
+    <value>Reduzieren der Größe einer Excel-Arbeitsmappe für die Anzeige in Power BI</value>
+  </data>
+  <data name="Link_RenameReport" xml:space="preserve">
+    <value>Umbenennen eines Berichts in Power BI</value>
+  </data>
+  <data name="Link_ReorderPages" xml:space="preserve">
+    <value>Neuanordnen von Seiten in einem Bericht in Power BI</value>
+  </data>
+  <data name="Link_SameAzureAccount" xml:space="preserve">
+    <value>Verwenden der gleichen Kontoanmeldung für Power BI und Azure</value>
+  </data>
+  <data name="Link_SapHana" xml:space="preserve">
+    <value>Verwalten der Enterprisedatenquelle – SAP HANA</value>
+  </data>
+  <data name="Link_SaveAReport" xml:space="preserve">
+    <value>Speichern eines Berichts in Power BI</value>
+  </data>
+  <data name="Link_ScatterCharts" xml:space="preserve">
+    <value>Tutorial: Punktdiagramme in Power BI</value>
+  </data>
+  <data name="Link_ScheduledSqlRefresh" xml:space="preserve">
+    <value>Problembehandlung bei der planmäßigen Aktualisierung für Azure SQL-Datenbanken</value>
+  </data>
+  <data name="Link_Security" xml:space="preserve">
+    <value>Sicherheit in Power BI</value>
+  </data>
+  <data name="Link_SigningUpWithOffice" xml:space="preserve">
+    <value>Registrieren für Power BI mit einer neuen Office 365-Testversion</value>
+  </data>
+  <data name="Link_Slicers" xml:space="preserve">
+    <value>Lernprogramm: Slicer in Power BI</value>
+  </data>
+  <data name="Link_Sql" xml:space="preserve">
+    <value>Verwalten der Enterprisedatenquelle – SQL</value>
+  </data>
+  <data name="Link_SSASTabular" xml:space="preserve">
+    <value>SQL Server Analysis Services-Livedaten in Power BI</value>
+  </data>
+  <data name="Link_TextboxesReports" xml:space="preserve">
+    <value>Textfelder in Power BI-Berichten</value>
+  </data>
+  <data name="Link_TileErrors" xml:space="preserve">
+    <value>Problembehandlung für Kachelfehler</value>
+  </data>
+  <data name="Link_Treemaps" xml:space="preserve">
+    <value>Tutorial: Treemaps in Power BI</value>
+  </data>
+  <data name="Link_TroubleshootingRefreshScenarios" xml:space="preserve">
+    <value>Problembehandlung bei Aktualisierungsszenarios</value>
+  </data>
+  <data name="Link_TutorialChangeReport" xml:space="preserve">
+    <value>Tutorial: Ändern der Anzeigeeinstellungen für eine Seite in einem Power BI-Bericht</value>
+  </data>
+  <data name="Link_UnableToAddOfficePartner" xml:space="preserve">
+    <value>Power BI kann einem O365-Partner nicht hinzugefügt werden</value>
+  </data>
+  <data name="Link_UnsupportedData" xml:space="preserve">
+    <value>Problembehandlung bei nicht unterstützter Datenquelle für die Aktualisierung</value>
+  </data>
+  <data name="Link_UseAReportFilter" xml:space="preserve">
+    <value>Verwenden von Berichtsfiltern</value>
+  </data>
+  <data name="Link_Visualizations" xml:space="preserve">
+    <value>Visualisierungen in Power BI</value>
+  </data>
+  <data name="Link_VisualizationTypes" xml:space="preserve">
+    <value>Visualisierungstypen in Power BI</value>
+  </data>
+  <data name="Link_Waterfall" xml:space="preserve">
+    <value>Tutorial: Wasserfalldiagramme in Power BI</value>
+  </data>
+  <data name="Link_GetDataCSV" xml:space="preserve">
+    <value>Abrufen von Daten aus kommagetrennten Dateien (CSV)</value>
+  </data>
+  <data name="Link_GetDataDesktop" xml:space="preserve">
+    <value>Abrufen von Daten aus Power BI Desktop-Dateien</value>
+  </data>
+  <data name="Link_GetDataFromExcel" xml:space="preserve">
+    <value>Veröffentlichen in Power BI aus Excel 2016</value>
+  </data>
+  <data name="Link_WholeExcel" xml:space="preserve">
+    <value>Abrufen von Daten aus Excel-Arbeitsmappendateien</value>
+  </data>
+  <data name="Link_AdminPortal" xml:space="preserve">
+    <value>Verwaltungsportal</value>
+  </data>
+  <data name="Link_Aggregates" xml:space="preserve">
+    <value>Aggregate (Summe, Durchschnitt, Maximalwert usw.) in Power BI</value>
+  </data>
+  <data name="Link_AlpineMetrics" xml:space="preserve">
+    <value>Alpine Metrics Sales Predictions-Inhaltspaket</value>
+  </data>
+  <data name="Link_AnalyzeExcelTroubleshoot" xml:space="preserve">
+    <value>Problembehandlung für die Analyse in Excel</value>
+  </data>
+  <data name="Link_AnalyzeInExcel" xml:space="preserve">
+    <value>In Excel analysieren</value>
+  </data>
+  <data name="Link_AzureDirectory" xml:space="preserve">
+    <value>Registrieren mit einem benutzerdefinierten Azure-Verzeichnis</value>
+  </data>
+  <data name="Link_AzureSearch" xml:space="preserve">
+    <value>Azure Search-Inhaltspaket</value>
+  </data>
+  <data name="Link_AzureSecurity" xml:space="preserve">
+    <value>Azure Security Center-Inhaltspaket</value>
+  </data>
+  <data name="Link_ClickDimensions" xml:space="preserve">
+    <value>ClickDimensions-Inhaltspaket</value>
+  </data>
+  <data name="Link_ConfigureProxy" xml:space="preserve">
+    <value>Konfigurieren der Proxyeinstellungen</value>
+  </data>
+  <data name="Link_DashboardsInPowerBI" xml:space="preserve">
+    <value>Dashboards in Power BI</value>
+  </data>
+  <data name="Link_DynamicsAX" xml:space="preserve">
+    <value>Microsoft Dynamics AX-Inhaltspaket</value>
+  </data>
+  <data name="Link_ExcelError" xml:space="preserve">
+    <value>Fehler: Wir haben in Ihrer Excel-Arbeitsmappe keine Daten gefunden</value>
+  </data>
+  <data name="Link_ExpressRoute" xml:space="preserve">
+    <value>Power BI und ExpressRoute</value>
+  </data>
+  <data name="Link_FavoriteDashboards" xml:space="preserve">
+    <value>Bevorzugte Dashboards in Power BI</value>
+  </data>
+  <data name="Link_FeaturedDashboards" xml:space="preserve">
+    <value>Ausgewählte Dashboards in Power BI</value>
+  </data>
+  <data name="Link_FreePowerBI" xml:space="preserve">
+    <value>Power BI Free in Ihrer Organisation</value>
+  </data>
+  <data name="Link_GatewayEnterpriseData" xml:space="preserve">
+    <value>Verwenden von Q&amp;A mit Daten aus Power BI Gateway – Enterprise (Vorschau)</value>
+  </data>
+  <data name="Link_Governance" xml:space="preserve">
+    <value>Governance- und Bereitstellungsansätze für Power BI</value>
+  </data>
+  <data name="Link_ImportScheduledRefresh" xml:space="preserve">
+    <value>Verwalten der Enterprisedatenquelle – Import/Geplante Aktualisierung</value>
+  </data>
+  <data name="Link_Insightly" xml:space="preserve">
+    <value>Insightly-Inhaltspaket</value>
+  </data>
+  <data name="Link_IntelliBoard" xml:space="preserve">
+    <value>IntelliBoard-Inhaltspaket</value>
+  </data>
+  <data name="Link_KPIVisuals" xml:space="preserve">
+    <value>KPI-Visualisierung</value>
+  </data>
+  <data name="Link_OrganizationalContentPacksIntro" xml:space="preserve">
+    <value>Organisationsbezogene Inhaltspakete: Einführung</value>
+  </data>
+  <data name="Link_ProjectMadeira" xml:space="preserve">
+    <value>Project Madeira-Inhaltspaket</value>
+  </data>
+  <data name="Link_QRCodeForReport" xml:space="preserve">
+    <value>Erstellen eines QR-Codes für einen Bericht</value>
+  </data>
+  <data name="Link_RowLevel" xml:space="preserve">
+    <value>Sicherheit auf Zeilenebene mit Power BI</value>
+  </data>
+  <data name="Link_ScheduledRefresh" xml:space="preserve">
+    <value>Konfigurieren von geplanten Aktualisierungen</value>
+  </data>
+  <data name="Link_Troux" xml:space="preserve">
+    <value>Troux-Inhaltspaket</value>
+  </data>
+  <data name="Link_VisualInteraction" xml:space="preserve">
+    <value>Ändern der Interaktion von Visualisierungen in einem Bericht</value>
+  </data>
+  <data name="Link_WindowsDevCenter" xml:space="preserve">
+    <value>Windows Dev Center-Inhaltspaket</value>
+  </data>
+  <data name="Link_Ziosk" xml:space="preserve">
+    <value>Ziosk-Inhaltspaket</value>
+  </data>
+  <data name="Link_Zuora" xml:space="preserve">
+    <value>Zuora-Inhaltspaket</value>
+  </data>
+  <data name="Link_GatewayOnPrem" xml:space="preserve">
+    <value>Lokales Datengateway</value>
+  </data>
+  <data name="Link_GatewayOnPremFaq" xml:space="preserve">
+    <value>Lokales Datengateway – Häufig gestellte Fragen</value>
+  </data>
+  <data name="Link_GatewayOnPremInDepth" xml:space="preserve">
+    <value>Lokales Datengateway – Ausführliche Informationen</value>
+  </data>
+  <data name="Link_GatewayOnPremTshoot" xml:space="preserve">
+    <value>Lokales Datengateway – Problembehandlung</value>
+  </data>
+  <data name="Link_Prevedere" xml:space="preserve">
+    <value>Prevedere-Inhaltspaket</value>
+  </data>
+  <data name="Link_Xero" xml:space="preserve">
+    <value>Xero-Inhaltspaket</value>
+  </data>
+  <data name="Link_ReportsSeeData" xml:space="preserve">
+    <value>Für die Visualisierung verwendete Daten anzeigen</value>
+  </data>
+  <data name="Link_AdminAuditing" xml:space="preserve">
+    <value>Power BI-Überwachung</value>
+  </data>
+  <data name="Link_O365PortalRetired" xml:space="preserve">
+    <value>Übergang von Power BI für Office 365 zu Power BI</value>
+  </data>
+  <data name="Link_CreatePhoneViewDashboard" xml:space="preserve">
+    <value>Erstellen einer Telefonansicht eines Dashboards</value>
+  </data>
+  <data name="Link_ServiceNotificationCenter" xml:space="preserve">
+    <value>Einheitliche Power BI-Mitteilungszentrale</value>
+  </data>
+  <data name="Link_RenameReportPage" xml:space="preserve">
+    <value>Umbenennen einer Berichtsseite in Power BI</value>
+  </data>
+  <data name="Link_ReportTipsTricks" xml:space="preserve">
+    <value>Tipps und Tricks zum Erstellen von Berichten im Power BI-Dienst</value>
+  </data>
+  <data name="Link_GatewayOnPremOracle" xml:space="preserve">
+    <value>Verwalten der Datenquelle – Oracle</value>
+  </data>
+  <data name="Link_ServiceSetAlerts" xml:space="preserve">
+    <value>Datenbenachrichtigungen im Power BI-Dienst</value>
+  </data>
+  <data name="Link_ServiceNow" xml:space="preserve">
+    <value>ServiceNow Incidents-Inhaltspaket</value>
+  </data>
+  <data name="Link_WhereIsMyTenant" xml:space="preserve">
+    <value>Wo befindet sich mein Mandant?</value>
+  </data>
+  <data name="Link_DataClassification" xml:space="preserve">
+    <value>Dashboard-Datenklassifizierung</value>
+  </data>
+  <data name="Link_XeroCredentialsRefresh" xml:space="preserve">
+    <value>Aktualisieren der Anmeldeinformationen für das Xero-Inhaltspaket nach einem Aktualisierungsfehler</value>
+  </data>
+  <data name="Link_LiveStreaming" xml:space="preserve">
+    <value>Real-Time Streaming in Power BI (Preview)</value>
+  </data>
+  <data name="Link_RVisuals" xml:space="preserve">
+    <value>Erstellen erweiterter Analysen und Visualisierungen mit R-Skripts in Power BI</value>
+  </data>
+  <data name="Link_ArcGIS" xml:space="preserve">
+    <value>Lernprogramm: ArcGIS in Power BI</value>
+  </data>
+  <data name="Link_PowerPoint" xml:space="preserve">
+    <value>Veröffentlichen in PowerPoint</value>
+  </data>
+  <data name="Link_NewNav" xml:space="preserve">
+    <value>Die neue Power BI-Navigation</value>
+  </data>
+  <data name="Link_PreviewFeatures" xml:space="preserve">
+    <value>Aktivieren von Power BI-Vorschaufeatures</value>
+  </data>
+  <data name="Link_EmbedReportSPO" xml:space="preserve">
+    <value>Einbetten eines Berichts in SharePoint Online</value>
+  </data>
+  <data name="Link_GovUSOverview" xml:space="preserve">
+    <value>Power BI für US-Behörden</value>
+  </data>
+  <data name="Link_GovUSSignup" xml:space="preserve">
+    <value>Registrieren einer US-Behörde</value>
+  </data>
+  <data name="Link_TipsGettingHelp" xml:space="preserve">
+    <value>10 Tipps, um Hilfe zu erhalten</value>
+  </data>
+  <data name="Area_Resources" xml:space="preserve">
+    <value>Ressourcen</value>
+  </data>
+  <data name="Link_Whitepapers" xml:space="preserve">
+    <value>Whitepaper</value>
+  </data>
+  <data name="Meta_LocJobId" xml:space="preserve">
+    <value>212</value>
+  </data>
+</root>

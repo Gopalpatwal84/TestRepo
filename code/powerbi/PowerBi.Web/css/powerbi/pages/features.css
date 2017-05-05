@@ -1,0 +1,115 @@
+﻿.section-features {
+  position: static;
+  padding: 0;
+  background-color: #fff;
+}
+.features-content-wrapper {
+  max-width: 1200px;
+}
+@media (max-width: 991px) {
+  .features-content-wrapper {
+    display: none;
+  }
+}
+.features-content-wrapper h3:hover {
+  cursor: pointer;
+}
+.features-content-wrapper h3 {
+  margin: 0;
+  padding: 8px 0 8px 0;
+  font-size: 20px;
+}
+.features-content-wrapper article {
+  margin: 0 0 4px 15px;
+}
+.features-content-wrapper .row-features {
+  margin: 0;
+  position: absolute;
+  top: 1200px;
+}
+.features-content-wrapper .row-features .article-column {
+  position: relative;
+  padding: 0 1.04166667%;
+  margin: 0;
+}
+.features-content-wrapper .row-features .features-section-desc {
+  padding: 0;
+  height: 0;
+  margin: 0;
+  overflow: hidden;
+  font-size: 14px;
+}
+.features-content-wrapper .features-section-scroll {
+  height: 4800px;
+}
+.features-content-wrapper .track {
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin: auto auto;
+  width: 4px;
+  background: black;
+  height: 100%;
+}
+.features-content-wrapper .track .track-slider {
+  position: absolute;
+  top: 0;
+  width: 4px;
+  height: 50px;
+  background: #F2C812;
+  -webkit-transition: height 0.5s;
+  /* Safari */
+  transition: height 0.5s;
+}
+.features-content-wrapper .column-images {
+  position: relative;
+}
+.features-content-wrapper .column-images img {
+  max-height: 463px;
+  height: auto;
+  max-width: 100%;
+}
+.features-content-wrapper .features-section-image {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 20px;
+  margin: auto 0;
+  opacity: 0;
+  max-width: 100%;
+}
+.features-content-wrapper-mobile {
+  display: none;
+}
+@media (max-width: 991px) {
+  .features-content-wrapper-mobile {
+    display: block;
+  }
+  .features-content-wrapper-mobile .features-section-image {
+    padding-bottom: 30px;
+    text-align: center;
+  }
+  .features-content-wrapper-mobile .features-section-image img {
+    width: 450px;
+    max-width: 100%;
+    height: auto;
+  }
+}
+.features-content-wrapper-mobile .row.add-top-space {
+  margin-top: 50px;
+}
+.features-content-wrapper-mobile h3,
+.features-content-wrapper-mobile .default-text {
+  text-align: center;
+}
+.features-content-wrapper-mobile article {
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 50px;
+  margin-top: 50px;
+}
+.features-content-wrapper-mobile article.no-border {
+  border: none;
+}
+.features-content-wrapper-mobile .features-section-image {
+  width: auto;
+}

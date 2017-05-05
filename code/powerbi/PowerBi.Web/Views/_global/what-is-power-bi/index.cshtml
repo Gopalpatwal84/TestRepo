@@ -1,0 +1,82 @@
+﻿@using Resources = PowerBI.Resources.Pages.WhatIsPowerBI.Index
+
+@{
+    Model.PageTitle = Resources.META_PAGETITLE;
+    Model.MetaDescription = Resources.META_DESCRIPTION;
+    Model.MetaKeywords = Resources.META_KEYWORDS;
+}
+
+<section class="section section-size6 section-slate01 text-center section-developers">
+    <div class="row">
+        <div class="column medium-8 medium-centered">
+            <h1>@Resources.Hero_Heading</h1>
+            <p>@Resources.Hero_Cta_Play</p>
+
+            <a href="https://youtu.be/_OOyJfszJXY" data-pops-up="modal-video" data-event="whatispowerbi-clicked-video">
+                <span class="icon">
+                    @SvgHelper.GetSvg("play-circle")
+                </span>
+            </a>
+        </div>
+    </div>
+</section>
+
+<section id="modal-video" class="section modal modal-video" data-video-embed="https://www.youtube.com/embed/_OOyJfszJXY?showinfo=0&amp;autoplay=1">
+    <button class="close">&times;</button>
+    <div class="row column">
+        <iframe frameborder="0" allowfullscreen></iframe>
+    </div>
+</section>
+
+<section class="section">
+    <div class="row">
+        <div class="column medium-8 medium-centered">
+            <p>@Html.FormatInvariant(Resources.Content1, Html.LocalizeUrl("/#connect-wrapper"), Html.LocalizeUrl("/mobile/"))</p>
+            <p>@Html.FormatInvariant(Resources.Content2, Html.LocalizeUrl("/desktop/"), Html.LocalizeUrl("/features/"))</p>
+            <p>@Html.FormatInvariant(Resources.Content3, Html.LocalizeUrl("/gateway/"), Html.LocalizeUrl("/developers/"))</p>
+        </div>
+    </div>
+
+    <div class="row text-center">
+        <div class="column">
+            <img alt="" src="@CdnHelper.GetCdnUrl("/pictures/pages/what-is-power-bi/flowchart.svg")" />
+        </div>
+    </div>
+
+</section>
+
+<section class="section section-slate01 text-center">
+    <div class="row">
+        <div class="column medium-8 medium-centered">
+            <h2 class="text-heading1">@Resources.GetStarted_Heading</h2>
+        </div>
+    </div>
+    <div class="row">
+        <div class="column medium-5 medium-offset-1">
+            <div class="row">
+                <div class="column">
+                    <h3>@Resources.Windows_Heading</h3>
+                    <p>@Resources.Windows_Content</p>
+                </div>
+            </div>
+            <div class="row row-size2">
+                <div class="column">
+                    <a href="@Html.LocalizeUrl("go:521662")" class="button button-featured" data-event="global-clicked-getstartedcta" data-event-property="download">@Resources.Windows_Cta_Download</a>
+                </div>
+            </div>
+        </div>
+        <div class="column medium-5">
+            <div class="row">
+                <div class="column">
+            <h3>@Resources.Service_Heading</h3>
+            <p>@Resources.Service_Content</p>
+                </div>
+            </div>
+            <div class="row row-size2">
+                <div class="column">
+            <a data-event="global-clicked-getstartedcta" data-event-property="signup" href="https://app.powerbi.com/signupredirect" class="button button-featured signup-link">@Resources.Service_Cta_SignUp</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

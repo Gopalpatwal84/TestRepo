@@ -1,0 +1,239 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" id="root">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Built_For_Germany_Content" xml:space="preserve">
+    <value>Toutes les données client sont stockées au repos en Allemagne</value>
+  </data>
+  <data name="Built_For_Germany_Heading" xml:space="preserve">
+    <value>Résidence des données en Allemagne</value>
+  </data>
+  <data name="CapacityLimit_Heading" xml:space="preserve">
+    <value>Détail des limites de capacité de données</value>
+  </data>
+  <data name="CompliantAndSecure_Content" xml:space="preserve">
+    <value>L’administration des données allemande est indépendante et régie par la loi allemande. Elle contrôle l’accès physique et logique aux données client.</value>
+  </data>
+  <data name="CompliantAndSecure_Heading" xml:space="preserve">
+    <value>Administration des données allemande</value>
+  </data>
+  <data name="Flyout_Capacity_1" xml:space="preserve">
+    <value>Limite globale pour le client = 10 Go x nombre de licences Power BI Pro achetées</value>
+  </data>
+  <data name="Flyout_Capacity_2" xml:space="preserve">
+    <value>Limite pour un seul espace de travail personnel = 10 Go</value>
+  </data>
+  <data name="Flyout_Capacity_3" xml:space="preserve">
+    <value>Limite pour un seul groupe = 10 Go</value>
+  </data>
+  <data name="Flyout_MaxDataRate_1" xml:space="preserve">
+    <value>&lt;h3&gt;Limites de l’API REST de Power&amp;#160;BI&lt;/h3&gt;
+&lt;p&gt;Il s’agit du débit de données maximum pour l’API REST de Power BI. Consultez &lt;a href="{0}"&gt;Limites de l’API REST de Power&amp;#160;BI&lt;/a&gt; pour plus d’informations.&lt;/p&gt;</value>
+  </data>
+  <data name="Germany_MainContent" xml:space="preserve">
+    <value>Bénéficiez d’une expérience d’analyse marketing identique par le biais de rapports et tableaux de bord interactifs et dynamiques, ainsi que d’un modèle d’administration des données unique et de la résidence des données en Allemagne. Vous pouvez ainsi répondre parfaitement à vos exigences réglementaires.</value>
+  </data>
+  <data name="Germany_MainHeading" xml:space="preserve">
+    <value>Microsoft Power BI Germany</value>
+  </data>
+  <data name="Independent_German_Content" xml:space="preserve">
+    <value>Les services sont fournis à partir de centres de données allemands</value>
+  </data>
+  <data name="Independent_German_Heading" xml:space="preserve">
+    <value>Fourniture de services depuis l’Allemagne</value>
+  </data>
+  <data name="META_DESCRIPTION" xml:space="preserve">
+    <value>Microsoft Power BI Germany</value>
+  </data>
+  <data name="META_KEYWORDS" xml:space="preserve">
+    <value>power bi, microsoft power bi, bi tools, microsoft bi, start power bi, power bi service, power bi desktop,Sovereign Clouds , choosing power bi, power bi options,Germany</value>
+  </data>
+  <data name="META_PAGETITLE" xml:space="preserve">
+    <value>Germany | Microsoft Power BI</value>
+  </data>
+  <data name="PowerBIPro_Content1" xml:space="preserve">
+    <value>Capacité de données de 10 Go par utilisateur</value>
+  </data>
+  <data name="PowerBIPro_Content2" xml:space="preserve">
+    <value>Actualisation planifiée et horaire des données</value>
+  </data>
+  <data name="PowerBIPro_Content3" xml:space="preserve">
+    <value>Données de streaming à hauteur de 1 million de lignes par heure</value>
+  </data>
+  <data name="PowerBIPro_Content4" xml:space="preserve">
+    <value>Connectez-vous aux sources de données actives avec une interactivité totale</value>
+  </data>
+  <data name="PowerBIPro_Content5" xml:space="preserve">
+    <value>Collaborez avec votre équipe à l’aide de la fonctionnalité Groupes Office 365</value>
+  </data>
+  <data name="PowerBIPro_Content6" xml:space="preserve">
+    <value>Gérez l’accès et le partage par le biais d’Active Directory</value>
+  </data>
+  <data name="PowerBIPro_Content7" xml:space="preserve">
+    <value>Requêtes de données partagées par le biais de Data Catalog</value>
+  </data>
+  <data name="PowerBIPro_Cta" xml:space="preserve">
+    <value>S’inscrire</value>
+  </data>
+  <data name="PowerBIPro_CurrencyValue" xml:space="preserve">
+    <value>10,5 €</value>
+  </data>
+  <data name="PowerBIPro_Heading" xml:space="preserve">
+    <value>Power BI Pro</value>
+  </data>
+  <data name="PowerBIPro_Rules" xml:space="preserve">
+    <value>&lt;div&gt;&lt;span class="tickSymbol"&gt;✔&lt;/span&gt; Accès aux données locales à l’aide de passerelles&lt;/div&gt;
+                    &lt;div&gt;&lt;span class="tickSymbol"&gt;✔&lt;/span&gt; Partage de classe Entreprise professionnelle avec packs de contenu&lt;/div&gt;</value>
+  </data>
+  <data name="PowerBIPro_Rules1" xml:space="preserve">
+    <value>Accédez aux données locales à l’aide de passerelles</value>
+  </data>
+  <data name="PowerBIPro_Rules2" xml:space="preserve">
+    <value>Partage de qualité professionnelle avec packs de contenu</value>
+  </data>
+  <data name="PowerBIPro_SubHeading" xml:space="preserve">
+    <value>POUR LES ENTREPRISES</value>
+  </data>
+  <data name="PowerBI_Cta" xml:space="preserve">
+    <value>En savoir plus sur Microsoft Cloud Germany (en allemand)</value>
+  </data>
+  <data name="Rate_PerUserPerMonth" xml:space="preserve">
+    <value>/utilisateur/mois</value>
+  </data>
+  <data name="WhatIsPowerBI_Content" xml:space="preserve">
+    <value>Power BI est une suite d’outils d’analyse commerciale permettant d’analyser des données et de partager des informations. Surveillez votre activité et obtenez rapidement des réponses avec des tableaux de bord enrichis disponibles sur chaque appareil.</value>
+  </data>
+  <data name="WhatIsPowerBI_Cta" xml:space="preserve">
+    <value>S’inscrire</value>
+  </data>
+  <data name="WhatIsPowerBI_Cta2" xml:space="preserve">
+    <value>En savoir plus</value>
+  </data>
+  <data name="WhatIsPowerBI_Cta_Copy" xml:space="preserve">
+    <value>Vous avez déjà un compte Power BI ? Power BI Germany nécessite un compte distinct et fait l’objet d’une tarification séparée.</value>
+  </data>
+  <data name="WhatIsPowerBI_Cta_Signin" xml:space="preserve">
+    <value>Connexion</value>
+  </data>
+  <data name="WhatIsPowerBI_Heading" xml:space="preserve">
+    <value>Qu’est-ce que Power BI ?</value>
+  </data>
+  <data name="Meta_LocJobId" xml:space="preserve">
+    <value>199</value>
+  </data>
+</root>

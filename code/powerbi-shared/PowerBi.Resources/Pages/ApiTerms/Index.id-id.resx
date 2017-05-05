@@ -1,0 +1,1058 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Content" xml:space="preserve">
+    <value>&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-top:71.25pt;margin-right:0in;margin-bottom:
+.05pt;margin-left:0in;line-height:normal&#39;&gt;&lt;span lang=&quot;IN&quot; style=&#39;font-size:21.0pt;
+font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;Persyaratan API Microsoft
+Power BI&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;line-height:normal&#39;&gt;&lt;span lang=&quot;IN&quot; style=&#39;font-size:
+12.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;Terima kasih telah
+menggunakan API Power BI (antarmuka pemrograman aplikasi). API Power BI bersama
+dengan pembaruan, revisi, penggantian, dan setiap salinan yang dibuat oleh atau
+untuk Anda, tercantum dalam persyaratan layanan sebagai &lt;/span&gt;&lt;span style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;“&lt;/span&gt;&lt;span lang=&quot;IN&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;API
+Power BI&lt;/span&gt;&lt;span style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;
+color:#4B5C66&#39;&gt;”&lt;/span&gt;&lt;span lang=&quot;IN&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;
+color:#4B5C66&#39;&gt; Microsoft. Ini adalah Perjanjian antara Anda dan Microsoft (&lt;/span&gt;&lt;span style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;“&lt;/span&gt;&lt;span lang=&quot;IN&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;Microsoft&lt;/span&gt;&lt;span style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;”&lt;/span&gt;&lt;span lang=&quot;IN&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;).
+Terkadang Microsoft disebut sebagai &lt;/span&gt;&lt;span style=&#39;font-size:12.0pt;
+font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;“&lt;/span&gt;&lt;span lang=&quot;IN&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;kami&lt;/span&gt;&lt;span style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;”&lt;/span&gt;&lt;span lang=&quot;IN&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;,
+&lt;/span&gt;&lt;span style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;
+color:#4B5C66&#39;&gt;“&lt;/span&gt;&lt;span lang=&quot;IN&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;
+color:#4B5C66&#39;&gt;kita&lt;/span&gt;&lt;span style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;
+color:#4B5C66&#39;&gt;”&lt;/span&gt;&lt;span lang=&quot;IN&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;
+color:#4B5C66&#39;&gt;, atau &lt;/span&gt;&lt;span style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;
+color:#4B5C66&#39;&gt;“&lt;/span&gt;&lt;span lang=&quot;IN&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;
+color:#4B5C66&#39;&gt;milik kami&lt;/span&gt;&lt;span style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;
+color:#4B5C66&#39;&gt;”&lt;/span&gt;&lt;span lang=&quot;IN&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;
+color:#4B5C66&#39;&gt;. Dengan menggunakan API Power BI, berarti Anda menyetujui
+persyaratan layanan (&lt;/span&gt;&lt;span style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;
+color:#4B5C66&#39;&gt;“&lt;/span&gt;&lt;span lang=&quot;IN&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;
+color:#4B5C66&#39;&gt;Persyaratan API&lt;/span&gt;&lt;span style=&#39;font-size:12.0pt;font-family:
+&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;”&lt;/span&gt;&lt;span lang=&quot;IN&quot; style=&#39;font-size:
+12.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;) dan Perjanjian
+Layanan Power BI maupun perjanjian lainnya yang berlaku (secara bersama disebut
+&lt;/span&gt;&lt;span style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;
+color:#4B5C66&#39;&gt;“&lt;/span&gt;&lt;span lang=&quot;IN&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;
+color:#4B5C66&#39;&gt;Perjanjian&lt;/span&gt;&lt;span style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;
+color:#4B5C66&#39;&gt;”&lt;/span&gt;&lt;span lang=&quot;IN&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;
+color:#4B5C66&#39;&gt;) yang mengatur penggunaan Power BI dan aplikasi yang
+menyertainya (&lt;/span&gt;&lt;span style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;
+color:#4B5C66&#39;&gt;“&lt;/span&gt;&lt;span lang=&quot;IN&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;
+color:#4B5C66&#39;&gt;Layanan Power BI&lt;/span&gt;&lt;span style=&#39;font-size:12.0pt;font-family:
+&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;”&lt;/span&gt;&lt;span lang=&quot;IN&quot; style=&#39;font-size:
+12.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;). Jika terdapat
+ketidaksesuaian antara Persyaratan API ini dan Perjanjian, maka Persyaratan API
+akan diutamakan.&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;line-height:normal&#39;&gt;&lt;span lang=&quot;IN&quot; style=&#39;font-size:
+12.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;Microsoft berhak
+memperbarui dan mengubah, dari waktu ke waktu, Persyaratan API atau dokumen
+yang disertakan sebagai referensi. Microsoft dapat mengubah Persyaratan API
+dengan mem-posting versi baru. Penggunaan API Power BI setelah perubahan
+dianggap sebagai penerimaan atas perubahan tersebut.&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;line-height:normal&#39;&gt;&lt;b&gt;&lt;span lang=&quot;IN&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;Perlu
+diketahui bahwa kami tidak memberikan jaminan untuk API Power BI. Persyaratan
+API juga membatasi kewajiban kami. Persyaratan ini terdapat pada pasal 10 dan
+11 dan kami meminta Anda untuk membacanya dengan cermat.&lt;/span&gt;&lt;/b&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-bottom:.05pt;line-height:normal&#39;&gt;&lt;b&gt;&lt;span lang=&quot;IN&quot; style=&#39;font-size:18.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;1.
+Akses ke API Power BI.&lt;/span&gt;&lt;/b&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;line-height:normal&#39;&gt;&lt;span lang=&quot;IN&quot; style=&#39;font-size:
+12.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;Agar dapat
+menggunakan API Power BI, Anda harus berlangganan API Power BI dan mendaftarkan
+aplikasi Anda di Azure Active Directory. Layanan Anda harus memberikan ID klien
+yang disertakan pada Azure Active Directory, sebagaimana dijelaskan dalam
+dokumentasi API Power BI, dan Microsoft akan memblokir permintaan berisi ID
+klien yang tidak valid. Microsoft harus memiliki kontrol lengkap dan penuh atas
+data dan format Power BI.&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;line-height:normal&#39;&gt;&lt;span lang=&quot;IN&quot; style=&#39;font-size:
+12.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;Microsoft
+sewaktu-waktu berhak, atas kebijaksanaannya sendiri, menolak permintaan apa pun
+atas penggunaan API Power BI dengan alasan apa pun. Microsoft tidak akan
+bertanggung jawab kepada Anda atas kerugian apa pun yang timbul sebagai akibat
+dari keputusannya dalam menolak permintaan tersebut.&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-bottom:.05pt;line-height:normal&#39;&gt;&lt;b&gt;&lt;span lang=&quot;IN&quot; style=&#39;font-size:18.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;2.
+Penggunaan dan Batasan Lisensi.&lt;/span&gt;&lt;/b&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;line-height:normal&#39;&gt;&lt;span lang=&quot;IN&quot; style=&#39;font-size:
+12.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;API Power BI dimiliki
+oleh Microsoft dan dilisensikan kepada Anda di seluruh dunia (kecuali
+sebagaimana dibatasi di bawah ini), non-eksklusif, dan tidak dapat
+disublisensikan berdasarkan persyaratan dan ketentuan yang ditetapkan dalam
+dokumen ini. Persyaratan API menentukan persyaratan hukum penggunaan API Power
+BI, semua pembaruan, revisi, penggantian, dan setiap salinan API Power BI yang
+dibuat oleh atau untuk Anda. Semua hak yang tidak secara tegas diberikan kepada
+Anda dimiliki oleh Microsoft.&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-left:.25in;text-indent:-.25in;line-height:
+normal&#39;&gt;&lt;span lang=&quot;EN&quot; style=&#39;font-size:10.0pt;font-family:Symbol;color:#4B5C66&#39;&gt;&#183;&lt;span style=&#39;font:7.0pt &quot;Times New Roman&quot;&#39;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+&lt;/span&gt;&lt;/span&gt;&lt;span lang=&quot;IN&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;
+color:#4B5C66&#39;&gt;a.&amp;nbsp;Lisensi. Berdasarkan persyaratan dan batasan yang
+ditetapkan dalam Persyaratan API, Microsoft memberi Anda hak non-eksklusif,
+tidak dapat disublisensikan, untuk menggunakan API Power BI agar dapat
+mengembangkan, menguji, mendistribusikan, dan mendukung aplikasi Anda.&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-left:.25in;text-indent:-.25in;line-height:
+normal&#39;&gt;&lt;span lang=&quot;EN&quot; style=&#39;font-size:10.0pt;font-family:Symbol;color:#4B5C66&#39;&gt;&#183;&lt;span style=&#39;font:7.0pt &quot;Times New Roman&quot;&#39;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+&lt;/span&gt;&lt;/span&gt;&lt;span lang=&quot;IN&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;
+color:#4B5C66&#39;&gt;b.&amp;nbsp;Merek. Anda tidak dapat menggunakan merek atau logo
+Power BI tanpa izin tertulis sebelumnya dari Microsoft.&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;line-height:normal&#39;&gt;&lt;span lang=&quot;IN&quot; style=&#39;font-size:
+12.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;c.&amp;nbsp;Batas
+Kecepatan dan Pembatasan Bidang Data. Anda memahami bahwa terdapat batas kecepatan
+dan pembatasan bidang data yang ditampilkan per aplikasi atau layanan
+menggunakan API Power BI dan Anda setuju bahwa Anda harus selalu mematuhi batas
+kecepatan dan pembatasan bidang data. Batas dan pembatasan kecepatan dijelaskan
+dalam Dokumentasi API Power BI, yang tersedia di&lt;/span&gt;&lt;span lang=&quot;IN&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#868F95&#39;&gt;&amp;nbsp;&lt;/span&gt;&lt;span lang=&quot;IN&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;dev.PowerBI.com&lt;/span&gt;&lt;span lang=&quot;IN&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#868F95&#39;&gt;.
+&lt;/span&gt;&lt;span lang=&quot;IN&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;
+color:#4B5C66&#39;&gt;Batas dan pembatasan kecepatan ini dapat berubah dari waktu ke
+waktu atas kebijaksanaan tunggal Microsoft, yang segera berlaku setelah
+mem-posting. Microsoft dapat, atas kebijaksanaannya sendiri, membatasi: (i)
+kecepatan layanan, atau subrangkaian layanan apa pun, yang kemungkinan disebut,
+(ii) jumlah penyimpanan yang tersedia untuk setiap akun layanan, dan/atau (iii)
+panjang segmen konten terpisah yang mungkin akan diunggah ke, atau disediakan
+dari, layanan (semua bentuk mana pun di atas disebut &lt;/span&gt;&lt;span style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;“&lt;/span&gt;&lt;span lang=&quot;IN&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;Pengontrolan&lt;/span&gt;&lt;span style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;”&lt;/span&gt;&lt;span lang=&quot;IN&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;).
+Microsoft dapat melakukan Pengontrolan ini secara global di seluruh API Power
+BI, per pengguna akhir, atau atas dasar apa pun. Anda tidak akan melakukan
+langkah untuk mengakali tindakan teknis yang kami terapkan untuk memberlakukan
+Pengontrolan. Anda paham dan setuju bahwa metode programatis yang ditujukan
+untuk mengganggu batas kecepatan (termasuk mempertahankan cache data) dianggap
+sebagai pelanggaran terhadap Persyaratan API ini.&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;line-height:normal&#39;&gt;&lt;span lang=&quot;IN&quot; style=&#39;font-size:
+12.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;d.&amp;nbsp;Modifikasi.
+Microsoft berhak merilis versi API Power BI berikutnya dan mengharuskan Anda
+memperoleh dan menggunakan versi terbaru. Jika Anda tidak setuju atas
+modifikasi ini, hentikan penggunaan API Power BI. Jika Anda terus mengakses API
+Power BI, maka Anda akan dianggap telah menyetujui modifikasi tersebut.&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;line-height:normal&#39;&gt;&lt;span lang=&quot;IN&quot; style=&#39;font-size:
+12.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;e.&amp;nbsp;Batasan dan
+Ketentuan layanan. Kami dapat menggunakan teknologi atau sarana lain untuk
+melindungi API Power BI, melindungi pelanggan kami, atau menghentikan Anda atas
+pelanggaran terhadap Persyaratan API ini. Sarana ini dapat mencakup, misalnya,
+penyaringan untuk menghentikan spam atau meningkatkan keamanan. Saran ini dapat
+menghalangi atau menghentikan penggunaan Anda atas API Power BI, dan Anda tidak
+dapat mengakali atau mencoba menggagalkan atau menonaktifkan salah satu sarana
+teknis ini maupun sarana lainnya.&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-bottom:.05pt;line-height:normal&#39;&gt;&lt;b&gt;&lt;span lang=&quot;IN&quot; style=&#39;font-size:18.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;3.
+Hak Eksklusif&lt;/span&gt;&lt;/b&gt;&lt;b&gt;&lt;span style=&#39;font-size:18.0pt;font-family:&quot;Times New Roman&quot;,serif;
+color:#4B5C66&#39;&gt;.&lt;/span&gt;&lt;/b&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-left:.25in;text-indent:-.25in;line-height:
+normal&#39;&gt;&lt;span lang=&quot;EN&quot; style=&#39;font-size:10.0pt;font-family:Symbol;color:#4B5C66&#39;&gt;&#183;&lt;span style=&#39;font:7.0pt &quot;Times New Roman&quot;&#39;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+&lt;/span&gt;&lt;/span&gt;&lt;span lang=&quot;IN&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;
+color:#4B5C66&#39;&gt;a. Hak Microsoft. Untuk tujuan Persyaratan API, &lt;/span&gt;&lt;span style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;“&lt;/span&gt;&lt;span lang=&quot;IN&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;Hak
+Kekayaan Intelektual&lt;/span&gt;&lt;span style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;
+color:#4B5C66&#39;&gt;”&lt;/span&gt;&lt;span lang=&quot;IN&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;
+color:#4B5C66&#39;&gt; adalah setiap dan semua hak yang ada dari waktu ke waktu
+berdasarkan undang-undang paten, undang-undang perlindungan chip semikonduktor,
+undang-undang hak moral, undang-undang merek dagang, undang-undang persaingan
+tidak sehat, undang-undang hak publisitas, undang-undang hak privasi, setiap
+dan semua hak eksklusif lainnya, setiap dan semua aplikasi, perpanjangan,
+ekstensi, dan pemulihan terkait, baik saat ini maupun setelahnya akan berlaku
+dan memiliki kekuatan hukum di seluruh dunia. Sebagaimana antara Anda dan
+Microsoft, Anda memahami bahwa Microsoft atau pemberi lisensinya memiliki semua
+hak, kuasa, dan kepentingan, termasuk namun tidak terbatas pada semua Hak Kekayaan
+Intelektual, pada dan untuk API Power BI (kecuali setiap komponen perangkat
+lunak yang Anda kembangkan namun tidak sesuai dengan API Power BI, output,
+materi yang dapat dieksekusi dari API Power BI) dan bahwa Anda tidak akan
+memperoleh hak apa pun, kuasa, atau kepentingan pada atau untuk API Power BI,
+kecuali sebagaimana dijelaskan secara tersurat dalam Persyaratan API.&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-left:.25in;text-indent:-.25in;line-height:
+normal&#39;&gt;&lt;span lang=&quot;EN&quot; style=&#39;font-size:10.0pt;font-family:Symbol;color:#4B5C66&#39;&gt;&#183;&lt;span style=&#39;font:7.0pt &quot;Times New Roman&quot;&#39;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+&lt;/span&gt;&lt;/span&gt;&lt;span lang=&quot;IN&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;
+color:#4B5C66&#39;&gt;b. Atribusi; Pemberitahuan Hukum. Gambar yang diberikan kepada
+Anda melalui API Power BI mungkin berisi nama dagang, merek dagang, merek
+layanan, logo, nama domain, dan fitur merek khusus lainnya dari Microsoft
+maupun mitranya. Anda tidak dapat menghapus atau mengubah nama dagang, merek
+dagang, merek layanan, logo, nama domain, dan fitur merek khusus lainnya dengan
+cara apa pun. Anda setuju untuk menjaga, dan tidak akan menghapus,
+memodifikasi, mengaburkan, atau mengubah link maupun pemberitahuan apa pun yang
+ditampilkan pada gambar yang diberikan melalui Layanan. Anda paham dan setuju
+bahwa Pemberitahuan Hukum tersebut mendukung Persyaratan API untuk API Power
+BI.&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-left:.25in;text-indent:-.25in;line-height:
+normal&#39;&gt;&lt;span lang=&quot;EN&quot; style=&#39;font-size:10.0pt;font-family:Symbol;color:#4B5C66&#39;&gt;&#183;&lt;span style=&#39;font:7.0pt &quot;Times New Roman&quot;&#39;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+&lt;/span&gt;&lt;/span&gt;&lt;span lang=&quot;IN&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;
+color:#4B5C66&#39;&gt;c. Undang-Undang Hak Cipta Digital Milenium. Microsoft
+berkewajiban untuk merespons pemberitahuan tentang dugaan pelanggaran yang
+sesuai dengan &lt;/span&gt;&lt;span style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;
+color:#4B5C66&#39;&gt;“&lt;/span&gt;&lt;span lang=&quot;IN&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;
+color:#4B5C66&#39;&gt;DMCA&lt;/span&gt;&lt;span style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;
+color:#4B5C66&#39;&gt;”&lt;/span&gt;&lt;span lang=&quot;IN&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;
+color:#4B5C66&#39;&gt; (Undang-Undang Hak Cipta Digital Milenium). Untuk petunjuk dan
+informasi lebih lanjut, lihat bagian Pemberitahuan DMCA TOU.&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-bottom:.05pt;line-height:normal&#39;&gt;&lt;b&gt;&lt;span lang=&quot;IN&quot; style=&#39;font-size:18.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;4.
+Tata Tertib&lt;/span&gt;&lt;/b&gt;&lt;b&gt;&lt;span style=&#39;font-size:18.0pt;font-family:&quot;Times New Roman&quot;,serif;
+color:#4B5C66&#39;&gt;.&lt;/span&gt;&lt;/b&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-left:.25in;text-indent:-.25in;line-height:
+normal&#39;&gt;&lt;span lang=&quot;EN&quot; style=&#39;font-size:10.0pt;font-family:Symbol;color:#4B5C66&#39;&gt;&#183;&lt;span style=&#39;font:7.0pt &quot;Times New Roman&quot;&#39;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+&lt;/span&gt;&lt;/span&gt;&lt;span lang=&quot;IN&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;
+color:#4B5C66&#39;&gt;Anda setuju bahwa Anda bertanggung jawab atas perilaku dan
+konten yang Anda miliki sewaktu menggunakan API Power BI dan untuk konsekuensi
+apa pun yang terkait. Anda setuju untuk menggunakan API Power BI hanya untuk
+tujuan yang sah, benar, dan sesuai Persyaratan API, serta kebijakan atau
+pedoman apa pun yang berlaku.&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-left:.25in;text-indent:-.25in;line-height:
+normal&#39;&gt;&lt;span lang=&quot;EN&quot; style=&#39;font-size:10.0pt;font-family:Symbol;color:#4B5C66&#39;&gt;&#183;&lt;span style=&#39;font:7.0pt &quot;Times New Roman&quot;&#39;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+&lt;/span&gt;&lt;/span&gt;&lt;span lang=&quot;IN&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;
+color:#4B5C66&#39;&gt;a. Tindakan semestinya. Saat menggunakan API Power BI dan
+mengembangkan aplikasi, Anda harus:&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-left:.25in;text-indent:-.25in;line-height:
+normal&#39;&gt;&lt;span lang=&quot;EN&quot; style=&#39;font-size:10.0pt;font-family:Symbol;color:#4B5C66&#39;&gt;&#183;&lt;span style=&#39;font:7.0pt &quot;Times New Roman&quot;&#39;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+&lt;/span&gt;&lt;/span&gt;&lt;span lang=&quot;IN&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;
+color:#4B5C66&#39;&gt;Menaati hukum;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-left:.25in;text-indent:-.25in;line-height:
+normal&#39;&gt;&lt;span lang=&quot;EN&quot; style=&#39;font-size:10.0pt;font-family:Symbol;color:#4B5C66&#39;&gt;&#183;&lt;span style=&#39;font:7.0pt &quot;Times New Roman&quot;&#39;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+&lt;/span&gt;&lt;/span&gt;&lt;span lang=&quot;IN&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;
+color:#4B5C66&#39;&gt;Mematuhi semua tata tertib atau pemberitahuan lain yang kami
+berikan;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-left:.25in;text-indent:-.25in;line-height:
+normal&#39;&gt;&lt;span lang=&quot;EN&quot; style=&#39;font-size:10.0pt;font-family:Symbol;color:#4B5C66&#39;&gt;&#183;&lt;span style=&#39;font:7.0pt &quot;Times New Roman&quot;&#39;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+&lt;/span&gt;&lt;/span&gt;&lt;span lang=&quot;IN&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;
+color:#4B5C66&#39;&gt;Merahasiakan sandi akun layanan apa pun;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-left:.25in;text-indent:-.25in;line-height:
+normal&#39;&gt;&lt;span lang=&quot;EN&quot; style=&#39;font-size:10.0pt;font-family:Symbol;color:#4B5C66&#39;&gt;&#183;&lt;span style=&#39;font:7.0pt &quot;Times New Roman&quot;&#39;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+&lt;/span&gt;&lt;/span&gt;&lt;span lang=&quot;IN&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;
+color:#4B5C66&#39;&gt;Memberi tahu kami jika mengetahui telah terjadi pelanggaran
+keamanan terkait Layanan Power BI dan API Power BI.&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-left:.25in;text-indent:-.25in;line-height:
+normal&#39;&gt;&lt;span lang=&quot;EN&quot; style=&#39;font-size:10.0pt;font-family:Symbol;color:#4B5C66&#39;&gt;&#183;&lt;span style=&#39;font:7.0pt &quot;Times New Roman&quot;&#39;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+&lt;/span&gt;&lt;/span&gt;&lt;span lang=&quot;IN&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;
+color:#4B5C66&#39;&gt;b. Penggunaan yang dilarang. Saat menggunakan API Power BI dan
+mengembangkan aplikasi, Anda tidak boleh:&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-left:.25in;text-indent:-.25in;line-height:
+normal&#39;&gt;&lt;span lang=&quot;EN&quot; style=&#39;font-size:10.0pt;font-family:Symbol;color:#4B5C66&#39;&gt;&#183;&lt;span style=&#39;font:7.0pt &quot;Times New Roman&quot;&#39;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+&lt;/span&gt;&lt;/span&gt;&lt;span lang=&quot;IN&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;
+color:#4B5C66&#39;&gt;mencemarkan, menyalahgunakan, melecehkan, mengintai, mengancam,
+atau melanggar hak hukum (misalnya, hak privasi dan publisitas) orang lain;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-left:.25in;text-indent:-.25in;line-height:
+normal&#39;&gt;&lt;span lang=&quot;EN&quot; style=&#39;font-size:10.0pt;font-family:Symbol;color:#4B5C66&#39;&gt;&#183;&lt;span style=&#39;font:7.0pt &quot;Times New Roman&quot;&#39;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+&lt;/span&gt;&lt;/span&gt;&lt;span lang=&quot;IN&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;
+color:#4B5C66&#39;&gt;mengunggah, mem-posting, mengirim email, atau mentransmisi, atau
+menyediakan apa pun yang tidak patut, memfitnah, melanggar, cabul, atau konten
+yang melanggar hukum;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-left:.25in;text-indent:-.25in;line-height:
+normal&#39;&gt;&lt;span lang=&quot;EN&quot; style=&#39;font-size:10.0pt;font-family:Symbol;color:#4B5C66&#39;&gt;&#183;&lt;span style=&#39;font:7.0pt &quot;Times New Roman&quot;&#39;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+&lt;/span&gt;&lt;/span&gt;&lt;span lang=&quot;IN&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;
+color:#4B5C66&#39;&gt;mengunggah, mem-posting, mengirim email, atau mentransmisi
+maupun menyediakan konten apa pun yang melanggar paten, merek dagang, hak
+cipta, rahasia dagang atau hak eksklusif lainnya dari pihak manapun, kecuali
+jika Anda adalah pemilik hak atau memiliki izin dari pemilik untuk mem-posting
+konten tersebut;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-left:.25in;text-indent:-.25in;line-height:
+normal&#39;&gt;&lt;span lang=&quot;EN&quot; style=&#39;font-size:10.0pt;font-family:Symbol;color:#4B5C66&#39;&gt;&#183;&lt;span style=&#39;font:7.0pt &quot;Times New Roman&quot;&#39;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+&lt;/span&gt;&lt;/span&gt;&lt;span lang=&quot;IN&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;
+color:#4B5C66&#39;&gt;mengunggah, mem-posting, mengirim email, atau mentransmisi
+maupun menyediakan pesan yang mempromosikan skema piramida, surat berantai,
+atau pesan maupun iklan komersial apa pun yang mengganggu, atau hal lain yang
+dilarang dalam undang-undang, Persyaratan API, serta kebijakan atau pedoman apa
+pun yang berlaku;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-left:.25in;text-indent:-.25in;line-height:
+normal&#39;&gt;&lt;span lang=&quot;EN&quot; style=&#39;font-size:10.0pt;font-family:Symbol;color:#4B5C66&#39;&gt;&#183;&lt;span style=&#39;font:7.0pt &quot;Times New Roman&quot;&#39;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+&lt;/span&gt;&lt;/span&gt;&lt;span lang=&quot;IN&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;
+color:#4B5C66&#39;&gt;menggunakan API Power BI sehubungan dengan atau untuk
+mempromosikan produk, layanan, atau materi apa pun yang menyatakan,
+mempromosikan, atau digunakan terutama untuk tujuan: spyware, adware, atau
+program maupun kode berbahaya lainnya;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-left:.25in;text-indent:-.25in;line-height:
+normal&#39;&gt;&lt;span lang=&quot;EN&quot; style=&#39;font-size:10.0pt;font-family:Symbol;color:#4B5C66&#39;&gt;&#183;&lt;span style=&#39;font:7.0pt &quot;Times New Roman&quot;&#39;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+&lt;/span&gt;&lt;/span&gt;&lt;span lang=&quot;IN&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;
+color:#4B5C66&#39;&gt;mengunduh file apa pun yang di-posting oleh orang lain yang Anda
+kenal, atau cukup Anda kenal, yang tidak dapat secara hukum didistribusikan
+dengan cara tersebut;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-left:.25in;text-indent:-.25in;line-height:
+normal&#39;&gt;&lt;span lang=&quot;EN&quot; style=&#39;font-size:10.0pt;font-family:Symbol;color:#4B5C66&#39;&gt;&#183;&lt;span style=&#39;font:7.0pt &quot;Times New Roman&quot;&#39;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+&lt;/span&gt;&lt;/span&gt;&lt;span lang=&quot;IN&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;
+color:#4B5C66&#39;&gt;meniru orang atau entitas lain, memalsukan atau menghapus
+atribusi penulis, pemberitahuan hukum, atau pemberitahuan patut lainnya,
+penunjukan kepemilikan, label asal, atau sumber perangkat lunak maupun materi
+lainnya;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-left:.25in;text-indent:-.25in;line-height:
+normal&#39;&gt;&lt;span lang=&quot;EN&quot; style=&#39;font-size:10.0pt;font-family:Symbol;color:#4B5C66&#39;&gt;&#183;&lt;span style=&#39;font:7.0pt &quot;Times New Roman&quot;&#39;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+&lt;/span&gt;&lt;/span&gt;&lt;span lang=&quot;IN&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;
+color:#4B5C66&#39;&gt;membatasi atau melarang setiap pengguna lain agar tidak
+menggunakan dan menikmati akses ke API Power BI;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-left:.25in;text-indent:-.25in;line-height:
+normal&#39;&gt;&lt;span lang=&quot;EN&quot; style=&#39;font-size:10.0pt;font-family:Symbol;color:#4B5C66&#39;&gt;&#183;&lt;span style=&#39;font:7.0pt &quot;Times New Roman&quot;&#39;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+&lt;/span&gt;&lt;/span&gt;&lt;span lang=&quot;IN&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;
+color:#4B5C66&#39;&gt;menggunakan API Power BI untuk tujuan ilegal atau tidak sah;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-left:.25in;text-indent:-.25in;line-height:
+normal&#39;&gt;&lt;span lang=&quot;EN&quot; style=&#39;font-size:10.0pt;font-family:Symbol;color:#4B5C66&#39;&gt;&#183;&lt;span style=&#39;font:7.0pt &quot;Times New Roman&quot;&#39;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+&lt;/span&gt;&lt;/span&gt;&lt;span lang=&quot;IN&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;
+color:#4B5C66&#39;&gt;menghapus hak cipta, merek dagang, atau pemberitahuan hak
+eksklusif yang terkandung dalam atau pada API Power BI;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-left:.25in;text-indent:-.25in;line-height:
+normal&#39;&gt;&lt;span lang=&quot;EN&quot; style=&#39;font-size:10.0pt;font-family:Symbol;color:#4B5C66&#39;&gt;&#183;&lt;span style=&#39;font:7.0pt &quot;Times New Roman&quot;&#39;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+&lt;/span&gt;&lt;/span&gt;&lt;span lang=&quot;IN&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;
+color:#4B5C66&#39;&gt;mengganggu maupun mengacaukan API Power BI, server, atau
+jaringan yang terhubung ke layanan Power BI, atau tidak mematuhi persyaratan,
+prosedur, kebijakan, atau peraturan jaringan yang terhubung ke API Power BI;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-left:.25in;text-indent:-.25in;line-height:
+normal&#39;&gt;&lt;span lang=&quot;EN&quot; style=&#39;font-size:10.0pt;font-family:Symbol;color:#4B5C66&#39;&gt;&#183;&lt;span style=&#39;font:7.0pt &quot;Times New Roman&quot;&#39;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+&lt;/span&gt;&lt;/span&gt;&lt;span lang=&quot;IN&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;
+color:#4B5C66&#39;&gt;menggunakan robot, spider, situs pencarian/aplikasi pengambil
+sehubungan dengan API Power BI atau mengumpulkan informasi tentang pengguna
+untuk tujuan yang tidak sah;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-left:.25in;text-indent:-.25in;line-height:
+normal&#39;&gt;&lt;span lang=&quot;EN&quot; style=&#39;font-size:10.0pt;font-family:Symbol;color:#4B5C66&#39;&gt;&#183;&lt;span style=&#39;font:7.0pt &quot;Times New Roman&quot;&#39;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+&lt;/span&gt;&lt;/span&gt;&lt;span lang=&quot;IN&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;
+color:#4B5C66&#39;&gt;mengirim konten yang menyatakan atau menyiratkan pemalsuan,
+bahwa konten tersebut disponsori atau disahkan oleh Microsoft;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-left:.25in;text-indent:-.25in;line-height:
+normal&#39;&gt;&lt;span lang=&quot;EN&quot; style=&#39;font-size:10.0pt;font-family:Symbol;color:#4B5C66&#39;&gt;&#183;&lt;span style=&#39;font:7.0pt &quot;Times New Roman&quot;&#39;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+&lt;/span&gt;&lt;/span&gt;&lt;span lang=&quot;IN&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;
+color:#4B5C66&#39;&gt;membuat akun pengguna dengan sarana otomatisasi atau dengan
+alasan palsu maupun penipuan, atau memperoleh maupun mencoba memperoleh
+beberapa kunci ke API Power BI;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-left:.25in;text-indent:-.25in;line-height:
+normal&#39;&gt;&lt;span lang=&quot;EN&quot; style=&#39;font-size:10.0pt;font-family:Symbol;color:#4B5C66&#39;&gt;&#183;&lt;span style=&#39;font:7.0pt &quot;Times New Roman&quot;&#39;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+&lt;/span&gt;&lt;/span&gt;&lt;span lang=&quot;IN&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;
+color:#4B5C66&#39;&gt;mempromosikan maupun memberikan petunjuk informasi tentang
+aktivitas ilegal, mengakibatkan kerugian fisik maupun cedera terhadap kelompok
+atau individu; atau&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-left:.25in;text-indent:-.25in;line-height:
+normal&#39;&gt;&lt;span lang=&quot;EN&quot; style=&#39;font-size:10.0pt;font-family:Symbol;color:#4B5C66&#39;&gt;&#183;&lt;span style=&#39;font:7.0pt &quot;Times New Roman&quot;&#39;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+&lt;/span&gt;&lt;/span&gt;&lt;span lang=&quot;IN&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;
+color:#4B5C66&#39;&gt;mengirim virus, worm, kecacatan, Trojan horse, atau item apa pun
+yang bersifat merusak.&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-left:.25in;text-indent:-.25in;line-height:
+normal&#39;&gt;&lt;span lang=&quot;EN&quot; style=&#39;font-size:10.0pt;font-family:Symbol;color:#4B5C66&#39;&gt;&#183;&lt;span style=&#39;font:7.0pt &quot;Times New Roman&quot;&#39;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+&lt;/span&gt;&lt;/span&gt;&lt;span lang=&quot;IN&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;
+color:#4B5C66&#39;&gt;menjual, menyewakan, berbagi, mentransfer, atau mensublisensikan
+API Power BI atau kode akses, baik untuk tujuan komersial langsung atau untuk
+memperoleh uang maupun tindakan lainnya, tanpa izin tertulis secara tegas oleh
+Microsoft sebelumnya; atau&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-left:.25in;text-indent:-.25in;line-height:
+normal&#39;&gt;&lt;span lang=&quot;EN&quot; style=&#39;font-size:10.0pt;font-family:Symbol;color:#4B5C66&#39;&gt;&#183;&lt;span style=&#39;font:7.0pt &quot;Times New Roman&quot;&#39;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+&lt;/span&gt;&lt;/span&gt;&lt;span lang=&quot;IN&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;
+color:#4B5C66&#39;&gt;menggunakan API Power BI yang melebihi jumlah permintaan wajar,
+mengambil secara berlebihan, menggunakan secara kasar, atau tindakan lain yang
+tidak mematuhi maupun tidak sesuai dengan setiap bagian dokumentasi API Power
+BI mana pun yang tercantum di&amp;nbsp;dev.PowerBI.com&amp;nbsp;sebagaimana ditentukan
+oleh Microsoft dalam kebijaksanaannya sendiri;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-left:.25in;text-indent:-.25in;line-height:
+normal&#39;&gt;&lt;span lang=&quot;EN&quot; style=&#39;font-size:10.0pt;font-family:Symbol;color:#4B5C66&#39;&gt;&#183;&lt;span style=&#39;font:7.0pt &quot;Times New Roman&quot;&#39;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+&lt;/span&gt;&lt;/span&gt;&lt;span lang=&quot;IN&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;
+color:#4B5C66&#39;&gt;meminta data atas nama salah seorang pengguna untuk menunjukkan,
+menampilkan, mentransmisi, atau memberikan data tersebut kepada pengguna lain.&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-left:.25in;text-indent:-.25in;line-height:
+normal&#39;&gt;&lt;span lang=&quot;EN&quot; style=&#39;font-size:10.0pt;font-family:Symbol;color:#4B5C66&#39;&gt;&#183;&lt;span style=&#39;font:7.0pt &quot;Times New Roman&quot;&#39;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+&lt;/span&gt;&lt;/span&gt;&lt;span lang=&quot;IN&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;
+color:#4B5C66&#39;&gt;Termasuk misalnya penggunaan secara langsung yang dilarang
+sebelumnya dan bukan sebagai batasan. Microsoft berhak, atas kebijaksanaannya
+sendiri, menentukan apakah penggunaan Anda atas API Power BI sesuai dengan
+Persyaratan API.&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-bottom:.05pt;line-height:normal&#39;&gt;&lt;b&gt;&lt;span lang=&quot;IN&quot; style=&#39;font-size:18.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;5.
+Privasi.&lt;/span&gt;&lt;/b&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;line-height:normal&#39;&gt;&lt;span lang=&quot;IN&quot; style=&#39;font-size:
+12.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;Semua akses ke, dan
+penggunaan atas, API Power BI tunduk pada Pernyataan Privasi Power BI, yang
+tersedia &lt;/span&gt;&lt;span lang=&quot;IN&quot;&gt;&lt;a href=&quot;http://www.microsoft.com/privacystatement/en-us/OnlineServices/Default.aspx&quot;&gt;&lt;span style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif&#39;&gt;di sini&lt;/span&gt;&lt;/a&gt;&lt;/span&gt;&lt;span lang=&quot;IN&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;
+(yang dapat diperbarui dari waktu ke waktu).&amp;nbsp;Tidak satu pernyataan pun
+dalam Persyaratan API ini yang menyatakan pengumpulan atau transfer informasi
+pengidentifikasi pribadi dari pengguna Internet di antara kedua
+pihak.&amp;nbsp;Anda harus menyimpan kebijakan privasi online atas situs web dan
+aplikasi yang mengakses API Power BI.&amp;nbsp;Kebijakan privasi ini, setidaknya,
+harus mencakup pengungkapan informasi yang lengkap, akurat, dan jelas terkait
+penempatan, penggunaan, serta pembacaan cookie dan teknologi terkait, dan
+pengumpulan maupun penggunaan data sehubungan dengan aktivitas pengguna di
+situs web dan aplikasi Anda.&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-bottom:.05pt;line-height:normal&#39;&gt;&lt;b&gt;&lt;span lang=&quot;IN&quot; style=&#39;font-size:18.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;6.
+Otentikasi Pengguna dan Keamanan.&lt;/span&gt;&lt;/b&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;line-height:normal&#39;&gt;&lt;span lang=&quot;IN&quot; style=&#39;font-size:
+12.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;Microsoft menangani
+keamanan dan privasi pengguna akhir dengan sangat serius, dan Anda setuju untuk
+memberikan semua bantuan yang kami perlukan untuk mengoperasikan Aplikasi
+sesuai Persyaratan API dan undang-undang yang berlaku.&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;line-height:normal&#39;&gt;&lt;span lang=&quot;IN&quot; style=&#39;font-size:
+12.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;a. Memegang Izin
+Pengguna. Anda bertanggung jawab penuh untuk memegang izin tertulis dan jelas
+dari pengguna, yang memberikan Anda izin untuk mengakses akun pengguna Power
+BI, termasuk jika ada, mengambil informasi khusus dari pengguna, atau menulis
+informasi di akun pengguna tersebut. Anda harus mematuhi cakupan izin tertulis
+yang mereka berikan kepada Anda saat mengakses akun pengguna Power BI.&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;line-height:normal&#39;&gt;&lt;span lang=&quot;IN&quot; style=&#39;font-size:
+12.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;b. Kontak dan Kerja
+Sama. Anda (atau kontak yang telah Anda daftarkan pada Azure Active Directory
+beserta aplikasi Anda) harus dapat dihubungi sewaktu-waktu untuk menerima
+pertanyaan dan pertimbangan keamanan. Anda dapat mengubah nama atau kontak ini
+dengan memperbarui informasi tenansi pada Azure Active Directory.&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;line-height:normal&#39;&gt;&lt;span lang=&quot;IN&quot; style=&#39;font-size:
+12.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;c. Pencegahan
+terhadap Virus. Semua materi, termasuk perangkat lunak dan dokumen, yang Anda
+berikan kepada Microsoft, harus diperiksa dengan antivirus standar industri
+Internet dan perangkat lunak anti-worm terbaru, dan harus ditetapkan sebagai bebas
+virus dan worm. Data apa pun yang diberikan kepada Microsoft tidak boleh berisi
+skrip atau kode berbahaya.&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;line-height:normal&#39;&gt;&lt;span lang=&quot;IN&quot; style=&#39;font-size:
+12.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;d. Standar Industri.
+Jaringan, sistem operasi, dan perangkat lunak Anda untuk server web, router,
+database, dan sistem komputer (&lt;/span&gt;&lt;span style=&#39;font-size:12.0pt;font-family:
+&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;“&lt;/span&gt;&lt;span lang=&quot;IN&quot; style=&#39;font-size:
+12.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;Sistem&lt;/span&gt;&lt;span style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;”&lt;/span&gt;&lt;span lang=&quot;IN&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;)
+harus dikonfigurasi dengan benar ke standar industri Internet, sebagaimana
+diperlukan untuk mengoperasikan Aplikasi secara aman. Jika Anda tidak
+mengontrol aspek Sistem sepenuhnya, maka Anda akan menggunakan semua kontrol
+atau pengaruh yang Anda miliki pada Sistem dan/atau pilihan Sistem, dan Anda
+tidak dapat merancang atau memilih Sistem dengan cara apa pun untuk menghindari
+kewajiban selanjutnya. Contoh server yang tidak dapat diterima adalah server
+yang dioperasikan sebagai proxy terbuka. Contoh pembuatan arsitektur dengan
+cara yang tidak dapat diterima adalah memilih server yang dioperasikan oleh
+vendor dengan praktik keamanan di bawah standar, sehingga Anda dapat menyatakan
+bahwa Anda tidak mengontrol server tersebut agar dapat menghindari pemilihan
+server yang dapat diterima.&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;line-height:normal&#39;&gt;&lt;span lang=&quot;IN&quot; style=&#39;font-size:
+12.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;e. Pelaporan. Anda
+harus segera melaporkan setiap kekurangan keamanan dalam, atau gangguan pada,
+Sistem yang Anda temukan di Microsoft secara tertulis melalui email
+ke&amp;nbsp;devpbi@microsoft.com. Anda akan bekerja sama dengan Microsoft untuk
+segera memperbaiki setiap kekurangan keamanan, dan akan mengatasi setiap
+gangguan atau penyusup. Jika terdapat kekurangan atau gangguan keamanan, Anda
+tidak dapat membuat pernyataan publik (misalnya, kabar berita, blog, papan
+buletin, dll.) tanpa izin tertulis yang jelas sebelumnya dari Microsoft pada
+setiap instans.&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;line-height:normal&#39;&gt;&lt;span lang=&quot;IN&quot; style=&#39;font-size:
+12.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;f. Akses Kontrol ke
+Sistem. Selama Anda memiliki kontrol atau pengaruh atas Sistem, Anda akan
+mendata (menggunakan label waktu dan tanggal) semua instans akses ke Sistem.
+Anda akan mengenkripsi file sandi dan nama pengguna untuk Sistem yang menyimpan
+atau memproses data pengguna Power BI apa pun selama Anda diizinkan oleh
+Microsoft untuk mengaksesnya. Sandi harus unik, acak, dan dapat berubah
+sewaktu-waktu. Anda akan mengurangi akses dan penggunaan sandi. Bila
+memungkinkan, perintah yang memerlukan hak istimewa tambahan harus dapat
+dimasukkan dengan aman (dengan waktu dan tanggal) untuk memungkinkan
+penyelesaian jejak audit aktivitas. Bila seseorang mengundurkan diri untuk
+tidak bekerja lagi dengan Anda, maka sandi dan fasilitas sandi aksesnya harus
+segera dihentikan.&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;line-height:normal&#39;&gt;&lt;span lang=&quot;IN&quot; style=&#39;font-size:
+12.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;g. Tinjauan Keamanan.
+Atas biaya sendiri, Microsoft berhak, namun tidak berkewajiban, memiliki pihak
+ketiga independen, memeriksa, memeriksa dan meninjau kepatuhan terhadap
+ketentuan keamanan ini. Anda akan (atas biaya Anda sendiri) memperbaiki setiap
+kecacatan keamanan yang terdeteksi pada peninjauan tersebut sesegera mungkin.
+Selanjutnya, Anda akan segera melaporkan kecacatan keamanan secara tertulis
+kepada Microsoft yang menyatakan bahwa kecacatan tersebut telah diperbaiki,
+disertai dengan penjelasan tindakan perbaikan yang dilakukan. Microsoft akan
+menyampaikan pemberitahuan 48 jam sebelum melakukan tinjauan tersebut. Tinjauan
+apa pun akan dilakukan selama jam kerja reguler dan tidak mengganggu aktivitas
+bisnis normal. Jika tinjauan menunjukkan pelanggaran materi terhadap ketentuan
+keamanan, maka Anda akan mengganti biaya dalam jumlah wajar atas tinjauan
+tersebut kepada Microsoft.&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;line-height:normal&#39;&gt;&lt;span lang=&quot;IN&quot; style=&#39;font-size:
+12.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;h. Anda juga harus
+mematuhi persyaratan dan dokumentasi yang dijelaskan dalam Persyaratan dan
+Dokumentasi Keamanan yang disertakan sebagai Lampiran A untuk Persyaratan API
+tersebut.&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-bottom:.05pt;line-height:normal&#39;&gt;&lt;b&gt;&lt;span lang=&quot;EN&quot; style=&#39;font-size:18.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;&amp;nbsp;&lt;/span&gt;&lt;/b&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-bottom:.05pt;line-height:normal&#39;&gt;&lt;b&gt;&lt;span lang=&quot;IN&quot; style=&#39;font-size:18.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;7&lt;/span&gt;&lt;/b&gt;&lt;b&gt;&lt;span lang=&quot;IN&quot; style=&#39;font-size:18.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;.
+Dukungan dan Ketersediaan.&lt;/span&gt;&lt;/b&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;line-height:normal&#39;&gt;&lt;span lang=&quot;IN&quot; style=&#39;font-size:
+12.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;Atas kebijaksanaannya
+sendiri, Microsoft dapat memilih untuk memberikan dukungan atau modifikasi pada
+API Power BI (secara keseluruhan disebut sebagai &lt;/span&gt;&lt;span style=&#39;font-size:
+12.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;“&lt;/span&gt;&lt;span lang=&quot;IN&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;Dukungan&lt;/span&gt;&lt;span style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;”&lt;/span&gt;&lt;span lang=&quot;IN&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;).
+Microsoft dapat mengubah, menangguhkan, atau menghentikan setiap aspek API
+Power BI sewaktu-waktu, termasuk ketersediaan API Power BI. Microsoft juga
+dapat menerapkan batasan pada fitur dan layanan tertentu atau membatasi akses
+Anda ke sebagian atau semua situs web Power BI tanpa pemberitahuan atau
+kewajiban.&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-bottom:.05pt;line-height:normal&#39;&gt;&lt;b&gt;&lt;span lang=&quot;IN&quot; style=&#39;font-size:18.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;8&lt;/span&gt;&lt;/b&gt;&lt;b&gt;&lt;span lang=&quot;IN&quot; style=&#39;font-size:18.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;.
+Biaya dan Pembayaran.&lt;/span&gt;&lt;/b&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;line-height:normal&#39;&gt;&lt;span lang=&quot;IN&quot; style=&#39;font-size:
+12.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;Atas kebijaksanaannya
+sendiri, Microsoft berhak membebankan biaya atas penggunaan selanjutnya, atau
+akses ke, API Power BI di Microsoft. Jika Microsoft memutuskan untuk
+membebankan biaya atas API Power BI, maka informasi pembebanan biaya tersebut
+akan disampaikan kepada Anda sebelumnya melalui pemberitahuan tertulis.&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-bottom:.05pt;line-height:normal&#39;&gt;&lt;b&gt;&lt;span lang=&quot;IN&quot; style=&#39;font-size:18.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;9&lt;/span&gt;&lt;/b&gt;&lt;b&gt;&lt;span lang=&quot;IN&quot; style=&#39;font-size:18.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;.&lt;/span&gt;&lt;/b&gt;&lt;span lang=&quot;IN&quot; style=&#39;font-size:18.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;
+&lt;b&gt;Pelepasan Tanggung Jawab Hukum Atas Jaminan.&lt;/b&gt;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;line-height:normal&#39;&gt;&lt;span lang=&quot;IN&quot; style=&#39;font-size:
+12.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;POWER BI API
+DISEDIAKAN &lt;/span&gt;&lt;span style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;
+color:#4B5C66&#39;&gt;“&lt;/span&gt;&lt;span lang=&quot;IN&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;
+color:#4B5C66&#39;&gt;SEBAGAIMANA ADANYA&lt;/span&gt;&lt;span style=&#39;font-size:12.0pt;
+font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;”&lt;/span&gt;&lt;span lang=&quot;IN&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt; DAN
+&lt;/span&gt;&lt;span style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;
+color:#4B5C66&#39;&gt;“&lt;/span&gt;&lt;span lang=&quot;IN&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;
+color:#4B5C66&#39;&gt;SEBAGAIMANA TERSEDIA&lt;/span&gt;&lt;span style=&#39;font-size:12.0pt;
+font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;”&lt;/span&gt;&lt;span lang=&quot;IN&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;
+TANPA JAMINAN, BAIK TERSURAT MAUPUN TERSIRAT, DALAM BENTUK APA PUN. MICROSOFT
+SECARA TEGAS MENYATAKAN BAHWA SEBAGIAN MAUPUN SEMUA JAMINAN DAN KETENTUAN,
+TERMASUK, NAMUN TIDAK TERBATAS PADA, JAMINAN APA PUN YANG TERSIRAT ATAS
+KELAYAKAN UNTUK DIPERJUALBELIKAN, KESESUAIAN UNTUK TUJUAN TERTENTU,
+KETERSEDIAAN, KEAMANAN, KEPENTINGAN, DAN NONPELANGGARAN.&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;line-height:normal&#39;&gt;&lt;span lang=&quot;IN&quot; style=&#39;font-size:
+12.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;MICROSOFT TIDAK
+MENYATAKAN ATAU MENJAMIN BAHWA POWER BI API BEBAS DARI KETIDAKAKURATAN,
+KESALAHAN, BUG, GANGGUAN, TERPERCAYA, AKURAT, LENGKAP, ATAU VALID. MICROSOFT
+TIDAK MENJAMIN BAHWA (&lt;/span&gt;&lt;span style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;
+color:#4B5C66&#39;&gt;i&lt;/span&gt;&lt;span lang=&quot;IN&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;
+color:#4B5C66&#39;&gt;) POWER BI API AKAN MEMENUHI KEBUTUHAN ANDA, (ii) AKSES KE
+LAYANAN POWER BI API TIDAK AKAN TERGANGGU, (iii) HASIL YANG DIPEROLEH DARI
+PENGGUNAAN POWER BI API AKAN AKURAT ATAU TERPERCAYA, (iv) KUALITAS PRODUK,
+LAYANAN, INFORMASI, ATAU MATERI LAIN YANG DIPEROLEH MELALUI POWER BI API AKAN
+MEMENUHI HARAPAN ANDA, DAN (v) SETIAP KESALAHAN PADA POWER BI API AKAN
+DIPERBAIKI.&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;line-height:normal&#39;&gt;&lt;span lang=&quot;IN&quot; style=&#39;font-size:
+12.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;PENGGUNAAN POWER BI
+API DIDASARKAN ATAS KEBIJAKSANAAN DAN RISIKO ANDA SENDIRI, DAN ANDA BERTANGGUNG
+JAWAB PENUH ATAS KERUSAKAN YANG DISEBABKAN DARI PENGGUNAAN POWER BI API. &lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-bottom:.05pt;line-height:normal&#39;&gt;&lt;b&gt;&lt;span lang=&quot;IN&quot; style=&#39;font-size:18.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;10&lt;/span&gt;&lt;/b&gt;&lt;b&gt;&lt;span lang=&quot;IN&quot; style=&#39;font-size:18.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;.&lt;/span&gt;&lt;/b&gt;&lt;span lang=&quot;IN&quot; style=&#39;font-size:18.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;
+&lt;b&gt;Batasan Kewajiban.&lt;/b&gt;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;line-height:normal&#39;&gt;&lt;span lang=&quot;IN&quot; style=&#39;font-size:
+12.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;TANPA MENGABAIKAN
+KETENTUAN LAIN YANG TERKANDUNG DALAM PERSYARATAN API, KEWAJIBAN MAKSIMAL
+MICROSOFT SECARA KESELURUHAN KEPADA ANDA ATAS SEBAGIAN MAUPUN SELURUH KLAIM
+YANG TIMBUL DARI ATAU SEHUBUNGAN DENGAN PERSYARATAN API, PENGHENTIAN, ATAU
+BERAKHIRNYA MASA BERLAKU, BAIK KEWAJIBAN YANG TIMBUL DARI KLAIM BERDASARKAN
+KONTRAK, JAMINAN, WANPRESTASI, KEGAGALAN MEMENUHI TUJUAN UTAMA, PENGGUNAAN
+PERDAGANGAN, ATAU TINDAKAN LAIN, TIDAK AKAN MELEBIHI USD10,00. ANDA TIDAK DAPAT
+MEMULIHKAN KERUSAKAN ATAU KEHILANGAN APA PUN, TERMASUK, NAMUN TIDAK TERBATAS
+PADA KONSEKUENSIAL, HILANGNYA LABA, KHUSUS, TIDAK LANGSUNG, INSIDENTAL, ATAU
+KARENA VONIS. PEMBATASAN DAN PENGECUALIAN INI BERLAKU JIKA PENGGANTIAN INI
+TIDAK BENAR-BENAR MEMBERIKAN KOMPENSASI KEPADA ANDA ATAS SEGALA KERUGIAN, GAGAL
+MEMBERIKAN TUJUAN UTAMANYA, ATAU JIKA KAMI MENGETAHUI ATAU SEHARUSNYA
+MENGETAHUI TENTANG KEMUNGKINAN KERUGIAN TERSEBUT. SEJAUH YANG DIIZINKAN OLEH
+UNDANG-UNDANG, BATASAN DAN PENGECUALIAN INI BERLAKU UNTUK SEGALA HAL YANG
+BERHUBUNGAN DENGAN PERSYARATAN API INI, SEPERTI HILANGNYA KONTEN; VIRUS YANG
+MEMPENGARUHI PENGGUNAAN ANDA ATAS POWER BI API; KETERLAMBATAN ATAU KEGAGALAN
+DALAM MEMULAI MAUPUN MENYELESAIKAN TRANSMISI ATAU TRANSAKSI; KLAIM ATAS
+PELANGGARAN KONTRAK, GARANSI, JAMINAN, ATAU KETENTUAN; KEWAJIBAN KETAT,
+KELALAIAN, KEKELIRUAN, ATAU PENGHAPUSAN; ATAU WANPRESTASI LAINNYA; PELANGGARAN
+UNDANG-UNDANG ATAU PERATURAN; ATAU UPAYA MEMPERKAYA DIRI. SEBAGIAN ATAU SEMUA
+BATASAN MAUPUN PENGECUALIAN TERSEBUT MUNGKIN TIDAK BERLAKU UNTUK ANDA JIKA NEGARA
+BAGIAN, PROVINSI, ATAU NEGARA ANDA TIDAK MENGIZINKAN PENGECUALIAN ATAU BATASAN
+TERHADAP KERUGIAN INSIDENTAL, KONSEKUENSIAL, ATAU KERUGIAN LAINNYA.&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-bottom:.05pt;line-height:normal&#39;&gt;&lt;b&gt;&lt;span lang=&quot;IN&quot; style=&#39;font-size:18.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;11&lt;/span&gt;&lt;/b&gt;&lt;b&gt;&lt;span lang=&quot;IN&quot; style=&#39;font-size:18.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;.&lt;/span&gt;&lt;/b&gt;&lt;span lang=&quot;IN&quot; style=&#39;font-size:18.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;
+&lt;b&gt;Ganti Rugi.&lt;/b&gt;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;line-height:normal&#39;&gt;&lt;span lang=&quot;IN&quot; style=&#39;font-size:
+12.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;Anda akan memberikan
+ganti rugi dan membebaskan Microsoft (serta direktur, karyawan, afiliasi, dan
+agennya) dari, dan terhadap, sebagian dan semua kehilangan, tanggung jawab, dan
+pengeluaran (termasuk biaya dan ongkos pengacara yang wajar) yang dikenakan
+atau yang ditimbulkan karena alasan klaim, proses hukum, atau gugatan apa pun
+yang terkait dengan atau timbul karena pelanggaran (atau dugaan pelanggaran)
+oleh Anda terhadap kontrak ini, atau bagian dari kontrak ini, yang terkait
+dengan situs web, aplikasi, atau penggunaan Anda atas API Power BI. Anda
+bertanggung jawab penuh untuk mempertahankan klaim tersebut menggunakan
+penasihat umum yang telah disetujui, tunduk pada hak Microsoft untuk
+berpartisipasi dengan penasihat pilihannya, dan Anda tidak akan mempublikasikan
+setiap klaim atau tidak akan menyetujui penyelesaian apa pun yang menimbulkan
+kewajiban atau tanggung jawab apa pun pada Microsoft (atau direktur, karyawan,
+afiliasi, dan agennya) tanpa persetujuan tertulis sebelumnya dari Microsoft,
+dan izin tersebut diberikan oleh Microsoft berdasarkan kebijaksanaannya
+sendiri.&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-bottom:.05pt;line-height:normal&#39;&gt;&lt;b&gt;&lt;span lang=&quot;IN&quot; style=&#39;font-size:18.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;12&lt;/span&gt;&lt;/b&gt;&lt;b&gt;&lt;span lang=&quot;IN&quot; style=&#39;font-size:18.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;.
+Masa Berlaku/Penghentian.&lt;/span&gt;&lt;/b&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;line-height:normal&#39;&gt;&lt;span lang=&quot;IN&quot; style=&#39;font-size:
+12.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;Persyaratan API ini
+akan berlaku pada penggunaan pertama Anda atas API Power BI dan terus berlanjut
+hingga dihentikan oleh salah satu pihak. Anda dapat menghentikan Persyaratan
+API dengan tidak melanjutkan penggunaan API Power BI. Microsoft dapat
+menghentikan Persyaratan API ini sewaktu-waktu dengan alasan apa pun.
+Persyaratan API ini akan terhenti secara otomatis bila (i) Anda melanggar
+ketentuan apa pun dalam Persyaratan API atau TOU ini, (ii) Microsoft
+mem-posting secara publik pemberitahuan penghentian secara tertulis di situs
+web Power BI, (iii) Microsoft mengirimkan pemberitahuan penghentian secara
+tertulis kepada Anda, atau (iv) Microsoft tidak memberi Anda akses ke API Power
+BI.&amp;nbsp;Kewajiban semua pihak berdasarkan pasal 3, 9, 10, 11, 12, 15, 16, 17,
+18, dan 19 akan tetap berlaku jika Persyaratan API ini dihentikan atau berakhir
+dengan alasan apa pun.&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-bottom:.05pt;line-height:normal&#39;&gt;&lt;b&gt;&lt;span lang=&quot;IN&quot; style=&#39;font-size:18.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;13&lt;/span&gt;&lt;/b&gt;&lt;b&gt;&lt;span lang=&quot;IN&quot; style=&#39;font-size:18.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;.
+Penetapan.&lt;/span&gt;&lt;/b&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;line-height:normal&#39;&gt;&lt;span lang=&quot;IN&quot; style=&#39;font-size:
+12.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;Kami dapat setiap
+saat menetapkan kontrak ini, baik secara keseluruhan maupun sebagian, dengan
+atau tanpa pemberitahuan sebelumnya kepada Anda. Anda tidak dapat mengalihkan
+kontrak ini, atau bagian apa pun darinya, kepada orang atau pihak lain tanpa
+izin tertulis sebelumnya, yang tidak akan ditahan tanpa alasan sewajarnya.
+Upaya apa pun untuk melakukannya akan dibatalkan. Anda tidak dapat mengalihkan
+hak penggunaan API Power BI atau bagian apa pun dari API Power BI kepada orang
+lain, baik untuk sementara maupun selamanya.&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-bottom:.05pt;line-height:normal&#39;&gt;&lt;b&gt;&lt;span lang=&quot;IN&quot; style=&#39;font-size:18.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;14&lt;/span&gt;&lt;/b&gt;&lt;b&gt;&lt;span lang=&quot;IN&quot; style=&#39;font-size:18.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;.
+Tidak Ada Penerima Manfaat Pihak Ketiga.&lt;/span&gt;&lt;/b&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;line-height:normal&#39;&gt;&lt;span lang=&quot;IN&quot; style=&#39;font-size:
+12.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;Perjanjian ini adalah
+semata-mata untuk kepentingan Anda dan Microsoft. Perjanjian tidak ditujukan
+untuk kepentingan pihak lain, kecuali penerus dan pihak penerima yang diizinkan
+berdasarkan kontrak ini.&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-bottom:.05pt;line-height:normal&#39;&gt;&lt;b&gt;&lt;span lang=&quot;IN&quot; style=&#39;font-size:18.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;15&lt;/span&gt;&lt;/b&gt;&lt;b&gt;&lt;span lang=&quot;IN&quot; style=&#39;font-size:18.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;.
+Keberlakuan Perjanjian.&lt;/span&gt;&lt;/b&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;line-height:normal&#39;&gt;&lt;span lang=&quot;IN&quot; style=&#39;font-size:
+12.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;Jika pengadilan di
+wilayah hukum yang berwenang memutuskan bahwa ketentuan apa pun dalam
+Persyaratan API ini melanggar hukum, tidak sah, atau tidak berlaku, maka
+ketentuan lainnya akan tetap berlaku dan berkekuatan hukum penuh.&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-bottom:.05pt;line-height:normal&#39;&gt;&lt;span lang=&quot;EN&quot; style=&#39;font-size:18.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-bottom:.05pt;line-height:normal&#39;&gt;&lt;b&gt;&lt;span lang=&quot;IN&quot; style=&#39;font-size:18.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;16&lt;/span&gt;&lt;/b&gt;&lt;b&gt;&lt;span lang=&quot;IN&quot; style=&#39;font-size:18.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;.
+Pemberitahuan&lt;/span&gt;&lt;/b&gt;&lt;b&gt;&lt;span style=&#39;font-size:18.0pt;font-family:&quot;Times New Roman&quot;,serif;
+color:#4B5C66&#39;&gt;.&lt;/span&gt;&lt;/b&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;line-height:normal&#39;&gt;&lt;span lang=&quot;IN&quot; style=&#39;font-size:
+12.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;Anda setuju bahwa
+Microsoft akan menyampaikan pemberitahuan tentang API Power BI atau informasi
+yang harus kami kirim berdasarkan undang-undang melalui email ke alamat yang
+Anda tetapkan saat mendaftar API Power BI. Pemberitahuan melalui email kepada
+Anda akan dianggap telah diberikan dan diterima ketika email dikirim. Jika Anda
+tidak setuju menerima pemberitahuan secara elektronik, hentikan akses ke API
+Power BI. &lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-bottom:.05pt;line-height:normal&#39;&gt;&lt;b&gt;&lt;span lang=&quot;IN&quot; style=&#39;font-size:18.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;17&lt;/span&gt;&lt;/b&gt;&lt;b&gt;&lt;span lang=&quot;IN&quot; style=&#39;font-size:18.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;.
+Tidak Ada Pengabaian Hak oleh Microsoft.&lt;/span&gt;&lt;/b&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;line-height:normal&#39;&gt;&lt;span lang=&quot;IN&quot; style=&#39;font-size:
+12.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;Kelalaian Microsoft
+untuk menggunakan atau memberlakukan hak maupun ketentuan Persyaratan API tidak
+akan dianggap sebagai pengabaian atas hak atau ketentuan tersebut.&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-bottom:.05pt;line-height:normal&#39;&gt;&lt;b&gt;&lt;span lang=&quot;IN&quot; style=&#39;font-size:18.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;18&lt;/span&gt;&lt;/b&gt;&lt;b&gt;&lt;span lang=&quot;IN&quot; style=&#39;font-size:18.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;.
+Undang-Undang yang Mengatur; Wilayah Hukum.&lt;/span&gt;&lt;/b&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-top:6.0pt;margin-right:0in;margin-bottom:0in;
+margin-left:0in;margin-bottom:.0001pt;line-height:normal&#39;&gt;&lt;span lang=&quot;IN&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;Undang-undang
+Negara Bagian Washington mengatur Persyaratan API ini. Jika terdapat wilayah
+hukum federal, maka para pihak akan menyerahkannya ke wilayah hukum eksklusif
+dan lokasi pengadilan federal di King County, Washington. Jika tidak, para
+pihak akan menyerahkannya ke wilayah hukum eksklusif dan lokasi Pengadilan
+Tinggi King County, Washington. Jika salah satu dari Microsoft atau Anda
+menggunakan jasa pengacara untuk memberlakukan hak yang diperoleh dari atau
+terkait dengan Persyaratan API ini, maka pihak pemenang perkara berhak
+memulihkan biaya maupun ongkos pengacara dalam jumlah wajar, dan pengeluaran
+lainnya, termasuk biaya dan ongkos yang dikeluarkan untuk banding, dalam
+kepailitan, atau tindakan serupa.&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-bottom:.05pt;line-height:normal&#39;&gt;&lt;b&gt;&lt;span lang=&quot;EN&quot; style=&#39;font-size:18.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;&amp;nbsp;&lt;/span&gt;&lt;/b&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-bottom:.05pt;line-height:normal&#39;&gt;&lt;b&gt;&lt;span lang=&quot;IN&quot; style=&#39;font-size:18.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;19&lt;/span&gt;&lt;/b&gt;&lt;b&gt;&lt;span lang=&quot;IN&quot; style=&#39;font-size:18.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;.
+Perjanjian Menyeluruh&lt;/span&gt;&lt;/b&gt;&lt;b&gt;&lt;span style=&#39;font-size:18.0pt;font-family:
+&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;.&lt;/span&gt;&lt;/b&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-top:6.0pt;margin-right:0in;margin-bottom:0in;
+margin-left:0in;margin-bottom:.0001pt;line-height:normal&#39;&gt;&lt;span lang=&quot;IN&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;Persyaratan
+API ini akan menggantikan seluruh perjanjian antara Microsoft dan Anda dalam
+kaitannya dengan masalah utama yang disebutkan di sini.&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;line-height:normal&#39;&gt;&lt;span lang=&quot;IN&quot; style=&#39;font-size:
+12.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-bottom:.05pt;line-height:normal&#39;&gt;&lt;span lang=&quot;EN&quot; style=&#39;font-size:18.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-bottom:.05pt;line-height:normal&#39;&gt;&lt;span lang=&quot;EN&quot; style=&#39;font-size:18.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-bottom:.05pt;line-height:normal&#39;&gt;&lt;span lang=&quot;EN&quot; style=&#39;font-size:18.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-bottom:.05pt;line-height:normal&#39;&gt;&lt;span lang=&quot;EN&quot; style=&#39;font-size:18.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-bottom:.05pt;line-height:normal&#39;&gt;&lt;span lang=&quot;EN&quot; style=&#39;font-size:18.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-bottom:.05pt;line-height:normal&#39;&gt;&lt;span lang=&quot;EN&quot; style=&#39;font-size:18.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-bottom:.05pt;line-height:normal&#39;&gt;&lt;span lang=&quot;EN&quot; style=&#39;font-size:18.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-bottom:.05pt;line-height:normal&#39;&gt;&lt;span lang=&quot;EN&quot; style=&#39;font-size:18.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-bottom:.05pt;line-height:normal&#39;&gt;&lt;span lang=&quot;EN&quot; style=&#39;font-size:18.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-bottom:.05pt;line-height:normal&#39;&gt;&lt;span lang=&quot;EN&quot; style=&#39;font-size:18.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-bottom:.05pt;line-height:normal&#39;&gt;&lt;span lang=&quot;EN&quot; style=&#39;font-size:18.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-bottom:.05pt;line-height:normal&#39;&gt;&lt;span lang=&quot;EN&quot; style=&#39;font-size:18.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-bottom:.05pt;line-height:normal&#39;&gt;&lt;span lang=&quot;EN&quot; style=&#39;font-size:18.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-bottom:.05pt;line-height:normal&#39;&gt;&lt;span lang=&quot;EN&quot; style=&#39;font-size:18.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-bottom:.05pt;line-height:normal&#39;&gt;&lt;span lang=&quot;EN&quot; style=&#39;font-size:18.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-bottom:.05pt;line-height:normal&#39;&gt;&lt;span lang=&quot;EN&quot; style=&#39;font-size:18.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-bottom:.05pt;line-height:normal&#39;&gt;&lt;span lang=&quot;EN&quot; style=&#39;font-size:18.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-bottom:.05pt;line-height:normal&#39;&gt;&lt;span lang=&quot;EN&quot; style=&#39;font-size:18.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-bottom:.05pt;line-height:normal&#39;&gt;&lt;span lang=&quot;EN&quot; style=&#39;font-size:18.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-bottom:.05pt;line-height:normal&#39;&gt;&lt;span lang=&quot;EN&quot; style=&#39;font-size:18.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-bottom:.05pt;line-height:normal&#39;&gt;&lt;span lang=&quot;EN&quot; style=&#39;font-size:18.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-bottom:.05pt;line-height:normal&#39;&gt;&lt;span lang=&quot;EN&quot; style=&#39;font-size:18.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-bottom:.05pt;line-height:normal&#39;&gt;&lt;span lang=&quot;EN&quot; style=&#39;font-size:18.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-bottom:.05pt;line-height:normal&#39;&gt;&lt;span lang=&quot;EN&quot; style=&#39;font-size:18.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; align=&quot;center&quot; style=&#39;margin-bottom:.05pt;text-align:center;
+line-height:normal&#39;&gt;&lt;span lang=&quot;IN&quot; style=&#39;font-size:18.0pt;font-family:&quot;Times New Roman&quot;,serif;
+color:#4B5C66&#39;&gt;Lampiran A&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; align=&quot;center&quot; style=&#39;margin-bottom:.05pt;text-align:center;
+line-height:normal&#39;&gt;&lt;span lang=&quot;IN&quot; style=&#39;font-size:18.0pt;font-family:&quot;Times New Roman&quot;,serif;
+color:#4B5C66&#39;&gt;Persyaratan dan Dokumentasi Keamanan&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-bottom:.05pt;line-height:normal&#39;&gt;&lt;b&gt;&lt;span lang=&quot;EN&quot; style=&#39;font-size:18.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;&amp;nbsp;&lt;/span&gt;&lt;/b&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-bottom:.05pt;line-height:normal&#39;&gt;&lt;b&gt;&lt;span lang=&quot;IN&quot; style=&#39;font-size:18.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;Persyaratan
+Keamanan:&lt;/span&gt;&lt;/b&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-left:.25in;text-indent:-.25in;line-height:
+normal&#39;&gt;&lt;span lang=&quot;EN&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;
+color:#4B5C66&#39;&gt;1.&lt;span style=&#39;font:7.0pt &quot;Times New Roman&quot;&#39;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+&lt;/span&gt;&lt;/span&gt;&lt;span lang=&quot;IN&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;
+color:#4B5C66&#39;&gt;Mitra akan memberikan semua dokumentasi tentang keamanan yang
+relevan kepada Microsoft (termasuk namun tidak terbatas pada kebijakan
+keamanan, kebijakan tanggapan insiden, penilaian risiko, klasifikasi data, kode
+dan biner statis, serta artefak analisis dinamis, hasil pengujian penetrasi,
+komponen pihak ketiga yang digunakan, dll.);&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-left:.25in;text-indent:-.25in;line-height:
+normal&#39;&gt;&lt;span lang=&quot;EN&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;
+color:#4B5C66&#39;&gt;2.&lt;span style=&#39;font:7.0pt &quot;Times New Roman&quot;&#39;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+&lt;/span&gt;&lt;/span&gt;&lt;span lang=&quot;IN&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;
+color:#4B5C66&#39;&gt;Memberikan dokumentasi eksplisit penggunaan data pelanggan Power
+BI oleh Mitra (tujuan penggunaan, data Power BI tertentu yang digunakan,
+transmisi, penyimpanan, dll.) dan menyediakannya kepada pengguna;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-left:.25in;text-indent:-.25in;line-height:
+normal&#39;&gt;&lt;span lang=&quot;EN&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;
+color:#4B5C66&#39;&gt;3.&lt;span style=&#39;font:7.0pt &quot;Times New Roman&quot;&#39;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+&lt;/span&gt;&lt;/span&gt;&lt;span lang=&quot;IN&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;
+color:#4B5C66&#39;&gt;Menyatakan bahwa kerentanan teridentifikasi yang dapat
+mempengaruhi pelanggan akan diatasi tepat waktu;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-left:.25in;text-indent:-.25in;line-height:
+normal&#39;&gt;&lt;span lang=&quot;EN&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;
+color:#4B5C66&#39;&gt;4.&lt;span style=&#39;font:7.0pt &quot;Times New Roman&quot;&#39;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+&lt;/span&gt;&lt;/span&gt;&lt;span lang=&quot;IN&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;
+color:#4B5C66&#39;&gt;Menyatakan bahwa Microsoft berwenang menguji penawaran keamanan
+pihak ketiga sebagaimana dikoordinasikan antara Microsoft dan Anda;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-left:.25in;text-indent:-.25in;line-height:
+normal&#39;&gt;&lt;span lang=&quot;EN&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;
+color:#4B5C66&#39;&gt;5.&lt;span style=&#39;font:7.0pt &quot;Times New Roman&quot;&#39;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+&lt;/span&gt;&lt;/span&gt;&lt;span lang=&quot;IN&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;
+color:#4B5C66&#39;&gt;Anda hanya akan menyimpan data yang diperlukan untuk
+melaksanakan tujuan secara tersurat, dan akan menghapus informasi yang tidak
+diperlukan dan menambah informasi yang sesuai;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-left:.25in;text-indent:-.25in;line-height:
+normal&#39;&gt;&lt;span lang=&quot;EN&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;
+color:#4B5C66&#39;&gt;6.&lt;span style=&#39;font:7.0pt &quot;Times New Roman&quot;&#39;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+&lt;/span&gt;&lt;/span&gt;&lt;span lang=&quot;IN&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;
+color:#4B5C66&#39;&gt;Semua data Microsoft akan dihapus/dimusnahkan dari sistem Anda
+setelah penghentian hubungan Anda dengan Microsoft.&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;line-height:normal&#39;&gt;&lt;span lang=&quot;IN&quot; style=&#39;font-size:
+12.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-bottom:.05pt;line-height:normal&#39;&gt;&lt;b&gt;&lt;span lang=&quot;IN&quot; style=&#39;font-size:18.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;Dokumentasi
+Keamanan &lt;/span&gt;&lt;/b&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;line-height:normal&#39;&gt;&lt;span lang=&quot;IN&quot; style=&#39;font-size:
+12.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;Jika retensi data
+pelanggan Microsoft masih dianggap perlu untuk integrasi, maka dokumentasi
+keamanan berikut akan disediakan berdasarkan permintaan:&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-left:.25in;text-indent:-.25in;line-height:
+normal&#39;&gt;&lt;span lang=&quot;EN&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;
+color:#4B5C66&#39;&gt;1.&lt;span style=&#39;font:7.0pt &quot;Times New Roman&quot;&#39;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+&lt;/span&gt;&lt;/span&gt;&lt;span lang=&quot;IN&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;
+color:#4B5C66&#39;&gt;Keterangan tentang arsitektur sistem (termasuk lokasi, tujuan
+komponen sistem penting, sistem sorotan yang akan mengakses data pelanggan
+Power BI, cara penyimpanan dan transmisi data Microsoft, dll.)&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-left:.25in;text-indent:-.25in;line-height:
+normal&#39;&gt;&lt;span lang=&quot;EN&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;
+color:#4B5C66&#39;&gt;2.&lt;span style=&#39;font:7.0pt &quot;Times New Roman&quot;&#39;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+&lt;/span&gt;&lt;/span&gt;&lt;span lang=&quot;IN&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;
+color:#4B5C66&#39;&gt;Sertifikasi keamanan atau laporan (SSAE16, SOC2, ISO27001, dll.)&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-left:.25in;text-indent:-.25in;line-height:
+normal&#39;&gt;&lt;span lang=&quot;EN&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;
+color:#4B5C66&#39;&gt;3.&lt;span style=&#39;font:7.0pt &quot;Times New Roman&quot;&#39;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+&lt;/span&gt;&lt;/span&gt;&lt;span lang=&quot;IN&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;
+color:#4B5C66&#39;&gt;Tindakan keamanan fisik untuk sistem terkait&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-left:.25in;text-indent:-.25in;line-height:
+normal&#39;&gt;&lt;span lang=&quot;EN&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;
+color:#4B5C66&#39;&gt;4.&lt;span style=&#39;font:7.0pt &quot;Times New Roman&quot;&#39;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+&lt;/span&gt;&lt;/span&gt;&lt;span lang=&quot;IN&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;
+color:#4B5C66&#39;&gt;Keterlibatan pihak ketiga pada sistem, yang menghasilkan kontrak
+dan informasi keamanan relevan&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-left:.25in;text-indent:-.25in;line-height:
+normal&#39;&gt;&lt;span lang=&quot;EN&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;
+color:#4B5C66&#39;&gt;5.&lt;span style=&#39;font:7.0pt &quot;Times New Roman&quot;&#39;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+&lt;/span&gt;&lt;/span&gt;&lt;span lang=&quot;IN&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;
+color:#4B5C66&#39;&gt;Model akses kontrol Anda&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-left:.25in;text-indent:-.25in;line-height:
+normal&#39;&gt;&lt;span lang=&quot;EN&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;
+color:#4B5C66&#39;&gt;6.&lt;span style=&#39;font:7.0pt &quot;Times New Roman&quot;&#39;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+&lt;/span&gt;&lt;/span&gt;&lt;span lang=&quot;IN&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;
+color:#4B5C66&#39;&gt;Sistem keamanan khusus yang tepat (IDS, HIDS, pemindaian
+kerentanan)&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-left:.25in;text-indent:-.25in;line-height:
+normal&#39;&gt;&lt;span lang=&quot;EN&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;
+color:#4B5C66&#39;&gt;7.&lt;span style=&#39;font:7.0pt &quot;Times New Roman&quot;&#39;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+&lt;/span&gt;&lt;/span&gt;&lt;span lang=&quot;IN&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;
+color:#4B5C66&#39;&gt;Peran tanggung jawab untuk keamanan (tim dan manajemen)&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-left:.25in;text-indent:-.25in;line-height:
+normal&#39;&gt;&lt;span lang=&quot;EN&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;
+color:#4B5C66&#39;&gt;8.&lt;span style=&#39;font:7.0pt &quot;Times New Roman&quot;&#39;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+&lt;/span&gt;&lt;/span&gt;&lt;span lang=&quot;IN&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;
+color:#4B5C66&#39;&gt;Cara melindungi kredensial akun sistem istimewa&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-left:.25in;text-indent:-.25in;line-height:
+normal&#39;&gt;&lt;span lang=&quot;EN&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;
+color:#4B5C66&#39;&gt;9.&lt;span style=&#39;font:7.0pt &quot;Times New Roman&quot;&#39;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+&lt;/span&gt;&lt;/span&gt;&lt;span lang=&quot;IN&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;
+color:#4B5C66&#39;&gt;Cara penyediaan, pembatalan, dan pemantauan akses ke sistem&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-left:.25in;text-indent:-.25in;line-height:
+normal&#39;&gt;&lt;span lang=&quot;EN&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;
+color:#4B5C66&#39;&gt;10.&lt;span style=&#39;font:7.0pt &quot;Times New Roman&quot;&#39;&gt;&amp;nbsp; &lt;/span&gt;&lt;/span&gt;&lt;span lang=&quot;IN&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;Peran
+karyawan mana pun yang diberi akses ke sistem relevan&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-left:.25in;text-indent:-.25in;line-height:
+normal&#39;&gt;&lt;span lang=&quot;EN&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;
+color:#4B5C66&#39;&gt;11.&lt;span style=&#39;font:7.0pt &quot;Times New Roman&quot;&#39;&gt;&amp;nbsp; &lt;/span&gt;&lt;/span&gt;&lt;span lang=&quot;IN&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;Pengauditan,
+pemantauan, dan pencatatan yang tepat&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-left:.25in;text-indent:-.25in;line-height:
+normal&#39;&gt;&lt;span lang=&quot;EN&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;
+color:#4B5C66&#39;&gt;12.&lt;span style=&#39;font:7.0pt &quot;Times New Roman&quot;&#39;&gt;&amp;nbsp; &lt;/span&gt;&lt;/span&gt;&lt;span lang=&quot;IN&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;Proses
+keamanan aplikasi (mempertahankan praktik pengembangan terbaik, pengujian
+keamanan, dll.)&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-left:.25in;text-indent:-.25in;line-height:
+normal&#39;&gt;&lt;span lang=&quot;EN&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;
+color:#4B5C66&#39;&gt;13.&lt;span style=&#39;font:7.0pt &quot;Times New Roman&quot;&#39;&gt;&amp;nbsp; &lt;/span&gt;&lt;/span&gt;&lt;span lang=&quot;IN&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;Prosedur
+apa pun untuk tanggapan insiden dan pemulihan bencana&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-left:.25in;text-indent:-.25in;line-height:
+normal&#39;&gt;&lt;span lang=&quot;EN&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;
+color:#4B5C66&#39;&gt;14.&lt;span style=&#39;font:7.0pt &quot;Times New Roman&quot;&#39;&gt;&amp;nbsp; &lt;/span&gt;&lt;/span&gt;&lt;span lang=&quot;IN&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;Proses
+untuk mengatasi patch keamanan&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-left:.25in;text-indent:-.25in;line-height:
+normal&#39;&gt;&lt;span lang=&quot;EN&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;
+color:#4B5C66&#39;&gt;15.&lt;span style=&#39;font:7.0pt &quot;Times New Roman&quot;&#39;&gt;&amp;nbsp; &lt;/span&gt;&lt;/span&gt;&lt;span lang=&quot;IN&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;Proses
+untuk menerapkan patch keamanan pihak ketiga pada sistem komponen pihak ketiga
+yang sedang digunakan&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-left:.25in;text-indent:-.25in;line-height:
+normal&#39;&gt;&lt;span lang=&quot;EN&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;
+color:#4B5C66&#39;&gt;16.&lt;span style=&#39;font:7.0pt &quot;Times New Roman&quot;&#39;&gt;&amp;nbsp; &lt;/span&gt;&lt;/span&gt;&lt;span lang=&quot;IN&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;Cara
+melindungi data pelanggan Power BI dalam penyimpanan dan memindahkannya saat
+digunakan dalam aplikasi&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;line-height:normal&#39;&gt;&lt;span lang=&quot;IN&quot; style=&#39;font-size:
+12.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;</value>
+  </data>
+  <data name="Heading" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="META_DESCRIPTION" xml:space="preserve">
+    <value />
+  </data>
+  <data name="META_KEYWORDS" xml:space="preserve">
+    <value />
+  </data>
+  <data name="META_PAGETITLE" xml:space="preserve">
+    <value>Power BI API Terms of Service | Microsoft Power BI</value>
+  </data>
+</root>

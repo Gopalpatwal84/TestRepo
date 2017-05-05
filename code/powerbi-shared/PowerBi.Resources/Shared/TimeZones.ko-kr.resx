@@ -1,0 +1,516 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" id="root">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="DatelineStandardTime" xml:space="preserve">
+    <value>(UTC-12:00) 날짜 변경선 서쪽</value>
+  </data>
+  <data name="UTC11" xml:space="preserve">
+    <value>(UTC-11:00) 협정 세계시-11</value>
+  </data>
+  <data name="AleutianStandardTime" xml:space="preserve">
+    <value>(UTC-10:00) 알류샨 열도</value>
+  </data>
+  <data name="HawaiianStandardTime" xml:space="preserve">
+    <value>(UTC-10:00) 하와이</value>
+  </data>
+  <data name="MarquesasStandardTime" xml:space="preserve">
+    <value>(UTC-09:30) 마키저스 제도</value>
+  </data>
+  <data name="AlaskanStandardTime" xml:space="preserve">
+    <value>(UTC-09:00) 알래스카</value>
+  </data>
+  <data name="UTC09" xml:space="preserve">
+    <value>(UTC-09:00) 협정 세계시-09</value>
+  </data>
+  <data name="PacificStandardTimeMexico" xml:space="preserve">
+    <value>(UTC-08:00) 바하 캘리포니아</value>
+  </data>
+  <data name="UTC08" xml:space="preserve">
+    <value>(UTC-08:00) 협정 세계시-08</value>
+  </data>
+  <data name="PacificStandardTime" xml:space="preserve">
+    <value>(UTC-08:00) 태평양 표준시(미국과 캐나다)</value>
+  </data>
+  <data name="USMountainStandardTime" xml:space="preserve">
+    <value>(UTC-07:00) 애리조나</value>
+  </data>
+  <data name="MountainStandardTimeMexico" xml:space="preserve">
+    <value>(UTC-07:00) 치와와, 라파스, 마사틀란</value>
+  </data>
+  <data name="MountainStandardTime" xml:space="preserve">
+    <value>(UTC-07:00) 산지 표준시(미국과 캐나다)</value>
+  </data>
+  <data name="CentralAmericaStandardTime" xml:space="preserve">
+    <value>(UTC-06:00) 중앙아메리카</value>
+  </data>
+  <data name="CentralStandardTime" xml:space="preserve">
+    <value>(UTC-06:00) 중부 표준시(미국과 캐나다)</value>
+  </data>
+  <data name="EasterIslandStandardTime" xml:space="preserve">
+    <value>(UTC-06:00) 이스터 섬</value>
+  </data>
+  <data name="CentralStandardTimeMexico" xml:space="preserve">
+    <value>(UTC-06:00) 과달라하라, 멕시코시티, 몬테레이</value>
+  </data>
+  <data name="CanadaCentralStandardTime" xml:space="preserve">
+    <value>(UTC-06:00) 서스캐처원</value>
+  </data>
+  <data name="SAPacificStandardTime" xml:space="preserve">
+    <value>(UTC-05:00) 보고타, 리마, 키토, 리오 브랑코</value>
+  </data>
+  <data name="EasternStandardTimeMexico" xml:space="preserve">
+    <value>(UTC-05:00) 체투말</value>
+  </data>
+  <data name="EasternStandardTime" xml:space="preserve">
+    <value>(UTC-05:00) 동부 표준시(미국과 캐나다)</value>
+  </data>
+  <data name="HaitiStandardTime" xml:space="preserve">
+    <value>(UTC-05:00) 아이티</value>
+  </data>
+  <data name="CubaStandardTime" xml:space="preserve">
+    <value>(UTC-05:00) 하바나</value>
+  </data>
+  <data name="USEasternStandardTime" xml:space="preserve">
+    <value>(UTC-05:00) 인디애나(동부)</value>
+  </data>
+  <data name="ParaguayStandardTime" xml:space="preserve">
+    <value>(UTC-04:00) 아순시온</value>
+  </data>
+  <data name="AtlanticStandardTime" xml:space="preserve">
+    <value>(UTC-04:00) 대서양 표준시(캐나다)</value>
+  </data>
+  <data name="VenezuelaStandardTime" xml:space="preserve">
+    <value>(UTC-04:00) 카라카스</value>
+  </data>
+  <data name="CentralBrazilianStandardTime" xml:space="preserve">
+    <value>(UTC-04:00) 쿠이아바</value>
+  </data>
+  <data name="SAWesternStandardTime" xml:space="preserve">
+    <value>(UTC-04:00) 조지타운, 라파스, 마노스, 산후안</value>
+  </data>
+  <data name="PacificSAStandardTime" xml:space="preserve">
+    <value>(UTC-04:00) 산티아고</value>
+  </data>
+  <data name="TurksAndCaicosStandardTime" xml:space="preserve">
+    <value>(UTC-04:00) 터크스 케이커스</value>
+  </data>
+  <data name="NewfoundlandStandardTime" xml:space="preserve">
+    <value>(UTC-03:30) 뉴펀들랜드</value>
+  </data>
+  <data name="TocantinsStandardTime" xml:space="preserve">
+    <value>(UTC-03:00) 아라구아이나</value>
+  </data>
+  <data name="ESouthAmericaStandardTime" xml:space="preserve">
+    <value>(UTC-03:00) 브라질리아</value>
+  </data>
+  <data name="SAEasternStandardTime" xml:space="preserve">
+    <value>(UTC-03:00) 카옌, 포르탈레자</value>
+  </data>
+  <data name="ArgentinaStandardTime" xml:space="preserve">
+    <value>(UTC-03:00) 부에노스아이레스</value>
+  </data>
+  <data name="GreenlandStandardTime" xml:space="preserve">
+    <value>(UTC-03:00) 그린란드</value>
+  </data>
+  <data name="MontevideoStandardTime" xml:space="preserve">
+    <value>(UTC-03:00) 몬테비디오</value>
+  </data>
+  <data name="SaintPierreStandardTime" xml:space="preserve">
+    <value>(UTC-03:00) 생피에르앤드미클롱</value>
+  </data>
+  <data name="BahiaStandardTime" xml:space="preserve">
+    <value>(UTC-03:00) 살바도르</value>
+  </data>
+  <data name="UTC02" xml:space="preserve">
+    <value>(UTC-02:00) 협정 세계시-02</value>
+  </data>
+  <data name="MidAtlanticStandardTime" xml:space="preserve">
+    <value>(UTC-02:00) 중부-대서양 - 이전</value>
+  </data>
+  <data name="AzoresStandardTime" xml:space="preserve">
+    <value>(UTC-01:00) 아조레스</value>
+  </data>
+  <data name="CapeVerdeStandardTime" xml:space="preserve">
+    <value>(UTC-01:00) 카보베르데 제도</value>
+  </data>
+  <data name="UTC" xml:space="preserve">
+    <value>(UTC) 협정 세계시</value>
+  </data>
+  <data name="MoroccoStandardTime" xml:space="preserve">
+    <value>(UTC+00:00) 카사블랑카</value>
+  </data>
+  <data name="GMTStandardTime" xml:space="preserve">
+    <value>(UTC+00:00) 더블린, 에든버러, 리스본, 런던</value>
+  </data>
+  <data name="GreenwichStandardTime" xml:space="preserve">
+    <value>(UTC+00:00) 몬로비아, 레이캬비크</value>
+  </data>
+  <data name="WEuropeStandardTime" xml:space="preserve">
+    <value>(UTC+01:00) 암스테르담, 베를린, 베른, 로마, 스톡홀름, 빈</value>
+  </data>
+  <data name="CentralEuropeStandardTime" xml:space="preserve">
+    <value>(UTC+01:00) 베오그라드, 브라티슬라바, 부다페스트, 류블랴나, 프라하</value>
+  </data>
+  <data name="RomanceStandardTime" xml:space="preserve">
+    <value>(UTC+01:00) 브뤼셀, 코펜하겐, 마드리드, 파리</value>
+  </data>
+  <data name="CentralEuropeanStandardTime" xml:space="preserve">
+    <value>(UTC+01:00) 사라예보, 스코페, 바르샤바, 자그레브</value>
+  </data>
+  <data name="WCentralAfricaStandardTime" xml:space="preserve">
+    <value>(UTC+01:00) 서중앙 아프리카</value>
+  </data>
+  <data name="NamibiaStandardTime" xml:space="preserve">
+    <value>(UTC+01:00) 빈트후크</value>
+  </data>
+  <data name="JordanStandardTime" xml:space="preserve">
+    <value>(UTC+02:00) 암만</value>
+  </data>
+  <data name="GTBStandardTime" xml:space="preserve">
+    <value>(UTC+02:00) 아테네, 부카레스트</value>
+  </data>
+  <data name="MiddleEastStandardTime" xml:space="preserve">
+    <value>(UTC+02:00) 베이루트</value>
+  </data>
+  <data name="EgyptStandardTime" xml:space="preserve">
+    <value>(UTC+02:00) 카이로</value>
+  </data>
+  <data name="EEuropeStandardTime" xml:space="preserve">
+    <value>(UTC+02:00) 키시네프</value>
+  </data>
+  <data name="SyriaStandardTime" xml:space="preserve">
+    <value>(UTC+02:00) 다마스쿠스</value>
+  </data>
+  <data name="WestBankStandardTime" xml:space="preserve">
+    <value>(UTC+02:00) 가자, 헤브론</value>
+  </data>
+  <data name="SouthAfricaStandardTime" xml:space="preserve">
+    <value>(UTC+02:00) 하라레, 프리토리아</value>
+  </data>
+  <data name="FLEStandardTime" xml:space="preserve">
+    <value>(UTC+02:00) 헬싱키, 키예프, 리가, 소피아, 탈린, 빌뉴스</value>
+  </data>
+  <data name="TurkeyStandardTime" xml:space="preserve">
+    <value>(UTC+02:00) 이스탄불</value>
+  </data>
+  <data name="IsraelStandardTime" xml:space="preserve">
+    <value>(UTC+02:00) 예루살렘</value>
+  </data>
+  <data name="KaliningradStandardTime" xml:space="preserve">
+    <value>(UTC+02:00) 칼리닌그라드</value>
+  </data>
+  <data name="LibyaStandardTime" xml:space="preserve">
+    <value>(UTC+02:00) 트리폴리</value>
+  </data>
+  <data name="ArabicStandardTime" xml:space="preserve">
+    <value>(UTC+03:00) 바그다드</value>
+  </data>
+  <data name="ArabStandardTime" xml:space="preserve">
+    <value>(UTC+03:00) 쿠웨이트, 리야드</value>
+  </data>
+  <data name="BelarusStandardTime" xml:space="preserve">
+    <value>(UTC+03:00) 민스크</value>
+  </data>
+  <data name="RussianStandardTime" xml:space="preserve">
+    <value>(UTC+03:00) 모스크바, 상트페테르부르크, 볼고그라드</value>
+  </data>
+  <data name="EAfricaStandardTime" xml:space="preserve">
+    <value>(UTC+03:00) 나이로비</value>
+  </data>
+  <data name="IranStandardTime" xml:space="preserve">
+    <value>(UTC+03:30) 테헤란</value>
+  </data>
+  <data name="ArabianStandardTime" xml:space="preserve">
+    <value>(UTC+04:00) 아부다비, 무스카트</value>
+  </data>
+  <data name="AstrakhanStandardTime" xml:space="preserve">
+    <value>(UTC+04:00) 아스트라한, 울랴노브스크</value>
+  </data>
+  <data name="AzerbaijanStandardTime" xml:space="preserve">
+    <value>(UTC+04:00) 바쿠</value>
+  </data>
+  <data name="RussiaTimeZone3" xml:space="preserve">
+    <value>(UTC+04:00) 이젭스크, 사마라</value>
+  </data>
+  <data name="MauritiusStandardTime" xml:space="preserve">
+    <value>(UTC+04:00) 포트루이스</value>
+  </data>
+  <data name="GeorgianStandardTime" xml:space="preserve">
+    <value>(UTC+04:00) 트빌리시</value>
+  </data>
+  <data name="CaucasusStandardTime" xml:space="preserve">
+    <value>(UTC+04:00) 예레반</value>
+  </data>
+  <data name="AfghanistanStandardTime" xml:space="preserve">
+    <value>(UTC+04:30) 카불</value>
+  </data>
+  <data name="WestAsiaStandardTime" xml:space="preserve">
+    <value>(UTC+05:00) 아슈하바트, 타슈켄트</value>
+  </data>
+  <data name="EkaterinburgStandardTime" xml:space="preserve">
+    <value>(UTC+05:00) 예카테린부르크</value>
+  </data>
+  <data name="PakistanStandardTime" xml:space="preserve">
+    <value>(UTC+05:00) 이슬라마바드, 카라치</value>
+  </data>
+  <data name="IndiaStandardTime" xml:space="preserve">
+    <value>(UTC+05:30) 첸나이, 콜카타, 뭄바이, 뉴델리</value>
+  </data>
+  <data name="SriLankaStandardTime" xml:space="preserve">
+    <value>(UTC+05:30) 스리자야와르데네푸라</value>
+  </data>
+  <data name="NepalStandardTime" xml:space="preserve">
+    <value>(UTC+05:45) 카트만두</value>
+  </data>
+  <data name="CentralAsiaStandardTime" xml:space="preserve">
+    <value>(UTC+06:00) 아스타나</value>
+  </data>
+  <data name="BangladeshStandardTime" xml:space="preserve">
+    <value>(UTC+06:00) 다카</value>
+  </data>
+  <data name="NCentralAsiaStandardTime" xml:space="preserve">
+    <value>(UTC+06:00) 노보시비르스크</value>
+  </data>
+  <data name="MyanmarStandardTime" xml:space="preserve">
+    <value>(UTC+06:30) 양곤(랑군)</value>
+  </data>
+  <data name="SEAsiaStandardTime" xml:space="preserve">
+    <value>(UTC+07:00) 방콕, 하노이, 자카르타</value>
+  </data>
+  <data name="AltaiStandardTime" xml:space="preserve">
+    <value>(UTC+07:00) 바르나울, 고르노알타이스크</value>
+  </data>
+  <data name="WMongoliaStandardTime" xml:space="preserve">
+    <value>(UTC+07:00) 호브드</value>
+  </data>
+  <data name="NorthAsiaStandardTime" xml:space="preserve">
+    <value>(UTC+07:00) 크라스노야르스크</value>
+  </data>
+  <data name="TomskStandardTime" xml:space="preserve">
+    <value>(UTC+07:00) 톰스크</value>
+  </data>
+  <data name="ChinaStandardTime" xml:space="preserve">
+    <value>(UTC+08:00) 베이징, 충칭, 홍콩 특별 행정구, 우루무치</value>
+  </data>
+  <data name="NorthAsiaEastStandardTime" xml:space="preserve">
+    <value>(UTC+08:00) 이르쿠츠크</value>
+  </data>
+  <data name="SingaporeStandardTime" xml:space="preserve">
+    <value>(UTC+08:00) 콸라룸푸르, 싱가포르</value>
+  </data>
+  <data name="WAustraliaStandardTime" xml:space="preserve">
+    <value>(UTC+08:00) 퍼스</value>
+  </data>
+  <data name="TaipeiStandardTime" xml:space="preserve">
+    <value>(UTC+08:00) 타이베이</value>
+  </data>
+  <data name="UlaanbaatarStandardTime" xml:space="preserve">
+    <value>(UTC+08:00) 울란바토르</value>
+  </data>
+  <data name="NorthKoreaStandardTime" xml:space="preserve">
+    <value>(UTC+08:30) 평양</value>
+  </data>
+  <data name="AusCentralWStandardTime" xml:space="preserve">
+    <value>(UTC+08:45) 유클라</value>
+  </data>
+  <data name="TransbaikalStandardTime" xml:space="preserve">
+    <value>(UTC+09:00) 치타</value>
+  </data>
+  <data name="TokyoStandardTime" xml:space="preserve">
+    <value>(UTC+09:00) 오사카, 삿포로, 도쿄</value>
+  </data>
+  <data name="KoreaStandardTime" xml:space="preserve">
+    <value>(UTC+09:00) 서울</value>
+  </data>
+  <data name="YakutskStandardTime" xml:space="preserve">
+    <value>(UTC+09:00) 야쿠츠크</value>
+  </data>
+  <data name="CenAustraliaStandardTime" xml:space="preserve">
+    <value>(UTC+09:30) 애들레이드</value>
+  </data>
+  <data name="AUSCentralStandardTime" xml:space="preserve">
+    <value>(UTC+09:30) 다윈</value>
+  </data>
+  <data name="EAustraliaStandardTime" xml:space="preserve">
+    <value>(UTC+10:00) 브리즈번</value>
+  </data>
+  <data name="AUSEasternStandardTime" xml:space="preserve">
+    <value>(UTC+10:00) 캔버라, 멜버른, 시드니</value>
+  </data>
+  <data name="WestPacificStandardTime" xml:space="preserve">
+    <value>(UTC+10:00) 괌, 포트모르즈비</value>
+  </data>
+  <data name="TasmaniaStandardTime" xml:space="preserve">
+    <value>(UTC+10:00) 호바트</value>
+  </data>
+  <data name="VladivostokStandardTime" xml:space="preserve">
+    <value>(UTC+10:00) 블라디보스토크</value>
+  </data>
+  <data name="LordHoweStandardTime" xml:space="preserve">
+    <value>(UTC+10:30) 로드하우 섬</value>
+  </data>
+  <data name="BougainvilleStandardTime" xml:space="preserve">
+    <value>(UTC+11:00) 부건빌 섬</value>
+  </data>
+  <data name="RussiaTimeZone10" xml:space="preserve">
+    <value>(UTC+11:00) 초쿠르다흐</value>
+  </data>
+  <data name="MagadanStandardTime" xml:space="preserve">
+    <value>(UTC+11:00) 마가단</value>
+  </data>
+  <data name="NorfolkStandardTime" xml:space="preserve">
+    <value>(UTC+11:00) 노퍽 섬</value>
+  </data>
+  <data name="SakhalinStandardTime" xml:space="preserve">
+    <value>(UTC+11:00) 사할린</value>
+  </data>
+  <data name="CentralPacificStandardTime" xml:space="preserve">
+    <value>(UTC+11:00) 솔로몬 제도, 뉴칼레도니아</value>
+  </data>
+  <data name="RussiaTimeZone11" xml:space="preserve">
+    <value>(UTC+12:00) 아나디리, 페트로파블로프스크-캄차스키</value>
+  </data>
+  <data name="NewZealandStandardTime" xml:space="preserve">
+    <value>(UTC+12:00) 오클랜드, 웰링턴</value>
+  </data>
+  <data name="UTC12" xml:space="preserve">
+    <value>(UTC+12:00) 협정 세계시+12</value>
+  </data>
+  <data name="FijiStandardTime" xml:space="preserve">
+    <value>(UTC+12:00) 피지</value>
+  </data>
+  <data name="KamchatkaStandardTime" xml:space="preserve">
+    <value>(UTC+12:00) 페트로파블로프스크-캄차스키 - 이전</value>
+  </data>
+  <data name="ChathamIslandsStandardTime" xml:space="preserve">
+    <value>(UTC+12:45) 채텀 섬</value>
+  </data>
+  <data name="TongaStandardTime" xml:space="preserve">
+    <value>(UTC+13:00) 누쿠알로파</value>
+  </data>
+  <data name="SamoaStandardTime" xml:space="preserve">
+    <value>(UTC+13:00) 사모아</value>
+  </data>
+  <data name="LineIslandsStandardTime" xml:space="preserve">
+    <value>(UTC+14:00) 키리티마티 섬</value>
+  </data>
+  <data name="Meta_LocJobId" xml:space="preserve">
+    <value>136</value>
+  </data>
+</root>

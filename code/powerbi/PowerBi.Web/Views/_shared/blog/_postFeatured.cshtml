@@ -1,0 +1,28 @@
+﻿@model PowerBI.Entities.Blogs.FeaturedBlogPost
+
+@using Shared = PowerBI.Resources.Shared.Blog
+
+<article role="article" class="post">
+    @{
+        var authorName = string.IsNullOrWhiteSpace(Model.Post.Author.Name) ? Model.Post.Author.Slug : Model.Post.Author.Name;
+        var publishedDate = Model.Post.Published == DateTime.MinValue ? Shared.NotPublished : Model.Post.Published.ToLocalizedString("MMMM d, yyyy");
+    }
+
+    <div>
+        <h2 class="text-heading1"><a href="@Html.LocalizeUrl(Model.Post.Url)" rel="bookmark" title="@Model.Post.Title">@Model.Post.Title</a></h2>
+        <div class="metadata">
+            <ul class="linkList linkList-horizontal">
+                <li>
+                    <p class="post-date">
+                        <span class="icon icon-palette02">@SvgHelper.GetSvg("calendar")</span>
+                        @publishedDate
+                        @Html.RawFormatInvariant(Shared.By, authorName, Model.Post.Author.Url)
+                    </p>
+                </li>
+            </ul>
+        </div>
+
+        <p>@Html.Raw(Model.Post.Summary)</p>
+        <a href="@Html.LocalizeUrl(Model.Post.Url)" class="button button-featured">@Shared.ReadMore</a>
+    </div>
+</article>

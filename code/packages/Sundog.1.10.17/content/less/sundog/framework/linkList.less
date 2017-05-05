@@ -1,0 +1,53 @@
+@import (reference) '../../variables.d.less';
+@import (reference) '../../mixins.d.less';
+
+/*
+Link List
+
+Description.
+
+Markup:
+<ul class="linkList {{modifier_class}}">
+    <li>Animals:</li>
+    <li><a href="#">Cat</a></li>
+    <li><a href="#">Dog</a></li>
+    <li><a href="#">Moose</a></li>
+    <li><a href="#">Snake</a></li>
+</ul>
+
+.linkList-horizontal - Description.
+.text-mini - Description.
+.text-micro - Description.
+
+Style guide: linklist
+*/
+
+.linkList {
+	list-style-type: none;
+	padding-left: 0;
+	.group();
+
+	li {
+		margin-bottom: @spacing-size1;
+	}
+
+    &.text-mini li,
+    &.text-micro li {
+        margin-bottom: @spacing-size1 / 2;
+    }
+}
+
+@media only screen and (min-width: @resolution-small) {
+	.linkList-horizontal {
+		margin-top: -@spacing-size1;
+		
+		li {
+			float: left;
+			margin: @spacing-size1 @spacing-size2 0 0;
+
+			&:last-child {
+				margin-right: 0;
+			}
+		}
+	}
+}

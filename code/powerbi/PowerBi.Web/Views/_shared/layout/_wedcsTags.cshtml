@@ -1,0 +1,27 @@
+﻿@{
+    var segment = Request.Url?.Segments.Length > 2 ? Request.Url?.Segments[2] : "";
+}
+
+@*
+    The ms.cmpgrp meta tag is set by the data-group attribute set on
+    the container, header, and footer elements.
+*@
+
+<meta name="ms.sitename" content="powerbi" />
+<meta name="ms.sitever" content="@Acom.Configuration.KnownDeploymentVariables.DeploymentVersion" />
+<meta name="ms.pltfrm" content="powerbi.microsoft.com" />
+<meta name="ms.sitesec" content="@segment.TrimEnd('/')" />
+<meta name="ms.pagetype" content="" />
+<meta name="route" content="70040" />
+<meta name="ctrl" content="SD110" />
+<meta name="ms.lang" content="@CultureHelperBase.GetCurrentNeutralCulture()" />
+<meta name="ms.loc" content="@CultureHelperBase.GetCurrentCultureCountry()" />
+<meta name="ms.region" content="@Acom.Configuration.KnownAntaresVariables.RegionName" />
+<meta name="ms.version" content="@Acom.Configuration.KnownDeploymentVariables.DeploymentVersion" />
+<meta name="ms.pgtmplt" content="" />
+<meta name="ms.prod" content="powerbi" />
+<meta name="ms.auth" content="false" />
+
+@* Bonus Items *@
+<meta name="ms.url" content="@Request.RawUrl" />
+<meta name="ms.query" content="@(Request.Url?.Query)" />

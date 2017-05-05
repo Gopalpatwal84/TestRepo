@@ -1,0 +1,90 @@
+﻿@import (reference) '../../mixins.d.less';
+@import (reference) '../../variables.d.less';
+
+/*
+Navigation Left
+
+Description.
+
+Markup: navigationLeft.html
+
+Style guide: navigationleft
+*/
+
+.navigationLeft {
+    display: block;
+    width: 100%;
+
+    .title {
+        background-color: @color-slate09;
+        cursor: pointer;
+        display: block;
+        padding: @spacing-size1;
+    }
+
+    &.show {
+        > ul {
+            display: block;
+        }
+    }
+
+    > ul {
+        display: none;
+    }
+
+    ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+    }
+
+    li {
+        margin: 0;
+        padding: 0 10px;
+
+        li {
+            margin-left: @spacing-size2;
+
+            a {
+                padding: 0 0 @spacing-size1;
+            }
+        }
+    }
+
+    a {
+        color: @color-slate02;
+        display: block;
+        padding: 10px 0 10px 20px;
+        position: relative;
+
+        &:hover,
+        &.active {
+            color: @color-font-standard;
+            font-weight: @font-semibold;
+        }
+    }
+}
+
+@media only screen and (min-width: @resolution-large) {
+    .navigationLeft {
+        margin-right: @spacing-size3;
+
+        li {
+            padding: 0 @spacing-size1 0 0;
+        }
+
+        a {
+            padding: @spacing-size1 0;
+        }
+
+        > ul {
+            display: block;
+        }
+
+        .title {
+            background-color: transparent;
+            cursor: auto;
+            padding: 0;
+        }
+    }
+}

@@ -1,0 +1,31 @@
+﻿@using Resources = PowerBI.Resources.Shared.Section.SignupItsFree
+@using Forms = PowerBI.Resources.Shared.Forms.Form
+
+<section class="section section-slate01">
+    <div class="row">
+        <div class="column medium-3 text-center">
+            <h1 class="text-super text-palette02">@Resources.ItsFree</h1>
+            <p>@Resources.SignupFreeProUser</p>
+        </div>
+        <div class="column medium-8 medium-offset-1">
+            <div class="row">
+                <div class="column">
+                    <h3>@Resources.ReadyToGetStarted</h3>
+                    <p>@Resources.TryNewFeatures</p>
+                </div>
+            </div>
+            <div class="row row-size3">
+                <div class="column large-9">
+                    @Html.CreateForm("Signup", new Acom.Forms.Models.FormOptions
+                    {
+                        Class = "form-email-only form-medium-full",
+                        Slug = "signup",
+                        SubmitText = Resources.Cta,
+                        SubmitRedirectUrl = "https://app.powerbi.com/signupredirect",
+                    })
+                    <p class="text-mini">@Html.RawFormatInvariant(Forms.Terms_UseItFree, Html.LocalizeUrl("/terms-of-service/"))</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

@@ -1,0 +1,29 @@
+﻿@import (reference) '../../../less/mixins.d.less';
+@import (reference) '../../../less/variables.d.less';
+
+.linkList {
+    margin: 0;
+}
+
+.linkList-horizontal {
+    margin-bottom: 0;
+    li:last-child {
+        margin-bottom: @spacing-size1;
+    }
+}
+
+@media only screen and (min-width: @resolution-small) {
+	.linkList-horizontal {
+		li {
+			margin: 0 @spacing-size2 0 0;
+		}
+	}
+}
+
+@media only screen and (min-width: @resolution-medium) {
+    .linkList-horizontal {
+        li {
+            margin: 0 @spacing-size2 @spacing-size1 0;
+        }
+    }
+}

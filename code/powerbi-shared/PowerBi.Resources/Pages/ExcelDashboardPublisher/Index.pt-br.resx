@@ -1,0 +1,180 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" id="root">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="D32Bit" xml:space="preserve">
+    <value>para Office 32 bits</value>
+  </data>
+  <data name="D64Bit" xml:space="preserve">
+    <value>para Office 64 bits</value>
+  </data>
+  <data name="Download" xml:space="preserve">
+    <value>Download</value>
+  </data>
+  <data name="Hero_Copy" xml:space="preserve">
+    <value>Salve instantâneos de Tabelas Dinâmicas, Gráficos e intervalos de células importantes e muito mais em todas as suas planilhas em um único local com o Power BI Publisher para Excel. Apenas baixe e instale o suplemento e em segundos você estará fixando dados da sua pasta de trabalho no seu painel do Excel. Seu novo painel é fácil de atualizar e compartilhar e vem com todos os recursos do serviço do Power BI gratuito, como várias planilhas combinadas em um único painel e se conectando a dados dinâmicos de outros aplicativos Web usados.</value>
+  </data>
+  <data name="Hero_Heading" xml:space="preserve">
+    <value>A maneira mais fácil de criar e compartilhar painéis do Excel</value>
+  </data>
+  <data name="LearnMore" xml:space="preserve">
+    <value>Saiba mais</value>
+  </data>
+  <data name="META_DESCRIPTION" xml:space="preserve">
+    <value>O Power BI transforma os dados da sua empresa em visuais avançados para você coletar e organizar, podendo então concentrar-se no que realmente importa para você. Mantenha-se informado, identifique tendências conforme elas acontecem e impulsione ainda mais seu negócio.</value>
+  </data>
+  <data name="META_KEYWORDS" xml:space="preserve">
+    <value />
+  </data>
+  <data name="META_PAGETITLE" xml:space="preserve">
+    <value>Editor do Microsoft Power BI para Excel | Microsoft Power BI</value>
+  </data>
+  <data name="PreferredLanguage" xml:space="preserve">
+    <value>Baixe em seu idioma preferencial</value>
+  </data>
+  <data name="RightData_Copy" xml:space="preserve">
+    <value>Com o Power BI, você pode capacitar seus colegas nas áreas vendas, finanças, marketing e atendimento ao cliente com os históricos de dados que eles precisam para fazer um ótimo trabalho, sem distribuir planilhas ou se conectarem em serviços diferentes.</value>
+  </data>
+  <data name="RightData_Heading" xml:space="preserve">
+    <value>Obter os dados certos para as pessoas certas</value>
+  </data>
+  <data name="SaveShare_Copy" xml:space="preserve">
+    <value>Use o editor do Power BI para Excel para transformar sua análise complexa de dados em painéis acessíveis que sejam fáceis de compartilhar e ainda mais fáceis de entender. Atualize suas tabelas e intervalos fixados de dentro do Excel com o Pin Manager.</value>
+  </data>
+  <data name="SaveShare_Heading" xml:space="preserve">
+    <value>Salvar e compartilhar dados do Excel fora da grade</value>
+  </data>
+  <data name="SingleDashboard_Copy" xml:space="preserve">
+    <value>O Power BI reúne muito mais do que somente instantâneos do Excel: você pode importar dados de mais de 45 serviços diferentes para apenas um painel. Combine o Salesforce, o Github, o Stripe e muito mais para obter a visão geral completa das métricas.</value>
+  </data>
+  <data name="SingleDashboard_Heading" xml:space="preserve">
+    <value>Una vários serviços Web em um único painel</value>
+  </data>
+  <data name="Sources_Copy" xml:space="preserve">
+    <value>Dados do Excel, aplicativos Web e fontes locais: o Power BI reúne todos os seus dados para que você possa começar a analisá-los em segundos.</value>
+  </data>
+  <data name="Try_Heading" xml:space="preserve">
+    <value>Experimente o editor do Power BI para Excel ainda hoje e comece a compartilhar suas informações importantes.</value>
+  </data>
+  <data name="WhatVersion" xml:space="preserve">
+    <value>Qual versão do Office eu estou usando?</value>
+  </data>
+  <data name="Meta_LocJobId" xml:space="preserve">
+    <value>113</value>
+  </data>
+</root>

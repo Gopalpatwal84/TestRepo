@@ -1,0 +1,50 @@
+﻿@import (reference) '../../less/mixins.d.less';
+@import (reference) '../../less/variables.d.less';
+
+// Border base
+
+.border{
+    border-color: @color-slate06;
+    border-style: solid;
+    border-width: 1px;
+}
+
+// Border sides
+
+.border-bottom{
+    border-bottom:1px solid @color-slate06;
+}
+
+.border-top{
+    border-top:1px solid @color-slate06;
+}
+
+.border-left{
+    border-left:1px solid @color-slate06;
+}
+
+.border-right{
+    border-right:1px solid @color-slate06;
+}
+
+// Border colors
+
+.border-slate01 {
+    border-color: @color-slate01;
+}
+
+//Border radius
+
+.border-radius{
+    border-radius: 6px;
+}
+
+.border-radius-bottom-only{
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
+}
+
+.border-radius-top-only{
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+}

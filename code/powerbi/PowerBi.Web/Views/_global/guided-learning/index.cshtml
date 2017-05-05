@@ -1,0 +1,91 @@
+﻿@model PowerBI.Web.Models.Pages.GuidedLearning.Index
+@using Acom.Search.Client.Extensions
+@using Resources = PowerBI.Resources.Pages.GuidedLearning.Index
+@using PowerBI.Resources.Shared
+
+@{
+    Model.PageTitle = Resources.META_PAGETITLE;
+    Model.MetaDescription = Resources.META_DESCRIPTION;
+    Model.MetaKeywords = Resources.META_KEYWORDS;
+}
+
+<section class="section section-palette02 text-center">
+    <div class="row">
+        <div class="column medium-8 medium-centered">
+            <div class="row column">
+                <h1>@Resources.Hero_Heading</h1>
+                <p>@Resources.Hero_Copy</p>
+            </div>
+            <div class="row row-size2 column">
+                <a href="@Html.LocalizeUrl("/guided-learning/powerbi-learning-0-0-what-is-power-bi/")" class="button">@Resources.Hero_Cta</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="section guided-learning-index">
+    @foreach (var category in Model.CourseDictionary)
+    {
+        <div class="row row-size1 row-divided category" data-gl-lessons="@string.Join(" ", category.Value.Select(c => c.Slug))">
+            <div class="column">
+                <a href="#" class="row toggler guided-learning">
+                    <div class="column xsmall-8 small-8">
+                        <span class="hide-for-xsmall-only glyphicon glyph-med pbi-glyph-@category.Key.Icon"></span>
+                        <h3>
+                            @Courses.ResourceManager.GetString(category.Key.TitleLocKey)
+                        </h3>
+                    </div>
+                    <div class="column xsmall-4 small-4">
+                        <span class="progress-tracker hide">
+                            <span class="progress"><span class="progress-bar"></span></span><span class="percentage">0%</span>
+                        </span>
+                        <span class="pull-right">@Html.RawFormatCurrentUI(Resources.NumTopics, category.Value.Length)</span>
+                    </div>
+                </a>
+                <div class="row row-size0 toggled" data-animation="slide"  data-single-only="guided-learning-group">
+                    <div class="column">
+                        @foreach (var learning in category.Value)
+                        {
+                            <a href="@Html.LocalizeUrl($"/guided-learning/{learning.Slug}/")" class="row learning-item lesson" data-gl-lessons=@learning.Slug>
+                                <div class="column xsmall-9 medium-5">
+                                    <span class="glyphicon glyph-mini pbi-glyph-checkmark"></span>
+                                    <p class="learning-title">@learning.TitleForCurrentLanguage()</p>
+                                </div>
+                                <div class="column xsmall-3 medium-1 text-right">
+                                    @( learning.ExtraData?.Duration != null ? Html.RawFormatInvariant(Resources.NumMinutes, learning.ExtraData.Duration?.TotalMinutes) : MvcHtmlString.Empty )
+                                </div>
+                                <div class="column medium-5 hide-for-xsmall-only">
+                                    <p class="text-mini">@learning.SummaryForCurrentLanguage()</p>
+                                </div>
+                            </a>
+                        }
+                    </div>
+                </div>
+            </div>
+        </div>
+    }
+</section>
+
+@section foot{
+    <script>
+        (function (global, storage) {
+            if (location.search.indexOf('progress-tracking=1') !== -1 || storage.get('GuidedLearningProgress') !== null) {
+                global.guidedLearning.init();
+                if (storage.get('GuidedLearningProgress') === null) {
+                    storage.set('GuidedLearningProgress', JSON.stringify({ 'completed': {} }));
+                }
+            }
+
+            $('.toggler').on('click', function () {
+                var $togglerGroup = $('.guided-learning-index').find('.toggler');
+                $togglerGroup.each(function () {
+                    $('.toggler').find('.glyphicon').removeClass('icon-selected');
+                });
+                $(this).find('.glyphicon').toggleClass('icon-selected');
+            })
+            $(document).ready(function () {
+                MscomCustomEvent.apply($('body'), ['wcs.cid=power-bi-page-loaded']);
+            });
+        })(window, window.sd.storage);
+    </script>    
+}

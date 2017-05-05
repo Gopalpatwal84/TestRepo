@@ -1,0 +1,714 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" id="root">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="About_Content" xml:space="preserve">
+    <value>&lt;p&gt;이 과정에서는 Microsoft Power BI 사용에 대한 기본 사항을 안내하고 다음 내용을 다룹니다.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;데이터를 시각화 도구에 로드하고 추가 계산을 편집 및 추가하여 유명한 "하키 스틱" 차트를 만드는 방법에 대해 알아봅니다.&lt;/li&gt;
+&lt;li&gt;대통령 예비 선거 방송을 위해 지역 방송사 KING 5가 사용한 선거 지도로 데이터 시각화를 만들고 게시하는 방법에 대한 간략한 설명을 제공합니다. &lt;/li&gt;
+&lt;/ul&gt;
+</value>
+  </data>
+  <data name="ArticleContinue_Content2_3" xml:space="preserve">
+    <value>&lt;h2 id="create-pub"&gt;데이터 시각화 만들기 및 게시&lt;/h2&gt;
+&lt;p&gt;이 과정에 표시된 예를 따라 하려면 다음 필수 구성 요소가 필요합니다.&lt;/p&gt;&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;Windows 7 이상을 실행 중인 컴퓨터&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href="{0}"&gt;Power BI Desktop&lt;/a&gt;을 설치 및 다운로드합니다.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Power BI 계정에 등록합니다(&lt;a href="{1}"&gt;{2}&lt;/a&gt;).&lt;/p&gt;
+&lt;p&gt;a. 회사 메일 계정을 사용하여 등록해야 합니다. 개인 계정(gmail, Hotmail, outlook.com, yahoo.com)은 지원되지 않습니다.&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;</value>
+  </data>
+  <data name="ArticleThird_Continue_7" xml:space="preserve">
+    <value>&lt;p&gt;생성할 측정값:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;clinton 표수 = CALCULATE(sum(VotingData[표수]), VotingData[후보] = "Clinton")&lt;/p&gt;
+
+&lt;p&gt;sanders 표수 = CALCULATE(sum(VotingData[표수]), VotingData[후보] = "Sanders")&lt;/p&gt;
+
+&lt;p&gt;예상 당선자 = if([clinton 표수] &gt; [sanders 표수], -1, if(VotingData[clinton 표수] = [sanders 표수], 0, 1))&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;참고: 처음 두 항목은 Clinton과 Sanders에 대한 필터 값을 측정하고 이를 토대로 특정 지방에서 Clinton 또는 Sanders 중 누가 더 많은 표를 얻었는지를 알려 주는 예상 당선자 측정값을 작성할 수 있습니다. 맵을 작성할 때 이것이 얼마나 유용한지 알게 됩니다.&lt;/p&gt;
+
+&lt;p&gt;이 단계를 완료하면 필드 목록은 다음과 같게 됩니다. 생성한 측정값이 데이터 가상화에 사용할 수 있는 필드에 추가됩니다.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src="{0}" alt="" title="" /&gt;&lt;/p&gt;
+
+&lt;h3&gt;3단계: 맵에 결과 표시&lt;/h3&gt;
+
+&lt;p&gt;이제 도형 맵을 만들 준비가 되었습니다.&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;ShapeMap&lt;/strong&gt; 시각적 개체를 보고서에 삽입합니다.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;img src="{1}" alt="" title="" /&gt;&lt;/p&gt;
+
+&lt;p&gt;참고: 이 자료를 작성하는 시점에 ShapeMap 시각적 개체는 미리 보기 상태입니다. ShapeMap이 표시되지 않는 경우 &lt;strong&gt;미리 보기 기능&lt;/strong&gt;으로 사용하도록 설정해야 합니다.&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;파일-&gt; 옵션 및 설정 -&gt; 옵션&lt;/strong&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;글로벌 -&gt; 미리 보기 기능&lt;/strong&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;도형 맵 시각화&lt;/strong&gt; 옆의 상자를 선택합니다.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;확인&lt;/strong&gt;을 누릅니다.&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;strong&gt;ShapeMap&lt;/strong&gt;을 삽입하면 비어 있게 됩니다. 다음 단계를 수행합니다.&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;맵&lt;/strong&gt;을 클릭하여 선택합니다.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;필드 목록&lt;/strong&gt;에서 다음 필드 옆의 상자를 선택합니다.&lt;/p&gt;
+
+&lt;p&gt;a. &lt;strong&gt;지방 이름&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;b. &lt;em&gt;*예상 당선자*&lt;/em&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;시각적 개체의 데이터 필드 모양은 다음과 같습니다.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src="{2}" alt="" title="" /&gt;&lt;/p&gt;
+
+&lt;p&gt;페이지는 다음과 비슷합니다.&lt;/p&gt;
+
+&lt;p&gt;기본적으로 미국 맵이 표시됩니다. 다음 단계에서 맵 모양을 변경합니다.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src="{3}" alt="" title="" /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;ShapeMap&lt;/strong&gt; 시각적 개체와 함께 &lt;strong&gt;TopoJSON 파일&lt;/strong&gt;을 사용할 수 있습니다. TopoJSON 모양의 ID가 데이터 집합의 이름과 일치해야 합니다.&lt;/p&gt;
+
+&lt;p&gt;지방 이름과 일치하도록 모양을 변경해 보겠습니다.&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;ShapeMap&lt;/strong&gt;을 선택합니다.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;서식 창&lt;/strong&gt;으로 전환합니다.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;모양&lt;/strong&gt; 옵션을 확장합니다.&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;UI는 다음과 같습니다.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src="{4}" alt="" title="" /&gt;&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;+ 맵 추가&lt;/strong&gt;를 누릅니다.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;파일&lt;/strong&gt; 열기 대화 상자에서 "&lt;strong&gt;gz_2010_us_050_00_500k-wash-counties-only.json&lt;/strong&gt;" 파일을 선택합니다.&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;이제 UI는 다음과 같습니다.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src="{5}" alt="" title="" /&gt;&lt;/p&gt;
+
+&lt;p&gt;다음으로 미국의 민주당 테마와 일치하도록 색을 변경합니다.&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;서식&lt;/strong&gt; 창에서 &lt;strong&gt;데이터 색&lt;/strong&gt;을 확장합니다.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;분기&lt;/strong&gt; 토글을 &lt;strong&gt;켜짐&lt;/strong&gt; 위치에 둡니다.&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;제공된 UI 옵션에서 색을 선택하거나 &lt;strong&gt;사용자 지정 색&lt;/strong&gt;을 선택하여 색을 지정할 수 있습니다. 아래 예에서는 다음 색을 사용합니다.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;최소 - 0007FF&lt;/p&gt;
+
+&lt;p&gt;가운데 - B3B3B3&lt;/p&gt;
+
+&lt;p&gt;최대 - 0055FF&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;최소&lt;/strong&gt;, &lt;strong&gt;가운데&lt;/strong&gt;, &lt;strong&gt;최대&lt;/strong&gt;를 각각 &lt;strong&gt;-1, 0, 1&lt;/strong&gt;로 설정합니다. 이 방식으로 눈금을 정의합니다.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;img src="{6}" alt="" title="" /&gt;&lt;/p&gt;</value>
+  </data>
+  <data name="Article_Content_Step2_2" xml:space="preserve">
+    <value>&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;온도 데이터&lt;/strong&gt; 테이블로 이동합니다. &lt;strong&gt;홈&lt;/strong&gt; 리본에서 &lt;strong&gt;쿼리 병합&lt;/strong&gt;을 선택합니다. 일치시킬 테이블로 &lt;strong&gt;오차 막대&lt;/strong&gt;를, 일치시킬 열로 &lt;strong&gt;연도&lt;/strong&gt;를 선택합니다. 현재는 재구성된 온도의 연도 범위 내에 포함되는 오류 테이블에만 데이터가 있다는 것을 알고 있으므로 &lt;strong&gt;조인 종류: 왼쪽 우선 외부&lt;/strong&gt;를 사용할 수 있습니다.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;시그마&lt;/strong&gt; 열만 확장합니다.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;양의 변동에 대한 열을 추가하려면 &lt;strong&gt;열 추가&lt;/strong&gt; 리본에서 &lt;strong&gt;사용자 지정 열 추가&lt;/strong&gt;를 사용합니다.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;열 이름을 &lt;strong&gt;양의 변동&lt;/strong&gt;으로 지정하고 &lt;strong&gt;[재구성된 온도 변화] + [시그마]&lt;/strong&gt; 수식을 사용하여 재구성된 온도에 시그마를 추가합니다. 오른쪽에서 열 이름을 입력하거나 두 번 클릭할 수 있습니다.&lt;/p&gt;&lt;p&gt;&lt;img src="{0}" alt="" title="" /&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;이 단계를 반복하여 &lt;strong&gt;음의 변동 = [재구성된 온도 변화] - [시그마]&lt;/strong&gt;를 만듭니다.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;새 열의 데이터 형식을 10진수로 변경합니다.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;모든 정보가 &lt;strong&gt;온도 변화&lt;/strong&gt; 테이블에 로드되면 다른 두 테이블을 보고서에 로드할 필요가 없습니다. 다른 두 테이블로 로드를 사용하지 않으려면 &lt;strong&gt;계기 데이터&lt;/strong&gt;를 마우스 오른쪽 단추로 클릭하고 &lt;strong&gt;로드 사용&lt;/strong&gt;을 선택 취소한 후 &lt;strong&gt;오차 막대&lt;/strong&gt;에 대해 동일한 작업을 수행합니다. 비활성화된 테이블은 기울임꼴 및 회색으로 표시됩니다.&lt;/p&gt;
+&lt;p&gt;&lt;img src="{1}" alt="" title="" /&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;이제 &lt;strong&gt;홈&lt;/strong&gt; 리본에서 &lt;strong&gt;닫기 및 적용&lt;/strong&gt;을 선택합니다.&lt;/li&gt;
+&lt;/ol&gt;</value>
+  </data>
+  <data name="Article_Content_Step2_3" xml:space="preserve">
+    <value>&lt;h3&gt;2단계: 시각적 개체 만들기&lt;/h3&gt;
+
+&lt;p&gt;데이터를 로드하고 데이터 편집 및 병합에서 대부분의 작업을 수행했으면 몇 번의 클릭만으로 꺾은선형 차트가 만들어집니다.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;보고서 섹션에서 새 꺾은선형 차트 만들기&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;축&lt;/strong&gt; 필드에 &lt;strong&gt;연도&lt;/strong&gt;를 끌어오고 날짜가 드롭다운 메뉴에서 연도로 표시되는지 확인합니다.&lt;/p&gt;
+&lt;p&gt;&lt;img src="{0}" alt="" title="" /&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;재구성된 온도 변화&lt;/strong&gt;, &lt;strong&gt;계기 온도 변화&lt;/strong&gt;, &lt;strong&gt;양의 변동&lt;/strong&gt; 및 &lt;strong&gt;음의 변동&lt;/strong&gt;을 값으로 끌어옵니다.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;이러한 변동에서 온도 변화를 돋보이게 하려면 &lt;strong&gt;서식&lt;/strong&gt; 창에서 선의 색을 변경합니다.&lt;/p&gt;&lt;p&gt;&lt;img src="{1}" alt="" title="" /&gt;&lt;/p&gt;
+&lt;/li&gt;&lt;/ol&gt;
+&lt;h3&gt;3단계: 추세선&lt;/h3&gt;
+
+&lt;p&gt;유명한 하키 스틱 차트를 만드는 마지막 단계는 온도 변화를 통한 추세선을 추가하는 것입니다. 이 작업은 몇 가지 DAX 측정값을 사용하여 수행할 수 있습니다.&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;일부 연도에는 계기 온도 및 재구성된 온도가 모두 포함되므로 먼저 두 값이 있는 온도에 대한 평균만 포함하는 열을 만듭니다. 다음 수식을 사용하여 &lt;strong&gt;새 열&lt;/strong&gt;을 만듭니다.&lt;/li&gt;
+  &lt;p&gt;&lt;em&gt;온도 평균 = IF(ISBLANK([계기 온도 변화]),[재구성된 온도 변화],IF(ISBLANK([재구성된 온도 변화]),[계기 온도 변화],([계기 온도 변화]+[재구성된 온도 변화])/2))&lt;/em&gt;&lt;/p&gt;
+&lt;li&gt;이제 해당 열 위에 &lt;strong&gt;새 측정값&lt;/strong&gt;을 만듭니다.&lt;/li&gt;
+  &lt;p&gt;&lt;em&gt;온도 변화 = SUM(Data[온도 평균])&lt;/em&gt;&lt;/p&gt;
+&lt;li&gt;이제 온도 변화의 이동 평균을 계산합니다. 시간 간격으로 실험해 볼 수 있습니다. 이 예에서는 40년으로 설정됩니다.&lt;/li&gt;&lt;p&gt;&lt;em&gt;추세선 = AVERAGEX(DATESINPERIOD(Data[연도],LASTDATE(Data[연도]),-40,YEAR),[온도 변화])&lt;/em&gt;&lt;/p&gt;
+&lt;li&gt;시각적 개체에 추세선을 추가하면 완료된 것입니다!&lt;/li&gt;
+&lt;p&gt;&lt;img src="{2}" alt="" title="" /&gt;&lt;/p&gt;&lt;/ol&gt;</value>
+  </data>
+  <data name="Article_Content_Step3_10" xml:space="preserve">
+    <value>&lt;h2&gt;1부: 데이터 스토리 만들기 및 웹 페이지에 게시&lt;/h2&gt;
+
+&lt;p&gt;다음 파일이 필요합니다.&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;VotingData.xlsx&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;gz_2010_us_050_00_500k-wash-counties-only.json&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Embed in web page.htm&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3&gt;1단계: excel 파일에서 데이터 로드&lt;/h3&gt;
+
+&lt;p&gt;필요한 경우 자세한 도움말/지침은 설명서를 참조하세요.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href="{0}"&gt;{0}&lt;/a&gt;&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;Power BI Desktop&lt;/strong&gt;을 엽니다.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;홈 리본에서 &lt;strong&gt;데이터 가져오기&lt;/strong&gt;를 누릅니다.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;Excel&lt;/strong&gt;을 선택합니다.&lt;/p&gt;
+&lt;p&gt;&lt;img src="{1}" alt="" title="" /&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;대화 상자에서 &lt;strong&gt;VotingData.xlsx&lt;/strong&gt; 파일을 선택합니다.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;탐색기&lt;/strong&gt; 대화 상자에서 &lt;strong&gt;VotingData&lt;/strong&gt; 옆의 상자를 선택합니다.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;로드&lt;/strong&gt;를 누릅니다.&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;img src="{2}" alt="" title="" /&gt;&lt;/p&gt;
+
+&lt;h3&gt;2단계: 계산된 결과 만들기&lt;/h3&gt;
+
+&lt;p&gt;데이터 시각화를 만들 경우 종종 원시 데이터를 계산된 값으로 확대하여 원하는 시각화를 달성해야 합니다. 이 섹션에서는 몇 가지 계산을 작성합니다.&lt;/p&gt;
+
+&lt;p&gt;참고: 이 섹션에서는 DAX 식이라는 새로운 개념을 소개합니다. DAX는 보고서 내에서 데이터를 계산하는 데 사용할 수 있는 식 언어입니다. 자세한 내용은 &lt;a href="{3}"&gt;Power BI Desktop의 DAX 기본 사항&lt;/a&gt;에서 확인할 수 있습니다.&lt;/p&gt;
+
+&lt;p&gt;정의된 단계를 사용하여 다음 측정값을 생성합니다. &lt;a href="{4}"&gt;자습서: Power BI Desktop에서 고유한 측정값 만들기&lt;/a&gt;&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;모델링&lt;/strong&gt; 리본에서 새 &lt;strong&gt; 측정값&lt;/strong&gt;을 누릅니다.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;수식 입력줄이 표시됩니다.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;생성할 측정값&lt;/strong&gt; 섹션 아래에 식을 입력하고 &lt;strong&gt;확인 표시를 눌러&lt;/strong&gt; 작동하는지 확인합니다.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;아래 식별된 세 측정값에 대해 프로세스를 반복합니다.&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;img src="{5}" alt="" title="" /&gt;&lt;/p&gt;
+
+&lt;p&gt;생성할 측정값:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;clinton 표수 = CALCULATE(sum(VotingData[표수]), VotingData[후보] = "Clinton")&lt;/p&gt;
+
+&lt;p&gt;sanders 표수 = CALCULATE(sum(VotingData[표수]), VotingData[후보] = "Sanders")&lt;/p&gt;
+
+&lt;p&gt;예상 당선자 = if([clinton 표수] &gt; [sanders 표수], -1, if(VotingData[clinton 표수] = [sanders 표수], 0, 1))&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;참고: 처음 두 항목은 Clinton과 Sanders에 대한 필터 값을 측정하고 이를 토대로 특정 지방에서 Clinton 또는 Sanders 중 누가 더 많은 표를 얻었는지를 알려 주는 예상 당선자 측정값을 작성할 수 있습니다. 맵을 작성할 때 이것이 얼마나 유용한지 알게 됩니다.&lt;/p&gt;
+
+&lt;p&gt;이 단계를 완료하면 필드 목록은 다음과 같게 됩니다. 생성한 측정값이 데이터 가상화에 사용할 수 있는 필드에 추가됩니다.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src="{6}" alt="" title="" /&gt;&lt;/p&gt;
+
+&lt;h3&gt;3단계: 맵에 결과 표시&lt;/h3&gt;
+
+&lt;p&gt;이제 도형 맵을 만들 준비가 되었습니다.&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;ShapeMap&lt;/strong&gt; 시각적 개체를 보고서에 삽입합니다.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;img src="{7}" alt="" title="" /&gt;&lt;/p&gt;
+
+&lt;p&gt;참고: 이 자료를 작성하는 시점에 ShapeMap 시각적 개체는 미리 보기 상태입니다. ShapeMap이 표시되지 않는 경우 &lt;strong&gt;미리 보기 기능&lt;/strong&gt;으로 사용하도록 설정해야 합니다.&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;파일-&gt; 옵션 및 설정 -&gt; 옵션&lt;/strong&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;글로벌 -&gt; 미리 보기 기능&lt;/strong&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;도형 맵 시각화&lt;/strong&gt; 옆의 상자를 선택합니다.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;확인&lt;/strong&gt;을 누릅니다.&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;strong&gt;ShapeMap&lt;/strong&gt;을 삽입하면 비어 있게 됩니다. 다음 단계를 수행합니다.&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;맵&lt;/strong&gt;을 클릭하여 선택합니다.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;필드 목록&lt;/strong&gt;에서 다음 필드 옆의 상자를 선택합니다.&lt;/p&gt;
+
+&lt;p&gt;a. &lt;strong&gt;지방 이름&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;b. &lt;strong&gt;*예상 당선자*&lt;/strong&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;시각적 개체의 데이터 필드 모양은 다음과 같습니다.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src="{8}" alt="" title="" /&gt;&lt;/p&gt;
+
+&lt;p&gt;페이지는 다음과 비슷합니다.&lt;/p&gt;
+
+&lt;p&gt;기본적으로 미국 맵이 표시됩니다. 다음 단계에서 맵 모양을 변경합니다.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src="{9}" alt="" title="" /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;ShapeMap&lt;/strong&gt; 시각적 개체와 함께 &lt;strong&gt;TopoJSON 파일&lt;/strong&gt;을 사용할 수 있습니다. TopoJSON 모양의 ID가 데이터 집합의 이름과 일치해야 합니다.&lt;/p&gt;
+
+&lt;p&gt;지방 이름과 일치하도록 모양을 변경해 보겠습니다.&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;ShapeMap&lt;/strong&gt;을 선택합니다.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;서식 창&lt;/strong&gt;으로 전환합니다.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;모양&lt;/strong&gt; 옵션을 확장합니다.&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;</value>
+  </data>
+  <data name="Article_Content_Step4_7" xml:space="preserve">
+    <value>&lt;p&gt;UI는 다음과 같습니다.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src="{0}" alt="" title="" /&gt;&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;+ 맵 추가&lt;/strong&gt;를 누릅니다.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;파일&lt;/strong&gt; 열기 대화 상자에서 "&lt;strong&gt;gz_2010_us_050_00_500k-wash-counties-only.json&lt;/strong&gt;" 파일을 선택합니다.&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;이제 UI는 다음과 같습니다.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src="{1}" alt="" title="" /&gt;&lt;/p&gt;
+
+&lt;p&gt;다음으로 미국의 민주당 테마와 일치하도록 색을 변경합니다.&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;서식&lt;/strong&gt; 창에서 &lt;strong&gt;데이터 색&lt;/strong&gt;을 확장합니다.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;분기&lt;/strong&gt; 토글을 &lt;strong&gt;켜짐&lt;/strong&gt; 위치에 둡니다.&lt;/p&gt;
+
+&lt;p&gt;제공된 UI 옵션에서 색을 선택하거나 &lt;strong&gt;사용자 지정 색&lt;/strong&gt;을 선택하여 색을 지정할 수 있습니다. 아래 예에서는 다음 색을 사용합니다.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;최소 - 0007FF&lt;/p&gt;
+
+&lt;p&gt;가운데 - B3B3B3&lt;/p&gt;
+
+&lt;p&gt;최대 - 0055FF&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;/li&gt;
+
+&lt;li&gt;&lt;strong&gt;최소&lt;/strong&gt;, &lt;strong&gt;가운데&lt;/strong&gt;, &lt;strong&gt;최대&lt;/strong&gt;를 각각 &lt;strong&gt;-1, 0, 1&lt;/strong&gt;로 설정합니다. 이 방식으로 눈금을 정의합니다.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;img src="{2}" alt="" title="" /&gt;&lt;/p&gt;
+
+&lt;p&gt;일부 맵의 기본값을 변경하여 가독성을 개선합니다. 색이 그라데이션 배율인 경우 색 구분이 어려울 수 있으므로 테두리 표시 영역을 늘려 지방 모양을 더욱 쉽게 볼 수 있습니다.&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;기본 색&lt;/strong&gt;을 확장합니다.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;색&lt;/strong&gt; 설정에 &lt;strong&gt;&lt;em&gt;흰색&lt;/em&gt;&lt;/strong&gt;을 선택합니다.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;테두리 색&lt;/strong&gt; 설정에 &lt;strong&gt;&lt;em&gt;흰색&lt;/em&gt;&lt;/strong&gt;을 선택합니다.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;테두리 두께&lt;/strong&gt;를 &lt;strong&gt;&lt;em&gt;4&lt;/em&gt;&lt;/strong&gt;로 설정합니다.&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;img src="{3}" alt="" title="" /&gt;&lt;/p&gt;
+
+&lt;p&gt;마지막으로, 맵에 의미 있는 제목을 제공합니다.&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;제목&lt;/strong&gt;을 확장합니다.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;제목 텍스트&lt;/strong&gt;를 &lt;em&gt;"&lt;strong&gt;지방별 선거 결과&lt;/strong&gt;"&lt;/em&gt;로 설정합니다.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;텍스트 크기&lt;/strong&gt;를 &lt;strong&gt;&lt;em&gt;14&lt;/em&gt;&lt;/strong&gt;로 설정합니다.&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;img src="{4}" alt="" title="" /&gt;&lt;/p&gt;
+
+&lt;p&gt;맵이 다음과 같이 표시됩니다. 시각화를 디자인할 때는 대상 그룹 또는 독자가 이해할 수 있는지를 확인하는 것이 중요합니다. 최종 맵 시각적 개체에는 명확하게 구분된 모양, 명확한 제목이 포함되며 색을 통해 이해도를 높일 수 있습니다.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src="{5}" alt="" title="" /&gt;&lt;/p&gt;
+
+&lt;p&gt;이제 맵을 만들었고 학습한 기술을 사용하여 가로 막대형 차트를 만들고 전체 결과를 표시합니다.&lt;/p&gt;
+
+&lt;p&gt;데이터 &lt;strong&gt;필드&lt;/strong&gt;를 사용합니다.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;후보&lt;/strong&gt;를 선택합니다.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;표수&lt;/strong&gt;를 선택합니다.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;맵의 색과 일치하는 색을 설정하고 적절한 제목을 설정합니다.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src="{6}" alt="" title="" /&gt;&lt;/p&gt;</value>
+  </data>
+  <data name="Article_Content_Step5_9" xml:space="preserve">
+    <value>&lt;p&gt;다양한 추가 기능을 사용할 수 있습니다.&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;데이터 레이블&lt;/strong&gt;. 시각적 개체가 사용하도록 설정된 경우 서식 창에서 찾을 수 있습니다.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;숫자 서식 지정&lt;/strong&gt;. 자세한 내용은 이 자습서의 끝부분에 있는 숫자 서식 지적 섹션을 참조하세요.&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;최종 보고서는 다음과 같습니다.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src="{0}" alt="" title="" /&gt;&lt;/p&gt;
+
+&lt;p&gt;맵을 클릭하면 아래 그림과 같이 가로 막대형 차트가 크로스 강조 표시됩니다.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src="{1}" alt="" title="" /&gt;&lt;/p&gt;
+
+&lt;p&gt;이 조작은 이 특정 시나리오에서 최적의 조작은 아닙니다. 시각적 개체 조작을 사용자 지정할 수 있습니다.&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;리본에서 &lt;strong&gt;서식&lt;/strong&gt;을 선택합니다.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;상호 작용 탭에서 &lt;strong&gt;상호 작용 편집&lt;/strong&gt; 단추를 누릅니다.&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;img src="{2}" alt="" title="" /&gt;&lt;/p&gt;
+
+&lt;p&gt;이제 맵을 선택할 때 아래 그림과 같이 다른 시각화의 오른쪽 맨 위에 새로운 메뉴 모음이 있는 것을 알 수 있습니다.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src="{3}" alt="" title="" /&gt;&lt;/p&gt;
+
+&lt;p&gt;메뉴는 세 가지 옵션을 제공합니다.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;필터 – 현재 선택한 데이터 요소에 대한 데이터만 보여 줍니다.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;크로스 강조 표시 - 현재 선택한 데이터 요소의 기여도를 전체 합계에 표시합니다.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;없음 - 선택한 시각적 개체와 상호 작용이 이 시각적 개체에 영향을 주지 않습니다.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;위에 표시된 것처럼 &lt;strong&gt;필터&lt;/strong&gt; 옵션을 선택합니다.&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;이제 &lt;strong&gt;맵&lt;/strong&gt;을 클릭하면 클릭한 각 지방에 대한 데이터를 보여 주고 지방을 선택하지 않으면 주 단위 합계를 보여 주는 가로 막대형 차트가 표시됩니다.&lt;/p&gt;
+
+&lt;p&gt;이제 보고서를 &lt;strong&gt;저장&lt;/strong&gt;합니다.&lt;/p&gt;
+
+&lt;h2&gt;2부: 보고서를 Power BI 계정에 게시&lt;/h2&gt;
+
+&lt;p&gt;이제 보고서를 Power BI 계정에 게시하고 동료와 보고서를 안전하게 공유할 수 있습니다.&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;홈&lt;/strong&gt; 리본의 공유 그룹에서 &lt;strong&gt;게시&lt;/strong&gt;를 선택합니다.
+
+
+&lt;p&gt;&lt;img src="{4}" alt="" title="" /&gt;&lt;/p&gt;
+
+&lt;p&gt;참고: 이 단계를 완료하려면 Power BI 계정이 있어야 합니다. 계정이 없는 경우 &lt;a href="{5}"&gt;{6}&lt;/a&gt;으로 이동하여 무료 계정을 등록합니다.&lt;/p&gt;
+
+&lt;p&gt;게시에 성공했으면 다음 대화 상자가 표시됩니다.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src="{7}" alt="" title="" /&gt;&lt;/p&gt;
+
+&lt;/li&gt;
+&lt;li&gt;Power BI 링크에서 "&lt;strong&gt;'VotingData Report.pbix' 열기&lt;/strong&gt;"를 누르면 Power BI.com에 보고서가 표시됩니다.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;img src="{8}" alt="" title="" /&gt;&lt;/p&gt;</value>
+  </data>
+  <data name="Article_Content_Step6_5" xml:space="preserve">
+    <value>&lt;h3&gt;1단계: 웹에 게시&lt;/h3&gt;
+
+&lt;p&gt;아래 링크에 제공된 지침에 따라 &lt;strong&gt;Power BI 웹에 게시 embed 코드를 만들 수 있습니다.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href="{0}"&gt;{0}&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;embed 코드는 다음과 같습니다.&lt;/p&gt;
+
+&lt;p&gt;&amp;lt;iframe width="800" height="600" src="{1}" frameborder="0" allowFullScreen="true"&gt;&amp;lt;/iframe&gt;&lt;/p&gt;
+
+&lt;p&gt;embed 코드는 '&amp;lt;iframe'으로 시작합니다. iFrame을 사용하여 웹 페이지에 콘텐츠를 포함합니다.&lt;/p&gt;
+
+&lt;h3&gt;2단계: embed 코드를 웹 페이지에 추가&lt;/h3&gt;
+
+&lt;p&gt;이 섹션에서는 보고서에 대한 embed 코드를 추가하고 이 코드를 다시 웹 페이지에 추가합니다.&lt;/p&gt;
+
+&lt;p&gt;이전 단계에서 제공된 웹 페이지로 &lt;strong&gt;embed 코드를 복사&lt;/strong&gt;해야 합니다. 복사하지 않은 경우 돌아 가서 지금 복사합니다.&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;Embed in web page.htm&lt;/strong&gt; 파일을 엽니다.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;"&amp;lt;!-- Step 1: Place your iFrame embed code below this line --&gt;" 줄을 찾습니다.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;이 줄 아래에 embed 코드를 &lt;strong&gt;붙여넣습니다&lt;/strong&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;다음으로 iframe의 높이 및 너비를 조정합니다. 기본값이 완벽하게 맞지 않을 수 있습니다. 크기는 보고서의 페이지 크기를 기준으로 합니다. 기본 페이지 크기는 16:9 비율입니다. 웹 페이지 레이아웃 및 이 기본 크기를 기반으로 너비 및 높이를 찾습니다. 그런 다음 iFrame 높이에 56을 추가하여 iFrame 하단에 Power BI UI가 포함되도록 합니다.&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;이제 다음과 같이 &lt;strong&gt;iframe&lt;/strong&gt;의 너비와 높이를 설정합니다.&lt;/p&gt;
+    &lt;ul&gt;
+&lt;li&gt;&lt;p&gt;width="1000"&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;height="618"&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;파일을 &lt;strong&gt;저장&lt;/strong&gt;합니다.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;Windows 탐색기&lt;/strong&gt;에서 &lt;strong&gt;파일을 두 번 클릭하여&lt;/strong&gt; 웹 브라우저에서 엽니다.&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;아래와 같은 페이지가 표시됩니다. 웹 서버의 페이지에 게시하면 페이지를 보는 모든 사람이 보고서를 볼 수 있게 됩니다. 이러한 단계를 사용하여 Power BI 데이터 시각화를 블로그, 뉴스 문서 또는 웹 사이트에 추가할 수 있습니다.&lt;/p&gt;
+
+&lt;h1&gt;&lt;img src="{2}" alt="" title="" /&gt;&lt;/h1&gt;
+
+&lt;h2&gt;부록: Power BI에서 숫자 서식 지정&lt;/h2&gt;
+
+&lt;p&gt;이 자습서에서 데이터 레이블로 작업한 경우 기본적으로 숫자에 서식이 지정되지 않는 것으로 나타납니다. 다음은 Power BI에서 숫자에 서식을 지정하는 방법입니다.&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;필드 목록에서 필드를 클릭하여 서식을 지정할 &lt;strong&gt;필드&lt;/strong&gt;를 선택합니다. 힌트: 다음 그림처럼 노란색 테두리가 표시되면 필드가 선택된 것입니다.
+&lt;p&gt;&lt;img src="{3}" alt="" title="" /&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;필드가 선택되었으면 리본에서 &lt;strong&gt;모델링&lt;/strong&gt;을 선택합니다.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;서식&lt;/strong&gt; 섹션을 확인합니다.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;큰 숫자에 대해 쉼표 구분 기호를 추가하려면 &lt;strong&gt;쉼표 아이콘&lt;/strong&gt;을 누릅니다.&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;이 작업을 수행하면 시각화에 필드가 사용될 때마다 서식 지정이 적용됩니다.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src="{4}" alt="" title="" /&gt;&lt;/p&gt;</value>
+  </data>
+  <data name="Article_Continue_Step1_3" xml:space="preserve">
+    <value>&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;온도 데이터&lt;/strong&gt; 테이블로 이동하고 &lt;strong&gt;홈&lt;/strong&gt; 리본에서 &lt;strong&gt;쿼리 병합&lt;/strong&gt;을 선택합니다.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;편집기에서 &lt;strong&gt;계기 데이터&lt;/strong&gt;를 선택하고 두 테이블의 &lt;strong&gt;연도&lt;/strong&gt; 열을 선택합니다. 이 열이 테이블을 일치시킬 열입니다.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;두 테이블의 모든 행을 포함하는 테이블을 원하므로(겹치는 행으로 일치) &lt;strong&gt;조인 종류: 완전 외부 조인(두 테이블의 모든 행)&lt;/strong&gt;을 선택합니다. 편집기에 일치하는 행 수가 표시됩니다.&lt;/p&gt;
+&lt;p&gt;&lt;img src="{0}" alt="" title="" /&gt;&lt;/p&gt;
+
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;확인&lt;/strong&gt;을 선택한 후 새 열을 확장합니다(아래 아이콘 참조).
+&lt;p&gt;&lt;img src="{1}" alt="" title="" /&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;새 날짜 열을 만들려면 &lt;strong&gt;열 추가&lt;/strong&gt; 탭에서 &lt;strong&gt;인덱스 열 추가&lt;/strong&gt;를 선택합니다(드롭다운 메뉴를 사용하여 사용자 지정 인덱스 열 만들기). 인덱스는 1000부터 시작하여 1씩 증가합니다.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;이제 1000 ~ 1998 범위의 인덱스 열이 있습니다. 이 열의 형식을 텍스트로 변경합니다.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;두 연도 열을 삭제하고 &lt;strong&gt;인덱스&lt;/strong&gt; 이름을 &lt;strong&gt;연도&lt;/strong&gt;로 변경합니다.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;연도&lt;/strong&gt; 데이터 형식을 &lt;strong&gt;날짜&lt;/strong&gt;로 설정합니다.&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;로드할 마지막 테이블에는 &lt;strong&gt;*연결된 오차 막대*&lt;/strong&gt;가 포함됩니다.&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;쿼리 편집기에서 &lt;strong&gt;홈&lt;/strong&gt; &gt; &lt;strong&gt;새 원본&lt;/strong&gt; &gt; &lt;strong&gt;웹&lt;/strong&gt;을 선택하고 테이블의 URL을 입력합니다. &lt;a href="{2}"&gt;{2}&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;쿼리 이름을 &lt;strong&gt;오류 막대&lt;/strong&gt;로 변경합니다.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;연도&lt;/strong&gt; 형식을 텍스트로 변경합니다.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;첫 번째 및 마지막 열을 삭제합니다.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;연도&lt;/strong&gt; 형식을 날짜로 변경합니다.&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;다음으로 &lt;strong&gt;오류 막대&lt;/strong&gt;의 시그마를 사용하여 재구성된 온도의 양 및 음의 변동을 계산할 수 있습니다.&lt;/p&gt;</value>
+  </data>
+  <data name="Article_Start_Step2_3" xml:space="preserve">
+    <value>&lt;p&gt;&lt;img src="{0}" alt="" title="" /&gt;&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;이 단계를 반복하여 &lt;strong&gt;음의 변동 = [재구성된 온도 변화] - [시그마]&lt;/strong&gt;를 만듭니다.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;새 열의 데이터 형식을 10진수로 변경합니다.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;모든 정보가 &lt;strong&gt;온도 변화&lt;/strong&gt; 테이블에 로드되면 다른 두 테이블을 보고서에 로드할 필요가 없습니다. 다른 두 테이블로 로드를 사용하지 않으려면 &lt;strong&gt;계기 데이터&lt;/strong&gt;를 마우스 오른쪽 단추로 클릭하고 &lt;strong&gt;로드 사용&lt;/strong&gt;을 선택 취소한 후 &lt;strong&gt;오차 막대&lt;/strong&gt;에 대해 동일한 작업을 수행합니다. 비활성화된 테이블은 기울임꼴 및 회색으로 표시됩니다.&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;img src="{1}" alt="" title="" /&gt;&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;이제 &lt;strong&gt;홈&lt;/strong&gt; 리본에서 &lt;strong&gt;닫기 및 적용&lt;/strong&gt;을 선택합니다.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3&gt;2단계: 시각적 개체 만들기&lt;/h3&gt;
+
+&lt;p&gt;데이터를 로드하고 데이터 편집 및 병합에서 대부분의 작업을 수행했으면 몇 번의 클릭만으로 꺾은선형 차트가 만들어집니다.&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;보고서 섹션에서 새 꺾은선형 차트 만들기&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;축&lt;/strong&gt; 필드에 &lt;strong&gt;연도&lt;/strong&gt;를 끌어오고 날짜가 드롭다운 메뉴에서 연도로 표시되는지 확인합니다.&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;img src="{2}" alt="" title="" /&gt;&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;재구성된 온도 변화&lt;/strong&gt;, &lt;strong&gt;계기 온도 변화&lt;/strong&gt;, &lt;strong&gt;양의 변동&lt;/strong&gt; 및 &lt;strong&gt;음의 변동&lt;/strong&gt;을 값으로 끌어옵니다.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;이러한 변동에서 온도 변화를 돋보이게 하려면 &lt;strong&gt;서식&lt;/strong&gt; 창에서 선의 색을 변경합니다.&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;</value>
+  </data>
+  <data name="Download_Resources" xml:space="preserve">
+    <value>이러한 자습서에 필요한 모든 리소스를 다운로드합니다.</value>
+  </data>
+  <data name="Hero_Content" xml:space="preserve">
+    <value>이 도입 과정에서는 다양한 종류의 그래픽을 사용하여 사용자 고유의 데이터를 분석 및 이해하고 대상 그룹과 효과적으로 커뮤니케이션하는 방법을 알아봅니다. 데이터 시각화 전문가인 Alberto Cairo가 데이터 이해, 적절한 그래픽 양식 선택, 내레이션 또는 탐색 사용과 같은 시각화의 핵심 원리를 안내해 줍니다. 또한 데이터 요소를 그래픽 기능으로 변환하는 시각적 인코딩 개념을 토대로 데이터 시각화를 어떻게 만드는지에 대해서도 자세히 알아봅니다.</value>
+  </data>
+  <data name="Hero_Title" xml:space="preserve">
+    <value>시각화 소개</value>
+  </data>
+  <data name="InThisArticle" xml:space="preserve">
+    <value>이 문서의 내용</value>
+  </data>
+  <data name="META_DESCRIPTION" xml:space="preserve">
+    <value />
+  </data>
+  <data name="META_KEYWORDS" xml:space="preserve">
+    <value />
+  </data>
+  <data name="META_PAGETITLE" xml:space="preserve">
+    <value>데이터 저널리즘 - 시각화 소개 | Microsoft Power BI</value>
+  </data>
+  <data name="NextTopic" xml:space="preserve">
+    <value>다음 항목: 데이터 탐색</value>
+  </data>
+  <data name="RightNav_Link1" xml:space="preserve">
+    <value>전 세계 온도 변화(Power BI에서 하키 스틱 차트 만들기)</value>
+  </data>
+  <data name="RightNav_Link2" xml:space="preserve">
+    <value>시각화 만들기 및 게시</value>
+  </data>
+  <data name="Start_Article_Content_4" xml:space="preserve">
+    <value>&lt;h2 id="world-temp-change"&gt;전 세계 온도 변화(Power BI에서 하키 스틱 차트 만들기)&lt;/h2&gt;
+
+&lt;p&gt;데이터 시각화 과정에 사용된 첫 번째 예제 중 하나는 Michael Mann과 Raymond Bradley가 전 세계 온도를 분석한 것입니다. 이 시각적 개체를 다시 작성하면서 Microsoft Power BI에서 작업할 때 가장 자주 사용할 다양한 개념도 다룹니다. 여러 웹 페이지의 테이블부터 시작하여 데이터를 조합하고 보고서에 로드하여 몇 가지 조정한 후 계산된 추세선을 만듭니다. &lt;a href="{0}"&gt;{0}&lt;/a&gt;에 제공되는 원본 연구의 데이터를 활용합니다.&lt;/p&gt;
+
+&lt;h3&gt;1단계: 데이터 로딩&lt;/h3&gt;
+
+&lt;p&gt;이 시각적 개체를 만드는 데 필요한 데이터는 &lt;strong&gt;재구성(AD 1000-1980)&lt;/strong&gt;, &lt;strong&gt;연결된 오차 막대&lt;/strong&gt;, &lt;strong&gt;계기 계열(1902-1998)&lt;/strong&gt;의 세 가지 테이블에 포함됩니다. 예에서는 재구성된 온도를 로드하는 것으로 시작합니다.&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;재구성(AD 1000-1980)&lt;/strong&gt;을 엽니다. &lt;a href="{1}"&gt;{1}&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;새 Power BI Desktop 파일에서 왼쪽 위의 &lt;strong&gt;데이터 가져오기&lt;/strong&gt;를 선택합니다.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;드롭다운 메뉴에서 &lt;strong&gt;웹&lt;/strong&gt;을 선택하고 URL 창에 링크를 붙여 넣습니다. Power BI에서 데이터의 데이터 형식을 자동으로 제안해 줍니다. 연도 열을 편집하려고 하므로 이 기능을 사용하지 않도록 합니다. &lt;strong&gt;데이터 형식 검색&lt;/strong&gt;을 &lt;strong&gt;데이터 형식 검색 안 함&lt;/strong&gt;으로 설정하고 &lt;strong&gt;편집&lt;/strong&gt;을 선택합니다.&lt;/p&gt;
+&lt;p&gt;&lt;img src="{2}" alt="" title="" /&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;그러면 쿼리 편집기가 열립니다. 첫 번째 열이 비어 있으므로 열을 삭제할 수 있습니다. 열 2의 이름을 &lt;strong&gt;연도&lt;/strong&gt;로, 열 3을 &lt;strong&gt;재구성된 온도 변화&lt;/strong&gt;로 변경합니다. 아래 이미지에 표시된 데이터 형식 아이콘을 선택하여 이 열의 데이터 형식을 10진수로 변경합니다.
+&lt;p&gt;&lt;img src="{3}" alt="" title="" /&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;쿼리 이름을 &lt;strong&gt;온도 데이터&lt;/strong&gt;로 변경합니다.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;동일한 원리로 계기 온도 데이터 및 오차 막대를 로드할 수 있습니다.&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;다시 쿼리 편집기의 &lt;strong&gt;홈&lt;/strong&gt; 리본에서 &lt;strong&gt;새 원본&lt;/strong&gt;을 선택하고 &lt;strong&gt;계기 계열&lt;/strong&gt; 테이블의 URL을 입력합니다.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;팝업 창에서 &lt;strong&gt;데이터 형식 검색 안 함&lt;/strong&gt;을 선택한 후 &lt;strong&gt;편집&lt;/strong&gt;을 선택합니다.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;열 1을 삭제하고 열 2의 이름을 &lt;strong&gt;연도&lt;/strong&gt;로 변경합니다.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;열 3의 이름을 &lt;strong&gt;계기 온도 변화&lt;/strong&gt;로 변경하고 해당 데이터 형식을 10진수로 변경합니다.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;쿼리 이름을 &lt;strong&gt;계기 데이터&lt;/strong&gt;로 변경합니다.&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;&lt;p&gt;다음으로, 1000년부터 1998년까지 모든 데이터 요소에 대해 사용할 수 있는 하나의 연도 열을 만들려고 합니다. 이 작업을 수행하려면 쿼리 편집기에서 두 테이블을 병합하고 연도에 대해 새 열을 추가하면 됩니다.&lt;/p&gt;</value>
+  </data>
+  <data name="Meta_LocJobId" xml:space="preserve">
+    <value>159</value>
+  </data>
+</root>

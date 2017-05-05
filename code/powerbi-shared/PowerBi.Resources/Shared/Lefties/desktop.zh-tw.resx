@@ -1,0 +1,369 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" id="root">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Area_Connect" xml:space="preserve">
+    <value>連接到資料</value>
+  </data>
+  <data name="Area_GetStarted" xml:space="preserve">
+    <value>開始使用</value>
+  </data>
+  <data name="Area_LearnMore" xml:space="preserve">
+    <value>深入了解</value>
+  </data>
+  <data name="Area_Model" xml:space="preserve">
+    <value>製作資料模型</value>
+  </data>
+  <data name="Area_Reports" xml:space="preserve">
+    <value>建立報表</value>
+  </data>
+  <data name="Area_Transform" xml:space="preserve">
+    <value>轉換與塑造資料</value>
+  </data>
+  <data name="Area_Troubleshoot" xml:space="preserve">
+    <value>疑難排解</value>
+  </data>
+  <data name="Link_AnalysisServicesMulti" xml:space="preserve">
+    <value>Power BI Desktop 中的 Analysis Services 多維度模型</value>
+  </data>
+  <data name="Link_AnalysisServicesTabular" xml:space="preserve">
+    <value>Power BI Desktop 中的 Analysis Services 表格式資料</value>
+  </data>
+  <data name="Link_CalculatedColumns" xml:space="preserve">
+    <value>Power BI Desktop 中的導出資料行</value>
+  </data>
+  <data name="Link_CalculatedTables" xml:space="preserve">
+    <value>Power BI Desktop 中的導出資料表</value>
+  </data>
+  <data name="Link_Categorization" xml:space="preserve">
+    <value>Power BI Desktop 中的資料分類</value>
+  </data>
+  <data name="Link_CommonQuery" xml:space="preserve">
+    <value>Power BI Desktop 中的常見查詢工作</value>
+  </data>
+  <data name="Link_Connect" xml:space="preserve">
+    <value>連接至 Power BI Desktop 中的資料</value>
+  </data>
+  <data name="Link_CreateCalulatedColumns" xml:space="preserve">
+    <value>教學課程：在 Power BI Desktop 中建立您自己的導出資料行</value>
+  </data>
+  <data name="Link_CreateRelationships" xml:space="preserve">
+    <value>在 Power BI Desktop 中建立和管理關聯性</value>
+  </data>
+  <data name="Link_CustomAnswerCards" xml:space="preserve">
+    <value>建立 Cortana 的自訂 Power BI 回應卡</value>
+  </data>
+  <data name="Link_CustomVisual" xml:space="preserve">
+    <value>在報表中加入自訂視覺效果 (Desktop)</value>
+  </data>
+  <data name="Link_DataSources" xml:space="preserve">
+    <value>Power BI Desktop 中的資料來源</value>
+  </data>
+  <data name="Link_DataTypes" xml:space="preserve">
+    <value>Power BI Desktop 中的資料類型</value>
+  </data>
+  <data name="Link_DataView" xml:space="preserve">
+    <value>Power BI Desktop 中的資料檢視</value>
+  </data>
+  <data name="Link_DAX" xml:space="preserve">
+    <value>Power BI Desktop 的 DAX 基本概念</value>
+  </data>
+  <data name="Link_DirectQuery" xml:space="preserve">
+    <value>在 Power BI Desktop 中使用 DirectQuery</value>
+  </data>
+  <data name="Link_Facebook" xml:space="preserve">
+    <value>協力廠商服務：適用於 Power BI Desktop 的 Facebook 連接器</value>
+  </data>
+  <data name="Link_FacebookAnalytics" xml:space="preserve">
+    <value>教學課程：使用 Power BI Desktop 的 Facebook 分析</value>
+  </data>
+  <data name="Link_GetDesktop" xml:space="preserve">
+    <value>取得 Power BI Desktop</value>
+  </data>
+  <data name="Link_GetStarted" xml:space="preserve">
+    <value>開始使用 Power BI Desktop</value>
+  </data>
+  <data name="Link_GoogleAnalytics" xml:space="preserve">
+    <value>協力廠商服務：適用於 Power BI Desktop 的 Google Analytics 連接器</value>
+  </data>
+  <data name="Link_ImportExcel" xml:space="preserve">
+    <value>將 Excel 活頁簿匯入 Power BI Desktop</value>
+  </data>
+  <data name="Link_KPIs" xml:space="preserve">
+    <value>匯入和顯示 KPI (預覽)</value>
+  </data>
+  <data name="Link_Measures" xml:space="preserve">
+    <value>Power BI Desktop 中的量值</value>
+  </data>
+  <data name="Link_ProjectOnline" xml:space="preserve">
+    <value>Project Online：透過 Power BI Desktop 連接到資料</value>
+  </data>
+  <data name="Link_Publish" xml:space="preserve">
+    <value>從 Power BI Desktop 發行</value>
+  </data>
+  <data name="Link_QueryOverview" xml:space="preserve">
+    <value>Power BI Desktop 中的查詢概觀</value>
+  </data>
+  <data name="Link_RelationshipView" xml:space="preserve">
+    <value>Power BI Desktop 中的關聯性檢視</value>
+  </data>
+  <data name="Link_ReportView" xml:space="preserve">
+    <value>Power BI Desktop 中的報表檢視</value>
+  </data>
+  <data name="Link_ResolveIssuesImporting" xml:space="preserve">
+    <value>解決 Power BI Desktop 和 Power Query 匯入 Access 資料庫和 .XLS 試算表的問題</value>
+  </data>
+  <data name="Link_ResolveIssuesStarting" xml:space="preserve">
+    <value>解決啟動 Power BI Desktop 的問題</value>
+  </data>
+  <data name="Link_RScripts" xml:space="preserve">
+    <value>在 Power BI Desktop 中執行 R 指令碼</value>
+  </data>
+  <data name="Link_RVisuals" xml:space="preserve">
+    <value>使用 R 建立 Power BI 視覺效果</value>
+  </data>
+  <data name="Link_SalesData" xml:space="preserve">
+    <value>教學課程：分析來自 Excel 和 OData 摘要的銷售資料</value>
+  </data>
+  <data name="Link_SapHana" xml:space="preserve">
+    <value>在 Power BI Desktop 中使用 SAP HANA</value>
+  </data>
+  <data name="Link_ShapeData" xml:space="preserve">
+    <value>在 Power BI Desktop 中將資料成形及合併</value>
+  </data>
+  <data name="Link_SortColumn" xml:space="preserve">
+    <value>Power BI Desktop 中的依資料行排序</value>
+  </data>
+  <data name="Link_Videos" xml:space="preserve">
+    <value>Power BI Desktop 影片</value>
+  </data>
+  <data name="Link_WebPage" xml:space="preserve">
+    <value>教學課程： 使用 Power BI Desktop 從網頁匯入和分析資料</value>
+  </data>
+  <data name="Link_WhatsNew" xml:space="preserve">
+    <value>最新的 Power BI Desktop 中有什麼新功能？</value>
+  </data>
+  <data name="Link_YourOwnMeasures" xml:space="preserve">
+    <value>教學課程：在 Power BI Desktop 中建立您自己的量值</value>
+  </data>
+  <data name="Title" xml:space="preserve">
+    <value>Power BI Desktop</value>
+  </data>
+  <data name="Link_ConditionalTableFormatting" xml:space="preserve">
+    <value>Power BI Desktop 中的條件式表格格式設定</value>
+  </data>
+  <data name="Link_CustomTooltips" xml:space="preserve">
+    <value>Power BI Desktop 中的自訂工具提示</value>
+  </data>
+  <data name="Link_InlineHeirarchy" xml:space="preserve">
+    <value>在 Power BI Desktop 中使用內嵌階層標籤 (預覽)</value>
+  </data>
+  <data name="Link_Oracle" xml:space="preserve">
+    <value>連接到 Oracle 資料庫</value>
+  </data>
+  <data name="Link_OracleDirectQuery" xml:space="preserve">
+    <value>Oracle 與 Teradata 資料庫的 DirectQuery</value>
+  </data>
+  <data name="Link_Prerequisites" xml:space="preserve">
+    <value>Power BI 資料來源必要條件</value>
+  </data>
+  <data name="Link_PreviousUpdates" xml:space="preserve">
+    <value>Power BI Desktop 先前的每月更新</value>
+  </data>
+  <data name="Link_PrivacyLevels" xml:space="preserve">
+    <value>Power BI Desktop 隱私權等級</value>
+  </data>
+  <data name="Link_SAPConnector" xml:space="preserve">
+    <value>在 Power BI Desktop 中使用 SAP BW 連接器 (預覽)</value>
+  </data>
+  <data name="Link_SendSmile" xml:space="preserve">
+    <value>Power BI Desktop 傳送笑臉隱私權聲明</value>
+  </data>
+  <data name="Link_TutorialRowLevelSecurity" xml:space="preserve">
+    <value>教學課程：動態資料列層級安全性與 Analysis Services 表格式模型</value>
+  </data>
+  <data name="Link_UseOneDriveLinks" xml:space="preserve">
+    <value>使用 Power BI Desktop 中的商務用 OneDrive 連結</value>
+  </data>
+  <data name="Link_RLS" xml:space="preserve">
+    <value>資料列層級安全性</value>
+  </data>
+  <data name="Link_MobileBarcodes" xml:space="preserve">
+    <value>在 Power BI Desktop 中為 Power BI 行動裝置應用程式標記條碼欄位</value>
+  </data>
+  <data name="Link_MobileGeofiltering" xml:space="preserve">
+    <value>在 Power BI Desktop 中為 Power BI 行動裝置應用程式設定地理篩選</value>
+  </data>
+  <data name="Link_AssumeRefIntegrity" xml:space="preserve">
+    <value>在 Power BI Desktop 中採用參考完整性設定</value>
+  </data>
+  <data name="Link_BidirectionalFiltering" xml:space="preserve">
+    <value>Power BI Desktop 中的雙向交叉篩選 (預覽)</value>
+  </data>
+  <data name="Link_ConnectCSV" xml:space="preserve">
+    <value>在 Power BI Desktop 中連接至 CSV 檔案</value>
+  </data>
+  <data name="Link_ConnectExcel" xml:space="preserve">
+    <value>在 Power BI Desktop 中連接至 Excel</value>
+  </data>
+  <data name="Link_ConnectImpala" xml:space="preserve">
+    <value>在 Power BI Desktop 中連接至 Impala 資料庫 (預覽)</value>
+  </data>
+  <data name="Link_ConnectOData" xml:space="preserve">
+    <value>在 Power BI Desktop 中連接至 OData 摘要</value>
+  </data>
+  <data name="Link_ConnectRedshift" xml:space="preserve">
+    <value>在 Power BI Desktop 中連接至 Amazon Redshift 資料庫 (預覽)</value>
+  </data>
+  <data name="Link_ConnectWeb" xml:space="preserve">
+    <value>從 Power BI Desktop 連接至網頁</value>
+  </data>
+  <data name="Link_DirectDataEntryDesktop" xml:space="preserve">
+    <value>直接將資料輸入 Power BI Desktop</value>
+  </data>
+  <data name="Link_RinQueryEditor" xml:space="preserve">
+    <value>在查詢編輯器中使用 R</value>
+  </data>
+  <data name="Link_ShapeMap" xml:space="preserve">
+    <value>在 Power BI Desktop 中使用圖形地圖 (預覽)</value>
+  </data>
+  <data name="Link_DesktopTipsAndTricks" xml:space="preserve">
+    <value>建立報表的祕訣和訣竅</value>
+  </data>
+  <data name="Link_CreatePhoneReport" xml:space="preserve">
+    <value>建立為 Power BI 手機應用程式最佳化的報表</value>
+  </data>
+  <data name="Link_AnalyticsPane" xml:space="preserve">
+    <value>Power BI Desktop 中的分析窗格</value>
+  </data>
+  <data name="Link_RIDE" xml:space="preserve">
+    <value>搭配使用外部 R IDE 與 Power BI</value>
+  </data>
+  <data name="Link_Snowflake" xml:space="preserve">
+    <value>在 Power BI Desktop 中連接至 Snowflake 計算倉庫</value>
+  </data>
+  <data name="Link_RCustomVisuals" xml:space="preserve">
+    <value>使用 R 提供技術的自訂視覺效果</value>
+  </data>
+  <data name="Link_SnapToGrid" xml:space="preserve">
+    <value>使用格線與貼齊隔線</value>
+  </data>
+  <data name="Meta_LocJobId" xml:space="preserve">
+    <value>209</value>
+  </data>
+</root>

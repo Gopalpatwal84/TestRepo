@@ -1,0 +1,154 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" id="root">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Consistent_Content_2" xml:space="preserve">
+    <value>&lt;p&gt;온-프레미스에서 &lt;a href="{0}"&gt;SQL Server Analysis Services&lt;/a&gt;를 사용하고 클라우드에서 &lt;a href="{1}"&gt;Azure Analysis Services&lt;/a&gt;를 사용하면 재사용 가능하고 강력한 데이터 모델을 간단히 구축하여 조직 전반의 보고 및 분석에 일관성을 제공할 수 있습니다.&lt;/p&gt;</value>
+    <comment>0 is url, 1 is url</comment>
+  </data>
+  <data name="Consistent_Heading" xml:space="preserve">
+    <value>조직 전체에서 일관된 분석</value>
+  </data>
+  <data name="Dashboard_Content_1" xml:space="preserve">
+    <value>&lt;p&gt;&lt;a href="{0}"&gt;웹의 Power BI&lt;/a&gt;를 사용하여 조직 전반의 중요 데이터와 사용하는 모든 앱의 중요 데이터를 모니터링하세요.</value>
+    <comment>0 is url</comment>
+  </data>
+  <data name="Dashboard_Heading" xml:space="preserve">
+    <value>하나의 대시보드에서 전체 비즈니스 수행</value>
+  </data>
+  <data name="Embedded_Content_1" xml:space="preserve">
+    <value>&lt;p&gt;&lt;a href="{0}"&gt;Power BI Embedded&lt;/a&gt; 서비스를 사용하여 앱에 뛰어난 대화형 보고서를 제공하세요.&lt;/p&gt;</value>
+    <comment>0 is url</comment>
+  </data>
+  <data name="Embedded_Heading" xml:space="preserve">
+    <value>앱에 BI 및 분석 기능을 손쉽게 포함</value>
+  </data>
+  <data name="Heading" xml:space="preserve">
+    <value>전체 조직을 위한 분석 솔루션</value>
+  </data>
+  <data name="Reports_Content_1" xml:space="preserve">
+    <value>&lt;p&gt;&lt;a href="{0}"&gt;Power BI Desktop&lt;/a&gt;에서는 데이터를 변환, 분석 및 시각화하는 도구를 제공합니다. 웹의 Power BI를 사용하여 몇 초 안에 보고서를 조직과 공유하세요.&lt;/p&gt;</value>
+    <comment>0 is url</comment>
+  </data>
+  <data name="Reports_Heading" xml:space="preserve">
+    <value>뛰어난 대화형 보고서 작성</value>
+  </data>
+  <data name="Meta_LocJobId" xml:space="preserve">
+    <value>175</value>
+  </data>
+</root>

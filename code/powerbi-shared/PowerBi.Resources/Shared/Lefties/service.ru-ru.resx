@@ -1,0 +1,969 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" id="root">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Area_Administration" xml:space="preserve">
+    <value>Администрирование</value>
+  </data>
+  <data name="Area_Ask" xml:space="preserve">
+    <value>Задать вопросы о данных</value>
+  </data>
+  <data name="Area_Connect" xml:space="preserve">
+    <value>Подключение к службам</value>
+  </data>
+  <data name="Area_Dashboards" xml:space="preserve">
+    <value>Информационные панели</value>
+  </data>
+  <data name="Area_DataDatabases" xml:space="preserve">
+    <value>Данные из баз данных</value>
+  </data>
+  <data name="Area_DataFiles" xml:space="preserve">
+    <value>Данные из файлов</value>
+  </data>
+  <data name="Area_DataRefresh" xml:space="preserve">
+    <value>Обновление данных</value>
+  </data>
+  <data name="Area_Gateways" xml:space="preserve">
+    <value>Шлюзы</value>
+  </data>
+  <data name="Area_GetStarted" xml:space="preserve">
+    <value>Начало работы</value>
+  </data>
+  <data name="Area_Reports" xml:space="preserve">
+    <value>Отчеты</value>
+  </data>
+  <data name="Area_Samples" xml:space="preserve">
+    <value>Примеры</value>
+  </data>
+  <data name="Area_Share" xml:space="preserve">
+    <value>Совместное использование работы</value>
+  </data>
+  <data name="Area_Troubleshooting" xml:space="preserve">
+    <value>Устранение неполадок</value>
+  </data>
+  <data name="Area_Visualizations" xml:space="preserve">
+    <value>Визуализации</value>
+  </data>
+  <data name="Link_3rdPartyGetStarted" xml:space="preserve">
+    <value>Начало работы со сторонними приложениями в Power BI</value>
+  </data>
+  <data name="Link_Acumatica" xml:space="preserve">
+    <value>Пакет содержимого Acumatica</value>
+  </data>
+  <data name="Link_AddImageToDashboard" xml:space="preserve">
+    <value>Добавление изображения на панель мониторинга</value>
+  </data>
+  <data name="Link_AddWidget" xml:space="preserve">
+    <value>Добавление изображения, текстового поля, видео или веб-кода на панель мониторинга</value>
+  </data>
+  <data name="Link_AdobeAnalytics" xml:space="preserve">
+    <value>Пакет содержимого Adobe Analytics</value>
+  </data>
+  <data name="Link_AppFigures" xml:space="preserve">
+    <value>Пакет содержимого appFigures</value>
+  </data>
+  <data name="Link_AppInisghts" xml:space="preserve">
+    <value>Пакет содержимого Application Insights</value>
+  </data>
+  <data name="Link_AtInternetBridge" xml:space="preserve">
+    <value>Пакет содержимого AT Internet Bridge</value>
+  </data>
+  <data name="Link_AzureAuditLogs" xml:space="preserve">
+    <value>Пакет содержимого "Журналы аудита Azure"</value>
+  </data>
+  <data name="Link_AzureEnterprise" xml:space="preserve">
+    <value>Пакет содержимого Microsoft Azure Enterprise</value>
+  </data>
+  <data name="Link_BasicConcepts" xml:space="preserve">
+    <value>Power BI — основные понятия</value>
+  </data>
+  <data name="Link_BigNumberTileDashboard" xml:space="preserve">
+    <value>Создание плитки с большим числом для информационной панели Power BI с помощью вопроса</value>
+  </data>
+  <data name="Link_BigNumberTileReport" xml:space="preserve">
+    <value>Создание плитки с большим числом из отчета Power BI</value>
+  </data>
+  <data name="Link_Bing" xml:space="preserve">
+    <value>Пакет содержимого Bing</value>
+  </data>
+  <data name="Link_BrowserSupport" xml:space="preserve">
+    <value>Поддерживаемые браузеры для Power BI</value>
+  </data>
+  <data name="Link_CircuitID" xml:space="preserve">
+    <value>Пакет содержимого Circuit ID</value>
+  </data>
+  <data name="Link_CollaborateWithGroup" xml:space="preserve">
+    <value>Совместная работа с группой Power BI</value>
+  </data>
+  <data name="Link_ComScore" xml:space="preserve">
+    <value>Пакет содержимого comScore Digital Analytix</value>
+  </data>
+  <data name="Link_ConnectOneDrive" xml:space="preserve">
+    <value>Подключение к файлам в OneDrive для бизнеса вашей группы</value>
+  </data>
+  <data name="Link_ConnectToSamples" xml:space="preserve">
+    <value>Учебник. Использование примеров пакетов содержимого Power BI</value>
+  </data>
+  <data name="Link_ConnectToServices" xml:space="preserve">
+    <value>Подключение к службам с помощью пакетов содержимого</value>
+  </data>
+  <data name="Link_CreateADashboard" xml:space="preserve">
+    <value>Создание панели мониторинга Power BI</value>
+  </data>
+  <data name="Link_CreateFeaturedQuestions" xml:space="preserve">
+    <value>Создание избранных вопросов для функции вопросов и ответов Power BI</value>
+  </data>
+  <data name="Link_CreateGroup" xml:space="preserve">
+    <value>Создание группы в Power BI</value>
+  </data>
+  <data name="Link_CreatePublishContentPack" xml:space="preserve">
+    <value>Создание и публикация пакета содержимого организации (учебник)</value>
+  </data>
+  <data name="Link_CustomerProfitabilitySample" xml:space="preserve">
+    <value>Пример "Рентабельность клиента" для Power BI: обзор</value>
+  </data>
+  <data name="Link_DashboardTiles" xml:space="preserve">
+    <value>Плитки панели мониторинга в Power BI</value>
+  </data>
+  <data name="Link_DataSources" xml:space="preserve">
+    <value>Источники данных для Power BI</value>
+  </data>
+  <data name="Link_DataWorkWell" xml:space="preserve">
+    <value>Настройка данных для работы с функцией "Вопросы и ответы" в Power BI</value>
+  </data>
+  <data name="Link_DeleteContentPack" xml:space="preserve">
+    <value>Удаление подключения к пакету содержимого организации</value>
+  </data>
+  <data name="Link_DesignTips" xml:space="preserve">
+    <value>Советы по созданию эффективной панели мониторинга Power BI</value>
+  </data>
+  <data name="Link_DisplayReportFullScreen" xml:space="preserve">
+    <value>Отображение панелей мониторинга и отчетов в полноэкранном режиме (ТВ-режим)</value>
+  </data>
+  <data name="Link_DisplayTileFullScreen" xml:space="preserve">
+    <value>Отображение плитки панели мониторинга в полноэкранном режиме (ТВ-режим)</value>
+  </data>
+  <data name="Link_DisplayTileInFocus" xml:space="preserve">
+    <value>Отображение плитки панели мониторинга в режиме фокусировки</value>
+  </data>
+  <data name="Link_DownloadFinancialSample" xml:space="preserve">
+    <value>Загрузка книги финансового примера для Power BI</value>
+  </data>
+  <data name="Link_DynamicsCRM" xml:space="preserve">
+    <value>Пакет содержимого Microsoft Dynamics CRM</value>
+  </data>
+  <data name="Link_DynamicsMarketing" xml:space="preserve">
+    <value>Пакет содержимого Microsoft Dynamics Marketing</value>
+  </data>
+  <data name="Link_DynamicsNav" xml:space="preserve">
+    <value>Пакет содержимого Microsoft Dynamics NAV</value>
+  </data>
+  <data name="Link_EditATile" xml:space="preserve">
+    <value>Изменение плитки — изменение размера, перемещение, переименование, закрепление, удаление, добавление гиперссылки</value>
+  </data>
+  <data name="Link_EnableCortana" xml:space="preserve">
+    <value>Включение Cortana для Power BI</value>
+  </data>
+  <data name="Link_Faq" xml:space="preserve">
+    <value>Часто задаваемые вопросы</value>
+  </data>
+  <data name="Link_FindOpenContentPack" xml:space="preserve">
+    <value>Поиск и подключение к пакету содержимого организации</value>
+  </data>
+  <data name="Link_GetStarted" xml:space="preserve">
+    <value>Приступая к работе с Power BI</value>
+  </data>
+  <data name="Link_GitHub" xml:space="preserve">
+    <value>Пакет содержимого GitHub</value>
+  </data>
+  <data name="Link_GoogleAnalytics" xml:space="preserve">
+    <value>Пакет содержимого Google Analytics</value>
+  </data>
+  <data name="Link_HowToUse" xml:space="preserve">
+    <value>Работа с функцией "Вопросы и ответы" Power BI</value>
+  </data>
+  <data name="Link_HumanResourceSample" xml:space="preserve">
+    <value>Знакомство с примером "Управление персоналом"</value>
+  </data>
+  <data name="Link_IntroToCortana" xml:space="preserve">
+    <value>Общие сведения о Cortana для Power BI</value>
+  </data>
+  <data name="Link_LanguageSupport" xml:space="preserve">
+    <value>Поддерживаемые языки и страны (регионы) для Power BI</value>
+  </data>
+  <data name="Link_Lithium" xml:space="preserve">
+    <value>Пакет содержимого Lithium</value>
+  </data>
+  <data name="Link_MailChimp" xml:space="preserve">
+    <value>Пакет содержимого MailChimp</value>
+  </data>
+  <data name="Link_ManageContentPack" xml:space="preserve">
+    <value>Управление пакетами содержимого организации, их обновление и удаление</value>
+  </data>
+  <data name="Link_ManageGroup" xml:space="preserve">
+    <value>Управление группой в Power BI и Office 365</value>
+  </data>
+  <data name="Link_Mandrill" xml:space="preserve">
+    <value>Пакет содержимого Mandrill</value>
+  </data>
+  <data name="Link_Marketo" xml:space="preserve">
+    <value>Пакет содержимого Marketo</value>
+  </data>
+  <data name="Link_MobileEngagement" xml:space="preserve">
+    <value>Пакет содержимого Azure Mobile Engagement</value>
+  </data>
+  <data name="Link_Office365" xml:space="preserve">
+    <value>Пакет содержимого Office365Mon</value>
+  </data>
+  <data name="Link_OpportunityAnalysisSample" xml:space="preserve">
+    <value>Образец "Анализ возможностей" для Power BI: обзор</value>
+  </data>
+  <data name="Link_OptimizeData" xml:space="preserve">
+    <value>Оптимизация данных для быстрого анализа данных в Power BI</value>
+  </data>
+  <data name="Link_PinATileFromDashboard" xml:space="preserve">
+    <value>Закрепление плитки с одной панели мониторинга на другой</value>
+  </data>
+  <data name="Link_PinATileFromExcel" xml:space="preserve">
+    <value>Закрепление плитки на панели мониторинга Power BI из книги Excel</value>
+  </data>
+  <data name="Link_PinATileFromReport" xml:space="preserve">
+    <value>Закрепление плитки на панели мониторинга Power BI из отчета</value>
+  </data>
+  <data name="Link_PinATileToDashboardFromQA" xml:space="preserve">
+    <value>Закрепление результатов работы подсистемы вопросов и ответов в качестве плитки на панели мониторинга Power BI</value>
+  </data>
+  <data name="Link_PinReportToDashboard" xml:space="preserve">
+    <value>Закрепление целой страницы отчета на информационной панели</value>
+  </data>
+  <data name="Link_Planview" xml:space="preserve">
+    <value>Пакет содержимого Planview Enterprise</value>
+  </data>
+  <data name="Link_Printing" xml:space="preserve">
+    <value>Печать панели мониторинга, плитки или страницы отчета</value>
+  </data>
+  <data name="Link_ProcurementAnalysisSample" xml:space="preserve">
+    <value>Знакомство с примером "Анализ закупок"</value>
+  </data>
+  <data name="Link_ProjectOnline" xml:space="preserve">
+    <value>Пакет содержимого Project Online</value>
+  </data>
+  <data name="Link_ProjectPlace" xml:space="preserve">
+    <value>Пакет содержимого Projectplace</value>
+  </data>
+  <data name="Link_ProWhatIs" xml:space="preserve">
+    <value>Что такое содержимое Power BI Pro?</value>
+  </data>
+  <data name="Link_PublishForExcel" xml:space="preserve">
+    <value>Издатель Power BI для Excel</value>
+  </data>
+  <data name="Link_PublishToWeb" xml:space="preserve">
+    <value>Публикация из Power BI в Интернет</value>
+  </data>
+  <data name="Link_QandA" xml:space="preserve">
+    <value>Вопросы и ответы в Power BI</value>
+  </data>
+  <data name="Link_QrCodeTile" xml:space="preserve">
+    <value>Создание QR-кода для плитки</value>
+  </data>
+  <data name="Link_QualityAnalysisSample" xml:space="preserve">
+    <value>Образец "Анализ качества поставщика: обзор"</value>
+  </data>
+  <data name="Link_Quickbooks" xml:space="preserve">
+    <value>Пакет содержимого QuickBooks Online</value>
+  </data>
+  <data name="Link_QuickInisghts" xml:space="preserve">
+    <value>Быстрый анализ данных в Power BI</value>
+  </data>
+  <data name="Link_QuickInisghtsTypes" xml:space="preserve">
+    <value>Типы быстрого анализа данных, поддерживаемые Power BI</value>
+  </data>
+  <data name="Link_RemoveDashboard" xml:space="preserve">
+    <value>Удаление панели мониторинга</value>
+  </data>
+  <data name="Link_RenameDashboard" xml:space="preserve">
+    <value>Переименование панели мониторинга Power BI</value>
+  </data>
+  <data name="Link_Reports" xml:space="preserve">
+    <value>Отчеты в Power BI</value>
+  </data>
+  <data name="Link_RetailAnalysisSample" xml:space="preserve">
+    <value>Образец "Анализ розничной торговли" для Power BI: обзор</value>
+  </data>
+  <data name="Link_Salesforce" xml:space="preserve">
+    <value>Пакет содержимого Salesforce</value>
+  </data>
+  <data name="Link_SalesMarketingSample" xml:space="preserve">
+    <value>Образец "Продажи и маркетинг" для Power BI: обзор</value>
+  </data>
+  <data name="Link_SampleDatasets" xml:space="preserve">
+    <value>Примеры для Power BI</value>
+  </data>
+  <data name="Link_SelfServiceSignup" xml:space="preserve">
+    <value>Самостоятельная регистрация в Power BI</value>
+  </data>
+  <data name="Link_Sendgrid" xml:space="preserve">
+    <value>Пакет содержимого SendGrid</value>
+  </data>
+  <data name="Link_ShareDashboard" xml:space="preserve">
+    <value>Как предоставить общий доступ к информационным панелям и отчетам?</value>
+  </data>
+  <data name="Link_ShareDashboardLinkExcel" xml:space="preserve">
+    <value>Совместное использование панели мониторинга, ссылающейся на книгу Excel в OneDrive для бизнеса</value>
+  </data>
+  <data name="Link_ShareUnshareDashboard" xml:space="preserve">
+    <value>Предоставление общего доступа к информационной панели коллегам и другим людям</value>
+  </data>
+  <data name="Link_Smartsheet" xml:space="preserve">
+    <value>Пакет содержимого Smartsheet</value>
+  </data>
+  <data name="Link_Sparkpost" xml:space="preserve">
+    <value>Пакет содержимого SparkPost</value>
+  </data>
+  <data name="Link_SpendAnalysisSample" xml:space="preserve">
+    <value>Образец "Анализ расходов на ИТ" для Power BI: обзор</value>
+  </data>
+  <data name="Link_SqlAuditing" xml:space="preserve">
+    <value>Пакет содержимого аудита базы данных SQL</value>
+  </data>
+  <data name="Link_SqlSentry" xml:space="preserve">
+    <value>Пакет содержимого SQL Sentry</value>
+  </data>
+  <data name="Link_Stripe" xml:space="preserve">
+    <value>Пакет содержимого Stripe</value>
+  </data>
+  <data name="Link_SweetIQ" xml:space="preserve">
+    <value>Пакет содержимого SweetIQ</value>
+  </data>
+  <data name="Link_TipsForAsking" xml:space="preserve">
+    <value>Советы и рекомендации по формулировке вопросов в функции "Вопросы и ответы" в Power BI</value>
+  </data>
+  <data name="Link_Twilio" xml:space="preserve">
+    <value>Пакет содержимого Twilio</value>
+  </data>
+  <data name="Link_Tygraph" xml:space="preserve">
+    <value>Пакет содержимого tyGraph</value>
+  </data>
+  <data name="Link_Uservoice" xml:space="preserve">
+    <value>Пакет содержимого UserVoice</value>
+  </data>
+  <data name="Link_GetStartedTutorial" xml:space="preserve">
+    <value>Учебник. Приступая к работе с компонентом "Вопросы и ответы" Power BI</value>
+  </data>
+  <data name="Link_Videos" xml:space="preserve">
+    <value>Видео о службе Power BI</value>
+  </data>
+  <data name="Link_VisualStudioOnline" xml:space="preserve">
+    <value>Пакет содержимого Visual Studio Team Services</value>
+  </data>
+  <data name="Link_VMob" xml:space="preserve">
+    <value>Пакет содержимого VMob</value>
+  </data>
+  <data name="Link_Webinars" xml:space="preserve">
+    <value>Вебинары о Power BI</value>
+  </data>
+  <data name="Link_Webtrends" xml:space="preserve">
+    <value>Пакет содержимого Webtrends</value>
+  </data>
+  <data name="Link_WhatsNew" xml:space="preserve">
+    <value>Новые возможности службы Power BI</value>
+  </data>
+  <data name="Link_WorkWithContentPack" xml:space="preserve">
+    <value>Работа с пакетами контента организации</value>
+  </data>
+  <data name="Link_Zendesk" xml:space="preserve">
+    <value>Пакет содержимого Zendesk</value>
+  </data>
+  <data name="Title" xml:space="preserve">
+    <value>Служба Power BI</value>
+  </data>
+  <data name="Link_AddFilterToReport" xml:space="preserve">
+    <value>Добавление фильтра в отчет в Power BI</value>
+  </data>
+  <data name="Link_AddPageToReport" xml:space="preserve">
+    <value>Добавление страницы в отчет Power BI</value>
+  </data>
+  <data name="Link_AddVisualizations1" xml:space="preserve">
+    <value>Учебник. Часть I. Добавление визуализаций в отчет Power BI</value>
+  </data>
+  <data name="Link_AddVisualizations2" xml:space="preserve">
+    <value>Учебник. Часть 2. Добавление визуализаций в отчет Power BI</value>
+  </data>
+  <data name="Link_Administering" xml:space="preserve">
+    <value>Администрирование Power BI в организации</value>
+  </data>
+  <data name="Link_AlternateEmail" xml:space="preserve">
+    <value>Запасной адрес электронной почты для Power BI</value>
+  </data>
+  <data name="Link_AnalysisServices" xml:space="preserve">
+    <value>Управление источником данных предприятия — службы Analysis Services</value>
+  </data>
+  <data name="Link_ArchivedWorkspace" xml:space="preserve">
+    <value>Архивная рабочая область Power BI</value>
+  </data>
+  <data name="Link_Azure" xml:space="preserve">
+    <value>Azure и Power BI</value>
+  </data>
+  <data name="Link_BasicAreaChart" xml:space="preserve">
+    <value>Учебник. Простая диаграмма с областями</value>
+  </data>
+  <data name="Link_CapturingDiag" xml:space="preserve">
+    <value>Запись дополнительных диагностических сведений для Power BI</value>
+  </data>
+  <data name="Link_ChangeReportDisplaySettings" xml:space="preserve">
+    <value>Параметры отображения страницы в отчете Power BI</value>
+  </data>
+  <data name="Link_ChangeTypeVisualization" xml:space="preserve">
+    <value>Изменение типа визуализации в отчете Power BI</value>
+  </data>
+  <data name="Link_ChartSorting" xml:space="preserve">
+    <value>Изменение порядка сортировки диаграммы в отчете Power BI</value>
+  </data>
+  <data name="Link_ClosingAccount" xml:space="preserve">
+    <value>Закрытие учетной записи Power BI</value>
+  </data>
+  <data name="Link_ColorFormatting" xml:space="preserve">
+    <value>Начало работы с форматированием цветом и свойствами осей</value>
+  </data>
+  <data name="Link_ColorFormattingTips" xml:space="preserve">
+    <value>Советы и рекомендации по форматированию цветом в Power BI</value>
+  </data>
+  <data name="Link_ComboChart" xml:space="preserve">
+    <value>Учебник. Комбинированная диаграмма в Power BI</value>
+  </data>
+  <data name="Link_ConfigureIntune" xml:space="preserve">
+    <value>Настройка мобильных приложений в Intune</value>
+  </data>
+  <data name="Link_CopyPasteVisual" xml:space="preserve">
+    <value>Копирование и вставка визуализации в Power BI</value>
+  </data>
+  <data name="Link_CreateReport" xml:space="preserve">
+    <value>Создание нового отчета Power BI</value>
+  </data>
+  <data name="Link_CustomizeVisuals" xml:space="preserve">
+    <value>Учебник. Настройка заголовка, фона и условных обозначений визуализации</value>
+  </data>
+  <data name="Link_CustomVisualizations" xml:space="preserve">
+    <value>Пользовательские визуализации в Power BI</value>
+  </data>
+  <data name="Link_CustomVisualizationsToReport" xml:space="preserve">
+    <value>Добавление пользовательской визуализации в отчет Power BI</value>
+  </data>
+  <data name="Link_CustomXandY" xml:space="preserve">
+    <value>Учебник. Настройка свойств оси X и оси Y</value>
+  </data>
+  <data name="Link_DataRefresh" xml:space="preserve">
+    <value>Обновление данных в Power BI</value>
+  </data>
+  <data name="Link_DataRefreshCloudCsv" xml:space="preserve">
+    <value>Обновление набора данных, созданного из файла данных с разделителями-запятыми (CSV) в OneDrive</value>
+  </data>
+  <data name="Link_DataRefreshCloudExcel" xml:space="preserve">
+    <value>Обновление набора данных, созданного из книги Excel (в облаке)</value>
+  </data>
+  <data name="Link_DataRefreshDesktopCloud" xml:space="preserve">
+    <value>Обновление набора данных, созданного из файла Power BI Desktop в OneDrive (в облаке)</value>
+  </data>
+  <data name="Link_DataRefreshDesktopLocal" xml:space="preserve">
+    <value>Обновление набора данных, созданного из файла Power BI Desktop в OneDrive (на локальном диске)</value>
+  </data>
+  <data name="Link_DataRefreshLocalExcel" xml:space="preserve">
+    <value>Обновление набора данных, созданного из книги Excel (на локальном диске)</value>
+  </data>
+  <data name="Link_DeleteAReport" xml:space="preserve">
+    <value>Удаление отчета из Power BI</value>
+  </data>
+  <data name="Link_DeletePageFromReport" xml:space="preserve">
+    <value>Удаление страницы из отчета Power BI</value>
+  </data>
+  <data name="Link_DeleteVisual" xml:space="preserve">
+    <value>Удаление визуализации в Power BI</value>
+  </data>
+  <data name="Link_DirectConnectSpark" xml:space="preserve">
+    <value>Spark на HDInsight с поддержкой DirectQuery</value>
+  </data>
+  <data name="Link_DirectQuerySql" xml:space="preserve">
+    <value>База данных SQL Azure с DirectQuery</value>
+  </data>
+  <data name="Link_DirectQuerySqlDW" xml:space="preserve">
+    <value>Хранилище данных SQL Azure с DirectQuery</value>
+  </data>
+  <data name="Link_DisablePrivacyIssues" xml:space="preserve">
+    <value>Отключение параметров конфиденциальности</value>
+  </data>
+  <data name="Link_DoughnutCharts" xml:space="preserve">
+    <value>Учебник. Кольцевые диаграммы в Power BI</value>
+  </data>
+  <data name="Link_DownloadCustomVisual" xml:space="preserve">
+    <value>Загрузка и использование пользовательских визуальных элементов из магазина Office</value>
+  </data>
+  <data name="Link_DrillVisual" xml:space="preserve">
+    <value>Детализация в визуализации в Power BI</value>
+  </data>
+  <data name="Link_DuplicateReportPage" xml:space="preserve">
+    <value>Дублирование страницы отчета в Power BI</value>
+  </data>
+  <data name="Link_EditingView" xml:space="preserve">
+    <value>Переход из режима чтения в режим правки в Power BI</value>
+  </data>
+  <data name="Link_EditorTakeTour" xml:space="preserve">
+    <value>Знакомство с редактором отчетов</value>
+  </data>
+  <data name="Link_ExportFromVisualization" xml:space="preserve">
+    <value>Экспорт данных из визуализации</value>
+  </data>
+  <data name="Link_FilledMaps" xml:space="preserve">
+    <value>Учебник. Картограммы (хороплеты) в Power BI</value>
+  </data>
+  <data name="Link_FiltersAndHighlighting" xml:space="preserve">
+    <value>О фильтрах и выделении в отчетах Power BI</value>
+  </data>
+  <data name="Link_ForgotPassword" xml:space="preserve">
+    <value>Забыли пароль для Power BI?</value>
+  </data>
+  <data name="Link_FunnelCharts" xml:space="preserve">
+    <value>Учебник. Воронкообразные диаграммы в Power BI</value>
+  </data>
+  <data name="Link_GetDataIn" xml:space="preserve">
+    <value>Получение данных из файлов</value>
+  </data>
+  <data name="Link_Histograms" xml:space="preserve">
+    <value>Гистограммы</value>
+  </data>
+  <data name="Link_HistogramsTips" xml:space="preserve">
+    <value>Советы и рекомендации для визуализаций карт Power BI</value>
+  </data>
+  <data name="Link_HyperlinksInTables" xml:space="preserve">
+    <value>Гиперссылки в таблицах</value>
+  </data>
+  <data name="Link_HyperLinkToTextbox" xml:space="preserve">
+    <value>Добавление гиперссылки в текстовое поле в отчете Power BI</value>
+  </data>
+  <data name="Link_InteractEditingView" xml:space="preserve">
+    <value>Взаимодействие с отчетом в режиме редактирования в Power BI</value>
+  </data>
+  <data name="Link_InteractReadingView" xml:space="preserve">
+    <value>Взаимодействие с отчетом в режиме чтения в Power BI</value>
+  </data>
+  <data name="Link_ManageCapacity" xml:space="preserve">
+    <value>Управление емкостью данных в Power BI</value>
+  </data>
+  <data name="Link_MoveVisual" xml:space="preserve">
+    <value>Перемещение визуализации в отчете Power BI, изменение ее размеров и открытие в новом окне</value>
+  </data>
+  <data name="Link_OfficeDedicatedIssues" xml:space="preserve">
+    <value>Известные проблемы с выделенными пользователями Office 365</value>
+  </data>
+  <data name="Link_PersonalGateway" xml:space="preserve">
+    <value>Шлюз Power BI — персональный</value>
+  </data>
+  <data name="Link_PersonalGatewayTroubleshoot" xml:space="preserve">
+    <value>Устранение неполадок с Power BI Gateway - Personal</value>
+  </data>
+  <data name="Link_PublishFromExcel" xml:space="preserve">
+    <value>Учебник: быстрое превращение книги Excel в красивый отчет</value>
+  </data>
+  <data name="Link_PurchasingPro" xml:space="preserve">
+    <value>Приобретение Power BI Pro</value>
+  </data>
+  <data name="Link_RadialGauge" xml:space="preserve">
+    <value>Учебник. Диаграммы "Радиальный датчик" в Power BI</value>
+  </data>
+  <data name="Link_ReadingView" xml:space="preserve">
+    <value>Открытие отчета Power BI в режиме чтения</value>
+  </data>
+  <data name="Link_ReduceExcel" xml:space="preserve">
+    <value>Уменьшение размера книги Excel для ее просмотра в Power BI</value>
+  </data>
+  <data name="Link_RenameReport" xml:space="preserve">
+    <value>Переименование отчета в Power BI</value>
+  </data>
+  <data name="Link_ReorderPages" xml:space="preserve">
+    <value>Изменение порядка страниц отчета в Power BI</value>
+  </data>
+  <data name="Link_SameAzureAccount" xml:space="preserve">
+    <value>Использование одних и тех же учетных данных для входа в Power BI и Azure</value>
+  </data>
+  <data name="Link_SapHana" xml:space="preserve">
+    <value>Управление источником данных предприятия — SAP HANA</value>
+  </data>
+  <data name="Link_SaveAReport" xml:space="preserve">
+    <value>Сохранение отчета в Power BI</value>
+  </data>
+  <data name="Link_ScatterCharts" xml:space="preserve">
+    <value>Учебник: точечные диаграммы в Power BI</value>
+  </data>
+  <data name="Link_ScheduledSqlRefresh" xml:space="preserve">
+    <value>Устранение неполадок с запланированным обновлением для баз данных SQL Azure</value>
+  </data>
+  <data name="Link_Security" xml:space="preserve">
+    <value>Безопасность Power BI</value>
+  </data>
+  <data name="Link_SigningUpWithOffice" xml:space="preserve">
+    <value>Регистрация в Power BI с новой пробной версией Office 365</value>
+  </data>
+  <data name="Link_Slicers" xml:space="preserve">
+    <value>Учебник: срезы в Power BI</value>
+  </data>
+  <data name="Link_Sql" xml:space="preserve">
+    <value>Управление источником данных предприятия — SQL</value>
+  </data>
+  <data name="Link_SSASTabular" xml:space="preserve">
+    <value>Динамические данные служб SQL Server Analysis Services в Power BI</value>
+  </data>
+  <data name="Link_TextboxesReports" xml:space="preserve">
+    <value>Текстовые поля в отчетах Power BI</value>
+  </data>
+  <data name="Link_TileErrors" xml:space="preserve">
+    <value>Устранение неполадок с плитками</value>
+  </data>
+  <data name="Link_Treemaps" xml:space="preserve">
+    <value>Учебник. Древовидные диаграммы в Power BI</value>
+  </data>
+  <data name="Link_TroubleshootingRefreshScenarios" xml:space="preserve">
+    <value>Устранение неполадок в сценариях обновления</value>
+  </data>
+  <data name="Link_TutorialChangeReport" xml:space="preserve">
+    <value>Учебник. Изменение параметров отображения для страницы в отчете Power BI</value>
+  </data>
+  <data name="Link_UnableToAddOfficePartner" xml:space="preserve">
+    <value>Невозможно добавить Power BI к партнеру по распространению Office 365</value>
+  </data>
+  <data name="Link_UnsupportedData" xml:space="preserve">
+    <value>Устранение неполадок с источником данных, не поддерживающим обновление</value>
+  </data>
+  <data name="Link_UseAReportFilter" xml:space="preserve">
+    <value>Использование фильтров отчетов</value>
+  </data>
+  <data name="Link_Visualizations" xml:space="preserve">
+    <value>Визуализации в Power BI</value>
+  </data>
+  <data name="Link_VisualizationTypes" xml:space="preserve">
+    <value>Типы визуализаций в Power BI</value>
+  </data>
+  <data name="Link_Waterfall" xml:space="preserve">
+    <value>Учебник. Каскадные диаграммы в Power BI</value>
+  </data>
+  <data name="Link_GetDataCSV" xml:space="preserve">
+    <value>Получение данных из файлов с разделителями-запятыми (CSV-файлов)</value>
+  </data>
+  <data name="Link_GetDataDesktop" xml:space="preserve">
+    <value>Получение данных из файлов Power BI Desktop</value>
+  </data>
+  <data name="Link_GetDataFromExcel" xml:space="preserve">
+    <value>Публикация в Power BI из Excel 2016</value>
+  </data>
+  <data name="Link_WholeExcel" xml:space="preserve">
+    <value>Получение данных из файлов книг Excel</value>
+  </data>
+  <data name="Link_AdminPortal" xml:space="preserve">
+    <value>Портал администрирования</value>
+  </data>
+  <data name="Link_Aggregates" xml:space="preserve">
+    <value>Статистические функции (сумма, среднее, максимум и т. д.) в Power BI</value>
+  </data>
+  <data name="Link_AlpineMetrics" xml:space="preserve">
+    <value>Пакет содержимого Alpine Metrics для прогнозирования продаж</value>
+  </data>
+  <data name="Link_AnalyzeExcelTroubleshoot" xml:space="preserve">
+    <value>Анализ устранения неполадок в Excel</value>
+  </data>
+  <data name="Link_AnalyzeInExcel" xml:space="preserve">
+    <value>Анализ в Excel</value>
+  </data>
+  <data name="Link_AzureDirectory" xml:space="preserve">
+    <value>Регистрация пользовательского каталога Azure</value>
+  </data>
+  <data name="Link_AzureSearch" xml:space="preserve">
+    <value>Пакет содержимого Поиска Azure</value>
+  </data>
+  <data name="Link_AzureSecurity" xml:space="preserve">
+    <value>Пакет содержимого центра безопасности Azure</value>
+  </data>
+  <data name="Link_ClickDimensions" xml:space="preserve">
+    <value>Пакет содержимого ClickDimensions</value>
+  </data>
+  <data name="Link_ConfigureProxy" xml:space="preserve">
+    <value>Параметры настройки прокси-сервера</value>
+  </data>
+  <data name="Link_DashboardsInPowerBI" xml:space="preserve">
+    <value>Панели мониторинга в Power BI</value>
+  </data>
+  <data name="Link_DynamicsAX" xml:space="preserve">
+    <value>Пакет содержимого Microsoft Dynamics AX</value>
+  </data>
+  <data name="Link_ExcelError" xml:space="preserve">
+    <value>Ошибка. Не удалось найти данные в книге Excel</value>
+  </data>
+  <data name="Link_ExpressRoute" xml:space="preserve">
+    <value>Power BI и ExpressRoute</value>
+  </data>
+  <data name="Link_FavoriteDashboards" xml:space="preserve">
+    <value>Избранные панели мониторинга в Power BI</value>
+  </data>
+  <data name="Link_FeaturedDashboards" xml:space="preserve">
+    <value>Основные панели мониторинга в Power BI</value>
+  </data>
+  <data name="Link_FreePowerBI" xml:space="preserve">
+    <value>Бесплатная версия Power BI в вашей организации</value>
+  </data>
+  <data name="Link_GatewayEnterpriseData" xml:space="preserve">
+    <value>Использование раздела "Вопросы и ответы" — данные предприятия (предварительная версия)</value>
+  </data>
+  <data name="Link_Governance" xml:space="preserve">
+    <value>Подходы к управлению и развертыванию Power BI</value>
+  </data>
+  <data name="Link_ImportScheduledRefresh" xml:space="preserve">
+    <value>Управление источником данных предприятия — импорт или запланированное обновление</value>
+  </data>
+  <data name="Link_Insightly" xml:space="preserve">
+    <value>Пакет содержимого Insightly</value>
+  </data>
+  <data name="Link_IntelliBoard" xml:space="preserve">
+    <value>Пакет содержимого IntelliBoard</value>
+  </data>
+  <data name="Link_KPIVisuals" xml:space="preserve">
+    <value>Визуальные элементы ключевых показателей эффективности</value>
+  </data>
+  <data name="Link_OrganizationalContentPacksIntro" xml:space="preserve">
+    <value>Знакомство с пакетами содержимого организации</value>
+  </data>
+  <data name="Link_ProjectMadeira" xml:space="preserve">
+    <value>Пакет содержимого Project Madeira</value>
+  </data>
+  <data name="Link_QRCodeForReport" xml:space="preserve">
+    <value>Создание QR-кода для отчета</value>
+  </data>
+  <data name="Link_RowLevel" xml:space="preserve">
+    <value>Безопасность на уровне строк при использовании Power BI</value>
+  </data>
+  <data name="Link_ScheduledRefresh" xml:space="preserve">
+    <value>Настройка запланированного обновления</value>
+  </data>
+  <data name="Link_Troux" xml:space="preserve">
+    <value>Пакет содержимого Troux</value>
+  </data>
+  <data name="Link_VisualInteraction" xml:space="preserve">
+    <value>Изменение способа взаимодействия визуальных элементов в отчете</value>
+  </data>
+  <data name="Link_WindowsDevCenter" xml:space="preserve">
+    <value>Пакет содержимого Центра разработки для Windows</value>
+  </data>
+  <data name="Link_Ziosk" xml:space="preserve">
+    <value>Пакет содержимого Ziosk</value>
+  </data>
+  <data name="Link_Zuora" xml:space="preserve">
+    <value>Пакет содержимого Zuora</value>
+  </data>
+  <data name="Link_GatewayOnPrem" xml:space="preserve">
+    <value>Локальный шлюз данных</value>
+  </data>
+  <data name="Link_GatewayOnPremFaq" xml:space="preserve">
+    <value>Вопросы и ответы по локальному шлюзу данных</value>
+  </data>
+  <data name="Link_GatewayOnPremInDepth" xml:space="preserve">
+    <value>Локальный шлюз данных во всех подробностях</value>
+  </data>
+  <data name="Link_GatewayOnPremTshoot" xml:space="preserve">
+    <value>Устранение неполадок локального шлюза данных</value>
+  </data>
+  <data name="Link_Prevedere" xml:space="preserve">
+    <value>Пакет содержимого Prevedere</value>
+  </data>
+  <data name="Link_Xero" xml:space="preserve">
+    <value>Пакет содержимого Xero</value>
+  </data>
+  <data name="Link_ReportsSeeData" xml:space="preserve">
+    <value>Просмотр данных, использовавшихся для создания визуализации</value>
+  </data>
+  <data name="Link_AdminAuditing" xml:space="preserve">
+    <value>Аудит Power BI</value>
+  </data>
+  <data name="Link_O365PortalRetired" xml:space="preserve">
+    <value>Переход от Power BI для Office 365 к Power BI</value>
+  </data>
+  <data name="Link_CreatePhoneViewDashboard" xml:space="preserve">
+    <value>Создание представления панели мониторинга для телефонов</value>
+  </data>
+  <data name="Link_ServiceNotificationCenter" xml:space="preserve">
+    <value>Единый центр уведомлений Power BI</value>
+  </data>
+  <data name="Link_RenameReportPage" xml:space="preserve">
+    <value>Переименование страницы отчета в Power BI</value>
+  </data>
+  <data name="Link_ReportTipsTricks" xml:space="preserve">
+    <value>Советы и рекомендации по созданию отчетов в службе Power BI</value>
+  </data>
+  <data name="Link_GatewayOnPremOracle" xml:space="preserve">
+    <value>Управление источником данных — Oracle</value>
+  </data>
+  <data name="Link_ServiceSetAlerts" xml:space="preserve">
+    <value>Оповещения о данных в службе Power BI</value>
+  </data>
+  <data name="Link_ServiceNow" xml:space="preserve">
+    <value>Пакет содержимого для инцидентов ServiceNow</value>
+  </data>
+  <data name="Link_WhereIsMyTenant" xml:space="preserve">
+    <value>Где располагается мой клиент?</value>
+  </data>
+  <data name="Link_DataClassification" xml:space="preserve">
+    <value>Классификация данных панели мониторинга</value>
+  </data>
+  <data name="Link_XeroCredentialsRefresh" xml:space="preserve">
+    <value>Как обновить учетные данные для пакета содержимого Xero в случае сбоя обновления</value>
+  </data>
+  <data name="Link_LiveStreaming" xml:space="preserve">
+    <value>Потоковая передача в реальном времени в Power BI (предварительная версия)</value>
+  </data>
+  <data name="Link_RVisuals" xml:space="preserve">
+    <value>Сложная аналитика и создание расширенных визуализаций с помощью скриптов R в Power BI</value>
+  </data>
+  <data name="Link_ArcGIS" xml:space="preserve">
+    <value>Учебник. ArcGIS в Power BI</value>
+  </data>
+  <data name="Link_PowerPoint" xml:space="preserve">
+    <value>Публикация в PowerPoint</value>
+  </data>
+  <data name="Link_NewNav" xml:space="preserve">
+    <value>Новый интерфейс навигации по Power BI</value>
+  </data>
+  <data name="Link_PreviewFeatures" xml:space="preserve">
+    <value>Испытайте предварительные версии функций Power BI</value>
+  </data>
+  <data name="Link_EmbedReportSPO" xml:space="preserve">
+    <value>Встраивание отчета в SharePoint Online</value>
+  </data>
+  <data name="Link_GovUSOverview" xml:space="preserve">
+    <value>Power BI для правительства США</value>
+  </data>
+  <data name="Link_GovUSSignup" xml:space="preserve">
+    <value>Внедрите Power BI в своей правительственной организации</value>
+  </data>
+  <data name="Link_TipsGettingHelp" xml:space="preserve">
+    <value>10 советов по получению помощи</value>
+  </data>
+  <data name="Area_Resources" xml:space="preserve">
+    <value>Ресурсы</value>
+  </data>
+  <data name="Link_Whitepapers" xml:space="preserve">
+    <value>Технические документы</value>
+  </data>
+  <data name="Meta_LocJobId" xml:space="preserve">
+    <value>212</value>
+  </data>
+</root>

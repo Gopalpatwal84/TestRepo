@@ -1,0 +1,595 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" id="root">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="About_Content" xml:space="preserve">
+    <value>&lt;p&gt;Der Kurs „Durchsuchen von Daten“ enthält Tutorials zu den folgenden Aktionen mit Microsoft Power BI: 
+&lt;ul&gt;&lt;li&gt;Erfahren Sie, wie Sie Histogramme sowie Kastengrafikdiagramme erstellen, um Datenverteilungen zu untersuchen. Sehen Sie, wie Sie Daten laden, Änderungen anwenden, Abfragen anpassen, mehrere Datasets zusammenführen und benutzerdefinierte Visualisierungen nutzen, um Ihre Analysen zu erweitern.&lt;/li&gt;
+&lt;li&gt;Entdecken Sie mithilfe einer Zeitreihenanalyse-Demo, wie Sie die Daten im Kontext interpretieren und aus unterschiedlichen Perspektiven untersuchen. Erfahren Sie, wie Sie ein einfaches Liniendiagramm erstellen, eine Trendlinie hinzufügen, saisonale und Zufallsdaten analysieren und ein R-Skript verwenden.&lt;/li&gt;
+&lt;li&gt;Erhalten Sie einen Überblick über das Erstellen einer Visualisierung mit mehreren verknüpften Grafiken.&lt;/li&gt;&lt;/ul&gt;
+&lt;/p&gt;</value>
+  </data>
+  <data name="Article_Content10_2" xml:space="preserve">
+    <value>&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;Geben Sie den folgenden Code&lt;/strong&gt; im Editor ein (siehe entsprechende Erklärung), und klicken Sie auf &lt;strong&gt;OK&lt;/strong&gt;.&lt;ol&gt;&lt;li&gt;&lt;p&gt; Wird von der Bibliothek für diese R-Sitzung verwendet. Sie müssen die Pakete nur einmal installieren, jedoch bei jeder Verwendung eines Pakets den library-Befehl verwenden.&lt;/p&gt;
+  &lt;p&gt;library(Ecdat)&lt;/p&gt;
+&lt;p&gt;library(fpp)&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt; Hier erstellen wir ein Zeitreihenobjekt anhand der vierten Spalte. Die Häufigkeit beträgt ab Januar 2002 12 Monate im Jahr.&lt;/p&gt;&lt;p&gt;input &amp;lt;- ts(dataset[,4], frequency = 12, start = c(2002,1))&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;Um den Trend zu ermitteln, berechnen wir den monatlichen gleitenden Durchschnitt [in Tutorial 1 zur globalen Temperaturveränderung finden Sie Informationen darüber, wie Sie einen gleitenden Durchschnitt mithilfe von DAX berechnen].&lt;/p&gt;
+  &lt;p&gt;trend = ma(input, order = 12, centre = T)&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Um die Saisonalität in den Daten herauszustellen, wird der Trend der Zeitreihe „aufgehoben“, indem er entfernt wird.&lt;/p&gt;
+  &lt;p&gt;detrend = input / trend&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;Wir teilen das Dataset in eine Matrix auf und gruppieren alle Daten desselben Monats (nach Spalte).&lt;/p&gt;
+&lt;p&gt;m = t(matrix(data = detrend, nrow = 12))&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Anhand des Mittelwerts der Matrix wird die Saisonalität erkennbar.&lt;/p&gt;
+  &lt;p&gt;seasonal = colMeans(m, na.rm = T)&lt;/p&gt;
+&lt;p&gt;seasonalData &amp;lt;- c()&lt;/p&gt;
+&lt;p&gt;for(i in 1:13)&lt;/p&gt;
+&lt;p&gt;{&lt;/p&gt;
+&lt;p&gt;seasonalData &amp;lt;- c(seasonal, seasonalData)&lt;/p&gt;
+&lt;p&gt;}&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt; Nun können wir das Rauschen isolieren, indem wir die Zeitreihe durch den Trendzyklus dividieren.&lt;/p&gt;
+  &lt;p&gt;random = input /(trend * seasonal)&lt;/p&gt;
+&lt;/li&gt;&lt;li&gt;&lt;p&gt;Die Ergebnisse werden in eine neue Tabelle geschrieben, wobei die Ausgabe mit dem ursprünglichen Dataset kombiniert wird.&lt;/p&gt;
+  &lt;p&gt;output&amp;lt;- data.frame(seasonalData, trend, random, dataset)&lt;/p&gt;
+&lt;/li&gt;&lt;/ol&gt;&lt;/li&gt;
+&lt;li&gt;Erweitern Sie die Tabelle, die erstellt wurde, und ändern Sie den Datentyp der Spalte &lt;strong&gt;Datum&lt;/strong&gt; wieder in das Datum.&lt;p&gt;&lt;img src="{0}" alt="" title="" /&gt;&lt;/p&gt;
+&lt;p&gt;Sie können auch die Spalte &lt;strong&gt;Name&lt;/strong&gt; löschen, da sie lediglich eine Bezeichnung „output“ für die einzelnen Zeilen enthält.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Schließen und übernehmen&lt;/strong&gt;. Verwenden Sie die neu erstellten Spalten, um Saisonalität, Trends sowie Rauschen im Laufe der Zeit darzustellen. 
+&lt;p&gt;&lt;img src="{1}" alt="" title="" /&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;</value>
+  </data>
+  <data name="Article_Content11_4" xml:space="preserve">
+    <value>&lt;p&gt;&lt;img src="{0}" alt="" title="" /&gt;&lt;/p&gt;
+
+&lt;p&gt;Beachten Sie, dass das Säulendiagramm ein allgemeines Muster darstellt, im Liniendiagramm hingegen eine deutlichere Trendänderung angezeigt wird. Experimentieren Sie, und wechseln Sie zwischen Säulen- und Liniendiagramm, um zu sehen, wie die Daten jeweils dargestellt werden. Sie sollten auch beachten, dass die zugrunde liegenden Measures die Darstellung des Trends und die Aussage der Daten verändern.&lt;/p&gt;
+
+&lt;p&gt;Auch beim Analysieren von Daten ist es wichtig, diese aus verschiedenen Perspektiven zu prüfen. In der folgenden Visualisierung zeigen die Trends in &lt;strong&gt;CO2-Emissionen (metrische Tonnen pro Kopf)&lt;/strong&gt; und &lt;strong&gt;CO2-Emissionen (kg pro Kopf\US$ BIP&lt;/strong&gt;) ganz unterschiedliche Aspekte auf. Experimentieren Sie mit Power BI, um die anderen Metriken für den CO2-Ausstoß zu visualisieren, interessante Trends zu erkennen und zu überlegen, aus welchem Grund diese Trends auftreten.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src="{1}" alt="" title="" /&gt;&lt;/p&gt;
+
+&lt;h3&gt;Schritt 2: Beziehungen zwischen Daten&lt;/h3&gt;
+
+&lt;p&gt;In einem vorangegangenen Tutorial wurde das Zusammenführen von Daten behandelt. Power BI bietet eine weitere Möglichkeit, wie Sie mit mehreren Datentabellen arbeiten können: Beziehungen.&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;Öffnen Sie die Datei &lt;strong&gt;Where does your electricity come from final.pbix&lt;/strong&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Klicken Sie auf der linken Symbolleiste auf die Schaltfläche &lt;strong&gt;Beziehungen&lt;/strong&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Wählen Sie die Verbindungslinie zwischen den beiden Tabellen aus, um anzuzeigen, welche Felder die beiden Beziehungen miteinander verbinden.&lt;/p&gt;
+
+&lt;p&gt;a. Um zu erfahren, wie Sie Beziehungen zwischen Tabellen erstellen und verwalten, &lt;a href="{2}"&gt;klicken Sie hier&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;img src="{3}" alt="" title="" /&gt;&lt;/p&gt;</value>
+  </data>
+  <data name="Article_Content12_4" xml:space="preserve">
+    <value>&lt;h3&gt;Schritt 3: Datenberechnungen mithilfe von DAX-Ausdrücken&lt;/h3&gt;
+
+&lt;p&gt;Power BI stellt Standarddatenberechnungen bereit, die zahlreiche Szenarios abdecken. In manchen Fällen benötigen Sie aber vielleicht mehr Steuerungsmöglichkeiten. Power BI bietet eine umfangreiche Sprache für Ausdrücke namens DAX (Data Access Expressions). Als Ausgangspunkt empfiehlt es sich, das Thema &lt;a href="{0}"&gt;Schnellstart: DAX-Grundlagen&lt;/a&gt; durchzugehen.&lt;/p&gt;
+
+&lt;p&gt;In diesem Tutorial werden zwei nützliche Ausdrücke erläutert, die insbesondere beim Daten-Storytelling hilfreich sind.&lt;/p&gt;
+
+&lt;h4&gt;Erstellen eines benutzerdefinierten Farbschemas mit einem DAX-Ausdruck&lt;/h4&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;Wählen Sie im Menüband &lt;strong&gt;Modellierung&lt;/strong&gt; die Option &lt;strong&gt;Neue Spalte&lt;/strong&gt; aus.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Geben Sie im Ausdrucks-Editor den folgenden Ausdruck ein:&lt;/p&gt;
+
+&lt;p&gt;Hervorgehobenes Land = if('Metadaten - Länder'[Landesname] = "Frankreich", "Hervorhebung", if('Metadaten - Länder'[Landesname] = "Dänemark", "Hervorhebung", if('Metadaten - Länder'[Landesname] = "Polen", "Hervorhebung", "Sonstige")))&lt;/p&gt;
+
+&lt;p&gt;Hinweis: Der Ausdruck wählt spezifische Werte aus dem Feld &lt;strong&gt;Landesname&lt;/strong&gt; aus und weist diese der Kategorie &lt;strong&gt;Hervorhebung&lt;/strong&gt; zu. Die restlichen Werte werden der Kategorie &lt;strong&gt;Sonstige&lt;/strong&gt; zugeordnet.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Klicken Sie auf das &lt;strong&gt;Häkchen&lt;/strong&gt; auf der linken Editor-Seite.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Fügen Sie die Spalte &lt;strong&gt;Hervorgehobenes Land&lt;/strong&gt; zur Eigenschaft &lt;strong&gt;Legende&lt;/strong&gt; einer Power BI-Visualisierung hinzu (z. B. ein Flächenkartogramm, wie im Folgenden gezeigt):&lt;/p&gt;
+
+&lt;p&gt;a. Legen Sie &lt;strong&gt;Standort&lt;/strong&gt; auf &lt;strong&gt;Landesname&lt;/strong&gt; fest.&lt;/p&gt;
+
+&lt;p&gt;b. Legen Sie &lt;strong&gt;Legende&lt;/strong&gt; auf &lt;strong&gt;Hervorgehobenes Land&lt;/strong&gt; fest.&lt;/p&gt;
+
+&lt;p&gt;c. Legen Sie &lt;strong&gt;Farbsättigung&lt;/strong&gt; auf &lt;strong&gt;Ländercode&lt;/strong&gt; fest.&lt;/p&gt;
+
+&lt;pre&gt;i.  Hinweis: Dies wird als **Anzahl von Ländercode** angezeigt.
+&lt;/pre&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Erweitern Sie im Bereich &lt;strong&gt;Formatierung&lt;/strong&gt; die Option &lt;strong&gt;Datenfarben&lt;/strong&gt;.&lt;/p&gt;&lt;p&gt;a. Legen Sie die Farbe für &lt;strong&gt;Emphasis&lt;/strong&gt; auf &lt;strong&gt;Gelb&lt;/strong&gt; fest.&lt;/p&gt;
+&lt;p&gt;b. Legen Sie die Farbe für &lt;strong&gt;Other&lt;/strong&gt; auf ein dunkles &lt;strong&gt;Grau&lt;/strong&gt; fest.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;img src="{1}" alt="" title="" /&gt;&lt;/p&gt;
+
+&lt;p&gt;Die sich ergebende Karte sieht so aus:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src="{2}" alt="" title="" /&gt;&lt;/p&gt;
+
+&lt;h4&gt;Erstellen einer Beschriftung, die nur bei Auswahl eines einzelnen Werts angezeigt wird&lt;/h4&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;Wählen Sie im Menüband &lt;strong&gt;Modellierung&lt;/strong&gt; die Option &lt;strong&gt;Neues Measure&lt;/strong&gt; aus.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Geben Sie im Ausdrucks-Editor den folgenden Ausdruck ein:&lt;/p&gt;&lt;/li&gt;
+  &lt;p&gt;Ausgewählter Landesname = if(HASONEVALUE('Metadaten - Länder'[Landesname]), VALUES('Metadaten - Länder'[Landesname]) &amp;amp; " ist ausgewählt", "")&lt;/p&gt;
+&lt;p&gt;Hinweis: Der Ausdruck überprüft, ob nur ein &lt;strong&gt;Landesname&lt;/strong&gt; ausgewählt ist, um eine spezifische Zeichenfolge anzuzeigen. Andernfalls wird kein Wert angezeigt.&lt;/p&gt;
+&lt;li&gt;&lt;p&gt;Klicken Sie auf das &lt;strong&gt;Häkchen&lt;/strong&gt; auf der linken Editor-Seite.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Fügen Sie der Seite im Bereich „Visualisierung“ eine &lt;strong&gt;Kartenvisualisierung&lt;/strong&gt; hinzu.&lt;/p&gt;
+
+&lt;p&gt;a. Legen Sie „Felder“ auf &lt;strong&gt;Ausgewählter Ländername&lt;/strong&gt; fest.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Dieser Wert ist leer.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;Wählen Sie ein Land&lt;/strong&gt; auf der Karte aus.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Die Beschriftung wird angezeigt.&lt;/p&gt;
+
+&lt;p&gt;Hinweis: Für eine alternative Ansicht der Daten können Sie die Visualisierung &lt;a href="{3}"&gt;Long Text Viewer&lt;/a&gt; importieren.&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;</value>
+  </data>
+  <data name="Article_Content13_5" xml:space="preserve">
+    <value>&lt;p&gt;&lt;img src="{0}" alt="" title="" /&gt;&lt;/p&gt;
+&lt;h3&gt;Schritt 4: Auswählen passender visueller Interaktionen&lt;/h3&gt;
+&lt;p&gt;Power BI führt standardmäßig die Filterung und übergreifende Hervorhebung der Daten aus. Sie sollten die Standardinteraktionen überprüfen und optimieren, damit die Daten bestmöglich präsentiert werden.&lt;/p&gt;
+&lt;p&gt;Beachten Sie, dass in der Karte das gruppierte Säulendiagramm standardmäßig übergreifend hervorgehoben wird.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Wählen Sie auf der Karte &lt;strong&gt;Frankreich&lt;/strong&gt; aus, und sehen Sie sich das unten gezeigte Ergebnis an.&lt;/li&gt;
+&lt;p&gt;&lt;img src="{1}" alt="" title="" /&gt;&lt;/p&gt;
+
+&lt;p&gt;So steuern Sie die visuellen Interaktionen:&lt;/p&gt;
+&lt;li&gt;&lt;p&gt;Im Menüband &lt;strong&gt;Format&lt;/strong&gt;:&lt;/p&gt;
+&lt;p&gt;a. Klicken Sie auf die Schaltfläche &lt;strong&gt;Interaktionen bearbeiten&lt;/strong&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;p&gt;&lt;img src="{2}" alt="" title="" /&gt;&lt;/p&gt;
+&lt;li&gt;&lt;p&gt;Wählen Sie die &lt;strong&gt;Karte&lt;/strong&gt; aus.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Beachten Sie die Symbolleiste, die im &lt;strong&gt;gestapelten Säulendiagramm (100%)&lt;/strong&gt; angezeigt wird.&lt;/p&gt;&lt;/li&gt;
+
+&lt;p&gt;&lt;img src="{3}" alt="" title="" /&gt;&lt;/p&gt;
+&lt;li&gt;&lt;p&gt;Wählen Sie auf der Symbolleiste das Filtersymbol aus. Jetzt wird der Trend für Frankreich im gestapelten Säulendiagramm (100 %) übersichtlicher dargestellt.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src="{4}" alt="" title="" /&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;</value>
+  </data>
+  <data name="Article_Content14_2" xml:space="preserve">
+    <value>&lt;p&gt;Hinweis: Das Problem, das sich bei Verwendung eines Prozentsatzes des Gesamtwerts mit den Daten ergibt, wird detaillierter in &lt;strong&gt;Teil 2: Ergänzung beim Prozentsatz des Gesamtwerts&lt;/strong&gt; erörtert.&lt;/p&gt;
+&lt;h2&gt;Teil 2: Ergänzung beim Prozentsatz des Gesamtwerts&lt;/h2&gt;
+&lt;p&gt;Im Kursmaterial wurde das folgende Diagramm vorgestellt. Dabei wurden Sie darauf hingewiesen, bei der Verwendung von Daten und Aggregationen vorsichtig vorzugehen. Der Grund dafür ist, dass die Werte für die Erstellung des Diagramms als „% des Gesamtwerts“ dargestellt werden. Für die Aggregation wird in diesem Diagramm also ein Prozentsatz verwendet. Dies kann zu einem typischen Datenfehler in der Analyse führen: Die Zusammenfassung aggregierter Daten mit SUM, AVERAGE oder anderen Aggregaten ist für die zugrunde liegenden Daten nicht repräsentativ. Sehen wir uns das in diesem Fall einmal an.&lt;/p&gt;
+&lt;p&gt;&lt;img src="{0}" alt="" title="" /&gt;&lt;/p&gt;
+&lt;p&gt;Abbildung 1: Beim ersten Laden des Diagramms ist kein Land ausgewählt. Daher wird das SUM-Aggregat auf die zugrunde liegenden Daten angewendet, das in diesem Fall ein Prozentsatz ist. Die Gesamtsumme aller Prozentwerte wird dann angezeigt und visuell codiert. Dies ist fehlerhaft.&lt;/p&gt;
+&lt;p&gt;Die zugrunde liegenden Daten in diesem Dataset werden anhand der folgenden Datenspalten identifiziert:&lt;/p&gt;
+&lt;h3&gt;Wert(e) von „Jahr“ und „Land“&lt;/h3&gt;
+&lt;p&gt;Werte im Dataset, die Prozentsätze, Durchschnittswerte, Mediane usw. sind, können nur dann richtig angezeigt werden, wenn sowohl „Jahr“ als auch „Land“ einen einzelnen Wert enthalten. Einige Felder sind additiv, zum Beispiel &lt;strong&gt;Bevölkerung, gesamt,&lt;/strong&gt; und können über mehrere &lt;strong&gt;Länder&lt;/strong&gt; hinweg für ein bestimmtes &lt;strong&gt;Jahr&lt;/strong&gt;, aber nicht über mehrere &lt;strong&gt;Jahre&lt;/strong&gt; hinweg aggregiert werden. Im Diagramm oben ist nur eines dieser zwei Elemente vorhanden: &lt;strong&gt;Jahr&lt;/strong&gt; auf der x-Achse.&lt;/p&gt;
+&lt;p&gt;Im Kurs wurde die Kartenvisualisierung vorgestellt. Wir haben ein Land auf der Karte ausgewählt, und im Diagramm wurden plötzlich die korrekten Daten angezeigt. Im folgenden Beispiel haben wir Frankreich ausgewählt, und im Diagramm werden die erwarteten Daten angezeigt. In der QuickInfo sehen Sie, dass der an die Visualisierung übergebene Wert und der von der Visualisierung codierte Wert (der Prozentsatz in Klammern) übereinstimmen.&lt;/p&gt;
+&lt;p&gt;&lt;img src="{1}" alt="" title="" /&gt;&lt;/p&gt;
+&lt;p&gt;Abbildung 2: Wenn ein einzelnes Land ausgewählt ist, ist die Kombination aus Jahr und Land gegeben, und die Daten werden richtig angezeigt. Die QuickInfo bestätigt, dass der aggregierte Prozentsatz und der tatsächliche, im Diagramm visuell codierte Prozentsatz übereinstimmen.&lt;/p&gt;
+&lt;p&gt;Bei Datenanalysen treten häufig derartige Probleme auf, bei denen das falsche Aggregat auf die falsche Granularität der Daten angewendet wird. Aus diesem Grund sollten Sie stets aufmerksam sein, damit Sie richtig definierte Visualisierungen erstellen.&lt;/p&gt;
+&lt;p&gt;Auf einige häufig auftretende Fälle müssen Sie achten. In diesem Fall liegt ein synthetisches Measure des Prozentsatzes des Gesamtwerts vor. Im Allgemeinen können Sie synthetische Measures immer nur mit genau der Granularität abbilden, mit der sie berechnet wurden. Die Aggregation ist nicht möglich. Ein durchschnittlicher Prozentsatz des Gesamtwerts für alle Länder ist beispielsweise sinnlos. Ebenso ist die Summe des Prozentsatzes des Gesamtwerts nicht aussagekräftig, es sei denn, es handelt sich um die Summe aller Bestandteile desselben aufgeschlüsselten Werts mit derselben Granularität (und die Summe sollte 100 % ergeben).&lt;/p&gt;</value>
+  </data>
+  <data name="Article_Content15" xml:space="preserve">
+    <value>&lt;p&gt;Ein weiterer häufig vorkommender Fall ist die Verwendung von Durchschnittswerten. Sollten Sie einen Durchschnittswert berechnen, verwenden und präsentieren Sie ihn mit Umsicht. Wenn Sie den Durchschnittswert eines Durchschnittswerts bilden, erzeugen Sie eine stark irreführende Ausgabe. Beispiel: Von zwei Ländern produziert eines pro Jahr 100 kWh Strom, wobei 80 % aus Kohlekraftwerken stammen. Das andere Land produziert 10 kWh Strom, wobei 50 % aus Kohlekraftwerken stammen. Wenn Sie den Durchschnittswert der Prozentsätze berechnen, würden Sie ermitteln, dass 65 % der Stromproduktion aus Kohlekraftwerken stammen. Dies ist falsch. Der korrekte Wert wäre: 80 kW + 5 kWh/110k kWh = 77 % der Stromproduktion stammen aus Kohlekraftwerken.&lt;/p&gt;
+
+&lt;p&gt;Ein tückischer Fall ist der Präzisionsverlust, der eintritt, wenn Daten extrahiert oder projiziert werden, ohne die ursprüngliche Präzision oder Granularität einzuschließen. Ein einfaches Beispiel ist das Abschneiden eines Umsatzbetrags auf den nächstgelegenen Dollarwert, wobei der Cent-Anteil der Zahl verloren geht. Bei einer Aggregation des Umsatzbetrags kann die berechnete Gesamtsumme erheblich vom Ergebnis derselben Berechnung abweichen, die im Quellsystem durchgeführt wurde. Noch schwieriger ist der Fall, wenn Personen, die Daten extrahieren, nicht über die Berechtigung zum Anzeigen aller Artikelpositionen verfügen. In der Regel wird es den Benutzern in einem Unternehmen ermöglicht, die Artikelpositionen zu extrahieren, die sie anzeigen können. Die „offizielle“ Gesamtsumme wird auf Basis aller Artikelpositionen im System berechnet, sodass die Zahlen in den verschiedenen Berichten, die für verschiedene Personen erstellt werden, übereinstimmen. Wenn Sie dann versuchen, die Artikelpositionsdaten selbst zu aggregieren, ohne die Gesamtsumme in die Gleichung einzuschließen, erhalten Sie falsche Daten.&lt;/p&gt;
+
+&lt;h3&gt;Wie lösen Sie ein derartiges Problem?&lt;/h3&gt;
+
+&lt;p&gt;Die Ursache des Problems liegt darin, dass die im Diagramm verwendeten Metriken bereits Prozentsätze sind. Um das Problem zu umgehen, müssen Sie die Prozentsätze auf Basis einer Metrik erneut berechnen, die die Granularität der Stromproduktion einschließt. Das Dataset, mit dem wir arbeiten müssen, ist leider unvollständig: Es fehlt die Metrik für die Gesamtstromproduktion nach Land. Wäre diese Metrik vorhanden, wäre die Berechnung einfach, und es wäre keine weitere Erklärung nötig. Wir würden die jährliche Stromproduktion des Landes mit dem Prozentsatz jeder Quelle multiplizieren und den resultierenden Wert in den Aggregationen verwenden.&lt;/p&gt;
+
+&lt;p&gt;Da die Daten dieses Measure jedoch nicht enthalten, müssen wir uns Alternativen überlegen. Doch zuvor denken Sie an die Faustregel: &lt;strong&gt;im Zweifelsfall lieber weglassen&lt;/strong&gt;. Ihre Aufgabe als Analyst ist es, Daten in einer narrativen oder explorativen interaktiven Datenvisualisierung korrekt zu präsentieren. Wenn Sie nicht sicher sind, ob die Daten korrekt sind, sollten Sie sie erst präsentieren, wenn Sie Gewissheit haben.&lt;/p&gt;
+
+&lt;p&gt;Zwei weitere Alternativen werde ich hier erläutern. Bei der ersten Alternative wird die Fehlberechnung im Grunde vermieden, indem sichergestellt wird, dass keine Daten zurückgegeben werden, wenn die Granularität falsch ist und Sie nicht sicher sein können, dass die Daten korrekt sind. Dies können Sie wie folgt mit einem DAX-Measure durchführen:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;strong&gt;Vorbehaltlicher Strom aus Kohle (% von gesamt) = if(AND(HASONEVALUE(Data[Ländercode]), HASONEVALUE(Data[Jahr])), SUM(Data[Strom aus Kohle (% von gesamt)]), BLANK())&lt;/strong&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Diese Formel prüft die kritischen Bedingungen und gibt nur dann einen Wert zurück. Dieses Measure wiederholen Sie für jedes Feld mit einem Prozentsatz des Gesamtwerts. Anschließend stellen Sie die Felder in einem gestapelten Säulendiagramm (100 %) dar. Das Diagramm ist so lange leer, bis ein Land ausgewählt wird. Dann werden korrekte Daten angezeigt. Dabei müssten Sie eine eindeutige Handlungsaufforderung angeben, damit Ihre Leser wissen, dass sie zunächst ein Land auswählen müssen, bevor die Daten in der Visualisierung angezeigt werden. Dennoch könnte die Leser der große leere Bereich in einer andernfalls interessanten Datenvisualisierung irritieren.&lt;/p&gt;
+
+&lt;p&gt;…&lt;/p&gt;
+
+&lt;p&gt;Bei der zweiten Alternative müssen Sie die Daten an eine Metrik zurückgeben, die aggregiert werden kann. Für dieses Beispiel wäre ein Dataset ideal, das die Stromproduktion in kWh für jedes Land zeigt. Dieses Dataset müssen wir aber erst finden.&lt;/p&gt;
+
+&lt;p&gt;Daher müssen wir einige Annahmen aufstellen, um eine allgemeine Darstellung der Metriken für Länder und Regionen zu erhalten. Annahmen sind nie perfekt und müssen mit den Beteiligten überprüft und offen besprochen werden. Es ist wichtig, dass Sie die Annahmen und Ihre Methodik erklären, wenn Sie die Datenvisualisierung veröffentlichen. Sollten Sie Ihre Annahmen nicht nennen, könnte Ihre Analyse als irreführend wahrgenommen werden, und Sie könnten in die Kritik geraten. Aus diesem Grund sollten Sie beim Aufstellen von Annahmen umsichtig vorgehen. Die Kommunikation mit den Lesern ist in diesem Fall entscheidend für den Erfolg. Die abgeleiteten oder konstruierten Werte können interessante Einblicke liefern, sofern sie in den richtigen Kontext gestellt werden.&lt;/p&gt;&lt;p&gt;Sehen wir uns nun an, wie wir in diesem Beispiel vorgehen. Die Daten enthalten eine Metrik, die der gewünschten Metrik ähnelt: &lt;strong&gt;Stromverbrauch (kWh pro Kopf)&lt;/strong&gt;. Ebenfalls enthalten ist &lt;strong&gt;Bevölkerung, gesamt&lt;/strong&gt;. Diese Metriken sind jeweils nach Land und Jahr aggregiert verfügbar. Wenn wir also annehmen, dass der Stromverbrauch und die Stromproduktion identisch sind, können wir mithilfe einiger Berechnungen eine synthetische Sicht der Produktion nach Quelle in kWh erstellen. Diese Annahme kann natürlich in Zweifel gezogen werden. So verkauft Kanada zum Beispiel regelmäßig Strom aus Wasserkraft an die USA, die diesen verbraucht. Doch hier soll eine repräsentative Annäherung der Prozentsätze der Gesamtwerte für mehrere Länder und Regionen veranschaulicht werden. Da ich die Visualisierung erstelle, muss ich entscheiden, ob das resultierende Stellvertreter-Measure sinnvoll ist, bevor ich es präsentiere.&lt;/p&gt;
+
+&lt;p&gt;Die Berechnungen in diesem Beispiel können am einfachsten durchgeführt werden, während die Daten geladen werden. Auf der Abfrageregisterkarte („Abfragen bearbeiten“ im Menüband) habe ich die Funktion „Spalte hinzufügen“ für die Datenabfrage verwendet und die neue Spalte „Synthetische Stromproduktion – Kohle“ mit der folgenden Formel hinzugefügt:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;strong&gt;[#"Bevölkerung, gesamt"] * [#"Stromverbrauch (kWh pro Kopf)"] * [#"Strom aus Kohle (% von gesamt)"] / 100&lt;/strong&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Diese Berechnung wurde für jede Stromquelle im Dataset wiederholt: Öl, Erdgas, Wasserkraft, Atomstrom und erneuerbare Energien. Das resultierende Diagramm ist unten abgebildet.&lt;/p&gt;</value>
+  </data>
+  <data name="Article_Content16_1" xml:space="preserve">
+    <value>&lt;p&gt;&lt;img src="{0}" alt="" title="" /&gt;&lt;/p&gt;
+
+&lt;p&gt;Abbildung 3: Aktualisiertes Diagramm auf Basis synthetischer Measures. Die Annahmen sind zur Information des Lesers klar angegeben. Die Namen der Measure weisen darauf hin, dass die Daten konstruiert sind.&lt;/p&gt;
+
+&lt;p&gt;Wenn Sie das Diagramm in Abbildung 3 mit dem Diagramm in Abbildung 1 vergleichen, sehen Sie einen großen Unterschied beim Trend der jeweiligen Reihe. Dieses letzte Diagramm ist repräsentativ, und wenn die Bedingungen für Genauigkeit (einzelnes Jahr und einzelnes Land) erfüllt sind, werden dieselben Daten wie im Diagramm weiter oben dargestellt.&lt;/p&gt;
+
+&lt;p&gt;In diesem Beispiel wurde das Problem eines falschen Aggregats vermieden. Allerdings musste zu diesem Zweck eine Annahme getroffen werden, die angezweifelt werden könnten. Sie sehen, wie lang diese Erläuterung ist. Aus diesem Grund wurde dieses Detail nicht direkt im Kursvideo gezeigt. Das Beispiel veranschaulicht die Herausforderungen, die sich Ihnen beim Entwerfen von Datenvisualisierungen stellen werden, wenn Sie einem breiten Publikum korrekte Daten präsentieren möchten.&lt;/p&gt;</value>
+  </data>
+  <data name="Article_Content1_4" xml:space="preserve">
+    <value>&lt;h2 id="exploring-distributions"&gt;Untersuchen von Verteilungen in Power BI&lt;/h2&gt;
+
+&lt;p&gt;In diesem Tutorial sehen wir uns an, wie wir Daten für die von Alberto Cairo bereitgestellten brasilianischen IDEB-Bewertungen analysieren können.&lt;/p&gt;
+
+&lt;p&gt;Sie benötigen Folgendes:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;Brazil Regions.xlsx&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;IDEB2009.csv&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3&gt;Schritt 1: Laden der IDEB-Daten&lt;/h3&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;Öffnen Sie &lt;em&gt;*Power BI Desktop*&lt;/em&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Verwenden Sie &lt;strong&gt;Daten abrufen&lt;/strong&gt;, um die Daten aus &lt;strong&gt;IDEB2009.csv&lt;/strong&gt; zu laden.&lt;/p&gt;&lt;/li&gt;
+&lt;p&gt;Registerkarte „Start“ -&gt; „Daten abrufen“ -&gt; „CSV“&lt;/p&gt;
+&lt;/ol&gt;
+&lt;p&gt;Hinweis: Falls Sie mit diesem Vorgang nicht vertraut sind, finden Sie weitere Informationen in den vorangegangenen Tutorials. Die Aktionen in der Benutzeroberfläche werden außerdem im Video gezeigt.&lt;/p&gt;
+
+&lt;h2&gt;Schritt 2: Erstellen eines grundlegenden Histogramms mit einem Säulendiagramm&lt;/h2&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;Fügen Sie in &lt;strong&gt;Power BI Desktop&lt;/strong&gt; auf einer leeren Berichtsseite ein &lt;strong&gt;gestapeltes Säulendiagramm&lt;/strong&gt; ein, indem Sie auf der Registerkarte &lt;strong&gt;Visualisierungen&lt;/strong&gt; auf das entsprechende Symbol klicken:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src="{0}" alt="" title="" /&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Binden Sie Daten an die Visualisierung an:&lt;/p&gt;
+
+&lt;p&gt;a. Fügen Sie unter &lt;strong&gt;&lt;em&gt;Achse&lt;/em&gt;&lt;/strong&gt; den Eintrag &lt;strong&gt;Bewertung&lt;/strong&gt; hinzu.&lt;/p&gt;
+
+&lt;p&gt;b. Fügen Sie unter &lt;strong&gt;&lt;em&gt;Wert&lt;/em&gt;&lt;/strong&gt; den Eintrag &lt;strong&gt;Schule&lt;/strong&gt; hinzu.&lt;/p&gt;
+
+&lt;pre&gt;i.  Beachten Sie, dass Power BI den Wert „Schule“ automatisch folgendermaßen aggregiert:
+    „Anzahl von Schule“
+&lt;/pre&gt;&lt;/li&gt;
+&lt;p&gt;&lt;img src="{1}" alt="" title="" /&gt;&lt;/p&gt;
+&lt;pre&gt;        Das resultierende Diagramm ist ein Histogramm der zugrunde liegenden
+        Datenwerte.
+&lt;/pre&gt;
+&lt;li&gt;&lt;p&gt;Im Bereich &lt;strong&gt;Formatierung&lt;/strong&gt; können Sie die Farben anpassen, um ein perfektes Erscheinungsbild zu erzielen:&lt;/p&gt;
+
+&lt;p&gt;a. Wenn die Visualisierung ausgewählt ist, &lt;strong&gt;wählen Sie den Bereich „Formatierung“ aus&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;b. &lt;strong&gt;Erweitern Sie „Datenfarben“&lt;/strong&gt;, und &lt;strong&gt;wählen Sie die gewünschte Farbe aus&lt;/strong&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;img src="{2}" alt="" title="" /&gt;&lt;/p&gt;
+
+&lt;h3&gt;Schritt 3: Anpassen der Achsenendpunkte&lt;/h3&gt;
+
+&lt;p&gt;Um sicherzustellen, dass die Daten beim Filtern/Hervorheben vergleichbar bleiben, sollten Sie unter Umständen die Standardwerte in Power BI überschreiben. In diesem Beispiel legen wir die Skalen für die X- und die Y-Achse so fest, dass die Ergebnisse der verschiedenen Lösungen vergleichbar bleiben.&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;Erweitern Sie im Bereich &lt;strong&gt;Formatierung&lt;/strong&gt; die Option &lt;strong&gt;X-Achse&lt;/strong&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Legen Sie für die Eigenschaft &lt;strong&gt;Ende&lt;/strong&gt; den Wert &lt;strong&gt;&lt;em&gt;8&lt;/em&gt;&lt;/strong&gt; fest.&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;img src="{3}" alt="" title="" /&gt;&lt;/p&gt;</value>
+  </data>
+  <data name="Article_Content2_8" xml:space="preserve">
+    <value>&lt;h3&gt;Schritt 4: Hinzufügen hochwertiger Informationen zu Bundesstaaten zum Bericht&lt;/h3&gt;
+&lt;p&gt;Power BI kann geografische Informationen sehr gut verarbeiten. Je spezifischer die Daten sind, desto genauer können die Daten auf der Karte platziert werden. Im Fall der IDEB-Bewertungen sind die Informationen zu den Bundesstaaten beim Platzieren auf der Karte nicht eindeutig. Dieser Abschnitt zeigt, wie Sie qualitativ hochwertigere Daten laden und den bereits vorliegenden IDEB-Bewertungsdaten hinzufügen.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;Verwenden Sie die Option &lt;strong&gt;Daten abrufen -&gt; Web&lt;/strong&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Geben Sie im Dialogfeld die folgende URL ein: &lt;a href="{0}"&gt;{0}&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;p&gt;&lt;img src="{1}" alt="" title="" /&gt;&lt;/p&gt;
+&lt;li&gt;Im Dialogfeld &lt;strong&gt;Navigator&lt;/strong&gt; &lt;strong&gt;aktivieren Sie das Kontrollkästchen&lt;/strong&gt; neben „Liste der brasilianischen Bundesstaaten[Bearbeiten]“. Klicken Sie dann auf &lt;strong&gt;OK&lt;/strong&gt;.&lt;/li&gt;
+&lt;p&gt;&lt;img src="{2}" alt="" title="" /&gt;&lt;/p&gt;
+&lt;li&gt;&lt;p&gt;Um den ursprünglichen IDEB-Daten Informationen zu den Bundesstaaten hinzuzufügen, fügen wir die Abfragen zusammen.&lt;/p&gt;
+&lt;p&gt;a. &lt;strong&gt;Wählen Sie&lt;/strong&gt; &lt;strong&gt;die IDEB2009-Abfrage&lt;/strong&gt; im Fenster „Abfrage“ aus.&lt;/p&gt;&lt;/li&gt;
+&lt;p&gt;&lt;img src="{3}" alt="" title="" /&gt;&lt;/p&gt;
+&lt;li&gt;Klicken Sie im Menüband auf die Schaltfläche &lt;strong&gt;Abfragen zusammenführen&lt;/strong&gt;.&lt;/li&gt;
+&lt;p&gt;&lt;img src="{4}" alt="" title="" /&gt;&lt;/p&gt;
+&lt;li&gt;&lt;p&gt;Gehen Sie im Dialogfeld &lt;strong&gt;Zusammenführen&lt;/strong&gt; wie folgt vor:&lt;/p&gt;
+&lt;p&gt;a. &lt;strong&gt;Wählen Sie „Bundesstaat“&lt;/strong&gt; &lt;strong&gt;in der IDEB2009-Abfrage aus&lt;/strong&gt; und dann &lt;strong&gt;„Abbreviation“&lt;/strong&gt; &lt;strong&gt;in der Abfrage „Liste der brasilianischen Bundesstaaten“&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;b. Wählen Sie unter &lt;strong&gt;Join-Art&lt;/strong&gt; die Option &lt;strong&gt;Linker äußerer&lt;/strong&gt; aus.&lt;/p&gt;
+&lt;p&gt;c. Klicken Sie auf &lt;strong&gt;OK&lt;/strong&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;p&gt;&lt;img src="{5}" alt="" title="" /&gt;&lt;/p&gt;
+&lt;li&gt;&lt;p&gt;Der Abfrage wird eine &lt;strong&gt;neue Spalte&lt;/strong&gt; hinzugefügt.&lt;/p&gt;
+&lt;p&gt;a. Klicken Sie auf das &lt;strong&gt;Erweiterungssymbol&lt;/strong&gt; oben links in der Spaltenüberschrift.&lt;/p&gt;&lt;/li&gt;
+&lt;p&gt;&lt;img src="{6}" alt="" title="" /&gt;&lt;/p&gt;
+&lt;li&gt;&lt;p&gt;Gehen Sie im nun geöffneten Dialogfeld wie folgt vor:&lt;/p&gt;
+&lt;p&gt;a. Deaktivieren Sie &lt;strong&gt;(Alle Spalten auswählen)&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;b. Wählen Sie &lt;strong&gt;Bundesstaat&lt;/strong&gt; aus.&lt;/p&gt;
+&lt;p&gt;c. Klicken Sie auf &lt;strong&gt;OK&lt;/strong&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;p&gt;&lt;img src="{7}" alt="" title="" /&gt;&lt;/p&gt;
+&lt;li&gt;Eine neue Spalte wird hinzugefügt. Doppelklicken Sie auf die &lt;strong&gt;Spaltenüberschrift&lt;/strong&gt;, um den Namen der Spalte in &lt;strong&gt;Staatsname&lt;/strong&gt; zu ändern.&lt;/li&gt;
+&lt;p&gt;a. &lt;img src="{8}" alt="" title="" /&gt;&lt;/p&gt;
+&lt;li&gt;&lt;p&gt;Um den Geocode für die Bundesstaatsnamen zu verbessern, verwenden wir eine zusätzliche, benutzerdefinierte Spalte.&lt;/p&gt;
+&lt;p&gt;a. Klicken Sie auf im Menüband &lt;strong&gt;Spalte hinzufügen&lt;/strong&gt; auf die Schaltfläche &lt;strong&gt;Benutzerdefinierte Spalte hinzufügen&lt;/strong&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;</value>
+  </data>
+  <data name="Article_Content4_7" xml:space="preserve">
+    <value>&lt;blockquote&gt;
+  &lt;p&gt;&lt;img src="{0}" alt="" title="" /&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;b. Geben Sie im Dialogfeld &lt;strong&gt;Benutzerdefinierte Spalte hinzufügen&lt;/strong&gt; den folgenden Ausdruck ein:&lt;/p&gt;
+
+&lt;pre&gt;**\[Staatsname\] &amp;amp; „, Brasilien“**
+&lt;/pre&gt;
+
+&lt;p&gt;&lt;img src="{1}" alt="" title="" /&gt;&lt;/p&gt;
+
+&lt;p&gt;c. Klicken Sie auf &lt;strong&gt;OK&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;h3&gt;Schritt 5: Laden von Regionsmetadaten&lt;/h3&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;Wählen Sie im Fenster &lt;strong&gt;Abfrage-Editor&lt;/strong&gt; auf der Registerkarte „Start“ die Option &lt;strong&gt;Neue Quelle -&gt; Excel&lt;/strong&gt; aus.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Wählen Sie die &lt;strong&gt;Excel-Datei „Brazil Regions.xlsx“&lt;/strong&gt; aus.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Aktivieren Sie im Dialogfeld &lt;strong&gt;Navigator&lt;/strong&gt; das Kontrollkästchen neben &lt;strong&gt;Regionen Brasiliens&lt;/strong&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Klicken Sie auf &lt;strong&gt;OK&lt;/strong&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;p&gt;&lt;img src="{2}" alt="" title="" /&gt;&lt;/p&gt;
+&lt;li&gt;&lt;p&gt;Die neue Abfrage wird im Abfragefenster geladen.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Klicken Sie mit der rechten Maustaste auf die Überschrift der Spalte „Bundesstaat“, und wählen Sie &lt;strong&gt;Spalte teilen&lt;/strong&gt; und dann &lt;strong&gt;Nach Trennzeichen&lt;/strong&gt; aus.&lt;/p&gt;&lt;/li&gt;
+&lt;p&gt;&lt;img src="{3}" alt="" title="" /&gt;&lt;/p&gt;
+&lt;li&gt;&lt;p&gt;Gehen Sie im Dialogfeld &lt;strong&gt;Spalte nach Trennzeichen teilen&lt;/strong&gt; wie folgt vor:&lt;/p&gt;
+&lt;p&gt;a. Wählen Sie in der Dropdownliste &lt;strong&gt;Trennzeichen eingeben oder auswählen&lt;/strong&gt; die Option &lt;strong&gt;Leerzeichen&lt;/strong&gt; aus.&lt;/p&gt;
+&lt;p&gt;b. Wählen Sie &lt;strong&gt;Beim äußersten rechten Trennzeichen&lt;/strong&gt; aus.&lt;/p&gt;
+&lt;p&gt;c. Klicken Sie auf &lt;strong&gt;OK&lt;/strong&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;p&gt;&lt;img src="{4}" alt="" title="" /&gt;&lt;/p&gt;
+&lt;li&gt;&lt;p&gt;Zwei neue Spalten werden erstellt: &lt;strong&gt;Bundesstaat.1&lt;/strong&gt; und &lt;strong&gt;Bundesstaat.2&lt;/strong&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Klicken Sie mit der rechten Maustaste auf einen der Werte in der Spalte „Bundesstaat.2“.&lt;/p&gt;
+&lt;p&gt;a. Wählen Sie &lt;strong&gt;Werte ersetzen...&lt;/strong&gt; aus.&lt;/p&gt;&lt;/li&gt;
+&lt;p&gt;&lt;img src="{5}" alt="" title="" /&gt;&lt;/p&gt;
+&lt;li&gt;&lt;p&gt;Gehen Sie im Dialogfeld &lt;strong&gt;Werte ersetzen&lt;/strong&gt; wie folgt vor:&lt;/p&gt;
+&lt;p&gt;a. Geben Sie „(“ unter &lt;strong&gt;Zu suchender Wert&lt;/strong&gt; ein.&lt;/p&gt;
+&lt;p&gt;b. Lassen Sie &lt;strong&gt;Ersetzen durch&lt;/strong&gt; leer.&lt;/p&gt;
+&lt;p&gt;c. Klicken Sie auf &lt;strong&gt;OK&lt;/strong&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;p&gt;&lt;img src="{6}" alt="" title="" /&gt;&lt;/p&gt;
+&lt;li&gt;&lt;p&gt;Wiederholen Sie die obigen Anweisungen, um „)“ aus der Spalte „Bundesstaat.2“ zu entfernen.&lt;/p&gt;
+&lt;p&gt;Hinweis: Mit den folgenden Schritten wiederholen Sie den Prozess, den Sie in diesem Tutorial bereits kennengelernt haben, um die neue Regionsspalte mit der IDEB2009-Abfrage zusammenzuführen. Detaillierte Anweisungen zum Durchführen dieser Schritte finden Sie weiter oben.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Benennen Sie die Spalte „Bundesstaat.2“ in &lt;strong&gt;„Abkürzung“&lt;/strong&gt; um.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Wählen Sie die &lt;strong&gt;IDEB2009-Abfrage&lt;/strong&gt; in der Liste „Abfrage“ aus.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Wählen Sie im Menüband „Start“ die Option &lt;strong&gt;Zusammenführen&lt;/strong&gt; aus.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Gehen Sie im Dialogfeld &lt;strong&gt;Zusammenführen&lt;/strong&gt; wie folgt vor:&lt;/p&gt;
+&lt;p&gt;a. Wählen Sie in der IDEB2009-Abfrage die Spalte &lt;strong&gt;Bundesstaat&lt;/strong&gt; aus.&lt;/p&gt;
+&lt;p&gt;b. Wählen Sie in der Abfrage „BrazilRegions“ die Spalte &lt;strong&gt;Abbr&lt;/strong&gt; aus.&lt;/p&gt;
+&lt;p&gt;c. Klicken Sie auf &lt;strong&gt;OK&lt;/strong&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Klicken Sie in der Spalte &lt;strong&gt;Neue Spalte&lt;/strong&gt; auf das &lt;strong&gt;Erweiterungssymbol&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;a. Wählen Sie in der Dropdownliste nur die Spalte &lt;strong&gt;Region&lt;/strong&gt; aus.&lt;/p&gt;
+&lt;p&gt;b. Wählen Sie &lt;strong&gt;OK&lt;/strong&gt; aus.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Klicken Sie im Menüband „Start“ auf &lt;strong&gt;Schließen und übernehmen&lt;/strong&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;</value>
+  </data>
+  <data name="Article_Content6_6" xml:space="preserve">
+    <value>&lt;p&gt;&lt;img src="{0}" alt="" title="" /&gt;&lt;/p&gt;
+&lt;h3&gt;Schritt 6: Erstellen einer interaktiven Karte mit den neuen Daten&lt;/h3&gt;
+&lt;p&gt;Mit den neuen Spalten können wir eine Karte erstellen, um eine ansprechendere Analyse zu erhalten.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;Wählen Sie im Bereich &lt;strong&gt;Visualisierungen&lt;/strong&gt; die Visualisierung &lt;strong&gt;Flächenkartogramm&lt;/strong&gt; aus, um sie in den Zeichenbereich einzufügen.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Binden Sie die folgenden Daten an die Visualisierung:&lt;/p&gt;
+&lt;p&gt;a. Fügen Sie die Spalte &lt;strong&gt;Staatsname Brasilien&lt;/strong&gt; zu &lt;strong&gt;Standort&lt;/strong&gt; hinzu.&lt;/p&gt;
+&lt;p&gt;b. Fügen Sie die Spalte &lt;strong&gt;Bewertung&lt;/strong&gt; zu &lt;strong&gt;Farbsättigung&lt;/strong&gt; hinzu.&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;img src="{1}" alt="" title="" /&gt;&lt;/p&gt;
+&lt;p&gt;Optional können Sie wie im Video vorgehen:&lt;/p&gt;
+&lt;p&gt;a. Ändern Sie das Aggregat für die Spalte &lt;strong&gt;Bewertung&lt;/strong&gt; in &lt;strong&gt;Median&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;b. Experimentieren Sie mit dem Bereich „Formatierung“, um die Farben auf der Karte so anzupassen, dass sie übersichtlicher wird.&lt;/p&gt;
+&lt;p&gt;c. Fügen Sie dem Zeichenbereich die Spalte &lt;strong&gt;Region&lt;/strong&gt; hinzu, und legen Sie sie als Datenschnitt fest.&lt;/p&gt;
+&lt;h3&gt;Schritt 7: Benutzerdefiniertes Diskretisieren: Benutzerdefinierte Histogrammvisualisierung&lt;/h3&gt;
+&lt;p&gt;Für diesen Abschnitt &lt;strong&gt;laden Sie zunächst die benutzerdefinierte Histogrammvisualisierung&lt;/strong&gt; unter folgender Adresse herunter: &lt;a href="{2}"&gt;{2}&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Power BI enthält einen Katalog mit benutzerdefinierten Visualisierungen, die Sie herunterladen können. Den Katalog finden Sie hier: &lt;a href="{3}"&gt;{3}&lt;/a&gt;&lt;/p&gt;&lt;ol&gt;
+&lt;li&gt;Öffnen Sie die folgende URL in einem Webbrowser:&lt;/li&gt;
+&lt;p&gt;&lt;a href="{2}"&gt;{2}&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;img src="{4}" alt="" title="" /&gt;&lt;/p&gt;
+&lt;li&gt;&lt;p&gt;Klicken Sie auf die Schaltfläche &lt;strong&gt;Visualisierung herunterladen&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;Hinweis: Bitte lesen Sie vor dem Herunterladen der Visualisierung die Nutzungsbedingungen sorgfältig durch.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Klicken Sie in Power BI Desktop im Bereich &lt;strong&gt;Visualisierungen&lt;/strong&gt; auf die Schaltfläche &lt;strong&gt;...&lt;/strong&gt;, und folgen Sie den Anweisungen zum Importieren der Visualisierung.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Im Bereich „Visualisierungen“ wird eine neue Visualisierung hinzugefügt.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Wählen Sie das vorhandene Säulendiagramm in Ihrem Bericht aus, und klicken Sie dann auf das Symbol für Visualisierungen vom Typ &lt;strong&gt;Histogramm&lt;/strong&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;p&gt;&lt;img src="{5}" alt="" title="" /&gt;&lt;/p&gt;
+&lt;li&gt;&lt;p&gt;Lassen Sie die Visualisierung &lt;strong&gt;Histogramm&lt;/strong&gt; ausgewählt, und öffnen Sie den Bereich &lt;strong&gt;Formatierung&lt;/strong&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Erweitern Sie die Optionen &lt;strong&gt;Allgemein&lt;/strong&gt;, und geben Sie für die Eigenschaft &lt;strong&gt;Diskretisierung&lt;/strong&gt; einen Wert ein. So können Sie benutzerdefinierte Diskretisierungsgrößen festlegen, die Ihren Daten entsprechen.&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;</value>
+  </data>
+  <data name="Article_Content7_4" xml:space="preserve">
+    <value>&lt;h3&gt;Schritt 8: Boxplots mit Power BI&lt;/h3&gt;
+&lt;p&gt;Laden Sie für diesen Abschnitt die benutzerdefinierte Visualisierung „Box and Whisker (Jan Pieter)“ unter folgender Adresse herunter:&lt;/p&gt;&lt;p&gt;&lt;a href="{0}"&gt;{0}&lt;/a&gt;&lt;/p&gt;&lt;ol&gt;
+&lt;li&gt;Verwenden Sie die Benutzeroberfläche, um die Visualisierungen wie oben in diesem Tutorial beschrieben herunterzuladen.&lt;/li&gt;&lt;p&gt;&lt;img src="{1}" alt="" title="" /&gt;&lt;/p&gt;&lt;li&gt;&lt;p&gt;Importieren Sie die Visualisierung mithilfe der Schaltfläche &lt;strong&gt;…&lt;/strong&gt; im Bereich &lt;strong&gt;Visualisierungen&lt;/strong&gt;, wie zuvor gezeigt.        &lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li&gt;&lt;p&gt;Wählen Sie die Visualisierung &lt;strong&gt;Histogramm&lt;/strong&gt; aus, und konvertieren Sie diese in eine Boxplotvisualisierung, indem Sie im Bereich &lt;strong&gt;Visualisierungen&lt;/strong&gt; auf das Symbol für &lt;strong&gt;Boxplots&lt;/strong&gt; klicken.&lt;/p&gt;
+&lt;p&gt;a. Hinweis: Die Visualisierung ist zu diesem Zeitpunkt leer.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Legen Sie das Datenfeld für das Boxplot wie folgt fest:&lt;/p&gt;
+&lt;p&gt;a. Legen Sie unter &lt;strong&gt;Kategorie&lt;/strong&gt; die Spalte &lt;strong&gt;Bundesstaat&lt;/strong&gt; fest.&lt;/p&gt;
+&lt;p&gt;b. Legen Sie unter &lt;strong&gt;Sampling&lt;/strong&gt; die Spalte &lt;strong&gt;Schule&lt;/strong&gt; fest.&lt;/p&gt;
+&lt;p&gt;c. Legen Sie unter &lt;strong&gt;Werte&lt;/strong&gt; die Spalte &lt;strong&gt;Bewertung&lt;/strong&gt; fest.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Der Boxplot wird ähnlich wie die folgende Abbildung gerendert:&lt;/p&gt;&lt;/li&gt;
+        &lt;p&gt;&lt;img src="{2}" alt="" title="" /&gt;&lt;/p&gt;
+         &lt;li&gt;
+                &lt;p&gt;Lassen Sie den Boxplot ausgewählt, und öffnen Sie den Bereich „Formatierung“:&lt;/p&gt;
+                &lt;p&gt;a. Erweitern Sie &lt;strong&gt;Diagrammoptionen&lt;/strong&gt;.&lt;/p&gt;
+                &lt;p&gt;b. Ändern Sie &lt;strong&gt;Diagrammtyp&lt;/strong&gt; in &lt;strong&gt;1.5 IQR&lt;/strong&gt;.&lt;/p&gt;
+                &lt;p&gt;c. Ändern Sie &lt;strong&gt;Ausreißer&lt;/strong&gt; in &lt;strong&gt;Ein&lt;/strong&gt;.&lt;/p&gt;
+                &lt;p&gt;&lt;img src="{3}" alt="" title="" /&gt;&lt;/p&gt;
+            &lt;/li&gt;&lt;/ol&gt;
+</value>
+  </data>
+  <data name="Article_Content8_2" xml:space="preserve">
+    <value>               &lt;p&gt;Das endgültige Diagramm sieht wie folgt aus:&lt;/p&gt; &lt;p&gt;&lt;img src="{0}" alt="" title="" /&gt;&lt;/p&gt;
+        &lt;h2 id="time-series"&gt;Zeitreihe mit spanischen Beschäftigungsdaten&lt;/h2&gt;
+        &lt;p&gt;
+            In einem der Beispiele in Cairos Buch &lt;em&gt;The Truthful Art&lt;/em&gt; wird erklärt, inwiefern die Nutzung statistischer Methoden für Analysen nützlich sein kann, um Muster und Trends zu verstehen, die ansonsten schwer auszumachen sind. Das folgende Tutorial enthält zwei Beispiele hierfür. Im ersten Beispiel wird gezeigt, wie Sie einer Visualisierung eine gerade Trendlinie hinzufügen, ohne Berechnungen durchführen zu müssen. Im zweiten Beispiel verwenden Sie ein R-Skript in Power BI, um Saisonalität, Rauschen und eine gekrümmte Trendlinie zu berechnen. Diese Konzepte werden in Teil 2 des Onlinekurses näher erläutert.
+        &lt;/p&gt;
+        &lt;h3&gt;Schritt 1: Erstellen eines Liniendiagramms mit einer Trendlinie&lt;/h3&gt;
+            &lt;ol&gt;&lt;li&gt;
+                &lt;p&gt;
+                    Erstellen Sie ein Liniendiagramm mit dem Datum auf der y-Achse und „SocialSecurityAffiliates“ auf der x-Achse.
+                &lt;/p&gt;
+            &lt;/li&gt;
+            &lt;li&gt;
+                &lt;p&gt;
+                    Aktivieren Sie im Bereich &lt;strong&gt;Analyse&lt;/strong&gt; auf der rechten Seite die Option &lt;strong&gt;Trendlinie&lt;/strong&gt;. Sie können die Trendlinie umbenennen und Transparenz sowie Farbe bearbeiten.
+                &lt;/p&gt;
+            &lt;/li&gt;
+&lt;p&gt;&lt;img src="{1}" alt="" title="" /&gt;&lt;/p&gt;
+&lt;li&gt;Wiederholen Sie diese Schritte für &lt;strong&gt;Bevölkerung 16–64&lt;/strong&gt; und &lt;strong&gt;Prozentsatz&lt;/strong&gt;, und Sie erhalten die unten abgebildeten Visualisierungen.&lt;/li&gt;
+&lt;/ol&gt;</value>
+  </data>
+  <data name="Article_Content9_2" xml:space="preserve">
+    <value>&lt;p&gt;&lt;img src="{0}" alt="" title="" /&gt;&lt;/p&gt;
+&lt;h3&gt;Schritt 2: Verwenden von R zur Berechnung von Saisonalität, Trends und Zufallsrauschen&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;Stellen Sie sicher, dass Sie auf Ihrem Computer R und einen R-Editor, z. B. R Studio, installiert haben.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Installieren Sie im R-Editor die beiden Pakete „Ecdat“ und „fpp“, indem Sie die Befehle &lt;strong&gt;install.packages(Ecdat)&lt;/strong&gt; und &lt;strong&gt;install.packages(fpp)&lt;/strong&gt; ausführen. Dadurch werden die Pakete auf dem Gerät installiert. Sie müssen die Pakete nur einmal installieren, jedoch bei jeder Verwendung eines Pakets die Bibliothek in Power BI aktivieren.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Ändern Sie im Abfrage-Editor nun den Datentyp der Spalte &lt;strong&gt;Datum&lt;/strong&gt; in „Text“. Das Skript kann mit einem Datumsformat nicht ordnungsgemäß ausgeführt werden.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Klicken Sie im Menüband „Transformieren“ auf die Schaltfläche &lt;strong&gt;R-Skript ausführen&lt;/strong&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;img src="{1}" alt="" title="" /&gt;&lt;/p&gt;</value>
+  </data>
+  <data name="Article_Continue_Content10_1" xml:space="preserve">
+    <value>&lt;h2&gt;Umfangreiches Durchsuchen&lt;/h2&gt;&lt;p&gt;In diesem Tutorial werden einige der in der Demo gezeigten Punkte behandelt. Es sind keine schrittweisen Anweisungen enthalten, da viele der Schritte bereits in vorangegangenen Tutorials beschrieben wurden.&lt;/p&gt;
+&lt;p&gt;Öffnen Sie für dieses Tutorial die Datei &lt;strong&gt;Where does your electricity come from final.pbix&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;Wenn Sie die Daten selbst verarbeiten möchten, können Sie die neuesten Daten von der Website der Weltbank herunterladen:&lt;/p&gt;
+&lt;ol&gt;&lt;li&gt;&lt;p&gt;Öffnen Sie die folgende Adresse im Webbrowser:&lt;/p&gt;
+&lt;p&gt;&lt;a href="{0}"&gt;{0}&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;Laden Sie die Datei &lt;strong&gt;Climate Change (Excel)&lt;/strong&gt; herunter.&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3&gt;Schritt 1: Auswählen einer Visualisierung zur Anzeige von Trenddaten&lt;/h3&gt;
+&lt;ol&gt;&lt;li&gt;&lt;p&gt;Erstellen Sie eine leere Seite.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Fügen Sie ein Säulendiagramm hinzu, indem Sie im Bereich &lt;strong&gt;Visualisierungen&lt;/strong&gt; die Option &lt;strong&gt;Säulendiagramm&lt;/strong&gt; auswählen und dann die folgenden Datenfelder daran binden:&lt;/p&gt;
+&lt;p&gt;a. Jahr&lt;/p&gt;
+&lt;p&gt;b. CO2-Emissionen (kT)&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Fügen Sie ein Liniendiagramm hinzu, indem Sie im Bereich &lt;strong&gt;Visualisierungen&lt;/strong&gt; die Option &lt;strong&gt;Liniendiagramm&lt;/strong&gt; auswählen und dann die folgenden Datenfelder daran binden:&lt;/p&gt;&lt;p&gt;a. Jahr&lt;/p&gt;
+&lt;p&gt;b. CO2-Emissionen (metrische Tonnen pro Kopf)&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;</value>
+  </data>
+  <data name="Download_Resources" xml:space="preserve">
+    <value>Alle für diese Tutorials erforderlichen Ressourcen herunterladen</value>
+  </data>
+  <data name="Hero_Subtitle" xml:space="preserve">
+    <value>Im zweiten Kurs zu „Datenvisualisierung und -Storytelling“ erläutert Alberto Cairo, wie Sie Ihre Daten mithilfe von Visualisierungen aussagekräftig darstellen. Alberto Cairo erklärt, wie Daten verdichtet werden und wann Grafikformen wie Kastengrafikdiagramme genutzt werden sollten. Darüber hinaus wird die Zeitreihenanalyse vorgestellt, um allgemeine Trends und saisonale Muster zu entdecken. Schließlich gibt Alberto Cairo Tipps, wie Sie verschiedene Grafiken verbinden können, um Ihre Daten aussagekräftiger zu machen.</value>
+  </data>
+  <data name="Hero_Title" xml:space="preserve">
+    <value>Durchsuchen von Daten</value>
+  </data>
+  <data name="InThisArticle" xml:space="preserve">
+    <value>Inhalt dieses Artikels:</value>
+  </data>
+  <data name="META_DESCRIPTION" xml:space="preserve">
+    <value />
+  </data>
+  <data name="META_KEYWORDS" xml:space="preserve">
+    <value />
+  </data>
+  <data name="META_PAGETITLE" xml:space="preserve">
+    <value>Datenjournalismus – Durchsuchen von Daten | Microsoft Power BI</value>
+  </data>
+  <data name="NextTopic" xml:space="preserve">
+    <value>Nächstes Thema: Wirklichkeitsgetreue Visualisierungen</value>
+  </data>
+  <data name="RightNav_Link1" xml:space="preserve">
+    <value>Untersuchen von Verteilungen in Power BI</value>
+  </data>
+  <data name="RightNav_Link2" xml:space="preserve">
+    <value>Zeitreihe mit spanischen Beschäftigungsdaten</value>
+  </data>
+  <data name="Meta_LocJobId" xml:space="preserve">
+    <value>158</value>
+  </data>
+</root>

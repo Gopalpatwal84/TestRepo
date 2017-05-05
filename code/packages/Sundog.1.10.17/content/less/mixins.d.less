@@ -1,0 +1,353 @@
+@import (reference) 'variables.d.less';
+
+/*
+group()
+
+AKA clearfix.
+
+Style guide: mixins.group
+*/
+.group() {
+    &:after {
+        clear: both;
+        content: '';
+        display: table;
+    }
+}
+
+/*
+arrow(@size: 10px, @color: @color-slate02, @direction: 'up')
+
+CSS arrow.
+
+@size - size of arrow, default `10px`.
+@color - color of arrow, default `@color-slate02`.
+@direction - arrow direction, default 'up'.
+
+Style guide: mixins.arrow
+*/
+.arrow(@size: 10px, @color: @color-slate02, @direction: 'up') {
+    .arrow-direction(@color, @direction);
+    border-style: solid;
+    border-width: @size;
+    content: '';
+    height: 0;
+    width: 0;
+}
+
+.arrow-direction (@color, @direction) when (@direction = 'down') {
+    border-color: @color transparent transparent transparent;
+}
+
+.arrow-direction (@color, @direction) when (@direction = 'left') {
+    border-color: transparent @color transparent transparent;
+}
+
+.arrow-direction (@color, @direction) when (@direction = 'up') {
+    border-color: transparent transparent @color transparent;
+}
+
+.arrow-direction (@color, @direction) when (@direction = 'right') {
+    border-color: transparent transparent transparent @color;
+}
+
+/*
+chevronRightCss()
+
+Chevron right using CSS
+
+@size - optional size in px to set both height and width
+@top-offset - optional size in px to move the chevron up or down
+*/
+.chevronRightCss(@size: 18px, @top-offset: -2px) {
+    background-image: none;
+    border-color: currentColor;
+    border-style: solid;
+    border-width: 1px 1px 0 0;
+    content: '';
+    display: inline-block;
+    height: @size;
+    margin-top: @top-offset;
+    position: absolute;
+    right: @spacing-size2;
+    top: 50%;
+    width: @size;
+    .transform(rotate(45deg) translate(0, -50%));
+}
+
+/*
+animation(@value)
+
+CSS animation helper.
+
+@value - value of the animation.
+
+Style guide: mixins.animation
+*/
+.animation(@value) {
+    -webkit-animation: @value;
+    -moz-animation: @value;
+    -o-animation: @value;
+    animation: @value;
+}
+
+/*
+backface(@value)
+
+CSS backface helper.
+
+@value - value of backface.
+
+Style guide: mixins.backface
+*/
+.backface(@value) {
+    -webkit-backface-visibility: @value;
+    -moz-backface-visibility: @value;
+    backface-visibility: @value;
+}
+
+/*
+box-sizing(@value)
+
+CSS box-sizing helper.
+
+@value - value of box-sizing.
+
+Style guide: mixins.box-sizing
+*/
+.box-sizing(@boxSizing) {
+    -moz-box-sizing: @boxSizing;
+    box-sizing: @boxSizing;
+}
+
+/*
+center()
+
+CSS centering helper.
+
+Style guide: mixins.center
+*/
+.center() {
+    left: 50%;
+    position: absolute;
+    top: 50%;
+    .transform-translate(-50%, -50%);
+}
+
+/*
+circle-background(@diameter)
+
+CSS circle-background helper.
+
+@diameter - diameter of the circle.
+
+Style guide: mixins.circle-background
+*/
+.circle-background(@diameter) {
+    background-repeat: no-repeat;
+    border-radius: @diameter / 2;
+    display: inline-block;
+    height: @diameter;
+    width: @diameter;
+}
+
+
+/*
+disable-highlight()
+
+Disables highlighting on an element.
+
+Style guide: mixins.disable-highlight
+*/
+.disable-highlight() {
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    user-select: none;
+}
+
+/*
+grayscale(@percent)
+
+Force grayscale on an element.
+
+@percent - grayscale percent.
+
+Style guide: mixins.grayscale
+*/
+.grayscale(@percent) {
+    -moz-filter: grayscale(@percent);
+    -webkit-filter: grayscale(@percent);
+    filter: grayscale(@percent);
+}
+
+/*
+hamburger-helper(@percent)
+
+Helper to build out hamburger CSS.
+
+@height - height of hamburger, default `4px`.
+@width - width of hamburger, default `25px`.
+@color - color of hamburger, default `@color-palette01`.
+
+Style guide: mixins.hamburger-helper
+*/
+.hamburger-helper(@height: 4px, @width: 25px, @color: @color-palette01) {
+    .box-sizing(initial);
+    border-bottom: (@height * 3) double @color;
+    border-top: @height solid @color;
+    display: block;
+    font-size: 0;
+    height: @height;
+    width: @width;
+}
+
+/*
+hide-text()
+
+Accessibility-friendly text hiding.
+
+Style guide: mixins.hide-text
+*/
+.hide-text() {
+    position: absolute;
+    top: auto;
+    left: -10000px;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+}
+
+/*
+placeholder-color(@color)
+
+Force the color of the placeholder.
+
+@color - color of the placeholder text.
+
+Style guide: mixins.placeholder-color
+*/
+.placeholder-color(@color) {
+    &::-webkit-input-placeholder {
+        color: @color;
+    }
+
+    &:-moz-placeholder {
+        color: @color;
+    }
+
+    &::-moz-placeholder {
+        color: @color;
+    }
+
+    &:-ms-input-placeholder {
+        color: @color;
+    }
+}
+
+/*
+section-image-cutoff(@imgHeight, @offset: 30px)
+
+The section below shows a common pattern that has the following features:
+
+- no padding on the bottom of the section
+- vertically centered content
+- image cutoff on the bottom
+
+Use mixin on section. Use classes `.column-image` and `.column-content` with `.row-middled`.
+
+@imgHeight - height of the image.
+@offset - image offset from the section, default `30px`.
+
+Style guide: mixins.placeholder-color
+*/
+.section-image-cutoff(@imgHeight, @offset: 30px) {
+    padding-bottom: 0;
+
+    .column-image {
+        margin-bottom: -@offset;
+    }
+
+    .column-content {
+        position: relative;
+        height: (@imgHeight - @offset);
+    }
+}
+
+/*
+show-text()
+
+Accessibility-friendly text showing.
+
+Style guide: mixins.show-text
+*/
+.show-text() {
+    text-indent: 0;
+    white-space:normal;
+    overflow:visible;
+}
+
+/*
+transition(@value)
+
+CSS transition helper.
+
+@value - value of the transition.
+
+Style guide: mixins.transition
+*/
+.transition(@value) {
+    -webkit-transition: @value;
+    transition: @value;
+}
+
+/*
+transition-hover()
+
+CSS transition-hover helper.
+
+Style guide: mixins.transition-hover
+*/
+.transition-hover() {
+    .transition(all .1s ease-in-out);
+}
+
+/*
+transform(@value)
+
+CSS transform helper.
+
+@value - value of the transform.
+
+Style guide: mixins.transform
+*/
+.transform(@value) {
+    -ms-transform: @value;
+    -o-transform: @value;
+    -webkit-transform: @value;
+    transform: @value;
+}
+
+.transform-translate(@translateX, @translateY) {
+    .transform(translate(@translateX, @translateY));
+}
+
+.transform-rotate(@rotation) {
+   .transform(rotate(@rotation));
+}
+
+/*
+truncate-text()
+
+CSS truncate-text helper.
+
+Style guide: mixins.truncate-text
+*/
+.truncate-text() {
+    overflow: hidden;
+    -ms-text-overflow: ellipsis;
+    -o-text-overflow: ellipsis;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}

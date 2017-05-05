@@ -1,0 +1,32 @@
+﻿@using Resources = PowerBI.Resources.Pages.Partners.GetListed
+
+@{
+    Model.PageTitle = Resources.META_PAGETITLE;
+    Model.MetaKeywords = Resources.META_KEYWORDS;
+    Model.MetaDescription = Resources.META_DESCRIPTION;
+}
+
+<section class="section section-palette02">
+    <div class="row">
+        <div class="column medium-5">
+            <h1>@Resources.Hero_Heading</h1>
+        </div>
+        <div class="column medium-7">
+            <p>@Resources.Hero_Copy</p>
+        </div>
+    </div>
+</section>
+
+
+<section class="section">
+    <div class="row">
+        <div class="column large-6">
+            @Html.CreateForm("PartnersInvitationRequest", new Acom.Forms.Models.FormOptions
+            {
+                EventName = "global-submitted-form",
+                SubmitText = Resources.ContactUs,
+                SubmitView = "form/submitviews/_thanksForApplication"
+            })
+        </div>
+    </div>
+</section>

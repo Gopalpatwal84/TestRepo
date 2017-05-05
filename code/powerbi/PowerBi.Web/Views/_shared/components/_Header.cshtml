@@ -1,0 +1,86 @@
+﻿@using Header = PowerBI.Resources.Components.Header
+
+<header data-tag-area="header" data-tag-group="header">
+    <nav class="navigation navigation-themed navigation-fixed" role="navigation">
+        <div class="row column">
+            <ul class="logos">
+                <li class="logo-microsoft">
+                    <span class="icon">@SvgHelper.GetSvg("microsoft-color")</span>
+                </li>
+                <li class="logo logo-powerbi">
+                    <a href="@Html.LocalizeUrl("/", isFullyQualified: true)" class="icon">
+                        <span class="icon">@SvgHelper.GetSvg("powerbi")</span>
+                    </a>
+                </li>
+            </ul>
+            <ul class="menu menu-main">
+                <li>
+                    <a data-event="global-clicked-mainmenu" href="@Html.LocalizeUrl("/what-is-power-bi/", isFullyQualified: true)" class="menu-drop-trigger">@Header.Products</a>
+                    <ul class="menu-drop">
+                        <li><a href="@Html.LocalizeUrl("/features/", isFullyQualified: true)">@Header.PowerBI</a></li>
+                        <li><a href="@Html.LocalizeUrl("/desktop/", isFullyQualified: true)">@Header.Desktop</a></li>
+                        <li><a href="@Html.LocalizeUrl("/mobile/", isFullyQualified: true)">@Header.Mobile</a></li>
+                        <li><a href="https://azure.microsoft.com/services/power-bi-embedded/">@Header.Embedded</a></li>
+                        <li><a href="@Html.LocalizeUrl("/tour/", isFullyQualified: true)">@Header.Tour</a></li>
+                        @if (!MobileClientCookieHelper.KnownMobileClient.IsRestrictedMobileClient(Context.GetMobileClient()))
+                        {
+                            <li><a href="@Html.LocalizeUrl("/pricing/", isFullyQualified: true)">@Header.Pricing</a></li>
+                        }
+                    </ul>
+                </li>
+                <li>
+                    <a data-event="global-clicked-mainmenu" href="@Html.LocalizeUrl("/departments/", isFullyQualified: true)" class="menu-drop-trigger">@Header.Solutions</a>
+                    <ul class="menu-drop">
+                        <li><a href="@Html.LocalizeUrl("/departments/finance/", isFullyQualified: true)">@Header.Departments</a></li>
+                        <li><a href="@Html.LocalizeUrl("/industries/", isFullyQualified: true)">@Header.Industries</a></li>
+                        <li><a href="@Html.LocalizeUrl("/solution-templates/", isFullyQualified: true)">@Header.SolutionTemplates</a></li>
+                        <li><a href="@Html.LocalizeUrl("/publishtoweb/", isFullyQualified: true)">@Header.DataStories</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a data-event="global-clicked-mainmenu" href="@Html.LocalizeUrl("/partner-showcase/", isFullyQualified: true)" class="menu-drop-trigger">@Header.Partners</a>
+                    <ul class="menu-drop">
+                        <li><a href="@Html.LocalizeUrl("/partner-showcase/", isFullyQualified: true)">@Header.PartnerShowcase</a></li>
+                        <li><a href="@Html.LocalizeUrl("/partners/", isFullyQualified: true)">@Header.FindPartner</a></li>
+                        <li><a href="@Html.LocalizeUrl("/become-a-partner/", isFullyQualified: true)">@Header.BecomePartner</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a data-event="global-clicked-mainmenu" href="@Html.LocalizeUrl("/learning/", isFullyQualified: true)" class="menu-drop-trigger">@Header.Learning</a>
+                    <ul class="menu-drop">
+                        <li><a href="@Html.LocalizeUrl("/guided-learning/", isFullyQualified: true)">@Header.GuidedLearning</a></li>
+                        <li><a href="@Html.LocalizeUrl("/documentation/powerbi-landing-page/", isFullyQualified: true)">@Header.Documentation</a></li>
+                        <li><a href="@Html.LocalizeUrl("/support/", isFullyQualified: true)">@Header.Support</a></li>
+                        <li><a href="http://community.powerbi.com">@Header.Community</a></li>
+                        <li><a href="https://ideas.powerbi.com/forums/265200-power-bi">@Header.Feedback</a></li>
+                        <li><a href="@Html.LocalizeUrl("/documentation/powerbi-webinars/",  isFullyQualified: true)">@Header.Webinars</a></li>
+                        <li><a href="@Html.LocalizeUrl("/blog/", isFullyQualified: true)">@Header.Blog</a></li>
+                    </ul>
+                </li>
+                @if (ViewBag.HideForLithium != true || !MobileClientCookieHelper.KnownMobileClient.IsRestrictedMobileClient(Context.GetMobileClient()))
+                {
+                    if (!MobileClientCookieHelper.KnownMobileClient.IsRestrictedMobileClient(Context.GetMobileClient()))
+                    {
+                        <li><a data-event="global-clicked-mainmenu" href="https://app.powerbi.com/?noSignUpCheck=1" class="hide-for-medium">@Header.SignIn</a></li>
+                        <li><a data-event="global-clicked-mainmenu" id="power-bi-sign-up-free-mainmenu" href="@Html.LocalizeUrl("/get-started/")" class="hide-for-medium">@Header.SignUpFree</a></li>
+                    }
+                }
+            </ul>
+            <ul class="menu-secondary">
+                @if (ViewBag.HideForLithium != true)
+                {
+                    if (!MobileClientCookieHelper.KnownMobileClient.IsRestrictedMobileClient(Context.GetMobileClient()))
+                    {
+                        <li><a data-event="global-clicked-mainmenu" href="https://app.powerbi.com/?noSignUpCheck=1" class="show-for-medium">@Header.SignIn</a></li>
+                        <li><a data-event="global-clicked-mainmenu" id="power-bi-sign-up-free-mainmenu" href="@Html.LocalizeUrl("/get-started/")" class="show-for-medium">@Header.SignUpFree</a></li>
+                    }
+                }
+            </ul>
+            <a href="" class="hamburger hamburger-deluxe hide-for-large">
+                <span class="fixin top-bun"></span>
+                <span class="fixin patty"></span>
+                <span class="fixin bottom-bun"></span>
+            </a>
+        </div>
+    </nav>
+</header>

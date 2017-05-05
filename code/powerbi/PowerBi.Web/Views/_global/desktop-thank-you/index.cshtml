@@ -1,0 +1,70 @@
+﻿@model PowerBI.Web.Models.Pages.ViewMetadataModel
+@using Resources = PowerBI.Resources.Pages.DesktopThankYou.Index;
+@{
+    Model.PageTitle = Resources.META_PAGETITLE;
+    Model.MetaKeywords = Resources.META_KEYWORDS;
+    Model.MetaDescription = Resources.META_DESCRIPTION;
+}
+
+<section class="section">
+    <div class="row text-center">
+        <div class="column large-9 large-centered">
+            <h1>@Resources.Heading</h1>
+        </div>
+    </div>
+    <div class="row row-size1 text-center">
+        <div class="column large-9 medium-centered">
+            <p>@Resources.SubHeading</p>
+        </div>
+    </div>
+    <div class="row">
+        <div class="column medium-6 large-4 large-offset-1">
+            <div class="row">
+                <div class="column">
+                    <img alt="" src="@CdnHelper.GetCdnUrl("/pictures/pages/desktop-thank-you/find-guide-screenshot.png")" />
+                </div>
+            </div>
+            <div class="row">
+                <div class="column">
+                    <h3>@Resources.FindGuide_Heading</h3>
+                    <p>@Resources.FindGuid_Copy</p>
+                    <p><a href="@Html.LocalizeUrl("article:powerbi-desktop-tutorial-analyzing-sales-data-from-excel-and-an-odata-feed")">@Resources.Link_Analyze</a></p>
+                    <p><a href="@Html.LocalizeUrl("article:powerbi-desktop-tutorial-facebook-analytics")">@Resources.Link_Facebook</a></p>
+                    <p><a href="@Html.LocalizeUrl("article:powerbi-desktop-tutorial-importing-and-analyzing-data-from-a-web-page")">@Resources.Link_Tables</a></p>
+                </div>
+            </div>
+        </div>
+        <div class="column medium-6 large-4 large-offset-2 end">
+            <div class="row">
+                <div class="column">
+                    <a href="https://www.youtube.com/watch?v=Qgam9M8I0xA&index=1&list=PL1N57mwBHtN2q1WbU5O29rrn_A0lkVv9p">
+                        <img alt="" src="@CdnHelper.GetCdnUrl("/pictures/pages/desktop-thank-you/tour-video-screenshot.png")" />
+                    </a>
+                </div>
+            </div>
+            <div class="row">
+                <div class="column">
+                    <h3>@Resources.TakeTour_Heading</h3>
+                    <p>@Resources.TakeTour_Copy</p>
+                </div>
+            </div>
+            <div class="row row-size2">
+                <div class="column">
+                    <p><a class="button" href="https://www.youtube.com/watch?v=Qgam9M8I0xA&index=1&list=PL1N57mwBHtN2q1WbU5O29rrn_A0lkVv9p">@Resources.WatchNow</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+@if (Request.QueryString["gated"] == "1")
+    {
+        @section foot {
+        <script>
+            (function () {
+                window.location.href = "@Html.LocalizeUrl("go:521662")";
+            })();
+        </script>
+        }
+    }

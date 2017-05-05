@@ -1,0 +1,270 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" id="root">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Airline_DetailsTagline" xml:space="preserve">
+    <value>&lt;p&gt;Um Engenheiro de Operações em uma das principais companhias aéreas, responsável por uma frota de aeronaves deve ponderar constantemente o custo e a interrupção da manutenção ad hoc em relação ao risco e um custo ainda maior de falhas técnicas. &lt;/p&gt;
+&lt;p&gt;O relatório nessa solução oferece uma visão geral do status da frota, assim como um resumo das previsões para alterações a curto prazo na integridade técnica da frota. As previsões são baseadas em vários modelos de aprendizado de máquina e usam um Registrador de Acesso Rápido (semelhante à caixa preta) da aeronave além de outras fontes de dados. O relatório mostra um exemplo de uma saída detalhada de um dos modelos de aprendizado de máquina participantes, que prevê a vida útil restante para componentes críticos do motor.&lt;/p&gt;
+&lt;p&gt;O relatório é visualmente rico e fornece uma visão geral dos planos de voo e locais para ajudar a decidir onde realizar manutenção de uma aeronave e qual aeronave está melhor posicionada para substituí-la. O relatório também inclui um gráfico Sankey personalizado para racionalizar as pesagens de KPI diferentes das frotas, com base nos tipos de fuselagem e em um impressionante mapa de calor em 3D no formato de um motor a jato. Esses visuais fornecem insights de forma intuitiva para quem trabalha no setor de aviação.&lt;/p&gt;</value>
+  </data>
+  <data name="Airline_DetailTitle" xml:space="preserve">
+    <value>Conduzindo o planejamento de manutenção em escala massiva</value>
+  </data>
+  <data name="Airline_IndexTagline" xml:space="preserve">
+    <value>Essa solução é baseada em um sistema de manutenção preditiva do mundo real para uma grande companhia aérea. Os dados vem de várias fontes incluindo fluxos de dados de IoT de motores de aeronaves, planos de voo, informações sobre o tempo e logs. A solução impulsiona o Azure HDInsight para engenharia de recursos, Azure Machine Learning para detectar anomalias operacionais e Azure SQL DW para permitir consulta de alto desempenho nos petabytes de dados resultantes. Esse relatório também mostra o uso de visualizações personalizadas projetadas para o setor de aviação.</value>
+  </data>
+  <data name="Airline_Title" xml:space="preserve">
+    <value>Linha Aérea</value>
+  </data>
+  <data name="CPG_DetailsTagline" xml:space="preserve">
+    <value>&lt;p&gt;O setor de Produtos de Consumo é muito competitivo. Todas as marcas e categorias disputam todos os dias a atenção e a preferência dos clientes. Aumentar sua participação no mercado é difícil e a análise de CPG é o único modo de conseguir isso. &lt;/p&gt;
+&lt;p&gt;Monitore todas as métricas-chave em um único lugar com o Power BI: níveis de estoque, lucratividade, cadeia de fornecedores, canais e preço. Evite situações de falta de estoque com alertas e relatórios em tempo real. &lt;/p&gt;
+&lt;p&gt;Gerencie seu volume global com painéis de alto desempenho e faça uma busca detalhada em seus dados para obter informações mais aprofundadas. Avalie com clareza o desempenho de todas as suas marcas e categorias por meio de modelos avançados e relatórios detalhados. &lt;/p&gt;
+&lt;p&gt;Monitore os resultados de suas campanhas de marketing e seu impacto nas vendas, participação no mercado e lucro. Faça uma busca detalhada nas finanças de todas as suas operações com relatórios interativos avançados para análises rápidas e ações significativas.&lt;/p&gt;</value>
+  </data>
+  <data name="CPG_DetailTitle" xml:space="preserve">
+    <value>Amplie sua participação no mercado usando a análise de dados mais aprofundada e reconhecendo as tendências</value>
+  </data>
+  <data name="CPG_IndexTagline" xml:space="preserve">
+    <value>Os produtos de consumo estão no centro das seguintes áreas: operações, marketing, vendas e finanças, para mencionar algumas. Analise dados em constante mudança para maximizar vendas, lucros e fidelidade do cliente.</value>
+  </data>
+  <data name="CPG_Title" xml:space="preserve">
+    <value>CPG (Produtos de Consumo)</value>
+  </data>
+  <data name="Insurance_DetailsTagline" xml:space="preserve">
+    <value>&lt;p&gt;Gerenciar os riscos é a meta mais importante para seguradoras. Porém, a quantidade de dados e variáveis que compõem a análise de seguros é enorme e requer ferramentas e abordagens que ajudem os corretores de seguros a identificar rapidamente as tendências e agir de acordo com elas. &lt;/p&gt;
+&lt;p&gt;O Power BI ajuda analistas de seguro a visualizar dados de reivindicações, gratificações, fraudes, vendas e de satisfação do cliente com facilidade e em um único lugar. Identifique as reivindicações e as tendências de pagamento mais rapidamente. &lt;/p&gt;
+&lt;p&gt;Identifique padrões que poderiam levar à detecção de fraudes e configure alertas automatizados para identificá-los rapidamente. Crie métricas personalizadas e monitore o custo médio ou o tempo médio para quitar indenizações. &lt;/p&gt;
+&lt;p&gt;Visualize o impacto de sua estratégia de preços e lucratividade. Monitore a satisfação dos seus clientes e identifique novas oportunidades comerciais ou riscos para agir rapidamente em resposta a eles.&lt;/p&gt;</value>
+  </data>
+  <data name="Insurance_DetailTitle" xml:space="preserve">
+    <value>Monitore riscos, gerencie vendas e indenizações e detecte fraudes com a análise visual orientada a dados</value>
+  </data>
+  <data name="Insurance_IndexTagline" xml:space="preserve">
+    <value>Os dados estão chegando de todas as operações das seguradoras: vendas de apólices, reivindicações, fraudes, complexidade da cobertura e gratificações – todos fornecem às empresas um rico conjunto de tendências e informações prontas para serem exploradas.</value>
+  </data>
+  <data name="Insurance_Title" xml:space="preserve">
+    <value>Seguro</value>
+  </data>
+  <data name="Manufacturing_DetailsTagline" xml:space="preserve">
+    <value>&lt;p&gt;Acompanhe indicadores chave de desempenho em tempo real: utilização da máquina, eficiência do processo, custos, níveis de estoque, perdas e tempos de ciclo. &lt;/p&gt;
+&lt;p&gt;Os fabricantes devem colaborar, monitorar e comunicar dados dinâmicos disponíveis para atingir excelência operacional. O Power BI ajuda sua equipe a monitorar dados em tempo real de várias fontes em um painel e fazer uma busca detalhada para identificar problemas quando necessário. Obtenha alertas em tempo real com os aplicativos móveis do Power BI e torne suas operações mais eficientes para obter maior agilidade e minimizar os tempos de resposta. &lt;/p&gt;
+&lt;p&gt;Monitore sua cadeia de fornecedores de ponta a ponta e identifique problemas e afunilamentos antes que eles alcancem processos críticos. Compartilhe seus painéis com fornecedores e parceiros para que eles tenham acesso às informações mais recentes disponíveis, tornando seus processos mais simples e inteligentes. Monitore informações de entrada e saída sobre qualidade usando todas as fontes, incluindo seus clientes, para tomar decisões rápidas e significativas que aprimorarão a qualidade do processo de fabricação.&lt;/p&gt;</value>
+  </data>
+  <data name="Manufacturing_DetailTitle" xml:space="preserve">
+    <value>Visibilidade em tempo real de sua cadeia de fornecedores para decisões mais rápidas e eficientes</value>
+  </data>
+  <data name="Manufacturing_IndexTagline" xml:space="preserve">
+    <value>O processo de fabricação deve ser uma máquina bem lubrificada para ter êxito, e o melhor modo de atingir essa meta é ter visibilidade de cada processo e ver simultaneamente o quadro geral.</value>
+  </data>
+  <data name="Manufacturing_Title" xml:space="preserve">
+    <value>Fabricação</value>
+  </data>
+  <data name="ProfessionalServices_DetailsTagline" xml:space="preserve">
+    <value>&lt;p&gt;Não importa se a sua empresa é especializada em consultoria, serviços jurídicos, serviços imobiliários ou serviços de saúde. Seu negócio gira em torno de pessoas. Você precisa monitorar o desempenho com os KPIs certos para maximizar os resultados e aumentar a eficiência. E deve compartilhar esses dados com seu pessoal para que eles possam agir rapidamente e aprimorar os resultados. &lt;/p&gt;
+&lt;p&gt;O Power BI permite que você monitore os KPIs certos, personalize-os, visualize-os para uma melhor compreensão e compartilhe-os, tudo na mesma plataforma. Calcule métricas dinâmicas como receita anual por funcionário, margem do projeto, cobranças, utilização e satisfação do cliente para obter informações sobre seu desempenho e tomar as medidas necessárias quando surgirem desafios. Faça busca detalhada em nível individual e, mantendo os dados seguros e governados, permita que todos em sua organização tenham acesso a esses dados. &lt;/p&gt;
+&lt;p&gt;Explore ao máximo diferentes locais, funções, projetos e equipes com facilidade para proporcionar visões práticas em qualquer nível. Monitore a satisfação do cliente para assegurar que você está fornecendo um grande valor e, ao mesmo tempo, mantendo suas operações simples.&lt;/p&gt;</value>
+  </data>
+  <data name="ProfessionalServices_DetailTitle" xml:space="preserve">
+    <value>Concentre-se em seu pessoal com análises de dados mais aprofundadas</value>
+  </data>
+  <data name="ProfessionalServices_IndexTagline" xml:space="preserve">
+    <value>Empresas de serviços profissionais têm uma coisa em comum: seu ativo mais precioso é seu pessoal. Dê suporte a seus profissionais com a tecnologia e os dados certos para maximizar o valor fornecido a seus clientes.</value>
+  </data>
+  <data name="ProfessionalServices_Title" xml:space="preserve">
+    <value>Serviços Profissionais</value>
+  </data>
+  <data name="Retail_DetailsTagline" xml:space="preserve">
+    <value>&lt;p&gt;A quantidade de dados fornecidos a varejistas é assombrosa: transações, cadeia de fornecedores, padrões de comportamento, tendências, vendas multicanal e cobertura global são apenas algumas das fontes de dados que empresas podem usar para maximizar seus lucros. &lt;/p&gt;
+&lt;p&gt;Compreender todas essas informações de entrada exige escalabilidade, facilidade de uso, acessibilidade e conectividade dinâmica. O Power BI ajuda a trazer todas essas fontes de dados para um único local e mantém o fluxo de dados, permitindo a você tomar as decisões certas no momento certo. Compartilhe suas análises de varejo na loja, na matriz, na fábrica ou no centro de distribuição. &lt;/p&gt;
+&lt;p&gt;Com o Power BI, não importa onde você está, seus dados estão sempre disponíveis e atualizados. Compreenda o sentimento e o comportamento dos clientes, online ou na loja, e visualize movimentos e interações dos compradores, identificando oportunidades para melhor atendê-los e maximizar a receita.&lt;/p&gt;</value>
+  </data>
+  <data name="Retail_DetailTitle" xml:space="preserve">
+    <value>Uma compreensão mais aprofundada dos clientes, preços, POS, estoque e canais</value>
+  </data>
+  <data name="Retail_IndexTagline" xml:space="preserve">
+    <value>As compras não são mais feitas como costumavam ser. Hoje, os compradores são dotados de dispositivos, opções e mais informações na ponta dos dedos. Obtenha visibilidade para as informações que tornarão seu negócio bem-sucedido.</value>
+  </data>
+  <data name="Retail_Title" xml:space="preserve">
+    <value>Varejo</value>
+  </data>
+  <data name="Energy_DetailsTagline" xml:space="preserve">
+    <value>&lt;p&gt;Armazenar energia não é econômico, então os utilitários e geradores de energia precisam prever o consumo de energia futuro para que possam equilibrar de forma eficiente o fornecimento com a demanda. Durante horas de pico, um fornecimento baixo pode resultar em indisponibilidades de energia. Por outro lado, o excesso de fornecimento pode resultar em um desperdício de recursos. Técnicas de previsão de demanda avançadas detalham a demanda por hora e horários de pico de determinado dia, permitindo que o provedor de energia otimize o processo de geração de energia. Esse relatório concentra-se em previsão de demanda no setor de energia. Esse relatório fornece um status de uso de energia de nível de região e previsão de usos futuros para otimizar as operações.&lt;/p&gt;
+&lt;p&gt;A página ‘Energy Solution Status Summary’ (Resumo de Status de Solução de Energia) mostra o status geral da demanda de energia de cada região. O usuário pode selecionar uma única região clicando no filtro à esquerda para investigar cada status da região.&lt;/p&gt;
+&lt;p&gt;A página ‘Energy Solution Forecast’ (Previsão de Solução de Energia) mostra os resultados de previsão de demanda do modelo do Azure Machine Learning e diferentes métricas de erro para o usuário identificar a qualidade do modelo. A temperatura e suas previsões são usadas como um recurso no modelo de aprendizado de máquina.&lt;p/&gt;</value>
+  </data>
+  <data name="Energy_DetailTitle" xml:space="preserve">
+    <value>Energia</value>
+  </data>
+  <data name="Energy_IndexTagline" xml:space="preserve">
+    <value>Esse relatório concentra-se em previsão de demanda no setor de energia. As exibições fornecem um status de uso de energia de nível de região e previsão de usos futuros para otimizar as operações.</value>
+  </data>
+  <data name="Energy_Title" xml:space="preserve">
+    <value>Energia</value>
+  </data>
+  <data name="Telecommunications_DetailsTagline" xml:space="preserve">
+    <value>&lt;p&gt;Os negócios precisam de uma estratégia eficaz para gerenciar rotatividade de clientes. A rotatividade de clientes inclui clientes parando de usar um serviço, mudando para um serviço concorrente, mudando para um experiência de nível menor no serviço ou reduzindo o comprometimento com o serviço.&lt;/p&gt;
+&lt;p&gt;Nesse caso, podemos ver como uma empresa operadora de celular pode impulsionar o Azure para identificar de forma pró-ativa os clientes com maior probabilidade de rotatividade em um futuro breve para melhorar o serviço e criar campanhas de atendimento personalizadas que ajudam a reter os clientes. As operadoras de celular enfrentam um mercado extremamente competitivo. Muitas operadoras de celular perdem receita de clientes pós-pago devido à rotatividade. Portanto, a habilidade de identificar de forma pró-ativa e correta a rotatividade de clientes em grande escala pode ser uma imensa vantagem competitiva. Alguns fatores que contribuem para a rotatividade de clientes de celulares incluem: interrupções de serviço frequentes percebidas, experiências de serviço de cliente ruins em lojas de varejo/online, ofertas de outras operadoras concorrentes (melhor plano para família, plano de dados, etc.)&lt;/p&gt;
+&lt;p&gt;Uma operadora de celular precisa construir uma visão completa da sua base de usuários para permitir que a empresa fique à frente da competição.&lt;/p&gt;</value>
+  </data>
+  <data name="Telecommunications_DetailTitle" xml:space="preserve">
+    <value>Operadora de Celular</value>
+  </data>
+  <data name="Telecommunications_IndexTagline" xml:space="preserve">
+    <value>Aprenda como uma empresa de telecomunicação, operando um negócio móvel, pode impulsionar Cortana Intelligence Suite e Power BI para empoderar stakeholders de negócios para analisar fatores que contribuem para a rotatividade de clientes.</value>
+  </data>
+  <data name="Telecommunications_Title" xml:space="preserve">
+    <value>Telecomunicações</value>
+  </data>
+  <data name="PublicSector_DetailsTagline" xml:space="preserve">
+    <value>&lt;h3&gt;Educação&lt;/h3&gt;
+&lt;p&gt;Como mostram as estatísticas, o número de matrículas no Ensino Fundamental está crescendo a passos largos, à medida que observamos avanços, particularmente, nos países em desenvolvimento. Esses avanços se devem, em parte, aos Objetivos de Desenvolvimento do Milênio, que priorizavam o número de matrículas no Ensino Fundamental. Entretanto, quase 1 em cada 10 crianças do mundo ainda está fora da escola e um número desproporcional delas (60%) são meninas. O número de matrículas no Ensino Superior também cresceu, mas permanece em um nível baixo globalmente, com grandes disparidades entre os países desenvolvidos e em desenvolvimento.&lt;/p&gt;
+&lt;p&gt;A correlação com o PIB é consistente, mas o que merece destaque é uma leve queda no percentual do PIB alocado para a educação, afetado, em parte, pela última crise econômica. É encorajador ver que a diferenças entre os sexos está diminuindo em relação ao número de matrículas no Ensino Superior. Porém, como mencionamos acima, quando comparamos os países desenvolvidos com os países em desenvolvimento, esse quadro muda radicalmente e não acompanha o número de matrículas no nível do Ensino Fundamental.&lt;/p&gt;
+&lt;br&gt;
+&lt;h3&gt;Saúde&lt;/h3&gt;
+
+&lt;p&gt;Ao analisarmos os dados, a expectativa de vida aumentou ao longo dos anos, fato amplamente reconhecido. O que chama a atenção é que a diferença na expectativa de vida do sexo feminino comparada à do sexo masculino permaneceu a mesma ao longo dos anos. É evidente que, conforme um país aloca mais fundos para a Saúde, sua população se beneficie com isso. Um fato curioso de observar é que a taxa de fertilidade está diminuindo à medida que o PIB melhora.&lt;/p&gt;
+&lt;br&gt;
+&lt;h3&gt;Pequenas Empresas&lt;/h3&gt;
+
+&lt;p&gt;Quando um ambiente favorável às empresas é criado, a taxa de Novas Empresas abertas aumenta. A correlação com o PIB é evidente. Vale a pena observar que o pico de atividade das Pequenas Empresas ocorreu antes da última crise econômica.&lt;/p&gt;
+&lt;br&gt;
+&lt;h3&gt;Mudança Climática&lt;/h3&gt;
+
+&lt;p&gt;A mudança climática é um tópico polêmico. Analisando os dados, podemos confirmar algumas das variáveis conhecidas. Existe uma correlação direta entre o PIB e a emissão de CO2. À medida que a economia de um país melhora, sua emissão de CO2 aumenta. Esse fenômeno não depende da fonte de produção de eletricidade. Além disso, à medida que a população de um país aumenta, o mesmo ocorre com sua emissão de CO2. Você observará uma tendência semelhante quando compararmos alguns dos principais países no que diz respeito à economia e população.&lt;/p&gt;
+&lt;p&gt;Os dados também mostram que a temperatura média está aumentando. Você observará que a elevação da temperatura não é uma forte tendência. Todos os modelos de projeção indicam a elevação da temperatura ao longo dos anos.&lt;/p&gt;</value>
+  </data>
+  <data name="PublicSector_IndexTagline" xml:space="preserve">
+    <value>Dados do Setor Público estão disponíveis em várias fontes online. A maior parte dessas fontes de dados também é gratuita. Isso oferece uma oportunidade incrível para correlacionar como as políticas públicas estão afetando as mudanças que abrangem o Clima, a Educação, a Saúde e muitas outras áreas.</value>
+  </data>
+  <data name="PublicSector_Title" xml:space="preserve">
+    <value>Setor Público</value>
+  </data>
+  <data name="CapitalMarkets_DetailsTagline" xml:space="preserve">
+    <value>Dashboard de Gastos de Consumo Pessoal dos EUA é usado pela organização Treasury da Microsoft para rastrear tendências de gastos (em trilhões de dólares) em mais de 200 bens e serviços individuais (tudo de automóveis a associações a museus) comprados nos Estados Unidos. O conjunto de dados é publicado mensalmente pelo Departamento de Análise Econômica e é organizado em uma hierarquia de oito níveis na qual o Power BI pode instantaneamente analisar as mudanças no nível mais granular. Esse dashboard permite que a Microsoft analise tendências ano a Ano em gastos, bem como visualizem quais bens/serviços são cada vez mais importantes para o consumidos dos EUA. Enquanto isso, ele permite que a equipe do Treasury capture o sentimento econômico e compreenda nossa posição no ciclo de negócios.</value>
+  </data>
+  <data name="CapitalMarkets_IndexTagline" xml:space="preserve">
+    <value>Dashboard de Gastos de Consumo Pessoal dos EUA O dashboard de Despesas Pessoais acompanha as os gastos de clientes nos EUA para uma ampla gama de bens e serviços para acompanhar o ciclo comercial dos EUA, além de medir tendências de gastos e expectativas econômicas</value>
+  </data>
+  <data name="CapitalMarkets_Title" xml:space="preserve">
+    <value>Mercado de Capitais</value>
+  </data>
+  <data name="Meta_LocJobId" xml:space="preserve">
+    <value>199</value>
+  </data>
+</root>

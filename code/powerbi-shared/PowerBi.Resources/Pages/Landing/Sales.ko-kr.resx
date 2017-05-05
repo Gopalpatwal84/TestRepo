@@ -1,0 +1,194 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" id="root">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Analyze_Content" xml:space="preserve">
+    <value>&lt;p&gt;Power BI를 사용하면 간단한 끌어다 놓기 제스처를 통해 팀에 대한 주요 메트릭을 분석할 수 있는 대화형 보고서를 만들 수 있습니다. 다음은 수행할 수 있는 몇 가지 작업입니다.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;수익:&lt;/strong&gt; 최상의 시나리오를 찾습니다.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;팩터링된 수익:&lt;/strong&gt; 기회 단계에 따라 더 실현 가능한 예상 수익을 계획합니다.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;기회 수:&lt;/strong&gt; 영업 팀 간을 비교합니다.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;지역:&lt;/strong&gt; 가장 강세인 지역과 가장 약세인 지역은?&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;깔때기:&lt;/strong&gt; 파이프라인 내에서 기회가 있는 곳은 어디인가요?&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;채널 효율성:&lt;/strong&gt; 직접 및 간접 판매의 성과를 비교합니다.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;기회 수익 추세:&lt;/strong&gt; 수익이 어느 방향으로 흘러가고 있는가?&lt;/li&gt;
+&lt;/ul&gt;</value>
+  </data>
+  <data name="Analyze_Heading" xml:space="preserve">
+    <value>분석</value>
+  </data>
+  <data name="Analyze_Subheading" xml:space="preserve">
+    <value>몇 초 내에 데이터 분석 및 통찰</value>
+  </data>
+  <data name="Combine_Content" xml:space="preserve">
+    <value>&lt;p&gt;할당량, 시장 크기, 기회 및 인구 통계 등의 판매 데이터를 마케팅, 재무, 고객 서비스, 작업 및 기타 기능의 데이터와 결합하여 더 많은 정보를 검색하고 비즈니스 간에 더 합리적인 결정을 내릴 수 있습니다. 조직의 다른 시스템에 보관된 데이터를 활용해 보세요.&lt;/p&gt;</value>
+  </data>
+  <data name="Combine_Heading" xml:space="preserve">
+    <value>결합</value>
+  </data>
+  <data name="Combine_Subheading" xml:space="preserve">
+    <value>전체 상황 파악</value>
+  </data>
+  <data name="Form_Cta" xml:space="preserve">
+    <value>무료로 사용하기</value>
+  </data>
+  <data name="Hero_Content" xml:space="preserve">
+    <value>&lt;p&gt;할당량, 시장 크기, 기회 및 자세한 내용을 빠르게 드릴다운하는 기능 등 팀의 주요 메트릭을 한눈에 파악할 수 있는 대시보드를 만들고 싶으세요? 판매 데이터를 마케팅, 재무 및 기타 기능의 데이터와 결합하여 비즈니스에 대한 전체적인 시각을 확보하고 싶으세요?&lt;/p&gt;
+&lt;p&gt;Power BI를 통해 이러한 대시보드와 대화형 보고서를 수 초 내에 만들고 팀에 중요한 메트릭을 시각화할 수 있습니다. 간편한 끌어서 놓기 제스처로 데이터를 손쉽게 심층적으로 알아 보고 개선 사항, 상관 관계 및 이상값을 찾을 수 있습니다.&lt;/p&gt;</value>
+  </data>
+  <data name="Hero_Heading" xml:space="preserve">
+    <value>모두를 위한 판매 분석</value>
+  </data>
+  <data name="META_DESCRIPTION" xml:space="preserve">
+    <value>Power BI는 사용자가 중요한 내용에 집중할 수 있도록 회사의 데이터를 수집 및 구성이 가능한 풍부한 시각적 요소로 변환해 줍니다. 정보를 꾸준히 얻고 추세를 파악하여 비즈니스를 확장해 보세요.</value>
+  </data>
+  <data name="META_KEYWORDS" xml:space="preserve">
+    <value />
+  </data>
+  <data name="META_PAGETITLE" xml:space="preserve">
+    <value>판매 | Microsoft Power BI</value>
+  </data>
+  <data name="Mobile_Content" xml:space="preserve">
+    <value>&lt;p&gt;Power BI를 사용하면 적시에 추세를 쉽게 파악하여 차별성을 둘 수 있습니다. 다음과 같은 질문에 답변해 보세요.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;파이프라인 내의 기회 수익은 어느 정도인가요?&lt;/li&gt;
+&lt;li&gt;되돌아봤을 때 팩터링된 수익 예상이 어떤 성과를 가져다 주었나요?&lt;/li&gt;
+&lt;/ul&gt;</value>
+  </data>
+  <data name="Mobile_Heading" xml:space="preserve">
+    <value>모바일</value>
+  </data>
+  <data name="Mobile_Subheading" xml:space="preserve">
+    <value>향후 추세 파악</value>
+  </data>
+  <data name="Monitor_Content" xml:space="preserve">
+    <value>&lt;p&gt;Power BI를 통해 즉시 대시보드를 만들고 팀의 기회, 결과 및 전반적인 효율성을 모니터링할 수 있습니다. 또한 승률, 실적 수, 수익, 할인 및 YTD 수익 맵 등의 주요 메트릭을 모니터링할 수도 있습니다. 대시보드는 자동으로 최신 데이터로 새로 고쳐지며 필요할 때마다 언제든지 정보를 한눈에 볼 수 있도록 요약하여 제공합니다.&lt;/p&gt;</value>
+  </data>
+  <data name="Monitor_Heading" xml:space="preserve">
+    <value>모니터</value>
+  </data>
+  <data name="Monitor_Subheading" xml:space="preserve">
+    <value>정보를 빨리 알 수 있습니다.</value>
+  </data>
+  <data name="TakeAdvantage_Heading" xml:space="preserve">
+    <value>Power BI를 활용해 보세요.</value>
+  </data>
+  <data name="Meta_LocJobId" xml:space="preserve">
+    <value>69</value>
+  </data>
+</root>

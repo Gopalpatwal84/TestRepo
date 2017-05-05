@@ -1,0 +1,284 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" id="root">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="About_Content" xml:space="preserve">
+    <value>&lt;p&gt;Вы также ознакомитесь с рядом демонстрационных примеров Microsoft Power BI. Вот некоторые из них. &lt;ul&gt;&lt;li&gt;Узнайте, как создать настраиваемую визуализацию на основе диаграммы с маркерами, чтобы объединить в ней полезные данные и поделиться ими с аудиторией.&lt;/li&gt;
+&lt;li&gt;Посмотрите, как наглядно представить географическую информацию из набора данных Всемирного банка, посвященных городскому планированию, и сформировать круговую карту или картограмму, а также создать карту с помощью R-скрипта. &lt;/li&gt;&lt;li&gt;Узнайте, как правильно задать оси, из этих демонстрационных видео, посвященных работе с данными Всемирного банка о климатических изменениях, а также учебного руководства, в котором рассказывается, как MSN составляет карту предпочтений избирателей на выборах&lt;/li&gt;
+&lt;li&gt;Узнайте, как правильно использовать сочетания интерактивных визуализаций, из совместного учебного руководства от Майкрософт и Real Sociedad, в котором объясняется, как выбрать элементы данных для представления.&lt;/li&gt;&lt;/ul&gt;&lt;/p&gt;</value>
+  </data>
+  <data name="Article_Content_10" xml:space="preserve">
+    <value>&lt;h2 id="creating-chart"&gt;Создание диаграммы с маркерами в Power BI&lt;/h2&gt;
+
+&lt;p&gt;Ниже приведены требования для работы с представленными в этом курсе примерами.&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;Компьютер с системой Windows&amp;#160;7 или более поздней версии&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Скачанное и установленное приложение &lt;a href="{0}"&gt;Power BI Desktop&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Зарегистрированная учетная запись Power BI (&lt;a href="{1}"&gt;{2}&lt;/a&gt;)&lt;/p&gt;
+
+&lt;p&gt;а) Обратите внимание, что для регистрации нужно использовать рабочую учетную запись электронной почты; личные почтовые ящики (Gmail, Hotmail, outlook.com, yahoo.com) не поддерживаются.&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3&gt;Этап&amp;#160;1. Загрузка файлов с образцами&lt;/h3&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;Откройте файл &lt;strong&gt;Brazil IDEB Scores_final.pbix&lt;/strong&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;В этом учебнике используется настраиваемый визуальный элемент &lt;strong&gt;Диаграмма с маркерами SQLBI&lt;/strong&gt;, который можно скачать по следующей ссылке:&lt;/p&gt;
+&lt;p&gt;&lt;a href="{3}"&gt;{3}&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src="{4}" alt="" title="" /&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Для этой визуализации было создано несколько мер.&lt;/p&gt;
+
+&lt;p&gt;а) Обратите внимание: создание мер рассматривалось в предыдущем учебнике, поэтому здесь соответствующие действия не повторяются.
+    &lt;blockquote&gt;
+  &lt;p&gt;Цель = 6,0&lt;/p&gt;
+
+&lt;p&gt;Среднее по стране = ВЫЧИСЛИТЬ(СРЗНАЧ(IDEB2009[Показатель]); ALL(IDEB2009))&lt;/p&gt;
+&lt;/blockquote&gt;
+    &lt;/p&gt;
+    &lt;/li&gt;
+&lt;/ol&gt;
+
+
+
+&lt;h3&gt;Этап&amp;#160;2. Работа с данными&lt;/h3&gt;
+
+&lt;p&gt;&lt;strong&gt;Примечание.&lt;/strong&gt; Мера "Цель" показывает, как добавить в отчет статическое значение без использования функций "Получение данных". Мера "Среднее по стране" показывает, как рассчитать статистическое значение по строкам данных, проигнорировав примененные фильтры. Благодаря этому среднее по стране значение остается постоянным во всех категориях набора данных и обновляется при обновлении набора.&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;Нажмите на значок &lt;strong&gt;диаграммы с маркерами&lt;/strong&gt; в области &lt;strong&gt;Визуализации&lt;/strong&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Добавьте поле &lt;strong&gt;Штат&lt;/strong&gt; из таблицы &lt;strong&gt;Список штатов Бразилии&lt;/strong&gt; в раздел &lt;strong&gt;Категория&lt;/strong&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Добавьте меру &lt;strong&gt;&lt;/strong&gt; в раздел &lt;strong&gt;Значение&lt;/strong&gt; (это будет средний показатель).&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Добавьте меру &lt;strong&gt;Среднее по стране&lt;/strong&gt; в раздел &lt;strong&gt;Значение сравнения&lt;/strong&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Добавьте меру &lt;strong&gt;&lt;/strong&gt; в раздел &lt;strong&gt;Целевое значение&lt;/strong&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Добавьте фильтр в поле &lt;strong&gt;тат&lt;/strong&gt;, чтобы удалить пустые значения.&lt;/p&gt;
+
+&lt;p&gt;а) Штат не (Пустое)&lt;/p&gt;
+&lt;p&gt;&lt;img src="{5}" alt="" title="" /&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Выделив диаграмму с маркерами, выберите область &lt;strong&gt;Формат&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;а) Настройте цвета, как показано ниже.&lt;/p&gt;
+
+&lt;p&gt;б) Установите переключатель параметра &lt;strong&gt;Штат&amp;#160;1&lt;/strong&gt; в положение &lt;strong&gt;Выкл.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;в) Повторите предыдущее действие для остальных четырех полей штатов.&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;img src="{6}" alt="" title="" /&gt;&lt;/p&gt;
+
+&lt;p&gt;Полученный визуальный элемент позволяет легко сравнивать средние показатели IDEB по отдельным штатам со средним значением по стране, друг с другом, а также с целевым показателем по стране.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src="{7}" alt="" title="" /&gt;&lt;/p&gt;
+
+&lt;h2 id="creating-data-maps"&gt;Создание карт данных (создание пунктирной карты с помощью визуального элемента R)&lt;/h2&gt;
+
+&lt;p&gt;Ниже приведены требования для работы с представленными в этом курсе примерами.&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;Компьютер с системой Windows&amp;#160;7 или более поздней версии&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Скачанное и установленное приложение &lt;a href="{8}"&gt;&lt;em&gt;Power BI Desktop&lt;/em&gt;&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Зарегистрированная учетная запись Power BI (&lt;a href="{1}"&gt;&lt;em&gt;{2}&lt;/em&gt;&lt;/a&gt;)&lt;/p&gt;
+
+&lt;p&gt;а) Обратите внимание, что для регистрации нужно использовать рабочую учетную запись электронной почты; личные почтовые ящики (Gmail, Hotmail, outlook.com, yahoo.com) не поддерживаются.&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;В Power BI доступны стандартные карты, однако в получаемые результаты можно вносить измерения, например сочетать хороплеты и пунктирные карты, добавлять дуговые линии или увеличивать масштаб отдельных областей. Визуальные элементы R позволяют гибко экспериментировать с создаваемыми объектами и настраивать их. В этом учебном руководстве рассказывается, как с помощью &lt;strong&gt;визуального элемента на базе R-скрипта&lt;/strong&gt; создать простую карту.&lt;/p&gt;
+
+&lt;h3&gt;Этап&amp;#160;1. Установка компонентов R и редактора R-скриптов&lt;/h3&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;Установите на свой компьютер компоненты R, а также редактор R-скриптов, например RStudio.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;В редакторе R-скриптов выполните команды &lt;strong&gt;install.packages(maps)&lt;/strong&gt; и &lt;strong&gt;install.packages(mapproj)&lt;/strong&gt;. В результате на компьютере будут установлены пакеты maps и mapproj. Пакет устанавливается один раз, а соответствующая библиотека активируется из Power BI каждый раз при его использовании.&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3&gt;Этап&amp;#160;2. Создание визуального элемента R&lt;/h3&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;Теперь с помощью значка R в области &lt;strong&gt;Визуализации&lt;/strong&gt; в правой части холста создайте новый визуальный элемент R.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Перетащите поля &lt;strong&gt;lat&lt;/strong&gt; и &lt;strong&gt;lng&lt;/strong&gt; из таблицы &lt;strong&gt;&lt;/strong&gt; на поле "Значения".&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Задав набор данных, вы увидите редактор R-скриптов. В первые строки скрипта автоматически подставляется код, который создает набор данных из выбранных вами полей. Теперь можно приступать к созданию визуального элемента, добавив (или изменив) приведенный ниже код.&lt;/p&gt;
+&lt;ol&gt;
+    &lt;li&gt;&lt;p&gt;Вызовите библиотеки &lt;strong&gt;maps&lt;/strong&gt; и &lt;strong&gt;mapproj&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;library(maps)&lt;/p&gt;
+
+&lt;p&gt;library(mapproj)&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Нарисуйте карту мира без линий, обозначающих границы.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;map('world', col=NA)&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Нарисуйте точку для каждого города из набора данных. Параметр Pch определяет форму точки, а с помощью параметра cex можно задать ее размер.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;points(mapproject(dataset\$lng, dataset\$lat), col="black", pch=19, cex=.1)&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+
+
+
+&lt;p&gt;Это лишь пример карты, которую можно создать с помощью R-скрипта; пространство для экспериментов безгранично.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src="{9}" alt="" title="" /&gt;&lt;/p&gt;</value>
+  </data>
+  <data name="Download_Resources" xml:space="preserve">
+    <value>Скачать все ресурсы, необходимые для работы с этими учебниками</value>
+  </data>
+  <data name="Hero_Subtitle" xml:space="preserve">
+    <value>Альберто Каиро (Alberto Cairo) покажет, как правильно выбирать графическое содержимое для имеющихся данных. Человеческий мозг намного эффективнее обнаруживает закономерности и тренды, когда они находятся на линейчатых и точечных диаграммах, графиках, картах данных и других графических объектах. Альберто предлагает разобраться с темами и вопросами, которые помогут вам подобрать оптимальное графическое представление для своих данных. Вам предлагается обзор различных типов графических элементов, которые позволяют делать оценки с разной степенью точности.</value>
+  </data>
+  <data name="Hero_Title" xml:space="preserve">
+    <value>Выбор графических элементов</value>
+  </data>
+  <data name="InThisArticle" xml:space="preserve">
+    <value>В этой статье:</value>
+  </data>
+  <data name="META_DESCRIPTION" xml:space="preserve">
+    <value />
+  </data>
+  <data name="META_KEYWORDS" xml:space="preserve">
+    <value />
+  </data>
+  <data name="META_PAGETITLE" xml:space="preserve">
+    <value>Журналистика данных — выбор графических элементов | Microsoft Power BI</value>
+  </data>
+  <data name="NextTopic" xml:space="preserve">
+    <value>Следующая тема: описательная часть представления</value>
+  </data>
+  <data name="RightNav_Link1" xml:space="preserve">
+    <value>Создание диаграммы с маркерами в Power BI</value>
+  </data>
+  <data name="RightNav_Link2" xml:space="preserve">
+    <value>Создание карт данных (создание пунктирной карты с помощью визуального элемента R)</value>
+  </data>
+  <data name="Meta_LocJobId" xml:space="preserve">
+    <value>159</value>
+  </data>
+</root>

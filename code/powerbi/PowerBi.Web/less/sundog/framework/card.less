@@ -1,0 +1,227 @@
+@import (reference) '../../variables.d.less';
+@import (reference) '../../mixins.d.less';
+
+.card-color-helper(@color, @name) {
+    @escape-name: e(@name);
+
+    .card-@{escape-name} {
+        background-color: @color;
+        .card-text-helper(@color);
+
+        a&,
+        a&:hover {
+            .card-link-text-helper(@color);
+        }
+    }
+}
+
+.card-text-helper(@color) when (lightness(@color) < @color-threshold) {
+    color: @color-font-light;
+}
+
+.card-link-text-helper(@color) when (lightness(@color) < @color-threshold) {
+    color: @color-font-light !important;
+}
+
+.card-link-text-helper(@color) when (lightness(@color) >= @color-threshold) {
+    color: @color-font-standard !important;
+}
+
+/*
+Card
+
+Description.
+
+Markup:
+<div class="row">
+    <div class="column medium-4">
+        <div class="card {{modifier_class}}">
+            <p class="text-heading3">This is a card.</p>
+            <p>Basic card demo.</p>
+            <p><a href="#" class="button button-tiny">Button</a>
+        </div>
+    </div>
+</div>
+
+.card-size0 - Description.
+.card-size2 - Description.
+.card-size3 - Description.
+.card-size4 - Description.
+.card-size5 - Description.
+.card-size6 - Description.
+.card-slate01 - Description.
+.card-slate02 - Description.
+.card-slate03 - Description.
+.card-slate04 - Description.
+.card-slate05 - Description.
+.card-slate06 - Description.
+.card-slate07 - Description.
+.card-slate08 - Description.
+.card-slate09 - Description.
+.color-palette01 - Description.
+.color-palette02 - Description.
+.color-palette03 - Description.
+.color-palette04 - Description.
+.color-palette05 - Description.
+.color-palette06 - Description.
+.color-palette07 - Description.
+.color-palette08 - Description.
+.color-palette09 - Description.
+.color-palette10 - Description.
+.color-palette11 - Description.
+.color-palette12 - Description.
+
+Style guide: card
+*/
+
+.card {
+    background-color: @color-palette01;
+    display: block;
+    padding: @spacing-size1;
+
+    & > :last-child {
+        margin-bottom: 0;
+    }
+
+    & > :first-child {
+        margin-top: 0;
+    }
+}
+
+.card-size0 {
+    padding: 0;
+}
+
+.card-size2 {
+    padding: @spacing-size2;
+}
+
+.card-size3 {
+    padding: @spacing-size3;
+}
+
+.card-size4 {
+    padding: @spacing-size4;
+}
+
+.card-size5 {
+    padding: @spacing-size5;
+}
+
+.card-size6 {
+    padding: @spacing-size6;
+}
+
+.card-color-helper(@color-slate01, 'slate01');
+.card-color-helper(@color-slate02, 'slate02');
+.card-color-helper(@color-slate03, 'slate03');
+.card-color-helper(@color-slate04, 'slate04');
+.card-color-helper(@color-slate05, 'slate05');
+.card-color-helper(@color-slate06, 'slate06');
+.card-color-helper(@color-slate07, 'slate07');
+.card-color-helper(@color-slate08, 'slate08');
+.card-color-helper(@color-slate09, 'slate09');
+
+.card-color-helper(@color-palette01, 'palette01');
+.card-color-helper(@color-palette02, 'palette02');
+.card-color-helper(@color-palette03, 'palette03');
+.card-color-helper(@color-palette04, 'palette04');
+.card-color-helper(@color-palette05, 'palette05');
+.card-color-helper(@color-palette06, 'palette06');
+.card-color-helper(@color-palette07, 'palette07');
+.card-color-helper(@color-palette08, 'palette08');
+.card-color-helper(@color-palette09, 'palette09');
+.card-color-helper(@color-palette10, 'palette10');
+.card-color-helper(@color-palette11, 'palette11');
+.card-color-helper(@color-palette12, 'palette12');
+
+/*
+Card: Icon
+
+Description.
+
+Markup:
+<div class="row">
+    <div class="column medium-4">
+        <div class="card card-slate09 card-icon {{modifier_class}} text-center">
+            <span class="icon">
+                <svg xmlns:xlink="http://www.w3.org/1999/xlink" id="monitor" viewBox="0 0 30 30">
+                    <path fill="#333333" d="M29.1,21.6H15.9v1.9h3.8v1.9h-9.4v-1.9h3.8v-1.9H0.9V4.7h28.1V21.6z M2.8,6.6v13.1h24.4V6.6H2.8z"></path>
+                </svg>
+            </span>
+            <span class="top text-heading3">Video library</span>
+            <p class="bottom" data-set="set-3">Watch our videos to see how to accomplish common tasks quickly with Power BI.</p>
+            <a class="button button-featured" href="#">Watch our videos</a>
+        </div>
+    </div>
+</div>
+
+.card-icon-large - Description.
+
+Style guide: card.icon
+*/
+
+.card-icon {
+    padding: @spacing-size2 @spacing-size2 @spacing-size2 95px;
+    position: relative;
+
+    .top,
+    .bottom {
+        display: block;
+    }
+
+    .icon {
+        .transform-translate(0, -50%);
+        left: @spacing-size2;
+        position: absolute;
+        top: 50%;
+    }
+}
+
+.card-icon-large {
+    height: auto;
+    padding: @spacing-size2;
+
+    .top {
+        margin: @spacing-size1 0;
+    }
+
+    .button {
+        margin-top: @spacing-size3;
+    }
+
+    .icon {
+        .transform-translate(0, 0);
+        position: static;
+        height: 90px;
+        width: 77px;
+    }
+}
+
+@media only screen and (min-width: @resolution-medium) {
+    .card-icon {
+        padding: 75px @spacing-size2 @spacing-size2;
+
+        .icon {
+            top: 40px;
+        }
+    }
+
+    .card-icon-large {
+        padding: @spacing-size2;
+    }
+}
+
+@media only screen and (min-width: @resolution-large) {
+    .card-icon {
+        padding: @spacing-size2 @spacing-size2 @spacing-size2 95px;
+
+        .icon {
+            top: 50%;
+        }
+    }
+
+    .card-icon-large {
+        padding: @spacing-size2;
+    }
+}

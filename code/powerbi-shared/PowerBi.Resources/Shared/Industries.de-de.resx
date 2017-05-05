@@ -1,0 +1,270 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" id="root">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Airline_DetailsTagline" xml:space="preserve">
+    <value>&lt;p&gt;Mechaniker bei großen Fluglinien, die für eine Flugzeugflotte verantwortlich sind, müssen den Aufwand und die Ausfallzeiten, die durch spontane Wartungsarbeiten entstehen, sowie die Möglichkeit technischer Ausfälle, die zu noch höheren Kosten führen könnten, ständig gegeneinander abwägen. &lt;/p&gt;
+&lt;p&gt;Mit dem Bericht in dieser Lösung erhalten Sie einen Überblick über den Zustand der Flotte sowie eine Zusammenfassung der Prognosen zu kurzfristigen Änderungen des technischen Flottenzustands. Die Prognosen basieren auf mehreren Machine Learning-Modellen und nutzen verschiedene Datenquellen, darunter den Quick Access Recorder des Flugzeugs (vergleichbar mit einer Black Box). Der Bericht zeigt die detaillierte Ausgabe eines der verwendeten Machine Learning-Modelle, mit dem die verbleibende Nutzungsdauer wichtiger Motorenteile prognostiziert wird.&lt;/p&gt;
+&lt;p&gt;Die Daten sind im Bericht visuell aufbereitet. Eine Übersicht über Flugpläne und Flugzeugstandorte erlaubt es, den idealen Ort für eine Wartung und ein mögliches Ersatzgerät leichter zu ermitteln. Der Bericht enthält außerdem ein Sankey-Diagramm, mit dem die je nach Flugwerktyp unterschiedlichen KPI-Gewichtungen der Flotte beurteilt werden können, sowie ein 3D-Wärmebild in Form eines Triebwerks. Mitarbeiter in der Luftfahrtbranche können Daten anhand dieser Visualisierungen intuitiv auswerten.&lt;/p&gt;</value>
+  </data>
+  <data name="Airline_DetailTitle" xml:space="preserve">
+    <value>Wartungsplanung in großem Umfang</value>
+  </data>
+  <data name="Airline_IndexTagline" xml:space="preserve">
+    <value>Diese Lösung basiert auf einem praxisnahen Wartungssystem mit Prognosefunktionen für eine große Fluglinie. Die Daten stammen aus verschiedenen Quellen, z. B. IoT-Datenströme aus Flugzeugen, Flugpläne, Wetterdaten und Protokolle. Für die Lösung werden Azure HDInsight zur Funktionsentwicklung, Azure Machine Learning zur Erkennung von Betriebsstörungen und Azure SQL DW für performante Abfragen von Petabytes von Daten genutzt. In diesem Bericht werden außerdem benutzerdefinierte Visualisierungen verwendet, die eigens für die Luftfahrtbranche entwickelt wurden.</value>
+  </data>
+  <data name="Airline_Title" xml:space="preserve">
+    <value>Luftfahrt</value>
+  </data>
+  <data name="CPG_DetailsTagline" xml:space="preserve">
+    <value>&lt;p&gt;Der Verbrauchsgütermarkt ist stark umkämpft. Alle Marken und Sparten werben ständig um die Aufmerksamkeit und den Zuspruch der Kunden. Eine Vergrößerung des Marktanteils ist nicht einfach und nur mithilfe der Verbrauchsgüteranalyse zu schaffen. &lt;/p&gt;
+&lt;p&gt;Mit Power&amp;#160;BI können Sie alle Schlüsselmetriken wie Lagerbestand, Rentabilität, Lieferkette, Vertriebskanäle und Preisgestaltung an zentraler Stelle überwachen. Berichte und Benachrichtigungen in Echtzeit helfen, Lieferengpässe zu vermeiden. &lt;/p&gt;
+&lt;p&gt;Verwalten Sie Ihren globalen Ressourcenbedarf mit Übersichtsdashboards, und gewinnen Sie mit Drilldowns weitere Erkenntnisse aus den Daten. Die Leistung Ihrer Marken und Sparten lässt sich über ausgefeilte Modelle und detaillierte Berichte eindeutig ermitteln. &lt;/p&gt;
+&lt;p&gt;Beobachten Sie den Erfolg von Marketingkampagnen und ihre Auswirkung auf den Absatz, den Marktanteil und den Gewinn. Über umfassende interaktive Berichte können Sie die Finanzdaten zu Ihrem gesamten operativen Geschäft aufschlüsseln und so schnell Erkenntnisse gewinnen und Entscheidungen treffen.&lt;/p&gt;</value>
+  </data>
+  <data name="CPG_DetailTitle" xml:space="preserve">
+    <value>Ausbau Ihres Marktanteils mithilfe eingehender Datenanalysen und Trenderkennung</value>
+  </data>
+  <data name="CPG_IndexTagline" xml:space="preserve">
+    <value>Von zentraler Bedeutung für das Geschäft mit Verbrauchsgütern sind u. a. Betrieb, Marketing, Vertrieb und Finanzen. Analysieren Sie dynamische Daten, um Absatz, Ertrag und Kundentreue zu maximieren.</value>
+  </data>
+  <data name="CPG_Title" xml:space="preserve">
+    <value>Verbrauchsgüter</value>
+  </data>
+  <data name="Insurance_DetailsTagline" xml:space="preserve">
+    <value>&lt;p&gt;Der wichtigste Bereich im Versicherungsgeschäft ist das Risikomanagement. Daten und Variablen, die bei der Versicherungsanalyse berücksichtigt werden, sind jedoch so zahlreich, dass Versicherer Tools und Verfahren benötigen, die es erlauben, Trends schnell zu erkennen und entsprechende Maßnahmen zu ergreifen. &lt;/p&gt;
+&lt;p&gt;Mit Power BI können Versicherungsanalytiker Daten zu Ansprüchen, Prämien, Betrugsfällen, Umsatz und Kundenzufriedenheit ganz einfach und an zentraler Stelle visualisieren. Ermitteln Sie Trends bei Ansprüchen und Zahlungen in kürzerer Zeit. &lt;/p&gt;
+&lt;p&gt;Bestimmen Sie wiederkehrende Muster, die Ausgangspunkt einer Betrugserkennung sein könnten, und richten Sie zur schnellen Feststellung automatische Benachrichtigungen ein. Erstellen Sie angepasste Metriken, und beobachten Sie Durchschnittskosten und -dauer der Schadensregulierung. &lt;/p&gt;
+&lt;p&gt;Visualisieren Sie die Auswirkungen Ihrer Preisstrategie und die Rentabilität. Verfolgen Sie Daten zur Kundenzufriedenheit, und identifizieren Sie neue Geschäftschancen und Risiken, um schnell reagieren zu können.&lt;/p&gt;</value>
+  </data>
+  <data name="Insurance_DetailTitle" xml:space="preserve">
+    <value>Überwachen von Risiken, Verwalten von Umsatz und Ansprüchen sowie Erkennen von Betrugsversuchen mit visuellen datengesteuerten Analysen</value>
+  </data>
+  <data name="Insurance_IndexTagline" xml:space="preserve">
+    <value>Abschlüsse, Ansprüche, Betrugsversuche, Komplexität der Deckung und Prämien: Alle Aspekte des Versicherungsgeschäfts produzieren große Datenmengen, aus denen Unternehmen aussagekräftige Trends ablesen könnten.</value>
+  </data>
+  <data name="Insurance_Title" xml:space="preserve">
+    <value>Versicherungen</value>
+  </data>
+  <data name="Manufacturing_DetailsTagline" xml:space="preserve">
+    <value>&lt;p&gt;Verfolgen Sie Key Performance Indicators in Echtzeit: Maschinenauslastung, Prozesseffektivität, Kosten, Lagerbestand, Schwund und Umlaufzeiten. &lt;/p&gt;
+&lt;p&gt;Hersteller erzielen nur dann herausragende Ergebnisse, wenn Sie die verfügbaren Echtzeitdaten für die Kooperation, Überwachung und Kommunikation heranziehen. Power BI unterstützt Ihr Team beim Überwachen von Echtzeitdaten aus verschiedenen Quellen in einem zentralen Dashboard. Daten lassen sich nach Bedarf aufschlüsseln, um Probleme zu erkennen. Mit den mobilen Power BI-Apps erhalten Sie Benachrichtigungen in Echtzeit und steigern die betriebliche Effektivität, um flexibler und reaktionsschneller zu werden. &lt;/p&gt;
+&lt;p&gt;Überwachen Sie die gesamte Lieferkette, und ermitteln Sie Probleme und Engpässe, bevor die zentralen Prozesse beeinträchtigt werden. Teilen Sie Dashboards mit Lieferanten und Geschäftspartnern, damit diese sich nach den jeweils aktuellen Daten richten können. Ihre Prozesse werden so schlanker und intelligenter. Verfolgen Sie die Eingangs- und Ausgangsqualität entlang des gesamten Prozesses einschließlich der Kundendaten, um schnell fundierte Entscheidungen zu treffen, die sich positiv auf die Fertigungsqualität auswirken.&lt;/p&gt;</value>
+  </data>
+  <data name="Manufacturing_DetailTitle" xml:space="preserve">
+    <value>Effizientere und schnellere Entscheidungsfindung durch Echtzeitanalysen der Lieferkette</value>
+  </data>
+  <data name="Manufacturing_IndexTagline" xml:space="preserve">
+    <value>Fertigungsprozesse müssen reibungslos ablaufen, um einen Erfolg zu gewährleisten. Voraussetzung hierfür sind Einblicke in alle Prozessschritte, ohne den Überblick über den Gesamtprozess zu verlieren.</value>
+  </data>
+  <data name="Manufacturing_Title" xml:space="preserve">
+    <value>Fertigung</value>
+  </data>
+  <data name="ProfessionalServices_DetailsTagline" xml:space="preserve">
+    <value>&lt;p&gt;Was ist Consulting, Rechtsdienstleistungen, Immobilienmakler und Pflegedienste gemeinsam? Im Zentrum steht immer der Mensch. Sie müssen die Leistung mit den richtigen Key Performance Indicators überwachen, um den Erfolg zu maximieren und die Effizienz zu steigern. Mitarbeiter benötigen Zugriff auf die Daten, um schnell reagieren und die Ergebnisse verbessern zu können. &lt;/p&gt;
+&lt;p&gt;Mit Power BI können Sie die entscheidenden Key Performance Indicators über die gleiche Plattform verfolgen, personalisieren, zur besseren Veranschaulichung visualisieren und mit anderen teilen. Lassen Sie Metriken in Echtzeit berechnen, z.&amp;#160;B. Jahresumsatz je Mitarbeiter, Projektmarge, Rechnungen, Auslastung und Kundenzufriedenheit, um Einblicke in die Leistung zu gewinnen und bei Problemen entsprechende Maßnahmen zu ergreifen. Führen Sie in den Daten einen Drilldown zu einzelnen Mitarbeitern durch, und ermöglichen Sie allen Beteiligten den sicheren und kontrollierten Zugriff auf die Daten. &lt;/p&gt;
+&lt;p&gt;Schlüsseln Sie Daten ganz einfach nach Standort, Rolle, Projekt oder Team auf, um auf allen Ebenen Erkenntnisse für fundierte Entscheidungen zu gewinnen. Beobachten Sie die Kundenzufriedenheit, damit sie sicher sein können, dass Sie Ihren Kunden einen optimalen Service bieten, ohne den Betrieb unnötig aufzublähen.&lt;/p&gt;</value>
+  </data>
+  <data name="ProfessionalServices_DetailTitle" xml:space="preserve">
+    <value>Präzise Erkenntnisse rücken den Mitarbeiter ins Rampenlicht</value>
+  </data>
+  <data name="ProfessionalServices_IndexTagline" xml:space="preserve">
+    <value>Für alle Dienstleister gilt: Ihre Mitarbeiter sind ihr größtes Kapital. Unterstützen Sie Ihr Team mit relevanten Daten und nützlichen Technologien, um Ihren Kunden einen optimalen Service zu bieten.</value>
+  </data>
+  <data name="ProfessionalServices_Title" xml:space="preserve">
+    <value>Dienstleistungen</value>
+  </data>
+  <data name="Retail_DetailsTagline" xml:space="preserve">
+    <value>&lt;p&gt;Einzelhändler verfügen über unendliche Datenbestände: Abschlüsse, Lieferketten, Kaufverhalten, Trends, Mehrkanalvertrieb und globale Reichweite sind nur einige der Datenquellen, die Unternehmen zur Gewinnmaximierung heranziehen können. &lt;/p&gt;
+&lt;p&gt;Um aus diesen Daten fundierte Erkenntnisse ableiten zu können, sind Skalierbarkeit, Benutzerfreundlichkeit, konstante Verfügbarkeit und Aktualisierung in Echtzeit unabdingbar. Dank Power BI werden all diese Datenquellen an einem zentralen Ort zusammengefasst und laufend aktualisiert, damit Sie zum richtigen Zeitpunkt die richtigen Entscheidungen treffen. Teilen Sie Ihre Einzelhandelsanalysen mit Geschäften, Verwaltung, Fabriken oder Vertriebszentren. &lt;/p&gt;
+&lt;p&gt;Mit Power BI haben Sie jederzeit und von praktisch überall Zugriff auf die aktuellen Daten. Gewinnen Sie Einblicke in das Verhalten und die Stimmung Ihrer Online- und Offlinekunden. Visualisieren Sie die Bewegungen und Interaktionen von Kunden, um Chancen zur Optimierung Ihres Services und Ihrer Gewinne zu erkennen.&lt;/p&gt;</value>
+  </data>
+  <data name="Retail_DetailTitle" xml:space="preserve">
+    <value>Gewinnen fundierter Erkenntnisse zu Kunden, Preisen, POS, Bestand und Vertriebskanälen</value>
+  </data>
+  <data name="Retail_IndexTagline" xml:space="preserve">
+    <value>Die Shoppingwelt hat sich verändert. Mobilgeräte, mehr Möglichkeiten und jederzeit abrufbereite Informationen sind heutzutage fester Bestandteil des Einkaufserlebnisses. Verschaffen Sie sich einen Einblick in die Faktoren, die für den Erfolg Ihres Unternehmens entscheidend sind.</value>
+  </data>
+  <data name="Retail_Title" xml:space="preserve">
+    <value>Einzelhandel</value>
+  </data>
+  <data name="Energy_DetailsTagline" xml:space="preserve">
+    <value>&lt;p&gt;Energie lässt sich nicht verlustfrei speichern. Daher müssen Versorger und Stromerzeuger Prognosen über den zukünftigen Stromverbrauch anstellen, um auf effiziente Weise Angebot und Nachfrage im Gleichgewicht zu halten. Zu Stoßzeiten kann eine Angebotsknappheit zu Stromausfällen führen, wohingegen bei einem Überangebot die Verschwendung kostbarer Ressourcen droht. Fortschrittliche Verfahren zur Bedarfsprognose erlauben es, die Nachfrage für einzelne Tageszeiten und Stoßzeiten für bestimmte Tage vorherzusagen. Energieversorger können dann ihre Prozesse zur Stromerzeugung entsprechend optimieren. Schwerpunkt dieses Berichts ist die Bedarfsprognose im Energiesektor. Er enthält Statusinformationen zum Stromverbrauch auf regionaler Ebene und Prognosen zum zukünftigen Stromverbrauch, die als Grundlage für Prozessoptimierungen herangezogen werden können.&lt;/p&gt;
+&lt;p&gt;Auf der Seite „Energy Solution Status Summary“ ist der Gesamtstatus des Energiebedarfs in den einzelnen Regionen aufgeführt. Ein Benutzer kann eine bestimmte Region auswählen, indem er links auf den Filter klickt, um so den Status dieser Region eingehend zu prüfen.&lt;/p&gt;
+&lt;p&gt;Auf der Seite „Energy Solution Forecast“ werden die Ergebnisse der Bedarfsprognose auf Grundlage des Azure Machine Learning-Modells sowie verschiedene Fehlermetriken angezeigt, die eine Einschätzung der Qualität des Modells erlauben. Temperatur und Temperaturvorhersagen werden als Merkmale im Machine Learning-Modell verwendet.&lt;p/&gt;</value>
+  </data>
+  <data name="Energy_DetailTitle" xml:space="preserve">
+    <value>Energie</value>
+  </data>
+  <data name="Energy_IndexTagline" xml:space="preserve">
+    <value>Schwerpunkt dieses Berichts ist die Bedarfsprognose im Energiesektor. Die Ansichten enthalten Statusinformationen zum Stromverbrauch auf regionaler Ebene und Prognosen zum zukünftigen Stromverbrauch, die als Grundlage für Prozessoptimierungen herangezogen werden können.</value>
+  </data>
+  <data name="Energy_Title" xml:space="preserve">
+    <value>Energie</value>
+  </data>
+  <data name="Telecommunications_DetailsTagline" xml:space="preserve">
+    <value>&lt;p&gt;Unternehmen benötigen eine effektive Strategie im Umgang mit Kundenabwanderungen. Als Kundenabwanderung zählt, wenn Kunden einen Dienst seltener oder gar nicht mehr nutzen oder wenn sie zu einem Mitbewerber oder einem Tarif mit geringerem Leistungsumfang wechseln.&lt;/p&gt;
+&lt;p&gt;In diesem Anwendungsfall wird betrachtet, wie ein Mobilfunkanbieter mit Azure proaktiv Kunden ermitteln kann, bei denen eine Abwanderung in nächster Zeit eher wahrscheinlich ist. Auf dieser Grundlage können dann Verbesserungen am Dienst vorgenommen und spezielle Kampagnen zur Kundenbindung entwickelt werden. Der Mobilfunkmarkt ist besonders hart umkämpft. Die Abwanderung von Vertragskunden führt bei vielen Mobilfunkanbietern zu Gewinneinbußen. Daher kann sich die Möglichkeit, potenzielle Kundenabwanderungen in großem Umfang proaktiv und präzise zu bestimmen, als unschätzbarer Wettbewerbsvorteil erweisen. Einige der Faktoren, die zu Abwanderungen von Mobilfunkkunden führen, sind: der Eindruck häufig auftretender Störungen, schlechte Erfahrungen mit dem Kundendienst (online oder offline) oder Angebote von Mitbewerbern (attraktivere Familien- oder Datentarife usw.).&lt;/p&gt;
+&lt;p&gt;Mobilfunkanbieter müssen sich einen Rundum-Überblick über Ihren Kundenstamm verschaffen, um ihren Vorsprung vor Mitbewerbern zu sichern.&lt;/p&gt;</value>
+  </data>
+  <data name="Telecommunications_DetailTitle" xml:space="preserve">
+    <value>Mobilfunkdienstleister</value>
+  </data>
+  <data name="Telecommunications_IndexTagline" xml:space="preserve">
+    <value>Informieren Sie sich über die Möglichkeiten, die Cortana Intelligence Suite und Power BI Stakeholdern in Telekommunikationsunternehmen für Mobilfunk eröffnet, um Faktoren der Kundenabwanderung zu analysieren.</value>
+  </data>
+  <data name="Telecommunications_Title" xml:space="preserve">
+    <value>Telekommunikation</value>
+  </data>
+  <data name="PublicSector_DetailsTagline" xml:space="preserve">
+    <value>&lt;h3&gt;Bildung&lt;/h3&gt;
+&lt;p&gt;Die Statistik zeigt, dass mit den Fortschritten in den Entwicklungsländern auch der Besuch von Grundschulen stark zunimmt – nicht zuletzt ein Erfolg der Millenniums-Entwicklungsziele, die einen Schwerpunkt auf die Primärschulbildung legen. Allerdings besucht immer noch 1 von 10 Kindern keine Schule, und mit 60 % sind Mädchen hiervon überproportional betroffen. Der Besuch von Hochschulen hat ebenfalls zugenommen, wenn auch aus globaler Sicht auf niedrigem Niveau, wobei es riesige Unterschiede zwischen einzelnen Industrienationen und Entwicklungsländern gibt.&lt;/p&gt;
+&lt;p&gt;Es besteht eine stabile Korrelation zum Bruttoinlandsprodukt. Ein leichter Abfall des auf die Bildung entfallenden Anteils am Bruttoinlandsprodukt lässt sich zum Teil auf die letzte Rezession zurückführen. Ermutigend ist, dass sich der Gendergap hinsichtlich der Hochschulbildung schließt. Wie oben erwähnt, bietet sich jedoch ein völlig anderes Bild beim Vergleich von Industrie- und Entwicklungsländern wie auch bei der Primärschulbildung.&lt;/p&gt;
+&lt;br&gt;
+&lt;h3&gt;Gesundheit&lt;/h3&gt;
+
+&lt;p&gt;Ein Blick auf die Daten zeigt, dass die Lebenserwartung von Jahr zu Jahr gestiegen ist. Dies ist auch völlig unbestritten. Es fällt jedoch auf, dass die Unterschiede bei der Lebenserwartung von Frauen gegenüber Männern über die Jahre konstant geblieben sind. Offensichtlich profitiert die Bevölkerung von höheren Gesundheitsausgaben eines Lands zugute. Bemerkenswert ist, dass die Geburtenrate bei einem Anstieg des Bruttoinlandsprodukts sinkt.&lt;/p&gt;
+&lt;br&gt;
+&lt;h3&gt;Kleinunternehmen&lt;/h3&gt;
+
+&lt;p&gt;Mit der Entstehung eines unternehmensfreundlichen Umfelds steigt die Anzahl der Unternehmensgründungen. Die Korrelation mit dem Bruttoinlandsprodukt ist offensichtlich. Es fällt auf, dass der Höhepunkt bei der Geschäftsaktivität von Kleinunternehmen vor der letzten Rezession lag.&lt;/p&gt;
+&lt;br&gt;
+&lt;h3&gt;Klimawandel&lt;/h3&gt;
+
+&lt;p&gt;Der Klimawandel ist ein brisantes Thema. Ein Blick auf die Daten bestätigt einige der bekannten Variablen. Es besteht eine direkte Korrelation zwischen Bruttoinlandsprodukt und CO2-Emissionen. Mit dem Anstieg der Wirtschaftsleistung eines Lands steigen auch die CO2-Emissionen. Dieser Effekt tritt unabhängig davon auf, welche Energiequellen für die Stromproduktion genutzt werden. Die CO2-Emissionen nehmen auch bei einem Bevölkerungszuwachs in einem Land zu. Bei einem Vergleich einiger der wirtschaftsstärksten und bevölkerungsreichsten Länder lässt sich ein ähnlicher Trend ablesen.&lt;/p&gt;
+&lt;p&gt;Die Daten belegen auch einen Anstieg der Durchschnittstemperatur. Es fällt auf, dass der Temperaturanstieg nicht gleichmäßig verläuft. Alle Prognosemodelle zeigen einen Anstieg der Temperatur im Lauf der Jahre.&lt;/p&gt;</value>
+  </data>
+  <data name="PublicSector_IndexTagline" xml:space="preserve">
+    <value>Daten zum öffentlichen Sektor lassen sich aus verschiedenen Onlinequellen abrufen. Die meisten dieser Datenquellen sind zudem kostenlos. Dies bietet die einmalige Gelegenheit, staatliche Maßnahmen mit Veränderungen bei Klima, Bildung, Gesundheit und anderen Aspekten in Bezug zu setzen.</value>
+  </data>
+  <data name="PublicSector_Title" xml:space="preserve">
+    <value>Öffentlicher Sektor</value>
+  </data>
+  <data name="CapitalMarkets_DetailsTagline" xml:space="preserve">
+    <value>Das Dashboard für private Konsumausgaben in den USA wird von der Finanzabteilung von Microsoft verwendet, um Ausgabentrends (in Billionen USD) bei mehr als 200 einzelnen Gütern und Dienstleistungen (von Autos bis zu Mitgliedschaften in Museumsvereinen) zu verfolgen, die in den USA gekauft werden. Das Dataset wird jeden Monat vom Bureau of Economic Analysis veröffentlicht und ist in acht hierarchische Ebenen unterteilt, die mit Power BI im Handumdrehen detailliert aufgeschlüsselt werden können. Dieses Dashboard ermöglicht es Microsoft, Ausgabentrends im Jahresvergleich zu analysieren und zu veranschaulichen, welche Güter oder Dienstleistungen bei US-Verbrauchern an Bedeutung gewinnen. Darüber hinaus erlaubt es der Finanzabteilung eine Einschätzung des Geschäftsklimas und der aktuellen Position im Konjunkturzyklus.</value>
+  </data>
+  <data name="CapitalMarkets_IndexTagline" xml:space="preserve">
+    <value>Das Dashboard für private Konsumausgaben in den USA verfolgt die Ausgaben von US-Verbrauchern für eine Vielzahl von Gütern und Dienstleistungen und erlaubt Einschätzungen zu US-Konjunkturzyklus, Ausgabentrends und Geschäftsklima.</value>
+  </data>
+  <data name="CapitalMarkets_Title" xml:space="preserve">
+    <value>Kapitalmärkte</value>
+  </data>
+  <data name="Meta_LocJobId" xml:space="preserve">
+    <value>199</value>
+  </data>
+</root>

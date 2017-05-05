@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Onyx.Mvc.PagesApi</name>
+    </assembly>
+    <members>
+        <member name="T:Acom.Mvc.PagesApi.PagesApiController">
+            <summary>
+            Pages API
+            </summary>
+        </member>
+        <member name="M:Acom.Mvc.PagesApi.PagesApiController.Get(Onyx.WebApi.PagingFilter)">
+            <summary>
+            GETs a list of information about the views
+            </summary>
+            <param name="filter">Pagination filter</param>
+        </member>
+        <member name="M:Acom.Mvc.PagesApi.PagesApiController.Get(System.String)">
+            <summary>
+            GETs details about a single view based on URL
+            </summary>
+            <param name="url">The URL the page is served with</param>
+        </member>
+    </members>
+</doc>

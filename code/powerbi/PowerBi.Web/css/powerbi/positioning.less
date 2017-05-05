@@ -1,0 +1,21 @@
+﻿@import (reference) '../../less/mixins.d.less';
+
+.center-vertical {
+    @media only screen and (min-width: @resolution-medium) {
+        position: relative;
+        top: 50%;
+        .transform-translate(0, -50%);
+    }
+}
+
+.force-static {
+    position: static !important;
+}
+
+.display-inline {
+    display: inline;
+}
+
+.display-block {
+    display: block;
+}

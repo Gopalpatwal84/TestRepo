@@ -1,0 +1,80 @@
+﻿@model PowerBI.Web.Models.Pages.Integrations.IntegrationDetails
+@using Resources = PowerBI.Resources.Pages.Integrations.Details
+@using Integrations = PowerBI.Resources.Shared.Integrations
+@using Form = PowerBI.Resources.Shared.Forms.Form
+
+@{
+    Layout = "~/Views/_shared/_LayoutSimplified.cshtml";
+
+    Model.PageTitle = string.Format(Resources.META_PAGETITLE, Integrations.ResourceManager.GetString(Model.Integration.MetaTitleLocKey ?? Model.Integration.NameLocKey));
+    Model.MetaDescription = Integrations.ResourceManager.GetString(Model.Integration.MetaDescriptionLocKey ?? string.Empty);
+    Model.MetaKeywords = Integrations.ResourceManager.GetString(Model.Integration.MetaKeywordsLocKey ?? string.Empty);
+
+    var name = Integrations.ResourceManager.GetString(Model.Integration.NameLocKey);
+    var heading = Integrations.ResourceManager.GetString(Model.Integration.HeadingLocKey ?? string.Empty) ?? Integrations.default_Heading;
+    var heading_content = Integrations.ResourceManager.GetString(Model.Integration.ContentLocKey ?? string.Empty) ?? Integrations.default_Content;
+    var info_heading = Integrations.ResourceManager.GetString(Model.Integration.InfoHeadingLocKey ?? string.Empty) ?? Integrations.default_InfoHeading;
+    var info_content = Html.Raw(Integrations.ResourceManager.GetString(Model.Integration.InfoContentLocKey ?? string.Empty) ?? Integrations.default_InfoContent);
+    var title = Integrations.ResourceManager.GetString(Model.Integration.TitleLocKey ?? string.Empty) ?? string.Format(Integrations.default_Title, name);
+    ViewBag.Container = "container-integrations " + Model.Integration.Slug;
+
+}
+
+<section class="section section-slate06 section-size6">
+    <div class="row">
+        <div class="column medium-centered medium-8 large-6 text-center">
+            <div class="integration-logo">
+                <img src="@CdnHelper.GetCdnUrl("/pictures/pages/integrations/laptop.png")" alt="" />
+                <span class="logo">
+                    <img src="@CdnHelper.GetCdnUrl(Model.Integration.ImageIcon2x)" alt="" />
+                </span>
+            </div>
+            <div class="row">
+                <h1>@title</h1>
+
+                    <h3>@heading</h3>
+
+                <p>@heading_content</p>
+            </div>
+            
+            <div class="row row-size2">
+                @if (Model.Integration.FromService)
+                {
+                    @Html.CreateForm("Signup", new Acom.Forms.Models.FormOptions
+                    {
+                        Class = "form-email-only signup-integration",
+                        Slug = "integration-signup",
+                        SubmitText = Form.UseItFree,
+                        SubmitRedirectUrl = "https://app.powerbi.com/signupredirect",
+
+                    })
+                    <p class="text-mini">@Html.RawFormatInvariant(Form.Terms_UseItFree, Html.LocalizeUrl("/terms-of-service/"))</p>
+                }
+                else
+                {
+                    <a class="button" href="@Html.LocalizeUrl("/desktop/")" data-event="global-clicked-getstartedcta" data-event-property="get-started">@Resources.StartFree_Cta</a>
+            }
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="section section-slate02 section-conference-room">
+    <div class="row">
+        <div class="column medium-5">
+            <h2 class="text-super">@info_heading</h2>
+        </div>
+        <div class="column medium-6 medium-offset-1">
+            @info_content
+        </div>
+    </div>
+</section>
+
+@Html.Partial("section/_integrations", new IntegrationsSectionViewModel
+{
+    AllIntegrations = Model.IntegrationsList,
+    FeaturedIntegrations = Model.IntegrationsList.Where(i => i.Tags?.Contains("featured") == true),
+    Integration = Model.Integration,
+})
+
+@Html.Partial("section/_signup-its-free")

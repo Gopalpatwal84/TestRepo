@@ -1,0 +1,217 @@
+﻿@model PowerBI.Web.Models.Pages.Departments.DepartmentsViewModel
+@using Resources = PowerBI.Resources.Pages.Departments.Index;
+@using Departments = PowerBI.Resources.Shared.Departments;
+
+@{
+    Model.PageTitle = Resources.META_PAGETITLE;
+    Model.MetaKeywords = Resources.META_KEYWORDS;
+    Model.MetaDescription = Resources.META_DESCRIPTION;
+}
+<section class="section section-size3 section-palette02">
+    <div class="row">
+        <div class="column large-5">
+            <h1>@Resources.Hero_Heading</h1>
+        </div>
+        <div class="column large-6 large-offset-1">
+            <p>@Resources.Hero_Copy</p>
+        </div>
+    </div>
+</section>
+
+<section class="section section-size1 section-slate01 subnav-collapse">
+    <div class="row">
+        <div class="column">
+            <div class="subnavMenuToggle">
+                <span class="subnavMenuExpandIcon">
+                    <span class="icon-bar bar1"></span>
+                    <span class="icon-bar bar2"></span>
+                    <span class="icon-bar bar3"></span>
+                </span>
+                <span class="subnavMenuText text-heading5">@Departments.SubNavTitle</span>
+            </div>
+        </div>
+        <div class="subnavMenuLinks">
+                <div class="column">
+                    <ul class="linkList linkList-horizontal">
+                        @foreach (var department in Model.Departments)
+                        {
+                            <li class="subnavLink">
+                                <a href="@Html.LocalizeUrl(department.Url)">
+                                    @Departments.ResourceManager.GetString(department.TitleLockey)
+                                </a>
+                            </li>
+                        }
+                    </ul>
+                </div>
+        </div>
+    </div>
+</section>
+
+<section class="section section-size0 section-slate01 owl-carousel-wide">
+        @foreach (var department in Model.Departments.Select((x, i) => new { index = i++, data = x }))
+        {
+        <a href="#" data-index="@department.index">
+            <img src="@CdnHelper.GetCdnUrl(department.data.Screenshot)" alt="@Departments.ResourceManager.GetString(department.data.TitleLockey)" />
+            <span class="overlay">
+            </span>
+        </a>
+        }
+</section>
+
+<section class="section section-size2 section-slate06 text-center">
+    <div class="row">
+        <div class="column owl-carousel-blank">
+            @foreach (var department in Model.Departments)
+            {
+                <div>
+                    <div class="row">
+                        <div class="column">
+                            <h2 class="text-heading4">@Departments.ResourceManager.GetString(department.TitleLockey)</h2>
+                        </div>
+                    </div>
+                    <div class="row row-size3">
+                        <div class="column">
+                            <h3>@Departments.ResourceManager.GetString(department.IndexTaglineLockey)</h3>
+                        </div>
+                    </div>
+                    <div class="row row-size2">
+                        <div class="column">
+                            <a href="@Html.LocalizeUrl(department.Url)" class="button">
+                                @Resources.SeeInAction_Cta
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            }
+        </div>
+    </div>
+</section>
+
+<section class="section">
+    @foreach (var departmentGroup in Model.Departments.Chunk(3))
+    {
+        <div class="row">
+            @foreach (var department in departmentGroup)
+            {
+                <div class="column medium-4">
+                    <div class="row">
+                        <div class="column">
+                            <span class="icon icon-size3 icon-palette02">@SvgHelper.GetSvg(department.Icon)</span>
+                        </div>
+                    </div>
+                    <div class="row row-size2 sd-equalize">
+                        <div class="column">
+                            <h3>@Departments.ResourceManager.GetString(department.TitleLockey)</h3>
+                            <p>@Departments.ResourceManager.GetString(department.DescriptionLockey)</p>
+                        </div>
+                    </div>
+                    <div class="row row-size2">
+                        <div class="column">
+                            <a href="@Html.LocalizeUrl(department.Url)" class="button">@Resources.LearnMore_Cta</a>
+                        </div>
+                    </div>
+                </div>
+            }
+        </div>
+    }
+</section>
+
+@section foot{
+    <script>
+        $(function () {
+
+            var $blank = $('.owl-carousel-blank'),
+                $wide = $(".owl-carousel-wide");
+
+            $wide.owlCarousel({
+                autoplay: false,
+                items: 1,
+                center: true,
+                loop: true,
+                nav: true,
+                mouseDrag: false,
+                touchDrag: false,
+                pullDrag: false,
+                navText: [
+                    '<a href="#" class="icon">@SvgHelper.GetSvg("left")</span>',
+                    '<a href="#" class="icon">@SvgHelper.GetSvg("right")</span>'
+                ],
+                responsive:{
+                    400: {
+                        stagePadding: 0
+                    },
+                    600: {
+                        stagePadding: 100
+                    },
+                    850: {
+                        stagePadding: 200
+                    },
+                    1200: {
+                        stagePadding: 300
+                    },
+                    1400: {
+                        stagePadding: 400
+                    },
+                    1600: {
+                        stagePadding: 500
+                    },
+                    1800:{
+                        items: 3,
+                        stagePadding: 0
+                    }
+                }
+            });
+
+            $blank.owlCarousel({
+                autoplay: false,
+                items: 1,
+                loop: true,
+                mouseDrag: false,
+                touchDrag: false,
+                pullDrag: false
+            });
+
+            @*// click the top carousel buttons -> move the bottom carousel*@
+            $('body').on('click', '.owl-next a', function (e) {
+                e.preventDefault();
+                $blank.trigger('next.owl.carousel');
+            });
+
+            $('body').on('click', '.owl-prev a', function (e) {
+                e.preventDefault();
+                $blank.trigger('prev.owl.carousel');
+            });
+
+            @*// click the top carousel slides -> move both carousels*@
+            $wide.on('click', 'a[data-index]', function (e) {
+                e.preventDefault();
+
+                var index = $(this).data('index'),
+                    centerIndex = $('.owl-item.center a').data('index'),
+                    lastIndex =  $('.owl-carousel-wide .owl-item:not(.cloned) a').length - 1,
+                    firstIndex = 0;
+
+                // fixes bug with carousel event "to.owl.carousel" where it scrolls to beginning/end on first/last slides instead of looping to the next/prev image 
+                if (index === lastIndex && centerIndex === firstIndex) {
+                    $blank.trigger('prev.owl.carousel');
+                    $wide.trigger('prev.owl.carousel');
+                    return;   
+                } else if (index === firstIndex && centerIndex === lastIndex) {
+                    $blank.trigger('next.owl.carousel');
+                    $wide.trigger('next.owl.carousel');
+                    return;   
+                }
+
+                $wide.trigger('to.owl.carousel', index);
+                $blank.trigger('to.owl.carousel', index);
+            });
+
+            $('body').on('submit', '#modal-gartner form', function () {
+                $('#modal-gartner .close').trigger('click');
+                window.open('https://www.gartner.com/doc/reprints?id=1-2XYY9ZR&ct=160204&st=sb ', '_blank')
+            });
+        });
+
+
+    </script>
+}

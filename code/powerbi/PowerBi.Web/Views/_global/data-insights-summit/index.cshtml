@@ -1,0 +1,57 @@
+﻿@model PowerBI.Web.Models.Pages.ViewMetadataModel
+@using Resources = PowerBI.Resources.Pages.DataInsightsSummit.Index;
+@using Forms = PowerBI.Resources.Shared.Forms.Form
+
+
+@{
+    Model.PageTitle = Resources.META_PAGETITLE;
+    Model.MetaKeywords = Resources.META_KEYWORDS;
+    Model.MetaDescription = Resources.META_DESCRIPTION;
+}
+
+<section class="section section-palette02 text-center">
+    <div class="row">
+        <div class="column">
+            <h1>@Resources.Hero_Heading</h1>
+        </div>
+    </div>
+    <div class="row">
+        <div class="column medium-10 medium-centered">
+            <iframe data-set="media" width="95%" height="550" src="https://www.youtube.com/embed/videoseries?list=PL1N57mwBHtN0MjTzlKRrcO1oOEp8ldHbB" frameborder="0" allowfullscreen></iframe>
+        </div>
+    </div>
+    <div class="row">
+        <div class="column medium-8 medium-centered">
+            <p>@Resources.Hero_Copy</p>
+            <p><a target="_blank" href="https://aka.ms/data-summit-watch-more">@Resources.Watch_Youtube</a> <span class="glyphicon glyph-micro pbi-glyph-chevronrightmedium"></span></p>
+        </div>
+    </div>
+</section>
+
+<section class="section section-slate01 text-center">
+    <div class="row">
+        <div class="column medium-8 medium-centered">
+            <p><a target="_blank" href="https://info.microsoft.com/CO-PowerBI-WBNR-FY16-23Mar-DataInsightsSummitNateSilver_Registration.html?ls=Website">@Resources.Watch_Silver</a> <span class="glyphicon glyph-micro pbi-glyph-chevronrightmedium"></span></p>
+        </div>
+    </div>
+</section>
+<section class="section section-size3 text-center">
+    <div class="row">
+        <div class="column medium-8 medium-centered">
+            <h2>@Resources.Signup_Heading</h2>
+            <p>@Resources.Signup_Content</p>
+        </div>
+    </div>
+    <div class="row row-size2">
+        <div class="column medium-8 medium-centered">
+            @Html.CreateForm("Signup", new Acom.Forms.Models.FormOptions
+               {
+                   Class = "form-email-only",
+                   Slug = "signup",
+                   SubmitText = Forms.UseItFree,
+                   SubmitRedirectUrl = "https://app.powerbi.com/signupredirect",
+               })
+            <p class="text-mini">@Html.RawFormatInvariant(Forms.Terms_UseItFree, Html.LocalizeUrl("/terms-of-service/"))</p>
+        </div>
+    </div>
+</section>

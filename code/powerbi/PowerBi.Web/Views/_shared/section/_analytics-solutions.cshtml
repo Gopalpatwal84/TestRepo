@@ -1,0 +1,63 @@
+﻿@using Resources = PowerBI.Resources.Shared.Section.AnalyticsSolutions
+
+<section class="section section-size6">
+    <div class="row">
+        <div class="column">
+            <h2 class="text-heading1 text-center">@Resources.Heading</h2>
+        </div>
+    </div>
+    <div class="row">
+        <div class="column medium-6 large-3 hover-gif">
+            <div class="row">
+                <div class="column sd-equalize" data-set="analytics-gifs">
+                    <img src="@CdnHelper.GetCdnUrl("/pictures/shared/section/analytics-solutions/analytics-dashboard-static.gif")" data-src-gif="@CdnHelper.GetCdnUrl("/pictures/shared/section/analytics-solutions/analytics-dashboard.gif")" alt="" width="213" height="150" />
+                </div>
+            </div>
+            <div class="row row-size2">
+                <div class="column">
+                    <h3>@Resources.Dashboard_Heading</h3>
+                    @Html.RawFormatInvariant(Resources.Dashboard_Content_1, Html.LocalizeUrl("/features/"))
+                </div>
+            </div>
+        </div>
+        <div class="column medium-6 large-3 hover-gif">
+            <div class="row">
+                <div class="column sd-equalize" data-set="analytics-gifs">
+                    <img src="@CdnHelper.GetCdnUrl("/pictures/shared/section/analytics-solutions/analytics-reports-static.gif")" data-src-gif="@CdnHelper.GetCdnUrl("/pictures/shared/section/analytics-solutions/analytics-reports.gif")" alt="" width="213" height="160" />
+                </div>
+            </div>
+            <div class="row row-size2">
+                <div class="column">
+                    <h3>@Resources.Reports_Heading</h3>
+                    @Html.RawFormatInvariant(Resources.Reports_Content_1, Html.LocalizeUrl("/desktop/"))
+                </div>
+            </div>
+        </div>
+        <div class="column medium-6 large-3 hover-gif">
+            <div class="row">
+                <div class="column sd-equalize" data-set="analytics-gifs">
+                    <img src="@CdnHelper.GetCdnUrl("/pictures/shared/section/analytics-solutions/analytics-consistent-static.gif")" data-src-gif="@CdnHelper.GetCdnUrl("/pictures/shared/section/analytics-solutions/analytics-consistent.gif")" alt="" width="213" height="139" />
+                </div>
+            </div>
+            <div class="row row-size2">
+                <div class="column">
+                    <h3>@Resources.Consistent_Heading</h3>
+                    @Html.RawFormatInvariant(Resources.Consistent_Content_2, "https://www.microsoft.com/en-us/sql-server/sql-business-intelligence", "https://azure.microsoft.com/services/analysis-services/")
+                </div>
+            </div>
+        </div>
+        <div class="column medium-6 large-3 hover-gif">
+            <div class="row">
+                <div class="column sd-equalize" data-set="analytics-gifs">
+                    <img src="@CdnHelper.GetCdnUrl("/pictures/shared/section/analytics-solutions/analytics-embedded-static.gif")" data-src-gif="@CdnHelper.GetCdnUrl("/pictures/shared/section/analytics-solutions/analytics-embedded.gif")" alt="" width="213" height="139" />
+                </div>
+            </div>
+            <div class="row row-size2">
+                <div class="column">
+                    <h3>@Resources.Embedded_Heading</h3>
+                    @Html.RawFormatInvariant(Resources.Embedded_Content_1, Html.LocalizeUrl("/developers/"))
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

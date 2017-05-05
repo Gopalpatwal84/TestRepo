@@ -1,0 +1,11 @@
+﻿@using Resources = PowerBI.Resources.Shared.Section.NewsletterSignup
+
+<div class="newsletter">
+    <h4>@Resources.Heading</h4>
+    <p>@Resources.Content</p>
+    @Html.CreateForm("Newsletter", new Acom.Forms.Models.FormOptions
+    {
+        Class = "form-email-only",
+        Slug = "newsletter-blog",
+    })
+</div>

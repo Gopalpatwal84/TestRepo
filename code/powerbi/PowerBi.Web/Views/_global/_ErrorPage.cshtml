@@ -1,0 +1,27 @@
+﻿@model PowerBI.Web.Models.Pages.ViewMetadataModel
+
+@using Resources = PowerBI.Resources.Pages.ErrorPage
+
+@{
+	if (Response.StatusCode == 200)
+	{
+		Response.StatusCode = 500;
+		Response.TrySkipIisCustomErrors = true;
+	}
+
+	Model.PageTitle = Resources.META_PAGETITLE;
+	Model.MetaDescription = Resources.META_DESCRIPTION;
+	Model.MetaKeywords = Resources.META_KEYWORDS;
+
+	Model.AdditionalMetaTags["robots"] = "noindex, nofollow";
+	Model.MetaCanonical = Html.LocalizeUrl("/").ToString();
+}
+
+<section class="section">
+    <div class="row">
+        <div class="column">
+            <h1>@Resources.Heading</h1>
+            <a href="@Html.LocalizeUrl("/")" class="button">@Resources.BackToPowerBI_CTA</a>
+        </div>
+    </div>
+</section>

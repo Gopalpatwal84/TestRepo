@@ -1,0 +1,179 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" id="root">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ChoosingGraphics_Content" xml:space="preserve">
+    <value>データを効果的に提示するための適切なグラフィックス形式を選択する方法の説明</value>
+  </data>
+  <data name="ChoosingGraphics_Heading" xml:space="preserve">
+    <value>画像の選択</value>
+  </data>
+  <data name="DataExploration_Content" xml:space="preserve">
+    <value>データをわかりやすくする視覚エフェクトを使用して意味を抽出する</value>
+  </data>
+  <data name="DataExploration_Heading" xml:space="preserve">
+    <value>データの有効期限</value>
+  </data>
+  <data name="DesignNarrative_Content" xml:space="preserve">
+    <value>説得力のあるデータ ビジュアライゼーションを作成するためのデザイン上の概念の説明</value>
+  </data>
+  <data name="DesignNarrative_Heading" xml:space="preserve">
+    <value>デザインと物語</value>
+  </data>
+  <data name="Hero_Content" xml:space="preserve">
+    <value>&lt;p&gt;Microsoft Power BI の「&lt;strong&gt;データの可視化とストーリーテリング&lt;/strong&gt;」セクションへようこそ。有名なデータ可視化のエキスパートである &lt;a href="{0}"&gt;Alberto Cairo&lt;/a&gt; を招いて、可視化の方法と、可視化によりデータの説明を行う方法を説明します。コースの目標は、物語を作成し、重要な洞察を対象者に説得力を持って提示する上で、可視化が役に立つ強力なツールであることを示すことにあります。&lt;/p&gt;
+&lt;p&gt;
+データ可視化ツールを使用して独自のストーリーテリングを行う方法を紹介する、Alberto の指摘をまとめた Power BI のデモとチュートリアルを用意しています。
+&lt;/p&gt;
+&lt;p&gt;データ可視化の概念、デザイン、分析に関する側面について学び、ご自身のストーリーテリングに応用してください。&lt;/p&gt;</value>
+    <comment>0 = link</comment>
+  </data>
+  <data name="Hero_Cta" xml:space="preserve">
+    <value>学習の開始</value>
+  </data>
+  <data name="Hero_Title" xml:space="preserve">
+    <value>データのストーリーテリングと可視化</value>
+  </data>
+  <data name="IntroToVisualization_Content" xml:space="preserve">
+    <value>さまざまなグラフィックを使用してデータをわかりやすくし、対象者に伝える</value>
+  </data>
+  <data name="IntroToVisualization_Heading" xml:space="preserve">
+    <value>可視化の概要</value>
+  </data>
+  <data name="META_DESCRIPTION" xml:space="preserve">
+    <value />
+  </data>
+  <data name="META_KEYWORDS" xml:space="preserve">
+    <value />
+  </data>
+  <data name="META_PAGETITLE" xml:space="preserve">
+    <value>データ ジャーナリズム コース | Microsoft Power BI</value>
+  </data>
+  <data name="TruthfulVisualizations_Content" xml:space="preserve">
+    <value>伝えたい情報を効率よく正確にプレゼンする</value>
+  </data>
+  <data name="TruthfulVisualizations_Heading" xml:space="preserve">
+    <value>実際の視覚エフェクト</value>
+  </data>
+  <data name="WatchNow_Cta" xml:space="preserve">
+    <value>今すぐ見る</value>
+  </data>
+  <data name="Meta_LocJobId" xml:space="preserve">
+    <value>159</value>
+  </data>
+</root>

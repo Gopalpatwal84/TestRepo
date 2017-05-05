@@ -1,0 +1,271 @@
+﻿@model PowerBI.Web.Models.Pages.ViewMetadataModel
+@using Resources = PowerBI.Resources.Pages.Pricing.Index;
+
+@{
+    Model.PageTitle = Resources.META_PAGETITLE;
+    Model.MetaKeywords = Resources.META_KEYWORDS;
+    Model.MetaDescription = Resources.META_DESCRIPTION;
+}
+
+<section class="section section-size3 section-palette02">
+    <div class="row">
+        <div class="column medium-5">
+            <h1>@Resources.Hero_Heading</h1>
+        </div>
+        <div class="column medium-6 medium-offset-1">
+            <p>@Resources.Hero_Content</p>
+        </div>
+    </div>
+</section>
+
+@if (Model.IsChinaCloud)
+{
+    @ChinaAvailabilityNotification()
+}
+
+<section class="section">
+    <div class="row">
+        <div class="column">
+            <table class="table-naked table-features-header">
+                <thead>
+                    <tr>
+                        <th></th>
+                        <th>
+                            <h3 class="text-palette02">@Resources.Free</h3>
+                            <p>@Resources.PowerBIFree</p>
+                        </th>
+                        <th>
+                            <span class="text-palette02">@Html.Price(new PriceViewModel { Amount = 9.99, RateFormat = Resources.Rate_PerUserPerMonth })</span>
+                            <p>@Resources.PowerBIPro</p>
+                        </th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>
+                            <div class="show-for-small">
+                                @Html.Partial("parts/_currencydropdown")
+                            </div>
+                        </td>
+                        <td>
+                            <a class="button signup-link" data-event="pricing-clicked-optionscta" data-event-property="PowerBI Free" href="https://app.powerbi.com/signupredirect">
+                                @Resources.SignUp_CTA
+                            </a>
+                        </td>
+                        <td>
+                            <a class="button" id="pro-sign-up" data-pops-up="modal-purchase-pro" data-event="pricing-clicked-optionscta" data-event-property="PowerBI Pro" href="#">
+                                @Resources.Purchase_CTA
+                            </a>
+                        </td>
+                    </tr>
+                    <tr class="hide-for-small" style="padding-top: 10px">
+                        <td colspan="3">
+                            @Html.Partial("parts/_currencydropdown")
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+            <table class="table-features">
+                <tbody>
+                    <tr>
+                        <td><a href="@Html.LocalizeUrl("article:powerbi-admin-manage-your-data-storage-in-power-bi")" target="_blank">@Resources.DataCapacityLimit</a></td>
+                        <td>@Html.RawFormatCurrentUI(Resources.Rate_GBPerUser, 1)</td>
+                        <td>
+                            @Html.RawFormatCurrentUI(Resources.Rate_GBPerUser, 10)
+                            <a href="#" class="icon icon-flyout" aria-describedby="flyout-capacity">@SvgHelper.GetSvg("info")</a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>@Resources.CreateViewShare</td>
+                        <td>&bull;</td>
+                        <td>&bull;</td>
+                    </tr>
+                    <tr>
+                        <td>@Resources.PowerBiDesignerForAuthoring</td>
+                        <td>&bull;</td>
+                        <td>&bull;</td>
+                    </tr>
+                    <tr>
+                        <td>@Html.Raw(Resources.ExporeDataNaturalLanguage)</td>
+                        <td>&bull;</td>
+                        <td>&bull;</td>
+                    </tr>
+                    <tr>
+                        <td>@Resources.DashboardsOnMobile</td>
+                        <td>&bull;</td>
+                        <td>&bull;</td>
+                    </tr>
+                    <tr>
+                        <td>@Resources.ContentPacksFor</td>
+                        <td>&bull;</td>
+                        <td>&bull;</td>
+                    </tr>
+                    <tr>
+                        <td>@Resources.ImportDataReportsFromExcel</td>
+                        <td>&bull;</td>
+                        <td>&bull;</td>
+                    </tr>
+                    <tr>
+                        <td>@Resources.PublishToWeb</td>
+                        <td>&bull;</td>
+                        <td>&bull;</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <div class="row">
+        <div class="column">
+            <h3>@Resources.DataRefresh</h3>
+            <table class="table-features">
+                <tbody>
+                    <tr>
+                        <td>@Resources.ScheduledDataRefresh</td>
+                        <td>@Resources.Daily</td>
+                        <td>@Resources.Hourly</td>
+                    </tr>
+                    <tr>
+                        <td>
+                            @Resources.SupportForStreamingData
+                            <a href="#" class="icon icon-flyout" aria-describedby="flyout-consumestreaming">@SvgHelper.GetSvg("info")</a>
+                        </td>
+                        <td>@Html.RawFormatCurrentUI(Resources.Rate_ThousandsRowsPerHour, 10)</td>
+                        <td>
+                            @Html.RawFormatCurrentUI(Resources.Rate_MillionsRowsPerHour, 1)
+                            <a href="#" class="icon icon-flyout" aria-describedby="flyout-maxdatarate">@SvgHelper.GetSvg("info")</a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            @Resources.LiveInteractiveConnectivity
+                            <a href="#" class="icon icon-flyout" aria-describedby="flyout-livedata">@SvgHelper.GetSvg("info")</a>
+                        </td>
+                        <td></td>
+                        <td>&bull;</td>
+                    </tr>
+                    <tr>
+                        <td>@Resources.DataManagementGateway</td>
+                        <td></td>
+                        <td>&bull;</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <div class="row">
+        <div class="column">
+            <h3>@Resources.Collaboration</h3>
+            <table class="table-features">
+                <tbody>
+                    <tr>
+                        <td>@Resources.ShareRefreshable</td>
+                        <td></td>
+                        <td>&bull;</td>
+                    </tr>
+                    <tr>
+                        <td>@Resources.CreatePublishContentPacks</td>
+                        <td></td>
+                        <td>&bull;</td>
+                    </tr>
+                    <tr>
+                        <td>@Resources.UseActiveDirectory</td>
+                        <td></td>
+                        <td>&bull;</td>
+                    </tr>
+                    <tr>
+                        <td>@Resources.SharedDataQueriesDataCatalog</td>
+                        <td></td>
+                        <td>&bull;</td>
+                    </tr>
+                    <tr>
+                        <td>@Resources.ControlDataAccess</td>
+                        <td></td>
+                        <td>&bull;</td>
+                    </tr>
+                </tbody>
+                <caption>@Html.RawFormatInvariant(Resources.Table_Caption, Html.LocalizeUrl("article:powerbi-power-bi-pro-content-what-is-it"))</caption>
+            </table>
+        </div>
+    </div>
+</section>
+
+<section id="flyout-capacity" role="tooltip" aria-hidden="true" class="sd-flyout sd-flyout-left section">
+    @Html.Raw(Resources.Flyout_Capacity)
+</section>
+
+<section id="flyout-livedata" role="tooltip" aria-hidden="true" class="sd-flyout section">
+    @Html.Raw(Resources.Flyout_LiveData)
+</section>
+
+<section id="flyout-consumestreaming" role="tooltip" aria-hidden="true" class="sd-flyout section">
+    @Html.RawFormatInvariant(Resources.Flyout_ConsumeStreaming, Html.LocalizeUrl("/developers/"))
+</section>
+
+<section id="flyout-maxdatarate" role="tooltip" aria-hidden="true" class="sd-flyout sd-flyout-left section">
+    @Html.RawFormatInvariant(Resources.Flyout_MaxDataRate, "https://msdn.microsoft.com/en-us/library/dn950053.aspx")
+</section>
+
+<section class="section section-size3 modal" id="modal-purchase-pro">
+    <a href="#" class="close">&times;</a>
+    <div class="row text-center">
+        <div class="column">
+            <h2 class="text-center">@Resources.Purchase_Heading</h2>
+            <p>@Resources.Purchase_Subheading1</p>
+        </div>
+    </div>
+    <div class="row">
+        <div class="column small-11 small-offset-1">
+            <p class="text-bold">@Resources.Purchase_Question1</p>
+            <ul class="linkList linkList-horizontal">
+                <li>
+                    <a href="#" id="purchase-wizard-existing-o365-yes" data-pops-up="modal-purchase-pro-admin" class="button button-featured">@Resources.Purchase_Yes</a>
+                </li>
+                <li>
+                    <a href="https://portal.office.com/Signup/MainSignup15.aspx?OfferId=03fb6305-216a-410f-856b-fd6142d94604&amp;dl=POWER_BI_PRO&amp;ali=1" id="purchase-wizard-existing-o365-no" class="button">@Resources.Purchase_NoUnsure</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</section>
+
+<section class="section section-size3 modal" id="modal-purchase-pro-admin">
+    <a href="#" class="close">&times;</a>
+    <div class="row text-center">
+        <div class="column">
+            <h2 class="text-center">@Resources.Purchase_Heading</h2>
+            <p>@Resources.Purchase_Subheading1</p>
+        </div>
+    </div>
+    <div class="row">
+        <div class="column small-11 small-offset-1">
+            <p class="text-bold">@Resources.Purchase_Question2</p>
+            <ul class="linkList linkList-horizontal">
+                <li>
+                    <a id="purchase-wizard-o365-admin-yes" class="button button-featured" target="_blank" href="https://portal.office.com/Signup/MainSignup15.aspx?OfferId=03fb6305-216a-410f-856b-fd6142d94604&dl=POWER_BI_PRO&ali=1">@Resources.Purchase_Yes</a>
+                </li>
+                <li>
+                    <a href="https://portal.office.com/Signup/MainSignup15.aspx?OfferId=03fb6305-216a-410f-856b-fd6142d94604&amp;dl=POWER_BI_PRO&amp;ali=1" id="purchase-wizard-o365-admin-no" class="button">@Resources.Purchase_No</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</section>
+
+@if (!Model.IsChinaCloud)
+{
+    @ChinaAvailabilityNotification()
+}
+
+@helper ChinaAvailabilityNotification()
+{
+    <section class="section section-size0 section-slate09">
+        <div class="row row-size0">
+            <div class="column">
+                <span class="icon icon-size2 pull-left" style="margin: 10px;">
+                    @SvgHelper.GetSvg("web")
+                </span>
+                <span class="center-vertical">@Html.RawFormatInvariant(Resources.ChinaAvailability_Notification, "http://www.21vbluecloud.com/powerbi/pricing/")</span>
+            </div>
+        </div>
+    </section>
+}

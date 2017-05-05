@@ -1,0 +1,123 @@
+﻿@model PowerBI.Web.Models.Pages.Integrations.IntegrationDetails
+@using Resources = PowerBI.Resources.Pages.Integrations.Details
+@using Integrations = PowerBI.Resources.Shared.IntegrationsNew
+@using Form = PowerBI.Resources.Shared.Forms.Form
+
+@{
+    Layout = "~/Views/_shared/_LayoutSimplified.cshtml";
+
+    Model.PageTitle = string.Format(Resources.META_PAGETITLE, Integrations.ResourceManager.GetString(Model.Integration.MetaTitleLocKey ?? Model.Integration.NameLocKey));
+    Model.MetaDescription = Integrations.ResourceManager.GetString(Model.Integration.MetaDescriptionLocKey ?? string.Empty);
+    Model.MetaKeywords = Integrations.ResourceManager.GetString(Model.Integration.MetaKeywordsLocKey ?? string.Empty);
+
+    var heading = Integrations.ResourceManager.GetString(Model.Integration.HeadingLocKey ?? string.Empty) ?? Integrations.default_Heading;
+    var heading_content = Integrations.ResourceManager.GetString(Model.Integration.ContentLocKey ?? string.Empty) ?? Integrations.default_Content;
+    var subcontent1 = Integrations.ResourceManager.GetString(Model.Integration.SubContent1LocKey ?? string.Empty) ?? Integrations.default_SubContent1;
+    var subcontent2 = Integrations.ResourceManager.GetString(Model.Integration.SubContent2LocKey ?? string.Empty) ?? Integrations.default_SubContent2;
+    var subcontent3 = Integrations.ResourceManager.GetString(Model.Integration.SubContent3LocKey ?? string.Empty) ?? Integrations.default_SubContent3;
+    ViewBag.Container = "container-integrations " + Model.Integration.Slug;
+}
+
+<section class="section">
+    <div class="row">
+        <div class="column large-6 sd-equalize">
+            <div class="row">
+                <div class="column">
+                    <div class="integration-logos">
+                        <span class="logo-powerbi">
+                            <span class="icon logo">
+                                @SvgHelper.GetSvg("powerbilogo")
+                            </span>
+                            <span class="icon powerbi">
+                                @SvgHelper.GetSvg("powerbi")
+                            </span>
+                        </span>
+                        <span class="glyphicon glyph-small pbi-glyph-add"></span>
+                        <span class="integration-logo">
+                            <img src="@CdnHelper.GetCdnUrl(Model.Integration.ImageIcon)" alt="" />
+                        </span>
+                    </div>
+                    <h1>@heading</h1>
+                </div>
+            </div>
+            <div class="row row-size2">
+                <div class="column small-10 end">
+                    <p>@heading_content</p>
+                    <div class="row row-size2 column">
+                        @if (Model.Integration.FromService)
+                        {
+                            @Html.CreateForm("Signup", new Acom.Forms.Models.FormOptions
+                               {
+                                   Class = "form-email-only signup-integration",
+                                   Slug = "integration-signup",
+                                   SubmitText = Form.UseItFree,
+                                   SubmitRedirectUrl = "https://app.powerbi.com/signupredirect",
+                               })
+                            <p class="text-mini">@Html.RawFormatInvariant(Form.Terms_UseItFree, Html.LocalizeUrl("/terms-of-service/"))</p>
+                        }
+                        else
+                        {
+                            <a class="button" href="@Html.LocalizeUrl("/desktop/")" data-event="global-clicked-getstartedcta" data-event-property="get-started">@Resources.StartFree_Cta</a>
+                        }
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="column large-5 sd-equalize inline-video-container">
+            @if (!string.IsNullOrEmpty(Model.Integration.VideoUrl))
+            {
+                <a href="" class="video inline-video-wrapper" id="videoPlaceholder">
+                    <img src="@CdnHelper.GetCdnUrl("/pictures/pages/integrations/integrations-video-screenshot.png")" alt="" id="placeholderScreenshot"/>
+                    <span class="icon">
+                    @SvgHelper.GetSvg("play-for-video")
+                </span>
+                    <iframe style="display: none;" id="integrationVideo" data-src="@Model.Integration.VideoUrl" frameborder="0" allowfullscreen></iframe>
+                </a>
+            }
+        </div>
+    </div>
+</section>
+
+<section class="section section-size05">
+    <div class="row">
+        <div class="column medium-4">
+            <h3>@Integrations.default_SubHeading1</h3>
+            <p>@subcontent1</p>
+        </div>
+        <div class="column medium-4">
+            <h3>@Integrations.default_SubHeading2</h3>
+            <p>@subcontent2</p>
+        </div>
+        <div class="column medium-4">
+            <h3>@Integrations.default_SubHeading3</h3>
+            <p>@subcontent3</p>
+        </div>
+    </div>
+</section>
+
+@section foot {
+    <script>
+        (function() {
+            $('#videoPlaceholder').on('click', function(e) {
+                e.preventDefault();
+
+                var $frame = $('#integrationVideo'),
+                    $wallpaper = $('#placeholderScreenshot'),
+                    height = $wallpaper.height(),
+                    width = $wallpaper.width();
+
+                $frame.attr({
+                    'height': height,
+                    'width': width,
+                    'src': $frame.data('src')
+                });
+
+                $('#videoPlaceholder .icon').hide();
+                $wallpaper.hide();
+                $frame.show();
+
+                window.onyx.analytics.getData('integrations-played-video');
+            });
+        })();
+    </script>
+}

@@ -1,0 +1,243 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" id="root">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ConnectData_Content" xml:space="preserve">
+    <value>Power BI で複数のデータ ソースに接続します。データが Marketo や Salesforce などのクラウド サービス上にある場合も、オンプレミスにある場合も、Power BI では、ライブ レポートやダッシュボードを使用してデータの接続、クリーニング、シェイプ化、モデル化、および視覚化を行うことができます。わずか数分で、コンテンツ パック、既成のダッシュボード、および一般的なサービス用のレポートを使い始めることができます。</value>
+  </data>
+  <data name="ConnectData_Cta1" xml:space="preserve">
+    <value>接続できるコンテンツ サービスの一覧を表示する</value>
+  </data>
+  <data name="ConnectData_Cta2" xml:space="preserve">
+    <value>iOS、Windows、および Android モバイル アプリを見る</value>
+  </data>
+  <data name="ConnectData_Heading" xml:space="preserve">
+    <value>任意のデータに、任意の方法で、すべての場所から</value>
+  </data>
+  <data name="Content1" xml:space="preserve">
+    <value>実行可能な洞察を取得するために、コードを書いたり、統計の先生になる必要はありません。Power BI の Q&amp;A では、質問したり、すぐにダッシュボードにピン留めできる図やグラフの形式で超高速に回答を得たりできます。Cortana は、Cortana パネルを離れることなく Power BI を使用して質問に答えます。</value>
+  </data>
+  <data name="Customers_Content" xml:space="preserve">
+    <value>2016 年 3 月現在、世界中で 500 万人のサブスクライバ―と 20 万の組織が Power BI を使用しています。</value>
+  </data>
+  <data name="Customers_Cta" xml:space="preserve">
+    <value>カスタマー ストーリーを読む</value>
+  </data>
+  <data name="CustomVisuals_Content" xml:space="preserve">
+    <value>Power BI の機能は、“梱包品” に限られません。カスタムの視覚化を使用すると、Power BI で想像できるあらゆる視覚エフェクトが得られます。</value>
+  </data>
+  <data name="CustomVisuals_Cta" xml:space="preserve">
+    <value>カスタム ビジュアル ギャラリーにアクセスする</value>
+  </data>
+  <data name="CustomVisuals_Heading" xml:space="preserve">
+    <value>カスタム視覚エフェクト</value>
+  </data>
+  <data name="Download_Content" xml:space="preserve">
+    <value>他の対話型のデータ視覚化ツールとは異なります。</value>
+  </data>
+  <data name="Download_Cta" xml:space="preserve">
+    <value>Power BI Desktop をダウンロードする</value>
+  </data>
+  <data name="Download_Heading" xml:space="preserve">
+    <value>Power BI Desktop は無料</value>
+  </data>
+  <data name="EmbedReports_Content" xml:space="preserve">
+    <value>&lt;p&gt;Power BI はクラウドベースなので、ユーザーをいつでも追加または削除できます。また、99.9% の稼働時間を提供します。拡張性と安全性が高く、信頼できるエンタープライズ レベルの IT を、ユーザーの数や特定のデータのニーズに基づいた最適なコストで得られます。クラウドとオンプレミスの両方にあるさまざまなデータ ソースに対する組み込み接続性を使用して、抽出、変換、読み込み式のインフラストラクチャへの IT 投資を削減することもできます。Power BI は Microsoft エンタープライズ ソリューションの不可欠な部分として設計されているので、Azure と Office 365 への投資からより多くの成果を上げ、グループや行レベルのセキュリティを使用してアクセスを簡単に管理できます。
+&lt;/p&gt;&lt;p&gt;
+さらに、Power BI はオープンで拡張性があります。開発者向けで、アプリケーションやポータルに埋め込むことができます。&lt;/p&gt;</value>
+  </data>
+  <data name="EmbedReports_Cta" xml:space="preserve">
+    <value>詳細情報</value>
+  </data>
+  <data name="EmbedReports_Heading" xml:space="preserve">
+    <value>エンタープライズ向け</value>
+  </data>
+  <data name="Heading1" xml:space="preserve">
+    <value>新しい方法でデータを経験する</value>
+  </data>
+  <data name="Hero_Content" xml:space="preserve">
+    <value>Tableau、Qlik などの従来の BI ツールはアナリスト向けのソリューションで、発生した事象に関するインテリジェンスをバックミラーのように提供します。対照的に Power BI はビジネス分析サービスで、発生している事象に関するリアルタイムの洞察を、データ スペシャリストだけではなく、すべてのユーザーに提供します。Power BI では、個人用ダッシュボードの作成を 5 分で始めることができ、ビジネス上の最も重要な質問に対する答えを探すことができます。</value>
+  </data>
+  <data name="Hero_Cta" xml:space="preserve">
+    <value>無料で使い始める</value>
+  </data>
+  <data name="Hero_Heading" xml:space="preserve">
+    <value>モダンなデータ視覚化ツールをお探しですか。</value>
+  </data>
+  <data name="META_DESCRIPTION" xml:space="preserve">
+    <value>Power BI は、会社のデータを豊かな視覚情報に変換して収集と整理を助け、重要な問題に取り組めるようにします。最新情報を取得し、動向の発生をつかみ、ビジネスをさらに推進します。</value>
+  </data>
+  <data name="META_KEYWORDS" xml:space="preserve">
+    <value />
+  </data>
+  <data name="META_PAGETITLE" xml:space="preserve">
+    <value>Power BI が選ばれる理由 | Microsoft Power BI</value>
+  </data>
+  <data name="MicrosoftIntegrations_Content" xml:space="preserve">
+    <value>開始当初から、Power BI は Excel、Office 365、Azure、SQL Server で簡単に使用されるようにエンジニアリングされてきました。Excel レポートを Power BI にアップロードして、Power BI ダッシュボードに項目をピン留めしたり、データ ソースとして使用します。現在の投資を活用して、使い慣れたツールを使用して実行可能な新たな洞察を得られるようにユーザーを支援することができます。</value>
+  </data>
+  <data name="MicrosoftIntegrations_Cta" xml:space="preserve">
+    <value>Power BI Publisher for Excel をダウンロードする</value>
+  </data>
+  <data name="MicrosoftIntegrations_Heading" xml:space="preserve">
+    <value>他の Microsoft 製品やサービスと容易に併用できる</value>
+  </data>
+  <data name="PCmag_Content" xml:space="preserve">
+    <value>PC Magazine の「ベスト セルフサービス ビジネス インテリジェンス (BI) ツール 2016」記事で、Power BI は Editor’s Choice 賞を受賞しました。</value>
+  </data>
+  <data name="PCmag_Cta" xml:space="preserve">
+    <value>記事を読む</value>
+  </data>
+  <data name="QandA_Content" xml:space="preserve">
+    <value>実行可能な洞察を取得するために、コードを書いたり、統計の先生になる必要はありません。Power BI の Q&amp;A では、質問したり、すぐにダッシュボードにピン留めできる図やグラフの形式で超高速に回答を得たりできます。Windows 10 との密接な統合により、Cortana は BI を、デスクトップで検索するほど簡単にします。</value>
+  </data>
+  <data name="QandA_Heading" xml:space="preserve">
+    <value>新しい方法でデータを経験する</value>
+  </data>
+  <data name="QuickInsights_Content" xml:space="preserve">
+    <value>クイック インサイトでデータセットを自動検索して、数秒で隠れた洞察を得る: 特定のダッシュボード タイルや関連データから、相関関係、外れ値、季節性、傾向の変化点、および主要因子を得ることができます。</value>
+  </data>
+  <data name="QuickInsights_Heading" xml:space="preserve">
+    <value>非表示の洞察のデータセットを自動的に検索する</value>
+  </data>
+  <data name="Realtime_Content" xml:space="preserve">
+    <value>Tableau、Qlik などの従来の BI ツールは履歴の分析に限られますが、Power BI では、リアルタイム情報にアクセスして早期に傾向を識別することができます。これにより、潜在的な問題を回避し、後からではなく早期にパフォーマンスを向上させることができます。R スクリプトと視覚化による高度な分析統合、Microsoft Azure 機能学習、および Azure Stream Analytics を使用して、お使いのデータからビジネスの結果を予測できます。予測インテリジェンスは、正しい道筋を進むためにプロアクティブな措置を取ったり、目標を達成するために適切なプロセスを進めるのに役立ちます。</value>
+  </data>
+  <data name="Realtime_Heading" xml:space="preserve">
+    <value>リアルタイムで傾向を発見し、より適切な、情報に基づく決定をする</value>
+  </data>
+  <data name="Recommendations_Heading" xml:space="preserve">
+    <value>ぜひ実際にお試しください</value>
+  </data>
+  <data name="Sanddance_Content" xml:space="preserve">
+    <value>&lt;p&gt;Power BI では、漸進するイノベーションを実現し、より高い速度、効率、理解度でデータを視覚化および分析することができます。活気のあるユーザー コミュニティは、毎週また毎月の Power BI のリリースに役立つ継続的なフィードバックを提供しています。これにより、お使いの分析ツールは常に改良されています。Power BI はクラウドベースであるため、自動的に更新されます。ソフトウェアのアップグレードを心配する必要はありません。&lt;/p&gt;
+&lt;p&gt;また Power BI は、ユーザーが SandDance (Microsoft Research データ視覚化プロジェクト) などを使用してカスタム視覚エフェクトを作成したり共有したりするためのオープンな戦略を提供します。&lt;/p&gt;</value>
+  </data>
+  <data name="Sanddance_Cta1" xml:space="preserve">
+    <value>SandDance が動作している様子を見る</value>
+  </data>
+  <data name="Sanddance_Cta2" xml:space="preserve">
+    <value>SandDance に関係した Power BI ブログを読む</value>
+  </data>
+  <data name="Sanddance_Heading" xml:space="preserve">
+    <value>クラウド速度でのユーザー主導イノベーション</value>
+  </data>
+  <data name="Meta_LocJobId" xml:space="preserve">
+    <value>192</value>
+  </data>
+</root>

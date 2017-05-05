@@ -1,0 +1,146 @@
+﻿@model PowerBI.Web.Models.Pages.SolutionTemplates.SolutionTemplateDetailsViewModel
+@using Resources = PowerBI.Resources.Pages.SolutionTemplates.Details;
+@using SolutionTemplate = PowerBI.Resources.Shared.SolutionTemplates;
+
+@{
+    Model.PageTitle = Resources.META_PAGETITLE;
+    Model.MetaDescription = Resources.META_DESCRIPTION;
+    Model.MetaKeywords = Resources.META_KEYWORDS;
+}
+
+<section class="section">
+    <div class="row">
+        <div class="column medium-6 text-center">
+            <a class="show-for-medium img-wrapper" href="@Model.SolutionTemplate.EmbeddedReport" data-pops-up="modal-video">
+                <img class="img-frame" src="@CdnHelper.GetCdnUrl(Model.SolutionTemplate.ReportThumbnail)" alt="" />
+            </a>
+            <a class="hide-for-medium img-wrapper" href="@Model.SolutionTemplate.EmbeddedReport" target="_blank">
+                <img class="img-frame" src="@CdnHelper.GetCdnUrl(Model.SolutionTemplate.ReportThumbnail)" alt="" />
+            </a>
+
+            <a href="@Model.SolutionTemplate.EmbeddedReport" class="button button-featured show-for-medium" data-pops-up="modal-video">
+                <span class="icon">@SvgHelper.GetSvg("report")</span>
+                @Resources.ViewReport_Cta
+            </a>
+            <a href="@Model.SolutionTemplate.EmbeddedReport" class="button button-featured hide-for-medium" target="_blank">
+                <span class="icon">@SvgHelper.GetSvg("report")</span>
+                @Resources.ViewReport_Cta
+            </a>
+        </div>
+        <div class="column medium-6">
+            <div class="row">&nbsp;</div>
+            <div class="row row-none">
+                <div class="column">
+                    <span class="icon icon-solutions-template">@SvgHelper.GetSvg(Model.SolutionTemplate.Icon)</span>
+                </div>
+            </div>
+            <div class="row row-size1">
+                <div class="column medium-11">
+                    <h3>@SolutionTemplate.ResourceManager.GetString(Model.SolutionTemplate.Title_Lockey)</h3>
+                    <p>@SolutionTemplate.ResourceManager.GetString(Model.SolutionTemplate.DetailTagline_Lockey)</p>
+                </div>
+            </div>
+            <div class="row row-size1">
+                <div class="column medium-11">
+                    <p class="text-semibold">@(Model.SolutionTemplate.FeaturedPartners.Any() ? Resources.FeaturedPartners_Title : string.Empty)</p>
+                    <p>
+                        @Html.Raw(string.Join(", ", Model.SolutionTemplate.FeaturedPartners.Select(p => string.Format("<a href=\"{0}\">{1}</a>", p.Url, p.Name))))<text>@(Model.SolutionTemplate.FeaturedPartners.Any() ? "." : string.Empty)</text>
+                    </p>
+                </div>
+            </div>
+            <div class="row row-size2">
+                <div class="column medium-11">
+                    <ul class="linkList linkList-horizontal">
+                        <li>
+                            <a href="https://youtu.be/@Model.SolutionTemplate.YoutubeVideoId" class="button" data-pops-up="modal-video-youtube">
+                                <span class="icon">@SvgHelper.GetSvg("play")</span>
+                                @Resources.WatchVideo_Cta
+                            </a>
+                        </li>
+                        <li>
+                            <a class="button" href="@Model.SolutionTemplate.InstallNowUrl">
+                                <span class="icon">@SvgHelper.GetSvg("wrench")</span>
+                                @Resources.InstallNow_Cta
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="section section-size2 section-slate06">
+    <div class="row">
+        <div class="column medium-8 medium-centered text-center">
+            <h2 class="text-heading2">@Resources.Community_Heading</h2>
+        </div>
+    </div>
+    <div class="row row-size1">
+        <div class="column medium-8 medium-centered text-center">
+            <p>@Resources.Community_Content</p>
+        </div>
+    </div>
+    <div class="row row-size2">
+        <div class="row">
+            <div class="column medium-8 medium-centered text-center">
+                <ul class="linkList linkList-horizontal" style="display:inline-block;">
+                    <li>
+                        <a class="button" href="http://community.powerbi.com/t5/Power-BI-Solution-Templates/bd-p/PBISolution">@Resources.Community_Cta</a>
+                    </li>
+                    <li>
+                        <a class="cta-secondary" href="@Model.SolutionTemplate.DocumentationUrl">@Resources.ViewDocumentation_Cta<span class="glyphicon glyph-micro pbi-glyph-chevronrightmedium"></span></a>
+                    </li>
+                </ul>
+            </div>         
+        </div>
+    </div>
+</section>
+
+<section class="section section-size6">
+    <div class="row">
+        <div class="column medium-6">
+            <div class="row">
+                <div class="column text-center">
+                    @foreach (var image in Model.SolutionTemplate.ReportImages)
+                    {
+                        <img src="@CdnHelper.GetCdnUrl(image)" alt="" />
+                    }
+                </div>
+            </div>
+
+            <div class="row row-size3">
+                <div class="column">
+                    <a class="button" href="@Model.SolutionTemplate.GitHubUrl">@Resources.GetAtGitHub_Cta</a>
+                </div>
+            </div>
+            <div class="row row-size1">
+                <div class="column">
+                    @(Model.SolutionTemplate.EtlPartners.Any() ? Resources.Contact_Cta : string.Empty)
+                    @Html.Raw(string.Join(", ", Model.SolutionTemplate.EtlPartners.Select(p => string.Format("<a href=\"{0}\">{1}</a>", p.Url, p.Name))))
+                </div>
+            </div>
+        </div>
+        <div class="column medium-6">
+            <div class="row">
+                <div class="column medium-11">
+                    <h3>@SolutionTemplate.ResourceManager.GetString(Model.SolutionTemplate.DetailTitle_LockKey)</h3>
+                    <p>@Html.Raw(SolutionTemplate.ResourceManager.GetString(Model.SolutionTemplate.DetailContent_Lockey))</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="section modal modal-video modal-large" id="modal-video" data-video-embed="@Model.SolutionTemplate.EmbeddedReport">
+    <button class="close">&times;</button>
+    <div class="row column">
+        <iframe frameborder="0"></iframe>
+    </div>
+</section>
+<section class="section modal modal-video modal-large" id="modal-video-youtube" data-video-embed="https://www.youtube.com/embed/@Model.SolutionTemplate.YoutubeVideoId">
+    <button class="close">&times;</button>
+    <div class="row column">
+        <iframe frameborder="0"></iframe>
+    </div>
+</section>

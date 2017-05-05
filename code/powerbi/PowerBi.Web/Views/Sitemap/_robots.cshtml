@@ -1,0 +1,9 @@
+﻿@model Acom.Sitemap.Robots.RobotsViewModel
+@{
+    Response.ContentType = Model.ContentType;
+    Layout = null;
+}
+@foreach (var line in Model.Lines)
+{
+<text>@line</text>
+}

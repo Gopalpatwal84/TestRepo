@@ -1,0 +1,121 @@
+﻿@import "../../less/mixins.d.less";
+@import "helpers/mixins.d.less";
+
+
+.subnav-collapse {
+    position: relative;
+    overflow: visible;
+
+    .subnavMenuToggle {
+        display: inline;
+
+        @media screen and (min-width: @resolution-large) {
+            display: none;
+        }
+
+        .subnavMenuText {
+            &:hover {
+                cursor: pointer;
+            }
+        }
+
+        .subnavMenuExpandIcon {
+            float: left;
+            width: 14px;
+            margin-right: 7px;
+            padding: 2px 0;
+
+            &:hover {
+                cursor: pointer;
+            }
+
+            .icon-bar {
+                background-color: @color-palette01;
+                width: 100%;
+                height: 2px;
+                margin: 4px 0;
+                display: block;
+                .transition (all .5s);
+            }
+
+            &.expand {
+                .bar1 {
+                    .transform-rotate-translate(45deg,30%,208%);
+                }
+
+                .bar2 {
+                    opacity: 0;
+                }
+
+                .bar3 {
+                    .transform-rotate-translate(-45deg,30%,-208%);
+                }
+            }
+        }
+    }
+
+    .subnavMenuLinks {
+        position: absolute;
+        left: 0;
+        top: 100%;
+        width: 100%;
+        height: 0;
+        background-color: rgba(0, 0, 0, 0.8);
+        z-index: 200;
+        overflow: hidden;
+        .transition (height .5s);
+
+        @media screen and (min-width: @resolution-large) {
+            position: static;
+            display: inline;
+        }
+
+        ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+
+            @media screen and (max-width: @resolution-large) {
+                li {
+                    margin: 0;
+                }
+            }
+        }
+
+        .subnavLink {
+            border-top: 1px solid rgba(255, 255, 255, 0.2);
+            float: none;
+
+            @media screen and (min-width: @resolution-large) {
+                margin-bottom: 0;
+                display: inline-block;
+                border: none;
+            }
+
+            a,
+            a:visited,
+            a:focus {
+                color: @color-palette01;
+                padding: 10px 0;
+                display: block;
+
+                @media screen and (min-width: @resolution-large) {
+                    display: inline;
+                }
+            }
+
+            a.active {
+                color: @color-palette02;
+
+                &:hover {
+                    text-decoration: none;
+                    cursor: default;
+                }
+            }
+        }
+    }
+}
+
+div.subnav-collapse-tab:not(.active) {
+    display: none;
+}

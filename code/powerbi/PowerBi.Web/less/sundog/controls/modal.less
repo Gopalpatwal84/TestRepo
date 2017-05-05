@@ -1,0 +1,179 @@
+@import (reference) '../../variables.d.less';
+@import (reference) '../../mixins.d.less';
+
+/*
+Modal
+
+Description.
+
+Markup:
+<a href="" class="button" data-pops-up="modal-test">open modal</a>
+<section id="modal-test" class="section section-size3 modal {{modifier_class}} text-center">
+    <button class="close">&times;</button>
+    <div class="row">
+        <div class="column large-10 large-centered">
+            <p class="text-heading2">A modal</p>
+            <p class="text-heading4">This modal looks great, thanks!</p>
+        </div>
+    </div>
+</section>
+
+.modal-large - Description.
+
+Styleguide modal
+*/
+
+/*
+Modal Large
+
+Description.
+
+Markup:
+<a href="" class="button" data-pops-up="modal-large">open modal large</a>
+<section id="modal-large" class="section section-size3 modal modal-large text-center">
+    <button class="close">&times;</button>
+    <div class="row">
+        <div class="column large-10 large-centered">
+            <p class="text-heading2">A modal</p>
+            <p class="text-heading4">This modal looks great, thanks!</p>
+        </div>
+    </div>
+</section>
+
+Styleguide modal.large
+*/
+
+/*
+Modal Video
+
+Description.
+
+Markup:
+<a href="" class="button" data-pops-up="modal-video" data-video-embed="https://www.youtube.com/embed/tntOCGkgt98">open modal video</a>
+<section id="modal-video" class="section section-size3 modal modal-video text-center">
+    <button class="close">&times;</button>
+    <div class="row column">
+        <iframe width="560" height="315" frameborder="0" allowfullscreen></iframe>
+    </div>
+</section>
+
+Styleguide modal.video
+*/
+
+.modal-wrapper-mask {
+    .transition(all .25s);
+    background-color: rgba(0, 0, 0, .7);
+    bottom: 0;
+    display: none;
+    height: 100%;
+    left: 0;
+    opacity: 0;
+    overflow-x: hidden;
+    overflow-y: auto;
+    position: fixed;
+    right: 0;
+    top: 0;
+    z-index: -1;
+
+    &.visible {
+        display: block;
+        opacity: 1;
+        z-index: 88889;
+    }
+}
+
+.modal-visible {
+    overflow-y: hidden;
+}
+
+.modal {
+    .center();
+    .transform(translate(-50%, -50%) scale(0.9));
+    .transition(all .25s);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, .5);
+    display: none;
+    max-height:100vh;
+    opacity: 0;
+    overflow:auto;
+    position: relative;
+    width: 90%;
+    z-index: 99999;
+
+    &.oversized {
+        .transform(translate(0%, 0%) scale(0.9));
+        left: 0;
+        margin: @spacing-size3 auto;
+        top: 0;
+
+        &.visible {
+            .transform(translate(0%, 0%) scale(1));
+            display: block;
+            opacity: 1;
+        }
+    }
+
+    .close {
+        background-color: transparent;
+        border: 0;
+        color: @color-font-standard;
+        font-size: 23px;
+        font-weight: @font-bold;
+        line-height: 1;
+        opacity: .2;
+        padding: 1px;
+        position: absolute;
+        right: @spacing-size1;
+        text-shadow: 0 1px 0 @color-palette01;
+        top: 0;
+
+        &:hover {
+            color: @color-font-standard;
+            opacity: 1;
+            text-decoration: none;
+        }
+    }
+
+    .row {
+        width: 100%;
+    }
+
+    &.visible:not(.oversized) {
+        .transform(translate(-50%, -50%) scale(1));
+        display: block;
+        opacity: 1;
+    }
+}
+
+.modal-video {
+    padding: 0;
+
+    iframe {
+        bottom: 0;
+        left: 0;
+        position: absolute;
+        right: 0;
+        top: 30px;
+        width: 100%;
+    }
+}
+
+@media only screen and (min-width: @resolution-medium) {
+    .modal {
+        &.modal-large {
+            padding-left: @spacing-size3;
+            padding-right: @spacing-size3;
+        }
+    }
+}
+
+@media only screen and (min-width: @resolution-large) {
+    .modal {
+        max-width: 600px;
+        width: 50%;
+
+        &.modal-large {
+            max-width: 900px;
+            width: 60%;
+        }
+    }
+}

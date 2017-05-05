@@ -1,0 +1,969 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" id="root">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Area_Administration" xml:space="preserve">
+    <value>管理</value>
+  </data>
+  <data name="Area_Ask" xml:space="preserve">
+    <value>询问数据相关问题</value>
+  </data>
+  <data name="Area_Connect" xml:space="preserve">
+    <value>连接到服务</value>
+  </data>
+  <data name="Area_Dashboards" xml:space="preserve">
+    <value>仪表板</value>
+  </data>
+  <data name="Area_DataDatabases" xml:space="preserve">
+    <value>数据库中的数据</value>
+  </data>
+  <data name="Area_DataFiles" xml:space="preserve">
+    <value>文件中的数据</value>
+  </data>
+  <data name="Area_DataRefresh" xml:space="preserve">
+    <value>数据刷新</value>
+  </data>
+  <data name="Area_Gateways" xml:space="preserve">
+    <value>网关</value>
+  </data>
+  <data name="Area_GetStarted" xml:space="preserve">
+    <value>开始使用</value>
+  </data>
+  <data name="Area_Reports" xml:space="preserve">
+    <value>报表</value>
+  </data>
+  <data name="Area_Samples" xml:space="preserve">
+    <value>示例</value>
+  </data>
+  <data name="Area_Share" xml:space="preserve">
+    <value>共享工作</value>
+  </data>
+  <data name="Area_Troubleshooting" xml:space="preserve">
+    <value>疑难解答</value>
+  </data>
+  <data name="Area_Visualizations" xml:space="preserve">
+    <value>可视化</value>
+  </data>
+  <data name="Link_3rdPartyGetStarted" xml:space="preserve">
+    <value>Power BI 第三方应用入门</value>
+  </data>
+  <data name="Link_Acumatica" xml:space="preserve">
+    <value>Acumatica 内容包</value>
+  </data>
+  <data name="Link_AddImageToDashboard" xml:space="preserve">
+    <value>将图像添加到仪表板</value>
+  </data>
+  <data name="Link_AddWidget" xml:space="preserve">
+    <value>将图像、文本框、视频或 Web 代码添加到仪表板</value>
+  </data>
+  <data name="Link_AdobeAnalytics" xml:space="preserve">
+    <value>Adobe Analytics 内容包</value>
+  </data>
+  <data name="Link_AppFigures" xml:space="preserve">
+    <value>appFigures 内容包</value>
+  </data>
+  <data name="Link_AppInisghts" xml:space="preserve">
+    <value>Application Insights 内容包</value>
+  </data>
+  <data name="Link_AtInternetBridge" xml:space="preserve">
+    <value>AT Internet Bridge 内容包</value>
+  </data>
+  <data name="Link_AzureAuditLogs" xml:space="preserve">
+    <value>Azure 审核日志内容包</value>
+  </data>
+  <data name="Link_AzureEnterprise" xml:space="preserve">
+    <value>Microsoft Azure Enterprise 内容包</value>
+  </data>
+  <data name="Link_BasicConcepts" xml:space="preserve">
+    <value>Power BI - 基本概念</value>
+  </data>
+  <data name="Link_BigNumberTileDashboard" xml:space="preserve">
+    <value>通过提问为 Power BI 仪表板创建大数字磁贴</value>
+  </data>
+  <data name="Link_BigNumberTileReport" xml:space="preserve">
+    <value>从 Power BI 报表创建大数字磁贴</value>
+  </data>
+  <data name="Link_Bing" xml:space="preserve">
+    <value>必应内容包</value>
+  </data>
+  <data name="Link_BrowserSupport" xml:space="preserve">
+    <value>Power BI 支持的浏览器</value>
+  </data>
+  <data name="Link_CircuitID" xml:space="preserve">
+    <value>Circuit ID 内容包</value>
+  </data>
+  <data name="Link_CollaborateWithGroup" xml:space="preserve">
+    <value>与 Power BI 组协作</value>
+  </data>
+  <data name="Link_ComScore" xml:space="preserve">
+    <value>comScore Digital Analytix 内容包</value>
+  </data>
+  <data name="Link_ConnectOneDrive" xml:space="preserve">
+    <value>连接到组的 OneDrive for Business 上的文件</value>
+  </data>
+  <data name="Link_ConnectToSamples" xml:space="preserve">
+    <value>教程：使用 Power BI 示例内容包</value>
+  </data>
+  <data name="Link_ConnectToServices" xml:space="preserve">
+    <value>通过内容包连接到服务</value>
+  </data>
+  <data name="Link_CreateADashboard" xml:space="preserve">
+    <value>创建 Power BI 仪表板</value>
+  </data>
+  <data name="Link_CreateFeaturedQuestions" xml:space="preserve">
+    <value>为 Power BI 问答创建特别推荐的问题</value>
+  </data>
+  <data name="Link_CreateGroup" xml:space="preserve">
+    <value>在 Power BI 中创建组</value>
+  </data>
+  <data name="Link_CreatePublishContentPack" xml:space="preserve">
+    <value>创建和发布组织内容包（教程）</value>
+  </data>
+  <data name="Link_CustomerProfitabilitySample" xml:space="preserve">
+    <value>Power BI 的客户盈利能力示例：简要了解</value>
+  </data>
+  <data name="Link_DashboardTiles" xml:space="preserve">
+    <value>Power BI 中的仪表板磁贴</value>
+  </data>
+  <data name="Link_DataSources" xml:space="preserve">
+    <value>Power BI 的数据源</value>
+  </data>
+  <data name="Link_DataWorkWell" xml:space="preserve">
+    <value>使数据适合与 Power BI 中的问答配合使用</value>
+  </data>
+  <data name="Link_DeleteContentPack" xml:space="preserve">
+    <value>删除与组织内容包的连接</value>
+  </data>
+  <data name="Link_DesignTips" xml:space="preserve">
+    <value>有关设计出色 Power BI 仪表板的提示</value>
+  </data>
+  <data name="Link_DisplayReportFullScreen" xml:space="preserve">
+    <value>以全屏模式（TV 模式）显示仪表板和报表</value>
+  </data>
+  <data name="Link_DisplayTileFullScreen" xml:space="preserve">
+    <value>以全屏模式（TV 模式）显示仪表板磁贴</value>
+  </data>
+  <data name="Link_DisplayTileInFocus" xml:space="preserve">
+    <value>以焦点模式显示仪表板磁贴</value>
+  </data>
+  <data name="Link_DownloadFinancialSample" xml:space="preserve">
+    <value>下载 Power BI 财务示例工作簿</value>
+  </data>
+  <data name="Link_DynamicsCRM" xml:space="preserve">
+    <value>Microsoft Dynamics CRM 内容包</value>
+  </data>
+  <data name="Link_DynamicsMarketing" xml:space="preserve">
+    <value>Microsoft Dynamics Marketing 内容包</value>
+  </data>
+  <data name="Link_DynamicsNav" xml:space="preserve">
+    <value>Microsoft Dynamics NAV 内容包</value>
+  </data>
+  <data name="Link_EditATile" xml:space="preserve">
+    <value>编辑磁贴 - 调整大小、移动、重命名、固定、删除、添加超链接</value>
+  </data>
+  <data name="Link_EnableCortana" xml:space="preserve">
+    <value>启用适用于 Power BI 的 Cortana</value>
+  </data>
+  <data name="Link_Faq" xml:space="preserve">
+    <value>常见问题解答</value>
+  </data>
+  <data name="Link_FindOpenContentPack" xml:space="preserve">
+    <value>查找并连接到组织内容包</value>
+  </data>
+  <data name="Link_GetStarted" xml:space="preserve">
+    <value>开始使用 Power BI</value>
+  </data>
+  <data name="Link_GitHub" xml:space="preserve">
+    <value>GitHub 内容包</value>
+  </data>
+  <data name="Link_GoogleAnalytics" xml:space="preserve">
+    <value>Google Analytics 内容包</value>
+  </data>
+  <data name="Link_HowToUse" xml:space="preserve">
+    <value>如何使用 Power BI 问答</value>
+  </data>
+  <data name="Link_HumanResourceSample" xml:space="preserve">
+    <value>人力资源示例：简要了解</value>
+  </data>
+  <data name="Link_IntroToCortana" xml:space="preserve">
+    <value>适用于 Power BI 的 Cortana 简介</value>
+  </data>
+  <data name="Link_LanguageSupport" xml:space="preserve">
+    <value>Power BI 支持的语言和国家/地区</value>
+  </data>
+  <data name="Link_Lithium" xml:space="preserve">
+    <value>Lithium 内容包</value>
+  </data>
+  <data name="Link_MailChimp" xml:space="preserve">
+    <value>MailChimp 内容包</value>
+  </data>
+  <data name="Link_ManageContentPack" xml:space="preserve">
+    <value>管理、更新和删除组织内容包</value>
+  </data>
+  <data name="Link_ManageGroup" xml:space="preserve">
+    <value>管理 Power BI 和 Office 365 中的组</value>
+  </data>
+  <data name="Link_Mandrill" xml:space="preserve">
+    <value>Mandrill 内容包</value>
+  </data>
+  <data name="Link_Marketo" xml:space="preserve">
+    <value>Marketo 内容包</value>
+  </data>
+  <data name="Link_MobileEngagement" xml:space="preserve">
+    <value>Azure Mobile Engagement 内容包</value>
+  </data>
+  <data name="Link_Office365" xml:space="preserve">
+    <value>Office365Mon 内容包</value>
+  </data>
+  <data name="Link_OpportunityAnalysisSample" xml:space="preserve">
+    <value>Power BI 机会分析示例：简要了解</value>
+  </data>
+  <data name="Link_OptimizeData" xml:space="preserve">
+    <value>优化 Power BI Quick Insights 的数据</value>
+  </data>
+  <data name="Link_PinATileFromDashboard" xml:space="preserve">
+    <value>将某个仪表板中的磁贴固定到另一个仪表板</value>
+  </data>
+  <data name="Link_PinATileFromExcel" xml:space="preserve">
+    <value>从 Excel 将磁贴固定到 Power BI 仪表板</value>
+  </data>
+  <data name="Link_PinATileFromReport" xml:space="preserve">
+    <value>从报表将磁贴固定到 Power BI 仪表板</value>
+  </data>
+  <data name="Link_PinATileToDashboardFromQA" xml:space="preserve">
+    <value>从问答问题框将磁贴固定到 Power BI 仪表板</value>
+  </data>
+  <data name="Link_PinReportToDashboard" xml:space="preserve">
+    <value>将整个报表页固定到 Power BI 仪表板</value>
+  </data>
+  <data name="Link_Planview" xml:space="preserve">
+    <value>Planview Enterprise 内容包</value>
+  </data>
+  <data name="Link_Printing" xml:space="preserve">
+    <value>打印仪表板, 打印仪表板磁贴, 打印报表页</value>
+  </data>
+  <data name="Link_ProcurementAnalysisSample" xml:space="preserve">
+    <value>采购分析示例：简要了解</value>
+  </data>
+  <data name="Link_ProjectOnline" xml:space="preserve">
+    <value>Project Online 内容包</value>
+  </data>
+  <data name="Link_ProjectPlace" xml:space="preserve">
+    <value>Projectplace 内容包</value>
+  </data>
+  <data name="Link_ProWhatIs" xml:space="preserve">
+    <value>Power BI Pro 内容 - 它是什么？</value>
+  </data>
+  <data name="Link_PublishForExcel" xml:space="preserve">
+    <value>Power BI Publisher for Excel</value>
+  </data>
+  <data name="Link_PublishToWeb" xml:space="preserve">
+    <value>从 Power BI 发布到 Web</value>
+  </data>
+  <data name="Link_QandA" xml:space="preserve">
+    <value>Power BI 中的问答</value>
+  </data>
+  <data name="Link_QrCodeTile" xml:space="preserve">
+    <value>为磁贴创建 QR 码</value>
+  </data>
+  <data name="Link_QualityAnalysisSample" xml:space="preserve">
+    <value>Power BI 供应商质量分析示例：简要了解</value>
+  </data>
+  <data name="Link_Quickbooks" xml:space="preserve">
+    <value>QuickBooks Online 内容包</value>
+  </data>
+  <data name="Link_QuickInisghts" xml:space="preserve">
+    <value>Power BI 中的 Quick Insights</value>
+  </data>
+  <data name="Link_QuickInisghtsTypes" xml:space="preserve">
+    <value>Power BI 支持的 Quick Insights 类型</value>
+  </data>
+  <data name="Link_RemoveDashboard" xml:space="preserve">
+    <value>删除仪表板</value>
+  </data>
+  <data name="Link_RenameDashboard" xml:space="preserve">
+    <value>重命名 Power BI 仪表板</value>
+  </data>
+  <data name="Link_Reports" xml:space="preserve">
+    <value>Power BI 中的报表</value>
+  </data>
+  <data name="Link_RetailAnalysisSample" xml:space="preserve">
+    <value>Power BI 零售分析示例：简要了解</value>
+  </data>
+  <data name="Link_Salesforce" xml:space="preserve">
+    <value>Salesforce 内容包</value>
+  </data>
+  <data name="Link_SalesMarketingSample" xml:space="preserve">
+    <value>Power BI 销售与市场营销分析示例：简要了解</value>
+  </data>
+  <data name="Link_SampleDatasets" xml:space="preserve">
+    <value>Power BI 示例</value>
+  </data>
+  <data name="Link_SelfServiceSignup" xml:space="preserve">
+    <value>Power BI 自助注册</value>
+  </data>
+  <data name="Link_Sendgrid" xml:space="preserve">
+    <value>SendGrid 内容包</value>
+  </data>
+  <data name="Link_ShareDashboard" xml:space="preserve">
+    <value>如何共享仪表板和报表？</value>
+  </data>
+  <data name="Link_ShareDashboardLinkExcel" xml:space="preserve">
+    <value>共享链接到 OneDrive for Business 上 Excel 工作簿的仪表板</value>
+  </data>
+  <data name="Link_ShareUnshareDashboard" xml:space="preserve">
+    <value>与同事和其他人共享仪表板</value>
+  </data>
+  <data name="Link_Smartsheet" xml:space="preserve">
+    <value>Smartsheet 内容包</value>
+  </data>
+  <data name="Link_Sparkpost" xml:space="preserve">
+    <value>SparkPost 内容包</value>
+  </data>
+  <data name="Link_SpendAnalysisSample" xml:space="preserve">
+    <value>Power BI IT 支出分析示例：简要了解</value>
+  </data>
+  <data name="Link_SqlAuditing" xml:space="preserve">
+    <value>SQL Database Auditing 内容包</value>
+  </data>
+  <data name="Link_SqlSentry" xml:space="preserve">
+    <value>SQL Sentry 内容包</value>
+  </data>
+  <data name="Link_Stripe" xml:space="preserve">
+    <value>Stripe 内容包</value>
+  </data>
+  <data name="Link_SweetIQ" xml:space="preserve">
+    <value>SweetIQ 内容包</value>
+  </data>
+  <data name="Link_TipsForAsking" xml:space="preserve">
+    <value>有关通过 Power BI 中的问答进行提问的提示和技巧</value>
+  </data>
+  <data name="Link_Twilio" xml:space="preserve">
+    <value>Twilio 内容包</value>
+  </data>
+  <data name="Link_Tygraph" xml:space="preserve">
+    <value>tyGraph 内容包</value>
+  </data>
+  <data name="Link_Uservoice" xml:space="preserve">
+    <value>UserVoice 内容包</value>
+  </data>
+  <data name="Link_GetStartedTutorial" xml:space="preserve">
+    <value>教程：开始使用 Power BI 问答</value>
+  </data>
+  <data name="Link_Videos" xml:space="preserve">
+    <value>Power BI 视频</value>
+  </data>
+  <data name="Link_VisualStudioOnline" xml:space="preserve">
+    <value>Visual Studio Team Services 内容包</value>
+  </data>
+  <data name="Link_VMob" xml:space="preserve">
+    <value>VMob 内容包</value>
+  </data>
+  <data name="Link_Webinars" xml:space="preserve">
+    <value>Power BI 网络研讨会</value>
+  </data>
+  <data name="Link_Webtrends" xml:space="preserve">
+    <value>Webtrends 内容包</value>
+  </data>
+  <data name="Link_WhatsNew" xml:space="preserve">
+    <value>Power BI 服务中的新增功能</value>
+  </data>
+  <data name="Link_WorkWithContentPack" xml:space="preserve">
+    <value>使用组织内容包</value>
+  </data>
+  <data name="Link_Zendesk" xml:space="preserve">
+    <value>Zendesk 内容包</value>
+  </data>
+  <data name="Title" xml:space="preserve">
+    <value>Power BI 服务</value>
+  </data>
+  <data name="Link_AddFilterToReport" xml:space="preserve">
+    <value>向 Power BI 中的报表添加筛选器</value>
+  </data>
+  <data name="Link_AddPageToReport" xml:space="preserve">
+    <value>向 Power BI 报表添加页</value>
+  </data>
+  <data name="Link_AddVisualizations1" xml:space="preserve">
+    <value>教程：第 I 部分，向 Power BI 报表添加可视化效果</value>
+  </data>
+  <data name="Link_AddVisualizations2" xml:space="preserve">
+    <value>教程：第 2 部分，向 Power BI 报表添加可视化效果</value>
+  </data>
+  <data name="Link_Administering" xml:space="preserve">
+    <value>在组织中管理 Power BI</value>
+  </data>
+  <data name="Link_AlternateEmail" xml:space="preserve">
+    <value>Power BI 的备用电子邮件地址</value>
+  </data>
+  <data name="Link_AnalysisServices" xml:space="preserve">
+    <value>管理企业数据源 - Analysis Services</value>
+  </data>
+  <data name="Link_ArchivedWorkspace" xml:space="preserve">
+    <value>Power BI 存档工作区</value>
+  </data>
+  <data name="Link_Azure" xml:space="preserve">
+    <value>Azure 和 Power BI</value>
+  </data>
+  <data name="Link_BasicAreaChart" xml:space="preserve">
+    <value>教程：基本分区图</value>
+  </data>
+  <data name="Link_CapturingDiag" xml:space="preserve">
+    <value>捕获 Power BI 的其他诊断信息</value>
+  </data>
+  <data name="Link_ChangeReportDisplaySettings" xml:space="preserve">
+    <value>Power BI 报表中的页面显示设置</value>
+  </data>
+  <data name="Link_ChangeTypeVisualization" xml:space="preserve">
+    <value>更改 Power BI 报表中的可视化效果类型</value>
+  </data>
+  <data name="Link_ChartSorting" xml:space="preserve">
+    <value>更改 Power BI 报表中的图表排序方式</value>
+  </data>
+  <data name="Link_ClosingAccount" xml:space="preserve">
+    <value>关闭 Power BI 帐户</value>
+  </data>
+  <data name="Link_ColorFormatting" xml:space="preserve">
+    <value>开始使用颜色格式设置和轴属性</value>
+  </data>
+  <data name="Link_ColorFormattingTips" xml:space="preserve">
+    <value>Power BI 中颜色格式设置的提示和技巧</value>
+  </data>
+  <data name="Link_ComboChart" xml:space="preserve">
+    <value>教程：Power BI 中的组合图</value>
+  </data>
+  <data name="Link_ConfigureIntune" xml:space="preserve">
+    <value>通过 Intune 配置移动应用</value>
+  </data>
+  <data name="Link_CopyPasteVisual" xml:space="preserve">
+    <value>在 Power BI 中复制粘贴可视化效果</value>
+  </data>
+  <data name="Link_CreateReport" xml:space="preserve">
+    <value>新建 Power BI 报表</value>
+  </data>
+  <data name="Link_CustomizeVisuals" xml:space="preserve">
+    <value>教程：自定义可视化效果磁贴、背景和图例</value>
+  </data>
+  <data name="Link_CustomVisualizations" xml:space="preserve">
+    <value>在 Power BI 中自定义可视化效果</value>
+  </data>
+  <data name="Link_CustomVisualizationsToReport" xml:space="preserve">
+    <value>向 Power BI 报表添加自定义可视化效果</value>
+  </data>
+  <data name="Link_CustomXandY" xml:space="preserve">
+    <value>教程：自定义 X 轴和 Y 轴属性</value>
+  </data>
+  <data name="Link_DataRefresh" xml:space="preserve">
+    <value>Power BI 中的数据刷新</value>
+  </data>
+  <data name="Link_DataRefreshCloudCsv" xml:space="preserve">
+    <value>刷新创建自 OneDrive 上逗号分隔值 (.csv) 文件的数据集</value>
+  </data>
+  <data name="Link_DataRefreshCloudExcel" xml:space="preserve">
+    <value>刷新创建自 Excel 工作簿的数据集 - 云</value>
+  </data>
+  <data name="Link_DataRefreshDesktopCloud" xml:space="preserve">
+    <value>刷新创建自 Power BI Desktop 文件的数据集 - 云</value>
+  </data>
+  <data name="Link_DataRefreshDesktopLocal" xml:space="preserve">
+    <value>刷新创建自 Power BI Desktop 文件的数据集 - 本地</value>
+  </data>
+  <data name="Link_DataRefreshLocalExcel" xml:space="preserve">
+    <value>刷新创建自 Excel 工作簿的数据集 - 本地</value>
+  </data>
+  <data name="Link_DeleteAReport" xml:space="preserve">
+    <value>从 Power BI 删除报表</value>
+  </data>
+  <data name="Link_DeletePageFromReport" xml:space="preserve">
+    <value>从 Power BI 报表删除页面</value>
+  </data>
+  <data name="Link_DeleteVisual" xml:space="preserve">
+    <value>在 Power BI 中删除可视化效果</value>
+  </data>
+  <data name="Link_DirectConnectSpark" xml:space="preserve">
+    <value>具有 DirectQuery 的 HDInsight 上的 Spark</value>
+  </data>
+  <data name="Link_DirectQuerySql" xml:space="preserve">
+    <value>具有 DirectQuery 的 Azure SQL 数据库</value>
+  </data>
+  <data name="Link_DirectQuerySqlDW" xml:space="preserve">
+    <value>具有 DirectQuery 的 Azure SQL 数据仓库</value>
+  </data>
+  <data name="Link_DisablePrivacyIssues" xml:space="preserve">
+    <value>禁用隐私设置</value>
+  </data>
+  <data name="Link_DoughnutCharts" xml:space="preserve">
+    <value>教程：Power BI 中的圆环图</value>
+  </data>
+  <data name="Link_DownloadCustomVisual" xml:space="preserve">
+    <value>下载并使用 Office 应用商店中的自定义视觉对象</value>
+  </data>
+  <data name="Link_DrillVisual" xml:space="preserve">
+    <value>在 Power BI 中深入探索可视化效果</value>
+  </data>
+  <data name="Link_DuplicateReportPage" xml:space="preserve">
+    <value>在 Power BI 中复制报表页</value>
+  </data>
+  <data name="Link_EditingView" xml:space="preserve">
+    <value>在 Power BI 中从“阅读视图”转到“编辑视图”</value>
+  </data>
+  <data name="Link_EditorTakeTour" xml:space="preserve">
+    <value>报表编辑器...简要了解</value>
+  </data>
+  <data name="Link_ExportFromVisualization" xml:space="preserve">
+    <value>从可视化效果导出数据</value>
+  </data>
+  <data name="Link_FilledMaps" xml:space="preserve">
+    <value>教程：Power BI 中的着色地图（等值线图）</value>
+  </data>
+  <data name="Link_FiltersAndHighlighting" xml:space="preserve">
+    <value>关于 Power BI 报表中的筛选器和突出显示</value>
+  </data>
+  <data name="Link_ForgotPassword" xml:space="preserve">
+    <value>忘记了 Power BI 密码？</value>
+  </data>
+  <data name="Link_FunnelCharts" xml:space="preserve">
+    <value>教程：Power BI 中的漏斗图</value>
+  </data>
+  <data name="Link_GetDataIn" xml:space="preserve">
+    <value>从文件获取数据</value>
+  </data>
+  <data name="Link_Histograms" xml:space="preserve">
+    <value>直方图</value>
+  </data>
+  <data name="Link_HistogramsTips" xml:space="preserve">
+    <value>Power BI 地图可视化效果的提示和技巧</value>
+  </data>
+  <data name="Link_HyperlinksInTables" xml:space="preserve">
+    <value>表中的超链接</value>
+  </data>
+  <data name="Link_HyperLinkToTextbox" xml:space="preserve">
+    <value>向 Power BI 报表中的文本框添加超链接</value>
+  </data>
+  <data name="Link_InteractEditingView" xml:space="preserve">
+    <value>在 Power BI 中与“编辑视图”中的报表交互</value>
+  </data>
+  <data name="Link_InteractReadingView" xml:space="preserve">
+    <value>在 Power BI 中与“阅读视图”中的报表交互</value>
+  </data>
+  <data name="Link_ManageCapacity" xml:space="preserve">
+    <value>管理 Power BI 中的数据容量</value>
+  </data>
+  <data name="Link_MoveVisual" xml:space="preserve">
+    <value>在 Power BI 报表中移动、调整大小、弹出可视化效果</value>
+  </data>
+  <data name="Link_OfficeDedicatedIssues" xml:space="preserve">
+    <value>Office 365 专用 - 已知问题</value>
+  </data>
+  <data name="Link_PersonalGateway" xml:space="preserve">
+    <value>Power BI Gateway - Personal</value>
+  </data>
+  <data name="Link_PersonalGatewayTroubleshoot" xml:space="preserve">
+    <value>Power BI Gateway - Personal 疑难解答</value>
+  </data>
+  <data name="Link_PublishFromExcel" xml:space="preserve">
+    <value>教程：立即将 Excel 工作簿转变为出色的报表</value>
+  </data>
+  <data name="Link_PurchasingPro" xml:space="preserve">
+    <value>购买 Power BI Pro</value>
+  </data>
+  <data name="Link_RadialGauge" xml:space="preserve">
+    <value>教程：Power BI 中的星形量测计图表</value>
+  </data>
+  <data name="Link_ReadingView" xml:space="preserve">
+    <value>在“阅读视图”中打开 Power BI 报表</value>
+  </data>
+  <data name="Link_ReduceExcel" xml:space="preserve">
+    <value>减小 Excel 工作簿的大小以在 Power BI 中查看它</value>
+  </data>
+  <data name="Link_RenameReport" xml:space="preserve">
+    <value>在 Power BI 中重命名报表</value>
+  </data>
+  <data name="Link_ReorderPages" xml:space="preserve">
+    <value>在 Power BI 中对报表中的页面重新排序</value>
+  </data>
+  <data name="Link_SameAzureAccount" xml:space="preserve">
+    <value>如何使用相同的帐户登录 Power BI 和 Azure</value>
+  </data>
+  <data name="Link_SapHana" xml:space="preserve">
+    <value>管理企业数据源 - SAP HANA</value>
+  </data>
+  <data name="Link_SaveAReport" xml:space="preserve">
+    <value>在 Power BI 中保存报表</value>
+  </data>
+  <data name="Link_ScatterCharts" xml:space="preserve">
+    <value>教程：Power BI 中的散点图</value>
+  </data>
+  <data name="Link_ScheduledSqlRefresh" xml:space="preserve">
+    <value>Azure SQL 数据库的计划刷新疑难解答</value>
+  </data>
+  <data name="Link_Security" xml:space="preserve">
+    <value>Power BI 安全</value>
+  </data>
+  <data name="Link_SigningUpWithOffice" xml:space="preserve">
+    <value>通过新的 Office 365 试用版注册 Power BI</value>
+  </data>
+  <data name="Link_Slicers" xml:space="preserve">
+    <value>教程：Power BI 中的切片器</value>
+  </data>
+  <data name="Link_Sql" xml:space="preserve">
+    <value>管理企业数据源 - SQL</value>
+  </data>
+  <data name="Link_SSASTabular" xml:space="preserve">
+    <value>Power BI 中的 SQL Server Analysis Services 实时数据</value>
+  </data>
+  <data name="Link_TextboxesReports" xml:space="preserve">
+    <value>Power BI 报表中的文本框</value>
+  </data>
+  <data name="Link_TileErrors" xml:space="preserve">
+    <value>磁贴错误疑难解答</value>
+  </data>
+  <data name="Link_Treemaps" xml:space="preserve">
+    <value>教程：Power BI 中的树状图</value>
+  </data>
+  <data name="Link_TroubleshootingRefreshScenarios" xml:space="preserve">
+    <value>刷新方案疑难解答</value>
+  </data>
+  <data name="Link_TutorialChangeReport" xml:space="preserve">
+    <value>教程：更改 Power BI 报表中页面的显示设置</value>
+  </data>
+  <data name="Link_UnableToAddOfficePartner" xml:space="preserve">
+    <value>无法将 Power BI 添加到 O365 合作伙伴</value>
+  </data>
+  <data name="Link_UnsupportedData" xml:space="preserve">
+    <value>不支持刷新的数据源疑难解答</value>
+  </data>
+  <data name="Link_UseAReportFilter" xml:space="preserve">
+    <value>如何使用报表筛选器</value>
+  </data>
+  <data name="Link_Visualizations" xml:space="preserve">
+    <value>Power BI 中的可视化效果</value>
+  </data>
+  <data name="Link_VisualizationTypes" xml:space="preserve">
+    <value>Power BI 中的可视化效果类型</value>
+  </data>
+  <data name="Link_Waterfall" xml:space="preserve">
+    <value>教程：Power BI 中的瀑布图</value>
+  </data>
+  <data name="Link_GetDataCSV" xml:space="preserve">
+    <value>从逗号分隔值 (.CSV) 文件获取数据</value>
+  </data>
+  <data name="Link_GetDataDesktop" xml:space="preserve">
+    <value>从 Power BI Desktop 文件获取数据</value>
+  </data>
+  <data name="Link_GetDataFromExcel" xml:space="preserve">
+    <value>从 Excel 2016 发布到 Power BI</value>
+  </data>
+  <data name="Link_WholeExcel" xml:space="preserve">
+    <value>从 Excel 工作簿文件获取数据</value>
+  </data>
+  <data name="Link_AdminPortal" xml:space="preserve">
+    <value>管理门户</value>
+  </data>
+  <data name="Link_Aggregates" xml:space="preserve">
+    <value>Power BI 中的聚合（求和、求平均值、求最大值等）</value>
+  </data>
+  <data name="Link_AlpineMetrics" xml:space="preserve">
+    <value>Alpine Metrics 销售预测内容包</value>
+  </data>
+  <data name="Link_AnalyzeExcelTroubleshoot" xml:space="preserve">
+    <value>有关“在 Excel 中分析”的疑难解答</value>
+  </data>
+  <data name="Link_AnalyzeInExcel" xml:space="preserve">
+    <value>在 Excel 中分析</value>
+  </data>
+  <data name="Link_AzureDirectory" xml:space="preserve">
+    <value>注册自定义 Azure 目录</value>
+  </data>
+  <data name="Link_AzureSearch" xml:space="preserve">
+    <value>Azure 搜索内容包</value>
+  </data>
+  <data name="Link_AzureSecurity" xml:space="preserve">
+    <value>Azure 安全中心内容包</value>
+  </data>
+  <data name="Link_ClickDimensions" xml:space="preserve">
+    <value>ClickDimensions 内容包</value>
+  </data>
+  <data name="Link_ConfigureProxy" xml:space="preserve">
+    <value>配置代理设置</value>
+  </data>
+  <data name="Link_DashboardsInPowerBI" xml:space="preserve">
+    <value>Power BI 中的仪表板</value>
+  </data>
+  <data name="Link_DynamicsAX" xml:space="preserve">
+    <value>Microsoft Dynamics AX 内容包</value>
+  </data>
+  <data name="Link_ExcelError" xml:space="preserve">
+    <value>错误：我们在你的 Excel 工作簿中找不到任何数据</value>
+  </data>
+  <data name="Link_ExpressRoute" xml:space="preserve">
+    <value>Power BI 和 ExpressRoute</value>
+  </data>
+  <data name="Link_FavoriteDashboards" xml:space="preserve">
+    <value>Power BI 中最喜爱的仪表板</value>
+  </data>
+  <data name="Link_FeaturedDashboards" xml:space="preserve">
+    <value>Power BI 中的特色仪表板</value>
+  </data>
+  <data name="Link_FreePowerBI" xml:space="preserve">
+    <value>面向组织的 Power BI（免费）</value>
+  </data>
+  <data name="Link_GatewayEnterpriseData" xml:space="preserve">
+    <value>将问答与 Power BI Gateway - Enterprise 数据配合使用（预览）</value>
+  </data>
+  <data name="Link_Governance" xml:space="preserve">
+    <value>Power BI 治理和部署方法</value>
+  </data>
+  <data name="Link_ImportScheduledRefresh" xml:space="preserve">
+    <value>管理你的企业数据源 - 导入/计划刷新</value>
+  </data>
+  <data name="Link_Insightly" xml:space="preserve">
+    <value>Insightly 内容包</value>
+  </data>
+  <data name="Link_IntelliBoard" xml:space="preserve">
+    <value>IntelliBoard 内容包</value>
+  </data>
+  <data name="Link_KPIVisuals" xml:space="preserve">
+    <value>KPI 视觉对象</value>
+  </data>
+  <data name="Link_OrganizationalContentPacksIntro" xml:space="preserve">
+    <value>组织内容包：简介</value>
+  </data>
+  <data name="Link_ProjectMadeira" xml:space="preserve">
+    <value>Project Madeira 内容包</value>
+  </data>
+  <data name="Link_QRCodeForReport" xml:space="preserve">
+    <value>为报表创建 QR 码</value>
+  </data>
+  <data name="Link_RowLevel" xml:space="preserve">
+    <value>Power BI 的行级别安全性</value>
+  </data>
+  <data name="Link_ScheduledRefresh" xml:space="preserve">
+    <value>配置计划刷新</value>
+  </data>
+  <data name="Link_Troux" xml:space="preserve">
+    <value>Troux 内容包</value>
+  </data>
+  <data name="Link_VisualInteraction" xml:space="preserve">
+    <value>更改报表中视觉对象的交互方式</value>
+  </data>
+  <data name="Link_WindowsDevCenter" xml:space="preserve">
+    <value>Windows 开发中心内容包</value>
+  </data>
+  <data name="Link_Ziosk" xml:space="preserve">
+    <value>Ziosk 内容包</value>
+  </data>
+  <data name="Link_Zuora" xml:space="preserve">
+    <value>Zuora 内容包</value>
+  </data>
+  <data name="Link_GatewayOnPrem" xml:space="preserve">
+    <value>本地数据网关</value>
+  </data>
+  <data name="Link_GatewayOnPremFaq" xml:space="preserve">
+    <value>本地数据网关常见问题解答</value>
+  </data>
+  <data name="Link_GatewayOnPremInDepth" xml:space="preserve">
+    <value>本地数据网关 - 深入了解</value>
+  </data>
+  <data name="Link_GatewayOnPremTshoot" xml:space="preserve">
+    <value>本地数据网关疑难解答</value>
+  </data>
+  <data name="Link_Prevedere" xml:space="preserve">
+    <value>Prevedere 内容包</value>
+  </data>
+  <data name="Link_Xero" xml:space="preserve">
+    <value>Xero 内容包</value>
+  </data>
+  <data name="Link_ReportsSeeData" xml:space="preserve">
+    <value>查看用于创建视觉对象的数据</value>
+  </data>
+  <data name="Link_AdminAuditing" xml:space="preserve">
+    <value>Auditing Power BI</value>
+  </data>
+  <data name="Link_O365PortalRetired" xml:space="preserve">
+    <value>Power BI for Office 365 已转变为 Power BI</value>
+  </data>
+  <data name="Link_CreatePhoneViewDashboard" xml:space="preserve">
+    <value>创建仪表板的电话视图</value>
+  </data>
+  <data name="Link_ServiceNotificationCenter" xml:space="preserve">
+    <value>Power BI 统一通知中心</value>
+  </data>
+  <data name="Link_RenameReportPage" xml:space="preserve">
+    <value>在 Power BI 中重命名报表页</value>
+  </data>
+  <data name="Link_ReportTipsTricks" xml:space="preserve">
+    <value>有关在 Power BI 服务中创建报表的提示和技巧</value>
+  </data>
+  <data name="Link_GatewayOnPremOracle" xml:space="preserve">
+    <value>管理数据源 - Oracle</value>
+  </data>
+  <data name="Link_ServiceSetAlerts" xml:space="preserve">
+    <value>Power BI 服务中的数据警报</value>
+  </data>
+  <data name="Link_ServiceNow" xml:space="preserve">
+    <value>ServiceNow 事件内容包</value>
+  </data>
+  <data name="Link_WhereIsMyTenant" xml:space="preserve">
+    <value>我的租户位于何处？</value>
+  </data>
+  <data name="Link_DataClassification" xml:space="preserve">
+    <value>仪表板数据分类</value>
+  </data>
+  <data name="Link_XeroCredentialsRefresh" xml:space="preserve">
+    <value>刷新失败时，如何刷新 Xero 内容包证书</value>
+  </data>
+  <data name="Link_LiveStreaming" xml:space="preserve">
+    <value>Power BI 中的实时流（预览）</value>
+  </data>
+  <data name="Link_RVisuals" xml:space="preserve">
+    <value>使用 R 脚本在 Power BI 中创建高级分析和可视化内容</value>
+  </data>
+  <data name="Link_ArcGIS" xml:space="preserve">
+    <value>教程：Power BI 中的 ArcGIS</value>
+  </data>
+  <data name="Link_PowerPoint" xml:space="preserve">
+    <value>发布到 PowerPoint</value>
+  </data>
+  <data name="Link_NewNav" xml:space="preserve">
+    <value>新的 Power BI 导航体验</value>
+  </data>
+  <data name="Link_PreviewFeatures" xml:space="preserve">
+    <value>选择使用 Power BI 预览功能</value>
+  </data>
+  <data name="Link_EmbedReportSPO" xml:space="preserve">
+    <value>在 SharePoint Online 中嵌入报表</value>
+  </data>
+  <data name="Link_GovUSOverview" xml:space="preserve">
+    <value>适用于美国政府的 Power BI</value>
+  </data>
+  <data name="Link_GovUSSignup" xml:space="preserve">
+    <value>组织美国政府组织</value>
+  </data>
+  <data name="Link_TipsGettingHelp" xml:space="preserve">
+    <value>有关获取帮助的 10 大技巧</value>
+  </data>
+  <data name="Area_Resources" xml:space="preserve">
+    <value>资源</value>
+  </data>
+  <data name="Link_Whitepapers" xml:space="preserve">
+    <value>白皮书</value>
+  </data>
+  <data name="Meta_LocJobId" xml:space="preserve">
+    <value>214</value>
+  </data>
+</root>

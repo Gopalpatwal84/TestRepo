@@ -1,0 +1,152 @@
+﻿@model PowerBI.Web.Models.Pages.Search.SearchIndexModel
+@using Resources = PowerBI.Resources.Pages.Support.Pro
+
+@{
+    Model.PageTitle = Resources.META_PAGETITLE;
+    Model.MetaDescription = Resources.META_DESCRIPTION;
+    Model.MetaKeywords = Resources.META_KEYWORDS;
+
+    var searchUrl = Html.LocalizeUrl("/search/?q=" + Model.Term).ToString();
+    if (!string.IsNullOrEmpty(Model.Type))
+    {
+        searchUrl = Url.Action(Model.Type, "Search", new { q = Model.Term });
+    }
+}
+
+<section class="section section-palette02 section-size2 section-heading-only">
+    <div class="row column">
+        <h1>@Resources.Hero_Heading</h1>
+    </div>
+</section>
+
+<section class="section">
+    <div class="row">
+        <div class="column medium-7">
+            <div class="row column">
+                <h2>@Resources.Search_Heading</h2>
+                @using (Html.BeginForm("SupportPro", "Support", FormMethod.Get, new { onsubmit = "event.stopPropagation(); $(window).trigger('searched', ['supportpro-searched-searchbox', $('#q').val()])" }))
+                {
+                    @Html.HiddenFor(x => x.Type)
+                    <div class="search-input">
+                        @Html.TextBox("q", Model.Term, new { placeholder = Resources.Search })
+                        <button type="submit" class="icon">@SvgHelper.GetSvg("search")</button>
+                    </div>
+                }
+            </div>
+
+            @if (!string.IsNullOrEmpty(Model.Term))
+            {
+                <div class="row row-size2 column">
+                    <ul class="linkList linkList-horizontal search-typeList">
+                        <li class="@(string.IsNullOrEmpty(Model.Type) ? "active" : null)">
+                            <a href="@Url.Action("SupportPro", "Support", new { q = Model.Term, Type = string.Empty })">
+                                @Resources.All
+                            </a>
+                        </li>
+                        @foreach (var type in Model.Types)
+                        {
+                            <li class="@(type.Value == Model.Type ? "active" : null)">
+                                <a href="@Url.Action("SupportPro", "Support", new { q = Model.Term, Type = type.Value })">
+                                    @Resources.ResourceManager.GetString(type.Value)
+                                </a>
+                            </li>
+                        }
+                    </ul>
+                </div>
+
+                if (Model.Pagination.TotalCount > 0)
+                {
+                    <div class="row row-size1 results-container column">
+                        @foreach (var result in Model.EntryResults)
+                        {
+                            @Html.Partial("search/EntryTypes/_EntryType", Model.CreateResultModel(result))
+                        }
+                        @foreach (var result in Model.BlogEntryResults)
+                        {
+                            @Html.Partial("search/EntryTypes/_BlogEntryType", Model.CreateResultModel(result))
+                        }
+                        @foreach (var result in Model.ArticleEntryResults)
+                        {
+                            @Html.Partial("search/EntryTypes/_ArticleEntryType", Model.CreateResultModel(result))
+                        }
+                        @foreach (var result in Model.CommunityEntryResults)
+                        {
+                            @Html.Partial("search/EntryTypes/_CommunityEntryType", Model.CreateResultModel(result))
+                        }
+                        @foreach (var result in Model.PartnerDirectoryEntryResults)
+                        {
+                            @Html.Partial("search/EntryTypes/_PartnerDirectoryEntryType", Model.CreateResultModel(result))
+                        }
+                        @foreach (var result in Model.PartnerShowcaseEntryResults)
+                        {
+                            @Html.Partial("search/EntryTypes/_PartnerShowcaseEntryType", Model.CreateResultModel(result))
+                        }
+                    </div>
+                    <div class="row row-size3 column">
+                        <a class="cta-secondary" href="@searchUrl">@Html.RawFormatInvariant(Resources.ViewAll_Cta, Model.Pagination.TotalCount)<span class="glyphicon glyph-micro pbi-glyph-chevronrightmedium"></span></a>
+                    </div>
+                }
+                else
+                {
+                    <div class="row row-size1 column search-result">
+                        <h3>@Resources.NoResults</h3>
+                    </div>
+                }
+
+                <div class="row row-size3 column">
+                    <h3>@Resources.SupportTicket_Heading</h3>
+                    <a class="button button-featured" href="@Html.LocalizeUrl("/support/pro/ticket/")" data-event="supportpro-clicked-createticket" data-event-property="Continue to support ticket">@Resources.SupportTicket_Cta</a>
+                </div>
+            }
+
+            <div class="row column">
+                @Html.RawFormatInvariant(Resources.AdminPortal_1, "https://portal.office.com/Support/CreateServiceRequest.aspx?i=TB&s=power+bi", "data-event=\"supportpro-clicked-adminportal\" data-event-property=\"Admin Portal\"")
+            </div>
+        </div>
+
+        <div class="column medium-4 medium-offset-1">
+            <div class="row column">
+                <a href="@Html.LocalizeUrl("/guided-learning/")" class="card sd-equalize" data-set="support-options">
+                    <span class="icon">@SvgHelper.GetSvg("play-video")</span>
+                    <span class="top text-heading3">@Resources.GuidedLearning_Heading</span>
+                    <span class="bottom">@Resources.GuidedLearning_Content</span>
+                </a>
+            </div>
+            <div class="row row-size3 column">
+                <a href="@Html.LocalizeUrl("article:powerbi-sample-datasets")" class="card sd-equalize" data-set="support-options">
+                    <span class="icon">@SvgHelper.GetSvg("clipboard")</span>
+                    <span class="top text-heading3">@Resources.Samples_Heading</span>
+                    <span class="bottom">@Resources.Samples_Content</span>
+                </a>
+            </div>
+            <div class="row row-size3 column">
+                <a href="@Html.LocalizeUrl("article:powerbi-service-get-started")" class="card sd-equalize" data-set="support-options">
+                    <span class="icon">@SvgHelper.GetSvg("document")</span>
+                    <span class="top text-heading3">@Resources.Documentation_Heading</span>
+                    <span class="bottom">@Resources.Documentation_Content</span>
+                </a>
+            </div>
+            <div class="row row-size3 column">
+                <a href="https://community.powerbi.com/" class="card sd-equalize" data-set="support-options">
+                    <span class="icon">@SvgHelper.GetSvg("team")</span>
+                    <span class="top text-heading3">@Resources.Community_Heading</span>
+                    <span class="bottom">@Resources.Community_Content</span>
+                </a>
+            </div>
+            <div class="row row-size3 column">
+                <a href="https://ideas.powerbi.com/forums/265200-power-bi" class="card sd-equalize" data-set="support-options">
+                    <span class="icon">@SvgHelper.GetSvg("lightbulb")</span>
+                    <span class="top text-heading3">@Resources.SubmitAnIdea_Heading</span>
+                    <span class="bottom">@Resources.SubmitAnIdea_Content</span>
+                </a>
+            </div>
+            <div class="row row-size3 column">
+                <a data-event="support-clicked-contactsupportmodal" href="https://aka.ms/issues.powerbi.com" class="card sd-equalize" data-set="support-options">
+                    <span class="icon">@SvgHelper.GetSvg("exclamation-circle")</span>
+                    <span class="top text-heading3">@Resources.ReportIssue_Heading</span>
+                    <span class="bottom">@Resources.ReportIssue_Content</span>
+                </a>
+            </div>
+        </div>
+    </div>
+</section>

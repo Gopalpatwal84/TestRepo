@@ -1,0 +1,284 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" id="root">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="About_Content" xml:space="preserve">
+    <value>&lt;p&gt;さらに、一連の Microsoft Power BI のデモを体験することができます。デモには次のものが含まれます。 &lt;ul&gt;&lt;li&gt;ブレット グラフのカスタム可視化を使用して、洞察を表示するための効率的な方法としてデータをマージする方法について説明します。&lt;/li&gt;
+&lt;li&gt;世界銀行から引き出された都市開発データセットから地理的データをプロットして円形のマップやフィールドマップを可視化したり、R スクリプトからマップを作成したりする方法について説明します。&lt;/li&gt;&lt;li&gt;世界銀行からの気候変動データを使用したデモを視聴して適切に軸を設定する方法を理解し、MSN が作成した選挙の周期に関する投票者の好みについての個別のチュートリアルをご覧ください。&lt;/li&gt;
+&lt;li&gt;伝達するデータエレメントを決定するための、マイクロソフトの Real Sociedad とのコラボレーションによるチュートリアルを通じて、対話的なデータ可視化の組み合わせを使用するタイミングを把握してください。&lt;/li&gt;&lt;/ul&gt;&lt;/p&gt;</value>
+  </data>
+  <data name="Article_Content_10" xml:space="preserve">
+    <value>&lt;h2 id="creating-chart"&gt;Power BI でのブレット グラフの作成&lt;/h2&gt;
+
+&lt;p&gt;このコースで示すサンプルを実行するには、次の準備が必要です。&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;Windows 7 以降を実行するコンピューター&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href="{0}"&gt;Power BI Desktop&lt;/a&gt; のダウンロードおよびインストール&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Power BI アカウント (&lt;a href="{1}"&gt;{2}&lt;/a&gt;) への登録&lt;/p&gt;
+
+&lt;p&gt;a.職場の電子メール アカウントを使用して登録する必要があります。個人用のアカウント (gmail、Hotmail、outlook.com、yahoo.com) はサポートされていません。&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3&gt;手順 1: サンプルファイルのロード&lt;/h3&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;ファイル &lt;strong&gt;Brazil IDEB Scores_final.pbix&lt;/strong&gt; を開きます。&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;このチュートリアルでは、次のリンクからダウンロードできる &lt;strong&gt;SQLBI によるブレット グラフ&lt;/strong&gt; カスタム ビジュアルを使用します。&lt;/p&gt;
+&lt;p&gt;&lt;a href="{3}"&gt;{3}&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src="{4}" alt="" title="" /&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;この可視化をサポートする複数のメジャーが作成されています。&lt;/p&gt;
+
+&lt;p&gt;a.注: 前のチュートリアルでメジャーの作成について説明したため、ここではその手順を繰り返し説明しません。
+    &lt;blockquote&gt;
+  &lt;p&gt;ゴール = 6.0&lt;/p&gt;
+
+&lt;p&gt;国平均 = CALCULATE(AVERAGE(IDEB2009[スコア]), ALL(IDEB2009))&lt;/p&gt;
+&lt;/blockquote&gt;
+    &lt;/p&gt;
+    &lt;/li&gt;
+&lt;/ol&gt;
+
+
+
+&lt;h3&gt;手順 2: データの処理&lt;/h3&gt;
+
+&lt;p&gt;&lt;strong&gt;注&lt;/strong&gt;: ゴール メジャーは、Get Data エクスペリエンスを使用する必要を生じずに静的な値をレポートに追加する方法について示します。国平均メジャーは、適用されているフィルターをすべて無視してデータ行全体の集計を計算する方法を示します。これにより、国平均がデータセット内のカテゴリ全体の定数となり、データが更新されると必ずこの値が更新されるようになります。&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;[視覚化]&lt;/strong&gt; ウィンドウで &lt;strong&gt;[ブレット グラフ]&lt;/strong&gt; アイコンをクリックします。&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;[ブラジルの州一覧]&lt;/strong&gt; テーブルから &lt;strong&gt;[州]&lt;/strong&gt; フィールドを &lt;strong&gt;[カテゴリ]&lt;/strong&gt; に追加します。&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;[スコア]&lt;/strong&gt; を &lt;strong&gt;[値]&lt;/strong&gt; に追加すると、スコアの平均として表示されます。&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;[国平均]&lt;/strong&gt; を &lt;strong&gt;[比較対象値]&lt;/strong&gt; に追加します。&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;[ゴール]&lt;/strong&gt; を &lt;strong&gt;[目標値]&lt;/strong&gt; に追加します。&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;[州]&lt;/strong&gt; フィールドにフィルタを追加して、空の値を除外します。&lt;/p&gt;
+
+&lt;p&gt;a.州は (空白) でない&lt;/p&gt;
+&lt;p&gt;&lt;img src="{5}" alt="" title="" /&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;選択したブレット グラフで、&lt;strong&gt;[形式]&lt;/strong&gt; ウィンドウを選択します。&lt;/p&gt;
+
+&lt;p&gt;a.以下で指定されている色を設定します。&lt;/p&gt;
+
+&lt;p&gt;b.&lt;strong&gt;[州 1]&lt;/strong&gt; オプションの切り替えスイッチを &lt;strong&gt;[オフ]&lt;/strong&gt; にします。&lt;/p&gt;
+
+&lt;p&gt;c.残り 4 つの [州] フィールドに前の手順を繰り返します。&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;img src="{6}" alt="" title="" /&gt;&lt;/p&gt;
+
+&lt;p&gt;結果の視覚化によって、各州の平均 IDEB スコアの全国平均および全国目標に対する比較を簡単に行うことができます。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src="{7}" alt="" title="" /&gt;&lt;/p&gt;
+
+&lt;h2 id="creating-data-maps"&gt;データ マップの作成 (R ビジュアルを使用したドット マップの描画)&lt;/h2&gt;
+
+&lt;p&gt;このコースで示すサンプルを実行するには、次の準備が必要です。&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;Windows 7 以降を実行するコンピューター&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href="{8}"&gt;&lt;em&gt;Power BI Desktop&lt;/em&gt;&lt;/a&gt; のダウンロードおよびインストール&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Power BI アカウント (&lt;a href="{1}"&gt;&lt;em&gt;{2}&lt;/em&gt;&lt;/a&gt;) への登録&lt;/p&gt;
+
+&lt;p&gt;a.職場の電子メール アカウントを使用して登録する必要があります。個人用のアカウント (gmail、Hotmail、outlook.com、yahoo.com) はサポートされていません。&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Power BI ですぐに使用可能なマップを描画することができますが、結果に階級区分図やドットマップを組み合わせたり、弓状の線を加えたり、特定の地域を拡大したりして、自分らしさを加えることもできます。R ビジュアルには、視覚化の結果に新しいことを試したり、カスタマイズしたりする自由が大いにあります。このチュートリアルでは、&lt;strong&gt;R スクリプト ビジュアル&lt;/strong&gt;を使用してシンプルなマップを作成する方法について説明します。&lt;/p&gt;
+
+&lt;h3&gt;手順 1: R および R エディターのインストール&lt;/h3&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;ご使用のコンピューターに R、および RStudio などの R エディターをインストールしていることを確認してください&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;R エディターで、コマンド &lt;strong&gt;install.packages(maps)&lt;/strong&gt; および &lt;strong&gt;install.packages(mapproj)&lt;/strong&gt; を実行して、2 つのパッケージ ("maps" および "mapproj") をインストールします。これによって、ご使用のコンピューターにこれらのパッケージがインストールされます。ご使用のコンピューターへのパッケージのインストールは 1 度きりですが、パッケージを使用する際には毎回 Power BI からライブラリをアクティブ化する必要があります。&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3&gt;手順 2: 新規 R ビジュアルの作成&lt;/h3&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;キャンバスの右側にある &lt;strong&gt;[視覚化]&lt;/strong&gt; ウィンドウで R アイコンを使用して新規 R ビジュアルを作成します。&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;テーブル &lt;strong&gt;[世界の都市]&lt;/strong&gt; から値フィールドに &lt;strong&gt;lat&lt;/strong&gt; および &lt;strong&gt;lng&lt;/strong&gt; をドラッグします。&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;データセットを定義すると、R スクリプト エディターが表示されます。スクリプトの最初の行は自動的に入力され、選択したフィールドからデータセットが作成されます。次のコードを使用 (または編集) してビジュアルを構成できます。&lt;/p&gt;
+&lt;ol&gt;
+    &lt;li&gt;&lt;p&gt;&lt;strong&gt;maps&lt;/strong&gt; および &lt;strong&gt;mapproj&lt;/strong&gt; ライブラリの呼び出し&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;library(maps)&lt;/p&gt;
+
+&lt;p&gt;library(mapproj)&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;国境の線を省略した世界地図の描画&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;map('world', col=NA)&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;データセット内で各都市のポイントを描画します。Pch はポイントのシェイプを定義し、cex を使用してポイントのサイズを調整することができます。&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;points(mapproject(dataset\$lng, dataset\$lat), col="black", pch=19, cex=.1)&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+
+
+
+&lt;p&gt;これは R を使用した 1 つのタイプのマップの例に過ぎず、他にもさまざまなフォームをお試しいただけます。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src="{9}" alt="" title="" /&gt;&lt;/p&gt;</value>
+  </data>
+  <data name="Download_Resources" xml:space="preserve">
+    <value>これらのチュートリアルに必要なすべてのリソースをダウンロードする</value>
+  </data>
+  <data name="Hero_Subtitle" xml:space="preserve">
+    <value>データに最適なグラフィックスを適切に選択する方法について、Alberto Cairo がお教えします。人間の脳は、パターンや傾向が棒グラフ、折れ線グラフ、データ マップ、散布図、およびその他のグラフィックスに変換されるとより効率的に働きます。Alberto では、どのグラフィックス表示がデータに最適であるかを決定するのに役立つトピックと質問を用意しています。どのタイプのグラフィックスによって精密な推測ができ、どのタイプのビジュアルによって大まかな推測ができるかの概要が提供されます。</value>
+  </data>
+  <data name="Hero_Title" xml:space="preserve">
+    <value>画像の選択</value>
+  </data>
+  <data name="InThisArticle" xml:space="preserve">
+    <value>この記事の内容:</value>
+  </data>
+  <data name="META_DESCRIPTION" xml:space="preserve">
+    <value />
+  </data>
+  <data name="META_KEYWORDS" xml:space="preserve">
+    <value />
+  </data>
+  <data name="META_PAGETITLE" xml:space="preserve">
+    <value>データ ジャーナリズム - 画像の選択 | Microsoft Power BI</value>
+  </data>
+  <data name="NextTopic" xml:space="preserve">
+    <value>次のトピック: ナレーションのデザイン</value>
+  </data>
+  <data name="RightNav_Link1" xml:space="preserve">
+    <value>Power BI でのブレット グラフの作成</value>
+  </data>
+  <data name="RightNav_Link2" xml:space="preserve">
+    <value>データ マップの作成 (R ビジュアルを使用したドット マップの描画)</value>
+  </data>
+  <data name="Meta_LocJobId" xml:space="preserve">
+    <value>159</value>
+  </data>
+</root>

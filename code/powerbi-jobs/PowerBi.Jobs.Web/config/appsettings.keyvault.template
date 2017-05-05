@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<appSettings>
+  <!-- Seq settings -->
+  <add key="SeqServer" value="http://localhost:5341/" />
+  <add key="SeqServerApiKey" value="#{keyvault:powerbi:jobs-seq-apikey}" />
+  <add key="SeqAllowFileBuffer" value="false" />
+
+  <!-- Redis -->
+  <add key="Acom.Redis.Configuration.KeyPrefix" value="" />
+  <add key="Acom.Configuration.DeploymentGroup" value="group-a" />
+
+  <!-- PowerBI Web SiteDeployment version -->
+  <add key="PowerBI.Web.Configuration.PowerBIConfiguration.DeploymentVersion" value="0" />
+  <add key="PowerBI.Web.Configuration.PowerBIConfiguration.BranchName" value="default" />
+
+  <!-- AAD settings -->
+  <add key="ActiveDirectoryClientID" value="3b3f48a9-cb27-4e92-8bd3-83428dbfa230" />
+  <add key="ActiveDirectoryAudience" value="https://pwrbicom.onmicrosoft.com/pwrbi-int" />
+  <add key="ActiveDirectoryPassword" value="#{keyvault:powerbi:jobs-lockdown-app-password}" />
+  <add key="ActiveDirectoryTenant" value="pwrbicom.onmicrosoft.com" />
+  <add key="AuthEnabled" value="true" />
+  <add key="LockdownEnabled" value="false" />
+  <add key="StagingLockdownEnabled" value="true" />
+</appSettings>

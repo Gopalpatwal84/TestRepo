@@ -1,0 +1,510 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Content" xml:space="preserve">
+    <value>&lt;p class=&quot;MsoNormal&quot; align=&quot;center&quot; style=&#39;margin-top:6.0pt;margin-right:0in;
+margin-bottom:6.0pt;margin-left:17.85pt;text-align:center;text-autospace:none&#39;&gt;&lt;b&gt;&lt;span lang=&quot;HI&quot; style=&#39;font-size:12.0pt;color:black&#39;&gt;MICROSOFT&lt;/span&gt;&lt;/b&gt;&lt;b&gt;&lt;span lang=&quot;HI&quot; style=&#39;font-size:12.0pt;font-family:&quot;Mangal&quot;,serif;color:black&#39;&gt; &lt;/span&gt;&lt;/b&gt;&lt;b&gt;&lt;span lang=&quot;HI&quot; style=&#39;font-size:12.0pt;color:black&#39;&gt;POWER BI&lt;/span&gt;&lt;/b&gt;&lt;b&gt;&lt;span lang=&quot;HI&quot; style=&#39;font-size:12.0pt;font-family:&quot;Mangal&quot;,serif;color:black&#39;&gt; &amp;#2360;&amp;#2375;&amp;#2357;&amp;#2366;
+&amp;#2309;&amp;#2344;&amp;#2369;&amp;#2348;&amp;#2306;&amp;#2343; &amp;#2325;&amp;#2366;
+&amp;#2346;&amp;#2370;&amp;#2352;&amp;#2325;
+&amp;#2342;&amp;#2360;&amp;#2381;&amp;#2340;&amp;#2366;&amp;#2357;&amp;#2375;&amp;#2395;&lt;/span&gt;&lt;/b&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; align=&quot;center&quot; style=&#39;margin-top:6.0pt;margin-right:0in;
+margin-bottom:6.0pt;margin-left:17.85pt;text-align:center;text-autospace:none&#39;&gt;&lt;b&gt;&lt;span lang=&quot;HI&quot; style=&#39;font-size:12.0pt;font-family:&quot;Mangal&quot;,serif;color:black&#39;&gt;&amp;#2313;&amp;#2346;&amp;#2351;&amp;#2379;&amp;#2327;&amp;#2325;&amp;#2352;&amp;#2381;&amp;#2340;&amp;#2366;
+&amp;#2346;&amp;#2352;&amp;#2368;&amp;#2325;&amp;#2381;&amp;#2359;&amp;#2339; &amp;#2344;&amp;#2367;&amp;#2351;&amp;#2350;
+&amp;#2324;&amp;#2352; &amp;#2358;&amp;#2352;&amp;#2381;&amp;#2340;&amp;#2375;&amp;#2306; &lt;/span&gt;&lt;/b&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-top:6.0pt;margin-right:0in;margin-bottom:6.0pt;
+margin-left:17.85pt;text-autospace:none&#39;&gt;&lt;b&gt;&lt;span lang=&quot;HI&quot; style=&#39;font-size:
+12.0pt;font-family:&quot;Mangal&quot;,serif;color:black&#39;&gt;&amp;#2351;&amp;#2342;&amp;#2367;
+&amp;#2310;&amp;#2346;&amp;#2325;&amp;#2379; &lt;/span&gt;&lt;/b&gt;&lt;b&gt;&lt;span lang=&quot;HI&quot; style=&#39;font-size:12.0pt;
+color:black&#39;&gt;MICROSOFT POWER BI&lt;/span&gt;&lt;/b&gt;&lt;b&gt;&lt;span lang=&quot;HI&quot; style=&#39;font-size:
+12.0pt;font-family:&quot;Mangal&quot;,serif;color:black&#39;&gt; &amp;#2360;&amp;#2375;&amp;#2357;&amp;#2366; (&lt;/span&gt;&lt;/b&gt;&lt;b&gt;&lt;span style=&#39;font-size:12.0pt;color:black&#39;&gt;“&lt;/span&gt;&lt;/b&gt;&lt;b&gt;&lt;span lang=&quot;HI&quot; style=&#39;font-size:12.0pt;font-family:&quot;Mangal&quot;,serif;color:black&#39;&gt;&amp;#2360;&amp;#2375;&amp;#2357;&amp;#2366;&lt;/span&gt;&lt;/b&gt;&lt;b&gt;&lt;span style=&#39;font-size:12.0pt;color:black&#39;&gt;”&lt;/span&gt;&lt;/b&gt;&lt;b&gt;&lt;span lang=&quot;HI&quot; style=&#39;font-size:12.0pt;color:black&#39;&gt;)&lt;/span&gt;&lt;/b&gt;&lt;b&gt;&lt;span lang=&quot;HI&quot; style=&#39;font-size:12.0pt;font-family:&quot;Mangal&quot;,serif;color:black&#39;&gt; &amp;#2325;&amp;#2366;
+&amp;#2313;&amp;#2346;&amp;#2351;&amp;#2379;&amp;#2327; &amp;#2325;&amp;#2352;&amp;#2344;&amp;#2375; &amp;#2325;&amp;#2368;
+&amp;#2346;&amp;#2366;&amp;#2340;&amp;#2381;&amp;#2352;&amp;#2340;&amp;#2366; &amp;#2360;&amp;#2368;&amp;#2343;&amp;#2375;
+&amp;#2310;&amp;#2346;&amp;#2325;&amp;#2375; &amp;#2360;&amp;#2306;&amp;#2327;&amp;#2336;&amp;#2344; &amp;#2360;&amp;#2375;
+&amp;#2350;&amp;#2367;&amp;#2354;&amp;#2368; &amp;#2341;&amp;#2368; &amp;#2340;&amp;#2379; &amp;#2351;&amp;#2375; &amp;#2346;&amp;#2370;&amp;#2352;&amp;#2325;
+&amp;#2310;&amp;#2346; &amp;#2346;&amp;#2352; &amp;#2354;&amp;#2366;&amp;#2327;&amp;#2370;
+&amp;#2344;&amp;#2361;&amp;#2368;&amp;#2306; &amp;#2361;&amp;#2379;&amp;#2340;&amp;#2366;.
+&amp;#2310;&amp;#2346;&amp;#2325;&amp;#2375; &amp;#2314;&amp;#2346;&amp;#2352; &amp;#2325;&amp;#2380;&amp;#2344;
+&amp;#2360;&amp;#2368; &amp;#2344;&amp;#2368;&amp;#2340;&amp;#2367;&amp;#2351;&amp;#2366;&amp;#2305; &amp;#2324;&amp;#2352;
+&amp;#2358;&amp;#2352;&amp;#2381;&amp;#2340;&amp;#2375;&amp;#2306; &amp;#2354;&amp;#2366;&amp;#2327;&amp;#2370;
+&amp;#2361;&amp;#2379;&amp;#2340;&amp;#2368; &amp;#2361;&amp;#2376;&amp;#2306; &amp;#2351;&amp;#2361;
+&amp;#2332;&amp;#2366;&amp;#2344;&amp;#2344;&amp;#2375; &amp;#2325;&amp;#2375; &amp;#2354;&amp;#2367;&amp;#2319;
+&amp;#2325;&amp;#2371;&amp;#2346;&amp;#2351;&amp;#2366; &amp;#2309;&amp;#2346;&amp;#2344;&amp;#2375;
+&amp;#2360;&amp;#2306;&amp;#2327;&amp;#2336;&amp;#2344;/&lt;/span&gt;&lt;/b&gt;&lt;b&gt;&lt;span lang=&quot;HI&quot; style=&#39;font-size:12.0pt;color:black&#39;&gt;IT&lt;/span&gt;&lt;/b&gt;&lt;b&gt;&lt;span lang=&quot;HI&quot; style=&#39;font-size:12.0pt;font-family:&quot;Mangal&quot;,serif;color:black&#39;&gt; &amp;#2357;&amp;#2381;&amp;#2351;&amp;#2357;&amp;#2360;&amp;#2381;&amp;#2341;&amp;#2366;&amp;#2346;&amp;#2325;
+&amp;#2360;&amp;#2375; &amp;#2360;&amp;#2306;&amp;#2346;&amp;#2352;&amp;#2381;&amp;#2325;
+&amp;#2325;&amp;#2352;&amp;#2375;&amp;#2306;. &amp;#2351;&amp;#2342;&amp;#2367;
+&amp;#2310;&amp;#2346;&amp;#2344;&amp;#2375; &amp;#2360;&amp;#2375;&amp;#2357;&amp;#2366; &amp;#2360;&amp;#2381;&amp;#2357;&amp;#2351;&amp;#2306;
+&amp;#2346;&amp;#2381;&amp;#2352;&amp;#2366;&amp;#2346;&amp;#2381;&amp;#2340; &amp;#2325;&amp;#2368; &amp;#2341;&amp;#2368;
+&amp;#2340;&amp;#2379; &amp;#2351;&amp;#2361; &amp;#2346;&amp;#2370;&amp;#2352;&amp;#2325; &amp;#2310;&amp;#2346;
+&amp;#2346;&amp;#2352; &amp;#2354;&amp;#2366;&amp;#2327;&amp;#2370; &amp;#2361;&amp;#2379;&amp;#2340;&amp;#2366; &amp;#2361;&amp;#2376;&lt;/span&gt;&lt;/b&gt;&lt;b&gt;&lt;span lang=&quot;HI&quot; style=&#39;font-size:12.0pt;color:black&#39;&gt;,&lt;/span&gt;&lt;/b&gt;&lt;b&gt;&lt;span lang=&quot;HI&quot; style=&#39;font-size:12.0pt;font-family:&quot;Mangal&quot;,serif;color:black&#39;&gt; &amp;#2325;&amp;#2371;&amp;#2346;&amp;#2351;&amp;#2366;
+&amp;#2344;&amp;#2368;&amp;#2330;&amp;#2375; &amp;#2342;&amp;#2368; &amp;#2327;&amp;#2312;
+&amp;#2358;&amp;#2352;&amp;#2381;&amp;#2340;&amp;#2379;&amp;#2306; &amp;#2325;&amp;#2379;
+&amp;#2343;&amp;#2381;&amp;#2351;&amp;#2366;&amp;#2344; &amp;#2360;&amp;#2375;
+&amp;#2346;&amp;#2338;&amp;#2364;&amp;#2375;&amp;#2306;&lt;/span&gt;&lt;/b&gt;&lt;b&gt;&lt;span lang=&quot;HI&quot; style=&#39;font-size:12.0pt;font-family:&quot;Mangal&quot;,serif;color:black&#39;&gt;. &lt;/span&gt;&lt;/b&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-top:6.0pt;margin-right:0in;margin-bottom:6.0pt;
+margin-left:17.85pt;text-autospace:none&#39;&gt;&lt;span lang=&quot;HI&quot; style=&#39;font-family:&quot;Mangal&quot;,serif&#39;&gt;&amp;#2313;&amp;#2346;&amp;#2351;&amp;#2379;&amp;#2327;&amp;#2325;&amp;#2352;&amp;#2381;&amp;#2340;&amp;#2366;
+&amp;#2346;&amp;#2352;&amp;#2368;&amp;#2325;&amp;#2381;&amp;#2359;&amp;#2339; (&lt;/span&gt;“&lt;b&gt;&lt;span lang=&quot;HI&quot; style=&#39;font-family:&quot;Mangal&quot;,serif&#39;&gt;&amp;#2313;&amp;#2346;&amp;#2351;&amp;#2379;&amp;#2327;&amp;#2325;&amp;#2352;&amp;#2381;&amp;#2340;&amp;#2366;
+&amp;#2346;&amp;#2352;&amp;#2368;&amp;#2325;&amp;#2381;&amp;#2359;&amp;#2339;&lt;/span&gt;&lt;/b&gt;”&lt;b&gt;&lt;span lang=&quot;HI&quot;&gt;)&lt;/span&gt;&lt;/b&gt;&lt;span lang=&quot;HI&quot; style=&#39;font-family:&quot;Mangal&quot;,serif&#39;&gt; &amp;#2330;&amp;#2369;&amp;#2344;&amp;#2344;&amp;#2375;
+&amp;#2325;&amp;#2375; &amp;#2354;&amp;#2367;&amp;#2319;
+&amp;#2343;&amp;#2344;&amp;#2381;&amp;#2351;&amp;#2357;&amp;#2366;&amp;#2342;. &amp;#2313;&amp;#2346;&amp;#2351;&amp;#2379;&amp;#2327;&amp;#2325;&amp;#2352;&amp;#2381;&amp;#2340;&amp;#2366;
+&amp;#2346;&amp;#2352;&amp;#2368;&amp;#2325;&amp;#2381;&amp;#2359;&amp;#2339; &amp;#2325;&amp;#2366;
+&amp;#2310;&amp;#2346;&amp;#2325;&amp;#2366; &amp;#2313;&amp;#2346;&amp;#2351;&amp;#2379;&amp;#2327;
+&amp;#2344;&amp;#2368;&amp;#2330;&amp;#2375; &amp;#2354;&amp;#2367;&amp;#2306;&amp;#2325; &amp;#2325;&amp;#2367;&amp;#2319;
+&amp;#2327;&amp;#2319; &lt;/span&gt;&lt;b&gt;&lt;span lang=&quot;HI&quot;&gt;Microsoft Power BI&lt;/span&gt;&lt;/b&gt;&lt;span lang=&quot;HI&quot; style=&#39;font-family:&quot;Mangal&quot;,serif&#39;&gt; &amp;#2360;&amp;#2375;&amp;#2357;&amp;#2366;
+&amp;#2309;&amp;#2344;&amp;#2369;&amp;#2348;&amp;#2306;&amp;#2343; (&lt;/span&gt;“&lt;span lang=&quot;HI&quot; style=&#39;font-family:&quot;Mangal&quot;,serif&#39;&gt;&amp;#2309;&amp;#2344;&amp;#2369;&amp;#2348;&amp;#2306;&amp;#2343;&lt;/span&gt;”&lt;span lang=&quot;HI&quot; style=&#39;font-family:&quot;Mangal&quot;,serif&#39;&gt;) &amp;#2324;&amp;#2352; &amp;#2311;&amp;#2360;
+&amp;#2346;&amp;#2370;&amp;#2352;&amp;#2325;
+&amp;#2342;&amp;#2360;&amp;#2381;&amp;#2340;&amp;#2366;&amp;#2357;&amp;#2375;&amp;#2395; &amp;#2325;&amp;#2375;
+&amp;#2344;&amp;#2367;&amp;#2351;&amp;#2350;&amp;#2379;&amp;#2306; &amp;#2324;&amp;#2352;
+&amp;#2358;&amp;#2352;&amp;#2381;&amp;#2340;&amp;#2379;&amp;#2306; &amp;#2342;&amp;#2381;&amp;#2357;&amp;#2366;&amp;#2352;&amp;#2366;
+&amp;#2360;&amp;#2306;&amp;#2330;&amp;#2366;&amp;#2354;&amp;#2367;&amp;#2340; &amp;#2361;&amp;#2379;&amp;#2340;&amp;#2366;
+&amp;#2361;&amp;#2376;&lt;/span&gt;&lt;b&gt;&lt;span lang=&quot;HI&quot;&gt;,&lt;/span&gt;&lt;/b&gt;&lt;span lang=&quot;HI&quot; style=&#39;font-family:&quot;Mangal&quot;,serif&#39;&gt; &amp;#2332;&amp;#2379; &amp;#2360;&amp;#2366;&amp;#2341;
+&amp;#2350;&amp;#2367;&amp;#2354;&amp;#2325;&amp;#2352; &amp;#2310;&amp;#2346;&amp;#2325;&amp;#2375; &amp;#2324;&amp;#2352;
+&lt;/span&gt;&lt;b&gt;&lt;span lang=&quot;HI&quot;&gt;Microsoft&lt;/span&gt;&lt;/b&gt;&lt;span lang=&quot;HI&quot; style=&#39;font-family:
+&quot;Mangal&quot;,serif&#39;&gt; &lt;/span&gt;&lt;b&gt;&lt;span lang=&quot;HI&quot;&gt;Corporation&lt;/span&gt;&lt;/b&gt;&lt;span lang=&quot;HI&quot; style=&#39;font-family:&quot;Mangal&quot;,serif&#39;&gt; (&amp;#2351;&amp;#2366;&lt;/span&gt;&lt;b&gt;&lt;span lang=&quot;HI&quot;&gt;,&lt;/span&gt;&lt;/b&gt;&lt;span lang=&quot;HI&quot; style=&#39;font-family:&quot;Mangal&quot;,serif&#39;&gt; &amp;#2310;&amp;#2346;
+&amp;#2332;&amp;#2361;&amp;#2366;&amp;#2306; &amp;#2349;&amp;#2368; &amp;#2352;&amp;#2361;&amp;#2340;&amp;#2375;
+&amp;#2361;&amp;#2379;&amp;#2306; &amp;#2313;&amp;#2360;&amp;#2325;&amp;#2375; &amp;#2310;&amp;#2343;&amp;#2366;&amp;#2352;
+&amp;#2346;&amp;#2352;&lt;/span&gt;&lt;b&gt;&lt;span lang=&quot;HI&quot;&gt;,&lt;/span&gt;&lt;/b&gt;&lt;span lang=&quot;HI&quot; style=&#39;font-family:&quot;Mangal&quot;,serif&#39;&gt; &amp;#2313;&amp;#2360;&amp;#2325;&amp;#2368; &amp;#2319;&amp;#2325;
+&amp;#2309;&amp;#2344;&amp;#2369;&amp;#2359;&amp;#2306;&amp;#2327;&amp;#2368;) &amp;#2325;&amp;#2375;
+&amp;#2348;&amp;#2368;&amp;#2330; &amp;#2309;&amp;#2344;&amp;#2369;&amp;#2348;&amp;#2306;&amp;#2343; &amp;#2325;&amp;#2366;
+&amp;#2344;&amp;#2367;&amp;#2352;&amp;#2381;&amp;#2350;&amp;#2366;&amp;#2339; &amp;#2325;&amp;#2352;&amp;#2340;&amp;#2375;
+&amp;#2361;&amp;#2376;&amp;#2306;. &amp;#2311;&amp;#2360; &amp;#2346;&amp;#2370;&amp;#2352;&amp;#2325;
+&amp;#2342;&amp;#2360;&amp;#2381;&amp;#2340;&amp;#2366;&amp;#2357;&amp;#2375;&amp;#2332;&amp;#2364;
+&amp;#2350;&amp;#2375;&amp;#2306; &amp;#2346;&amp;#2381;&amp;#2352;&amp;#2351;&amp;#2379;&amp;#2327;
+&amp;#2325;&amp;#2367;&amp;#2319; &amp;#2327;&amp;#2319; &amp;#2348;&amp;#2337;&amp;#2364;&amp;#2375;
+&amp;#2309;&amp;#2325;&amp;#2381;&amp;#2359;&amp;#2352;&amp;#2379;&amp;#2306; &amp;#2357;&amp;#2366;&amp;#2354;&amp;#2375;
+&amp;#2358;&amp;#2348;&amp;#2381;&amp;#2342;&lt;/span&gt;&lt;b&gt;&lt;span lang=&quot;HI&quot;&gt;,&lt;/span&gt;&lt;/b&gt;&lt;span lang=&quot;HI&quot; style=&#39;font-family:&quot;Mangal&quot;,serif&#39;&gt; &amp;#2332;&amp;#2367;&amp;#2344;&amp;#2325;&amp;#2368;
+&amp;#2351;&amp;#2361;&amp;#2366;&amp;#2305;
+&amp;#2357;&amp;#2381;&amp;#2351;&amp;#2366;&amp;#2326;&amp;#2381;&amp;#2351;&amp;#2366;
+&amp;#2344;&amp;#2361;&amp;#2368;&amp;#2306; &amp;#2325;&amp;#2368; &amp;#2327;&amp;#2312; &amp;#2361;&amp;#2376;&lt;/span&gt;&lt;b&gt;&lt;span lang=&quot;HI&quot;&gt;,&lt;/span&gt;&lt;/b&gt;&lt;span lang=&quot;HI&quot; style=&#39;font-family:&quot;Mangal&quot;,serif&#39;&gt; &amp;#2325;&amp;#2366;
+&amp;#2309;&amp;#2352;&amp;#2381;&amp;#2341; &amp;#2357;&amp;#2361;&amp;#2368; &amp;#2361;&amp;#2379;&amp;#2327;&amp;#2366;
+&amp;#2332;&amp;#2379; &amp;#2309;&amp;#2344;&amp;#2369;&amp;#2348;&amp;#2306;&amp;#2343; &amp;#2350;&amp;#2375;&amp;#2306;
+&amp;#2346;&amp;#2352;&amp;#2367;&amp;#2349;&amp;#2366;&amp;#2359;&amp;#2367;&amp;#2340; &amp;#2361;&amp;#2376;. &amp;#2310;&amp;#2346;&amp;#2325;&amp;#2379;
+&amp;#2351;&amp;#2361; &amp;#2360;&amp;#2306;&amp;#2346;&amp;#2370;&amp;#2352;&amp;#2381;&amp;#2339;
+&amp;#2346;&amp;#2370;&amp;#2352;&amp;#2325; &amp;#2342;&amp;#2360;&amp;#2381;&amp;#2340;&amp;#2366;&amp;#2357;&amp;#2375;&amp;#2395;
+&amp;#2324;&amp;#2352; &amp;#2313;&amp;#2360;&amp;#2360;&amp;#2375;
+&amp;#2360;&amp;#2306;&amp;#2348;&amp;#2342;&amp;#2381;&amp;#2343; &amp;#2360;&amp;#2349;&amp;#2368;
+&amp;#2358;&amp;#2352;&amp;#2381;&amp;#2340;&amp;#2375;&amp;#2306; &amp;#2327;&amp;#2380;&amp;#2352; &amp;#2360;&amp;#2375;
+&amp;#2346;&amp;#2397; &amp;#2354;&amp;#2375;&amp;#2344;&amp;#2368; &amp;#2330;&amp;#2366;&amp;#2361;&amp;#2367;&amp;#2319;&lt;/span&gt;&lt;b&gt;&lt;span lang=&quot;HI&quot;&gt;,&lt;/span&gt;&lt;/b&gt;&lt;span lang=&quot;HI&quot; style=&#39;font-family:&quot;Mangal&quot;,serif&#39;&gt; &amp;#2325;&amp;#2381;&amp;#2351;&amp;#2379;&amp;#2306;&amp;#2325;&amp;#2367;
+&amp;#2351;&amp;#2375; &amp;#2360;&amp;#2349;&amp;#2368; &amp;#2358;&amp;#2352;&amp;#2381;&amp;#2340;&amp;#2375;&amp;#2306;
+&amp;#2350;&amp;#2361;&amp;#2340;&amp;#2381;&amp;#2357;&amp;#2346;&amp;#2370;&amp;#2352;&amp;#2381;&amp;#2339;
+&amp;#2361;&amp;#2376;&amp;#2306; &amp;#2324;&amp;#2352; &amp;#2310;&amp;#2346; &amp;#2346;&amp;#2352;
+&amp;#2354;&amp;#2366;&amp;#2327;&amp;#2370; &amp;#2361;&amp;#2379;&amp;#2344;&amp;#2375;
+&amp;#2357;&amp;#2366;&amp;#2354;&amp;#2375; &amp;#2309;&amp;#2344;&amp;#2369;&amp;#2348;&amp;#2306;&amp;#2343;
+&amp;#2325;&amp;#2366; &amp;#2360;&amp;#2371;&amp;#2332;&amp;#2344; &amp;#2325;&amp;#2352;&amp;#2340;&amp;#2368;
+&amp;#2361;&amp;#2376;&amp;#2306;. &amp;#2310;&amp;#2346;
+&amp;#2309;&amp;#2327;&amp;#2381;&amp;#2352;&amp;#2375;&amp;#2359;&amp;#2367;&amp;#2340;
+&amp;#2354;&amp;#2367;&amp;#2306;&amp;#2325; &amp;#2325;&amp;#2379; &amp;#2309;&amp;#2346;&amp;#2344;&amp;#2368;
+&amp;#2348;&amp;#2381;&amp;#2352;&amp;#2366;&amp;#2313;&amp;#2395;&amp;#2352;
+&amp;#2357;&amp;#2367;&amp;#2306;&amp;#2337;&amp;#2379; &amp;#2350;&amp;#2375;&amp;#2306; &amp;#2346;&amp;#2375;&amp;#2360;&amp;#2381;&amp;#2335;
+&amp;#2325;&amp;#2352;&amp;#2325;&amp;#2375; &amp;#2354;&amp;#2367;&amp;#2306;&amp;#2325; &amp;#2325;&amp;#2368;
+&amp;#2327;&amp;#2312; &amp;#2358;&amp;#2352;&amp;#2381;&amp;#2340;&amp;#2375;&amp;#2306; &amp;#2346;&amp;#2397;
+&amp;#2360;&amp;#2325;&amp;#2340;&amp;#2375; &amp;#2361;&amp;#2376;&amp;#2306;. &amp;#2311;&amp;#2360;
+&amp;#2309;&amp;#2344;&amp;#2369;&amp;#2348;&amp;#2306;&amp;#2343; &amp;#2324;&amp;#2352; &amp;#2311;&amp;#2360;
+&amp;#2346;&amp;#2370;&amp;#2352;&amp;#2325;
+&amp;#2342;&amp;#2360;&amp;#2381;&amp;#2340;&amp;#2366;&amp;#2357;&amp;#2375;&amp;#2395; &amp;#2325;&amp;#2375; &amp;#2350;&amp;#2343;&amp;#2381;&amp;#2351;
+&amp;#2325;&amp;#2379;&amp;#2312; &amp;#2349;&amp;#2368;
+&amp;#2357;&amp;#2367;&amp;#2352;&amp;#2379;&amp;#2343;&amp;#2366;&amp;#2349;&amp;#2366;&amp;#2360;
+&amp;#2361;&amp;#2379;&amp;#2344;&amp;#2375; &amp;#2346;&amp;#2352;&lt;/span&gt;&lt;b&gt;&lt;span lang=&quot;HI&quot;&gt;,&lt;/span&gt;&lt;/b&gt;&lt;span lang=&quot;HI&quot; style=&#39;font-family:&quot;Mangal&quot;,serif&#39;&gt; &amp;#2351;&amp;#2361;
+&amp;#2346;&amp;#2370;&amp;#2352;&amp;#2325;
+&amp;#2342;&amp;#2360;&amp;#2381;&amp;#2340;&amp;#2366;&amp;#2357;&amp;#2375;&amp;#2395;
+&amp;#2310;&amp;#2346;&amp;#2325;&amp;#2375; &amp;#2342;&amp;#2381;&amp;#2357;&amp;#2366;&amp;#2352;&amp;#2366;
+&amp;#2313;&amp;#2346;&amp;#2351;&amp;#2379;&amp;#2327;&amp;#2325;&amp;#2352;&amp;#2381;&amp;#2340;&amp;#2366; &amp;#2346;&amp;#2352;&amp;#2368;&amp;#2325;&amp;#2381;&amp;#2359;&amp;#2339;
+&amp;#2325;&amp;#2375; &amp;#2313;&amp;#2346;&amp;#2351;&amp;#2379;&amp;#2327; &amp;#2325;&amp;#2379;
+&amp;#2344;&amp;#2367;&amp;#2351;&amp;#2306;&amp;#2340;&amp;#2381;&amp;#2352;&amp;#2367;&amp;#2340;
+&amp;#2325;&amp;#2352;&amp;#2375;&amp;#2327;&amp;#2366;.&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-top:6.0pt;margin-right:0in;margin-bottom:6.0pt;
+margin-left:17.85pt;text-autospace:none&#39;&gt;&lt;b&gt;&lt;span lang=&quot;HI&quot; style=&#39;font-size:
+12.0pt;font-family:&quot;Mangal&quot;,serif;color:black&#39;&gt;&amp;#2311;&amp;#2360;
+&amp;#2309;&amp;#2344;&amp;#2369;&amp;#2348;&amp;#2306;&amp;#2343; &amp;#2325;&amp;#2379;
+&amp;#2360;&amp;#2381;&amp;#2357;&amp;#2368;&amp;#2325;&amp;#2366;&amp;#2352; &amp;#2325;&amp;#2352;&amp;#2325;&amp;#2375;
+&amp;#2351;&amp;#2366; &amp;#2311;&amp;#2360;
+&amp;#2313;&amp;#2346;&amp;#2351;&amp;#2379;&amp;#2327;&amp;#2325;&amp;#2352;&amp;#2381;&amp;#2340;&amp;#2366; &amp;#2346;&amp;#2352;&amp;#2368;&amp;#2325;&amp;#2381;&amp;#2359;&amp;#2339;
+&amp;#2325;&amp;#2366; &amp;#2313;&amp;#2346;&amp;#2351;&amp;#2379;&amp;#2327; &amp;#2325;&amp;#2352;&amp;#2325;&amp;#2375;&lt;/span&gt;&lt;/b&gt;&lt;b&gt;&lt;span lang=&quot;HI&quot; style=&#39;font-size:12.0pt;color:black&#39;&gt;,&lt;/span&gt;&lt;/b&gt;&lt;b&gt;&lt;span lang=&quot;HI&quot; style=&#39;font-size:12.0pt;font-family:&quot;Mangal&quot;,serif;color:black&#39;&gt; &amp;#2310;&amp;#2346;
+&amp;#2311;&amp;#2344; &amp;#2360;&amp;#2349;&amp;#2368; &amp;#2358;&amp;#2352;&amp;#2381;&amp;#2340;&amp;#2379;&amp;#2306;
+&amp;#2325;&amp;#2379; &amp;#2360;&amp;#2381;&amp;#2357;&amp;#2368;&amp;#2325;&amp;#2366;&amp;#2352;
+&amp;#2325;&amp;#2352;&amp;#2340;&amp;#2375; &amp;#2361;&amp;#2376;&amp;#2306; &amp;#2340;&amp;#2341;&amp;#2366;
+&amp;#2313;&amp;#2346;&amp;#2351;&amp;#2379;&amp;#2327;&amp;#2325;&amp;#2352;&amp;#2381;&amp;#2340;&amp;#2366;
+&amp;#2346;&amp;#2352;&amp;#2368;&amp;#2325;&amp;#2381;&amp;#2359;&amp;#2339;
+&amp;#2360;&amp;#2325;&amp;#2381;&amp;#2352;&amp;#2367;&amp;#2351;&amp;#2339; &amp;#2325;&amp;#2375;
+&amp;#2342;&amp;#2380;&amp;#2352;&amp;#2366;&amp;#2344; &amp;#2324;&amp;#2352; &amp;#2313;&amp;#2346;&amp;#2351;&amp;#2379;&amp;#2327;&amp;#2325;&amp;#2352;&amp;#2381;&amp;#2340;&amp;#2366;
+&amp;#2346;&amp;#2352;&amp;#2368;&amp;#2325;&amp;#2381;&amp;#2359;&amp;#2339; &amp;#2325;&amp;#2368;
+&amp;#2311;&amp;#2306;&amp;#2335;&amp;#2352;&amp;#2344;&amp;#2375;&amp;#2335;-&amp;#2310;&amp;#2343;&amp;#2366;&amp;#2352;&amp;#2367;&amp;#2340;
+&amp;#2360;&amp;#2375;&amp;#2357;&amp;#2366;&amp;#2323;&amp;#2306; &amp;#2325;&amp;#2375; &amp;#2354;&amp;#2367;&amp;#2319;
+&amp;#2357;&amp;#2367;&amp;#2358;&amp;#2367;&amp;#2359;&amp;#2381;&amp;#2335;
+&amp;#2332;&amp;#2366;&amp;#2344;&amp;#2325;&amp;#2366;&amp;#2352;&amp;#2368; &amp;#2325;&amp;#2379;
+&amp;#2360;&amp;#2306;&amp;#2346;&amp;#2381;&amp;#2352;&amp;#2375;&amp;#2359;&amp;#2367;&amp;#2340; &amp;#2325;&amp;#2352;&amp;#2344;&amp;#2375;
+&amp;#2346;&amp;#2352; &amp;#2360;&amp;#2361;&amp;#2350;&amp;#2340;&amp;#2367;
+&amp;#2357;&amp;#2381;&amp;#2351;&amp;#2325;&amp;#2381;&amp;#2340; &amp;#2325;&amp;#2352;&amp;#2340;&amp;#2375;
+&amp;#2361;&amp;#2376;&amp;#2306;. &amp;#2351;&amp;#2342;&amp;#2367; &amp;#2310;&amp;#2346; &amp;#2311;&amp;#2344;
+&amp;#2358;&amp;#2352;&amp;#2381;&amp;#2340;&amp;#2379;&amp;#2306; &amp;#2325;&amp;#2379;
+&amp;#2360;&amp;#2381;&amp;#2357;&amp;#2368;&amp;#2325;&amp;#2366;&amp;#2352; &amp;#2324;&amp;#2352;
+&amp;#2311;&amp;#2344;&amp;#2325;&amp;#2366; &amp;#2309;&amp;#2344;&amp;#2369;&amp;#2346;&amp;#2366;&amp;#2354;&amp;#2344; &amp;#2344;&amp;#2361;&amp;#2368;&amp;#2306;
+&amp;#2325;&amp;#2352;&amp;#2340;&amp;#2375;&lt;/span&gt;&lt;/b&gt;&lt;b&gt;&lt;span lang=&quot;HI&quot; style=&#39;font-size:12.0pt;
+color:black&#39;&gt;,&lt;/span&gt;&lt;/b&gt;&lt;b&gt;&lt;span lang=&quot;HI&quot; style=&#39;font-size:12.0pt;font-family:
+&quot;Mangal&quot;,serif;color:black&#39;&gt; &amp;#2340;&amp;#2379; &amp;#2310;&amp;#2346;
+&amp;#2313;&amp;#2346;&amp;#2351;&amp;#2379;&amp;#2327;&amp;#2325;&amp;#2352;&amp;#2381;&amp;#2340;&amp;#2366;
+&amp;#2346;&amp;#2352;&amp;#2368;&amp;#2325;&amp;#2381;&amp;#2359;&amp;#2339; &amp;#2325;&amp;#2366;
+&amp;#2313;&amp;#2346;&amp;#2351;&amp;#2379;&amp;#2327; &amp;#2344;&amp;#2361;&amp;#2368;&amp;#2306; &amp;#2325;&amp;#2352;
+&amp;#2360;&amp;#2325;&amp;#2340;&amp;#2375;.&lt;/span&gt;&lt;/b&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot;&gt;&lt;b&gt;&lt;span lang=&quot;HI&quot; style=&#39;font-family:&quot;Mangal&quot;,serif&#39;&gt;&amp;nbsp;&lt;/span&gt;&lt;/b&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoListParagraphCxSpFirst&quot; style=&#39;margin-bottom:6.0pt;text-indent:-.25in&#39;&gt;&lt;b&gt;&lt;span lang=&quot;HI&quot;&gt;1.&lt;span style=&#39;font:7.0pt &quot;Times New Roman&quot;&#39;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+&lt;/span&gt;&lt;/span&gt;&lt;/b&gt;&lt;b&gt;&lt;u&gt;&lt;span lang=&quot;HI&quot; style=&#39;font-family:&quot;Mangal&quot;,serif&#39;&gt;&amp;#2313;&amp;#2346;&amp;#2351;&amp;#2379;&amp;#2327;&amp;#2325;&amp;#2352;&amp;#2381;&amp;#2340;&amp;#2366;
+&amp;#2346;&amp;#2352;&amp;#2368;&amp;#2325;&amp;#2381;&amp;#2359;&amp;#2339; &amp;#2319;&amp;#2325;
+&amp;#2309;&amp;#2346;&amp;#2381;&amp;#2352;&amp;#2348;&amp;#2306;&amp;#2343;&amp;#2367;&amp;#2340;
+&amp;#2360;&amp;#2375;&amp;#2357;&amp;#2366; &amp;#2325;&amp;#2375; &amp;#2352;&amp;#2370;&amp;#2346;
+&amp;#2350;&amp;#2375;&amp;#2306;&lt;/span&gt;&lt;/u&gt;&lt;/b&gt;&lt;b&gt;&lt;span lang=&quot;HI&quot; style=&#39;font-family:&quot;Mangal&quot;,serif&#39;&gt;.&lt;/span&gt;&lt;/b&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoListParagraphCxSpMiddle&quot; style=&#39;margin-top:6.0pt;text-indent:-.25in&#39;&gt;&lt;span class=&quot;normaltextrun&quot;&gt;&lt;b&gt;&lt;span lang=&quot;HI&quot;&gt;1.1&lt;span style=&#39;font:7.0pt &quot;Times New Roman&quot;&#39;&gt;&amp;nbsp;&amp;nbsp;
+&lt;/span&gt;&lt;/span&gt;&lt;/b&gt;&lt;/span&gt;&lt;span lang=&quot;HI&quot; style=&#39;font-family:&quot;Mangal&quot;,serif&#39;&gt;&amp;#2332;&amp;#2348;&lt;span class=&quot;normaltextrun&quot;&gt; &amp;#2310;&amp;#2346; &amp;#2325;&amp;#2367;&amp;#2360;&amp;#2368;
+&amp;#2320;&amp;#2360;&amp;#2368; &amp;#2360;&amp;#2375;&amp;#2357;&amp;#2366; &amp;#2325;&amp;#2375;
+&amp;#2354;&amp;#2367;&amp;#2319; &amp;#2360;&amp;#2366;&amp;#2311;&amp;#2344; &amp;#2309;&amp;#2346;
+&amp;#2325;&amp;#2352;&amp;#2340;&amp;#2375; &amp;#2361;&amp;#2376;&amp;#2306; &amp;#2332;&amp;#2367;&amp;#2360;&amp;#2350;&amp;#2375;&amp;#2306;
+&amp;#2325;&amp;#2379;&amp;#2312;
+&amp;#2357;&amp;#2381;&amp;#2351;&amp;#2357;&amp;#2360;&amp;#2381;&amp;#2341;&amp;#2366;&amp;#2346;&amp;#2325;
+&amp;#2344;&amp;#2361;&amp;#2368;&amp;#2306; &amp;#2361;&amp;#2376;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;normaltextrun&quot;&gt;&lt;span lang=&quot;HI&quot;&gt;,&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;normaltextrun&quot;&gt;&lt;span lang=&quot;HI&quot; style=&#39;font-family:&quot;Mangal&quot;,serif&#39;&gt; &amp;#2340;&amp;#2379; &amp;#2310;&amp;#2346;
+&amp;#2319;&amp;#2325; &amp;#2309;&amp;#2346;&amp;#2381;&amp;#2352;&amp;#2348;&amp;#2306;&amp;#2343;&amp;#2367;&amp;#2340;
+&amp;#2360;&amp;#2375;&amp;#2357;&amp;#2366; (&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;normaltextrun&quot;&gt;“&lt;/span&gt;&lt;span class=&quot;normaltextrun&quot;&gt;&lt;span lang=&quot;HI&quot; style=&#39;font-family:&quot;Mangal&quot;,serif&#39;&gt;&amp;#2309;&amp;#2346;&amp;#2381;&amp;#2352;&amp;#2348;&amp;#2306;&amp;#2343;&amp;#2367;&amp;#2340;
+&amp;#2360;&amp;#2375;&amp;#2357;&amp;#2366;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;normaltextrun&quot;&gt;”&lt;/span&gt;&lt;span class=&quot;normaltextrun&quot;&gt;&lt;span lang=&quot;HI&quot;&gt;)&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;normaltextrun&quot;&gt;&lt;span lang=&quot;HI&quot; style=&#39;font-family:&quot;Mangal&quot;,serif&#39;&gt; &amp;#2325;&amp;#2366;
+&amp;#2313;&amp;#2346;&amp;#2351;&amp;#2379;&amp;#2327; &amp;#2325;&amp;#2352; &amp;#2352;&amp;#2361;&amp;#2375;
+&amp;#2361;&amp;#2376;&amp;#2306;.
+&amp;#2313;&amp;#2346;&amp;#2351;&amp;#2379;&amp;#2327;&amp;#2325;&amp;#2352;&amp;#2381;&amp;#2340;&amp;#2366;
+&amp;#2346;&amp;#2352;&amp;#2368;&amp;#2325;&amp;#2381;&amp;#2359;&amp;#2339;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;normaltextrun&quot;&gt;&lt;span lang=&quot;HI&quot;&gt;,&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;normaltextrun&quot;&gt;&lt;span lang=&quot;HI&quot; style=&#39;font-family:&quot;Mangal&quot;,serif&#39;&gt; &amp;#2319;&amp;#2325;
+&amp;#2309;&amp;#2346;&amp;#2381;&amp;#2352;&amp;#2348;&amp;#2306;&amp;#2343;&amp;#2367;&amp;#2340;
+&amp;#2360;&amp;#2375;&amp;#2357;&amp;#2366; &amp;#2325;&amp;#2375;
+&amp;#2313;&amp;#2346;&amp;#2351;&amp;#2379;&amp;#2327;&amp;#2325;&amp;#2352;&amp;#2381;&amp;#2340;&amp;#2366;
+&amp;#2325;&amp;#2375; &amp;#2352;&amp;#2370;&amp;#2346; &amp;#2350;&amp;#2375;&amp;#2306;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;normaltextrun&quot;&gt;&lt;span lang=&quot;HI&quot;&gt;,&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;normaltextrun&quot;&gt;&lt;span lang=&quot;HI&quot; style=&#39;font-family:&quot;Mangal&quot;,serif&#39;&gt; &amp;#2310;&amp;#2346;&amp;#2325;&amp;#2379;
+&amp;#2309;&amp;#2346;&amp;#2344;&amp;#2375; &amp;#2354;&amp;#2367;&amp;#2319;
+&amp;#2309;&amp;#2340;&amp;#2367;&amp;#2352;&amp;#2367;&amp;#2325;&amp;#2381;&amp;#2340;
+&amp;#2360;&amp;#2375;&amp;#2357;&amp;#2366; &amp;#2360;&amp;#2342;&amp;#2360;&amp;#2381;&amp;#2351;&amp;#2340;&amp;#2366;
+(&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;normaltextrun&quot;&gt;“&lt;/span&gt;&lt;span class=&quot;normaltextrun&quot;&gt;&lt;span lang=&quot;HI&quot; style=&#39;font-family:&quot;Mangal&quot;,serif&#39;&gt;&amp;#2360;&amp;#2342;&amp;#2360;&amp;#2381;&amp;#2351;&amp;#2340;&amp;#2366;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;normaltextrun&quot;&gt;”&lt;/span&gt;&lt;span class=&quot;normaltextrun&quot;&gt;&lt;span lang=&quot;HI&quot; style=&#39;font-family:&quot;Mangal&quot;,serif&#39;&gt;) &lt;/span&gt;&lt;/span&gt;&lt;span lang=&quot;HI&quot; style=&#39;font-family:&quot;Mangal&quot;,serif&#39;&gt;&amp;#2326;&amp;#2352;&amp;#2368;&amp;#2342;&amp;#2344;&amp;#2375;
+&amp;#2325;&amp;#2368; &amp;#2351;&amp;#2379;&amp;#2327;&amp;#2381;&amp;#2351;&amp;#2340;&amp;#2366; &lt;span class=&quot;normaltextrun&quot;&gt;&amp;#2342;&amp;#2375;&amp;#2340;&amp;#2366; &amp;#2361;&amp;#2376;. &amp;#2332;&amp;#2348;
+&amp;#2310;&amp;#2346; &amp;#2320;&amp;#2360;&amp;#2368;
+&amp;#2309;&amp;#2340;&amp;#2367;&amp;#2352;&amp;#2367;&amp;#2325;&amp;#2381;&amp;#2340;
+&amp;#2360;&amp;#2342;&amp;#2360;&amp;#2381;&amp;#2351;&amp;#2340;&amp;#2366;&amp;#2319;&amp;#2305;
+&amp;#2326;&amp;#2352;&amp;#2368;&amp;#2342;&amp;#2340;&amp;#2375; &amp;#2361;&amp;#2376;&amp;#2306;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;normaltextrun&quot;&gt;&lt;span lang=&quot;HI&quot;&gt;,&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;normaltextrun&quot;&gt;&lt;span lang=&quot;HI&quot; style=&#39;font-family:&quot;Mangal&quot;,serif&#39;&gt; &amp;#2340;&amp;#2379; &amp;#2310;&amp;#2346;
+&amp;#2351;&amp;#2361; &amp;#2346;&amp;#2381;&amp;#2352;&amp;#2360;&amp;#2381;&amp;#2340;&amp;#2369;&amp;#2340;
+&amp;#2325;&amp;#2352;&amp;#2340;&amp;#2375; &amp;#2361;&amp;#2376;&amp;#2306; &amp;#2325;&amp;#2367;
+&amp;#2310;&amp;#2346; &amp;#2309;&amp;#2346;&amp;#2344;&amp;#2375; &amp;#2360;&amp;#2306;&amp;#2327;&amp;#2336;&amp;#2344;
+&amp;#2325;&amp;#2375; &amp;#2354;&amp;#2367;&amp;#2319; &amp;#2319;&amp;#2325;
+&amp;#2319;&amp;#2332;&amp;#2375;&amp;#2306;&amp;#2335; &amp;#2325;&amp;#2375; &amp;#2352;&amp;#2370;&amp;#2346;
+&amp;#2350;&amp;#2375;&amp;#2306; &amp;#2325;&amp;#2366;&amp;#2350; &amp;#2325;&amp;#2352;
+&amp;#2352;&amp;#2361;&amp;#2375; &amp;#2361;&amp;#2376;&amp;#2306;. &lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoListParagraphCxSpMiddle&quot; style=&#39;margin-top:6.0pt;margin-right:0in;
+margin-bottom:6.0pt;margin-left:.5in;text-indent:-.25in&#39;&gt;&lt;span class=&quot;normaltextrun&quot;&gt;&lt;b&gt;&lt;span lang=&quot;HI&quot;&gt;1.2&lt;span style=&#39;font:7.0pt &quot;Times New Roman&quot;&#39;&gt;&amp;nbsp;&amp;nbsp;
+&lt;/span&gt;&lt;/span&gt;&lt;/b&gt;&lt;/span&gt;&lt;span class=&quot;normaltextrun&quot;&gt;&lt;span lang=&quot;HI&quot; style=&#39;font-family:&quot;Mangal&quot;,serif&#39;&gt;&amp;#2310;&amp;#2346;
+&amp;#2360;&amp;#2350;&amp;#2333;&amp;#2340;&amp;#2375; &amp;#2361;&amp;#2376;&amp;#2306; &amp;#2325;&amp;#2367;
+&amp;#2309;&amp;#2327;&amp;#2352; &amp;#2325;&amp;#2379;&amp;#2312;
+&amp;#2357;&amp;#2381;&amp;#2351;&amp;#2357;&amp;#2360;&amp;#2381;&amp;#2341;&amp;#2366;&amp;#2346;&amp;#2325;
+&amp;#2360;&amp;#2375;&amp;#2357;&amp;#2366; &amp;#2325;&amp;#2366; &amp;#2344;&amp;#2367;&amp;#2351;&amp;#2306;&amp;#2340;&amp;#2381;&amp;#2352;&amp;#2339;
+&amp;#2309;&amp;#2346;&amp;#2344;&amp;#2375; &amp;#2361;&amp;#2366;&amp;#2341; &amp;#2350;&amp;#2375;&amp;#2306;
+&amp;#2354;&amp;#2375; &amp;#2354;&amp;#2375;&amp;#2340;&amp;#2366; &amp;#2361;&amp;#2376;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;normaltextrun&quot;&gt;&lt;span lang=&quot;HI&quot;&gt;,&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;normaltextrun&quot;&gt;&lt;span lang=&quot;HI&quot; style=&#39;font-family:&quot;Mangal&quot;,serif&#39;&gt; &amp;#2340;&amp;#2379; &amp;#2310;&amp;#2346;
+&amp;#2319;&amp;#2325; &amp;#2346;&amp;#2381;&amp;#2352;&amp;#2348;&amp;#2306;&amp;#2343;&amp;#2367;&amp;#2340;
+&amp;#2360;&amp;#2375;&amp;#2357;&amp;#2366; (&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;normaltextrun&quot;&gt;“&lt;/span&gt;&lt;span class=&quot;normaltextrun&quot;&gt;&lt;span lang=&quot;HI&quot; style=&#39;font-family:&quot;Mangal&quot;,serif&#39;&gt;&amp;#2346;&amp;#2381;&amp;#2352;&amp;#2348;&amp;#2306;&amp;#2343;&amp;#2367;&amp;#2340;
+&amp;#2360;&amp;#2375;&amp;#2357;&amp;#2366;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;normaltextrun&quot;&gt;”&lt;/span&gt;&lt;span class=&quot;normaltextrun&quot;&gt;&lt;span lang=&quot;HI&quot;&gt;)&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;normaltextrun&quot;&gt;&lt;span lang=&quot;HI&quot; style=&#39;font-family:&quot;Mangal&quot;,serif&#39;&gt; &amp;#2325;&amp;#2375;
+&amp;#2313;&amp;#2346;&amp;#2351;&amp;#2379;&amp;#2327;&amp;#2325;&amp;#2352;&amp;#2381;&amp;#2340;&amp;#2366;
+&amp;#2348;&amp;#2344; &amp;#2332;&amp;#2366;&amp;#2340;&amp;#2375; &amp;#2361;&amp;#2376;&amp;#2306;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;normaltextrun&quot;&gt;&lt;span lang=&quot;HI&quot;&gt;,&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;normaltextrun&quot;&gt;&lt;span lang=&quot;HI&quot; style=&#39;font-family:&quot;Mangal&quot;,serif&#39;&gt; &amp;#2324;&amp;#2352;
+&amp;#2313;&amp;#2346;&amp;#2351;&amp;#2379;&amp;#2327;&amp;#2325;&amp;#2352;&amp;#2381;&amp;#2340;&amp;#2366;
+&amp;#2346;&amp;#2352;&amp;#2368;&amp;#2325;&amp;#2381;&amp;#2359;&amp;#2339; &amp;#2346;&amp;#2352;
+&amp;#2310;&amp;#2346;&amp;#2325;&amp;#2368; &amp;#2346;&amp;#2361;&amp;#2369;&amp;#2305;&amp;#2330;
+(&amp;#2319;&amp;#2325; &amp;#2346;&amp;#2381;&amp;#2352;&amp;#2348;&amp;#2306;&amp;#2343;&amp;#2367;&amp;#2340;
+&amp;#2360;&amp;#2375;&amp;#2357;&amp;#2366; &amp;#2325;&amp;#2375;
+&amp;#2313;&amp;#2346;&amp;#2351;&amp;#2379;&amp;#2327;&amp;#2325;&amp;#2352;&amp;#2381;&amp;#2340;&amp;#2366;
+&amp;#2325;&amp;#2375; &amp;#2352;&amp;#2370;&amp;#2346; &amp;#2350;&amp;#2375;&amp;#2306;)
+&amp;#2310;&amp;#2346;&amp;#2325;&amp;#2375; &amp;#2357;&amp;#2381;&amp;#2351;&amp;#2357;&amp;#2360;&amp;#2381;&amp;#2341;&amp;#2366;&amp;#2346;&amp;#2325;
+&amp;#2342;&amp;#2381;&amp;#2357;&amp;#2366;&amp;#2352;&amp;#2366;
+&amp;#2360;&amp;#2350;&amp;#2366;&amp;#2346;&amp;#2381;&amp;#2340; &amp;#2325;&amp;#2368; &amp;#2332;&amp;#2366;
+&amp;#2360;&amp;#2325;&amp;#2340;&amp;#2368; &amp;#2361;&amp;#2376;. &lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoListParagraphCxSpMiddle&quot; style=&#39;margin-top:6.0pt;margin-right:0in;
+margin-bottom:6.0pt;margin-left:.5in&#39;&gt;&lt;span class=&quot;normaltextrun&quot;&gt;&lt;span lang=&quot;HI&quot; style=&#39;font-size:10.0pt;font-family:&quot;Mangal&quot;,serif&#39;&gt;&amp;nbsp;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoListParagraphCxSpMiddle&quot; style=&#39;text-indent:-.25in&#39;&gt;&lt;b&gt;&lt;span lang=&quot;HI&quot;&gt;2.&lt;span style=&#39;font:7.0pt &quot;Times New Roman&quot;&#39;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+&lt;/span&gt;&lt;/span&gt;&lt;/b&gt;&lt;b&gt;&lt;u&gt;&lt;span lang=&quot;HI&quot; style=&#39;font-family:&quot;Mangal&quot;,serif&#39;&gt;&amp;#2313;&amp;#2346;&amp;#2351;&amp;#2379;&amp;#2327;&amp;#2325;&amp;#2352;&amp;#2381;&amp;#2340;&amp;#2366;
+&amp;#2346;&amp;#2352;&amp;#2368;&amp;#2325;&amp;#2381;&amp;#2359;&amp;#2339; &amp;#2325;&amp;#2368;
+&amp;#2309;&amp;#2357;&amp;#2343;&amp;#2367;&lt;/span&gt;&lt;/u&gt;&lt;/b&gt;&lt;b&gt;&lt;span lang=&quot;HI&quot; style=&#39;font-family:
+&quot;Mangal&quot;,serif&#39;&gt;.&lt;/span&gt;&lt;/b&gt;&lt;span lang=&quot;HI&quot; style=&#39;font-family:&quot;Mangal&quot;,serif&#39;&gt; &lt;/span&gt;“&lt;span lang=&quot;HI&quot; style=&#39;font-family:&quot;Mangal&quot;,serif&#39;&gt;&amp;#2309;&amp;#2357;&amp;#2343;&amp;#2367;&lt;/span&gt;”&lt;span lang=&quot;HI&quot; style=&#39;font-family:&quot;Mangal&quot;,serif&#39;&gt; &amp;#2325;&amp;#2366;
+&amp;#2309;&amp;#2352;&amp;#2381;&amp;#2341; &amp;#2361;&amp;#2376; &amp;#2310;&amp;#2346;&amp;#2325;&amp;#2375;
+&amp;#2313;&amp;#2346;&amp;#2351;&amp;#2379;&amp;#2327;&amp;#2325;&amp;#2352;&amp;#2381;&amp;#2340;&amp;#2366;
+&amp;#2346;&amp;#2352;&amp;#2368;&amp;#2325;&amp;#2381;&amp;#2359;&amp;#2339; &amp;#2325;&amp;#2368;
+&amp;#2309;&amp;#2357;&amp;#2343;&amp;#2367;&lt;/span&gt;&lt;span lang=&quot;HI&quot;&gt;,&lt;/span&gt;&lt;span lang=&quot;HI&quot; style=&#39;font-family:&quot;Mangal&quot;,serif&#39;&gt; &amp;#2332;&amp;#2379; &amp;#2325;&amp;#2367; 30
+&amp;#2342;&amp;#2367;&amp;#2344; &amp;#2361;&amp;#2376;. &lt;/span&gt;&lt;span lang=&quot;HI&quot;&gt;Microsoft&lt;/span&gt;&lt;span lang=&quot;HI&quot; style=&#39;font-family:&quot;Mangal&quot;,serif&#39;&gt; &amp;#2309;&amp;#2346;&amp;#2344;&amp;#2375;
+&amp;#2357;&amp;#2367;&amp;#2357;&amp;#2375;&amp;#2325; &amp;#2346;&amp;#2352; &amp;#2311;&amp;#2360;
+&amp;#2309;&amp;#2357;&amp;#2343;&amp;#2367; &amp;#2325;&amp;#2366;
+&amp;#2344;&amp;#2357;&amp;#2368;&amp;#2344;&amp;#2368;&amp;#2325;&amp;#2352;&amp;#2339; &amp;#2351;&amp;#2366;
+&amp;#2357;&amp;#2367;&amp;#2360;&amp;#2381;&amp;#2340;&amp;#2366;&amp;#2352; &amp;#2325;&amp;#2352;
+&amp;#2360;&amp;#2325;&amp;#2340;&amp;#2366; &amp;#2361;&amp;#2376;.&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoListParagraphCxSpMiddle&quot; style=&#39;margin-left:1.25in;text-indent:.25in&#39;&gt;&lt;span lang=&quot;HI&quot; style=&#39;font-family:&quot;Mangal&quot;,serif&#39;&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoListParagraphCxSpMiddle&quot; style=&#39;text-indent:-.25in&#39;&gt;&lt;b&gt;&lt;span lang=&quot;HI&quot;&gt;3.&lt;span style=&#39;font:7.0pt &quot;Times New Roman&quot;&#39;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+&lt;/span&gt;&lt;/span&gt;&lt;/b&gt;&lt;b&gt;&lt;u&gt;&lt;span lang=&quot;HI&quot; style=&#39;font-family:&quot;Mangal&quot;,serif&#39;&gt;&amp;#2344;&amp;#2367;&amp;#2354;&amp;#2306;&amp;#2348;&amp;#2344;/&amp;#2360;&amp;#2350;&amp;#2366;&amp;#2346;&amp;#2381;&amp;#2340;&amp;#2367;&lt;/span&gt;&lt;/u&gt;&lt;/b&gt;&lt;b&gt;&lt;span lang=&quot;HI&quot; style=&#39;font-family:&quot;Mangal&quot;,serif&#39;&gt;.&lt;/span&gt;&lt;/b&gt;&lt;span lang=&quot;HI&quot; style=&#39;font-family:&quot;Mangal&quot;,serif&#39;&gt; &lt;/span&gt;&lt;span lang=&quot;HI&quot; style=&#39;font-family:
+&quot;Mangal&quot;,serif&#39;&gt;&amp;#2310;&amp;#2346;
+&amp;#2313;&amp;#2346;&amp;#2351;&amp;#2379;&amp;#2327;&amp;#2325;&amp;#2352;&amp;#2381;&amp;#2340;&amp;#2366;
+&amp;#2346;&amp;#2352;&amp;#2368;&amp;#2325;&amp;#2381;&amp;#2359;&amp;#2339; &amp;#2325;&amp;#2379;
+&amp;#2313;&amp;#2360;&amp;#2325;&amp;#2368; &amp;#2309;&amp;#2357;&amp;#2343;&amp;#2367; &amp;#2325;&amp;#2375;
+&amp;#2342;&amp;#2380;&amp;#2352;&amp;#2366;&amp;#2344; &amp;#2325;&amp;#2349;&amp;#2368; &amp;#2349;&amp;#2368;
+&amp;#2360;&amp;#2350;&amp;#2366;&amp;#2346;&amp;#2381;&amp;#2340; &amp;#2325;&amp;#2352;
+&amp;#2360;&amp;#2325;&amp;#2340;&amp;#2375; &amp;#2361;&amp;#2376;&amp;#2306;. &amp;#2361;&amp;#2350;
+&amp;#2310;&amp;#2346;&amp;#2325;&amp;#2375; &amp;#2313;&amp;#2346;&amp;#2351;&amp;#2379;&amp;#2327;&amp;#2325;&amp;#2352;&amp;#2381;&amp;#2340;&amp;#2366;
+&amp;#2346;&amp;#2352;&amp;#2368;&amp;#2325;&amp;#2381;&amp;#2359;&amp;#2339; &amp;#2325;&amp;#2379;
+&amp;#2344;&amp;#2367;&amp;#2354;&amp;#2306;&amp;#2348;&amp;#2367;&amp;#2340; &amp;#2325;&amp;#2352;
+&amp;#2360;&amp;#2325;&amp;#2340;&amp;#2375; &amp;#2361;&amp;#2376;&amp;#2306; &amp;#2351;&amp;#2342;&amp;#2367;: (1)
+&amp;#2351;&amp;#2342;&amp;#2367; &amp;#2327;&amp;#2381;&amp;#2352;&amp;#2366;&amp;#2361;&amp;#2325;&amp;#2379;&amp;#2306;
+&amp;#2325;&amp;#2375; &amp;#2337;&amp;#2375;&amp;#2335;&amp;#2366; &amp;#2346;&amp;#2352; &amp;#2309;&amp;#2344;&amp;#2343;&amp;#2367;&amp;#2325;&amp;#2371;&amp;#2340;
+&amp;#2346;&amp;#2361;&amp;#2369;&amp;#2305;&amp;#2330; &amp;#2325;&amp;#2379;
+&amp;#2352;&amp;#2379;&amp;#2325;&amp;#2344;&amp;#2375; &amp;#2325;&amp;#2375; &amp;#2354;&amp;#2367;&amp;#2319;
+&amp;#2320;&amp;#2360;&amp;#2366; &amp;#2325;&amp;#2352;&amp;#2344;&amp;#2366;
+&amp;#2310;&amp;#2357;&amp;#2358;&amp;#2381;&amp;#2351;&amp;#2325; &amp;#2361;&amp;#2369;&amp;#2310;&lt;/span&gt;&lt;span lang=&quot;HI&quot;&gt;; (&lt;/span&gt;&lt;span lang=&quot;HI&quot; style=&#39;font-family:&quot;Mangal&quot;,serif&#39;&gt;2)
+&amp;#2310;&amp;#2346; &amp;#2309;&amp;#2344;&amp;#2369;&amp;#2348;&amp;#2306;&amp;#2343; &amp;#2325;&amp;#2375;
+&amp;#2313;&amp;#2354;&amp;#2381;&amp;#2354;&amp;#2306;&amp;#2328;&amp;#2344; &amp;#2325;&amp;#2375;
+&amp;#2310;&amp;#2352;&amp;#2379;&amp;#2346; &amp;#2325;&amp;#2366; &amp;#2313;&amp;#2330;&amp;#2367;&amp;#2340;
+&amp;#2360;&amp;#2350;&amp;#2351; &amp;#2325;&amp;#2375; &amp;#2349;&amp;#2368;&amp;#2340;&amp;#2352;
+&amp;#2332;&amp;#2357;&amp;#2366;&amp;#2348; &amp;#2342;&amp;#2375;&amp;#2344;&amp;#2375; &amp;#2350;&amp;#2375;&amp;#2306;
+&amp;#2357;&amp;#2367;&amp;#2347;&amp;#2354; &amp;#2352;&amp;#2361;&amp;#2340;&amp;#2375; &amp;#2361;&amp;#2376;&amp;#2306;&lt;/span&gt;&lt;span lang=&quot;HI&quot;&gt;;&lt;/span&gt;&lt;span lang=&quot;HI&quot; style=&#39;font-family:&quot;Mangal&quot;,serif&#39;&gt; &amp;#2351;&amp;#2366;
+(3) &amp;#2310;&amp;#2346; &amp;#2309;&amp;#2344;&amp;#2369;&amp;#2348;&amp;#2306;&amp;#2343; &amp;#2325;&amp;#2368;
+&amp;#2325;&amp;#2367;&amp;#2360;&amp;#2368; &amp;#2358;&amp;#2352;&amp;#2381;&amp;#2340; &amp;#2325;&amp;#2366;
+&amp;#2346;&amp;#2366;&amp;#2354;&amp;#2344; &amp;#2344;&amp;#2361;&amp;#2368;&amp;#2306;
+&amp;#2325;&amp;#2352;&amp;#2340;&amp;#2375; &amp;#2351;&amp;#2366; &amp;#2313;&amp;#2360;&amp;#2325;&amp;#2366;
+&amp;#2313;&amp;#2354;&amp;#2381;&amp;#2354;&amp;#2306;&amp;#2328;&amp;#2344; &amp;#2325;&amp;#2352;&amp;#2340;&amp;#2375;
+&amp;#2361;&amp;#2376;&amp;#2306;. &amp;#2351;&amp;#2342;&amp;#2367;
+&amp;#2311;&amp;#2344;&amp;#2350;&amp;#2375;&amp;#2306; &amp;#2360;&amp;#2375; &amp;#2319;&amp;#2325;
+&amp;#2351;&amp;#2366; &amp;#2309;&amp;#2343;&amp;#2367;&amp;#2325;
+&amp;#2360;&amp;#2381;&amp;#2341;&amp;#2367;&amp;#2340;&amp;#2367;&amp;#2351;&amp;#2366;&amp;#2305;
+&amp;#2313;&amp;#2340;&amp;#2381;&amp;#2346;&amp;#2344;&amp;#2381;&amp;#2344; &amp;#2361;&amp;#2379;&amp;#2340;&amp;#2368;
+&amp;#2361;&amp;#2376;&amp;#2306;&lt;/span&gt;&lt;span lang=&quot;HI&quot;&gt;,&lt;/span&gt;&lt;span lang=&quot;HI&quot; style=&#39;font-family:&quot;Mangal&quot;,serif&#39;&gt; &amp;#2340;&amp;#2379;
+&amp;#2360;&amp;#2381;&amp;#2341;&amp;#2367;&amp;#2340;&amp;#2367; &amp;#2351;&amp;#2366;
+&amp;#2310;&amp;#2357;&amp;#2358;&amp;#2381;&amp;#2351;&amp;#2325;&amp;#2340;&amp;#2366; &amp;#2325;&amp;#2375;
+&amp;#2348;&amp;#2344;&amp;#2375; &amp;#2352;&amp;#2361;&amp;#2344;&amp;#2375; &amp;#2340;&amp;#2325;
+&amp;#2344;&amp;#2367;&amp;#2354;&amp;#2306;&amp;#2348;&amp;#2344; &amp;#2354;&amp;#2366;&amp;#2327;&amp;#2370;
+&amp;#2325;&amp;#2367;&amp;#2351;&amp;#2366; &amp;#2332;&amp;#2366;&amp;#2319;&amp;#2327;&amp;#2366;.
+&amp;#2325;&amp;#2375;&amp;#2357;&amp;#2354; &amp;#2313;&amp;#2344;
+&amp;#2350;&amp;#2366;&amp;#2350;&amp;#2354;&amp;#2379;&amp;#2306; &amp;#2325;&amp;#2379;
+&amp;#2331;&amp;#2379;&amp;#2337;&amp;#2364;&amp;#2325;&amp;#2352; &amp;#2332;&amp;#2348;
+&amp;#2361;&amp;#2350;&amp;#2375;&amp;#2306; &amp;#2360;&amp;#2350;&amp;#2369;&amp;#2330;&amp;#2367;&amp;#2340;
+&amp;#2352;&amp;#2370;&amp;#2346; &amp;#2360;&amp;#2375; &amp;#2354;&amp;#2327;&amp;#2340;&amp;#2366;
+&amp;#2361;&amp;#2376; &amp;#2325;&amp;#2367; &amp;#2340;&amp;#2369;&amp;#2352;&amp;#2306;&amp;#2340;
+&amp;#2344;&amp;#2367;&amp;#2354;&amp;#2306;&amp;#2348;&amp;#2344; &amp;#2310;&amp;#2357;&amp;#2358;&amp;#2381;&amp;#2351;&amp;#2325;
+&amp;#2361;&amp;#2376;&lt;/span&gt;&lt;span lang=&quot;HI&quot;&gt;,&lt;/span&gt;&lt;span lang=&quot;HI&quot; style=&#39;font-family:
+&quot;Mangal&quot;,serif&#39;&gt; &amp;#2361;&amp;#2350; &amp;#2344;&amp;#2367;&amp;#2354;&amp;#2306;&amp;#2348;&amp;#2344;
+&amp;#2325;&amp;#2352;&amp;#2344;&amp;#2375; &amp;#2360;&amp;#2375; &amp;#2346;&amp;#2361;&amp;#2354;&amp;#2375;
+&amp;#2344;&amp;#2379;&amp;#2335;&amp;#2367;&amp;#2360; &amp;#2342;&amp;#2375;&amp;#2306;&amp;#2327;&amp;#2375;.
+&amp;#2351;&amp;#2342;&amp;#2367; &amp;#2310;&amp;#2346; 90 &amp;#2342;&amp;#2367;&amp;#2344;&amp;#2379;&amp;#2306;
+&amp;#2325;&amp;#2375; &amp;#2349;&amp;#2368;&amp;#2340;&amp;#2352;
+&amp;#2344;&amp;#2367;&amp;#2354;&amp;#2306;&amp;#2348;&amp;#2344; &amp;#2325;&amp;#2375;
+&amp;#2325;&amp;#2366;&amp;#2352;&amp;#2339;&amp;#2379;&amp;#2306; &amp;#2325;&amp;#2366;
+&amp;#2346;&amp;#2370;&amp;#2352;&amp;#2368; &amp;#2340;&amp;#2352;&amp;#2361; &amp;#2360;&amp;#2375;
+&amp;#2360;&amp;#2350;&amp;#2366;&amp;#2343;&amp;#2366;&amp;#2344; &amp;#2344;&amp;#2361;&amp;#2368;&amp;#2306;
+&amp;#2325;&amp;#2352;&amp;#2340;&amp;#2375;&lt;/span&gt;&lt;span lang=&quot;HI&quot;&gt;,&lt;/span&gt;&lt;span lang=&quot;HI&quot; style=&#39;font-family:&quot;Mangal&quot;,serif&#39;&gt; &amp;#2340;&amp;#2379; &amp;#2361;&amp;#2350;
+&amp;#2310;&amp;#2346;&amp;#2325;&amp;#2366;
+&amp;#2313;&amp;#2346;&amp;#2351;&amp;#2379;&amp;#2327;&amp;#2325;&amp;#2352;&amp;#2381;&amp;#2340;&amp;#2366;
+&amp;#2346;&amp;#2352;&amp;#2368;&amp;#2325;&amp;#2381;&amp;#2359;&amp;#2339;
+&amp;#2360;&amp;#2350;&amp;#2366;&amp;#2346;&amp;#2381;&amp;#2340; &amp;#2325;&amp;#2352; &amp;#2342;&amp;#2375;&amp;#2306;&amp;#2327;&amp;#2375;
+&amp;#2324;&amp;#2352; &amp;#2348;&amp;#2367;&amp;#2344;&amp;#2366; &amp;#2325;&amp;#2367;&amp;#2360;&amp;#2368;
+&amp;#2309;&amp;#2357;&amp;#2343;&amp;#2366;&amp;#2352;&amp;#2339; &amp;#2309;&amp;#2357;&amp;#2343;&amp;#2367;
+&amp;#2325;&amp;#2375; &amp;#2310;&amp;#2346;&amp;#2325;&amp;#2366;
+&amp;#2327;&amp;#2381;&amp;#2352;&amp;#2366;&amp;#2361;&amp;#2325; &amp;#2337;&amp;#2375;&amp;#2335;&amp;#2366;
+&amp;#2361;&amp;#2335;&amp;#2366; &amp;#2342;&amp;#2375;&amp;#2306;&amp;#2327;&amp;#2375;. &amp;#2361;&amp;#2350;
+&amp;#2310;&amp;#2346;&amp;#2325;&amp;#2366;
+&amp;#2313;&amp;#2346;&amp;#2351;&amp;#2379;&amp;#2327;&amp;#2325;&amp;#2352;&amp;#2381;&amp;#2340;&amp;#2366;
+&amp;#2346;&amp;#2352;&amp;#2368;&amp;#2325;&amp;#2381;&amp;#2359;&amp;#2339; &amp;#2340;&amp;#2348; &amp;#2349;&amp;#2368;
+&amp;#2360;&amp;#2350;&amp;#2366;&amp;#2346;&amp;#2381;&amp;#2340; &amp;#2325;&amp;#2352;
+&amp;#2360;&amp;#2325;&amp;#2340;&amp;#2375; &amp;#2361;&amp;#2376;&amp;#2306; &amp;#2332;&amp;#2348;
+&amp;#2360;&amp;#2375;&amp;#2357;&amp;#2366; &amp;#2325;&amp;#2375; &amp;#2310;&amp;#2346;&amp;#2325;&amp;#2375;
+&amp;#2313;&amp;#2346;&amp;#2351;&amp;#2379;&amp;#2327; &amp;#2325;&amp;#2379;
+12-&amp;#2350;&amp;#2361;&amp;#2368;&amp;#2344;&amp;#2379;&amp;#2306; &amp;#2325;&amp;#2368;
+&amp;#2309;&amp;#2357;&amp;#2343;&amp;#2367; &amp;#2350;&amp;#2375;&amp;#2306; &amp;#2342;&amp;#2379;
+&amp;#2348;&amp;#2366;&amp;#2352; &amp;#2360;&amp;#2375; &amp;#2309;&amp;#2343;&amp;#2367;&amp;#2325;
+&amp;#2344;&amp;#2367;&amp;#2354;&amp;#2306;&amp;#2348;&amp;#2367;&amp;#2340; &amp;#2325;&amp;#2367;&amp;#2351;&amp;#2366;
+&amp;#2332;&amp;#2366;&amp;#2340;&amp;#2366; &amp;#2361;&amp;#2376;.&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoListParagraphCxSpMiddle&quot;&gt;&lt;span lang=&quot;HI&quot; style=&#39;font-family:&quot;Mangal&quot;,serif&#39;&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoListParagraphCxSpMiddle&quot; style=&#39;margin-top:6.0pt;text-indent:-.25in&#39;&gt;&lt;b&gt;&lt;span lang=&quot;HI&quot;&gt;4.&lt;span style=&#39;font:7.0pt &quot;Times New Roman&quot;&#39;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+&lt;/span&gt;&lt;/span&gt;&lt;/b&gt;&lt;b&gt;&lt;u&gt;&lt;span lang=&quot;HI&quot; style=&#39;font-family:&quot;Mangal&quot;,serif&#39;&gt;&amp;#2360;&amp;#2306;&amp;#2346;&amp;#2370;&amp;#2352;&amp;#2381;&amp;#2339;
+&amp;#2309;&amp;#2344;&amp;#2369;&amp;#2348;&amp;#2306;&amp;#2343;&lt;/span&gt;&lt;/u&gt;&lt;/b&gt;&lt;b&gt;&lt;span lang=&quot;HI&quot; style=&#39;font-family:&quot;Mangal&quot;,serif&#39;&gt;.&lt;/span&gt;&lt;/b&gt;&lt;span lang=&quot;HI&quot; style=&#39;font-family:
+&quot;Mangal&quot;,serif&#39;&gt; &amp;#2351;&amp;#2361; &amp;#2346;&amp;#2370;&amp;#2352;&amp;#2325; &amp;#2324;&amp;#2352;
+&amp;#2309;&amp;#2344;&amp;#2369;&amp;#2348;&amp;#2306;&amp;#2343; &amp;#2325;&amp;#2368;
+&amp;#2358;&amp;#2352;&amp;#2381;&amp;#2340;&amp;#2375;&amp;#2306; &amp;#2311;&amp;#2360;
+&amp;#2313;&amp;#2346;&amp;#2351;&amp;#2379;&amp;#2327;&amp;#2325;&amp;#2352;&amp;#2381;&amp;#2340;&amp;#2366; &amp;#2346;&amp;#2352;&amp;#2368;&amp;#2325;&amp;#2381;&amp;#2359;&amp;#2339;
+&amp;#2325;&amp;#2375; &amp;#2354;&amp;#2367;&amp;#2319;
+&amp;#2360;&amp;#2306;&amp;#2346;&amp;#2370;&amp;#2352;&amp;#2381;&amp;#2339;
+&amp;#2309;&amp;#2344;&amp;#2369;&amp;#2348;&amp;#2306;&amp;#2343; &amp;#2361;&amp;#2376;&amp;#2306;.
+&amp;#2310;&amp;#2346; &amp;#2311;&amp;#2360; &amp;#2309;&amp;#2344;&amp;#2369;&amp;#2348;&amp;#2306;&amp;#2343;
+&amp;#2350;&amp;#2375;&amp;#2306; &amp;#2342;&amp;#2367;&amp;#2319; &amp;#2327;&amp;#2319;
+&amp;#2325;&amp;#2367;&amp;#2360;&amp;#2368; &amp;#2349;&amp;#2368; &amp;#2354;&amp;#2367;&amp;#2306;&amp;#2325;
+&amp;#2325;&amp;#2375; &lt;/span&gt;&lt;span lang=&quot;HI&quot;&gt;URL&lt;/span&gt;&lt;span lang=&quot;HI&quot; style=&#39;font-family:
+&quot;Mangal&quot;,serif&#39;&gt; &amp;#2325;&amp;#2379; &amp;#2309;&amp;#2346;&amp;#2344;&amp;#2375;
+&amp;#2348;&amp;#2381;&amp;#2352;&amp;#2366;&amp;#2313;&amp;#2395;&amp;#2352; &amp;#2325;&amp;#2375;
+&amp;#2346;&amp;#2340;&amp;#2366; &amp;#2348;&amp;#2366;&amp;#2352; &amp;#2350;&amp;#2375;&amp;#2306;
+&amp;#2335;&amp;#2366;&amp;#2311;&amp;#2346; &amp;#2325;&amp;#2352;&amp;#2325;&amp;#2375; &amp;#2358;&amp;#2352;&amp;#2381;&amp;#2340;&amp;#2379;&amp;#2306;
+&amp;#2325;&amp;#2379; &amp;#2346;&amp;#2397; &amp;#2360;&amp;#2325;&amp;#2340;&amp;#2375;
+&amp;#2361;&amp;#2376;&amp;#2306;&lt;/span&gt;&lt;span lang=&quot;HI&quot;&gt;,&lt;/span&gt;&lt;span lang=&quot;HI&quot; style=&#39;font-family:&quot;Mangal&quot;,serif&#39;&gt; &amp;#2324;&amp;#2352; &amp;#2310;&amp;#2346;
+&amp;#2311;&amp;#2360;&amp;#2325;&amp;#2375; &amp;#2346;&amp;#2381;&amp;#2352;&amp;#2340;&amp;#2367;
+&amp;#2360;&amp;#2361;&amp;#2350;&amp;#2340;&amp;#2367; &amp;#2357;&amp;#2381;&amp;#2351;&amp;#2325;&amp;#2381;&amp;#2340;
+&amp;#2325;&amp;#2352;&amp;#2340;&amp;#2375; &amp;#2361;&amp;#2376;&amp;#2306;. &amp;#2310;&amp;#2346; &amp;#2360;&amp;#2350;&amp;#2333;&amp;#2340;&amp;#2375;
+&amp;#2361;&amp;#2376;&amp;#2306; &amp;#2325;&amp;#2367;
+&amp;#2313;&amp;#2346;&amp;#2351;&amp;#2379;&amp;#2327;&amp;#2325;&amp;#2352;&amp;#2381;&amp;#2340;&amp;#2366;
+&amp;#2346;&amp;#2352;&amp;#2368;&amp;#2325;&amp;#2381;&amp;#2359;&amp;#2339; &amp;#2325;&amp;#2366;
+&amp;#2313;&amp;#2346;&amp;#2351;&amp;#2379;&amp;#2327; &amp;#2325;&amp;#2352;&amp;#2325;&amp;#2375;&lt;/span&gt;&lt;span lang=&quot;HI&quot;&gt;,&lt;/span&gt;&lt;span lang=&quot;HI&quot; style=&#39;font-family:&quot;Mangal&quot;,serif&#39;&gt; &amp;#2310;&amp;#2346;
+&amp;#2311;&amp;#2360; &amp;#2346;&amp;#2370;&amp;#2352;&amp;#2325;
+&amp;#2342;&amp;#2360;&amp;#2381;&amp;#2340;&amp;#2366;&amp;#2357;&amp;#2375;&amp;#2395; &amp;#2324;&amp;#2352;
+&amp;#2311;&amp;#2360;&amp;#2360;&amp;#2375; &amp;#2354;&amp;#2367;&amp;#2306;&amp;#2325; &amp;#2325;&amp;#2368;
+&amp;#2327;&amp;#2312; &amp;#2358;&amp;#2352;&amp;#2381;&amp;#2340;&amp;#2379;&amp;#2306; &amp;#2325;&amp;#2379;
+&amp;#2360;&amp;#2381;&amp;#2357;&amp;#2368;&amp;#2325;&amp;#2366;&amp;#2352; &amp;#2325;&amp;#2352;&amp;#2340;&amp;#2375;
+&amp;#2361;&amp;#2376;&amp;#2306;. &amp;#2351;&amp;#2361;&amp;#2366;&amp;#2306; &amp;#2313;&amp;#2344;
+&amp;#2358;&amp;#2352;&amp;#2381;&amp;#2340;&amp;#2379;&amp;#2306; &amp;#2325;&amp;#2375; &amp;#2354;&amp;#2367;&amp;#2306;&amp;#2325;
+&amp;#2342;&amp;#2367;&amp;#2319; &amp;#2327;&amp;#2319; &amp;#2361;&amp;#2376;&amp;#2306; &amp;#2332;&amp;#2379;
+&amp;#2310;&amp;#2346;&amp;#2325;&amp;#2379; &amp;#2324;&amp;#2352; &amp;#2361;&amp;#2350;&amp;#2375;&amp;#2306;
+&amp;#2348;&amp;#2366;&amp;#2306;&amp;#2343;&amp;#2375; &amp;#2352;&amp;#2326;&amp;#2340;&amp;#2368;
+&amp;#2361;&amp;#2376;&amp;#2306;:&lt;br&gt;
+&lt;br&gt;
+&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoListParagraphCxSpMiddle&quot; style=&#39;margin-left:.75in;text-indent:-.25in&#39;&gt;&lt;span lang=&quot;HI&quot; style=&#39;font-family:Symbol&#39;&gt;&#183;&lt;span style=&#39;font:7.0pt &quot;Times New Roman&quot;&#39;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+&lt;/span&gt;&lt;/span&gt;&lt;b&gt;&lt;span lang=&quot;HI&quot; style=&#39;font-family:&quot;Mangal&quot;,serif&#39;&gt;&amp;#2327;&amp;#2379;&amp;#2346;&amp;#2344;&amp;#2368;&amp;#2351;&amp;#2340;&amp;#2366;
+&amp;#2325;&amp;#2341;&amp;#2344;&lt;/span&gt;&lt;/b&gt;&lt;span lang=&quot;HI&quot; style=&#39;font-family:&quot;Mangal&quot;,serif&#39;&gt;:
+&lt;/span&gt;&lt;span lang=&quot;HI&quot;&gt;go.microsoft.com/fwlink/?LinkId=&lt;/span&gt;&lt;span lang=&quot;HI&quot; style=&#39;font-family:&quot;Mangal&quot;,serif&#39;&gt;512132&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoListParagraphCxSpMiddle&quot; style=&#39;text-indent:-.25in&#39;&gt;&lt;span lang=&quot;HI&quot; style=&#39;font-family:Symbol&#39;&gt;&#183;&lt;span style=&#39;font:7.0pt &quot;Times New Roman&quot;&#39;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+&lt;/span&gt;&lt;/span&gt;&lt;b&gt;&lt;span lang=&quot;HI&quot;&gt;Microsoft&lt;/span&gt;&lt;/b&gt;&lt;b&gt;&lt;span lang=&quot;HI&quot; style=&#39;font-family:&quot;Mangal&quot;,serif&#39;&gt; &lt;/span&gt;&lt;/b&gt;&lt;b&gt;&lt;span lang=&quot;HI&quot;&gt;Power BI&lt;/span&gt;&lt;/b&gt;&lt;b&gt;&lt;span lang=&quot;HI&quot; style=&#39;font-family:&quot;Mangal&quot;,serif&#39;&gt; &amp;#2360;&amp;#2375;&amp;#2357;&amp;#2366;
+&amp;#2309;&amp;#2344;&amp;#2369;&amp;#2348;&amp;#2306;&amp;#2343;&lt;/span&gt;&lt;/b&gt;&lt;span lang=&quot;HI&quot; style=&#39;font-family:&quot;Mangal&quot;,serif&#39;&gt;: &lt;/span&gt;&lt;span lang=&quot;HI&quot;&gt;&lt;a href=&quot;https://powerbi.microsoft.com/terms-of-service&quot;&gt;https://powerbi.microsoft.com/terms-of-service&lt;/a&gt;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoListParagraphCxSpLast&quot;&gt;&lt;span lang=&quot;HI&quot; style=&#39;font-family:&quot;Mangal&quot;,serif&#39;&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot;&gt;&amp;nbsp;&lt;/p&gt;</value>
+  </data>
+  <data name="Heading" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="META_DESCRIPTION" xml:space="preserve">
+    <value />
+  </data>
+  <data name="META_KEYWORDS" xml:space="preserve">
+    <value />
+  </data>
+  <data name="META_PAGETITLE" xml:space="preserve">
+    <value>Power BI Trial Terms of Service | Microsoft Power BI</value>
+  </data>
+</root>

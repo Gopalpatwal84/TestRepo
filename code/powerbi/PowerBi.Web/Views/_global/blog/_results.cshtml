@@ -1,0 +1,36 @@
+﻿@model PowerBI.Web.Models.Pages.Blog.FilteredPosts
+@using Resources = PowerBI.Resources.Pages.Blog.Archives
+@using Shared = PowerBI.Resources.Shared.Blog
+
+@{
+    Model.PageTitle = string.Format("{0} | {1}", Model.Header, Resources.META_PAGETITLE);
+    Model.MetaDescription = Resources.META_DESCRIPTION;
+    Model.MetaKeywords = Resources.META_KEYWORDS;
+}
+
+<section class="section section-size3 section-palette02 section-heading-only">
+    <div class="row">
+        <div class="column">
+            <h2 class="text-heading1"><a href="@Html.LocalizeUrl("/blog/")">@Shared.Hero_Heading</a></h2>
+        </div>
+    </div>
+</section>
+
+<section class="section">
+    <div class="row">
+        <div class="column medium-7">
+            <div class="row row-size1">
+                <div class="column">
+                    <ol class="breadcrumbs text-heading4">
+                        <li><a href="@Html.LocalizeUrl("/blog/")">@Shared.AzureBlog</a></li>
+                        <li>@Model.Header</li>
+                    </ol>
+                </div>
+            </div>
+            @Html.Partial("blog/_postsList", Model.BlogPostsList)
+        </div>
+        <div class="column medium-4 medium-offset-1">
+            @Html.Partial("blog/_sidebar", Model.BlogPostsList.Categories)
+        </div>
+    </div>
+</section>

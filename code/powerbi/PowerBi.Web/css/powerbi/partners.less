@@ -1,0 +1,42 @@
+﻿@import (reference) '../../less/mixins.d.less';
+@import (reference) '../../less/variables.d.less';
+
+@color-Gold: #856a1a;
+@color-Silver: #737373;
+
+.active-region {
+    fill: @color-palette02;
+}
+
+.country-list {
+    display: none;
+    height: 250px;
+    overflow-y: auto;
+}
+
+.competencies {
+    .competency {
+        margin-bottom: 1px;
+    }
+
+    .competency-gold {
+        color: @color-Gold;
+    }
+
+    .competency-silver {
+        color: @color-Silver;
+    }
+}
+
+.partner-list {
+    .partner-logo {
+        position: relative;
+        height: 120px;
+        background-color: @color-palette01;
+
+        img {
+            .center();
+            max-height: 120px;
+        }
+    }
+}

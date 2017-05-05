@@ -1,0 +1,58 @@
+﻿@model PowerBI.Web.Models.Pages.Industries.IndustriesViewModel
+@using Resources = PowerBI.Resources.Pages.Industries.Index;
+@using Industries = PowerBI.Resources.Shared.Industries;
+
+
+@{
+    Model.PageTitle = Resources.META_PAGETITLE;
+    Model.MetaDescription = Resources.META_DESCRIPTION;
+    Model.MetaKeywords = Resources.META_KEYWORDS;
+}
+
+<section class="section section-size3 section-palette02">
+    <div class="row">
+        <div class="column large-5">
+            <h1>@Resources.Hero_Heading</h1>
+        </div>
+        <div class="column large-6 large-offset-1">
+            <p>@Resources.Hero_Content</p>
+        </div>
+    </div>
+</section>
+
+<section class="section section-size6 section-slate01 section-showcase">
+    <div class="row">
+        <div class="column large-6">
+            <h2 class="text-super">@Resources.Banner_Heading</h2>
+        </div>
+    </div>
+</section>
+
+<section class="section">
+    @foreach (var industryChunk in Model.Industries.Chunk(2))
+    {
+        <div class="row">
+            @foreach (var industry in industryChunk)
+                {
+                <div class="column medium-6">
+                    <div class="row">
+                        <div class="column">
+                            <span class="icon icon-size3 icon-palette02">@SvgHelper.GetSvg(industry.Icon)</span>
+                        </div>
+                    </div>
+                    <div class="row row-size3">
+                        <div class="column">
+                            <h3>@Industries.ResourceManager.GetString(industry.Title_Lockey)</h3>
+                            <p class="sd-equalize">@Industries.ResourceManager.GetString(industry.IndexTagline_Lockey)</p>
+                        </div>
+                    </div>
+                    <div class="row row-size2">
+                        <div class="column">
+                            <a href="@Html.LocalizeUrl(industry.Url)" class="button">@Resources.LearnMore_Cta</a>
+                        </div>
+                    </div>
+                </div>
+            }
+        </div>
+    }
+</section>

@@ -1,0 +1,276 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" id="root">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="DynamicsCRM_Content" xml:space="preserve">
+    <value>&lt;p&gt;Шаблон решения Dynamics&amp;#160;365 содержит все необходимое для создания надежной, масштабируемой и расширяемой панели мониторинга для анализа управления продажами. Всего за несколько часов вы сможете развернуть комплексное решение, поддерживающее облачную платформу извлечения, преобразования и загрузки данных Scribe, облачную или локальную базу данных и великолепные отчеты Power BI (включая модель безопасности, основанную на архитектуре вашего собственного экземпляра Dynamics&amp;#160;365).&lt;/p&gt;
+&lt;p class="text-semibold"&gt;Управление продажами в Dynamics&amp;#160;365:&lt;/p&gt;
+&lt;ul&gt;
+    &lt;li&gt;Быстро приступайте к управлению продажами с помощью аналитических панелей мониторинга с готовыми моделями данных.&lt;/li&gt;
+    &lt;li&gt;Используйте интуитивно понятный интерфейс на базе мастера и настраивайте интеграцию с данными.&lt;/li&gt;
+    &lt;li&gt;Обрабатывайте большие объемы данных из Dynamics&amp;#160;365 с производительностью корпоративного уровня.&lt;/li&gt;
+    &lt;li&gt;Оптимизируйте интеграцию с данными благодаря возможностям добавочного извлечения информации.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Все, что вам необходимо, можно бесплатно скачать на GitHub с полным комплектом документации, поэтому вы можете провести время за оптимизацией результатов вместо разработки решения и написания кода с нуля.&lt;/p&gt;</value>
+  </data>
+  <data name="DynamicsCRM_DetailTagline" xml:space="preserve">
+    <value>Разверните масштабируемую, надежную и расширяемую панель мониторинга Power BI на базе облачного или локального экземпляра Dynamics 365 всего за несколько часов. Сэкономьте время на разработке решения с нуля и потратьте его на настройку в соответствии с потребностями своего предприятия.</value>
+  </data>
+  <data name="DynamicsCRM_DetailTitle" xml:space="preserve">
+    <value>Средства аналитики продаж корпоративного уровня</value>
+  </data>
+  <data name="DynamicsCRM_IndexTagline" xml:space="preserve">
+    <value>Используйте масштабируемое, расширяемое и надежное решение Power BI для получения полезной аналитической информации от своих клиентов Dynamics 365. Используйте настройки из собственной системы CRM, добавляйте данные из других приложений (например, сведения о фактической прибыли из своей системы ERP) и задействуйте возможности существующей модели безопасности.</value>
+  </data>
+  <data name="DynamicsCRM_Partner" xml:space="preserve">
+    <value>Scribe</value>
+  </data>
+  <data name="DynamicsCRM_Title" xml:space="preserve">
+    <value>Управление продажами в Dynamics 365</value>
+  </data>
+  <data name="Salesforce_Content" xml:space="preserve">
+    <value>&lt;p&gt;
+Шаблон решения Salesforce содержит все необходимое для создания надежной, масштабируемой и расширяемой панели мониторинга для анализа и эффективного управления продажами. Всего за несколько часов вы сможете развернуть комплексное решение, поддерживающую платформу интеграции с облаком Informatica Cloud Integration Platform или облачную платформу Scribe (на ваш выбор), облачную или локальную базу данных и великолепные отчеты Power BI (включая модель безопасности, основанную на архитектуре вашего собственного экземпляра Salesforce).
+&lt;/p&gt;
+
+&lt;p class="text-semibold"&gt;
+Упрощенное управление продажами для Salesforce
+&lt;/p&gt;
+
+&lt;ul&gt;
+	&lt;li&gt;Быстро приступайте к работе с помощью аналитических панелей мониторинга с готовыми моделями данных.&lt;/li&gt;
+	&lt;li&gt;Используйте интуитивно понятный интерфейс на базе мастера и настраивайте интеграцию с данными.&lt;/li&gt;
+	&lt;li&gt;Обрабатывайте большие объемы данных из Salesforce с производительностью корпоративного уровня.&lt;/li&gt;
+	&lt;li&gt;Оптимизируйте интеграцию с данными благодаря возможностям добавочного извлечения информации.&lt;/li&gt;
+&lt;/ul&gt;</value>
+  </data>
+  <data name="Salesforce_DetailTagline" xml:space="preserve">
+    <value>Разверните масштабируемую, надежную и расширяемую панель мониторинга Power BI для Salesforce всего за несколько часов. Сэкономьте время на разработке решения с нуля и потратьте его на настройку в соответствии с потребностями своего предприятия.</value>
+  </data>
+  <data name="Salesforce_DetailTitle" xml:space="preserve">
+    <value>Средства аналитики продаж корпоративного уровня</value>
+  </data>
+  <data name="Salesforce_IndexTagline" xml:space="preserve">
+    <value>Используйте масштабируемое, расширяемое и надежное решение Power BI для получения полезной аналитической информации от своих клиентов Salesforce. Используйте настройки из собственной системы Salesforce, создавайте наборы корпоративных данных на базе информации из других приложений (например, сведения о фактической прибыли из своей системы ERP) и задействуйте возможности существующей модели безопасности.</value>
+  </data>
+  <data name="Salesforce_Partner" xml:space="preserve">
+    <value>Informatica</value>
+  </data>
+  <data name="Salesforce_Title" xml:space="preserve">
+    <value>Управление продажами для Salesforce</value>
+  </data>
+  <data name="SCCM_Content" xml:space="preserve">
+    <value>Шаблон решения System Center Power BI содержит все необходимое для панели мониторинга SCCM с действенной аналитикой. Данные, собранные программой SCCM, хранятся в базе данных, которую вы можете расширять и настраивать так, как считаете нужным. В результате ваши данные будут отображаться в исчерпывающих и визуально привлекательных отчетах Power BI. Кроме того, вы можете собирать информацию о пользователях и компьютерах, а также создавать из уже собранных данных гибридные веб-приложения.</value>
+  </data>
+  <data name="SCCM_DetailTagline" xml:space="preserve">
+    <value>Разверните масштабируемую и расширяемую панель мониторинга System Center Configuration Manager всего за несколько часов. Сбор данных осуществляется ежедневно, поэтому вы можете не только проверять текущую работоспособность компьютеров вашей организации, но и анализировать изменения ключевых метрик с течением времени. Легко выявляйте компьютеры, на которых не установлены последние обновления программного обеспечения, и просматривайте сведения об успешных и неудачных устранениях рисков заражения вредоносными программами, чтобы быстро реагировать на угрозы безопасности.</value>
+  </data>
+  <data name="SCCM_DetailTitle" xml:space="preserve">
+    <value>Панель мониторинга Power BI для System Center Configuration Manager</value>
+  </data>
+  <data name="SCCM_IndexTagline" xml:space="preserve">
+    <value>Повысьте производительность и эффективность парка компьютеров вашей организации, осуществляя мониторинг их работоспособности, степени защиты от вредоносных программ, установки обновлений программного обеспечения и прочих аспектов посредством наглядной аналитики и визуализации Power BI. Сравнивайте ключевые метрики System Center Configuration Manager с заданными вами целевыми показателями и анализируйте тенденции. Выявляйте источники проблем и собирайте информацию, необходимую для их устранения.</value>
+  </data>
+  <data name="SCCM_Title" xml:space="preserve">
+    <value>System Center Configuration Manager</value>
+  </data>
+  <data name="Twitter_Content" xml:space="preserve">
+    <value>&lt;p&gt;Шаблон Twitter предоставляет полноценное решение для управления брендом или кампанией. Всего за несколько минут вы сможете развернуть комплексное решение, которое извлекает данные из Twitter, обогащает их посредством машинного обучения и сохраняет в Azure SQL. Это позволит вам приступить к анализу своих данных Twitter с использованием готовых шаблонов отчетов, разработанных на основе технологии Microsoft Research, а также дополнить их данными из других источников.&lt;/p&gt;
+&lt;p class="text-semibold"&gt;Управление кампанией или брендом в Twitter:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Быстро приступайте к работе благодаря готовым моделям данных, разработанным для средств создания отчетов по аналитике данных из социальных сетей&lt;/li&gt;
+&lt;li&gt;Используйте интуитивно понятный интерфейс на основе мастера для определения поисковых запросов в Twitter и стимулирования рабочего процесса&lt;/li&gt;
+&lt;li&gt;Используйте сложные визуализации, например сетевой график, созданный подразделением Microsoft Research&lt;/li&gt;
+&lt;li&gt;Получайте данные аналитики практически в режиме реального времени&amp;#160;— процесс запускается на основе поверхностной структуры нового твита&lt;/li&gt;
+&lt;/ul&gt;</value>
+  </data>
+  <data name="Twitter_DetailTagline" xml:space="preserve">
+    <value>Анализируйте все неструктурированные данные Twitter с помощью нашего шаблона масштабируемого и расширяемого решения. Отслеживайте настроения, актуальные темы и частоту упоминания важнейших событий и кампаний или осуществляйте непрерывный мониторинг реакции пользователей на ваши продукты и услуги. Сопоставляйте текущие настроения и частоту упоминаний с данными за прошедшие периоды, чтобы проследить постепенные изменения тенденций.</value>
+  </data>
+  <data name="Twitter_DetailTitle" xml:space="preserve">
+    <value>Аналитика данных социальной сети Twitter</value>
+  </data>
+  <data name="Twitter_IndexTagline" xml:space="preserve">
+    <value>Анализируйте все неструктурированные данные Twitter с помощью нашего шаблона масштабируемого и расширяемого решения. Отслеживайте настроения, актуальные темы и частоту упоминания важнейших событий и кампаний или осуществляйте непрерывный мониторинг реакции пользователей на ваши продукты и услуги. Сопоставляйте текущие настроения и частоту упоминаний с данными за прошедшие периоды, чтобы проследить постепенные изменения тенденций.</value>
+  </data>
+  <data name="Twitter_Title" xml:space="preserve">
+    <value>Управление кампанией или брендом в Twitter</value>
+  </data>
+  <data name="SAP_Content" xml:space="preserve">
+    <value>&lt;p&gt;С помощью шаблона SAP для анализа дебиторских задолженностей, разработанного компанией Simplement, вы сможете легко и быстро анализировать данные по нескольким критически важным параметрам отчетности по дебиторским задолженностям. Таким образом у вас будет все необходимое, чтобы начать исчерпывающий анализ данных SAP по дебиторским задолженностям.&lt;/p&gt;
+&lt;p class="text-semibold"&gt;Незамедлительно приступайте к работе благодаря заготовкам отчетов, которые обеспечивают основные потребности отчетности по дебиторским задолженностям:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;отображение актуальной сводной информации по текущему итоговому балансу дебиторской задолженности, что позволит вам сосредоточить внимание на наиболее проблемных компаниях, клиентах и т.&amp;#160;д.;&lt;/li&gt;
+&lt;li&gt;ретроспективный анализ прошлых тенденций дебиторской задолженности и баланса в определенные моменты времени по проблемным показателям, которые были выявлены на этапе составления сводки;&lt;/li&gt;
+&lt;li&gt;выявление наибольших задолженностей, по которым более 90&amp;#160;балансов превышают заданные пороговые значения;&lt;/li&gt;
+&lt;li&gt;распределение задолженностей по сроку давности и определение их доли в общей сумме задолженности для выявления клиентов или компаний, которые представлены сверх квоты в определенных группах, например «более 90&amp;#160;дней», «от 1 до 30&amp;#160;дней» и т.&amp;#160;д.&lt;/li&gt;
+&lt;/ul&gt;</value>
+  </data>
+  <data name="SAP_DetailTagline" xml:space="preserve">
+    <value>Приступите к составлению отчетов SAP по дебиторским задолженностям с помощью простых и интуитивно понятных панелей мониторинга Power BI, разработанных компанией Simplement. Быстро и эффективно анализируйте полный объем данных SAP вашей организации по дебиторской задолженности и находите нужную информацию для выявления наиболее проблемных показателей.</value>
+  </data>
+  <data name="SAP_DetailTitle" xml:space="preserve">
+    <value>Отчетность по дебиторской задолженности для SAP</value>
+  </data>
+  <data name="SAP_IndexTagline" xml:space="preserve">
+    <value>Быстро и эффективно анализируйте полный объем данных SAP вашей организации по дебиторской задолженности в Power BI. Визуализация дебиторских задолженностей по клиентам, компаниям, номерам документов и сроку давности позволяет добиться большей наглядности и удобства анализа, а также ускорить принятие решений. Осуществляйте ретроспективный анализ для сравнения дебиторских задолженностей в прошлом и в настоящее время. 
+Данная функция представлена в виде общедоступной предварительной версии, поэтому мы активно собираем отзывы пользователей. Опробуйте данную функцию и поделитесь с нами своим мнением: что работает, что — нет, и как это можно исправить.</value>
+  </data>
+  <data name="SAP_Title" xml:space="preserve">
+    <value>Дебиторская задолженность для SAP</value>
+  </data>
+  <data name="Dynamics365_PSA_Content" xml:space="preserve">
+    <value>&lt;p&gt;Шаблон решения Microsoft Dynamics 365 for Project Service Automation содержит все необходимое для защищенных, масштабируемых и расширяемых панелей мониторинга для систем управления операционной деятельностью, ресурсами и работой с клиентами. Всего за несколько часов вы можете развернуть комплексное решение, использующее Службу экспорта данных Dynamics 365, хранилище данных SQL Azure и великолепные отчеты Power BI (включая модель безопасности, производную от экземпляра Dynamics 365).&lt;/p&gt;&lt;p class="text-semibold"&gt;Система управления операционной деятельностью для шаблона решения Dynamics 365 for Project Service Automation&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Без промедлений приступайте к работе с готовой моделью данных для Dynamics 365 for Project Service Automation.&lt;/li&gt;&lt;li&gt;Создавайте панели мониторинга из готовых отчетов для операционных менеджеров, менеджеров по ресурсам и работе с клиентами.&lt;/li&gt;&lt;li&gt;Отчеты системы управления операционной деятельностью содержат данные о валовой прибыли, продажах, доходах, затратах, количестве отработанных часов и эффективности деятельности.&lt;/li&gt;&lt;li&gt;Отчеты системы управления ресурсами содержат данные об использовании ресурсов и ролей, спросе на ресурсы, а также данные прогнозов.&lt;/li&gt;&lt;li&gt;Отчеты системы управления работой с клиентами содержат данные о продажах, каналах продаж, выставлении счетов, выполнении контрактов и эффективности работы с клиентами.&lt;/li&gt;&lt;li&gt;Расширяйте модель данных и изменяйте отчеты в соответствии с потребностями вашей организации.&lt;/li&gt;&lt;li&gt;Используйте интуитивно понятный интерфейс на базе мастера и настраивайте интеграцию с данными.&lt;/li&gt;&lt;li&gt;Обрабатывайте большие объемы данных из Dynamics&amp;#160;365 с производительностью корпоративного уровня с помощью Службы экспорта данных.&lt;/li&gt;&lt;li&gt;Оптимизируйте интеграцию с данными благодаря возможностям добавочного извлечения информации, которые открывает использование Службы экспорта данных Dynamics 365.&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Все, что вам необходимо, можно бесплатно скачать на GitHub с полным комплектом документации, поэтому вы можете провести время за оптимизацией результатов вместо разработки решения и написания кода с нуля.&lt;/p&gt;</value>
+  </data>
+  <data name="Dynamics365_PSA_DetailTagline" xml:space="preserve">
+    <value>За считанные часы разверните Power BI — решение корпоративного уровня для управления операционной деятельностью, ресурсами и работой с клиентами — для взаимодействия с экземпляром Dynamics 365 for Project Service Automation.  Начните работу с готовым содержимым и моделью, а затем расширьте ее в соответствии с потребностями вашей организации.</value>
+  </data>
+  <data name="Dynamics365_PSA_DetailTitle" xml:space="preserve">
+    <value>Профессиональное средство аналитики управления службами корпоративного уровня</value>
+  </data>
+  <data name="Dynamics365_PSA_IndexTagline" xml:space="preserve">
+    <value>В шаблоне решения Microsoft Dynamics 365 for Project Service Automation основное внимание уделено данным, которые критически важны для систем управления операционной деятельностью, ресурсами и работой с клиентами, действующих в организациях, оказывающих профессиональные услуги.  Он включает содержимое для анализа ключевых показателей эффективности в сфере финансов, например доходов, затрат и прибыли.  Он также включает прочие релевантные ключевые показатели эффективности, такие как данные использования, метрики продаж, данные о выставлении счетов и спросе на ресурсы.</value>
+  </data>
+  <data name="Dynamics365_PSA_Title" xml:space="preserve">
+    <value>Microsoft Dynamics 365 for Project Service Automation</value>
+  </data>
+  <data name="Bing_News_Content" xml:space="preserve">
+    <value>&lt;p class="text-semibold"&gt;Расширенный поиск по Новостям Bing:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Быстро приступайте к работе с готовыми моделями данных для глубокого и эффективного поиска&lt;/li&gt;
+&lt;li&gt;Используйте интуитивно понятный интерфейс на основе мастера для определения поисковых запросов и стимулирования рабочего процесса&lt;/li&gt;
+&lt;li&gt;Используйте сложные алгоритмы машинного обучения, в том числе модели неконтролируемого и контролируемого обучения&lt;/li&gt;
+&lt;li&gt;Без каких-либо трудностей переходите от отчета Power BI к выбранной статье в браузере&lt;/li&gt;
+&lt;/ul&gt;</value>
+  </data>
+  <data name="Bing_News_DetailTagline" xml:space="preserve">
+    <value>Шаблон Новостей Bing предоставляет уникальную возможность подбора статей из сотен различных источников на основе ваших интересов посредством использования сложных техник машинного обучения. Всего за несколько минут вы сможете развернуть комплексный конвейер, объединяющий целый ряд служб Azure: Azure SQL, Azure ML, Cognitive Services, Logic Apps, Функции Azure и многие другие! Затем вы сможете воспользоваться готовыми отчетами, которые помогут вам выполнить анализ и подобрать нужные статьи!</value>
+  </data>
+  <data name="Bing_News_DetailTitle" xml:space="preserve">
+    <value>Мгновенно находите интересующие вас статьи</value>
+  </data>
+  <data name="Bing_News_IndexTagline" xml:space="preserve">
+    <value>Отфильтровывайте и сортируйте новостные статьи по ключевым критериям, таким как тональность, темы или сущности, для отбора статей, которые наиболее точно соответствуют вашему запросу. Прокручивайте фрагменты и легко переходите к выбранным статьям, чтобы узнать, как именно ваш поисковой запрос (фирменное наименование, название продукта и т. д.) фигурирует в статье.</value>
+  </data>
+  <data name="Bing_News_Title" xml:space="preserve">
+    <value>Расширенный поиск по Новостям Bing</value>
+  </data>
+  <data name="Meta_LocJobId" xml:space="preserve">
+    <value>201</value>
+  </data>
+</root>

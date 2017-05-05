@@ -1,0 +1,714 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" id="root">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="About_Content" xml:space="preserve">
+    <value>&lt;p&gt;Dieser Kurs macht Sie mit den Grundlagen von Microsoft Power BI vertraut und vermittelt Ihnen folgende Kenntnisse:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Sie erfahren, wie Sie Daten in das Visualisierungstool laden, diese bearbeiten und weitere Berechnungen hinzufügen, um das sogenannte Hockeyschläger-Diagramm zu erstellen.&lt;/li&gt;
+&lt;li&gt;Sie erhalten einen Überblick über das Erstellen und Veröffentlichen von Datenvisualisierungen mit einer Karte der Wahlergebnisse nach Wahlbezirken, die vom lokalen Fernsehsender KING 5 für seine Berichte über die Präsidentschaftsvorwahlen verwendet wurde. &lt;/li&gt;
+&lt;/ul&gt;
+</value>
+  </data>
+  <data name="ArticleContinue_Content2_3" xml:space="preserve">
+    <value>&lt;h2 id="create-pub"&gt;Erstellen und Veröffentlichen von Datenvisualisierungen&lt;/h2&gt;
+&lt;p&gt;Damit Sie die Beispiele in diesem Kurs ausführen können, müssen folgende Voraussetzungen erfüllt sein:&lt;/p&gt;&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;Sie benötigen einen Computer mit Windows 7 oder höher.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Sie müssen &lt;a href="{0}"&gt;Power BI Desktop&lt;/a&gt; herunterladen und installieren.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Registrieren Sie sich für ein Power BI-Konto (&lt;a href="{1}"&gt;{2}&lt;/a&gt;).&lt;/p&gt;
+&lt;p&gt;a. Sie müssen sich mit einem E-Mail-Geschäftskonto registrieren. Private Konten (Gmail, Hotmail, outlook.com, yahoo.com) werden nicht unterstützt.&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;</value>
+  </data>
+  <data name="ArticleThird_Continue_7" xml:space="preserve">
+    <value>&lt;p&gt;Zu erstellende Measures:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Stimmen Clinton = CALCULATE(sum(VotingData[Stimmen]), VotingData[Kandidat] = "Clinton")&lt;/p&gt;
+
+&lt;p&gt;Stimmen Sanders = CALCULATE(sum(VotingData[Stimmen]), VotingData[Kandidat] = "Sanders")&lt;/p&gt;
+
+&lt;p&gt;Mehrzahl der Stimmen = if([Stimmen Clinton] &gt; [Stimmen Sanders], -1, if(VotingData[Stimmen Clinton] = [Stimmen Sanders], 0, 1))&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Hinweis: Die ersten beiden Measures filtern Werte für Clinton und Sanders und bilden die Grundlage zum Erstellen des Measures „Mehrzahl der Stimmen“, das angibt, ob in einem bestimmten Wahlbezirk mehr Stimmen für Clinton oder Sanders abgegeben wurden. Beim Erstellen der Karte werden Sie erkennen, warum dies sinnvoll ist.&lt;/p&gt;
+
+&lt;p&gt;Nachdem Sie diesen Schritt durchgeführt haben, sieht die Liste der Felder wie in der folgenden Abbildung aus. Die von Ihnen erstellten Measures werden den Feldern hinzugefügt, die Sie in Ihren Datenvisualisierungen verwenden können.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src="{0}" alt="" title="" /&gt;&lt;/p&gt;
+
+&lt;h3&gt;Schritt 3: Anzeigen der Ergebnisse auf einer Karte&lt;/h3&gt;
+
+&lt;p&gt;Jetzt können wir die Formenzuordnung erstellen.&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Fügen Sie die Visualisierung &lt;strong&gt;Formenzuordnung&lt;/strong&gt; in den Bericht ein.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;img src="{1}" alt="" title="" /&gt;&lt;/p&gt;
+
+&lt;p&gt;Hinweis: Zum Zeitpunkt des Verfassens dieses Kurses ist die Visualisierung „Formenzuordnung“ nur in der Vorschauversion verfügbar. Wenn die Formenzuordnung nicht angezeigt wird, müssen Sie sie als &lt;strong&gt;Vorschaufeature&lt;/strong&gt; aktivieren.&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;„Datei“ -&gt; „Optionen und Einstellungen“ -&gt; „Optionen“&lt;/strong&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;„Global“ -&gt; „Vorschaufeatures“&lt;/strong&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Aktivieren Sie das Kontrollkästchen neben &lt;strong&gt;Visuelles Formenzuordnungselement&lt;/strong&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Klicken Sie auf &lt;strong&gt;OK&lt;/strong&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Nachdem Sie die &lt;strong&gt;Formenzuordnung&lt;/strong&gt; eingefügt haben, ist sie zunächst leer. Führen Sie die folgenden Schritte aus:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;Klicken Sie auf die &lt;strong&gt;Karte&lt;/strong&gt;, um sie auszuwählen.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Aktivieren Sie in der &lt;strong&gt;Liste der Felder&lt;/strong&gt; die Kontrollkästchen neben den folgenden Feldern:&lt;/p&gt;
+
+&lt;p&gt;a. &lt;strong&gt;Bezirksname&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;b. &lt;em&gt;*Mehrzahl der Stimmen*&lt;/em&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Die Datenfelder der Visualisierung sehen wie folgt aus:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src="{2}" alt="" title="" /&gt;&lt;/p&gt;
+
+&lt;p&gt;Die Seite sieht ungefähr wie folgt aus:&lt;/p&gt;
+
+&lt;p&gt;Beachten Sie, dass standardmäßig die Karte der USA angezeigt wird. In den nächsten Schritten ändern wir die Kartenformen.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src="{3}" alt="" title="" /&gt;&lt;/p&gt;
+
+&lt;p&gt;Sie können eine beliebige &lt;strong&gt;TopoJSON-Datei&lt;/strong&gt; mit der Visualisierung &lt;strong&gt;Formenzuordnung&lt;/strong&gt; verwenden. Die IDs der TopoJSON-Formen müssen mit den Namen in Ihrem Dataset übereinstimmen.&lt;/p&gt;
+
+&lt;p&gt;Lassen Sie uns die Formen ändern, damit sie mit den Bezirksnamen übereinstimmen.&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;Wählen Sie die &lt;strong&gt;Formenzuordnung&lt;/strong&gt; aus.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Wechseln Sie zum Bereich &lt;strong&gt;Formatierung&lt;/strong&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Erweitern Sie die Optionen von &lt;strong&gt;Form&lt;/strong&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Die Benutzeroberfläche sieht jetzt wie folgt aus:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src="{4}" alt="" title="" /&gt;&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;Klicken Sie auf &lt;strong&gt;+ Karte hinzufügen&lt;/strong&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Wählen Sie im Dialogfeld zum Öffnen der &lt;strong&gt;Datei&lt;/strong&gt; die Datei „&lt;strong&gt;gz_2010_us_050_00_500k-wash-counties-only.json&lt;/strong&gt;“ aus.&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Die Benutzeroberfläche sieht jetzt wie folgt aus:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src="{5}" alt="" title="" /&gt;&lt;/p&gt;
+
+&lt;p&gt;Anschließend ändern wir die Farbe, damit sie dem Design der Demokratischen Partei in den Vereinigten Staaten entspricht.&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;Erweitern Sie im Bereich &lt;strong&gt;Formatierung&lt;/strong&gt; die Option &lt;strong&gt;Datenfarben&lt;/strong&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Wählen Sie für &lt;strong&gt;Abweichend&lt;/strong&gt; die Option &lt;strong&gt;Ein&lt;/strong&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Sie können Farben aus den Optionen der Benutzeroberfläche auswählen oder &lt;strong&gt;Benutzerdefinierte Farbe&lt;/strong&gt; wählen, um Farben anzugeben. In den Beispielen unten werden die folgenden Farben verwendet:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Minimum – 0007FF&lt;/p&gt;
+
+&lt;p&gt;Mitte – B3B3B3&lt;/p&gt;
+
+&lt;p&gt;Maximum – 0055FF&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Legen Sie &lt;strong&gt;Minimum&lt;/strong&gt;, &lt;strong&gt;Mitte&lt;/strong&gt; und &lt;strong&gt;Maximum&lt;/strong&gt; auf &lt;strong&gt;-1, 0 bzw. 1&lt;/strong&gt; fest. So definieren Sie die Skala.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;img src="{6}" alt="" title="" /&gt;&lt;/p&gt;</value>
+  </data>
+  <data name="Article_Content_Step2_2" xml:space="preserve">
+    <value>&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;Navigieren Sie zur Tabelle &lt;strong&gt;Temperaturdaten&lt;/strong&gt;. Wählen Sie im Menüband &lt;strong&gt;Start&lt;/strong&gt; die Option &lt;strong&gt;Abfragen zusammenführen&lt;/strong&gt; aus. Wählen Sie als zu vergleichende Tabelle &lt;strong&gt;Fehlerindikatoren&lt;/strong&gt; und als Vergleichsspalte &lt;strong&gt;Jahr&lt;/strong&gt; aus. Da wir jetzt wissen, dass die Fehlertabelle nur Daten aus dem Jahresbereich der rekonstruierten Temperaturen enthält, können wir &lt;strong&gt;Join-Art: Linker äußerer&lt;/strong&gt; verwenden.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Erweitern Sie nur die Spalte &lt;strong&gt;Sigma&lt;/strong&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Wählen Sie im Menüband &lt;strong&gt;Spalte hinzufügen&lt;/strong&gt; die Option &lt;strong&gt;Benutzerdefinierte Spalte hinzufügen&lt;/strong&gt; aus.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Benennen Sie die Spalte mit &lt;strong&gt;Positive Varianz&lt;/strong&gt;, und fügen Sie mithilfe der Formel &lt;strong&gt;[Rekonstruierte Temperaturveränderung] + [Sigma]&lt;/strong&gt; der rekonstruierten Temperatur Sigma hinzu. Sie können die Spaltennamen eingeben oder auf der rechten Seite auf die Spaltennamen doppelklicken.&lt;/p&gt;&lt;p&gt;&lt;img src="{0}" alt="" title="" /&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Wiederholen Sie diesen Schritt, um die Formel &lt;strong&gt;Negative Varianz = [Rekonstruierte Temperaturveränderung] - [Sigma]&lt;/strong&gt; zu erstellen.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Ändern Sie den Datentyp der neuen Spalten in „Dezimalzahl“.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Da alle Informationen in die Tabelle &lt;strong&gt;Temperaturveränderung&lt;/strong&gt; geladen wurden, müssen die anderen beiden Tabellen nicht in den Bericht geladen werden. Um das Laden der anderen beiden Tabellen zu deaktivieren, klicken Sie mit der rechten Maustaste auf &lt;strong&gt;Messdaten&lt;/strong&gt;, deaktivieren Sie &lt;strong&gt;Laden aktivieren&lt;/strong&gt;, und führen Sie den gleichen Schritt für &lt;strong&gt;Fehlerindikatoren&lt;/strong&gt; aus. Die Namen der deaktivierten Tabellen werden kursiv und ausgegraut angezeigt.&lt;/p&gt;
+&lt;p&gt;&lt;img src="{1}" alt="" title="" /&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;Wählen Sie jetzt im Menüband &lt;strong&gt;Start&lt;/strong&gt; die Option &lt;strong&gt;Schließen und übernehmen&lt;/strong&gt; aus.&lt;/li&gt;
+&lt;/ol&gt;</value>
+  </data>
+  <data name="Article_Content_Step2_3" xml:space="preserve">
+    <value>&lt;h3&gt;Schritt 2: Erstellen der Visualisierung&lt;/h3&gt;
+
+&lt;p&gt;Nachdem Sie die Daten geladen und sie bearbeitet und zusammengeführt haben, ist das Erstellen des Liniendiagramms ein Leichtes.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;Erstellen Sie im Berichtsabschnitt ein neues Liniendiagramm.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Ziehen Sie &lt;strong&gt;Jahr&lt;/strong&gt; in das Feld &lt;strong&gt;Achse&lt;/strong&gt;, und stellen Sie sicher, dass im Dropdownmenü das Datum als „Jahr“ angezeigt wird.&lt;/p&gt;
+&lt;p&gt;&lt;img src="{0}" alt="" title="" /&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Ziehen Sie &lt;strong&gt;Rekonstruierte Temperaturveränderung&lt;/strong&gt;, &lt;strong&gt;Gemessene Temperaturveränderung&lt;/strong&gt;, &lt;strong&gt;Positive Varianz&lt;/strong&gt; und &lt;strong&gt;Negative Varianz&lt;/strong&gt; in „Werte“.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Ändern Sie im Bereich &lt;strong&gt;Format&lt;/strong&gt; die Farben der Linien, wenn sich die Temperaturveränderungen von der Varianz abheben sollen.&lt;/p&gt;&lt;p&gt;&lt;img src="{1}" alt="" title="" /&gt;&lt;/p&gt;
+&lt;/li&gt;&lt;/ol&gt;
+&lt;h3&gt;Schritt 3: Trendlinie&lt;/h3&gt;
+
+&lt;p&gt;Der letzte Schritt beim Erstellen des bekannten Hockeyschläger-Diagramms ist das Hinzufügen einer Trendlinie der Temperaturveränderungen. Dies kann mit einer Reihe von DAX-Measures erfolgen.&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Da für einige Jahre sowohl eine Messtemperatur als auch eine rekonstruierte Temperatur vorliegen, sollten Sie zuerst eine Spalte erstellen, die nur die Durchschnittswerte enthält, wenn zwei Werte vorhanden sind. Erstellen Sie mithilfe der folgenden Formel eine &lt;strong&gt;Neue Spalte&lt;/strong&gt;:&lt;/li&gt;
+  &lt;p&gt;&lt;em&gt;Temperaturdurchschnitt = IF(ISBLANK([Gemessene Temperaturveränderung]),[Rekonstruierte Temperaturveränderung],IF(ISBLANK([Rekonstruierte Temperaturveränderung]),[Gemessene Temperaturveränderung],([Gemessene Temperaturveränderung]+[Rekonstruierte Temperaturveränderung])/2))&lt;/em&gt;&lt;/p&gt;
+&lt;li&gt;Erstellen Sie jetzt über dieser Spalte ein &lt;strong&gt;Neues Measure&lt;/strong&gt;:&lt;/li&gt;
+  &lt;p&gt;&lt;em&gt;Temperaturveränderung = SUM(Data[Temperaturdurchschnitt])&lt;/em&gt;&lt;/p&gt;
+&lt;li&gt;Berechnen Sie jetzt den gleitenden Durchschnitt der Temperaturveränderung. Sie können mit dem Zeitintervall experimentieren. In diesem Beispiel beträgt es 40 Jahre:&lt;/li&gt;&lt;p&gt;&lt;em&gt;Trendlinie = AVERAGEX(DATESINPERIOD(Data[Jahr],LASTDATE(Data[Jahr]),-40,YEAR),[Temperaturveränderung])&lt;/em&gt;&lt;/p&gt;
+&lt;li&gt;Fügen Sie der Visualisierung die Trendlinie hinzu, und schon ist das Diagramm fertig!&lt;/li&gt;
+&lt;p&gt;&lt;img src="{2}" alt="" title="" /&gt;&lt;/p&gt;&lt;/ol&gt;</value>
+  </data>
+  <data name="Article_Content_Step3_10" xml:space="preserve">
+    <value>&lt;h2&gt;Teil 1: Gestalten einer Geschichte zu den Daten und Veröffentlichen der Geschichte auf einer Webseite&lt;/h2&gt;
+
+&lt;p&gt;Sie benötigen die folgenden Dateien:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;VotingData.xlsx&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;gz_2010_us_050_00_500k-wash-counties-only.json&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Embed in web page.htm&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3&gt;Schritt 1: Laden der Daten aus einer Excel-Datei&lt;/h3&gt;
+
+&lt;p&gt;Ziehen Sie die Dokumentation zurate, wenn Sie weitere Hilfe/Anweisungen benötigen:&lt;/p&gt;
+
+&lt;p&gt;&lt;a href="{0}"&gt;{0}&lt;/a&gt;&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;Öffnen Sie &lt;strong&gt;Power BI Desktop&lt;/strong&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Klicken Sie auf der Registerkarte „Start“ auf &lt;strong&gt;Daten abrufen&lt;/strong&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Wählen Sie &lt;strong&gt;Excel&lt;/strong&gt; aus.&lt;/p&gt;
+&lt;p&gt;&lt;img src="{1}" alt="" title="" /&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Wählen Sie im Dialogfeld die Datei &lt;strong&gt;VotingData.xlsx&lt;/strong&gt; aus.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Aktivieren Sie im Dialogfeld &lt;strong&gt;Navigator&lt;/strong&gt; das Kontrollkästchen neben &lt;strong&gt;VotingData&lt;/strong&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Klicken Sie auf &lt;strong&gt;Laden&lt;/strong&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;img src="{2}" alt="" title="" /&gt;&lt;/p&gt;
+
+&lt;h3&gt;Schritt 2: Erstellen berechneter Ergebnisse&lt;/h3&gt;
+
+&lt;p&gt;Beim Erstellen von Datenvisualisierungen müssen die Rohdaten häufig durch berechnete Daten ergänzt werden, um die gewünschte Visualisierung zu erzielen. In diesem Abschnitt erstellen wir einige Berechnungen:&lt;/p&gt;
+
+&lt;p&gt;Hinweis: In diesem Abschnitt wird ein neues Konzept eingeführt – DAX-Ausdrücke. DAX ist eine Ausdruckssprache, mit der Sie Daten in Berichten berechnen können. Weitere Informationen finden Sie unter &lt;a href="{3}"&gt;DAX-Grundlagen in Power BI Desktop&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Verwenden Sie die in &lt;a href="{4}"&gt;Tutorial: Erstellen eigener Measures in Power BI Desktop&lt;/a&gt; beschriebenen Schritte, um die folgenden Measures zu erstellen.&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;Klicken Sie im Menüband &lt;strong&gt;Modellierung&lt;/strong&gt; auf &lt;strong&gt;Neues Measure&lt;/strong&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Eine Bearbeitungsleiste wird angezeigt.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Geben Sie auf der Leiste die Ausdrücke ein, die unten im Abschnitt &lt;strong&gt;Zu erstellende Measures&lt;/strong&gt; angegeben sind, und &lt;strong&gt;klicken Sie auf das Häkchen&lt;/strong&gt;, um sicherzustellen, dass die Ausdrücke fehlerfrei sind.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Wiederholen Sie dies für die drei Measures, die unten angegeben sind.&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;img src="{5}" alt="" title="" /&gt;&lt;/p&gt;
+
+&lt;p&gt;Zu erstellende Measures:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Stimmen Clinton = CALCULATE(sum(VotingData[Stimmen]), VotingData[Kandidat] = "Clinton")&lt;/p&gt;
+
+&lt;p&gt;Stimmen Sanders = CALCULATE(sum(VotingData[Stimmen]), VotingData[Kandidat] = "Sanders")&lt;/p&gt;
+
+&lt;p&gt;Mehrzahl der Stimmen = if([Stimmen Clinton] &gt; [Stimmen Sanders], -1, if(VotingData[Stimmen Clinton] = [Stimmen Sanders], 0, 1))&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Hinweis: Die ersten beiden Measures filtern Werte für Clinton und Sanders und bilden die Grundlage zum Erstellen des Measures „Mehrzahl der Stimmen“, das angibt, ob in einem bestimmten Wahlbezirk mehr Stimmen für Clinton oder Sanders abgegeben wurden. Beim Erstellen der Karte werden Sie erkennen, warum dies sinnvoll ist.&lt;/p&gt;
+
+&lt;p&gt;Nachdem Sie diesen Schritt durchgeführt haben, sieht die Liste der Felder wie in der folgenden Abbildung aus. Die von Ihnen erstellten Measures werden den Feldern hinzugefügt, die Sie in Ihren Datenvisualisierungen verwenden können.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src="{6}" alt="" title="" /&gt;&lt;/p&gt;
+
+&lt;h3&gt;Schritt 3: Anzeigen der Ergebnisse auf einer Karte&lt;/h3&gt;
+
+&lt;p&gt;Jetzt können wir die Formenzuordnung erstellen.&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Fügen Sie die Visualisierung &lt;strong&gt;Formenzuordnung&lt;/strong&gt; in den Bericht ein.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;img src="{7}" alt="" title="" /&gt;&lt;/p&gt;
+
+&lt;p&gt;Hinweis: Zum Zeitpunkt des Verfassens dieses Kurses ist die Visualisierung „Formenzuordnung“ nur in der Vorschauversion verfügbar. Wenn die Formenzuordnung nicht angezeigt wird, müssen Sie sie als &lt;strong&gt;Vorschaufeature&lt;/strong&gt; aktivieren.&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;„Datei“ -&gt; „Optionen und Einstellungen“ -&gt; „Optionen“&lt;/strong&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;„Global“ -&gt; „Vorschaufeatures“&lt;/strong&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Aktivieren Sie das Kontrollkästchen neben &lt;strong&gt;Visuelles Formenzuordnungselement&lt;/strong&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Klicken Sie auf &lt;strong&gt;OK&lt;/strong&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Nachdem Sie die &lt;strong&gt;Formenzuordnung&lt;/strong&gt; eingefügt haben, ist sie zunächst leer. Führen Sie die folgenden Schritte aus:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;Klicken Sie auf die &lt;strong&gt;Karte&lt;/strong&gt;, um sie auszuwählen.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Aktivieren Sie in der &lt;strong&gt;Liste der Felder&lt;/strong&gt; die Kontrollkästchen neben den folgenden Feldern:&lt;/p&gt;
+
+&lt;p&gt;a. &lt;strong&gt;Bezirksname&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;b. &lt;strong&gt;*Mehrzahl der Stimmen*&lt;/strong&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Die Datenfelder der Visualisierung sehen wie folgt aus:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src="{8}" alt="" title="" /&gt;&lt;/p&gt;
+
+&lt;p&gt;Die Seite sieht ungefähr wie folgt aus:&lt;/p&gt;
+
+&lt;p&gt;Beachten Sie, dass standardmäßig die Karte der USA angezeigt wird. In den nächsten Schritten ändern wir die Kartenformen.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src="{9}" alt="" title="" /&gt;&lt;/p&gt;
+
+&lt;p&gt;Sie können eine beliebige &lt;strong&gt;TopoJSON-Datei&lt;/strong&gt; mit der Visualisierung &lt;strong&gt;Formenzuordnung&lt;/strong&gt; verwenden. Die IDs der TopoJSON-Formen müssen mit den Namen in Ihrem Dataset übereinstimmen.&lt;/p&gt;
+
+&lt;p&gt;Lassen Sie uns die Formen ändern, damit sie mit den Bezirksnamen übereinstimmen.&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;Wählen Sie die &lt;strong&gt;Formenzuordnung&lt;/strong&gt; aus.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Wechseln Sie zum Bereich &lt;strong&gt;Formatierung&lt;/strong&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Erweitern Sie die Optionen von &lt;strong&gt;Form&lt;/strong&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;</value>
+  </data>
+  <data name="Article_Content_Step4_7" xml:space="preserve">
+    <value>&lt;p&gt;Die Benutzeroberfläche sieht jetzt wie folgt aus:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src="{0}" alt="" title="" /&gt;&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;Klicken Sie auf &lt;strong&gt;+ Karte hinzufügen&lt;/strong&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Wählen Sie im Dialogfeld zum Öffnen der &lt;strong&gt;Datei&lt;/strong&gt; die Datei „&lt;strong&gt;gz_2010_us_050_00_500k-wash-counties-only.json&lt;/strong&gt;“ aus.&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Die Benutzeroberfläche sieht jetzt wie folgt aus:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src="{1}" alt="" title="" /&gt;&lt;/p&gt;
+
+&lt;p&gt;Anschließend ändern wir die Farbe, damit sie dem Design der Demokratischen Partei in den Vereinigten Staaten entspricht.&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;Erweitern Sie im Bereich &lt;strong&gt;Formatierung&lt;/strong&gt; die Option &lt;strong&gt;Datenfarben&lt;/strong&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Wählen Sie für &lt;strong&gt;Abweichend&lt;/strong&gt; die Option &lt;strong&gt;Ein&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;Sie können Farben aus den Optionen der Benutzeroberfläche auswählen oder &lt;strong&gt;Benutzerdefinierte Farbe&lt;/strong&gt; wählen, um Farben anzugeben. In den Beispielen unten werden die folgenden Farben verwendet:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Minimum – 0007FF&lt;/p&gt;
+
+&lt;p&gt;Mitte – B3B3B3&lt;/p&gt;
+
+&lt;p&gt;Maximum – 0055FF&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;/li&gt;
+
+&lt;li&gt;Legen Sie &lt;strong&gt;Minimum&lt;/strong&gt;, &lt;strong&gt;Mitte&lt;/strong&gt; und &lt;strong&gt;Maximum&lt;/strong&gt; auf &lt;strong&gt;-1, 0 bzw. 1&lt;/strong&gt; fest. So definieren Sie die Skala.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;img src="{2}" alt="" title="" /&gt;&lt;/p&gt;
+
+&lt;p&gt;Wir ändern einige Kartenstandardwerte, um die Übersichtlichkeit zu erhöhen. Bei Farben in einem Farbverlauf ist die farbliche Unterscheidung manchmal schwierig. Daher erhöhen wir die Sichtbarkeit der Bezirksgrenzen, damit die Formen der Bezirke besser zu erkennen sind.&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;Erweitern Sie &lt;strong&gt;Standardfarbe&lt;/strong&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Wählen Sie für &lt;strong&gt;Farbe&lt;/strong&gt; die Farbe &lt;strong&gt;&lt;em&gt;Weiß&lt;/em&gt;&lt;/strong&gt; aus.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Wählen Sie für &lt;strong&gt;Rahmenfarbe&lt;/strong&gt; die Farbe &lt;strong&gt;&lt;em&gt;Weiß&lt;/em&gt;&lt;/strong&gt; aus.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Legen Sie die &lt;strong&gt;Rahmenstärke&lt;/strong&gt; auf &lt;strong&gt;&lt;em&gt;4&lt;/em&gt;&lt;/strong&gt; fest.&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;img src="{3}" alt="" title="" /&gt;&lt;/p&gt;
+
+&lt;p&gt;Schließlich geben wir einen aussagekräftigen Titel für die Karte an.&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;Erweitern Sie &lt;strong&gt;Titel&lt;/strong&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Legen Sie &lt;strong&gt;Titeltext&lt;/strong&gt; auf &lt;em&gt;„&lt;strong&gt;Wahlergebnisse nach Bezirk&lt;/strong&gt;“&lt;/em&gt; fest.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Legen Sie &lt;strong&gt;Textgröße&lt;/strong&gt; auf &lt;strong&gt;&lt;em&gt;14&lt;/em&gt;&lt;/strong&gt; fest.&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;img src="{4}" alt="" title="" /&gt;&lt;/p&gt;
+
+&lt;p&gt;Die Karte sieht jetzt wie in der folgenden Abbildung aus. Wenn Sie Visualisierungen entwerfen, ist es wichtig zu überprüfen, ob sie für die Zielgruppe oder den Leser verständlich sind. Beachten Sie, dass die endgültige Kartenvisualisierung deutlich getrennte Formen sowie einen aussagekräftigen Titel aufweist und dass die Farben das Verständnis erleichtern.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src="{5}" alt="" title="" /&gt;&lt;/p&gt;
+
+&lt;p&gt;Nachdem Sie jetzt die Karte erstellt haben, nutzen Sie Ihre erworbenen Kenntnisse zum Erstellen eines Balkendiagramms, um die Gesamtergebnisse anzuzeigen.&lt;/p&gt;
+
+&lt;p&gt;Verwenden Sie die &lt;strong&gt;Felder&lt;/strong&gt; für die Daten:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Wählen Sie &lt;strong&gt;Kandidat&lt;/strong&gt; aus.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Wählen Sie &lt;strong&gt;Stimmen&lt;/strong&gt; aus.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Legen Sie die Farben entsprechend den Farben der Karte fest, und legen Sie einen geeigneten Titel fest.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src="{6}" alt="" title="" /&gt;&lt;/p&gt;</value>
+  </data>
+  <data name="Article_Content_Step5_9" xml:space="preserve">
+    <value>&lt;p&gt;Ihnen stehen hierzu verschiedene Funktionen zur Verfügung:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;Datenbeschriftungen&lt;/strong&gt;. Sie finden diese Option im Bereich „Formatierung“, wenn die Visualisierung aktiviert ist.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;Zahlenformatierung&lt;/strong&gt;. Anweisungen finden Sie im Abschnitt zur Zahlenformatierung am Ende dieses Tutorials.&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Der endgültige Bericht sollte wie folgt aussehen:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src="{0}" alt="" title="" /&gt;&lt;/p&gt;
+
+&lt;p&gt;Beachten Sie, dass durch Klicken auf die Karte das Balkendiagramm entsprechend hervorgehoben wird, wie unten dargestellt.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src="{1}" alt="" title="" /&gt;&lt;/p&gt;
+
+&lt;p&gt;Diese Interaktion ist für dieses spezielle Szenario nicht optimal. Wir können die visuellen Interaktionen anpassen.&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;Wählen Sie im Menüband &lt;strong&gt;Format&lt;/strong&gt; aus.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Klicken Sie auf der Registerkarte „Interaktionen“ auf die Schaltfläche &lt;strong&gt;Interaktionen bearbeiten&lt;/strong&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;img src="{2}" alt="" title="" /&gt;&lt;/p&gt;
+
+&lt;p&gt;Wenn Sie jetzt die Karte auswählen, werden Sie feststellen, dass andere Visualisierungen in der rechten oberen Ecke eine neue Menüleiste enthalten, wie unten dargestellt.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src="{3}" alt="" title="" /&gt;&lt;/p&gt;
+
+&lt;p&gt;Das Menü bietet drei Optionen:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Filter – zeigt nur Daten für die derzeit ausgewählten Datenpunkte an.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Übergreifende Hervorhebung – zeigt den Anteil der derzeit ausgewählten Datenpunkte am Gesamtwert an.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Keine – die Interaktion mit der derzeit ausgewählten Visualisierung hat keine Auswirkungen auf diese Visualisierung.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;Wählen Sie die oben gezeigte Option &lt;strong&gt;Filter&lt;/strong&gt; aus.&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Klicken Sie jetzt auf die &lt;strong&gt;Karte&lt;/strong&gt;, damit im Balkendiagramm die spezifischen Daten für jeden Bezirk, auf den Sie klicken, angezeigt werden. Wenn Sie auf keinen Bezirk klicken, werden die Gesamtwerte für den gesamten Bundesstaat angezeigt.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Speichern&lt;/strong&gt; Sie jetzt den Bericht.&lt;/p&gt;
+
+&lt;h2&gt;Teil 2: Veröffentlichen des Berichts in Ihrem Power BI-Konto&lt;/h2&gt;
+
+&lt;p&gt;Sie können den Bericht jetzt in Ihrem Power BI-Konto veröffentlichen, wo Sie ihn auf sichere Weise für Ihre Kollegen freigeben können.&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Wählen Sie im Menüband &lt;strong&gt;Start&lt;/strong&gt; in der Gruppe „Freigeben“ die Option &lt;strong&gt;Veröffentlichen&lt;/strong&gt; aus.
+
+
+&lt;p&gt;&lt;img src="{4}" alt="" title="" /&gt;&lt;/p&gt;
+
+&lt;p&gt;Hinweis: Für diesen Schritt benötigen Sie ein Power BI-Konto. Wenn Sie noch kein Power BI-Konto erstellt haben, besuchen Sie &lt;a href="{5}"&gt;{6}&lt;/a&gt;, und registrieren Sie sich für ein kostenloses Konto.&lt;/p&gt;
+
+&lt;p&gt;Nach der erfolgreichen Veröffentlichung wird das folgende Dialogfeld angezeigt:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src="{7}" alt="" title="" /&gt;&lt;/p&gt;
+
+&lt;/li&gt;
+&lt;li&gt;Klicken Sie auf den Link &lt;strong&gt;„VotingData Report.pbix“ in Power BI öffnen&lt;/strong&gt;, um den Bericht auf „Power BI.com“ anzuzeigen.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;img src="{8}" alt="" title="" /&gt;&lt;/p&gt;</value>
+  </data>
+  <data name="Article_Content_Step6_5" xml:space="preserve">
+    <value>&lt;h3&gt;Schritt 1: Veröffentlichen im Web&lt;/h3&gt;
+
+&lt;p&gt;Sie können die über den folgenden Link bereitgestellten Anweisungen befolgen, um &lt;strong&gt;Einbindungscode für das Veröffentlichen aus Power BI im Web zu erstellen&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href="{0}"&gt;{0}&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Der Einbindungscode lautet wie folgt:&lt;/p&gt;
+
+&lt;p&gt;&amp;lt;iframe width="800" height="600" src="{1}" frameborder="0" allowFullScreen="true"&gt;&amp;lt;/iframe&gt;&lt;/p&gt;
+
+&lt;p&gt;Beachten Sie, dass der Einbindungscode mit „&amp;lt;iframe“ beginnt. Sie verwenden den iFrame zum Einbinden der Inhalte in die Webseite.&lt;/p&gt;
+
+&lt;h3&gt;Schritt 2: Hinzufügen des Einbindungscodes zu einer Webseite&lt;/h3&gt;
+
+&lt;p&gt;In diesem Abschnitt fügen wir den Einbindungscode für den Bericht ein und fügen ihn einer Webseite hinzu.&lt;/p&gt;
+
+&lt;p&gt;Sie müssen den Einbindungscode aus dem vorherigen Schritt in die bereitgestellte Webseite &lt;strong&gt;kopieren&lt;/strong&gt;. Wenn Sie ihn nicht kopiert haben, holen Sie dies jetzt nach.&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;Öffnen Sie die Datei &lt;strong&gt;Embed in web page.htm&lt;/strong&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Suchen Sie die Zeile „&amp;lt;!-- Step 1: Place your iFrame embed code below this line --&gt;“.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Sie müssen den Einbindungscode unter dieser Zeile &lt;strong&gt;einfügen&lt;/strong&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Passen Sie anschließend die Höhe und Breite des iFrames an. Die Standardabmessungen ergeben möglicherweise keine perfekte Größe innerhalb der Webseite. Die Größe basiert auf der Seitengröße im Bericht. Die Standardgröße der Seite hat ein Seitenverhältnis von 16:9. Ermitteln Sie die Breite und Höhe anhand des Webseitenlayouts und dieses Seitenverhältnisses. Addieren Sie zur Höhe des iFrames 56, damit am unteren Rand des iFrames die Power BI-Benutzeroberfläche angezeigt werden kann.&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;Legen Sie jetzt die Breite und Höhe des iFrames (&lt;strong&gt;iframe&lt;/strong&gt;) wie folgt fest:&lt;/p&gt;
+    &lt;ul&gt;
+&lt;li&gt;&lt;p&gt;width="1000"&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;height="618"&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;Speichern&lt;/strong&gt; Sie die Datei.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Doppelklicken Sie im &lt;strong&gt;Windows-Explorer&lt;/strong&gt; auf die Datei, um sie im Webbrowser zu &lt;strong&gt;öffnen&lt;/strong&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Eine Seite wird angezeigt, die der folgenden Abbildung entspricht. Wenn Sie die Seite auf einem Webserver veröffentlichen, kann jeder Betrachter der Seite den Bericht anzeigen. Sie können mithilfe dieser Schritte Ihren Blogs, Nachrichtenartikeln oder Websites Power BI-Datenvisualisierungen hinzufügen.&lt;/p&gt;
+
+&lt;h1&gt;&lt;img src="{2}" alt="" title="" /&gt;&lt;/h1&gt;
+
+&lt;h2&gt;Anhang: Formatieren von Zahlen in Power BI&lt;/h2&gt;
+
+&lt;p&gt;Beim Arbeiten mit Datenbeschriftungen in diesem Tutorial werden Sie festgestellt haben, dass die Zahlen standardmäßig nicht formatiert sind. Nachfolgend wird beschrieben, wie Sie Zahlen in Power BI formatieren.&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Wählen Sie das zu formatierende &lt;strong&gt;Feld&lt;/strong&gt; aus, indem Sie in der Liste der Felder darauf klicken. Hinweis: Das Feld ist ausgewählt, wenn wie unten dargestellt der gelbe Rahmen angezeigt wird.
+&lt;p&gt;&lt;img src="{3}" alt="" title="" /&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Wenn das Feld ausgewählt ist, wählen Sie im Menüband &lt;strong&gt;Modellierung&lt;/strong&gt; aus.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Beachten Sie den Bereich &lt;strong&gt;Formatierung&lt;/strong&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Klicken Sie auf das &lt;strong&gt;Punktsymbol&lt;/strong&gt;, wenn Sie für große Zahlen Tausendertrennzeichen hinzufügen möchten.&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Anschließend wird immer die Formatierung angewendet, wenn das Feld in einer Visualisierung verwendet wird.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src="{4}" alt="" title="" /&gt;&lt;/p&gt;</value>
+  </data>
+  <data name="Article_Continue_Step1_3" xml:space="preserve">
+    <value>&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;Navigieren Sie zur Tabelle &lt;strong&gt;Temperaturdaten&lt;/strong&gt;, und wählen Sie im Menüband &lt;strong&gt;Start&lt;/strong&gt; die Option &lt;strong&gt;Abfragen zusammenführen&lt;/strong&gt; aus.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Wählen Sie im Editor &lt;strong&gt;Messdaten&lt;/strong&gt; und die Spalte &lt;strong&gt;Jahr&lt;/strong&gt; beider Tabellen aus. Dies ist die Spalte, nach der Sie die Tabellen vergleichen möchten&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Da Sie eine Tabelle erstellen möchten, die alle Zeilen beider Tabellen enthält (Abgleich der sich überlappenden Zeilen), wählen Sie &lt;strong&gt;Join-Art: Vollständiger äußerer Join (alle Zeilen aus beiden)&lt;/strong&gt; aus. Im Editor wird jetzt die Anzahl der übereinstimmenden Zeilen angezeigt.&lt;/p&gt;
+&lt;p&gt;&lt;img src="{0}" alt="" title="" /&gt;&lt;/p&gt;
+
+&lt;/li&gt;
+&lt;li&gt;Klicken Sie auf &lt;strong&gt;OK&lt;/strong&gt;, und erweitern Sie dann die neuen Spalten (siehe das Symbol in der folgenden Abbildung).
+&lt;p&gt;&lt;img src="{1}" alt="" title="" /&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Um die neue Datumsspalte zu erstellen, wählen Sie auf der Registerkarte &lt;strong&gt;Spalte hinzufügen&lt;/strong&gt; die Option &lt;strong&gt;Indexspalte hinzufügen&lt;/strong&gt; aus. Verwenden Sie das Dropdownmenü, um eine benutzerdefinierte Indexspalte zu erstellen. Lassen Sie den Index bei 1000 beginnen, und verwenden Sie die Schrittweite 1.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Die Indexspalte sollte jetzt Indexwerte von 1000 bis 1998 enthalten. Ändern Sie den Typ dieser Spalte in „Text“.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Löschen Sie jetzt die beiden Jahresspalten, und ändern Sie den Namen &lt;strong&gt;Index&lt;/strong&gt; in &lt;strong&gt;Jahr&lt;/strong&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Legen Sie den Datentyp von &lt;strong&gt;Jahr&lt;/strong&gt; auf &lt;strong&gt;Datum&lt;/strong&gt; fest.&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Die letzte zu ladende Tabelle enthält die &lt;strong&gt;*zugeordneten Fehlerindikatoren*&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;Wählen Sie im Abfrage-Editor &lt;strong&gt;Start&lt;/strong&gt; &gt; &lt;strong&gt;Neue Quelle&lt;/strong&gt; &gt; &lt;strong&gt;Web&lt;/strong&gt; aus, und geben Sie die URL der Tabelle ein: &lt;a href="{2}"&gt;{2}&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Ändern Sie den Namen der Abfrage in &lt;strong&gt;Fehlerindikatoren&lt;/strong&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Ändern Sie den Typ von &lt;strong&gt;Jahr&lt;/strong&gt; in „Text“.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Löschen Sie die erste und letzte Spalte.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Ändern Sie den Typ von &lt;strong&gt;Jahr&lt;/strong&gt; in „Datum“.&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Anschließend können Sie mit dem Sigma aus &lt;strong&gt;Fehlerindikatoren&lt;/strong&gt; die positive und negative Varianz der rekonstruierten Temperaturen berechnen.&lt;/p&gt;</value>
+  </data>
+  <data name="Article_Start_Step2_3" xml:space="preserve">
+    <value>&lt;p&gt;&lt;img src="{0}" alt="" title="" /&gt;&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;Wiederholen Sie diesen Schritt, um die Formel &lt;strong&gt;Negative Varianz = [Rekonstruierte Temperaturveränderung] - [Sigma]&lt;/strong&gt; zu erstellen.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Ändern Sie den Datentyp der neuen Spalten in „Dezimalzahl“.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Da alle Informationen in die Tabelle &lt;strong&gt;Temperaturveränderung&lt;/strong&gt; geladen wurden, müssen die anderen beiden Tabellen nicht in den Bericht geladen werden. Um das Laden der anderen beiden Tabellen zu deaktivieren, klicken Sie mit der rechten Maustaste auf &lt;strong&gt;Messdaten&lt;/strong&gt;, deaktivieren Sie &lt;strong&gt;Laden aktivieren&lt;/strong&gt;, und führen Sie den gleichen Schritt für &lt;strong&gt;Fehlerindikatoren&lt;/strong&gt; aus. Die Namen der deaktivierten Tabellen werden kursiv und ausgegraut angezeigt.&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;img src="{1}" alt="" title="" /&gt;&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Wählen Sie jetzt im Menüband &lt;strong&gt;Start&lt;/strong&gt; die Option &lt;strong&gt;Schließen und übernehmen&lt;/strong&gt; aus.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3&gt;Schritt 2: Erstellen der Visualisierung&lt;/h3&gt;
+
+&lt;p&gt;Nachdem Sie die Daten geladen und sie bearbeitet und zusammengeführt haben, ist das Erstellen des Liniendiagramms ein Leichtes.&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;Erstellen Sie im Berichtsabschnitt ein neues Liniendiagramm.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Ziehen Sie &lt;strong&gt;Jahr&lt;/strong&gt; in das Feld &lt;strong&gt;Achse&lt;/strong&gt;, und stellen Sie sicher, dass im Dropdownmenü das Datum als „Jahr“ angezeigt wird.&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;img src="{2}" alt="" title="" /&gt;&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;Ziehen Sie &lt;strong&gt;Rekonstruierte Temperaturveränderung&lt;/strong&gt;, &lt;strong&gt;Gemessene Temperaturveränderung&lt;/strong&gt;, &lt;strong&gt;Positive Varianz&lt;/strong&gt; und &lt;strong&gt;Negative Varianz&lt;/strong&gt; in „Werte“.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Ändern Sie im Bereich &lt;strong&gt;Format&lt;/strong&gt; die Farben der Linien, wenn sich die Temperaturveränderungen von der Varianz abheben sollen.&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;</value>
+  </data>
+  <data name="Download_Resources" xml:space="preserve">
+    <value>Alle für diese Tutorials erforderlichen Ressourcen herunterladen</value>
+  </data>
+  <data name="Hero_Content" xml:space="preserve">
+    <value>In diesem Einführungskurs lernen Sie, wie Sie mithilfe unterschiedlicher Grafiken Ihre Daten analysieren und interpretieren und Sie Ihrer Zielgruppe effektiv vermitteln. Der Experte für Datenvisualisierung Alberto Cairo erläutert Ihnen die wichtigsten Aspekte von Visualisierungen, z. B. das Verständnis der Daten, die Auswahl des richtigen Grafikformats und das Anordnen der Komposition für die Darstellung oder Untersuchung der Daten. Ihnen wird außerdem ausführlicher erläutert, wie die Datenvisualisierung durch die Codierung von Visualisierungen erfolgt, um Datenpunkte grafisch darzustellen.</value>
+  </data>
+  <data name="Hero_Title" xml:space="preserve">
+    <value>Einführung in die Visualisierung</value>
+  </data>
+  <data name="InThisArticle" xml:space="preserve">
+    <value>Inhalt dieses Artikels:</value>
+  </data>
+  <data name="META_DESCRIPTION" xml:space="preserve">
+    <value />
+  </data>
+  <data name="META_KEYWORDS" xml:space="preserve">
+    <value />
+  </data>
+  <data name="META_PAGETITLE" xml:space="preserve">
+    <value>Datenjournalismus – Einführung in die Visualisierung | Microsoft Power BI</value>
+  </data>
+  <data name="NextTopic" xml:space="preserve">
+    <value>Nächstes Thema: Durchsuchen von Daten</value>
+  </data>
+  <data name="RightNav_Link1" xml:space="preserve">
+    <value>Weltweite Temperaturveränderung (Erstellen eines Hockeyschläger-Diagramms in Power BI)</value>
+  </data>
+  <data name="RightNav_Link2" xml:space="preserve">
+    <value>Erstellen und Veröffentlichen von Visualisierungen</value>
+  </data>
+  <data name="Start_Article_Content_4" xml:space="preserve">
+    <value>&lt;h2 id="world-temp-change"&gt;Weltweite Temperaturveränderung (Erstellen eines Hockeyschläger-Diagramms in Power BI)&lt;/h2&gt;
+
+&lt;p&gt;Eines der ersten Beispiele im Kurs zur Datenvisualisierung ist die Analyse der globalen Temperatur durch Michael Mann und Raymond Bradley. Bei der Rekonstruktion dieser Visualisierung wird eine Reihe von Konzepten gestreift, die Sie sehr oft verwenden werden, wenn Sie mit Microsoft Power BI arbeiten. Sie beginnen mit Tabellen von mehreren Webseiten, kombinieren die Daten, laden sie in Ihren Bericht, nehmen einige Anpassungen vor und erstellen eine berechnete Trendlinie. Wir verwenden die Daten aus der ursprünglichen Studie, die auf der folgenden Webseite verfügbar sind: &lt;a href="{0}"&gt;{0}&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3&gt;Schritt 1: Laden von Daten&lt;/h3&gt;
+
+&lt;p&gt;Die zum Erstellen dieser Visualisierung benötigten Daten befinden sich in drei Tabellen : &lt;strong&gt;Rekonstruktion (1000–1980 n. Chr.)&lt;/strong&gt;, &lt;strong&gt;Zugeordnete Fehlerindikatoren&lt;/strong&gt; und &lt;strong&gt;Messreihen (1902–1998)&lt;/strong&gt;. In dem Beispiel laden wir zunächst die rekonstruierten Temperaturen.&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;Öffnen Sie &lt;strong&gt;Rekonstruktion (1000–1980 n. Chr.)&lt;/strong&gt;: &lt;a href="{1}"&gt;{1}&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Wählen Sie in der Power BI Desktop-Datei links oben &lt;strong&gt;Daten abrufen&lt;/strong&gt; aus.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Wählen Sie im Dropdownmenü &lt;strong&gt;Web&lt;/strong&gt; aus, und fügen Sie den Link in das URL-Fenster ein. Es wird automatisch ein Datentyp für die Daten empfohlen. Da wir die Jahresspalte bearbeiten möchten, deaktivieren wir diese Funktion. Legen Sie &lt;strong&gt;Datentyperkennung&lt;/strong&gt; auf &lt;strong&gt;Datentypen nicht ermitteln&lt;/strong&gt; fest, und wählen Sie &lt;strong&gt;Bearbeiten&lt;/strong&gt; aus.&lt;/p&gt;
+&lt;p&gt;&lt;img src="{2}" alt="" title="" /&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;Hierdurch wird der Abfrage-Editor geöffnet. Da die erste Spalte leer ist, können Sie diese löschen. Benennen Sie Spalte 2 in &lt;strong&gt;Jahr&lt;/strong&gt; und Spalte 3 in &lt;strong&gt;Rekonstruierte Temperaturveränderung&lt;/strong&gt; um. Ändern Sie den Datentyp dieser Spalte in „Dezimalzahl“, indem Sie auf das Datentypsymbol klicken, das in der folgenden Abbildung gezeigt wird.
+&lt;p&gt;&lt;img src="{3}" alt="" title="" /&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;Ändern Sie den Namen der Abfrage in &lt;strong&gt;Temperaturdaten&lt;/strong&gt;.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Auf die gleiche Weise können Sie die Messtemperaturdaten und Fehlerindikatoren laden.&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;Wählen Sie auf der Menüleiste &lt;strong&gt;Start&lt;/strong&gt; des Abfrage-Editors &lt;strong&gt;Neue Quelle &lt;/strong&gt; aus, und geben Sie die URL der Tabelle &lt;strong&gt;Messreihen&lt;/strong&gt; ein.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Wählen Sie im Popupfenster die Option &lt;strong&gt;Datentypen nicht ermitteln&lt;/strong&gt; und dann &lt;strong&gt;Bearbeiten&lt;/strong&gt; aus.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Löschen Sie Spalte 1, und benennen Sie Spalte 2 in &lt;strong&gt;Jahr&lt;/strong&gt; um.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Benennen Sie Spalte 3 in &lt;strong&gt;Gemessene Temperaturveränderung&lt;/strong&gt; um, und ändern Sie ihren Datentyp in „Dezimalzahl“.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Ändern Sie den Namen der Abfrage in &lt;strong&gt;Messdaten&lt;/strong&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;&lt;p&gt;Anschließend erstellen Sie eine Jahresspalte, die Sie für alle Datenpunkte aus den Jahren 1000 bis 1998 verwenden können. Zu diesem Zweck können Sie die beiden Tabellen im Abfrage-Editor zusammenführen und eine neue Spalte für „Jahr“ hinzufügen.&lt;/p&gt;</value>
+  </data>
+  <data name="Meta_LocJobId" xml:space="preserve">
+    <value>159</value>
+  </data>
+</root>

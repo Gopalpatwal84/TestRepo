@@ -1,0 +1,133 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Onyx.WebApi</name>
+    </assembly>
+    <members>
+        <member name="P:Onyx.WebApi.BaseListResponse.Limit">
+            <summary>
+            Limit value used in the request. Limits the number of entities to retrieve
+            </summary>
+        </member>
+        <member name="P:Onyx.WebApi.BaseListResponse.Offset">
+            <summary>
+            Offset value used in the request. Used to skip a number of entities in the response
+            </summary>
+        </member>
+        <member name="P:Onyx.WebApi.BaseListResponse.Count">
+            <summary>
+            Number of entities in the response (single page)
+            </summary>
+        </member>
+        <member name="P:Onyx.WebApi.BaseListResponse.TotalCount">
+            <summary>
+            Total number of entities (all pages)
+            </summary>
+        </member>
+        <member name="P:Onyx.WebApi.BaseListResponse.Next">
+            <summary>
+            Url to get next page
+            </summary>
+        </member>
+        <member name="P:Onyx.WebApi.BaseListResponse.Prev">
+            <summary>
+            Url to get previous page
+            </summary>
+        </member>
+        <member name="P:Onyx.WebApi.PagingFilter.Limit">
+            <summary>
+            Limits the number of returned entries in a page
+            </summary>
+        </member>
+        <member name="P:Onyx.WebApi.PagingFilter.Offset">
+            <summary>
+            Number of entries to skip
+            </summary>
+        </member>
+        <member name="P:Onyx.WebApi.PagingResult.Limit">
+            <summary>
+            Limit value used in the request. Limits the number of entities to retrieve
+            </summary>
+        </member>
+        <member name="P:Onyx.WebApi.PagingResult.Offset">
+            <summary>
+            Offset value used in the request. Used to skip a number of entities in the response
+            </summary>
+        </member>
+        <member name="P:Onyx.WebApi.PagingResult.Count">
+            <summary>
+            Number of entities in the response (single page)
+            </summary>
+        </member>
+        <member name="P:Onyx.WebApi.PagingResult.TotalCount">
+            <summary>
+            Total number of entities (all pages)
+            </summary>
+        </member>
+        <member name="P:Onyx.WebApi.PagingResult.CurrentUrl">
+            <summary>
+            Url to current get the current entity
+            </summary>
+        </member>
+        <member name="P:Onyx.WebApi.PagingResult.NextUrl">
+            <summary>
+            Url to get next page
+            </summary>
+        </member>
+        <member name="P:Onyx.WebApi.PagingResult.PrevUrl">
+            <summary>
+            Url to get previous page
+            </summary>
+        </member>
+        <member name="M:Onyx.WebApi.PagingResult.AddQueryStringParameter(System.String,System.String)">
+            <summary>
+            Adds a query string parameter to the PrevUrl, NextUrl and CurrentUrl links.
+            These properties should be set before invoking this method.
+            </summary>
+            <param name="key">The key of the parameter.</param>
+            <param name="value">The value of the parameter.</param>
+        </member>
+        <member name="M:Onyx.WebApi.PagingResult.AddQueryStringParameters(System.Collections.Generic.IDictionary{System.String,System.String})">
+            <summary>
+            Adds query string parameters to the PrevUrl, NextUrl and CurrentUrl links.
+            These properties should be set before invoking this method.
+            </summary>
+            <param name="parameters">The dictionary with the query string parameters.</param>
+        </member>
+        <member name="P:Onyx.WebApi.Responses.BaseListResponse.Limit">
+            <summary>
+            Limits the number of entities to retrieve
+            </summary>
+        </member>
+        <member name="P:Onyx.WebApi.Responses.BaseListResponse.Offset">
+            <summary>
+            Used to skip a number of entities in the response
+            </summary>
+        </member>
+        <member name="P:Onyx.WebApi.Responses.BaseListResponse.Count">
+            <summary>
+            Number of entities obtained from a single page
+            </summary>
+        </member>
+        <member name="P:Onyx.WebApi.Responses.BaseListResponse.TotalCount">
+            <summary>
+            Total number of entities (all pages)
+            </summary>
+        </member>
+        <member name="P:Onyx.WebApi.Responses.BaseResponse.Links">
+            <summary>
+            Actions related to this entity
+            </summary>
+        </member>
+        <member name="M:Onyx.WebApi.Responses.Link.#ctor">
+            <summary>
+            JSON constructor
+            </summary>
+        </member>
+        <member name="P:Onyx.WebApi.Responses.Link.Url">
+            <summary>
+            The URL of the corresponding endpoint
+            </summary>
+        </member>
+    </members>
+</doc>

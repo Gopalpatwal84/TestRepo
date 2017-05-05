@@ -1,0 +1,145 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{F7EA74EC-15DC-42E3-B48C-26C3BEBA44BB}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>PowerBI.Json</RootNamespace>
+    <AssemblyName>PowerBI.Json</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Autofac, Version=3.5.0.0, Culture=neutral, PublicKeyToken=17863af14b0044da, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\Autofac.3.5.2\lib\net40\Autofac.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Newtonsoft.Json, Version=9.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\Newtonsoft.Json.9.0.1\lib\net45\Newtonsoft.Json.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Onyx.IO, Version=1.0.98.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\Onyx.IO.1.0.98\lib\net45\Onyx.IO.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Serilog, Version=1.5.0.0, Culture=neutral, PublicKeyToken=24c2f752a8e58a10, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\Serilog.1.5.14\lib\net45\Serilog.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Serilog.FullNetFx, Version=1.5.0.0, Culture=neutral, PublicKeyToken=24c2f752a8e58a10, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\Serilog.1.5.14\lib\net45\Serilog.FullNetFx.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AndroidAppsJsonLoader.cs" />
+    <Compile Include="CurationMetisTimeZonesJsonLoader.cs" />
+    <Compile Include="SupportQuestionsJsonLoader.cs" />
+    <Compile Include="SupportRegionSkusJsonLoader.cs" />
+    <Compile Include="CoursesJsonLoader.cs" />
+    <Compile Include="CurationPartnerDirectoryJsonLoader.cs" />
+    <Compile Include="PartnerCompetenciesJsonLoader.cs" />
+    <Compile Include="CurationPartnerShowcaseJsonLoader.cs" />
+    <Compile Include="PowerBIPartnerJsonLoader.cs" />
+    <Compile Include="ShowcaseDepartmentsJsonLoader.cs" />
+    <Compile Include="ShowcaseIndustriesJsonLoader.cs" />
+    <Compile Include="SolutionTemplatesJsonLoader.cs" />
+    <Compile Include="ContinentsJsonLoader.cs" />
+    <Compile Include="JobrolesJsonLoader.cs" />
+    <Compile Include="PinpointWhiteListJsonLoader.cs" />
+    <Compile Include="CountriesJsonLoader.cs" />
+    <Compile Include="CutomersJsonLoader.cs" />
+    <Compile Include="DepartmentsJsonLoader.cs" />
+    <Compile Include="CulturesJsonLoader.cs" />
+    <Compile Include="SupportPlansJsonLoader.cs" />
+    <Compile Include="TicketingDisabledDatesJsonLoader.cs" />
+    <EmbeddedResource Include="Data\Lefties\service.json" />
+    <EmbeddedResource Include="Data\Lefties\desktop.json" />
+    <EmbeddedResource Include="Data\Lefties\mobile.json" />
+    <EmbeddedResource Include="Data\Lefties\developer.json" />
+    <Compile Include="IndustriesJsonLoader.cs" />
+    <Compile Include="CurrenciesJsonLoader.cs" />
+    <Compile Include="IntegrationsJsonLoader.cs" />
+    <Compile Include="LeftiesJsonLoader.cs" />
+    <Compile Include="Modules\JsonModule.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Data\cultures.json" />
+    <None Include="app.config">
+      <SubType>Designer</SubType>
+    </None>
+    <EmbeddedResource Include="Data\integrations.json" />
+    <EmbeddedResource Include="Data\countries.json" />
+    <EmbeddedResource Include="Data\industries.json" />
+    <EmbeddedResource Include="Data\currencies.json" />
+    <EmbeddedResource Include="Data\customers.json" />
+    <EmbeddedResource Include="Data\ticketingDisabledDates.json" />
+    <EmbeddedResource Include="Data\departments.json" />
+    <EmbeddedResource Include="Data\jobroles.json" />
+    <EmbeddedResource Include="Data\pinpoint-whitelist.json" />
+    <EmbeddedResource Include="Data\solution-templates.json" />
+    <EmbeddedResource Include="Data\continents.json" />
+    <EmbeddedResource Include="Data\powerbipartners.json" />
+    <EmbeddedResource Include="Data\courses.json" />
+    <EmbeddedResource Include="Data\partner-competencies.json" />
+    <EmbeddedResource Include="Data\curation-partner-showcase.json" />
+    <EmbeddedResource Include="Data\curation-partner-directory.json" />
+    <EmbeddedResource Include="Data\showcase-departments.json" />
+    <EmbeddedResource Include="Data\showcase-industries.json" />
+    <EmbeddedResource Include="Data\support-plans.json" />
+    <EmbeddedResource Include="Data\support-region-skus.json" />
+    <EmbeddedResource Include="Data\curation-metis-timezones.json" />
+    <EmbeddedResource Include="Data\android-apps.json" />
+    <EmbeddedResource Include="Data\support-questions.json" />
+    <None Include="packages.config">
+      <SubType>Designer</SubType>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\PowerBI.Entities\PowerBI.Entities.csproj">
+      <Project>{6bef81f7-93e6-4946-9473-6cdd72717496}</Project>
+      <Name>PowerBI.Entities</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\PowerBi.Resources\PowerBi.Resources.csproj">
+      <Project>{47e98c63-bb58-435a-8529-752b275277f2}</Project>
+      <Name>PowerBi.Resources</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

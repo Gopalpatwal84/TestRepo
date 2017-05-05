@@ -1,0 +1,22 @@
+﻿@using Resources = PowerBI.Resources.Pages.ApiTerms.Index
+
+@{
+    Model.PageTitle = Resources.META_PAGETITLE;
+    Model.MetaDescription = Resources.META_DESCRIPTION;
+    Model.MetaKeywords = Resources.META_KEYWORDS;
+}
+
+@if (!string.IsNullOrWhiteSpace(Resources.Heading))
+{
+    <section class="section section-size2 section-palette02 section-heading-only">
+        <div class="row column">
+            <h1>@Html.Raw(Resources.Heading)</h1>
+        </div>
+    </section>
+}
+
+<section class="section">
+    <div class="row column">
+        @Html.Raw(Resources.Content)
+    </div>
+</section>

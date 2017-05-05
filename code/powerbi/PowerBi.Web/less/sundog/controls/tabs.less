@@ -1,0 +1,238 @@
+@import (reference) '../../variables.d.less';
+@import (reference) '../../mixins.d.less';
+
+/*
+Tabs
+
+Trigger a video to be played within a section.
+
+Markup:
+<div class="row row-small column">
+    <ol class="tabs {{modifier_class}} sd-tabs">
+        <li><a href="#first-tab-content">First tab</a></li>
+        <li><a href="#second-tab-content">Second tab</a></li>
+        <li><a href="#third-tab-content">Third tab</a></li>
+    </ol>
+</div>
+<div class="row row-small column">
+    <div class="tabs-content">
+        <div id="first-tab-content">
+            Content for first tab!
+        </div>
+        <div id="second-tab-content">
+            Content for second tab!
+        </div>
+        <div id="third-tab-content">
+            Content for third tab!
+        </div>
+    </div>
+</div>
+
+.tabs-size1 - Description.
+.tabs-size3 - Description.
+
+Styleguide tabs
+*/
+
+/*
+Tabs: Arrow
+
+Trigger a video to be played within a section.
+
+Markup:
+<section class="section section-palette07 tabs-arrow">
+    <div class="row">
+        <div class="column">
+            <ul class="tabs {{modifier_class}} sd-tabs">
+                <li>
+                    <a href="#tab-down-a">
+                        <span class="icon">
+                            <img src="http://placehold.it/300/00abec/ffffff?text=WOW" />
+                        </span>
+                        Tab Down A
+                    </a>
+                </li>
+                <li>
+                    <a href="#tab-down-b">
+                        <span class="icon">
+                            <img src="http://placehold.it/300/00abec/ffffff?text=WOW" />
+                        </span>
+                        Tab Down B
+                    </a>
+                </li>
+                <li>
+                    <a href="#tab-down-c" class="active">
+                        <span class="icon">
+                            <img src="http://placehold.it/300/00abec/ffffff?text=WOW" />
+                        </span>
+                        Tab Down C
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</section>
+
+.tabs-arrow-down - Description.
+.tabs-arrow-up - Description.
+
+Styleguide tabs.arrow
+*/
+
+.tabs {
+    display: none;
+}
+
+.tabs-content > div {
+    display: block;
+    margin-top: @rowrow-margin;
+
+    &:first-child {
+        margin: 0;
+    }
+}
+
+@media only screen and (min-width: @resolution-medium) {
+
+    .tabs {
+        display: block;
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        .group();
+
+        li {
+            float: left;
+            margin: 0 2px 0 0;
+
+            a {
+                display: inline-block;
+                background-color: @color-slate08;
+                color: @color-font-standard;
+                text-align: center;
+                padding: @spacing-size2 @spacing-size3;
+
+                &.active,
+                &.active:hover {
+                    background-color: @color-palette03;
+                    color: @color-font-light;
+                }
+
+                &:hover {
+                    color: @color-palette03;
+                }
+            }
+
+            &:last-child {
+                margin-right: 0;
+            }
+        }
+        
+        &.tabs-size1 {
+            li a {
+                padding: @spacing-size1 @spacing-size2;
+            }
+        }
+
+        &.tabs-size3 {
+            li a {
+                padding: @spacing-size3 @spacing-size4;
+            }
+        }
+    }
+
+    .tabs-arrow {
+        padding: 0;
+        overflow: visible;
+
+        .tabs {
+            li {
+                a {
+                    border-top: 4px solid transparent;
+                    background-color: inherit;
+                    color: @color-palette02;
+
+                    &.active {
+                        position: relative;
+
+                        &:after {
+                            z-index: 1;
+                            content: '';
+                            position: absolute;
+                            left: 50%;
+                            border-left: 20px solid transparent;
+                            border-right: 20px solid transparent;
+                            .transform-translate(-50%, 0);
+                        }
+                    }
+
+                    .icon {
+                        display: block;
+                        width: 30px;
+                        height: auto;
+                        position: relative;
+                        left: 50%;
+                        margin: 0 0 10px;
+                        .transform-translate(-50%, 0);
+
+                        path, polygon, rect {
+                            fill: @color-palette01;
+                        }
+                    }
+                }
+            }
+
+            &.tabs-arrow-down {
+                li {
+                    a {
+                        &.active {
+                            border-top: 4px solid @color-palette02;
+
+                            &:after {
+                                bottom: -20px;
+                                border-top: 20px solid @color-palette07;
+                            }
+                        }
+                    }
+                }
+            }
+
+            &.tabs-arrow-up {
+                li {
+                    a {
+                        &.active {
+                            border-bottom: 4px solid @color-palette02;
+
+                            &:after {
+                                top: -20px;
+                                border-bottom: 20px solid @color-palette07;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .tabs-content > div {
+        display: none;
+        margin: 0;
+
+        &.active {
+            display: block;
+        }
+    }
+
+}
+
+@media only screen and (min-width: @resolution-large) {
+
+    .tabs {
+        li {
+            a {
+                padding: @spacing-size2 @spacing-size4;
+            }
+        }
+    }
+
+}

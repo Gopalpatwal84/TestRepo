@@ -1,0 +1,270 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" id="root">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Airline_DetailsTagline" xml:space="preserve">
+    <value>&lt;p&gt;主要航空公司中負責機隊的作業工程師必須持續在特定維護作業的成本與中斷，以及技術失敗所導致的風險甚至高昂代價之間權衡。&lt;/p&gt;
+&lt;p&gt;此解決方案中的報表除能提供機隊狀態的概覽，也能針對機隊技術的健全狀況提出近期變動的預測摘要。預測建基於多個機器學習模型，並使用飛機的快速存取記錄器 (類似黑盒子) 以及其他資料來源。此報表也會從用來為關鍵引擎元件預測剩餘年限的諸多機器學習模型中，顯示詳細的輸出。&lt;/p&gt;
+&lt;p&gt;報表擁有豐富的視覺效果並提供飛行計劃及位置的概觀，可協助判斷哪部飛機需要維修，以及哪部飛機最適合用來加以取代。報表同時包含自訂的 Sankey 圖表，可依據機身類型將機隊不同的 KPI 加權值合理化，並包含以噴射引擎為造型的炫目 3D 熱度圖。這些視覺效果可為效力於航空產業的人員提供直觀的深入見解。&lt;/p&gt;</value>
+  </data>
+  <data name="Airline_DetailTitle" xml:space="preserve">
+    <value>大規模推動維護計劃</value>
+  </data>
+  <data name="Airline_IndexTagline" xml:space="preserve">
+    <value>此解決方案建基於某家主要航空的實際預測性維護系統。資料來源涵蓋甚廣，包括飛機引擎、飛行計劃、氣候資訊以及記錄的 IoT 資料流。此項解決方案將 Azure HDInsight 用於功能工程、將 Azure Machine Learning 用於偵測作業異常現象，並運用 Azure SQL DW 對產出的 PB 級資料進行高效能查詢。此報表同時顯示如何使用設計給航空產業使用的自訂視覺效果。</value>
+  </data>
+  <data name="Airline_Title" xml:space="preserve">
+    <value>航空公司</value>
+  </data>
+  <data name="CPG_DetailsTagline" xml:space="preserve">
+    <value>&lt;p&gt;消費性包裝商品產業競爭激烈。所有品牌與商品種類每日無不絞盡腦汁，希望獲得客戶的注意及青睞。要提高市佔率並非易事，而 CPG 分析是唯一能夠超越競爭對手的方法。&lt;/p&gt;
+&lt;p&gt;Power BI 讓您在同一個位置就能追蹤所有的關鍵指標，包括庫存量、獲利率、供應鏈、通路及定價等等。即時報表與警示協助您避免庫存不足的狀況。&lt;/p&gt;
+&lt;p&gt;精簡的儀表板可協助您管理您的全球市佔率，並能向下鑽研到更深入資料的位置。進階模型與詳細報表協助您明確評估所有品牌與商品種類的績效表現。&lt;/p&gt;
+&lt;p&gt;追蹤您的行銷活動結果，以及這些活動對銷售、市佔率及收益的影響。豐富的互動式報表可協助您向下鑽研所有營運項目的財務狀況，從而獲取深入資訊的摘要，並制定有效的應對措施。&lt;/p&gt;</value>
+  </data>
+  <data name="CPG_DetailTitle" xml:space="preserve">
+    <value>更深入地分析資料並了解趨勢，從而提高市佔率</value>
+  </data>
+  <data name="CPG_IndexTagline" xml:space="preserve">
+    <value>消費性包裝商品在營運、行銷、銷售及財務等方面是極為重要的一環。分析不斷變化的資料，從而將銷售額、收益與客戶忠誠度最大化。</value>
+  </data>
+  <data name="CPG_Title" xml:space="preserve">
+    <value>消費性包裝商品 (CPG)</value>
+  </data>
+  <data name="Insurance_DetailsTagline" xml:space="preserve">
+    <value>&lt;p&gt;風險管理是保險公司最重要的目標。因為保險分析的資料量與變數極為龐大，所以需要工具與方法協助保險專業人員快速確認趨勢，並採取相應的動作。&lt;/p&gt;
+&lt;p&gt;Power BI 可讓保險分析員從同一處迅速地將理賠、津貼、詐領、銷售及客戶滿意度資料以各種圖表呈現。更快確認理賠與付款趨勢。&lt;/p&gt;
+&lt;p&gt;找出可能有助於辨明詐領的模式，並設定自動化警示，以協助快速找出這些模式。建立自訂指標，以及監視理賠的平均成本或平均時間。&lt;/p&gt;
+&lt;p&gt;以各種圖表呈現定價策略的影響及獲利率。持續關注客戶滿意度，並從中找出潛在的新商機或風險，進而在第一時間採取相應的動作。&lt;/p&gt;</value>
+  </data>
+  <data name="Insurance_DetailTitle" xml:space="preserve">
+    <value>利用視覺資料式分析監視風險、管理銷售及理賠，並辨明詐領。</value>
+  </data>
+  <data name="Insurance_IndexTagline" xml:space="preserve">
+    <value>從保險公司湧入的保單銷售、理賠、詐領、保險範圍複雜度及保費等資料，全都能為公司提供豐富的趨勢及深入資訊，而只要點選就能查看。</value>
+  </data>
+  <data name="Insurance_Title" xml:space="preserve">
+    <value>保險</value>
+  </data>
+  <data name="Manufacturing_DetailsTagline" xml:space="preserve">
+    <value>&lt;p&gt;即時追蹤關鍵績效指標，包括機器使用狀況、流程效率、成本、庫存量、損失及週期時間。&lt;/p&gt;
+&lt;p&gt;製造商必須能夠共同處理、追蹤及傳播所提供的即時資料，才能達成卓越的營運成效。Power BI 讓您的團隊可以在同一儀表板上，關注來自多種來源的即時資料，並在需要時向下鑽研，從而找出問題。利用 Power BI 行動應用程式收取即時警示，讓您的營運更有效率、更靈活，同時將回應的時間縮到最短。&lt;/p&gt;
+&lt;p&gt;監視整個供應鏈，並在其進入關鍵製程之前，先找出問題及瓶頸。您可以將您的儀表板分享給供應商與合作夥伴一起共用，讓他們可以隨著所提供的最新資訊進行調整，進而讓程序更加流暢及更加聰明。監視所有來源 (包含您的客戶) 的輸入及輸出品質，進而迅速制定出有效的決策，以提高製造品質。&lt;/p&gt;</value>
+  </data>
+  <data name="Manufacturing_DetailTitle" xml:space="preserve">
+    <value>即時顯示供應鏈的相關資訊，協助您在更短的時間內，制定出更有效的決策</value>
+  </data>
+  <data name="Manufacturing_IndexTagline" xml:space="preserve">
+    <value>製程的成功需要環境中各項條件運作良好，而達成此目標的最好方式，就是能夠在檢視整體狀況時，也能檢視每項程序的狀況。</value>
+  </data>
+  <data name="Manufacturing_Title" xml:space="preserve">
+    <value>製造業</value>
+  </data>
+  <data name="ProfessionalServices_DetailsTagline" xml:space="preserve">
+    <value>&lt;p&gt;無論您公司的專業在諮詢、法律服務、房地產服務或醫療保健，您的業務都與人息息相關。您需要適合的 KPI 來監視績效，以盡可能地達到最佳成果並提升效率。您必須和您的團隊一起共用資料，才能快速反應並提升成果。&lt;/p&gt;
+&lt;p&gt;Power BI 不僅能讓您追蹤適合的 KPI，還能加以個人化，並以圖表展現，以便於了解及共用，而且所有一切都在同一平台上。針對每位員工的年度營收、專案獲利率、費用、使用狀況及客戶滿意度等即時性指標進行計算，從而獲取績效的深入資訊，並採取相應行動解決可能面臨的挑戰。向下鑽研到個人層級，讓組織中所有人都能從資料獲益，而資料也安全無虞，並能充分加以掌控。&lt;/p&gt;
+&lt;p&gt;以各種不同方式及面向呈現不同位置、角色、專案及團隊的資料，讓您輕鬆獲取任意層級的資訊，從而制定出有效的應對措施。追蹤客戶滿意度，確保優良的交貨品質及精實的營運配置。&lt;/p&gt;</value>
+  </data>
+  <data name="ProfessionalServices_DetailTitle" xml:space="preserve">
+    <value>利用更深入的資訊，將全付心力投注在人的身上</value>
+  </data>
+  <data name="ProfessionalServices_IndexTagline" xml:space="preserve">
+    <value>所有專業服務機構都一樣，「人」是最重要的資產。透過正確的資料與技術，可以協助您的專業工作人員將其為客戶提供的價值最大化。</value>
+  </data>
+  <data name="ProfessionalServices_Title" xml:space="preserve">
+    <value>專業服務</value>
+  </data>
+  <data name="Retail_DetailsTagline" xml:space="preserve">
+    <value>&lt;p&gt;零售商所能擷取的資料多不勝數，其中像是交易、供應鏈、購買行為、趨勢、多重通路銷售，以及全球市佔率等等，也不過是公司可以用來將收益最大化的一小部分資料來源而已。&lt;/p&gt;
+&lt;p&gt;要將這些輸入轉化成有意義的資訊，必須具備規模調整、易於使用、存取與即時連線等幾種能力。Power BI 可讓您將所有資料來源置於同一處，並時時將資料保持在最新的狀態，以便您可以在正確的時間做出正確的決定。您可以將您的零售分析分享給店面、總公司、工廠或配送中心。&lt;/p&gt;
+&lt;p&gt;有了 Power BI，無論您身在何處，隨時都能取得資料加以更新。了解客戶在線上商店或實體店面中的行為與感受，並將買家的動向與互動以圖表展現，找出可以為他們提供更高品質服務的機會，進而將收益最大化。&lt;/p&gt;</value>
+  </data>
+  <data name="Retail_DetailTitle" xml:space="preserve">
+    <value>更深入了解客戶、定價、POS、庫存及通路</value>
+  </data>
+  <data name="Retail_IndexTagline" xml:space="preserve">
+    <value>購物有了全新面貌。買家現在隨手就能獲取各種裝置、選項及更多的資訊。將您的深入資訊以各種圖表展現，協助您的公司邁向成功。</value>
+  </data>
+  <data name="Retail_Title" xml:space="preserve">
+    <value>零售業</value>
+  </data>
+  <data name="Energy_DetailsTagline" xml:space="preserve">
+    <value>&lt;p&gt;儲存能源並不符合成本效益，因此公用事業及發電廠必須預測未來的耗電量，才能有效平衡供需。在尖峰用量時段，若電力供應不足，即有可能發生斷電。相反地，若供過於求，則會造成資源浪費。先進的需求預測技術可以詳細預測特定日每小時的需求與尖峰時段，讓能源供應商可以最佳化發電程序。此報表主要在呈現能源部門對於需求的預測。此報表呈現區域的能源使用狀態及其未來用量的預測，以達到最佳運作效率。&lt;/p&gt;
+&lt;p&gt;「能源解決方案狀態摘要」頁面顯示每個區域的整體能源需求狀態。使用者可以按一下左側的篩選器選取一個區域，從而探討該區域的狀態。&lt;/p&gt;
+&lt;p&gt;「能源解決方案預測」頁面顯示 Azure Machine Learning 模型所產生的需求預測結果，並提供不同的錯誤計量，讓使用者可以測定模型的品質。溫度及其預測會用為機器學習模型的功能。&lt;p/&gt;</value>
+  </data>
+  <data name="Energy_DetailTitle" xml:space="preserve">
+    <value>能源</value>
+  </data>
+  <data name="Energy_IndexTagline" xml:space="preserve">
+    <value>此報表主要在呈現能源部門對於需求的預測。這些檢視呈現區域的能源使用狀態及其未來用量的預測，以達到最佳運作效率。</value>
+  </data>
+  <data name="Energy_Title" xml:space="preserve">
+    <value>能源</value>
+  </data>
+  <data name="Telecommunications_DetailsTagline" xml:space="preserve">
+    <value>&lt;p&gt;制定有效的業務策略，才能控管客戶流失。客戶流失包括客戶停止使用服務、改用競爭對手的服務、改用服務的較低層級，或使用服務的頻率降低。&lt;/p&gt;
+&lt;p&gt;在此使用案例中，我們將看到手機電訊廠商如何利用 Azure 主動找出近期可能會流失的客戶，從而改善服務，並建立客製化的宣傳活動來留住客戶。手機電訊廠商的市場競爭激烈。許多手機電訊廠商因為客戶流失，導致後付型客戶部分的營收衰退。因此，如何能事先大規模精準地找出可能流失的客戶，將是從競爭市場中脫穎而出一大優勢。造成手機客戶流失的一些因素包括經常發生有感的服務中斷、線上商店/零售商店的客戶服務感受差、受競爭電訊廠商優惠的吸引 (較優惠的家族方案、數據方案等等)。&lt;/p&gt;
+&lt;p&gt;手機電訊廠商必須能夠全方位檢視他們的使用者基礎，才能讓公司在競爭激烈的市場立於不敗之地。&lt;/p&gt;</value>
+  </data>
+  <data name="Telecommunications_DetailTitle" xml:space="preserve">
+    <value>手機電訊廠商</value>
+  </data>
+  <data name="Telecommunications_IndexTagline" xml:space="preserve">
+    <value>了解經營手機業務的電信公司如何運用 Cortana Intelligence Suite 與 Power BI，賦予業務相關人員分析客戶流失原因的能力。</value>
+  </data>
+  <data name="Telecommunications_Title" xml:space="preserve">
+    <value>電信公司</value>
+  </data>
+  <data name="PublicSector_DetailsTagline" xml:space="preserve">
+    <value>&lt;h3&gt;教育&lt;/h3&gt;
+&lt;p&gt;如統計資料顯示，小學教育的入學率正隨著發展迅速增長，其中尤以開發中國家最為顯著，部分是由將小學入學率列為優先的「千禧年發展目標」作為起始。然而，全球近乎 10 位孩童中就有 1 位仍無法就學，其中近六成為女孩。高等教育的就學率也有所增長，但以全球層面而言仍為低落，其中已開發國家與開發中國家間的差異甚鉅。&lt;/p&gt;
+&lt;p&gt;當中 GDP 的關聯性頗為一致，但值得注意的是，最近一次經濟衰退時 GDP 百分比微幅下降對教育所造成的影響。對於兩性間高等教育的落差逐漸縮小，著實振奮人心。但如上所述，若比對已開發國家與開發中國家，局勢即大為逆轉，且與小學教育的入學率層級不符。&lt;/p&gt;
+&lt;br&gt;
+&lt;h3&gt;健康&lt;/h3&gt;
+
+&lt;p&gt;查看資料即可了解，眾所皆知過去幾年人類壽命已延長許多。值得注意的是，女性與男性壽命的差異在過去幾年維持不變。顯而易見地，若國家對健康衛生投入愈多資金，該國人民即可從中受益。有趣的是，隨著 GDP 成長，生育率卻下降了。&lt;/p&gt;
+&lt;br&gt;
+&lt;h3&gt;小型企業&lt;/h3&gt;
+
+&lt;p&gt;隨著企業環境愈發友善，新創企業的的登記率也隨之增長。GDP 的關聯性顯而易見。值得注意的是，小型企業活動的高峰先於上次的經濟衰退。&lt;/p&gt;
+&lt;br&gt;
+&lt;h3&gt;氣候變遷&lt;/h3&gt;
+
+&lt;p&gt;氣候變遷是項頗富爭議的話題。查看資料即可確認部分已知變數。GDP 與 CO2 排放量間有直接的關聯。國家經濟改善的同時，CO2 的排放量也跟著增加。此現象並非取決於電力生產的來源。國家人口成長的同時，CO2 的排放量也跟著增加。比對部分經濟與人口名列前茅的國家，即可查覺到類似的趨勢。&lt;/p&gt;
+&lt;p&gt;資料同時顯示平均氣溫也逐漸升高。您會發現，氣溫升高幅度並不規律。所有專案模型皆指出過去幾年氣溫逐漸升高。&lt;/p&gt;</value>
+  </data>
+  <data name="PublicSector_IndexTagline" xml:space="preserve">
+    <value>公部門資料可透過多種來源於線上取得。多數資料同樣免費。此絕佳機會能讓您了解公共政策如何影響氣候、教育及健康衛生等的變更，以及其間的關聯。</value>
+  </data>
+  <data name="PublicSector_Title" xml:space="preserve">
+    <value>公部門</value>
+  </data>
+  <data name="CapitalMarkets_DetailsTagline" xml:space="preserve">
+    <value>美國個人消費支出儀表板在 Microsoft 的財務組織用來追蹤超過 200 種美國境內購買的個人貨物及服務 (從汽車到博物館會員資格均涵蓋在內) 支出趨勢 (以一兆美元為單位)。經濟分析局以每月頻率發佈資料庫，其中整理成八層次的階層，讓 Power BI 可以不斷切入查看最細微層次的變化。此儀表板可讓 Microsoft 分析隔年度的同期支出趨勢，並以視覺方式呈現對美國消費者而言重要性漸增的貨物/服務。除此之外，還能讓財務團隊量測經濟情緒指數，以及了解我們在商務週期中的位置。</value>
+  </data>
+  <data name="CapitalMarkets_IndexTagline" xml:space="preserve">
+    <value>美國個人消費支出儀表板會追蹤美國的消費者支出，範圍擴及多種貨物及服務，以追蹤美國商務循環，並量測支出趨勢與經濟情緒</value>
+  </data>
+  <data name="CapitalMarkets_Title" xml:space="preserve">
+    <value>資本市場</value>
+  </data>
+  <data name="Meta_LocJobId" xml:space="preserve">
+    <value>199</value>
+  </data>
+</root>

@@ -1,0 +1,224 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" id="root">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="acumatica_Content" xml:space="preserve">
+    <value>С помощью Power BI вы сможете создавать наглядные визуальные отчеты, в которых будут собраны воедино ваши данные из Acumatica ERP (в частности, финансовые, бухгалтерские и производственные данные, а также данные распределения и CRM) и других источников. Простые перетаскиваемые панели мониторинга и отчеты, создаваемые на основе шаблонов, позволяют за считанные минуты получить полное представление о бизнес-данных.</value>
+  </data>
+  <data name="acumatica_Heading" xml:space="preserve">
+    <value>Повысьте информативность данных Acumatica, интегрировав их с другими приложениями всего за несколько минут.</value>
+  </data>
+  <data name="acumatica_Name" xml:space="preserve">
+    <value>Acumatica</value>
+  </data>
+  <data name="acumatica_SubContent1" xml:space="preserve">
+    <value>Легко определяйте более широкие корреляции данных Acumatica. Благодаря гибким возможностям Power BI вы сможете быстро получить ценные сведения о своих данных и выявить скрытые отношения или шаблоны, которые раскроют перед вами новые возможности для повышения эффективности деловых операций и производительности.</value>
+  </data>
+  <data name="acumatica_SubContent2" xml:space="preserve">
+    <value>Сопоставляйте свои данные CRM-системы Acumatica с данными других приложений, таких как Marketo — программы для автоматизации маркетинга, а также данными веб-службы Google Analytics. Подключайтесь к десяткам других ведущих бизнес-приложений, выполнив несколько простых действий: получайте новые ценные сведения и более наглядные данные.</value>
+  </data>
+  <data name="acumatica_SubContent3" xml:space="preserve">
+    <value>Создавайте и безопасно храните визуально информативные отчеты и панели мониторинга. Предоставляйте отчеты для общего доступа своим коллегам когда угодно и где угодно. Благодаря ведущей платформе для облачных вычислений от Майкрософт ваши данные всегда будут в безопасности.</value>
+  </data>
+  <data name="adobe_analytics_Content" xml:space="preserve">
+    <value>С помощью Power BI вы сможете создавать наглядные визуальные отчеты, в которых будут собраны воедино ваши данные электронного маркетинга из Adobe Analytics и других источников. Простые перетаскиваемые панели мониторинга и отчеты, создаваемые на основе шаблонов, позволяют за считанные минуты получить полное представление о бизнес-данных.</value>
+  </data>
+  <data name="adobe_analytics_Heading" xml:space="preserve">
+    <value>Повысьте информативность данных Adobe Analytics, интегрировав их с другими приложениями всего за несколько минут.</value>
+  </data>
+  <data name="adobe_analytics_Name" xml:space="preserve">
+    <value>Adobe Analytics</value>
+  </data>
+  <data name="adobe_analytics_SubContent1" xml:space="preserve">
+    <value>Легко определяйте более широкие корреляции данных электронного маркетинга Adobe Analytics. Благодаря гибким возможностям Power BI вы сможете быстро получить ценные сведения о своих данных и выявить скрытые отношения или шаблоны, которые раскроют перед вами новые возможности для принятия новаторских маркетинговых решений и привлечения новых клиентов.</value>
+  </data>
+  <data name="adobe_analytics_SubContent2" xml:space="preserve">
+    <value>Сопоставляйте свои данные электронного маркетинга Adobe Analytics с данными других приложений, таких как Salesforce CRM и Marketo — программы для автоматизации маркетинга, а также данными веб-службы Google Analytics. Подключайтесь к десяткам других ведущих бизнес-приложений, выполнив несколько простых действий: получайте новые ценные сведения и более наглядные данные.</value>
+  </data>
+  <data name="adobe_analytics_SubContent3" xml:space="preserve">
+    <value>Создавайте и безопасно храните визуально информативные отчеты и панели мониторинга. Предоставляйте отчеты для общего доступа своим коллегам когда угодно и где угодно. Благодаря ведущей платформе для облачных вычислений от Майкрософт ваши данные всегда будут в безопасности.</value>
+  </data>
+  <data name="default_Content" xml:space="preserve">
+    <value>Быстро создавайте интерактивные и доступные для совместного использования отчеты, аналитические представления и панели мониторинга на основе своих данных.</value>
+  </data>
+  <data name="default_Heading" xml:space="preserve">
+    <value>Используйте улучшенные панели мониторинга и отчеты для работы со своими данными</value>
+  </data>
+  <data name="default_SubContent1" xml:space="preserve">
+    <value>Легко определяйте более широкие корреляции данных. Благодаря гибким возможностям Power BI вы сможете быстро получить ценные сведения о своих данных и выявить скрытые отношения или шаблоны, которые раскроют перед вами новые возможности для принятия новаторских маркетинговых решений и привлечения новых клиентов.</value>
+  </data>
+  <data name="default_SubContent2" xml:space="preserve">
+    <value>Сопоставляйте свои данные с данными других приложений, таких как Salesforce CRM и Marketo — программы для автоматизации маркетинга, а также данными электронного маркетинга Adobe. Подключайтесь к десяткам других ведущих бизнес-приложений, выполнив несколько простых действий: получайте новые ценные сведения и более наглядные данные.</value>
+  </data>
+  <data name="default_SubContent3" xml:space="preserve">
+    <value>Создавайте и безопасно храните визуально информативные отчеты и панели мониторинга. Предоставляйте отчеты для общего доступа своим коллегам когда угодно и где угодно. Благодаря ведущей платформе для облачных вычислений от Майкрософт ваши данные всегда будут в безопасности.</value>
+  </data>
+  <data name="default_SubHeading1" xml:space="preserve">
+    <value>Мгновенная визуализация и анализ</value>
+  </data>
+  <data name="default_SubHeading2" xml:space="preserve">
+    <value>Сопоставление данных,
+полученных из разных приложений</value>
+  </data>
+  <data name="default_SubHeading3" xml:space="preserve">
+    <value>Простое совместное использование</value>
+  </data>
+  <data name="default_Title" xml:space="preserve">
+    <value>Интеграция {0}</value>
+    <comment>Integration name</comment>
+  </data>
+  <data name="google_analytics_Content" xml:space="preserve">
+    <value>С помощью Power BI вы сможете создавать наглядные визуальные отчеты, в которых будут собраны воедино данные веб-службы Google Analytics и других источников. Простые перетаскиваемые панели мониторинга и отчеты, создаваемые на основе шаблонов, позволяют за считанные минуты получить полное представление о бизнес-данных.</value>
+  </data>
+  <data name="google_analytics_Heading" xml:space="preserve">
+    <value>Повысьте информативность данных Google Analytics, интегрировав их с другими приложениями за считанные минуты</value>
+  </data>
+  <data name="google_analytics_Name" xml:space="preserve">
+    <value>Google Analytics</value>
+  </data>
+  <data name="google_analytics_SubContent1" xml:space="preserve">
+    <value>Легко определяйте более широкие корреляции данных веб-службы Google Analytics. Благодаря гибким возможностям Power BI вы сможете быстро получить ценные сведения о своих данных и выявить скрытые отношения или шаблоны, которые раскроют перед вами новые возможности для принятия новаторских маркетинговых решений и привлечения новых клиентов.</value>
+  </data>
+  <data name="google_analytics_SubContent2" xml:space="preserve">
+    <value>Сопоставляйте данные веб-службы Google Analytics с данными других приложений, таких как Salesforce CRM и Marketo — программы для автоматизации маркетинга, а также данными электронного маркетинга Adobe. Подключайтесь к десяткам других ведущих бизнес-приложений, выполнив несколько простых действий: получайте новые ценные сведения и более наглядные данные.</value>
+  </data>
+  <data name="google_analytics_SubContent3" xml:space="preserve">
+    <value>Создавайте и безопасно храните визуально информативные отчеты и панели мониторинга. Предоставляйте отчеты для общего доступа своим коллегам когда угодно и где угодно. Благодаря ведущей платформе для облачных вычислений от Майкрософт ваши данные всегда будут в безопасности.</value>
+  </data>
+  <data name="salesforce_Content" xml:space="preserve">
+    <value>С помощью Power BI вы сможете создавать наглядные визуальные отчеты, в которых будут собраны воедино данные CRM-системы Salesforce и других источников. Простые перетаскиваемые панели мониторинга и отчеты, создаваемые на основе шаблонов, позволяют за считанные минуты получить полное представление о бизнес-данных.</value>
+  </data>
+  <data name="salesforce_Heading" xml:space="preserve">
+    <value>Повысьте информативность данных Salesforce Analytics, интегрировав их с другими приложениями за считанные минуты.</value>
+  </data>
+  <data name="salesforce_Name" xml:space="preserve">
+    <value>Salesforce</value>
+  </data>
+  <data name="salesforce_SubContent1" xml:space="preserve">
+    <value>Легко определяйте более широкие корреляции данных CRM-системы Salesforce. Благодаря гибким возможностям Power BI вы сможете быстро получить ценные сведения о своих данных и выявить скрытые отношения или шаблоны, которые раскроют перед вами новые возможности для принятия новаторских маркетинговых решений и привлечения новых клиентов.</value>
+  </data>
+  <data name="salesforce_SubContent2" xml:space="preserve">
+    <value>Сопоставляйте свои данные CRM-системы Salesforce с данными других приложений, таких как Adobe Analytics — системы анализа электронного маркетинга, и Marketo — программы для автоматизации маркетинга, а также данными веб-службы Google Analytics. Подключайтесь к десяткам других ведущих бизнес-приложений, выполнив несколько простых действий: получайте новые ценные сведения и более наглядные данные.</value>
+  </data>
+  <data name="salesforce_SubContent3" xml:space="preserve">
+    <value>Создавайте и безопасно храните визуально информативные отчеты и панели мониторинга. Предоставляйте отчеты для общего доступа своим коллегам когда угодно и где угодно. Благодаря ведущей платформе для облачных вычислений от Майкрософт ваши данные всегда будут в безопасности.</value>
+  </data>
+  <data name="Meta_LocJobId" xml:space="preserve">
+    <value>74</value>
+  </data>
+</root>

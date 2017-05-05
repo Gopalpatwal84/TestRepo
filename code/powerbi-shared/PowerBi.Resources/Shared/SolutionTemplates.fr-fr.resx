@@ -1,0 +1,276 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" id="root">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="DynamicsCRM_Content" xml:space="preserve">
+    <value>&lt;p&gt;Le modèle de solution Dynamics&amp;#160;365 contient tous les éléments nécessaires pour une analyse de tableau de bord de gestion des ventes sécurisée, évolutive et extensible. En à peine quelques heures, mettez au point une solution de bout en bout, comprenant la plateforme ETL basée sur le cloud de Scribe, une base de données cloud ou locale et des rapports Power&amp;#160;BI soignés (y compris un modèle de sécurité issu de votre propre instance Dynamics&amp;#160;365).&lt;/p&gt;
+&lt;p class="text-semibold"&gt;Gestion des ventes pour Dynamics&amp;#160;365&amp;#160;:&lt;/p&gt;
+&lt;ul&gt;
+    &lt;li&gt;Familiarisez-vous rapidement avec les modèles de données préconfigurés pour les tableaux de bord analytiques de gestion des ventes&lt;/li&gt;
+    &lt;li&gt;Utilisez une IU basée sur un assistant intuitif pour configurer et personnaliser l’intégration des données&lt;/li&gt;
+    &lt;li&gt;Obtenez des performances de qualité professionnelle en traitant d’importants volumes de données à partir de Dynamics&amp;#160;365&lt;/li&gt;
+    &lt;li&gt;Optimisez l’intégration des données grâce à la fonctionnalité d’extraction incrémentielle des données&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Tout est disponible gratuitement sur GitHub et parfaitement documenté, de façon à ce que vous puissiez consacrer votre temps à personnaliser les résultats finaux, plutôt qu’à les concevoir et à les coder en partant de zéro.&lt;/p&gt;</value>
+  </data>
+  <data name="DynamicsCRM_DetailTagline" xml:space="preserve">
+    <value>Mettez au point un tableau de bord Power BI évolutif, sécurisé et extensible sur votre cloud ou sur une instance Dynamics 365 locale en quelques heures. Passez votre temps à personnaliser la solution en fonction de vos besoins professionnels, plutôt qu’à la concevoir en partant de zéro.</value>
+  </data>
+  <data name="DynamicsCRM_DetailTitle" xml:space="preserve">
+    <value>Analyse de la gestion des ventes adaptée à l’entreprise</value>
+  </data>
+  <data name="DynamicsCRM_IndexTagline" xml:space="preserve">
+    <value>Obtenez des éclairages importants auprès de vos clients Dynamics 365 dans Power BI à l’aide d’une solution évolutive, extensible et sécurisée. Adaptez vos personnalisations CRM, ajoutez des données provenant d’autres applications, telles que les recettes réelles de votre système ERP, et réutilisez les fonctionnalités du modèle de sécurité existant.</value>
+  </data>
+  <data name="DynamicsCRM_Partner" xml:space="preserve">
+    <value>Écrire</value>
+  </data>
+  <data name="DynamicsCRM_Title" xml:space="preserve">
+    <value>Gestion des ventes pour Dynamics 365</value>
+  </data>
+  <data name="Salesforce_Content" xml:space="preserve">
+    <value>&lt;p&gt;
+Le modèle de solution Salesforce contient tous les éléments nécessaires pour un tableau de bord de gestion des ventes sécurisé, évolutif et extensible avec des analyses interactives. En à peine quelques heures, mettez au point une solution de bout en bout, comprenant la plateforme d’intégration cloud Informatica ou la plateforme basée sur le cloud de Scribe (selon votre choix), une base de données cloud ou locale et des rapports Power&amp;#160;BI soignés (y compris un modèle de sécurité issu de votre propre instance Salesforce).
+&lt;/p&gt;
+
+&lt;p class="text-semibold"&gt;
+La gestion des ventes pour Salesforce simplifiée&amp;#160;:
+&lt;/p&gt;
+
+&lt;ul&gt;
+	&lt;li&gt;Familiarisez-vous rapidement avec les modèles de données préconfigurés pour les tableaux de bord analytiques.&lt;/li&gt;
+	&lt;li&gt;Utilisez une IU basée sur un assistant intuitif pour configurer et personnaliser l’intégration des données&lt;/li&gt;
+	&lt;li&gt;Obtenez des performances de qualité professionnelle en traitant d’importants volumes de données à partir de Salesforce&lt;/li&gt;
+	&lt;li&gt;Optimisez l’intégration des données grâce à la fonctionnalité d’extraction incrémentielle des données&lt;/li&gt;
+&lt;/ul&gt;</value>
+  </data>
+  <data name="Salesforce_DetailTagline" xml:space="preserve">
+    <value>Mettez au point un tableau de bord Salesforce Power BI évolutif, sécurisé et extensible en quelques heures. Passez votre temps à personnaliser la solution en fonction de vos besoins professionnels, plutôt qu’à la concevoir en partant de zéro.</value>
+  </data>
+  <data name="Salesforce_DetailTitle" xml:space="preserve">
+    <value>Analyse de la gestion des ventes adaptée à l’entreprise</value>
+  </data>
+  <data name="Salesforce_IndexTagline" xml:space="preserve">
+    <value>Obtenez des éclairages important auprès de votre portefeuille de clients Salesforce dans Power BI à l’aide d’une solution évolutive, extensible et sécurisée. Adaptez vos personnalisations Salesforce, créez des ensembles de données d’entreprise à partir de données provenant d’autres applications, telles que les recettes réelles de votre système ERP, et réutilisez les fonctionnalités du modèle de sécurité existant.</value>
+  </data>
+  <data name="Salesforce_Partner" xml:space="preserve">
+    <value>Informatica</value>
+  </data>
+  <data name="Salesforce_Title" xml:space="preserve">
+    <value>Gestion des ventes pour Salesforce</value>
+  </data>
+  <data name="SCCM_Content" xml:space="preserve">
+    <value>Le modèle de solution System Center Power BI contient tous les éléments nécessaires pour un tableau de bord SCCM avec des analyses interactives. Les données de votre installation SCCM sont collectées et stockées dans une base de données que vous pouvez étendre et personnaliser à votre convenance. Les données sont restituées dans des rapports Power BI performants et percutants. Vous pouvez également ajouter des informations sur vos utilisateurs et ordinateurs ou créer des assemblages (« mashups ») avec les données déjà collectées.</value>
+  </data>
+  <data name="SCCM_DetailTagline" xml:space="preserve">
+    <value>Mettez au point un tableau de bord System Center Configuration Manager extensible et scalable en quelques heures. Les informations sont collectées quotidiennement. Vous pouvez ainsi observer l’intégrité actuelle des ordinateurs de votre organisation et l’évolution des mesures clés au fil du temps. Pour agir vite, identifiez rapidement les machines qui ne sont plus à jour avec les mises à jour logicielles et la prévention réussie ou ayant échoué des infections par programmes malveillants.</value>
+  </data>
+  <data name="SCCM_DetailTitle" xml:space="preserve">
+    <value>Tableau de bord Power BI pour System Center Configuration Manager</value>
+  </data>
+  <data name="SCCM_IndexTagline" xml:space="preserve">
+    <value>Augmentez la productivité et l’efficacité des services informatiques en surveillant l’intégrité des ordinateurs, la protection contre les programmes malveillants, les mises à jour logicielles et l’inventaire logiciel au sein de votre organisation à l’aide d’analyses et de visualisations percutantes dans Power BI. Comparez vos principales mesures System Center Configuration Manager avec vos propres cibles personnalisables et découvrez les tendances au fil du temps. Identifiez les points névralgiques et obtenez les informations dont vous avez besoin pour comprendre les actions à réaliser.</value>
+  </data>
+  <data name="SCCM_Title" xml:space="preserve">
+    <value>System Center Configuration Manager</value>
+  </data>
+  <data name="Twitter_Content" xml:space="preserve">
+    <value>&lt;p&gt;Le modèle Twitter fournit une solution complète pour votre marque et vos campagnes. En quelques minutes, vous pouvez créer une solution de bout en bout qui extrait les données de Twitter, les enrichit à l’aide des fonctionnalités Machine Learning et les stocke dans SQL Azure. Vous pouvez ensuite tirer parti de nos rapports préconfigurés qui exploitent les technologies de recherche Microsoft pour analyser vos données Twitter et y ajouter des sources de données supplémentaires.&lt;/p&gt;
+&lt;p class="text-semibold"&gt;Gestion des campagnes et de la marque pour Twitter&amp;#160;:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Familiarisez-vous rapidement avec les modèles de données préconfigurés pour les rapports d’analyse des réseaux sociaux&lt;/li&gt;
+&lt;li&gt;Utilisez une interface intuitive sous forme d’Assistant pour définir vos requêtes de recherche Twitter et accélérer le flux de travail&lt;/li&gt;
+&lt;li&gt;Tirez parti des visualisations sophistiquées telles que le graphe réseau créé par Microsoft Research&lt;/li&gt;
+&lt;li&gt;Bénéficiez d’analyses en temps quasi réel, le processus étant lancé avec l’apparence d’un nouveau Tweet&lt;/li&gt;
+&lt;/ul&gt;</value>
+  </data>
+  <data name="Twitter_DetailTagline" xml:space="preserve">
+    <value>Analysez l’ensemble de vos données Twitter non structurées avec notre modèle de solution extensible et scalable. Suivez les sentiments, les thèmes qui reviennent le plus souvent et la portée des occasions importantes telles que les événements et campagnes. Surveillez en continu les réactions des utilisateurs concernant vos produits et services. Comparez les sentiments et le volume actuels aux données d’historique pour voir l’évolution des tendances au fil du temps.</value>
+  </data>
+  <data name="Twitter_DetailTitle" xml:space="preserve">
+    <value>Analyse de réseau social pour vos données Twitter</value>
+  </data>
+  <data name="Twitter_IndexTagline" xml:space="preserve">
+    <value>Analysez l’ensemble de vos données Twitter non structurées avec notre modèle de solution extensible et scalable. Suivez les sentiments, les thèmes qui reviennent le plus souvent et la portée des occasions importantes telles que les événements et campagnes. Surveillez en continu les réactions des utilisateurs concernant vos produits et services. Comparez les sentiments et le volume actuels aux données d’historique pour voir l’évolution des tendances au fil du temps.</value>
+  </data>
+  <data name="Twitter_Title" xml:space="preserve">
+    <value>Gestion des campagnes et de la marque pour Twitter</value>
+  </data>
+  <data name="SAP_Content" xml:space="preserve">
+    <value>&lt;p&gt;Le modèle SAP Accounts Receivable optimisé par Simplement vous permet d’analyser de façon simple et aisée les informations liées à différents domaines critiques des rapports sur les comptes clients. Vous pouvez commencer à analyser immédiatement toutes vos informations SAP AR.&lt;/p&gt;
+&lt;p class="text-semibold"&gt;Des rapports prédéfinis mettent en évidence les besoins courants liés aux rapports sur les comptes clients&amp;#160;:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Un affichage résumé du solde total actuel des comptes clients vous permet d’identifier rapidement les entreprises, clients, etc. posant problème.&lt;/li&gt;
+&lt;li&gt;Faites un retour en arrière pour analyser les tendances historiques des comptes clients et les soldes problématiques détectés à un moment donné sous forme de résumé.&lt;/li&gt;
+&lt;li&gt;Identifiez les clients pour lesquels plus de 90&amp;#160;soldes dépassent les seuils définis.&lt;/li&gt;
+&lt;li&gt;Les plages âgées des clients apparaissent sous la forme d’un pourcentage du total pour vous permettre d’identifier les clients ou entreprises sur-représentés dans certains domaines (plus de 90, 1-30, etc.).&lt;/li&gt;
+&lt;/ul&gt;</value>
+  </data>
+  <data name="SAP_DetailTagline" xml:space="preserve">
+    <value>Commencez à utiliser le modèle Accounts Receivable Reporting for SAP à l’aide de ces tableaux de bord Power BI simples et intuitifs conçus par Simplement. Analysez l’environnement SAP AR de votre organisation de façon rapide et efficace et accédez aux informations utiles pour identifier les problèmes majeurs.</value>
+  </data>
+  <data name="SAP_DetailTitle" xml:space="preserve">
+    <value>Accounts Receivable Reporting for SAP</value>
+  </data>
+  <data name="SAP_IndexTagline" xml:space="preserve">
+    <value>Analysez l’environnement SAP Accounts Receivables de votre organisation de façon rapide et efficace dans Power BI. Visualisez vos comptes clients par client, entreprise, numéro de document et âge. Gagnez en visibilité, approfondissez votre analyse et accélérez la prise de décisions. Faites un retour en arrière et suivez l’évolution de vos comptes clients dans le temps. 
+Ce modèle est disponible en version préliminaire publique. Les commentaires des utilisateurs sont donc les bienvenus. Testez-le dans le cadre d’une évaluation et faites-nous part de votre avis (aspects positifs, aspects négatifs et améliorations souhaitables).</value>
+  </data>
+  <data name="SAP_Title" xml:space="preserve">
+    <value>Accounts Receivable for SAP</value>
+  </data>
+  <data name="Dynamics365_PSA_Content" xml:space="preserve">
+    <value>&lt;p&gt;Le modèle de solution Microsoft Dynamics&amp;#160;365 for Project Service Automation contient tout ce qui est nécessaire à l’obtention de tableaux de bord sécurisés, scalables et extensibles pour la gestion des pratiques, des ressources et des comptes. En à peine quelques heures, vous pouvez mettre au point une solution de bout en bout à l’aide du service d’exportation de données Dynamics&amp;#160;365, d’un magasin de données SQL Azure et des rapports Power&amp;#160;BI soignés (y compris un modèle de sécurité issu de votre propre instance Dynamics&amp;#160;365).&lt;/p&gt;&lt;p class="text-semibold"&gt;Gestion des pratiques pour le modèle de solution Dynamics 365 for Project Service Automation&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Démarrez rapidement avec un modèle de données prédéfini pour Dynamics&amp;#160;365 for Project Service Automation.&lt;/li&gt;&lt;li&gt;Créez des tableaux de bord à partir de rapports prédéfinis destinés aux responsables des pratiques, des ressources et des comptes.&lt;/li&gt;&lt;li&gt;Les rapports de gestion des pratiques présentent la marge brute, les ventes, le chiffre d’affaires, le coût, les heures, l’utilisation et les performances des pratiques.&lt;/li&gt;&lt;li&gt;Les rapports de gestion des ressources présentent l’utilisation des rôles et ressources, les prévisions et la demande de ressources.&lt;/li&gt;&lt;li&gt;Les rapports de gestion des comptes présentent les ventes, le pipeline de vente, la facturation, les performances des contrats et des clients.&lt;/li&gt;&lt;li&gt;Étendez le modèle de données et modifiez les rapports en fonction des besoins propres à votre organisation.&lt;/li&gt;&lt;li&gt;Utilisez une interface intuitive sous forme d’Assistant pour configurer et personnaliser l’intégration des données.&lt;/li&gt;&lt;li&gt;Obtenez des performances de qualité professionnelle en traitant d’importants volumes de données à partir de Dynamics&amp;#160;365 à l’aide du service d’exportation de données.&lt;/li&gt;&lt;li&gt;Optimisez l’intégration des données avec la fonctionnalité d’extraction incrémentielle des données à l’aide du service d’exportation de données de Dynamics&amp;#160;365.&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Tout est disponible gratuitement sur GitHub et parfaitement documenté, de façon à ce que vous puissiez consacrer votre temps à personnaliser les résultats finaux, plutôt qu’à les concevoir et à les coder en partant de zéro.&lt;/p&gt;</value>
+  </data>
+  <data name="Dynamics365_PSA_DetailTagline" xml:space="preserve">
+    <value>Configurez en quelques heures une solution Power BI de classe Entreprise pour la gestion des pratiques, des ressources et des comptes au niveau de votre instance Dynamics 365 for Project Service Automation.  Commencez avec le contenu et les modèles prédéfinis et modifiez-les en fonction des besoins de votre organisation.</value>
+  </data>
+  <data name="Dynamics365_PSA_DetailTitle" xml:space="preserve">
+    <value>Analyse de la gestion des services professionnels adaptés à l’entreprise</value>
+  </data>
+  <data name="Dynamics365_PSA_IndexTagline" xml:space="preserve">
+    <value>Le modèle de solution Microsoft Dynamics 365 for Project Service Automation se concentre sur les informations indispensables aux responsables des pratiques, des ressources et des comptes de l’organisme de service professionnel.  Il inclut du contenu analytique pour les indicateurs de performance clés financiers, tels que le chiffre d’affaires, le coût et la marge.  Il contient également d’autres indicateurs de performance clés pertinents tels que l’utilisation, la mesure des ventes, la facturation et la demande de ressources.</value>
+  </data>
+  <data name="Dynamics365_PSA_Title" xml:space="preserve">
+    <value>Microsoft Dynamics 365 for Project Service Automation</value>
+  </data>
+  <data name="Bing_News_Content" xml:space="preserve">
+    <value>&lt;p class="text-semibold"&gt;Recherche avancée pour Bing Actualités&amp;#160;:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Familiarisez-vous rapidement avec les modèles de données prédéfinis pour bénéficier d’une expérience de recherche avancée.&lt;/li&gt;
+&lt;li&gt;Utilisez une interface intuitive sous forme d’Assistant pour définir vos requêtes de recherche et accélérer le flux de travail&lt;/li&gt;
+&lt;li&gt;Exploitez les algorithmes Machine Learning incluant des modèles supervisés et non supervisés&lt;/li&gt;
+&lt;li&gt;Dans le navigateur, accédez facilement à l’article choisi à partir du rapport Power&amp;#160;BI&lt;/li&gt;
+&lt;/ul&gt;</value>
+  </data>
+  <data name="Bing_News_DetailTagline" xml:space="preserve">
+    <value>Le modèle Bing Actualités offre une fonctionnalité unique qui vous permet d’accéder à des articles traitant de thèmes qui vous intéressent provenant de centaines de médias à l’aide de techniques Machine Learning sophistiquées. En quelques minutes, vous pouvez générer un pipeline de bout en bout qui associe un large éventail de services Azure dont Azure SQL, Azure ML, Cognitive Services, Logic Apps, Azure Functions, etc. Vous pouvez ensuite explorer nos rapports prédéfinis qui vous aident à effectuer votre analyse et à trouver les articles qui vous correspondent.</value>
+  </data>
+  <data name="Bing_News_DetailTitle" xml:space="preserve">
+    <value>Trouvez instantanément les articles qui vous correspondent</value>
+  </data>
+  <data name="Bing_News_IndexTagline" xml:space="preserve">
+    <value>Filtrez et triez les articles d’actualités par critère, comme le sentiment, le sujet ou l’entité et trouvez les articles d’actualités les plus importants et les plus pertinents par rapport à votre requête. Parcourez les extraits et accédez facilement aux articles choisis pour découvrir la façon dont le terme de votre recherche (nom de marque, produit, etc.) est perçu dans les actualités.</value>
+  </data>
+  <data name="Bing_News_Title" xml:space="preserve">
+    <value>Recherche avancée pour Bing Actualités</value>
+  </data>
+  <data name="Meta_LocJobId" xml:space="preserve">
+    <value>201</value>
+  </data>
+</root>

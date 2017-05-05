@@ -1,0 +1,25 @@
+<h3>
+    FAQ Example
+    <ul class="linkList linkList-horizontal pull-right text-mini">
+        <li><a href="#" class="toggler" data-set="faq" data-force="open">Open!</a></li>
+        <li><a href="#" class="toggler" data-set="faq" data-force="close">Close!</a></li>
+        <li><a href="#" class="toggler" data-set="faq">Toggle!</a></li>
+    </ul>
+</h3>
+<p><code>class="toggler" data-set="faq" data-force="open"</code> and <code>class="toggled" data-set="faq"</code></p>
+<p>Feel free to style the FAQ however you like, but toggle provides the base functionality.</p>
+<ul>
+    <li>
+        <a href="#" class="toggler">What is a Request Unit?</a>
+        <div class="toggled" data-set="faq">
+            <p>A Request Unit (RU) is the measure of throughput in DocumentDB. 1 RU corresponds to the throughput of the GET of a 1KB document. Every operation in DocumentDB, including reads, writes, SQL queries, and stored procedure executions has a deterministic Request Unit value based on the throughput required to complete the operation. Instead of thinking about CPU, IO and memory and how they each impact your application throughput, you can think in terms of a single Request Unit measure.</p>
+            <p>For more information about Request Units and for help determining your collection needs, please go <a href="https://go.microsoft.com/fwlink/?linkid=735026&amp;clcid=0x409">here</a></p>
+        </div>
+    </li>
+    <li>
+        <a href="#" class="toggler">How does Request Unit usage show up on my bill?</a>
+        <div class="toggled" data-set="faq">
+            <p>You are billed hourly for each collection created within a DocumentDB account. Each collection is billed a flat, predictable hourly rate based on the number of Request Units that have been provisioned during that hourly period.</p>
+        </div>
+    </li>
+</ul>

@@ -1,0 +1,1416 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" id="root">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="access_Content" xml:space="preserve">
+    <value>集中資料，用您建立的查詢加以簡化，然後以圖形化方式分享報表。</value>
+  </data>
+  <data name="access_Heading" xml:space="preserve">
+    <value>分析您的 Access 資料並視覺化</value>
+  </data>
+  <data name="access_InfoContent" xml:space="preserve">
+    <value>&lt;h3&gt;將資料集中一處&lt;/h3&gt;
+&lt;p&gt;從多個資料來源匯入大量資料到 Power BI Desktop。在提取資料之前先編輯，或者在匯入資料之後加以轉換與設計。&lt;/p&gt;
+&lt;h3&gt;以全新方式探索您的資料&lt;/h3&gt;
+&lt;p&gt;有了各種可自訂的報表之後，您就能以視覺化方式探索資料。只要拖放您想檢視的欄位，就能建立視覺效果。有各種圖表及圖形供您選擇，敘說資料背後的故事。&lt;/p&gt;
+&lt;h3&gt;讓您的資料發揮作用&lt;/h3&gt;
+&lt;p&gt;當您建立報表之後，就可以像其他檔案一樣共用此檔案。您也可以發行到 Power BI 服務，讓同事也能與其互動。&lt;/p&gt;</value>
+  </data>
+  <data name="access_InfoHeading" xml:space="preserve">
+    <value>連接到 Power BI 即可從一處取得所有資料，協助您以前所未有的速度制定更佳決策</value>
+  </data>
+  <data name="access_Name" xml:space="preserve">
+    <value>Access</value>
+  </data>
+  <data name="active_directory_Content" xml:space="preserve">
+    <value>集中資料，用您建立的查詢加以簡化，然後以圖形化方式分享報表。 </value>
+  </data>
+  <data name="active_directory_Heading" xml:space="preserve">
+    <value>分析 Active Directory 的資料並加以視覺化</value>
+  </data>
+  <data name="active_directory_InfoContent" xml:space="preserve">
+    <value>&lt;h3&gt;將資料集中一處&lt;/h3&gt;
+&lt;p&gt;從多個資料來源匯入大量資料到 Power BI Desktop。在提取資料之前先編輯，或者在匯入資料之後加以轉換與設計。&lt;/p&gt;
+&lt;h3&gt;以全新方式探索您的資料&lt;/h3&gt;
+&lt;p&gt;有了各種可自訂的報表之後，您就能以視覺化方式探索資料。只要拖放您想檢視的欄位，就能建立視覺效果。有各種圖表及圖形供您選擇，敘說資料背後的故事。&lt;/p&gt;
+&lt;h3&gt;讓您的資料發揮作用&lt;/h3&gt;
+&lt;p&gt;當您建立報表之後，就可以像其他檔案一樣共用此檔案。您也可以發行到 Power BI 服務，讓同事也能與其互動。&lt;/p&gt;</value>
+  </data>
+  <data name="active_directory_InfoHeading" xml:space="preserve">
+    <value>連接到 Power BI 即可從一處取得所有資料，協助您以前所未有的速度制定更佳決策</value>
+  </data>
+  <data name="active_directory_Name" xml:space="preserve">
+    <value>Active Directory</value>
+  </data>
+  <data name="acumatica_Content" xml:space="preserve">
+    <value>追蹤您的商機管道、監視進度，在 Power BI 的 Acumatica 內容套件中即時查看專案動向。</value>
+  </data>
+  <data name="acumatica_Heading" xml:space="preserve">
+    <value>從 Acumatica 資料取得真正深入的資訊</value>
+  </data>
+  <data name="acumatica_InfoContent" xml:space="preserve">
+    <value>&lt;h3&gt;取得派得上用場的答案&lt;/h3&gt;
+&lt;p&gt;想像一下，您要查詢不同時間、階段或區域的電子商務商機，或者依不同要素組合查詢，只要在出色的互動式視覺效果中提問，就能得到答案。您能夠以自然語言向 Power BI 提問，從 Acumatica 取得各種有意義又功能強大的解答。&lt;/p&gt;
+&lt;h3&gt;讓資料為您服務&lt;/h3&gt;
+&lt;p&gt;您可以開始計算即時最大投資報酬率了，因為 Power BI 和 Acumatica 能幫您探索龐大商機，而且能立刻將商機付諸實現。&lt;/p&gt;
+&lt;h3&gt;以全新方式探索您的資料&lt;/h3&gt;
+&lt;p&gt;籠統概括的資料也可以，但如果能再明確一點會更好。當您在 Power BI 使用自由格式拖放畫布探索資料時，可以找到對您至關重要的項目，並加以醒目提示。然後從一系列眾多的現代化視覺效果中，選擇所需，用來撰寫報表。&lt;/p&gt;</value>
+  </data>
+  <data name="acumatica_InfoHeading" xml:space="preserve">
+    <value>現在透過 Power BI 連接，您可以從 Acumatica 資料取得即時深入資訊。</value>
+  </data>
+  <data name="acumatica_Name" xml:space="preserve">
+    <value>Acumatica</value>
+  </data>
+  <data name="adobe_analytics_Content" xml:space="preserve">
+    <value>追蹤特別訪客的足跡，觀察訪客在您網站上的平均使用時間，或者您也可以深入探索頁面檢視的詳細資料。</value>
+  </data>
+  <data name="adobe_analytics_Heading" xml:space="preserve">
+    <value>將 Adobe Analytics 資料視覺化並加以探索</value>
+  </data>
+  <data name="adobe_analytics_InfoContent" xml:space="preserve">
+    <value>&lt;h3&gt;探索對您至關重要的度量&lt;/h3&gt;
+&lt;p&gt;儀表板上的每種視覺效果，都展示出有關報表的重要度量。按一下視覺效果，以存取基礎資料。深入探索資料，以獲取新的深入資訊。&lt;/p&gt;
+&lt;h3&gt;自訂儀表板和報表&lt;/h3&gt;
+&lt;p&gt;切換到編輯模式，一邊檢視報表，一邊選擇您要監視的欄位。報表中的任何視覺效果，都可以釘選到儀表板上。&lt;/p&gt;
+&lt;h3&gt;重新整理排程&lt;/h3&gt;
+&lt;p&gt;連線到 Power BI，以設定現成的儀表板。在一開始匯入之後，儀表板和報表仍持續每日更新。您可以控制重新整理排程，以便在需要時取得報表。&lt;/p&gt;</value>
+  </data>
+  <data name="adobe_analytics_InfoHeading" xml:space="preserve">
+    <value>有了 Power BI 之後，您可以在單一的儀表板上，將資料度量視覺化，助您制定更佳決策。</value>
+  </data>
+  <data name="adobe_analytics_Name" xml:space="preserve">
+    <value>Adobe Analytics</value>
+  </data>
+  <data name="analysis_server_Content" xml:space="preserve">
+    <value>從資料視覺效果中，您可以與大量資料互動、建立動態報表及交互式 Web 應用程式，並獲取深入資訊。</value>
+  </data>
+  <data name="analysis_server_Heading" xml:space="preserve">
+    <value>分析 SQL Server Analysis Services 資料並加以視覺化</value>
+  </data>
+  <data name="analysis_server_InfoContent" xml:space="preserve">
+    <value>&lt;h3&gt;查詢資料並加以視覺化&lt;/h3&gt;
+&lt;p&gt;只要以 Power BI 連接到資料庫，就能用您已經有的資料和度量，來建立動態交互式 Web 應用程式。&lt;/p&gt;
+&lt;h3&gt;以全新方式探索您的資料&lt;/h3&gt;
+&lt;p&gt;不論您想要結合關聯式或非關聯式資料，以取得更全面檢視或建立動態報表，藉此探索新的深入資訊，Power BI 都能讓您以新方式瀏覽資料。&lt;/p&gt;
+&lt;h3&gt;讓您的資料發揮作用&lt;/h3&gt;
+&lt;p&gt;將資料集合一處，快速獲取貴企業的 360 度全方位檢視。與您的資料互動以取得答案，並建立極為視覺化的報表，告訴您資料背後的故事。&lt;/p&gt;</value>
+  </data>
+  <data name="analysis_server_InfoHeading" xml:space="preserve">
+    <value>連接 Power BI 之後，您將能夠從一個位置取得所有資料，制定更佳決策，速度之快，前所未有</value>
+  </data>
+  <data name="analysis_server_Name" xml:space="preserve">
+    <value>SQL Server Analysis Services</value>
+  </data>
+  <data name="appfigures_Content" xml:space="preserve">
+    <value>追蹤重要統計來監測使用者如何使用您的 App。使用 Power BI 和 appFigures 內容套件就很容易辦到。</value>
+  </data>
+  <data name="appfigures_Heading" xml:space="preserve">
+    <value>瀏覽及分析 appFigures 資料</value>
+  </data>
+  <data name="appfigures_InfoContent" xml:space="preserve">
+    <value>&lt;h3&gt;為您的 App 使用量問題取得清楚明瞭的答案&lt;/h3&gt;
+&lt;p&gt;可以詢問您資料的問題，例如在一段時間內有多少 App 下載量。或者依據區域和其他參數，顯示點擊活動。&lt;/p&gt;
+&lt;h3&gt;以新方式瀏覽資料&lt;/h3&gt;
+&lt;p&gt;您可以選取 Power BI 圖格，深入探索基礎圖表，以瀏覽資料。暫留在項目上，可提供您詳細資訊。您可以輕鬆分析 App 銷售量、下載量和廣告統計資料。&lt;/p&gt;
+&lt;h3&gt;讓 App 資料準備好為您服務&lt;/h3&gt;
+&lt;p&gt;使用 Power BI 來擷取 appFigures 資料、以現代化視覺效果瀏覽資料集，並產生易於閱讀的報表，型塑更深入的資訊。這些結果也可以釘選到儀表板上。&lt;/p&gt;</value>
+  </data>
+  <data name="appfigures_InfoHeading" xml:space="preserve">
+    <value>透過 Power BI 帳戶連接到 appFigures，進而迅速解譯 App 使用量資料並採取行動</value>
+  </data>
+  <data name="appfigures_Name" xml:space="preserve">
+    <value>appFigures</value>
+  </data>
+  <data name="azure_audit_logs_Content" xml:space="preserve">
+    <value>分析 Azure 稽核記錄中的資訊並加以視覺化，從而探索新的深入資訊。</value>
+  </data>
+  <data name="azure_audit_logs_Heading" xml:space="preserve">
+    <value>使用 Power BI 將Azure 稽核記錄視覺化</value>
+  </data>
+  <data name="azure_audit_logs_InfoContent" xml:space="preserve">
+    <value>&lt;h3&gt;在一個位置查看所有資料&lt;/h3&gt;
+&lt;p&gt;連接到 Power BI 以設定可自訂儀表板儀表板上的圖格提供您特定作業或事件的深入資訊。&lt;/p&gt;
+&lt;h3&gt;向下探索以獲取新的深入資訊&lt;/h3&gt;
+&lt;p&gt;按一下儀表板上的任何視覺效果，以設定詳細的報表。篩選報表或加入您想要監測的欄位。將此檢視釘選到儀表板上。&lt;/p&gt;
+&lt;h3&gt;即時資料，彈指之間取得&lt;/h3&gt;
+&lt;p&gt;將您的資料連接到 Power BI 之後，儀表板和基礎報表將每日重新整理。需要其他重新整理間隔嗎？ 您可以控制資料集的重新整理時程。&lt;/p&gt;</value>
+  </data>
+  <data name="azure_audit_logs_InfoHeading" xml:space="preserve">
+    <value>有了 Power BI 之後，您就可以將 Azure 稽核記錄的資料視覺化，助您探索新的深入資訊，制定更佳決策。</value>
+  </data>
+  <data name="azure_audit_logs_Name" xml:space="preserve">
+    <value>Azure 稽核記錄</value>
+  </data>
+  <data name="azure_blob_storage_Content" xml:space="preserve">
+    <value>Power BI 可迅速地將您位於幾乎所有資料庫中的大量資料，轉為極具視覺效果且易於分享的互動式報表與儀表板。</value>
+  </data>
+  <data name="azure_blob_storage_Heading" xml:space="preserve">
+    <value>找出巨量資料背後的意義</value>
+  </data>
+  <data name="azure_blob_storage_InfoContent" xml:space="preserve">
+    <value>&lt;h3&gt;查詢資料並加以視覺化&lt;/h3&gt;
+&lt;p&gt;只要以 Power BI 連接到資料庫，就能用您已經有的資料和度量，來建立動態交互式 Web 應用程式。&lt;/p&gt;
+&lt;h3&gt;以全新方式探索您的資料&lt;/h3&gt;
+&lt;p&gt;不論您想要結合關聯式或非關聯式資料，以取得更全面檢視或建立動態報表，藉此探索新的深入資訊，Power BI 都能讓您以新方式瀏覽資料。&lt;/p&gt;
+&lt;h3&gt;讓您的資料發揮作用&lt;/h3&gt;
+&lt;p&gt;將資料集合一處，快速獲取貴企業的 360 度全方位檢視。與您的資料互動以取得答案，並建立極為視覺化的報表，告訴您資料背後的故事。&lt;/p&gt;</value>
+  </data>
+  <data name="azure_blob_storage_InfoHeading" xml:space="preserve">
+    <value>連接 Power BI 之後，您將能夠從一個位置取得所有資料，制定更佳決策，速度之快，前所未有</value>
+  </data>
+  <data name="azure_blob_storage_Name" xml:space="preserve">
+    <value>Azure Blob 儲存體</value>
+  </data>
+  <data name="azure_documentdb_Content" xml:space="preserve">
+    <value>Power BI 可迅速地將您位於幾乎所有資料庫中的大量資料，轉為極具視覺效果且易於分享的互動式報表與儀表板。</value>
+  </data>
+  <data name="azure_documentdb_Heading" xml:space="preserve">
+    <value>找出巨量資料背後的意義</value>
+  </data>
+  <data name="azure_documentdb_InfoContent" xml:space="preserve">
+    <value>&lt;h3&gt;查詢資料並加以視覺化&lt;/h3&gt;
+&lt;p&gt;只要以 Power BI 連接到資料庫，就能用您已經有的資料和度量，來建立動態交互式 Web 應用程式。&lt;/p&gt;
+&lt;h3&gt;以全新方式探索您的資料&lt;/h3&gt;
+&lt;p&gt;不論您想要結合關聯式或非關聯式資料，以取得更全面檢視或建立動態報表，藉此探索新的深入資訊，Power BI 都能讓您以新方式瀏覽資料。&lt;/p&gt;
+&lt;h3&gt;讓您的資料發揮作用&lt;/h3&gt;
+&lt;p&gt;將資料集合一處，快速獲取貴企業的 360 度全方位檢視。與您的資料互動以取得答案，並建立極為視覺化的報表，告訴您資料背後的故事。&lt;/p&gt;</value>
+  </data>
+  <data name="azure_documentdb_InfoHeading" xml:space="preserve">
+    <value>連接 Power BI 之後，您將能夠從一個位置取得所有資料，制定更佳決策，速度之快，前所未有</value>
+  </data>
+  <data name="azure_documentdb_Name" xml:space="preserve">
+    <value>Azure DocumentDB 搶鮮版 (Beta)</value>
+  </data>
+  <data name="azure_marketplace_Content" xml:space="preserve">
+    <value>運用有關銷售量、下載次數、安裝次數的即時報表與動態儀表板，監視及提升在 Marketplace 上的銷售量。</value>
+  </data>
+  <data name="azure_marketplace_Heading" xml:space="preserve">
+    <value>管理 Azure Marketplace 銷售分析</value>
+  </data>
+  <data name="azure_marketplace_InfoContent" xml:space="preserve">
+    <value>&lt;h3&gt;與資料互動&lt;/h3&gt;
+&lt;p&gt;連接之後，您的資料就會顯示在現成可用且由多個視覺效果與磚所組成的儀表板中。在任何磚上按一下，即可探索基礎報表。篩選資料或編輯要看到哪些欄位以了解對您重要的指標。&lt;/p&gt;
+&lt;h3&gt;提問與解答&lt;/h3&gt;
+&lt;p&gt;如果您要求查看「依日期的總費用」，會得到令人驚艷的互動式視覺效果作答。有了 Power BI，您可以使用自然語言提出問題，並取得以適當圖表和圖形表示的解答。&lt;/p&gt;
+&lt;h3&gt;重新整理排程&lt;/h3&gt;
+&lt;p&gt;儀表板和基礎報表會每日重新整理。您可控制資料集的重新整理排程及修改其頻率。&lt;/p&gt;</value>
+  </data>
+  <data name="azure_marketplace_InfoHeading" xml:space="preserve">
+    <value>連接 Power BI 之後，您將能夠從一個位置取得所有資料，制定更佳決策，速度之快，前所未有</value>
+  </data>
+  <data name="azure_marketplace_Name" xml:space="preserve">
+    <value>Azure Marketplace</value>
+  </data>
+  <data name="azure_mobile_engagement_Content" xml:space="preserve">
+    <value>追蹤新使用者和活躍使用者，或是監測當機和錯誤計數。自訂您的儀表板，以追蹤對您至關重要的度量。</value>
+  </data>
+  <data name="azure_mobile_engagement_Heading" xml:space="preserve">
+    <value>在 Power BI 監測 Azure Mobile Engagement 資料</value>
+  </data>
+  <data name="azure_mobile_engagement_InfoContent" xml:space="preserve">
+    <value>&lt;h3&gt;取得全域檢視&lt;/h3&gt;
+&lt;p&gt;連接到 Power BI 之後，就能以現成的儀表板顯示您的資料，並展示重要的度量。檢視使用者、工作階段長度、裝置計數的度量，此外還有更多資訊。在任何圖格上按一下，就能存取基礎報表。&lt;/p&gt;
+&lt;h3&gt;以全新方式探索您的資料&lt;/h3&gt;
+&lt;p&gt;當您在儀表板上按一下圖格時，就能存取更多可篩選或編輯的資料。自訂報表以追蹤對您至關重要的資料。釘選「我的最愛」報表到儀表板。&lt;/p&gt;
+&lt;h3&gt;重新整理排程&lt;/h3&gt;
+&lt;p&gt;將您的資料連接到 Power BI 之後，儀表板和基礎報表將每日重新整理。需要其他重新整理間隔嗎？ 您可以控制資料集的重新整理時程。&lt;/p&gt;</value>
+  </data>
+  <data name="azure_mobile_engagement_InfoHeading" xml:space="preserve">
+    <value>將您的 Azure Mobile Engagement 帳戶連接到 Power BI 之後，就可以將您的資料在一個位置視覺化，以便更快制定更加決策。</value>
+  </data>
+  <data name="azure_mobile_engagement_Name" xml:space="preserve">
+    <value>Azure Mobile Engagement</value>
+  </data>
+  <data name="azure_sql_database_Content" xml:space="preserve">
+    <value>從資料視覺效果中，您可以與大量資料互動、建立動態報表及交互式 Web 應用程式，並獲取深入資訊。</value>
+  </data>
+  <data name="azure_sql_database_Heading" xml:space="preserve">
+    <value>分析 Azure SQL Database 資料並加以視覺化</value>
+  </data>
+  <data name="azure_sql_database_InfoContent" xml:space="preserve">
+    <value>&lt;h3&gt;查詢資料並加以視覺化&lt;/h3&gt;
+&lt;p&gt;只要以 Power BI 連接到資料庫，就能用您已經有的資料和度量，來建立動態交互式 Web 應用程式。&lt;/p&gt;
+&lt;h3&gt;以全新方式探索您的資料&lt;/h3&gt;
+&lt;p&gt;不論您想要結合關聯式或非關聯式資料，以取得更全面檢視或建立動態報表，藉此探索新的深入資訊，Power BI 都能讓您以新方式瀏覽資料。&lt;/p&gt;
+&lt;h3&gt;讓您的資料發揮作用&lt;/h3&gt;
+&lt;p&gt;將資料集合一處，快速獲取貴企業的 360 度全方位檢視。與您的資料互動以取得答案，並建立極為視覺化的報表，告訴您資料背後的故事。&lt;/p&gt;</value>
+  </data>
+  <data name="azure_sql_database_InfoHeading" xml:space="preserve">
+    <value>連接 Power BI 之後，您將能夠從一個位置取得所有資料，制定更佳決策，速度之快，前所未有</value>
+  </data>
+  <data name="azure_sql_database_Name" xml:space="preserve">
+    <value>Azure SQL Database</value>
+  </data>
+  <data name="azure_sql_data_warehouse_Content" xml:space="preserve">
+    <value>從資料視覺效果中，您可以與大量資料互動、建立動態報表及交互式 Web 應用程式，並獲取深入資訊。</value>
+  </data>
+  <data name="azure_sql_data_warehouse_Heading" xml:space="preserve">
+    <value>分析 Azure SQL 資料倉儲資料並加以視覺化</value>
+  </data>
+  <data name="azure_sql_data_warehouse_InfoContent" xml:space="preserve">
+    <value>&lt;h3&gt;查詢資料並加以視覺化&lt;/h3&gt;
+&lt;p&gt;只要以 Power BI 連接到資料庫，就能用您已經有的資料和度量，來建立動態交互式 Web 應用程式。&lt;/p&gt;
+&lt;h3&gt;以全新方式探索您的資料&lt;/h3&gt;
+&lt;p&gt;不論您想要結合關聯式或非關聯式資料，以取得更全面檢視或建立動態報表，藉此探索新的深入資訊，Power BI 都能讓您以新方式瀏覽資料。&lt;/p&gt;
+&lt;h3&gt;讓您的資料發揮作用&lt;/h3&gt;
+&lt;p&gt;將資料集合一處，快速獲取貴企業的 360 度全方位檢視。與您的資料互動以取得答案，並建立極為視覺化的報表，告訴您資料背後的故事。&lt;/p&gt;</value>
+  </data>
+  <data name="azure_sql_data_warehouse_InfoHeading" xml:space="preserve">
+    <value>連接 Power BI 之後，您將能夠從一個位置取得所有資料，制定更佳決策，速度之快，前所未有</value>
+  </data>
+  <data name="azure_sql_data_warehouse_Name" xml:space="preserve">
+    <value>Azure SQL 資料倉儲</value>
+  </data>
+  <data name="azure_table_storage_Content" xml:space="preserve">
+    <value>Power BI 可迅速地將您位於幾乎所有資料庫中的大量資料，轉為極具視覺效果且易於分享的互動式報表與儀表板。</value>
+  </data>
+  <data name="azure_table_storage_Heading" xml:space="preserve">
+    <value>找出巨量資料背後的意義</value>
+  </data>
+  <data name="azure_table_storage_InfoContent" xml:space="preserve">
+    <value>&lt;h3&gt;查詢資料並加以視覺化&lt;/h3&gt;
+&lt;p&gt;只要以 Power BI 連接到資料庫，就能用您已經有的資料和度量，來建立動態交互式 Web 應用程式。&lt;/p&gt;
+&lt;h3&gt;以全新方式探索您的資料&lt;/h3&gt;
+&lt;p&gt;不論您想要結合關聯式或非關聯式資料，以取得更全面檢視或建立動態報表，藉此探索新的深入資訊，Power BI 都能讓您以新方式瀏覽資料。&lt;/p&gt;
+&lt;h3&gt;讓您的資料發揮作用&lt;/h3&gt;
+&lt;p&gt;將資料集合一處，快速獲取貴企業的 360 度全方位檢視。與您的資料互動以取得答案，並建立極為視覺化的報表，告訴您資料背後的故事。&lt;/p&gt;</value>
+  </data>
+  <data name="azure_table_storage_InfoHeading" xml:space="preserve">
+    <value>連接 Power BI 之後，您將能夠從一個位置取得所有資料，制定更佳決策，速度之快，前所未有</value>
+  </data>
+  <data name="azure_table_storage_Name" xml:space="preserve">
+    <value>Azure 表格儲存體</value>
+  </data>
+  <data name="circuit_id_Content" xml:space="preserve">
+    <value>追蹤您的來電和訊息等度量，包含像是一天中不同時間的來電次數、來電類型、通話時間等。</value>
+  </data>
+  <data name="circuit_id_Heading" xml:space="preserve">
+    <value>追蹤並監視 Circuit ID 資料</value>
+  </data>
+  <data name="circuit_id_InfoContent" xml:space="preserve">
+    <value>&lt;h3&gt;在一個位置查看所有資料&lt;/h3&gt;
+&lt;p&gt;連接到 Power BI 以設定策劃的儀表板和報表，向您顯示直接由資料而來的深入資訊。如需詳細資訊，請按一下任何圖格，以向下深入探索資料。&lt;/p&gt;
+&lt;h3&gt;提問與解答&lt;/h3&gt;
+&lt;p&gt;如果您提出了問題，像是「告訴我每天有多少通來電」，您得到的答案就會是出色的、互動式視覺效果。有了 Power BI，您可以使用自然語言提出問題，並取得以適當圖表和圖形表示的解答。&lt;/p&gt;
+&lt;h3&gt;自訂儀表板和報表&lt;/h3&gt;
+&lt;p&gt;切換到編輯模式，一邊檢視報表，一邊選擇您要監視的欄位。報表中的任何視覺效果，都可以釘選到儀表板上。&lt;/p&gt;</value>
+  </data>
+  <data name="circuit_id_InfoHeading" xml:space="preserve">
+    <value>當您連接 Circuit ID 到 Power BI 時，就可以將所有資料在一個位置視覺化，讓新的深入資訊浮現，以便制定更佳的商務決策。</value>
+  </data>
+  <data name="circuit_id_Name" xml:space="preserve">
+    <value>電路識別碼</value>
+  </data>
+  <data name="comscore_Content" xml:space="preserve">
+    <value>了解您的客戶如何使用不同的媒體。找出可以付諸實現的深入資訊，向客戶提供更佳的支援。</value>
+  </data>
+  <data name="comscore_Heading" xml:space="preserve">
+    <value>視覺化 Web 分析資料並並獲取深入資訊</value>
+  </data>
+  <data name="comscore_InfoContent" xml:space="preserve">
+    <value>&lt;h3&gt;在單一儀表板上取得所有資料的視覺效果&lt;/h3&gt;
+&lt;p&gt;將 comScore Digital Analytics 帳戶與 Power BI 連接之後，您將看到現成的儀表板，以及將策劃度量視覺化的圖格，包含頁面檢視、瀏覽量和 Web 分析。&lt;/p&gt;
+&lt;h3&gt;向下探索以獲取新的深入資訊&lt;/h3&gt;
+&lt;p&gt;按一下儀表板上的任何視覺效果，以設定詳細的報表。篩選報表或加入您想要監測的欄位。將此檢視釘選到儀表板上。&lt;/p&gt;
+&lt;h3&gt;重新整理排程&lt;/h3&gt;
+&lt;p&gt;儀表板和基礎報表會每日重新整理。您可以控制資料重新整理的頻率。&lt;/p&gt;</value>
+  </data>
+  <data name="comscore_InfoHeading" xml:space="preserve">
+    <value>您可以連接 comScore Digital Analytix 資料和 Power BI，取得所有重要資料的視覺效果，以便制定更佳的商務決策。</value>
+  </data>
+  <data name="comscore_Name" xml:space="preserve">
+    <value>comScore</value>
+  </data>
+  <data name="csv_Content" xml:space="preserve">
+    <value>迅速從 CSV 檔案建立具視覺效果的報表、分析與儀表板，而且全都極具互動性且易於分享。</value>
+  </data>
+  <data name="csv_Heading" xml:space="preserve">
+    <value>為 CSV 檔案資料取得更佳的儀表板與報表</value>
+  </data>
+  <data name="csv_InfoContent" xml:space="preserve">
+    <value>&lt;h3&gt;分析並最佳化&lt;/h3&gt;
+&lt;p&gt;輕鬆使用現成的分析報表、儀表板與 KPI，取得正確的資料。利用篩選及詳細報表向下鑽研，獲取可付諸行動的深入資訊。&lt;/p&gt;
+&lt;h3&gt;提出問題。取得答案。&lt;/h3&gt;
+&lt;p&gt;以自然的語言對 Power BI 提出問題，像是「11 月中我們有多少使用者？」 最新圖表會顯示結果，您可加以釘選至儀表板，以便持續監視。&lt;/p&gt;
+&lt;h3&gt;將正確的資訊交給正確的人&lt;/h3&gt;
+&lt;p&gt;從自訂報表將重要的視覺效果釘選至您的線上儀表板，以快速建立對您整個組織實用的監視及報表資源。&lt;/p&gt;</value>
+  </data>
+  <data name="csv_InfoHeading" xml:space="preserve">
+    <value>連接 Power BI 之後，您將能夠從一個位置取得所有資料，制定更佳決策，速度之快，前所未有</value>
+  </data>
+  <data name="csv_Name" xml:space="preserve">
+    <value>CSV</value>
+  </data>
+  <data name="excel_Content" xml:space="preserve">
+    <value>集中資料，用您建立的查詢加以簡化，然後以圖形化方式分享報表。</value>
+  </data>
+  <data name="excel_Heading" xml:space="preserve">
+    <value>分析 Excel 資料並加以視覺化</value>
+  </data>
+  <data name="excel_InfoContent" xml:space="preserve">
+    <value>&lt;h3&gt;將資料集中一處&lt;/h3&gt;
+&lt;p&gt;從多個資料來源匯入大量資料到 Power BI Desktop。在提取資料之前先編輯，或者在匯入資料之後加以轉換與設計。&lt;/p&gt;
+&lt;h3&gt;以全新方式探索您的資料&lt;/h3&gt;
+&lt;p&gt;有了各種可自訂的報表之後，您就能以視覺化方式探索資料。只要拖放您想檢視的欄位，就能建立視覺效果。有各種圖表及圖形供您選擇，敘說資料背後的故事。&lt;/p&gt;
+&lt;h3&gt;讓您的資料發揮作用&lt;/h3&gt;
+&lt;p&gt;當您建立報表之後，就可以像其他檔案一樣共用此檔案。您也可以發行到 Power BI 服務，讓同事也能與其互動。&lt;/p&gt;</value>
+  </data>
+  <data name="excel_InfoHeading" xml:space="preserve">
+    <value>連接到 Power BI 即可從一處取得所有資料，協助您以前所未有的速度制定更佳決策</value>
+  </data>
+  <data name="excel_Name" xml:space="preserve">
+    <value>Excel</value>
+  </data>
+  <data name="exchange_Content" xml:space="preserve">
+    <value>集中資料，用您建立的查詢加以簡化，然後以圖形化方式分享報表。</value>
+  </data>
+  <data name="exchange_Heading" xml:space="preserve">
+    <value>分析 Exchange 資料並加以視覺化</value>
+  </data>
+  <data name="exchange_InfoContent" xml:space="preserve">
+    <value>&lt;h3&gt;將資料集中一處&lt;/h3&gt;
+&lt;p&gt;從多個資料來源匯入大量資料到 Power BI Desktop。在提取資料之前先編輯，或者在匯入資料之後轉換與塑造。&lt;/p&gt;
+&lt;h3&gt;以全新方式探索您的資料&lt;/h3&gt;
+&lt;p&gt;有了各種可自訂的報表之後，您就能以視覺化方式探索資料。只要拖放您想檢視的欄位，就能建立視覺效果。有各種圖表及圖形供您選擇，敘說資料背後的故事。&lt;/p&gt;
+&lt;h3&gt;讓您的資料發揮作用&lt;/h3&gt;
+&lt;p&gt;當您建立報表之後，就可以像其他檔案一樣共用此檔案。您也可以發行到 Power BI 服務，讓同事也能與其互動。&lt;/p&gt;</value>
+  </data>
+  <data name="exchange_InfoHeading" xml:space="preserve">
+    <value>將 Microsoft Exchange 連接到 Power BI，就能將您的資料視覺化，獲取深入資訊，並更快地制定決策。</value>
+  </data>
+  <data name="exchange_Name" xml:space="preserve">
+    <value>Exchange</value>
+  </data>
+  <data name="facebook_Content" xml:space="preserve">
+    <value>只需一個儀表板，即可從 Facebook 資料 (包含粉絲數目、文章互動率及廣告受眾統計資料) 取得重要深入解析。</value>
+  </data>
+  <data name="facebook_Heading" xml:space="preserve">
+    <value>為 Facebook 取得更佳的儀表板與分析</value>
+  </data>
+  <data name="facebook_InfoContent" xml:space="preserve">
+    <value>&lt;h3&gt;更快就能探索及分析您的資料&lt;/h3&gt;
+&lt;p&gt;Power BI 會從您的 Facebook 帳戶提取資料，從而產生儀表板與資料集，供您利用新式的視覺效果探索資料。輕鬆建立及共用報表。&lt;/p&gt;
+&lt;h3&gt;更快找出趨勢&lt;/h3&gt;
+&lt;p&gt;在 Power BI 中使用 Facebook 頁面分析，找出趨勢。了解誰是您最常接觸到的粉絲、哪些文章最常被分享，以及在歷經時間下趨勢有何改化。&lt;/p&gt;
+&lt;h3&gt;完全無須編寫程式碼&lt;/h3&gt;
+&lt;p&gt;有了 Power BI 之後，不需要知道如何編寫程式碼，即可深入鑽研 Facebook 頁面資料。自動資料更新有助於您隨時都能制定出完善的決策。&lt;/p&gt;</value>
+  </data>
+  <data name="facebook_InfoHeading" xml:space="preserve">
+    <value>連接 Power BI 之後，您將能夠從一個位置取得所有資料，制定更佳決策，速度之快，前所未有</value>
+  </data>
+  <data name="facebook_Name" xml:space="preserve">
+    <value>Facebook</value>
+  </data>
+  <data name="folder_Content" xml:space="preserve">
+    <value>迅速從 Folder 檔案資料建立具視覺效果的報表、分析與儀表板，而且全都極具互動性且易於分享。</value>
+  </data>
+  <data name="folder_Heading" xml:space="preserve">
+    <value>為 Folder 檔案資料取得更佳的儀表板與報表</value>
+  </data>
+  <data name="folder_InfoContent" xml:space="preserve">
+    <value>&lt;h3&gt;分析並最佳化&lt;/h3&gt;
+&lt;p&gt;輕鬆使用現成的分析報表、儀表板與 KPI，取得正確的資料。利用篩選及詳細報表向下鑽研，獲取可付諸行動的深入資訊。&lt;/p&gt;
+&lt;h3&gt;提出問題。取得答案。&lt;/h3&gt;
+&lt;p&gt;以自然的語言對 Power BI 提出問題，像是「11 月中我們有多少使用者？」 最新圖表會顯示結果，您可加以釘選至儀表板，以便持續監視。&lt;/p&gt;
+&lt;h3&gt;將正確的資訊交給正確的人&lt;/h3&gt;
+&lt;p&gt;從自訂報表將重要的視覺效果釘選至您的線上儀表板，以快速建立對您整個組織實用的監視及報表資源。&lt;/p&gt;</value>
+  </data>
+  <data name="folder_InfoHeading" xml:space="preserve">
+    <value>連接 Power BI 之後，您將能夠從一個位置取得所有資料，制定更佳決策，速度之快，前所未有</value>
+  </data>
+  <data name="folder_Name" xml:space="preserve">
+    <value>資料夾</value>
+  </data>
+  <data name="github_Content" xml:space="preserve">
+    <value>透過參與、問題、提取要求與作用中使用者的相關資料，取得 GitHub 儲存機制的深入資訊。</value>
+  </data>
+  <data name="github_Title" xml:space="preserve">
+    <value>GitHub 專案管理</value>
+  </data>
+  <data name="github_InfoContent" xml:space="preserve">
+    <value>&lt;h3&gt;尋求使用量問題的解答&lt;/h3&gt;
+&lt;p&gt;在 Power BI 中視覺化不同類型的儲存機制活動，以獲取全新的深入資訊。詢問有多少認可數、誰參與最多、以及當天參與的時間，從而獲取解答。&lt;/p&gt;
+&lt;h3&gt;使用 GitHub 儀表板以全新方式探索資料&lt;/h3&gt;
+&lt;p&gt;利用 Power BI 和 GitHub 儀表板，建立新式資料視覺效果及報表。使用現成的 GitHub 工具，或自訂報表以突顯您最想要關注的資訊。&lt;/p&gt;
+&lt;h3&gt;在 GitHub 報表中讓儲存機制資料為您提供價值&lt;/h3&gt;
+&lt;p&gt;使用儲存機制資料的視覺效果來追蹤使用量趨勢、探索新的深入解析，並提升專案的效率。利用簡單明瞭的 GitHub 報表，與團隊及專案關係人分享您發現的結果。&lt;/p&gt;</value>
+  </data>
+  <data name="github_InfoHeading" xml:space="preserve">
+    <value>透過 Power BI 使用 GitHub 工具來提取您的儲存機制，並在一處取得使用量和效能資料</value>
+  </data>
+  <data name="github_Name" xml:space="preserve">
+    <value>Github</value>
+  </data>
+  <data name="google_analytics_Content" xml:space="preserve">
+    <value>擴充 Google Analytics 資料的功能從可供比較的資料來源與彙總工具匯入資料並加以比較。開發更具吸引力的視覺化報表，提供更寬廣的相互關聯性。</value>
+  </data>
+  <data name="google_analytics_Heading" xml:space="preserve">
+    <value>利用 Microsoft Power BI 以視覺效果呈現 Google Analytics 儀表板並加以擴充</value>
+  </data>
+  <data name="google_analytics_InfoContent" xml:space="preserve">
+    <value>&lt;h3&gt;獲取資料問題更深入的解答&lt;/h3&gt;
+&lt;p&gt;透過 Power BI 深化您的 Web 資料，從而獲取隱藏在其中的關聯性或模式，為您指出全新的商機。對資料提出不同問題，探索創新的行銷思維與方式，以吸引新的客戶。&lt;/p&gt;
+&lt;h3&gt;以新方式瀏覽資料&lt;/h3&gt;
+&lt;p&gt;將 GA 資料與影響市場的外部資料趨勢建立關聯。您可以連接行銷資料與公司其他區塊的資料，或從外部資源匯入資料，就業界趨勢評估您的 Web 績效。&lt;/p&gt;
+&lt;h3&gt;擴充您的商務深入資料&lt;/h3&gt;
+&lt;p&gt;追蹤網站訪客行為，只是評估企業與品牌績效的開端。Power BI 輔以您的 Google Analytics (分析) 資料，可讓您更進一步剖析您的業務。。&lt;/p&gt;</value>
+  </data>
+  <data name="google_analytics_InfoHeading" xml:space="preserve">
+    <value>Power BI 與 Google Analytics 聯手，可提供自訂的 Web 資料報表</value>
+  </data>
+  <data name="google_analytics_Name" xml:space="preserve">
+    <value>Google Analytics (分析)</value>
+  </data>
+  <data name="hdfs_Content" xml:space="preserve">
+    <value>集中資料，用您建立的查詢加以簡化，然後以圖形化方式分享報表。</value>
+  </data>
+  <data name="hdfs_Heading" xml:space="preserve">
+    <value>分析並視覺化您的 HDFS 資料</value>
+  </data>
+  <data name="hdfs_InfoContent" xml:space="preserve">
+    <value>&lt;h3&gt;將資料集中一處&lt;/h3&gt;
+&lt;p&gt;從多個資料來源匯入大量資料到 Power BI Desktop。在提取資料之前先編輯，或者在匯入資料之後加以轉換與設計。&lt;/p&gt;
+&lt;h3&gt;以全新方式探索您的資料&lt;/h3&gt;
+&lt;p&gt;有了各種可自訂的報表之後，您就能以視覺化方式探索資料。只要拖放您想檢視的欄位，就能建立視覺效果。有各種圖表及圖形供您選擇，敘說資料背後的故事。&lt;/p&gt;
+&lt;h3&gt;讓您的資料發揮作用&lt;/h3&gt;
+&lt;p&gt;當您建立報表之後，就可以像其他檔案一樣共用此檔案。您也可以發行到 Power BI 服務，讓同事也能與其互動。&lt;/p&gt;</value>
+  </data>
+  <data name="hdfs_InfoHeading" xml:space="preserve">
+    <value>連接到 Power BI 即可從一處取得所有資料，協助您以前所未有的速度制定更佳決策</value>
+  </data>
+  <data name="hdfs_Name" xml:space="preserve">
+    <value>HDFS</value>
+  </data>
+  <data name="hdinsight_Content" xml:space="preserve">
+    <value>集中資料，用您建立的查詢加以簡化，然後以圖形化方式分享報表。 </value>
+  </data>
+  <data name="hdinsight_Heading" xml:space="preserve">
+    <value>分析並視覺化您的 HDInsight 資料</value>
+  </data>
+  <data name="hdinsight_InfoContent" xml:space="preserve">
+    <value>&lt;h3&gt;將資料集中一處&lt;/h3&gt;
+&lt;p&gt;從多個資料來源匯入大量資料到 Power BI Desktop。在提取資料之前先編輯，或者在匯入資料之後加以轉換與設計。&lt;/p&gt;
+&lt;h3&gt;以全新方式探索您的資料&lt;/h3&gt;
+&lt;p&gt;有了各種可自訂的報表之後，您就能以視覺化方式探索資料。只要拖放您想檢視的欄位，就能建立視覺效果。有各種圖表及圖形供您選擇，敘說資料背後的故事。&lt;/p&gt;
+&lt;h3&gt;讓您的資料發揮作用&lt;/h3&gt;
+&lt;p&gt;當您建立報表之後，就可以像其他檔案一樣共用此檔案。您也可以發行到 Power BI 服務，讓同事也能與其互動。&lt;/p&gt;</value>
+  </data>
+  <data name="hdinsight_InfoHeading" xml:space="preserve">
+    <value>連接到 Power BI 即可從一處取得所有資料，協助您以前所未有的速度制定更佳決策</value>
+  </data>
+  <data name="hdinsight_Name" xml:space="preserve">
+    <value>HDInsight</value>
+  </data>
+  <data name="ibmdb2_Content" xml:space="preserve">
+    <value>集中資料，用您建立的查詢加以簡化，然後以圖形化方式分享報表。</value>
+  </data>
+  <data name="ibmdb2_Heading" xml:space="preserve">
+    <value>分析並視覺化您的 IBM DB2 資料</value>
+  </data>
+  <data name="ibmdb2_InfoContent" xml:space="preserve">
+    <value>&lt;h3&gt;將資料集中一處&lt;/h3&gt;
+&lt;p&gt;從多個資料來源匯入大量資料到 Power BI Desktop。在提取資料之前先編輯，或者在匯入資料之後加以轉換與設計。&lt;/p&gt;
+&lt;h3&gt;以全新方式探索您的資料&lt;/h3&gt;
+&lt;p&gt;有了各種可自訂的報表之後，您就能以視覺化方式探索資料。只要拖放您想檢視的欄位，就能建立視覺效果。有各種圖表及圖形供您選擇，敘說資料背後的故事。&lt;/p&gt;
+&lt;h3&gt;讓您的資料發揮作用&lt;/h3&gt;
+&lt;p&gt;當您建立報表之後，就可以像其他檔案一樣共用此檔案。您也可以發行到 Power BI 服務，讓同事也能與其互動。&lt;/p&gt;</value>
+  </data>
+  <data name="ibmdb2_InfoHeading" xml:space="preserve">
+    <value>連接到 Power BI 即可從一處取得所有資料，協助您以前所未有的速度制定更佳決策</value>
+  </data>
+  <data name="ibmdb2_Name" xml:space="preserve">
+    <value>IBM DB2</value>
+  </data>
+  <data name="mailchimp_Content" xml:space="preserve">
+    <value>利用 Power BI 與 MailChimp 整合，快速從行銷活動、報表與個別訂閱者中找出趨勢。利用新式視覺效果追蹤進度與建立自訂 MailChimp 報表。</value>
+  </data>
+  <data name="mailchimp_Title" xml:space="preserve">
+    <value>MailChimp 整合</value>
+  </data>
+  <data name="mailchimp_InfoContent" xml:space="preserve">
+    <value>&lt;h3&gt;更輕鬆地探索與分析 MailChimp 資料報表&lt;/h3&gt;
+&lt;p&gt;Power BI 會從您的 MailChimp 帳戶提取資料，從而產生儀表板與資料集，讓您可以利用新式的視覺效果探索資料，同時建立及分享報表也變得更加容易。&lt;/p&gt;
+&lt;h3&gt;使用 MailChimp 儀表板快速找出趨勢&lt;/h3&gt;
+&lt;p&gt;在 Power BI 中使用 MailChimp 分析，從而建立報表及找出趨勢。了解誰是您最常觸及的客戶、哪些地方最常啟您的活動、以及趨勢在歷經時間之下有何改變。&lt;/p&gt;
+&lt;h3&gt;不需編寫程式碼即可進行 MailChimp 整合&lt;/h3&gt;
+&lt;p&gt;有了 Power BI 與 MailChimp 整合，您不需具備編寫程式碼的知識，也可向下切入您的報表。自動資料更新讓您隨時都能掌握資料的全貌，協助您制定出完善的決策。&lt;/p&gt;</value>
+  </data>
+  <data name="mailchimp_InfoHeading" xml:space="preserve">
+    <value>連接 MailChimp 與 Power BI 以建立儀表板，輕鬆將您的資料視覺化並加以監視</value>
+  </data>
+  <data name="mailchimp_Name" xml:space="preserve">
+    <value>MailChimp</value>
+  </data>
+  <data name="mandrill_Content" xml:space="preserve">
+    <value>監視您的開啟率、點閱量及每月傳送量。視覺化您的行銷活動成長，從中掘取新的商機。</value>
+  </data>
+  <data name="mandrill_Heading" xml:space="preserve">
+    <value>深入了解您的行銷活動</value>
+  </data>
+  <data name="mandrill_InfoContent" xml:space="preserve">
+    <value>&lt;h3&gt;在一個位置查看所有資料&lt;/h3&gt;
+&lt;p&gt;連接 Power BI 設定管理儀表板與報表，為您顯示資料中所蘊藏的深入資訊。如需詳細資訊，請按一下任何圖格，以向下深入探索資料。&lt;/p&gt;
+&lt;h3&gt;以全新方式探索您的資料&lt;/h3&gt;
+&lt;p&gt;儀表板上的每一個動態磚都能連入內含各種視覺效果的不同報表頁面。您可以將游標暫留在任意項目上，以獲取更多的詳細資料，或選取特定值，以交叉篩選頁面上的其他視覺資料。將您的自訂報表釘選到儀表板。&lt;/p&gt;
+&lt;h3&gt;重新整理排程&lt;/h3&gt;
+&lt;p&gt;儀表板與基礎報表會每日重新整理一次。您可控制資料集的重新整理排程及修改其頻率。&lt;/p&gt;</value>
+  </data>
+  <data name="mandrill_InfoHeading" xml:space="preserve">
+    <value>連接您的 Mandrill 資料 Power BI，將您的 MailChimp 行銷活動轉換成高度視覺化的資訊，進而展現出可以採取活動的深入資訊。</value>
+  </data>
+  <data name="mandrill_Name" xml:space="preserve">
+    <value>Mandrill</value>
+  </data>
+  <data name="marketo_Content" xml:space="preserve">
+    <value>使用 Marketo 報表匯集您的資料，並在同一處監視這些資料。檢視資料的圖形式報表，而且內部部署與雲端皆備有一份。利用預先建立的 Power BI 與 Marketo 儀表板與報表來連接及檢視您的資料，所有動作只需幾分鐘就能完成。</value>
+  </data>
+  <data name="marketo_Title" xml:space="preserve">
+    <value>Marketo 整合</value>
+  </data>
+  <data name="marketo_InfoContent" xml:space="preserve">
+    <value>&lt;h3&gt;透過 Marketo 報表提出問題並得到答案&lt;/h3&gt;
+&lt;p&gt;詢問 Marketo 分析相關問題，像是「依據各州看來，我們有多少潛在客戶？」 Power BI 的回答以視覺效果呈現，包含地圖和圖表，幫助您了解資料內容。&lt;/p&gt;
+&lt;h3&gt;使用 Marketo 儀表板以全新方式查看您的資料&lt;/h3&gt;
+&lt;p&gt;Power BI 預設報告提供實用深入資訊，讓您用來分析潛在客戶的產生。此報表和 Marketo 儀表板均可自訂，以符合您的特定需求。&lt;/p&gt;
+&lt;h3&gt;讓您的資料運用 Marketo 整合&lt;/h3&gt;
+&lt;p&gt;想了解您的行銷計畫如何運作？ Power BI 與 Marketo 報表使用不同的計量向您展示成效甚佳的計畫，並且呈現可以最佳化的商機。&lt;/p&gt;</value>
+  </data>
+  <data name="marketo_InfoHeading" xml:space="preserve">
+    <value>使用 Power BI 與 Marketo 整合來連接您的資訊，以獲得有價值的深入解析，進而更快做出更精確的決策。</value>
+  </data>
+  <data name="marketo_Name" xml:space="preserve">
+    <value>Marketo</value>
+  </data>
+  <data name="microsoft_dynamicscrm_Content" xml:space="preserve">
+    <value>深入了解您的銷售管道，找出可望成交的潛在客戶，挖掘出大量商機。</value>
+  </data>
+  <data name="microsoft_dynamicscrm_Heading" xml:space="preserve">
+    <value>將 Microsoft Dynamics CRM 資料視覺化並加以分析</value>
+  </data>
+  <data name="microsoft_dynamicscrm_InfoContent" xml:space="preserve">
+    <value>&lt;h3&gt;將您的商機視覺化&lt;/h3&gt;
+&lt;p&gt;Power BI 幫助您在單一儀表板上發現商機。透過各項度量分析您的銷售管道，或是檢視您的銷售情形，獲取可付諸行動的深入資訊。&lt;/p&gt;
+&lt;h3&gt;深入了解您的客戶&lt;/h3&gt;
+&lt;p&gt;現成的活頁簿提供視覺效果，用於展示重要的度量，例如客戶參與的資料。依據類型、優先順序與地理，進而了解案例分析。依據案例數、解決率、優先順序層級以及更多項目，進而分析服務效能。&lt;/p&gt;
+&lt;h3&gt;深入了解您的資料&lt;/h3&gt;
+&lt;p&gt;向下鑽研每個頂層圖表，進而了解計量的細節，像是潛在客戶、收入與服務。自訂這些報表來取得您所需的資訊。&lt;/p&gt;</value>
+  </data>
+  <data name="microsoft_dynamicscrm_InfoHeading" xml:space="preserve">
+    <value>有了 Power BI 之後，您可以從 Microsoft Dynamics CRM 資料獲取即時深入資訊</value>
+  </data>
+  <data name="microsoft_dynamicscrm_Name" xml:space="preserve">
+    <value>Microsoft Dynamics CRM</value>
+  </data>
+  <data name="microsoft_dynamics_marketing_Content" xml:space="preserve">
+    <value>使用視覺化工具分析潛在客戶產生資料。利用顯示於單一儀表板上且容易使用的分析報表，做出明智決策。</value>
+  </data>
+  <data name="microsoft_dynamics_marketing_Heading" xml:space="preserve">
+    <value>監視並探索 Microsoft Dynamics Marketing 資料</value>
+  </data>
+  <data name="microsoft_dynamics_marketing_InfoContent" xml:space="preserve">
+    <value>&lt;h3&gt;分析並最佳化&lt;/h3&gt;
+&lt;p&gt;輕鬆地使用現成可用的分析報表、儀表板以及 KPI，取得正確的資料。利用篩選及詳細報表向下鑽研，獲取可付諸行動的深入資訊。&lt;/p&gt;
+&lt;h3&gt;提出問題。取得答案。&lt;/h3&gt;
+&lt;p&gt;在 Power BI 中提出提出問題，像是「以線條顯示一段時間內的潛在客戶互動數目及互動類型。」 最新圖表會顯示結果，您可加以釘選至儀表板，以便持續監視。&lt;/p&gt;
+&lt;h3&gt;自訂報表與儀表板&lt;/h3&gt;
+&lt;p&gt;先從空白報表開始，接著從全面性清單拖放您想要探索的欄位。將視覺化效果從自訂報表釘選至儀表板。&lt;/p&gt;</value>
+  </data>
+  <data name="microsoft_dynamics_marketing_InfoHeading" xml:space="preserve">
+    <value>將 Microsoft Dynamics Marketing 與 Power BI 相連接，即可於一處同時看到您所有的潛在客戶產生資料，讓您能更快地做出明智決策。</value>
+  </data>
+  <data name="microsoft_dynamics_marketing_Name" xml:space="preserve">
+    <value>Microsoft Dynamics Marketing</value>
+  </data>
+  <data name="microsoft_dynamics_nav_Content" xml:space="preserve">
+    <value>分析銷售與利潤。追蹤機會管線並監視獲利率計量，以取得深入資訊。</value>
+  </data>
+  <data name="microsoft_dynamics_nav_Heading" xml:space="preserve">
+    <value>將 Microsoft Dynamics NAV 資料視覺化並加以探索</value>
+  </data>
+  <data name="microsoft_dynamics_nav_InfoContent" xml:space="preserve">
+    <value>&lt;h3&gt;取得全域檢視&lt;/h3&gt;
+&lt;p&gt;連接到 Power BI 之後，就能以現成可用的儀表板顯示您的資料，並展示資料集重要的計量。檢視銷售、每月目標、營收與花費及更多項目的計量。&lt;/p&gt;
+&lt;h3&gt;向下探索以獲取新的深入資訊&lt;/h3&gt;
+&lt;p&gt;按一下儀表板上的任何視覺效果，以設定七份當中其中一份基礎報表。篩選報表或加入您想要監測的欄位。將此自訂檢視釘選至儀表板，以持續追蹤。&lt;/p&gt;
+&lt;h3&gt;重新整理排程&lt;/h3&gt;
+&lt;p&gt;儀表板和基礎報表會每日重新整理。您可控制資料集的重新整理排程及修改其頻率。&lt;/p&gt;</value>
+  </data>
+  <data name="microsoft_dynamics_nav_InfoHeading" xml:space="preserve">
+    <value>有了 Power BI，您便可在一處將所有 Microsoft Dynamics NAV 資料視覺化，發掘新的深入資訊，以做出更佳的商務決策。</value>
+  </data>
+  <data name="microsoft_dynamics_nav_Name" xml:space="preserve">
+    <value>Microsoft Dynamics NAV</value>
+  </data>
+  <data name="mysql_Content" xml:space="preserve">
+    <value>集中資料，用您建立的查詢加以簡化，然後以圖形化方式分享報表。</value>
+  </data>
+  <data name="mysql_Heading" xml:space="preserve">
+    <value>分析 MySQL 資料並加以視覺化</value>
+  </data>
+  <data name="mysql_InfoContent" xml:space="preserve">
+    <value>&lt;h3&gt;將資料集中一處&lt;/h3&gt;
+&lt;p&gt;從多個資料來源匯入大量資料到 Power BI Desktop。在提取資料之前先編輯，或者在匯入資料之後加以轉換與設計。&lt;/p&gt;
+&lt;h3&gt;以全新方式探索您的資料&lt;/h3&gt;
+&lt;p&gt;有了各種可自訂的報表之後，您就能以視覺化方式探索資料。只要拖放您想檢視的欄位，就能建立視覺效果。有各種圖表及圖形供您選擇，敘說資料背後的故事。&lt;/p&gt;
+&lt;h3&gt;讓您的資料發揮作用&lt;/h3&gt;
+&lt;p&gt;當您建立報表之後，就可以像其他檔案一樣共用此檔案。您也可以發行到 Power BI 服務，讓同事也能與其互動。&lt;/p&gt;</value>
+  </data>
+  <data name="mysql_InfoHeading" xml:space="preserve">
+    <value>連接到 Power BI 即可從一處取得所有資料，協助您以前所未有的速度制定更佳決策</value>
+  </data>
+  <data name="mysql_Name" xml:space="preserve">
+    <value>MySQL</value>
+  </data>
+  <data name="odata_Content" xml:space="preserve">
+    <value>集中資料，用您建立的查詢加以簡化，然後以圖形化方式分享報表。</value>
+  </data>
+  <data name="odata_Heading" xml:space="preserve">
+    <value>分析 Odata 資料並加以視覺化</value>
+  </data>
+  <data name="odata_InfoContent" xml:space="preserve">
+    <value>&lt;h3&gt;將資料集中一處&lt;/h3&gt;
+&lt;p&gt;從多個資料來源匯入大量資料到 Power BI Desktop。在提取資料之前先編輯，或者在匯入資料之後加以轉換與設計。&lt;/p&gt;
+&lt;h3&gt;以全新方式探索您的資料&lt;/h3&gt;
+&lt;p&gt;有了各種可自訂的報表之後，您就能以視覺化方式探索資料。只要拖放您想檢視的欄位，就能建立視覺效果。有各種圖表及圖形供您選擇，敘說資料背後的故事。&lt;/p&gt;
+&lt;h3&gt;讓您的資料發揮作用&lt;/h3&gt;
+&lt;p&gt;當您建立報表之後，就可以像其他檔案一樣共用此檔案。您也可以發行到 Power BI 服務，讓同事也能與其互動。&lt;/p&gt;</value>
+  </data>
+  <data name="odata_InfoHeading" xml:space="preserve">
+    <value>連接到 Power BI 即可從一處取得所有資料，協助您以前所未有的速度制定更佳決策</value>
+  </data>
+  <data name="odata_Name" xml:space="preserve">
+    <value>OData</value>
+  </data>
+  <data name="odbc_Content" xml:space="preserve">
+    <value>從 ODBC 連接建立具視覺效果的報表、分析及儀表板，而且全都極具互動性且易於分享。</value>
+  </data>
+  <data name="odbc_Heading" xml:space="preserve">
+    <value>即時監視 ODBC 連接資料</value>
+  </data>
+  <data name="odbc_InfoContent" xml:space="preserve">
+    <value>&lt;h3&gt;查詢資料並加以視覺化&lt;/h3&gt;
+&lt;p&gt;只要以 Power BI 連接到資料庫，就能用您已經有的資料和度量，來建立動態交互式 Web 應用程式。&lt;/p&gt;
+&lt;h3&gt;以全新方式探索您的資料&lt;/h3&gt;
+&lt;p&gt;不論您想要結合關聯式或非關聯式資料，以取得更全面檢視或建立動態報表，藉此探索新的深入資訊，Power BI 都能讓您以新方式瀏覽資料。&lt;/p&gt;
+&lt;h3&gt;讓您的資料發揮作用&lt;/h3&gt;
+&lt;p&gt;將資料集合一處，快速獲取貴企業的 360 度全方位檢視。與您的資料互動以取得答案，並建立極為視覺化的報表，告訴您資料背後的故事。&lt;/p&gt;</value>
+  </data>
+  <data name="odbc_InfoHeading" xml:space="preserve">
+    <value>連接 Power BI 之後，您將能夠從一個位置取得所有資料，制定更佳決策，速度之快，前所未有</value>
+  </data>
+  <data name="odbc_Name" xml:space="preserve">
+    <value>ODBC</value>
+  </data>
+  <data name="oracle_Content" xml:space="preserve">
+    <value>集中資料，用您建立的查詢加以簡化，然後以圖形化方式分享報表。</value>
+  </data>
+  <data name="oracle_Heading" xml:space="preserve">
+    <value>分析 Oracle 資料並加以視覺化</value>
+  </data>
+  <data name="oracle_InfoContent" xml:space="preserve">
+    <value>&lt;h3&gt;將資料集中一處&lt;/h3&gt;
+&lt;p&gt;從多個資料來源匯入大量資料到 Power BI Desktop。在提取資料之前先編輯，或者在匯入資料之後加以轉換與設計。&lt;/p&gt;
+&lt;h3&gt;以全新方式探索您的資料&lt;/h3&gt;
+&lt;p&gt;有了各種可自訂的報表之後，您就能以視覺化方式探索資料。只要拖放您想檢視的欄位，就能建立視覺效果。有各種圖表及圖形供您選擇，敘說資料背後的故事。&lt;/p&gt;
+&lt;h3&gt;讓您的資料發揮作用&lt;/h3&gt;
+&lt;p&gt;當您建立報表之後，就可以像其他檔案一樣共用此檔案。您也可以發行到 Power BI 服務，讓同事也能與其互動。&lt;/p&gt;</value>
+  </data>
+  <data name="oracle_InfoHeading" xml:space="preserve">
+    <value>連接到 Power BI 即可從一處取得所有資料，協助您以前所未有的速度制定更佳決策</value>
+  </data>
+  <data name="oracle_Name" xml:space="preserve">
+    <value>Oracle</value>
+  </data>
+  <data name="planview_enterprise_Content" xml:space="preserve">
+    <value>使用新方式檢視資源及運用管理資料。與資料互動來取得全新深入資訊。</value>
+  </data>
+  <data name="planview_enterprise_Heading" xml:space="preserve">
+    <value>將 Planview Enterprise 資料視覺化</value>
+  </data>
+  <data name="planview_enterprise_InfoContent" xml:space="preserve">
+    <value>&lt;h3&gt;在單一儀表板上取得所有資料的視覺效果&lt;/h3&gt;
+&lt;p&gt;將您的 Planview Enterprise 帳戶與 Power BI 相連接之後，您就會看見現成可用的儀表板，其中有磚以視覺化呈現經過統整安排的計量，包括組合投資開銷、預算狀態等等。&lt;/p&gt;
+&lt;h3&gt;以全新方式探索您的資料&lt;/h3&gt;
+&lt;p&gt;向下鑽研每個磚以檢視不同報表。查看專案與優先順序如何完美地契合。自訂標準報表，追蹤對您至關重要的數據。將您的自訂報表釘選到儀表板。&lt;/p&gt;
+&lt;h3&gt;重新整理排程&lt;/h3&gt;
+&lt;p&gt;儀表板和基礎報表會每日重新整理。您可控制資料集的重新整理排程及修改其頻率。&lt;/p&gt;</value>
+  </data>
+  <data name="planview_enterprise_InfoHeading" xml:space="preserve">
+    <value>將 Planview Enterprise 資料連接至 Power BI，在一處取得所有重要計量。</value>
+  </data>
+  <data name="planview_enterprise_Name" xml:space="preserve">
+    <value>Planview Enterprise</value>
+  </data>
+  <data name="postgresql_Content" xml:space="preserve">
+    <value>集中資料，用您建立的查詢加以簡化，然後以圖形化方式分享報表。</value>
+  </data>
+  <data name="postgresql_Heading" xml:space="preserve">
+    <value>分析 PostgreSQL 資料並加以視覺化</value>
+  </data>
+  <data name="postgresql_InfoContent" xml:space="preserve">
+    <value>&lt;h3&gt;將資料集中一處&lt;/h3&gt;
+&lt;p&gt;從多個資料來源匯入大量資料到 Power BI Desktop。在提取資料之前先編輯，或者在匯入資料之後加以轉換與設計。&lt;/p&gt;
+&lt;h3&gt;以全新方式探索您的資料&lt;/h3&gt;
+&lt;p&gt;有了各種可自訂的報表之後，您就能以視覺化方式探索資料。只要拖放您想檢視的欄位，就能建立視覺效果。有各種圖表及圖形供您選擇，敘說資料背後的故事。&lt;/p&gt;
+&lt;h3&gt;讓您的資料發揮作用&lt;/h3&gt;
+&lt;p&gt;當您建立報表之後，就可以像其他檔案一樣共用此檔案。您也可以發行到 Power BI 服務，讓同事也能與其互動。&lt;/p&gt;</value>
+  </data>
+  <data name="postgresql_InfoHeading" xml:space="preserve">
+    <value>連接到 Power BI 即可從一處取得所有資料，協助您以前所未有的速度制定更佳決策</value>
+  </data>
+  <data name="postgresql_Name" xml:space="preserve">
+    <value>PostgreSQL</value>
+  </data>
+  <data name="quickbooks_online_Content" xml:space="preserve">
+    <value>發掘現金流、獲利率與客戶的全新深入資訊。隨時隨地共用 Quickbooks Online 資料並監視最新收入與花費。</value>
+  </data>
+  <data name="quickbooks_online_Heading" xml:space="preserve">
+    <value>將您的 Quickbooks Online 資料視覺化並加以監視</value>
+  </data>
+  <data name="quickbooks_online_InfoContent" xml:space="preserve">
+    <value>&lt;h3&gt;保持連接。查看資料。&lt;/h3&gt;
+&lt;p&gt;將 Power BI 連接至 Quickbooks Online 帳戶，以檢視內建儀表板，其中顯示目前持有的現金、損益趨勢、淨收入、最佳客戶以及更多項目。&lt;/p&gt;
+&lt;h3&gt;與財務報表互動&lt;/h3&gt;
+&lt;p&gt;選取儀表板上的圖表切割圖表並依財政年度取得深入資訊，或檢視最暢銷的產品或服務。&lt;/p&gt;
+&lt;h3&gt;自訂您的檢視與報表&lt;/h3&gt;
+&lt;p&gt;比起橫條圖更喜愛直條圖嗎？ 從視覺效果功能表選擇您想要的圖表類型。想要更頻繁地重新整理您的資料嗎？ 排成固定的重新整理時間。&lt;/p&gt;</value>
+  </data>
+  <data name="quickbooks_online_InfoHeading" xml:space="preserve">
+    <value>透過連接 Quickbooks Online 資料與 Power BI，您便可在一處取得所有資料，獲取可付諸行動的深入資訊。</value>
+  </data>
+  <data name="quickbooks_online_Name" xml:space="preserve">
+    <value>QuickBooks Online</value>
+  </data>
+  <data name="salesforce_Content" xml:space="preserve">
+    <value>取得銷售、帳戶以及潛在客戶的深入資料。發掘商機並與小組共用結果。</value>
+  </data>
+  <data name="salesforce_Heading" xml:space="preserve">
+    <value>分析 Salesforce 資料並加以視覺化</value>
+  </data>
+  <data name="salesforce_InfoContent" xml:space="preserve">
+    <value>&lt;h3&gt;將您的商機視覺化&lt;/h3&gt;
+&lt;p&gt; Power BI 幫助您在單一儀表板上發現商機。分析您的管道、跨多個計量檢視您的銷售情形，並獲取潛在客戶的深入資訊。&lt;/p&gt;
+&lt;h3&gt;深入了解您的客戶&lt;/h3&gt;
+&lt;p&gt;現成的活頁簿提供視覺效果，可用於展示重要的度量。依據類型、優先順序與地理，進而將案例分析視覺化。依據優先順序層級、解決率以及更多項目，進而分析服務效能。&lt;/p&gt;
+&lt;h3&gt;深入了解您的資料&lt;/h3&gt;
+&lt;p&gt;每個頂層圖表會擴展，呈現帳戶、潛在客戶、營收與服務的詳情。自訂這些報表來取得您所需的資訊。&lt;/p&gt;</value>
+  </data>
+  <data name="salesforce_InfoHeading" xml:space="preserve">
+    <value>現在透過 Power BI 連接，您可以從 Salesforce 資料取得即時深入資料。</value>
+  </data>
+  <data name="salesforce_Name" xml:space="preserve">
+    <value>Salesforce</value>
+  </data>
+  <data name="sendgrid_Content" xml:space="preserve">
+    <value>匯入您的電子郵件資料。在可自訂的儀表板中檢視您的計量。擷取可付諸行動的深入資料並發掘新的商機。</value>
+  </data>
+  <data name="sendgrid_Heading" xml:space="preserve">
+    <value>將 SendGrid 資料視覺化</value>
+  </data>
+  <data name="sendgrid_InfoContent" xml:space="preserve">
+    <value>&lt;h3&gt;輕鬆監視多項指標&lt;/h3&gt;
+&lt;p&gt;將您的資料匯入 Power BI 儀表板，檢視各種電子郵件指標，像是開啟次數、點選次數以及垃圾郵件報表。依照時間範圍、地理位置或類別，追蹤所有趨勢。&lt;/p&gt;
+&lt;h3&gt;深入了解您的資料&lt;/h3&gt;
+&lt;p&gt;從簡略儀表板快速取得概觀的同時，還可深入探索每個磚，發掘更多深入資訊。&lt;/p&gt;
+&lt;h3&gt;分析自訂指標&lt;/h3&gt;
+&lt;p&gt;若您使用自訂類別或標記，Power BI 可以讓檢視依不同活動類型所細分的電子郵件傳遞，變得非常容易。&lt;/p&gt;</value>
+  </data>
+  <data name="sendgrid_InfoHeading" xml:space="preserve">
+    <value>將 SendGrid 與 Power BI 相連接，即可於一處同時看到您的所有資料，讓您能在多方考量下制定決策，速度之外，前所未有</value>
+  </data>
+  <data name="sendgrid_Name" xml:space="preserve">
+    <value>SendGrid</value>
+  </data>
+  <data name="sharepoint_Content" xml:space="preserve">
+    <value>集中資料，用您建立的查詢加以簡化，然後以圖形化方式分享報表。</value>
+  </data>
+  <data name="sharepoint_Heading" xml:space="preserve">
+    <value>分析 SharePoint 資料並以圖形方式呈現</value>
+  </data>
+  <data name="sharepoint_InfoContent" xml:space="preserve">
+    <value>&lt;h3&gt;將資料集中一處&lt;/h3&gt;
+&lt;p&gt;從多個資料來源匯入大量資料到 Power BI Desktop。在提取資料之前先編輯，或者在匯入資料之後加以轉換與設計。&lt;/p&gt;
+&lt;h3&gt;以全新方式探索您的資料&lt;/h3&gt;
+&lt;p&gt;有了各種可自訂的報表之後，您就能以視覺化方式探索資料。只要拖放您想檢視的欄位，就能建立視覺效果。有各種圖表及圖形供您選擇，敘說資料背後的故事。&lt;/p&gt;
+&lt;h3&gt;讓您的資料發揮作用&lt;/h3&gt;
+&lt;p&gt;當您建立報表之後，就可以像其他檔案一樣共用此檔案。您也可以發行到 Power BI 服務，讓同事也能與其互動。&lt;/p&gt;</value>
+  </data>
+  <data name="sharepoint_InfoHeading" xml:space="preserve">
+    <value>連接到 Power BI 即可從一處取得所有資料，協助您以前所未有的速度制定更佳決策</value>
+  </data>
+  <data name="sharepoint_Name" xml:space="preserve">
+    <value>SharePoint</value>
+  </data>
+  <data name="spark_on_azure_Content" xml:space="preserve">
+    <value>從資料視覺效果中，您可以與大量資料互動、建立動態報表及交互式 Web 應用程式，並獲取深入資訊。</value>
+  </data>
+  <data name="spark_on_azure_Heading" xml:space="preserve">
+    <value>分析 Azure HDInsight 資料的走勢並以圖形方式呈現</value>
+  </data>
+  <data name="spark_on_azure_InfoContent" xml:space="preserve">
+    <value>&lt;h3&gt;查詢資料並加以視覺化&lt;/h3&gt;
+&lt;p&gt;只要以 Power BI 連接到資料庫，就能用您已經有的資料和度量，來建立動態交互式 Web 應用程式。&lt;/p&gt;
+&lt;h3&gt;以全新方式探索您的資料&lt;/h3&gt;
+&lt;p&gt;不論您想要結合關聯式或非關聯式資料，以取得更全面檢視或建立動態報表，藉此探索新的深入資訊，Power BI 都能讓您以新方式瀏覽資料。&lt;/p&gt;
+&lt;h3&gt;讓您的資料發揮作用&lt;/h3&gt;
+&lt;p&gt; 將資料集合一處，快速獲取貴企業的 360 度全方位檢視。與您的資料互動以取得答案，並建立極為視覺化的報表，告訴您資料背後的故事。&lt;/p&gt;</value>
+  </data>
+  <data name="spark_on_azure_InfoHeading" xml:space="preserve">
+    <value>連接 Power BI 之後，您將能夠從一個位置取得所有資料，制定更佳決策，速度之快，前所未有</value>
+  </data>
+  <data name="spark_on_azure_Name" xml:space="preserve">
+    <value>Azure HDInsight 上的 Spark</value>
+  </data>
+  <data name="sql_database_auditing_Content" xml:space="preserve">
+    <value>了解您的資料庫活動。探索異常以取得您資料的深入了解。</value>
+  </data>
+  <data name="sql_database_auditing_Heading" xml:space="preserve">
+    <value>以視覺化方式分析您的 SQL Database 稽核資料</value>
+  </data>
+  <data name="sql_database_auditing_InfoContent" xml:space="preserve">
+    <value>&lt;h3&gt;讓資料為您服務&lt;/h3&gt;
+&lt;p&gt;現成可用的 Power BI 儀表板，能讓您立即取得有關各式指標的即時深入資訊。尋找不尋常的活動與事件。&lt;/p&gt;
+&lt;h3&gt;以新方式瀏覽資料&lt;/h3&gt;
+&lt;p&gt;按一下儀表板上任一磚，即可取得您指標的深入資訊。與基礎報表互動以各種不同方式探索您的資料。&lt;/p&gt;
+&lt;h3&gt;自訂您的體驗&lt;/h3&gt;
+&lt;p&gt;您可自訂報表以追蹤想要監視的指標。將自訂檢視釘選到儀表板，即可輕鬆追蹤。&lt;/p&gt;</value>
+  </data>
+  <data name="sql_database_auditing_InfoHeading" xml:space="preserve">
+    <value>有了 Power BI，您可以即時取得您 SQL Database 稽核資料的深入資訊</value>
+  </data>
+  <data name="sql_database_auditing_Name" xml:space="preserve">
+    <value>SQL Database 稽核</value>
+  </data>
+  <data name="sql_sentry_Content" xml:space="preserve">
+    <value>使用 SQL Sentry 雲端，監視您追蹤的 SQL Server 部署。在組織中分享深入資訊。</value>
+  </data>
+  <data name="sql_sentry_Heading" xml:space="preserve">
+    <value>監視 SQL Sentry 資料並以圖形方式呈現</value>
+  </data>
+  <data name="sql_sentry_InfoContent" xml:space="preserve">
+    <value>&lt;h3&gt;取得豐富的檢視&lt;/h3&gt;
+&lt;p&gt;連接到 BI 時，現成可用的儀表板會顯示您所監視的伺服器目前狀態之相關資料，包括伺服器健全狀態、記憶體使用量及停機時間。在任何圖格上按一下，就能存取基礎報表。&lt;/p&gt;
+&lt;h3&gt;向下探索以獲取新的深入資訊&lt;/h3&gt;
+&lt;p&gt;使用樹狀圖快速看到所有由伺服器所產生的事件之檢視畫面，以及各個嚴重性層級的分佈情況。了解最受每種類型的事件影響的伺服器。&lt;/p&gt;
+&lt;h3&gt;提問與解答&lt;/h3&gt;
+&lt;p&gt;若您詢問「我依日期的執行時間 % 為何？」，會得到令人驚艷的互動式視覺效果作答。有了 Power BI，您可以使用自然語言提出問題，並取得以適當圖表和圖形表示的解答。&lt;/p&gt;</value>
+  </data>
+  <data name="sql_sentry_InfoHeading" xml:space="preserve">
+    <value>將 SQL Sentry 資料與 Power BI 相連接，即可於一處檢視您的所有資料。</value>
+  </data>
+  <data name="sql_sentry_Name" xml:space="preserve">
+    <value>SQL Sentry</value>
+  </data>
+  <data name="sql_server_Content" xml:space="preserve">
+    <value>Power BI 可迅速地將您位於幾乎所有資料庫中的大量資料，轉為極具視覺效果且易於分享的互動式報表與儀表板。</value>
+  </data>
+  <data name="sql_server_Heading" xml:space="preserve">
+    <value>找出巨量資料背後的意義</value>
+  </data>
+  <data name="sql_server_InfoContent" xml:space="preserve">
+    <value>&lt;h3 class="din-bold white"&gt;查詢資料並加以視覺化&lt;/h3&gt;
+&lt;p class="default-text-light white"&gt;只要以 Power BI 連接到資料庫，就能用您已經有的資料和度量，來建立動態交互式 Web 應用程式。&lt;/p&gt;
+&lt;h3 class="din-bold white"&gt;以全新方式探索您的資料&lt;/h3&gt;
+&lt;p class="default-text-light white"&gt;不論您想要結合關聯式或非關聯式資料，以取得更全面檢視或建立動態報表，藉此探索新的深入資訊，Power BI 都能讓您以新方式瀏覽資料。&lt;/p&gt;
+&lt;h3 class="din-bold white"&gt;讓您的資料發揮作用&lt;/h3&gt;
+&lt;p class="default-text-light white"&gt;將資料集合一處，快速獲取貴企業的 360 度全方位檢視。與您的資料互動以取得答案，並建立極為視覺化的報表，告訴您資料背後的故事。&lt;/p&gt;</value>
+  </data>
+  <data name="sql_server_InfoHeading" xml:space="preserve">
+    <value>連接 Power BI 之後，您將能夠從一個位置取得所有資料，制定更佳決策，速度之快，前所未有</value>
+  </data>
+  <data name="sql_server_Name" xml:space="preserve">
+    <value>SQL Server</value>
+  </data>
+  <data name="stripe_Content" xml:space="preserve">
+    <value>監視您的事件、費用、客戶及發票。將您的業務活動以圖形方式呈現，並發掘新的商機。</value>
+  </data>
+  <data name="stripe_Heading" xml:space="preserve">
+    <value>探索 Stripe 活動且以圖形方式呈現</value>
+  </data>
+  <data name="stripe_InfoContent" xml:space="preserve">
+    <value>&lt;h3&gt;與資料互動&lt;/h3&gt;
+&lt;p&gt;連接之後，您的資料就會顯示在現成可用且由多個視覺效果與磚所組成的儀表板中。在任何磚上按一下，即可探索基礎報表。篩選資料或編輯要看到哪些欄位以了解對您重要的指標。&lt;/p&gt;
+&lt;h3&gt;提問與解答&lt;/h3&gt;
+&lt;p&gt;如果您要求查看「依日期的總費用」，會得到令人驚艷的互動式視覺效果作答。有了 Power BI，您可以使用自然語言提出問題，並取得以適當圖表和圖形表示的解答。&lt;/p&gt;
+&lt;h3&gt;重新整理排程&lt;/h3&gt;
+&lt;p&gt;儀表板和基礎報表會每日重新整理。您可控制資料集的重新整理排程及修改其頻率。&lt;/p&gt;</value>
+  </data>
+  <data name="stripe_InfoHeading" xml:space="preserve">
+    <value>將 Stripe 與 Power BI 連接，可將所有資料於一處以圖形方式呈現，有助您做出更好的決策，速度之快，前所未有。</value>
+  </data>
+  <data name="stripe_Name" xml:space="preserve">
+    <value>帶狀線</value>
+  </data>
+  <data name="sweetiq_Content" xml:space="preserve">
+    <value>連接 SweetIQ 帳戶可分析及監視您的列表、位置、評等及評論。</value>
+  </data>
+  <data name="sweetiq_Heading" xml:space="preserve">
+    <value>分析及監視 SweetIQ 資料</value>
+  </data>
+  <data name="sweetiq_InfoContent" xml:space="preserve">
+    <value>&lt;h3&gt;看到資料&lt;/h3&gt;
+&lt;p&gt;於單一現成可用的儀表板，檢視您列表、位置、評等與評論的圖表與圖形。自訂儀表板以監視特定的指標。&lt;/p&gt;
+&lt;h3&gt;向下鑽研以取得更深入的資訊&lt;/h3&gt;
+&lt;p&gt;按一下任一磚即可帶出更多報表。以圖形方式看到資料以提供獨特的深入觀點。篩選需要更多資訊的指標。&lt;/p&gt;
+&lt;h3&gt;以新方式瀏覽資料&lt;/h3&gt;
+&lt;p&gt;將您想觀察的計量釘選到儀表板。編輯或新增額外檢視以符合您的需求。使用問題方塊進一步精簡您的分析。&lt;/p&gt;</value>
+  </data>
+  <data name="sweetiq_InfoHeading" xml:space="preserve">
+    <value>將 SweetIQ 連接到 Power BI，即可於一處取得所有資料，且能更快制定更佳決策</value>
+  </data>
+  <data name="sweetiq_Name" xml:space="preserve">
+    <value>SweetIQ</value>
+  </data>
+  <data name="sybase_Content" xml:space="preserve">
+    <value>迅速將您的大量資料，轉為極具視覺效果且易於分享的互動式報表與儀表板。</value>
+  </data>
+  <data name="sybase_Heading" xml:space="preserve">
+    <value>增強您的 Sybase 指標</value>
+  </data>
+  <data name="sybase_InfoContent" xml:space="preserve">
+    <value>&lt;h3&gt;查詢資料並加以視覺化&lt;/h3&gt;
+&lt;p&gt;只要以 Power BI 連接到資料庫，就能用您已經有的資料和度量，來建立動態交互式 Web 應用程式。&lt;/p&gt;
+&lt;h3&gt;以全新方式探索您的資料&lt;/h3&gt;
+&lt;p&gt;不論您想要結合關聯式或非關聯式資料，以取得更全面檢視或建立動態報表，藉此探索新的深入資訊，Power BI 都能讓您以新方式瀏覽資料。&lt;/p&gt;
+&lt;h3&gt;讓您的資料發揮作用&lt;/h3&gt;
+&lt;p&gt;將資料集合一處，快速獲取貴企業的 360 度全方位檢視。與您的資料互動以取得答案，並建立極為視覺化的報表，告訴您資料背後的故事。&lt;/p&gt;</value>
+  </data>
+  <data name="sybase_InfoHeading" xml:space="preserve">
+    <value>連接 Power BI 之後，您將能夠從一個位置取得所有資料，制定更佳決策，速度之快，前所未有</value>
+  </data>
+  <data name="sybase_Name" xml:space="preserve">
+    <value>Sybase</value>
+  </data>
+  <data name="teradata_Content" xml:space="preserve">
+    <value>迅速將您的大量資料，轉為極具視覺效果且易於分享的互動式報表與儀表板。</value>
+  </data>
+  <data name="teradata_Heading" xml:space="preserve">
+    <value>以 Teradata 儀表板管理分析</value>
+  </data>
+  <data name="teradata_InfoContent" xml:space="preserve">
+    <value>&lt;h3&gt;查詢資料並加以視覺化&lt;/h3&gt;
+&lt;p&gt;只要以 Power BI 連接到資料庫，就能用您已經有的資料和度量，來建立動態交互式 Web 應用程式。&lt;/p&gt;
+&lt;h3&gt;以全新方式探索您的資料&lt;/h3&gt;
+&lt;p&gt;不論您想要結合關聯式或非關聯式資料，以取得更全面檢視或建立動態報表，藉此探索新的深入資訊，Power BI 都能讓您以新方式瀏覽資料。&lt;/p&gt;
+&lt;h3&gt;讓您的資料發揮作用&lt;/h3&gt;
+&lt;p&gt;將資料集合一處，快速獲取貴企業的 360 度全方位檢視。與您的資料互動以取得答案，並建立極為視覺化的報表，告訴您資料背後的故事。&lt;/p&gt;</value>
+  </data>
+  <data name="teradata_InfoHeading" xml:space="preserve">
+    <value>連接 Power BI 之後，您將能夠從一個位置取得所有資料，制定更佳決策，速度之快，前所未有</value>
+  </data>
+  <data name="teradata_Name" xml:space="preserve">
+    <value>Teradata</value>
+  </data>
+  <data name="text_Content" xml:space="preserve">
+    <value>迅速從 Text 檔案建立具視覺效果的報表、分析與儀表板，而且全都極具互動性且易於分享。</value>
+  </data>
+  <data name="text_Heading" xml:space="preserve">
+    <value>為 Text 檔案資料取得更佳的儀表板與報表</value>
+  </data>
+  <data name="text_InfoContent" xml:space="preserve">
+    <value>&lt;h3&gt;分析並最佳化&lt;/h3&gt;
+&lt;p&gt;輕鬆使用現成的分析報表、儀表板與 KPI，取得正確的資料。利用篩選及詳細報表向下鑽研，獲取可付諸行動的深入資訊。&lt;/p&gt;
+&lt;h3&gt;提出問題。取得答案。&lt;/h3&gt;
+&lt;p&gt;以自然的語言對 Power BI 提出問題，像是「11 月中我們有多少使用者？」 最新圖表會顯示結果，您可加以釘選至儀表板，以便持續監視。&lt;/p&gt;
+&lt;h3&gt;將正確的資訊交給正確的人&lt;/h3&gt;
+&lt;p&gt;從自訂報表將重要的視覺效果釘選至您的線上儀表板，以快速建立對您整個組織實用的監視及報表資源。&lt;/p&gt;</value>
+  </data>
+  <data name="text_InfoHeading" xml:space="preserve">
+    <value>連接 Power BI 之後，您將能夠從一個位置取得所有資料，制定更佳決策，速度之快，前所未有</value>
+  </data>
+  <data name="text_Name" xml:space="preserve">
+    <value>文字</value>
+  </data>
+  <data name="twilio_Content" xml:space="preserve">
+    <value>透過 Power BI 整合，提取 Twilio 通話追蹤及訊息資料、監視您最具效率的電話號碼並查看每週進展。共用您的 Twilio 儀表板，讓所有人達成共識。</value>
+  </data>
+  <data name="twilio_Title" xml:space="preserve">
+    <value>Twilio 整合</value>
+  </data>
+  <data name="twilio_InfoContent" xml:space="preserve">
+    <value>&lt;h3&gt;取得 Twilio 通話追蹤問題的答案及更多內容&lt;/h3&gt;
+&lt;p&gt;想像一下，當您詢問「上個月哪個地區的成交機率最低？」時，您將取得以出色的互動視覺效果所呈現的解答。有了 Power BI 與 Twilio 整合，您可以使用自然語言提出問題，並取得以適當圖表和圖形表示的儀表板作為解答。&lt;/p&gt;
+&lt;h3&gt;使用 Twilio 儀表板以新穎方式探索資料&lt;/h3&gt;
+&lt;p&gt;您可以透過自由格式拖放畫布、各式各樣的新式資料視覺效果，以及便於使用的 Twilio 報表體驗，以視覺化方式瀏覽通話追蹤資料及更多內容。&lt;/p&gt;
+&lt;h3&gt;讓您的 Twilio 資料發揮作用&lt;/h3&gt;
+&lt;p&gt;想要鎖定獲利率最高的客戶嗎？ Power BI 與 Twilio 的整合讓您更容易發現商機並採取行動，以協助您取得最大投資報酬率。&lt;/p&gt;</value>
+  </data>
+  <data name="twilio_InfoHeading" xml:space="preserve">
+    <value>有了 Power BI 與 Twilio 整合，您可以在一處取得所有資料，以前所未有的速度做出更佳決策。</value>
+  </data>
+  <data name="twilio_Name" xml:space="preserve">
+    <value>Twilio</value>
+  </data>
+  <data name="tygraph_Content" xml:space="preserve">
+    <value>查看使用者取用內容的方式。取得互動程度的深入資料，並探索哪些往來最為密切。</value>
+  </data>
+  <data name="tygraph_Heading" xml:space="preserve">
+    <value>將您的 Yammer 資料視覺化並加以監視</value>
+  </data>
+  <data name="tygraph_InfoContent" xml:space="preserve">
+    <value>&lt;h3&gt;在單一儀表板上取得所有資料的視覺效果&lt;/h3&gt;
+&lt;p&gt;將您的 tyGraph 資料與 Power BI 相連接之後，您就會看見現成可用的儀表板，其中有磚以視覺化呈現經過統整安排的計量，包括網路活動等等。&lt;/p&gt;
+&lt;h3&gt;以全新方式探索您的資料&lt;/h3&gt;
+&lt;p&gt;向下鑽研每個磚以檢視基礎報表。查看您的群組活動或內容取用計量。自訂標準報表，追蹤對您至關重要的計量。將您的自訂報表釘選到儀表板。&lt;/p&gt;
+&lt;h3&gt;提問與解答&lt;/h3&gt;
+&lt;p&gt; 如果您要求查看「依日期的訊息總計」，就會得到令人驚艷的互動式視覺效果作為答案。有了 Power BI，您可以使用自然語言提出問題，並取得以適當圖表和圖形表示的解答。&lt;/p&gt;</value>
+  </data>
+  <data name="tygraph_InfoHeading" xml:space="preserve">
+    <value>將您的 tyGraph 資料與 Power BI 相連接，在一處即可檢視您的所有 Yammer 計量。</value>
+  </data>
+  <data name="tygraph_Name" xml:space="preserve">
+    <value>tyGraph</value>
+  </data>
+  <data name="uservoice_Content" xml:space="preserve">
+    <value>取得客戶意見反應的深入資料。監視您的客戶支援體驗。</value>
+  </data>
+  <data name="uservoice_Heading" xml:space="preserve">
+    <value>將您的 UserVoice 資料視覺化並加以監視</value>
+  </data>
+  <data name="uservoice_InfoContent" xml:space="preserve">
+    <value>&lt;h3&gt;讓資料為您服務&lt;/h3&gt;
+&lt;p&gt;使用 Power BI 現成可用的儀表板，您就能取得多種重要計量的即時深入資料。自訂化儀表板以檢視您想監視的資料。&lt;/p&gt;
+&lt;h3&gt;深入了解您的資料&lt;/h3&gt;
+&lt;p&gt;向下鑽研使用者建議、未定日期的機票及使用者滿意度評等的詳細資料。以自然語言詢問問題，就會得到互動式的視覺效果作為答案。&lt;/p&gt;
+&lt;h3&gt;以全新方式探索您的資料&lt;/h3&gt;
+&lt;p&gt;您可以透過自由格式拖放畫布、各式各樣的可自訂資料視覺效果，以及便於使用的報表撰寫功能，以視覺化方式瀏覽資料。&lt;/p&gt;</value>
+  </data>
+  <data name="uservoice_InfoHeading" xml:space="preserve">
+    <value>透過與 Power BI 的連接，現在已可從 UserVoice 資料取得即時的深入解析。</value>
+  </data>
+  <data name="uservoice_Name" xml:space="preserve">
+    <value>UserVoice</value>
+  </data>
+  <data name="visual_studio_online_Content" xml:space="preserve">
+    <value>透過將 Visual Studio Team Services 連線到 Power BI，您就可以輕鬆將資料視覺化，並取得前所未有的資料深入資料。</value>
+  </data>
+  <data name="visual_studio_online_Heading" xml:space="preserve">
+    <value>使用 Power BI 和 Visual Studio Team Services 取得新的深入資料</value>
+  </data>
+  <data name="visual_studio_online_InfoContent" xml:space="preserve">
+    <value>&lt;h3&gt;提問與解答&lt;/h3&gt;
+&lt;p&gt;想像一下，您問了一個問題，例如「我們每天收到多少提取要求？」，隨即以合適的格式呈現精美的視覺效果，提供您答案。使用 Power BI 的自然語言查詢功能，讓您無需學習任何新語言，即可存取資料。&lt;/p&gt;
+&lt;h3&gt;不同方式，盡情呈現&lt;/h3&gt;
+&lt;p&gt;對於開發資料的複雜特性，Visual Studio Online 的資料完全適用。使用 Power BI，您可以自訂報告格式，讓資訊以不同的方式呈現，讓您在報告、介紹資料時，有更多選擇。&lt;/p&gt;
+&lt;h3&gt;資料觸手可及&lt;/h3&gt;
+&lt;p&gt;Power BI Web 體驗已經針對觸控功能徹底最佳化，因此您可以在觸控螢幕上輕鬆移動認可、圖形和其他視覺效果。追求生產力，同時與資料樂在其中。&lt;/p&gt;</value>
+  </data>
+  <data name="visual_studio_online_InfoHeading" xml:space="preserve">
+    <value>使用 Power BI 將您的資料視覺化</value>
+  </data>
+  <data name="visual_studio_online_Name" xml:space="preserve">
+    <value>Visual Studio Team Services</value>
+  </data>
+  <data name="webtrends_Content" xml:space="preserve">
+    <value>查看最高流量的來源，深入了解行銷活動的效果。以各種方式深入剖析您的資料，更能掌握訪客行蹤。</value>
+  </data>
+  <data name="webtrends_Heading" xml:space="preserve">
+    <value>將 Webtrends 資料視覺化再加以分析</value>
+  </data>
+  <data name="webtrends_InfoContent" xml:space="preserve">
+    <value>&lt;h3&gt;在單一儀表板上取得所有資料的視覺效果&lt;/h3&gt;
+&lt;p&gt;將 Webtrends 的資料與 Power BI 連接後，您會看到現成的儀表板，以及將策劃度量視覺化的圖格，包含流量來源、頁面瀏覽數及瀏覽停留時間等。&lt;/p&gt;
+&lt;h3&gt;以全新方式探索您的資料&lt;/h3&gt;
+&lt;p&gt;向下探索基礎報表的細節。了解訪客進入和離開網站的情形。自訂報表標準，追蹤對您至關重要的數據。將自訂報表釘選在儀表板上，以便持續監視。&lt;/p&gt;
+&lt;h3&gt;重新整理排程&lt;/h3&gt;
+&lt;p&gt;儀表板和基礎報表會每日重新整理。您可以控制資料重新整理的頻率。&lt;/p&gt;</value>
+  </data>
+  <data name="webtrends_InfoHeading" xml:space="preserve">
+    <value>將 Webtrends 與 Power BI 連接，您可以查看資料的整體面貌，協助您制定更佳決策，速度之快，前所未有。</value>
+  </data>
+  <data name="webtrends_Name" xml:space="preserve">
+    <value>Webtrends</value>
+  </data>
+  <data name="web_Content" xml:space="preserve">
+    <value>迅速從 Web 連接建立具視覺效果的報表、分析與儀表板，而且全都極具互動性且易於分享。</value>
+  </data>
+  <data name="web_Heading" xml:space="preserve">
+    <value>為 Web 資料取得更佳的儀表板與報表</value>
+  </data>
+  <data name="web_InfoContent" xml:space="preserve">
+    <value>&lt;h3&gt;分析並最佳化&lt;/h3&gt;
+&lt;p&gt;輕鬆使用現成的分析報表、儀表板與 KPI，取得正確的資料。利用篩選及詳細報表向下鑽研，獲取可付諸行動的深入資訊。&lt;/p&gt;
+&lt;h3&gt;提出問題。取得答案。&lt;/h3&gt;
+&lt;p&gt;以自然的語言對 Power BI 提出問題，像是「11 月中我們有多少使用者？」 最新圖表會顯示結果，您可加以釘選至儀表板，以便持續監視。&lt;/p&gt;
+&lt;h3&gt;將正確的資訊交給正確的人&lt;/h3&gt;
+&lt;p&gt;從自訂報表將重要的視覺效果釘選至您的線上儀表板，以快速建立對您整個組織實用的監視及報表資源。&lt;/p&gt;</value>
+  </data>
+  <data name="web_InfoHeading" xml:space="preserve">
+    <value>連接 Power BI 之後，您將能夠從一個位置取得所有資料，制定更佳決策，速度之快，前所未有</value>
+  </data>
+  <data name="web_Name" xml:space="preserve">
+    <value>Web</value>
+  </data>
+  <data name="xml_Content" xml:space="preserve">
+    <value>迅速從 XML 檔案建立具視覺效果的報表、分析與儀表板，而且全都極具互動性且易於分享。</value>
+  </data>
+  <data name="xml_Heading" xml:space="preserve">
+    <value>為 XML 檔案資料取得更佳的儀表板與報表</value>
+  </data>
+  <data name="xml_InfoContent" xml:space="preserve">
+    <value>&lt;h3&gt;分析並最佳化&lt;/h3&gt;
+&lt;p&gt;輕鬆使用現成的分析報表、儀表板與 KPI，取得正確的資料。利用篩選及詳細報表向下鑽研，獲取可付諸行動的深入資訊。&lt;/p&gt;
+&lt;h3&gt;提出問題。取得答案。&lt;/h3&gt;
+&lt;p&gt;以自然的語言對 Power BI 提出問題，像是「11 月中我們有多少使用者？」 最新圖表會顯示結果，您可加以釘選至儀表板，以便持續監視。&lt;/p&gt;
+&lt;h3&gt;將正確的資訊交給正確的人&lt;/h3&gt;
+&lt;p&gt;從自訂報表將重要的視覺效果釘選至您的線上儀表板，以快速建立對您整個組織實用的監視及報表資源。&lt;/p&gt;</value>
+  </data>
+  <data name="xml_InfoHeading" xml:space="preserve">
+    <value>連接 Power BI 之後，您將能夠從一個位置取得所有資料，制定更佳決策，速度之快，前所未有</value>
+  </data>
+  <data name="xml_Name" xml:space="preserve">
+    <value>XML</value>
+  </data>
+  <data name="zendesk_Content" xml:space="preserve">
+    <value>將 Zendesk 和 Power BI 連接，讓您更輕易探索、監視 Zendesk 的資料。加上現成的內容套件，提供儀表板和一組快速入門報表，您可立即提高生產力。</value>
+  </data>
+  <data name="zendesk_Heading" xml:space="preserve">
+    <value>從 Zendesk 資料取得真正深入的資訊</value>
+  </data>
+  <data name="zendesk_InfoContent" xml:space="preserve">
+    <value>&lt;h3&gt;您的儀表板個人專屬，風格自訂&lt;/h3&gt;
+&lt;p&gt;使用 Power BI 和 Zendesk，透過可自訂儀表板，您能取得票務、代理商、組織等更多重要資訊。您只需選取資料類型及時間軸；Power BI 和 Zendesk 幫您完成後續工作。&lt;/p&gt;
+&lt;h3&gt;釘選重要深入資訊&lt;/h3&gt;
+&lt;p&gt;想要確保資料點可以輕易存取？ 使用釘選自訂選項，將資料點加入您的儀表板。&lt;/p&gt;
+&lt;h3&gt;已回答您的問題&lt;/h3&gt;
+&lt;p&gt;對於整體票務或某一特定代理商上週四的銷售情形有疑問？ 您可以透過儀表板上的問題方塊獲得答案。&lt;/p&gt;</value>
+  </data>
+  <data name="zendesk_InfoHeading" xml:space="preserve">
+    <value>透過 Power BI 連接，使 Zendesk 資料發揮更多效益</value>
+  </data>
+  <data name="zendesk_Name" xml:space="preserve">
+    <value>Zendesk</value>
+  </data>
+  <data name="github_Heading" xml:space="preserve">
+    <value>使用儀表板和報表工具分析您的 GitHub 活動</value>
+  </data>
+  <data name="mailchimp_Heading" xml:space="preserve">
+    <value>使用自訂報表追蹤並分析您的 MailChimp 資料</value>
+  </data>
+  <data name="twilio_ConnectContent" xml:space="preserve">
+    <value>Twilio 通話追蹤資料、Excel 試算表、內部部署資料來源、Hadoop 資料集、資料流和雲端服務：Power BI 整合將您所有的資料集中在一起，讓您可以立即開始分析。</value>
+  </data>
+  <data name="twilio_ConnectHeading" xml:space="preserve">
+    <value>從 Microsoft Power BI 透過 Twilio 報表及更多服務連接到您關切的事項</value>
+  </data>
+  <data name="twilio_META_DESCRIPTION" xml:space="preserve">
+    <value>將 Twilio 通話追蹤、電話號碼資料及傳訊資訊提取到全方位的 Twilio 儀表板。Power BI 與 Twilio 整合簡化了報表。</value>
+  </data>
+  <data name="twilio_META_KEYWORDS" xml:space="preserve">
+    <value>Twilio 通話追蹤, twilio 整合, twilio 儀表板, twilio 報表</value>
+  </data>
+  <data name="twilio_Heading" xml:space="preserve">
+    <value>透過便於使用的儀表板來分析 Twilio 資料並加以視覺化</value>
+  </data>
+  <data name="github_ConnectContent" xml:space="preserve">
+    <value>GitHub 儲存機制資料、Excel 試算表、內部部署資料來源、Hadoop 資料集、資料流和雲端服務：Power BI 將您所有的資料整合在一起，讓您可以立即開始分析。</value>
+  </data>
+  <data name="github_ConnectHeading" xml:space="preserve">
+    <value>使用 Microsoft Power BI 提取 GitHub 儀表板報表及更多豐富內容</value>
+  </data>
+  <data name="github_META_DESCRIPTION" xml:space="preserve">
+    <value>將您的儲存機制匯出到 Power BI，以便輕鬆取得 GitHub 儀表板報表。我們的工具能協助您分析活動，讓 GitHub 專案管理更有效率。</value>
+  </data>
+  <data name="github_META_KEYWORDS" xml:space="preserve">
+    <value>github 專案管理, github 工具, github 儀表板, github 報表</value>
+  </data>
+  <data name="github_META_TITLE" xml:space="preserve">
+    <value>GitHub 專案管理工具</value>
+  </data>
+  <data name="mailchimp_ConnectContent" xml:space="preserve">
+    <value>MailChimp 報表、Excel 試算表、內部部署資料來源、Hadoop 資料集、資料流和雲端服務：Power BI 將您所有的資料整合在一起，讓您可以立即開始分析。</value>
+  </data>
+  <data name="mailchimp_ConnectHeading" xml:space="preserve">
+    <value>使用 Microsoft Power BI 對 MailChimp 及更多服務的整合來連接到您關切的事項</value>
+  </data>
+  <data name="mailchimp_META_DESCRIPTION" xml:space="preserve">
+    <value>利用 MailChimp 與 Power BI 的整合，將您的資料視覺化並加以探索。立即註冊及設定 MailChimp 儀表板報表。</value>
+  </data>
+  <data name="mailchimp_META_KEYWORDS" xml:space="preserve">
+    <value>mailchimp 整合, mailchimp 儀表板, mailchimp 報表, mailchimp 報表</value>
+  </data>
+  <data name="mailchimp_META_TITLE" xml:space="preserve">
+    <value>MailChimp 儀表板整合</value>
+  </data>
+  <data name="marketo_ConnectContent" xml:space="preserve">
+    <value>Marketo 分析、Excel 試算表、內部部署資料來源、Hadoop 資料集、資料流和雲端服務：Power BI 將您所有的資料整合在一起，讓您可以立即開始分析。</value>
+  </data>
+  <data name="marketo_ConnectHeading" xml:space="preserve">
+    <value>使用 Microsoft Power BI 對 Marketo 及更多服務的整合來連接到您關切的事項</value>
+  </data>
+  <data name="marketo_META_DESCRIPTION" xml:space="preserve">
+    <value>建立 Marketo 儀表板以便輕鬆使用 Power BI 取得報表。有了 Marketo 整合，視覺化的分析將能協助您獲得有價值的深入解析以進行決策。</value>
+  </data>
+  <data name="marketo_META_KEYWORDS" xml:space="preserve">
+    <value>marketo 整合, marketo 分析, marketo 報表, marketo 儀表板</value>
+  </data>
+  <data name="marketo_META_TITLE" xml:space="preserve">
+    <value>Marketo 分析整合與報表</value>
+  </data>
+  <data name="marketo_Heading" xml:space="preserve">
+    <value>使用 Power BI 報表監視及檢閱 Marketo 分析</value>
+  </data>
+  <data name="twilio_META_TITLE" xml:space="preserve">
+    <value>Twilio 通話追蹤整合</value>
+  </data>
+  <data name="default_Content" xml:space="preserve">
+    <value>迅速從資料建立視覺報表、分析與儀表板，而且全都極具互動性且易於分享。</value>
+  </data>
+  <data name="default_Title" xml:space="preserve">
+    <value>{0} 整合</value>
+    <comment>Integration name</comment>
+  </data>
+  <data name="default_InfoContent" xml:space="preserve">
+    <value>&lt;h3&gt;分析並最佳化&lt;/h3&gt;
+&lt;p&gt;輕鬆使用現成的分析報表、儀表板與 KPI，取得正確的資料。利用篩選及詳細報表向下鑽研，獲取可付諸行動的深入資訊。&lt;/p&gt;
+&lt;h3&gt;提出問題。取得答案。&lt;/h3&gt;
+&lt;p&gt;以自然的語言對 Power BI 提出問題，像是「11 月中我們有多少使用者？」 最新圖表會顯示結果，您可加以釘選至儀表板，以便持續監視。&lt;/p&gt;
+&lt;h3&gt;將正確的資訊交給正確的人&lt;/h3&gt;
+&lt;p&gt;從自訂報表將重要的視覺效果釘選至您的線上儀表板，以快速建立對您整個組織實用的監視及報表資源。&lt;/p&gt;</value>
+  </data>
+  <data name="default_InfoHeading" xml:space="preserve">
+    <value>連接 Power BI 之後，您將能夠從一個位置取得所有資料，制定更佳決策，速度之快，前所未有</value>
+  </data>
+  <data name="default_Heading" xml:space="preserve">
+    <value>為資料取得更佳的儀表板與報表</value>
+  </data>
+  <data name="xero_Content" xml:space="preserve">
+    <value>有了 Power BI，您就能夠製作出引人注目的視覺報表，將 Xero 會計系統資料及其他資料來源集中在同一處。透過易於使用並具有拖放功能的預先建立儀表板及報表，在幾分鐘內就能全方位檢視您的商務情況。</value>
+  </data>
+  <data name="xero_Heading" xml:space="preserve">
+    <value>短時間內就能製作出會計系統資料圖表，從中獲取深入解析資訊</value>
+  </data>
+  <data name="xero_InfoContent" xml:space="preserve">
+    <value>&lt;h3&gt;立即將您的 Xero 資料視覺化並加以分析&lt;/h3&gt;
+&lt;p&gt;利用 Power BI 及 Xero 儀表板，建立現代化的資料視覺效果及報表。Power BI 讓小型企業及其顧問能夠向下鑽研特定的商業量值 (例如現金頭寸)，而且只要數秒的時間，能自動產生「深入資訊摘要」。&lt;/p&gt;
+&lt;h3&gt;比較及對照您所有應用程式的重要資料&lt;/h3&gt;
+&lt;p&gt;您可以相互比較 Xero 會計資料本身，也可與其他重重要的程式 (例如 Microsoft Dynamics CRM、Mailchimp、Insightly、Google Analytics (分析)、Zendesk 及 Stripe) 相比較。&lt;/p&gt;
+&lt;h3&gt;無縫共用&lt;/h3&gt;
+&lt;p&gt;使用所選的自然語言建置新儀表板。您可以隨時隨地安全無虞地與同事們共用視覺效果強烈的儀表板及報表並加以儲存。&lt;/p&gt;</value>
+  </data>
+  <data name="xero_InfoHeading" xml:space="preserve">
+    <value>並用 Xero 與 Power BI，迅速獲取以精美圖表顯示的會計資料深入解析資訊，而且所有資訊盡在同一處</value>
+  </data>
+  <data name="xero_Name" xml:space="preserve">
+    <value>Xero</value>
+  </data>
+  <data name="Meta_LocJobId" xml:space="preserve">
+    <value>110</value>
+  </data>
+</root>

@@ -1,0 +1,105 @@
+////////////////////
+// Font Variables
+////////////////////
+@font-super: 62px;
+@font-heading1: 46px;
+@font-heading2: 34px;
+@font-heading3: 24px;
+@font-heading4: 20px;
+@font-heading5: 18px;
+@font-heading6: 16px;
+@font-regular: 15px;
+@font-mini: 12px;
+@font-micro: 10px;
+
+////////////////////
+// Font Weights
+////////////////////
+@font-light: 200;
+@font-semilight: 300;
+@font-normal: 400;
+@font-semibold: 600;
+@font-bold: 700;
+
+////////////////////
+// Responsive Variables
+////////////////////
+@resolution-xsmall: 320px;
+@resolution-small: 540px;
+@resolution-medium: 768px;
+@resolution-large: 960px;
+@responsive-gutter: 6%; // Gutter used on mobile
+
+////////////////////
+// Spacing Variables
+////////////////////
+@spacing-size1: 12px; // tiny
+@spacing-size2: 24px; // little
+@spacing-size3: 36px; // small
+@spacing-size4: 48px; // normal
+@spacing-size5: 60px;
+@spacing-size6: 72px; // large
+
+@section-padding-size1: @spacing-size1;
+@section-padding-size2: @spacing-size2;
+@section-padding-size3: @spacing-size3;
+@section-padding-size4: @spacing-size4;
+@section-padding-size5: @spacing-size5;
+@section-padding-size6: @spacing-size6;
+
+@rowrow-margin: @spacing-size4;
+
+////////////////////
+// Color Variables
+////////////////////
+@color-palette01: #ffffff;
+@color-palette02: #00abec;
+@color-palette03: #0072c6;
+@color-palette04: #a5ce00;
+@color-palette05: #89c402;
+@color-palette06: #1B348E;
+@color-palette07: #002050;
+@color-palette08: #68217a;
+@color-palette09: #008272;
+@color-palette10: #ba141a;
+@color-palette11: #d83b01;
+@color-palette12: #dd5900;
+
+@color-slate01: #1a1a1a;
+@color-slate02: #303030;
+@color-slate03: #3e3d4d;
+@color-slate04: #505050;
+@color-slate05: #525252;
+@color-slate06: #6a6a6a;
+@color-slate07: #969696;
+@color-slate08: #dedede;
+@color-slate09: #f4f4f4;
+
+@color-threshold: 60%;
+
+// Font dark/light colors
+@color-font-standard: @color-slate04;
+@color-font-light: @color-palette01;
+
+// Standard link color and hover
+@color-link-standard: @color-palette02;
+@color-hover-standard: @color-palette03;
+
+// Light link color and hover
+@color-link-light: @color-palette01;
+@color-hover-light: @color-slate08;
+
+// Site background color
+@color-background: @color-slate05;
+
+// Helper colors
+@color-error: @color-palette10;
+@color-important: @color-palette09;
+@color-information: @color-palette03;
+@color-success: @color-palette05;
+@color-warning: @color-palette11;
+
+////////////////////
+// Override
+////////////////////
+@import (optional) 'sundog-override.d.less';

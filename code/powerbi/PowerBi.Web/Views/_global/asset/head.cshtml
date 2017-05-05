@@ -1,0 +1,21 @@
+﻿@using Acom.Mvc.Bundles
+@using PowerBI.Web.DynamicContent
+@{ 
+    Layout = null;
+}
+
+<style>
+    @Html.RawDumpBundle(BundleTable.Bundles.GetBundleFor(CoreCss.Path.CdnPath))
+</style>
+
+<!--[if lt IE 9]>
+        <script src="@CdnHelper.GetCdnUrl("/scripts/sundog/lib/jquery-1.11.3.min.js")"></script>
+        <script src="@CdnHelper.GetCdnUrl("/scripts/sundog/lib/respond.min.js")"></script>
+    <![endif]-->
+<!--[if gte IE 9]><!-->
+<script src="@CdnHelper.GetCdnUrl("/scripts/sundog/lib/jquery-2.1.4.min.js")"></script>
+<!--<![endif]-->
+
+<script>
+    @Html.RawDumpBundle(BundleTable.Bundles.GetBundleFor(CoreScripts.Path.CdnPath))
+</script>

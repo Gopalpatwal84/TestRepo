@@ -1,0 +1,33 @@
+﻿@import (reference) '../../../less/mixins.d.less';
+@import (reference) '../../../less/variables.d.less';
+
+.column-stretch {
+    display: none;
+}
+
+@media only screen and (min-width: @resolution-medium) {
+    .column-smiling-girl {
+        background-image: url(/pictures/shared/section/smiling-girl.png);
+    }
+
+    .column-stretch {
+        background-position: 50% 50%;
+        background-size: cover;
+        bottom: 0;
+        display: block;
+        margin: 0;
+        padding: 0 1.04166667%;
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+}
+
+@media only screen and (min-width: @resolution-large) {
+    .row {
+        &.row-flex {
+            display: flex;
+            align-items: center;
+        }
+    }
+}

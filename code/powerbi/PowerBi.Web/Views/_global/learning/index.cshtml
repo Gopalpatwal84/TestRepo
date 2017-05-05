@@ -1,0 +1,118 @@
+﻿@using Resources = PowerBI.Resources.Pages.Learning.Index;
+
+@{
+    Model.PageTitle = Resources.META_PAGETITLE;
+    Model.MetaKeywords = Resources.META_KEYWORDS;
+    Model.MetaDescription = Resources.META_DESCRIPTION;
+}
+
+<section class="section section-slate02 section-size6 section-learning">
+    <div class="row">
+        <div class="column medium-6 medium-centered text-center text-palette01">
+            <h1>@Resources.Hero_Heading</h1>
+            <p>@Resources.Hero_Copy</p>
+        </div>
+    </div>
+</section>
+
+<section class="section">
+    <div class="row">
+        <div class="column medium-4">
+            <a href="@Html.LocalizeUrl("/guided-learning/")" class="card card-large text-center sd-equalize" data-set="learn">
+                <span class="icon">@SvgHelper.GetSvg("play-video")</span>
+                <span class="top text-heading3">@Resources.GuidedLearning_Heading</span>
+                <span class="bottom">@Resources.GuidedLearning_Copy</span>
+            </a>
+        </div>
+        <div class="column medium-4">
+            <a href="@Html.LocalizeUrl("article:powerbi-sample-datasets")" class="card card-large text-center sd-equalize" data-set="learn">
+                <span class="icon">@SvgHelper.GetSvg("data")</span>
+                <span class="top text-heading3">@Resources.Samples_Heading</span>
+                <span class="bottom">@Resources.Samples_Copy</span>
+            </a>
+        </div>
+        <div class="column medium-4">
+            <a href="@Html.LocalizeUrl("/documentation/powerbi-landing-page/")" class="card card-large text-center sd-equalize" data-set="learn">
+                <span class="icon">@SvgHelper.GetSvg("search")</span>
+                <span class="top text-heading3">@Resources.Documentation_Heading</span>
+                <span class="bottom">@Resources.Documentation_Copy</span>
+            </a>
+        </div>
+    </div>
+</section>
+
+<section class="section section-palette02 section-size6">
+    <div class="row">
+        <div class="column medium-6">
+            <div class="row">
+                <div class="column medium-10 medium-offset-1 large-offset-0">
+                    <h2>@Resources.Blog_Heading</h2>
+                    <p>@Resources.Blog_Copy</p>
+                </div>
+            </div>
+            <div class="row row-size2">
+                <div class="column medium-10 medium-offset-1 large-offset-0">
+                    <a class="button" href="@Html.LocalizeUrl("/blog/")">@Resources.Blog_Cta</a>
+                </div>
+            </div>
+        </div>
+        <div class="column medium-6 column-stretch column-smiling-girl"></div>
+    </div>
+</section>
+
+<section class="section section-slate01">
+    <div class="row">
+        <div class="column medium-9 large-6 medium-centered text-center">
+            <div class="row">
+                <div class="column">
+                    <h2>@Resources.LearnWithEdX_Heading</h2>
+                    <p>@Resources.LearnWithEdX_Copy</p>
+                </div>
+            </div>
+            <div class="row row-size2">
+                <div class="column">
+                    <a href="https://www.edx.org/course/analyzing-visualizing-data-power-bi-microsoft-dat207x-0" class="video" target="_blank">
+                        <span class="icon">@SvgHelper.GetSvg("play-for-video")</span>
+                        <img alt="" src="@CdnHelper.GetCdnUrl("/pictures/pages/learning/learning-edx.png")" />
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row row-size2">
+        <div class="column text-center">
+            <a class="button button-featured" href="https://www.edx.org/course/analyzing-visualizing-data-power-bi-microsoft-dat207x-0">@Resources.LearnWithEdX_Cta</a>
+        </div>
+    </div>
+</section>
+
+<section class="section">
+    <div class="row">
+        <div class="column text-center">
+            <h2>@Resources.AdditionalSupport_Heading</h2>
+        </div>
+    </div>
+        <div class="row">
+            <div class="column medium-4">
+                <a href="http://community.powerbi.com/" class="card card-large text-center sd-equalize" data-set="support">
+                    <span class="icon">@SvgHelper.GetSvg("people")</span>
+                    <span class="top text-heading3">@Resources.Community_Heading</span>
+                    <span class="bottom">@Resources.Community_Copy</span>
+                </a>
+            </div>
+            <div class="column medium-4">
+                <a href="http://community.powerbi.com/t5/Power-BI-User-Groups/ct-p/Groups" class="card card-large text-center sd-equalize" data-set="support">
+                    <span class="icon">@SvgHelper.GetSvg("talk")</span>
+                    <span class="top text-heading3">@Resources.UserGroups_Heading</span>
+                    <span class="bottom">@Resources.UserGroups_Copy</span>
+                </a>
+            </div>
+            <div class="column medium-4">
+                <a href="@Html.LocalizeUrl("/support/")" class="card card-large text-center sd-equalize" data-set="support">
+                    <span class="icon">@SvgHelper.GetSvg("question")</span>
+                    <span class="top text-heading3">@Resources.ContactSupport_Heading</span>
+                    <span class="bottom">@Resources.ContactSupport_Copy</span>
+                </a>
+            </div>
+        </div>
+</section>

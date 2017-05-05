@@ -1,0 +1,21 @@
+﻿@model PowerBI.Web.Models.LeftNavigation
+
+<div class="navigationLeft">
+    <strong class="title">@Model.Lefty.ResourceManager.GetString("Title")</strong>
+    <ul>
+        @foreach (var map in Model.Lefty.Maps)
+        {
+            <li>
+                <a data-event="articles-clicked-category" href="#" class="toggler">@Model.Lefty.ResourceManager.GetString(map.Key)</a>
+                <ul class="toggled @(map.Value.Articles.Values.Any(x => x == Model.ActiveSlug) ? "open" : null)">
+                    @foreach (var innermap in map.Value.Articles)
+                    {
+                        <li>
+                            <a data-event="articles-clicked-link" class="@(innermap.Value == Model.ActiveSlug ? "active" : null)" href="@Html.LocalizeUrl(innermap.Value)">@Model.Lefty.ResourceManager.GetString(innermap.Key)</a>
+                        </li>
+                    }
+                </ul>
+            </li>
+        }
+    </ul>
+</div>

@@ -1,0 +1,112 @@
+﻿@import (reference) '../../less/mixins.d.less';
+@import (reference) '../../less/variables.d.less';
+
+.card {
+    background-color: @color-slate06;
+    border-left: 4px solid @color-slate06;
+    display: block;
+    padding: 20px 20px 20px 75px;
+    position: relative;
+
+    .top,
+    .bottom {
+        color: @color-font-standard;
+        display: block;
+    }
+
+    .icon {
+        .transform-translate(0, -50%);
+        height: 30px;
+        left: 20px;
+        top: 50%;
+        position: absolute;
+        width: 30px;
+
+        path {
+            fill: @color-slate01;
+        }
+    }
+
+    &:hover {
+        border-left-color: @color-palette02;
+        text-decoration: none;
+    }
+}
+
+.card-large {
+    height: auto;
+    padding: 20px;
+    border:2px solid transparent;
+
+    .top {
+        font-weight: @font-bold;
+        margin-top: 15px;
+    }
+
+    .icon {
+        .transform-translate(0, 0);
+        position: static;
+    }
+
+    &:hover {
+        border:2px solid @color-slate05;
+    }
+}
+
+.card-block{
+    &.card{
+        padding:@spacing-size3;
+
+        .icon{
+            left:0;
+            margin:@spacing-size1 0;
+            position:relative;
+            top:0;
+        }
+    }
+}
+
+.card-notification {
+    padding: @spacing-size2;
+    margin-bottom: @spacing-size3;
+    border-color: @color-slate06;
+    border-style: solid;
+    border-width: 1px;
+    position: relative;
+
+    .icon-wrapper {
+        .transform-translate(0, -50%);
+        height: 86px;
+        left: 25px;
+        top: 50%;
+        position: absolute;
+    }
+}
+
+@media only screen and (min-width: @resolution-medium) {
+    .card {
+        padding: 75px 20px 20px;
+
+        .icon {
+            top: 40px;
+        }
+    }
+
+    .card-large {
+        padding: 20px;
+    }
+}
+
+@media only screen and (min-width: @resolution-large) {
+    .card {
+        padding: 20px 20px 20px 75px;
+
+        .icon {
+            top: 50%;
+        }
+    }
+
+    .card-large {
+        padding: 35px 30px;
+    }
+}

@@ -1,0 +1,51 @@
+﻿@model PowerBI.Web.Models.LeftNavigation
+
+@using Resources = PowerBI.Resources.Shared.Parts.LeftNavigation
+
+@{
+    var numberShownByDefault = 6;
+}
+
+<div class="navigationLeft navigationLeft-moreless">
+    <strong class="title hide-for-large-only">@Model.Lefty.ResourceManager.GetString("Title")</strong>
+    <ul>
+        @foreach (var map in Model.Lefty.Maps)
+        {
+            var numberShown = map.Value.VisibleArticles > 0 ? map.Value.VisibleArticles : numberShownByDefault;
+
+            <li>
+                <a data-event="articles-clicked-category" href="#" class="toggler">@Model.Lefty.ResourceManager.GetString(map.Key)</a>
+                <ul class="toggled @(map.Value.Articles.Values.Any(x => x == Model.ActiveSlug) ? "open" : null)">
+                    @foreach (var innermap in map.Value.Articles.Take(numberShown))
+                    {
+                        <li>
+                            @ArticleLink(innermap)
+                        </li>
+                    }
+
+                    @if (map.Value.Articles.Count > numberShown)
+                    {
+                        var showMore = map.Value.Articles.Values.Skip(numberShownByDefault).Any(x => x == Model.ActiveSlug);
+
+                        foreach (var innermap in map.Value.Articles.Skip(numberShown))
+                        {
+                            <li class="toggled @(showMore ? "open" : null)">
+                                @ArticleLink(innermap)
+                            </li>
+                        }
+
+                        <li class="toggler toggler-open" data-force="open" @(showMore ? "style=display:none" : null)><a href="#">&raquo; @Resources.More</a></li>
+                        <li class="toggler toggler-close" data-force="close" @(!showMore ? "style=display:none" : null)><a href="#">&laquo; @Resources.Less</a></li>
+                    }
+                </ul>
+            </li>
+        }
+    </ul>
+</div>
+
+@helper ArticleLink(KeyValuePair<string, string> link)
+{
+    <a data-event="articles-clicked-link" class="@(link.Value == Model.ActiveSlug ? "active" : null)" href="@Html.LocalizeUrl(link.Value)">
+        @Model.Lefty.ResourceManager.GetString(link.Key)
+    </a>
+}

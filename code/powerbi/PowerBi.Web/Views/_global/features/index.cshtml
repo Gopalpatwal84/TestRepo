@@ -1,0 +1,198 @@
+﻿@using Resources = PowerBI.Resources.Pages.Features.Index
+
+@{
+    Model.PageTitle = Resources.META_PAGETITLE;
+    Model.MetaDescription = Resources.META_DESCRIPTION;
+    Model.MetaKeywords = Resources.META_KEYWORDS;
+}
+
+<div id="featuresTopSection">
+    <section class="section section-palette02 text-center">
+        <div class="row">
+            <div class="column medium-8 medium-centered">
+                <h2 class="text-heading1">@Resources.Hero_Heading</h2>
+                <p>@Html.RawFormatInvariant(Resources.Hero_Content, Html.LocalizeUrl("/desktop/"), Html.LocalizeUrl("/mobile/"))</p>
+            </div>
+        </div>
+        <div class="row row-size1">
+            <div class="column">
+                <img src="@CdnHelper.GetCdnUrl("/pictures/pages/features/mockup.png")" alt="" />
+            </div>
+        </div>
+        <div class="row row-size1">
+            <div class="column">
+                <a href="" id="scrollTour" data-event="features-clicked-primarycta" class="button">@Resources.Hero_CTA</a>
+            </div>
+        </div>
+    </section>
+
+    @Html.Partial("section/_signup-its-free")
+</div>
+
+<section  class="section-features section section-size0">
+    <div id="featuresContentWrapper" class="features-content-wrapper row">
+        <div id="featuresSectionFixed" class="row row-features">
+            <div class="column small-5 column-text article-column">
+                <div class="track">
+                    <div id="trackSlider" class="track-slider" style="top: 0px;"></div>
+                </div>
+                <article class="features-content">
+                    <h3 id="textTitle1" data-index="0">@Resources.Features_Section1_Heading</h3>
+                    <p id="textDesc1" class="features-section-desc">@Resources.Features_Section1_Content</p>
+                </article>
+                <article class="features-content">
+                    <h3 id="textTitle2" data-index="1">@Resources.Features_Section2_Heading</h3>
+                    <p id="textDesc2" class="features-section-desc">@Resources.Features_Section2_Content</p>
+                </article>
+                <article class="features-content">
+                    <h3 id="textTitle3" data-index="2">@Resources.Features_Section3_Heading</h3>
+                    <p id="textDesc3" class="features-section-desc">@Resources.Features_Section3_Content</p>
+                </article>
+                <article class="features-content">
+                    <h3 id="textTitle4" data-index="3">@Resources.Features_Section4_Heading</h3>
+                    <p id="textDesc4" class="features-section-desc">@Resources.Features_Section4_Content</p>
+                </article>
+                <article class="features-content">
+                    <h3 id="textTitle5" data-index="4">@Resources.Features_Section5_Heading</h3>
+                    <p id="textDesc5" class="features-section-desc">@Resources.Features_Section5_Content</p>
+                </article>
+                <article class="features-content">
+                    <h3 id="textTitle6" data-index="5">@Resources.Features_Section6_Heading</h3>
+                    <p id="textDesc6" class="features-section-desc">@Resources.Features_Section6_Content</p>
+                </article>
+                <article class="features-content">
+                    <h3 id="textTitle7" data-index="6">@Resources.Features_Section7_Heading</h3>
+                    <p id="textDesc7" class="features-section-desc">@Resources.Features_Section7_Content</p>
+                </article>
+                <article class="features-content">
+                    <h3 id="textTitle8" data-index="7">@Resources.Features_Section8_Heading</h3>
+                    <p id="textDesc8" class="features-section-desc">@Resources.Features_Section8_Content</p>
+                </article>
+                <article class="features-content">
+                    <h3 id="textTitle9" data-index="8">@Resources.Features_Section9_Heading</h3>
+                    <p id="textDesc9" class="features-section-desc">@Html.RawFormatInvariant(Resources.Features_Section9_Content, Html.LocalizeUrl("/publishtoweb/"))</p>
+                </article>
+          </div>
+            <div class="column small-7 column-images">
+                <div id="featuresImage1" class="features-section-image startedinseconds"><img src="@CdnHelper.GetCdnUrl("/pictures/pages/features/content-packs.gif")" alt="" /></div>
+                <div id="featuresImage2" class="features-section-image cloud"><img src="@CdnHelper.GetCdnUrl("/pictures/pages/features/on-prem-cloud.gif")" alt="" /></div>
+                <div id="featuresImage3" class="features-section-image dashboards"><img src="@CdnHelper.GetCdnUrl("/pictures/pages/features/live-dashboards.gif")" alt="" /></div>
+                <div id="featuresImage4" class="features-section-image askquestions"><img src="@CdnHelper.GetCdnUrl("/pictures/pages/features/ask-questions.gif")" alt="" /></div>
+                <div id="featuresImage5" class="features-section-image contentpacks"><img src="@CdnHelper.GetCdnUrl("/pictures/pages/features/curate-content.gif")" alt="" /></div>
+                <div id="featuresImage6" class="features-section-image share"><img src="@CdnHelper.GetCdnUrl("/pictures/pages/features/share-collab.gif")" alt="" /></div>
+                <div id="featuresImage7" class="features-section-image mobile"><img src="@CdnHelper.GetCdnUrl("/pictures/pages/features/mobile.gif")" alt="" /></div>
+                <div id="featuresImage8" class="features-section-image integrate"><img src="@CdnHelper.GetCdnUrl("/pictures/pages/features/integrate-open.gif")" alt="" /></div>
+                <div id="featuresImage9" class="features-section-image publish"><img src="@CdnHelper.GetCdnUrl("/pictures/pages/features/publish.gif")" alt="" /></div>
+            </div>
+        </div>
+        <div class="row row-features-scroll" id="featuresScrollingSection"></div>
+    </div>
+</section>
+
+<section class="features-content-wrapper-mobile section">
+    <div class="container">
+
+        <div class="row add-top-space">
+            <div class="column small-10 small-offset-1">
+                <article>
+                    <div class="features-section-image startedinseconds"><img src="@CdnHelper.GetCdnUrl("/pictures/pages/features/content-packs.png")" alt="" /></div>
+                    <h3>@Resources.Features_Section1_Heading</h3>
+                    <p class="default-text">@Resources.Features_Section1_Content</p>
+                </article>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="column small-10 small-offset-1">
+                <article>
+                    <div class="features-section-image cloud"><img src="@CdnHelper.GetCdnUrl("/pictures/pages/features/on-prem-cloud.png")" alt="" /></div>
+                    <h3>@Resources.Features_Section2_Heading</h3>
+                    <p class="default-text">@Resources.Features_Section2_Content</p>
+                </article>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="column small-10 small-offset-1">
+                <article>
+                    <div class="features-section-image dashboards"><img src="@CdnHelper.GetCdnUrl("/pictures/pages/features/live-dashboards.png")" alt="" /></div>
+                    <h3>@Resources.Features_Section3_Heading</h3>
+                    <p class="default-text">@Resources.Features_Section3_Content</p>
+                </article>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="column small-10 small-offset-1">
+                <article>
+                    <div class="features-section-image askquestionsstatic"><img src="@CdnHelper.GetCdnUrl("/pictures/pages/features/ask-questions.png")" alt="" /></div>
+                    <h3>@Resources.Features_Section4_Heading</h3>
+                    <p class="default-text">@Resources.Features_Section4_Content</p>
+                </article>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="column small-10 small-offset-1">
+                <article>
+                    <div class="features-section-image contentpacks"><img src="@CdnHelper.GetCdnUrl("/pictures/pages/features/curate-content.png")" alt="" /></div>
+                    <h3>@Resources.Features_Section5_Heading</h3>
+                    <p class="default-text">@Resources.Features_Section5_Content</p>
+                </article>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="column small-10 small-offset-1">
+                <article>
+                    <div class="features-section-image share"><img src="@CdnHelper.GetCdnUrl("/pictures/pages/features/share-collab.png")" alt="" /></div>
+                    <h3>@Resources.Features_Section6_Heading</h3>
+                    <p class="default-text">@Resources.Features_Section6_Content</p>
+                </article>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="column small-10 small-offset-1">
+                <article>
+                    <div class="features-section-image mobile"><img src="@CdnHelper.GetCdnUrl("/pictures/pages/features/mobile.png")" alt="" /></div>
+                    <h3>@Resources.Features_Section7_Heading</h3>
+                    <p class="default-text">@Resources.Features_Section7_Content</p>
+                </article>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="column small-10 small-offset-1">
+                <article>
+                    <div class="features-section-image integrate"><img src="@CdnHelper.GetCdnUrl("/pictures/pages/features/integrate-open.png")" alt="" /></div>
+                    <h3>@Resources.Features_Section8_Heading</h3>
+                    <p class="default-text">@Resources.Features_Section8_Content</p>
+                </article>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="column small-10 small-offset-1">
+                <article class="no-border">
+                    <div class="features-section-image publish"><img src="@CdnHelper.GetCdnUrl("/pictures/pages/features/publish.png")" alt="" /></div>
+                    <h3>@Resources.Features_Section9_Heading</h3>
+                    <p class="default-text">@Html.RawFormatInvariant(Resources.Features_Section9_Content, Html.LocalizeUrl("/publishtoweb/"))</p>
+                </article>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+
+@section foot {
+    <script src="@CdnHelper.GetCdnUrl("/scripts/ScrollMagic.js")"></script>
+    <script src="@CdnHelper.GetCdnUrl("/scripts/TweenMax.js")"></script>
+    <script src="@CdnHelper.GetCdnUrl("/scripts/animation.gsap.js")"></script>
+    @*<script src="/scripts/plugins/debug.addIndicators.min.js"></script> for debuggin scrolljacking on features page - only use locally *@
+
+    <script>
+        setTimeout(window.featuresFunction, 300);
+    </script>
+}

@@ -1,0 +1,116 @@
+﻿@model PowerBI.Web.Models.Pages.ViewMetadataModel
+@using Resources = PowerBI.Resources.Pages.Landing.Excel
+@{
+    Layout = "~/Views/_shared/_LayoutSimplified.cshtml";
+
+    Model.PageTitle = Resources.META_PAGETITLE;
+    Model.MetaDescription = Resources.META_DESCRIPTION;
+    Model.MetaKeywords = Resources.META_KEYWORDS;
+}
+
+<section class="section section-palette02 text-center">
+    <div class="row">
+        <div class="column medium-8 medium-centered">
+            <h1>@Resources.Hero_Heading</h1>
+            <p>@Resources.Hero_Content</p>
+        </div>
+    </div>
+    <div class="row row-size2">
+        <div class="column">
+            <a class="button" data-pops-up="modal-download" href="@Html.LocalizeUrl("go:521662")" data-event="global-clicked-getstartedcta" data-event-property="download">@Resources.Hero_Cta_Download</a>
+        </div>
+    </div>
+</section>
+
+<section class="section text-center">
+    <div class="row">
+        <div class="column medium-8 medium-centered">
+            <h2 class="text-heading1">@Resources.Content1_Heading</h2>
+            <p>@Resources.Content1_Content</p>
+        </div>
+    </div>
+    <div class="row">
+        <div class="column">
+            <img src="@CdnHelper.GetCdnUrl("/pictures/pages/landing/excel/create-relationship.gif")" alt="" />
+        </div>
+    </div>
+</section>
+
+<section class="section section-slate06 text-center">
+    <div class="row">
+        <div class="column medium-8 medium-centered">
+            <h2 class="text-heading1">@Resources.Content2_Heading</h2>
+            <p>@Resources.Content2_Content</p>
+        </div>
+    </div>
+    <div class="row">
+        <div class="column">
+            <img src="@CdnHelper.GetCdnUrl("/pictures/pages/landing/excel/measure.png")" alt="" />
+        </div>
+    </div>
+</section>
+
+<section class="section text-center">
+    <div class="row">
+        <div class="column medium-8 medium-centered">
+            <h2 class="text-heading1">@Resources.Content3_Heading</h2>
+            <p>@Resources.Content3_Content</p>
+        </div>
+    </div>
+    <div class="row">
+        <div class="column">
+            <img src="@CdnHelper.GetCdnUrl("/pictures/pages/landing/excel/qna.gif")" alt="" />
+        </div>
+    </div>
+</section>
+
+<section class="section section-palette02 text-center" style="padding-top: 50px;">
+    <div class="row">
+        <div class="column medium-11 medium-centered">
+            <blockquote class="large-quote text-heading1">@Resources.Content4_Quote</blockquote>
+            <p>@Resources.Content4_QuoteSource</p>
+        </div>
+    </div>
+</section>
+
+<section class="section text-center">
+    <div class="row">
+        <div class="column medium-8 medium-centered">
+            <h2 class="text-heading1">@Resources.Download_Heading</h2>
+         </div>
+    </div>
+    <div class="row">
+        <div class="column">
+            <span class="icon">
+                @SvgHelper.GetSvg("powerbilogo")
+            </span>
+        </div>
+    </div>
+    <div class="row row-size2">
+        <div class="column medium-6 medium-centered">
+            <h3>@Resources.Download_SubHeading</h3>
+            <p>@Resources.Download_Content</p>
+        </div>
+    </div>
+    <div class="row row-size2">
+        <div class="column">
+            <a href="@Html.LocalizeUrl("go:521662")" class="button button-featured" data-pops-up="modal-download" data-event="global-clicked-getstartedcta" data-event-property="download">@Resources.Download_Cta_Download</a>
+        </div>
+    </div>
+</section>
+
+@Html.Partial("section/_modal-download", new ModalDownload { DownloadType = "DownloadDesktop" })
+
+@section foot {
+    <script>
+        (function () {
+            $('[data-pops-up="modal-download"]').on('click', function () {
+                window.location = this.href;
+            });
+
+            $('body').on('click', '#modal-download .button', function () {
+                $('#modal-download .close').trigger('click');
+            });
+        })();
+    </script>
+}

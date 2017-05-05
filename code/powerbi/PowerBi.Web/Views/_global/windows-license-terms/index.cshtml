@@ -1,0 +1,29 @@
+﻿@model PowerBI.Web.Models.Pages.ViewMetadataModel
+@using Resources = PowerBI.Resources.Pages.WinTerms.Index
+
+@{
+    Model.PageTitle = Resources.META_PAGETITLE;
+    Model.MetaDescription = Resources.META_DESCRIPTION;
+    Model.MetaKeywords = Resources.META_KEYWORDS;
+}
+
+<section class="section section-size2 section-palette02 section-heading-only">
+    <div class="row">
+        <div class="column">
+            @Html.Raw(Resources.Heading)
+        </div>
+    </div>
+</section>
+
+<section class="section">
+    <div class="row">
+        <div class="column">
+            @Html.Raw(Resources.Content)
+        </div>
+    </div>
+    <div class="row row-divided">
+        <div class="column">
+            @Html.RawFormatInvariant(Resources.Content3rdParty, Html.LocalizeUrl("/windows-3rd-party/"))
+        </div>
+    </div>
+</section>

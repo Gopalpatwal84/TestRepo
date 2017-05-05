@@ -1,0 +1,109 @@
+﻿@model PowerBI.Web.Models.Pages.Search.SearchIndexModel
+@using Resources = PowerBI.Resources.Pages.Search.Index
+
+@{
+    Model.PageTitle = Resources.META_PAGETITLE;
+    Model.MetaDescription = Resources.META_DESCRIPTION;
+    Model.MetaKeywords = Resources.META_KEYWORDS;
+}
+
+<section class="section section-size2 section-palette02 section-heading-only">
+    <div class="row">
+        <div class="column">
+            <h1>@Resources.Heading</h1>
+        </div>
+    </div>
+</section>
+
+<section class="section">
+    <div class="row">
+        <div class="column">
+            <h2>@Resources.Search</h2>
+            @using (Html.BeginForm(Model.Type, "Search", FormMethod.Get, new { onsubmit = "event.stopPropagation();" }))
+            {
+                <div class="search-input">
+                    @Html.TextBox("q", Model.Term, new { placeholder = Resources.Search })
+                    <button type="submit" class="icon">@SvgHelper.GetSvg("search")</button>
+                </div>
+            }
+        </div>
+    </div>
+
+    <div class="row row-size1">
+        <div class="column medium-6">
+            <ul class="linkList linkList-horizontal search-typeList">
+                <li class="@(string.IsNullOrEmpty(Model.Type) ? "active" : null)">
+                    <a href="@Url.Action("Index", "Search", new { q = Model.Term, Type = string.Empty })">
+                        @Resources.All
+                    </a>
+                </li>
+                @foreach (var type in Model.Types)
+                {
+                    <li class="@(type.Value == Model.Type ? "active" : null)">
+                        <a href="@Url.Action(type.Value, "Search", new { q = Model.Term })">
+                            @Resources.ResourceManager.GetString(type.Value)
+                        </a>
+                    </li>
+                }
+            </ul>
+        </div>
+        @if (Model.Pagination.TotalCount > 0)
+        {
+            <div class="column medium-6">
+                <span class="pull-right">
+                    @Html.RawFormatCurrentUI(
+                         Resources.ResultCount,
+                         Model.Pagination.PrevPage * Model.Pagination.PageSize + 1,
+                         Math.Min(Model.Pagination.PageNumber * Model.Pagination.PageSize, Model.Pagination.TotalCount),
+                         Model.Pagination.TotalCount)
+                </span>
+            </div>
+        }
+    </div>
+
+    <div class="row row-size3 results-container">
+        <div class="column">
+            @if (Model.Pagination.TotalCount > 0)
+            {
+                foreach (var result in Model.EntryResults)
+                {
+                    @Html.Partial("search/EntryTypes/_EntryType", Model.CreateResultModel(result))
+                }
+                foreach (var result in Model.BlogEntryResults)
+                {
+                    @Html.Partial("search/EntryTypes/_BlogEntryType", Model.CreateResultModel(result))
+                }
+                foreach (var result in Model.ArticleEntryResults)
+                {
+                    @Html.Partial("search/EntryTypes/_ArticleEntryType", Model.CreateResultModel(result))
+                }
+                foreach (var result in Model.CommunityEntryResults)
+                {
+                    @Html.Partial("search/EntryTypes/_CommunityEntryType", Model.CreateResultModel(result))
+                }
+                foreach (var result in Model.PartnerDirectoryEntryResults)
+                {
+                    @Html.Partial("search/EntryTypes/_PartnerDirectoryEntryType", Model.CreateResultModel(result))
+                }
+                foreach (var result in Model.PartnerShowcaseEntryResults)
+                {
+                    @Html.Partial("search/EntryTypes/_PartnerShowcaseEntryType", Model.CreateResultModel(result))
+                }
+            }
+            else
+            {
+                <div class="result row">
+                    <div class="column">
+                        <h3>@Resources.NoResults</h3>
+                    </div>
+                </div>
+            }
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="column">
+            @Html.Partial("_pagination", Model.Pagination)
+        </div>
+    </div>
+</section>

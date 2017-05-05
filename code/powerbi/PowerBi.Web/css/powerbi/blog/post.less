@@ -1,0 +1,35 @@
+﻿@import (reference) '../../../less/mixins.d.less';
+@import (reference) '../../../less/variables.d.less';
+
+.post {
+    & + & {
+        margin-top: @spacing-size4;
+        padding-top: @spacing-size4;
+        border-top: 1px solid @color-slate05;
+    }
+
+    p {
+        margin: 22px 0; // typography redlines
+    }
+
+    .post-date {
+        margin: 0;
+        a{
+            color:@color-palette02;
+        }
+
+        a:hover{
+            color:@color-palette02;
+        }
+    }
+
+    .linkList {
+        margin-right: 15px;
+    }
+
+    .author,
+    .linkList {
+        display: inline-block;
+        vertical-align: middle;
+    }
+}

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<appSettings>
+  <add key="SeqServer" value="http://localhost:5341/" />
+  <add key="SeqServerApiKey" value="#{keyvault:powerbi:frontend-seq-apikey}" />
+  <add key="SeqAllowFileBuffer" value="false" />
+
+  <!-- AAD settings -->
+  <add key="AuthEnabled" value="true" />
+  <add key="LockdownEnabled" value="false" />
+  <add key="StagingLockdownEnabled" value="false" />
+  <add key="ActiveDirectoryClientID" value="f079f3e8-3ab3-432b-9815-9624c71d95ad" />
+  <add key="ActiveDirectoryAudience" value="https://pwrbicom.onmicrosoft.com/pwrbi-int" />
+  <add key="ActiveDirectoryPassword" value="#{keyvault:powerbi:frontend-lockdown-app-password}" />
+  <add key="ActiveDirectoryTenant" value="pwrbicom.onmicrosoft.com" />
+
+  <!-- Graph API settings -->
+  <add key="ActiveDirectoryGraphUrl" value="https://graph.windows.net" />
+
+  <!-- Redis -->
+  <add key="Acom.Redis.Configuration.KeyPrefix" value="" />
+  <add key="Acom.Configuration.DeploymentGroup" value="group-a" />
+
+  <!-- PowerBI Web SiteDeployment version -->
+  <add key="PowerBI.Web.Configuration.PowerBIConfiguration.DeploymentVersion" value="0" />
+  <add key="PowerBI.Web.Configuration.PowerBIConfiguration.BranchName" value="default" />
+  <add key="PowerBI.Web.Configuration.PowerBIConfiguration.ProductionDomain" value="https://powerbi.microsoft.com/" />
+
+  <!-- Support page configuration -->
+  <add key="PowerBI.Web.Configuration.PowerBIConfiguration.ServiceStatusUrl" value="https://powerbi.uservoice.com/api/v1/articles/668836.json?client=0aiP2LHgEAtqScYYysbg" />
+  <add key="PowerBI.Web.Configuration.PowerBIConfiguration.TestServiceStatusUrl" value="https://pwrbiarticlesint.blob.core.windows.net/powerbi-moked-status/moked-service-status.json" />
+
+  <!-- Web API output cache -->
+  <add key="PowerBI.Web.Configuration.PowerBIConfiguration.ApiOutputCacheExpiration" value="P0Y0M0DT0H10M" />
+
+  <!-- Articles Feedback -->
+  <add key="PowerBI.Web.Configuration.PowerBIConfiguration.ArticlesFeedbackEnabled" value="True" />
+
+  <!-- GitHub URLs -->
+  <add key="PowerBI.Web.Configuration.PowerBIConfiguration.GitHubProfileUrl" value="https://github.com/{0}/" />
+  <add key="PowerBI.Web.Configuration.PowerBIConfiguration.GitHubAvatarUrl" value="https://avatars3.githubusercontent.com/u/{0}?v=3&amp;s={1}" />
+
+  <add key="ClientValidationEnabled" value="true" />
+  <add key="UnobtrusiveJavaScriptEnabled" value="true" />
+
+  <!-- Cdn Configuration -->
+  <add key="Acom.Mvc.Cdn.CdnConfiguration.CdnPrefix" value="/cdn/" />
+  <add key="Acom.Mvc.Cdn.CdnConfiguration.CdnPrefixStagingSlot" value="/cdn/" />
+
+  <!--Metis Support API Configuration-->
+  <add key="PowerBI.Support.Configuration.MetisAPIUrl" value="https://metis.microsoft.com/incidents?api-version=1.0&amp;userId={0}&amp;userIdType=AadOrgId" />
+
+  <!--Metis Support API Auth Configuration-->
+  <add key="PowerBI.Support.AuthConfiguration.Tenant" value="microsoft.onmicrosoft.com" />
+  <add key="PowerBI.Support.AuthConfiguration.ClientId" value="fd0f6b10-39b3-48b9-a5c0-384bb65c1f8d" />
+  <add key="PowerBI.Support.AuthConfiguration.AppKey" value="#{keyvault:powerbi:metis-app-password}" />
+  <add key="PowerBI.Support.AuthConfiguration.ResourceId" value="https://microsoft.onmicrosoft.com/MetisServiceApi-ppe" />
+
+  <!--Onyx Client-->
+  <add key="Onyx.Client.Configuration.OnyxServicesUrl" value="https://onyxservices-int.azurewebsites.net" />
+  <add key="Onyx.Client.Configuration.Tenant" value="onyxint.onmicrosoft.com" />
+  <add key="Onyx.Client.Configuration.ClientId" value="d8056620-637e-4be3-8afe-a86ae2a01b0f" />
+  <add key="Onyx.Client.Configuration.AppKey" value="#{keyvault:powerbi:onyx-services-app-password}" />
+  <add key="Onyx.Client.Configuration.ResourceId" value="https://onyxint.onmicrosoft.com/onyxservices-int" />
+</appSettings>

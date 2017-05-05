@@ -1,0 +1,595 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" id="root">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="About_Content" xml:space="preserve">
+    <value>&lt;p&gt;Курс "Изучение данных" содержит учебные руководства по Microsoft Power BI, посвященные перечисленным ниже темам. 
+&lt;ul&gt;&lt;li&gt;Научитесь создавать гистограммы и диаграммы "ящик с усами" для анализа распределения данных. Посмотрите, как загружать данные, применять изменения, настраивать запросы, объединять наборы данных и использовать настраиваемые визуализации для эффективного анализа.&lt;/li&gt;
+&lt;li&gt;Узнайте, как искать закономерности в данных и анализировать их с различных ракурсов, из демонстрационного примера, посвященного анализу с использованием временных рядов. Узнайте, как создать простой график, добавить линию тренда, проанализировать сезонные и случайные данные, а также использовать R-скрипты.&lt;/li&gt;
+&lt;li&gt;Ознакомьтесь с обзорной информацией о создании визуализации на базе нескольких связанных графических объектов.&lt;/li&gt;&lt;/ul&gt;
+&lt;/p&gt;</value>
+  </data>
+  <data name="Article_Content10_2" xml:space="preserve">
+    <value>&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;Введите приведенный ниже код&lt;/strong&gt; в редакторе (см. пояснения) и нажмите кнопку &lt;strong&gt;ОК&lt;/strong&gt;.&lt;ol&gt;&lt;li&gt;&lt;p&gt; Команда library предписывает использовать соответствующую библиотеку в рамках данного сеанса R. Пакет библиотеки устанавливается один раз, но соответствующая команда library вызывается каждый раз при его использовании.&lt;/p&gt;
+  &lt;p&gt;library(Ecdat)&lt;/p&gt;
+&lt;p&gt;library(fpp)&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt; Здесь мы создаем объект временного ряда на базе четвертого столбца с частотой 12&amp;#160;месяцев в году начиная с января 2002&amp;#160;г.&lt;/p&gt;&lt;p&gt;input &amp;lt;- ts(dataset[,4], frequency = 12, start = c(2002,1))&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;Чтобы определить тренд, мы рассчитываем ежемесячное скользящее среднее (сведения о том, как с помощью DAX рассчитать скользящее среднее, см. в учебнике&amp;#160;1, посвященном глобальным изменениям температуры).&lt;/p&gt;
+  &lt;p&gt;trend = ma(input, order = 12, centre = T)&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Чтобы найти в данных сезонные факторы, мы сначала удалим из временного ряда тренд.&lt;/p&gt;
+  &lt;p&gt;detrend = input / trend&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;Распределим набор данных по матрице, сгруппировав все значения по месяцам (по столбцам).&lt;/p&gt;
+&lt;p&gt;m = t(matrix(data = detrend, nrow = 12))&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Рассчитав средние значения по матрице, мы определим фактор сезонности.&lt;/p&gt;
+  &lt;p&gt;seasonal = colMeans(m, na.rm = T)&lt;/p&gt;
+&lt;p&gt;seasonalData &amp;lt;- c()&lt;/p&gt;
+&lt;p&gt;for(i in 1:13)&lt;/p&gt;
+&lt;p&gt;{&lt;/p&gt;
+&lt;p&gt;seasonalData &amp;lt;- c(seasonal, seasonalData)&lt;/p&gt;
+&lt;p&gt;}&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt; Теперь можно отделить полезные данные от шума, разделив временной ряд на циклический тренд.&lt;/p&gt;
+  &lt;p&gt;random = input /(trend * seasonal)&lt;/p&gt;
+&lt;/li&gt;&lt;li&gt;&lt;p&gt;Результаты записываются в новую таблицу, где полученные значения объединяются с исходным набором данных.&lt;/p&gt;
+  &lt;p&gt;output&amp;lt;- data.frame(seasonalData, trend, random, dataset)&lt;/p&gt;
+&lt;/li&gt;&lt;/ol&gt;&lt;/li&gt;
+&lt;li&gt;Разверните созданную таблицу и измените тип данных столбца &lt;strong&gt;Дата&lt;/strong&gt; обратно на дату.&lt;p&gt;&lt;img src="{0}" alt="" title="" /&gt;&lt;/p&gt;
+&lt;p&gt;При желании столбец &lt;strong&gt;Имя&lt;/strong&gt; можно удалить, так как он содержит только результирующую надпись для каждой строки.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;Нажмите &lt;strong&gt;Закрыть и применить&lt;/strong&gt;. С помощью новых столбцов можно представлять на диаграмме сезонные колебания, тренды и шум в динамике. 
+&lt;p&gt;&lt;img src="{1}" alt="" title="" /&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;</value>
+  </data>
+  <data name="Article_Content11_4" xml:space="preserve">
+    <value>&lt;p&gt;&lt;img src="{0}" alt="" title="" /&gt;&lt;/p&gt;
+
+&lt;p&gt;Обратите внимание, что на гистограмме отображаются общие закономерности, в то время как на графике отражено более четкое изменение тренда. Поэкспериментируйте с типом диаграммы (гистограммой или графиком) и посмотрите, как представлены данные для каждого из них. Также обратите внимание, что исходные меры меняют внешний вид тренда и смысл данных.&lt;/p&gt;
+
+&lt;p&gt;Очевидно, что при анализе данных важно взглянуть на них под разными углами. В приведенной ниже визуализации тренды &lt;strong&gt;выбросов CO2 в метрических тоннах на душу населения&lt;/strong&gt; и &lt;strong&gt;выбросов CO2 в кг на паритет покупательной способности/доля от ВВП&lt;/strong&gt; отражают совершенно разные аспекты. Поэкспериментируйте с визуализацией в Power BI других метрик, связанных с выбросами CO2, чтобы выявить другие тренды и попытаться понять, из-за чего они возникают.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src="{1}" alt="" title="" /&gt;&lt;/p&gt;
+
+&lt;h3&gt;Этап&amp;#160;2. Связи между данными&lt;/h3&gt;
+
+&lt;p&gt;В предыдущем учебнике мы рассматривали объединение данных. В Power BI есть и другой инструмент для работы с несколькими таблицами значений: отношения, или связи.&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;Откройте файл &lt;strong&gt;Where does your electricity come from final.pbix&lt;/strong&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Нажмите кнопку &lt;strong&gt;Связи&lt;/strong&gt; на левой панели инструментов.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Выделите линию, соединяющую две таблицы: она обозначает поля, соединенные двумя связями.&lt;/p&gt;
+
+&lt;p&gt;а) Чтобы научиться создавать связи между таблицами и управлять ими, &lt;a href="{2}"&gt;щелкните здесь&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;img src="{3}" alt="" title="" /&gt;&lt;/p&gt;</value>
+  </data>
+  <data name="Article_Content12_4" xml:space="preserve">
+    <value>&lt;h3&gt;Этап&amp;#160;3. Расчеты значений с помощью выражений DAX&lt;/h3&gt;
+
+&lt;p&gt;В Power BI есть вычисления по умолчанию, которые подходят для самых разных ситуаций. Однако иногда их не хватает. В Power BI поддерживается гибкий язык выражений&amp;#160;— DAX (Data Access Expressions, выражения доступа к данным). Для начала рекомендуем ознакомиться с разделом &lt;a href="{0}"&gt;Краткое руководство: знакомство с основами DAX&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;В этом учебнике мы рассмотрим два полезных выражения, которые помогают создавать сюжеты на основе данных.&lt;/p&gt;
+
+&lt;h4&gt;Создание настраиваемой цветовой схемы с помощью выражения DAX&lt;/h4&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;На ленте &lt;strong&gt;Моделирование&lt;/strong&gt; выберите команду &lt;strong&gt;Новый столбец&lt;/strong&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Введите в редакторе выражений следующее выражение:&lt;/p&gt;
+
+&lt;p&gt;Выделенная страна = ЕСЛИ('Metadata - Countries'[Название страны] = "Франция", "Выделенные", ЕСЛИ('Метаданные - Страны'[Название страны] = "Дания", "Выделенные", ЕСЛИ('Метаданные - Страны'[Название страны] = "Польша", "Выделенные", "Другие")))&lt;/p&gt;
+
+&lt;p&gt;Обратите внимание, как выражение выбирает определенные значения поля &lt;strong&gt;&lt;/strong&gt; и назначает им категорию &lt;strong&gt;&lt;/strong&gt;, а остальным значениям присваивается категория &lt;strong&gt;Другие&lt;/strong&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Нажмите на значок &lt;strong&gt;галочки&lt;/strong&gt; в левой части редактора.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Добавьте столбец &lt;strong&gt;&lt;/strong&gt; в свойство &lt;strong&gt;Условные обозначения&lt;/strong&gt; визуального элемента Power BI (например, картограммы, как в примере ниже:&lt;/p&gt;
+
+&lt;p&gt;а) В разделе &lt;strong&gt;Местоположение&lt;/strong&gt; выберите значение &lt;strong&gt;&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;б) В разделе &lt;strong&gt;Условные обозначения&lt;/strong&gt; выберите значение &lt;strong&gt;&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;в) В разделе &lt;strong&gt;Насыщенность цвета&lt;/strong&gt; выберите значение &lt;strong&gt;Код страны&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;pre&gt;i.  Обратите внимание: отображается надпись **Количество Код страны**
+&lt;/pre&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;В области &lt;strong&gt;Формат&lt;/strong&gt; разверните раздел &lt;strong&gt;Цвета данных&lt;/strong&gt;.&lt;/p&gt;&lt;p&gt;а) Выберите для категории &lt;strong&gt;&lt;/strong&gt; &lt;strong&gt;желтый цвет&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;б) Выберите для категории &lt;strong&gt;Другие&lt;/strong&gt; &lt;strong&gt;серый цвет&lt;/strong&gt;.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;img src="{1}" alt="" title="" /&gt;&lt;/p&gt;
+
+&lt;p&gt;Полученная карта выглядит примерно так:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src="{2}" alt="" title="" /&gt;&lt;/p&gt;
+
+&lt;h4&gt;Создание текстовой подписи, которая отображается только при выборе одного значения&lt;/h4&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;На ленте &lt;strong&gt;Моделирование&lt;/strong&gt; выберите команду &lt;strong&gt;Новая мера&lt;/strong&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Введите в редакторе выражений следующее выражение:&lt;/p&gt;&lt;/li&gt;
+  &lt;p&gt;Выбрано название страны = ЕСЛИ(HASONEVALUE('Метаданные - страны'[Название страны]), VALUES('Метаданные - страны'[Название страны]) &amp;amp; " выбрано", "")&lt;/p&gt;
+&lt;p&gt;Обратите внимание, как выражение проверяет, выбрано ли только одно &lt;strong&gt;название страны&lt;/strong&gt;, чтобы отобразить определенную строку. В противном случае не выводится ничего.&lt;/p&gt;
+&lt;li&gt;&lt;p&gt;Нажмите на значок &lt;strong&gt;галочки&lt;/strong&gt; в левой части редактора.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Добавьте на страницу &lt;strong&gt;визуальный элемент карточки&lt;/strong&gt; из области "Визуализация".&lt;/p&gt;
+
+&lt;p&gt;а) Задайте для параметра "Поля" значение &lt;strong&gt;Выбрано название страны&lt;/strong&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Обратите внимание на то, что значение пустое.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;Выберите страну&lt;/strong&gt; на карте.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Обратите внимание на появившуюся подпись.&lt;/p&gt;
+
+&lt;p&gt;Обратите внимание: чтобы представить данные в другом виде, можно импортировать визуальный элемент &lt;a href="{3}"&gt;для просмотра длинного текста&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;</value>
+  </data>
+  <data name="Article_Content13_5" xml:space="preserve">
+    <value>&lt;p&gt;&lt;img src="{0}" alt="" title="" /&gt;&lt;/p&gt;
+&lt;h3&gt;Этап&amp;#160;4. Настройка взаимодействия между визуальными элементами&lt;/h3&gt;
+&lt;p&gt;По умолчанию Power BI автоматически выполняет фильтрацию и перекрестное выделение данных. Не забудьте проверить взаимодействия по умолчанию и настроить их таким образом, чтобы представить данные в оптимальном виде.&lt;/p&gt;
+&lt;p&gt;Обратите внимание, что по умолчанию на карте выполняется перекрестное выделение гистограммы с накоплением.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Выберите на карте &lt;strong&gt;Франция&lt;/strong&gt; и посмотрите на результат.&lt;/li&gt;
+&lt;p&gt;&lt;img src="{1}" alt="" title="" /&gt;&lt;/p&gt;
+
+&lt;p&gt;Для управления взаимодействием между визуальными элементами предназначен элемент управления "Интерактивное взаимодействие".&lt;/p&gt;
+&lt;li&gt;&lt;p&gt;На ленте &lt;strong&gt;Формат&lt;/strong&gt;:&lt;/p&gt;
+&lt;p&gt;а) Нажмите кнопку &lt;strong&gt;Изменить взаимодействия&lt;/strong&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;p&gt;&lt;img src="{2}" alt="" title="" /&gt;&lt;/p&gt;
+&lt;li&gt;&lt;p&gt;Выберите элемент &lt;strong&gt;Карта&lt;/strong&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Обратите внимание на панель инструментов, появившуюся на &lt;strong&gt;нормированной гистограмме&lt;/strong&gt;.&lt;/p&gt;&lt;/li&gt;
+
+&lt;p&gt;&lt;img src="{3}" alt="" title="" /&gt;&lt;/p&gt;
+&lt;li&gt;&lt;p&gt;Нажмите на значок фильтра на панели инструментов: тренд для Франции на нормированной гистограмме станет понятнее.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src="{4}" alt="" title="" /&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;</value>
+  </data>
+  <data name="Article_Content14_2" xml:space="preserve">
+    <value>&lt;p&gt;Обратите внимание: работа с данными, представленными в виде процентной доли от целого, подробно рассматривается в &lt;strong&gt;части&amp;#160;2 "Дополнительные сведения о процентных долях"&lt;/strong&gt;.&lt;/p&gt;
+&lt;h2&gt;Часть&amp;#160;2. Дополнительные сведения о процентных долях&lt;/h2&gt;
+&lt;p&gt;В материале нашего курса мы представили следующую диаграмму и упомянули, что нужно быть аккуратнее при работе с агрегатами данных. Причина заключается в том, что значения, на основе которых создается диаграмма, представлены в виде процентных долей от целого. Это означает, что диаграмма, по сути, выполняет агрегирование по процентным значениям. Это может стать причиной типичной ошибки, с которой часто приходится сталкиваться при анализе данных: суммы по агрегатам данных с помощью функций СУММ, СРЗНАЧ и других статистических функций не отражают реальных значений. Посмотрим, как это проявляется в нашем случае.&lt;/p&gt;
+&lt;p&gt;&lt;img src="{0}" alt="" title="" /&gt;&lt;/p&gt;
+&lt;p&gt;Рисунок&amp;#160;1. При первоначальной загрузке диаграммы не выбрана ни одна страна, поэтому статистическая функция СУММ применяется к исходным значениям, которые в данном случае представляют собой процентные доли. После этого отображается сумма всех процентных значений. Это неточный результат.&lt;/p&gt;
+&lt;p&gt;Исходные данные в этом наборе распределены по следующим столбцам:&lt;/p&gt;
+&lt;h3&gt;"Год", "Страна", "Значения".&lt;/h3&gt;
+&lt;p&gt;Значения в наборе данных, которые представляют процентные доли, средние и медианные величины и&amp;#160;т.&amp;#160;д., дают точный результат при отображении только в том случае, если оба параметра "Год" и "Страна" имеют одно значение. Некоторые поля, такие как &lt;strong&gt;Общее население&lt;/strong&gt;, являются аддитивными, и для них можно выполнять агрегирование по &lt;strong&gt;странам&lt;/strong&gt; за определенный &lt;strong&gt;год&lt;/strong&gt; (но не за &lt;strong&gt;несколько лет&lt;/strong&gt;). В диаграмме выше у нас только один из этих двух элементов: &lt;strong&gt;Год&lt;/strong&gt; на оси X.&lt;/p&gt;
+&lt;p&gt;В этом курсе мы представили визуальный элемент карты и выбрали на карте одну страну, после чего на диаграмме появились правильные данные. Ниже приведен пример, в котором выбрана Франция и на диаграмме представлены правильные значения. Подсказка говорит нам, что значение, переданное визуальному элементу, и значение, которое он отображает (подпись "Процент" в скобках), совпадают.&lt;/p&gt;
+&lt;p&gt;&lt;img src="{1}" alt="" title="" /&gt;&lt;/p&gt;
+&lt;p&gt;Рисунок&amp;#160;2. Когда выбрана одна страна, параметры года и страны образуют правильное сочетание и данные отображаются корректно. Подсказка подтверждает, что агрегат процентного значения и фактическая процентная доля, представленная на визуальном элементе, совпадают.&lt;/p&gt;
+&lt;p&gt;Ошибка, при которой неправильное агрегированное значение применяется на неправильном уровне детализации данных, часто встречается при анализе. Необходимо постоянно следить за тем, чтобы создаваемые визуализации были правильно заданы.&lt;/p&gt;
+&lt;p&gt;Есть несколько стандартных моментов, на которые следует обращать внимание. В данном случае мы имеем дело с синтетической мерой&amp;#160;— процентной долей от целого. Как правило, формировать отчеты по синтетическим мерам можно только на том уровне детализации, для которого они были рассчитаны. Выполнять их агрегирование нельзя: например, средний процент от целого по всем странам не имеет смысла. Аналогичным образом сумма процентных долей не несет в себе никакого смысла, если только это не сумма всех долей одного и того же целого на одном уровне детализации (и их общая сумма должна равняться 100%).&lt;/p&gt;</value>
+  </data>
+  <data name="Article_Content15" xml:space="preserve">
+    <value>&lt;p&gt;Еще один стандартный пример&amp;#160;— средние значения. При расчете среднего необходимо обратить особое внимание на то, как оно используется и представлено. Вычисление среднего значения на основе ранее рассчитанного среднего ведет к совершенно неправильным результатам. Например, предположим, у нас есть две страны, одна из которых вырабатывает 100&amp;#160;кВт*ч электроэнергии в год, 80&amp;#160;% которой приходится на сжигание угля, а вторая&amp;#160;— 10&amp;#160;кВт*ч, из них 50&amp;#160;% приходится на уголь. Рассчитав среднее значение, мы выясним, что 65&amp;#160;% производимой электроэнергии приходится на сжигание угля, что неверно. Правильная формула такова: 80&amp;#160;кВт*ч&amp;#160;+ 5&amp;#160;кВт*ч/110&amp;#160;кВт*ч = 77&amp;#160;%.&lt;/p&gt;
+
+&lt;p&gt;Наконец, еще одним неочевидным моментом является потеря точности при извлечении или представлении данных без учета их исходной точности или уровня детализации. Простой пример&amp;#160;— округление суммы продаж до ближайшего доллара без учета дробной части числа. Если выполнить агрегирование по объемам продаж, полученная сумма может существенно отличаться от результата, который дает аналогичное вычисление в исходной системе. Еще более сложный случай&amp;#160;— ситуация, которая у пользователей, выполняющих извлечение данных, нет разрешений на доступ ко всем строкам. Как правило, в организациях пользователи могут извлекать только те данные, которые им разрешено видеть, и "официальную" сумму, рассчитанную по всем строкам в системе, чтобы показатели в разных отчетах, сформированных для разных пользователей, совпадали. При попытке выполнить агрегирование по доступным строкам значений без учета в формуле общей суммы результат получается неправильным.&lt;/p&gt;
+
+&lt;h3&gt;Как же справиться с этой проблемой?&lt;/h3&gt;
+
+&lt;p&gt;Ее причина в том, что метрики, используемые на диаграмме, уже представляют собой процентные доли. Чтобы избежать ошибки, необходимо повторно вычислить процентные значения по метрике, которая включает детальные данные по производству электроэнергии. К сожалению, наш набор данных неполный: у нас нет метрики, представляющей общий объем производимой электроэнергии по странам. Если бы она была, получить нужный результат было бы просто и дальнейшие пояснения были бы не нужны. Мы бы умножили годовой объем вырабатываемой в стране электроэнергии на процентную долю по каждому источнику и использовали полученные значения для расчета агрегатов.&lt;/p&gt;
+
+&lt;p&gt;Однако поскольку в наших данных нет нужного показателя, нам придется воспользоваться альтернативными методами. Есть одно железное правило, которое необходимо запомнить, прежде чем двигаться дальше: &lt;strong&gt;если есть сомнения, данные лучше опустить&lt;/strong&gt;. Аналитик отвечает за достоверность представленных данных&amp;#160;— как в текстовом виде, так и в виде интерактивных визуализаций. Если вы не уверены в точности своих данных, не включайте их в отчет, пока не проверите их.&lt;/p&gt;
+
+&lt;p&gt;Мы рассмотрим два альтернативных варианта для нашей ситуации. Первый заключается в том, чтобы избежать ошибочных значений, отключив вывод результата для неправильного уровня детализации данных, когда невозможно выяснить, насколько они точны. Этого можно добиться с помощью меры DAX следующим образом:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;strong&gt;Условно Объем производства электроэнергии из угля (% от общего) = ЕСЛИ(И(HASONEVALUE(Данные[Код страны]), HASONEVALUE(Данные[Год])), СУММ(Data[Объем производства электроэнергии из угля (% от общего)]), BLANK())&lt;/strong&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Обратите внимание, как формула выше проверяет критическое условие, прежде чем возвращать значение. Необходимо повторить эту операцию для каждого из полей, содержащих процентные доли, а затем нанести их на нормированную гистограмму. Диаграмма будет пуста, пока мы не выберем страну, после чего на ней отобразится правильное значение. Необходимо также указать пользователям, которые работают с вашей визуализацией, что для просмотра данных нужно выбрать страну. Однако даже в этом случае их может смутить большая пустая область в центре предположительно интересной визуализации.&lt;/p&gt;
+
+&lt;p&gt;…&lt;/p&gt;
+
+&lt;p&gt;Второй вариант предполагает передачу значений в метрику, по которой затем можно выполнить агрегирование. В нашем примере идеальным вариантом было бы найти набор данных, в котором есть информация об объемах выработки электроэнергии в каждой стране. К сожалению, его еще нужно найти.&lt;/p&gt;
+
+&lt;p&gt;Поэтому нам придется сделать ряд предположений, чтобы получить представление об общих метриках по странам и регионам. Предположения всегда неидеальны, требуют уточнения у специалистов и открытого обсуждения. Также важно суметь обосновать сделанные предложения и выбранные методы при публикации визуализации данных. Если сделать этого не удастся, анализ может быть сочтен ложным и вы станете мишенью для критики. Таким образом, необходимо соблюдать осторожность в предположениях, и взаимодействие с целевой аудиторией визуализации&amp;#160;— залог успеха на этом пути. Однако даже в свете всего этого производные или спрогнозированные значения могут дать интересные результаты, если правильно используются в контексте.&lt;/p&gt;&lt;p&gt;Посмотрим, как справиться с этой задачей в нашем примере. Данные содержат метрику, которая выглядит как то, что нам нужно: &lt;strong&gt;Потребление электроэнергии, кВт*ч на душу населения&lt;/strong&gt;. У нас также есть метрика &lt;strong&gt;Общее население&lt;/strong&gt;. Для каждой из них можно получит агрегат по стране и году. Итак, если мы готовы предположить, что объемы потребленной и произведенной электроэнергии совпадают, можно с помощью простых вычислений рассчитать объем производимой электроэнергии по источникам. Необходимо отметить, что это предположение является спорным: например, Канада постоянно продает энергию с гидроэлектростанций в США, где та, соответственно, потребляется. Однако наша цель&amp;#160;— получить репрезентативное приближенное значение процентной доли от общих объемов по странам и регионам. Как создатель визуализации я решаю, является ли полученная приблизительная мера осмысленной, прежде чем представлять ее.&lt;/p&gt;
+
+&lt;p&gt;В нашем примере проще всего выполнить расчет во время загрузки данных. На вкладке "Запрос" (команда "Изменить запрос" на ленте) я с помощью функции "Добавить столбец" в запросе "Данные" добавляю новый столбец "Синтетический объем производства электроэнергии из угля", используя следующую формулу:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;strong&gt;[#"Общее население"] * [#"Потребление электроэнергии, кВт*ч на душу населения"] * [#"Объем производства электроэнергии из угля (% от общего)"] / 100&lt;/strong&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Повторяем это вычисление для всех источников электроэнергии из набора данных: нефти, природного газа, ГЭС, ядерного топлива и возобновляемых источников. Ниже показана полученная диаграмма.&lt;/p&gt;</value>
+  </data>
+  <data name="Article_Content16_1" xml:space="preserve">
+    <value>&lt;p&gt;&lt;img src="{0}" alt="" title="" /&gt;&lt;/p&gt;
+
+&lt;p&gt;Рисунок&amp;#160;3. Обновленная диаграмма на базе синтетических мер. Предположения понятно объяснены целевой аудитории. Названия мер указывают, что данные получены искусственно.&lt;/p&gt;
+
+&lt;p&gt;Если сравнить диаграммы на рисунках&amp;#160;3 и 1, мы увидим большую разницу в трендах по каждому из рядов. Последняя диаграмма является репрезентативной, а когда выполняется условие, согласно которому должны быть выбраны один год и одна страна, данные на ней совпадают с данными на верхней диаграмме.&lt;/p&gt;
+
+&lt;p&gt;В нашем примере мы обошли проблему, связанную с неправильными агрегатами, однако при этом сделали спорное предположение. Вам должно быть очевидно, почему это длинное пояснение отсутствует в видеоматериалах по данному курсу. Пример демонстрирует проблемы, в которыми вам как создателю визуализаций придется столкнуться в попытках предложить своей аудитории достоверные данные.&lt;/p&gt;</value>
+  </data>
+  <data name="Article_Content1_4" xml:space="preserve">
+    <value>&lt;h2 id="exploring-distributions"&gt;Анализ распределений в Power BI&lt;/h2&gt;
+
+&lt;p&gt;В этом учебнике мы рассмотрим анализ показателей индекса развития базового образования (IDEB) в Бразилии на основе данных, которые нам предоставил Альберто.&lt;/p&gt;
+
+&lt;p&gt;Что нам потребуется:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;Brazil Regions.xlsx&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;IDEB2009.csv&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3&gt;Этап&amp;#160;1. Загрузка данных IDEB&lt;/h3&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;Откройте &lt;em&gt;*Power BI Desktop*&lt;/em&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;С помощью &lt;strong&gt;интерфейса получения данных&lt;/strong&gt; загрузите информацию из файла &lt;strong&gt;IDEB2009.csv&lt;/strong&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;p&gt;На ленте выберите "Главная"&amp;#160;-&gt; "Получить данные"&amp;#160;-&gt; CSV.&lt;/p&gt;
+&lt;/ol&gt;
+&lt;p&gt;Примечание. Если эта процедура вам незнакома, обратитесь к предыдущим руководствам. Кроме того, операции в пользовательском интерфейсе наглядно продемонстрированы на видео.&lt;/p&gt;
+
+&lt;h2&gt;Этап&amp;#160;2. Создание простой гистограммы&lt;/h2&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;В &lt;strong&gt;Power BI Desktop&lt;/strong&gt; на странице пустого отчета добавьте &lt;strong&gt;гистограмму с накоплением&lt;/strong&gt; с помощью соответствующего значка на вкладке &lt;strong&gt;Визуализации&lt;/strong&gt;:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src="{0}" alt="" title="" /&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Свяжите данные с визуальным элементом:&lt;/p&gt;
+
+&lt;p&gt;а) Добавьте поле &lt;strong&gt;&lt;em&gt;Показатель&lt;/em&gt;&lt;/strong&gt; в раздел &lt;strong&gt;Ось&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;б) Добавьте поле &lt;strong&gt;&lt;em&gt;учебное заведение&lt;/em&gt;&lt;/strong&gt; в раздел &lt;strong&gt;Значение&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;pre&gt;i.  Обратите внимание, что Power BI автоматически вычисляет агрегат для учебных заведений:
+    "Количество учебное заведение"
+&lt;/pre&gt;&lt;/li&gt;
+&lt;p&gt;&lt;img src="{1}" alt="" title="" /&gt;&lt;/p&gt;
+&lt;pre&gt;        Полученная диаграмма представляет собой гистограмму на основе
+        исходный значений.
+&lt;/pre&gt;
+&lt;li&gt;&lt;p&gt;Чтобы сделать ее еще нагляднее, можно настроить цвета с помощью области &lt;strong&gt;форматирования&lt;/strong&gt;:&lt;/p&gt;
+
+&lt;p&gt;а) Выделив визуальный элемент, &lt;strong&gt;выберите область "Формат"&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;б) &lt;strong&gt;Разверните раздел "Цвет данных"&lt;/strong&gt; и &lt;strong&gt;выберите нужный цвет&lt;/strong&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;img src="{2}" alt="" title="" /&gt;&lt;/p&gt;
+
+&lt;h3&gt;Этап&amp;#160;3. Настройка конечных точек на осях&lt;/h3&gt;
+
+&lt;p&gt;Иногда бывает нужно изменить значения по умолчанию в Power BI, чтобы данные было удобно фильтровать и выделять. В нашем примере изменим масштаб осей X и Y, чтобы получить сравнимые результаты во всех случаях.&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;В области &lt;strong&gt;форматирования&lt;/strong&gt; разверните раздел &lt;strong&gt;Ось X&lt;/strong&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Для свойства &lt;strong&gt;Конец&lt;/strong&gt; задайте значение &lt;strong&gt;&lt;em&gt;8&lt;/em&gt;&lt;/strong&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;img src="{3}" alt="" title="" /&gt;&lt;/p&gt;</value>
+  </data>
+  <data name="Article_Content2_8" xml:space="preserve">
+    <value>&lt;h3&gt;Этап&amp;#160;4. Добавление в отчет полезной информации о штатах&lt;/h3&gt;
+&lt;p&gt;В Power BI есть механизмы интерпретации географических данных. На правильное расположение данных на карте сильно влияет их специфика. Для наших показателей IDEB сведения о штатах при нанесении на карту оказываются неоднозначными. В этом разделе мы узнаем, как загрузить более качественные данные и добавить их к уже имеющимся показателям IDEB.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;Использование параметра &lt;strong&gt;Получить данные&amp;#160;-&gt; Из Интернета&lt;/strong&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Введите следующий URL-адрес, как показано в диалоговом окне на рисунке: &lt;a href="{0}"&gt;{0}&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;p&gt;&lt;img src="{1}" alt="" title="" /&gt;&lt;/p&gt;
+&lt;li&gt;В диалоговом окне &lt;strong&gt;Навигатор&lt;/strong&gt; &lt;strong&gt;установите флажок&lt;/strong&gt; "Список бразильских штатов [изменить]" и нажмите кнопку &lt;strong&gt;ОК&lt;/strong&gt;.&lt;/li&gt;
+&lt;p&gt;&lt;img src="{2}" alt="" title="" /&gt;&lt;/p&gt;
+&lt;li&gt;&lt;p&gt;Чтобы добавить информацию о штатах к исходным данным IDEB, мы объединим запросы.&lt;/p&gt;
+&lt;p&gt;а) &lt;strong&gt;Выберите&lt;/strong&gt; &lt;strong&gt;запрос IEDB2009&lt;/strong&gt; в окне "Запрос".&lt;/p&gt;&lt;/li&gt;
+&lt;p&gt;&lt;img src="{3}" alt="" title="" /&gt;&lt;/p&gt;
+&lt;li&gt;На ленте нажмите кнопку &lt;strong&gt;Слияние запросов&lt;/strong&gt;.&lt;/li&gt;
+&lt;p&gt;&lt;img src="{4}" alt="" title="" /&gt;&lt;/p&gt;
+&lt;li&gt;&lt;p&gt;В диалоговом окне &lt;strong&gt;Слияние&lt;/strong&gt;:&lt;/p&gt;
+&lt;p&gt;а) Выберите &lt;strong&gt;&lt;/strong&gt; &lt;strong&gt;в запросе IEDB2009&lt;/strong&gt;, а затем&amp;#160;— &lt;strong&gt;&lt;/strong&gt; &lt;strong&gt;в запросе "Список штатов Бразилии"&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;б) Выберите значение &lt;strong&gt;Левое внешние&lt;/strong&gt; для параметра &lt;strong&gt;Тип соединения&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;в) Нажмите кнопку &lt;strong&gt;ОК&lt;/strong&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;p&gt;&lt;img src="{5}" alt="" title="" /&gt;&lt;/p&gt;
+&lt;li&gt;&lt;p&gt;В запрос будет добавлен &lt;strong&gt;новый столбец&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;а) Нажмите на &lt;strong&gt;значок "Развернуть"&lt;/strong&gt; в левом верхнем углу заголовка столбца.&lt;/p&gt;&lt;/li&gt;
+&lt;p&gt;&lt;img src="{6}" alt="" title="" /&gt;&lt;/p&gt;
+&lt;li&gt;&lt;p&gt;В открывшемся диалоговом окне:&lt;/p&gt;
+&lt;p&gt;а) Снимите флажок &lt;strong&gt;(Выбрать все столбцы)&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;б) Выберите &lt;strong&gt;Штат&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;в) Нажмите кнопку &lt;strong&gt;ОК&lt;/strong&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;p&gt;&lt;img src="{7}" alt="" title="" /&gt;&lt;/p&gt;
+&lt;li&gt;Будет добавлен новый столбец. Дважды щелкните &lt;strong&gt;заголовок столбца&lt;/strong&gt; и переименуйте его в &lt;strong&gt;азвание штата&lt;/strong&gt;.&lt;/li&gt;
+&lt;p&gt;а) &lt;img src="{8}" alt="" title="" /&gt;&lt;/p&gt;
+&lt;li&gt;&lt;p&gt;Чтобы улучшить географическую привязку имен штатов, добавим еще один столбец.&lt;/p&gt;
+&lt;p&gt;а) На вкладке ленты &lt;strong&gt;Добавить столбец&lt;/strong&gt; щелкните &lt;strong&gt;Добавить пользовательский столбец&lt;/strong&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;</value>
+  </data>
+  <data name="Article_Content4_7" xml:space="preserve">
+    <value>&lt;blockquote&gt;
+  &lt;p&gt;&lt;img src="{0}" alt="" title="" /&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;б) В диалоговом окне &lt;strong&gt;Добавление пользовательского столбца&lt;/strong&gt; введите следующее выражение:&lt;/p&gt;
+
+&lt;pre&gt;**\[название штата\] &amp;amp; “, Бразилия”**
+&lt;/pre&gt;
+
+&lt;p&gt;&lt;img src="{1}" alt="" title="" /&gt;&lt;/p&gt;
+
+&lt;p&gt;в) Нажмите кнопку &lt;strong&gt;ОК&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;h3&gt;Этап&amp;#160;5. Загрузка метаданных регионов&lt;/h3&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;В окнах &lt;strong&gt;редактора запросов&lt;/strong&gt; на вкладке "Главная" ленты выберите &lt;strong&gt;Создать источник&amp;#160;-&gt; Excel&lt;/strong&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Выберите &lt;strong&gt;файл Excel под названием Brazil Regions.xlsx&lt;/strong&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;В диалоговом окне &lt;strong&gt;Навигатор&lt;/strong&gt; установите флажок &lt;strong&gt;BrazilRegions&lt;/strong&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Нажмите кнопку &lt;strong&gt;ОК&lt;/strong&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;p&gt;&lt;img src="{2}" alt="" title="" /&gt;&lt;/p&gt;
+&lt;li&gt;&lt;p&gt;В окно запроса будет загружен новый запрос.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Щелкните заголовок столбца штатов правой кнопкой мыши, выберите команду &lt;strong&gt;Разделить столбец&lt;/strong&gt;, а затем&amp;#160;— &lt;strong&gt;По разделителю&lt;/strong&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;p&gt;&lt;img src="{3}" alt="" title="" /&gt;&lt;/p&gt;
+&lt;li&gt;&lt;p&gt;В диалоговом окне &lt;strong&gt;Разбиение столбца по разделителю&lt;/strong&gt;:&lt;/p&gt;
+&lt;p&gt;а) В раскрывающемся списке &lt;strong&gt;Выберите или введите разделитель&lt;/strong&gt; выберите вариант &lt;strong&gt;Пробел&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;б) Выберите вариант &lt;strong&gt;В позиции правого разделителя&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;в) Нажмите кнопку &lt;strong&gt;ОК&lt;/strong&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;p&gt;&lt;img src="{4}" alt="" title="" /&gt;&lt;/p&gt;
+&lt;li&gt;&lt;p&gt;Будут созданы два новых столбца: &lt;strong&gt;Штат.1&lt;/strong&gt; и &lt;strong&gt;Штат.2&lt;/strong&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Щелкните правой кнопкой мыши одно из значений в столбце Штат.2.&lt;/p&gt;
+&lt;p&gt;а) Выберите команду &lt;strong&gt;Замена значений…&lt;/strong&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;p&gt;&lt;img src="{5}" alt="" title="" /&gt;&lt;/p&gt;
+&lt;li&gt;&lt;p&gt;В диалоговом окне &lt;strong&gt;Замена значений&lt;/strong&gt;:&lt;/p&gt;
+&lt;p&gt;а) Введите в поле &lt;strong&gt;Значение для поиска&lt;/strong&gt; символ "(".&lt;/p&gt;
+&lt;p&gt;б) Оставьте поле &lt;strong&gt;Заменить на&lt;/strong&gt; пустым.&lt;/p&gt;
+&lt;p&gt;в) Нажмите кнопку &lt;strong&gt;ОК&lt;/strong&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;p&gt;&lt;img src="{6}" alt="" title="" /&gt;&lt;/p&gt;
+&lt;li&gt;&lt;p&gt;Повторив описанные выше инструкции, удалите символ ")" из столбца Штат.2.&lt;/p&gt;
+&lt;p&gt;Обратите внимание: эти действия повторяют процедуру включения нового столбца регионов в запрос IDEB2009, которую мы рассмотрели ранее в этом учебнике. Подробные инструкции по их выполнению см. выше.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Переименуйте столбец Штат.2 в &lt;strong&gt;Сокр.&lt;/strong&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Выберите &lt;strong&gt;запрос IDEB2009&lt;/strong&gt; в списке запросов.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Выберите команду &lt;strong&gt;Слияние&lt;/strong&gt; на вкладке "Главная" ленты.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;В диалоговом окне &lt;strong&gt;Слияние&lt;/strong&gt;:&lt;/p&gt;
+&lt;p&gt;а) Выберите столбец &lt;strong&gt;Штат&lt;/strong&gt; в запросе IDEB2009.&lt;/p&gt;
+&lt;p&gt;б) Выберите столбец &lt;strong&gt;Сокр.&lt;/strong&gt; в запросе BrazilRegions.&lt;/p&gt;
+&lt;p&gt;в) Нажмите кнопку &lt;strong&gt;ОК&lt;/strong&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Щелкните &lt;strong&gt;значок "Развернуть"&lt;/strong&gt; в столбце &lt;strong&gt;Новый столбец&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;а) Выберите столбец &lt;strong&gt;Регион&lt;/strong&gt; в раскрывающемся списке.&lt;/p&gt;
+&lt;p&gt;б) Нажмите кнопку &lt;strong&gt;ОК&lt;/strong&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Нажмите кнопку &lt;strong&gt;Закрыть и применить&lt;/strong&gt; на вкладке "Главная" ленты.&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;</value>
+  </data>
+  <data name="Article_Content6_6" xml:space="preserve">
+    <value>&lt;p&gt;&lt;img src="{0}" alt="" title="" /&gt;&lt;/p&gt;
+&lt;h3&gt;Этап&amp;#160;6. Создание интерактивной карты на основе новых данных.&lt;/h3&gt;
+&lt;p&gt;Новые столбцы позволят нам создать карту, которая сделает результаты нашего анализа привлекательнее.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;В области &lt;strong&gt;Визуализации&lt;/strong&gt; выберите визуальный элемент &lt;strong&gt;Картограмма&lt;/strong&gt; и добавьте его на холст.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Привяжите к визуальному элементу следующие данные:&lt;/p&gt;
+&lt;p&gt;а) Добавьте столбец &lt;strong&gt;Название штата Бразилии&lt;/strong&gt; в раздел &lt;strong&gt;Местоположение&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;б) Добавьте столбец &lt;strong&gt;Показатель&lt;/strong&gt; в раздел &lt;strong&gt;Насыщенность цвета&lt;/strong&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;img src="{1}" alt="" title="" /&gt;&lt;/p&gt;
+&lt;p&gt;При необходимости выполните инструкции, показанные в видеоматериале:&lt;/p&gt;
+&lt;p&gt;а) Измените статистическую функцию для столбца &lt;strong&gt;Показатель&lt;/strong&gt; на &lt;strong&gt;Медиана&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;б) Поэкспериментируйте с параметрами в области форматирования и настройте цвета карты.&lt;/p&gt;
+&lt;p&gt;в) Добавьте на холст столбец &lt;strong&gt;&lt;/strong&gt; и превратите его в срез.&lt;/p&gt;
+&lt;h3&gt;Этап&amp;#160;7. Разделение на ячейки: настраиваемый визуальный элемент "Гистограмма"&lt;/h3&gt;
+&lt;p&gt;Чтобы пройти этот раздел, сначала &lt;strong&gt;скачайте настраиваемый визуальный элемент "Гистограмма"&lt;/strong&gt;. &lt;a href="{2}"&gt;{2}&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;В Power BI есть коллекция настраиваемых визуальных элементов, которые можно скачать. Она расположена здесь: &lt;a href="{3}"&gt;{3}&lt;/a&gt;&lt;/p&gt;&lt;ol&gt;
+&lt;li&gt;Откройте в веб-браузере следующую страницу:&lt;/li&gt;
+&lt;p&gt;&lt;a href="{2}"&gt;{2}&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;img src="{4}" alt="" title="" /&gt;&lt;/p&gt;
+&lt;li&gt;&lt;p&gt;Нажмите кнопку &lt;strong&gt;Скачать визуальный элемент&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;Обратите внимание: прежде чем скачивать визуальный элемент, ознакомьтесь с условиями использования.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;В Power BI Desktop нажмите кнопку &lt;strong&gt;…&lt;/strong&gt; в области &lt;strong&gt;Визуализации&lt;/strong&gt; и импортируйте визуальный элемент, следуя инструкциям.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;В область визуализаций будет добавлен новый визуальный элемент.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Выделите в отчете имеющуюся гистограмму и нажмите на значок визуального элемента &lt;strong&gt;Гистограмма&lt;/strong&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;p&gt;&lt;img src="{5}" alt="" title="" /&gt;&lt;/p&gt;
+&lt;li&gt;&lt;p&gt;Выбрав визуальный элемент &lt;strong&gt;Гистограмма&lt;/strong&gt;, откройте область &lt;strong&gt;форматирования&lt;/strong&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Разверните параметры категории &lt;strong&gt;Общие&lt;/strong&gt; и введите значение для свойства &lt;strong&gt;Ячейки&lt;/strong&gt;. С его помощью можно задать настраиваемый размер ячеек, лучше всего соответствующий имеющимся данным.&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;</value>
+  </data>
+  <data name="Article_Content7_4" xml:space="preserve">
+    <value>&lt;h3&gt;Этап&amp;#160;8. Блочные диаграммы в Power BI&lt;/h3&gt;
+&lt;p&gt;Для работы с этим разделом скачайте настраиваемый визуальный элемент "Ящик с усами" (автор&amp;#160;— Ян Питер (Jan Pieter)).&lt;/p&gt;&lt;p&gt;&lt;a href="{0}"&gt;{0}&lt;/a&gt;&lt;/p&gt;&lt;ol&gt;
+&lt;li&gt;С помощью команд пользовательского интерфейса скачайте визуальные элементы, описанные выше в этом учебнике.&lt;/li&gt;&lt;p&gt;&lt;img src="{1}" alt="" title="" /&gt;&lt;/p&gt;&lt;li&gt;&lt;p&gt;Импортируйте визуальный элемент с помощью кнопки &lt;strong&gt;…&lt;/strong&gt; в области &lt;strong&gt;Визуализации&lt;/strong&gt;, как показано выше.        &lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li&gt;&lt;p&gt;Выберите визуальный элемент &lt;strong&gt;Гистограмма&lt;/strong&gt;, а затем преобразуйте его в блочную диаграмму с помощью значка &lt;strong&gt;Блочная диаграмма&lt;/strong&gt; в области &lt;strong&gt;Визуализация&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;а) Обратите внимание: на этом этапе визуальный элемент выглядит пустым.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Настройте для блочной диаграммы поля данных:&lt;/p&gt;
+&lt;p&gt;а) В разделе &lt;strong&gt;Категория&lt;/strong&gt; выберите столбец &lt;strong&gt;Штат&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;б) В разделе &lt;strong&gt;Выборка&lt;/strong&gt; выберите столбец &lt;strong&gt;Учебное заведение&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;в) В разделе &lt;strong&gt;Значения&lt;/strong&gt; выберите столбец &lt;strong&gt;Показатель&lt;/strong&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;На экране появится примерно такая блочная диаграмма:&lt;/p&gt;&lt;/li&gt;
+        &lt;p&gt;&lt;img src="{2}" alt="" title="" /&gt;&lt;/p&gt;
+         &lt;li&gt;
+                &lt;p&gt;Выбрав блочную диаграмму, откройте область форматирования:&lt;/p&gt;
+                &lt;p&gt;а) Разверните &lt;strong&gt;параметры диаграммы&lt;/strong&gt;.&lt;/p&gt;
+                &lt;p&gt;б) Для параметра &lt;strong&gt;Тип диаграммы&lt;/strong&gt; выберите значение &lt;strong&gt;1.5 IQR&lt;/strong&gt;.&lt;/p&gt;
+                &lt;p&gt;в) Для параметра &lt;strong&gt;Выбросы&lt;/strong&gt; установите значение &lt;strong&gt;Вкл.&lt;/strong&gt;&lt;/p&gt;
+                &lt;p&gt;&lt;img src="{3}" alt="" title="" /&gt;&lt;/p&gt;
+            &lt;/li&gt;&lt;/ol&gt;
+</value>
+  </data>
+  <data name="Article_Content8_2" xml:space="preserve">
+    <value>               &lt;p&gt;Диаграмма в окончательном виде будет выглядеть примерно так:&lt;/p&gt; &lt;p&gt;&lt;img src="{0}" alt="" title="" /&gt;&lt;/p&gt;
+        &lt;h2 id="time-series"&gt;Временные ряды на основе данных о занятости в Испании&lt;/h2&gt;
+        &lt;p&gt;
+            В одном из примеров в книге Альберто &lt;em&gt;The Truthful Art&lt;/em&gt; (Искусство достоверного) объясняется, как статистические методы в анализе могут пригодиться для выявления закономерностей и трендов, которые сложно обнаружить невооруженным глазом. Следующий учебник содержит два таких примера. В первом показано, как добавить прямую линию тренда на визуальный элемент без каких-либо вычислений. Во втором с помощью R-скрипта в Power BI рассчитываются сезонные колебания, шум и кривая линия тренда. Эти две идеи рассматриваются подробнее в части&amp;#160;2 интернет-курса.
+        &lt;/p&gt;
+        &lt;h3&gt;Этап&amp;#160;1. Создание графика с линией тренда&lt;/h3&gt;
+            &lt;ol&gt;&lt;li&gt;
+                &lt;p&gt;
+                    Создадим график с датой по оси Y и значениями SocialSecurityAffiliates по оси X.
+                &lt;/p&gt;
+            &lt;/li&gt;
+            &lt;li&gt;
+                &lt;p&gt;
+                    В области &lt;strong&gt;Аналитика&lt;/strong&gt; справа включим параметр &lt;strong&gt;Линия тренда&lt;/strong&gt;. Для нее можно задать другое название, прозрачность и цвет.
+                &lt;/p&gt;
+            &lt;/li&gt;
+&lt;p&gt;&lt;img src="{1}" alt="" title="" /&gt;&lt;/p&gt;
+&lt;li&gt;Повторим эти действия для параметров &lt;strong&gt;Население в возрасте от 16 до 64&lt;/strong&gt; и &lt;strong&gt;&lt;/strong&gt; и получим визуальные элементы, показанные на изображении ниже.&lt;/li&gt;
+&lt;/ol&gt;</value>
+  </data>
+  <data name="Article_Content9_2" xml:space="preserve">
+    <value>&lt;p&gt;&lt;img src="{0}" alt="" title="" /&gt;&lt;/p&gt;
+&lt;h3&gt;Этап&amp;#160;2. Расчет сезонных колебаний, тренда и случайного шума с помощью R-скрипта.&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;Установите на свой компьютер компоненты R, а также редактор R-скриптов, например RStudio.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;В редакторе R-скриптов выполните команды &lt;strong&gt;install.packages(Ecdat)&lt;/strong&gt; и &lt;strong&gt;install.packages(fpp)&lt;/strong&gt;. В результате на компьютере будут установлены пакеты Ecdat и fpp. Пакет устанавливается один раз, а соответствующая библиотека активируется из Power BI каждый раз при его использовании.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;В редакторе запросов измените тип данных столбца &lt;strong&gt;Date&lt;/strong&gt; (Дата) на текстовый. Скрипт не сможет работать с форматом даты.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;На вкладке "Преобразование" ленты нажмите кнопку &lt;strong&gt;Запустить сценарий R&lt;/strong&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;img src="{1}" alt="" title="" /&gt;&lt;/p&gt;</value>
+  </data>
+  <data name="Article_Continue_Content10_1" xml:space="preserve">
+    <value>&lt;h2&gt;Подробный анализ&lt;/h2&gt;&lt;p&gt;В этом учебнике мы рассмотрим ряд принципов, которые были проиллюстрированы в демонстрационном примере. Здесь нет пошаговых инструкций, потому что многие из них есть в предыдущих учебниках.&lt;/p&gt;
+&lt;p&gt;Чтобы пройти этот учебник, откройте файл &lt;strong&gt;Where does your electricity come from final.pbix&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;Если вы собираетесь поработать с данными самостоятельно, скачайте их последнюю версию с веб-сайта Всемирного банка.&lt;/p&gt;
+&lt;ol&gt;&lt;li&gt;&lt;p&gt;Откройте в веб-браузере следующую страницу:&lt;/p&gt;
+&lt;p&gt;&lt;a href="{0}"&gt;{0}&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;Скачайте файл &lt;strong&gt;Climate Change (Excel)&lt;/strong&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3&gt;Этап&amp;#160;1. Выбор визуального элемента для отображения данных тренда&lt;/h3&gt;
+&lt;ol&gt;&lt;li&gt;&lt;p&gt;Создание пустой страницы&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Добавьте на холст гистограмму. Выберите в области &lt;strong&gt;Визуализации&lt;/strong&gt; элемент &lt;strong&gt;Гистограмма&lt;/strong&gt; и свяжите с ним следующие поля данных:&lt;/p&gt;
+&lt;p&gt;а) Год&lt;/p&gt;
+&lt;p&gt;б) CO2 emissions (kt) (Выбросы CO2, кт)&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Добавьте на холст график. Выберите в области &lt;strong&gt;Визуализации&lt;/strong&gt; элемент &lt;strong&gt;График&lt;/strong&gt; и свяжите с ним следующие поля данных:&lt;/p&gt;&lt;p&gt;а) Год&lt;/p&gt;
+&lt;p&gt;б) CO2 emissions (metric tons per capita) (Выбросы CO2, метрические тонны на душу населения)&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;</value>
+  </data>
+  <data name="Download_Resources" xml:space="preserve">
+    <value>Скачать все ресурсы, необходимые для работы с этими учебниками</value>
+  </data>
+  <data name="Hero_Subtitle" xml:space="preserve">
+    <value>Во втором курсе "Визуализация данных и создание сюжетов" Альберто Каиро расскажет, как с помощью визуализаций извлекать из данных полезную информацию. Альберто объясняет, как повысить концентрацию данных и когда следует использовать те или иные графические формы, такие как диаграмма "ящик с усами". Мы также коснемся анализа временных рядов, который помогает обнаруживать общие тренды и сезонные закономерности. Кроме того, Альберто расскажет, как связывать между собой разные графические объекты, чтобы сделать данные более осмысленными.</value>
+  </data>
+  <data name="Hero_Title" xml:space="preserve">
+    <value>Изучение данных</value>
+  </data>
+  <data name="InThisArticle" xml:space="preserve">
+    <value>В этой статье:</value>
+  </data>
+  <data name="META_DESCRIPTION" xml:space="preserve">
+    <value />
+  </data>
+  <data name="META_KEYWORDS" xml:space="preserve">
+    <value />
+  </data>
+  <data name="META_PAGETITLE" xml:space="preserve">
+    <value>Журналистика данных — изучение данных | Microsoft Power BI</value>
+  </data>
+  <data name="NextTopic" xml:space="preserve">
+    <value>Следующая тема: достоверные визуализации</value>
+  </data>
+  <data name="RightNav_Link1" xml:space="preserve">
+    <value>Анализ распределений в Power BI</value>
+  </data>
+  <data name="RightNav_Link2" xml:space="preserve">
+    <value>Временные ряды на основе данных о занятости в Испании</value>
+  </data>
+  <data name="Meta_LocJobId" xml:space="preserve">
+    <value>158</value>
+  </data>
+</root>

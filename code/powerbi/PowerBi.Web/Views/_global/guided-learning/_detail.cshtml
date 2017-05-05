@@ -1,0 +1,215 @@
+﻿@model PowerBI.Web.Models.Pages.GuidedLearning.Detail
+@using Acom.Search.Client.Extensions
+@using Resources = PowerBI.Resources.Pages.GuidedLearning.Detail
+@using Forms = PowerBI.Resources.Shared.Forms.Form
+@using PowerBI.Resources.Shared
+
+
+@{
+    Model.PageTitle = Model.Learning.Title;
+    Model.AdditionalMetaTags.Add("guided-learning-slug", Model.Learning.Slug);
+}
+
+<section class="section section-slate01 section-size1">
+    <div class="row column">
+        <h2 class="text-heading5 title"><a href="@Html.LocalizeUrl($"/guided-learning/")">@Resources.GuidedLearning</a></h2>
+    </div>
+</section>
+<section class="section section-size2" itemscope="itemscope" itemtype="http://schema.org/TechArticle">
+    <div class="row">
+        <div class="column large-4" id="guided-learning-nav">
+            <div class="row column">
+                <div class="navigationLeft">
+                    <div class="title">
+                        <span class="glyphicon glyph-small pbi-glyph-chevrondownmedium"></span>
+                        <span class="text-heading5">
+                            @Resources.NavTitle
+                        </span>
+                    </div>
+                    <ul>
+                        @foreach (var category in Model.CourseDictionary)
+                        {
+                            <li class="category" data-gl-lessons="@string.Join(" ", category.Value.Select(c => c.Slug))">
+                                <a href="#" class="toggler">@Courses.ResourceManager.GetString(category.Key.TitleLocKey)<span class="glyphicon glyph-mini pbi-glyph-checkmark"></span></a>
+                                <ul class="toggled @(category.Key.Slug == Model.SelectedCourse?.Slug ? "open" : "")">
+                                    @foreach (var learning in category.Value)
+                                    {
+                                        <li class="lesson" data-gl-lessons="@learning.Slug">
+                                            <span class="glyphicon glyph-mini pbi-glyph-checkmark"></span>
+                                            <a class="@(Model.Learning.Slug == learning.Slug ? "active" : "")" href="@Html.LocalizeUrl($"/guided-learning/{learning.Slug}/")">
+                                                @learning.TitleForCurrentLanguage()
+                                                @if (learning.ExtraData?.Duration != null)
+                                                {
+                                                    <span class="duration">@Html.RawFormatInvariant(Resources.NumMinutes, learning.ExtraData?.Duration?.TotalMinutes)</span>
+                                                }
+                                            </a>
+                                        </li>
+                                    }
+                                </ul>
+                            </li>
+                        }
+                    </ul>
+                </div>
+            </div>
+            <div class="row column row-size2 form-replace hide track-progress border-top" id="trackProgressForm">
+                <p>@Resources.TrackProgressText</p>
+                @Html.CreateForm("TrackProgress", new Acom.Forms.Models.FormOptions
+                   {
+                       Class = "form-email-only form-small",
+                       Slug = "track-progress",
+                       SubmitView = "form/submitviews/_trackprogress"
+                   })
+            </div>
+        </div>
+        <div class="column large-8" id="guided-learning-content">
+            <div class="card-notification hide track-progress show-for-medium" id="firstTopicComplete">
+                <a href="#" class="close">&times;</a>
+                <div class="row column">
+                    <div class="column show-for-medium medium-2 icon-wrapper">
+                        <span class="icon icon-size6">@SvgHelper.GetSvg("learning-thumbs-up")</span>
+                    </div>
+                    <div class="column medium-10">
+                        <h3>@Resources.FinishedFirstTopicHeader</h3>
+                        <p>@Resources.FinishedFirstTopicPrompt</p>
+                        @Html.CreateForm("TrackProgress", new Acom.Forms.Models.FormOptions
+                   {
+                       Class = "form-email-only track-progress",
+                       Slug = "track-progress",
+                   })
+                    </div>
+                </div>
+            </div>
+            <div class="card-notification hide" id="signupSuccess">
+                <a href="#" class="close">&times;</a>
+                <div class="row column">
+                    <div class="column show-for-medium medium-2 icon-wrapper">
+                        <span class="icon icon-size6">@SvgHelper.GetSvg("learning-checkmark")</span>
+                    </div>
+                    <div class="column medium-10">
+                        <h3>@Resources.ProgressTrackedHeader</h3>
+                        <p>@Resources.ProgressTrackedText</p>
+                    </div>
+                </div>
+            </div>
+            <div class="card-notification hide" id="buildingBlocksComplete">
+                <a href="#" class="close">&times;</a>
+                <div class="row column">
+                    <div class="column show-for-medium medium-2 icon-wrapper">
+                        <span class="icon icon-size6">@SvgHelper.GetSvg("learning-trophy")</span>
+                    </div>
+                    <div class="column medium-10">
+                        <h3>@Resources.BuildingBlocksHeader</h3>
+                        <p>@Resources.BuildingBlocksText</p>
+                    </div>
+                </div>
+            </div>
+
+            <h1>@Model.Learning.Title</h1>
+            @if (!string.IsNullOrEmpty(Model.Learning.VideoId))
+            {
+                <div class="video-container">
+                    <div class="video-overlay text-center">
+                        @if (Model.NextLearning != null)
+                        {
+                            <div class="row column">
+                                <div class="video-overlay-text">
+                                    <h4>
+                                        @Resources.VideoOverlay_NextTopic
+                                    </h4>
+                                    <h3>
+                                        @Model.NextLearning.Title
+                                    </h3>
+                                    <a class="button button-featured continue" href="@Html.LocalizeUrl($"/guided-learning/{Model.NextLearning.Slug}/")">
+                                        @Resources.Continue
+                                    </a>
+                                </div>
+
+                                <a class="watch-again-container" href="#">
+                                    <span class="icon icon-size1">@SvgHelper.GetSvg("cycle")</span>
+                                    <h4>
+                                        @Resources.WatchAgain
+                                    </h4>
+                                </a>
+                            </div>
+                        }
+                    </div>
+                    <div id="guided-learning-video"></div>
+                </div>
+            }
+            <div itemprop="articlebody">
+                @Html.Raw(Model.Content)
+            </div>
+            @if (Model.NextLearning != null)
+            {
+                <div class="row column">
+                    <a class="button button-featured button-block next-button continue" href="@Html.LocalizeUrl($"/guided-learning/{Model.NextLearning.Slug}/")">
+                        @Html.RawFormatInvariant(Resources.NextTopic, Model.NextLearning.Title)
+                    </a>
+                </div>
+            }
+        </div>
+    </div>
+</section>
+
+<section class="section section-size3 section-slate05 guidedLearningFeedback">
+    <div class="row">
+        <div class="column large-8 large-offset-4 form-replace">
+            @Html.CreateForm("Feedback", new Acom.Forms.Models.FormOptions
+       {
+           Class = "form-feedback",
+           Slug = Model.Learning.Slug,
+           SubmitView = "form/submitviews/_feedbackthanks",
+       })
+        </div>
+    </div>
+</section>
+
+<div class="column-navigationScroll"></div> @*For scrollspy not to blowup*@
+
+@section foot{
+    <script>
+        (function ($, global, storage) {
+
+            if (location.search.indexOf('progress-tracking=1') !== -1 || storage.get("GuidedLearningProgress") !== null) {
+                global.guidedLearning.init();
+                $('#trackProgressForm').removeClass('hide');
+                if (storage.get('GuidedLearningProgress') === null) {
+                    storage.set('GuidedLearningProgress', JSON.stringify({ 'completed': {} }));
+                }
+            }
+
+            $(document).ready(function () {
+
+                MscomCustomEvent.apply($('body'), ['wcs.cid=power-bi-page-loaded']);
+
+                function onYouTubePlayerStateChange(event) {
+                    if (event.data == YT.PlayerState.ENDED) {
+                        $('.video-overlay').css('display', 'block');
+                    }
+                    $('.watch-again-container').on('click', function (event) {
+                        $('.video-overlay').css('display', 'none');
+                        guidedLearningVideo.playVideo();
+                    })
+                }
+
+                var guidedLearningVideo;
+                global.onYouTubeIframeAPIReady = function () {
+                    guidedLearningVideo = new YT.Player('guided-learning-video', {
+                        height: '422',
+                        width: '750',
+                        videoId: '@Model.Learning.VideoId',
+                        events: {
+                            'onReady': onYouTubePlayerStateChange,
+                            'onStateChange': onYouTubePlayerStateChange
+                        }
+                    });
+                }
+
+                var tag = document.createElement('script');
+                tag.src = "https://www.youtube.com/iframe_api";
+                var firstScriptTag = document.getElementsByTagName('script')[0];
+                firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
+            });
+        })(jQuery, window, window.sd.storage);
+    </script>
+}

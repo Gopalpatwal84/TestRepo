@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<appSettings>
+  <!-- Seq settings -->
+  <add key="SeqServer" value="http://localhost:5341/" />
+  <add key="SeqServerApiKey" value="#{keyvault:powerbi:jobs-seq-apikey}" />
+  <add key="SeqAllowFileBuffer" value="false" />
+  
+  <!-- Marketo -->
+  <add key="marketo.identityPattern" value="https://157-GQE-382.mktorest.com/identity/oauth/token?grant_type=client_credentials&amp;client_id={client_id}&amp;client_secret={client_secret}" />
+  <add key="marketo.restPattern" value="https://157-GQE-382.mktorest.com/rest/{0}" />
+  <add key="marketo.clientId" value="99c7b3d4-67ea-4674-9ba7-d9578a630e00" />
+  <add key="marketo.clientSecret" value="#{keyvault:powerbi:marketo-api-clientsecret}" />
+</appSettings>

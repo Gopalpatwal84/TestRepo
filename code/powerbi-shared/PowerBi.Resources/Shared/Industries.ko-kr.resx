@@ -1,0 +1,270 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" id="root">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Airline_DetailsTagline" xml:space="preserve">
+    <value>&lt;p&gt;대형 항공사에서 항공기 편대를 책임지고 있는 운영 엔지니어는 기술적 고장의 위험과 막대한 비용을 예방하기 위한 임시 유지보수의 비용과 장애를 지속적으로 평가해야 합니다. &lt;/p&gt;
+&lt;p&gt;이 솔루션의 보고서는 편대의 상태에 대한 개요와 함께 가까운 장래에 일어날 편대의 기술적 상태 변화 예측에 대한 요약을 제공합니다. 예측은 여러 기계 학습 모델을 기준으로 하며, 항공기의 신속 접속용 운항 기록장치(블랙박스와 유사)와 기타 데이터 원본을 사용합니다. 또한 이 보고서는 주요 엔진 구성 요소의 잔존 수명을 예측하는 데 도움이 되는 기계 학습 모델 중 하나에서 자세한 결과도 보여줍니다.&lt;/p&gt;
+&lt;p&gt;이 보고서는 시각적으로 풍부하며 비행 계획 및 위치에 대한 개요를 제공하여 항공기를 보수해야 하는 위치 및 보수할 항공기를 대체하기 위해 가장 적합한 다른 항공기를 결정하는 데 도움을 줍니다. 또한 이 보고서에는 기체 유형을 기준으로 편대의 여러 KPI 가중치를 합리화하는 사용자 지정 Sankey 차트와 제트 엔진 모양의 인상적인 3D 열 지도가 포함되어 있습니다. 이러한 시각적 개체는 항공 산업 종사자라면 누구나 쉽게 알 수 있는 방식으로 정보를 제공합니다.&lt;/p&gt;</value>
+  </data>
+  <data name="Airline_DetailTitle" xml:space="preserve">
+    <value>대규모 유지보수 계획 추진</value>
+  </data>
+  <data name="Airline_IndexTagline" xml:space="preserve">
+    <value>이 솔루션은 대형 항공사의 실제적인 예측 유지보수 시스템에 기반을 두고 있습니다. 데이터는 항공기 엔진의 IoT 데이터 스트림, 비행 계획, 날씨 정보 및 기록 등 다양한 출처로부터 나옵니다. 이 솔루션은 Azure HDInsight를 사용하여 설비 엔지니어링을 지원하고, Azure Machine Learning을 사용하여 작동 이상을 감지하며, Azure SQL DW를 사용하여 페타바이트 단위의 결과 데이터에 대한 고성능 쿼리를 지원합니다. 또한 보고서에서 항공 산업을 위해 설계된 사용자 지정 시각화를 사용하는 방법도 보여줍니다.</value>
+  </data>
+  <data name="Airline_Title" xml:space="preserve">
+    <value>항공사</value>
+  </data>
+  <data name="CPG_DetailsTagline" xml:space="preserve">
+    <value>&lt;p&gt;소비자 패키지 제품은 경쟁이 치열한 산업입니다. 모든 브랜드와 범주가 고객을 유치하고 고객의 우선적인 선택을 받기 위해 매일같이 치열하게 경쟁하고 있습니다. 시장 점유율을 높이기가 쉽지 않으며 CPG 분석만이 경쟁자를 앞설 수 있는 유일한 방법입니다. &lt;/p&gt;
+&lt;p&gt;Power BI를 사용하여 재고 수준, 수익성, 공급망, 채널 및 가격 등 모든 주요 메트릭을 한 장소에서 모니터링합니다. 실시간 보고서 및 경고를 사용하여 품절 상황을 방지합니다. &lt;/p&gt;
+&lt;p&gt;고급 대시보드 및 데이터가 더 심층적인 정보를 보여 주는 드릴다운을 사용하여 글로벌 사업 영역을 관리합니다. 고급 모델 및 상세 보고서를 통해 모든 브랜드와 범주의 성능을 명확하게 평가합니다. &lt;/p&gt;
+&lt;p&gt;마케팅 캠페인의 결과 및 각 캠페인이 매출, 시장 점유율 및 수익에 미치는 영향을 모니터링합니다. 신속한 통찰과 의미 있는 조치에 대한 풍부한 대화형 보고서를 사용하여 모든 사업의 재무 상황을 드릴다운합니다.&lt;/p&gt;</value>
+  </data>
+  <data name="CPG_DetailTitle" xml:space="preserve">
+    <value>더 심층적인 데이터 분석 및 추세 이해를 통해 시장 점유율 증대</value>
+  </data>
+  <data name="CPG_IndexTagline" xml:space="preserve">
+    <value>소비자 제품은 운영, 마케팅, 판매 및 재무 등 수많은 분야의 중심에 자리하고 있습니다. 변화하는 데이터를 지속적으로 분석하여 매출, 이익 및 고객 충성도를 최대화합니다.</value>
+  </data>
+  <data name="CPG_Title" xml:space="preserve">
+    <value>소비자 패키지 상품(CPG)</value>
+  </data>
+  <data name="Insurance_DetailsTagline" xml:space="preserve">
+    <value>&lt;p&gt;위험 관리는 보험 회사의 가장 중요한 목표입니다. 그러나 대량의 데이터와 수많은 변수 때문에 보험 분석은 엄청난 작업이며 보험 전문가가 신속하게 추세를 파악하고 필요한 조치를 취할 수 있는 도구와 접근방식이 필요합니다. &lt;/p&gt;
+&lt;p&gt;Power BI는 보험 분석자가 보험금 지급 요구, 보험료, 사기, 판매 및 고객 만족 데이터를 한 장소에서 쉽게 시각화하도록 도와 줍니다. 보험금 지급 요구 및 지불 추세를 더 신속하게 처리합니다. &lt;/p&gt;
+&lt;p&gt;사기를 탐지할 수 있는 패턴을 식별하고 자동화된 경고를 설정하여 사기를 신속하게 찾아냅니다. 사용자 지정 메트릭을 만들어 보험금 지급 요구를 처리하는 평균 비용 또는 평균 시간을 모니터링합니다. &lt;/p&gt;
+&lt;p&gt;가격 전략과 수익성에 미치는 영향을 시각화합니다. 고객 만족을 모니터링하고 잠재적인 새 비즈니스 기회 또는 위험을 식별하여 신속하게 조치를 취합니다.&lt;/p&gt;</value>
+  </data>
+  <data name="Insurance_DetailTitle" xml:space="preserve">
+    <value>시각적 데이터 기반 분석을 사용하여 위험 모니터링, 매출 및 보험금 지급 요구 관리, 사기 탐지를 수행합니다.</value>
+  </data>
+  <data name="Insurance_IndexTagline" xml:space="preserve">
+    <value>데이터는 보험 회사 운영에서 무수히 산출됩니다. 보험 회사는 모든 상품 판매, 보험금 지급 요구, 사기, 보장 범위의 복잡도 및 보험료를 통해 언제든지 이용할 수 있는 풍부한 추세 및 통찰력을 제공받습니다.</value>
+  </data>
+  <data name="Insurance_Title" xml:space="preserve">
+    <value>보험</value>
+  </data>
+  <data name="Manufacturing_DetailsTagline" xml:space="preserve">
+    <value>&lt;p&gt;시스템 사용률, 프로세스 효율, 비용, 재고 수준, 손실 및 주기 시간 등 주요 성능 지표를 실시간으로 추적합니다. &lt;/p&gt;
+&lt;p&gt;제조업체는 운영의 탁월한 성과를 달성하기 위해 사용 가능한 실시간 데이터에 대해 공동 작업, 모니터링 및 의사 소통이 필요합니다. Power BI를 사용하면 귀사의 팀이 다양한 출처에서 나오는 실시간 데이터를 하나의 대시보드에 통합하여 모니터링하고 필요한 경우 드릴다운을 통해 문제를 식별할 수 있습니다. Power BI 모바일 앱에서 실시간 경고를 얻고 운영 효율을 높여서 더 신속한 대처를 달성하고 응답 시간을 최소화합니다. &lt;/p&gt;
+&lt;p&gt;공급망을 처음부터 끝까지 모니터링하여 문제점과 병목이 중요 프로세스에 악영향을 미치기 전에 식별해 냅니다. 대시보드를 협력업체 및 파트너와 공유하여 그들이 사용 가능한 최신 정보를 조정할 수 있도록 함으로써 귀사의 프로세스를 더 간소화하고 더 현명하게 만듭니다. 고객을 포함한 모든 출처에서 오는 품질 입력 및 출력을 모니터링하여 제조 품질 향상에 의미 있는 결정을 신속하게 내립니다.&lt;/p&gt;</value>
+  </data>
+  <data name="Manufacturing_DetailTitle" xml:space="preserve">
+    <value>더 효율적이고 빠른 결정을 위한 실시간 공급망 가시성</value>
+  </data>
+  <data name="Manufacturing_IndexTagline" xml:space="preserve">
+    <value>제조 프로세스가 성공하려면 시스템이 원활하게 작동해야 하며 이 목표를 달성하는 최선의 방법은 큰 그림을 보면서도 모든 프로세스에 대한 가시성을 확보하는 것입니다.</value>
+  </data>
+  <data name="Manufacturing_Title" xml:space="preserve">
+    <value>제조</value>
+  </data>
+  <data name="ProfessionalServices_DetailsTagline" xml:space="preserve">
+    <value>&lt;p&gt;컨설팅, 법률 서비스, 부동산 서비스 또는 의료 등 회사의 전문 분야가 무엇인지는 상관없습니다. 비즈니스는 결국 사람을 중심으로 움직입니다. 결과를 최대화하고 효율을 높이려면 올바른 KPI를 사용하여 성능을 모니터링해야 합니다. 회사의 모든 구성원이 신속하게 행동하고 결과를 개선할 수 있도록 데이터를 그들과 공유해야 합니다. &lt;/p&gt;
+&lt;p&gt;Power BI를 사용하면 정확한 KPI 모니터링, KPI의 개인화, 더 나은 이해를 위한 시각화 및 공유를 모두 같은 플랫폼에서 수행할 수 있습니다. 직원별 연간 매출, 프로젝트 수익, 청구서 작성, 사용률 및 고객 만족 등 실시간 메트릭을 계산하여 성과를 통찰하고 당면과제에 대한 조치를 취합니다. 개인 수준까지 드릴다운하여 조직의 모든 구성원이 데이터를 활용하게 하면서도 데이터의 보안과 관리를 유지합니다. &lt;/p&gt;
+&lt;p&gt;서로 다른 위치, 역할, 프로젝트 및 팀 간에 할 일을 쉽게 구분하므로 어느 수준에서도 조치 가능한 통찰력을 갖게 됩니다. 고객 만족을 모니터링하여 높은 가치를 제공하면서도 운영을 간소하게 유지합니다.&lt;/p&gt;</value>
+  </data>
+  <data name="ProfessionalServices_DetailTitle" xml:space="preserve">
+    <value>더 심층적인 데이터 통찰력을 가진 구성원에게 집중합니다.</value>
+  </data>
+  <data name="ProfessionalServices_IndexTagline" xml:space="preserve">
+    <value>모든 전문가 서비스 회사의 한 가지 공통점은 그들의 가장 중요한 자산이 인력이라는 점입니다. 정확한 데이터와 기술로 조직의 전문가를 지원하여 고객에게 제공하는 가치를 최대화합니다.</value>
+  </data>
+  <data name="ProfessionalServices_Title" xml:space="preserve">
+    <value>전문가 서비스</value>
+  </data>
+  <data name="Retail_DetailsTagline" xml:space="preserve">
+    <value>&lt;p&gt;소매업체에 사용할 수 있는 데이터의 양은 엄청납니다. 트랜잭션, 공급망, 구입 행동, 추세, 다채널 판매 및 글로벌 사업영역 등 회사의 이익을 최대화하기 위해 사용할 수 있는 수많은 데이터가 있습니다. &lt;/p&gt;
+&lt;p&gt;이 모든 정보의 의미를 파악하려면 확장성, 사용 용이성, 접근성 및 실시간 연결이 필요합니다. Power BI는 이러한 모든 데이터 출처를 한 장소에 통합하여 데이터를 최신의 상태로 유지함으로써 정확한 시기에 정확한 결정을 내릴 수 있도록 해 줍니다. 스토어, 본사, 공장 또는 유통 센터에서 소매 분석을 공유합니다. &lt;/p&gt;
+&lt;p&gt;Power BI를 사용하면 사용자가 있는 장소와 상관없이 데이터를 언제나 사용 가능하고 최신의 상태로 유지할 수 있습니다. 온라인 또는 스토어 내에서의 고객 행동과 감정을 이해하고 쇼핑객의 움직임 및 상호 작용을 시각화하여 고객 서비스를 개선하고 매출을 최대화할 기회를 식별합니다.&lt;/p&gt;</value>
+  </data>
+  <data name="Retail_DetailTitle" xml:space="preserve">
+    <value>고객, 가격, POS, 재고 및 채널에 대해 더 심층적으로 이해</value>
+  </data>
+  <data name="Retail_IndexTagline" xml:space="preserve">
+    <value>쇼핑은 이제 예전과 같지 않습니다. 오늘날의 쇼핑객은 각종 장치, 옵션 및 더 많은 정보를 자유자재로 활용할 수 있습니다. 비즈니스를 성공으로 이끌 수 있는 유용한 정보에 대한 가시성을 확보하십시오.</value>
+  </data>
+  <data name="Retail_Title" xml:space="preserve">
+    <value>소매</value>
+  </data>
+  <data name="Energy_DetailsTagline" xml:space="preserve">
+    <value>&lt;p&gt;에너지를 저장하는 것은 비용 효율적이지 않기 때문에, 전력회사와 발전소는 향후 전력 소비량을 예측하여 수요와 공급을 효율적으로 조정해야 합니다. 최대 수요 시간대에서 공급이 달리면 정전이 발생할 수 있습니다. 반대로 공급이 너무 많으면 자원 낭비로 이어집니다. 고급 수요 예측 기법은 에너지 공급업체들이 전력 발전 공정을 최적화할 수 있도록 하루 중 시간별 수요 및 최대 수요 시간대를 분석합니다. 이 보고서는 에너지 분야에서 수요 예측에 중점을 두고 있습니다. 보고서는 전력 운영 최적화를 위해 지역별 에너지 사용 현황과 향후 사용 예측을 제공합니다.&lt;/p&gt;
+&lt;p&gt;‘에너지 솔루션 상태 요약(Energy Solution Status Summary)’ 페이지에서는 지역별 에너지 수요의 전반적인 현황을 보여줍니다. 사용자가 왼쪽에 있는 필터를 클릭하여 한 지역을 선택하면 지역별로 현황을 조사할 수 있습니다.&lt;/p&gt;
+&lt;p&gt;‘에너지 솔루션 예측(Energy Solution Forecast)’ 페이지에서는 Azure Machine Learning 모델을 통해 수요 예측 결과와 사용자가 모델 품질을 확인하기 위한 여러 오류 메트릭을 보여줍니다. 기온과 그 예측은 기계 학습 모델의 기능으로 사용됩니다.&lt;p/&gt;</value>
+  </data>
+  <data name="Energy_DetailTitle" xml:space="preserve">
+    <value>에너지</value>
+  </data>
+  <data name="Energy_IndexTagline" xml:space="preserve">
+    <value>이 보고서는 에너지 분야에서 수요 예측에 중점을 두고 있습니다. 뷰는 전력 운영 최적화를 위해 지역별 에너지 사용 현황과 향후 사용 예측을 제공합니다.</value>
+  </data>
+  <data name="Energy_Title" xml:space="preserve">
+    <value>에너지</value>
+  </data>
+  <data name="Telecommunications_DetailsTagline" xml:space="preserve">
+    <value>&lt;p&gt;기업들은 고객 이탈을 관리하기 위해 효과적인 전략이 필요합니다. 고객 이탈에는 고객의 서비스 이용 중단, 경쟁업체 서비스로 전환, 보다 낮은 수준의 서비스 환경으로 전환 또는 서비스 이용 감소 등이 있습니다.&lt;/p&gt;
+&lt;p&gt;이 사용 사례에서 서비스를 개선하고 고객을 유지하는 데 도움이 되는 사용자 지정 지원 캠페인을 마련하기 위해 휴대전화 통신업체가 Azure를 활용하여 가까운 시기에 고객 이탈을 사전에 식별하는 방법에 대해 살펴보겠습니다. 휴대전화 통신 시장은 경쟁이 매우 치열합니다. 많은 휴대전화 통신업체들이 고객 이탈로 인해 후불제 고객으로부터의 수입이 줄어들고 있습니다. 따라서 사전에 그리고 능동적으로 대규모 고객 이탈을 식별하는 능력은 상당한 경쟁 우위가 될 수 있습니다. 휴대전화 고객 이탈의 일부 원인으로는 잦은 서비스 중단 경험, 온라인/소매점에서의 부실한 고객 서비스 환경, 경쟁 통신업체의 제공 혜택(더 좋은 가족 요금제, 데이터 요금) 등이 있습니다.&lt;/p&gt;
+&lt;p&gt;휴대전화 통신업체는 경쟁에서 앞서 나가기 위해 사용자층을 두루 볼 수 있는 뷰를 구축해야 합니다&lt;/p&gt;</value>
+  </data>
+  <data name="Telecommunications_DetailTitle" xml:space="preserve">
+    <value>휴대전화 통신업체</value>
+  </data>
+  <data name="Telecommunications_IndexTagline" xml:space="preserve">
+    <value>모바일 비즈니스를 운영하는 통신 회사가 어떻게 Cortana Intelligence Suite와 Power BI를 활용하여 비즈니스 이해관계자들에게 권한을 부여하고 고객 이탈의 원인을 분석하는지 알아보십시오.</value>
+  </data>
+  <data name="Telecommunications_Title" xml:space="preserve">
+    <value>전자 통신</value>
+  </data>
+  <data name="PublicSector_DetailsTagline" xml:space="preserve">
+    <value>&lt;h3&gt;교육&lt;/h3&gt;
+&lt;p&gt;통계에 따르면 특히 개발도상국, 부분적으로는 초등 학교 입학에 우선 순위를 두는 밀레니엄 개발 목표의 밑바닥에서 진전이 이루어짐에 따라 초등 교육에 입학하는 사람들이 점점 더 늘어나고 있습니다. 그러나 전 세계적으로 아직도 10명 중 1명 정도가 학교에 다니지 못하고 있으며, 불균형하게도 이들 중 60%가 소녀입니다. 고등 교육 입학도 성장했지만 선진국과 개발도상국 사이의 엄청난 격차로 인해 전 세계적으로 낮은 수준에 머물러 있습니다.&lt;/p&gt;
+&lt;p&gt;GDP와의 상관 관계는 일관성이 있지만 지난 경기 침체로 인해 부분적으로 영향을 받은 교육에 할당된 GDP 비율이 약간 감소한 것은 주목할 만한 가치가 있습니다. 성 차별이 고등 교육 입학과 관련하여 좁혀지고 있다는 사실에 매우 기쁩니다. 그러나 위에서 언급한 바와 같이 우리는 선진국과 개발도상국을 비교할 때 이러한 현상은 극적으로 변화하며 초등 학교 수준의 입학자와는 일치하지 않습니다.&lt;/p&gt;
+&lt;br&gt;
+&lt;h3&gt;건강&lt;/h3&gt;
+
+&lt;p&gt;데이터를 조사해 보면 평균 수명은 널리 인정된 바와 같이 수년간 증가해 왔습니다. 눈에 띄는 점은 여성 대 남성의 평균 수명의 차이가 수년 동안 동일하게 유지되고 있다는 것입니다. 국가가 건강을 위해 더 많은 자금을 배분함에 따라 해당 국가의 인구가 그로부터 이익을 얻고 있음은 분명합니다. GDP가 향상됨에 따라 출산율이 감소한다는 것은 흥미로운 사실입니다.&lt;/p&gt;
+&lt;br&gt;
+&lt;h3&gt;중소기업&lt;/h3&gt;
+
+&lt;p&gt;사업 친화적 환경이 조성되면 신규 기업의 등록 비율이 올라갑니다. GDP와의 상관 관계는 분명합니다. 중소기업 활동의 절정이 지난 경기 침체 이전이었던 점은 주목할 만한 가치가 있습니다.&lt;/p&gt;
+&lt;br&gt;
+&lt;h3&gt;기후 변화&lt;/h3&gt;
+
+&lt;p&gt;기후 변화는 논쟁의 여지가 있는 주제입니다. 데이터를 조사해 보면 알려진 변수 중 일부를 확인할 수 있습니다. GDP와 CO2 배출량 간에는 직접적인 상관 관계가 있습니다. 한 국가의 경제가 향상됨에 따라 CO2 배출량은 증가합니다. 이 현상은 전기 생산에 기인하는 것이 아닙니다. 또한 국가의 인구가 증가함에 따라 CO2 배출량도 증가합니다. 경제 및 인구 측면에서 상위 국가들을 비교해 보면 비슷한 경향이 있음을 알 수 있습니다.&lt;/p&gt;
+&lt;p&gt;데이터에서는 평균 온도도 상승하고 있음을 보여 줍니다. 온도 상승이 안정적인 경사가 아님을 알 수 있습니다. 모든 예측 모델에서 수년 동안 온도 상승을 보여주고 있습니다.&lt;/p&gt;</value>
+  </data>
+  <data name="PublicSector_IndexTagline" xml:space="preserve">
+    <value>공공 부문 데이터는 온라인으로 다양한 출처를 통해 획득할 수 있습니다. 이러한 데이터 원본은 대부분 무료입니다. 여기서는 공공 정책이 기후 변화에서 교육, 건강 등에 미치는 영향을 서로 연관시킬 수 있는 놀라운 기회를 제공합니다.</value>
+  </data>
+  <data name="PublicSector_Title" xml:space="preserve">
+    <value>공공 부문</value>
+  </data>
+  <data name="CapitalMarkets_DetailsTagline" xml:space="preserve">
+    <value>미국 Microsoft 재무 부서에서는 개인 소비 지출 대시보드를 통해 자동차, 박물관 회원권 등을 포함하여 미국에서 구입한 200개 이상의 개별 제품 및 서비스에 대해 수조 달러 규모의 지출 추세를 추적합니다. 이 데이터 집합은 미국 상무부 경제분석국에서 매월 발표하며, Power BI를 통해 매우 세분화된 수준에서 발생하는 변화도 바로 조사할 수 있는 8단계 계층 구조로 구성되어 있습니다. Microsoft는 이 대시보드를 통해 전년 대비 지출 추세를 분석하고, 미국 소비자에게 점점 더 중요하게 다가오는 제품/서비스를 시각화할 수 있습니다. 또한 재무 팀에서 경제 심리를 추정하고 경기 순환에 있어 현재의 위치를 파악할 수도 있습니다.</value>
+  </data>
+  <data name="CapitalMarkets_IndexTagline" xml:space="preserve">
+    <value>미국 개인 소비 지출 대시보드에서는 미국의 경기 순환을 추적하고 지출 추세 및 경제 심리를 추정할 수 있는 광범위한 제품 및 서비스에 대한 미국의 개인 지출 추세를 추적합니다.</value>
+  </data>
+  <data name="CapitalMarkets_Title" xml:space="preserve">
+    <value>자본 시장</value>
+  </data>
+  <data name="Meta_LocJobId" xml:space="preserve">
+    <value>199</value>
+  </data>
+</root>

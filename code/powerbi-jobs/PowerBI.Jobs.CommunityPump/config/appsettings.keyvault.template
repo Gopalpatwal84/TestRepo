@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<appSettings>
+  <!-- Seq settings -->
+  <add key="SeqServer" value="http://localhost:5341/" />
+  <add key="SeqServerApiKey" value="#{keyvault:powerbi:jobs-seq-apikey}" />
+  <add key="SeqAllowFileBuffer" value="false" />
+
+  <!-- Redis -->
+  <add key="Acom.Redis.Configuration.KeyPrefix" value="" />
+  <add key="Acom.Configuration.DeploymentGroup" value="group-a" />
+  
+  <!-- Lithium Api -->
+  <add key="PowerBI.Jobs.CommunityPump.Configuration.LithiumApiEndpoint" value="https://api.lithium.com/community/2.0" />
+  <add key="PowerBI.Jobs.CommunityPump.Configuration.LithiumApiTenantId" value="oxcrx34285" />
+  <add key="PowerBI.Jobs.CommunityPump.Configuration.LithiumApiClientId" value="#{keyvault:powerbi:lithium-api-clientid}" />
+</appSettings>

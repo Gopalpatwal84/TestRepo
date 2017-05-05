@@ -1,0 +1,369 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" id="root">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Area_Connect" xml:space="preserve">
+    <value>データへの接続</value>
+  </data>
+  <data name="Area_GetStarted" xml:space="preserve">
+    <value>作業の開始</value>
+  </data>
+  <data name="Area_LearnMore" xml:space="preserve">
+    <value>詳細情報</value>
+  </data>
+  <data name="Area_Model" xml:space="preserve">
+    <value>データのモデル化</value>
+  </data>
+  <data name="Area_Reports" xml:space="preserve">
+    <value>レポートの作成</value>
+  </data>
+  <data name="Area_Transform" xml:space="preserve">
+    <value>データの変換と整形</value>
+  </data>
+  <data name="Area_Troubleshoot" xml:space="preserve">
+    <value>トラブルシューティング</value>
+  </data>
+  <data name="Link_AnalysisServicesMulti" xml:space="preserve">
+    <value>Power BI Desktop の Analysis Services 多次元データ</value>
+  </data>
+  <data name="Link_AnalysisServicesTabular" xml:space="preserve">
+    <value>Power BI Desktop の Analysis Services の表形式データ</value>
+  </data>
+  <data name="Link_CalculatedColumns" xml:space="preserve">
+    <value>Power BI Desktop の計算列</value>
+  </data>
+  <data name="Link_CalculatedTables" xml:space="preserve">
+    <value>Power BI Desktop の計算テーブル</value>
+  </data>
+  <data name="Link_Categorization" xml:space="preserve">
+    <value>Power BI Desktop でのデータ分類</value>
+  </data>
+  <data name="Link_CommonQuery" xml:space="preserve">
+    <value>Power BI Desktop での一般的なクエリ タスク</value>
+  </data>
+  <data name="Link_Connect" xml:space="preserve">
+    <value>Power BI Desktop におけるデータへの接続</value>
+  </data>
+  <data name="Link_CreateCalulatedColumns" xml:space="preserve">
+    <value>チュートリアル: Power BI Desktop で計算列を作成する</value>
+  </data>
+  <data name="Link_CreateRelationships" xml:space="preserve">
+    <value>Power BI Desktop でのリレーションシップの作成と管理</value>
+  </data>
+  <data name="Link_CustomAnswerCards" xml:space="preserve">
+    <value>Cortana 用にカスタムの Power BI 回答カードを作成する</value>
+  </data>
+  <data name="Link_CustomVisual" xml:space="preserve">
+    <value>カスタム ビジュアルをレポートに追加する (Desktop)</value>
+  </data>
+  <data name="Link_DataSources" xml:space="preserve">
+    <value>Power BI Desktop のデータ ソース</value>
+  </data>
+  <data name="Link_DataTypes" xml:space="preserve">
+    <value>Power BI Desktop でのデータ型</value>
+  </data>
+  <data name="Link_DataView" xml:space="preserve">
+    <value>Power BI Desktop のデータ ビュー</value>
+  </data>
+  <data name="Link_DAX" xml:space="preserve">
+    <value>Power BI Desktop における DAX の基本事項</value>
+  </data>
+  <data name="Link_DirectQuery" xml:space="preserve">
+    <value>Power BI Desktop の DirectQuery</value>
+  </data>
+  <data name="Link_Facebook" xml:space="preserve">
+    <value>サード パーティのサービス: Power BI Desktop の Facebook コネクタ</value>
+  </data>
+  <data name="Link_FacebookAnalytics" xml:space="preserve">
+    <value>チュートリアル: Power BI Desktop を使用して Facebook を分析する</value>
+  </data>
+  <data name="Link_GetDesktop" xml:space="preserve">
+    <value>Power BI Desktop の取得</value>
+  </data>
+  <data name="Link_GetStarted" xml:space="preserve">
+    <value>Power BI Desktop の概要</value>
+  </data>
+  <data name="Link_GoogleAnalytics" xml:space="preserve">
+    <value>サード パーティのサービス: Power BI Desktop のGoogle アナリティクス コネクタ</value>
+  </data>
+  <data name="Link_ImportExcel" xml:space="preserve">
+    <value>Power BI Desktop に Excel ブックをインポートする</value>
+  </data>
+  <data name="Link_KPIs" xml:space="preserve">
+    <value>KPI のインポートと表示 (プレビュー)</value>
+  </data>
+  <data name="Link_Measures" xml:space="preserve">
+    <value>Power BI Desktop のメジャー</value>
+  </data>
+  <data name="Link_ProjectOnline" xml:space="preserve">
+    <value>Project Online: Power BI Desktop 経由でデータに接続する</value>
+  </data>
+  <data name="Link_Publish" xml:space="preserve">
+    <value>Power BI Desktop からの発行</value>
+  </data>
+  <data name="Link_QueryOverview" xml:space="preserve">
+    <value>Power BI Desktop でのクエリの概要</value>
+  </data>
+  <data name="Link_RelationshipView" xml:space="preserve">
+    <value>Power BI Desktop のリレーションシップ ビュー</value>
+  </data>
+  <data name="Link_ReportView" xml:space="preserve">
+    <value>Power BI Desktop のレポート ビュー</value>
+  </data>
+  <data name="Link_ResolveIssuesImporting" xml:space="preserve">
+    <value>Power BI Desktop と Power Query での Access データベースと .XLS スプレッドシートのインポート問題を解決する</value>
+  </data>
+  <data name="Link_ResolveIssuesStarting" xml:space="preserve">
+    <value>Power BI Desktop の起動時の問題を解決する</value>
+  </data>
+  <data name="Link_RScripts" xml:space="preserve">
+    <value>Power BI Desktop での R スクリプトの実行</value>
+  </data>
+  <data name="Link_RVisuals" xml:space="preserve">
+    <value>R を使用した Power BI ビジュアルの作成</value>
+  </data>
+  <data name="Link_SalesData" xml:space="preserve">
+    <value>チュートリアル: Excel と OData フィードの売上データを分析する</value>
+  </data>
+  <data name="Link_SapHana" xml:space="preserve">
+    <value>Power BI Desktop で SAP HANA を使用する</value>
+  </data>
+  <data name="Link_ShapeData" xml:space="preserve">
+    <value>Power BI Desktop でのデータの整形と結合</value>
+  </data>
+  <data name="Link_SortColumn" xml:space="preserve">
+    <value>Power BI Desktop での列による並べ替え</value>
+  </data>
+  <data name="Link_Videos" xml:space="preserve">
+    <value>Power BI Desktop のビデオ</value>
+  </data>
+  <data name="Link_WebPage" xml:space="preserve">
+    <value>チュートリアル: Power BI Desktop を使用して Web ページからデータをインポートおよび分析する</value>
+  </data>
+  <data name="Link_WhatsNew" xml:space="preserve">
+    <value>Power BI Desktop の最新の更新プログラムの新機能</value>
+  </data>
+  <data name="Link_YourOwnMeasures" xml:space="preserve">
+    <value>チュートリアル: Power BI Desktop で独自のメジャーを作成する</value>
+  </data>
+  <data name="Title" xml:space="preserve">
+    <value>Power BI Desktop</value>
+  </data>
+  <data name="Link_ConditionalTableFormatting" xml:space="preserve">
+    <value>Power BI Desktop での条件付きテーブル書式設定</value>
+  </data>
+  <data name="Link_CustomTooltips" xml:space="preserve">
+    <value>Power BI Desktop でのカスタマイズに関するツールヒント</value>
+  </data>
+  <data name="Link_InlineHeirarchy" xml:space="preserve">
+    <value>Power BI Desktop でインライン階層ラベルを使用する (プレビュー)</value>
+  </data>
+  <data name="Link_Oracle" xml:space="preserve">
+    <value>Oracle データベースに接続する</value>
+  </data>
+  <data name="Link_OracleDirectQuery" xml:space="preserve">
+    <value>Oracle データベースと Teradata データベースの DirectQuery</value>
+  </data>
+  <data name="Link_Prerequisites" xml:space="preserve">
+    <value>Power BI データ ソースの前提条件</value>
+  </data>
+  <data name="Link_PreviousUpdates" xml:space="preserve">
+    <value>Power BI Desktop に対する以前の月ごとの更新</value>
+  </data>
+  <data name="Link_PrivacyLevels" xml:space="preserve">
+    <value>Power BI Desktop のプライバシー レベル</value>
+  </data>
+  <data name="Link_SAPConnector" xml:space="preserve">
+    <value>Power BI Desktop で SAP BW Connector を使用する (プレビュー)</value>
+  </data>
+  <data name="Link_SendSmile" xml:space="preserve">
+    <value>Power BI Desktop "気に入った機能の報告" のプライバシーに関する声明</value>
+  </data>
+  <data name="Link_TutorialRowLevelSecurity" xml:space="preserve">
+    <value>チュートリアル: Analysis サービス表形式モデルを使用した動的な行レベルのセキュリティ</value>
+  </data>
+  <data name="Link_UseOneDriveLinks" xml:space="preserve">
+    <value>Power BI Desktop で OneDrive for Business リンクを使用する</value>
+  </data>
+  <data name="Link_RLS" xml:space="preserve">
+    <value>行レベルのセキュリティ</value>
+  </data>
+  <data name="Link_MobileBarcodes" xml:space="preserve">
+    <value>Power BI モバイル アプリ向けの Power BI Desktop でバーコード フィールドにタグ付けする</value>
+  </data>
+  <data name="Link_MobileGeofiltering" xml:space="preserve">
+    <value>Power BI モバイル アプリ向けの Power BI Desktop で地理的フィルタリングを設定する</value>
+  </data>
+  <data name="Link_AssumeRefIntegrity" xml:space="preserve">
+    <value>Power BI Desktop で参照整合性の設定を想定する</value>
+  </data>
+  <data name="Link_BidirectionalFiltering" xml:space="preserve">
+    <value>Power BI Desktop における双方向クロス フィルター処理 (プレビュー)</value>
+  </data>
+  <data name="Link_ConnectCSV" xml:space="preserve">
+    <value>Power BI Desktop における CSV ファイルへの接続</value>
+  </data>
+  <data name="Link_ConnectExcel" xml:space="preserve">
+    <value>Power BI Desktop における Excel への接続</value>
+  </data>
+  <data name="Link_ConnectImpala" xml:space="preserve">
+    <value>Power BI Desktop における Impala データベースへの接続 (プレビュー)</value>
+  </data>
+  <data name="Link_ConnectOData" xml:space="preserve">
+    <value>Power BI Desktop における OData フィードへの接続</value>
+  </data>
+  <data name="Link_ConnectRedshift" xml:space="preserve">
+    <value>Power BI Desktop における Amazon Redshift データベースへの接続 (プレビュー)</value>
+  </data>
+  <data name="Link_ConnectWeb" xml:space="preserve">
+    <value>Power BI Desktop から Web ページに接続する</value>
+  </data>
+  <data name="Link_DirectDataEntryDesktop" xml:space="preserve">
+    <value>Power BI Desktop に直接データを入力する</value>
+  </data>
+  <data name="Link_RinQueryEditor" xml:space="preserve">
+    <value>クエリ エディターで R を使用する</value>
+  </data>
+  <data name="Link_ShapeMap" xml:space="preserve">
+    <value>Power BI Desktop で図形マップを使用する (プレビュー)</value>
+  </data>
+  <data name="Link_DesktopTipsAndTricks" xml:space="preserve">
+    <value>レポートの作成に関するヒントとテクニック</value>
+  </data>
+  <data name="Link_CreatePhoneReport" xml:space="preserve">
+    <value>Power BI 電話アプリに最適化されたレポートを作成する</value>
+  </data>
+  <data name="Link_AnalyticsPane" xml:space="preserve">
+    <value>Power BI Desktop の Analytics ウィンドウ</value>
+  </data>
+  <data name="Link_RIDE" xml:space="preserve">
+    <value>Power BI で外部 R IDE を使用する</value>
+  </data>
+  <data name="Link_Snowflake" xml:space="preserve">
+    <value>Power BI Desktop で Snowflake Computing ウェアハウスに接続する</value>
+  </data>
+  <data name="Link_RCustomVisuals" xml:space="preserve">
+    <value>R を利用したカスタム ビジュアルを使用する</value>
+  </data>
+  <data name="Link_SnapToGrid" xml:space="preserve">
+    <value>グリッド線と "グリッドにスナップ" を使用する</value>
+  </data>
+  <data name="Meta_LocJobId" xml:space="preserve">
+    <value>209</value>
+  </data>
+</root>

@@ -1,0 +1,714 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" id="root">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="About_Content" xml:space="preserve">
+    <value>&lt;p&gt;На этом занятии мы разберем основы работы с Microsoft Power PI.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Узнайте, как загрузить данные в инструмент визуализации, изменить их и добавить дополнительные вычисления, чтобы создать диаграмму "хоккейная клюшка".&lt;/li&gt;
+&lt;li&gt;Ознакомьтесь с обзорной информацией о создании и публикации визуализаций данных на карте предпочтений избирателей, которую местный телеканал KING 5 использовал в репортаже о праймериз на президентских выборах. &lt;/li&gt;
+&lt;/ul&gt;
+</value>
+  </data>
+  <data name="ArticleContinue_Content2_3" xml:space="preserve">
+    <value>&lt;h2 id="create-pub"&gt;Создание и публикация визуализаций данных&lt;/h2&gt;
+&lt;p&gt;Ниже приведены требования для работы с представленными в этом курсе примерами.&lt;/p&gt;&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;Компьютер с системой Windows&amp;#160;7 или более поздней версии&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Скачанное и установленное приложение &lt;a href="{0}"&gt;Power BI Desktop&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Зарегистрированная учетная запись Power BI (&lt;a href="{1}"&gt;{2}&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;а) Обратите внимание, что для регистрации нужно использовать рабочую учетную запись электронной почты; личные почтовые ящики (Gmail, Hotmail, outlook.com, yahoo.com) не поддерживаются.&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;</value>
+  </data>
+  <data name="ArticleThird_Continue_7" xml:space="preserve">
+    <value>&lt;p&gt;Создаваемые меры:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;голоса клинтон = ВЫЧИСЛИТЬ(СУММ(Данные голосования[Голоса]), Данные голосования[Кандидат] = "Клинтон")&lt;/p&gt;
+
+&lt;p&gt;голоса сандерс = ВЫЧИСЛИТЬ(СУММ(Данные голосования[Голоса]), Данные голосования[Кандидат] = "Сандерс")&lt;/p&gt;
+
+&lt;p&gt;победитель = ЕСЛИ([голоса клинтон] &gt; [голоса сандерс], -1, ЕСЛИ(Данные голосования[голоса клинтон] = [голоса сандерс], 0, 1))&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Обратите внимание: первые две меры выполняют фильтрацию значений для кандидатов Сандерса и Клинтон и используются для формирования третьей меры, которая указывает, кто из них получил больше голосов в определенном округе. Когда мы построим карту, вы увидите, насколько эти данные полезны.&lt;/p&gt;
+
+&lt;p&gt;После выполнения этого этапа список полей должен выглядеть примерно так, как показано ниже. Созданные нами меры добавляются в число полей, которые можно использовать в визуализациях данных.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src="{0}" alt="" title="" /&gt;&lt;/p&gt;
+
+&lt;h3&gt;Этап&amp;#160;3. Отображение результатов на карте&lt;/h3&gt;
+
+&lt;p&gt;Теперь мы готовы создать карту фигур.&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Добавьте визуальный элемент &lt;strong&gt;Карта фигур&lt;/strong&gt; в свой отчет.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;img src="{1}" alt="" title="" /&gt;&lt;/p&gt;
+
+&lt;p&gt;Обратите внимание: на момент написания этого материала визуальный элемент "Карта фигур" представляет собой предварительную версию. Если вы его не видите, включите &lt;strong&gt;предварительную версию соответствующей функции&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;Выберите Файл&amp;#160;-&gt; Параметры и настройки&amp;#160;-&gt; Параметры.&lt;/strong&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;Выберите Глобальные&amp;#160;-&gt; Предварительная версия функций.&lt;/strong&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Установите флажок для &lt;strong&gt;визуального элемент карты фигур&lt;/strong&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Нажмите кнопку &lt;strong&gt;ОК&lt;/strong&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;После добавления элемент &lt;strong&gt;Карта фигур&lt;/strong&gt; пуст. Выполните следующие действия:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;Выделите &lt;strong&gt;карту&lt;/strong&gt;, щелкнув ее.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;В &lt;strong&gt;списке полей&lt;/strong&gt; установите флажки для следующих полей:&lt;/p&gt;
+
+&lt;p&gt;а) &lt;strong&gt;Название округа&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;б) &lt;em&gt;*Winner Direction*&lt;/em&gt; (Победитель)&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Поля данных визуального элемента будут выглядеть примерно так:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src="{2}" alt="" title="" /&gt;&lt;/p&gt;
+
+&lt;p&gt;Страница имеет приблизительно следующий вид:&lt;/p&gt;
+
+&lt;p&gt;Обратите внимание, что по умолчанию отображается карта США. На следующих этапах мы изменим фигуры карты.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src="{3}" alt="" title="" /&gt;&lt;/p&gt;
+
+&lt;p&gt;С визуальным элементом &lt;strong&gt;Карта фигур&lt;/strong&gt; можно использовать &lt;strong&gt;файл TopoJSON&lt;/strong&gt;/ Идентификаторы фигур TopoJSON должны соответствовать названиям в наборе данных.&lt;/p&gt;
+
+&lt;p&gt;Изменим фигуры в соответствии с названиями округов.&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;Выберите &lt;strong&gt;карту фигур&lt;/strong&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Перейдите в &lt;strong&gt;область форматирования&lt;/strong&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Разверните параметры &lt;strong&gt;Фигура&lt;/strong&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Содержимое экрана должно выглядеть примерно так:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src="{4}" alt="" title="" /&gt;&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;Нажмите &lt;strong&gt;+ Добавить карту&lt;/strong&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;В диалоговом окне &lt;strong&gt;открытия файла&lt;/strong&gt; выберите файл &lt;strong&gt;gz_2010_us_050_00_500k-wash-counties-only.json&lt;/strong&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Теперь экран выглядит примерно так:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src="{5}" alt="" title="" /&gt;&lt;/p&gt;
+
+&lt;p&gt;Теперь мы изменим цвет в соответствии с цветами Демократической партии США.&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;В области &lt;strong&gt;форматирования&lt;/strong&gt; разверните раздел &lt;strong&gt;Цвета данных&lt;/strong&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Установите переключатель &lt;strong&gt;Расхождение&lt;/strong&gt; в положение &lt;strong&gt;Вкл.&lt;/strong&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Вы можете выбрать цвета из числа доступных вариантов либо щелкнуть &lt;strong&gt;Настраиваемый цвет&lt;/strong&gt; и задать свои цветовые значения. В примерах ниже используются следующие цвета:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Минимум&amp;#160;— 0007FF&lt;/p&gt;
+
+&lt;p&gt;Центр&amp;#160;— B3B3B3&lt;/p&gt;
+
+&lt;p&gt;Максимум&amp;#160;— 0055FF&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Установите для параметров &lt;strong&gt;Минимум&lt;/strong&gt;, &lt;strong&gt;Центр&lt;/strong&gt; и &lt;strong&gt;Максимум&lt;/strong&gt; значения &lt;strong&gt;-1, 0 и 1&lt;/strong&gt; соответственно. Таким образом мы задаем шкалу.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;img src="{6}" alt="" title="" /&gt;&lt;/p&gt;</value>
+  </data>
+  <data name="Article_Content_Step2_2" xml:space="preserve">
+    <value>&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;Откройте таблицу &lt;strong&gt;&lt;/strong&gt;. На вкладке &lt;strong&gt;Главная&lt;/strong&gt; ленты нажмите кнопку &lt;strong&gt;Слияние запросов&lt;/strong&gt;. Выберите &lt;strong&gt;Планки погрешностей&lt;/strong&gt;в качестве сопоставляемой таблицы, а &lt;strong&gt;Год&lt;/strong&gt;&amp;#160;— в качестве столбца, по которому нужно выполнять сопоставление. Теперь мы знаем, что в таблице погрешностей у нас содержатся только данные, попадающие в диапазон лет для воссозданных нами температурных значений, поэтому можно выбрать &lt;strong&gt;левое внешнее соединение&lt;/strong&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Разверните только столбец &lt;strong&gt;Сигма&lt;/strong&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Чтобы добавить столбец для положительного изменения, воспользуйтесь командой &lt;strong&gt;Добавить пользовательский столбец&lt;/strong&gt; на вкладке &lt;strong&gt;Добавить столбец&lt;/strong&gt; ленты.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Назовите этот столбец &lt;strong&gt;Положительное изменение&lt;/strong&gt; и добавьте значение "Сигма" к значению воссозданной температуры с помощью формулы &lt;strong&gt;[Значение воссозданной температуры] + [Сигма]&lt;/strong&gt;. Вы можете вводить названия столбцов или выбирать их двойным щелчком в правой области.&lt;/p&gt;&lt;p&gt;&lt;img src="{0}" alt="" title="" /&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Повторите это действие, чтобы создать формулу &lt;strong&gt;Отрицательное изменение = [Значение воссозданной температуры] + [Сигма]&lt;/strong&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Измените типы данных новых столбцов на десятичные числа.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;После того как вы загрузите всю информацию в таблицу &lt;strong&gt;Изменение температуры&lt;/strong&gt;, загружать в отчет остальные две таблицы нет необходимости. Чтобы отключить их загрузку, щелкните правой кнопкой мыши таблицу &lt;strong&gt;Данные измерений&lt;/strong&gt; и снимите флажок &lt;strong&gt;Включить загрузку&lt;/strong&gt;, а затем проделайте то же самое с таблицей &lt;strong&gt;Планки погрешностей&lt;/strong&gt;. Отключенные таблицы выделены курсивом и затенены.&lt;/p&gt;
+&lt;p&gt;&lt;img src="{1}" alt="" title="" /&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;Теперь нажмите кнопку &lt;strong&gt;Закрыть и применить&lt;/strong&gt; на вкладке &lt;strong&gt;Главная&lt;/strong&gt; ленты.&lt;/li&gt;
+&lt;/ol&gt;</value>
+  </data>
+  <data name="Article_Content_Step2_3" xml:space="preserve">
+    <value>&lt;h3&gt;Этап&amp;#160;2. Создание визуального элемента&lt;/h3&gt;
+
+&lt;p&gt;После загрузки всех данных и выполнения основных задач по редактированию и слиянию значений создать график можно буквально несколькими щелчками мыши.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;Создайте новый график в разделе отчета.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Перетащите поле &lt;strong&gt;Год&lt;/strong&gt; на поле &lt;strong&gt;Ось&lt;/strong&gt; и убедитесь, что дата в раскрывающемся меню отображается в виде года.&lt;/p&gt;
+&lt;p&gt;&lt;img src="{0}" alt="" title="" /&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Перетащите поля &lt;strong&gt;Изменение воссозданной температуры&lt;/strong&gt;, &lt;strong&gt;Изменение измеренной температуры&lt;/strong&gt; , &lt;strong&gt;Положительное изменение&lt;/strong&gt; и &lt;strong&gt;Отрицательное изменение&lt;/strong&gt; в список значений.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Измените цвета линий в области &lt;strong&gt;Формат&lt;/strong&gt;, если хотите выделить изменения температуры на фоне отклонений.&lt;/p&gt;&lt;p&gt;&lt;img src="{1}" alt="" title="" /&gt;&lt;/p&gt;
+&lt;/li&gt;&lt;/ol&gt;
+&lt;h3&gt;Этап&amp;#160;3. Линия тренда&lt;/h3&gt;
+
+&lt;p&gt;Последним этапом в создании диаграммы "хоккейная клюшка" является добавление линии тренда по изменениям температуры. Для этого можно воспользоваться мерами DAX.&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Поскольку за некоторые годы у нас есть как измеренные, так и воссозданные значения температуры, сначала нужно создать столбец, который вычисляет среднее значение при наличии двух величин. Создайте &lt;strong&gt;новый столбец&lt;/strong&gt; с помощью следующей формулы:&lt;/li&gt;
+  &lt;p&gt;&lt;em&gt;Среднее значение температуры = ЕСЛИ(ЕПУСТО([Изменение измеренной температуры]),[Изменение воссозданной температуры],ЕСЛИ(ЕПУСТО([Изменение воссозданной температуры]),[Изменение измеренной температуры],([Изменение измеренной температуры]+[Изменение воссозданной температуры])/2))&lt;/em&gt;&lt;/p&gt;
+&lt;li&gt;Теперь создайте &lt;strong&gt;новую меру&lt;/strong&gt; по этому столбцу:&lt;/li&gt;
+  &lt;p&gt;&lt;em&gt;зменение температуры = СУММ(Данные[Среднее значение температуры])&lt;/em&gt;&lt;/p&gt;
+&lt;li&gt;Теперь рассчитайте скользящее среднее изменение температуры. Можно поэкспериментировать с временным интервалом; в этом примере он установлен на 40&amp;#160;лет:&lt;/li&gt;&lt;p&gt;&lt;em&gt;Линия тренда = AVERAGEX(DATESINPERIOD(Данные[Год],LASTDATE(Данные[Год]),-40,YEAR),[Изменение температуры])&lt;/em&gt;&lt;/p&gt;
+&lt;li&gt;Добавим на визуальный элемент линию тренда, и все готово.&lt;/li&gt;
+&lt;p&gt;&lt;img src="{2}" alt="" title="" /&gt;&lt;/p&gt;&lt;/ol&gt;</value>
+  </data>
+  <data name="Article_Content_Step3_10" xml:space="preserve">
+    <value>&lt;h2&gt;Часть&amp;#160;1. Создание сюжета на основе данных и его публикация на веб-странице&lt;/h2&gt;
+
+&lt;p&gt;Вам потребуются следующей файлы:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;VotingData.xlsx&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;gz_2010_us_050_00_500k-wash-counties-only.json&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Embed in web page.htm&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3&gt;Этап&amp;#160;1. Загрузка данных из файла Excel&lt;/h3&gt;
+
+&lt;p&gt;Дополнительную помощь и инструкции при необходимости см. в документации.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href="{0}"&gt;{0}&lt;/a&gt;&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;Откройте &lt;strong&gt;Power BI Desktop&lt;/strong&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;На вкладке "Главная" ленты нажмите кнопку &lt;strong&gt;Получить данные&lt;/strong&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Выберите &lt;strong&gt;Excel&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;img src="{1}" alt="" title="" /&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;В диалоговом окне выберите файл &lt;strong&gt;VotingData.xlsx&lt;/strong&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;В диалоговом окне &lt;strong&gt;Навигатор&lt;/strong&gt; установите флажок &lt;strong&gt;VotingData&lt;/strong&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Нажмите кнопку &lt;strong&gt;Загрузить&lt;/strong&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;img src="{2}" alt="" title="" /&gt;&lt;/p&gt;
+
+&lt;h3&gt;Этап&amp;#160;2. Создание вычисляемых результатов&lt;/h3&gt;
+
+&lt;p&gt;При создании визуализации данных для получения нужного результата исходные значения часто бывает необходимо дополнить вычисляемыми. В этом разделе мы создадим несколько вычислений.&lt;/p&gt;
+
+&lt;p&gt;Обратите внимание: здесь мы познакомимся с новой концепцией&amp;#160;— выражениями DAX. DAX&amp;#160;— это язык выражений, с помощью которого выполняются вычисления с данными в отчетах. Дополнительные сведения можно найти в статье об &lt;a href="{3}"&gt;основах DAX в Power BI Desktop&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Воспользуйтесь для создания следующих мер инструкциями, приведенными в &lt;a href="{4}"&gt;учебнике "Создание собственных мер в Power BI Desktop"&lt;/a&gt;.&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;На ленте &lt;strong&gt;Моделирование&lt;/strong&gt; выберите команду &lt;strong&gt;Новая мера&lt;/strong&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Появится строка формулы.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Введите в строке выражения из раздела &lt;strong&gt;Создаваемые меры&lt;/strong&gt; ниже и &lt;strong&gt;нажмите на значок галочки&lt;/strong&gt;, чтобы проверить, работает ли формула.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Повторите эти действия для перечисленных ниже трех мер.&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;img src="{5}" alt="" title="" /&gt;&lt;/p&gt;
+
+&lt;p&gt;Создаваемые меры:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;голоса клинтон = ВЫЧИСЛИТЬ(СУММ(Данные голосования[Голоса]), Данные голосования[Кандидат] = "Клинтон")&lt;/p&gt;
+
+&lt;p&gt;голоса сандерс = ВЫЧИСЛИТЬ(СУММ(Данные голосования[Голоса]), Данные голосования[Кандидат] = "Сандерс")&lt;/p&gt;
+
+&lt;p&gt;победитель = ЕСЛИ([голоса клинтон] &gt; [голоса сандерс], -1, ЕСЛИ(Данные голосования[голоса клинтон] = [голоса сандерс], 0, 1))&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Обратите внимание: первые две меры выполняют фильтрацию значений для кандидатов Сандерса и Клинтон и используются для формирования третьей меры, которая указывает, кто из них получил больше голосов в определенном округе. Когда мы построим карту, вы увидите, насколько эти данные полезны.&lt;/p&gt;
+
+&lt;p&gt;После выполнения этого этапа список полей должен выглядеть примерно так, как показано ниже. Созданные нами меры добавляются в число полей, которые можно использовать в визуализациях данных.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src="{6}" alt="" title="" /&gt;&lt;/p&gt;
+
+&lt;h3&gt;Этап&amp;#160;3. Отображение результатов на карте&lt;/h3&gt;
+
+&lt;p&gt;Теперь мы готовы создать карту фигур.&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Добавьте визуальный элемент &lt;strong&gt;Карта фигур&lt;/strong&gt; в свой отчет.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;img src="{7}" alt="" title="" /&gt;&lt;/p&gt;
+
+&lt;p&gt;Обратите внимание: на момент написания этого материала визуальный элемент "Карта фигур" представляет собой предварительную версию. Если вы его не видите, включите &lt;strong&gt;предварительную версию соответствующей функции&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;Выберите Файл&amp;#160;-&gt; Параметры и настройки&amp;#160;-&gt; Параметры.&lt;/strong&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;Выберите Глобальные&amp;#160;-&gt; Предварительная версия функций.&lt;/strong&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Установите флажок для &lt;strong&gt;визуального элемент карты фигур&lt;/strong&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Нажмите кнопку &lt;strong&gt;ОК&lt;/strong&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;После добавления элемент &lt;strong&gt;Карта фигур&lt;/strong&gt; пуст. Выполните следующие действия:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;Выделите &lt;strong&gt;карту&lt;/strong&gt;, щелкнув ее.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;В &lt;strong&gt;списке полей&lt;/strong&gt; установите флажки для следующих полей:&lt;/p&gt;
+
+&lt;p&gt;а) &lt;strong&gt;Название округа&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;б) &lt;strong&gt;*Winner Direction*&lt;/strong&gt; (Победитель)&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Поля данных визуального элемента будут выглядеть примерно так:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src="{8}" alt="" title="" /&gt;&lt;/p&gt;
+
+&lt;p&gt;Страница имеет приблизительно следующий вид:&lt;/p&gt;
+
+&lt;p&gt;Обратите внимание, что по умолчанию отображается карта США. На следующих этапах мы изменим фигуры карты.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src="{9}" alt="" title="" /&gt;&lt;/p&gt;
+
+&lt;p&gt;С визуальным элементом &lt;strong&gt;Карта фигур&lt;/strong&gt; можно использовать &lt;strong&gt;файл TopoJSON&lt;/strong&gt;/ Идентификаторы фигур TopoJSON должны соответствовать названиям в наборе данных.&lt;/p&gt;
+
+&lt;p&gt;Изменим фигуры в соответствии с названиями округов.&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;Выберите &lt;strong&gt;карту фигур&lt;/strong&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Перейдите в &lt;strong&gt;область форматирования&lt;/strong&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Разверните параметры &lt;strong&gt;Фигура&lt;/strong&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;</value>
+  </data>
+  <data name="Article_Content_Step4_7" xml:space="preserve">
+    <value>&lt;p&gt;Содержимое экрана должно выглядеть примерно так:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src="{0}" alt="" title="" /&gt;&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;Нажмите &lt;strong&gt;+ Добавить карту&lt;/strong&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;В диалоговом окне &lt;strong&gt;открытия файла&lt;/strong&gt; выберите файл &lt;strong&gt;gz_2010_us_050_00_500k-wash-counties-only.json&lt;/strong&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Теперь экран выглядит примерно так:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src="{1}" alt="" title="" /&gt;&lt;/p&gt;
+
+&lt;p&gt;Теперь мы изменим цвет в соответствии с цветами Демократической партии США.&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;В области &lt;strong&gt;форматирования&lt;/strong&gt; разверните раздел &lt;strong&gt;Цвета данных&lt;/strong&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Установите переключатель &lt;strong&gt;Расхождение&lt;/strong&gt; в положение &lt;strong&gt;Вкл.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Вы можете выбрать цвета из числа доступных вариантов либо щелкнуть &lt;strong&gt;Настраиваемый цвет&lt;/strong&gt; и задать свои цветовые значения. В примерах ниже используются следующие цвета:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Минимум&amp;#160;— 0007FF&lt;/p&gt;
+
+&lt;p&gt;Центр&amp;#160;— B3B3B3&lt;/p&gt;
+
+&lt;p&gt;Максимум&amp;#160;— 0055FF&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;/li&gt;
+
+&lt;li&gt;Установите для параметров &lt;strong&gt;Минимум&lt;/strong&gt;, &lt;strong&gt;Центр&lt;/strong&gt; и &lt;strong&gt;Максимум&lt;/strong&gt; значения &lt;strong&gt;-1, 0 и 1&lt;/strong&gt; соответственно. Таким образом мы задаем шкалу.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;img src="{2}" alt="" title="" /&gt;&lt;/p&gt;
+
+&lt;p&gt;Мы сделаем визуализацию понятнее, изменив некоторые значения по умолчанию для карт. На разницу между несколькими оттенками одного цвета бывает непросто, поэтому выделим фигуры округов, сделав четче границы.&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;Разверните раздел &lt;strong&gt;Цвет по умолчанию&lt;/strong&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Для параметра &lt;strong&gt;Цвет&lt;/strong&gt; выберите значение &lt;strong&gt;&lt;em&gt;белый&lt;/em&gt;&lt;/strong&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Для параметра &lt;strong&gt;Цвет границ&lt;/strong&gt; выберите значение &lt;strong&gt;&lt;em&gt;белый&lt;/em&gt;&lt;/strong&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Для параметра &lt;strong&gt;Толщина границ&lt;/strong&gt; выберите значение &lt;strong&gt;&lt;em&gt;4&lt;/em&gt;&lt;/strong&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;img src="{3}" alt="" title="" /&gt;&lt;/p&gt;
+
+&lt;p&gt;Наконец, дадим карте осмысленное название.&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;Разверните раздел &lt;strong&gt;Название&lt;/strong&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Для параметра &lt;strong&gt;Текст названия&lt;/strong&gt; задайте значение &lt;em&gt;&lt;strong&gt;Результаты выборов по округам&lt;/strong&gt;&lt;/em&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Для параметра &lt;strong&gt;Размер текста&lt;/strong&gt; задайте значение &lt;strong&gt;&lt;em&gt;14&lt;/em&gt;&lt;/strong&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;img src="{4}" alt="" title="" /&gt;&lt;/p&gt;
+
+&lt;p&gt;Теперь карта будет выглядеть примерно так, как показано ниже. При создании визуализации важно убедиться в том, что она будет понятна целевой аудитории. Обратите внимание на четкие фигуры, понятный заголовок и цвета на последней версии визуального элемента карты.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src="{5}" alt="" title="" /&gt;&lt;/p&gt;
+
+&lt;p&gt;Теперь, после создания карты, используем полученные знания для настройки линейчатой диаграммы, на которой будут отображаться общие результаты.&lt;/p&gt;
+
+&lt;p&gt;Воспользуемся &lt;strong&gt;полями данных&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Выберите поле &lt;strong&gt;андидат&lt;/strong&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Выберите поле &lt;strong&gt;Голоса&lt;/strong&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Выберите цвета, соответствующие цветам на карте, и придумайте заголовок.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src="{6}" alt="" title="" /&gt;&lt;/p&gt;</value>
+  </data>
+  <data name="Article_Content_Step5_9" xml:space="preserve">
+    <value>&lt;p&gt;А вот еще несколько полезных функций и возможностей.&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;Метки данных&lt;/strong&gt;. Их можно найти в области форматирования, когда включен визуальный элемент.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;Форматирование чисел&lt;/strong&gt;. Инструкции см. в конце этого учебника в разделе, посвященном форматированию чисел.&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Окончательная версия отчета будет выглядеть так:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src="{0}" alt="" title="" /&gt;&lt;/p&gt;
+
+&lt;p&gt;Обратите внимание, что при щелчке по карте выполняется перекрестное выделение линейчатой диаграммы, как на рисунке ниже.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src="{1}" alt="" title="" /&gt;&lt;/p&gt;
+
+&lt;p&gt;Это не идеальный вариант взаимодействия в нашем случае. Мы можем настроить взаимодействие между визуальными элементами.&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;На ленте выберите &lt;strong&gt;Формат&lt;/strong&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Нажмите кнопку &lt;strong&gt;Изменить взаимодействия&lt;/strong&gt; на вкладке "Взаимодействия".&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;img src="{2}" alt="" title="" /&gt;&lt;/p&gt;
+
+&lt;p&gt;Теперь при выборе карты мы видим, что у других визуализаций есть новая строка меню в правом верхнем углу, как показано на рисунке ниже.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src="{3}" alt="" title="" /&gt;&lt;/p&gt;
+
+&lt;p&gt;Это меню содержит три пункта.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Фильтр: отображение данных только для точек данных, выбранных в настоящий момент.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Перекрестное выделение: отображение вклада точек данных, выбранных в настоящий момент, в общую сумму.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Нет: действия с выбранным визуальным элементом не оказывают никакого влияния на данный визуальный элемент.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;Выберите вариант &lt;strong&gt;Фильтр&lt;/strong&gt;, как показано выше.&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Теперь щелкните &lt;strong&gt;карту&lt;/strong&gt;, и на линейчатой диаграмме отобразятся данные для соответствующих округов либо общие данные по штату, если не выбран ни один округ.&lt;/p&gt;
+
+&lt;p&gt;Теперь &lt;strong&gt;сохраните&lt;/strong&gt; отчет.&lt;/p&gt;
+
+&lt;h2&gt;Часть&amp;#160;2. Публикация отчета в учетной записи Power BI&lt;/h2&gt;
+
+&lt;p&gt;Теперь можно опубликовать отчет в четной записи Power BI, откуда вы сможете легко поделиться им с коллегами.&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;На вкладке &lt;strong&gt;Главная&lt;/strong&gt; ленты в группе "Доступ" нажмите кнопку &lt;strong&gt;Опубликовать&lt;/strong&gt;.
+
+
+&lt;p&gt;&lt;img src="{4}" alt="" title="" /&gt;&lt;/p&gt;
+
+&lt;p&gt;Обратите внимание: для выполнения этого действия вам потребуется учетная запись Power BI. Если у вас ее еще нет, зайдите на страницу &lt;a href="{5}"&gt;{6}&lt;/a&gt; и бесплатно зарегистрируйте ее.&lt;/p&gt;
+
+&lt;p&gt;После успешной публикации откроется следующее диалоговое окно:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src="{7}" alt="" title="" /&gt;&lt;/p&gt;
+
+&lt;/li&gt;
+&lt;li&gt;Щелкните ссылку &lt;strong&gt;Открыть "VotingData Report.pbix" в Power BI&lt;/strong&gt;, чтобы увидеть отчет в Power BI.com.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;img src="{8}" alt="" title="" /&gt;&lt;/p&gt;</value>
+  </data>
+  <data name="Article_Content_Step6_5" xml:space="preserve">
+    <value>&lt;h3&gt;Этап&amp;#160;1. Публикация в Интернете&lt;/h3&gt;
+
+&lt;p&gt;С помощью инструкций, приведенных по ссылке ниже, вы можете &lt;strong&gt;создать код внедрения для публикации отчета Power BI в Интернете&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href="{0}"&gt;{0}&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Код внедрения выглядит примерно так:&lt;/p&gt;
+
+&lt;p&gt;&amp;lt;iframe width="800" height="600" src="{1}" frameborder="0" allowFullScreen="true"&gt;&amp;lt;/iframe&gt;&lt;/p&gt;
+
+&lt;p&gt;Обратите внимание, что код внедрения начинается с тега &amp;lt;iframe. Для внедрения содержимого на веб-страницу используется объект iFrame.&lt;/p&gt;
+
+&lt;h3&gt;Этап&amp;#160;2. Добавление кода внедрения на веб-страницу&lt;/h3&gt;
+
+&lt;p&gt;В этом разделе мы добавим код внедрения отчета на веб-страницу.&lt;/p&gt;
+
+&lt;p&gt;Для этого нам потребуется &lt;strong&gt;скопировать код внедрения&lt;/strong&gt; из предыдущего этапа на соответствующую страницу. Если вы еще не скопировали его, вернитесь и сделайте это.&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;Откройте файл &lt;strong&gt;Embed in web page.htm&lt;/strong&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Найдите строку &amp;lt;!-- Шаг 1: вставьте код внедрения iFrame под этой строкой --&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;Вставьте&lt;/strong&gt; код внедрения под этой строкой.&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Теперь настройте высоту и ширину объекта iFrame. Значения по умолчанию могут вам не подойти. Размеры должны соответствовать размеру страницы в вашем отчете. По умолчанию для страницы используются пропорции 16:9. Рассчитайте подходящие ширину и высоту с учетом вашего макета веб-страницы и этого базового коэффициента. Затем добавьте 56 к высоте объекта iFrame, чтобы в него поместились элементы интерфейса Power BI (они располагаются внизу).&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;Теперь задайте в теге &lt;strong&gt;iframe&lt;/strong&gt; следующие атрибуты:&lt;/p&gt;
+    &lt;ul&gt;
+&lt;li&gt;&lt;p&gt;width="1000"&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;height="618"&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;Сохраните&lt;/strong&gt; файл.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;В &lt;strong&gt;проводнике&lt;/strong&gt; &lt;strong&gt;дважды щелкните файл, чтобы открыть его&lt;/strong&gt; в веб-браузере.&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Вы увидите страницу, похожую на изображение ниже. Если бы вы опубликовали свою страницу на веб-сервере, любой пользователь, которому она доступна, смог бы увидеть ваш отчет. С помощью этих действий вы можете добавлять визуализации данных Power BI в блоги, новостные статьи и на веб-сайты.&lt;/p&gt;
+
+&lt;h1&gt;&lt;img src="{2}" alt="" title="" /&gt;&lt;/h1&gt;
+
+&lt;h2&gt;Приложение. Форматирование чисел в Power BI&lt;/h2&gt;
+
+&lt;p&gt;Если при работе с этим учебником вы сталкивались с метками данных, вы заметили, что по умолчанию числа не отформатированы. Ниже приведены инструкции по форматированию чисел в Power BI.&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Выберите &lt;strong&gt;поле&lt;/strong&gt;, которое хотите отформатировать, щелкнув его в списке полей. Совет: поле выделено, когда оно отображается в желтой рамке, как показано ниже.
+&lt;p&gt;&lt;img src="{3}" alt="" title="" /&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Выбрав поле, откройте вкладку &lt;strong&gt;Моделирование&lt;/strong&gt; на ленте.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Обратите внимание на раздел &lt;strong&gt;Форматирование&lt;/strong&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Чтобы добавить разделители-запятые для больших чисел, нажмите на &lt;strong&gt;значок запятой&lt;/strong&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;После этого к полю при его использовании в визуализации будут применяться заданные параметры формата.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src="{4}" alt="" title="" /&gt;&lt;/p&gt;</value>
+  </data>
+  <data name="Article_Continue_Step1_3" xml:space="preserve">
+    <value>&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;Перейдите в таблицу &lt;strong&gt;Данные температуры&lt;/strong&gt; и нажмите кнопку &lt;strong&gt;Слияние запросов&lt;/strong&gt; на вкладке &lt;strong&gt;Главная&lt;/strong&gt; ленты.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;В редакторе выберите &lt;strong&gt;Данные измерений&lt;/strong&gt; и столбец &lt;strong&gt;Год&lt;/strong&gt; в обеих таблицах. Это столбец, по которому будет выполняться сопоставление таблиц.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Нам необходима таблица, содержащая все строки из обеих исходных (по совпадающим сопоставляемым значениям), поэтому выберем параметр &lt;strong&gt;тип соединения: полное внешнее (все строки из обеих таблиц)&lt;/strong&gt;. В редакторе должно отобразиться количество совпадающих строк.&lt;/p&gt;
+&lt;p&gt;&lt;img src="{0}" alt="" title="" /&gt;&lt;/p&gt;
+
+&lt;/li&gt;
+&lt;li&gt;Нажмите кнопку &lt;strong&gt;ОК&lt;/strong&gt; и разверните новые столбцы (см. значок ниже).
+&lt;p&gt;&lt;img src="{1}" alt="" title="" /&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Чтобы создать новый столбец даты, выберите &lt;strong&gt;Добавить столбец индекса&lt;/strong&gt; на вкладке &lt;strong&gt;Добавить столбец&lt;/strong&gt; и с помощью раскрывающегося меню создайте настраиваемый столбец индекса. В качестве начального значения индекса выберите 1000 и задайте приращение 1.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Теперь у вас должен быть индексный столбец со значениями от 1000 до 1998. Измените тип этого столбца на текстовый.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Теперь удалите оба столбца  "Год" и измените название &lt;strong&gt;Индекс&lt;/strong&gt; на &lt;strong&gt;Год&lt;/strong&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Задайте для столбца &lt;strong&gt;Год&lt;/strong&gt; тип данных &lt;strong&gt;Дата&lt;/strong&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Последняя таблица, которую нужно загрузить, содержит &lt;strong&gt;*планки связанных погрешностей*&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;В редакторе запросов выберите &lt;strong&gt;Главная&lt;/strong&gt;&amp;#160;&gt; &lt;strong&gt;Создать источник&lt;/strong&gt;&amp;#160;&gt; &lt;strong&gt;Интернет&lt;/strong&gt; и введите URL-адрес таблицы: &lt;a href="{2}"&gt;{2}&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Измените название запроса на &lt;strong&gt;Планки погрешностей&lt;/strong&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Измените тип данных для столбца &lt;strong&gt;Год&lt;/strong&gt; на текстовый.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Удалите первый и последний столбцы.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Измените тип данных для столбца &lt;strong&gt;Год&lt;/strong&gt; на дату.&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Теперь значение сигмы из &lt;strong&gt;планок погрешностей&lt;/strong&gt; можно использовать для расчета положительного и отрицательного изменения воссозданных значений температуры.&lt;/p&gt;</value>
+  </data>
+  <data name="Article_Start_Step2_3" xml:space="preserve">
+    <value>&lt;p&gt;&lt;img src="{0}" alt="" title="" /&gt;&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;Повторите это действие, чтобы создать формулу &lt;strong&gt;Отрицательное изменение = [Значение воссозданной температуры] + [Сигма]&lt;/strong&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Измените типы данных новых столбцов на десятичные числа.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;После того как вы загрузите всю информацию в таблицу &lt;strong&gt;Изменение температуры&lt;/strong&gt;, загружать в отчет остальные две таблицы нет необходимости. Чтобы отключить их загрузку, щелкните правой кнопкой мыши таблицу &lt;strong&gt;Данные измерений&lt;/strong&gt; и снимите флажок &lt;strong&gt;Включить загрузку&lt;/strong&gt;, а затем проделайте то же самое с таблицей &lt;strong&gt;Планки погрешностей&lt;/strong&gt;. Отключенные таблицы выделены курсивом и затенены.&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;img src="{1}" alt="" title="" /&gt;&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Теперь нажмите кнопку &lt;strong&gt;Закрыть и применить&lt;/strong&gt; на вкладке &lt;strong&gt;Главная&lt;/strong&gt; ленты.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3&gt;Этап&amp;#160;2. Создание визуального элемента&lt;/h3&gt;
+
+&lt;p&gt;После загрузки всех данных и выполнения основных задач по редактированию и слиянию значений создать график можно буквально несколькими щелчками мыши.&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;Создайте новый график в разделе отчета.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Перетащите поле &lt;strong&gt;Год&lt;/strong&gt; на поле &lt;strong&gt;Ось&lt;/strong&gt; и убедитесь, что дата в раскрывающемся меню отображается в виде года.&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;img src="{2}" alt="" title="" /&gt;&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;Перетащите поля &lt;strong&gt;Изменение воссозданной температуры&lt;/strong&gt;, &lt;strong&gt;Изменение измеренной температуры&lt;/strong&gt; , &lt;strong&gt;Положительное изменение&lt;/strong&gt; и &lt;strong&gt;Отрицательное изменение&lt;/strong&gt; в список значений.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Измените цвета линий в области &lt;strong&gt;Формат&lt;/strong&gt;, если хотите выделить изменения температуры на фоне отклонений.&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;</value>
+  </data>
+  <data name="Download_Resources" xml:space="preserve">
+    <value>Скачать все ресурсы, необходимые для работы с этими учебниками</value>
+  </data>
+  <data name="Hero_Content" xml:space="preserve">
+    <value>В этом вводном курсе рассказывается, как использовать графические объекты различных видов для анализа и понимания собственных данных, а также их представления аудитории. Специалист в области визуализации данных Альберто Каиро (Alberto Cairo) познакомит вас с основными принципами создания визуализаций: осмыслением данных, выбором оптимальной графической формы, а также подбором композиции для наглядной презентации данных и создания условий для их изучения. Вы также узнаете о связи визуализации данных с концепцией наглядного кодирования, которая позволяет превращать точки данных в графические объекты.</value>
+  </data>
+  <data name="Hero_Title" xml:space="preserve">
+    <value>Общие сведения о визуализации</value>
+  </data>
+  <data name="InThisArticle" xml:space="preserve">
+    <value>В этой статье:</value>
+  </data>
+  <data name="META_DESCRIPTION" xml:space="preserve">
+    <value />
+  </data>
+  <data name="META_KEYWORDS" xml:space="preserve">
+    <value />
+  </data>
+  <data name="META_PAGETITLE" xml:space="preserve">
+    <value>Журналистика данных — введение в визуализацию | Microsoft Power BI</value>
+  </data>
+  <data name="NextTopic" xml:space="preserve">
+    <value>Следующая тема: изучение данных</value>
+  </data>
+  <data name="RightNav_Link1" xml:space="preserve">
+    <value>Глобальное изменение температуры (создание диаграммы "хоккейная клюшка" в Power BI)</value>
+  </data>
+  <data name="RightNav_Link2" xml:space="preserve">
+    <value>Создание и публикация визуализаций</value>
+  </data>
+  <data name="Start_Article_Content_4" xml:space="preserve">
+    <value>&lt;h2 id="world-temp-change"&gt;Глобальное изменение температуры (создание диаграммы "хоккейная клюшка" в Power BI)&lt;/h2&gt;
+
+&lt;p&gt;Одним из первых примеров, используемых в курсе "Визуализация данных", является анализ глобальных температурных изменений, проведенный Майклом Манном (Michael Mann) и Реймондом Брэдли (Raymond Bradley). При воссоздании этого визуального элемента затрагивается ряд концепций, которые вы будете чаще всего использовать при работе в Microsoft Power BI. Используя в качестве исходных данных таблицы с нескольких веб-страниц, вы объедините их содержимое, загрузите его в отчет, внесете корректировки и создадите вычисляемую линию тренда. Мы используем данные по результатам исходного исследования, которые доступны здесь: &lt;a href="{0}"&gt;{0}&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3&gt;Этап&amp;#160;1. Загрузка данных&lt;/h3&gt;
+
+&lt;p&gt;Данные, необходимые для создания этого визуального элемента, содержатся в трех таблицах: &lt;strong&gt;Реконструкция за период с 1000 по 1980&amp;#160;гг.&lt;/strong&gt;, &lt;strong&gt;Связанные планки погрешностей&lt;/strong&gt; и &lt;strong&gt;Серия измерений за период с 1902 по 1998&amp;#160;гг.&lt;/strong&gt; В этом примере мы начнем с загрузки воссозданных значений температуры.&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;Откройте таблицу &lt;strong&gt;Реконструкция за период с 1000 по 1980&amp;#160;гг.&lt;/strong&gt;: &lt;a href="{1}"&gt;{1}&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;В новом файле Power BI Desktop нажмите &lt;strong&gt;Получить данные&lt;/strong&gt; в левом верхнем углу.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;В раскрывающемся меню выберите &lt;strong&gt;Интернет&lt;/strong&gt; и вставьте ссылку в поле URL-адреса. Power BI автоматически предложит тип для этих данных. Поскольку нам нужно внести изменения в столбец года, мы отключим эту функцию. Выберите для параметра &lt;strong&gt;Обнаружение типов данных&lt;/strong&gt; значение &lt;strong&gt;Не определять тип данных&lt;/strong&gt; и нажмите &lt;strong&gt;Изменить&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;img src="{2}" alt="" title="" /&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;Откроется редактор запросов. Первый столбец пуст, поэтому его можно удалить. Переименуйте столбец&amp;#160;2 в &lt;strong&gt;од&lt;/strong&gt;, а столбец&amp;#160;3&amp;#160;— в &lt;strong&gt;Изменение воссозданной температуры&lt;/strong&gt;. Измените тип данных этого столбца на десятичное число, воспользовавшись значком типа данных (см. изображение ниже).
+&lt;p&gt;&lt;img src="{3}" alt="" title="" /&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;Измените название запроса на &lt;strong&gt;Данные температуры&lt;/strong&gt;.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;С помощью той же последовательности действий вы можете загрузить измеренные данные температуры и планки погрешностей.&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;В редакторе запросов нажмите кнопку &lt;strong&gt;Создать источник&lt;/strong&gt; на вкладке &lt;strong&gt;Главная&lt;/strong&gt; ленты и введите URL-адрес таблицы &lt;strong&gt;Серия измерений&lt;/strong&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Во всплывающем окне выберите &lt;strong&gt;Не определять тип данных&lt;/strong&gt; и нажмите &lt;strong&gt;Изменить&lt;/strong&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Удалите столбец&amp;#160;1 и переименуйте столбец&amp;#160;2 в &lt;strong&gt;Год&lt;/strong&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Переименуйте столбец&amp;#160;3 в &lt;strong&gt;Изменение измеренной температуры&lt;/strong&gt; и измените тип его данных на десятичное число.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Измените название запроса на &lt;strong&gt;Данные измерений&lt;/strong&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;&lt;p&gt;Теперь нужно создать один столбец года, который мы будем использовать для всех точек данных за период с 1000 по 1998&amp;#160;гг. Для этого можно объединить две таблицы в редакторе запросов и добавить в них столбец года.&lt;/p&gt;</value>
+  </data>
+  <data name="Meta_LocJobId" xml:space="preserve">
+    <value>159</value>
+  </data>
+</root>

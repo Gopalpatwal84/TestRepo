@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Content" xml:space="preserve">
+    <value>&lt;p&gt;N&#228;m&#228; k&#228;ytt&#246;oikeussopimuksen ehdot ovat sopimus asiakkaan ja Microsoft Corporationin (tai asiakkaan asuinpaikan mukaan m&#228;&#228;r&#228;ytyv&#228;n Microsoft Corporationin konserniyhti&#246;n) v&#228;lill&#228;. Lue ehdot huolellisesti. Ehdot koskevat edell&#228; nimetty&#228; ohjelmistoa sek&#228; tietov&#228;lineit&#228;, joilla ohjelmisto on mahdollisesti toimitettu. Ehdot koskevat my&#246;s Microsoftin ohjelmistoon ja online-palveluun liittyvi&#228;&lt;/p&gt;
+		&lt;ul&gt;
+			&lt;li&gt;p&#228;ivityksi&#228;&lt;/li&gt;
+			&lt;li&gt;t&#228;ydennyksi&#228;&lt;/li&gt;
+			&lt;li&gt;Internet-pohjaisia palveluja ja&lt;/li&gt;
+			&lt;li&gt;tukipalveluja&lt;/li&gt;
+		&lt;/ul&gt;
+		&lt;p&gt;ellei niill&#228; ole erillisi&#228; omia k&#228;ytt&#246;oikeussopimuksia. Mik&#228;li niill&#228; on erilliset k&#228;ytt&#246;oikeussopimukset, niiden osalta noudatetaan t&#228;llaisten k&#228;ytt&#246;oikeussopimusten ehtoja t&#228;m&#228;n sopimuksen sijasta.&lt;/p&gt;
+		&lt;p&gt;K&#228;ytt&#228;m&#228;ll&#228; ohjelmistoa asiakas hyv&#228;ksyy n&#228;m&#228; ehdot. Mik&#228;li asiakas ei hyv&#228;ksy t&#228;m&#228;n sopimuksen ehtoja, ohjelmistoa ei saa k&#228;ytt&#228;&#228;.&lt;/p&gt;
+		&lt;p&gt;Kuten j&#228;ljemp&#228;n&#228; kuvataan, joidenkin toimintojen k&#228;ytt&#228;minen merkitsee my&#246;s asiakkaan suostumusta tiettyjen tietokonetta koskevien vakiotietojen siirtoon Internet-pohjaisia palveluita varten.&lt;/p&gt;
+		&lt;hr&gt;
+		&lt;p&gt;Mik&#228;li asiakas hyv&#228;ksyy t&#228;m&#228;n k&#228;ytt&#246;oikeussopimuksen ehdot, h&#228;nell&#228; on alla mainitut pysyv&#228;t oikeudet.&lt;/p&gt;
+		&lt;p&gt;1.	ASENNUS- JA K&#196;YTT&#214;OIKEUDET.&lt;/p&gt;
+		&lt;blockquote&gt;
+			&lt;p&gt;a.	Asennus ja k&#228;ytt&#246;. Asiakas saa asentaa Windows-laitteisiinsa haluamansa m&#228;&#228;r&#228;n ohjelmiston kopioita ja k&#228;ytt&#228;&#228; niit&#228;.&lt;/p&gt;
+			&lt;p&gt;b.	Kolmansien osapuolten ilmoitukset. Ohjelmistoon sis&#228;ltyy kolmannen osapuolen ohjelmistokoodia, johon Microsoft, ei siis kyseinen kolmas osapuoli, my&#246;nt&#228;&#228; asiakkaalle k&#228;ytt&#246;oikeudet t&#228;m&#228;n sopimuksen ehtojen nojalla. Jos kolmansien osapuolten koodista annetaan ilmoitus, se on tarkoitettu asiakkaalle ainoastaan tiedoksi.&lt;/p&gt;
+		&lt;/blockquote&gt;
+		&lt;p&gt;2.	K&#196;YTT&#214;OIKEUDEN LIS&#196;VAATIMUKSET JA/TAI LIS&#196;OIKEUDET.&lt;/p&gt;
+		&lt;blockquote&gt;
+			&lt;p&gt;a.	Mediaelementit ja Mallit. Asiakas saa kopioida ja k&#228;ytt&#228;&#228; luomissaan asiakirjoissa ja projekteissa ohjelmiston mukana toimitettuja kuvia, ClipArt-kuvia, animaatioita, &#228;&#228;ni&#228;, musiikkia, muotoja, videotiedostoja ja malleja, jotka on tarkoitettu t&#228;llaiseen k&#228;ytt&#246;&#246;n. Asiakas saa levitt&#228;&#228; t&#228;llaisia asiakirjoja ja projekteja muuhun kuin kaupalliseen k&#228;ytt&#246;&#246;n. Jos asiakas haluaa k&#228;ytt&#228;&#228; mediaelementtej&#228; tai malleja joihinkin muihin tarkoituksiin, h&#228;n voi selvitt&#228;&#228; sallitut k&#228;ytt&#246;tarkoitukset osoitteessa &lt;a href=&quot;http://www.microsoft.com/permission&quot; title=&quot;www.microsoft.com/permission&quot;&gt;www.microsoft.com/permission&lt;/a&gt;.&lt;/p&gt;
+		&lt;/blockquote&gt;
+		&lt;p&gt;3.	INTERNET-YHTEYS SAATETAAN TARVITA. Asiakas saattaa Palvelujen k&#228;yt&#246;n yhteydess&#228; joutua maksamaan Internet-yhteyden k&#228;yt&#246;st&#228;, tiedonsiirrosta tai muista palveluista oman datapalvelusopimuksensa tai muiden verkko-operaattorin kanssa solmittujen sopimusten ehtojen mukaisesti. Asiakas on yksin vastuussa kaikista verkko-operaattorin veloittamista maksuista.&lt;/p&gt;
+		&lt;p&gt;4.	KOLMANNEN OSAPUOLEN K&#196;YTT&#196;J&#196;T/SOVELLUKSET. Ohjelmisto mahdollistaa yhteyden luomisen kolmannen osapuolen tietol&#228;hteisiin. Asiakkaan sopimukset n&#228;iden kolmannen osapuolen tietol&#228;hteen toimittajien kanssa ovat yksinomaan asiakkaan ja kyseisen kolmannen osapuolen tietol&#228;hteen toimittajan v&#228;lisi&#228;, ja niit&#228; voivat koskea kyseisi&#228; kolmannen osapuolen l&#228;hteit&#228; koskevat k&#228;ytt&#246;ehdot tai sopimukset. Asiakas hyv&#228;ksyy sen, ett&#228; h&#228;n on yksinomaan vastuussa tietojen tuomisesta kolmannen osapuolen tietol&#228;hteist&#228; ja ett&#228; h&#228;nell&#228; on valtuudet tehd&#228; niin. Microsoft ei valvo tai hallitse kolmannen osapuolen aineistoa eik&#228; ole korvausvelvollinen siit&#228; eik&#228; my&#246;sk&#228;&#228;n ole vastuussa kolmannen osapuolen tietol&#228;hteist&#228; tuoduista tiedoista tai kolmannen osapuolen osien laadusta, oikeellisuudesta, luonteesta ja/tai omistusoikeudesta. Asiakas hyv&#228;ksyy sen, ett&#228; h&#228;n on yksin vastuussa sis&#228;ll&#246;st&#228;, jonka h&#228;n luo, l&#228;hett&#228;&#228;, jakaa tai esitt&#228;&#228; tuomiensa tietojen pohjalta ohjelmistoa k&#228;ytt&#228;ess&#228;&#228;n.&lt;/p&gt;
+		&lt;p&gt;5.	INTERNET-POHJAISET PALVELUT. Microsoft tarjoaa ohjelmiston mukana Internet-pohjaisia palveluja. Microsoft voi muuttaa palveluja tai peruuttaa ne koska tahansa.&lt;/p&gt;
+		&lt;blockquote&gt;
+			&lt;p&gt;a.	Internet-pohjaisia tai langattomia palveluja koskeva suostumus. Ohjelmisto voi muodostaa yhteyden Internet-pohjaisiin langattomiin palveluihin. K&#228;ytt&#228;m&#228;ll&#228; ohjelmistoa asiakas suostuu tiettyjen laitetta koskevien perustietojen l&#228;hett&#228;miseen (mukaan lukien rajoituksetta laitteen, sen k&#228;ytt&#246;j&#228;rjestelm&#228;n ja ohjelmistojen sek&#228; oheislaitteiden tekniset tiedot) Internet-pohjaisia tai langattomia palveluita varten. Jos asiakkaalle toimitetaan palvelujen k&#228;yt&#246;n yhteydess&#228; jotkin muut ehdot, kyseisi&#228; ehtoja sovelletaan.&lt;/p&gt;
+			&lt;p&gt;b.	Internet-pohjaisten palvelujen v&#228;&#228;rink&#228;ytt&#246;. Asiakas ei saa k&#228;ytt&#228;&#228; mit&#228;&#228;n Internet-pohjaisia palveluja tavalla, joka voisi haitata palveluja tai est&#228;&#228; muita k&#228;ytt&#228;m&#228;st&#228; palveluja tai langatonta verkkoa. Asiakas ei saa k&#228;ytt&#228;&#228; t&#228;t&#228; palvelua mink&#228;&#228;nlaisiin yrityksiin hankkia luvaton p&#228;&#228;sy mihink&#228;&#228;n palveluihin, tietoihin, tileihin tai verkkoihin.&lt;/p&gt;
+		&lt;/blockquote&gt;
+		&lt;p&gt;6.	K&#196;YTT&#214;OIKEUSSOPIMUKSEN LAAJUUS. Ohjelmistoa ei myyd&#228;, vaan siihen my&#246;nnet&#228;&#228;n k&#228;ytt&#246;oikeus. Mik&#228;li paikallinen lains&#228;&#228;d&#228;nt&#246; ei salli k&#228;ytt&#228;j&#228;lle muita oikeuksia, Microsoft pid&#228;tt&#228;&#228; itsell&#228;&#228;n kaikki sellaiset ep&#228;suorat, estoppel-periaatteeseen perustuvat tai muut oikeudet, joita ei erikseen my&#246;nnet&#228; t&#228;ss&#228; sopimuksessa. K&#228;ytt&#228;j&#228;n on noudatettava ohjelmistoon kuuluvia mahdollisia teknisi&#228; rajoituksia, joiden vuoksi ohjelmistoa voi k&#228;ytt&#228;&#228; vain tietyll&#228; tavalla. Asiakas ei saa
+			&lt;ul type=&quot;disc&quot;&gt;
+				&lt;li&gt;kiert&#228;&#228; ohjelmiston teknisi&#228; rajoituksia&lt;/li&gt;
+				&lt;li&gt;perusteellisesti tutkia ohjelmiston valmistustapaa tai purkaa tai hajottaa ohjelmistoa, paitsi t&#228;st&#228; rajoituksesta huolimatta sovellettavan lain nimenomaisesti sallimassa m&#228;&#228;rin&lt;/li&gt;
+				&lt;li&gt;tehd&#228; ohjelmistosta enempi&#228; kopioita kuin mit&#228; t&#228;ss&#228; sopimuksessa m&#228;&#228;ritet&#228;&#228;n tai kuin t&#228;st&#228; rajoituksesta huolimatta sovellettava laki m&#228;&#228;ritt&#228;&#228;&lt;/li&gt;
+				&lt;li&gt;julkaista ohjelmistoa muiden kopioitavaksi&lt;/li&gt;
+				&lt;li&gt;vuokrata tai lainata ohjelmistoa&lt;/li&gt;
+				&lt;li&gt;siirt&#228;&#228; ohjelmistoa tai t&#228;t&#228; sopimusta kolmannelle osapuolelle.&lt;/li&gt;
+				&lt;li&gt;k&#228;ytt&#228;&#228; ohjelmistoa kaupallisten k&#228;ytt&#246;palvelujen tarjoamiseen.&lt;/li&gt;
+			&lt;/ul&gt;
+		&lt;/p&gt;
+		&lt;p&gt;7.	DOKUMENTAATIO. Jokainen henkil&#246;, jolla on voimassa oleva oikeus k&#228;ytt&#228;&#228; asiakkaan tietokonetta tai sis&#228;ist&#228; verkkoa, saa kopioida asiakirjat ja hy&#246;dynt&#228;&#228; niit&#228; viittein&#228; asiakkaan sis&#228;isess&#228; k&#228;yt&#246;ss&#228;.&lt;/p&gt;
+		&lt;p&gt;8.	VIENTIRAJOITUKSET. T&#228;m&#228; ohjelmisto kuuluu Yhdysvaltain vienti&#228; koskevien lakien ja s&#228;&#228;nn&#246;sten piiriin. Asiakkaan on noudatettava kaikkia ohjelmistoa koskevia paikallisia ja kansainv&#228;lisi&#228; vientilakeja ja -s&#228;&#228;nn&#246;ksi&#228;. N&#228;m&#228; lait sis&#228;lt&#228;v&#228;t kohdemaita, loppuk&#228;ytt&#228;ji&#228; ja loppuk&#228;ytt&#246;&#228; koskevia rajoituksia. Lis&#228;tietoja on osoitteessa &lt;a href=&quot;http://www.microsoft.com/exporting&quot; title=&quot;www.microsoft.com/exporting&quot;&gt;www.microsoft.com/exporting&lt;/a&gt;.&lt;/p&gt;
+		&lt;p&gt;9.	TUKIPALVELUT. T&#228;m&#228; ohjelmisto toimitetaan sellaisenaan, eik&#228; sille v&#228;ltt&#228;m&#228;tt&#228; tarjota tukipalveluja.&lt;/p&gt;
+		&lt;p&gt;10.	KOKO SOPIMUS. T&#228;m&#228; sopimus sek&#228; ehdot t&#228;ydennysosien, p&#228;ivitysten, Internet-pohjaisten palveluiden ja asiakkaan k&#228;ytt&#228;mien tukipalveluiden toimittamiseen muodostavat ohjelmiston k&#228;ytt&#246;oikeus- sek&#228; tukipalvelusopimuksen kokonaisuudessaan.&lt;/p&gt;
+		&lt;p&gt;11.	SOVELLETTAVA LAKI.&lt;/p&gt;
+		&lt;blockquote&gt;
+			&lt;p&gt;a.	Yhdysvallat. Jos asiakas hankkii ohjelmiston Yhdysvalloissa, t&#228;t&#228; sopimusta ja v&#228;itteit&#228; siihen liittyvist&#228; rikkomuksista tulkitaan Washingtonin osavaltion lakien mukaan huolimatta sen lainvalintaa koskevista periaatteista. Asiakkaan kotiosavaltion lakeja sovelletaan kaikkiin muihin vaateisiin, mukaan lukien vaateisiin, jotka perustuvat osavaltion kuluttajansuojalakeihin, sopimatonta menettely&#228; elinkeinotoiminnassa koskeviin lakeihin tai oikeudenvastaiseen tekoon.&lt;/p&gt;
+			&lt;p&gt;b.	Muut maat. Jos asiakas hankkii ohjelmiston jossakin muussa maassa kuin Yhdysvalloissa, sovelletaan t&#228;m&#228;n maan lakeja.&lt;/p&gt;
+		&lt;/blockquote&gt;
+		&lt;p&gt;12.	OIKEUDELLINEN VAIKUTUS. T&#228;ss&#228; sopimuksessa kuvataan tiettyj&#228; laillisia oikeuksia. Asiakkaalla voi olla my&#246;s muita paikallisten lakien mukaisia oikeuksia. Asiakkaalla voi niin ik&#228;&#228;n olla oikeuksia, jotka liittyv&#228;t ohjelmiston myyneeseen tahoon. T&#228;m&#228; sopimus ei muuta paikallisten lakien mukaisia asiakkaan oikeuksia, jos paikallinen laki ei t&#228;t&#228; salli.&lt;/p&gt;
+		&lt;p&gt;13.	TAKUUN POISSULKEMINEN. Ohjelmistolle my&#246;nnet&#228;&#228;n k&#228;ytt&#246;oikeus sellaisenaan. Asiakas saa k&#228;ytt&#228;&#228; sit&#228; omalla vastuullaan. Microsoft ei my&#246;nn&#228; mit&#228;&#228;n nimenomaisesti ilmaistuja takuita, sitoumuksia tai ehtoja. Asiakkaalla voi olla paikallisen lain s&#228;&#228;d&#246;ksist&#228; johtuen muita sellaisia kuluttajan oikeuksia tai lakis&#228;&#228;teisi&#228; takuita, joihin t&#228;m&#228; sopimus ei voi vaikuttaa. Ellei sovellettavan lain s&#228;&#228;d&#246;ksist&#228; muuta johdu, Microsoft sulkee pois oletetut takuut tavaran soveltuvuudesta kaupank&#228;ynnin kohteeksi, sen sopivuudesta johonkin tiettyyn tarkoitukseen tai oikeuksien loukkaamattomuudesta.&lt;/p&gt;
+		&lt;p&gt;&lt;strong&gt;VAIN AUSTRALIASSA: Asiakkaalla on Australian kuluttajansuojalaista johtuvia takuita, ja n&#228;iden ehtojen tarkoituksena ei ole vaikuttaa kyseisiin oikeuksiin.&lt;/strong&gt;&lt;/p&gt;
+		&lt;p&gt;14.	VAHINGONKORVAUSVASTUUN RAJOITUS JA POISSULKEMINEN. Asiakkaan Microsoftilta ja sen toimittajilta saama vahingonkorvaus ei voi olla enemm&#228;n kuin 5,00 Yhdysvaltain dollaria. Asiakkaalla ei ole oikeuksia muihin vahingonkorvauksiin huolimatta siit&#228;, ovatko/onko kyseess&#228; v&#228;lilliset, erityiset, ep&#228;suorat tai satunnaiset vahingot tai liikevoiton menett&#228;minen.&lt;/p&gt;
+		&lt;p&gt;&lt;strong&gt;T&#228;m&#228; rajoitus koskee&lt;/strong&gt;&lt;/p&gt;
+		&lt;ul type=&quot;disc&quot;&gt;
+			&lt;li&gt;&lt;strong&gt;kaikkia seikkoja, jotka liittyv&#228;t ohjelmistoon, palveluihin tai sis&#228;lt&#246;&#246;n (mukaan lukien koodiin) kolmansien osapuolten Internet-sivustoissa tai kolmansien osapuolten ohjelmissa sek&#228;&lt;/strong&gt;&lt;/li&gt;
+			&lt;li&gt;&lt;strong&gt;v&#228;itteit&#228; sopimusrikkomuksesta, takuurikkomuksesta, sitoumuksesta tai ehdosta, laiminly&#246;nnist&#228; tai muusta oikeudenvastaisesta teosta sovellettavan lain nimenomaisesti sallimassa m&#228;&#228;rin.&lt;/strong&gt;&lt;/li&gt;
+		&lt;/ul&gt;
+		&lt;p&gt;&lt;strong&gt;Rajoitus on voimassa my&#246;s tilanteissa, joissa Microsoft on tiennyt tai sen olisi pit&#228;nyt tiet&#228;&#228; vahinkojen mahdollisuudesta. Satunnaisten tai v&#228;lillisten vahinkojen tai muiden vahinkojen aiheuttaman vahingonkorvausvastuun poissulkeminen ja rajoittaminen ei ole sallittua joissakin maissa, joten edell&#228; mainittuja rajoituksia tai poissulkemisia ei ehk&#228; voida soveltaa asiakkaaseen n&#228;iss&#228; maissa.&lt;/strong&gt;&lt;/p&gt;
+		&lt;hr&gt;
+		&lt;p&gt;Tekij&#228;noikeus &amp;#169; Microsoft. Kaikki oikeudet pid&#228;tet&#228;&#228;n.&lt;/p&gt;
+		&lt;h3 id=&quot;third-party-notices&quot;&gt;Third Party Notices&lt;/h3&gt;
+				&lt;h3&gt;&lt;a href=&quot;/WinTerms/en-us#third-party-notices&quot; title=&quot;Third Party Notices&quot;&gt;Third Party Notices&lt;/a&gt;&lt;/h3&gt;
+		&lt;p&gt;&lt;strong&gt;This file is based on or incorporates material from the projects listed below (collectively, &quot;Third Party Code&quot;). Microsoft is not the original author of the Third Party Code. The original copyright notice and the license, under which Microsoft received such Third Party Code, are set forth below. Such licenses and notices are provided for informational purposes only. Microsoft, not the third party, licenses the Third Party Code to you under the terms set forth in the EULA for the Microsoft Product. Microsoft reserves all rights not expressly granted under this agreement, whether by implication, estoppel or otherwise.&lt;/strong&gt;&lt;/p&gt;</value>
+  </data>
+  <data name="Heading" xml:space="preserve">
+    <value>&lt;h1&gt;MICROSOFT-OHJELMISTON K&#196;YTT&#214;OIKEUSSOPIMUKSEN EHDOT&lt;/h1&gt;
+            &lt;h1&gt;MICROSOFT POWER BI FOR WINDOWS&lt;/h1&gt;</value>
+  </data>
+  <data name="META_DESCRIPTION" xml:space="preserve">
+    <value />
+  </data>
+  <data name="META_KEYWORDS" xml:space="preserve">
+    <value />
+  </data>
+  <data name="META_PAGETITLE" xml:space="preserve">
+    <value>Windows License Terms of Service | Microsoft Power BI</value>
+  </data>
+</root>

@@ -1,0 +1,276 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" id="root">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="DynamicsCRM_Content" xml:space="preserve">
+    <value>&lt;p&gt;Dynamics 365 ソリューション テンプレートには、セキュリティで保護され、スケーラブルで拡張可能な売上管理ダッシュボードの分析を行うのに必要なものがすべて含まれています。数時間で、Scribe のクラウドベース ETL プラットフォーム、クラウドまたはオンプレミスのデータベース、および洗練された Power BI レポート (所有する Dynamics 365 インスタンスから派生したセキュリティ モデルを含む) を含む、エンド ツー エンドのソリューションを立ち上げることができます。&lt;/p&gt;
+&lt;p class="text-semibold"&gt;Dynamics 365 用の売上管理:&lt;/p&gt;
+&lt;ul&gt;
+    &lt;li&gt;構築済みの売上管理分析ダッシュボードのデータ モデルですぐに開始しましょう。&lt;/li&gt;
+    &lt;li&gt;直感的なウィザードに基づく UI を使用し、データ統合を設定およびカスタマイズする&lt;/li&gt;
+    &lt;li&gt;Dynamics 365 からの大きなデータ ボリュームを処理することで、エンタープライズ グレードのパフォーマンスを得る&lt;/li&gt;
+    &lt;li&gt;増分データ抽出機能でデータ統合を最適化する&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;すべて GitHub で無料で入手できるだけでなく、完全に文書化されているため、ゼロから設計やコーディングえはなく、最終結果のカスタマイズに時間を費やすことができます。&lt;/p&gt;</value>
+  </data>
+  <data name="DynamicsCRM_DetailTagline" xml:space="preserve">
+    <value>セキュリティで保護され、スケーラブルで拡張可能な Power BI ダッシュボードを、数時間でクラウドまたはオンプレミスの Dynamics 365 インスタンスに立ち上げることができます。ゼロから始めるのではなく、ビジネス ニーズに合わせてソリューションをカスタマイズすることに時間を費やすことができます。</value>
+  </data>
+  <data name="DynamicsCRM_DetailTitle" xml:space="preserve">
+    <value>エンタープライズ対応の売上管理分析</value>
+  </data>
+  <data name="DynamicsCRM_IndexTagline" xml:space="preserve">
+    <value>セキュリティで保護され、スケーラブルで拡張可能な Power BI で Dynamics 365 のお客様から有益な洞察を得ます。自分だけの CRM カスタマイズ内容の反映、他のアプリケーションからのデータ (ERP システムからの実際の収益など) の追加、既存セキュリティ モデルの機能の再利用を行います。</value>
+  </data>
+  <data name="DynamicsCRM_Partner" xml:space="preserve">
+    <value>スクライブ</value>
+  </data>
+  <data name="DynamicsCRM_Title" xml:space="preserve">
+    <value>Dynamics 365 用の売上管理</value>
+  </data>
+  <data name="Salesforce_Content" xml:space="preserve">
+    <value>&lt;p&gt;
+Salesforce ソリューション テンプレートには、セキュリティで保護され、スケーラブルで拡張可能な売上管理ダッシュボードに必要なすべてのもの、および実行可能な分析が含まれます。数時間で、Informatica Cloud Integration Platform または Scribe のクラウドベース ETL プラットフォーム、クラウドまたはオンプレミスのデータベース、および洗練された Power BI レポート (所有する Salesforce インスタンスから派生したセキュリティ モデルを含む) を含む、エンド ツー エンドのソリューションを立ち上げることができます。
+&lt;/p&gt;
+
+&lt;p class="text-semibold"&gt;
+Salesforce の売上管理は合理化されています。
+&lt;/p&gt;
+
+&lt;ul&gt;
+	&lt;li&gt;構築済みの分析ダッシュボードのデータ モデルですぐに開始できます。&lt;/li&gt;
+	&lt;li&gt;直感的なウィザードに基づく UI を使用し、データ統合を設定およびカスタマイズする&lt;/li&gt;
+	&lt;li&gt;Salesforce からの大きなデータ ボリュームを処理することで、エンタープライズ グレードのパフォーマンスを得る&lt;/li&gt;
+	&lt;li&gt;増分データ抽出機能でデータ統合を最適化する&lt;/li&gt;
+&lt;/ul&gt;</value>
+  </data>
+  <data name="Salesforce_DetailTagline" xml:space="preserve">
+    <value>セキュリティで保護され、拡張性がある広範囲な Salesforce Power BI ダッシュボードを、数時間で立ち上げることができます。ゼロから始めるのではなく、ビジネス ニーズに合わせてソリューションをカスタマイズすることに時間を費やすことができます。</value>
+  </data>
+  <data name="Salesforce_DetailTitle" xml:space="preserve">
+    <value>エンタープライズ対応の売上管理分析</value>
+  </data>
+  <data name="Salesforce_IndexTagline" xml:space="preserve">
+    <value>セキュリティで保護され、スケーラブルで拡張可能な Power BI で Salesforce のお客様のパイプラインから有益な洞察を得ます。自分だけの Salesforce カスタマイズ内容の反映、他のアプリケーションからのデータ (ERP システムからの実際の収益など) を使用したエンタープライズ データ マッシュアップの作成、既存セキュリティ モデルの機能の再利用を行います。</value>
+  </data>
+  <data name="Salesforce_Partner" xml:space="preserve">
+    <value>Informatica</value>
+  </data>
+  <data name="Salesforce_Title" xml:space="preserve">
+    <value>Salesforce 用の売上管理</value>
+  </data>
+  <data name="SCCM_Content" xml:space="preserve">
+    <value>System Center Power BI ソリューション テンプレートには、SCCM ダッシュボードに必要なものすべてが、実用的な分析と共に含まれています。お客様の SCCM インストールからのデータは、自分で拡張およびカスタマイズできるデータベースに収集および保存されます。データは、強力かつ説得力のある Power BI レポートにレンダリングされます。ユーザーやコンピューターに関する情報を追加したり、すでに収集された情報からデータ マッシュアップを作成したりできます。</value>
+  </data>
+  <data name="SCCM_DetailTagline" xml:space="preserve">
+    <value>数時間で、スケーラブルで拡張可能な System Center Configuration Manager ダッシュボードを立ち上げることができます。情報は日々収集されるため、組織のコンピューターの現在の正常性だけでなく、時間の経過によるそれらの主要な指標の変化も確認できます。ソフトウェア アップデートに対して最新の状態でないマシンや、成功または失敗したマルウェア感染防止を瞬時に識別できるので、迅速に対応することができます。</value>
+  </data>
+  <data name="SCCM_DetailTitle" xml:space="preserve">
+    <value>System Center Configuration Manager 用の Power BI ダッシュボード</value>
+  </data>
+  <data name="SCCM_IndexTagline" xml:space="preserve">
+    <value>説得力のある Power BI の分析と視覚エフェクトで、組織全体のコンピューターの正常性、マルウェア対策、ソフトウェア アップデート、およびソフトウェア インベントリをモニタリングすることにより、IT の生産性と効率性を高めることができます。System Center Configuration Manager の主要な指標を、独自にカスタマイズ可能なターゲットと比較し、長期間のトレンドを確認することができます。問題点を特定して必要な情報を入手することにより、何をすべきかを理解できます。</value>
+  </data>
+  <data name="SCCM_Title" xml:space="preserve">
+    <value>System Center Configuration Manager</value>
+  </data>
+  <data name="Twitter_Content" xml:space="preserve">
+    <value>&lt;p&gt;Twitter テンプレートは、完全なブランド/キャンペーン ソリューションを提供します。Twitter からデータをプルし、マシン ラーニングを使用してデータを強化し、それを Azure SQL に格納するエンドツーエンド ソリューションを、わずか数分で立ち上げることができます。それから、Microsoft リサーチ テクノロジを利用する構築済みのレポートを利用して、Twitter データの分析と追加データ ソースの拡大を開始することができます。&lt;/p&gt;
+&lt;p class="text-semibold"&gt;Twitter 向けキャンペーン/ブランド管理:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;ソーシャル アナリティクス レポート用の構築済みデータ モデルを使用してすぐに開始する&lt;/li&gt;
+&lt;li&gt;直観的に操作できるウィザード ベースの UI を使用して Twitter 検索クエリを定義し、ワークフローをスピン アップする&lt;/li&gt;
+&lt;li&gt;Microsoft Research 製ネットワーク グラフなどの洗練された視覚エフェクトを利用する&lt;/li&gt;
+&lt;li&gt;新しいツイートの出現で開始されるプロセスで、リアル タイムに近いアナリティクスを得る&lt;/li&gt;
+&lt;/ul&gt;</value>
+  </data>
+  <data name="Twitter_DetailTagline" xml:space="preserve">
+    <value>スケーラブルで拡張可能なソリューション テンプレートを使用して、構造化されていないすべての Twitter データを分析します。センチメント、トピック傾向、イベントやキャンペーンなどの重要な機会に対するアウトリーチを追跡したり、製品やサービスに対するユーザーの反応を継続的に監視します。現在のセンチメントとボリュームを履歴データと比較して、時間の経過による傾向の変化を確認します。</value>
+  </data>
+  <data name="Twitter_DetailTitle" xml:space="preserve">
+    <value>Twitter データ向けソーシャル アナリティクス</value>
+  </data>
+  <data name="Twitter_IndexTagline" xml:space="preserve">
+    <value>スケーラブルで拡張可能なソリューション テンプレートを使用して、構造化されていないすべての Twitter データを分析します。センチメント、トピック傾向、イベントやキャンペーンなどの重要な機会に対するアウトリーチを追跡したり、製品やサービスに対するユーザーの反応を継続的に監視します。現在のセンチメントとボリュームを履歴データと比較して、時間の経過による傾向の変化を確認します。</value>
+  </data>
+  <data name="Twitter_Title" xml:space="preserve">
+    <value>Twitter 向けキャンペーン/ブランド管理</value>
+  </data>
+  <data name="SAP_Content" xml:space="preserve">
+    <value>&lt;p&gt;Simplement により強化された SAP Accounts Receivable テンプレートを使用すると、いくつかの重要な AR 報告エリアの情報をすばやく簡単に分析できます。設定不要で、SAP AR 情報全体の分析を開始できます。&lt;/p&gt;
+&lt;p class="text-semibold"&gt;AR 報告書での一般的に要件に重点を置いた既成の報告書で、今すぐ開始しましょう:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;現在の AR 総合収支に関する最新の概要を表示し、問題のある会社や顧客などにすぐに焦点を合わせることができます。&lt;/li&gt;
+&lt;li&gt;時間の経過に合わせて情報を確認することで、過去の AR 傾向や、概要レベルで特定された問題エリアでの特定時点の収支を分析します。&lt;/li&gt;
+&lt;li&gt;90 個を超える収支が特定のしきい値を超えている、最低の債権を特定します。&lt;/li&gt;
+&lt;li&gt;債権のエイジング バケットを合計に対する % として示し、90 超または 1 ～ 30 などの特定エリアで大きな比率を占める顧客または会社を特定します。&lt;/li&gt;
+&lt;/ul&gt;</value>
+  </data>
+  <data name="SAP_DetailTagline" xml:space="preserve">
+    <value>Simplement により設計され、シンプルで直感的な Power BI ダッシュボードの SAP Accounts Receivable 報告書を今すぐ使ってみましょう。組織の SAP AR 環境全体を一目で迅速かつ効率的に分析し、主要な問題が潜むエリアを特定するのに必要な情報を手に入れましょう。</value>
+  </data>
+  <data name="SAP_DetailTitle" xml:space="preserve">
+    <value>SAP 向け Accounts Receivable 報告書</value>
+  </data>
+  <data name="SAP_IndexTagline" xml:space="preserve">
+    <value>Power BI で組織の SAP Accounts Receivable 全体を迅速かつ効率的に分析できます。債権を顧客、会社、文書番号、および年齢別に視覚化し、データの可視性と分析を向上させ、意思決定を迅速に行うことができます。過去の時点に戻り、債権を現在と比較できます。
+パブリック プレビューですので、皆様のご意見をぜひお聞かせください。まずはお試しになり、問題のある機能や改善方法についてご意見をお聞かせください。</value>
+  </data>
+  <data name="SAP_Title" xml:space="preserve">
+    <value>SAP 向け Accounts Receivable</value>
+  </data>
+  <data name="Dynamics365_PSA_Content" xml:space="preserve">
+    <value>&lt;p&gt;Microsoft Dynamics 365 for Project Service Automation ソリューション テンプレートには、実務管理、リソース管理、取引先企業管理を行うための安全でスケーラブル、拡張可能なダッシュボードに必要なものがすべて含まれています。数時間で、Dynamics 365 データ エクスポート サービス、SQL Azure データ ストア、および洗練された Power BI レポート (所有する Dynamics 365 インスタンスから派生したセキュリティ モデルを含む) を含む、エンド ツー エンドのソリューションを立ち上げることができます。&lt;/p&gt;&lt;p class="text-semibold"&gt;Dynamics 365 for Project Service Automation ソリューション テンプレート用の実務管理&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Dynamics 365 for Project Service Automation 用に構築済みのデータ モデルで今すぐ開始しましょう。&lt;/li&gt;&lt;li&gt;実務管理者、リソース管理者、および取引先企業管理者向けの構築済みレポートをもとにダッシュボードを構築しましょう。&lt;/li&gt;&lt;li&gt;実務管理レポートには、粗利益、売上、収益、経費、時間と利用率、実務実績が記載されています。&lt;/li&gt;&lt;li&gt;リソース管理レポートには、リソースとロールの利用率、予測、リソース需要が記載されています。&lt;/li&gt;&lt;li&gt;取引先企業管理レポートには、売上、販売パイプライン、請求書、契約履行、顧客パフォーマンスが記載されています。&lt;/li&gt;&lt;li&gt;組織固有のニーズに合わせてデータ モデルを拡張し、レポートを変更します。&lt;/li&gt;&lt;li&gt;直感的なウィザードに基づく UI を使用し、データ統合を設定およびカスタマイズします。&lt;/li&gt;&lt;li&gt;データ エクスポート サービスを使用して Dynamics 365 からの大きなデータ ボリュームを処理することで、エンタープライズ グレードのパフォーマンスを得ます。&lt;/li&gt;&lt;li&gt;Dynamics 365 データ エクスポート サービス使用の増分データ抽出機能でデータ統合を最適化します。&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;すべて GitHub で無料で入手できるだけでなく、完全に文書化されているため、ゼロから設計やコーディングえはなく、最終結果のカスタマイズに時間を費やすことができます。&lt;/p&gt;</value>
+  </data>
+  <data name="Dynamics365_PSA_DetailTagline" xml:space="preserve">
+    <value>Dynamics 365 for Project Service Automation インスタンスに対し、実務、リソース、取引先企業管理のためのエンタープライズ対応の Power BI ソリューションを数時間で設定できます。 まずは構築済みのコンテンツとモデルから開始し、組織のニーズに合わせて拡張します。</value>
+  </data>
+  <data name="Dynamics365_PSA_DetailTitle" xml:space="preserve">
+    <value>エンタープライズ対応のプロフェッショナル サービス管理分析</value>
+  </data>
+  <data name="Dynamics365_PSA_IndexTagline" xml:space="preserve">
+    <value>Microsoft Dynamics 365 for Project Service Automation ソリューション テンプレートは、プロフェッショナル サービス組織の実務管理者、リソース管理者、取引先企業管理者にとって重要な情報に焦点を当てています。 収益、費用、利益などの財務 KPI の分析コンテンツが含まれています。 さらに、利用率、売上指標、請求書、リソース需要など、他の関連する KPI も含まれます。</value>
+  </data>
+  <data name="Dynamics365_PSA_Title" xml:space="preserve">
+    <value>Microsoft Dynamics 365 for Project Service Automation</value>
+  </data>
+  <data name="Bing_News_Content" xml:space="preserve">
+    <value>&lt;p class="text-semibold"&gt;Bing New 向けの高度な検索:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;高度な検索エクスペリエンス向けの構築済みデータ モデルですぐに開始する&lt;/li&gt;
+&lt;li&gt;直観的に操作できるウィザード ベースの UI を使用して検索クエリを定義し、ワークフローをスピン アップする&lt;/li&gt;
+&lt;li&gt;教師なしモデルと教師ありモデルを含む、洗練された機械学習アルゴリズムを活用する&lt;/li&gt;
+&lt;li&gt;ブラウザーで Power BI レポートから選択した記事にシームレスに移動する&lt;/li&gt;
+&lt;/ul&gt;</value>
+  </data>
+  <data name="Bing_News_DetailTagline" xml:space="preserve">
+    <value>Bing News テンプレートでは、洗練された機械学習技術を使用して、ユーザーが興味を持つ内容に、数百ものニュース プロバイダーの関連記事を一致させる独自の機能を提供しています。Azure SQL、Azure ML、Cognitive Services、Logic Apps、Azure Functions など、あらゆる種類の Azure サービスをまとめるエンドツーエンド パイプラインを、わずか数分で立ち上げることができます。 その後、構築済みのレポートを確認し、分析を完了して適切な記事を見つけるのに役立てることができます。</value>
+  </data>
+  <data name="Bing_News_DetailTitle" xml:space="preserve">
+    <value>自分に関連する記事を瞬時に検索する</value>
+  </data>
+  <data name="Bing_News_IndexTagline" xml:space="preserve">
+    <value>感想、トピック、エンティティなどの重要な基準でニュース記事をフィルターして並べ替え、最も重要でクエリと関連するニュース記事を検索します。スニペットをスクロールし、選択した記事にシームレスに移動すると、検索用語 (ブランド名、製品など) がそのニュースでどのように認識されているかを詳細に把握できます。</value>
+  </data>
+  <data name="Bing_News_Title" xml:space="preserve">
+    <value>Bing New 向けの高度な検索</value>
+  </data>
+  <data name="Meta_LocJobId" xml:space="preserve">
+    <value>201</value>
+  </data>
+</root>

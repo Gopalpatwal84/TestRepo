@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<appSettings>
+  <!-- Seq settings -->
+  <add key="SeqServer" value="http://localhost:5341/" />
+  <add key="SeqServerApiKey" value="#{keyvault:powerbi:jobs-seq-apikey}" />
+  <add key="SeqAllowFileBuffer" value="false" />
+  
+  <!-- Onyx Client -->
+  <add key="Onyx.Client.Configuration.OnyxServicesUrl" value="https://partners-frontend-westus-int-01.azurewebsites.net/" />
+  <add key="Onyx.Client.Configuration.Tenant" value="partnersmscloud.onmicrosoft.com" />
+  <add key="Onyx.Client.Configuration.ClientId" value="e6a1d755-a3ab-477c-aaee-284632fee9a0" />
+  <add key="Onyx.Client.Configuration.AppKey" value="#{keyvault:powerbi:partners-portal-app-password}" />
+  <add key="Onyx.Client.Configuration.ResourceId" value="https://partnersmscloud.onmicrosoft.com/partners-frontend-westus-int-01" />
+  <add key="Onyx.Client.Configuration.OnyxVersionPath" value="/api" />
+</appSettings>

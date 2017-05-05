@@ -1,0 +1,13 @@
+﻿@model PowerBI.Web.Models.Pages.ViewMetadataModel
+
+@if (Model.Cultures?.Any() == true)
+{
+    <select class="cultures-dropdown">
+        @foreach (var culture in Model.Cultures.Where(x => x.IsDisplayed))
+        {
+            <option @(CultureHelperBase.GetCurrentCulture() == culture.Slug ? "selected='selected' " : string.Empty) value="@culture.Slug">
+                @CultureHelperBase.GetDisplayName(culture.Slug)
+            </option>
+        }
+    </select>
+}

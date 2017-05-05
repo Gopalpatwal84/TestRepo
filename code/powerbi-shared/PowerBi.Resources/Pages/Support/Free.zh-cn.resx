@@ -1,0 +1,216 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" id="root">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Community_Content" xml:space="preserve">
+    <value>访问 Power BI 社区网站，直接从其他 Power BI 用户处获取答案和建议。</value>
+  </data>
+  <data name="Community_Heading" xml:space="preserve">
+    <value>社区</value>
+  </data>
+  <data name="ContactUs_Cta" xml:space="preserve">
+    <value>&lt;p&gt;无法登录？ &lt;a href="{0}"&gt;联系我们&lt;/a&gt;&lt;p&gt;</value>
+  </data>
+  <data name="Documentation_Content" xml:space="preserve">
+    <value>查看有关 Power BI 所有工具和功能的深入分析文章，从入门到高级技巧一应俱全。</value>
+  </data>
+  <data name="Documentation_Heading" xml:space="preserve">
+    <value>文档</value>
+  </data>
+  <data name="GetSupport_Heading" xml:space="preserve">
+    <value>从这些选项之一获取免费帮助</value>
+  </data>
+  <data name="GuidedLearning_Content" xml:space="preserve">
+    <value>我们的视频和文章课程将引导你了解如何使用 Power BI 完成常见任务。</value>
+  </data>
+  <data name="GuidedLearning_Heading" xml:space="preserve">
+    <value>指导式学习</value>
+  </data>
+  <data name="Hero_Heading" xml:space="preserve">
+    <value>联系支持人员</value>
+  </data>
+  <data name="LearnMore_Cta" xml:space="preserve">
+    <value>了解详细信息</value>
+  </data>
+  <data name="META_DESCRIPTION" xml:space="preserve">
+    <value>Power BI 可将你公司的数据转换为丰富的视觉对象，便于你进行收集和组织，从而使你能够集中关注重要的内容。始终获悉最新信息、掌握即时趋势并进一步推动你的业务。</value>
+  </data>
+  <data name="META_KEYWORDS" xml:space="preserve">
+    <value />
+  </data>
+  <data name="META_PAGETITLE" xml:space="preserve">
+    <value>支持 | Microsoft Power BI</value>
+  </data>
+  <data name="Purchase_Cta" xml:space="preserve">
+    <value>购买</value>
+  </data>
+  <data name="Purchase_Heading" xml:space="preserve">
+    <value>你是否知道 Power BI Pro 用户始终得到迅速的免费支持？</value>
+  </data>
+  <data name="Purchase_Myself" xml:space="preserve">
+    <value>自用</value>
+  </data>
+  <data name="Purchase_No" xml:space="preserve">
+    <value>否</value>
+  </data>
+  <data name="Purchase_NoUnsure" xml:space="preserve">
+    <value>否或不确定</value>
+  </data>
+  <data name="Purchase_Question1" xml:space="preserve">
+    <value>你的组织是否使用 Office 365？</value>
+  </data>
+  <data name="Purchase_Question2" xml:space="preserve">
+    <value>你是否组织的 Office 365 部署管理员？</value>
+  </data>
+  <data name="Purchase_Subheading" xml:space="preserve">
+    <value>你似乎尚未订阅 Power BI Pro</value>
+  </data>
+  <data name="Purchase_Subheading1" xml:space="preserve">
+    <value>为了更好地协助你，请告知我们更多有关你将如何使用 Power BI 的信息。</value>
+  </data>
+  <data name="Purchase_Subheading4" xml:space="preserve">
+    <value>我们的销售团队可帮助你购买 Power BI。在下方输入你的信息，立即开始与他们聊天。</value>
+  </data>
+  <data name="Purchase_TeamOrOrg" xml:space="preserve">
+    <value>团队或组织</value>
+  </data>
+  <data name="Purchase_Yes" xml:space="preserve">
+    <value>是</value>
+  </data>
+  <data name="ReportIssue_Content" xml:space="preserve">
+    <value>发现 bug？ 尽可能多地告知我们详细信息，以便在未来 Power BI 更新中进行修正。</value>
+  </data>
+  <data name="ReportIssue_Heading" xml:space="preserve">
+    <value>报告问题</value>
+  </data>
+  <data name="Samples_Content" xml:space="preserve">
+    <value>查看仪表板、报表和桌面文件示例，并了解我们的一些合作伙伴如何使用 Power BI。</value>
+  </data>
+  <data name="Samples_Heading" xml:space="preserve">
+    <value>示例</value>
+  </data>
+  <data name="SubmitAnIdea_Content" xml:space="preserve">
+    <value>是否有改善 Power BI 的绝佳想法？ 我们非常乐意收到你的反馈！</value>
+  </data>
+  <data name="SubmitAnIdea_Heading" xml:space="preserve">
+    <value>提交想法</value>
+  </data>
+  <data name="Meta_LocJobId" xml:space="preserve">
+    <value>153</value>
+  </data>
+</root>

@@ -1,0 +1,78 @@
+﻿@model PowerBI.Web.Models.Pagination
+@{
+    var start = Math.Max(1, Model.PageNumber - 3);
+    var totalPages = Math.Ceiling(Model.TotalCount / Convert.ToDouble(Model.PageSize));
+    var last = Math.Min(totalPages, Model.PageNumber + 3);
+}
+@if (totalPages > 1)
+{
+    <div class="pagination">
+        <ul class="controls-pages">
+            @if (start > 1)
+            {
+                <li>&hellip;</li>
+            }
+            @for (var i = start; i <= last; i++)
+            {
+                if (i == Math.Max(Model.PageNumber, 1))
+                {
+                    <li class="current"><a>@i</a></li>
+                }
+                else
+                {
+                    <li><a href="@BuildPageLink(i)">@i</a></li>
+                }
+            }
+            @if (last < totalPages)
+            {
+                <li>&hellip;</li>
+            }
+            @if (start == last && totalPages > 1)
+            {
+                <li><a>1</a></li>
+            }
+        </ul>
+        <ul class="controls-nav">
+            @if (Model.PageNumber > 1)
+            {
+                <li><a href="@BuildPageLink(Model.PrevPage)" class="prev"></a></li>
+            }
+            else
+            {
+                <li><a class="prev disabled"></a></li>
+
+            }
+            @if (Model.PageNumber < totalPages)
+            {
+                <li><a href="@BuildPageLink(Model.NextPage)" class="next"></a></li>
+            }
+            else
+            {
+                <li><a class="next disabled"></a></li>
+            }
+            
+        </ul>
+    </div>
+}
+@helper BuildPageLink(int page)
+{
+    if (page > 0)
+    {
+        var newValues = new RouteValueDictionary(ViewContext.RouteData.Values);
+        if (page > 1 || newValues["page"] != null)
+        {
+            newValues["page"] = page;
+        }
+        var action = Url.Action((string)ViewContext.RouteData.Values["action"], (string)ViewContext.RouteData.Values["controller"], newValues);
+        var queryString = ViewContext.RequestContext.HttpContext.Request.QueryString.FormatQueryString("async", "page");
+        if (action.Contains("?"))
+        {
+            queryString = queryString.Replace("?", "&");
+        }
+        @(action + queryString)
+    }
+    else
+    {
+        @Html.Raw(string.Empty)
+    }
+}

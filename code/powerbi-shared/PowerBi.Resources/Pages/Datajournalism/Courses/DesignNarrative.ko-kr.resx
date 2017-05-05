@@ -1,0 +1,294 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" id="root">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="About_Content" xml:space="preserve">
+    <value>&lt;p&gt;다음 내용을 강조하는 Microsoft Power BI 데모도 제공합니다. &lt;ul&gt;
+    &lt;li&gt;이해하기 어려운 원형 차트를 보다 깔끔하고 간결한 모양의 트리 맵 및 가로 막대형 차트로 개조하여 대상 그룹에 핵심 정보를 전달할 수 있는 방법을 단계별로 안내합니다. &lt;/li&gt;
+    &lt;li&gt;Alberto의 디자인 원리를 블로그 또는 온라인 문서에 게시할 만한 대화형 데이터 시각화에 적용하는 방법을 보여 주는 데모를 제공합니다. &lt;/li&gt;
+    &lt;li&gt;정적인 산점도를 대화형 데이터 시각화로 재작성하여 애니메이션, 상호 작용 및 내레이션을 사용하는 방법을 알아봅니다. &lt;/li&gt;
+    &lt;li&gt;영상을 연결하고 데이터에 연결하는 방법을 알아봅니다. 시놉틱 패널을 사용하여 맵 이미지 위에 사용자 지정 영역을 그리고 이를 SVG 파일로 Power BI에 내보내서 데이터를 기반으로 다양한 영역에 대해 색을 지정하는 방법도 간략히 설명합니다.&lt;/li&gt;
+    &lt;li&gt;데이터에서 3D 모양 시각화의 새로운 방식인 SandDance에 대해 자세히 살펴봅니다. &lt;/li&gt;
+    &lt;li&gt;증강 현실 데모로 데이터 시각화의 미래에 대해 알아봅니다. 데이터를 가져와 물리적 공간에 병합하는 방법을 살펴봅니다.&lt;/li&gt;
+&lt;/ul&gt;&lt;/p&gt;</value>
+  </data>
+  <data name="Article_Content_26" xml:space="preserve">
+    <value>&lt;h2 id="synoptic-panel"&gt;시놉틱 패널&lt;/h2&gt;
+
+&lt;p&gt;이 과정에 표시된 예를 따라 하려면 다음 필수 구성 요소가 필요합니다.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;Windows 7 이상을 실행 중인 컴퓨터&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href="{0}"&gt;Power BI Desktop&lt;/a&gt;을 설치 및 다운로드합니다.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Power BI 계정에 등록합니다(&lt;a href="{1}"&gt;{1}&lt;/a&gt;).&lt;/p&gt;
+&lt;p&gt;a. 회사 메일 계정을 사용하여 등록해야 합니다. 개인 계정(gmail, Hotmail, outlook.com, yahoo.com)은 지원되지 않습니다.&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;대화형 이미지를 통해 데이터 스토리를 매우 다양한 방식으로 강화할 수 있습니다. 방금 해체한 자동차 사진을 사용하거나 태양의 그래픽 표현을 사용하는 등 다양한 방식을 이용할 수 있습니다.&lt;/p&gt;
+&lt;h3&gt;1단계: 플랫 이미지에서 새 맵 만들기&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;새 브라우저 창을 열고 &lt;a href="{2}"&gt;{2}&lt;/a&gt;으로 이동합니다.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;solar.png&lt;/strong&gt; 파일을 캔버스 위로 끌어옵니다.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;이미지에서 원 중 하나를 선택합니다.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;아래 이미지에서처럼 자동으로 추적되는 원이 표시되고 오른쪽 창에 영역 1로 표시됩니다. 이름을 &lt;strong&gt;Sun&lt;/strong&gt;으로 변경할 수 있습니다. 영역 이름이 맵에 표시되지 않도록 하려면 &lt;strong&gt;영역 이름(표시)&lt;/strong&gt; 상자에 공백을 입력합니다.&lt;/p&gt;
+&lt;p&gt;&lt;img src="{3}" alt="" title="" /&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;계속해서 다른 행성을 선택하고 이름을 지정합니다.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;맵 작업을 완료하면 오른쪽 하단에서 '&lt;strong&gt;Power BI로 내보내기&lt;/strong&gt;'를 선택합니다. 그러면 새로 생성된 맵의 다운로드가 시작됩니다.&lt;/p&gt;
+&lt;p&gt;&lt;img src="{4}" alt="" title="" /&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Power BI Desktop에서 &lt;strong&gt;solar.pbix&lt;/strong&gt;를 엽니다.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;시각적 개체 갤러리에서 &lt;a href="{5}"&gt;시놉틱 패널 시각적 개체&lt;/a&gt;를 다운로드하고 시각화 창에서 세 개의 점을 사용하여 보고서로 가져옵니다. 시놉틱 패널이 시각적 개체 컬렉션에서 새 아이콘으로 표시됩니다.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src="{6}" alt="" title="" /&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;이 아이콘을 사용하여 새 시각적 개체를 만들고 &lt;strong&gt;행성&lt;/strong&gt;을 &lt;strong&gt;데이터&lt;/strong&gt; 테이블에서 범례로 끌어옵니다.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src="{7}" alt="" title="" /&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;맵 선택&lt;/strong&gt;을 사용하여 방금 다운로드한 맵을 로드합니다. 평균 표면 온도와 같은 값을 필드 패널의 &lt;strong&gt;값&lt;/strong&gt;으로 끌어옵니다.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;이제 데이터가 맵의 모양에 연결됩니다. 페이지 나머지 디자인을 시작하고 맵의 대화형 작업 및 색 지정을 실험할 수 있습니다.&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3&gt;2단계: 미리 정의된 모양으로 Shapefiles 사용&lt;/h3&gt;
+
+&lt;p&gt;이미 정의된 시각화 계층이 포함된 파일에 시놉틱 패널을 사용할 수도 있습니다. Inkscape(무료 도구) 또는 Adobe Illustrator와 같은 벡터 편집기로 모양 및 레이어의 이름을 지정합니다. SVG 파일로 저장하면 이 정보를 저장할 수 있습니다.&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;동일한 예를 사용하여 살펴보려면 &lt;strong&gt;solar.svg&lt;/strong&gt;를 시놉틱 디자이너 편집기로 끌어옵니다.
+&lt;p&gt;&lt;img src="{8}" alt="" title="" /&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;이 이미지가 로드되면서 미리 정의된 모양이 인식되고 오른쪽 &lt;strong&gt;영역&lt;/strong&gt; 창에 나타납니다. 여기서 정의된 이름을 확인하고 필요한 위치를 편집할 수 있습니다.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;이 시점부터 단계는 위에 설명된 내용과 유사합니다. &lt;strong&gt;Power BI로 내보내기&lt;/strong&gt;를 선택하고 Power BI의 시놉틱 패널에서 맵을 엽니다.&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id="augmented-reality"&gt;Power BI에서 증강 현실&lt;/h2&gt;
+
+&lt;p&gt;이 자습서에는 다음이 필요합니다.&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;Alberto Cairo Book Report.pbix&lt;/strong&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;PowerBI.com 계정(&lt;a href="{1}"&gt;{1}&lt;/a&gt;에서 등록)&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3&gt;1단계: 보고서를 Power BI.com 계정에 게시&lt;/h3&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;Power BI Desktop에서 &lt;strong&gt;Alberto Cairo Book Report.pbix&lt;/strong&gt; 파일을 엽니다.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;홈&lt;/strong&gt; 리본에서 &lt;strong&gt;게시&lt;/strong&gt;를 사용하여 보고서를 Power BI 계정에 게시합니다.&lt;/p&gt;
+&lt;p&gt;&lt;img src="{9}" alt="" title="" /&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;Power BI에 로그인하라는 메시지가 표시될 수 있습니다.
+&lt;p&gt;&lt;img src="{10}" alt="" title="" /&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;로그인하고 게시 프로세스가 완료되면 다음과 같은 대화 상자가 표시됩니다.
+&lt;p&gt;&lt;img src="{11}" alt="" title="" /&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Power BI에서 &lt;strong&gt;'Alberto Cairo Book Report.pbix' 열기&lt;/strong&gt; 링크를 클릭합니다. 브라우저 창이 열리고 보고서가 표시됩니다.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;숫자로 본 Alberto Cairo&lt;/strong&gt; 세로 막대형 차트의 오른쪽 위에서 &lt;strong&gt;고정&lt;/strong&gt; 아이콘을 누릅니다.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src="{12}" alt="" title="" /&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;대시보드에 고정&lt;/strong&gt; 대화 상자에서 &lt;strong&gt;새 대시보드&lt;/strong&gt;를 선택하고 대시보드 이름을 제공합니다.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;고정&lt;/strong&gt;을 누릅니다.&lt;/p&gt;
+&lt;p&gt;&lt;img src="{13}" alt="" title="" /&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;오른쪽 위에 나타나는 성공 메시지를 통해 시각화가 타일로 대시보드에 추가되었음을 알 수 있습니다.
+&lt;p&gt;&lt;img src="{14}" alt="" title="" /&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;방금 만든 대시보드를 엽니다. 이 작업을 수행하려면 왼쪽 탐색 창에서 &lt;strong&gt;대시보드&lt;/strong&gt; 머리글 아래 이름을 선택합니다. 새 대시보드이므로 노란색 별표가 있습니다.
+&lt;p&gt;&lt;img src="{15}" alt="" title="" /&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;대시보드 타일의 오른쪽 위에서 &lt;strong&gt;포커스 모드&lt;/strong&gt; 아이콘&lt;img src="{16}" alt="" title="" /&gt;을 누릅니다.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src="{17}" alt="" title="" /&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;오른쪽 위에 있는 줄임표(...)를 선택하고 &lt;strong&gt;QR 코드 생성&lt;/strong&gt;을 선택합니다.
+&lt;p&gt;&lt;img src="{18}" alt="" title="" /&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;QR 코드와 함께 대화 상자가 나타납니다.
+&lt;p&gt;&lt;img src="{19}" alt="" title="" /&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;여기서 QR 코드를 스캔 또는 다운로드하여 저장한 후 다음을 수행할 수 있습니다.&lt;/p&gt;
+
+&lt;p&gt;a. 메일 또는 다른 문서에 추가 또는&lt;/p&gt;
+
+&lt;p&gt;b. 인쇄하여 특정 위치에 배치&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3&gt;2단계: QR 코드 인쇄&lt;/h3&gt;
+
+&lt;p&gt;Power BI는 QR 코드를 인쇄할 수 있는 JPG 파일로 생성합니다.&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;다운로드&lt;/strong&gt;를 선택한 후 프린터에 연결된 컴퓨터에서 JPG 파일을 엽니다.&lt;/li&gt;
+  &lt;p&gt;&lt;em&gt;&lt;strong&gt;팁:&lt;/strong&gt; JPG 파일 이름은 타일 이름과 같습니다. 예를 들어 "Opportunity Count - by Month, Sales Stage.jpg"&lt;/em&gt;입니다.&lt;/p&gt;
+&lt;li&gt;&lt;p&gt;100% 또는 "실제 크기"로 파일을 인쇄합니다.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;가장자리를 따라 QR 코드를 잘라내어 타일과 관련된 위치에 부착합니다.&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Power BI의 QR 코드는 실제 세계의 모든 항목을 관련된 BI 정보에 연결할 수 있습니다. 탐색하거나 검색할 필요가 없습니다.&lt;/p&gt;
+
+&lt;p&gt;가령, 동료가 보고서 또는 대시보드의 타일에 대해 &lt;a href="{20}"&gt;Power BI 서비스에서 QR 코드를 만들고&lt;/a&gt; 대시보드 또는 보고서를 공유한 후 메일이나 특정 위치와 같은 주요 위치에 QR 코드를 배치했다고 가정합니다.&lt;/p&gt;
+
+&lt;p&gt;Power BI 앱에 있는 스캐너 또는 휴대폰에 설치된 다른 스캐너를 사용하여 QR 코드를 스캔하면 휴대폰에서 바로 관련 타일 또는 보고서에 즉시 액세스할 수 있습니다.&lt;/p&gt;
+
+&lt;h3&gt;3단계: 휴대폰의 외부 스캐너에서 QR 코드 스캔&lt;/h3&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;Android 휴대폰에 설치된 스캐너에서 관련 Power BI QR 코드를 스캐너로 가리키면 타일 또는 보고서에 즉시 액세스할 수 있습니다.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Power BI 앱이 설치되어 있지 않으면 iPhone으로 &lt;a href="{21}"&gt;다운로드할 수 있도록 Apple 앱 스토어&lt;/a&gt;로 리디렉션됩니다.&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3&gt;4단계: Power BI 스캐너를 사용하여 Power BI QR 코드 스캔&lt;/h3&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;Power BI 모바일 앱에서 전역 탐색 메뉴 &lt;img src="{22}" alt="" title="" /&gt;를 엽니다.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;스캐너&lt;/strong&gt;까지 아래로 스크롤하여 선택합니다.&lt;/p&gt;
+&lt;p&gt;&lt;img src="{23}" alt="" title="" /&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;카메라를 사용하지 않도록 설정한 경우 Power BI 앱이 카메라를 사용할 수 있도록 승인해야 합니다. 한 번만 승인하면 됩니다.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Power BI QR 코드를 스캐너로 가리킵니다.&lt;/p&gt;
+&lt;p&gt;&lt;img src="{24}" alt="" title="" /&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;증강 현실에서 배경 위를 마우스로 가리키면 타일 또는 보고서가 나타납니다.&lt;p&gt;&lt;img src="{25}" alt="" title="" /&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;타일을 탭하여 포커스 모드에서 열거나 스캐너로 돌아갈 수 있습니다.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;참고: 대시보드가 공유된 동료는 &lt;a href="{20}"&gt;휴대폰에서 바로 QR 코드를 스캔하여 관련 타일에 액세스&lt;/a&gt;할 수 있습니다. Power BI 앱에 있는 QR 코드 스캐너 또는 휴대폰에 설치된 다른 QR 스캐너 중 하나를 사용할 수 있습니다. 자세한 내용은 &lt;a href="{26}"&gt;대시보드를 공유하는 방법&lt;/a&gt;을 참조하세요.&lt;/p&gt;</value>
+  </data>
+  <data name="Download_Resources" xml:space="preserve">
+    <value>이러한 자습서에 필요한 모든 리소스를 다운로드합니다.</value>
+  </data>
+  <data name="Hero_Subtitle" xml:space="preserve">
+    <value>마지막 과정에서 Alberto Cairo로는 활판, 색, 구성, 그래픽 요소 등 시각적 디자인과 내러티브에 그래픽을 배열하는 방법 및 향후 전망에 대해 설명합니다. Alberto가 시각적 디자인이 중요하고 필수적인 이유에 대해 설명합니다.</value>
+  </data>
+  <data name="Hero_Title" xml:space="preserve">
+    <value>디자인 및 내러티브</value>
+  </data>
+  <data name="InThisArticle" xml:space="preserve">
+    <value>이 문서의 내용</value>
+  </data>
+  <data name="META_DESCRIPTION" xml:space="preserve">
+    <value />
+  </data>
+  <data name="META_KEYWORDS" xml:space="preserve">
+    <value />
+  </data>
+  <data name="META_PAGETITLE" xml:space="preserve">
+    <value>데이터 저널리즘 - 디자인 및 내러티브 | Microsoft Power BI</value>
+  </data>
+  <data name="RightNav_Link1" xml:space="preserve">
+    <value>시놉틱 패널</value>
+  </data>
+  <data name="RightNav_Link2" xml:space="preserve">
+    <value>Power BI에서 증강 현실</value>
+  </data>
+  <data name="Meta_LocJobId" xml:space="preserve">
+    <value>159</value>
+  </data>
+</root>

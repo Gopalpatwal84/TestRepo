@@ -1,0 +1,216 @@
+﻿@using Resources = PowerBI.Resources.Pages.ComparePowerBITableauQlik.Index
+
+@{
+    Model.PageTitle = Resources.META_PAGETITLE;
+    Model.MetaDescription = Resources.META_DESCRIPTION;
+    Model.MetaKeywords = Resources.META_KEYWORDS;
+}
+
+<section class="section section-palette02">
+    <div class="row">
+        <div class="column large-6 sd-equalize" data-set="hero">
+            <h1 class="text-super">@Resources.Hero_Heading</h1>
+            <p>@Resources.Hero_Content</p>
+            <div class="row row-size2 column">
+                <span class="show-for-small-only"><a id="power-bi-get-started-free-comparepbi-header-button" href="@Html.LocalizeUrl("/mobile/")" class="button" data-event="home-clicked-primarycta">@Resources.Hero_Cta</a></span>
+                <span class="hide-for-small-only"><a id="power-bi-get-started-free-comparepbi-header-button" href="@Html.LocalizeUrl("/get-started/")" class="button" data-event="home-clicked-primarycta">@Resources.Hero_Cta</a></span>
+            </div>
+        </div>
+        <div class="column large-6 sd-equalize inline-video-container" data-set="hero">
+            <a href="" class="video inline-video-wrapper videoPlaceholder" data-page="comparepowerbi">
+                <img class="placeholderScreenshot" src="@CdnHelper.GetCdnUrl("/pictures/pages/compare-power-bi-tableau-qlik/why-power-bi-screenshot.png")" srcset="@CdnHelper.GetCdnUrl("/pictures/pages/compare-power-bi-tableau-qlik/why-power-bi-screenshot.png") 2x" alt="" />
+                <span class="icon">
+                    @SvgHelper.GetSvg("play-for-video")
+                </span>
+                <iframe style="display: none;" class="inlineVideo" data-src="https://www.youtube.com/embed/_OOyJfszJXY?showinfo=0&autoplay=1" frameborder="0" allowfullscreen></iframe>
+            </a>
+        </div>
+    </div>
+</section>
+
+<section class="section">
+    <div class="row row-flex">
+        <div class="column medium-6">
+            <img class="border" src="@CdnHelper.GetCdnUrl("/pictures/pages/compare-power-bi-tableau-qlik/real-time-data.gif")" alt="" />
+        </div>
+        <div class="column medium-6">
+            <h3>@Resources.Realtime_Heading</h3>
+            <p>@Resources.Realtime_Content</p>
+        </div>
+    </div>
+</section>
+
+<section class="section">
+    <div class="row row-flex">
+        <div class="column medium-6">
+            <h3>@Resources.QandA_Heading</h3>
+            <p>@Resources.QandA_Content</p>
+        </div>
+        <div class="column medium-6">
+            <img class="border" src="@CdnHelper.GetCdnUrl("/pictures/pages/compare-power-bi-tableau-qlik/question-and-answer_cortana.gif")" alt="" />
+        </div>
+    </div>
+</section>
+
+<section class="section">
+    <div class="row row-flex">
+        <div class="column medium-6">
+            <img class="border" src="@CdnHelper.GetCdnUrl("/pictures/pages/compare-power-bi-tableau-qlik/quick-insights.gif")" alt="" />
+        </div>
+        <div class="column medium-6">
+            <h3>@Resources.QuickInsights_Heading</h3>
+            <p>@Resources.QuickInsights_Content</p>
+        </div>
+    </div>
+</section>
+
+<section class="section">
+    <div class="row row-flex">
+        <div class="column medium-6">
+            <h3>@Resources.CustomVisuals_Heading</h3>
+            <p>@Resources.CustomVisuals_Content</p>
+            <div class="row row-size1 column">
+                <a class="cta-secondary" href="@Html.LocalizeUrl("/visuals/")">@Resources.CustomVisuals_Cta<span class="glyphicon glyph-micro pbi-glyph-chevronrightmedium"></span></a>
+            </div>
+        </div>
+        <div class="column medium-6">
+            <img class="border" src="@CdnHelper.GetCdnUrl("/pictures/pages/compare-power-bi-tableau-qlik/custom_visualizations.jpg")" srcset="@CdnHelper.GetCdnUrl("/pictures/pages/compare-power-bi-tableau-qlik/custom_visualizations@2x.jpg") 2x" alt="" />
+        </div>
+    </div>
+</section>
+
+<section class="section">
+    <div class="row row-flex">
+        <div class="column medium-6">
+            <img class="border" src="@CdnHelper.GetCdnUrl("/pictures/pages/compare-power-bi-tableau-qlik/excel_powerbi.jpg")" srcset="@CdnHelper.GetCdnUrl("/pictures/pages/compare-power-bi-tableau-qlik/excel_powerbi@2x.jpg") 2x" alt="" />
+        </div>
+        <div class="column medium-6">
+            <h3>@Resources.MicrosoftIntegrations_Heading</h3>
+            <p>@Resources.MicrosoftIntegrations_Content</p>
+            <div class="row row-size1 column">
+                <a class="cta-secondary" href="@Html.LocalizeUrl("/excel-dashboard-publisher/")">@Resources.MicrosoftIntegrations_Cta<span class="glyphicon glyph-micro pbi-glyph-chevronrightmedium"></span></a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="section">
+    <div class="row row-flex">
+        <div class="column medium-6">
+            <h3>@Resources.ConnectData_Heading</h3>
+            <p>@Resources.ConnectData_Content</p>
+            <div class="row row-size1 column">
+                <a class="cta-secondary" href="@Html.LocalizeUrl("/#connect-wrapper")">@Resources.ConnectData_Cta1<span class="glyphicon glyph-micro pbi-glyph-chevronrightmedium"></span></a>
+            </div>
+            <div class="row row-size1 column">
+                <a class="cta-secondary" href="@Html.LocalizeUrl("/mobile/")">@Resources.ConnectData_Cta2<span class="glyphicon glyph-micro pbi-glyph-chevronrightmedium"></span></a>
+            </div>
+        </div>
+        <div class="column medium-6">
+            <img class="border" src="@CdnHelper.GetCdnUrl("/pictures/pages/compare-power-bi-tableau-qlik/mobile.jpg")" srcset="@CdnHelper.GetCdnUrl("/pictures/pages/compare-power-bi-tableau-qlik/mobile@2x.jpg") 2x" alt="" />
+        </div>
+    </div>
+</section>
+
+
+<section class="section">
+    <div class="row row-flex">
+        <div class="column medium-6">
+            <img src="@CdnHelper.GetCdnUrl("/pictures/pages/compare-power-bi-tableau-qlik/power-bi-embedded-screenshot.png")" alt="" />
+        </div>
+        <div class="column medium-6">
+
+            <h3>@Resources.EmbedReports_Heading</h3>
+            @Html.Raw(Resources.EmbedReports_Content)
+            <div class="row row-size1 column">
+                <a class="cta-secondary" href="@Html.LocalizeUrl("/developers/")">@Resources.EmbedReports_Cta<span class="glyphicon glyph-micro pbi-glyph-chevronrightmedium"></span></a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="section">
+    <div class="row row-flex">
+        <div class="column medium-6">
+            <h3>@Resources.Sanddance_Heading</h3>
+            @Html.Raw(Resources.Sanddance_Content)
+            <div class="row row-size1 column">
+                <a class="cta-secondary video" href="https://www.youtube.com/v/jH7BVpVMsEw?start=3755&end=4284" data-pops-up="modal-video">@Resources.Sanddance_Cta1<span class="glyphicon glyph-micro pbi-glyph-chevronrightmedium"></span></a>
+            </div>
+            <div class="row row-size1 column">
+                <a class="cta-secondary" href="@Html.LocalizeUrl("/blog/visual-awesomeness-unlocked-sanddance/")">@Resources.Sanddance_Cta2<span class="glyphicon glyph-micro pbi-glyph-chevronrightmedium"></span></a>
+            </div>
+        </div>
+        <div class="column medium-6">
+            <img class="border" src="@CdnHelper.GetCdnUrl("/pictures/pages/compare-power-bi-tableau-qlik/sanddance.gif")" alt="" />
+        </div>
+    </div>
+</section>
+
+
+<section class="section section-palette02">
+    <div class="row column">
+        <h2 class="text-heading1 text-center">@Resources.Recommendations_Heading</h2>
+    </div>
+    <div class="row">
+        <div class="column large-4 large-offset-2 medium-6">
+            <div class="tile">
+                <div class="row column text-center sd-equalize" data-set="logos">
+                    <img class="logo" alt="" src="@CdnHelper.GetCdnUrl("/pictures/pages/compare-power-bi-tableau-qlik/p-c-magazine.png")" srcset="@CdnHelper.GetCdnUrl("/pictures/pages/compare-power-bi-tableau-qlik/p-c-magazine@2x.png") 2x" />
+                </div>
+                <div class="row row-size2 column sd-equalize" data-set="partner-content">
+                    <p>@Resources.PCmag_Content</p>
+                </div>
+                <div class="row row-size1 column">
+                    <a target="_blank" class="cta-secondary" href="http://www.pcmag.com/article2/0,2817,2491954,00.asp">@Resources.PCmag_Cta<span class="glyphicon glyph-micro pbi-glyph-chevronrightmedium"></span></a>
+                </div>
+            </div>
+        </div>
+        <div class="column large-4 medium-6 end">
+            <div class="tile">
+                <div class="row column text-center sd-equalize" data-set="logos">
+                    <img class="logo" alt="" src="@CdnHelper.GetCdnUrl("/pictures/pages/compare-power-bi-tableau-qlik/customer-stories.png")" srcset="@CdnHelper.GetCdnUrl("/pictures/pages/compare-power-bi-tableau-qlik/customer-stories@2x.png") 2x" />
+                </div>
+                <div class="row row-size2 column sd-equalize" data-set="partner-content">
+                    <p>@Resources.Customers_Content</p>
+                </div>
+                <div class="row row-size1 column">
+                    <a target="_blank" class="cta-secondary" href="https://customers.microsoft.com/pages/AdvancedSearch.aspx?SearchText=Power%20BI#">@Resources.Customers_Cta<span class="glyphicon glyph-micro pbi-glyph-chevronrightmedium"></span></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="section section-slate01">
+    <div class="row column text-center">
+        <div class="row column">
+            <h2 class="text-heading1">@Resources.Download_Heading</h2>
+            <p>@Resources.Download_Content</p>
+        </div>
+        <div class="row row-size2 column">
+            <a href="@Html.LocalizeUrl("go:521662")" id="desktop-download" class="button button-featured" data-pops-up="modal-download" data-event="global-clicked-getstartedcta" data-event-property="download">
+                @Resources.Download_Cta
+            </a>
+        </div>
+    </div>
+</section>
+
+<section class="section modal modal-large modal-video" id="modal-video" data-video-embed="https://www.youtube.com/embed/jH7BVpVMsEw?start=3755&end=4284&autoplay=1">
+    <button class="close">&times;</button>
+    <div class="row column">
+        <iframe frameborder="0"></iframe>
+    </div>
+</section>
+
+@Html.Partial("section/_modal-download-gated")
+
+@section foot {
+    <script>
+        (function () {
+            $('[data-pops-up="modal-download"]').on('click', function () {
+                window.location = this.href;
+            });
+        })();
+    </script>
+}

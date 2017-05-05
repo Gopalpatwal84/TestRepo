@@ -1,0 +1,20 @@
+﻿@model PowerBI.Web.Models.Pages.ViewMetadataModel
+@using Resources = PowerBI.Resources.Pages.ServiceTerms.Index
+
+@{
+    Model.PageTitle = Resources.META_PAGETITLE;
+    Model.MetaDescription = Resources.META_DESCRIPTION;
+    Model.MetaKeywords = Resources.META_KEYWORDS;
+}
+
+<section class="section section-size2 section-palette02 section-heading-only">
+    <div class="row column">
+        <h1 class="text-heading3">@Html.Raw(Resources.Heading)</h1>
+    </div>
+</section>
+
+<section class="section">
+    <div class="row column">
+        @Html.RawFormatInvariant(Resources.Content, Html.LocalizeUrl("article:powerbi-admin-closing-your-account"))
+    </div>
+</section>

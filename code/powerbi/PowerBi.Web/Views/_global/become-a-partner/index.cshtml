@@ -1,0 +1,101 @@
+﻿@using Resources = PowerBI.Resources.Pages.BecomeAPartner.Index
+
+@{
+    Model.PageTitle = Resources.META_PAGETITLE;
+    Model.MetaDescription = Resources.META_DESCRIPTION;
+    Model.MetaKeywords = Resources.META_KEYWORDS;
+}
+
+<section class="section section-palette02">
+    <div class="row">
+        <div class="column medium-6">
+            <h1 class="text-super">@Resources.Hero_Heading</h1>
+        </div>
+        <div class="column medium-6">
+            <p>@Resources.Hero_Copy</p>
+        </div>
+    </div>
+</section>
+
+<section class="section section-slate01 section-roundtable text-center">
+    <div class="row column medium-8 large-6">
+        <h2 class="text-heading1">@Resources.BiSolutions_Title</h2>
+    </div>
+    <div class="row row-size2 medium-6">
+        <a href="@Html.LocalizeUrl("/partners/get-listed/")" class="button button-featured">@Resources.BiSolutions_Cta</a>
+    </div>
+</section>
+
+<section class="section">
+    <div class="row">
+        <div class="column medium-4">
+            <div class="row column">
+                <span class="icon icon-size3 icon-palette02">@SvgHelper.GetSvg("person-with-screen")</span>
+            </div>
+            <div class="row row-size2 column">
+                <h3>@Resources.ShowcaseSolutions_Title</h3>
+                <p>@Html.RawFormatInvariant(Resources.ShowcaseSolutions_Content_1, Html.LocalizeUrl("/partner-showcase/"))</p>
+            </div>
+        </div>
+        <div class="column medium-4">
+            <div class="row column">
+                <span class="icon icon-size3 icon-palette02">@SvgHelper.GetSvg("finance")</span>
+            </div>
+            <div class="row row-size2 column">
+                <h3>@Resources.AccelerateAcquisition_Title</h3>
+                <p>@Html.RawFormatInvariant(Resources.AccelerateAcquisition_Content_1, Html.LocalizeUrl("/solution-templates/"))</p>
+            </div>
+        </div>
+        <div class="column medium-4">
+            <div class="row column">
+                <span class="icon icon-size3 icon-palette02">@SvgHelper.GetSvg("people")</span>
+            </div>
+            <div class="row row-size2 column">
+                <h3>@Resources.LeverageOffers_Title</h3>
+                <p>@Resources.LeverageOffers_Content</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="section text-center">
+    <div class="row column">
+        <h2>@Resources.WhatPartnersAreSaying_Title</h2>
+    </div>
+    <div class="row">
+        <div class="column medium-6">
+            <img src="@CdnHelper.GetCdnUrl("/pictures/shared/partners/bluegranite-logo.png")" alt="" />
+            <p>@Resources.BlueGranite_Content</p>
+            <div class="row row-size2 column">
+                <p class="text-heading3">@Resources.BlueGranite_Name</p>
+                <h4>@Resources.BlueGranite_CompanyName</h4>
+            </div>
+        </div>
+        <div class="column medium-6">
+            <img src="@CdnHelper.GetCdnUrl("/pictures/shared/partners/g-net-logo.png")" alt="" />
+            <p>@Resources.GNet_Content</p>
+            <div class="row row-size2 column">
+                <p class="text-heading3">@Resources.GNet_Name</p>
+                <h4>@Resources.GNet_CompanyName</h4>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="column medium-6">
+            <img src="@CdnHelper.GetCdnUrl("/pictures/shared/partners/neal-analytics-logo.png")" alt="" />
+            <p>@Resources.NealAnalytics_Content</p>
+            <div class="row row-size2 column">
+                <p class="text-heading3">@Resources.NealAnalytics_Name</p>
+                <h4>@Resources.NealAnalytics_CompanyName</h4>
+            </div>
+        </div>
+        <div class="column medium-6">
+            <img src="@CdnHelper.GetCdnUrl("/pictures/shared/partners/blue-margin-logo.png")" alt="" />
+            <p>@Resources.BlueMargin_Content</p>
+            <div class="row row-size2 column">
+                <p class="text-heading3">@Resources.BlueMargin_Name</p>
+                <h4>@Resources.BlueMargin_CompanyName</h4>
+            </div>
+        </div>
+    </div>
+</section>

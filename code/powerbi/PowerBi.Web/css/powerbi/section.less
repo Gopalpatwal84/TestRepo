@@ -1,0 +1,150 @@
+﻿@import (reference) '../../less/mixins.d.less';
+@import (reference) '../../less/variables.d.less';
+
+.section {
+    [itemprop="articlebody"] a,
+    [itemprop="articlebody"] a:hover,
+    p a,
+    p a:hover {
+        color: @color-palette03;
+    }
+
+    .text-mini > a,
+    .text-mini > a:hover,
+    .text-micro > a,
+    .text-micro > a:hover {
+        color: inherit;
+        text-decoration: underline;
+    }
+
+    .cta-secondary {
+        &:hover {
+            color: @color-slate02;
+        }
+    }
+}
+
+.section-palette02,
+.section-slate01,
+.section-slate06 {
+    p a,
+    p a:hover {
+        color: inherit;
+        text-decoration: underline;
+    }
+
+    .cta-secondary {
+        color: inherit;
+
+        &:hover {
+            color: @color-slate02;
+        }
+    }
+}
+
+.section-slate01 {
+    .cta-secondary {
+        &:hover {
+            color: @color-slate06;
+        }
+    }
+}
+
+.section-heading-only {
+    padding-top: 0;
+}
+
+.section-app-devices {
+    background: @color-palette02;
+    background-image: url(/pictures/pages/pbi-pattern-mobile.png), linear-gradient(to top, #ffd20d, @color-palette02);
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    padding: 100px 0 0;
+    position: relative;
+
+    .row-devices img {
+        display: block;
+    }
+}
+
+.section-learning {
+    border-top: 0;
+    background-image: url(/pictures/shared/section/learning-hero.png);
+    background-position: 30% 50%;
+}
+
+.section-featured-post {
+    background-image: url(/pictures/shared/section/featured-post.png);
+    border-top: none;
+}
+
+.section-developer {
+    background-image: url(/pictures/shared/section/developer.jpg);
+}
+
+.section-developers {
+    background-image: url(/pictures/shared/section/developers.jpg);
+}
+
+.section-conference-room {
+    background-image: url(/pictures/shared/section/conference-room.png);
+    border-top: none;
+}
+
+.section-showcase {
+    background-image: url(/pictures/shared/section/showcase.jpg);
+}
+
+.section-whiteboard {
+    background-image: url(/pictures/shared/section/whiteboard.jpg);
+}
+
+.section-roundtable {
+    background-image: url(/pictures/shared/section/roundtable.png);
+}
+
+.section-mobile-devices {
+    background-image: url(/pictures/shared/section/mobile-devices.jpg);
+    background-size: cover;
+    padding-bottom: 16.6%;
+}
+
+.section-showcase-solution-templates {
+    background-image: url(/pictures/shared/section/showcase-solution-templates.jpg);
+}
+
+.section-enterprise-ready {
+    background-image: url(/pictures/shared/section/enterprise-ready.png);
+}
+
+.section-germany-at-twilight {
+    background-image: url(/pictures/shared/section/germany-at-twilight.png);
+    min-height: 268px;
+}
+
+.section-laptop-dashboard {
+    background-image: url(/pictures/shared/section/laptop-dashboard.jpg);
+}
+
+.section-media-publishtoweb {
+    background-image: url(/pictures/shared/section/publishtoweb/media-publishtoweb-hero.jpg);
+}
+
+.section-businesses-publishtoweb {
+    background-image: url(/pictures/shared/section/publishtoweb/businesses-publishtoweb-hero.jpg);
+}
+
+.section-public-sector-publishtoweb {
+    background-image: url(/pictures/shared/section/publishtoweb/public-sector-publishtoweb-hero.jpg);
+}
+
+.section-nonprofits-publishtoweb {
+    background-image: url(/pictures/shared/section/publishtoweb/non-profit-publishtoweb-hero.jpg);
+}
+
+@media only screen and (min-width: @resolution-large) {
+    .section-app-devices {
+        background-image: url(/pictures/pages/pbi-pattern.png), linear-gradient(to top, #ffd20d, @color-palette02);
+        background-size: cover;
+    }
+}

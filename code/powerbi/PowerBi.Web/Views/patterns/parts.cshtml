@@ -1,0 +1,35 @@
+﻿<section class="section section-slate06 text-center">
+    <div class="row">
+        <div class="column">
+            <h1>@@Html.Partial("parts/_newsletter-signup")</h1>
+        </div>
+    </div>
+</section>
+
+<section class="section">
+    <div class="row">
+        <div class="column medium-7">
+            @Html.Partial("parts/_newsletter-signup")
+        </div>
+    </div>
+</section>
+
+<section class="section section-slate06 text-center">
+    <div class="row">
+        <div class="column">
+            <h1>@@Html.Partial("parts/_faq-set", new PowerBI.Web.Models.Parts.FaqSet)</h1>
+        </div>
+    </div>
+</section>
+
+<section class="section">
+    <div class="row">
+        <div class="column medium-7">
+            @Html.Partial("parts/_faq-set", new PowerBI.Web.Models.Parts.FaqSet(new Dictionary<string, IHtmlString>
+            {
+                { "What is this?", new HtmlString("<p>It is an Faq Set.</p>") },
+                { "Do the items expand and collapse?", new HtmlString("<p>Yes.</p>") },
+            }))
+        </div>
+    </div>
+</section>

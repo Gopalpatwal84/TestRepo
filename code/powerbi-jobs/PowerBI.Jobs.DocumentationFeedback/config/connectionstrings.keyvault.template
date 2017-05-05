@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<connectionStrings>
+  <add name="AzureWebJobsDashboard" connectionString="#{keyvault:powerbi:services-storage-jobs-westus-connection-string}" />
+  <add name="AzureWebJobsStorage" connectionString="#{keyvault:powerbi:services-storage-jobs-westus-connection-string}" />
+  <add name="PowerBIUserDBConnectionString" providerName="System.Data.SqlClient" connectionString="#{keyvault:powerbi:powerbiuserdb-db-connection-string}" />
+  <add name="PowerBIUserDBConnectionString-Int" providerName="System.Data.SqlClient" connectionString="#{keyvault:powerbi:powerbiuserdb-db-connection-string}" />
+</connectionStrings>

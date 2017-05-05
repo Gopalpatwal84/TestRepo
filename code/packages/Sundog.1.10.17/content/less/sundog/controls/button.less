@@ -1,0 +1,169 @@
+@import (reference) '../../variables.d.less';
+@import (reference) '../../mixins.d.less';
+
+/*
+Button
+
+Your standard button suitable for clicking. http://sundog.azurewebsites.net/
+
+Markup:
+<a href="" class="button {{modifier_class}}">Button</a>
+
+:hover - Hover state
+.button-primary - Primary button (CTAs)
+.button-secondary - Secondary button
+.button-block - Full width
+.button-tiny - tiny size
+.button-little - Little size
+.button-small - Small size
+.button-large - Large size
+[disabled="disabled"] - Disabled button state  http://sundog.azurewebsites.net/
+
+Style guide: button
+*/
+
+.button {
+    .transition-hover();
+    background-color: @color-palette02;
+    border: 1px solid transparent;
+    color: @color-font-light !important;
+    display: block;
+    fill: @color-font-light;
+    font-size: @font-heading3;
+    font-weight: 300;
+    padding: 5px 20px 8px;
+    text-align: center;
+    text-decoration: none;
+    vertical-align: bottom;
+
+    &:hover {
+        background-color: darken(@color-palette02, 10%);
+    }
+
+    &.button-primary {
+        background-color: @color-palette04;
+
+        &:hover {
+            background-color: darken(@color-palette04, 10%);
+        }
+    }
+
+    &.button-secondary {
+        background-color: @color-palette06;
+
+        &:hover {
+            background-color: darken(@color-palette06, 10%);
+        }
+    }
+
+    .icon {
+        margin-top: -5px;
+        height: 20px;
+        width: 20px;
+    }
+}
+
+button.button,
+[type='submit'],
+[type='button'] {
+    width: 100%;
+}
+
+button,
+[type='submit'],
+[type='button'] {
+    &[disabled], &[disabled]:hover {
+      color: rgba(0, 0, 0, .2);
+      background-color: rgba(0, 0, 0, .2);
+      cursor: not-allowed;
+    }
+}
+
+/*
+Store Button
+
+Button for the store
+
+Markup: button-store.html
+
+Style guide: button.store
+*/
+
+.button-store {
+    background-color: @color-slate01;
+    position: relative;
+    color: @color-palette01 !important;
+    font-weight: @font-light;
+    padding: 1px 20px 2px 50px;
+    text-align: left;
+    display: inline-block;
+
+    .top,
+    .bottom {
+        display: block;
+    }
+
+    .top {
+        font-size: @font-mini;
+    }
+
+    .bottom {
+        font-size: @font-regular;
+        margin-top: -5px;
+    }
+
+    .icon {
+        margin-top: 0;
+        height: 30px;
+        width: 30px;
+        position: absolute;
+        left: 10px;
+        top: 50%;
+        .transform-translate(0, -50%);
+    }
+
+    &:hover {
+        background-color: @color-slate01;
+        text-decoration: none;
+    }
+}
+
+@media only screen and (min-width: @resolution-small) {
+    button.button,
+    [type='submit'],
+    [type='button'] {
+        width: auto;
+    }
+
+
+    .button {
+        display: inline-block;
+
+        &.button-block {
+            display: block;
+            padding-left: 4px;
+            padding-right: 4px;
+            width: 100%;
+        }
+
+        &.button-tiny {
+            font-size: @font-regular;
+            padding: 3px 10px 4px;
+        }
+
+        &.button-little {
+            font-size: @font-heading6;
+            padding: 6px 12px 7px;
+        }
+
+        &.button-small {
+            font-size: @font-heading4;
+            padding: 5px 15px 8px;
+        }
+
+        &.button-large {
+            font-size: @font-heading2;
+            padding: 8px 25px 11px;
+        }
+    }
+}

@@ -1,0 +1,37 @@
+@import '../../../less/mixins.d.less';
+
+.drop-shadow() {
+    box-shadow: 0 5px 15px rgba(0,0,0,.5);
+}
+
+////////////////////
+// Transform-rotate-translate
+////////////////////
+.transform-rotate-translate(@rotate, @translateX, @translateY) {
+    -ms-transform: rotate(@rotate) translate(@translateX, @translateY);
+    -o-transform: rotate(@rotate) translate(@translateX, @translateY);
+    -webkit-transform: rotate(@rotate) translate(@translateX, @translateY);
+    transform: rotate(@rotate) translate(@translateX, @translateY);
+}
+
+
+////////////////////
+// Close button for modals, cards, etc
+////////////////////
+.close {
+    color: @color-font-standard;
+    font-size: 23px;
+    font-weight: @font-bold;
+    line-height: 1;
+    opacity: .2;
+    position: absolute;
+    right: @spacing-size1;
+    text-shadow: 0 1px 0 @color-palette01;
+    top: 0;
+
+    &:hover {
+        color: @color-font-standard;
+        opacity: 1;
+        text-decoration: none;
+    }
+}

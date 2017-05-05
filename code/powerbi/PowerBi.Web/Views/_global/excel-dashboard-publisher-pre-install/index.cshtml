@@ -1,0 +1,63 @@
+@model PowerBI.Web.Models.Pages.ViewMetadataModel
+@using Resources = PowerBI.Resources.Pages.ExcelDashboardPublisherPreInstall.Index
+
+@{
+    Model.PageTitle = Resources.META_PAGETITLE;
+    Model.MetaDescription = Resources.META_DESCRIPTION;
+    Model.MetaKeywords = Resources.META_KEYWORDS;
+}
+
+<section class="section section-size6">
+    <div class="row">
+        <div class="column medium-10 medium-centered">
+            <h1 class="text-center text-heading2">@Resources.ExcelPublisherPreInstall_Heading</h1>
+        </div>
+    </div>
+    <div class="row row-size1">
+        <div class="column medium-8 medium-centered">
+            <p class="text-center">@Resources.ExcelPublisherPreInstall_Tagline</p>
+        </div>
+    </div>
+    <div class="row row-size2">
+        <div class="column xsmall-8 xsmall-centered small-4 small-uncentered">
+            <div class="row row-size2">
+                <div class="column">
+                    <img style="margin-top:24px;" class="border" src="@CdnHelper.GetCdnUrl("/pictures/pages/excel-dashboard-publisher-pre-install/excel_pbi.png")" alt="" />
+                </div>
+            </div>
+            <div class="row row-size2">
+                <div class="column">
+                    <h3>@Resources.Step1</h3>
+                    <h4>@Resources.Step1_Subhead</h4>
+                </div>
+            </div>
+        </div>
+        <div class="column xsmall-8 xsmall-centered small-4 small-uncentered">
+            <div class="row row-size2">
+                <div class="column">
+                    <img style="margin-top:24px;" class="border" src="@CdnHelper.GetCdnUrl("/pictures/pages/excel-dashboard-publisher-pre-install/pbi_install.png")" alt="" />
+                </div>
+            </div>
+            <div class="row row-size2">
+                <div class="column">
+                    <h3>@Resources.Step2</h3>
+                    <h4>@Resources.Step2_Subhead</h4>
+                </div>
+            </div>
+        </div>
+        <div class="column xsmall-8 xsmall-offset-2 small-4 small-uncentered end">
+            <div class="row row-size2">
+                <div class="column">
+                    <img style="margin-top:24px;" class="border" src="@CdnHelper.GetCdnUrl("/pictures/pages/excel-dashboard-publisher-pre-install/excel_pin.png")" alt="" />
+                </div>
+            </div>
+            <div class="row row-size2">
+                <div class="column">
+                    <h3>@Resources.Step3</h3>
+                    <h4>@Resources.Step3_Subhead</h4>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+

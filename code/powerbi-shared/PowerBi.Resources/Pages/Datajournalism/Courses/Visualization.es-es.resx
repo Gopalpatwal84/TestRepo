@@ -1,0 +1,714 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" id="root">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="About_Content" xml:space="preserve">
+    <value>&lt;p&gt;En esta clase veremos los fundamentos del uso de Microsoft Power BI para mostrar lo siguiente:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Aprender cómo cargar datos en la herramienta de visualización, editar y agregar cálculos adicionales para crear el famoso gráfico “palo de hockey”.&lt;/li&gt;
+&lt;li&gt;Ver información general sobre cómo crear y publicar visualizaciones de datos con el mapa electoral que la cadena local KING 5 usó para realizar la cobertura de las elecciones primarias presidenciales. &lt;/li&gt;
+&lt;/ul&gt;
+</value>
+  </data>
+  <data name="ArticleContinue_Content2_3" xml:space="preserve">
+    <value>&lt;h2 id="create-pub"&gt;Creación y publicación de visualizaciones de datos&lt;/h2&gt;
+&lt;p&gt;Para seguir los ejemplos de este curso, necesita cumplir los siguientes requisitos previos:&lt;/p&gt;&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;Un equipo con Windows 7, o cualquier versión posterior&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Descargar e instalar &lt;a href="{0}"&gt;Power BI Desktop&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Registrarse para obtener una cuenta de Power BI (&lt;a href="{1}"&gt;{2}&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;a. Tendrá que registrarse con una cuenta de correo electrónico profesional. No se admiten cuentas personales (gmail, Hotmail, outlook.com, yahoo.com)&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;</value>
+  </data>
+  <data name="ArticleThird_Continue_7" xml:space="preserve">
+    <value>&lt;p&gt;Medidas que se crearán:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;votes clinton = CALCULAR(sum(VotingData[Votes]), VotingData[Candidate] = "Clinton")&lt;/p&gt;
+
+&lt;p&gt;votes sanders = CALCULAR(sum(VotingData[Votes]), VotingData[Candidate] = "Sanders")&lt;/p&gt;
+
+&lt;p&gt;dirección del ganador = if([votes clinton] &gt; [votes sanders], -1, if(VotingData[votes clinton] = [votes sanders], 0, 1))&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Nota: las dos primeras medidas filtran los valores para Clinton y Sanders, y nos permiten crear la medida de la dirección del ganador que nos indica si Clinton o Sanders obtuvieron más votos en un condado determinado. Cuando creemos el mapa, verá su utilidad.&lt;/p&gt;
+
+&lt;p&gt;Después de completar este paso, la lista de campos tendrá el siguiente aspecto. Las medidas que creó se agregarán a los campos que hay disponibles para usar en las visualizaciones de datos.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src="{0}" alt="" title="" /&gt;&lt;/p&gt;
+
+&lt;h3&gt;Paso 3: Mostrar resultados en un mapa&lt;/h3&gt;
+
+&lt;p&gt;Ahora, estamos listos para crear el mapa de formas.&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Inserte un objeto visual &lt;strong&gt;ShapeMap&lt;/strong&gt; en el informe.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;img src="{1}" alt="" title="" /&gt;&lt;/p&gt;
+
+&lt;p&gt;Nota: en el momento de escribir el objeto visual ShapeMap, está en modo de vista previa. Si no ve el objeto ShapeMap, deberá habillitarlo como &lt;strong&gt;Característica en vista previa&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;Archivo -&gt; Opciones y configuración -&gt; Opciones&lt;/strong&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;Global -&gt; Características en vista previa&lt;/strong&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Active la casilla junto a &lt;strong&gt;Dar forma a objeto visual de mapa&lt;/strong&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Presione &lt;strong&gt;Aceptar&lt;/strong&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Después de insertar el objeto visual &lt;strong&gt;ShapeMap&lt;/strong&gt;, estará vacío. Realice los pasos siguientes:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;Haga clic en el &lt;strong&gt;mapa&lt;/strong&gt; para seleccionarlo.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;En la &lt;strong&gt;lista de campos&lt;/strong&gt;, active la casilla junto a los siguientes campos:&lt;/p&gt;
+
+&lt;p&gt;a. &lt;strong&gt;Nombre de condado&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;b. &lt;em&gt;*Dirección del ganador *&lt;/em&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Los campos de datos de los objetos visuales tendrán el siguiente aspecto:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src="{2}" alt="" title="" /&gt;&lt;/p&gt;
+
+&lt;p&gt;El aspecto de la página será parecido a este:&lt;/p&gt;
+
+&lt;p&gt;Observe que el mapa de EE. UU. se muestra de forma predeterminada. En los siguientes pasos, cambiaremos las formas del mapa.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src="{3}" alt="" title="" /&gt;&lt;/p&gt;
+
+&lt;p&gt;Puede usar cualquier &lt;strong&gt;archivo TopoJSON&lt;/strong&gt; con el objeto visual &lt;strong&gt;ShapeMap&lt;/strong&gt;. Los identificadores de las formas TopoJSON deben coincidir con los nombres del conjunto de datos.&lt;/p&gt;
+
+&lt;p&gt;Vamos a cambiar las formas para que coincidan con los nombres de los condados.&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;Seleccione el objeto visual &lt;strong&gt;ShapeMap&lt;/strong&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Cambie al &lt;strong&gt;Panel de formato&lt;/strong&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Expanda las opciones de &lt;strong&gt;Forma&lt;/strong&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Ahora, la interfaz de usuario debería tendrá el siguiente aspecto:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src="{4}" alt="" title="" /&gt;&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;Presione en &lt;strong&gt;+ Agregar mapa&lt;/strong&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;En el cuadro de diálogo para abrir &lt;strong&gt;archivo&lt;/strong&gt;, seleccione el archivo “&lt;strong&gt;gz_2010_us_050_00_500k-wash-counties-only.json&lt;/strong&gt;”&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Ahora, la interfaz de usuario tendrá el siguiente aspecto:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src="{5}" alt="" title="" /&gt;&lt;/p&gt;
+
+&lt;p&gt;Después, cambiaremos el color para que coincida con la combinación de colores del partido demócrata de Estados Unidos.&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;En el panel &lt;strong&gt;Formato&lt;/strong&gt;, expanda &lt;strong&gt;Colores de datos&lt;/strong&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Coloque el control de alternancia &lt;strong&gt;Divergente&lt;/strong&gt; en la posición &lt;strong&gt;Activado&lt;/strong&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Puede elegir los colores que ofrece la interfaz de usuario o puede seleccionar &lt;strong&gt;Color personalizado&lt;/strong&gt; para especificar los colores. Los ejemplos siguientes usan estos colores:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Mínimo: 0007FF&lt;/p&gt;
+
+&lt;p&gt;Centro: B3B3B3&lt;/p&gt;
+
+&lt;p&gt;Máximo: 0055FF&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Establezca los valores de &lt;strong&gt;Mínimo&lt;/strong&gt;, &lt;strong&gt;Centro&lt;/strong&gt; y &lt;strong&gt;Máximo&lt;/strong&gt; en &lt;strong&gt;-1, 0 y 1&lt;/strong&gt;, respectivamente. De esta forma, está definiendo la escala.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;img src="{6}" alt="" title="" /&gt;&lt;/p&gt;</value>
+  </data>
+  <data name="Article_Content_Step2_2" xml:space="preserve">
+    <value>&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;Vaya a su tabla &lt;strong&gt;Datos de temperatura&lt;/strong&gt;. En la cinta &lt;strong&gt;Inicio&lt;/strong&gt;, seleccione &lt;strong&gt;Combinar consultas&lt;/strong&gt;. Seleccione &lt;strong&gt;Barras de errores&lt;/strong&gt; como tabla de correspondencia y &lt;strong&gt;año&lt;/strong&gt; como columna de correspondencia. Esta vez, sabemos que, en la tabla de errores, solo tenemos datos situados en el intervalo de años de las temperaturas reconstruidas, por lo que puede usar &lt;strong&gt;Tipo de combinación: externa izquierda&lt;/strong&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Expanda solo la columna &lt;strong&gt;sigma&lt;/strong&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Para agregar una columna para una varianza positiva, use &lt;strong&gt;Agregar columna personalizada&lt;/strong&gt; en la cinta &lt;strong&gt;Agregar columna&lt;/strong&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Asigne a la columna el nombre &lt;strong&gt;Varianza positiva&lt;/strong&gt; y agregue Sigma a la temperatura reconstruida mediante la fórmula &lt;strong&gt;[Reconstructed temp change] + [Sigma]&lt;/strong&gt;. Puede escribir los nombres de columna o hacer clic sobre ellos a la derecha.&lt;/p&gt;&lt;p&gt;&lt;img src="{0}" alt="" title="" /&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Repita este paso para crear &lt;strong&gt;Negative variance = [Reconstructed temp change] - [Sigma]&lt;/strong&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Cambie los tipos de datos de las nuevas columnas por números decimales.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Una vez cargada toda la información en la tabla &lt;strong&gt;Cambio de temperatura&lt;/strong&gt;, no es necesario cargar las otras dos tablas en el informe. Para deshabililtar la carga de las otras dos tablas, haga clic con el botón derecho en &lt;strong&gt;Datos instrumentales&lt;/strong&gt; y desactive &lt;strong&gt;Habilitar carga&lt;/strong&gt;, y haga lo mismo para &lt;strong&gt;Barras de errores&lt;/strong&gt;. Las tablas deshabilitadas se muestran en cursiva y atenuadas.&lt;/p&gt;
+&lt;p&gt;&lt;img src="{1}" alt="" title="" /&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;Ahora, seleccione &lt;strong&gt;Cerrar y aplicar&lt;/strong&gt; en la cinta &lt;strong&gt;Inicio&lt;/strong&gt;.&lt;/li&gt;
+&lt;/ol&gt;</value>
+  </data>
+  <data name="Article_Content_Step2_3" xml:space="preserve">
+    <value>&lt;h3&gt;Paso 2: Crear el objeto visual&lt;/h3&gt;
+
+&lt;p&gt;Después de cargar los datos y de haber realizado la mayor parte del trabajo de edición y combinación de los datos, la creación del gráfico de líneas se realiza con unos cuantos clics.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;Cree un nuevo gráfico de líneas en la sección de informe.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Arrastre &lt;strong&gt;Año&lt;/strong&gt; al campo &lt;strong&gt;Eje&lt;/strong&gt; y asegúrese de que los datos se muestran como Año en el menú desplegable.&lt;/p&gt;
+&lt;p&gt;&lt;img src="{0}" alt="" title="" /&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Arrastre &lt;strong&gt;Reconstructed Temp Change&lt;/strong&gt;, &lt;strong&gt;Instrumental Temp Change&lt;/strong&gt;, &lt;strong&gt;Positive Variance&lt;/strong&gt; y &lt;strong&gt;Negative Variance&lt;/strong&gt; a Valores.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Cambie los colores de las líneas en el panel &lt;strong&gt;Formato&lt;/strong&gt; si quiere que los cambios de temperatura destaquen respecto de la varianza.&lt;/p&gt;&lt;p&gt;&lt;img src="{1}" alt="" title="" /&gt;&lt;/p&gt;
+&lt;/li&gt;&lt;/ol&gt;
+&lt;h3&gt;Paso 3: Línea de tendencia&lt;/h3&gt;
+
+&lt;p&gt;El último paso para volver a crear el famoso gráfico de palo de hockey es agregar una línea de tendencia a través de los cambios de temperatura. Para ello, solo hay que usar un par de medidas DAX.&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Como algunos años tienen tanto una temperatura instrumental como una temperatura reconstruida, primero querrá crear una columna que calcule solo el promedio de la temperatura cuando hay dos valores. Cree una &lt;strong&gt;Nueva columna&lt;/strong&gt; con la siguiente fórmula:&lt;/li&gt;
+  &lt;p&gt;&lt;em&gt;Promedio de temperatura = SI(ESBLANCO([Instrumental Temp. Change]),[Reconstructed Temp. Change],SI(ESBLANCO([Reconstructed Temp. Change]),[Instrumental Temp. Change],([Instrumental Temp. Change]+[Reconstructed Temp. Change])/2))&lt;/em&gt;&lt;/p&gt;
+&lt;li&gt;Ahora, cree una &lt;strong&gt;Nueva medida&lt;/strong&gt; sobre esa columna:&lt;/li&gt;
+  &lt;p&gt;&lt;em&gt;Cambio de temperatura = SUMA(Data[Temp Average])&lt;/em&gt;&lt;/p&gt;
+&lt;li&gt;Después, calcule el promedio móvil del cambio de temperatura. Puede experimentar con el intervalo de tiempo; en este ejemplo, está establecido en 40 años:&lt;/li&gt;&lt;p&gt;&lt;em&gt;Línea de tendencia = PROMEDIOX(DATESINPERIOD(Data[Year],LASTDATE(Data[Year]),-40,AÑO),[Temperature Change])&lt;/em&gt;&lt;/p&gt;
+&lt;li&gt;Agregue la línea de tendencia al objeto visual, ¡y ya está!&lt;/li&gt;
+&lt;p&gt;&lt;img src="{2}" alt="" title="" /&gt;&lt;/p&gt;&lt;/ol&gt;</value>
+  </data>
+  <data name="Article_Content_Step3_10" xml:space="preserve">
+    <value>&lt;h2&gt;Parte 1: Creación de una historia de datos y su publicación en una página web&lt;/h2&gt;
+
+&lt;p&gt;Necesitará los siguientes archivos:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;VotingData.xlsx&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;gz_2010_us_050_00_500k-wash-counties-only.json&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Embed in web page.htm&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3&gt;Paso 1: Importar datos desde un archivo de Excel&lt;/h3&gt;
+
+&lt;p&gt;Para más información o instrucciones, consulte la documentación:&lt;/p&gt;
+
+&lt;p&gt;&lt;a href="{0}"&gt;{0}&lt;/a&gt;&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;Abra &lt;strong&gt;Power BI Desktop&lt;/strong&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;En la cinta Inicio, presione &lt;strong&gt;Obtener datos&lt;/strong&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Seleccione &lt;strong&gt;Excel&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="{1}" alt="" title="" /&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;En el cuadro de diálogo, seleccione el archivo &lt;strong&gt;VotingData.xlsx&lt;/strong&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;En el cuadro de diálogo &lt;strong&gt;Navegador&lt;/strong&gt;, active la casilla &lt;strong&gt;VotingData&lt;/strong&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Presione &lt;strong&gt;Cargar&lt;/strong&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;img src="{2}" alt="" title="" /&gt;&lt;/p&gt;
+
+&lt;h3&gt;Paso 2: Crear resultados calculados&lt;/h3&gt;
+
+&lt;p&gt;Cuando se crea una visualización de datos, a menudo es necesario aumentar los datos sin procesar con valores calculados para lograr la visualización que se desea. En esta sección, crearemos algunos cálculos.&lt;/p&gt;
+
+&lt;p&gt;Nota: esta sección presenta un nuevo concepto, las expresiones DAX. DAX es un lenguaje de expresiones que se puede usar para calcular datos en los informes. Encontrará más información aquí: &lt;a href="{3}"&gt;Aspectos básicos de DAX en Power BI Desktop&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Siga los pasos indicados para crear las siguientes medidas: &lt;a href="{4}"&gt;Tutorial: Crear medidas propias en Power BI Desktop&lt;/a&gt;&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;En la cinta &lt;strong&gt;Modelado&lt;/strong&gt;, seleccione &lt;strong&gt;Medida&lt;/strong&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Se muestra una barra de fórmulas.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Escriba las expresiones de la siguiente sección, &lt;strong&gt;Medidas que se crearán&lt;/strong&gt;, debajo de la barra y &lt;strong&gt;presione la marca de verificación&lt;/strong&gt; para asegurarse de que funciona.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Repita el proceso para las tres medidas indicadas a continuación.&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;img src="{5}" alt="" title="" /&gt;&lt;/p&gt;
+
+&lt;p&gt;Medidas que se crearán:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;votes clinton = CALCULAR(sum(VotingData[Votes]), VotingData[Candidate] = "Clinton")&lt;/p&gt;
+
+&lt;p&gt;votes sanders = CALCULAR(sum(VotingData[Votes]), VotingData[Candidate] = "Sanders")&lt;/p&gt;
+
+&lt;p&gt;dirección del ganador = if([votes clinton] &gt; [votes sanders], -1, if(VotingData[votes clinton] = [votes sanders], 0, 1))&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Nota: las dos primeras medidas filtran los valores para Clinton y Sanders, y nos permiten crear la medida de la dirección del ganador que nos indica si Clinton o Sanders obtuvieron más votos en un condado determinado. Cuando creemos el mapa, verá su utilidad.&lt;/p&gt;
+
+&lt;p&gt;Después de completar este paso, la lista de campos tendrá el siguiente aspecto. Las medidas que creó se agregarán a los campos que hay disponibles para usar en las visualizaciones de datos.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src="{6}" alt="" title="" /&gt;&lt;/p&gt;
+
+&lt;h3&gt;Paso 3: Mostrar resultados en un mapa&lt;/h3&gt;
+
+&lt;p&gt;Ahora, estamos listos para crear el mapa de formas.&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Inserte un objeto visual &lt;strong&gt;ShapeMap&lt;/strong&gt; en el informe.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;img src="{7}" alt="" title="" /&gt;&lt;/p&gt;
+
+&lt;p&gt;Nota: en el momento de escribir el objeto visual ShapeMap, está en modo de vista previa. Si no ve el objeto ShapeMap, deberá habillitarlo como &lt;strong&gt;Característica en vista previa&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;Archivo -&gt; Opciones y configuración -&gt; Opciones&lt;/strong&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;Global -&gt; Características en vista previa&lt;/strong&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Active la casilla junto a &lt;strong&gt;Dar forma a objeto visual de mapa&lt;/strong&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Presione &lt;strong&gt;Aceptar&lt;/strong&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Después de insertar el objeto visual &lt;strong&gt;ShapeMap&lt;/strong&gt;, estará vacío. Realice los pasos siguientes:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;Haga clic en el &lt;strong&gt;mapa&lt;/strong&gt; para seleccionarlo.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;En la &lt;strong&gt;lista de campos&lt;/strong&gt;, active la casilla junto a los siguientes campos:&lt;/p&gt;
+
+&lt;p&gt;a. &lt;strong&gt;Nombre de condado&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;b. &lt;strong&gt;*Dirección del ganador *&lt;/strong&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Los campos de datos de los objetos visuales tendrán el siguiente aspecto:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src="{8}" alt="" title="" /&gt;&lt;/p&gt;
+
+&lt;p&gt;El aspecto de la página será parecido a este:&lt;/p&gt;
+
+&lt;p&gt;Observe que el mapa de EE. UU. se muestra de forma predeterminada. En los siguientes pasos, cambiaremos las formas del mapa.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src="{9}" alt="" title="" /&gt;&lt;/p&gt;
+
+&lt;p&gt;Puede usar cualquier &lt;strong&gt;archivo TopoJSON&lt;/strong&gt; con el objeto visual &lt;strong&gt;ShapeMap&lt;/strong&gt;. Los identificadores de las formas TopoJSON deben coincidir con los nombres del conjunto de datos.&lt;/p&gt;
+
+&lt;p&gt;Vamos a cambiar las formas para que coincidan con los nombres de los condados.&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;Seleccione el objeto visual &lt;strong&gt;ShapeMap&lt;/strong&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Cambie al &lt;strong&gt;Panel de formato&lt;/strong&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Expanda las opciones de &lt;strong&gt;Forma&lt;/strong&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;</value>
+  </data>
+  <data name="Article_Content_Step4_7" xml:space="preserve">
+    <value>&lt;p&gt;Ahora, la interfaz de usuario debería tendrá el siguiente aspecto:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src="{0}" alt="" title="" /&gt;&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;Presione en &lt;strong&gt;+ Agregar mapa&lt;/strong&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;En el cuadro de diálogo para abrir &lt;strong&gt;archivo&lt;/strong&gt;, seleccione el archivo “&lt;strong&gt;gz_2010_us_050_00_500k-wash-counties-only.json&lt;/strong&gt;”&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Ahora, la interfaz de usuario tendrá el siguiente aspecto:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src="{1}" alt="" title="" /&gt;&lt;/p&gt;
+
+&lt;p&gt;Después, cambiaremos el color para que coincida con la combinación de colores del partido demócrata de Estados Unidos.&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;En el panel &lt;strong&gt;Formato&lt;/strong&gt;, expanda &lt;strong&gt;Colores de datos&lt;/strong&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Coloque el control de alternancia &lt;strong&gt;Divergente&lt;/strong&gt; en la posición &lt;strong&gt;Activado&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;Puede elegir los colores que ofrece la interfaz de usuario o puede seleccionar &lt;strong&gt;Color personalizado&lt;/strong&gt; para especificar los colores. Los ejemplos siguientes usan estos colores:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Mínimo: 0007FF&lt;/p&gt;
+
+&lt;p&gt;Centro: B3B3B3&lt;/p&gt;
+
+&lt;p&gt;Máximo: 0055FF&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;/li&gt;
+
+&lt;li&gt;Establezca los valores de &lt;strong&gt;Mínimo&lt;/strong&gt;, &lt;strong&gt;Centro&lt;/strong&gt; y &lt;strong&gt;Máximo&lt;/strong&gt; en &lt;strong&gt;-1, 0 y 1&lt;/strong&gt;, respectivamente. De esta forma, está definiendo la escala.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;img src="{2}" alt="" title="" /&gt;&lt;/p&gt;
+
+&lt;p&gt;Vamos a mejorar la legibilidad cambiando algunos de los valores predeterminados del mapa. Cuando los colores se presentan en una escala degradada, diferenciar la separación de los colores puede resultar complicado. Para que las formas de los condados se distingan fácilmente, aumentamos la visibilidad de las fronteras.&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;Expanda &lt;strong&gt;Color predeterminado&lt;/strong&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Establezca &lt;strong&gt;Color&lt;/strong&gt; en &lt;strong&gt;&lt;em&gt;blanco&lt;/em&gt;&lt;/strong&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Establezca &lt;strong&gt;Color del borde&lt;/strong&gt; en &lt;strong&gt;&lt;em&gt;blanco&lt;/em&gt;&lt;/strong&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Establezca &lt;strong&gt;Grosor del borde&lt;/strong&gt; en &lt;strong&gt;&lt;em&gt;4&lt;/em&gt;&lt;/strong&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;img src="{3}" alt="" title="" /&gt;&lt;/p&gt;
+
+&lt;p&gt;Por último, damos un título significativo al mapa.&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;Expanda &lt;strong&gt;Título&lt;/strong&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Establezca &lt;strong&gt;Texto del título&lt;/strong&gt; en &lt;em&gt;“&lt;strong&gt;Resultados de las elecciones por condado&lt;/strong&gt;”&lt;/em&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Establezca &lt;strong&gt;Tamaño del texto&lt;/strong&gt; en &lt;strong&gt;&lt;em&gt;14&lt;/em&gt;&lt;/strong&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;img src="{4}" alt="" title="" /&gt;&lt;/p&gt;
+
+&lt;p&gt;El mapa tendrá el siguiente aspecto. Durante el diseño de las visualizaciones, es importante comprobar si están listas para que la audiencia o el lector las comprenda. Observe que el objeto visual de mapa final tiene formas claramente diferenciadas, un título significativo y los colores contribuyen claramente a su comprensión.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src="{5}" alt="" title="" /&gt;&lt;/p&gt;
+
+&lt;p&gt;Ahora que ya ha creado el mapa, use los conocimientos adquiridos para crear un gráfico de barras para mostrar los resultados generales.&lt;/p&gt;
+
+&lt;p&gt;Use los &lt;strong&gt;Campos&lt;/strong&gt; de datos:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Seleccione &lt;strong&gt;Candidato&lt;/strong&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Seleccione &lt;strong&gt;Votos&lt;/strong&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Establezca los colores para que coincidan con los colores del mapa, y elija un buen título.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src="{6}" alt="" title="" /&gt;&lt;/p&gt;</value>
+  </data>
+  <data name="Article_Content_Step5_9" xml:space="preserve">
+    <value>&lt;p&gt;Estas son otras funcionalidades que puede usar:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;Etiquetas de datos&lt;/strong&gt;. Las encontrará en el panel de formato cuando el objeto visual esté habilitado.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;Formato de números&lt;/strong&gt;. Consulte las instrucciones en la sección sobre el formato de números, al final de este tutorial.&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;El informe final tendrá un aspecto como el siguiente:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src="{0}" alt="" title="" /&gt;&lt;/p&gt;
+
+&lt;p&gt;Observe que, al hacer clic en el mapa, en el gráfico de barras aparece un resaltado cruzado, tal y como se muestra a continuación.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src="{1}" alt="" title="" /&gt;&lt;/p&gt;
+
+&lt;p&gt;Esta interacción no es la mejor para este escenario específico. Podemos personalizar las interacciones de los objetos visuales.&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;En la cinta, seleccione &lt;strong&gt;Formato&lt;/strong&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Presione el botón &lt;strong&gt;Editar interacciones&lt;/strong&gt; en la pestaña Interacciones.&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;img src="{2}" alt="" title="" /&gt;&lt;/p&gt;
+
+&lt;p&gt;Ahora, al seleccionar el mapa, verá que otras visualizaciones tienen una nueva barra de menú en la esquina superior derecha, tal y como se ilustra a continuación.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src="{3}" alt="" title="" /&gt;&lt;/p&gt;
+
+&lt;p&gt;El menú ofrece tres opciones:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Filtrar: muestra datos solo para los puntos de datos seleccionados actualmente.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Resaltado cruzado: muestra la contribución de los puntos de datos actualmente seleccionados al total general.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Ninguno: la interacción con el objeto visual seleccionado no tendrá efecto en este objeto visual.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;Seleccione la opción &lt;strong&gt;filtrar&lt;/strong&gt;, tal y como se indicó anteriormente.&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Ahora, haga clic en el &lt;strong&gt;mapa&lt;/strong&gt; para que el gráfico de barras muestre datos específicos de cada condado sobre el que haga clic o, si no selecciona ningún condado, muestra los totales por estado.&lt;/p&gt;
+
+&lt;p&gt;Ahora, &lt;strong&gt;guarde&lt;/strong&gt; el informe.&lt;/p&gt;
+
+&lt;h2&gt;Parte 2: Publicación del informe en su cuenta de Power BI&lt;/h2&gt;
+
+&lt;p&gt;Ahora, podemos publicar el informe en su cuenta de Power BI, donde puede compartirlo de forma segura con sus colegas.&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;En la cinta &lt;strong&gt;Inicio&lt;/strong&gt;, seleccione &lt;strong&gt;Publicar&lt;/strong&gt; en el grupo Compartir.
+
+
+&lt;p&gt;&lt;img src="{4}" alt="" title="" /&gt;&lt;/p&gt;
+
+&lt;p&gt;Nota: para completar este paso, debe tener una cuenta de Power BI. Si aún no ha creado una, vaya a &lt;a href="{5}"&gt;{6}&lt;/a&gt; y regístrese para obtener una cuenta gratuita.&lt;/p&gt;
+
+&lt;p&gt;Una vez finalizada correctamente la publicación, verá el siguiente cuadro de diálogo:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src="{7}" alt="" title="" /&gt;&lt;/p&gt;
+
+&lt;/li&gt;
+&lt;li&gt;Presione en “&lt;strong&gt;Abrir ‘VotingData Report.pbix&lt;/strong&gt;” en el vínculo de Power BI para ver el informe en Power BI.com.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;img src="{8}" alt="" title="" /&gt;&lt;/p&gt;</value>
+  </data>
+  <data name="Article_Content_Step6_5" xml:space="preserve">
+    <value>&lt;h3&gt;Paso 1: Publicar en la Web&lt;/h3&gt;
+
+&lt;p&gt;Siga las instrucciones indicadas en el vínculo siguiente para &lt;strong&gt;crear el código insertado de publicación en la Web de Power BI&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href="{0}"&gt;{0}&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;El código insertado se parecerá a este:&lt;/p&gt;
+
+&lt;p&gt;&amp;lt;iframe width="800" height="600" src="{1}" frameborder="0" allowFullScreen="true"&gt;&amp;lt;/iframe&gt;&lt;/p&gt;
+
+&lt;p&gt;Observe que el código insertado empieza por ‘&amp;lt;iframe’. iFrame se usa para insertar el contenido en la página web.&lt;/p&gt;
+
+&lt;h3&gt;Paso 2: Agregar el código insertado a una página web&lt;/h3&gt;
+
+&lt;p&gt;En esta sección, agregaremos el código insertado para el informe y lo agregaremos a una página web.&lt;/p&gt;
+
+&lt;p&gt;Tendrá que &lt;strong&gt;copiar el código insertado&lt;/strong&gt; del paso anterior en la página web proporcionada. Si no lo copió, vuelva y cópielo.&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;Abra el archivo &lt;strong&gt;Insertar en página web.htm&lt;/strong&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Busque la línea “&amp;lt;!-- Step 1: Place your iFrame embed code below this line --&gt;”&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;Pegue&lt;/strong&gt; el código insertado debajo de esa línea.&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Después, ajuste el alto y el ancho del iFrame. Quizás los valores predeterminados no sean los más adecuados. El tamaño se basa en el tamaño de página del informe. El tamaño de página predeterminado mantiene una relación 16:9. Encontrará el ancho y el alto en función del diseño de su página web y de esta dimensión de referencia. Después, asegúrese de agregar 56 al alto del iFrame para acomodar la interfaz de usuario de Power BI en la parte inferior del iFrame.&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;Ahora, establezca el ancho y el alto del &lt;strong&gt;iFrame&lt;/strong&gt; de la siguiente manera:&lt;/p&gt;
+    &lt;ul&gt;
+&lt;li&gt;&lt;p&gt;width="1000"&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;height="618"&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;Guarde&lt;/strong&gt; el archivo.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;En el &lt;strong&gt;Explorador de Windows&lt;/strong&gt;, &lt;strong&gt;haga doble clic en el archivo para abrirlo&lt;/strong&gt; en el explorador web.&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Verá una página que tiene el siguiente aspecto. Si publicara la página en un servidor web, todo el que viera la página podría ver el informe. Puede usar estos pasos para agregar visualizaciones de datos de Power BI a sus blogs, artículos de noticias o sitios web.&lt;/p&gt;
+
+&lt;h1&gt;&lt;img src="{2}" alt="" title="" /&gt;&lt;/h1&gt;
+
+&lt;h2&gt;Apéndice: Formato de números en Power BI&lt;/h2&gt;
+
+&lt;p&gt;Si ha trabajado con etiquetas de datos, habrá observado en este tutorial que los números no tienen un formato predeterminado. Las siguientes son las instrucciones para dar formato a los números en Power BI.&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;En la lista de campos, haga clic en el &lt;strong&gt;campo&lt;/strong&gt; al que quiere dar formato para seleccionarlo. Sugerencia: el campo está seleccionado cuando está rodeado por un borde amarillo, tal y como se muestra a continuación.
+&lt;p&gt;&lt;img src="{3}" alt="" title="" /&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Con el campo seleccionado, seleccione &lt;strong&gt;Modelado&lt;/strong&gt; en la cinta.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Observe la sección &lt;strong&gt;Formato&lt;/strong&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Para agregar separadores de miles para los números grandes, presione el &lt;strong&gt;icono de coma&lt;/strong&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Una vez hecho, el formato se aplica siempre que el campo se use en una visualización.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src="{4}" alt="" title="" /&gt;&lt;/p&gt;</value>
+  </data>
+  <data name="Article_Continue_Step1_3" xml:space="preserve">
+    <value>&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;Vaya a la tabla &lt;strong&gt;Datos de temperatura&lt;/strong&gt; y seleccione &lt;strong&gt;Combinar consultas&lt;/strong&gt; en la cinta &lt;strong&gt;Inicio&lt;/strong&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;En el editor, seleccione &lt;strong&gt;Datos instrumentales&lt;/strong&gt; y la columna &lt;strong&gt;año&lt;/strong&gt; de ambas tablas. Esta es la columna por la que quiere establecer la correspondencia de las tablas.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Como el objetivo es conseguir una tabla que contenga todas las filas de ambas tablas (que coincidan), seleccione &lt;strong&gt;Tipo de combinación: externa completa (todas las filas de ambos)&lt;/strong&gt;. El editor mostrará ahora el número de filas que coinciden.&lt;/p&gt;
+&lt;p&gt;&lt;img src="{0}" alt="" title="" /&gt;&lt;/p&gt;
+
+&lt;/li&gt;
+&lt;li&gt;Después de seleccionar &lt;strong&gt;Aceptar&lt;/strong&gt;, expanda las nuevas columnas (vea el icono debajo).
+&lt;p&gt;&lt;img src="{1}" alt="" title="" /&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Para crear la nueva columna de fecha, en la pestaña &lt;strong&gt;Agregar columna&lt;/strong&gt;, seleccione &lt;strong&gt;Agregar columna de índice&lt;/strong&gt; y use el menú desplegable para crear una columna de índice personalizado. Comience el índice en 1000, con incrementos de 1.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Ahora tendrá una columna de índice con valores de 1000 a 1998. Cambie el tipo de esta columna a texto.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Ahora, elimine ambas columnas de año y cambie el nombre de &lt;strong&gt;Index&lt;/strong&gt; (Índice) a &lt;strong&gt;Año&lt;/strong&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Establezca el tipo de datos de &lt;strong&gt;Año&lt;/strong&gt; en &lt;strong&gt;fecha&lt;/strong&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;La última tabla que se carga contiene &lt;strong&gt;*Barras de errores asociadas*&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;En el Editor de consultas, seleccione &lt;strong&gt;Inicio&lt;/strong&gt; &gt; &lt;strong&gt;Nuevo origen&lt;/strong&gt; &gt; &lt;strong&gt;Web&lt;/strong&gt; y escriba la dirección URL de la tabla: &lt;a href="{2}"&gt;{2}&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Cambie el nombre de la consulta a &lt;strong&gt;Barras de errores&lt;/strong&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Cambie el tipo de &lt;strong&gt;Año&lt;/strong&gt; a texto.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Elimine las columnas primera y última.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Cambie el tipo de &lt;strong&gt;Año&lt;/strong&gt; a fecha.&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Después, puede usar el sigma de &lt;strong&gt;Barras de errores&lt;/strong&gt; para calcular las varianzas positiva y negativa de las temperaturas reconstruidas.&lt;/p&gt;</value>
+  </data>
+  <data name="Article_Start_Step2_3" xml:space="preserve">
+    <value>&lt;p&gt;&lt;img src="{0}" alt="" title="" /&gt;&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;Repita este paso para crear &lt;strong&gt;Negative variance = [Reconstructed temp change] - [Sigma]&lt;/strong&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Cambie los tipos de datos de las nuevas columnas por números decimales.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Una vez cargada toda la información en la tabla &lt;strong&gt;Cambio de temperatura&lt;/strong&gt;, no es necesario cargar las otras dos tablas en el informe. Para deshabililtar la carga de las otras dos tablas, haga clic con el botón derecho en &lt;strong&gt;Datos instrumentales&lt;/strong&gt; y desactive &lt;strong&gt;Habilitar carga&lt;/strong&gt;, y haga lo mismo para &lt;strong&gt;Barras de errores&lt;/strong&gt;. Las tablas deshabilitadas se muestran en cursiva y atenuadas.&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;img src="{1}" alt="" title="" /&gt;&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Ahora, seleccione &lt;strong&gt;Cerrar y aplicar&lt;/strong&gt; en la cinta &lt;strong&gt;Inicio&lt;/strong&gt;.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3&gt;Paso 2: Crear el objeto visual&lt;/h3&gt;
+
+&lt;p&gt;Después de cargar los datos y de haber realizado la mayor parte del trabajo de edición y combinación de los datos, la creación del gráfico de líneas se realiza con unos cuantos clics.&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;Cree un nuevo gráfico de líneas en la sección de informe.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Arrastre &lt;strong&gt;Año&lt;/strong&gt; al campo &lt;strong&gt;Eje&lt;/strong&gt; y asegúrese de que los datos se muestran como Año en el menú desplegable.&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;img src="{2}" alt="" title="" /&gt;&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;Arrastre &lt;strong&gt;Reconstructed Temp Change&lt;/strong&gt;, &lt;strong&gt;Instrumental Temp Change&lt;/strong&gt;, &lt;strong&gt;Positive Variance&lt;/strong&gt; y &lt;strong&gt;Negative Variance&lt;/strong&gt; a Valores.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Cambie los colores de las líneas en el panel &lt;strong&gt;Formato&lt;/strong&gt; si quiere que los cambios de temperatura destaquen respecto de la varianza.&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;</value>
+  </data>
+  <data name="Download_Resources" xml:space="preserve">
+    <value>Descargue todos los recursos necesarios para estos tutoriales</value>
+  </data>
+  <data name="Hero_Content" xml:space="preserve">
+    <value>Este curso de introducción le enseñará a usar diferentes tipos de gráficos para analizar y comprender sus propios datos, así como a comunicarse de forma efectiva con su audiencia. El experto en visualización de datos, Alberto Cairo, nos guiará por los principios básicos de la visualización, por ejemplo, comprender los datos, elegir la forma de gráfico adecuada y organizar la composición para narrar o permitir la exploración. También aprenderá cómo la visualización de datos se basa en el concepto de codificación de objetos visuales para transformar los puntos de datos en características gráficas.</value>
+  </data>
+  <data name="Hero_Title" xml:space="preserve">
+    <value>Introducción a la visualización</value>
+  </data>
+  <data name="InThisArticle" xml:space="preserve">
+    <value>En este artículo:</value>
+  </data>
+  <data name="META_DESCRIPTION" xml:space="preserve">
+    <value />
+  </data>
+  <data name="META_KEYWORDS" xml:space="preserve">
+    <value />
+  </data>
+  <data name="META_PAGETITLE" xml:space="preserve">
+    <value>Periodismo de datos: introducción a la visualización | Microsoft Power BI</value>
+  </data>
+  <data name="NextTopic" xml:space="preserve">
+    <value>Siguiente tema: Exploración de datos</value>
+  </data>
+  <data name="RightNav_Link1" xml:space="preserve">
+    <value>Cambio de la temperatura mundial (creación de un gráfico de palo de hockey en Power BI)</value>
+  </data>
+  <data name="RightNav_Link2" xml:space="preserve">
+    <value>Creación y publicación de visualizaciones</value>
+  </data>
+  <data name="Start_Article_Content_4" xml:space="preserve">
+    <value>&lt;h2 id="world-temp-change"&gt;Cambio de la temperatura mundial (creación de un gráfico de palo de hockey en Power BI)&lt;/h2&gt;
+
+&lt;p&gt;Uno de los primeros ejemplos que se usan en el curso de visualización de datos es el análisis de la temperatura global, realizado por Michael Mann y Raymond Bradley. En la reconstrucción de este objeto visual se verán los diversos conceptos que se usan con más frecuencia cuando se trabaja con Microsoft Power BI. Partiendo de tablas de varias páginas web, organizará los datos, los cargará a un informe, realizará algunos ajustes y creará una línea de tendencia calculada. Usamos los datos de la investigación original, que están disponibles aquí: &lt;a href="{0}"&gt;{0}&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3&gt;Paso 1: Cargar los datos&lt;/h3&gt;
+
+&lt;p&gt;Los datos necesarios para crear este objeto visual se encuentran en tres tablas: &lt;strong&gt;Reconstrucción (DC 1000-1980)&lt;/strong&gt;, &lt;strong&gt;Barras de errores asociadas&lt;/strong&gt; y &lt;strong&gt;Serie instrumental (1902-1998)&lt;/strong&gt;. En el ejemplo, comenzaremos por cargar las temperaturas reconstruidas.&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;Abra &lt;strong&gt;Reconstrucción (DC 1000-1980)&lt;/strong&gt;: &lt;a href="{1}"&gt;{1}&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;En un nuevo archivo de Power BI Desktop, seleccione &lt;strong&gt;Obtener datos&lt;/strong&gt; arriba a la izquierda.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;En el menú desplegable, seleccione &lt;strong&gt;Web&lt;/strong&gt; y pegue el vínculo en la ventana de URL. Power BI sugiere automáticamente el tipo de los datos. Como queremos editar la columna del año, deshabilitaremos esa característica. Establezca &lt;strong&gt;Detención del tipo de datos&lt;/strong&gt; en &lt;strong&gt;No detectar tipos de datos&lt;/strong&gt; y seleccione &lt;strong&gt;Editar&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;img src="{2}" alt="" title="" /&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;Se abre el Editor de consultas. La primera columna está vacía y puede eliminarla. Cambie el nombre de la columna 2 a &lt;strong&gt;Año&lt;/strong&gt; y la columna 3 a &lt;strong&gt;Cambio de temp. reconstruido&lt;/strong&gt;. Cambie el tipo de datos de esta columna a número decimal; para ello, seleccione el icono de tipo de datos que se muestra en la imagen siguiente.
+&lt;p&gt;&lt;img src="{3}" alt="" title="" /&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;Cambie el nombre de la consulta a &lt;strong&gt;Datos de temperatura&lt;/strong&gt;.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Siga los mismos principios para cargar los datos de temperaturas instrumentales y las barras de errores.&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;Aún en el Editor de consultas, seleccione &lt;strong&gt;Nuevo origen&lt;/strong&gt; en la cinta &lt;strong&gt;Inicio&lt;/strong&gt; y escriba la dirección URL de la tabla &lt;strong&gt;Serie instrumental&lt;/strong&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;En la ventana emergente, seleccione &lt;strong&gt;No detectar tipos de datos&lt;/strong&gt; y, después, &lt;strong&gt;Editar&lt;/strong&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Elimine la columna 1 y cambie el nombre de la columna 2 a &lt;strong&gt;Año&lt;/strong&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Cambie el nombre de la columna 3 a &lt;strong&gt;Cambio temp. instrumental&lt;/strong&gt; y cambie el tipo de datos a número decimal.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Cambie el nombre de la consulta a &lt;strong&gt;Datos instrumentales&lt;/strong&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;&lt;p&gt;Después, creará una columna de año que podrá usar para todos los puntos de datos desde el año 1000 a 1998. Para ello, puede combinar las dos tablas en el Editor de consultas y agregar una nueva columna de año.&lt;/p&gt;</value>
+  </data>
+  <data name="Meta_LocJobId" xml:space="preserve">
+    <value>159</value>
+  </data>
+</root>

@@ -1,0 +1,20 @@
+﻿@model PowerBI.Web.Models.Pages.ViewMetadataModel
+@using Resources = PowerBI.Resources.Pages.IosLicenseTerms.Index
+
+@{
+    Model.PageTitle = Resources.META_PAGETITLE;
+    Model.MetaDescription = Resources.META_DESCRIPTION;
+    Model.MetaKeywords = Resources.META_KEYWORDS;
+}
+
+<section class="section section-size2 section-palette02 section-heading-only">
+    <div class="row column">
+        @Html.Raw(Resources.Heading)
+    </div>
+</section>
+
+<section class="section">
+    <div class="row column">
+        @Html.RawFormatInvariant(Resources.Content, "$5.00")
+    </div>
+</section>

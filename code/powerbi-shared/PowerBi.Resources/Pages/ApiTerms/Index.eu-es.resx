@@ -1,0 +1,965 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Content" xml:space="preserve">
+    <value>&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-top:71.25pt;margin-right:0in;margin-bottom:
+.05pt;margin-left:0in;line-height:normal&#39;&gt;&lt;span lang=&quot;EU&quot; style=&#39;font-size:21.0pt;
+font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;Microsoft Power BI APIaren
+Baldintzak&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;line-height:normal&#39;&gt;&lt;span lang=&quot;EU&quot; style=&#39;font-size:
+12.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;Eskerrik asko Power
+BI aplikazio-programen interfazea (APIa) erabiltzeagatik. Power BI APIari eta
+zuk egindako edozein eguneratze, berrikuspen, ordezkapen eta kopiari Microsoft “Power
+BI API&amp;quot; deritze zerbitzuaren baldintza hauetan. Hitzarmen hau zure eta Microsoft
+Corporation-en (“Microsoft”) artekoa da. Batzuetan Microsoft “gu”, “guk” edo “gure”
+gisa aipatuko da. Power BI APIa erabiliz, zerbitzu-baldintza hauek onartzen
+dituzu (“APIaren Baldintzak”), bai eta Power BI zerbitzuaren eta dakartzan&#160;&#160; &#160;aplikazioen
+(“Power BI Zerbitzua”) erabilera arautzen duten Power BI Zerbitzuaren
+Hitzarmena edo bestelako hitzarmen aplikagarriak (elkarrekin “Hitzarmena”).
+Inkoherentziarik balego APIaren Baldintzen eta Hitzarmenaren artean, APIaren
+Baldintzek izango dute lehentasuna.&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;line-height:normal&#39;&gt;&lt;span lang=&quot;EU&quot; style=&#39;font-size:
+12.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;Microsoft-ek beretzat
+gordetzen du APIaren baldintzetan edo erreferentzia gisa gehitutako
+dokumentuetan eguneratzeak eta aldaketak noizean behin egiteko eskubidea.
+Microsoft-ek APIaren baldintza horiek alda ditzake bertsio berri bat
+argitaratuz. Power BI APIa erabiltzen baduzu aldaketak egin eta gero, aldaketa
+horiek onartzen dituzula esan nahi du.&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;line-height:normal&#39;&gt;&lt;b&gt;&lt;span lang=&quot;EU&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;Kontuan
+izan ez dugula Power BI APIaren bermerik ematen. Halaber, APIaren baldintzek
+gure erantzukizuna mugatzen dute. Baldintza horiek 10. eta 11. ataletan
+aurkituko dituzu: irakur itzazu arretaz.&lt;/span&gt;&lt;/b&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-bottom:.05pt;line-height:normal&#39;&gt;&lt;b&gt;&lt;span lang=&quot;EU&quot; style=&#39;font-size:18.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;1.
+Power BI APIrako sarbidea.&lt;/span&gt;&lt;/b&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;line-height:normal&#39;&gt;&lt;span lang=&quot;EU&quot; style=&#39;font-size:
+12.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;Power BI APIa
+erabiltzeko, Power BI harpidetza bat izan behar duzu eta aplikazioa Azure
+Active Directory zerbitzuan erregistratu beharko duzu. Zerbitzuak Azure Active
+Directory-k hornitzen duen bezeroaren IDa eman behar dizu (Power BI APIaren
+dokumentazioan azaltzen den moduan); halaber, Microsoft-ek bezeroaren ID
+baliogabeak dituzten eskaerak blokeatuko ditu. Microsoft-ek Power BI zerbitzuko
+datuen eta formatuaren gainean erabateko kontrol esklusiboa izango du.&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;line-height:normal&#39;&gt;&lt;span lang=&quot;EU&quot; style=&#39;font-size:
+12.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;Microsoft-ek, nahi
+duenean, edozein arrazoirengatik eta bere erabaki baten ondorioz, Power BI APIa
+erabiltzeko eskaerak ezetsi ahalko ditu. Microsoft-ek ez du eskaera ezesteko
+erabakiagatik sortu litezkeen kalteen erantzukizunik izango.&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-bottom:.05pt;line-height:normal&#39;&gt;&lt;b&gt;&lt;span lang=&quot;EU&quot; style=&#39;font-size:18.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;2.
+Erabilera baimenduak eta murrizketak.&lt;/span&gt;&lt;/b&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;line-height:normal&#39;&gt;&lt;span lang=&quot;EU&quot; style=&#39;font-size:
+12.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;Microsoft-ek Power BI
+APIaren jabea da eta hitzarmen honetan agertzen diren baldintza eta
+zehaztapenen mende dagoen lizentzia bat ematen dizu. Lizentzia hori
+nazioartekoa (hemen agertzen diren murrizketak kontuan hartuta), ez-esklusiboa
+eta azpilizentzietan zatitu ezina da. APIaren baldintzek zehazten dute Power BI
+APIaren eta zuk ala zuretzat egindako Power BI APIaren eguneratzeen,
+berrikuspenen, ordezkapenen eta kopien erabilera legala. Microsoft-ek beretzat
+gordetzen ditu hitzarmenak bermatzen ez dizkizun eskubideak.&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-left:.25in;text-indent:-.25in;line-height:
+normal&#39;&gt;&lt;span lang=&quot;EU&quot; style=&#39;font-size:10.0pt;font-family:Symbol;color:#4B5C66&#39;&gt;&#183;&lt;span style=&#39;font:7.0pt &quot;Times New Roman&quot;&#39;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+&lt;/span&gt;&lt;/span&gt;&lt;span lang=&quot;EU&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;
+color:#4B5C66&#39;&gt;a.&amp;nbsp;Lizentzia. APIaren baldintzetan zehaztutako baldintzen
+eta murriztapenen arabera, Microsoft-ek esklusiboa ez den eta azpilizentzietan
+zatitu ezin den Power BI APIa erabiltzeko eskubidea ematen dizu zure aplikazioa
+garatzeko, probatzeko, banatzeko eta mantentzeko. &lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-left:.25in;text-indent:-.25in;line-height:
+normal&#39;&gt;&lt;span lang=&quot;EU&quot; style=&#39;font-size:10.0pt;font-family:Symbol;color:#4B5C66&#39;&gt;&#183;&lt;span style=&#39;font:7.0pt &quot;Times New Roman&quot;&#39;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+&lt;/span&gt;&lt;/span&gt;&lt;span lang=&quot;EU&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;
+color:#4B5C66&#39;&gt;b.&amp;nbsp;Markak. Ezin dituzu Power BIren marka edo logotipoak
+erabili, Microsoft-ek idatzizko baimen zehatzik eman ezean. &lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;line-height:normal&#39;&gt;&lt;span lang=&quot;EU&quot; style=&#39;font-size:
+12.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;c.&amp;nbsp;Abiadura-mugak
+eta datu-eremuen murriztapenak. Power BI APIa erabiltzean, aplikazioan edo
+zerbitzuan bistaratzen diren datu-eremuen abiadura-mugak eta murriztapenak
+direla onartzen duzu, bai eta datu-eremuen abiadura-muga eta murriztapen horiek
+betiere beteko dituzula ere. Abiadura-mugak eta murriztapenak Power BI APIaren
+dokumentazioan erabilgarri dituzu&lt;/span&gt;&lt;span lang=&quot;EU&quot; style=&#39;font-size:12.0pt;
+font-family:&quot;Times New Roman&quot;,serif;color:#868F95&#39;&gt;&amp;nbsp;&lt;/span&gt;&lt;span lang=&quot;EU&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;dev.PowerBI.com&lt;/span&gt;&lt;span lang=&quot;EU&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#868F95&#39;&gt;
+&lt;/span&gt;&lt;span lang=&quot;EU&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;
+color:#4B5C66&#39;&gt;helbidean.&lt;/span&gt;&lt;span lang=&quot;EU&quot; style=&#39;font-size:12.0pt;
+font-family:&quot;Times New Roman&quot;,serif;color:#868F95&#39;&gt; &lt;/span&gt;&lt;span lang=&quot;EU&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;Microsoft-ek
+nahi duenean, berak hala erabakita, alda ditzake abiadura-mugak eta
+murriztapenak, aldaketa horiek indarrean sartuko direla azaltzen duen
+argitalpena egindakoan. Microsoft-ek, bere erabaki baten ondorioz, hurrengo
+hauek murritz ditzake: (i) zerbitzuari -edo zerbitzuaren edozein azpimultzori-
+deitzeko abiadura; (ii) zerbitzu-kontu bakoitzak erabilgarri duen
+biltegiratze-tokia edo (iii) zerbitzuan karga edo deskarga dezakezun banakako
+eduki-segmentuen luzera (aurretiko termino guztiei orokorrean “Mugaketa”
+deritze). Microsoft-ek Mugaketa hori Power BI API osoan gauzatuko du azken
+erabiltzailez erabiltzaile edo bestelako oinarriren arabera. Ezin dituzu
+Mugaketa indartzeko erabili ditugun neurri teknikoak saihestu eta onartzen duzu
+abiadura-mugak saihesteko edozein programazio-metodok (datuen kopia bat cachean
+gordetzea barne) APIaren baldintzak urratzen dituela.&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;line-height:normal&#39;&gt;&lt;span lang=&quot;EU&quot; style=&#39;font-size:
+12.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;d.&amp;nbsp;Aldaketak.
+Microsoft-ek Power BI APIaren ondorengo bertsioak argitaratzeko eta azken
+bertsioa lor eta erabil dezazun eskatzeko eskubidea beretzat gordetzen du. Ez
+baduzu aldaketaren bat onartzen, Power BI APIa erabiltzeari utzi beharko diozu.
+Power BI APIa erabiltzen jarraitzen baduzu, aldaketak onartutzat hartuko ditugu.&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;line-height:normal&#39;&gt;&lt;span lang=&quot;EU&quot; style=&#39;font-size:
+12.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;e.&amp;nbsp;Zerbitzuaren
+mugak eta baldintzak. Teknologia edo beste metodo batzuk erabiliko ditugu Power
+BI APIa babesteko, gure bezeroak babesteko edo APIaren baldintzen urraketa
+geldiarazteko. Erabiliko ditugun metodoek barnean hartzen dute, besteak beste,
+spam-a gelditzeko iragazkiak erabiltzea edo segurtasuna areagotzea. Metodo
+horiek Power BI APIaren erabilera eragotz edo eten dezakete eta ezin dituzu
+muga tekniko edo metodo horiek saihestu, boikotatu edo desgaitu.&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-bottom:.05pt;line-height:normal&#39;&gt;&lt;b&gt;&lt;span lang=&quot;EU&quot; style=&#39;font-size:18.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;3.
+Jabetza-eskubideak.&lt;/span&gt;&lt;/b&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-left:.25in;text-indent:-.25in;line-height:
+normal&#39;&gt;&lt;span lang=&quot;EU&quot; style=&#39;font-size:10.0pt;font-family:Symbol;color:#4B5C66&#39;&gt;&#183;&lt;span style=&#39;font:7.0pt &quot;Times New Roman&quot;&#39;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+&lt;/span&gt;&lt;/span&gt;&lt;span lang=&quot;EU&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;
+color:#4B5C66&#39;&gt;a. Microsoft-en eskubideak. APIaren baldintzen arabera, “Jabetza
+intelektualaren eskubideak” hurrengo hauek arautzen dituzten eskubideak dira:
+patente-legeak, copyright-legeak, txip erdieroalea babesteko legeak, eskubide
+moralen legeak, salerosketa-sekretuen legeak, lehiakortasun bidegabeko legeak,
+publizitate- eta pribatutasun-eskubideen legeak, jabetza-eskubide guztiek eta
+(orain edo etorkizunean) mundu osoan indarrean dauden aplikazioek, berritzeek
+eta leheneratzeek. Zure eta Microsoft-en arteko hitzarmena denez, onartzen duzu
+Microsoft-ek edo bere lizentzia-emaileek eskubide, titulu eta interes guztiak
+dituztela -Jabetza intelektualeko eskubide guztiak barne, besteak beste- Power
+BI APIaren eta Power BI APIaren emaitzen gainean (Power BI APIa edo Power BI
+APIaren emaitzarik edo exekutagarririk ez duten zuk garatutako
+software-osagaiak izan ezik), eta ez duzula eskubiderik, titulurik edo
+interesik eskuratuko Power BI APIaren gainean, APIaren baldintzek horrela
+zehazten ez badute.&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-left:.25in;text-indent:-.25in;line-height:
+normal&#39;&gt;&lt;span lang=&quot;EU&quot; style=&#39;font-size:10.0pt;font-family:Symbol;color:#4B5C66&#39;&gt;&#183;&lt;span style=&#39;font:7.0pt &quot;Times New Roman&quot;&#39;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+&lt;/span&gt;&lt;/span&gt;&lt;span lang=&quot;EU&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;
+color:#4B5C66&#39;&gt;b. Atribuzioa; lege-oharrak. Power BI APIaren bidez hornitutako
+irudiek Microsoft-en eta bere bazkideen izen komertzialak, marka komertzialak,
+zerbitzu-markak, logotipoak, domeinu-izenak eta marken beste ezaugarri batzuk
+dituzte. Ezin dituzu izen komertzial, marka komertzial, zerbitzu-marka,
+logotipo, domeinu-izen eta marken ezaugarri horiek ezabatu edo aldatu.
+Zerbitzuaren bidez hornitutako irudien estekak edo jakinarazpenak mantentzea
+eta ez kentzea, aldatzea edo ezkutatzea onartzen duzu. Lege-ohar horiek Power
+BI APIan agertzen diren APIaren baldintzen osagaiak direla onartzen duzu.&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-left:.25in;text-indent:-.25in;line-height:
+normal&#39;&gt;&lt;span lang=&quot;EU&quot; style=&#39;font-size:10.0pt;font-family:Symbol;color:#4B5C66&#39;&gt;&#183;&lt;span style=&#39;font:7.0pt &quot;Times New Roman&quot;&#39;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+&lt;/span&gt;&lt;/span&gt;&lt;span lang=&quot;EU&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;
+color:#4B5C66&#39;&gt;c. Digital Millennium Copyright Act (egileen eskubideak
+bermatzeko legea). Digital Millennium Copyright Act (“DMCA”) legea urratzen
+bada, Microsoft-ek bere gidalerroak jarraituz erantzungo dio arau-hauste horri.
+Informazio gehiago lortzeko, irakurri TOUn agertzen den DMCAren ohar-atala.&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-bottom:.05pt;line-height:normal&#39;&gt;&lt;b&gt;&lt;span lang=&quot;EU&quot; style=&#39;font-size:18.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;4.
+Jokabide-kodea.&lt;/span&gt;&lt;/b&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-left:.25in;text-indent:-.25in;line-height:
+normal&#39;&gt;&lt;span lang=&quot;EU&quot; style=&#39;font-size:10.0pt;font-family:Symbol;color:#4B5C66&#39;&gt;&#183;&lt;span style=&#39;font:7.0pt &quot;Times New Roman&quot;&#39;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+&lt;/span&gt;&lt;/span&gt;&lt;span lang=&quot;EU&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;
+color:#4B5C66&#39;&gt;Power BI APIa erabiltzean, zure jokabidearen, edukiaren eta
+horiengatik gerta litezkeen ondorioen erantzule bakarra zarela onartzen duzu.
+Onartzen duzu Power BI APIa modu legal eta bidezko batean erabiliko duzula eta
+APIaren baldintzak edo bestelako gidalerro edo jarraibide aplikagarriak beteko
+dituzula.&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-left:.25in;text-indent:-.25in;line-height:
+normal&#39;&gt;&lt;span lang=&quot;EU&quot; style=&#39;font-size:10.0pt;font-family:Symbol;color:#4B5C66&#39;&gt;&#183;&lt;span style=&#39;font:7.0pt &quot;Times New Roman&quot;&#39;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+&lt;/span&gt;&lt;/span&gt;&lt;span lang=&quot;EU&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;
+color:#4B5C66&#39;&gt;a. Jokabide egokia. Power BI APIa erabiltzean eta aplikazioak
+garatzean, hurrengo hau bete beharko duzu:&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-left:.25in;text-indent:-.25in;line-height:
+normal&#39;&gt;&lt;span lang=&quot;EN&quot; style=&#39;font-size:10.0pt;font-family:Symbol;color:#4B5C66&#39;&gt;&#183;&lt;span style=&#39;font:7.0pt &quot;Times New Roman&quot;&#39;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+&lt;/span&gt;&lt;/span&gt;&lt;span lang=&quot;EU&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;
+color:#4B5C66&#39;&gt;legeak bete;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-left:.25in;text-indent:-.25in;line-height:
+normal&#39;&gt;&lt;span lang=&quot;EN&quot; style=&#39;font-size:10.0pt;font-family:Symbol;color:#4B5C66&#39;&gt;&#183;&lt;span style=&#39;font:7.0pt &quot;Times New Roman&quot;&#39;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+&lt;/span&gt;&lt;/span&gt;&lt;span lang=&quot;EU&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;
+color:#4B5C66&#39;&gt;guk emandako jakinarazpen guztiak eta jokabide-kodeak bete;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-left:.25in;text-indent:-.25in;line-height:
+normal&#39;&gt;&lt;span lang=&quot;DE&quot; style=&#39;font-size:10.0pt;font-family:Symbol;color:#4B5C66&#39;&gt;&#183;&lt;span style=&#39;font:7.0pt &quot;Times New Roman&quot;&#39;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+&lt;/span&gt;&lt;/span&gt;&lt;span lang=&quot;EU&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;
+color:#4B5C66&#39;&gt;zerbitzu-kontuen pasahitzak isilean mantendu;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-left:.25in;text-indent:-.25in;line-height:
+normal&#39;&gt;&lt;span lang=&quot;DE&quot; style=&#39;font-size:10.0pt;font-family:Symbol;color:#4B5C66&#39;&gt;&#183;&lt;span style=&#39;font:7.0pt &quot;Times New Roman&quot;&#39;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+&lt;/span&gt;&lt;/span&gt;&lt;span lang=&quot;EU&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;
+color:#4B5C66&#39;&gt;Power BI zerbitzuari edo Power BI APIari lotutako segurtasuna
+hautsi dela igartzen baduzu, berehala jakinarazi.&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-left:.25in;text-indent:-.25in;line-height:
+normal&#39;&gt;&lt;span lang=&quot;DE&quot; style=&#39;font-size:10.0pt;font-family:Symbol;color:#4B5C66&#39;&gt;&#183;&lt;span style=&#39;font:7.0pt &quot;Times New Roman&quot;&#39;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+&lt;/span&gt;&lt;/span&gt;&lt;span lang=&quot;EU&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;
+color:#4B5C66&#39;&gt;b. Erabilera debekatuak. Power BI APIa erabiltzean eta
+aplikazioak garatzean, ezin duzu:&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-left:.25in;text-indent:-.25in;line-height:
+normal&#39;&gt;&lt;span lang=&quot;DE&quot; style=&#39;font-size:10.0pt;font-family:Symbol;color:#4B5C66&#39;&gt;&#183;&lt;span style=&#39;font:7.0pt &quot;Times New Roman&quot;&#39;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+&lt;/span&gt;&lt;/span&gt;&lt;span lang=&quot;EU&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;
+color:#4B5C66&#39;&gt;beste norbait iraindu, behartu, jazarri edo bere eskubide
+legalak urratu (hala nola pribatutasun- eta publizitate-eskubideak);&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-left:.25in;text-indent:-.25in;line-height:
+normal&#39;&gt;&lt;span lang=&quot;DE&quot; style=&#39;font-size:10.0pt;font-family:Symbol;color:#4B5C66&#39;&gt;&#183;&lt;span style=&#39;font:7.0pt &quot;Times New Roman&quot;&#39;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+&lt;/span&gt;&lt;/span&gt;&lt;span lang=&quot;EU&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;
+color:#4B5C66&#39;&gt;eduki desegokia, iraingarria, lizuna edo legez kontrakoa kargatu,
+argitaratu, posta elektronikoz bidali, transmititu edo eskuragarri jarri;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-left:.25in;text-indent:-.25in;line-height:
+normal&#39;&gt;&lt;span lang=&quot;DE&quot; style=&#39;font-size:10.0pt;font-family:Symbol;color:#4B5C66&#39;&gt;&#183;&lt;span style=&#39;font:7.0pt &quot;Times New Roman&quot;&#39;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+&lt;/span&gt;&lt;/span&gt;&lt;span lang=&quot;EU&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;
+color:#4B5C66&#39;&gt;patenteak, marka komertzialak, copyright-eskubideak,
+salerosketa-sekretuak edo edozein alderdiren jabetza-eskubideak urratzen dituen
+edukia kargatu, argitaratu, posta elektronikoz bidali, transmititu edo
+eskuragarri jarri (eduki hori erabiltzeko, eskubideen jabea izan behar duzu edo
+jabearen baimena izan behar duzu);&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-left:.25in;text-indent:-.25in;line-height:
+normal&#39;&gt;&lt;span lang=&quot;DE&quot; style=&#39;font-size:10.0pt;font-family:Symbol;color:#4B5C66&#39;&gt;&#183;&lt;span style=&#39;font:7.0pt &quot;Times New Roman&quot;&#39;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+&lt;/span&gt;&lt;/span&gt;&lt;span lang=&quot;EU&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;
+color:#4B5C66&#39;&gt;piramide-eskemak edo kate-mezuak sustatzen dituzten mezuak, mezu
+edo iragarki komertzial aztoragarriak, legez kontrako edo APIaren baldintzek
+edo gidalerro edo jarraibide aplikagarriek debekatzen duten edozein mezu mota
+kargatu, argitaratu, posta elektronikoz bidali, transmititu edo eskuragarri
+jarri;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-left:.25in;text-indent:-.25in;line-height:
+normal&#39;&gt;&lt;span lang=&quot;DE&quot; style=&#39;font-size:10.0pt;font-family:Symbol;color:#4B5C66&#39;&gt;&#183;&lt;span style=&#39;font:7.0pt &quot;Times New Roman&quot;&#39;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+&lt;/span&gt;&lt;/span&gt;&lt;span lang=&quot;EU&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;
+color:#4B5C66&#39;&gt;Power BI APIa spyware-a, adware-a edo bestelako asmo txarreko programak
+edo kodea sustatzeko erabiltzen diren produktuekin, zerbitzuekin edo
+materialekin erabili;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-left:.25in;text-indent:-.25in;line-height:
+normal&#39;&gt;&lt;span lang=&quot;PT-BR&quot; style=&#39;font-size:10.0pt;font-family:Symbol;color:#4B5C66&#39;&gt;&#183;&lt;span style=&#39;font:7.0pt &quot;Times New Roman&quot;&#39;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+&lt;/span&gt;&lt;/span&gt;&lt;span lang=&quot;EU&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;
+color:#4B5C66&#39;&gt;hala dela jakinda edo susmatuta ere, beste batek ilegalki
+argitaratutako fitxategiak deskargatu;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-left:.25in;text-indent:-.25in;line-height:
+normal&#39;&gt;&lt;span lang=&quot;PT-BR&quot; style=&#39;font-size:10.0pt;font-family:Symbol;color:#4B5C66&#39;&gt;&#183;&lt;span style=&#39;font:7.0pt &quot;Times New Roman&quot;&#39;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+&lt;/span&gt;&lt;/span&gt;&lt;span lang=&quot;EU&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;
+color:#4B5C66&#39;&gt;beste pertsona edo entitate baten identitatea ordeztu edo iturburuaren,
+softwarearen edo beste materialaren jatorria zehazten duten
+egiletza-erreferentziak, ohar-legalak edo bestelako jabetza-oharrak,
+jabetza-izendapenak edo etiketak faltsutu edo ezabatu;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-left:.25in;text-indent:-.25in;line-height:
+normal&#39;&gt;&lt;span lang=&quot;ES-AR&quot; style=&#39;font-size:10.0pt;font-family:Symbol;color:#4B5C66&#39;&gt;&#183;&lt;span style=&#39;font:7.0pt &quot;Times New Roman&quot;&#39;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+&lt;/span&gt;&lt;/span&gt;&lt;span lang=&quot;EU&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;
+color:#4B5C66&#39;&gt;beste erabiltzaileei Power BI API erabiltzea galarazi edo oztopatu;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-left:.25in;text-indent:-.25in;line-height:
+normal&#39;&gt;&lt;span lang=&quot;ES-AR&quot; style=&#39;font-size:10.0pt;font-family:Symbol;color:#4B5C66&#39;&gt;&#183;&lt;span style=&#39;font:7.0pt &quot;Times New Roman&quot;&#39;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+&lt;/span&gt;&lt;/span&gt;&lt;span lang=&quot;EU&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;
+color:#4B5C66&#39;&gt;Power BI APIa legez kanpo edo baimenik gabe erabili;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-left:.25in;text-indent:-.25in;line-height:
+normal&#39;&gt;&lt;span lang=&quot;ES-AR&quot; style=&#39;font-size:10.0pt;font-family:Symbol;color:#4B5C66&#39;&gt;&#183;&lt;span style=&#39;font:7.0pt &quot;Times New Roman&quot;&#39;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+&lt;/span&gt;&lt;/span&gt;&lt;span lang=&quot;EU&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;
+color:#4B5C66&#39;&gt;Power BI APIak duen copyright-a, marka komertziala edo bestelako
+jabetza-eskubideen oharrak kendu;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-left:.25in;text-indent:-.25in;line-height:
+normal&#39;&gt;&lt;span lang=&quot;ES-AR&quot; style=&#39;font-size:10.0pt;font-family:Symbol;color:#4B5C66&#39;&gt;&#183;&lt;span style=&#39;font:7.0pt &quot;Times New Roman&quot;&#39;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+&lt;/span&gt;&lt;/span&gt;&lt;span lang=&quot;EU&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;
+color:#4B5C66&#39;&gt;Power BI zerbitzura konektatuta dauden Power BI APIa,
+zerbitzariak edo sareak eten edo mugatu edo Power BI APIra konektatuta dauden
+sareen eskaerak, prozedurak, gidalerroak edo arauak desobeditu;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-left:.25in;text-indent:-.25in;line-height:
+normal&#39;&gt;&lt;span lang=&quot;ES-AR&quot; style=&#39;font-size:10.0pt;font-family:Symbol;color:#4B5C66&#39;&gt;&#183;&lt;span style=&#39;font:7.0pt &quot;Times New Roman&quot;&#39;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+&lt;/span&gt;&lt;/span&gt;&lt;span lang=&quot;EU&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;
+color:#4B5C66&#39;&gt;Power BI APIarekin erlaziona litezkeen robotak, armiarmak edo
+bilaketa- eta berreskuratze-aplikazioak erabili edo erabiltzaileen informazioa
+baimenik gabe bildu;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-left:.25in;text-indent:-.25in;line-height:
+normal&#39;&gt;&lt;span lang=&quot;ES-AR&quot; style=&#39;font-size:10.0pt;font-family:Symbol;color:#4B5C66&#39;&gt;&#183;&lt;span style=&#39;font:7.0pt &quot;Times New Roman&quot;&#39;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+&lt;/span&gt;&lt;/span&gt;&lt;span lang=&quot;EU&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;
+color:#4B5C66&#39;&gt;Microsoft-ek eduki faltsuak babesten edo onesten dituela
+iradokitzen duen edozein eduki bidali;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-left:.25in;text-indent:-.25in;line-height:
+normal&#39;&gt;&lt;span lang=&quot;ES-AR&quot; style=&#39;font-size:10.0pt;font-family:Symbol;color:#4B5C66&#39;&gt;&#183;&lt;span style=&#39;font:7.0pt &quot;Times New Roman&quot;&#39;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+&lt;/span&gt;&lt;/span&gt;&lt;span lang=&quot;EU&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;
+color:#4B5C66&#39;&gt;euskarri automatikoekin edo asmo txarreko edo iruzurrezko
+xedeekin erabiltzaile-kontuak sortu edo Power BI APIaren gako anizkoitzak
+eskuratu edo eskuratzen saiatu;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-left:.25in;text-indent:-.25in;line-height:
+normal&#39;&gt;&lt;span lang=&quot;ES-AR&quot; style=&#39;font-size:10.0pt;font-family:Symbol;color:#4B5C66&#39;&gt;&#183;&lt;span style=&#39;font:7.0pt &quot;Times New Roman&quot;&#39;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+&lt;/span&gt;&lt;/span&gt;&lt;span lang=&quot;EU&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;
+color:#4B5C66&#39;&gt;legez kontrako jardueren jarraibideak hornitu edo adoretu edo
+gizatalde edo banakako baten aurkako erasoak edo irainak sustatu;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-left:.25in;text-indent:-.25in;line-height:
+normal&#39;&gt;&lt;span lang=&quot;ES-AR&quot; style=&#39;font-size:10.0pt;font-family:Symbol;color:#4B5C66&#39;&gt;&#183;&lt;span style=&#39;font:7.0pt &quot;Times New Roman&quot;&#39;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+&lt;/span&gt;&lt;/span&gt;&lt;span lang=&quot;EU&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;
+color:#4B5C66&#39;&gt;birusak, harrak, akatsak, Troiako zaldiak edo kaltegarria izan
+daitekeen edozein elementu transmititu;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-left:.25in;text-indent:-.25in;line-height:
+normal&#39;&gt;&lt;span lang=&quot;ES-AR&quot; style=&#39;font-size:10.0pt;font-family:Symbol;color:#4B5C66&#39;&gt;&#183;&lt;span style=&#39;font:7.0pt &quot;Times New Roman&quot;&#39;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+&lt;/span&gt;&lt;/span&gt;&lt;span lang=&quot;EU&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;
+color:#4B5C66&#39;&gt;Power BI APIa edo bere sarbide-kodeak saldu, leasing-ean eman,
+transferitu edo azpilizentzian eman asmo komertzialekin edo irabazi asmoekin,
+Microsoft-ek aurretik egindako idatzizko baimen zehatza eman ezean;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-left:.25in;text-indent:-.25in;line-height:
+normal&#39;&gt;&lt;span lang=&quot;ES-AR&quot; style=&#39;font-size:10.0pt;font-family:Symbol;color:#4B5C66&#39;&gt;&#183;&lt;span style=&#39;font:7.0pt &quot;Times New Roman&quot;&#39;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+&lt;/span&gt;&lt;/span&gt;&lt;span lang=&quot;EU&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;
+color:#4B5C66&#39;&gt;Power BI APIa erabili zentzuzko eskaera-bolumena gainditzen baduzu,
+erabilera bidegabea edo gehiegizkoa bada
+edo,&amp;nbsp;dev.PowerBI.com&amp;nbsp;helbideak adierazten duen eta Microsoft-ek bere
+erabakien ondorioz ezarri duen moduan, Power BI APIaren dokumentazioa betetzen
+ez baduzu edo koherentziarik gabe betetzen baduzu.&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-left:.25in;text-indent:-.25in;line-height:
+normal&#39;&gt;&lt;span lang=&quot;ES-AR&quot; style=&#39;font-size:10.0pt;font-family:Symbol;color:#4B5C66&#39;&gt;&#183;&lt;span style=&#39;font:7.0pt &quot;Times New Roman&quot;&#39;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+&lt;/span&gt;&lt;/span&gt;&lt;span lang=&quot;EU&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;
+color:#4B5C66&#39;&gt;erabiltzaile baten izenean datuak eskatu datu horiek beste
+erabiltzaileei erakusteko, transmititzeko edo bidaltzeko.&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-left:.25in;text-indent:-.25in;line-height:
+normal&#39;&gt;&lt;span lang=&quot;EU&quot; style=&#39;font-size:10.0pt;font-family:Symbol;color:#4B5C66&#39;&gt;&#183;&lt;span style=&#39;font:7.0pt &quot;Times New Roman&quot;&#39;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+&lt;/span&gt;&lt;/span&gt;&lt;span lang=&quot;EU&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;
+color:#4B5C66&#39;&gt;Debekatutako erabilera horiek guztiak adibideak baino ez dira
+eta ez dira muga gisa hartuko. Microsoft-ek beretzat gordetzen du Power BI
+APIari ematen diozun erabilera hemen adierazten diren APIaren baldintzekin bat
+datorrela egiztatzeko eskubidea.&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-bottom:.05pt;line-height:normal&#39;&gt;&lt;b&gt;&lt;span lang=&quot;EU&quot; style=&#39;font-size:18.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;5.
+Pribatutasuna.&lt;/span&gt;&lt;/b&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;line-height:normal&#39;&gt;&lt;span lang=&quot;EU&quot; style=&#39;font-size:
+12.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;Power BI APIren
+sarbidea eta erabilera Power BIren pribatutasun-adierazpenaren mende daude (&lt;/span&gt;&lt;span lang=&quot;EU&quot;&gt;&lt;a href=&quot;http://www.microsoft.com/privacystatement/en-us/OnlineServices/Default.aspx&quot;&gt;&lt;span style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif&#39;&gt;hemen&lt;/span&gt;&lt;/a&gt;&lt;/span&gt;&lt;span lang=&quot;EU&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;
+daukazu erabilgarri). Kontuan izan noizean behin eguneratuko dela.&amp;nbsp;APIaren
+baldintzek ez dute onartzen Interneteko erabiltzaileen informazio pertsonalik
+hornituko alderdiei.&amp;nbsp;Power BI APIa atzitzen duten webguneen eta
+aplikazioen lineako pribatutasun-gidalerro sendoak izan behar
+dituzu.&amp;nbsp;Pribatutasun-gidalerro horiek, gutxienez, cookie-n eta
+erlazionatutako teknologien kokapena-, erabilera-, eta irakurketa-informazio
+oso, zehatz eta ulergarria izan behar dute eta, are gehiago, webguneetako eta
+aplikazioetako erabiltzaileen jardueraren inguruko datuen bilketari eta
+erabilerari buruzko informazioa izan behar dute.&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-bottom:.05pt;line-height:normal&#39;&gt;&lt;b&gt;&lt;span lang=&quot;EU&quot; style=&#39;font-size:18.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;6.
+Erabiltzaileen autentifikazioa eta segurtasuna.&lt;/span&gt;&lt;/b&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;line-height:normal&#39;&gt;&lt;span lang=&quot;EU&quot; style=&#39;font-size:
+12.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;Microsoft-en ustez,
+azken erabiltzaileen segurtasuna eta pribatutasuna oso garrantzitsuak dira;
+beraz, onartzen duzu ahal duzunean lagunduko diguzula Aplikazioak APIaren
+baldintzen eta lege aplikagarrien arabera funtziona dezan.&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;line-height:normal&#39;&gt;&lt;span lang=&quot;EU&quot; style=&#39;font-size:
+12.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;a. Erabiltzaileen
+baimena babestea. Erabiltzaileek emandako Power BI kontua atzitzeko
+(erabiltzailearen informazio pertsonala berreskuratzeko eta
+erabiltzaile-kontuan idazteko barne) baimen argi eta berariazkoa babestearen
+arduradun bakarra zara. Erabiltzaileak bere Power BI kontua atzitzeko ematen
+dizun berariazko baimenaren esparrua zorrozki beteko duzu.&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;line-height:normal&#39;&gt;&lt;span lang=&quot;EU&quot; style=&#39;font-size:
+12.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;b. Harremanetarako
+informazioa eta lankidetza. Segurtasunari edo kezkei buruzko galderarik izanez
+gero, erabiltzaileei zurekin (edo Azure Active Directory-n aplikazioarekin
+batera erregistratutako kontaktuekin) edozein momentutan harremanetan jartzeko
+aukera eman behar diezu. Azure Active Directory-n duzun maizterraren
+informazioa eguneratuz,&amp;nbsp;harremanetarako informazioa alda dezakezu.&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;line-height:normal&#39;&gt;&lt;span lang=&quot;EU&quot; style=&#39;font-size:
+12.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;c. Birusen aurkako
+babes-neurriak. Microsoft-i ematen dizkiozun material guztiak, hala nola
+softwarea eta dokumentuak, Interneteko birusen aurkako eta harren aurkako
+software estandar eta eguneratu batekin egiaztatu beharko dituzu, birusik eta
+harrik ez duela ziurtatzeko. Microsoft-i emandako datuek ezin dute script edo
+kode kaltegarririk izan.&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;line-height:normal&#39;&gt;&lt;span lang=&quot;EU&quot; style=&#39;font-size:
+12.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;d. Sektoreko
+arau-estandarrak. Web-zerbitzarien, bideratzaileen, datu-baseen eta
+ordenagailu-sistemen (“Sistemak”) sareak, sistema eragileak eta softwarea behar
+bezala konfiguratu behar dituzu Interneteko sektore-estandarrak bete ditzaten,
+zure Aplikazioa segurtasunez erabiltzeko. Ez badituzu sistemaren bazterrak
+erabat kontrolatzen, Sistemen edo Sistema sorta baten gainean duzun kontrol edo
+eragin guztia erabiliko duzu eta ez duzu Sistemarik diseinatuko edo hautatuko
+zure betebeharrak saihesteko. Adibidez, proxy ireki gisa funtzionatzen duen
+zerbitzari bat onartezina da. Sistemak modu onartezin batean diseinatzearen
+beste adibide bat segurtasun-praktika urriak dituen hornitzaile baten
+zerbitzari bat hautatzea da; horrela, zerbitzari hori kontrola ezin dezakezula
+adierazi ahal duzu zerbitzari onargarri bat hautatu behar ez izateko.&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;line-height:normal&#39;&gt;&lt;span lang=&quot;EU&quot; style=&#39;font-size:
+12.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;e. Salatzea.
+Sistemekin erlazionatutako segurtasun-hutsune baten edo baimenik gabeko atzitze
+baten berri baduzu, ahalik eta lasterren jakinarazi beharko diozu Microsoft-i
+posta elektroniko bidez helbide honetara:&amp;nbsp;devpbi@microsoft.com.
+Microsoft-ekin batera lan egingo duzu segurtasun-hutsunea ahalik eta lasterren
+konpontzeko, eta baimenik gabe sartzen diren erabiltzaileak segituan
+deskonektatuko ditugu. Segurtasun-hutsuneren bat gertatzen bada edo norbait
+baimenik gabe sartzen saiatzen bada, ez duzu informazio hori publikoki jakitera
+emango (adibidez, prentsan, blogetan, albistegietan, etab.), Microsoft-ek
+aurretik idatzizko baimena propio eman ezean.&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;line-height:normal&#39;&gt;&lt;span lang=&quot;EU&quot; style=&#39;font-size:
+12.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;f. Sistemetarako
+sarbidea kontrolatzea. Sistemen gainean duzun kontrolaren edo eraginaren
+arabera, Sistemak atzitzen dituzten instantzia guztiak erregistratuko dituzu
+(ordua eta data formatua erabiliz). Microsoft-ek baimena ematen dizun heinean,
+Power BIren erabiltzaile-datuak biltzen edo prozesatzen dituzten Sistemen
+fitxategien pasahitza eta erabiltzaile-izena enkriptatuko dituzu. Pasahitzek
+esklusiboak eta intuitiboak izan behar dute eta sarritan aldatu behar dituzu.
+Pasahitzak ahalik eta gutxien erabiliko dituzu. Ahal duzun heinean, pribilegio
+gehigarriak behar dituzten komandoak segurtasunez erregistratuko dituzu (ordua
+eta data formatua erabiliz), jardueren auditoretza-egunkari oso bat gaitzeko.
+Erabiltzaile batek zurekin duen lana akabatzen duenean, bere pasahitzak eta
+sarbide-pasahitzen ezaugarri guztiak berehala akabatu beharko dituzu.&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;line-height:normal&#39;&gt;&lt;span lang=&quot;EU&quot; style=&#39;font-size:
+12.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;g.
+Segurtasun-berrikuspenak. Hemen aipatzen diren segurtasun-xedapenak betetzen
+dituzula egiaztatzeko, Microsoft-ek hirugarren alderdi independente bat
+edukitzeko eskubidea du (baina ez beharra). Hirugarren horrek detektatutako
+segurtasun-hutsuneak berehala eta zure kabuz konpondu beharko dituzu. Are
+gehiago, Microsoft-i idatzizko ziurtagiri bat berehala bidaliko diozu,
+segurtasun-hutsunea konpondu duzula adierazteko eta horretarako emandako urrats
+guztiak azaltzeko. Microsoft-ek berrikuspena egingo duela jakinaraziko dizu
+hura egin baino 48 ordu lehenago. Berrikuspena lanorduetan egingo da eta ez
+ditu lan-jarduera arruntak oztopatuko. Berrikuspenak segurtasun-xedapenen
+urraketarik aurkitzen badu, Microsoft-i berrikuspenak sortutako zentzuzko
+kostuen dirua ordainduko diozu.&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;line-height:normal&#39;&gt;&lt;span lang=&quot;EU&quot; style=&#39;font-size:
+12.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;h. APIaren baldintzei
+“A eranskin” gisa erantsita dagoen “Segurtasun-eskakizunak eta dokumentazioa”
+atalean azaltzen diren betebeharrak eta dokumentazioa ere bete behar dituzu.&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-bottom:.05pt;line-height:normal&#39;&gt;&lt;b&gt;&lt;span lang=&quot;EU&quot; style=&#39;font-size:18.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;7&lt;/span&gt;&lt;/b&gt;&lt;b&gt;&lt;span lang=&quot;EU&quot; style=&#39;font-size:18.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;.
+Laguntza eta erabilgarritasuna.&lt;/span&gt;&lt;/b&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;line-height:normal&#39;&gt;&lt;span lang=&quot;EU&quot; style=&#39;font-size:
+12.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;Microsoft-ek Power BI
+APIaren laguntza edo aldaketak (batera hartuta “Laguntza”) hornitzea erabaki
+dezake. Microsoft-ek edonoiz alda, eten edo pausa dezake Power BI APIaren
+edozein zati, bai eta Power BI APIa kendu ere. Halaber, Microsoft-ek,
+jakinarazpenik eta erantzukizunik gabe, hainbat eginbideri eta zerbitzuri mugak
+jarri diezazkieke edota Power BI API osoan, parte batzuetan zein Power BI
+webgunean sartzea galaraz diezazuke.&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-bottom:.05pt;line-height:normal&#39;&gt;&lt;b&gt;&lt;span lang=&quot;EU&quot; style=&#39;font-size:18.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;8&lt;/span&gt;&lt;/b&gt;&lt;b&gt;&lt;span lang=&quot;EU&quot; style=&#39;font-size:18.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;.
+Kuotak eta ordainketak.&lt;/span&gt;&lt;/b&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;line-height:normal&#39;&gt;&lt;span lang=&quot;EU&quot; style=&#39;font-size:
+12.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;Microsoft-ek, bere erabaki
+baten ondorioz, beretzat gordetzen du etorkizunean Power BI APIa
+erabiltzeagatik edo atzitzeagatik kuotak kobratzeko eskubidea. Microsoft-ek
+Power BI APIa erabiltzeagatik kobratzea erabakitzen badu, tarifen inguruko
+idatzizko jakinarazpen bat jasoko duzu aurretik.&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-bottom:.05pt;line-height:normal&#39;&gt;&lt;b&gt;&lt;span lang=&quot;EU&quot; style=&#39;font-size:18.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;9&lt;/span&gt;&lt;/b&gt;&lt;b&gt;&lt;span lang=&quot;EU&quot; style=&#39;font-size:18.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;.&lt;/span&gt;&lt;/b&gt;&lt;span lang=&quot;EU&quot; style=&#39;font-size:18.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;
+&lt;b&gt;Edozein bermeren ezeztapena.&lt;/b&gt;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;line-height:normal&#39;&gt;&lt;span lang=&quot;EU&quot; style=&#39;font-size:
+12.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;POWER BI APIA “BERE
+HORRETAN” ETA “ERABILGARRI DAGOEN BEZALA” EMATEN DA ETA EZ DA BESTE BERMERIK
+-EZ BERARIAZKORIK, EZ INPLIZITURIK- EMATEN. MICROSOFT-EK EDOZEIN BERME EDO
+BALDINTZA EZEZTATZEN DU, BESTEAK BESTE, MERKATURATZE-BERME INPLIZITUAK, XEDE
+JAKIN BATERAKO GAITASUNAK, ERABILGARRITASUNA, SEGURTASUNA, TITULUA ETA
+EZ-HAUSTEA.&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;line-height:normal&#39;&gt;&lt;span lang=&quot;EU&quot; style=&#39;font-size:
+12.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;MICROSOFT-EK EZ DU
+ADIERAZTEN EDO BERMATZEN POWER BI APIAK ZEHAZTUGABETASUNIK, ERRORERIK,
+PROGRAMAZIO-ERRORERIK EDO ETENALDIRIK EZ DUENIK EDO FIDAGARRIA, ZEHATZA ETA
+BALIOZKOA DENIK EDO OSORIK DAGOENIK. MICROSOFT-EK EZ DU BERMATZEN: (i) POWER BI
+APIA ZURE ESKAKIZUNAK BETEKO DITUENIK; (ii) POWER BI APIAREN ZERBITZURAKO
+SARBIDEAK ETENALDIRIK EZ DUENIK; (iii) POWER BI APIA ERABILTZEAGATIK IZANGO
+DITUZUN EMAITZAK ZEHATZAK EDO FIDAGARRIAK IZANGO DIRENIK; (iv) POWER BI APIA
+ERABILIZ ESKURATUTAKO PRODUKTUEN, ZERBITZUEN, INFORMAZIOEN EDO BESTELAKO
+MATERIALAREN KALITATEA ESPERO ZENUELA DENIK EZTA (v) POWER BI APIAN AURKITUTAKO
+ERROREAK ZUZENDUKO DIRENIK ERE.&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;line-height:normal&#39;&gt;&lt;span lang=&quot;EU&quot; style=&#39;font-size:
+12.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;POWER BI APIA ZURE
+GAIN ETA GALORDE ERABILI AHALKO DUZU ETA POWER BI APIAREN ERABILERAREN ONDORIOZ
+SORTUTAKO EDOZEIN KALTEREN ERANTZULE BAKARRA IZANGO ZARA. &lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-bottom:.05pt;line-height:normal&#39;&gt;&lt;b&gt;&lt;span lang=&quot;EU&quot; style=&#39;font-size:18.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;10&lt;/span&gt;&lt;/b&gt;&lt;b&gt;&lt;span lang=&quot;EU&quot; style=&#39;font-size:18.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;.&lt;/span&gt;&lt;/b&gt;&lt;span lang=&quot;EU&quot; style=&#39;font-size:18.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;
+&lt;b&gt;Erantzukizunaren muga&lt;/b&gt;.&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;line-height:normal&#39;&gt;&lt;span lang=&quot;EU&quot; style=&#39;font-size:
+12.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;APIAREN BALDINTZEN
+XEDAPENAK GORABEHERA, MICROSOFT-EK APIAREN BALDINTZEN, HAIEN AKABERAREN EDO
+IRAUNGITZEAREN ONDORIOZ ZUK EGINDAKO ERREKLAMAZIOENGATIK DUEN GEHIENEZKO
+ERANTZUKIZUNA 10,00 USD-KOA IZANGO DA. HALABER, BARNE HARTZEN DIRA
+KONTRATUAREN, BERMEAREN, BIDEGABEKERIAREN, OINARRIZKO XEDEA EZ BETETZEAREN EDO
+SALEROSKETAN ERABILTZEAREN ONDORIOZ SORTUTAKO ERREKLAMAZIOAK. EZIN DUZU
+BESTELAKO KALTE-ORDAINIK EDO GALERA-ORDAINIK JASOKO, HOTS, EZ DUZU ONDORIOZKO,
+GALDUTAKO MOZKINENGATIKO, APARTEKO, ZEHARKAKO, ISTRIPUZKO EDO ZIGORREZKO
+KALTE-ORDAINIK JASOKO. MUGA ETA SALBUESPEN HORIEK APLIKATUKO DIRA, BALDIN ETA
+KONPONBIDE HORREK EZ BADITU ZURE GALERAK GUZTIZ KONPENTSATZEN EDO EZ BADU BERE
+OINARRIZKO HELBURUA BETETZEN EDO BALDIN ETA BAGENEKIEN EDO JAKIN BEHAR BAGENUEN
+KALTEAK GERTA ZITEZKEELA. LEGEAK AHALBIDETZEN DUEN NEURRIAN, MUGA ETA
+SALBUESPEN HAUEK APLIKATUKO ZAIZKIO APIAREN BALDINTZA HORIEKIN ERLAZIONATUTAKO
+EDOZERI, BESTEAK BESTE: EDUKIAREN GALERA; POWER BI APIAREN ERABILERA GALARAZTEN
+DUTEN BIRUS GUZTIAK; TRANSMISIOAK EDO TRANSAKZIOAK HASTEAN EDO BURUTZEAN
+GERTATUTAKO ATZERAPENAK ETA AKATSAK; KONTRATUA, BERMEA EDO BALDINTZAK
+HAUSTEAGATIK EGINDAKO ERREKLAMAZIOAK; ERANTZUKIZUN HERTSIA, ARDURAGABEKERIA;
+DESITXURATZEA, OMISIOA EDO BIDEGABEKERIA; ESTATUTUA EDO ARAUDIA URRATZEA EDO
+BIDEGABEKI ABERASTEA. SALBUESPEN ETA MUGA HORIETAKO BATZUK EZ ZAIZKIZU
+APLIKATUKO, BALDIN ETA ZURE ESTATUAK, PROBINTZIAK EDO HERRIALDEAK EZ BADU
+ONARTZEN ISTRIPUZKO, ONDORIOZKO EDO BESTELAKO KALTEEN SALBUESPENA EDO MUGA. &lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-bottom:.05pt;line-height:normal&#39;&gt;&lt;b&gt;&lt;span lang=&quot;EU&quot; style=&#39;font-size:18.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;11&lt;/span&gt;&lt;/b&gt;&lt;b&gt;&lt;span lang=&quot;EU&quot; style=&#39;font-size:18.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;.&lt;/span&gt;&lt;/b&gt;&lt;span lang=&quot;EU&quot; style=&#39;font-size:18.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;
+&lt;b&gt;Kalte-ordainak&lt;/b&gt;.&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;line-height:normal&#39;&gt;&lt;span lang=&quot;EU&quot; style=&#39;font-size:
+12.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;Microsoft-i (eta bere
+zuzendariei, arduradunei, afiliatuei eta agenteei) kalte-ordainak eman beharko
+dizkiezu, babestu beharko dituzu eta galeren, gastuen edo erantzukizunaren
+kostuak (abokatuen zentzuzko kostuak barne) ordaindu beharko dizkiezu, baldin
+eta edonolako erreklamazio, prozedura edo auzi-eske sortzen bada webguneei,
+aplikazioei edo Power BI APIari ematen diezun erabileraren eraginez hitzarmen
+hau hausten duzulako.&amp;nbsp;Elkarren artean erabakitako abokatu baten bitartez,
+erreklamazioen defentsaren erantzule bakarra zu izango zara (betiere
+Microsoft-ek nahi duen abokatua hautatzeko eskubidea kontuan hartuta).
+Microsoft-ek bere erabaki baten ondorioz idatzizko baimena eman ezean, ezin
+duzu Microsoft-i (edo bere zuzendariei, arduradunei, afiliatuei eta agenteei)
+edozein erantzukizun edo betebehar inposatzen dion konponbidearen
+erreklamaziorik edo akordiorik argitaratu.&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-bottom:.05pt;line-height:normal&#39;&gt;&lt;b&gt;&lt;span lang=&quot;EU&quot; style=&#39;font-size:18.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;12&lt;/span&gt;&lt;/b&gt;&lt;b&gt;&lt;span lang=&quot;EU&quot; style=&#39;font-size:18.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;.
+Iraupena eta akabera.&lt;/span&gt;&lt;/b&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;line-height:normal&#39;&gt;&lt;span lang=&quot;EU&quot; style=&#39;font-size:
+12.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;APIaren baldintza
+horiek indarrean sartuko dira Power BI APIa erabiltzen hasten zarenean eta
+mantendu egingo dira alderdietako batek bertan behera utzi arte. APIaren
+baldintzak akaba ditzakezu, Power BI APIa erabiltzeari utziz. Microsoft-ek
+APIaren baldintza horiek nahi duenean eta edozein arrazoirengatik akabatu
+ahalko ditu. APIaren baldintzak automatikoki akabatuko dira: (i) APIaren
+baldintzak edo TOUa urratzen badituzu; (ii) Microsoft-ek Power BI webgunean
+argitaratzen badu baldintzak bertan behera uzten dituela; (iii) Microsoft-ek
+akabera-jakinarazpen bat bidaltzen badizu edo (iv) Microsoft-ek Power BI APIrako
+sarbidea ukatzen badizu.&amp;nbsp;Alderdientzako 3., 9., 10., 11., 12., 15., 16.,
+17., 18. eta 19. ataletako betebeharrak ez dira iraungiko, APIaren baldintzak
+edozein arrazoirengatik akabatzen edo iraungitzen badira ere.&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-bottom:.05pt;line-height:normal&#39;&gt;&lt;b&gt;&lt;span lang=&quot;EU&quot; style=&#39;font-size:18.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;13&lt;/span&gt;&lt;/b&gt;&lt;b&gt;&lt;span lang=&quot;EU&quot; style=&#39;font-size:18.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;.
+Esleipena.&lt;/span&gt;&lt;/b&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;line-height:normal&#39;&gt;&lt;span lang=&quot;EU&quot; style=&#39;font-size:
+12.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;Hitzarmen hau (osorik
+edo parte bat) norbaiti eslei diezaiokegu edozein momentutan eta zuri
+jakinarazi gabe. Ezin diozu hitzarmen hau (osorik edo parte bat) inori esleitu,
+aurretiko baimenik izan ezean. Are gehiago, ez dugu baimen hori emango
+arrazoirik gabe. Hori egiteko edozein saiakera debekaturik daukazu. Ezin diozu
+inori Power BI APIa (osorik edo parte bat) erabiltzeko eskubiderik transferitu,
+ez behin betiko, ez aldi baterako.&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-bottom:.05pt;line-height:normal&#39;&gt;&lt;b&gt;&lt;span lang=&quot;EU&quot; style=&#39;font-size:18.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;14&lt;/span&gt;&lt;/b&gt;&lt;b&gt;&lt;span lang=&quot;EU&quot; style=&#39;font-size:18.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;.
+Hirugarren onuradunik ez.&lt;/span&gt;&lt;/b&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;line-height:normal&#39;&gt;&lt;span lang=&quot;EU&quot; style=&#39;font-size:
+12.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;Hitzarmen hau zure
+eta Microsoft-en onurarako baino ez da. Hirugarrenek ez dute onurarik,
+hitzarmenean onartutako oinordeek eta izendatuek salbu.&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-bottom:.05pt;line-height:normal&#39;&gt;&lt;b&gt;&lt;span lang=&quot;EU&quot; style=&#39;font-size:18.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;15&lt;/span&gt;&lt;/b&gt;&lt;b&gt;&lt;span lang=&quot;EU&quot; style=&#39;font-size:18.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;.
+Bereizgarritasuna.&lt;/span&gt;&lt;/b&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;line-height:normal&#39;&gt;&lt;span lang=&quot;EU&quot; style=&#39;font-size:
+12.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;Jurisdikzio eskudun
+bateko epai batek APIaren baldintzetako edozein zehaztapen ilegaltzat, balio
+gabekotzat edo gauzatu ezinezkotzat jotzen badu, gainerako zehaztapenak
+baliozkoak izaten eta indarrean egoten jarraituko dute.&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-bottom:.05pt;line-height:normal&#39;&gt;&lt;b&gt;&lt;span lang=&quot;EU&quot; style=&#39;font-size:18.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;16&lt;/span&gt;&lt;/b&gt;&lt;b&gt;&lt;span lang=&quot;EU&quot; style=&#39;font-size:18.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;.
+Jakinarazpenak.&lt;/span&gt;&lt;/b&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;line-height:normal&#39;&gt;&lt;span lang=&quot;EU&quot; style=&#39;font-size:
+12.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;Microsoft-i baimena
+ematen diozu Power BI APIari edo legeek emateko eskatzen diguten informazioari
+buruzko jakinarazpenak bidaltzeko, posta elektronikoz, Power BI APIan izena
+ematean zehaztu zenuen helbidera. Mezu elektronikoa bidaltzearekin batera posta
+elektronikoz bidalitako jakinarazpenak entregatu eta jaso direla pentsatuko da.
+Ez badiguzu baimenik ematen jakinarazpen elektronikoak bidaltzeko, Power BI
+APIa atzitzeari utzi beharko diozu. &lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-bottom:.05pt;line-height:normal&#39;&gt;&lt;b&gt;&lt;span lang=&quot;EU&quot; style=&#39;font-size:18.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;17&lt;/span&gt;&lt;/b&gt;&lt;b&gt;&lt;span lang=&quot;EU&quot; style=&#39;font-size:18.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;.
+Microsoft-en eskubide-salbuespenik ez.&lt;/span&gt;&lt;/b&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;line-height:normal&#39;&gt;&lt;span lang=&quot;EU&quot; style=&#39;font-size:
+12.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;Microsoft-ek APIaren baldintzen
+eskubideak edo xedapenak betearazten edo betetzen ez baditu, ez dira
+salbuetsiko.&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-bottom:.05pt;line-height:normal&#39;&gt;&lt;b&gt;&lt;span lang=&quot;EU&quot; style=&#39;font-size:18.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;18&lt;/span&gt;&lt;/b&gt;&lt;b&gt;&lt;span lang=&quot;EU&quot; style=&#39;font-size:18.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;.
+Lege aplikagarria; jurisdikzioa.&lt;/span&gt;&lt;/b&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-top:6.0pt;margin-right:0in;margin-bottom:0in;
+margin-left:0in;margin-bottom:.0001pt;line-height:normal&#39;&gt;&lt;span lang=&quot;EU&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;Washington
+estatuaren legeek arautzen dute APIaren baldintza hauek. Jurisdikzio federala
+aplikagarria bada, alderdiek onartzen dute King County-ko (Washington, AEB)
+auzitegi estatal eta federalak direla toki eta eskumendun bakarrak gatazkak
+ebazteko. Ez bada jurisdikzio federala aplikatzen, alderdiek onartzen dute King
+County-ko (Washington, AEB) Auzitegi Gorena dela toki eta eskumendun bakarra
+gatazkak ebazteko. Microsoft-ek edo zuk abokatuak kontratatzen badituzue
+APIaren baldintzak arautzen ez dituzten eskubideak betearazteko, irabazten duen
+alderdiak abokatuen zentzuzko tarifak, kuotak eta bestelako gastuak
+berreskuratuko ditu, baita apelazioen, porrot-egitearen edo bestelako ekintzen
+ondorioz sortutako gastuak ere.&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-bottom:.05pt;line-height:normal&#39;&gt;&lt;b&gt;&lt;span lang=&quot;EU&quot; style=&#39;font-size:18.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;&amp;nbsp;&lt;/span&gt;&lt;/b&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-bottom:.05pt;line-height:normal&#39;&gt;&lt;b&gt;&lt;span lang=&quot;EU&quot; style=&#39;font-size:18.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;19&lt;/span&gt;&lt;/b&gt;&lt;b&gt;&lt;span lang=&quot;EU&quot; style=&#39;font-size:18.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;.
+Hitzarmen osoa.&lt;/span&gt;&lt;/b&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-top:6.0pt;margin-right:0in;margin-bottom:0in;
+margin-left:0in;margin-bottom:.0001pt;line-height:normal&#39;&gt;&lt;span lang=&quot;EU&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;APIaren
+baldintza hauek zure eta Microsoft-en arteko hitzarmen osoa osatzen dute,
+dokumentu honetan jorratzen den gaiari dagokionez.&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;line-height:normal&#39;&gt;&lt;span lang=&quot;EU&quot; style=&#39;font-size:
+12.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-bottom:.05pt;line-height:normal&#39;&gt;&lt;span lang=&quot;EU&quot; style=&#39;font-size:18.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-bottom:.05pt;line-height:normal&#39;&gt;&lt;span lang=&quot;EU&quot; style=&#39;font-size:18.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-bottom:.05pt;line-height:normal&#39;&gt;&lt;span lang=&quot;EU&quot; style=&#39;font-size:18.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-bottom:.05pt;line-height:normal&#39;&gt;&lt;span lang=&quot;EU&quot; style=&#39;font-size:18.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-bottom:.05pt;line-height:normal&#39;&gt;&lt;span lang=&quot;EU&quot; style=&#39;font-size:18.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-bottom:.05pt;line-height:normal&#39;&gt;&lt;span lang=&quot;EU&quot; style=&#39;font-size:18.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-bottom:.05pt;line-height:normal&#39;&gt;&lt;span lang=&quot;EU&quot; style=&#39;font-size:18.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-bottom:.05pt;line-height:normal&#39;&gt;&lt;span lang=&quot;EU&quot; style=&#39;font-size:18.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-bottom:.05pt;line-height:normal&#39;&gt;&lt;span lang=&quot;EU&quot; style=&#39;font-size:18.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-bottom:.05pt;line-height:normal&#39;&gt;&lt;span lang=&quot;EU&quot; style=&#39;font-size:18.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-bottom:.05pt;line-height:normal&#39;&gt;&lt;span lang=&quot;EU&quot; style=&#39;font-size:18.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-bottom:.05pt;line-height:normal&#39;&gt;&lt;span lang=&quot;EU&quot; style=&#39;font-size:18.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; align=&quot;center&quot; style=&#39;margin-bottom:.05pt;text-align:center;
+line-height:normal&#39;&gt;&lt;span lang=&quot;EU&quot; style=&#39;font-size:18.0pt;font-family:&quot;Times New Roman&quot;,serif;
+color:#4B5C66&#39;&gt;A eranskina&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; align=&quot;center&quot; style=&#39;margin-bottom:.05pt;text-align:center;
+line-height:normal&#39;&gt;&lt;span lang=&quot;EU&quot; style=&#39;font-size:18.0pt;font-family:&quot;Times New Roman&quot;,serif;
+color:#4B5C66&#39;&gt;Segurtasun-eskakizunak eta dokumentazioa&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-bottom:.05pt;line-height:normal&#39;&gt;&lt;b&gt;&lt;span lang=&quot;EU&quot; style=&#39;font-size:18.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;&amp;nbsp;&lt;/span&gt;&lt;/b&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-bottom:.05pt;line-height:normal&#39;&gt;&lt;b&gt;&lt;span lang=&quot;EU&quot; style=&#39;font-size:18.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;Segurtasun-eskakizunak:&lt;/span&gt;&lt;/b&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-left:.25in;text-indent:-.25in;line-height:
+normal&#39;&gt;&lt;span lang=&quot;EU&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;
+color:#4B5C66&#39;&gt;1.&lt;span style=&#39;font:7.0pt &quot;Times New Roman&quot;&#39;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+&lt;/span&gt;&lt;/span&gt;&lt;span lang=&quot;EU&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;
+color:#4B5C66&#39;&gt;Bazkideek Microsoft-i segurtasun-dokumentazio garrantzitsu
+guztia emango diote; adibidez: segurtasun-gidalerroak, istripuei erantzuteko
+gidalerroak, arriskuen ebaluazioa, datuen sailkapena, kodea analizatzeko
+analisi-gailu bitar estatikoak eta dinamikoak, penetrazio-proben emaitzak,
+hirugarrenen osagaiak, etab.;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-left:.25in;text-indent:-.25in;line-height:
+normal&#39;&gt;&lt;span lang=&quot;EU&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;
+color:#4B5C66&#39;&gt;2.&lt;span style=&#39;font:7.0pt &quot;Times New Roman&quot;&#39;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+&lt;/span&gt;&lt;/span&gt;&lt;span lang=&quot;EU&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;
+color:#4B5C66&#39;&gt;Bazkideek Power BI bezeroen datuen erabilerari buruzko
+dokumentazio zehatza (esaterako: erabileraren xedeak, erabilitako Power BIko
+datuak, transmisioa, biltegiratzea, etab.) erabiltzaileen esku jarriko du;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-left:.25in;text-indent:-.25in;line-height:
+normal&#39;&gt;&lt;span lang=&quot;EU&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;
+color:#4B5C66&#39;&gt;3.&lt;span style=&#39;font:7.0pt &quot;Times New Roman&quot;&#39;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+&lt;/span&gt;&lt;/span&gt;&lt;span lang=&quot;EU&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;
+color:#4B5C66&#39;&gt;Power BIko bezeroei eragin diezaieketen ahulguneak
+identifikatuko dituzula eta berehala konponduko dituzula bermatzen duzu;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-left:.25in;text-indent:-.25in;line-height:
+normal&#39;&gt;&lt;span lang=&quot;EU&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;
+color:#4B5C66&#39;&gt;4.&lt;span style=&#39;font:7.0pt &quot;Times New Roman&quot;&#39;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+&lt;/span&gt;&lt;/span&gt;&lt;span lang=&quot;EU&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;
+color:#4B5C66&#39;&gt;Zuk eta Microsoft-ek adostu zenuten bezala, Microsoft-ek
+hirugarrenen eskaintzen segurtasun-neurriak probatzeko baimena duela bermatzen
+duzu;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-left:.25in;text-indent:-.25in;line-height:
+normal&#39;&gt;&lt;span lang=&quot;EU&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;
+color:#4B5C66&#39;&gt;5.&lt;span style=&#39;font:7.0pt &quot;Times New Roman&quot;&#39;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+&lt;/span&gt;&lt;/span&gt;&lt;span lang=&quot;EU&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;
+color:#4B5C66&#39;&gt;Datuak mantenduko dituzu zehaztutako xedeak soilik betetzeko,
+eta beharrezkoa ez den informazio guztia ezabatuko duzu;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-left:.25in;text-indent:-.25in;line-height:
+normal&#39;&gt;&lt;span lang=&quot;EU&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;
+color:#4B5C66&#39;&gt;6.&lt;span style=&#39;font:7.0pt &quot;Times New Roman&quot;&#39;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+&lt;/span&gt;&lt;/span&gt;&lt;span lang=&quot;EU&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;
+color:#4B5C66&#39;&gt;Microsoft-ekiko erlazioa akabatzen denean, Microsoft-en datu
+guztiak zure sistemetatik ezabatuko edo suntsituko dira.&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;line-height:normal&#39;&gt;&lt;span lang=&quot;EU&quot; style=&#39;font-size:
+12.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-bottom:.05pt;line-height:normal&#39;&gt;&lt;b&gt;&lt;span lang=&quot;EU&quot; style=&#39;font-size:18.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;Segurtasun-dokumentazioa
+&lt;/span&gt;&lt;/b&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;line-height:normal&#39;&gt;&lt;span lang=&quot;EU&quot; style=&#39;font-size:
+12.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;Microsoft-en bezeroen
+datuen atxikipena beharrezkoa bada integrazioa egiteko, hurrengo
+segurtasun-dokumentazioa emango dizugu, hala eskatuz gero:&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-left:.25in;text-indent:-.25in;line-height:
+normal&#39;&gt;&lt;span lang=&quot;EU&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;
+color:#4B5C66&#39;&gt;1.&lt;span style=&#39;font:7.0pt &quot;Times New Roman&quot;&#39;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+&lt;/span&gt;&lt;/span&gt;&lt;span lang=&quot;EU&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;
+color:#4B5C66&#39;&gt;Sistemaren egituraren azalpena (adibidez, kokalekua,
+sistema-osagai nagusien xedea, Power BI bezeroen datuak atzituko dituzten
+sistema garrantzitsuak, nola biltegiratzen edo transmititzen diren Microsoft
+datuak, etab.)&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-left:.25in;text-indent:-.25in;line-height:
+normal&#39;&gt;&lt;span lang=&quot;EU&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;
+color:#4B5C66&#39;&gt;2.&lt;span style=&#39;font:7.0pt &quot;Times New Roman&quot;&#39;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+&lt;/span&gt;&lt;/span&gt;&lt;span lang=&quot;EU&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;
+color:#4B5C66&#39;&gt;Segurtasun-ziurtagiriak edo -txostenak (SSAE16, SOC2, ISO27001,
+etab.)&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-left:.25in;text-indent:-.25in;line-height:
+normal&#39;&gt;&lt;span lang=&quot;EN&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;
+color:#4B5C66&#39;&gt;3.&lt;span style=&#39;font:7.0pt &quot;Times New Roman&quot;&#39;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+&lt;/span&gt;&lt;/span&gt;&lt;span lang=&quot;EU&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;
+color:#4B5C66&#39;&gt;Dagozkion sistemen segurtasun-neurri fisikoak&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-left:.25in;text-indent:-.25in;line-height:
+normal&#39;&gt;&lt;span lang=&quot;ES-AR&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;
+color:#4B5C66&#39;&gt;4.&lt;span style=&#39;font:7.0pt &quot;Times New Roman&quot;&#39;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+&lt;/span&gt;&lt;/span&gt;&lt;span lang=&quot;EU&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;
+color:#4B5C66&#39;&gt;Kontratuak eta segurtasun-informazio garrantzitsua sortzen duten
+sisteman dauden hirugarren alderdiak&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-left:.25in;text-indent:-.25in;line-height:
+normal&#39;&gt;&lt;span lang=&quot;EN&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;
+color:#4B5C66&#39;&gt;5.&lt;span style=&#39;font:7.0pt &quot;Times New Roman&quot;&#39;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+&lt;/span&gt;&lt;/span&gt;&lt;span lang=&quot;EU&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;
+color:#4B5C66&#39;&gt;Zure sarbide-kontrolen eredua&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-left:.25in;text-indent:-.25in;line-height:
+normal&#39;&gt;&lt;span lang=&quot;ES-AR&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;
+color:#4B5C66&#39;&gt;6.&lt;span style=&#39;font:7.0pt &quot;Times New Roman&quot;&#39;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+&lt;/span&gt;&lt;/span&gt;&lt;span lang=&quot;EU&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;
+color:#4B5C66&#39;&gt;Segurtasun-sistema lokal zehatzak (IDS, HIDS,
+ahultasun-eskanerra)&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-left:.25in;text-indent:-.25in;line-height:
+normal&#39;&gt;&lt;span lang=&quot;ES-AR&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;
+color:#4B5C66&#39;&gt;7.&lt;span style=&#39;font:7.0pt &quot;Times New Roman&quot;&#39;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+&lt;/span&gt;&lt;/span&gt;&lt;span lang=&quot;EU&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;
+color:#4B5C66&#39;&gt;Segurtasuna bermatzeko arduradunen funtzioak (taldea eta
+kudeaketa)&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-left:.25in;text-indent:-.25in;line-height:
+normal&#39;&gt;&lt;span lang=&quot;DE&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;
+color:#4B5C66&#39;&gt;8.&lt;span style=&#39;font:7.0pt &quot;Times New Roman&quot;&#39;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+&lt;/span&gt;&lt;/span&gt;&lt;span lang=&quot;EU&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;
+color:#4B5C66&#39;&gt;Sistemaren kontu-kredentzial nagusiak babesteko modua&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-left:.25in;text-indent:-.25in;line-height:
+normal&#39;&gt;&lt;span lang=&quot;DE&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;
+color:#4B5C66&#39;&gt;9.&lt;span style=&#39;font:7.0pt &quot;Times New Roman&quot;&#39;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+&lt;/span&gt;&lt;/span&gt;&lt;span lang=&quot;EU&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;
+color:#4B5C66&#39;&gt;Sistemetarako sarbidea hornitzeko, ukatzeko edo kontrolatzeko
+modua&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-left:.25in;text-indent:-.25in;line-height:
+normal&#39;&gt;&lt;span lang=&quot;ES-AR&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;
+color:#4B5C66&#39;&gt;10.&lt;span style=&#39;font:7.0pt &quot;Times New Roman&quot;&#39;&gt;&amp;nbsp; &lt;/span&gt;&lt;/span&gt;&lt;span lang=&quot;EU&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;Zer
+langile-funtziok bermatzen duen sistema nagusietarako sarbidea&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-left:.25in;text-indent:-.25in;line-height:
+normal&#39;&gt;&lt;span lang=&quot;ES-AR&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;
+color:#4B5C66&#39;&gt;11.&lt;span style=&#39;font:7.0pt &quot;Times New Roman&quot;&#39;&gt;&amp;nbsp; &lt;/span&gt;&lt;/span&gt;&lt;span lang=&quot;EU&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;Edozein
+auditoretza, kontrol eta erregistro lokal&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-left:.25in;text-indent:-.25in;line-height:
+normal&#39;&gt;&lt;span lang=&quot;ES-AR&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;
+color:#4B5C66&#39;&gt;12.&lt;span style=&#39;font:7.0pt &quot;Times New Roman&quot;&#39;&gt;&amp;nbsp; &lt;/span&gt;&lt;/span&gt;&lt;span lang=&quot;EU&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;Aplikazioaren
+segurtasun-prozesua (segurtasun-garapenaren jardunbide egokiak,
+segurtasun-probak, etab.)&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-left:.25in;text-indent:-.25in;line-height:
+normal&#39;&gt;&lt;span lang=&quot;ES-AR&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;
+color:#4B5C66&#39;&gt;13.&lt;span style=&#39;font:7.0pt &quot;Times New Roman&quot;&#39;&gt;&amp;nbsp; &lt;/span&gt;&lt;/span&gt;&lt;span lang=&quot;EU&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;Edozein
+gertakari edo ezbehar gertatuz gero erantzuteko eta berreskuratzeko prozedurak&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-left:.25in;text-indent:-.25in;line-height:
+normal&#39;&gt;&lt;span lang=&quot;EN&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;
+color:#4B5C66&#39;&gt;14.&lt;span style=&#39;font:7.0pt &quot;Times New Roman&quot;&#39;&gt;&amp;nbsp; &lt;/span&gt;&lt;/span&gt;&lt;span lang=&quot;EU&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;Segurtasun-adabakiak
+helbideratzeko prozesua&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-left:.25in;text-indent:-.25in;line-height:
+normal&#39;&gt;&lt;span lang=&quot;EN&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;
+color:#4B5C66&#39;&gt;15.&lt;span style=&#39;font:7.0pt &quot;Times New Roman&quot;&#39;&gt;&amp;nbsp; &lt;/span&gt;&lt;/span&gt;&lt;span lang=&quot;EU&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;Sistemak
+erabiltzen dituen hirugarrenen osagaiei hirugarrenen segurtasun-adabakiak
+aplikatzeko prozesua&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-left:.25in;text-indent:-.25in;line-height:
+normal&#39;&gt;&lt;span lang=&quot;EN&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;
+color:#4B5C66&#39;&gt;16.&lt;span style=&#39;font:7.0pt &quot;Times New Roman&quot;&#39;&gt;&amp;nbsp; &lt;/span&gt;&lt;/span&gt;&lt;span lang=&quot;EU&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;Aplikazioak
+Power BI bezeroen datuak erabiltzen dituenean zelan babesten diren biltegian
+eta bidean&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;line-height:normal&#39;&gt;&lt;span lang=&quot;EN&quot; style=&#39;font-size:
+12.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;</value>
+  </data>
+  <data name="Heading" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="META_DESCRIPTION" xml:space="preserve">
+    <value />
+  </data>
+  <data name="META_KEYWORDS" xml:space="preserve">
+    <value />
+  </data>
+  <data name="META_PAGETITLE" xml:space="preserve">
+    <value>Power BI API Terms of Service | Microsoft Power BI</value>
+  </data>
+</root>

@@ -1,0 +1,54 @@
+﻿@model PowerBI.Web.Features.Forms.Models.SupportProTicketFormViewModel
+
+@using Resources = PowerBI.Resources.Shared.Forms.SubmitView.SupportProTicketThanks
+@using Form = PowerBI.Resources.Shared.Forms.SupportProTicket
+
+@if (string.IsNullOrWhiteSpace(Model.TicketId))
+{
+    <div class="row column">
+        <h3 class="text-palette10">@Resources.TicketErrorHeading</h3>
+    </div>
+}
+else
+{
+    <div class="row column">
+        <h2>@Resources.Heading</h2>
+        <h3>@Html.RawFormatInvariant(Resources.TicketHeading, Model.TicketId)</h3>
+        <p>@Resources.Content</p>
+    </div>
+}
+
+<div class="row column">
+    <h3>@Form.PersonalInformation_Heading</h3>
+    <label>@Form.FirstName_Label</label>
+    <p class="text-heading4">@Model.FirstName</p>
+    <label>@Form.LastName_Label</label>
+    <p class="text-heading4">@Model.LastName</p>
+    <label>@Form.Email_Label</label>
+    <p class="text-heading4">@Model.Email</p>
+    <label>@Form.Phone_Label</label>
+    <p class="text-heading4">@Model.Phone</p>
+    <label>@Form.TimeZone_Label</label>
+    <p class="text-heading4">@Model.TimeZoneList.FirstOrDefault(x => x.Key.Equals(Model.TimeZone, StringComparison.InvariantCultureIgnoreCase)).Value</p>
+    <label>@Form.Country_Label</label>
+    <p class="text-heading4">@Model.CountriesList.FirstOrDefault(x => x.Key.Equals(Model.Country, StringComparison.InvariantCultureIgnoreCase)).Value</p>
+</div>
+<div class="row column">
+    <h3>@Form.Issue_Heading</h3>
+    <label>@Form.ProblemType_Label</label>
+    <p class="text-heading4">@Model.ProblemTypeList.FirstOrDefault(x => x.Key.Equals(Model.ProblemType, StringComparison.InvariantCultureIgnoreCase)).Value</p>
+    <label>@Form.Category_Label</label>
+    <p class="text-heading4">@Model.CategoryList.FirstOrDefault(x => x.Key.Equals(Model.Category, StringComparison.InvariantCultureIgnoreCase)).Value</p>
+    <label>@Form.Subject_Label</label>
+    <p class="text-heading4">@Model.Subject</p>
+    @if (Model.ParsedQuestions != null && Model.ParsedQuestions.Any())
+    {
+        <label>@Form.Questions_Label</label>
+        <ul>
+        @foreach (var question in Model.ParsedQuestions)
+        {
+            <li><p class="text-heading4">@question</p></li>
+        }
+        </ul>
+    }
+</div>

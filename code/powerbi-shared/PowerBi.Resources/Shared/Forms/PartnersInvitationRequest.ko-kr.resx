@@ -1,0 +1,184 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" id="root">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Company_ErrorMessage" xml:space="preserve">
+    <value>올바른 회사 이름을 입력하세요.</value>
+  </data>
+  <data name="Company_Label" xml:space="preserve">
+    <value>회사 이름</value>
+  </data>
+  <data name="Country_ErrorMessage" xml:space="preserve">
+    <value>올바른 국가를 선택하세요.</value>
+  </data>
+  <data name="Country_Label" xml:space="preserve">
+    <value>국가</value>
+  </data>
+  <data name="Disclaimer_ErrorMessage" xml:space="preserve">
+    <value>고지 사항에 동의하세요.</value>
+  </data>
+  <data name="Disclaimer_Text" xml:space="preserve">
+    <value>&lt;p&gt;Microsoft는 Power BI에 대한 업데이트와 특별 혜택을 제공하기 위해 귀하의 연락처 정보를 사용할 수 있습니다. 언제든지 구독을 취소할 수 있습니다. 자세히 알아보려면 &lt;a href="{0}"&gt;개인정보취급방침&lt;/a&gt;을 읽어보세요.&lt;/p&gt;</value>
+    <comment>DO NOT LOCALIZE</comment>
+  </data>
+  <data name="Email_Label" xml:space="preserve">
+    <value>메일</value>
+  </data>
+  <data name="FirstName_ErrorMessage" xml:space="preserve">
+    <value>올바른 이름을 입력하세요.</value>
+  </data>
+  <data name="FirstName_Label" xml:space="preserve">
+    <value>이름</value>
+  </data>
+  <data name="Form_Error" xml:space="preserve">
+    <value>요청을 제출하는 동안 오류가 발생했습니다. 잠시 후 다시 시도하세요.</value>
+  </data>
+  <data name="Form_Heading" xml:space="preserve">
+    <value>귀하의 비즈니스에 대한 다음과 같은 세부 정보를 보내주세요. 귀하의 정보를 검토한 후 Microsoft Cloud Partner Portal 초대장을 보내드리겠습니다. 여기에서 귀하의 프로필을 작성하여 powerbi.microsoft.com에 등록하실 수 있습니다.</value>
+  </data>
+  <data name="LastName_ErrorMessage" xml:space="preserve">
+    <value>올바른 성을 입력하세요.</value>
+  </data>
+  <data name="LastName_Label" xml:space="preserve">
+    <value>성</value>
+  </data>
+  <data name="MpnId_Error" xml:space="preserve">
+    <value>MPN ID를 입력하세요.</value>
+  </data>
+  <data name="MpnId_Label" xml:space="preserve">
+    <value>MPN ID</value>
+  </data>
+  <data name="MpnId_Length_Error" xml:space="preserve">
+    <value>MPN ID는 5-8자 길이여야 합니다.</value>
+  </data>
+  <data name="MpnId_Type_Error" xml:space="preserve">
+    <value>MPN ID는 숫자 값만 포함해야 합니다.</value>
+  </data>
+  <data name="TellUsAboutYourOrganization_Heading" xml:space="preserve">
+    <value>귀사에 대한 정보를 알려주세요.</value>
+  </data>
+  <data name="Title_ErrorMessage" xml:space="preserve">
+    <value>올바른 직책을 입력하세요.</value>
+  </data>
+  <data name="Title_Label" xml:space="preserve">
+    <value>다음 중 회사에서 귀하의 역할을 가장 잘 설명한 것은 무엇입니까?</value>
+  </data>
+  <data name="Meta_LocJobId" xml:space="preserve">
+    <value>128</value>
+  </data>
+</root>

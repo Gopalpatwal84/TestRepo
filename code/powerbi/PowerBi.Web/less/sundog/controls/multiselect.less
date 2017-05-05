@@ -1,0 +1,230 @@
+@import (reference) '../../variables.d.less';
+@import (reference) '../../mixins.d.less';
+
+/*
+Responsive Table with Multiselect
+
+This table has a wrapper surrounding the html that sets overflow-x to scroll, allowing the table to collapse at lower resolutions without compromising the layout of the table. It also features a multiselect control element. This allows the user to "filter" the columns so that they can control the layout and only show the columns that they want.
+
+Markup:
+<div class="sd-multiselect" data-target="table-1">
+    <button>Filter display</button>
+    <div class="sd-multiselect-options"></div>
+</div>
+<div class="sd-table-container" data-target="table-1">
+    <table class="sd-table">
+        <thead>
+            <tr>
+                <th class="show-small"></th>
+                <th class="show-small">Heading 1</th>
+                <th class="test">Heading 2</th>
+                <th>Heading 3</th>
+                <th>Heading 4</th>
+                <th>Heading 5</th>
+                <th data-multiselect-override="David rocks my socks">Heading 6</th>
+                <th>Heading 7</th>
+                <th>Heading 8</th>
+                <th>Heading 9</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td></td>
+                <td></td>
+                <td class="my-test"></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+
+Style guide: table.multiselect
+*/
+
+.sd-multiselect {
+    display: inline-block;
+    float: right;
+    position: relative;
+
+    button {
+        background: none;
+        border: 1px solid @color-slate04;
+        display: inline-block;
+        padding: @spacing-size1 / 2 @spacing-size3 @spacing-size1 / 2 @spacing-size1;
+        position: relative;
+
+        &:after {
+            border-left: 1px solid @color-slate04;
+            border-top: 1px solid @color-slate04;
+            content: '';
+            display: block;
+            height: @spacing-size1;
+            position: absolute;
+            right: @spacing-size1;
+            top: 8px;
+            width: @spacing-size1;
+            .transform-rotate(225deg);
+        }
+
+        &.active {
+            &:after {
+                margin-top: 7px;
+                .transform-rotate(45deg);
+            }
+        }
+
+        &:focus,
+        &:hover,
+        &:active {
+            background-color: @color-slate09;
+
+            &.display-all {
+                background-color: darken(@color-palette03, 5%);
+            }
+        }
+    }
+
+    .sd-multiselect-options {
+        background-color: @color-palette01;
+        border: 1px solid @color-slate04;
+        display: none;
+        margin-top: -1px;
+        max-width: 200px;
+        padding: @spacing-size1 / 2 0;
+        position: absolute;
+        right: 0;
+        z-index: 1;
+
+        & > label {
+            display: block;
+            overflow: hidden;
+            padding: @spacing-size1 / 2 @spacing-size1;
+            text-overflow: ellipsis;
+            width: 100%;
+
+            & > input {
+                cursor: pointer;
+                margin-top: @spacing-size1 / 2;
+                position: absolute;
+            }
+
+            & > span {
+                margin-left: @spacing-size2;
+            }
+        }
+    }
+}

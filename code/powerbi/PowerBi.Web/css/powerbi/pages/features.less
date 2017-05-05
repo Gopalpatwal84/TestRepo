@@ -1,0 +1,132 @@
+﻿.section-features {
+    position: static;
+    padding: 0;
+    background-color: #fff;
+}
+
+.features-content-wrapper {
+    max-width: 1200px;
+
+    @media (max-width: 991px) {
+        display: none;
+    }
+
+    h3:hover {
+        cursor: pointer;
+    }
+
+    h3 {
+        margin: 0;
+        padding: 8px 0 8px 0;
+        font-size: 20px;
+    }
+
+    article {
+        margin: 0 0 4px 15px;
+    }
+
+    .row-features {
+        margin: 0;
+        position: absolute;
+        top: 1200px;
+
+        .article-column {
+            position: relative;
+            padding: 0 1.04166667%;
+            margin: 0;
+        }
+
+        .features-section-desc {
+            padding: 0;
+            height: 0;
+            margin: 0;
+            overflow: hidden;
+            font-size: 14px;
+        }
+    }
+
+    .features-section-scroll {
+        height: 4800px;
+    }
+
+    .track {
+        position: absolute;
+        top: 0;
+        left: 0;
+        margin: auto auto;
+        width: 4px;
+        background: black;
+        height: 100%;
+
+        .track-slider {
+            position: absolute;
+            top: 0;
+            width: 4px;
+            height: 50px;
+            background: #F2C812;
+            -webkit-transition: height 0.5s; /* Safari */
+            transition: height 0.5s;
+        }
+    }
+
+    .column-images {
+        position: relative;
+
+        img {
+            max-height: 463px;
+            height: auto;
+            max-width: 100%;
+        }
+    }
+
+    .features-section-image {
+        display: block;
+        position: absolute;
+        top: 0;
+        left: 20px;
+        margin: auto 0;
+        opacity: 0;
+        max-width: 100%;
+    }
+}
+
+.features-content-wrapper-mobile {
+    display: none;
+
+    @media(max-width: 991px) {
+        display: block;
+
+        .features-section-image {
+            img {
+                width: 450px;
+                max-width: 100%;
+                height: auto;
+            }
+
+            padding-bottom: 30px;
+            text-align: center;
+        }
+    }
+
+    .row.add-top-space {
+        margin-top: 50px;
+    }
+
+    h3, .default-text {
+        text-align: center;
+    }
+
+    article {
+        border-bottom: 1px solid #ccc;
+        padding-bottom: 50px;
+        margin-top: 50px;
+    }
+
+    article.no-border {
+        border: none;
+    }
+
+    .features-section-image {
+        width: auto;
+    }
+}

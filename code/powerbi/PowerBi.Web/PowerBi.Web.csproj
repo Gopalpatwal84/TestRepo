@@ -1,0 +1,1801 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="..\..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.0\build\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props" Condition="Exists('..\..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.0\build\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" />
+  <Import Project="..\..\packages\Microsoft.Net.Compilers.1.0.0\build\Microsoft.Net.Compilers.props" Condition="Exists('..\..\packages\Microsoft.Net.Compilers.1.0.0\build\Microsoft.Net.Compilers.props')" />
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{D00BEEBF-E1EB-4976-A377-639C0F5EA864}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>PowerBI.Web</RootNamespace>
+    <AssemblyName>PowerBI.Web</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <UseIISExpress>false</UseIISExpress>
+    <IISExpressSSLPort>44300</IISExpressSSLPort>
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <UseGlobalApplicationHostFile />
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+    <WebGreaseLibPath>..\..\packages\WebGrease.1.5.2\lib</WebGreaseLibPath>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Antlr3.Runtime, Version=3.4.1.9004, Culture=neutral, PublicKeyToken=eb42632606e9261f, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\Antlr.3.4.1.9004\lib\Antlr3.Runtime.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Autofac, Version=3.5.0.0, Culture=neutral, PublicKeyToken=17863af14b0044da, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\Autofac.3.5.2\lib\net40\Autofac.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Autofac.Integration.Mvc, Version=3.3.0.0, Culture=neutral, PublicKeyToken=17863af14b0044da, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\Autofac.Mvc5.3.3.4\lib\net45\Autofac.Integration.Mvc.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Autofac.Integration.WebApi, Version=3.4.0.0, Culture=neutral, PublicKeyToken=17863af14b0044da, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\Autofac.WebApi2.3.4.0\lib\net45\Autofac.Integration.WebApi.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="ChameleonForms, Version=1.2.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\ChameleonForms.1.2.0.16\lib\NET40\ChameleonForms.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevTrends.MvcDonutCaching, Version=1.3.0.0, Culture=neutral, PublicKeyToken=73c58d802958a09f, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\MvcDonutCaching.1.3.0\lib\net40\DevTrends.MvcDonutCaching.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="HtmlAgilityPack, Version=1.4.9.0, Culture=neutral, PublicKeyToken=bd319b19eaf3b43a, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\HtmlAgilityPack.1.4.9\lib\Net45\HtmlAgilityPack.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Humanizer, Version=1.28.0.0, Culture=neutral, PublicKeyToken=979442b78dfc278e, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\Humanizer.1.28.0\lib\portable-win+net40+sl50+wp8+wpa81\Humanizer.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.Azure.KeyVault.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\Microsoft.Azure.KeyVault.Core.1.0.0\lib\net40\Microsoft.Azure.KeyVault.Core.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.Azure.Search, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\Microsoft.Azure.Search.1.1.1\lib\net45\Microsoft.Azure.Search.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.CodeDom.Providers.DotNetCompilerPlatform, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.0\lib\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="Microsoft.Data.Edm, Version=5.6.4.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\Microsoft.Data.Edm.5.6.4\lib\net40\Microsoft.Data.Edm.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.Data.OData, Version=5.6.4.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\Microsoft.Data.OData.5.6.4\lib\net40\Microsoft.Data.OData.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.Data.Services.Client, Version=5.6.4.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\Microsoft.Data.Services.Client.5.6.4\lib\net40\Microsoft.Data.Services.Client.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.IdentityModel.Clients.ActiveDirectory, Version=2.23.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\Microsoft.IdentityModel.Clients.ActiveDirectory.2.23.302261847\lib\net45\Microsoft.IdentityModel.Clients.ActiveDirectory.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.IdentityModel.Clients.ActiveDirectory.WindowsForms, Version=2.23.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\Microsoft.IdentityModel.Clients.ActiveDirectory.2.23.302261847\lib\net45\Microsoft.IdentityModel.Clients.ActiveDirectory.WindowsForms.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.IdentityModel.Protocol.Extensions, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\Microsoft.IdentityModel.Protocol.Extensions.1.0.0\lib\net45\Microsoft.IdentityModel.Protocol.Extensions.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.Owin, Version=3.0.1.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\Microsoft.Owin.3.0.1\lib\net45\Microsoft.Owin.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.Owin.Host.SystemWeb, Version=3.0.1.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\Microsoft.Owin.Host.SystemWeb.3.0.1\lib\net45\Microsoft.Owin.Host.SystemWeb.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.Owin.Security, Version=3.0.1.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\Microsoft.Owin.Security.3.0.1\lib\net45\Microsoft.Owin.Security.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.Owin.Security.ActiveDirectory, Version=3.0.1.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\Microsoft.Owin.Security.ActiveDirectory.3.0.1\lib\net45\Microsoft.Owin.Security.ActiveDirectory.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.Owin.Security.Cookies, Version=3.0.1.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\Microsoft.Owin.Security.Cookies.3.0.1\lib\net45\Microsoft.Owin.Security.Cookies.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.Owin.Security.Jwt, Version=3.0.1.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\Microsoft.Owin.Security.Jwt.3.0.1\lib\net45\Microsoft.Owin.Security.Jwt.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.Owin.Security.OAuth, Version=3.0.1.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\Microsoft.Owin.Security.OAuth.3.0.1\lib\net45\Microsoft.Owin.Security.OAuth.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.Owin.Security.OpenIdConnect, Version=3.0.1.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\Microsoft.Owin.Security.OpenIdConnect.3.0.1\lib\net45\Microsoft.Owin.Security.OpenIdConnect.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.Practices.EnterpriseLibrary.TransientFaultHandling, Version=6.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\EnterpriseLibrary.TransientFaultHandling.6.0.1304.0\lib\portable-net45+win+wp8\Microsoft.Practices.EnterpriseLibrary.TransientFaultHandling.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.Rest.ClientRuntime, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\Microsoft.Rest.ClientRuntime.1.8.1\lib\net45\Microsoft.Rest.ClientRuntime.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.Rest.ClientRuntime.Azure, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\Microsoft.Rest.ClientRuntime.Azure.2.5.2\lib\net45\Microsoft.Rest.ClientRuntime.Azure.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.Spatial, Version=6.13.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\Microsoft.Spatial.6.13.0\lib\portable-net40+sl5+wp8+win8+wpa\Microsoft.Spatial.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.Web.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\Microsoft.Web.Infrastructure.1.0.0.0\lib\net40\Microsoft.Web.Infrastructure.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.WindowsAzure.Configuration, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\Microsoft.WindowsAzure.ConfigurationManager.2.0.3\lib\net40\Microsoft.WindowsAzure.Configuration.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.WindowsAzure.Storage, Version=5.0.2.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\WindowsAzure.Storage.5.0.2\lib\net40\Microsoft.WindowsAzure.Storage.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Newtonsoft.Json, Version=9.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\Newtonsoft.Json.9.0.1\lib\net45\Newtonsoft.Json.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Onyx.Articles, Version=1.0.33.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\Onyx.Articles.1.0.33\lib\net452\Onyx.Articles.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Onyx.Client, Version=1.0.111.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\Onyx.Client.1.0.111\lib\net45\Onyx.Client.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Onyx.Configuration, Version=1.0.139.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\Onyx.Configuration.1.0.139\lib\net45\Onyx.Configuration.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Onyx.Contracts, Version=1.0.111.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\Onyx.Contracts.1.0.111\lib\net45\Onyx.Contracts.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Onyx.Forms, Version=1.0.46.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\Onyx.Forms.1.0.46\lib\net452\Onyx.Forms.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Onyx.IO, Version=1.0.98.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\Onyx.IO.1.0.98\lib\net45\Onyx.IO.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Onyx.MediaHandler, Version=1.0.13.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\Onyx.MediaHandler.1.0.13\lib\net45\Onyx.MediaHandler.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Onyx.Mediation, Version=1.0.46.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\Onyx.Mediation.1.0.46\lib\net45\Onyx.Mediation.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Onyx.Mediation.Queues, Version=1.0.46.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\Onyx.Mediation.Queues.1.0.46\lib\net45\Onyx.Mediation.Queues.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Onyx.Mvc, Version=1.0.135.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\Onyx.Mvc.1.0.135\lib\net45\Onyx.Mvc.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Onyx.Mvc.Contracts, Version=1.0.135.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\Onyx.Mvc.PagesApi.1.0.135\lib\net452\Onyx.Mvc.Contracts.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Onyx.Mvc.PagesApi, Version=1.0.135.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\Onyx.Mvc.PagesApi.1.0.135\lib\net452\Onyx.Mvc.PagesApi.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Onyx.Mvc.RobotsApi, Version=1.0.135.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\Onyx.Mvc.RobotsApi.1.0.135\lib\net452\Onyx.Mvc.RobotsApi.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Onyx.Mvc.VersionApi, Version=1.0.135.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\Onyx.Mvc.VersionApi.1.0.135\lib\net452\Onyx.Mvc.VersionApi.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Onyx.Redis, Version=1.0.82.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\Onyx.Redis.1.0.82\lib\net45\Onyx.Redis.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Onyx.Search.Client, Version=1.0.46.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\Onyx.Search.Client.1.0.46\lib\net452\Onyx.Search.Client.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Onyx.Sitemap, Version=1.0.22.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\Onyx.Sitemap.1.0.22\lib\net45\Onyx.Sitemap.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Onyx.Swagger, Version=1.0.14.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\Onyx.Swagger.1.0.14\lib\net45\Onyx.Swagger.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Onyx.WebApi, Version=1.0.13.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\Onyx.WebApi.1.0.13\lib\net45\Onyx.WebApi.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Owin, Version=1.0.0.0, Culture=neutral, PublicKeyToken=f0ebd12fd5e55cc5, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\Owin.1.0\lib\net40\Owin.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Serilog, Version=1.5.0.0, Culture=neutral, PublicKeyToken=24c2f752a8e58a10, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\Serilog.1.5.14\lib\net45\Serilog.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Serilog.FullNetFx, Version=1.5.0.0, Culture=neutral, PublicKeyToken=24c2f752a8e58a10, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\Serilog.1.5.14\lib\net45\Serilog.FullNetFx.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Serilog.Sinks.Seq, Version=1.5.0.0, Culture=neutral, PublicKeyToken=24c2f752a8e58a10, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\Serilog.Sinks.Seq.1.5.27\lib\net45\Serilog.Sinks.Seq.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="StackExchange.Redis, Version=1.0.316.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\StackExchange.Redis.1.0.450\lib\net45\StackExchange.Redis.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="StackExchange.Redis.StrongName, Version=1.1.0.0, Culture=neutral, PublicKeyToken=c219ff1ca8c2ce46, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\StackExchange.Redis.StrongName.1.1.603\lib\net45\StackExchange.Redis.StrongName.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.ComponentModel.Composition" />
+    <Reference Include="Swashbuckle.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=cd1bb07a5ac7c7bc, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\Swashbuckle.Core.5.3.2\lib\net40\Swashbuckle.Core.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.IdentityModel" />
+    <Reference Include="System.IdentityModel.Tokens.Jwt, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\System.IdentityModel.Tokens.Jwt.4.0.0\lib\net45\System.IdentityModel.Tokens.Jwt.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Net" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Net.Http.Extensions, Version=2.2.29.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\Microsoft.Net.Http.2.2.29\lib\net45\System.Net.Http.Extensions.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Net.Http.Formatting, Version=5.2.3.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\Microsoft.AspNet.WebApi.Client.5.2.3\lib\net45\System.Net.Http.Formatting.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Net.Http.Primitives, Version=4.2.29.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\Microsoft.Net.Http.2.2.29\lib\net45\System.Net.Http.Primitives.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Net.Http.WebRequest" />
+    <Reference Include="System.Runtime.Caching" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.ServiceModel" />
+    <Reference Include="System.Spatial, Version=5.6.4.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\System.Spatial.5.6.4\lib\net40\System.Spatial.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Web.Helpers, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\Microsoft.AspNet.WebPages.3.2.3\lib\net45\System.Web.Helpers.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Web.Http, Version=5.2.3.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\Microsoft.AspNet.WebApi.Core.5.2.3\lib\net45\System.Web.Http.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Web.Http.WebHost, Version=5.2.3.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\Microsoft.AspNet.WebApi.WebHost.5.2.3\lib\net45\System.Web.Http.WebHost.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Web.Mvc, Version=5.2.3.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\Microsoft.AspNet.Mvc.5.2.3\lib\net45\System.Web.Mvc.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Web.Optimization, Version=1.1.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\Microsoft.AspNet.Web.Optimization.1.1.3\lib\net40\System.Web.Optimization.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Web.Razor, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\Microsoft.AspNet.Razor.3.2.3\lib\net45\System.Web.Razor.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Web.WebPages, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\Microsoft.AspNet.WebPages.3.2.3\lib\net45\System.Web.WebPages.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Web.WebPages.Deployment, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\Microsoft.AspNet.WebPages.3.2.3\lib\net45\System.Web.WebPages.Deployment.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Web.WebPages.Razor, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\Microsoft.AspNet.WebPages.3.2.3\lib\net45\System.Web.WebPages.Razor.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="WebActivator, Version=1.5.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\WebActivator.1.5\lib\net40\WebActivator.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="WebActivatorEx, Version=2.0.0.0, Culture=neutral, PublicKeyToken=7b26dc2a43f6a0d4, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\WebActivatorEx.2.0\lib\net40\WebActivatorEx.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="WebApi.OutputCache.Core, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\Strathweb.CacheOutput.WebApi2.0.9.0\lib\net45\WebApi.OutputCache.Core.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="WebApi.OutputCache.V2, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\Strathweb.CacheOutput.WebApi2.0.9.0\lib\net45\WebApi.OutputCache.V2.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="WebGrease, Version=1.5.2.14234, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\WebGrease.1.5.2\lib\WebGrease.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="css\powerbi\blog\post-bio.css">
+      <DependentUpon>post-bio.less</DependentUpon>
+    </Content>
+    <Content Include="css\powerbi\blog\post-date.css">
+      <DependentUpon>post-date.less</DependentUpon>
+    </Content>
+    <Content Include="css\powerbi\blog\post.css">
+      <DependentUpon>post.less</DependentUpon>
+    </Content>
+    <Content Include="css\powerbi\border.css">
+      <DependentUpon>border.less</DependentUpon>
+    </Content>
+    <Content Include="css\powerbi\card.css">
+      <DependentUpon>card.less</DependentUpon>
+    </Content>
+    <Content Include="css\powerbi\controls\carousel.css">
+      <DependentUpon>carousel.less</DependentUpon>
+    </Content>
+    <Content Include="css\powerbi\controls\navigation-themed.css">
+      <DependentUpon>navigation-themed.less</DependentUpon>
+    </Content>
+    <Content Include="css\powerbi\controls\supportStatus.css">
+      <DependentUpon>supportStatus.less</DependentUpon>
+    </Content>
+    <Content Include="css\powerbi\controls\toggle.css">
+      <DependentUpon>toggle.less</DependentUpon>
+    </Content>
+    <Content Include="css\powerbi\cubes.css">
+      <DependentUpon>cubes.less</DependentUpon>
+    </Content>
+    <Content Include="css\powerbi\exit-intent.css">
+      <DependentUpon>exit-intent.less</DependentUpon>
+    </Content>
+    <Content Include="css\powerbi\framework\button.css">
+      <DependentUpon>button.less</DependentUpon>
+    </Content>
+    <Content Include="css\powerbi\framework\footer.css">
+      <DependentUpon>footer.less</DependentUpon>
+    </Content>
+    <Content Include="css\powerbi\framework\form.css">
+      <DependentUpon>form.less</DependentUpon>
+    </Content>
+    <Content Include="css\powerbi\framework\glyphicon.css">
+      <DependentUpon>glyphicon.less</DependentUpon>
+    </Content>
+    <Content Include="css\powerbi\framework\grid.css">
+      <DependentUpon>grid.less</DependentUpon>
+    </Content>
+    <Content Include="css\powerbi\framework\icon.css">
+      <DependentUpon>icon.less</DependentUpon>
+    </Content>
+    <Content Include="css\powerbi\framework\img.css">
+      <DependentUpon>img.less</DependentUpon>
+    </Content>
+    <Content Include="css\powerbi\framework\link.css">
+      <DependentUpon>link.less</DependentUpon>
+    </Content>
+    <Content Include="css\powerbi\framework\linkList.css">
+      <DependentUpon>linkList.less</DependentUpon>
+    </Content>
+    <Content Include="css\powerbi\framework\note.css">
+      <DependentUpon>note.less</DependentUpon>
+    </Content>
+    <Content Include="css\powerbi\framework\partner-item.css">
+      <DependentUpon>partner-item.less</DependentUpon>
+    </Content>
+    <Content Include="css\powerbi\framework\quote.css">
+      <DependentUpon>quote.less</DependentUpon>
+    </Content>
+    <Content Include="css\powerbi\framework\table.css">
+      <DependentUpon>table.less</DependentUpon>
+    </Content>
+    <Content Include="css\powerbi\framework\typography.css">
+      <DependentUpon>typography.less</DependentUpon>
+    </Content>
+    <Content Include="css\powerbi\header.css">
+      <DependentUpon>header.less</DependentUpon>
+    </Content>
+    <Content Include="css\powerbi\helpers\font-face.css">
+      <DependentUpon>font-face.less</DependentUpon>
+    </Content>
+    <Content Include="css\powerbi\icon.css">
+      <DependentUpon>icon.less</DependentUpon>
+    </Content>
+    <Content Include="css\powerbi\integration-logo.css">
+      <DependentUpon>integration-logo.less</DependentUpon>
+    </Content>
+    <Content Include="css\powerbi\integration.css">
+      <DependentUpon>integration.less</DependentUpon>
+    </Content>
+    <Content Include="css\powerbi\newsletter.css">
+      <DependentUpon>newsletter.less</DependentUpon>
+    </Content>
+    <Content Include="css\powerbi\olark.css">
+      <DependentUpon>olark.less</DependentUpon>
+    </Content>
+    <Content Include="css\powerbi\pages\features.css">
+      <DependentUpon>features.less</DependentUpon>
+    </Content>
+    <Content Include="css\powerbi\pages\guided-learning.css">
+      <DependentUpon>guided-learning.less</DependentUpon>
+    </Content>
+    <Content Include="css\powerbi\partners.css">
+      <DependentUpon>partners.less</DependentUpon>
+    </Content>
+    <Content Include="css\powerbi\positioning.css">
+      <DependentUpon>positioning.less</DependentUpon>
+    </Content>
+    <Content Include="css\powerbi\search.css">
+      <DependentUpon>search.less</DependentUpon>
+    </Content>
+    <Content Include="css\powerbi\section.css">
+      <DependentUpon>section.less</DependentUpon>
+    </Content>
+    <Content Include="css\powerbi\subnav-collapse.css">
+      <DependentUpon>subnav-collapse.less</DependentUpon>
+    </Content>
+    <Content Include="css\powerbi\tag.css">
+      <DependentUpon>tag.less</DependentUpon>
+    </Content>
+    <Content Include="css\powerbi\temporary.css">
+      <DependentUpon>temporary.less</DependentUpon>
+    </Content>
+    <Content Include="css\powerbi\tile.css">
+      <DependentUpon>tile.less</DependentUpon>
+    </Content>
+    <Content Include="css\powerbi\video.css">
+      <DependentUpon>video.less</DependentUpon>
+    </Content>
+    <Content Include="fonts\powerbimdl2\normal\latest.svg" />
+    <Content Include="fonts\segoe-ui\bold\latest.svg" />
+    <Content Include="fonts\segoe-ui\light\latest.svg" />
+    <Content Include="fonts\segoe-ui\normal\latest.svg" />
+    <Content Include="fonts\segoe-ui\semibold\latest.svg" />
+    <Content Include="fonts\segoe-ui\semilight\latest.svg" />
+    <Content Include="googlec1ede5b6205a52ab.html" />
+    <Content Include="less\sundog-documentation\controls\article.html" />
+    <Content Include="less\sundog-documentation\controls\navigationLeft.html" />
+    <Content Include="less\sundog-documentation\controls\navigationScroll.html" />
+    <Content Include="less\sundog-documentation\sundog-documentation.css">
+      <DependentUpon>sundog-documentation.less</DependentUpon>
+    </Content>
+    <Content Include="less\sundog-grid\sundog-grid.css">
+      <DependentUpon>sundog-grid.less</DependentUpon>
+    </Content>
+    <Content Include="less\sundog-navigation\controls\navigation.html" />
+    <Content Include="less\sundog-navigation\framework\footer.html" />
+    <Content Include="less\sundog-navigation\sundog-navigation.css">
+      <DependentUpon>sundog-navigation.less</DependentUpon>
+    </Content>
+    <Content Include="less\sundog\controls\backgroundVideo.html" />
+    <Content Include="less\sundog\controls\button-store.html" />
+    <Content Include="less\sundog\controls\equalize.html" />
+    <Content Include="less\sundog\controls\fadeImage.html" />
+    <Content Include="less\sundog\controls\flyout.svg.html" />
+    <Content Include="less\sundog\controls\playInSection.alt.html" />
+    <Content Include="less\sundog\controls\playInSection.background.html" />
+    <Content Include="less\sundog\controls\toggle.faq.html" />
+    <Content Include="less\sundog\controls\toggle.hide-toggler.html" />
+    <Content Include="less\sundog\controls\toggle.nested.html" />
+    <Content Include="less\sundog\controls\toggle.single.html" />
+    <Content Include="less\sundog\controls\toggle.slide.html" />
+    <Content Include="less\sundog\controls\toggle.svg.html" />
+    <Content Include="less\sundog\lib\owl.carousel.2.0.0.css" />
+    <Content Include="less\sundog\sundog.css">
+      <DependentUpon>sundog.less</DependentUpon>
+    </Content>
+    <Content Include="Onyx.Mvc.Contracts.XML" />
+    <Content Include="Onyx.Mvc.PagesApi.XML" />
+    <Content Include="pictures\favicon.ico" />
+    <Content Include="pictures\pages\compare-power-bi-tableau-qlik\question-and-answer_cortana.gif" />
+    <Content Include="pictures\pages\compare-power-bi-tableau-qlik\quick-insights.gif" />
+    <Content Include="pictures\pages\compare-power-bi-tableau-qlik\custom_visualizations.jpg" />
+    <Content Include="pictures\pages\compare-power-bi-tableau-qlik\custom_visualizations%402x.jpg" />
+    <Content Include="pictures\pages\compare-power-bi-tableau-qlik\real-time-data.gif" />
+    <Content Include="pictures\pages\compare-power-bi-tableau-qlik\excel_powerbi.jpg" />
+    <Content Include="pictures\pages\compare-power-bi-tableau-qlik\excel_powerbi%402x.jpg" />
+    <Content Include="pictures\pages\compare-power-bi-tableau-qlik\mobile.jpg" />
+    <Content Include="pictures\pages\compare-power-bi-tableau-qlik\mobile%402x.jpg" />
+    <Content Include="pictures\pages\compare-power-bi-tableau-qlik\power-bi-embedded-screenshot.png" />
+    <Content Include="pictures\pages\compare-power-bi-tableau-qlik\sanddance.gif" />
+    <Content Include="pictures\pages\compare-power-bi-tableau-qlik\customer-stories%402x.png" />
+    <Content Include="pictures\pages\compare-power-bi-tableau-qlik\customer-stories.png" />
+    <Content Include="pictures\pages\compare-power-bi-tableau-qlik\gartner%402x.png" />
+    <Content Include="pictures\pages\compare-power-bi-tableau-qlik\p-c-magazine%402x.png" />
+    <Content Include="pictures\pages\compare-power-bi-tableau-qlik\p-c-magazine.png" />
+    <Content Include="pictures\pages\compare-power-bi-tableau-qlik\why-power-bi-screenshot%402x.png" />
+    <Content Include="pictures\pages\compare-power-bi-tableau-qlik\why-power-bi-screenshot.png" />
+    <Content Include="pictures\pages\custom-visuals\visual-gauge.png" />
+    <Content Include="pictures\pages\datajournalism\courses\choosing-graphics.png" />
+    <Content Include="pictures\pages\datajournalism\courses\choosing-graphics\image1.png" />
+    <Content Include="pictures\pages\datajournalism\courses\choosing-graphics\image2.png" />
+    <Content Include="pictures\pages\datajournalism\courses\choosing-graphics\image3.png" />
+    <Content Include="pictures\pages\datajournalism\courses\choosing-graphics\image4.png" />
+    <Content Include="pictures\pages\datajournalism\courses\choosing-graphics\image5.png" />
+    <Content Include="pictures\pages\datajournalism\courses\data-exploration.png" />
+    <Content Include="pictures\pages\datajournalism\courses\data-exploration\image0001.png" />
+    <Content Include="pictures\pages\datajournalism\courses\data-exploration\image0002.png" />
+    <Content Include="pictures\pages\datajournalism\courses\data-exploration\image0003.png" />
+    <Content Include="pictures\pages\datajournalism\courses\data-exploration\image001.png" />
+    <Content Include="pictures\pages\datajournalism\courses\data-exploration\image0010.png" />
+    <Content Include="pictures\pages\datajournalism\courses\data-exploration\image002.png" />
+    <Content Include="pictures\pages\datajournalism\courses\data-exploration\image003.png" />
+    <Content Include="pictures\pages\datajournalism\courses\data-exploration\image004.png" />
+    <Content Include="pictures\pages\datajournalism\courses\data-exploration\image005.png" />
+    <Content Include="pictures\pages\datajournalism\courses\data-exploration\image006.png" />
+    <Content Include="pictures\pages\datajournalism\courses\data-exploration\image007.png" />
+    <Content Include="pictures\pages\datajournalism\courses\data-exploration\image008.png" />
+    <Content Include="pictures\pages\datajournalism\courses\data-exploration\image009.png" />
+    <Content Include="pictures\pages\datajournalism\courses\data-exploration\image01.png" />
+    <Content Include="pictures\pages\datajournalism\courses\data-exploration\image02.png" />
+    <Content Include="pictures\pages\datajournalism\courses\data-exploration\image03.png" />
+    <Content Include="pictures\pages\datajournalism\courses\data-exploration\image04.png" />
+    <Content Include="pictures\pages\datajournalism\courses\data-exploration\image05.png" />
+    <Content Include="pictures\pages\datajournalism\courses\data-exploration\image1.png" />
+    <Content Include="pictures\pages\datajournalism\courses\data-exploration\image10.png" />
+    <Content Include="pictures\pages\datajournalism\courses\data-exploration\image11.png" />
+    <Content Include="pictures\pages\datajournalism\courses\data-exploration\image12.png" />
+    <Content Include="pictures\pages\datajournalism\courses\data-exploration\image13.png" />
+    <Content Include="pictures\pages\datajournalism\courses\data-exploration\image14.png" />
+    <Content Include="pictures\pages\datajournalism\courses\data-exploration\image15.png" />
+    <Content Include="pictures\pages\datajournalism\courses\data-exploration\image16.png" />
+    <Content Include="pictures\pages\datajournalism\courses\data-exploration\image17.png" />
+    <Content Include="pictures\pages\datajournalism\courses\data-exploration\image18.png" />
+    <Content Include="pictures\pages\datajournalism\courses\data-exploration\image19.png" />
+    <Content Include="pictures\pages\datajournalism\courses\data-exploration\image2.png" />
+    <Content Include="pictures\pages\datajournalism\courses\data-exploration\image20.png" />
+    <Content Include="pictures\pages\datajournalism\courses\data-exploration\image21.png" />
+    <Content Include="pictures\pages\datajournalism\courses\data-exploration\image22.png" />
+    <Content Include="pictures\pages\datajournalism\courses\data-exploration\image23.png" />
+    <Content Include="pictures\pages\datajournalism\courses\data-exploration\image24.png" />
+    <Content Include="pictures\pages\datajournalism\courses\data-exploration\image25.png" />
+    <Content Include="pictures\pages\datajournalism\courses\data-exploration\image26.png" />
+    <Content Include="pictures\pages\datajournalism\courses\data-exploration\image27.png" />
+    <Content Include="pictures\pages\datajournalism\courses\data-exploration\image3.png" />
+    <Content Include="pictures\pages\datajournalism\courses\data-exploration\image4.png" />
+    <Content Include="pictures\pages\datajournalism\courses\data-exploration\image5.png" />
+    <Content Include="pictures\pages\datajournalism\courses\data-exploration\image6.png" />
+    <Content Include="pictures\pages\datajournalism\courses\data-exploration\image7.png" />
+    <Content Include="pictures\pages\datajournalism\courses\data-exploration\image8.png" />
+    <Content Include="pictures\pages\datajournalism\courses\data-exploration\image9.png" />
+    <Content Include="pictures\pages\datajournalism\courses\design-and-narrative.png" />
+    <Content Include="pictures\pages\datajournalism\courses\design-and-narrative\align-code-with-frame.png" />
+    <Content Include="pictures\pages\datajournalism\courses\design-and-narrative\connect-server.png" />
+    <Content Include="pictures\pages\datajournalism\courses\design-and-narrative\export-to-powerbi.png" />
+    <Content Include="pictures\pages\datajournalism\courses\design-and-narrative\gross-sales-by-date.png" />
+    <Content Include="pictures\pages\datajournalism\courses\design-and-narrative\pin-to-dashboard.png" />
+    <Content Include="pictures\pages\datajournalism\courses\design-and-narrative\pin-visual-tab.png" />
+    <Content Include="pictures\pages\datajournalism\courses\design-and-narrative\pinned-to-dashboard.png" />
+    <Content Include="pictures\pages\datajournalism\courses\design-and-narrative\powerbi-graph.png" />
+    <Content Include="pictures\pages\datajournalism\courses\design-and-narrative\powerbi-workspace.png" />
+    <Content Include="pictures\pages\datajournalism\courses\design-and-narrative\publish-report-to-powerbi.png" />
+    <Content Include="pictures\pages\datajournalism\courses\design-and-narrative\publishing-to-powerbi.png" />
+    <Content Include="pictures\pages\datajournalism\courses\design-and-narrative\scanner.png" />
+    <Content Include="pictures\pages\datajournalism\courses\design-and-narrative\select-map-gallery.png" />
+    <Content Include="pictures\pages\datajournalism\courses\design-and-narrative\shortcut.jpeg" />
+    <Content Include="pictures\pages\datajournalism\courses\design-and-narrative\sign-in-to-power-bi.png" />
+    <Content Include="pictures\pages\datajournalism\courses\design-and-narrative\synoptic-designer-editor.png" />
+    <Content Include="pictures\pages\datajournalism\courses\design-and-narrative\synoptic-designer-power-bi.png" />
+    <Content Include="pictures\pages\datajournalism\courses\design-and-narrative\three-rows.png" />
+    <Content Include="pictures\pages\datajournalism\courses\design-and-narrative\visualizations-scale.png" />
+    <Content Include="pictures\pages\datajournalism\courses\design-and-narrative\your-qr-code-is-ready.png" />
+    <Content Include="pictures\pages\datajournalism\courses\visualization.png" />
+    <Content Include="pictures\pages\datajournalism\courses\truthful-visualizations.png" />
+    <Content Include="pictures\pages\datajournalism\courses\truthful-visualizations\image1.png" />
+    <Content Include="pictures\pages\datajournalism\courses\truthful-visualizations\image2.png" />
+    <Content Include="pictures\pages\datajournalism\courses\truthful-visualizations\image3.png" />
+    <Content Include="pictures\pages\datajournalism\courses\truthful-visualizations\image4.png" />
+    <Content Include="pictures\pages\datajournalism\courses\truthful-visualizations\image5.png" />
+    <Content Include="pictures\pages\datajournalism\courses\truthful-visualizations\image6.png" />
+    <Content Include="pictures\pages\datajournalism\courses\visualization\image01.png" />
+    <Content Include="pictures\pages\datajournalism\courses\visualization\image02.png" />
+    <Content Include="pictures\pages\datajournalism\courses\visualization\image03.png" />
+    <Content Include="pictures\pages\datajournalism\courses\visualization\image04.png" />
+    <Content Include="pictures\pages\datajournalism\courses\visualization\image05.png" />
+    <Content Include="pictures\pages\datajournalism\courses\visualization\image06.png" />
+    <Content Include="pictures\pages\datajournalism\courses\visualization\image07.png" />
+    <Content Include="pictures\pages\datajournalism\courses\visualization\image08.png" />
+    <Content Include="pictures\pages\datajournalism\courses\visualization\image09.png" />
+    <Content Include="pictures\pages\datajournalism\courses\visualization\image1.png" />
+    <Content Include="pictures\pages\datajournalism\courses\visualization\image10.png" />
+    <Content Include="pictures\pages\datajournalism\courses\visualization\image11.png" />
+    <Content Include="pictures\pages\datajournalism\courses\visualization\image12.png" />
+    <Content Include="pictures\pages\datajournalism\courses\visualization\image13.png" />
+    <Content Include="pictures\pages\datajournalism\courses\visualization\image14.png" />
+    <Content Include="pictures\pages\datajournalism\courses\visualization\image15.png" />
+    <Content Include="pictures\pages\datajournalism\courses\visualization\image16.png" />
+    <Content Include="pictures\pages\datajournalism\courses\visualization\image17.png" />
+    <Content Include="pictures\pages\datajournalism\courses\visualization\image18.png" />
+    <Content Include="pictures\pages\datajournalism\courses\visualization\image19.png" />
+    <Content Include="pictures\pages\datajournalism\courses\visualization\image2.png" />
+    <Content Include="pictures\pages\datajournalism\courses\visualization\image20.png" />
+    <Content Include="pictures\pages\datajournalism\courses\visualization\image21.png" />
+    <Content Include="pictures\pages\datajournalism\courses\visualization\image22.png" />
+    <Content Include="pictures\pages\datajournalism\courses\visualization\image23.png" />
+    <Content Include="pictures\pages\datajournalism\courses\visualization\image24.png" />
+    <Content Include="pictures\pages\datajournalism\courses\visualization\image3.png" />
+    <Content Include="pictures\pages\datajournalism\courses\visualization\image4.png" />
+    <Content Include="pictures\pages\datajournalism\courses\visualization\image5.png" />
+    <Content Include="pictures\pages\datajournalism\courses\visualization\image6.png" />
+    <Content Include="pictures\pages\datajournalism\courses\visualization\image7.png" />
+    <Content Include="pictures\pages\datajournalism\courses\visualization\image8.png" />
+    <Content Include="pictures\pages\datajournalism\courses\visualization\image9.png" />
+    <Content Include="pictures\pages\datajournalism\data-stories-gallery.png" />
+    <Content Include="pictures\pages\datajournalism\king-5-logo.jpg" />
+    <Content Include="pictures\pages\datajournalism\king-5-screenshot.png" />
+    <Content Include="pictures\pages\datajournalism\data-journalism-video.png" />
+    <Content Include="pictures\pages\desktop\laptop.png" />
+    <Content Include="pictures\pages\enterprise-ready\always-up-to-date.svg" />
+    <Content Include="pictures\pages\enterprise-ready\available.svg" />
+    <Content Include="pictures\pages\enterprise-ready\scalable.svg" />
+    <Content Include="pictures\pages\excel-dashboard-publisher-pre-install\excel_pbi.png" />
+    <Content Include="pictures\pages\excel-dashboard-publisher-pre-install\excel_pin.png" />
+    <Content Include="pictures\pages\excel-dashboard-publisher-pre-install\pbi_install.png" />
+    <Content Include="pictures\pages\features\ask-questions.png" />
+    <Content Include="pictures\pages\features\content-packs.png" />
+    <Content Include="pictures\pages\features\curate-content.png" />
+    <Content Include="pictures\pages\features\integrate-open.png" />
+    <Content Include="pictures\pages\features\live-dashboards.png" />
+    <Content Include="pictures\pages\features\mobile.png" />
+    <Content Include="pictures\pages\features\on-prem-cloud.png" />
+    <Content Include="pictures\pages\features\publish.png" />
+    <Content Include="pictures\pages\features\ask-questions.gif" />
+    <Content Include="pictures\pages\features\share-collab.png" />
+    <Content Include="pictures\pages\get-started\ebook-2x.png" />
+    <Content Include="pictures\pages\get-started\ebook.png" />
+    <Content Include="pictures\pages\get-started\powerbi-desktop-monitor-screenshot-2x.png" />
+    <Content Include="pictures\pages\get-started\powerbi-desktop-monitor-screenshot.png" />
+    <Content Include="pictures\pages\get-started\powerbi-service-monitor-screenshot-2x.png" />
+    <Content Include="pictures\pages\get-started\powerbi-service-monitor-screenshot.png" />
+    <Content Include="pictures\pages\industries\capital-markets\thumbnail.png" />
+    <Content Include="pictures\pages\industries\energy\image1.png" />
+    <Content Include="pictures\pages\industries\energy\Image2.png" />
+    <Content Include="pictures\pages\industries\energy\Image3.png" />
+    <Content Include="pictures\pages\industries\energy\thumbnail.png" />
+    <Content Include="pictures\pages\industries\publicsector\image1.png" />
+    <Content Include="pictures\pages\industries\publicsector\image2.png" />
+    <Content Include="pictures\pages\industries\publicsector\image3.png" />
+    <Content Include="pictures\pages\industries\publicsector\thumbnail.png" />
+    <Content Include="pictures\pages\industries\telco\image1.png" />
+    <Content Include="pictures\pages\industries\telco\image2.png" />
+    <Content Include="pictures\pages\industries\telco\image3.png" />
+    <Content Include="pictures\pages\industries\telco\thumbnail.png" />
+    <Content Include="pictures\pages\integrations\integrations-video-screenshot.png" />
+    <Content Include="pictures\pages\landing\sales\laptop_dashboard.png" />
+    <Content Include="pictures\pages\landing\sales\screenshot-analyze.png" />
+    <Content Include="pictures\pages\landing\sales\screenshot-combine.png" />
+    <Content Include="pictures\pages\landing\sales\screenshot-mobile.png" />
+    <Content Include="pictures\pages\landing\sales\screenshot-monitor.png" />
+    <Content Include="pictures\pages\pbi-pattern-mobile.png" />
+    <Content Include="pictures\pages\pbi-pattern.png" />
+    <Content Include="pictures\pages\powerbi-desktop.png" />
+    <Content Include="pictures\pages\solution-templates\bing-news\solutions-screenshots.gif" />
+    <Content Include="pictures\pages\solution-templates\bing-news\thumbnail.png" />
+    <Content Include="pictures\pages\solution-templates\dynamics365-psa\solutions-screenshots.gif" />
+    <Content Include="pictures\pages\solution-templates\dynamics365-psa\thumbnail.png" />
+    <Content Include="pictures\pages\solution-templates\ms-dynamics\solutions-screenshots.gif" />
+    <Content Include="pictures\pages\solution-templates\ms-dynamics\thumbnail.png" />
+    <Content Include="pictures\pages\solution-templates\salesforce\solutions-screenshots.gif" />
+    <Content Include="pictures\pages\solution-templates\sap\solutions-screenshots.gif" />
+    <Content Include="pictures\pages\solution-templates\sap\thumbnail.png" />
+    <Content Include="pictures\pages\solution-templates\sccm\solutions-screenshots.gif" />
+    <Content Include="pictures\pages\solution-templates\sccm\thumbnail.png" />
+    <Content Include="pictures\shared\cdn-only\microsoft-logo.png" />
+    <Content Include="pictures\shared\cdn-only\powerbi-icon-logo.png" />
+    <Content Include="pictures\shared\cdn-only\powerbi-text-logo.png" />
+    <Content Include="pictures\shared\customers\elizabeth-glaser.png" />
+    <Content Include="pictures\shared\customers\honeywell.png" />
+    <Content Include="pictures\shared\customers\johnson-controls.png" />
+    <Content Include="pictures\shared\customers\kennametal.png" />
+    <Content Include="pictures\shared\customers\meijer.png" />
+    <Content Include="pictures\shared\publishtoweb\civic-innovation-project-story.png" />
+    <Content Include="pictures\shared\publishtoweb\crs-story.png" />
+    <Content Include="pictures\shared\publishtoweb\elizabeth-glaser-story.png" />
+    <Content Include="pictures\shared\publishtoweb\jj-food-services-story.png" />
+    <Content Include="pictures\shared\publishtoweb\king-5-story.png" />
+    <Content Include="pictures\shared\publishtoweb\pact-story.png" />
+    <Content Include="pictures\shared\publishtoweb\water-aid-story.png" />
+    <Content Include="pictures\shared\section\germany-at-twilight.png" />
+    <Content Include="pictures\shared\icons\bi-professional.png" />
+    <Content Include="pictures\shared\icons\business-analyst.png" />
+    <Content Include="pictures\shared\icons\business-user.png" />
+    <Content Include="pictures\shared\icons\developer.png" />
+    <Content Include="pictures\pages\learning\learning-edx.png" />
+    <Content Include="pictures\pages\solution-templates\salesforce\thumbnail.png" />
+    <Content Include="pictures\pages\solution-templates\twitter\thumbnail.png" />
+    <Content Include="pictures\pages\solution-templates\twitter\solutions-screenshots.gif" />
+    <Content Include="pictures\shared\customers\aerocrine.png" />
+    <Content Include="pictures\shared\customers\beth-israel-deaconess-medical-center.png" />
+    <Content Include="pictures\shared\customers\boys-and-girls-club.png" />
+    <Content Include="pictures\shared\customers\breeze.png" />
+    <Content Include="pictures\shared\customers\carnegie-mellon-university.png" />
+    <Content Include="pictures\shared\customers\cbre.png" />
+    <Content Include="pictures\shared\customers\enlighten-designs.png" />
+    <Content Include="pictures\shared\customers\esmart-systems.png" />
+    <Content Include="pictures\shared\customers\helse-vest.png" />
+    <Content Include="pictures\shared\customers\ims-health.png" />
+    <Content Include="pictures\shared\customers\jordan-ahli-bank.png" />
+    <Content Include="pictures\shared\customers\leicester.png" />
+    <Content Include="pictures\shared\customers\medassets.png" />
+    <Content Include="pictures\shared\customers\nhs.png" />
+    <Content Include="pictures\shared\customers\oslo.png" />
+    <Content Include="pictures\shared\customers\pier1-imports.png" />
+    <Content Include="pictures\shared\customers\sgs-international.png" />
+    <Content Include="pictures\shared\customers\tangerine.png" />
+    <Content Include="pictures\shared\customers\tourism-australia.png" />
+    <Content Include="pictures\shared\customers\wash.png" />
+    <Content Include="pictures\shared\customers\ziosk.png" />
+    <Content Include="pictures\shared\integrations\1x\xero.png" />
+    <Content Include="pictures\shared\integrations\2x\xero%402x.png" />
+    <Content Include="pictures\shared\partners\blue-margin-logo.png" />
+    <Content Include="pictures\shared\partners\bluegranite-logo.png" />
+    <Content Include="pictures\shared\partners\g-net-logo.png" />
+    <Content Include="pictures\shared\partners\microsoft-partner-badge.png" />
+    <Content Include="pictures\shared\partners\neal-analytics-logo.png" />
+    <Content Include="pictures\shared\section\enterprise-ready.png" />
+    <Content Include="pictures\shared\section\laptop-dashboard.jpg" />
+    <Content Include="pictures\shared\section\mobile-devices.jpg" />
+    <Content Include="pictures\shared\section\publishtoweb\businesses-publishtoweb-hero.jpg" />
+    <Content Include="pictures\shared\section\publishtoweb\media-publishtoweb-hero.jpg" />
+    <Content Include="pictures\shared\section\publishtoweb\non-profit-publishtoweb-hero.jpg" />
+    <Content Include="pictures\shared\section\publishtoweb\public-sector-publishtoweb-hero.jpg" />
+    <Content Include="pictures\shared\section\roundtable.png" />
+    <Content Include="pictures\shared\section\showcase-solution-templates.jpg" />
+    <Content Include="pictures\shared\section\smiling-girl.png" />
+    <Content Include="pictures\shared\section\learning-hero.png" />
+    <Content Include="pictures\pages\custom-visuals\visual-bar-chart.png" />
+    <Content Include="pictures\pages\custom-visuals\visual-bubble-chart.png" />
+    <Content Include="pictures\pages\custom-visuals\visual-data-dot-chart.png" />
+    <Content Include="pictures\pages\custom-visuals\visual-donut-chart.png" />
+    <Content Include="pictures\pages\custom-visuals\visual-line-chart.png" />
+    <Content Include="pictures\pages\custom-visuals\visual-scatter-hexbin.png" />
+    <Content Include="pictures\pages\custom-visuals\visual-synoptic-panel.png" />
+    <Content Include="pictures\pages\solutions\customer-support.png" />
+    <Content Include="pictures\pages\solutions\decision-maker.png" />
+    <Content Include="pictures\pages\solutions\marketing.png" />
+    <Content Include="pictures\pages\solutions\sales.png" />
+    <Content Include="pictures\shared\img-frame.png" />
+    <Content Include="pictures\pages\integrations\laptop.png" />
+    <Content Include="pictures\shared\integrations\1x\access.png" />
+    <Content Include="pictures\shared\integrations\1x\active-directory.png" />
+    <Content Include="pictures\shared\integrations\1x\acumatica.png" />
+    <Content Include="pictures\shared\integrations\1x\adobe-analytics.png" />
+    <Content Include="pictures\shared\integrations\1x\analysis-server.png" />
+    <Content Include="pictures\shared\integrations\1x\appfigures.png" />
+    <Content Include="pictures\shared\integrations\1x\azure-audit-logs.png" />
+    <Content Include="pictures\shared\integrations\1x\azure-blob-storage.png" />
+    <Content Include="pictures\shared\integrations\1x\azure-documentdb.png" />
+    <Content Include="pictures\shared\integrations\1x\azure-marketplace.png" />
+    <Content Include="pictures\shared\integrations\1x\azure-mobile-engagement.png" />
+    <Content Include="pictures\shared\integrations\1x\azure-sql-data-warehouse.png" />
+    <Content Include="pictures\shared\integrations\1x\azure-sql-database.png" />
+    <Content Include="pictures\shared\integrations\1x\azure-table-storage.png" />
+    <Content Include="pictures\shared\integrations\1x\circuit-id.png" />
+    <Content Include="pictures\shared\integrations\1x\comscore.png" />
+    <Content Include="pictures\shared\integrations\1x\csv.png" />
+    <Content Include="pictures\shared\integrations\1x\excel.png" />
+    <Content Include="pictures\shared\integrations\1x\exchange.png" />
+    <Content Include="pictures\shared\integrations\1x\facebook.png" />
+    <Content Include="pictures\shared\integrations\1x\folder.png" />
+    <Content Include="pictures\shared\integrations\1x\github.png" />
+    <Content Include="pictures\shared\integrations\1x\google-analytics.png" />
+    <Content Include="pictures\shared\integrations\1x\hdfs.png" />
+    <Content Include="pictures\shared\integrations\1x\hdinsight.png" />
+    <Content Include="pictures\shared\integrations\1x\ibmdb2.png" />
+    <Content Include="pictures\shared\integrations\1x\mailchimp.png" />
+    <Content Include="pictures\shared\integrations\1x\mandrill.png" />
+    <Content Include="pictures\shared\integrations\1x\marketo.png" />
+    <Content Include="pictures\shared\integrations\1x\microsoft-dynamics-marketing.png" />
+    <Content Include="pictures\shared\integrations\1x\microsoft-dynamics-nav.png" />
+    <Content Include="pictures\shared\integrations\1x\microsoft-dynamicscrm.png" />
+    <Content Include="pictures\shared\integrations\1x\mysql.png" />
+    <Content Include="pictures\shared\integrations\1x\odata.png" />
+    <Content Include="pictures\shared\integrations\1x\odbc.png" />
+    <Content Include="pictures\shared\integrations\1x\oracle.png" />
+    <Content Include="pictures\shared\integrations\1x\planview-enterprise.png" />
+    <Content Include="pictures\shared\integrations\1x\postgresql.png" />
+    <Content Include="pictures\shared\integrations\1x\quickbooks-online.png" />
+    <Content Include="pictures\shared\integrations\1x\salesforce.png" />
+    <Content Include="pictures\shared\integrations\1x\sendgrid.png" />
+    <Content Include="pictures\shared\integrations\1x\sharepoint.png" />
+    <Content Include="pictures\shared\integrations\1x\spark-on-azure.png" />
+    <Content Include="pictures\shared\integrations\1x\sql-database-auditing.png" />
+    <Content Include="pictures\shared\integrations\1x\sql-sentry.png" />
+    <Content Include="pictures\shared\integrations\1x\sql-server.png" />
+    <Content Include="pictures\shared\integrations\1x\stripe.png" />
+    <Content Include="pictures\shared\integrations\1x\sweetiq.png" />
+    <Content Include="pictures\shared\integrations\1x\sybase.png" />
+    <Content Include="pictures\shared\integrations\1x\teradata.png" />
+    <Content Include="pictures\shared\integrations\1x\text.png" />
+    <Content Include="pictures\shared\integrations\1x\twilio.png" />
+    <Content Include="pictures\shared\integrations\1x\tygraph.png" />
+    <Content Include="pictures\shared\integrations\1x\uservoice.png" />
+    <Content Include="pictures\shared\integrations\1x\visual-studio-online.png" />
+    <Content Include="pictures\shared\integrations\1x\web.png" />
+    <Content Include="pictures\shared\integrations\1x\webtrends.png" />
+    <Content Include="pictures\shared\integrations\1x\xml.png" />
+    <Content Include="pictures\shared\integrations\1x\zendesk.png" />
+    <Content Include="pictures\shared\integrations\2x\access%402x.png" />
+    <Content Include="pictures\shared\integrations\2x\active-directory%402x.png" />
+    <Content Include="pictures\shared\integrations\2x\acumatica%402x.png" />
+    <Content Include="pictures\shared\integrations\2x\adobe-analytics%402x.png" />
+    <Content Include="pictures\shared\integrations\2x\analysis-server%402x.png" />
+    <Content Include="pictures\shared\integrations\2x\appfigures%402x.png" />
+    <Content Include="pictures\shared\integrations\2x\azure-audit-logs%402x.png" />
+    <Content Include="pictures\shared\integrations\2x\azure-blob-storage%402x.png" />
+    <Content Include="pictures\shared\integrations\2x\azure-documentdb%402x.png" />
+    <Content Include="pictures\shared\integrations\2x\azure-marketplace%402x.png" />
+    <Content Include="pictures\shared\integrations\2x\azure-mobile-engagement%402x.png" />
+    <Content Include="pictures\shared\integrations\2x\azure-sql-data-warehouse%402x.png" />
+    <Content Include="pictures\shared\integrations\2x\azure-sql-database%402x.png" />
+    <Content Include="pictures\shared\integrations\2x\azure-table-storage%402x.png" />
+    <Content Include="pictures\shared\integrations\2x\circuit-id%402x.png" />
+    <Content Include="pictures\shared\integrations\2x\comscore%402x.png" />
+    <Content Include="pictures\shared\integrations\2x\csv%402x.png" />
+    <Content Include="pictures\shared\integrations\2x\excel%402x.png" />
+    <Content Include="pictures\shared\integrations\2x\exchange%402x.png" />
+    <Content Include="pictures\shared\integrations\2x\facebook%402x.png" />
+    <Content Include="pictures\shared\integrations\2x\folder%402x.png" />
+    <Content Include="pictures\shared\integrations\2x\github%402x.png" />
+    <Content Include="pictures\shared\integrations\2x\google-analytics%402x.png" />
+    <Content Include="pictures\shared\integrations\2x\hdfs%402x.png" />
+    <Content Include="pictures\shared\integrations\2x\hdinsight%402x.png" />
+    <Content Include="pictures\shared\integrations\2x\ibmdb2%402x.png" />
+    <Content Include="pictures\shared\integrations\2x\mailchimp%402x.png" />
+    <Content Include="pictures\shared\integrations\2x\mandrill%402x.png" />
+    <Content Include="pictures\shared\integrations\2x\marketo%402x.png" />
+    <Content Include="pictures\shared\integrations\2x\microsoft-dynamics-marketing%402x.png" />
+    <Content Include="pictures\shared\integrations\2x\microsoft-dynamics-nav%402x.png" />
+    <Content Include="pictures\shared\integrations\2x\microsoft-dynamicscrm%402x.png" />
+    <Content Include="pictures\shared\integrations\2x\mysql%402x.png" />
+    <Content Include="pictures\shared\integrations\2x\odata%402x.png" />
+    <Content Include="pictures\shared\integrations\2x\odbc%402x.png" />
+    <Content Include="pictures\shared\integrations\2x\oracle%402x.png" />
+    <Content Include="pictures\shared\integrations\2x\planview-enterprise%402x.png" />
+    <Content Include="pictures\shared\integrations\2x\postgresql%402x.png" />
+    <Content Include="pictures\shared\integrations\2x\quickbooks-online%402x.png" />
+    <Content Include="pictures\shared\integrations\2x\salesforce%402x.png" />
+    <Content Include="pictures\shared\integrations\2x\sendgrid%402x.png" />
+    <Content Include="pictures\shared\integrations\2x\sharepoint%402x.png" />
+    <Content Include="pictures\shared\integrations\2x\spark-on-azure%402x.png" />
+    <Content Include="pictures\shared\integrations\2x\sql-database-auditing%402x.png" />
+    <Content Include="pictures\shared\integrations\2x\sql-sentry%402x.png" />
+    <Content Include="pictures\shared\integrations\2x\sql-server%402x.png" />
+    <Content Include="pictures\shared\integrations\2x\stripe%402x.png" />
+    <Content Include="pictures\shared\integrations\2x\sweetiq%402x.png" />
+    <Content Include="pictures\shared\integrations\2x\sybase%402x.png" />
+    <Content Include="pictures\shared\integrations\2x\teradata%402x.png" />
+    <Content Include="pictures\shared\integrations\2x\text%402x.png" />
+    <Content Include="pictures\shared\integrations\2x\twilio%402x.png" />
+    <Content Include="pictures\shared\integrations\2x\tygraph%402x.png" />
+    <Content Include="pictures\shared\integrations\2x\uservoice%402x.png" />
+    <Content Include="pictures\shared\integrations\2x\visual-studio-online%402x.png" />
+    <Content Include="pictures\shared\integrations\2x\web%402x.png" />
+    <Content Include="pictures\shared\integrations\2x\webtrends%402x.png" />
+    <Content Include="pictures\shared\integrations\2x\xml%402x.png" />
+    <Content Include="pictures\shared\integrations\2x\zendesk%402x.png" />
+    <Content Include="pictures\shared\partners\microsoft-dynamics-crm.png" />
+    <Content Include="pictures\shared\partners\quickbooks-online.png" />
+    <Content Include="pictures\shared\partners\salesforce.png" />
+    <Content Include="pictures\shared\partners\twilio.png" />
+    <Content Include="pictures\shared\section\developer.jpg" />
+    <Content Include="pictures\shared\icons\olark-buttons-dark.png" />
+    <Content Include="pictures\shared\section\analytics-solutions\analytics-consistent-static.gif" />
+    <Content Include="pictures\shared\section\analytics-solutions\analytics-consistent.gif" />
+    <Content Include="pictures\shared\section\analytics-solutions\analytics-embedded-static.gif" />
+    <Content Include="pictures\shared\section\analytics-solutions\analytics-embedded.gif" />
+    <Content Include="pictures\shared\section\analytics-solutions\analytics-reports.gif" />
+    <Content Include="pictures\shared\section\analytics-solutions\analytics-reports-static.gif" />
+    <Content Include="pictures\shared\section\analytics-solutions\analytics-dashboard.gif" />
+    <Content Include="pictures\shared\section\analytics-solutions\analytics-dashboard-static.gif" />
+    <Content Include="pictures\shared\section\conference-room.png" />
+    <Content Include="pictures\pages\industries\airline\Image1.png" />
+    <Content Include="pictures\pages\industries\airline\Image2.png" />
+    <Content Include="pictures\pages\industries\airline\Image3.png" />
+    <Content Include="pictures\pages\desktop-thank-you\find-guide-screenshot.png" />
+    <Content Include="pictures\pages\desktop-thank-you\tour-video-screenshot.png" />
+    <Content Include="pictures\pages\industries\airline\thumbnail.png" />
+    <Content Include="pictures\pages\industries\cpg\Image1.png" />
+    <Content Include="pictures\pages\industries\cpg\Image2.png" />
+    <Content Include="pictures\pages\industries\cpg\Image3.png" />
+    <Content Include="pictures\pages\industries\cpg\thumbnail.png" />
+    <Content Include="pictures\shared\section\showcase.jpg" />
+    <Content Include="pictures\pages\industries\insurance\Image1.png" />
+    <Content Include="pictures\pages\industries\insurance\thumbnail.png" />
+    <Content Include="pictures\pages\industries\manufacturing\Image1.png" />
+    <Content Include="pictures\pages\industries\manufacturing\Image2.png" />
+    <Content Include="pictures\pages\industries\manufacturing\Image3.png" />
+    <Content Include="pictures\pages\industries\manufacturing\thumbnail.png" />
+    <Content Include="pictures\pages\industries\professional-services\Image1.png" />
+    <Content Include="pictures\pages\industries\professional-services\Image2.png" />
+    <Content Include="pictures\pages\industries\professional-services\Image3.png" />
+    <Content Include="pictures\pages\industries\professional-services\thumbnail.png" />
+    <Content Include="pictures\pages\industries\retail\Image1.png" />
+    <Content Include="pictures\pages\industries\retail\thumbnail.png" />
+    <Content Include="pictures\pages\features\publish.gif" />
+    <Content Include="pictures\pages\features\content-packs.gif" />
+    <Content Include="pictures\pages\features\curate-content.gif" />
+    <Content Include="pictures\pages\features\integrate-open.gif" />
+    <Content Include="pictures\pages\features\live-dashboards.gif" />
+    <Content Include="pictures\pages\features\mobile.gif" />
+    <Content Include="pictures\pages\features\mockup.png" />
+    <Content Include="pictures\pages\features\on-prem-cloud.gif" />
+    <Content Include="pictures\pages\features\share-collab.gif" />
+    <Content Include="pictures\pages\landing\excel\create-relationship.gif" />
+    <Content Include="pictures\pages\landing\excel\measure.png" />
+    <Content Include="pictures\pages\landing\excel\qna.gif" />
+    <Content Include="pictures\shared\section\whiteboard.jpg" />
+    <Content Include="pictures\shared\social\in_share.png" />
+    <Content Include="pictures\shared\social\in_share_x2.png" />
+    <Content Include="pictures\shared\social\like_fb.png" />
+    <Content Include="pictures\shared\social\like_fb_x2.png" />
+    <Content Include="pictures\shared\social\tweet_twitter.png" />
+    <Content Include="pictures\shared\social\tweet_twitter_x2.png" />
+    <Content Include="scripts\analytics\config\analyticsConfig.js" />
+    <Content Include="scripts\analytics\controls\eventDispatcher.js" />
+    <Content Include="scripts\analytics\controls\wedcsEventsDispatcher.js" />
+    <Content Include="scripts\analytics\event-data\defaultEvents.js" />
+    <Content Include="scripts\analytics\event-data\events.js" />
+    <Content Include="scripts\analytics\event-data\pageList.js" />
+    <Content Include="scripts\analytics\helpers\googleAnalytics.js" />
+    <Content Include="scripts\analytics\helpers\mixpanel.js" />
+    <Content Include="scripts\analytics\libs\googleAnalyticsInclude.js" />
+    <Content Include="scripts\analytics\libs\mixpanelInclude.js" />
+    <Content Include="scripts\analytics\libs\mixpanelVwoInclude.js" />
+    <Content Include="scripts\consentForm.js" />
+    <Content Include="scripts\jquery.validate.js" />
+    <Content Include="scripts\jquery.validate.unobtrusive.acom.js" />
+    <Content Include="scripts\jquery.validate.unobtrusive.chameleon.js" />
+    <Content Include="scripts\jquery.validate.unobtrusive.js" />
+    <Content Include="scripts\powerbi\controls\carousel.js" />
+    <Content Include="scripts\exit-intent.js" />
+    <Content Include="scripts\animation.gsap.js" />
+    <Content Include="scripts\consentForm.js" />
+    <Content Include="scripts\guidedLearning.js" />
+    <Content Include="scripts\plugins\debug.addIndicators.min.js" />
+    <Content Include="scripts\features.js" />
+    <Content Include="scripts\form.js" />
+    <Content Include="scripts\powerbi\controls\navigationLeft.js" />
+    <Content Include="scripts\powerbi\feedback.js" />
+    <Content Include="scripts\ScrollMagic.js" />
+    <Content Include="scripts\signupLink.js" />
+    <Content Include="scripts\subnavCollapse.js" />
+    <Content Include="scripts\sundog-documentation\controls\navigationLeft.js" />
+    <Content Include="scripts\sundog-documentation\controls\navigationScroll.js" />
+    <Content Include="scripts\sundog-navigation\controls\navigation.js" />
+    <Content Include="scripts\sundog\controls\backgroundVideo.js" />
+    <Content Include="scripts\sundog\controls\button.js" />
+    <Content Include="scripts\sundog\controls\equalize.js" />
+    <Content Include="scripts\sundog\controls\fadeImage.js" />
+    <Content Include="scripts\sundog\controls\flyout.js" />
+    <Content Include="scripts\sundog\controls\modal.js" />
+    <Content Include="scripts\sundog\controls\multiselect.js" />
+    <Content Include="scripts\sundog\controls\playInSection.js" />
+    <Content Include="scripts\sundog\controls\scrollspy.js" />
+    <Content Include="scripts\sundog\controls\tabs.js" />
+    <Content Include="scripts\sundog\controls\toggle.js" />
+    <Content Include="scripts\sundog\framework\deeplink.js" />
+    <Content Include="scripts\sundog\framework\dropdownNavigation.js" />
+    <Content Include="scripts\sundog\framework\fixedelement.js" />
+    <Content Include="scripts\sundog\framework\formPersist.js" />
+    <Content Include="scripts\sundog\framework\localStorage.js" />
+    <Content Include="scripts\sundog\framework\scrollTo.js" />
+    <Content Include="scripts\sundog\framework\socialShare.js" />
+    <Content Include="scripts\sundog\framework\tables.js" />
+    <Content Include="scripts\sundog\framework\truncateText.js" />
+    <Content Include="scripts\sundog\helpers\breakpoints.js" />
+    <Content Include="scripts\sundog\helpers\debounce.js" />
+    <Content Include="scripts\sundog\helpers\qs2object.js" />
+    <Content Include="scripts\sundog\helpers\throttle.js" />
+    <Content Include="scripts\sundog\lib\html5shiv.min.js" />
+    <Content Include="scripts\sundog\lib\jquery-1.11.3.js" />
+    <Content Include="scripts\sundog\lib\jquery-1.11.3.min.js" />
+    <Content Include="scripts\sundog\lib\jquery-2.1.4.js" />
+    <Content Include="scripts\sundog\lib\jquery-2.1.4.min.js" />
+    <Content Include="scripts\sundog\lib\owl.carousel.2.0.0.min.js" />
+    <Content Include="scripts\sundog\lib\respond.min.js" />
+    <Content Include="scripts\sundog\lib\respond.src.js" />
+    <Content Include="scripts\supportForm.js" />
+    <Content Include="scripts\TweenMax.js" />
+    <Content Include="scripts\tagManager\media\amnet.js" />
+    <Content Include="scripts\tagManager\media\atlas.js" />
+    <Content Include="scripts\tagManager\media\bidtellect.js" />
+    <Content Include="scripts\tagManager\media\GoogleAds.js" />
+    <Content Include="scripts\tagManager\media\outbrain.js" />
+    <Content Include="scripts\tagManager\media\twitter.js" />
+    <Content Include="scripts\tagManager\media\unifiedSocial.js" />
+    <Content Include="scripts\tagManager\tagConfig.js" />
+    <Content Include="scripts\tagManager\tagManager.js" />
+    <Content Include="scripts\utilities\cookieReader.js" />
+    <Content Include="scripts\utilities\debugger.js" />
+    <Content Include="scripts\utilities\viewport.js" />
+    <Content Include="scripts\video.js" />
+    <Content Include="svg\360-mobile-china.svg" />
+    <Content Include="svg\baidu-mobile-china.svg" />
+    <Content Include="svg\bing-news-solution.svg" />
+    <Content Include="svg\binoculars.svg" />
+    <Content Include="svg\bell.svg" />
+    <Content Include="svg\clipboard.svg" />
+    <Content Include="svg\cloud.svg" />
+    <Content Include="svg\connection.svg" />
+    <Content Include="svg\dashboard.svg" />
+    <Content Include="svg\briefcase.svg" />
+    <Content Include="svg\code-editor.svg" />
+    <Content Include="svg\consumer.svg" />
+    <Content Include="svg\document.svg" />
+    <Content Include="svg\dynamics365-psa-solution.svg" />
+    <Content Include="svg\enable-in-app.svg" />
+    <Content Include="svg\exclamation-circle.svg">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="svg\expand-window.svg" />
+    <Content Include="svg\dartboard.svg" />
+    <Content Include="svg\gateway-cloud.svg" />
+    <Content Include="svg\gear-filled.svg" />
+    <Content Include="svg\gear.svg" />
+    <Content Include="svg\heart.svg" />
+    <Content Include="svg\house.svg" />
+    <Content Include="svg\info.svg" />
+    <Content Include="svg\lightbulb.svg" />
+    <Content Include="svg\learning-checkmark.svg" />
+    <Content Include="svg\learning-thumbs-up.svg" />
+    <Content Include="svg\learning-trophy.svg" />
+    <Content Include="svg\left-transparent.svg" />
+    <Content Include="svg\lock.svg" />
+    <Content Include="svg\microsoft.svg" />
+    <Content Include="svg\miui-china.svg" />
+    <Content Include="svg\ms-dynamics-solution.svg" />
+    <Content Include="svg\myapp-china.svg" />
+    <Content Include="svg\newsletter.svg" />
+    <Content Include="svg\pbipluscube.svg" />
+    <Content Include="svg\pbiplusgateway.svg" />
+    <Content Include="svg\pencil.svg" />
+    <Content Include="svg\person-with-monitor.svg" />
+    <Content Include="svg\person-with-screen.svg" />
+    <Content Include="svg\phone.svg" />
+    <Content Include="svg\pictures.svg" />
+    <Content Include="svg\plane.svg" />
+    <Content Include="pictures\shared\section\developers.jpg" />
+    <Content Include="pictures\pages\support\circle-check.svg" />
+    <Content Include="pictures\pages\support\circle-x.svg" />
+    <Content Include="svg\integrate.svg" />
+    <Content Include="svg\data.svg" />
+    <Content Include="svg\extend.svg" />
+    <Content Include="svg\play-for-video.svg" />
+    <Content Include="svg\play-video.svg" />
+    <Content Include="svg\plus.svg" />
+    <Content Include="svg\real-time.svg" />
+    <Content Include="svg\right-transparent.svg" />
+    <Content Include="svg\salesforce-solution.svg" />
+    <Content Include="svg\sales-combine.svg" />
+    <Content Include="svg\sales-mobile.svg" />
+    <Content Include="svg\sap-solution.svg" />
+    <Content Include="svg\sccm-solution.svg" />
+    <Content Include="svg\speech-bubble.svg" />
+    <Content Include="svg\star.svg" />
+    <Content Include="svg\energy.svg" />
+    <Content Include="svg\talk.svg" />
+    <Content Include="svg\telecommunications.svg" />
+    <Content Include="svg\twitter-solution.svg" />
+    <Content Include="svg\wandoujia-china.svg" />
+    <Content Include="svg\web.svg" />
+    <Content Include="svg\desktop.svg" />
+    <Content Include="svg\play-circle.svg" />
+    <Content Include="scripts\hoverGif.js" />
+    <Content Include="scripts\integration.js" />
+    <Content Include="pictures\shared\icons\apple-store.png" />
+    <Content Include="pictures\shared\icons\google-store.png" />
+    <Content Include="pictures\shared\icons\windows-store.png" />
+    <Content Include="scripts\culturesdropdown.js" />
+    <Content Include="scripts\currencydropdown.js" />
+    <Content Include="scripts\price.js" />
+    <Content Include="svg\book.svg" />
+    <Content Include="svg\comment.svg" />
+    <Content Include="svg\monitor.svg" />
+    <Content Include="svg\pbiplusdesktop.svg" />
+    <Content Include="pictures\shared\customers\abb.png" />
+    <Content Include="pictures\shared\customers\conde-nast.png" />
+    <Content Include="pictures\shared\customers\mediacom.png" />
+    <Content Include="pictures\shared\customers\metro-bank.png" />
+    <Content Include="svg\excel.svg">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="pictures\pages\departments\finance.png" />
+    <Content Include="pictures\pages\departments\finance\capex-management.png" />
+    <Content Include="pictures\pages\departments\finance\expense-management.png" />
+    <Content Include="pictures\pages\departments\finance\financial-performance.png" />
+    <Content Include="pictures\pages\departments\finance\revenue-profitability.png" />
+    <Content Include="pictures\pages\departments\human-resources.png" />
+    <Content Include="pictures\pages\departments\human-resources\compliance-training.png" />
+    <Content Include="pictures\pages\departments\human-resources\headcount-summary.png" />
+    <Content Include="pictures\pages\departments\it.png" />
+    <Content Include="pictures\pages\departments\it\help-desk.png" />
+    <Content Include="pictures\pages\departments\it\it-spend.png" />
+    <Content Include="pictures\pages\departments\it\security-compliance.png" />
+    <Content Include="pictures\pages\departments\marketing.png" />
+    <Content Include="pictures\pages\departments\marketing\campaign-analytics.png" />
+    <Content Include="pictures\pages\departments\marketing\email-analytics.png" />
+    <Content Include="pictures\pages\departments\marketing\market-share.png" />
+    <Content Include="pictures\pages\departments\marketing\web-social-analytics.png" />
+    <Content Include="pictures\pages\departments\operations.png" />
+    <Content Include="pictures\pages\departments\operations\claims-analysis.png" />
+    <Content Include="pictures\pages\departments\operations\production.png" />
+    <Content Include="pictures\pages\departments\operations\store-performance.png" />
+    <Content Include="pictures\pages\departments\sales.png" />
+    <Content Include="pictures\pages\departments\sales\pipeline-reports.png" />
+    <Content Include="pictures\pages\departments\sales\quota-management.png" />
+    <Content Include="pictures\pages\departments\sales\sales-performance.png" />
+    <Content Include="pictures\pages\departments\sales\trends.png" />
+    <Content Include="pictures\pages\excel-dashboard-publisher-thank-you\animated.gif" />
+    <Content Include="pictures\pages\excel-dashboard-publisher\laptop.png" />
+    <Content Include="pictures\pages\publishtoweb\publish-to-web-screenshot.png" />
+    <Content Include="pictures\pages\tour\decisions.jpg" />
+    <Content Include="pictures\pages\tour\details.jpg" />
+    <Content Include="pictures\pages\tour\onepane.jpg" />
+    <Content Include="pictures\pages\tour\share.jpg" />
+    <Content Include="pictures\pages\tour\shareweb.png" />
+    <Content Include="pictures\pages\tour\tour.jpg" />
+    <Content Include="pictures\shared\section\featured-post.png" />
+    <Content Include="packages.config">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="pictures\shared\social\social-default-image.png" />
+    <Content Include="scripts\tagDecoratorConfig.js" />
+    <Content Include="scripts\tagDecorator.js" />
+    <Content Include="scripts\_variables.js" />
+    <Content Include="svg\calendar.svg" />
+    <Content Include="svg\click.svg" />
+    <Content Include="svg\connect.svg" />
+    <Content Include="svg\cart.svg" />
+    <Content Include="svg\computer.svg" />
+    <Content Include="svg\download.svg" />
+    <Content Include="svg\facebook.svg" />
+    <Content Include="svg\finance.svg" />
+    <Content Include="svg\marketing.svg" />
+    <Content Include="svg\microsoft-color.svg" />
+    <Content Include="svg\pie-chart.svg" />
+    <Content Include="svg\pbiplusmobile.svg" />
+    <Content Include="svg\pbiplusexcel.svg" />
+    <Content Include="svg\people.svg" />
+    <Content Include="svg\powerbi.svg" />
+    <Content Include="svg\question.svg" />
+    <Content Include="svg\search.svg" />
+    <Content Include="svg\team.svg" />
+    <Content Include="svg\report.svg" />
+    <Content Include="svg\twitter.svg" />
+    <Content Include="svg\win.svg" />
+    <Content Include="svg\wrench.svg" />
+    <Content Include="svg\youtube-play.svg" />
+    <Content Include="svg\youtube.svg" />
+    <Content Include="Views\Web.config">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Views\_shared\components\_HeaderSimplified.cshtml" />
+    <Content Include="Views\_shared\section\_analytics-solutions.cshtml" />
+    <Content Include="Views\_shared\_LayoutSimplified.cshtml" />
+    <Content Include="Views\_ViewStart.cshtml" />
+    <Content Include="Views\_shared\_Layout.cshtml" />
+    <Content Include="Views\_global\_ErrorPage.cshtml" />
+    <Content Include="Views\_shared\_LayoutParent.cshtml" />
+    <Content Include="Views\_global\index.cshtml" />
+    <Content Include="Views\_global\_404.cshtml" />
+    <Content Include="Views\_shared\components\_Footer.cshtml" />
+    <Content Include="config\rewriteMaps.config">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="config\rewriteRules.config">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="acom.msbuild.targets" />
+    <Content Include="App_Data\tenants.json" />
+    <Content Include="App_Code\OnyxForms.cshtml" />
+    <None Include="compilerconfig.json" />
+    <None Include="compilerconfig.json.defaults">
+      <DependentUpon>compilerconfig.json</DependentUpon>
+    </None>
+    <Content Include="less\sundog-override.d.less" />
+    <Content Include="Views\_global\blog\_details.cshtml" />
+    <Content Include="Views\_global\blog\index.cshtml" />
+    <Content Include="Views\_shared\blog\_postsList.cshtml" />
+    <Content Include="Views\_shared\blog\_sidebar.cshtml" />
+    <Content Include="Views\_shared\parts\_disqus.cshtml" />
+    <Content Include="Views\patterns\framework\typography.cshtml" />
+    <Content Include="Views\patterns\_patterns.cshtml" />
+    <Content Include="Views\patterns\_ViewStart.cshtml" />
+    <Content Include="css\powerbi\framework\typography.less" />
+    <Content Include="css\powerbi\helpers\font-face.less" />
+    <Content Include="fonts\din\normal\latest.eot" />
+    <Content Include="fonts\din\normal\latest.ttf" />
+    <Content Include="fonts\din\normal\latest.woff" />
+    <Content Include="fonts\din\light\latest.eot" />
+    <Content Include="fonts\din\light\latest.ttf" />
+    <Content Include="fonts\din\light\latest.woff" />
+    <Content Include="css\powerbi\header.less" />
+    <Content Include="css\powerbi\section.less" />
+    <Content Include="css\powerbi\framework\linkList.less" />
+    <Content Include="css\powerbi\framework\button.less" />
+    <Content Include="css\powerbi\blog\post.less" />
+    <Content Include="css\powerbi\tag.less" />
+    <Content Include="Views\_shared\_pagination.cshtml" />
+    <Content Include="Views\_global\blog\_results.cshtml" />
+    <Content Include="css\powerbi\blog\post-date.less" />
+    <Content Include="css\powerbi\blog\post-bio.less" />
+    <Content Include="Views\_shared\layout\_googleAnalyticsInclude.cshtml" />
+    <Content Include="Views\_shared\layout\_wedcsInclude.cshtml" />
+    <Content Include="Views\_shared\layout\_wedcsTags.cshtml" />
+    <Content Include="Views\_global\documentation\_details.cshtml" />
+    <Content Include="Views\_shared\parts\_leftnavigation.cshtml" />
+    <Content Include="Views\Sitemap\_robots.cshtml" />
+    <Content Include="views-metadata.json" />
+    <Content Include="Views\_shared\section\_signup.cshtml" />
+    <Content Include="Views\_shared\form\_signup.cshtml" />
+    <Content Include="css\powerbi\framework\form.less" />
+    <Content Include="Views\_global\excel-dashboard-publisher\index.cshtml" />
+    <Content Include="Views\_shared\controls\Social.cshtml" />
+    <Content Include="Views\_global\excel-dashboard-publisher-thank-you\index.cshtml" />
+    <Content Include="Views\_global\desktop\index.cshtml" />
+    <Content Include="Views\_global\android-terms\index.cshtml" />
+    <Content Include="Views\_global\api-terms\index.cshtml" />
+    <Content Include="Views\_global\terms-of-service\index.cshtml" />
+    <Content Include="Views\_global\trial-terms\index.cshtml" />
+    <Content Include="Views\_global\visuals-gallery-terms\index.cshtml" />
+    <Content Include="Views\_global\windows-license-terms\index.cshtml" />
+    <Content Include="Views\_global\landing\excel.cshtml" />
+    <Content Include="css\powerbi\card.less" />
+    <Content Include="css\powerbi\controls\carousel.less" />
+    <Content Include="css\powerbi\controls\supportStatus.less" />
+    <Content Include="css\powerbi\framework\quote.less" />
+    <Content Include="css\powerbi\framework\icon.less" />
+    <Content Include="Views\_shared\components\_Header.cshtml" />
+    <Content Include="svg\rss.svg" />
+    <Content Include="svg\cube.svg" />
+    <Content Include="svg\cycle.svg" />
+    <Content Include="svg\world.svg" />
+    <Content Include="Views\_global\publishtoweb\index.cshtml" />
+    <Content Include="Views\_global\landing\signin.cshtml" />
+    <Content Include="Views\_global\tour\index.cshtml" />
+    <Content Include="css\powerbi\video.less" />
+    <Content Include="Views\_global\desktop-thank-you\index.cshtml" />
+    <Content Include="Views\_global\departments\index.cshtml" />
+    <Content Include="Views\_global\departments\_details.cshtml" />
+    <Content Include="Views\patterns\icons.cshtml" />
+    <Content Include="Views\patterns\tags.cshtml" />
+    <Content Include="Views\patterns\pagination.cshtml" />
+    <Content Include="Views\patterns\breadcrumbs.cshtml" />
+    <Content Include="Views\patterns\framework\button.cshtml" />
+    <Content Include="Views\patterns\navigationleft.cshtml" />
+    <Content Include="svg\powerbilogo.svg" />
+    <Content Include="Views\_global\integrations\_details.cshtml" />
+    <Content Include="Views\_global\what-is-power-bi\index.cshtml" />
+    <Content Include="Views\_global\support\index.cshtml" />
+    <Content Include="Views\_shared\section\_integrations.cshtml" />
+    <Content Include="css\powerbi\integration.less" />
+    <Content Include="Views\_shared\section\_signup-its-free.cshtml" />
+    <Content Include="Views\patterns\hover-gif.cshtml" />
+    <Content Include="svg\play.svg" />
+    <Content Include="pictures\pages\what-is-power-bi\flowchart.svg" />
+    <Content Include="svg\left.svg" />
+    <Content Include="svg\right.svg" />
+    <Content Include="Views\patterns\controls\carousel.cshtml" />
+    <Content Include="Views\_shared\layout\_olarkInclude.cshtml" />
+    <Content Include="css\powerbi\olark.less" />
+    <Content Include="Views\patterns\section.cshtml" />
+    <Content Include="Views\_shared\parts\_newsletter-signup.cshtml" />
+    <Content Include="css\powerbi\newsletter.less" />
+    <Content Include="Views\_shared\parts\_faq-set.cshtml" />
+    <Content Include="Views\patterns\parts.cshtml" />
+    <Content Include="Views\_shared\form\_newsletter.cshtml" />
+    <Content Include="Views\_shared\form\submitviews\_newsletterthanks.cshtml" />
+    <Content Include="Views\patterns\controls\modal.cshtml" />
+    <Content Include="Views\patterns\video.cshtml" />
+    <Content Include="Views\_global\downloads\index.cshtml" />
+    <Content Include="Views\_global\pricing\index.cshtml" />
+    <Content Include="css\powerbi\framework\table.less" />
+    <Content Include="Views\_shared\parts\_currencydropdown.cshtml" />
+    <Content Include="Views\_shared\layout\_javascriptconstants.cshtml" />
+    <Content Include="Views\_shared\parts\_culturesdropdown.cshtml" />
+    <Content Include="Views\_global\features\index.cshtml" />
+    <Content Include="Views\_global\search\EntryTypes\_EntryType.cshtml" />
+    <Content Include="Views\_global\search\index.cshtml" />
+    <Content Include="Views\_shared\form\_feedback.cshtml" />
+    <Content Include="Views\_shared\form\_feedbackComment.cshtml" />
+    <Content Include="Views\_shared\form\submitviews\_feedbackthanks.cshtml" />
+    <Content Include="Views\_global\developers\index.cshtml" />
+    <Content Include="Views\_global\industries\_details.cshtml" />
+    <Content Include="Views\_global\industries\index.cshtml" />
+    <Content Include="Views\_global\win-phone-3rd-party\index.cshtml" />
+    <Content Include="Views\_global\windows-3rd-party\index.cshtml" />
+    <Content Include="Views\_global\android-3rd-party\index.cshtml" />
+    <Content Include="Views\_global\ios-3rd-party\index.cshtml" />
+    <Content Include="Views\_global\ios-license-terms\index.cshtml" />
+    <Content Include="svg\search.svg" />
+    <Content Include="css\powerbi\framework\img.less" />
+    <Content Include="Views\patterns\index.cshtml" />
+    <Content Include="css\powerbi\framework\grid.less" />
+    <Content Include="Views\_global\custom-visuals\index.cshtml" />
+    <Content Include="Views\_global\solutions\index.cshtml" />
+    <Content Include="css\powerbi\search.less" />
+    <Content Include="Views\_global\search\EntryTypes\_BlogEntryType.cshtml" />
+    <Content Include="Views\_global\search\EntryTypes\_ArticleEntryType.cshtml" />
+    <Content Include="Views\_global\newsletter\index.cshtml" />
+    <Content Include="Views\_shared\form\_newsletter-full.cshtml" />
+    <Content Include="Views\_shared\form\submitviews\_newsletterfullthanks.cshtml" />
+    <Content Include="Views\_global\learning\index.cshtml" />
+    <Content Include="Views\_global\gateway\index.cshtml" />
+    <Content Include="Views\_global\asset\head.cshtml" />
+    <Content Include="Views\patterns\framework\form.cshtml" />
+    <Content Include="Views\_shared\section\_modal-download.cshtml" />
+    <Content Include="Views\_shared\form\_download.cshtml" />
+    <Content Include="css\powerbi\pages\features.less" />
+    <Content Include="Views\patterns\established.cshtml" />
+    <Content Include="Views\_global\partner-showcase\index.cshtml" />
+    <Content Include="Views\_global\partner-showcase\_details.cshtml" />
+    <Content Include="Views\_global\mobile\index.cshtml" />
+    <Content Include="Views\_global\landing\sales.cshtml" />
+    <Content Include="css\powerbi\cubes.less" />
+    <Content Include="Views\_global\android-license-terms\index.cshtml" />
+    <Content Include="Views\_global\win-phone-license-terms\index.cshtml" />
+    <Content Include="Views\patterns\framework\links.cshtml" />
+    <Content Include="Views\_shared\layout\_optimizelyInclude.cshtml" />
+    <Content Include="css\powerbi\integration-logo.less" />
+    <Content Include="Views\_global\solution-templates\index.cshtml" />
+    <Content Include="Views\_global\solution-templates\_details.cshtml" />
+    <Content Include="Views\_shared\section\_modal-download-gated.cshtml" />
+    <Content Include="Views\_shared\form\_download-gated.cshtml" />
+    <Content Include="Views\_global\get-started\index.cshtml" />
+    <Content Include="Views\patterns\tile.cshtml" />
+    <Content Include="css\powerbi\tile.less" />
+    <Content Include="Views\_global\search\EntryTypes\_CommunityEntryType.cshtml" />
+    <Content Include="Views\_global\partners\index.cshtml" />
+    <Content Include="css\powerbi\partners.less" />
+    <Content Include="css\powerbi\border.less" />
+    <Content Include="css\powerbi\icon.less" />
+    <Content Include="Views\patterns\card.cshtml" />
+    <Content Include="Views\patterns\established.cshtml" />
+    <Content Include="css\powerbi\helpers\mixins.d.less" />
+    <Content Include="css\powerbi\framework\glyphicon.less" />
+    <Content Include="Views\_global\guided-learning\index.cshtml" />
+    <Content Include="Views\_global\guided-learning\_detail.cshtml" />
+    <Content Include="css\powerbi\pages\guided-learning.less" />
+    <Content Include="css\powerbi\subnav-collapse.less" />
+    <Content Include="Views\_global\excel-dashboard-publisher-pre-install\index.cshtml" />
+    <Content Include="Views\_global\excel-dashboard-publisher-interrupted\index.cshtml" />
+    <Content Include="Views\_global\data-insights-summit\index.cshtml" />
+    <Content Include="css\powerbi\exit-intent.less" />
+    <Content Include="Views\_shared\section\_modal-ebook-registration.cshtml" />
+    <Content Include="Views\_shared\section\_modal-ebook-registration-thankyou.cshtml" />
+    <Content Include="Views\_shared\_leftnavigation.cshtml" />
+    <Content Include="Views\_shared\form\_content-registration.cshtml" />
+    <Content Include="Views\_shared\form\_mobile.cshtml" />
+    <Content Include="Views\_shared\form\submitviews\_mobilethanks.cshtml" />
+    <Content Include="Views\_global\integrations\_details-b.cshtml" />
+    <Content Include="Views\_shared\layout\_customOlarkChat.cshtml" />
+    <Content Include="Views\_shared\layout\_clicktaleInclude.cshtml" />
+    <Content Include="Views\_global\enterprise-ready\index.cshtml" />
+    <Content Include="css\powerbi\framework\link.less" />
+    <Content Include="Views\_global\compare-power-bi-tableau-qlik\index.cshtml" />
+    <Content Include="css\powerbi\positioning.less" />
+    <Content Include="Views\patterns\border.cshtml" />
+    <Content Include="css\powerbi\framework\footer.less" />
+    <Content Include="Views\_shared\form\_content-registration-full.cshtml" />
+    <Content Include="Views\_shared\form\submitviews\_contentregistrationthanks.cshtml" />
+    <Content Include="Views\_shared\form\_track-progress.cshtml" />
+    <Content Include="Views\_shared\form\submitviews\_trackprogress.cshtml" />
+    <Content Include="Views\_global\partners\get-listed.cshtml" />
+    <Content Include="Views\_shared\form\_partnersInvitationRequest.cshtml" />
+    <Content Include="Views\_shared\form\submitviews\_thanksForApplication.cshtml" />
+    <Content Include="Views\_global\datajournalism\index.cshtml" />
+    <Content Include="css\powerbi\framework\partner-item.less" />
+    <Content Include="Views\_global\become-a-partner\index.cshtml" />
+    <Content Include="css\powerbi\framework\note.less" />
+    <Content Include="Views\_global\partners\_details.cshtml" />
+    <Content Include="Views\_shared\components\PartnersShowcase\Partner.cshtml" />
+    <Content Include="Views\_shared\components\PartnersShowcase\FeaturedPartner.cshtml" />
+    <Content Include="Views\_global\search\EntryTypes\_PartnerShowcaseEntryType.cshtml" />
+    <Content Include="Views\_global\search\EntryTypes\_PartnerDirectoryEntryType.cshtml" />
+    <Content Include="Views\_global\pricing\index-b.cshtml" />
+    <Content Include="Views\_global\_unauthorized.cshtml" />
+    <Content Include="Views\_global\support\pro\index.cshtml" />
+    <Content Include="Views\_global\support\free.cshtml" />
+    <Content Include="Views\_global\support\pro\ticket.cshtml" />
+    <Content Include="Views\_shared\form\_support-pro-ticket.cshtml" />
+    <Content Include="Views\_shared\form\submitviews\_support-pro-ticket-thanks.cshtml" />
+    <Content Include="Views\_shared\form\_datajournalism-registration.cshtml" />
+    <Content Include="Views\_global\datajournalism\courses\index.cshtml" />
+    <Content Include="Views\_global\datajournalism\courses\visualization.cshtml" />
+    <Content Include="Views\_global\datajournalism\courses\truthful-visualizations.cshtml" />
+    <Content Include="Views\_global\datajournalism\courses\design-and-narrative.cshtml" />
+    <Content Include="Views\_global\datajournalism\courses\choosing-graphics.cshtml" />
+    <Content Include="Views\_global\datajournalism\courses\data-exploration.cshtml" />
+    <Content Include="pictures\pages\datajournalism\courses\visualization\tutorial_1.zip" />
+    <Content Include="pictures\pages\datajournalism\courses\data-exploration\tutorial_2.zip" />
+    <Content Include="pictures\pages\datajournalism\courses\truthful-visualizations\tutorial_3.zip" />
+    <Content Include="pictures\pages\datajournalism\courses\choosing-graphics\tutorial_4.zip" />
+    <Content Include="pictures\pages\datajournalism\courses\design-and-narrative\tutorial_5.zip" />
+    <Content Include="Views\_shared\form\_support-questions.cshtml" />
+    <None Include="config\servicesettings.keyvault.template" />
+    <None Include="config\appsettings.keyvault.template" />
+    <Content Include="onyx.keyholdr.msbuild.targets" />
+    <Content Include="Views\_global\showcase-gallery-terms-of-use\index.cshtml" />
+    <Content Include="Views\_shared\blog\_postFeatured.cshtml" />
+    <Content Include="Views\_global\third-party-programs\index.cshtml" />
+    <Content Include="css\powerbi\controls\toggle.less" />
+    <Content Include="Views\_global\power-bi-germany\index.cshtml" />
+    <Content Include="Views\_global\clouds\index.cshtml" />
+    <Content Include="less\sundog\controls\backgroundVideo.less" />
+    <Content Include="css\powerbi\temporary.less" />
+    <Content Include="less\variables.d.less" />
+    <Content Include="less\sundog-grid\sundog-grid.less" />
+    <Content Include="less\sundog-grid\lib\normalize.less" />
+    <Content Include="less\sundog-grid\lib\foundation-visibility.less" />
+    <Content Include="less\sundog-grid\lib\foundation-grid.less" />
+    <Content Include="less\sundog-grid\framework\utility.less" />
+    <Content Include="less\sundog-grid\framework\gridly-adams.less" />
+    <Content Include="less\sundog-grid\framework\base.less" />
+    <Content Include="less\mixins.d.less" />
+    <Content Include="less\sundog\sundog.less" />
+    <Content Include="less\sundog\helpers\font.d.less" />
+    <Content Include="less\sundog\helpers\font-face.less" />
+    <Content Include="less\sundog\framework\typography.less" />
+    <Content Include="less\sundog\framework\table.less" />
+    <Content Include="less\sundog\framework\section.less" />
+    <Content Include="less\sundog\framework\productPlacement.less" />
+    <Content Include="less\sundog\framework\pagination.less" />
+    <Content Include="less\sundog\framework\note.less" />
+    <Content Include="less\sundog\framework\linkList.less" />
+    <Content Include="less\sundog\framework\link.less" />
+    <Content Include="less\sundog\framework\icon.less" />
+    <Content Include="less\sundog\framework\form.less" />
+    <Content Include="less\sundog\framework\card.less" />
+    <Content Include="less\sundog\framework\breadcrumbs.less" />
+    <Content Include="less\sundog\framework\base.less" />
+    <Content Include="less\sundog\controls\toggle.less" />
+    <Content Include="less\sundog\controls\tabs.less" />
+    <Content Include="less\sundog\controls\playInSection.less" />
+    <Content Include="less\sundog\controls\multiselect.less" />
+    <Content Include="less\sundog\controls\modal.less" />
+    <Content Include="less\sundog\controls\flyout.less" />
+    <Content Include="less\sundog\controls\fadeImage.less" />
+    <Content Include="less\sundog\controls\equalize.less" />
+    <Content Include="less\sundog\controls\button.less" />
+    <Content Include="fonts\segoe-ui\semilight\latest.woff" />
+    <Content Include="fonts\segoe-ui\semilight\latest.ttf" />
+    <Content Include="fonts\segoe-ui\semilight\latest.eot" />
+    <Content Include="fonts\segoe-ui\semibold\latest.woff" />
+    <Content Include="fonts\segoe-ui\semibold\latest.ttf" />
+    <Content Include="fonts\segoe-ui\semibold\latest.eot" />
+    <Content Include="fonts\segoe-ui\normal\latest.woff" />
+    <Content Include="fonts\segoe-ui\normal\latest.ttf" />
+    <Content Include="fonts\segoe-ui\normal\latest.eot" />
+    <Content Include="fonts\segoe-ui\light\latest.woff" />
+    <Content Include="fonts\segoe-ui\light\latest.ttf" />
+    <Content Include="fonts\segoe-ui\light\latest.eot" />
+    <Content Include="fonts\segoe-ui\bold\latest.woff" />
+    <Content Include="fonts\segoe-ui\bold\latest.ttf" />
+    <Content Include="fonts\segoe-ui\bold\latest.eot" />
+    <Content Include="fonts\powerbimdl2\normal\latest.woff" />
+    <Content Include="fonts\powerbimdl2\normal\latest.ttf" />
+    <Content Include="fonts\powerbimdl2\normal\latest.eot" />
+    <Content Include="less\sundog-navigation\sundog-navigation.less" />
+    <Content Include="less\sundog-navigation\framework\footer.less" />
+    <Content Include="less\sundog-navigation\controls\navigation.less" />
+    <Content Include="less\sundog-navigation\controls\navigation-transparent.less" />
+    <Content Include="less\sundog-navigation\controls\navigation-themed.less" />
+    <Content Include="less\sundog-navigation\controls\navigation-fixed.less" />
+    <Content Include="less\sundog-documentation\sundog-documentation.less" />
+    <Content Include="less\sundog-documentation\controls\navigationScroll.less" />
+    <Content Include="less\sundog-documentation\controls\navigationLeft.less" />
+    <Content Include="less\sundog-documentation\controls\article.less" />
+    <Content Include="css\powerbi\controls\navigation-themed.less" />
+    <Content Include="scripts\analytics\README.md" />
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Global.asax" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="App_Start\OnyxConfig.cs" />
+    <Compile Include="App_Start\BundleConfig.cs" />
+    <Compile Include="App_Start\ContainerConfig.cs" />
+    <Compile Include="App_Start\FilterConfig.cs" />
+    <Compile Include="App_Start\LoggerConfig.cs" />
+    <Compile Include="App_Start\PowerBiSwaggerConfig.cs" />
+    <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="App_Start\Startup.Auth.cs" />
+    <Compile Include="App_Start\WebApiConfig.cs" />
+    <Compile Include="Authorization\AuthorizationManager.cs" />
+    <Compile Include="Authorization\AuthorizeResult.cs" />
+    <Compile Include="Authorization\IAuthorizationAgent.cs" />
+    <Compile Include="Authorization\KnownClaimTypes.cs" />
+    <Compile Include="Authorization\KnownClaims.cs" />
+    <Compile Include="Authorization\SupportProAuthorizationAgent.cs" />
+    <Compile Include="Authorization\TenantAuthorizationAgent.cs" />
+    <Compile Include="Configuration\PowerBIConfiguration.cs" />
+    <Compile Include="Controllers\AssetController.cs" />
+    <Compile Include="Controllers\AuthController.cs" />
+    <Compile Include="Controllers\BaseController.cs" />
+    <Compile Include="Controllers\DatajournalismController.cs" />
+    <Compile Include="Controllers\GuidedLearningController.cs" />
+    <Compile Include="Controllers\MobileController.cs" />
+    <Compile Include="Controllers\PricingController.cs" />
+    <Compile Include="Controllers\LegacyFormsController.cs" />
+    <Compile Include="Controllers\Blog\BlogArchivesController.cs" />
+    <Compile Include="Controllers\Blog\BlogAuthorController.cs" />
+    <Compile Include="Controllers\Blog\BlogBaseController.cs" />
+    <Compile Include="Controllers\Blog\BlogTagController.cs" />
+    <Compile Include="Controllers\Blog\BlogCategoryController.cs" />
+    <Compile Include="Controllers\Blog\BlogDetailsController.cs" />
+    <Compile Include="Controllers\Blog\BlogIndexController.cs" />
+    <Compile Include="Controllers\Blog\BlogPreviewController.cs" />
+    <Compile Include="Controllers\DepartmentsController.cs" />
+    <Compile Include="Controllers\DevelopersController.cs" />
+    <Compile Include="Controllers\DocumentationController.cs" />
+    <Compile Include="Controllers\ErrorController.cs" />
+    <Compile Include="Controllers\FormController.cs" />
+    <Compile Include="Controllers\PartnersController.cs" />
+    <Compile Include="Controllers\FormSubmitController.cs" />
+    <Compile Include="Controllers\IndustriesController.cs" />
+    <Compile Include="Controllers\IntegrationsController.cs" />
+    <Compile Include="Controllers\PartnerShowcaseController.cs" />
+    <Compile Include="Controllers\PatternsController.cs" />
+    <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\SearchController.cs" />
+    <Compile Include="Controllers\SiteController.cs" />
+    <Compile Include="Controllers\SitemapController.cs" />
+    <Compile Include="Controllers\SolutionTemplatesController.cs" />
+    <Compile Include="Controllers\SupportController.cs" />
+    <Compile Include="DynamicContent\CoreCss.cs" />
+    <Compile Include="DynamicContent\CoreScripts.cs" />
+    <Compile Include="Features\Forms\Models\DatajournalismRegistrationFormViewModel.cs" />
+    <Compile Include="Features\Forms\Models\FeedbackFormOptions.cs" />
+    <Compile Include="Features\Forms\Models\SimpleRegistrationFormViewModel.cs" />
+    <Compile Include="Features\Forms\Models\MobileFormViewModel.cs" />
+    <Compile Include="Features\Forms\Models\ContentRegistrationFormViewModel.cs" />
+    <Compile Include="Features\Forms\Models\DownloadGatedFormViewModel.cs" />
+    <Compile Include="Features\Forms\Models\FeedbackFormViewModel.cs" />
+    <Compile Include="Features\Forms\Models\DownloadFormViewModel.cs" />
+    <Compile Include="Features\Forms\Models\PartnersInvitationRequestViewModel.cs" />
+    <Compile Include="Features\Forms\Models\SignupFormViewModel.cs" />
+    <Compile Include="Features\Forms\Models\NewsletterFormViewModel.cs" />
+    <Compile Include="Features\Forms\Models\SupportProTicketFormViewModel.cs" />
+    <Compile Include="Features\Layout\CulturesHydrator.cs" />
+    <Compile Include="Features\Partners\PartnerExtensions.cs" />
+    <Compile Include="Features\Pricing\PriceViewModel.cs" />
+    <Compile Include="Features\Pricing\PricingHtmlHelpers.cs" />
+    <Compile Include="Features\Sitemap\PowerBIRobotsGeneratorOptions.cs" />
+    <Compile Include="Features\UserInfoCookie\UserInfoCookieExtensions.cs" />
+    <Compile Include="Features\UserInfoCookie\UserInfoCookieFilter.cs" />
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="Infrastructure\Helpers\CloudPreferenceCookieHelper.cs" />
+    <Compile Include="Infrastructure\Helpers\CloudPreferenceFilter.cs" />
+    <Compile Include="Infrastructure\Helpers\CookieHelper.cs" />
+    <Compile Include="Infrastructure\Helpers\CultureHelper.cs" />
+    <Compile Include="Infrastructure\Helpers\CustomHtmlHelpers.cs" />
+    <Compile Include="Infrastructure\Helpers\DataJournalismHelper.cs" />
+    <Compile Include="Infrastructure\Helpers\FacetExtensions.cs" />
+    <Compile Include="Infrastructure\Helpers\GraphApiHelper.cs" />
+    <Compile Include="Infrastructure\Helpers\HtmlHelpers.cs" />
+    <Compile Include="Infrastructure\Helpers\HttpRequestBaseExtensions.cs" />
+    <Compile Include="Infrastructure\Helpers\IdentityHelper.cs" />
+    <Compile Include="Infrastructure\Helpers\LinqHelper.cs" />
+    <Compile Include="Infrastructure\Helpers\MobileClientCookieHelper.cs" />
+    <Compile Include="Infrastructure\Helpers\MobileClientFilter.cs" />
+    <Compile Include="Infrastructure\Helpers\PageKeywordsHelper.cs" />
+    <Compile Include="Infrastructure\Helpers\QueryStringHelpers.cs" />
+    <Compile Include="Infrastructure\Helpers\ReverseProxyPages.cs" />
+    <Compile Include="Infrastructure\Helpers\RewriteMapReader.cs" />
+    <Compile Include="Infrastructure\Helpers\SearchHelper.cs" />
+    <Compile Include="Infrastructure\Helpers\SitemapCollection.cs" />
+    <Compile Include="Infrastructure\Helpers\TermOfUseHelper.cs" />
+    <Compile Include="Infrastructure\Mediator\MessageDiagnosticInterceptor.cs" />
+    <Compile Include="Infrastructure\Mediator\TrackingCookieInterceptor.cs" />
+    <Compile Include="Infrastructure\Modules\ArticlesModule.cs" />
+    <Compile Include="Infrastructure\Modules\GeoModule.cs" />
+    <Compile Include="Infrastructure\Modules\HydratorModule.cs" />
+    <Compile Include="Infrastructure\Modules\JsonModule.cs" />
+    <Compile Include="Infrastructure\Modules\MediatorModule.cs" />
+    <Compile Include="Infrastructure\Modules\OnyxClientModule.cs" />
+    <Compile Include="Infrastructure\Modules\PowerBiModules.cs" />
+    <Compile Include="Infrastructure\Modules\RedisModule.cs" />
+    <Compile Include="Infrastructure\Modules\SearchModule.cs" />
+    <Compile Include="Infrastructure\Modules\ServiceSettingsModule.cs" />
+    <Compile Include="Infrastructure\Modules\SitemapModule.cs" />
+    <Compile Include="Infrastructure\Modules\SupportModule.cs" />
+    <Compile Include="Models\LeftNavigation.cs" />
+    <Compile Include="Models\LegacyForms\SubmitEmailViewModel.cs" />
+    <Compile Include="Models\Pages\Blog\BlogPostModel.cs" />
+    <Compile Include="Models\Pages\Blog\Details.cs" />
+    <Compile Include="Models\Pages\Blog\FilteredPosts.cs" />
+    <Compile Include="Models\Pages\Blog\Index.cs" />
+    <Compile Include="Models\Pages\Blog\ListViewModel.cs" />
+    <Compile Include="Models\Pages\DataJournalism\Details.cs" />
+    <Compile Include="Models\Pages\Departments\DepartmentDetailsViewModel.cs" />
+    <Compile Include="Models\Pages\Departments\DepartmentsViewModel.cs" />
+    <Compile Include="Models\Pages\DevelopersViewModel.cs" />
+    <Compile Include="Models\Pages\Documentation\Details.cs" />
+    <Compile Include="Models\Pages\GuidedLearning\Detail.cs" />
+    <Compile Include="Models\Pages\GuidedLearning\Index.cs" />
+    <Compile Include="Models\Pages\MobileIndexViewModel.cs" />
+    <Compile Include="Models\Pages\PartnerShowcases\PartnerShowcaseSearchViewModel.cs" />
+    <Compile Include="Models\Pages\Partners\PartnerDetailsModel.cs" />
+    <Compile Include="Models\Pages\Partners\PartnerSearchViewModel.cs" />
+    <Compile Include="Models\Pages\SolutionTemplates\SolutionTemplatesViewModel.cs" />
+    <Compile Include="Models\Pages\SolutionTemplates\SolutionTemplateDetailsViewModel.cs" />
+    <Compile Include="Models\Pages\SupportViewModel.cs" />
+    <Compile Include="Models\Pages\Partners\PartnersModel.cs" />
+    <Compile Include="Models\Pages\Integrations\IntegrationDetails.cs" />
+    <Compile Include="Models\Pages\PartnerShowcases\PartnerShowcaseDetailsViewModel.cs" />
+    <Compile Include="Models\Pages\PartnerShowcases\PartnerShowcaseViewModel.cs" />
+    <Compile Include="Models\Pages\Search\SearchIndexModel.cs" />
+    <Compile Include="Models\Pages\Search\SearchResultModel.cs" />
+    <Compile Include="Models\Pages\Industries\IndustriesViewModel.cs" />
+    <Compile Include="Models\Pages\Industries\IndustryDetailsViewModel.cs" />
+    <Compile Include="Models\Pages\ViewMetadataModel.cs" />
+    <Compile Include="Models\Pagination.cs" />
+    <Compile Include="Models\Parts\Blog\BlogSearchResult.cs" />
+    <Compile Include="Models\Parts\Blog\PostsList.cs" />
+    <Compile Include="Models\Parts\Disqus.cs" />
+    <Compile Include="Models\Parts\FaqSet.cs" />
+    <Compile Include="Models\Parts\IntegrationsSectionViewModel.cs" />
+    <Compile Include="Models\Parts\ModalDownload.cs" />
+    <Compile Include="Models\Parts\NextPrevLinks.cs" />
+    <Compile Include="Models\Social.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Startup.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\powerbi-shared\PowerBI.Entities\PowerBI.Entities.csproj">
+      <Project>{6bef81f7-93e6-4946-9473-6cdd72717496}</Project>
+      <Name>PowerBI.Entities</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\powerbi-shared\PowerBI.Geo\PowerBI.Geo.csproj">
+      <Project>{51eaa18b-c488-4504-a639-9a13824c6c20}</Project>
+      <Name>PowerBI.Geo</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\powerbi-shared\PowerBI.Json\PowerBI.Json.csproj">
+      <Project>{f7ea74ec-15dc-42e3-b48c-26c3beba44bb}</Project>
+      <Name>PowerBI.Json</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\powerbi-shared\PowerBi.Messages\PowerBi.Messages.csproj">
+      <Project>{77b602b1-6ef4-4849-a5dc-32b114c07073}</Project>
+      <Name>PowerBi.Messages</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\powerbi-shared\PowerBI.Resources\PowerBI.Resources.csproj">
+      <Project>{47e98c63-bb58-435a-8529-752b275277f2}</Project>
+      <Name>PowerBI.Resources</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\powerbi-shared\PowerBI.Search\PowerBI.Search.csproj">
+      <Project>{a8fba314-8234-432e-b1ea-9bb2fed91581}</Project>
+      <Name>PowerBI.Search</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\powerbi-shared\PowerBI.Support\PowerBI.Support.csproj">
+      <Project>{2ff973fa-e453-4a2e-b12b-fdc9a7e68047}</Project>
+      <Name>PowerBI.Support</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Views\GeoLocation\" />
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>30123</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>https://localhost:44300/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\..\packages\Microsoft.Net.Compilers.1.0.0\build\Microsoft.Net.Compilers.props')" Text="$([System.String]::Format('$(ErrorText)', '..\..\packages\Microsoft.Net.Compilers.1.0.0\build\Microsoft.Net.Compilers.props'))" />
+    <Error Condition="!Exists('..\..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.0\build\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" Text="$([System.String]::Format('$(ErrorText)', '..\..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.0\build\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props'))" />
+  </Target>
+  <Import Project="..\..\packages\Microsoft.Bcl.Build.1.0.14\tools\Microsoft.Bcl.Build.targets" Condition="Exists('..\..\packages\Microsoft.Bcl.Build.1.0.14\tools\Microsoft.Bcl.Build.targets')" />
+  <Target Name="EnsureBclBuildImported" BeforeTargets="BeforeBuild" Condition="'$(BclBuildImported)' == ''">
+    <Error Condition="!Exists('..\..\packages\Microsoft.Bcl.Build.1.0.14\tools\Microsoft.Bcl.Build.targets')" Text="This project references NuGet package(s) that are missing on this computer. Enable NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=317567." HelpKeyword="BCLBUILD2001" />
+    <Error Condition="Exists('..\..\packages\Microsoft.Bcl.Build.1.0.14\tools\Microsoft.Bcl.Build.targets')" Text="The build restored NuGet packages. Build the project again to include these packages in the build. For more information, see http://go.microsoft.com/fwlink/?LinkID=317568." HelpKeyword="BCLBUILD2002" />
+  </Target>
+  <Import Project="$(ProjectDir)\acom.msbuild.targets" Condition="Exists('..\..\packages\Onyx.PagesMetadataGenerator.MsBuild.1.0.16\tools\Onyx.PagesMetadataGenerator.MsBuild.dll')" />
+  <Import Project="$(ProjectDir)\onyx.keyholdr.msbuild.targets" Condition="Exists('..\..\packages\Onyx.KeyholdR.MsBuild.1.0.46\tools\Onyx.KeyholdR.MsBuild.dll')" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it.
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

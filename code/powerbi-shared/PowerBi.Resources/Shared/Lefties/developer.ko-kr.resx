@@ -1,0 +1,250 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" id="root">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Area_API" xml:space="preserve">
+    <value>Power BI API</value>
+  </data>
+  <data name="Area_ContentPack" xml:space="preserve">
+    <value>콘텐츠 팩 인증</value>
+  </data>
+  <data name="Area_Create" xml:space="preserve">
+    <value>사용자 지정 시각적 개체 만들기</value>
+  </data>
+  <data name="Area_GetStarted" xml:space="preserve">
+    <value>시작</value>
+  </data>
+  <data name="Area_Integrate" xml:space="preserve">
+    <value>앱에 항목 포함</value>
+  </data>
+  <data name="Area_PushData" xml:space="preserve">
+    <value>대시보드에 데이터 푸시</value>
+  </data>
+  <data name="Link_AddRows" xml:space="preserve">
+    <value>행을 추가할 데이터 집합 가져오기</value>
+  </data>
+  <data name="Link_AddRowsToTable" xml:space="preserve">
+    <value>테이블에 행 추가</value>
+  </data>
+  <data name="Link_Authenticate" xml:space="preserve">
+    <value>Power BI 서비스에 인증</value>
+  </data>
+  <data name="Link_AuthenticateClient" xml:space="preserve">
+    <value>클라이언트 앱 인증</value>
+  </data>
+  <data name="Link_AuthenticateWeb" xml:space="preserve">
+    <value>웹앱 인증</value>
+  </data>
+  <data name="Link_AuthToken" xml:space="preserve">
+    <value>인증 액세스 토큰 가져오기</value>
+  </data>
+  <data name="Link_AzureADTenant" xml:space="preserve">
+    <value>Azure Active Directory 테넌트 만들기</value>
+  </data>
+  <data name="Link_CertProgram" xml:space="preserve">
+    <value>콘텐츠 팩 인증 프로그램</value>
+  </data>
+  <data name="Link_CompleteCodeListing" xml:space="preserve">
+    <value>전체 코드 목록</value>
+  </data>
+  <data name="Link_CreateDataset" xml:space="preserve">
+    <value>데이터 집합 만들기</value>
+  </data>
+  <data name="Link_CustomVisual" xml:space="preserve">
+    <value>개발자 도구를 사용하여 사용자 지정 시각적 개체 만들기</value>
+  </data>
+  <data name="Link_GetDashboard" xml:space="preserve">
+    <value>Power BI 대시보드 가져오기</value>
+  </data>
+  <data name="Link_GetReport" xml:space="preserve">
+    <value>Power BI 보고서 가져오기</value>
+  </data>
+  <data name="Link_GetTile" xml:space="preserve">
+    <value>Power BI 타일 가져오기</value>
+  </data>
+  <data name="Link_IntegrateReport" xml:space="preserve">
+    <value>앱에 Power BI 보고서 통합</value>
+  </data>
+  <data name="Link_IntegrateTile" xml:space="preserve">
+    <value>앱에 Power BI 타일 통합</value>
+  </data>
+  <data name="Link_Overview" xml:space="preserve">
+    <value>Power BI API로 무엇을 할 수 있나요?</value>
+  </data>
+  <data name="Link_Permissions" xml:space="preserve">
+    <value>Power BI 사용 권한</value>
+  </data>
+  <data name="Link_PushData" xml:space="preserve">
+    <value>대시보드에 데이터 푸시</value>
+  </data>
+  <data name="Link_RegisterAzureAD" xml:space="preserve">
+    <value>Azure AD에 앱 등록</value>
+  </data>
+  <data name="Link_RegisterClient" xml:space="preserve">
+    <value>클라이언트 앱 등록</value>
+  </data>
+  <data name="Link_RegisterReportAzureAD" xml:space="preserve">
+    <value>Azure AD에 웹앱 등록</value>
+  </data>
+  <data name="Link_RegisterWeb" xml:space="preserve">
+    <value>웹앱 등록</value>
+  </data>
+  <data name="Link_RegisterWebAppAzureAD" xml:space="preserve">
+    <value>Azure AD에 웹앱 등록</value>
+    <comment>`</comment>
+  </data>
+  <data name="Link_ReportCodeListing" xml:space="preserve">
+    <value>앱 코드 목록에 Power BI 보고서 통합</value>
+  </data>
+  <data name="Link_ReportIframe" xml:space="preserve">
+    <value>iFrame에 Power BI 보고서 로드</value>
+  </data>
+  <data name="Link_RestAPIReference" xml:space="preserve">
+    <value>Power BI REST API 참조</value>
+  </data>
+  <data name="Link_ReviewVisual" xml:space="preserve">
+    <value>보안 및 개인 정보에 대한 사용자 지정 시각적 개체 검토</value>
+  </data>
+  <data name="Link_TCPAuthoring" xml:space="preserve">
+    <value>템플릿 콘텐츠 팩 작성</value>
+  </data>
+  <data name="Link_TCPExperiences" xml:space="preserve">
+    <value>템플릿 콘텐츠 팩 환경</value>
+  </data>
+  <data name="Link_TCPTesting" xml:space="preserve">
+    <value>템플릿 콘텐츠 팩 테스트</value>
+  </data>
+  <data name="Link_TileCodeListing" xml:space="preserve">
+    <value>앱 코드 목록에 Power BI 타일 통합</value>
+  </data>
+  <data name="Link_TileIframe" xml:space="preserve">
+    <value>iFrame에 Power BI 타일 로드</value>
+  </data>
+  <data name="Title" xml:space="preserve">
+    <value>Power BI 개발자</value>
+  </data>
+  <data name="Link_DevEmbedDashboard" xml:space="preserve">
+    <value>앱에 대시보드 통합</value>
+  </data>
+  <data name="Link_SubmitVisual" xml:space="preserve">
+    <value>Office 스토어에 사용자 지정 시각적 개체 게시</value>
+  </data>
+  <data name="Meta_LocJobId" xml:space="preserve">
+    <value>209</value>
+  </data>
+</root>

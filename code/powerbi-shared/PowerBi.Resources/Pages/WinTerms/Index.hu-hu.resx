@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Content" xml:space="preserve">
+    <value>&lt;p&gt;A jelen dokumentumban foglalt licencfelt&#233;telek szerződ&#233;st k&#233;peznek a Microsoft Corporation (vagy az &#214;n lakhely&#233;től f&#252;ggően egy t&#225;rsv&#225;llalata) &#233;s &#214;n k&#246;z&#246;tt. K&#233;rj&#252;k, figyelmesen olvassa el ezeket a felt&#233;teleket. A felt&#233;telek a fent megnevezett szoftverre vonatkoznak – ez tartalmazza az adathordoz&#243;t (ha van ilyen), amelyen a szoftvert megkapta. A felt&#233;telek a szoftverhez tartoz&#243; b&#225;rmely al&#225;bbi Microsoft-term&#233;kre is vonatkoznak:&lt;/p&gt;
+		&lt;ul&gt;
+			&lt;li&gt;friss&#237;t&#233;sre;&lt;/li&gt;
+			&lt;li&gt;bőv&#237;t&#233;sre;&lt;/li&gt;
+			&lt;li&gt;internetalap&#250; szolg&#225;ltat&#225;sra; &#233;s&lt;/li&gt;
+			&lt;li&gt;term&#233;kt&#225;mogat&#225;si szolg&#225;ltat&#225;sra;&lt;/li&gt;
+		&lt;/ul&gt;
+		&lt;p&gt;kiv&#233;ve, ha ezekhez az elemekhez m&#225;s felt&#233;telek tartoznak. Ilyen esetben az ut&#243;bbi felt&#233;telek &#233;rv&#233;nyesek.&lt;/p&gt;
+		&lt;p&gt;A szoftver haszn&#225;lat&#225;val &#214;n elfogadja a jelen felt&#233;teleket. Ha nem fogadja el a felt&#233;teleket, nem haszn&#225;lhatja a szoftvert,&lt;/p&gt;
+		&lt;p&gt;Az al&#225;bbiakban le&#237;rtak szerint n&#233;h&#225;ny funkci&#243; haszn&#225;lat&#225;val &#214;n hozz&#225;j&#225;rul bizonyos &#225;ltal&#225;nos sz&#225;m&#237;t&#243;g&#233;padatok gyűjt&#233;s&#233;hez az internetalap&#250; szolg&#225;ltat&#225;sok sz&#225;m&#225;ra.&lt;/p&gt;
+		&lt;hr&gt;
+		&lt;p&gt;Ha elfogadja &#233;s betartja a jelen licencfelt&#233;teleket, azok az al&#225;bbiakban ismertetett v&#233;gleges jogokat biztos&#237;tj&#225;k &#214;nnek.&lt;/p&gt;
+		&lt;p&gt;1.	TELEP&#205;T&#201;SI &#201;S HASZN&#193;LATI JOGOK.&lt;/p&gt;
+		&lt;blockquote&gt;
+			&lt;p&gt;a.	Telep&#237;t&#233;s &#233;s haszn&#225;lat. Windows-eszk&#246;zein a szoftvernek &#214;n tetszőleges sz&#225;m&#250; p&#233;ld&#225;ny&#225;t telep&#237;theti &#233;s haszn&#225;lhatja.&lt;/p&gt;
+			&lt;p&gt;b.	Harmadik f&#233;ltől sz&#225;rmaz&#243; programk&#243;ddal kapcsolatos &#233;rtes&#237;t&#233;sek. A szoftver olyan, harmadik f&#233;ltől sz&#225;rmaz&#243; programk&#243;dot tartalmaz, amelynek licenc&#233;t nem a harmadik f&#233;l, hanem a Microsoft biztos&#237;tja a jelen szerződ&#233;s felt&#233;telei szerint. B&#225;rmely harmadik f&#233;ltől sz&#225;rmaz&#243; programk&#243;ddal kapcsolatos b&#225;rmilyen &#233;rtes&#237;t&#233;s csak t&#225;j&#233;koztat&#225;si c&#233;lokat szolg&#225;l.&lt;/p&gt;
+		&lt;/blockquote&gt;
+		&lt;p&gt;2.	TOV&#193;BBI LICENCBEAD&#193;SI FELT&#201;TELEK &#201;S/VAGY HASZN&#193;LATI JOGOK.&lt;/p&gt;
+		&lt;blockquote&gt;
+			&lt;p&gt;a.	Multim&#233;di&#225;s elemek &#233;s sablonok. &#214;n lem&#225;solhatja &#233;s felhaszn&#225;lhatja az &#214;n &#225;ltal l&#233;trehozott dokumentumokban &#233;s projektekben a szoftverben tal&#225;lhat&#243; azon k&#233;peket, grafikus f&#225;jlokat, anim&#225;ci&#243;kat, hangokat, zen&#233;ket, alakzatokat, videoklipeket &#233;s sablonokat, amelyeknek ilyen haszn&#225;lata kifejezetten enged&#233;lyezett. &#214;n az ilyen dokumentumokat &#233;s projekteket nem kereskedelmi c&#233;lb&#243;l terjesztheti. Ha &#214;n b&#225;rmilyen m&#225;s c&#233;lra k&#237;v&#225;nja felhaszn&#225;lni ezeket a multim&#233;di&#225;s elemeket vagy sablonokat, akkor l&#225;togasson el a &lt;a href=&quot;http://www.microsoft.com/permission&quot; title=&quot;www.microsoft.com/permission&quot;&gt;www.microsoft.com/permission&lt;/a&gt; webhelyre, ahol megtudhatja, hogy enged&#233;lyezett-e az ilyen haszn&#225;lat.&lt;/p&gt;
+		&lt;/blockquote&gt;
+		&lt;p&gt;3.	INTERNETEL&#201;R&#201;SRE LEHET SZ&#220;KS&#201;G. Előfordulhat, hogy a szoftver haszn&#225;lata sor&#225;n felmer&#252;lő internetel&#233;r&#233;s&#233;rt, adat&#225;tvitel&#233;rt &#233;s egy&#233;b szolg&#225;ltat&#225;sok&#233;rt &#214;nnek d&#237;jat kell fizetnie a h&#225;l&#243;zat &#252;zemeltetőj&#233;vel k&#246;t&#246;tt adatszolg&#225;ltat&#225;si szerződ&#233;s, illetve egy&#233;b meg&#225;llapod&#225;s felt&#233;teleinek megfelelően. A h&#225;l&#243;zat &#252;zemeltetőj&#233;nek fizetendő d&#237;jak&#233;rt kiz&#225;r&#243;lag &#214;n a felelős.&lt;/p&gt;
+		&lt;p&gt;4.	CSATLAKOZ&#193;S HARMADIK FELEKHEZ VAGY AZOK ALKALMAZ&#193;SAIHOZ. A szoftver seg&#237;ts&#233;g&#233;vel &#214;n harmadik felek k&#252;l&#246;nf&#233;le adatforr&#225;saihoz csatlakozhat. Az &#214;n b&#225;rmely harmadik f&#233;l adatforr&#225;s-szolg&#225;ltat&#243;val k&#246;t&#246;tt szerződ&#233;sei kiz&#225;r&#243;lag &#214;n &#233;s az adott harmadik f&#233;l adatforr&#225;s-szolg&#225;ltat&#243; k&#246;z&#246;tt j&#246;nnek l&#233;tre, &#233;s vonatkozhatnak m&#233;g r&#225;juk az ilyen harmadik f&#233;ltől sz&#225;rmaz&#243; forr&#225;sokra alkalmazand&#243; egy&#233;b haszn&#225;lati felt&#233;telek vagy szerződ&#233;sek is. &#214;n elfogadja, hogy kiz&#225;r&#243;lag &#214;nnek van joga az ilyen harmadik felek &#225;ltal biztos&#237;tott adatforr&#225;sokb&#243;l adatokat import&#225;lni, &#233;s hogy kiz&#225;r&#243;lag &#214;n a felelős az ilyen adatok import&#225;l&#225;s&#225;&#233;rt. A Microsoft nem k&#237;s&#233;ri figyelemmel &#233;s nem ellenőrzi a harmadik felek adatforr&#225;saib&#243;l &#214;n &#225;ltal import&#225;lt adatokat, azokkal kapcsolatban semmilyen felelőss&#233;get nem v&#225;llal, &#233;s nem tehető felelőss&#233; azok minős&#233;g&#233;&#233;rt, pontoss&#225;g&#225;&#233;rt, term&#233;szet&#233;&#233;rt &#233;s/vagy tulajdonjog&#225;&#233;rt. &#214;n elfogadja, hogy kiz&#225;r&#243;lag &#214;n a felelős a szoftver haszn&#225;lata sor&#225;n &#214;n &#225;ltal az import&#225;lt adatok alapj&#225;n l&#233;trehozott, tov&#225;bb&#237;tott, terjesztett vagy megjelen&#237;tett b&#225;rmely tartalom&#233;rt.&lt;/p&gt;
+		&lt;p&gt;5.	INTERNETALAP&#218; SZOLG&#193;LTAT&#193;SOK. A Microsoft internetalap&#250; szolg&#225;ltat&#225;sokat is ny&#250;jt a szoftverrel egy&#252;tt. Ezeket a szolg&#225;ltat&#225;sokat a Microsoft b&#225;rmikor m&#243;dos&#237;thatja vagy megsz&#252;ntetheti.&lt;/p&gt;
+		&lt;blockquote&gt;
+			&lt;p&gt;a.	Hozz&#225;j&#225;rul&#225;s az internetalap&#250; vagy vezet&#233;k n&#233;lk&#252;li szolg&#225;ltat&#225;sok haszn&#225;lat&#225;hoz. A szoftver internetalap&#250; vezet&#233;k n&#233;lk&#252;li szolg&#225;ltat&#225;sokhoz csatlakozhat. Azzal, hogy &#214;n haszn&#225;lja a szoftvert, &#214;n hozz&#225;j&#225;rul az &#225;ltal&#225;nos eszk&#246;zadatok (nem korl&#225;toz&#243; jelleggel ide&#233;rtve az eszk&#246;zzel, a rendszerrel, a szoftveralkalmaz&#225;ssal &#233;s a perif&#233;ri&#225;s eszk&#246;z&#246;kkel kapcsolatos műszaki adatokat is) &#225;tvitel&#233;hez az internetalap&#250; vagy vezet&#233;k n&#233;lk&#252;li szolg&#225;ltat&#225;sok sz&#225;m&#225;ra. Ha a szolg&#225;ltat&#225;sok &#214;n &#225;ltali haszn&#225;lat&#225;hoz kapcsol&#243;d&#243;an egy&#233;b felt&#233;telek is meg lettek fogalmazva, azokat is teljes&#237;tenie kell.&lt;/p&gt;
+			&lt;p&gt;b.	Az internetalap&#250; szolg&#225;ltat&#225;sokkal val&#243; vissza&#233;l&#233;s. Tilos az internetalap&#250; szolg&#225;ltat&#225;sok b&#225;rmely olyan m&#243;don t&#246;rt&#233;nő haszn&#225;lata, amelynek k&#246;vetkezt&#233;ben azok k&#225;rosodhatnak, illetve amely zavarhatja e szolg&#225;ltat&#225;sok vagy a vezet&#233;k n&#233;lk&#252;li h&#225;l&#243;zat b&#225;rmely m&#225;s f&#233;l &#225;ltali haszn&#225;lat&#225;t. &#214;n nem haszn&#225;lhatja a szolg&#225;ltat&#225;st arra, hogy b&#225;rmilyen m&#243;don jogosulatlanul hozz&#225;f&#233;r&#233;st pr&#243;b&#225;ljon szerezni b&#225;rmilyen szolg&#225;ltat&#225;shoz, adathoz, fi&#243;khoz vagy h&#225;l&#243;zathoz.&lt;/p&gt;
+		&lt;/blockquote&gt;
+		&lt;p&gt;6.	A LICENC TERJEDELME. &#214;n csak a szoftver licenc&#233;t szerezte meg, a tulajdonjog&#225;t nem. Kiv&#233;ve azt az esetet, amikor az alkalmazand&#243; jogszab&#225;lyok t&#246;bb jogot biztos&#237;tanak &#214;nnek, a Microsoft fenntart minden, a jelen szerződ&#233;sben kifejezetten &#225;t nem engedett jogot, f&#252;ggetlen&#252;l att&#243;l, hogy az &#225;tenged&#233;st hallgat&#243;lagosan, ut&#243;lagos v&#233;lem&#233;nym&#243;dos&#237;t&#225;ssal vagy egy&#233;b m&#243;don v&#233;lik-e megval&#243;sulni. &#214;nnek be kell tartania a szoftver minden olyan technikai korl&#225;toz&#225;s&#225;t, amely annak csak meghat&#225;rozott m&#243;don t&#246;rt&#233;nő haszn&#225;lat&#225;t teszi lehetőv&#233;. &#214;n:
+			&lt;ul type=&quot;disc&quot;&gt;
+				&lt;li&gt;nem ker&#252;lheti meg a szoftver b&#225;rmely technikai korl&#225;toz&#225;s&#225;t;&lt;/li&gt;
+				&lt;li&gt;nem ford&#237;thatja &#233;s nem fejtheti vissza a szoftvert, nem nyerheti vissza annak forr&#225;sk&#243;dj&#225;t, kiv&#233;ve akkor &#233;s csak olyan m&#233;rt&#233;kben, ahogy &#233;s amilyen m&#233;rt&#233;kben azt az alkalmazand&#243; jogszab&#225;lyok e korl&#225;toz&#225;ssal ellent&#233;tben kifejezetten megengedik;&lt;/li&gt;
+				&lt;li&gt;nem k&#233;sz&#237;thet t&#246;bb m&#225;solatot a szoftverről, mint amennyit a jelen szerződ&#233;s meghat&#225;roz vagy az alkalmazand&#243; jogszab&#225;lyok e korl&#225;toz&#225;ssal ellent&#233;tben megengednek;&lt;/li&gt;
+				&lt;li&gt;nem teheti k&#246;zz&#233; a szoftvert m&#225;sok &#225;ltali m&#225;sol&#225;s c&#233;lj&#225;b&#243;l;&lt;/li&gt;
+				&lt;li&gt;a szoftvert nem adhatja k&#246;lcs&#246;nbe, b&#233;rbe vagy tart&#243;s b&#233;rletbe;&lt;/li&gt;
+				&lt;li&gt;nem ruh&#225;zhatja &#225;t a szoftvert vagy a jelen szerződ&#233;st harmadik f&#233;lre; valamint&lt;/li&gt;
+				&lt;li&gt;kereskedelmi szoftver&#252;zemeltet&#233;si (hosting) szolg&#225;ltat&#225;st sem ny&#250;jthat a szoftverrel.&lt;/li&gt;
+			&lt;/ul&gt;
+		&lt;/p&gt;
+		&lt;p&gt;7.	DOKUMENT&#193;CI&#211;. Az &#214;n sz&#225;m&#237;t&#243;g&#233;peihez vagy belső h&#225;l&#243;zat&#225;hoz jogosultan hozz&#225;f&#233;rő b&#225;rmely szem&#233;ly saj&#225;t, belső t&#225;j&#233;koztat&#225;si c&#233;lra lem&#225;solhatja &#233;s haszn&#225;lhatja a dokument&#225;ci&#243;t.&lt;/p&gt;
+		&lt;p&gt;8.	EXPORTKORL&#193;TOZ&#193;SOK. A szoftverre az Amerikai Egyes&#252;lt &#193;llamok exportjogszab&#225;lyai &#233;s -elő&#237;r&#225;sai vonatkoznak. &#214;nnek be kell tartania a szoftverre alkalmazand&#243; &#246;sszes hazai &#233;s nemzetk&#246;zi exportjogszab&#225;lyt &#233;s -elő&#237;r&#225;st. Ezek a t&#246;rv&#233;nyek a v&#233;gfelhaszn&#225;l&#243;kra &#233;s a v&#233;gfelhaszn&#225;l&#225;sra, illetve a felhaszn&#225;l&#225;si helyre vonatkoz&#243; korl&#225;toz&#225;sokat is tartalmaznak. Tov&#225;bbi inform&#225;ci&#243;: &lt;a href=&quot;http://www.microsoft.com/exporting&quot; title=&quot;www.microsoft.com/exporting&quot;&gt;www.microsoft.com/exporting&lt;/a&gt;.&lt;/p&gt;
+		&lt;p&gt;9.	TERM&#201;KT&#193;MOGAT&#193;SI SZOLG&#193;LTAT&#193;SOK. Mivel ez a szoftver „adott &#225;llapot&#225;ban” &#225;ll rendelkez&#233;sre, lehet, hogy nem ny&#250;jtunk hozz&#225; term&#233;kt&#225;mogat&#225;si szolg&#225;ltat&#225;st.&lt;/p&gt;
+		&lt;p&gt;10.	A SZERZŐD&#201;S TELJESS&#201;GE. A jelen szerződ&#233;s, valamint a haszn&#225;lt bőv&#237;t&#233;sek, friss&#237;t&#233;sek, internetalap&#250; &#233;s term&#233;kt&#225;mogat&#225;si szolg&#225;ltat&#225;sok felt&#233;telei alkotj&#225;k a teljes meg&#225;llapod&#225;st a szoftverre &#233;s a term&#233;kt&#225;mogat&#225;si szolg&#225;ltat&#225;sokra vonatkoz&#243;an.&lt;/p&gt;
+		&lt;p&gt;11.	ALKALMAZAND&#211; JOG.&lt;/p&gt;
+		&lt;blockquote&gt;
+			&lt;p&gt;a.	Az Amerikai Egyes&#252;lt &#193;llamokban. Ha &#214;n a szoftvert az Amerikai Egyes&#252;lt &#193;llamokban szerezte be, akkor a jelen szerződ&#233;s &#233;rtelmez&#233;se &#233;s az annak megs&#233;rt&#233;s&#233;vel kapcsolatos ig&#233;nyek tekintet&#233;ben Washington &#225;llam jogszab&#225;lyai az ir&#225;nyad&#243;k, tekintet n&#233;lk&#252;l a nemzetk&#246;zi mag&#225;njog ir&#225;nyad&#243; jogot meg&#225;llap&#237;t&#243; alapelveire. Minden egy&#233;b ig&#233;ny tekintet&#233;ben az &#214;n lakhelye szerinti &#225;llam t&#246;rv&#233;nyei az ir&#225;nyad&#243;k, bele&#233;rtve az &#225;llami fogyaszt&#243;v&#233;delmi t&#246;rv&#233;nyek &#233;s a tisztess&#233;gtelen versenyt tilt&#243; t&#246;rv&#233;nyek megs&#233;rt&#233;s&#233;vel, valamint a szerződ&#233;sen k&#237;v&#252;li k&#225;rokoz&#225;ssal kapcsolatos ig&#233;nyeket is.&lt;/p&gt;
+			&lt;p&gt;b.	Az Amerikai Egyes&#252;lt &#193;llamokon k&#237;v&#252;l. Ha a szoftvert b&#225;rmely m&#225;s orsz&#225;gban szerezte be, az adott orsz&#225;g t&#246;rv&#233;nyei az ir&#225;nyad&#243;k.&lt;/p&gt;
+		&lt;/blockquote&gt;
+		&lt;p&gt;12.	HAT&#193;LYOS JOG. Jelen szerződ&#233;s bizonyos jogokat hat&#225;roz meg. Előfordulhat, hogy az &#214;n orsz&#225;g&#225;nak t&#246;rv&#233;nyei egy&#233;b jogokat is biztos&#237;tanak &#214;nnek. &#214;nt azzal a f&#233;llel szemben is megillethetik bizonyos jogok, akitől a szoftvert beszerezte. A jelen szerződ&#233;s nem m&#243;dos&#237;tja az &#214;n orsz&#225;ga &#225;ltal &#214;nnek biztos&#237;tott jogokat, amennyiben az orsz&#225;g&#225;nak t&#246;rv&#233;nyei ezt nem enged&#233;lyezik.&lt;/p&gt;
+		&lt;p&gt;13.	A SZAVATOSS&#193;G KIZ&#193;R&#193;SA. A licenc az „adott &#225;llapot&#250;” szoftverhez biztos&#237;t &#214;nnek jogokat. &#214;n a szoftvert saj&#225;t felelőss&#233;g&#233;re haszn&#225;lja. A Microsoft nem ny&#250;jt semmif&#233;le kifejezett szavatoss&#225;got, garanci&#225;t vagy felt&#233;telt. A helyi t&#246;rv&#233;nyek szerint &#214;n olyan tov&#225;bbi fogyaszt&#243;i jogokkal vagy t&#246;rv&#233;nyi garanci&#225;kkal is rendelkezhet, amelyeket a jelen szerződ&#233;s nem m&#243;dos&#237;that. A Microsoft ez&#250;ton, a helyi jogszab&#225;lyok &#225;ltal megengedett legteljesebb m&#233;rt&#233;kben kiz&#225;r a forgalmazhat&#243;s&#225;gra, az adott c&#233;lra t&#246;rt&#233;nő alkalmass&#225;gra &#233;s a jogbitorl&#225;s-mentess&#233;gre vonatkoz&#243; b&#225;rmif&#233;le v&#233;lelmezett szavatoss&#225;got.&lt;/p&gt;
+		&lt;p&gt;&lt;strong&gt;AUSZTR&#193;LI&#193;BAN – &#214;nt az ausztr&#225;l Fogyaszt&#243;v&#233;delmi T&#246;rv&#233;ny &#233;rtelm&#233;ben k&#246;telező garanci&#225;k illetik meg, &#233;s a jelen felt&#233;teleknek nem c&#233;lja e jogainak csorb&#237;t&#225;sa.&lt;/strong&gt;&lt;/p&gt;
+		&lt;p&gt;14.	JOGORVOSLATI LEHETŐS&#201;GEK &#201;S K&#193;ROK KIZ&#193;R&#193;SA &#201;S KORL&#193;TOZ&#193;SA. &#214;n a Microsoftt&#243;l &#233;s annak sz&#225;ll&#237;t&#243;it&#243;l csak k&#246;zvetlen k&#225;r eset&#233;n, 5,00 USD erej&#233;ig kaphat k&#225;rt&#233;r&#237;t&#233;st. &#214;n nem kaphat k&#225;rt&#233;r&#237;t&#233;st semmif&#233;le egy&#233;b k&#225;r&#233;rt, bele&#233;rtve a k&#246;vetkezm&#233;nyi, az &#252;zleti haszon elmarad&#225;s&#225;b&#243;l eredő, a k&#252;l&#246;nleges, a k&#246;zvetett &#233;s a v&#233;letlenszerű k&#225;rokat is.&lt;/p&gt;
+		&lt;p&gt;&lt;strong&gt;Ez a korl&#225;toz&#225;s vonatkozik:&lt;/strong&gt;&lt;/p&gt;
+		&lt;ul type=&quot;disc&quot;&gt;
+			&lt;li&gt;&lt;strong&gt;b&#225;rmely, a szoftverrel, szolg&#225;ltat&#225;sokkal, harmadik f&#233;l webhely&#233;n tal&#225;lhat&#243; tartalommal (bele&#233;rtve a k&#243;dot is) vagy harmadik f&#233;l programj&#225;val kapcsolatos &#252;gyre;&lt;/strong&gt;&lt;/li&gt;
+			&lt;li&gt;&lt;strong&gt;a szerződ&#233;sszeg&#233;ssel, a szavatoss&#225;gi k&#246;telezetts&#233;gek megs&#233;rt&#233;s&#233;vel, a garanci&#225;val vagy felt&#233;tellel, az objekt&#237;v felelőss&#233;ggel, a hanyags&#225;ggal vagy m&#225;s, szerződ&#233;sen k&#237;v&#252;li k&#225;rokoz&#225;ssal kapcsolatos ig&#233;nyre az alkalmazand&#243; jogszab&#225;lyok &#225;ltal megengedett legnagyobb m&#233;rt&#233;kben.&lt;/strong&gt;&lt;/li&gt;
+		&lt;/ul&gt;
+		&lt;p&gt;&lt;strong&gt;A korl&#225;toz&#225;s akkor is &#233;rv&#233;nyes, ha a Microsoft tudott, vagy ha a Microsoftnak tudnia kellett volna az ilyen k&#225;rok bek&#246;vetkezt&#233;nek lehetős&#233;g&#233;ről. Előfordulhat, hogy a fenti korl&#225;toz&#225;s, illetve kiz&#225;r&#225;s nem vonatkozik &#214;nre, mert orsz&#225;ga nem teszi lehetőv&#233; a v&#233;letlenszerű, a k&#246;vetkezm&#233;nyi vagy egy&#233;b k&#225;rok&#233;rt val&#243; felelőss&#233;g kiz&#225;r&#225;s&#225;t, illetve korl&#225;toz&#225;s&#225;t.&lt;/strong&gt;&lt;/p&gt;
+		&lt;hr&gt;
+		&lt;p&gt;Copyright &amp;#169; Microsoft. Minden jog fenntartva.&lt;/p&gt;
+		&lt;h3&gt;&lt;a href=&quot;/WinTerms/en-us#third-party-notices&quot; title=&quot;Third Party Notices&quot;&gt;Third Party Notices&lt;/a&gt;&lt;/h3&gt;
+		&lt;p&gt;&lt;strong&gt;This file is based on or incorporates material from the projects listed below (collectively, &quot;Third Party Code&quot;). Microsoft is not the original author of the Third Party Code. The original copyright notice and the license, under which Microsoft received such Third Party Code, are set forth below. Such licenses and notices are provided for informational purposes only. Microsoft, not the third party, licenses the Third Party Code to you under the terms set forth in the EULA for the Microsoft Product. Microsoft reserves all rights not expressly granted under this agreement, whether by implication, estoppel or otherwise.&lt;/strong&gt;&lt;/p&gt;</value>
+  </data>
+  <data name="Heading" xml:space="preserve">
+    <value>&lt;h1&gt;LICENCFELT&#201;TELEK MICROSOFT SZOFTVERHEZ&lt;/h1&gt;
+            &lt;h1&gt;MICROSOFT POWER BI FOR WINDOWS&lt;/h1&gt;</value>
+  </data>
+  <data name="META_DESCRIPTION" xml:space="preserve">
+    <value />
+  </data>
+  <data name="META_KEYWORDS" xml:space="preserve">
+    <value />
+  </data>
+  <data name="META_PAGETITLE" xml:space="preserve">
+    <value>Windows License Terms of Service | Microsoft Power BI</value>
+  </data>
+</root>

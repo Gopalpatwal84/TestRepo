@@ -1,0 +1,267 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Airline_DetailsTagline" xml:space="preserve">
+    <value>&lt;p&gt;Operations Engineers at major airlines, responsible for a fleet of aircraft, must constantly weigh the cost and disruption of ad hoc maintenance against the risk and even higher cost of technical failures. &lt;/p&gt;
+&lt;p&gt;The report in this solution provides an overview of the fleet’s status as well as a summary of predictions for near term changes to the fleet’s technical health.  The predictions are based on multiple machine learning models and use the aircrafts' Quick Access Recorder (similar to the Black Box) along with other data sources. The report shows a detailed output from one of the contributing machine learning models which predicts the remaining useful life for critical engine components.&lt;/p&gt;
+&lt;p&gt;The report is visually rich and provides an overview of the flight plans and locations to help decide where an aircraft should be serviced and which other aircraft is best positioned to replace it. The report also includes a custom Sankey chart to rationalize the fleets’ different KPI weightings based on the types of airframes, and a striking 3D heat map in the shape of a jet engine. These visuals provide insights in a manner that is intuitive to those working in the airline industry.&lt;/p&gt;</value>
+  </data>
+  <data name="Airline_DetailTitle" xml:space="preserve">
+    <value>Driving maintenance planning at a massive scale</value>
+  </data>
+  <data name="Airline_IndexTagline" xml:space="preserve">
+    <value>This solution is based on a real world predictive maintenance system for a major airline. The data comes from a variety of sources including IoT data streams from aircraft engines, flight plans, weather information and logs. The solution leverages Azure HDInsight for feature engineering, Azure Machine Learning to detect operational anomalies and Azure SQL DW to enable high performance querying on the resulting petabytes of data. This report also shows the use of custom visualizations designed for the airline industry.</value>
+  </data>
+  <data name="Airline_Title" xml:space="preserve">
+    <value>Airline</value>
+  </data>
+  <data name="CPG_DetailsTagline" xml:space="preserve">
+    <value>&lt;p&gt;Consumer Packaged Products is competitive industry. All brands and categories fight every day for customer attention and preference. Growing your market share is hard and CPG analytics is the only way to excel. &lt;/p&gt;
+&lt;p&gt;Monitor all key metrics in one place with Power BI: stock levels, profitability, supply chain, channels and pricing. Avoid out of stock situations with real time reports and alerts. &lt;/p&gt;
+&lt;p&gt;Manage your global footprint with high level dashboards and drill down where data show you deeper insights. Clearly evaluate the performance of all your brands and categories through advanced models and detailed reports. &lt;/p&gt;
+&lt;p&gt;Monitor the results of your marketing campaigns and their impact on sales, market share and profit. Drill down into the financials of all your operations with rich interactive reports for quick insights and meaningful actions.&lt;/p&gt;</value>
+  </data>
+  <data name="CPG_DetailTitle" xml:space="preserve">
+    <value>Grow market share through deeper data analysis and trend understanding</value>
+  </data>
+  <data name="CPG_IndexTagline" xml:space="preserve">
+    <value>Consumer products sit at the center of the following disciplines: operations, marketing, sales and finance to name a few. Analyze constantly changing data to maximize sales, profits and customer loyalty.</value>
+  </data>
+  <data name="CPG_Title" xml:space="preserve">
+    <value>Consumer Packaged Goods (CPG)</value>
+  </data>
+  <data name="Insurance_DetailsTagline" xml:space="preserve">
+    <value>&lt;p&gt;Managing risk is the most important goal for insurance companies. But the amount of data and variables that go into insurance analytics is huge and needs tools and approaches that help insurance professionals to quickly identify trends and act on them. &lt;/p&gt;
+&lt;p&gt;Power BI helps insurance analysts to visualize claims, premiums, fraud, sales and customer satisfaction data with ease and in one place. Spot claims and payment trends faster. &lt;/p&gt;
+&lt;p&gt;Identify patterns that could lead to fraud detection and set up automated alerts to quickly spot them. Create customized metrics and monitor average cost or average time to settle claims. &lt;/p&gt;
+&lt;p&gt;Visualize the impact of your pricing strategy and profitability. Monitor your customer satisfaction and identify potential new business opportunities or risks to quickly act on them.&lt;/p&gt;</value>
+  </data>
+  <data name="Insurance_DetailTitle" xml:space="preserve">
+    <value>Monitor risk, manage sales and claims, and detect fraud with visual data driven analysis</value>
+  </data>
+  <data name="Insurance_IndexTagline" xml:space="preserve">
+    <value>Data is pouring in from insurance companies operations: policy sales, claims, fraud, coverage complexity and premiums all provide companies with a rich set of trends and insights that are waiting to tapped.</value>
+  </data>
+  <data name="Insurance_Title" xml:space="preserve">
+    <value>Insurance</value>
+  </data>
+  <data name="Manufacturing_DetailsTagline" xml:space="preserve">
+    <value>&lt;p&gt;Track key performance indicators in real time: machine utilization, process efficiency, costs, inventory levels, losses and cycle times. &lt;/p&gt;
+&lt;p&gt;Manufacturers need to collaborate, monitor and communicate on available live data to achieve operational excellence. Power BI helps your team monitor real time data from multiple sources into one dashboard and drill down to identify issues when necessary. Get real time alerts with Power BI mobile apps and make your operations more efficient to achieve greater agility and minimize response times. &lt;/p&gt;
+&lt;p&gt;Monitor your supply chain end-to-end and identify problems and bottlenecks before they reach critical processes. Share your dashboards with suppliers and partners so they can adjust to the latest information available, making your processes leaner and smarter. Monitor quality inputs and outputs from all sources, including your customers, to make quick and meaningful decisions that will improve manufacturing quality.&lt;/p&gt;</value>
+  </data>
+  <data name="Manufacturing_DetailTitle" xml:space="preserve">
+    <value>Real time visibility into your supply chain for more efficient and faster decisions</value>
+  </data>
+  <data name="Manufacturing_IndexTagline" xml:space="preserve">
+    <value>The manufacturing process needs to be a well-oiled machine to succeed and the best way of achieving that goal is to have visibility on every process while seeing the big picture.</value>
+  </data>
+  <data name="Manufacturing_Title" xml:space="preserve">
+    <value>Manufacturing</value>
+  </data>
+  <data name="ProfessionalServices_DetailsTagline" xml:space="preserve">
+    <value>&lt;p&gt;It doesn’t matter if your firm specializes in consulting, legal services, real estate services or healthcare. Your business moves around people. You need to monitor performance with the right KPIs to maximize results and increase efficiency. You need to share that data with your people to act quickly and improve results. &lt;/p&gt;
+&lt;p&gt;Power BI allows you to monitor the right KPIs, personalize them, visualize for better understanding and share them, all on the same platform. Calculate live metrics such as annual revenue per employee, project margin, billings, utilization and customer satisfaction to gain insights from your performance and take action on challenges. Drill down to the individual level and let everyone in your organization be empowered by data while keeping it secure and governed. &lt;/p&gt;
+&lt;p&gt;Slice and dice between different locations, roles, projects and teams with ease to drive actionable insights at any level. Monitor customer satisfaction to ensure you’re delivering great value while keeping operations lean.&lt;/p&gt;</value>
+  </data>
+  <data name="ProfessionalServices_DetailTitle" xml:space="preserve">
+    <value>Focus on your people with deeper data insights</value>
+  </data>
+  <data name="ProfessionalServices_IndexTagline" xml:space="preserve">
+    <value>Professional services firms have one thing in common: their most important asset is their people. Support your professionals with the right data and technology to maximize value delivered to your clients.</value>
+  </data>
+  <data name="ProfessionalServices_Title" xml:space="preserve">
+    <value>Professional Services</value>
+  </data>
+  <data name="Retail_DetailsTagline" xml:space="preserve">
+    <value>&lt;p&gt;The amount of data available for retailers is overwhelming: transactions, supply chain, buying behaviors, trends, multi-channel sales and global coverage are just a few of the data sources companies can use to maximize their profits. &lt;/p&gt;
+&lt;p&gt;Making sense of all these inputs requires scalability, ease of use, accessibility and live connectivity. Power BI helps bring all these data sources in one place and keeps the data current allowing you to make the right decisions at the right time. Share your retail analytics at the store, headquarters, factory or distribution center. &lt;/p&gt;
+&lt;p&gt;With Power BI, it doesn’t matter where you are, your data is always available and up date. Understand customer behavior and sentiment, online or in-store, and visualize shopper movements and interactions, identifying opportunities to better serve them and maximize revenue.&lt;/p&gt;</value>
+  </data>
+  <data name="Retail_DetailTitle" xml:space="preserve">
+    <value>Deeper understanding of customers, pricing, POS, inventory and channels</value>
+  </data>
+  <data name="Retail_IndexTagline" xml:space="preserve">
+    <value>Shopping is not what it used to be. Today shoppers are empowered with devices, options and more information at their fingertips. Get visibility into the insights that will make your business successful.</value>
+  </data>
+  <data name="Retail_Title" xml:space="preserve">
+    <value>Retail</value>
+  </data>
+  <data name="Energy_DetailsTagline" xml:space="preserve">
+    <value>&lt;p&gt;Storing energy is not cost-effective, so utilities and power generators need to forecast future power consumption so that they can efficiently balance the supply with the demand. During peak hours, short supply can result in power outages. Conversely, too much supply can result in waste of resources. Advanced demand forecasting techniques detail hourly demand and peak hours for a particular day, allowing an energy provider to optimize the power generation process. This report focuses on demand forecasting within the energy sector. The report provides region level energy usage status and forecast of future usage for optimizing the operations.&lt;/p&gt;
+&lt;p&gt;The ‘Energy Solution Status Summary’ page shows the overall status of energy demand of each region. User can select a single region by clicking the filter on the left to investigate each region's status.&lt;/p&gt;
+&lt;p&gt;The ‘Energy Solution Forecast’ page shows the demand forecast results from Azure Machine Learning model and different error metrics for user to identify the quality of the model. Temperature and its forecasts are used as a feature in the machine learning model.&lt;p/&gt;</value>
+  </data>
+  <data name="Energy_DetailTitle" xml:space="preserve">
+    <value>Energy</value>
+  </data>
+  <data name="Energy_IndexTagline" xml:space="preserve">
+    <value>This report focuses on demand forecasting within the energy sector. The views provide region level energy usage status and forecast of future usage for optimizing the operations.</value>
+  </data>
+  <data name="Energy_Title" xml:space="preserve">
+    <value>Energy</value>
+  </data>
+  <data name="Telecommunications_DetailsTagline" xml:space="preserve">
+    <value>&lt;p&gt;Businesses need an effective strategy for managing customer churn. Customer churn includes customers stopping the use of a service, switching to a competitor service, switching to a lower-tier experience in the service or reducing engagement with the service.&lt;/p&gt;
+&lt;p&gt;In this use case, we look at how a mobile phone carrier company can leverage Azure to proactively identify customers more likely to churn in the near term in order to improve the service and create custom outreach campaigns that help retain the customers. Mobile phone carriers face an extremely competitive market. Many mobile carriers lose revenue from postpaid customers due to churn. Hence the ability to proactively and accurately identify customer churn at scale can be a huge competitive advantage. Some of the factors contributing to mobile phone customer churn includes: Perceived frequent service disruptions, poor customer service experiences in online/retail stores, offers from other competing carriers (better family plan, data plan, etc.).&lt;/p&gt;
+&lt;p&gt;A mobile carrier needs to build a 360-degree view of their user base to enable the company to stay ahead of the competition.&lt;/p&gt;</value>
+  </data>
+  <data name="Telecommunications_DetailTitle" xml:space="preserve">
+    <value>Mobile Phone Carrier</value>
+  </data>
+  <data name="Telecommunications_IndexTagline" xml:space="preserve">
+    <value>Learn how a telecommunication company, operating a mobile business, can leverage Cortana Intelligence Suite and Power BI to empower business stakeholders to analyze factors contributing to customer churn.</value>
+  </data>
+  <data name="Telecommunications_Title" xml:space="preserve">
+    <value>Telecommunications</value>
+  </data>
+  <data name="PublicSector_DetailsTagline" xml:space="preserve">
+    <value>&lt;h3&gt;Education&lt;/h3&gt;
+&lt;p&gt;As the statistics show, enrolment in Primary Education is growing apace as progress is made in particular in the developing world, partly on foot of the Millennium Development Goals which prioritized primary school enrolment. However, almost 1 in 10 children globally are still out of school and a disproportionate number of these (60%) are girls. Enrollment in Higher Education has also grown but remains at a low level globally, with huge disparities between nations in the developed and the developing world.&lt;/p&gt;
+&lt;p&gt;The correlation with GDP is consistent, but what is worthy of note is a slight decline in the percentage of GDP allocated to education in part impacted by the last recession. It is heartening to see that the gender gap is closing with regard to Higher Education enrolment, but as stated above this picture changes dramatically when we compare the developed and the developing world, and is not matched by enrolments at primary school level.&lt;/p&gt;
+&lt;br&gt;
+&lt;h3&gt;Health&lt;/h3&gt;
+
+&lt;p&gt;As we look at the data, life expectancy has increased over the years which is widely acknowledged. What stands out is that the difference in the life expectancy of female versus male has remained the same over the years. It is evident, as a countries allocate more funds towards Health the country’s population is benefiting from it.  It is interesting to note that the fertility rate is going down as the GDP improves.&lt;/p&gt;
+&lt;br&gt;
+&lt;h3&gt;Small Business&lt;/h3&gt;
+
+&lt;p&gt;As a business friendly environment is created, the rate of New Business registered is going up. The correlation with GDP is evident. It is worth noting that the peak of Small Business activity was prior to the last recession.&lt;/p&gt;
+&lt;br&gt;
+&lt;h3&gt;Climate Change&lt;/h3&gt;
+
+&lt;p&gt;Climate change is a controversial topic. Looking at the data, we can confirm some of the known variables. There is a direct correlation between GDP and CO2 emission. As the economy of a country improves CO2 emission increases. This phenomenon is not dependent on the source of electricity production. Also as a countries population increases so does the CO2 emission. You will notice a similar trend when we compare some of the top countries in terms of economy and population.&lt;/p&gt;
+&lt;p&gt;Data also shows that the average temperature is on the rise. You will notice that the temperature rise is not a steady incline. All the projection models indicate temperature rising over the years.&lt;/p&gt;</value>
+  </data>
+  <data name="PublicSector_IndexTagline" xml:space="preserve">
+    <value>Public Sector data is available via various sources online. Most of these data sources are free as well. This provides with an amazing opportunity to correlate how the public policies are affecting changes from Climate to Education to Health and more.</value>
+  </data>
+  <data name="PublicSector_Title" xml:space="preserve">
+    <value>Public Sector</value>
+  </data>
+  <data name="CapitalMarkets_DetailsTagline" xml:space="preserve">
+    <value>The U.S. Personal Consumption Expenditure Dashboard is used by Microsoft’s Treasury organization to track spending trends (in trillions of USD) on over 200 individual goods and services (anything from automobiles to museum memberships) purchased in the United States. The dataset is published on a monthly basis by the Bureau of Economic Analysis and is organized into an eight level hierarchy which Power BI can instantly drill into to see changes at the most granular level. This dashboard allows Microsoft to analyze Year-Over-Year trends in spend as well as visualize which goods/services are increasingly important to the U.S. consumer. Moreover, it allows the Treasury team to gauge economic sentiment and understand our position in the business cycle.</value>
+  </data>
+  <data name="CapitalMarkets_IndexTagline" xml:space="preserve">
+    <value>The U.S. Personal Consumption Expenditure dashboard tracks consumer spending in the US across a wide range of goods and services to track the US business cycle as well as gauge spending trends and economic sentiment</value>
+  </data>
+  <data name="CapitalMarkets_Title" xml:space="preserve">
+    <value>Capital Markets</value>
+  </data>
+</root>

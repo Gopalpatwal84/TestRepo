@@ -1,0 +1,284 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" id="root">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="About_Content" xml:space="preserve">
+    <value>&lt;p&gt;此外，还将学习一系列 Microsoft Power BI 演示。这些演示包括以下内容： &lt;ul&gt;&lt;li&gt;了解如何使用项目符号图自定义可视化将数据合并到一起，有效地显示见解。&lt;/li&gt;
+&lt;li&gt;了解如何使用从世界银行获取的城市发展数据集绘制地理数据图，可视化圆形图、实测图以及通过 R 脚本创建地图。&lt;/li&gt;&lt;li&gt;观看如何使用世界银行提供的气候变化数据演示以及 MSN 针对选举周期创建选民偏好的单独教程，了解如何正确设置坐标轴。&lt;/li&gt;
+&lt;li&gt;通过 Microsoft 与 Real Sociedad 协作的教程，确定何时使用交互式数据可视化组合，决定传达哪些数据元素。&lt;/li&gt;&lt;/ul&gt;&lt;/p&gt;</value>
+  </data>
+  <data name="Article_Content_10" xml:space="preserve">
+    <value>&lt;h2 id="creating-chart"&gt;在 Power BI 中创建项目符号图&lt;/h2&gt;
+
+&lt;p&gt;若要按照本教程中展示的示例执行操作，需要以下先决条件：&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;运行 Windows 7 或更高版本的计算机&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;下载并安装 &lt;a href="{0}"&gt;Power BI Desktop&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;注册 Power BI 帐户 (&lt;a href="{1}"&gt;{2}&lt;/a&gt;)&lt;/p&gt;
+
+&lt;p&gt;a.注意，需使用工作邮箱帐户进行注册；不支持个人帐户（gmail、Hotmail、outlook.com、yahoo.com）&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3&gt;步骤 1：加载示例文件&lt;/h3&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;打开文件 &lt;strong&gt;Brazil IDEB Scores_final.pbix&lt;/strong&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;本教程使用&lt;strong&gt;按 SQLBI 编号的项目符号图&lt;/strong&gt;自定义视觉对象，该视觉对象可从以下链接下载：&lt;/p&gt;
+&lt;p&gt;&lt;a href="{3}"&gt;{3}&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src="{4}" alt="" title="" /&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;创建多个度量来支持此可视化。&lt;/p&gt;
+
+&lt;p&gt;a.注意：之前的教程已涵盖如何创建度量，这里不再赘述相关步骤。
+    &lt;blockquote&gt;
+  &lt;p&gt;目标 = 6.0&lt;/p&gt;
+
+&lt;p&gt;全国平均值 = CALCULATE(AVERAGE(IDEB2009[分数]), ALL(IDEB2009))&lt;/p&gt;
+&lt;/blockquote&gt;
+    &lt;/p&gt;
+    &lt;/li&gt;
+&lt;/ol&gt;
+
+
+
+&lt;h3&gt;步骤 2：处理数据&lt;/h3&gt;
+
+&lt;p&gt;&lt;strong&gt;注意&lt;/strong&gt;：目标度量显示如何在报表中添加静态值，而无需使用获取数据体验。全国平均值度量显示如何计算数据行的累计总和，而忽略应用的所有筛选器。这可以使全国平均值在数据集的所有类别中保持一致，并使该值在刷新数据时更新。&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;按“可视化”&lt;strong&gt;&lt;/strong&gt;窗格中的“项目符号图”&lt;strong&gt;&lt;/strong&gt;图标。&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;将“巴西州列表”&lt;strong&gt;&lt;/strong&gt;表中的“州”&lt;strong&gt;&lt;/strong&gt;字段添加到“类别”&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;将“分数”&lt;strong&gt;&lt;/strong&gt;添加到“值”&lt;strong&gt;&lt;/strong&gt;，它显示为平均分数&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;将“全国平均值”&lt;strong&gt;&lt;/strong&gt;添加到“比较值”&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;将“目标”&lt;strong&gt;&lt;/strong&gt;添加到“目标值”&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;向“州”&lt;strong&gt;&lt;/strong&gt;字段添加一个筛选器，删除空白值&lt;/p&gt;
+
+&lt;p&gt;a.州不为(空白)&lt;/p&gt;
+&lt;p&gt;&lt;img src="{5}" alt="" title="" /&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;选中项目符号图，然后选择“格式”&lt;strong&gt;&lt;/strong&gt;窗格&lt;/p&gt;
+
+&lt;p&gt;a.如下所示设置颜色&lt;/p&gt;
+
+&lt;p&gt;b.将“州 1”&lt;strong&gt;&lt;/strong&gt;选项的切换开关移到“关闭”&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;c.重复上一步设置其余 4 个“州”字段&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;img src="{6}" alt="" title="" /&gt;&lt;/p&gt;
+
+&lt;p&gt;通过生成的视觉对象，可轻松将每个州的平均 IDEB 分数与全国平均值、各州平均值以及全国目标值进行比较。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src="{7}" alt="" title="" /&gt;&lt;/p&gt;
+
+&lt;h2 id="creating-data-maps"&gt;创建数据图（使用 R 视觉对象绘制点图）&lt;/h2&gt;
+
+&lt;p&gt;若要按照本教程中展示的示例执行操作，需要以下先决条件：&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;运行 Windows 7 或更高版本的计算机&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;下载并安装 &lt;a href="{8}"&gt;&lt;em&gt;Power BI Desktop&lt;/em&gt;&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;注册 Power BI 帐户 (&lt;a href="{1}"&gt;&lt;em&gt;{2}&lt;/em&gt;&lt;/a&gt;)&lt;/p&gt;
+
+&lt;p&gt;a.注意，需使用工作邮箱帐户进行注册；不支持个人帐户（gmail、Hotmail、outlook.com、yahoo.com）&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;虽然可以在 Power BI 中绘制立即可用的地图，但你可能希望对结果进行个性化设置、结合等值线图和点图、添加拱形线或在特定区域进行缩放。通过 R 视觉对象，可自由地体验和自定义视觉效果。本教程介绍如何开始使用 &lt;strong&gt;R 脚本视觉对象&lt;/strong&gt;来创建简单的地图。&lt;/p&gt;
+
+&lt;h3&gt;步骤 1：安装 R 和 R 编辑器&lt;/h3&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;请确保计算机上安装了 R 以及 R 编辑器（如 RStudio）&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;运行 &lt;strong&gt;install.packages(maps)&lt;/strong&gt; 和 &lt;strong&gt;install.packages(mapproj)&lt;/strong&gt; 命令，在 R 编辑器中安装两个包，即“maps”和“mapproj”。此操作将在计算机上安装这两个包。只需在计算机上安装一次包，但每次使用包时，都需从 Power BI 激活库。&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3&gt;步骤 2：新建 R 视觉对象&lt;/h3&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;现在，使用画布右侧“可视化”&lt;strong&gt;&lt;/strong&gt;窗格中的 R 图标新建一个 R 视觉对象&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;将&lt;strong&gt;世界城市&lt;/strong&gt;表中的 &lt;strong&gt;lat&lt;/strong&gt; 和 &lt;strong&gt;lng&lt;/strong&gt; 拖到值字段上&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;定义数据集后，将显示 R 脚本编辑器。将自动填充脚本的前几行，从选定的字段创建数据集。现在可以开始使用（以及/或者编辑）以下代码生成视觉对象：&lt;/p&gt;
+&lt;ol&gt;
+    &lt;li&gt;&lt;p&gt;调用 &lt;strong&gt;maps&lt;/strong&gt; 和 &lt;strong&gt;mapproj&lt;/strong&gt; 库&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;library(maps)&lt;/p&gt;
+
+&lt;p&gt;library(mapproj)&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;绘制世界地图，留出边界线&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;map('world', col=NA)&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;为数据集中的每个城市绘制一个点。pch 用于定义点的形状，cex 用于调整点的大小。&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;points(mapproject(dataset\$lng, dataset\$lat), col="black", pch=19, cex=.1)&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+
+
+
+&lt;p&gt;这只是使用 R 的其中一种地图类型示例，还有许多其他形式可体验！&lt;/p&gt;
+
+&lt;p&gt;&lt;img src="{9}" alt="" title="" /&gt;&lt;/p&gt;</value>
+  </data>
+  <data name="Download_Resources" xml:space="preserve">
+    <value>下载教程所需的全部资源</value>
+  </data>
+  <data name="Hero_Subtitle" xml:space="preserve">
+    <value>Alberto Cairo 将讲解如何为数据选择恰当的图形。人类大脑在将图案和趋势转换为条形图、折线图、数据图、散点图及其他图形时更高效。Alberto 将讲解相关的主题和问题，帮助确定哪种图形表现形式最适合你的数据。同时概括介绍哪些类型的图形可以提供准确的估算，哪些类型的视觉对象可以提供一般估算。</value>
+  </data>
+  <data name="Hero_Title" xml:space="preserve">
+    <value>选择图形</value>
+  </data>
+  <data name="InThisArticle" xml:space="preserve">
+    <value>在本文中：</value>
+  </data>
+  <data name="META_DESCRIPTION" xml:space="preserve">
+    <value />
+  </data>
+  <data name="META_KEYWORDS" xml:space="preserve">
+    <value />
+  </data>
+  <data name="META_PAGETITLE" xml:space="preserve">
+    <value>数据新闻 - 选择图形 | Microsoft Power BI</value>
+  </data>
+  <data name="NextTopic" xml:space="preserve">
+    <value>下一主题：设计说明</value>
+  </data>
+  <data name="RightNav_Link1" xml:space="preserve">
+    <value>在 Power BI 中创建项目符号图</value>
+  </data>
+  <data name="RightNav_Link2" xml:space="preserve">
+    <value>创建数据图（使用 R 视觉对象绘制点图）</value>
+  </data>
+  <data name="Meta_LocJobId" xml:space="preserve">
+    <value>162</value>
+  </data>
+</root>

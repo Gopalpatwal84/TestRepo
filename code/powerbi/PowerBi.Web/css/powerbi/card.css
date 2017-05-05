@@ -1,0 +1,98 @@
+﻿.card {
+  background-color: #EAEAEA;
+  border-left: 4px solid #EAEAEA;
+  display: block;
+  padding: 20px 20px 20px 75px;
+  position: relative;
+}
+.card .top,
+.card .bottom {
+  color: #000000;
+  display: block;
+}
+.card .icon {
+  -ms-transform: translate(0, -50%);
+  -o-transform: translate(0, -50%);
+  -webkit-transform: translate(0, -50%);
+  transform: translate(0, -50%);
+  height: 30px;
+  left: 20px;
+  top: 50%;
+  position: absolute;
+  width: 30px;
+}
+.card .icon path {
+  fill: #000000;
+}
+.card:hover {
+  border-left-color: #f2c811;
+  text-decoration: none;
+}
+.card-large {
+  height: auto;
+  padding: 20px;
+  border: 2px solid transparent;
+}
+.card-large .top {
+  font-weight: 700;
+  margin-top: 15px;
+}
+.card-large .icon {
+  -ms-transform: translate(0, 0);
+  -o-transform: translate(0, 0);
+  -webkit-transform: translate(0, 0);
+  transform: translate(0, 0);
+  position: static;
+}
+.card-large:hover {
+  border: 2px solid #C8C8C8;
+}
+.card-block.card {
+  padding: 30px;
+}
+.card-block.card .icon {
+  left: 0;
+  margin: 10px 0;
+  position: relative;
+  top: 0;
+}
+.card-notification {
+  padding: 25px;
+  margin-bottom: 30px;
+  border-color: #EAEAEA;
+  border-style: solid;
+  border-width: 1px;
+  position: relative;
+}
+.card-notification .icon-wrapper {
+  -ms-transform: translate(0, -50%);
+  -o-transform: translate(0, -50%);
+  -webkit-transform: translate(0, -50%);
+  transform: translate(0, -50%);
+  height: 86px;
+  left: 25px;
+  top: 50%;
+  position: absolute;
+}
+@media only screen and (min-width: 768px) {
+  .card {
+    padding: 75px 20px 20px;
+  }
+  .card .icon {
+    top: 40px;
+  }
+  .card-large {
+    padding: 20px;
+  }
+}
+@media only screen and (min-width: 960px) {
+  .card {
+    padding: 20px 20px 20px 75px;
+  }
+  .card .icon {
+    top: 50%;
+  }
+  .card-large {
+    padding: 35px 30px;
+  }
+}

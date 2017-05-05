@@ -1,0 +1,91 @@
+﻿@model PowerBI.Web.Models.Pages.Industries.IndustryDetailsViewModel
+@using Resources = PowerBI.Resources.Pages.Industries.Details;
+@using Industries = PowerBI.Resources.Shared.Industries;
+
+
+@{
+    Model.PageTitle = Resources.META_PAGETITLE;
+    Model.MetaDescription = Resources.META_DESCRIPTION;
+    Model.MetaKeywords = Resources.META_KEYWORDS;
+}
+
+<section class="section">
+    <div class="row">
+        <div class="column medium-5 text-center">
+            <a href="@Model.Industry.EmbeddedReport" class="show-for-medium" data-pops-up="modal-video">
+                <img class="img-frame" src="@CdnHelper.GetCdnUrl(Model.Industry.ReportThumbnail)" alt="" />
+            </a>
+            <a href="@Model.Industry.EmbeddedReport" class="hide-for-medium" target="_blank">
+                <img class="img-frame" src="@CdnHelper.GetCdnUrl(Model.Industry.ReportThumbnail)" alt="" />
+            </a>
+
+            <a href="@Model.Industry.EmbeddedReport" class="button button-featured show-for-medium" data-pops-up="modal-video">
+                <span class="icon">@SvgHelper.GetSvg("report")</span>
+                @Resources.ViewReport_Cta
+            </a>
+            <a href="@Model.Industry.EmbeddedReport" class="button button-featured hide-for-medium" target="_blank">
+                <span class="icon">@SvgHelper.GetSvg("report")</span>
+                @Resources.ViewReport_Cta
+            </a>
+        </div>
+        <div class="column medium-7">
+            <div class="row">
+                <div class="column">
+                    <span class="icon icon-palette02 icon-size3">
+                        @SvgHelper.GetSvg(Model.Industry.Icon)
+                    </span>
+                </div>
+            </div>
+            <div class="row row-size1">
+                <div class="column">
+                    <h1>@Industries.ResourceManager.GetString(Model.Industry.Title_Lockey)</h1>
+                    <p>@Industries.ResourceManager.GetString(Model.Industry.IndexTagline_Lockey)</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="section section-slate06">
+    <div class="row">
+        <div class="column medium-5">
+            @foreach (var image in Model.Industry.ReportImages)
+            {
+                <div>
+                    <img src="@CdnHelper.GetCdnUrl(image)" alt="" />
+                </div>
+            }
+        </div>
+        <div class="column medium-7">
+            <h3>@Industries.ResourceManager.GetString(Model.Industry.DetailTitle_Lockey)</h3>
+            <p>@Html.Raw(Industries.ResourceManager.GetString(Model.Industry.DetailTagline_Lockey))</p>
+        </div>
+    </div>
+</section>
+
+<section class="section section-slate01">
+    <div class="row">
+        <div class="column medium-centered text-center">
+            <div class="row">
+                <div class="column">
+                    <h3>@Resources.LearnMore_Heading</h3>
+                    <p>@Resources.LearnMore_Content</p>
+                </div>
+            </div>
+            <div class="row row-size2">
+                <div class="column">
+                    <a class="button button-featured" href="@Html.LocalizeUrl("/partner-showcase/")">
+                        @Resources.LearnMore_Cta
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="section modal modal-video modal-large" id="modal-video" data-video-embed="@Model.Industry.EmbeddedReport">
+    <button class="close">&times;</button>
+    <div class="row column">
+        <iframe frameborder="0"></iframe>
+    </div>
+</section>

@@ -1,0 +1,182 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" id="root">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Available_Content" xml:space="preserve">
+    <value>Power BI는 클라우드 또는 하이브리드 클라우드 + 온-프레미스 시나리오에서 빠른 배포를 사용하여 99.9% 가동률을 제공하는 SaaS(Software as a Service)입니다.</value>
+  </data>
+  <data name="Available_Heading" xml:space="preserve">
+    <value>사용 가능함</value>
+  </data>
+  <data name="Cloud_Content" xml:space="preserve">
+    <value>클라우드 및 온-프레미스 모두에서 ETL 도구의 투자 및 다양한 데이터 원본에 대한 Power BI 기본 제공 연결을 통한 인프라를 최적화합니다.</value>
+  </data>
+  <data name="Connect_Content" xml:space="preserve">
+    <value>조직의 콘텐츠 팩을 사용하여 일관되고 안전한 방법으로 전체 조직에서 대시보드, 보고서 및 데이터 집합을 공유하는 방법을 표준화합니다.</value>
+  </data>
+  <data name="Dashboard_Content" xml:space="preserve">
+    <value>기존 배포 인프라 및 프로세스를 사용하여 SaaS의 속도로 쉽게 Power BI 서비스를 배포하고 Power BI Desktop 관련 작성 도구를 배포합니다.</value>
+  </data>
+  <data name="EasyOnAdmin_Heading" xml:space="preserve">
+    <value>Power BI는 관리하고 배포하기 쉽습니다.</value>
+  </data>
+  <data name="EnterpriseReady_Heading" xml:space="preserve">
+    <value>사용자에 대한 정보, 쉬운 관리</value>
+  </data>
+  <data name="EnterpriseReady_IntroContent" xml:space="preserve">
+    <value>&lt;p&gt;24/7/365 시스템 가용성을 제공하고 데이터 및 액세스를 보호하며 모든 작업을 쉽게 수행할 수 있는 동시에 조직이 영업, 마케팅, 금융 등의 데이터에 액세스하도록 하려면 어떻게 해야 하나요?&lt;/p&gt;
+
+&lt;p&gt;Power BI를 통해 가능합니다. 고가용성 및 확장성, 보안 및 규정 준수와 관리 용이 등 사용자에게 가장 중요한 기능을 제공하면서도 비즈니스에 대한 전체적인 견해를 전달합니다.&lt;/p&gt;</value>
+  </data>
+  <data name="Flexible_Content" xml:space="preserve">
+    <value>라이브 연결을 통한 클라우드 또는 온-프레미스의 데이터 혹은 &lt;a href="/documentation/powerbi-gateway-enterprise/"&gt;엔터프라이즈 게이트웨이&lt;/a&gt;를 통한 예정된 새로 고치는 데이터에 연결하여 데이터의 위치와 상관 없이 사용자에게 최근의 정보를 제공합니다.</value>
+  </data>
+  <data name="Flexible_Heading" xml:space="preserve">
+    <value>유연함</value>
+  </data>
+  <data name="META_DESCRIPTION" xml:space="preserve">
+    <value>Power BI는 사용 가능하고 확장 가능한 안전하고 규정을 준수하며 관리하기 쉬운 엔터프라이즈급 비즈니스 인텔리전스 솔루션입니다.</value>
+  </data>
+  <data name="META_PAGETITLE" xml:space="preserve">
+    <value>엔터프라이즈 IT | Microsoft Power BI</value>
+  </data>
+  <data name="MSTrust_Content" xml:space="preserve">
+    <value>현재 위치에서 데이터를 안전하게 유지하고 Power BI와 함께 Azure Active Directory 및 OAuth 2.0 인증을 사용하여 안전한 방법으로 해당 데이터에 연결합니다. ISO 27001, ISO 27018, EU 모범 조항, HIPAA BAA 및 UK G-Cloud 규정 등의 법적 요구 사항을 충족합니다.</value>
+  </data>
+  <data name="MSTrust_Cta" xml:space="preserve">
+    <value>Microsoft 보안 센터를 참조하세요.</value>
+  </data>
+  <data name="MSTrust_Heading" xml:space="preserve">
+    <value>보안 및 규정 준수를 중요하게 고려합니다.</value>
+  </data>
+  <data name="People_Content" xml:space="preserve">
+    <value>기존 Azure 및 Office 365 투자와 조합된 &lt;a href="/blog/power-bi-service-march-update-part-two/"&gt;낮은 수준의 보안&lt;/a&gt;을 사용하여 Power BI의 어떤 데이터에 누가 액세스하는지를 보호합니다.</value>
+  </data>
+  <data name="Scalable_Content" xml:space="preserve">
+    <value>사용자 수 및 해당 특정 데이터 요구 사항에 따라 적절한 가격으로 비즈니스의 필요에 대한 SaaS의 속도로 확장성을 사용합니다.</value>
+  </data>
+  <data name="Scalable_Heading" xml:space="preserve">
+    <value>확장 가능함</value>
+  </data>
+  <data name="TakeAdvantage_Heading" xml:space="preserve">
+    <value>Power BI를 활용해 보세요.</value>
+  </data>
+  <data name="Meta_LocJobId" xml:space="preserve">
+    <value>82</value>
+  </data>
+</root>

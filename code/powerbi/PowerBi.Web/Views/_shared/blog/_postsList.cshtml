@@ -1,0 +1,76 @@
+﻿@model  PowerBI.Web.Models.Parts.Blog.PostsList
+@using Shared = PowerBI.Resources.Shared.Blog
+
+<div class="row row-size1">
+    <div class="column">
+        @if (!Model.HasErrors)
+        {
+            if (Model.SmallTitle)
+            {
+                <h4>@Model.Title</h4>
+            }
+            else
+            {
+                <h1>@Model.Title</h1>
+            }
+        }
+    </div>
+</div>
+
+<div class="row row-size1">
+    <div class="column">
+        @if (!Model.HasErrors)
+        {
+            if (Model.Posts != null && Model.Posts.Any())
+            {
+                foreach (var post in Model.Posts)
+                {
+                    <article role="article" class="post">
+                        @{
+                            var authorName = string.IsNullOrWhiteSpace(post.Author.Name) ? post.Author.Slug : post.Author.Name;
+                            var publishedDate = post.Published == DateTime.MinValue ? Shared.NotPublished : post.Published.ToLocalizedString("MMMM d, yyyy");
+                        }
+
+                        <div>
+                            <h2><a href="@Html.LocalizeUrl(post.Url)" rel="bookmark" title="@post.Title">@post.Title</a></h2>
+
+                            <div class="metadata">
+                                <ul class="linkList linkList-horizontal">
+                                    @foreach (var postCategory in post.Categories)
+                                    {
+                                        var category = Model.Categories.FirstOrDefault(c => string.Equals(c.Slug, postCategory));
+
+                                        if (category != null)
+                                        {
+                                            <li><a href="@Html.LocalizeUrl(string.Format("/blog/category/{0}/", category.Slug))" class="tag">@category.Name</a></li>
+                                        }
+                                    }
+                                    <li>
+                                        <p class="post-date">
+                                            <span class="icon icon-palette02">@SvgHelper.GetSvg("calendar")</span>
+                                            @publishedDate
+                                            @Html.RawFormatInvariant(Shared.By, authorName, post.Author.Url)
+                                        </p>
+                                    </li>
+                                </ul>
+                            </div>
+
+                            <p>@Html.Raw(post.Summary)</p>
+                            <a href="@Html.LocalizeUrl(post.Url)">&raquo; @Shared.ReadMore</a>
+                        </div>
+                    </article>
+                }
+            }
+            else
+            {
+                <h3>@Shared.NoResults</h3>
+            }
+        }
+        else
+        {
+            Response.StatusCode = 206;
+            <h2>@Shared.PostListUnavailable</h2>
+        }
+        @Html.Partial("_pagination", Model.Pagination)
+    </div>
+</div>

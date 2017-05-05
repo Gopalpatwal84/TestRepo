@@ -1,0 +1,43 @@
+﻿@model PowerBI.Web.Features.Forms.Models.SupportProTicketFormViewModel
+
+@using Form = PowerBI.Resources.Shared.Forms.Form
+@using Resources = PowerBI.Resources.Shared.Forms.SupportProTicket
+@using QuestionsResources = PowerBI.Resources.Shared.Forms.SupportQuestions
+
+@{
+	OnyxForms.SetupForms();
+	var formClass = Model.FormOptions.Class ?? string.Empty;
+	var submitText = Model.FormOptions.SubmitText ?? Form.Submit;
+}
+
+@using (var f = Html.BeginChameleonForm(Html.LocalizeUrl("/forms/submit-support-pro-ticket/").ToString(), method: FormMethod.Post, htmlAttributes: Html.Attrs().AddClass(formClass).Attr("data-form-type", "support-pro-ticket").Attr("data-error", Resources.Form_Error)))
+{
+	using (var s = f.BeginSection())
+	{
+		@f.FormOptions(Model.FormOptions)
+
+        <p>@Resources.Form_Content</p>
+        <br />
+        <h3>@Resources.PersonalInformation_Heading</h3>
+        @s.FieldFor(m => m.FirstName).Label(Resources.FirstName_Label);
+        @s.FieldFor(m => m.LastName).Label(Resources.LastName_Label);
+		@s.FieldFor(m => m.Email).Placeholder(Form.Email_Placeholder).Label(Resources.Email_Label);
+        @s.FieldFor(m => m.Phone).Label(Resources.Phone_Label);
+        @s.FieldFor(m => m.TimeZone).Label(Resources.TimeZone_Label);
+        @s.FieldFor(m => m.Country).Label(Resources.Country_Label);
+        <br />
+        <h3>@Resources.Issue_Heading</h3>
+        @s.FieldFor(m => m.ProblemType).Label(Resources.ProblemType_Label);
+        @s.FieldFor(m => m.Category).Label(Resources.Category_Label);
+        @s.FieldFor(m => m.Subject).Label(Resources.Subject_Label);
+        <br />
+        <div id="ticket-questions" data-error="@QuestionsResources.Questions_Error"></div>
+        <br />
+        @s.FieldFor(m => m.Consent).WithoutLabel().Label(string.Empty).InlineLabel(Html.RawFormatInvariant(Resources.Disclaimer_Text, "http://support.microsoft.com/gp/csa/en-us?p=1&ln=en-us"));
+        <br />
+    }
+    using (var n = f.BeginNavigation())
+    {
+		@n.Submit(submitText).AddClass("button-featured button-block").Attrs().Attr("data-event", "supportproticket-clicked-submitticket")
+	}
+}

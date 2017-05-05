@@ -1,0 +1,276 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" id="root">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="DynamicsCRM_Content" xml:space="preserve">
+    <value>&lt;p&gt;Dynamics 365 解决方案模板模板包含实现可缩放、可扩展的安全“销售管理”仪表板分析所需的所有功能。仅需数小时便可生成一个端对端解决方案，其中包含 Scribe 基于云的 ETL 平台、一个云数据库或本地数据库，以及经过精心设计的 Power BI 报表（包括一个派生自你自己的 Dynamics 365 实例的安全模型）。&lt;/p&gt;
+&lt;p class="text-semibold"&gt;适用于 Dynamics 365 的销售管理：&lt;/p&gt;
+&lt;ul&gt;
+    &lt;li&gt;快速开始使用针对“销售管理”分析仪表板的预置数据模型&lt;/li&gt;
+    &lt;li&gt;使用基于直观向导的 UI 来设置和自定义数据集成&lt;/li&gt;
+    &lt;li&gt;通过处理来自 Dynamics 365 的大量数据获得企业级性能&lt;/li&gt;
+    &lt;li&gt;使用增量数据提取功能优化数据集成&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;所有内容均在 GitHub 上免费提供并完整记录，因此你可将时间用在自定义最终结果上，而不是从头开始进行设计和编码。&lt;/p&gt;</value>
+  </data>
+  <data name="DynamicsCRM_DetailTagline" xml:space="preserve">
+    <value>仅需数小时便可在云或本地 Dynamics 365 实例上搭建一个可缩放、可扩展的安全 Power BI 仪表板。将时间用在定制符合企业需求的解决方案上，而不是从头开始。</value>
+  </data>
+  <data name="DynamicsCRM_DetailTitle" xml:space="preserve">
+    <value>企业现成可用的销售管理分析</value>
+  </data>
+  <data name="DynamicsCRM_IndexTagline" xml:space="preserve">
+    <value>利用可缩放、可扩展的安全解决方案，在 Power BI 中获取来自 Dynamics 365 客户的强大见解。纳入自己的 CRM 自定义设置、添加其他应用程序中的数据（如 ERP 系统中的实际收入），还可重复使用现有安全模型中的功能。</value>
+  </data>
+  <data name="DynamicsCRM_Partner" xml:space="preserve">
+    <value>Scribe</value>
+  </data>
+  <data name="DynamicsCRM_Title" xml:space="preserve">
+    <value>适用于 Dynamics 365 的销售管理</value>
+  </data>
+  <data name="Salesforce_Content" xml:space="preserve">
+    <value>&lt;p&gt;
+Salesforce 解决方案模板包含实现可缩放、可扩展的安全“销售管理”仪表板和可操作分析所需的所有功能。仅需数小时便可生成一个端对端解决方案，其中包含你选择的 Informatica 云集成平台或 Scribe 的基于云的平台、一个云数据库或本地数据库，以及经过精心设计的 Power BI 报表（包括一个派生自你自己的 Salesforce 实例的安全模型）。
+&lt;/p&gt;
+
+&lt;p class="text-semibold"&gt;
+适用于 Salesforce 的销售管理，简化版：
+&lt;/p&gt;
+
+&lt;ul&gt;
+	&lt;li&gt;快速开始使用分析仪表板的预置数据模型。&lt;/li&gt;
+	&lt;li&gt;使用基于直观向导的 UI 来设置和自定义数据集成&lt;/li&gt;
+	&lt;li&gt;通过处理来自 Salesforce 的大量数据获得企业级性能&lt;/li&gt;
+	&lt;li&gt;使用增量数据提取功能优化数据集成&lt;/li&gt;
+&lt;/ul&gt;</value>
+  </data>
+  <data name="Salesforce_DetailTagline" xml:space="preserve">
+    <value>仅需数小时便可搭建一个可缩放、可扩展的安全 Salesforce Power BI 仪表板。将时间用在定制符合企业需求的解决方案上，而不是从头开始。</value>
+  </data>
+  <data name="Salesforce_DetailTitle" xml:space="preserve">
+    <value>企业现成可用的销售管理分析</value>
+  </data>
+  <data name="Salesforce_IndexTagline" xml:space="preserve">
+    <value>利用可缩放、可扩展的安全解决方案，在 Power BI 中获取来自 Salesforce 客户渠道的强大见解。纳入自己的 Salesforce 自定义设置、利用其他应用程序中的数据（如 ERP 系统中的实际收入）创建企业混合数据，还可重复使用现有安全模型中的功能。</value>
+  </data>
+  <data name="Salesforce_Partner" xml:space="preserve">
+    <value>Informatica</value>
+  </data>
+  <data name="Salesforce_Title" xml:space="preserve">
+    <value>适用于 Salesforce 的销售管理</value>
+  </data>
+  <data name="SCCM_Content" xml:space="preserve">
+    <value>System Center Power BI 包含 SCCM 仪表板和可操作分析所需的所有功能。来自 SCCM 安装的数据将收集并存储在数据库中，便于你随意扩展和自定义。数据将在强大而引人注目的 Power BI 报表中进行呈现。还可添加用户和计算机的相关信息，或使用已收集的数据创建混合数据。</value>
+  </data>
+  <data name="SCCM_DetailTagline" xml:space="preserve">
+    <value>数小时内即可创建可扩展、可缩放的 System Center Configuration Manager 仪表板。每日都会收集信息，以便你可查看组织计算机当天的运行状况，还可了解这些关键指标随时间的变化。利用软件更新快速识别非最新的计算机，识别恶意软件感染后的成功缓解和失败缓解以便可快捷应对。</value>
+  </data>
+  <data name="SCCM_DetailTitle" xml:space="preserve">
+    <value>适用于 System Center Configuration Manager 的 Power BI 仪表板</value>
+  </data>
+  <data name="SCCM_IndexTagline" xml:space="preserve">
+    <value>Power BI 中受人瞩目的分析和可视化功能可监控整个组织内的计算机运行状况、恶意软件防护、软件更新和软件清单，进而提升 IT 人员生产力和效率。将自身的可定制目标和 System Center Configuration Manager 关键指标进行对比，了解随时间变化的趋势。确定故障点，获取了解所需操作而必需的信息。</value>
+  </data>
+  <data name="SCCM_Title" xml:space="preserve">
+    <value>System Center Configuration Manager</value>
+  </data>
+  <data name="Twitter_Content" xml:space="preserve">
+    <value>&lt;p&gt;Twitter 模板提供了完整的品牌/营销活动解决方案。只需几分钟，即可生成端到端解决方案，该方案拉取来自 Twitter 的数据、运用机器学习丰富数据，并将其存储在 Azure SQL 中。然后可利用结合了 Microsoft 搜索技术的预置报表，开始分析 Twitter 数据并通过更多数据源来丰富数据。&lt;/p&gt;
+&lt;p class="text-semibold"&gt;适用于 Twitter 的市场活动/品牌管理：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;使用预置的社交分析报表数据模型快速入门&lt;/li&gt;
+&lt;li&gt;使用基于直观向导的 UI 定义 Twitter 搜索查询并加速工作流&lt;/li&gt;
+&lt;li&gt;使用设计精致的可视化效果，如 Microsoft Research 创制的网络图&lt;/li&gt;
+&lt;li&gt;使用全新 Tweet 界面上的流程获取近乎实时的分析&lt;/li&gt;
+&lt;/ul&gt;</value>
+  </data>
+  <data name="Twitter_DetailTagline" xml:space="preserve">
+    <value>使用我们可缩放和可扩展的解决方案模板分析所有未结构化的 Twitter 数据。跟踪事件、活动等重大时刻的观点、主题趋势和延展，或者持续监控用户对产品和服务的反应。将当前观点和使用量与历史数据比较，了解趋势随时间的变化。</value>
+  </data>
+  <data name="Twitter_DetailTitle" xml:space="preserve">
+    <value>适用于 Twitter 数据的社交分析</value>
+  </data>
+  <data name="Twitter_IndexTagline" xml:space="preserve">
+    <value>使用我们可缩放和可扩展的解决方案模板分析所有未结构化的 Twitter 数据。跟踪事件、活动等重大时刻的观点、主题趋势和延展，或者持续监控用户对产品和服务的反应。将当前观点和使用量与历史数据比较，了解趋势随时间的变化。</value>
+  </data>
+  <data name="Twitter_Title" xml:space="preserve">
+    <value>适用于 Twitter 的市场活动/品牌管理</value>
+  </data>
+  <data name="SAP_Content" xml:space="preserve">
+    <value>&lt;p&gt;使用由 Simplement 提供支持的 SAP 应收账款模板，可简便快捷地分析多个重要 AR 报告领域的信息。可使用现成的工具和功能立即开始分析所有 SAP AR 信息。&lt;/p&gt;
+&lt;p class="text-semibold"&gt;使用针对常规 AR 报告需求的预构报表立即开始：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;当前 AR 总余额的最新摘要视图可立即突显出有问题的公司和客户等。&lt;/li&gt;
+&lt;li&gt;按时间分析历史 AR 趋势，并在摘要级别及时指出在问题领域发现的余额。&lt;/li&gt;
+&lt;li&gt;确定超过 90 项余额超过特定阈值的最坏应收账。&lt;/li&gt;
+&lt;li&gt;应收账账龄时段占总账的百分比，用于确定在特定领域（如超过 90 项，1-30 项）负债过多的客户过公司。&lt;/li&gt;
+&lt;/ul&gt;</value>
+  </data>
+  <data name="SAP_DetailTagline" xml:space="preserve">
+    <value>使用这些由 Simplement 设计的简单而直观的 Power BI 仪表板，开始使用 SAP 应收账款报告。快速而高效地概括分析组织的整个 SAP AR 环境，找到确定关键问题领域所需的信息。</value>
+  </data>
+  <data name="SAP_DetailTitle" xml:space="preserve">
+    <value>适用于 SAP 的应收账款报告</value>
+  </data>
+  <data name="SAP_IndexTagline" xml:space="preserve">
+    <value>在 Power BI 中快速而高效地概括分析组织的全部 SAP 应收账款。按客户、公司、文档编号和账龄直观呈现应收账款，改善数据可见性和分析结果，并加速制定决策。查看历史数据，对比应收账款在过去与现在的情况。
+这是公共预览版，因此我们将积极请求反馈。试用并告知我们你的想法 - 有效的功能和需要改进之处，以及如何改进。</value>
+  </data>
+  <data name="SAP_Title" xml:space="preserve">
+    <value>SAP 的应收账款</value>
+  </data>
+  <data name="Dynamics365_PSA_Content" xml:space="preserve">
+    <value>&lt;p&gt;Microsoft Dynamics 365 for Project Service Automation 解决方案模板包含用于实践管理、资源管理和帐户管理的安全、可缩放和可扩展仪表板所需的全部内容。使用 Dynamics 365 数据导出服务可在数小时内生成一个端对端解决方案、一个 SQL Azure 数据存储和经过精心设计的 Power BI 报表（包括一个派生自你自己的 Dynamics 365 实例的安全模型）。&lt;/p&gt;&lt;p class="text-semibold"&gt;用于 Dynamics 365 for Project Service Automation 解决方案模板的实践管理&lt;/p&gt;&lt;ul&gt;&lt;li&gt;用于 Dynamics 365 for Project Service Automation 的预置数据模型快速入门。&lt;/li&gt;&lt;li&gt;为实践经理、资源经理和客户经理生成基于预置报表的仪表板。&lt;/li&gt;&lt;li&gt;实践管理报表涵盖了毛利、销售额、收入、成本、工时和利用率以及实践绩效。&lt;/li&gt;&lt;li&gt;资源管理报表涵盖了资源和角色利用率、预测和资源需求。&lt;/li&gt;&lt;li&gt;帐户管理报表涵盖了销售额、销售漏斗、账单、合同履行和客户绩效。&lt;/li&gt;&lt;li&gt;扩展数据模型并修改报表以满足组织的特定需求。&lt;/li&gt;&lt;li&gt;使用基于直观向导的 UI 来设置和自定义数据集成。&lt;/li&gt;&lt;li&gt;通过使用数据导出服务处理来自 Dynamics 365 的大量数据，以获得企业级性能。&lt;/li&gt;&lt;li&gt;使用 Dynamics 365 数据导出服务优化数据与增量数据提取相集成的功能。&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;所有内容均在 GitHub 上免费提供并完整记录，因此你可将时间用在自定义最终结果上，而不是从头开始进行设计和编码。&lt;/p&gt;</value>
+  </data>
+  <data name="Dynamics365_PSA_DetailTagline" xml:space="preserve">
+    <value>在数小时内，针对 Dynamics 365 for Project Service Automation 实例为实践、资源和帐户管理设置企业适用的 Power BI 解决方案。 从预置内容和模型开始，然后对其进行扩展以适应组织需求。</value>
+  </data>
+  <data name="Dynamics365_PSA_DetailTitle" xml:space="preserve">
+    <value>企业适用的专业服务管理分析</value>
+  </data>
+  <data name="Dynamics365_PSA_IndexTagline" xml:space="preserve">
+    <value>Microsoft Dynamics 365 for Project Service Automation 解决方案模板着重于对专业服务组织的实践经理、资源经理和客户经理来说至关重要的信息。 它包括收入、成本和毛利等财务 KPI 的分析内容。 还包括其他相对 KPI，例如利用率、销售指标、账单和资源需求。</value>
+  </data>
+  <data name="Dynamics365_PSA_Title" xml:space="preserve">
+    <value>Microsoft Dynamics 365 for Project Service Automation</value>
+  </data>
+  <data name="Bing_News_Content" xml:space="preserve">
+    <value>&lt;p class="text-semibold"&gt;必应资讯高级搜索：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;预置的数据模型快速入门，体验高级搜索&lt;/li&gt;
+&lt;li&gt;使用基于直观向导的 UI 定义搜索查询并加速工作流&lt;/li&gt;
+&lt;li&gt;利用复杂的机器学习算法，包括无监督和监督模型&lt;/li&gt;
+&lt;li&gt;从 Power BI 报表无缝导航到浏览器中的所选文章&lt;/li&gt;
+&lt;/ul&gt;</value>
+  </data>
+  <data name="Bing_News_DetailTagline" xml:space="preserve">
+    <value>必应资讯模板提供这样一种独特功能：使用复杂的机器学习技巧将你的兴趣与来自数百个不同资讯提供者的相关文章相匹配。只需几分钟即可生成一个端对端管道，其中汇集各种各样的 Azure 服务，包括 Azure SQL、Azure ML、认知服务、逻辑应用、Azure Functions 等！ 然后，可以浏览预置报表，帮助你完成分析并为你找到合适的文章！</value>
+  </data>
+  <data name="Bing_News_DetailTitle" xml:space="preserve">
+    <value>立即找到与你相关的文章</value>
+  </data>
+  <data name="Bing_News_IndexTagline" xml:space="preserve">
+    <value>通过情绪、主题或实体等关键条件筛选资讯文章并对其排序，以便找到最重要且与查询最吻合的资讯文章。滚动片段并无缝导航到所选文章，了解资讯中如何看待搜索词（例如品牌名、产品等）的完整故事。</value>
+  </data>
+  <data name="Bing_News_Title" xml:space="preserve">
+    <value>必应资讯高级搜索</value>
+  </data>
+  <data name="Meta_LocJobId" xml:space="preserve">
+    <value>202</value>
+  </data>
+</root>

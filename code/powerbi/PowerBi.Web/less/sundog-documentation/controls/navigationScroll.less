@@ -1,0 +1,97 @@
+﻿@import (reference) '../../mixins.d.less';
+@import (reference) '../../variables.d.less';
+
+/*
+Navigation Scroll
+
+Description.
+
+Markup: navigationScroll.html
+
+Style guide: navigationscroll
+*/
+
+[itemprop="articlebody"] {
+    .navigationScroll {
+        background-color: @color-slate09;
+        padding: @spacing-size1;
+        margin-bottom: @spacing-size2;
+        position: static !important;
+
+        span {
+            display: block;
+            font-weight: @font-bold;
+            margin-bottom: @spacing-size1;
+        }
+
+        ul {
+            margin: 0;
+            max-width: 100%;
+        }
+
+        li {
+            margin-top: @spacing-size1;
+
+            &:first-child {
+                margin-top: 0;
+            }
+        }
+    }
+}
+
+.column-navigationScroll {
+    .navigationScroll {
+        display: none;
+    }
+}
+
+@media only screen and (min-width: @resolution-large) {
+    [itemprop="articlebody"] {
+        .navigationScroll {
+            display: none;
+        }
+    }
+
+    .column-navigationScroll {
+        .navigationScroll {
+            .transition(opacity 0.5s ease-out);
+            display: block;
+            opacity: 1;
+            position: fixed;
+
+            &.hidden {
+                opacity: 0;
+            }
+
+            a {
+                color: @color-font-standard;
+
+                &:hover {
+                    color: @color-font-standard;
+                    font-weight: @font-semibold;
+                }
+            }
+
+            ul {
+                list-style: none;
+                margin: 0;
+                padding: 0;
+
+                li {
+                    border-left: 3px solid @color-palette01;
+                    line-height: 1.2;
+                    margin: @spacing-size1 0;
+                    padding-left: 6px; // spacing between selector and text
+
+                    &.active {
+                        border-left-color: @color-palette02;
+
+                        a {
+                            font-weight: @font-semibold;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

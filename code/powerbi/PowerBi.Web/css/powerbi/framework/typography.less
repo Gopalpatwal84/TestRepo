@@ -1,0 +1,61 @@
+@import (reference) '../../../less/mixins.d.less';
+@import (reference) '../../../less/variables.d.less';
+@import (reference) '../../../less/sundog/helpers/font.d.less';
+
+h1,
+.text-heading1 {
+    .font-heading1();
+    font-weight: @font-bold;
+}
+
+h2,
+.text-heading2 {
+    .font-heading2();
+    font-weight: @font-bold;
+}
+
+h3,
+.text-heading3 {
+    .font-heading3();
+    font-weight: @font-bold;
+}
+
+h4,
+.text-heading4 {
+    color: @color-slate03;
+    font-family: 'DIN', 'Segoe UI', 'Segoe WP', Tahoma, Arial, sans-serif;
+    font-size: @font-regular;
+    font-weight: @font-light;
+    letter-spacing: .05em;
+    text-transform: uppercase;
+}
+
+h5,
+.text-heading5 {
+    .font-heading5();
+    font-weight: @font-bold;
+    margin-bottom: 20px;
+}
+
+h6,
+.text-heading6 {
+    .font-heading6();
+    font-weight: @font-bold;
+}
+
+.text-super {
+    .font-super();
+    font-weight: @font-bold;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+ul {
+    padding-left: 47px; // direction from design
+}
+
+.no-text-transform{
+    text-transform:none;
+}

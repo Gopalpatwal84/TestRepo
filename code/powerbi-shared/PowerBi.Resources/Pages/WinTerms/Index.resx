@@ -1,0 +1,575 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Content" xml:space="preserve">
+    <value>&lt;p class=MsoNormal style='margin-bottom:7.5pt;line-height:normal'&gt;&lt;span
+style='font-size:10.5pt;font-family:"Helvetica",sans-serif;mso-fareast-font-family:
+"Times New Roman";color:#333333'&gt;These license terms are an agreement between
+Microsoft Corporation (or based on where you live, one of its affiliates) and
+you. Please read them. They apply to the software named above, which includes
+the media on which you received it, if any. The terms also apply to any
+Microsoft&lt;/span&gt;&lt;/p&gt;
+
+&lt;ul type=disc&gt;
+ &lt;li class=MsoNormal style='color:#333333;mso-margin-top-alt:auto;mso-margin-bottom-alt:
+     auto;line-height:normal;mso-list:l4 level1 lfo1;tab-stops:list .5in'&gt;&lt;span
+     style='font-size:10.5pt;font-family:"Helvetica",sans-serif;mso-fareast-font-family:
+     "Times New Roman"'&gt;updates,&lt;/span&gt;&lt;/li&gt;
+ &lt;li class=MsoNormal style='color:#333333;mso-margin-top-alt:auto;mso-margin-bottom-alt:
+     auto;line-height:normal;mso-list:l4 level1 lfo1;tab-stops:list .5in'&gt;&lt;span
+     style='font-size:10.5pt;font-family:"Helvetica",sans-serif;mso-fareast-font-family:
+     "Times New Roman"'&gt;supplements,&lt;/span&gt;&lt;/li&gt;
+ &lt;li class=MsoNormal style='color:#333333;mso-margin-top-alt:auto;mso-margin-bottom-alt:
+     auto;line-height:normal;mso-list:l4 level1 lfo1;tab-stops:list .5in'&gt;&lt;span
+     style='font-size:10.5pt;font-family:"Helvetica",sans-serif;mso-fareast-font-family:
+     "Times New Roman"'&gt;Internet-based services, and&lt;/span&gt;&lt;/li&gt;
+ &lt;li class=MsoNormal style='color:#333333;mso-margin-top-alt:auto;mso-margin-bottom-alt:
+     auto;line-height:normal;mso-list:l4 level1 lfo1;tab-stops:list .5in'&gt;&lt;span
+     style='font-size:10.5pt;font-family:"Helvetica",sans-serif;mso-fareast-font-family:
+     "Times New Roman"'&gt;support services&lt;/span&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p class=MsoNormal style='margin-bottom:7.5pt;line-height:normal'&gt;&lt;span
+style='font-size:10.5pt;font-family:"Helvetica",sans-serif;mso-fareast-font-family:
+"Times New Roman";color:#333333'&gt;for this software, unless other terms
+accompany those items. If so, those terms apply.&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=MsoNormal style='margin-bottom:7.5pt;line-height:normal'&gt;&lt;span
+style='font-size:10.5pt;font-family:"Helvetica",sans-serif;mso-fareast-font-family:
+"Times New Roman";color:#333333'&gt;By using the software, you accept these terms.
+If you do not accept them, do not use the software.&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=MsoNormal style='margin-bottom:7.5pt;line-height:normal'&gt;&lt;span
+style='font-size:10.5pt;font-family:"Helvetica",sans-serif;mso-fareast-font-family:
+"Times New Roman";color:#333333'&gt;As described below, using some features also
+operates as your consent to the transmission of certain standard computer
+information for Internet-based services.&lt;/span&gt;&lt;/p&gt;
+
+&lt;div class=MsoNormal align=center style='margin-top:15.0pt;margin-right:0in;
+margin-bottom:15.0pt;margin-left:0in;text-align:center;line-height:normal'&gt;&lt;span
+style='font-size:10.5pt;font-family:"Helvetica",sans-serif;mso-fareast-font-family:
+"Times New Roman";color:#333333'&gt;
+
+&lt;hr size=0 width="100%" align=center&gt;
+
+&lt;/span&gt;&lt;/div&gt;
+
+&lt;p class=MsoNormal style='margin-bottom:7.5pt;line-height:normal'&gt;&lt;span
+style='font-size:10.5pt;font-family:"Helvetica",sans-serif;mso-fareast-font-family:
+"Times New Roman";color:#333333'&gt;If you comply with these license terms, you
+have the perpetual rights below.&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=MsoNormal style='margin-bottom:7.5pt;line-height:normal'&gt;&lt;span
+style='font-size:10.5pt;font-family:"Helvetica",sans-serif;mso-fareast-font-family:
+"Times New Roman";color:#333333'&gt;1. INSTALLATION AND USE RIGHTS.&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=MsoNormal style='margin-bottom:7.5pt;line-height:normal'&gt;&lt;span
+style='font-size:13.0pt;font-family:"Helvetica",sans-serif;mso-fareast-font-family:
+"Times New Roman";color:#333333'&gt;a. Installation and Use. You may install and
+use any number of copies of the software on your Windows devices.&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=MsoNormal style='line-height:normal'&gt;&lt;span style='font-size:13.0pt;
+font-family:"Helvetica",sans-serif;mso-fareast-font-family:"Times New Roman";
+color:#333333'&gt;b. Third Party Notices. The software includes third party code,
+that Microsoft, not the third party, licenses to you under the terms set forth
+in this agreement. Notices, if any, for any third party code are included for
+your information only.&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=MsoNormal style='margin-bottom:7.5pt;line-height:normal'&gt;&lt;span
+style='font-size:10.5pt;font-family:"Helvetica",sans-serif;mso-fareast-font-family:
+"Times New Roman";color:#333333'&gt;2. ADDITIONAL LICENSING REQUIREMENTS AND/OR
+USE RIGHTS.&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=MsoNormal style='line-height:normal'&gt;&lt;span style='font-size:13.0pt;
+font-family:"Helvetica",sans-serif;mso-fareast-font-family:"Times New Roman";
+color:#333333'&gt;a. Media Elements and Templates. You may copy and use images,
+clip art, animations, sounds, music, shapes, video clips and templates provided
+with the software and identified for such use in documents and projects that
+you create. You may distribute those documents and projects non-commercially.
+If you wish to use these media elements or templates for any other purpose, go
+to &lt;a href="http://www.microsoft.com/permission"
+title="www.microsoft.com/permission"&gt;www.microsoft.com/permission&lt;/a&gt; to learn
+whether that use is allowed.&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=MsoNormal style='margin-bottom:7.5pt;line-height:normal'&gt;&lt;span
+style='font-size:10.5pt;font-family:"Helvetica",sans-serif;mso-fareast-font-family:
+"Times New Roman";color:#333333'&gt;3. INTERNET ACCESS MAY BE REQUIRED. You may
+incur charges related to Internet access, data transfer and other services per
+the terms of the data service plan and any other agreement you have with your
+network operator due to use of the software. You are solely responsible for any
+network operator charges.&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=MsoNormal style='margin-bottom:7.5pt;line-height:normal'&gt;&lt;span
+style='font-size:10.5pt;font-family:"Helvetica",sans-serif;mso-fareast-font-family:
+"Times New Roman";color:#333333'&gt;4. THIRD PARTY CONNECTORS/APPLICATIONS. The
+software lets you connect to various third party data sources. Your agreements
+with any of these third party data source providers is solely between you and
+the applicable third party data source providers and may be governed by other
+terms of use or agreements that apply to such third party sources. You agree
+that you are solely responsible for and have the authority to import data from
+these third party data sources. Microsoft does not monitor, control or assume
+any liability associated with any data that you import from third party data
+sources and is not responsible for its quality, accuracy, nature and/or
+ownership. You agree that you are solely responsible for any content that you
+create, transmit, distribute or display based on the data that you import,
+while using the software.&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=MsoNormal style='margin-bottom:7.5pt;line-height:normal'&gt;&lt;span
+style='font-size:10.5pt;font-family:"Helvetica",sans-serif;mso-fareast-font-family:
+"Times New Roman";color:#333333'&gt;5. INTERNET-BASED SERVICES. Microsoft provides
+Internet-based services with the software. It may change or cancel them at any
+time.&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=MsoNormal style='margin-bottom:7.5pt;line-height:normal'&gt;&lt;span
+style='font-size:13.0pt;font-family:"Helvetica",sans-serif;mso-fareast-font-family:
+"Times New Roman";color:#333333'&gt;a. Consent for Internet-Based or Wireless
+Services. The software may connect to Internet-based wireless services. Your
+use of the software operates as your consent to the transmission of standard
+device information (including but not limited to technical information about
+your device, system and application software, and peripherals) for
+Internet-based or wireless services. If other terms are provided in connection
+with your use of the services, those terms also apply.&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=MsoNormal style='line-height:normal'&gt;&lt;span style='font-size:13.0pt;
+font-family:"Helvetica",sans-serif;mso-fareast-font-family:"Times New Roman";
+color:#333333'&gt;b. Misuse of Internet-based Services. You may not use any
+Internet-based service in any way that could harm it or impair anyone else's
+use of it or the wireless network. You may not use the service to try to gain
+unauthorized access to any service, data, account or network by any means.&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=MsoNormal style='margin-bottom:7.5pt;line-height:normal'&gt;&lt;span
+style='font-size:10.5pt;font-family:"Helvetica",sans-serif;mso-fareast-font-family:
+"Times New Roman";color:#333333'&gt;6. SCOPE OF LICENSE. The software is license,
+not sold. Unless applicable law gives you more rights, Microsoft reserves all
+other rights not expressly granted under this agreement, whether by
+implication, estoppel or otherwise. You must comply with any technical
+limitations in the software that only allow you to use it in certain way. You
+may not &lt;/span&gt;&lt;/p&gt;
+
+&lt;ul type=disc&gt;
+ &lt;li class=MsoNormal style='color:#333333;mso-margin-top-alt:auto;mso-margin-bottom-alt:
+     auto;line-height:normal;mso-list:l0 level1 lfo2;tab-stops:list .5in'&gt;&lt;span
+     style='font-size:10.5pt;font-family:"Helvetica",sans-serif;mso-fareast-font-family:
+     "Times New Roman"'&gt;work around any technical limitations in the software;&lt;/span&gt;&lt;/li&gt;
+ &lt;li class=MsoNormal style='color:#333333;mso-margin-top-alt:auto;mso-margin-bottom-alt:
+     auto;line-height:normal;mso-list:l0 level1 lfo2;tab-stops:list .5in'&gt;&lt;span
+     style='font-size:10.5pt;font-family:"Helvetica",sans-serif;mso-fareast-font-family:
+     "Times New Roman"'&gt;reverse engineer, decompile or disassemble the
+     software, except and only to the extent that applicable law expressly
+     permits, despite this limitation;&lt;/span&gt;&lt;/li&gt;
+ &lt;li class=MsoNormal style='color:#333333;mso-margin-top-alt:auto;mso-margin-bottom-alt:
+     auto;line-height:normal;mso-list:l0 level1 lfo2;tab-stops:list .5in'&gt;&lt;span
+     style='font-size:10.5pt;font-family:"Helvetica",sans-serif;mso-fareast-font-family:
+     "Times New Roman"'&gt;make more copies of the software than specified in this
+     agreement or allowed by applicable law, despite this limitation;&lt;/span&gt;&lt;/li&gt;
+ &lt;li class=MsoNormal style='color:#333333;mso-margin-top-alt:auto;mso-margin-bottom-alt:
+     auto;line-height:normal;mso-list:l0 level1 lfo2;tab-stops:list .5in'&gt;&lt;span
+     style='font-size:10.5pt;font-family:"Helvetica",sans-serif;mso-fareast-font-family:
+     "Times New Roman"'&gt;publish the software for others to copy;&lt;/span&gt;&lt;/li&gt;
+ &lt;li class=MsoNormal style='color:#333333;mso-margin-top-alt:auto;mso-margin-bottom-alt:
+     auto;line-height:normal;mso-list:l0 level1 lfo2;tab-stops:list .5in'&gt;&lt;span
+     style='font-size:10.5pt;font-family:"Helvetica",sans-serif;mso-fareast-font-family:
+     "Times New Roman"'&gt;rent, lease or lend the software;&lt;/span&gt;&lt;/li&gt;
+ &lt;li class=MsoNormal style='color:#333333;mso-margin-top-alt:auto;mso-margin-bottom-alt:
+     auto;line-height:normal;mso-list:l0 level1 lfo2;tab-stops:list .5in'&gt;&lt;span
+     style='font-size:10.5pt;font-family:"Helvetica",sans-serif;mso-fareast-font-family:
+     "Times New Roman"'&gt;transfer the software or this agreement to any third
+     party; or&lt;/span&gt;&lt;/li&gt;
+ &lt;li class=MsoNormal style='color:#333333;mso-margin-top-alt:auto;mso-margin-bottom-alt:
+     auto;line-height:normal;mso-list:l0 level1 lfo2;tab-stops:list .5in'&gt;&lt;span
+     style='font-size:10.5pt;font-family:"Helvetica",sans-serif;mso-fareast-font-family:
+     "Times New Roman"'&gt;use the software for commercial software hosting
+     services.&lt;/span&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p class=MsoNormal style='margin-bottom:7.5pt;line-height:normal'&gt;&lt;span
+style='font-size:10.5pt;font-family:"Helvetica",sans-serif;mso-fareast-font-family:
+"Times New Roman";color:#333333'&gt;7. DOCUMENTATION. Any person that has valid
+access to your computer or internal network may copy and use the documentation
+for your internal, reference purposes.&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=MsoNormal style='margin-bottom:7.5pt;line-height:normal'&gt;&lt;span
+style='font-size:10.5pt;font-family:"Helvetica",sans-serif;mso-fareast-font-family:
+"Times New Roman";color:#333333'&gt;8. EXPORT RESTRICTIONS. The software is
+subject to United States export laws and regulations. You must comply with all
+domestic and international export laws and regulations that apply to the
+software. These laws include restrictions on destinations, end users and end
+use. For additional information, see &lt;a
+href="http://www.microsoft.com/en-us/exporting" title="www.microsoft.com/exporting"&gt;www.microsoft.com/exporting&lt;/a&gt;.&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=MsoNormal style='margin-bottom:7.5pt;line-height:normal'&gt;&lt;span
+style='font-size:10.5pt;font-family:"Helvetica",sans-serif;mso-fareast-font-family:
+"Times New Roman";color:#333333'&gt;9. SUPPORT SERVICES. Because this software is
+&amp;quot;as is&amp;quot;, we may not provide support services for it.&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=MsoNormal style='margin-bottom:7.5pt;line-height:normal'&gt;&lt;span
+style='font-size:10.5pt;font-family:"Helvetica",sans-serif;mso-fareast-font-family:
+"Times New Roman";color:#333333'&gt;10. ENTIRE AGREEMENT. This agreement, and the
+terms for supplements, updates, Internet-based services and support services
+that you use, are the entire agreement for the software and support services.&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=MsoNormal style='margin-bottom:7.5pt;line-height:normal'&gt;&lt;span
+style='font-size:10.5pt;font-family:"Helvetica",sans-serif;mso-fareast-font-family:
+"Times New Roman";color:#333333'&gt;11. APPLICABLE LAW.&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=MsoNormal style='margin-bottom:7.5pt;line-height:normal'&gt;&lt;span
+style='font-size:13.0pt;font-family:"Helvetica",sans-serif;mso-fareast-font-family:
+"Times New Roman";color:#333333'&gt;a. United States. If you acquired the software
+in the United States, Washington state law governs the interpretation of this
+agreement and applies to claims for breach of it, regardless of conflict of
+laws principles. The laws of the state where you live govern all other claims,
+including claims under state consumer protection laws, unfair competition laws,
+and in tort.&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=MsoNormal style='line-height:normal'&gt;&lt;span style='font-size:13.0pt;
+font-family:"Helvetica",sans-serif;mso-fareast-font-family:"Times New Roman";
+color:#333333'&gt;b. Outside the United States. If you acquired the software in
+any other country, the laws of that country apply.&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=MsoNormal style='margin-bottom:7.5pt;line-height:normal'&gt;&lt;span
+style='font-size:10.5pt;font-family:"Helvetica",sans-serif;mso-fareast-font-family:
+"Times New Roman";color:#333333'&gt;12. LEGAL EFFECT. This agreement describes
+certain legal rights. You may have other rights under the laws of your country.
+You may also have rights with respect to the party from whom you acquired the
+software. This agreement does not change your rights under the laws of your country
+if the laws of your country do not permit it to do so.&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=MsoNormal style='margin-bottom:7.5pt;line-height:normal'&gt;&lt;span
+style='font-size:10.5pt;font-family:"Helvetica",sans-serif;mso-fareast-font-family:
+"Times New Roman";color:#333333'&gt;13. DISCLAIMER OF WARRANTY. The software is
+licensed &amp;quot;as-is&amp;quot;. You bear the risk of using it. Microsoft gives no
+express warranties, guarantees or conditions. You may have additional consumer
+rights or statutory guarantees under your local laws which this agreement
+cannot change. To the extent permitted under your local laws, Microsoft
+excludes the implied warranties of merchantability, fitness for a particular
+purpose and non-infringement.&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=MsoNormal style='margin-bottom:7.5pt;line-height:normal'&gt;&lt;b&gt;&lt;span
+style='font-size:10.5pt;font-family:"Helvetica",sans-serif;mso-fareast-font-family:
+"Times New Roman";color:#333333'&gt;FOR AUSTRALIA – You have statutory guarantees
+under the Australian Consumer Law and nothing in these terms is intended to
+affect those rights.&lt;/span&gt;&lt;/b&gt;&lt;span style='font-size:10.5pt;font-family:"Helvetica",sans-serif;
+mso-fareast-font-family:"Times New Roman";color:#333333'&gt;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=MsoNormal style='margin-bottom:7.5pt;line-height:normal'&gt;&lt;span
+style='font-size:10.5pt;font-family:"Helvetica",sans-serif;mso-fareast-font-family:
+"Times New Roman";color:#333333'&gt;14. LIMITATION ON AND EXCLUSION OF REMEDIES
+AND DAMAGES. You can recover from Microsoft and its suppliers only direct damages
+up to U.S. $5.00. You cannot recover any other damages, including
+consequential, lost profits, special, indirect or incidental damages.&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=MsoNormal style='margin-bottom:7.5pt;line-height:normal'&gt;&lt;b&gt;&lt;span
+style='font-size:10.5pt;font-family:"Helvetica",sans-serif;mso-fareast-font-family:
+"Times New Roman";color:#333333'&gt;This limitation applies to&lt;/span&gt;&lt;/b&gt;&lt;span
+style='font-size:10.5pt;font-family:"Helvetica",sans-serif;mso-fareast-font-family:
+"Times New Roman";color:#333333'&gt;&lt;/span&gt;&lt;/p&gt;
+
+&lt;ul type=disc&gt;
+ &lt;li class=MsoNormal style='color:#333333;mso-margin-top-alt:auto;mso-margin-bottom-alt:
+     auto;line-height:normal;mso-list:l3 level1 lfo3;tab-stops:list .5in'&gt;&lt;b&gt;&lt;span
+     style='font-size:10.5pt;font-family:"Helvetica",sans-serif;mso-fareast-font-family:
+     "Times New Roman"'&gt;anything related to the software, services, content
+     (including code) on third party Internet sites, or third party programs;
+     and&lt;/span&gt;&lt;/b&gt;&lt;span style='font-size:10.5pt;font-family:"Helvetica",sans-serif;
+     mso-fareast-font-family:"Times New Roman"'&gt;&lt;/span&gt;&lt;/li&gt;
+ &lt;li class=MsoNormal style='color:#333333;mso-margin-top-alt:auto;mso-margin-bottom-alt:
+     auto;line-height:normal;mso-list:l3 level1 lfo3;tab-stops:list .5in'&gt;&lt;b&gt;&lt;span
+     style='font-size:10.5pt;font-family:"Helvetica",sans-serif;mso-fareast-font-family:
+     "Times New Roman"'&gt;claims for breach of contract, breach of warranty,
+     guarantee or condition, strict liability, negligence, or other tort to the
+     extent permitted by applicable law.&lt;/span&gt;&lt;/b&gt;&lt;span style='font-size:10.5pt;
+     font-family:"Helvetica",sans-serif;mso-fareast-font-family:"Times New Roman"'&gt;&lt;/span&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p class=MsoNormal style='margin-bottom:7.5pt;line-height:normal'&gt;&lt;b&gt;&lt;span
+style='font-size:10.5pt;font-family:"Helvetica",sans-serif;mso-fareast-font-family:
+"Times New Roman";color:#333333'&gt;It also applies even if Microsoft knew or
+should have known about the possibility of the damages. The above limitation or
+exclusion may not apply to you because your country may not allow the exclusion
+or limitation of incidental, consequential or other damages.&lt;/span&gt;&lt;/b&gt;&lt;span
+style='font-size:10.5pt;font-family:"Helvetica",sans-serif;mso-fareast-font-family:
+"Times New Roman";color:#333333'&gt;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=MsoNormal style='margin-bottom:7.5pt;line-height:normal'&gt;&lt;b&gt;&lt;span
+style='font-size:10.5pt;font-family:"Helvetica",sans-serif;mso-fareast-font-family:
+"Times New Roman";color:#333333'&gt;Please note: As this software is distributed
+in Quebec, Canada, some of these license terms are provided below in French.&lt;/span&gt;&lt;/b&gt;&lt;span
+style='font-size:10.5pt;font-family:"Helvetica",sans-serif;mso-fareast-font-family:
+"Times New Roman";color:#333333'&gt;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=MsoNormal style='margin-bottom:7.5pt;line-height:normal'&gt;&lt;span
+class=GramE&gt;&lt;b&gt;&lt;span style='font-size:10.5pt;font-family:"Helvetica",sans-serif;
+mso-fareast-font-family:"Times New Roman";color:#333333'&gt;Remarque :&lt;/span&gt;&lt;/b&gt;&lt;/span&gt;&lt;b&gt;&lt;span
+style='font-size:10.5pt;font-family:"Helvetica",sans-serif;mso-fareast-font-family:
+"Times New Roman";color:#333333'&gt; Ce &lt;span class=SpellE&gt;logiciel&lt;/span&gt; &lt;span
+class=SpellE&gt;étant&lt;/span&gt; &lt;span class=SpellE&gt;distribué&lt;/span&gt; au Québec,
+Canada, les &lt;span class=SpellE&gt;termes&lt;/span&gt; de &lt;span class=SpellE&gt;cette&lt;/span&gt;
+&lt;span class=SpellE&gt;licence&lt;/span&gt; &lt;span class=SpellE&gt;sont&lt;/span&gt; &lt;span
+class=SpellE&gt;fournis&lt;/span&gt; ci- EXCLUSIONS DE GARANTIE. Le &lt;span class=SpellE&gt;logiciel&lt;/span&gt;
+&lt;span class=SpellE&gt;est&lt;/span&gt; &lt;span class=SpellE&gt;concédé&lt;/span&gt; sous &lt;span
+class=SpellE&gt;licence&lt;/span&gt; « &lt;span class=SpellE&gt;en&lt;/span&gt; &lt;span class=SpellE&gt;l'état&lt;/span&gt;
+». &lt;span class=SpellE&gt;Vous&lt;/span&gt; &lt;span class=SpellE&gt;assumez&lt;/span&gt; &lt;span
+class=SpellE&gt;tous&lt;/span&gt; les &lt;span class=SpellE&gt;risques&lt;/span&gt; &lt;span
+class=SpellE&gt;liés&lt;/span&gt; à son &lt;span class=SpellE&gt;utilisation&lt;/span&gt;. Microsoft
+&lt;span class=SpellE&gt;n'accorde&lt;/span&gt; &lt;span class=SpellE&gt;aucune&lt;/span&gt; &lt;span
+class=SpellE&gt;garantie&lt;/span&gt; &lt;span class=SpellE&gt;ou&lt;/span&gt; condition &lt;span
+class=SpellE&gt;expresse&lt;/span&gt;. &lt;span class=SpellE&gt;Vous&lt;/span&gt; &lt;span
+class=SpellE&gt;pouvez&lt;/span&gt; &lt;span class=SpellE&gt;bénéficier&lt;/span&gt; de droits des &lt;span
+class=SpellE&gt;consommateurs&lt;/span&gt; &lt;span class=SpellE&gt;supplémentaires&lt;/span&gt; &lt;span
+class=SpellE&gt;ou&lt;/span&gt; de &lt;span class=SpellE&gt;garanties&lt;/span&gt; &lt;span
+class=SpellE&gt;statutaires&lt;/span&gt; &lt;span class=SpellE&gt;dans&lt;/span&gt; le cadre du
+droit local, que &lt;span class=SpellE&gt;ce&lt;/span&gt; &lt;span class=SpellE&gt;contrat&lt;/span&gt;
+ne &lt;span class=SpellE&gt;peut&lt;/span&gt; modifier. &lt;span class=SpellE&gt;Lorsque&lt;/span&gt; &lt;span
+class=SpellE&gt;cela&lt;/span&gt; &lt;span class=SpellE&gt;est&lt;/span&gt; &lt;span class=SpellE&gt;autorisé&lt;/span&gt;
+par le droit local, Microsoft &lt;span class=SpellE&gt;exclut&lt;/span&gt; les &lt;span
+class=SpellE&gt;garanties&lt;/span&gt; &lt;span class=SpellE&gt;implicites&lt;/span&gt; de &lt;span
+class=SpellE&gt;qualité&lt;/span&gt;, &lt;span class=SpellE&gt;d'adéquation&lt;/span&gt; à un usage &lt;span
+class=SpellE&gt;particulier&lt;/span&gt; et &lt;span class=SpellE&gt;d'absence&lt;/span&gt; de &lt;span
+class=SpellE&gt;contrefaçon&lt;/span&gt;.&lt;/span&gt;&lt;/b&gt;&lt;span style='font-size:10.5pt;
+font-family:"Helvetica",sans-serif;mso-fareast-font-family:"Times New Roman";
+color:#333333'&gt;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=MsoNormal style='margin-bottom:7.5pt;line-height:normal'&gt;&lt;b&gt;&lt;span
+style='font-size:10.5pt;font-family:"Helvetica",sans-serif;mso-fareast-font-family:
+"Times New Roman";color:#333333'&gt;POUR L'AUSTRALIE – La &lt;span class=SpellE&gt;loi&lt;/span&gt;
+&lt;span class=SpellE&gt;australienne&lt;/span&gt; sur la &lt;span class=SpellE&gt;consommation&lt;/span&gt;
+(Australian Consumer Law) &lt;span class=SpellE&gt;vous&lt;/span&gt; &lt;span class=SpellE&gt;accorde&lt;/span&gt;
+des &lt;span class=SpellE&gt;garanties&lt;/span&gt; &lt;span class=SpellE&gt;statutaires&lt;/span&gt; &lt;span
+class=SpellE&gt;qu'aucun&lt;/span&gt; &lt;span class=SpellE&gt;élément&lt;/span&gt; du &lt;span
+class=SpellE&gt;présent&lt;/span&gt; accord ne &lt;span class=SpellE&gt;peut&lt;/span&gt; affecter.&lt;/span&gt;&lt;/b&gt;&lt;span
+style='font-size:10.5pt;font-family:"Helvetica",sans-serif;mso-fareast-font-family:
+"Times New Roman";color:#333333'&gt;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=MsoNormal style='margin-bottom:7.5pt;line-height:normal'&gt;&lt;b&gt;&lt;span
+style='font-size:10.5pt;font-family:"Helvetica",sans-serif;mso-fareast-font-family:
+"Times New Roman";color:#333333'&gt;LIMITATION ET EXCLUSION DE RECOURS ET DE
+DOMMAGES. &lt;span class=SpellE&gt;Vous&lt;/span&gt; &lt;span class=SpellE&gt;pouvez&lt;/span&gt; &lt;span
+class=SpellE&gt;obtenir&lt;/span&gt; de Microsoft et de &lt;span class=SpellE&gt;ses&lt;/span&gt; &lt;span
+class=SpellE&gt;fournisseurs&lt;/span&gt; &lt;span class=SpellE&gt;une&lt;/span&gt; &lt;span
+class=SpellE&gt;indemnisation&lt;/span&gt; &lt;span class=SpellE&gt;en&lt;/span&gt; &lt;span
+class=SpellE&gt;cas&lt;/span&gt; de &lt;span class=SpellE&gt;dommages&lt;/span&gt; directs &lt;span
+class=SpellE&gt;limitée&lt;/span&gt; &lt;span class=SpellE&gt;uniquement&lt;/span&gt; à hauteur de
+5,00 $ US. &lt;span class=SpellE&gt;Vous&lt;/span&gt; ne &lt;span class=SpellE&gt;pouvez&lt;/span&gt; &lt;span
+class=SpellE&gt;prétendre&lt;/span&gt; à &lt;span class=SpellE&gt;aucune&lt;/span&gt; &lt;span
+class=SpellE&gt;indemnisation&lt;/span&gt; pour les &lt;span class=SpellE&gt;autres&lt;/span&gt; &lt;span
+class=SpellE&gt;dommages&lt;/span&gt;, y &lt;span class=SpellE&gt;compris&lt;/span&gt; les &lt;span
+class=SpellE&gt;dommages&lt;/span&gt; &lt;span class=SpellE&gt;spéciaux&lt;/span&gt;, &lt;span
+class=SpellE&gt;indirects&lt;/span&gt; &lt;span class=SpellE&gt;ou&lt;/span&gt; &lt;span class=SpellE&gt;accessoires&lt;/span&gt;
+et &lt;span class=SpellE&gt;pertes&lt;/span&gt; de &lt;span class=SpellE&gt;bénéfices&lt;/span&gt;.&lt;/span&gt;&lt;/b&gt;&lt;span
+style='font-size:10.5pt;font-family:"Helvetica",sans-serif;mso-fareast-font-family:
+"Times New Roman";color:#333333'&gt;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=MsoNormal style='margin-bottom:7.5pt;line-height:normal'&gt;&lt;span
+class=SpellE&gt;&lt;b&gt;&lt;span style='font-size:10.5pt;font-family:"Helvetica",sans-serif;
+mso-fareast-font-family:"Times New Roman";color:#333333'&gt;Cette&lt;/span&gt;&lt;/b&gt;&lt;/span&gt;&lt;b&gt;&lt;span
+style='font-size:10.5pt;font-family:"Helvetica",sans-serif;mso-fareast-font-family:
+"Times New Roman";color:#333333'&gt; limitation &lt;span class=SpellE&gt;&lt;span
+class=GramE&gt;concerne&lt;/span&gt;&lt;/span&gt;&lt;span class=GramE&gt; :&lt;/span&gt;&lt;/span&gt;&lt;/b&gt;&lt;span
+style='font-size:10.5pt;font-family:"Helvetica",sans-serif;mso-fareast-font-family:
+"Times New Roman";color:#333333'&gt;&lt;/span&gt;&lt;/p&gt;
+
+&lt;ul type=disc&gt;
+ &lt;li class=MsoNormal style='color:#333333;mso-margin-top-alt:auto;mso-margin-bottom-alt:
+     auto;line-height:normal;mso-list:l5 level1 lfo4;tab-stops:list .5in'&gt;&lt;span
+     class=SpellE&gt;&lt;b&gt;&lt;span style='font-size:10.5pt;font-family:"Helvetica",sans-serif;
+     mso-fareast-font-family:"Times New Roman"'&gt;toute&lt;/span&gt;&lt;/b&gt;&lt;/span&gt;&lt;b&gt;&lt;span
+     style='font-size:10.5pt;font-family:"Helvetica",sans-serif;mso-fareast-font-family:
+     "Times New Roman"'&gt; affaire &lt;span class=SpellE&gt;liée&lt;/span&gt; au &lt;span
+     class=SpellE&gt;logiciel&lt;/span&gt;, aux services &lt;span class=SpellE&gt;ou&lt;/span&gt; au
+     &lt;span class=SpellE&gt;contenu&lt;/span&gt; (y &lt;span class=SpellE&gt;compris&lt;/span&gt; le
+     code) figurant sur des sites Internet tiers &lt;span class=SpellE&gt;ou&lt;/span&gt; &lt;span
+     class=SpellE&gt;dans&lt;/span&gt; des &lt;span class=SpellE&gt;programmes&lt;/span&gt; tiers et&lt;/span&gt;&lt;/b&gt;&lt;span
+     style='font-size:10.5pt;font-family:"Helvetica",sans-serif;mso-fareast-font-family:
+     "Times New Roman"'&gt;&lt;/span&gt;&lt;/li&gt;
+ &lt;li class=MsoNormal style='color:#333333;mso-margin-top-alt:auto;mso-margin-bottom-alt:
+     auto;line-height:normal;mso-list:l5 level1 lfo4;tab-stops:list .5in'&gt;&lt;b&gt;&lt;span
+     style='font-size:10.5pt;font-family:"Helvetica",sans-serif;mso-fareast-font-family:
+     "Times New Roman"'&gt;les &lt;span class=SpellE&gt;réclamations&lt;/span&gt; au &lt;span
+     class=SpellE&gt;titre&lt;/span&gt; de violation de &lt;span class=SpellE&gt;contrat&lt;/span&gt;
+     &lt;span class=SpellE&gt;ou&lt;/span&gt; de &lt;span class=SpellE&gt;garantie&lt;/span&gt;, &lt;span
+     class=SpellE&gt;ou&lt;/span&gt; au &lt;span class=SpellE&gt;titre&lt;/span&gt; de &lt;span
+     class=SpellE&gt;responsabilité&lt;/span&gt; &lt;span class=SpellE&gt;stricte&lt;/span&gt;, de &lt;span
+     class=SpellE&gt;négligence&lt;/span&gt; &lt;span class=SpellE&gt;ou&lt;/span&gt; &lt;span
+     class=SpellE&gt;d'une&lt;/span&gt; &lt;span class=SpellE&gt;autre&lt;/span&gt; &lt;span
+     class=SpellE&gt;faute&lt;/span&gt; &lt;span class=SpellE&gt;dans&lt;/span&gt; la &lt;span
+     class=SpellE&gt;limite&lt;/span&gt; &lt;span class=SpellE&gt;autorisée&lt;/span&gt; &lt;span
+     class=SpellE&gt;par&lt;/span&gt; la &lt;span class=SpellE&gt;loi&lt;/span&gt; &lt;span
+     class=SpellE&gt;en&lt;/span&gt; &lt;span class=SpellE&gt;vigueur&lt;/span&gt;.&lt;/span&gt;&lt;/b&gt;&lt;span
+     style='font-size:10.5pt;font-family:"Helvetica",sans-serif;mso-fareast-font-family:
+     "Times New Roman"'&gt;&lt;/span&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p class=MsoNormal style='margin-bottom:7.5pt;line-height:normal'&gt;&lt;b&gt;&lt;span
+style='font-size:10.5pt;font-family:"Helvetica",sans-serif;mso-fareast-font-family:
+"Times New Roman";color:#333333'&gt;Elle &lt;span class=SpellE&gt;s'applique&lt;/span&gt; &lt;span
+class=SpellE&gt;également&lt;/span&gt; &lt;span class=SpellE&gt;même&lt;/span&gt; &lt;span
+class=SpellE&gt;si&lt;/span&gt; Microsoft &lt;span class=SpellE&gt;connaissait&lt;/span&gt; &lt;span
+class=SpellE&gt;l'éventualité&lt;/span&gt; d'un &lt;span class=SpellE&gt;tel&lt;/span&gt; &lt;span
+class=SpellE&gt;dommage&lt;/span&gt;. La limitation &lt;span class=SpellE&gt;ou&lt;/span&gt;
+exclusion ci-&lt;span class=SpellE&gt;dessus&lt;/span&gt; &lt;span class=SpellE&gt;peut&lt;/span&gt; &lt;span
+class=SpellE&gt;également&lt;/span&gt; ne pas &lt;span class=SpellE&gt;vous&lt;/span&gt; &lt;span
+class=SpellE&gt;être&lt;/span&gt; applicable, car &lt;span class=SpellE&gt;votre&lt;/span&gt; pays &lt;span
+class=SpellE&gt;n'autorise&lt;/span&gt; pas &lt;span class=SpellE&gt;l'exclusion&lt;/span&gt; &lt;span
+class=SpellE&gt;ou&lt;/span&gt; la limitation de &lt;span class=SpellE&gt;responsabilité&lt;/span&gt;
+pour les &lt;span class=SpellE&gt;dommages&lt;/span&gt; &lt;span class=SpellE&gt;indirects&lt;/span&gt;,
+&lt;span class=SpellE&gt;accessoires&lt;/span&gt; &lt;span class=SpellE&gt;ou&lt;/span&gt; de &lt;span
+class=SpellE&gt;quelque&lt;/span&gt; nature que &lt;span class=SpellE&gt;ce&lt;/span&gt; &lt;span
+class=SpellE&gt;soit&lt;/span&gt;.&lt;/span&gt;&lt;/b&gt;&lt;span style='font-size:10.5pt;font-family:
+"Helvetica",sans-serif;mso-fareast-font-family:"Times New Roman";color:#333333'&gt;&lt;/span&gt;&lt;/p&gt;
+
+&lt;div class=MsoNormal align=center style='margin-top:15.0pt;margin-right:0in;
+margin-bottom:15.0pt;margin-left:0in;text-align:center;line-height:normal'&gt;&lt;span
+style='font-size:10.5pt;font-family:"Helvetica",sans-serif;mso-fareast-font-family:
+"Times New Roman";color:#333333'&gt;
+
+&lt;hr size=0 width="100%" align=center&gt;
+
+&lt;/span&gt;&lt;/div&gt;
+
+&lt;p class=MsoNormal style='margin-bottom:7.5pt;line-height:normal'&gt;&lt;span
+style='font-size:10.5pt;font-family:"Helvetica",sans-serif;mso-fareast-font-family:
+"Times New Roman";color:#333333'&gt;Copyright © Microsoft. All Rights Reserved.&lt;/span&gt;&lt;/p&gt;</value>
+  </data>
+  <data name="Heading" xml:space="preserve">
+    <value>&lt;h1&gt;Microsoft Software License Terms&lt;/h1&gt;
+            &lt;h1&gt;Microsoft Power BI for Windows&lt;/h1&gt;</value>
+  </data>
+  <data name="META_DESCRIPTION" xml:space="preserve">
+    <value />
+  </data>
+  <data name="META_KEYWORDS" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Meta_LocalizationType" xml:space="preserve">
+    <value>legal</value>
+    <comment>DO NOT LOCALIZE. This field represents metadata that is used by the ACOM localization automation.</comment>
+  </data>
+  <data name="META_PAGETITLE" xml:space="preserve">
+    <value>Windows License Terms of Service | Microsoft Power BI</value>
+  </data>
+  <data name="Meta_ExcludeFromLocalization" xml:space="preserve">
+    <value>true</value>
+    <comment>DO NOT LOCALIZE. This field represents metadata that is used by the ACOM localization automation.</comment>
+  </data>
+  <data name="Content3rdParty" xml:space="preserve">
+    <value>&lt;h3&gt;&lt;a href="{0}"&gt;Third Party Notices&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;This file is based on or incorporates material from the projects listed below (collectively, "Third Party Code"). Microsoft is not the original author of the Third Party Code. The original copyright notice and the license, under which Microsoft received such Third Party Code, are set forth below. Such licenses and notices are provided for informational purposes only. Microsoft, not the third party, licenses the Third Party Code to you under the terms set forth in the EULA for the Microsoft Product. Microsoft reserves all rights not expressly granted under this agreement, whether by implication, estoppel or otherwise.&lt;/strong&gt;&lt;/p&gt;</value>
+    <comment>{0} is URL</comment>
+  </data>
+</root>

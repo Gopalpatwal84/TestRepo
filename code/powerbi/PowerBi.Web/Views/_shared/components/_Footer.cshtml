@@ -1,0 +1,108 @@
+﻿@using Resources = PowerBI.Resources.Components.Footer;
+
+@{
+    var termOfUseUrl = TermOfUseHelper.GetLocalizedUrl(CultureHelperBase.GetCurrentCulture());
+}
+
+<footer class="section section-footer" data-tag-area="footer" data-tag-group="footer">
+    <div class="row">
+        <div class="column small-3">
+            <ul class="linkList">
+                <li class="list-heading">@Resources.BusinessApplicationPlatform</li>
+                <li><a href="https://businessplatform.microsoft.com/">@Resources.Overview</a></li>
+                <li><a href="https://powerbi.microsoft.com/">Power BI</a></li>
+                <li><a href="https://powerapps.microsoft.com/">PowerApps</a></li>
+                <li><a href="https://flow.microsoft.com/">Microsoft Flow</a></li>
+                <li><a href="https://stream.microsoft.com/">Microsoft Stream</a></li>
+            </ul>
+            @if (!MobileClientCookieHelper.KnownMobileClient.IsRestrictedMobileClient(Context.GetMobileClient()))
+            {
+                <div class="separator"></div>
+                <ul class="linkList">
+                    <li><a href="https://app.powerbi.com/?noSignUpCheck=1">@Resources.SignIn</a></li>
+                    <li><a href="@Html.LocalizeUrl("/get-started/")">@Resources.SignUp</a></li>
+                </ul>
+            }
+        </div>
+        <div class="column small-3">
+            <ul class="linkList">
+                <li class="list-heading">@Resources.Browse</li>
+                <li><a href="@Html.LocalizeUrl("/partner-showcase/", isFullyQualified: true)">@Resources.Solutions</a></li>
+                <li><a href="@Html.LocalizeUrl("/partners/", isFullyQualified: true)">@Resources.Partners</a></li>
+            </ul>
+        </div>
+        <div class="column small-3">
+            <ul class="linkList">
+                <li class="list-heading">@Resources.Downloads</li>
+                <li><a href="@Html.LocalizeUrl("/desktop/", isFullyQualified: true)">@Resources.PowerBIDesktop</a></li>
+                <li><a href="@Html.LocalizeUrl("/mobile/", isFullyQualified: true)">@Resources.Mobile</a></li>
+                <li><a href="@Html.LocalizeUrl("/gateway/", isFullyQualified: true)">@Resources.OnPremisesGateway</a></li>
+                <li><a href="@Html.LocalizeUrl("/downloads/", isFullyQualified: true)">@Resources.AllDownloads</a></li>
+            </ul>
+        </div>
+        <div class="column small-3">
+            <ul class="linkList">
+                <li class="list-heading">@Resources.Learn</li>
+                <li><a href="@Html.LocalizeUrl("/guided-learning/", isFullyQualified: true)">@Resources.GuidedLearning</a></li>
+                <li><a href="@Html.LocalizeUrl("/documentation/", isFullyQualified: true)">@Resources.Documentation</a></li>
+                <li><a href="@Html.LocalizeUrl("/support/", isFullyQualified: true)">@Resources.Support</a></li>
+                <li><a href="https://community.powerbi.com/">@Resources.Community</a></li>
+                <li><a href="https://ideas.powerbi.com/forums/265200-power-bi">@Resources.Feedback</a></li>
+                <li><a href="@Html.LocalizeUrl("/documentation/powerbi-webinars/", isFullyQualified: true)">@Resources.Webinars</a></li>
+                <li><a href="@Html.LocalizeUrl("/developers/", isFullyQualified: true)">@Resources.Developers</a></li>
+                <li><a href="@Html.LocalizeUrl("/blog/", isFullyQualified: true)">@Resources.Blog</a></li>
+                <li><a href="@Html.LocalizeUrl("/newsletter/", isFullyQualified: true)">@Resources.Newsletter</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="row row-divided row-size6 row-utility">
+        <div class="column medium-3">
+            <ul class="linkList linkList-horizontal">
+                <li><span class="icon icon-microsoft">@SvgHelper.GetSvg("microsoft")</span></li>
+                <li>&copy; @DateTime.Now.Year Microsoft</li>
+            </ul>
+        </div>
+        <div class="column medium-3">
+            <ul class="linkList linkList-social">
+                <li>
+                    <a href="https://twitter.com/MSPowerBI" target="_blank">
+                        <span class="icon">@SvgHelper.GetSvg("twitter")</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.facebook.com/microsoftbi?fref=ts" target="_blank">
+                        <span class="icon">@SvgHelper.GetSvg("facebook")</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.youtube.com/c/mspowerbi" target="_blank">
+                        <span class="icon">@SvgHelper.GetSvg("youtube-play")</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="@Html.LocalizeUrl("/newsletter/", isFullyQualified: true)" target="_blank">
+                        <span class="icon">@SvgHelper.GetSvg("newsletter")</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div class="column medium-6">
+            <ul class="linkList linkList-horizontal linkList-util">
+                <li><a href="http://go.microsoft.com/fwlink/?LinkId=248681">@Resources.PrivacyCookies</a></li>
+                <li><a href="@termOfUseUrl">@Resources.TermsOfUse</a></li>
+                <li><a href="http://go.microsoft.com/?linkid=9851308">@Resources.Trademarks</a></li>
+                @if (CultureHelperBase.GetCurrentNeutralCulture().ToLowerInvariant() == "de")
+                {
+                    <li><a href="http://www.microsoft.com/de-de/rechtliche-hinweise/impressum.aspx" target="_blank">Impressum</a></li>
+                }
+                @if (Model != null)
+                {
+                    <li>
+                        @Html.Partial("parts/_culturesdropdown")
+                    </li>
+                }
+            </ul>
+        </div>
+    </div>
+</footer>

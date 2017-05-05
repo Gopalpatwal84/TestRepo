@@ -1,0 +1,23 @@
+﻿<section class="section">
+    <div class="row">
+        <div class="column">
+            <h1>Tags</h1>
+            <code>
+                @(@"<a href=""#"" class=""tag"">Text</a>")
+            </code>
+        </div>
+    </div>
+</section>
+
+<section class="section">
+    <div class="row">
+        <div class="column">
+            <ul class="linkList linkList-horizontal">
+                @for (var i = 0; i < 10; i++)
+                {
+                    <li><a href="#" class="tag">@Math.Cos(i)</a></li>
+                }
+            </ul>
+        </div>
+    </div>
+</section>

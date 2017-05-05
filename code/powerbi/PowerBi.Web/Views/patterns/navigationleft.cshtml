@@ -1,0 +1,30 @@
+﻿@using PowerBI.Web.Models
+@model IEnumerable<PowerBI.Entities.Lefty>
+
+<section class="section">
+    <div class="row">
+        <div class="column">
+            <h1>Lefties</h1>
+            <code>
+                @(@"var lefty = await IRepository<Lefty>.GetAsync(""slug"");")<br>
+                @(@"@Html.Partial(""_leftnavigation"", new LeftNavigation {Lefty = lefty})")
+            </code>
+        </div>
+    </div>
+</section>
+
+<section class="section">
+    @foreach (var lefty in Model)
+    {
+        <div class="row">
+            <div class="column medium-5">
+                <h2>@lefty.Slug</h2>
+            </div>
+        </div>
+        <div class="row">
+            <div class="column medium-5">
+                @Html.Partial("~/Views/_shared/_leftnavigation.cshtml", new LeftNavigation {Lefty = lefty})
+            </div>
+        </div>
+    }
+</section>

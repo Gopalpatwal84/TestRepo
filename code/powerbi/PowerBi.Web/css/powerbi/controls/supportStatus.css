@@ -1,0 +1,34 @@
+﻿.status {
+  background-color: #EAEAEA;
+  border-bottom: 4px solid #f2c811;
+  font-size: 22px;
+  font-weight: 700;
+  padding: 20px 20px 20px 70px;
+  position: relative;
+}
+.status:before {
+  -ms-transform: translate(0, -50%);
+  -o-transform: translate(0, -50%);
+  -webkit-transform: translate(0, -50%);
+  transform: translate(0, -50%);
+  background-size: cover;
+  content: '';
+  display: block;
+  height: 30px;
+  left: 20px;
+  position: absolute;
+  top: 50%;
+  width: 30px;
+}
+.status[data-state=green] {
+  border-bottom-color: #3bb44a;
+}
+.status[data-state=green]:before {
+  background-image: url(/pictures/pages/support/circle-check.svg);
+}
+.status[data-state=red] {
+  border-bottom-color: #e81123;
+}
+.status[data-state=red]:before {
+  background-image: url(/pictures/pages/support/circle-x.svg);
+}

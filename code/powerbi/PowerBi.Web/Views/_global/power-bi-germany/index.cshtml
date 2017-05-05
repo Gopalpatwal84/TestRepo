@@ -1,0 +1,121 @@
+﻿@model PowerBI.Web.Models.Pages.ViewMetadataModel 
+@using Resources = PowerBI.Resources.Pages.PowerBiGermany.Index
+
+@{
+    Model.PageTitle = Resources.META_PAGETITLE;
+    Model.MetaDescription = Resources.META_DESCRIPTION;
+    Model.MetaKeywords = Resources.META_KEYWORDS;
+}
+
+<section class="section section-size3 section-palette02">
+    <div class="row">
+        <div class="column medium-6">
+            <h1>@Resources.Germany_MainHeading</h1>
+        </div>
+        <div class="column medium-6">
+            <p>@Resources.Germany_MainContent​</p>
+        </div>
+    </div>
+</section>
+
+<section class="section section-slate01 section-conference-room">
+    <div class="row">
+        <div class="column medium-6"> 
+            <h2 class="text-heading1">@Resources.WhatIsPowerBI_Heading</h2>
+        </div>
+        <div class="column medium-5 end">
+            <div class="row column">
+                <p>@Resources.WhatIsPowerBI_Content</p>
+            </div>
+            <div class="row column">
+                <ul class="linkList linkList-horizontal">
+                    <li><a href="https://portal.office.de/Signup/Signup.aspx?OfferId=59a8387c-9a2b-41a8-b421-91a2b3b7938d" class="button button-featured">@Resources.WhatIsPowerBI_Cta</a></li>
+                    <li><a href="https://app.powerbi.de/?noSignUpCheck=1" class="button button-featured">@Resources.WhatIsPowerBI_Cta_Signin</a></li>
+                    <li><a href="@Html.LocalizeUrl("/what-is-power-bi/")" class="cta-secondary">@Resources.WhatIsPowerBI_Cta2 <span class="glyphicon glyph-micro pbi-glyph-chevronrightmedium"></span></a></li>
+                </ul>
+            </div>
+            <div class="row column">
+                <p>@Resources.WhatIsPowerBI_Cta_Copy</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="section section-size3">
+    <div class="row">
+        <div class="column medium-4 sd-equalize">
+            <p class="text-heading3">@Resources.Independent_German_Heading</p>
+            <p>@Resources.Independent_German_Content</p>
+        </div>
+        <div class="column medium-4 sd-equalize">
+            <p class="text-heading3">@Resources.Built_For_Germany_Heading</p>
+            <p>@Resources.Built_For_Germany_Content</p>
+        </div>
+        <div class="column medium-4 sd-equalize">
+            <p class="text-heading3">@Resources.CompliantAndSecure_Heading</p>
+            <p>@Resources.CompliantAndSecure_Content</p>
+        </div>
+    </div>
+    <div class="row column text-center">
+        <a href="https://www.microsoft.com/de-de/cloud/deutschland/default.aspx" class="cta-secondary">@Resources.PowerBI_Cta <span class="glyphicon glyph-micro pbi-glyph-chevronrightmedium"></span></a>
+    </div>
+</section>
+
+<section class="section section-size3 section-palette02">
+    <div class="row">
+        <div class="column medium-6 medium-offset-3">
+            <div class="tile">
+                <div class="row column">
+                    <p>@Resources.PowerBIPro_SubHeading</p>
+                    <p class="text-bold text-heading3">@Resources.PowerBIPro_Heading</p>
+                </div>
+                <div class="row row-divided column">
+                    <span class="text-super">@Resources.PowerBIPro_CurrencyValue</span><span> @Resources.Rate_PerUserPerMonth</span>
+                </div>
+                <div class="row row-size2 column">
+                    <p><span class="glyphicon glyph-small pbi-glyph-checkmark success-icon"></span> @Resources.PowerBIPro_Rules1</p>
+                    <p><span class="glyphicon glyph-small pbi-glyph-checkmark success-icon"></span> @Resources.PowerBIPro_Rules2</p>
+                </div>
+                <div class="row row-size2 column">
+                    <ul>
+                        <li><h6 class="text-normal">@Resources.PowerBIPro_Content1 <a href="#" class="icon icon-flyout icon-slate09" aria-describedby="flyout-capacity"> @SvgHelper.GetSvg("info")</a></h6></li>
+                        <li><h6 class="text-normal">@Resources.PowerBIPro_Content2</h6></li>
+                        <li><h6 class="text-normal">@Resources.PowerBIPro_Content3 <a href="#" class="icon icon-flyout icon-slate09" aria-describedby="flyout-maxdatarate"> @SvgHelper.GetSvg("info")</a></h6></li>
+                        <li><h6 class="text-normal">@Resources.PowerBIPro_Content4</h6></li>
+                        <li><h6 class="text-normal">@Resources.PowerBIPro_Content5</h6></li>
+                        <li><h6 class="text-normal">@Resources.PowerBIPro_Content6</h6></li>
+                        <li><h6 class="text-normal">@Resources.PowerBIPro_Content7</h6></li>
+                    </ul>
+                </div>
+                <div class="row row-size2 text-center column">
+                    <a href="https://portal.office.de/Signup/Signup.aspx?OfferId=59a8387c-9a2b-41a8-b421-91a2b3b7938d" class="button button-featured button-block">@Resources.PowerBIPro_Cta</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="flyout-capacity" role="tooltip" aria-hidden="true" class="sd-flyout sd-flyout-left section">
+    <div class="row column">      
+        <h3>@Resources.CapacityLimit_Heading</h3>
+        <ul>
+            <li>@Html.Raw(Resources.Flyout_Capacity_1)</li>
+            <li>@Html.Raw(Resources.Flyout_Capacity_2)</li>
+            <li>@Html.Raw(Resources.Flyout_Capacity_3)</li>
+        </ul>
+    </div>
+</section>
+
+<section id="flyout-maxdatarate" role="tooltip" aria-hidden="true" class="sd-flyout sd-flyout-left section">
+    <div class="row column">
+        @Html.RawFormatInvariant(Resources.Flyout_MaxDataRate_1, Html.LocalizeUrl("msdn:dn950053"))
+    </div>
+</section>
+
+@section foot {
+    <script>
+        (function () {
+            $('.menu-secondary').hide();
+        })();
+    </script>
+}

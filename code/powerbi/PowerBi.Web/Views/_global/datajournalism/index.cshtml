@@ -1,0 +1,139 @@
+﻿@model PowerBI.Web.Models.Pages.ViewMetadataModel
+@using Resources = PowerBI.Resources.Pages.Datajournalism.Index
+@using Forms = PowerBI.Resources.Shared.Forms.Form
+
+@{
+    Model.PageTitle = Resources.META_PAGETITLE;
+    Model.MetaDescription = Resources.META_DESCRIPTION;
+    Model.MetaKeywords = Resources.META_KEYWORDS;
+}
+
+<section class="section section-palette02">
+    <div class="row">
+        <div class="column medium-9 medium-centered">
+            <h1 class="text-center">@Resources.Hero_Heading</h1>
+            <div class="row row-size2 column text-center">
+                <a href="https://youtu.be/S0FQTdZZ8Wc" class="video" data-pops-up="modal-video">
+                    <span class="icon">
+                        @SvgHelper.GetSvg("play-for-video")
+                    </span>
+                    <img src="@CdnHelper.GetCdnUrl("/pictures/pages/datajournalism/data-journalism-video.png")" alt="" />
+                </a>
+            </div>
+            <div class="row row-size2 column">
+                @Html.Raw(Resources.Hero_Content)
+            </div>
+            <div class="row row-size2 column text-center">
+                @if (this.Context.IsDataJournalismRegistrationComplete())
+                {
+                    <a class="button" href="@Html.LocalizeUrl("/datajournalism/courses/")">@Resources.Hero_Cta</a>
+                }
+                else
+                {
+                    <a class="button" href="#" data-pops-up="modal-datajournalism">@Resources.Hero_Cta</a>
+                }
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="section">
+    <div class="row">
+        <div class="column medium-6">
+            <img src="@CdnHelper.GetCdnUrl("/pictures/pages/datajournalism/king-5-screenshot.png")" alt="" />
+        </div>
+        <div class="column medium-6">
+            <img src="@CdnHelper.GetCdnUrl("/pictures/pages/datajournalism/king-5-logo.jpg")" alt="" />
+            <h3>@Resources.King5_Heading</h3>
+            <p>@Resources.King5_Content</p>
+            <a class="cta-secondary" href="https://customers.microsoft.com/Pages/CustomerStory.aspx?recid=29061">@Resources.ReadMore<span class="glyphicon glyph-micro pbi-glyph-chevronrightmedium"></span></a>
+        </div>
+    </div>
+</section>
+
+<section class="section">
+    <div class="row">
+        <div class="column medium-6">
+            <h3>@Resources.DataVisualization_Heading</h3>
+            <p>@Resources.DataVisualization_Content</p>
+            <a href="https://community.powerbi.com/t5/Data-Stories-Gallery/bd-p/DataStoriesGallery" class="cta-secondary">@Resources.SeeMore<span class="glyphicon glyph-micro pbi-glyph-chevronrightmedium"></span></a>
+        </div>
+        <div class="column medium-6">
+            <img class="border" src="@CdnHelper.GetCdnUrl("/pictures/pages/datajournalism/data-stories-gallery.png")" alt="" />
+        </div>
+    </div>
+</section>
+
+<section class="section section-slate06 section-size4">
+    <div class="row">
+        <div class="column medium-6">
+            <div class="row column">
+                <div class="icon icon-size3 icon-slate01">@SvgHelper.GetSvg("pie-chart")</div>
+            </div>
+            <div class="row row-size2 column">
+                <h3>@Resources.Distribute_Heading</h3>
+                <p>@Resources.Distribute_Content</p>
+                <a class="cta-secondary" href="@Html.LocalizeUrl("/publishtoweb/")">@Resources.LearnMore<span class="glyphicon glyph-micro pbi-glyph-chevronrightmedium"></span></a>
+            </div>
+        </div>
+        <div class="column medium-6">
+            <div class="row column">
+                <div class="icon icon-size3 icon-slate01">@SvgHelper.GetSvg("talk")</div>
+            </div>
+            <div class="row row-size2 column">
+                <h3>@Resources.PublishToWeb_Heading</h3>
+                <p>@Resources.PublishToWeb_Content</p>
+                <a class="cta-secondary" href="https://info.microsoft.com/CO-PowerBI-WBNR-FY16-06Jun-14-PowerBI-Publish-to-Web-Registration.html?Is=Website">@Resources.PublishToWeb_Cta<span class="glyphicon glyph-micro pbi-glyph-chevronrightmedium"></span></a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="section section-slate01 section-size3">
+    <div class="row">
+        <div class="column text-center">
+            <h2 class="text-heading1 text-palette02">@Resources.TakeAdvantage</h2>
+        </div>
+    </div>
+    <div class="row row-size2">
+        <div class="column medium-8 medium-offset-2 end">
+            @Html.CreateForm("Signup", new Acom.Forms.Models.FormOptions
+       {
+           Class = "form-email-only form-medium-full",
+           Slug = "signup",
+           SubmitText = Resources.UseItFree_Cta,
+           SubmitRedirectUrl = "https://app.powerbi.com/signupredirect",
+       })
+        </div>
+    </div>
+    <div class="row row-size2 column text-center">
+        <p class="text-mini">@Html.RawFormatInvariant(Forms.Terms_UseItFree, Html.LocalizeUrl("/terms-of-service/"))</p>
+    </div>
+</section>
+
+<section class="section modal modal-video modal-large" id="modal-video" data-video-embed="https://www.youtube.com/embed/vhbC5leGg-w?showinfo=0&amp;autoplay=1">
+    <button class="close">&times;</button>
+    <div class="row column">
+        <iframe frameborder="0" allowfullscreen></iframe>
+    </div>
+</section>
+
+<section id="modal-datajournalism" class="section section-size3 modal text-center">
+    <a href="#" class="close">&times;</a>
+    <div class="row">
+        <div class="column large-10 large-centered">
+            <p class="text-heading1 text-center">@Resources.Modal_Heading</p>
+        </div>
+    </div>
+    <div class="row row-size2">
+        <div class="column large-10 large-centered">
+            @Html.CreateForm("DatajournalismRegistration", new Acom.Forms.Models.FormOptions
+       {
+           Class = "form-email consent-form",
+           Slug = "powerbi-datajournalism-registration",
+           SubmitText = Resources.Modal_Cta,
+           SubmitRedirectUrl = @Html.LocalizeUrl("/datajournalism/courses/").ToString(),
+       })
+        </div>
+    </div>
+</section>

@@ -1,0 +1,189 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" id="root">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="DesktopChoice_Content" xml:space="preserve">
+    <value>连接和传递数据，创建高级计算，且几分钟内即可构建精湛报表。</value>
+  </data>
+  <data name="DesktopChoice_Content2" xml:space="preserve">
+    <value>使用强大的分析工具来连接和转换数据，并创建高级可视化效果。</value>
+  </data>
+  <data name="DesktopChoice_Cta" xml:space="preserve">
+    <value>下载</value>
+  </data>
+  <data name="DesktopChoice_Heading" xml:space="preserve">
+    <value>适用于 Windows 的 Power BI Desktop</value>
+  </data>
+  <data name="DesktopChoice_Subhead" xml:space="preserve">
+    <value>唾手可得的分析工具</value>
+  </data>
+  <data name="DesktopChoice_Subhead2" xml:space="preserve">
+    <value>使用任何数据源创建令人惊叹的报表</value>
+  </data>
+  <data name="Desktop_Label" xml:space="preserve">
+    <value>桌面版</value>
+  </data>
+  <data name="EIPEbook_Content" xml:space="preserve">
+    <value>使用 Microsoft 新的电子书&lt;em&gt;《你的数据是什么颜色？》&lt;/em&gt;探索 Power BI 如何快速且透彻地进行数据分析 可了解到如何以通俗易懂的方式表达见解，创建可行的销售和营销情报，以及更快速地搜索到有用数据。</value>
+  </data>
+  <data name="EIPEbook_Heading" xml:space="preserve">
+    <value>使用数据发挥更大的影响力</value>
+  </data>
+  <data name="GetStarted_Heading" xml:space="preserve">
+    <value>选择开始使用的方式</value>
+  </data>
+  <data name="META_DESCRIPTION" xml:space="preserve">
+    <value>选择 Power BI Desktop 的分析和可视化工具、Quick Insights、应用程序内容包、Power BI 服务可轻松共享的仪表板，开始使用 Power BI。</value>
+  </data>
+  <data name="META_KEYWORDS" xml:space="preserve">
+    <value>power bi, microsoft power bi, bi 工具, microsoft bi, 启动 power bi, power bi 服务, power bi desktop, power bi 入门, 选择 power bi, power bi 选项</value>
+  </data>
+  <data name="META_PAGETITLE" xml:space="preserve">
+    <value>入门 | Microsoft Power BI</value>
+  </data>
+  <data name="NationalClouds_Content" xml:space="preserve">
+    <value>Power BI 现可在 3 个单独的国家云中使用。这些云提供与 Power BI 全局版本相同级别的安全性、隐私、符合性和透明度，以及服务交付、数据驻留、访问和控制相关地方法规的唯一模型。</value>
+  </data>
+  <data name="NationalClouds_Cta" xml:space="preserve">
+    <value>了解详细信息</value>
+  </data>
+  <data name="ServiceChoice_Content" xml:space="preserve">
+    <value>只需单击几下，即可连接到所用应用程序的数据，并开始使用专家预构建的仪表板。</value>
+  </data>
+  <data name="ServiceChoice_Content2" xml:space="preserve">
+    <value>连接文件和云服务中的数据，查找即时见解，并与其他人共享见解。</value>
+  </data>
+  <data name="ServiceChoice_Cta" xml:space="preserve">
+    <value>注册</value>
+  </data>
+  <data name="ServiceChoice_Heading" xml:space="preserve">
+    <value>Power BI</value>
+  </data>
+  <data name="ServiceChoice_Subhead" xml:space="preserve">
+    <value>在同一位置查看重要数据的简单方式</value>
+  </data>
+  <data name="ServiceChoice_Subhead2" xml:space="preserve">
+    <value>在你喜欢的 Web 服务上创建预构建的仪表板</value>
+  </data>
+  <data name="Service_Label" xml:space="preserve">
+    <value>服务</value>
+  </data>
+  <data name="Meta_LocJobId" xml:space="preserve">
+    <value>206</value>
+  </data>
+</root>

@@ -1,0 +1,36 @@
+﻿@model PowerBI.Web.Features.Forms.Models.FeedbackFormViewModel
+
+@using Form = PowerBI.Resources.Shared.Forms.Feedback
+
+@{
+    OnyxForms.SetupForms();
+    var formClass = Model.FormOptions.Class ?? string.Empty;
+    var submitText = Model.FormOptions.SubmitText ?? Form.Submit;
+}
+
+@using (var f = Html.BeginChameleonForm(Html.LocalizeUrl("/forms/submit-feedback-comments/").ToString(), method: FormMethod.Post, htmlAttributes: Html.Attrs().AddClass(formClass).Attr("data-form-type", "feedback-comment")))
+{
+    using (var s = f.BeginSection())
+    {
+        <div class="row column">
+            @f.FormOptions(Model.FormOptions)
+            @Html.HiddenFor(x => x.ArticleModified)
+
+            <h3>@Form.AdditionalFeedback</h3>
+            @s.FieldFor(m => m.Comments).Placeholder(Form.AdditionalFeedbackPlaceholder).WithoutLabel().Label(string.Empty)
+        </div>
+    }
+    using (var n = f.BeginNavigation())
+    {
+        <div class="row column row-size1">
+            <ul class="linkList linkList-horizontal">
+                <li>
+                    @n.Submit("action", "submit-comment", Html.Raw(Form.Submit))
+                </li>
+                <li>
+                    @n.Submit("action", "skip", Html.Raw(Form.Skip))
+                </li>
+            </ul>
+        </div>
+    }
+}

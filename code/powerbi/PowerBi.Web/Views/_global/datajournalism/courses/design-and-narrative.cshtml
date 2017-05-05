@@ -1,0 +1,98 @@
+﻿@model PowerBI.Web.Models.Pages.DataJournalism.Details
+@using Resources = PowerBI.Resources.Pages.Datajournalism.Courses.DesignNarrative
+@using SharedLefty = PowerBI.Resources.Shared.Parts.LeftNavigation
+
+@{
+    Model.PageTitle = Resources.META_PAGETITLE;
+    Model.MetaDescription = Resources.META_DESCRIPTION;
+    Model.MetaKeywords = Resources.META_KEYWORDS;
+}
+
+<section class="section section-size5 section-palette02 section-heading-only">
+    <div class="row">
+        <div class="column medium-8 medium-centered">
+            <h2 class="text-heading1 text-center">@Resources.Hero_Title</h2>
+            <div class="row row-size2 column">
+                <p>@Resources.Hero_Subtitle</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="section section-size3 section-slate06">
+    <div class="row">
+        <div class="column medium-8 medium-centered">
+            @Html.Raw(Resources.About_Content)
+        </div>
+    </div>
+</section>
+
+<section class="section section-size3">
+    <div class="row">
+        <div class="column large-2">
+            <div class="navigationLeft navigationLeft-moreless">
+                <ul>
+                    @LeftyLink("visualization", SharedLefty.Area_Visualizations)
+                    @LeftyLink("data-exploration", @SharedLefty.Area_DataExploration)
+                    @LeftyLink("truthful-visualizations", @SharedLefty.Area_TruthfulVisualizations)
+                    @LeftyLink("choosing-graphics", @SharedLefty.Area_ChoosingGraphics)
+                    @LeftyLink("design-and-narrative", @SharedLefty.Area_DesignNarrative)
+                </ul>
+            </div>
+        </div>
+        <div class="column large-8 articlebody" itemprop="articlebody">
+            <div class="wa-navigationScroll fixed-element force-static" data-top-spacing="100" data-resting-position="absolute">
+                <span>@Resources.InThisArticle</span>
+                <ul class="scrollspy">
+                    <li>
+                        <a href="#synoptic-panel">@Resources.RightNav_Link1</a>
+                    </li>
+                    <li>
+                        <a href="#augmented-reality">@Resources.RightNav_Link2</a>
+                    </li>
+                </ul>
+            </div>
+            <video id="datajournalismvideo5" class="article-video azuremediaplayer amp-default-skin amp-big-play-centered" data-src="//bapimediacdn-bapisitesmedia.streaming.mediaservices.windows.net/42628216-7747-4e9f-8d3a-71cfc704ec61/powerbi-datajournalism-course5.ism/manifest"></video>
+            <p><a href="@CdnHelper.GetCdnUrl("/pictures/pages/datajournalism/courses/design-and-narrative/tutorial_5.zip")">@Resources.Download_Resources</a></p>
+            <div class="row row-size2 column">
+                @Html.RawFormatInvariant(Resources.Article_Content_26,
+                Html.LocalizeUrl("/desktop/"), 
+                Html.LocalizeUrl("/get-started/"), 
+                "http://synoptic.design", 
+                CdnHelper.GetCdnUrl("/pictures/pages/datajournalism/courses/design-and-narrative/synoptic-designer-power-bi.png"),
+                CdnHelper.GetCdnUrl("/pictures/pages/datajournalism/courses/design-and-narrative/export-to-powerbi.png"), 
+                "https://app.powerbi.com/visuals/show/SynopticPanelBySQLBI1447436165337",
+                CdnHelper.GetCdnUrl("/pictures/pages/datajournalism/courses/design-and-narrative/visualizations-scale.png"), 
+                CdnHelper.GetCdnUrl("/pictures/pages/datajournalism/courses/design-and-narrative/select-map-gallery.png"),
+                CdnHelper.GetCdnUrl("/pictures/pages/datajournalism/courses/design-and-narrative/synoptic-designer-editor.png"), 
+                CdnHelper.GetCdnUrl("/pictures/pages/datajournalism/courses/design-and-narrative/publish-report-to-powerbi.png"),
+                CdnHelper.GetCdnUrl("/pictures/pages/datajournalism/courses/design-and-narrative/sign-in-to-power-bi.png"), 
+                CdnHelper.GetCdnUrl("/pictures/pages/datajournalism/courses/design-and-narrative/publishing-to-powerbi.png"),
+                CdnHelper.GetCdnUrl("/pictures/pages/datajournalism/courses/design-and-narrative/gross-sales-by-date.png"), 
+                CdnHelper.GetCdnUrl("/pictures/pages/datajournalism/courses/design-and-narrative/pin-to-dashboard.png"),
+                CdnHelper.GetCdnUrl("/pictures/pages/datajournalism/courses/design-and-narrative/pinned-to-dashboard.png"), 
+                CdnHelper.GetCdnUrl("/pictures/pages/datajournalism/courses/design-and-narrative/powerbi-workspace.png"),
+                CdnHelper.GetCdnUrl("/pictures/pages/datajournalism/courses/design-and-narrative/shortcut.jpeg"), 
+                CdnHelper.GetCdnUrl("/pictures/pages/datajournalism/courses/design-and-narrative/powerbi-graph.png"),
+                CdnHelper.GetCdnUrl("/pictures/pages/datajournalism/courses/design-and-narrative/pin-visual-tab.png"), 
+                CdnHelper.GetCdnUrl("/pictures/pages/datajournalism/courses/design-and-narrative/your-qr-code-is-ready.png"),
+                Html.LocalizeUrl("article:powerbi-service-qr-code-for-tile"), 
+                Html.LocalizeUrl("go:522062"), 
+                CdnHelper.GetCdnUrl("/pictures/pages/datajournalism/courses/design-and-narrative/three-rows.png"),
+                CdnHelper.GetCdnUrl("/pictures/pages/datajournalism/courses/design-and-narrative/connect-server.png"), 
+                CdnHelper.GetCdnUrl("/pictures/pages/datajournalism/courses/design-and-narrative/align-code-with-frame.png"),
+                CdnHelper.GetCdnUrl("/pictures/pages/datajournalism/courses/design-and-narrative/scanner.png"), 
+                Html.LocalizeUrl("article:powerbi-service-how-should-i-share-my-dashboard"))
+            </div>
+           </div>
+        <div class="column large-2 column-navigationScroll">
+        </div>
+    </div>
+</section>
+
+@helper LeftyLink(string link, string value)
+{
+    <li>
+        <a href="@Html.LocalizeUrl($"/datajournalism/courses/{link}/")" class="articles-clicked-link @(link == Model.ActiveSlug ? "active" : null)">@value</a>
+    </li>
+}

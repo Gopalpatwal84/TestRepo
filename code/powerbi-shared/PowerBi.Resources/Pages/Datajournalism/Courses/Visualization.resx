@@ -1,0 +1,876 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="About_Content" xml:space="preserve">
+    <value>&lt;p&gt;This class will walk you through the fundamentals of using Microsoft Power BI to show the following:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Learn how to load data into the visualization tool, edit, and add extra calculations to create the famous “hockey stick” chart.&lt;/li&gt;
+&lt;li&gt;Receive an overview on creating and publishing data visualizations with an electoral map that local broadcaster KING 5 used for their coverage of the presidential primaries. &lt;/li&gt;
+&lt;/ul&gt;
+</value>
+  </data>
+  <data name="ArticleContinue_Content2_3" xml:space="preserve">
+    <value>&lt;h2 id="create-pub"&gt;Creating and Publishing Data Visualizations&lt;/h2&gt;
+&lt;p&gt;To follow the examples shown in this course, you will need the following
+prerequisites:&lt;/p&gt;&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;A computer running Windows 7 or above&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Download and install &lt;a href="{0}"&gt;Power BI
+Desktop&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Register for a Power BI account
+(&lt;a href="{1}"&gt;{2}&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;a.  Note you will need to register using a work email account;
+    personal accounts (gmail, Hotmail, outlook.com, yahoo.com) are
+    not supported&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;</value>
+  </data>
+  <data name="ArticleThird_Continue_7" xml:space="preserve">
+    <value>&lt;p&gt;Measures to create:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;votes clinton = CALCULATE(sum(VotingData[Votes]), VotingData[Candidate] = "Clinton")&lt;/p&gt;
+
+&lt;p&gt;votes sanders = CALCULATE(sum(VotingData[Votes]), VotingData[Candidate] = "Sanders")&lt;/p&gt;
+
+&lt;p&gt;winner direction = if([votes clinton] &amp;gt; [votes sanders], -1, if(VotingData[votes clinton] = [votes sanders], 0, 1))&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Note: the first two measures filter values for Clinton and Sanders and
+enable us to build the winner direction measure which tells us whether
+the Clinton or Sanders had more votes in a given county. You’ll see when
+we build the map how this is useful.&lt;/p&gt;
+
+&lt;p&gt;After you complete this step, the fields list will look like below. The
+measures you created are added to the fields available for you to use in
+your data visualizations.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src="{0}" alt="" title="" /&gt;&lt;/p&gt;
+
+&lt;h3&gt;Step 3: Show results on a map&lt;/h3&gt;
+
+&lt;p&gt;Now, we’re ready to make the shape map&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Insert a &lt;strong&gt;ShapeMap&lt;/strong&gt; visual into the report.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;img src="{1}" alt="" title="" /&gt;&lt;/p&gt;
+
+&lt;p&gt;Note: at the time of writing the ShapeMap visual is in Preview. If you
+do not see the ShapeMap, you’ll need to enable it as a &lt;strong&gt;Preview
+Feature&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;File-&amp;gt; Options and Settings -&amp;gt; Options&lt;/strong&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;Global -&amp;gt; Preview Features&lt;/strong&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Check the box next to &lt;strong&gt;Shape Map Visual&lt;/strong&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Press &lt;strong&gt;OK&lt;/strong&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;After you insert the &lt;strong&gt;ShapeMap&lt;/strong&gt;, it will be blank. Perform the
+following steps:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;Select the &lt;strong&gt;map&lt;/strong&gt; by clicking on it.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;In the &lt;strong&gt;fields list&lt;/strong&gt; check the box next to the following fields:&lt;/p&gt;
+
+&lt;p&gt;a.  &lt;strong&gt;County Name&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;b.  &lt;em&gt;*Winner Direction *&lt;/em&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;The visuals’ data fields will look like this:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src="{2}" alt="" title="" /&gt;&lt;/p&gt;
+
+&lt;p&gt;The page will look roughly like this:&lt;/p&gt;
+
+&lt;p&gt;Note that the U.S. Map is shown by default. In the next steps, we will
+change the map shapes.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src="{3}" alt="" title="" /&gt;&lt;/p&gt;
+
+&lt;p&gt;You can use any &lt;strong&gt;TopoJSON file&lt;/strong&gt; with the &lt;strong&gt;ShapeMap&lt;/strong&gt; visual. The IDs
+of the TopoJSON shapes must match the names in your data set.&lt;/p&gt;
+
+&lt;p&gt;Let’s change the shapes to match the county names.&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;Select the &lt;strong&gt;ShapeMap&lt;/strong&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Switch to the &lt;strong&gt;Formatting Pane&lt;/strong&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Expand the &lt;strong&gt;Shape&lt;/strong&gt; options&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;The UI should now look like below:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src="{4}" alt="" title="" /&gt;&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;Press &lt;strong&gt;+ Add Map&lt;/strong&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;In the &lt;strong&gt;file&lt;/strong&gt; open dialog, select the file
+“&lt;strong&gt;gz_2010_us_050_00_500k-wash-counties-only.json&lt;/strong&gt;”&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Now the UI will look like this:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src="{5}" alt="" title="" /&gt;&lt;/p&gt;
+
+&lt;p&gt;Next, we will change the color to match the theme of the Democrats party
+in the United States.&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;In the &lt;strong&gt;formatting&lt;/strong&gt; pane, expand &lt;strong&gt;Data Colors&lt;/strong&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Place the &lt;strong&gt;Diverging&lt;/strong&gt; toggle into the &lt;strong&gt;On&lt;/strong&gt; position&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;You may choose colors from the provided UI options, or you can select
+&lt;strong&gt;Custom Color&lt;/strong&gt; to specify colors. The examples below uses the
+following colors:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Minimum - 0007FF&lt;/p&gt;
+
+&lt;p&gt;Center - B3B3B3&lt;/p&gt;
+
+&lt;p&gt;Maximum - 0055FF&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Set the &lt;strong&gt;Minimum&lt;/strong&gt;, &lt;strong&gt;Center&lt;/strong&gt;, and &lt;strong&gt;Maximum&lt;/strong&gt; to &lt;strong&gt;-1, 0, and
+1&lt;/strong&gt; respectively. In this way, you are defining the scale.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;img src="{6}" alt="" title="" /&gt;&lt;/p&gt;</value>
+  </data>
+  <data name="Article_Content_Step2_2" xml:space="preserve">
+    <value>&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;Navigate to your &lt;strong&gt;Temperature data&lt;/strong&gt; table. In the &lt;strong&gt;home&lt;/strong&gt; ribbon,
+select &lt;strong&gt;merge queries&lt;/strong&gt;. Select &lt;strong&gt;Error bars&lt;/strong&gt; as the table to
+match, and &lt;strong&gt;year&lt;/strong&gt; as the column to match on. This time we know we
+only have data in the error table that falls within the year range
+of the reconstructed temperatures, so you can use &lt;strong&gt;Join kind:
+left outer.&lt;/strong&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Expand the &lt;strong&gt;sigma&lt;/strong&gt; column only&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;To add a column for positive variance, use &lt;strong&gt;Add Custom Column&lt;/strong&gt; in
+the &lt;strong&gt;Add Column&lt;/strong&gt; ribbon.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Name the column &lt;strong&gt;Positive variance&lt;/strong&gt; and add Sigma to the
+reconstructed temperature by using the formula &lt;strong&gt;[Reconstructed
+temp change] + [Sigma]&lt;/strong&gt;. You can either type or double click the
+column names on the right.&lt;/p&gt;&lt;p&gt;&lt;img src="{0}" alt="" title="" /&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Repeat this step to create &lt;strong&gt;Negative variance = [Reconstructed
+temp change] - [Sigma]&lt;/strong&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Change the data types of the new columns to decimal numbers.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Having loaded all the information into the table &lt;strong&gt;Temperature
+change&lt;/strong&gt; there is no need to load the other two tables into
+your report. To disable loading the other two tables, right click
+&lt;strong&gt;Instrumental data&lt;/strong&gt; and unselect &lt;strong&gt;Enable Load&lt;/strong&gt;, and do the same
+for &lt;strong&gt;Error bars&lt;/strong&gt;. The disables tables will show italic and
+greyed out.&lt;/p&gt;
+&lt;p&gt;&lt;img src="{1}" alt="" title="" /&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;Now select &lt;strong&gt;Close and Apply&lt;/strong&gt; in the &lt;strong&gt;Home&lt;/strong&gt; ribbon.&lt;/li&gt;
+&lt;/ol&gt;</value>
+  </data>
+  <data name="Article_Content_Step2_3" xml:space="preserve">
+    <value>&lt;h3&gt;Step 2: Creating the visual&lt;/h3&gt;
+
+&lt;p&gt;After loading the data and having done most of the work in editing and
+merging the data, creating the line chart is just a few clicks away.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;Create a new line chart in the report section&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Drag &lt;strong&gt;Year&lt;/strong&gt; on &lt;strong&gt;Axis&lt;/strong&gt; field and make sure the date is shown as
+Year in the drop-down menu&lt;/p&gt;
+&lt;p&gt;&lt;img src="{0}" alt="" title="" /&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Drag &lt;strong&gt;Reconstructed Temp Change&lt;/strong&gt;, &lt;strong&gt;Instrumental Temp Change&lt;/strong&gt;,
+&lt;strong&gt;Positive Variance&lt;/strong&gt; and &lt;strong&gt;Negative Variance&lt;/strong&gt; on Values&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Change the colors of the lines in the &lt;strong&gt;Format&lt;/strong&gt; pane if you want
+the temperature changes to stand out from the variance.&lt;/p&gt;&lt;p&gt;&lt;img src="{1}" alt="" title="" /&gt;&lt;/p&gt;
+&lt;/li&gt;&lt;/ol&gt;
+&lt;h3&gt;Step 3: Trend line&lt;/h3&gt;
+
+&lt;p&gt;The final step in recreating the famous hockey stick chart is to add a
+trend line through the temperature changes. This can be done using a
+couple of DAX measures.&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Because some years have both an instrumental temperature and a
+reconstructed temperature, you first want to create a column that
+only averages the temperature when there are two values. Create a
+&lt;strong&gt;New column,&lt;/strong&gt; using the following formula:&lt;/li&gt;
+  &lt;p&gt;&lt;em&gt;Temp Average = IF(ISBLANK([Instrumental Temp.
+Change]),[Reconstructed Temp. Change],IF(ISBLANK([Reconstructed
+Temp. Change]),[Instrumental Temp. Change],([Instrumental Temp.
+Change]+[Reconstructed Temp. Change])/2))&lt;/em&gt;&lt;/p&gt;
+&lt;li&gt;Now create a &lt;strong&gt;New Measure&lt;/strong&gt; over that column:&lt;/li&gt;
+  &lt;p&gt;&lt;em&gt;Temperature Change = SUM(Data[Temp Average])&lt;/em&gt;&lt;/p&gt;
+&lt;li&gt;Now calculate the moving average of Temperature Change. You can
+experiment with the time interval; in this example, it is set to 40
+years:&lt;/li&gt;&lt;p&gt;&lt;em&gt;Trend line =
+AVERAGEX(DATESINPERIOD(Data[Year],LASTDATE(Data[Year]),-40,YEAR),[Temperature
+Change])&lt;/em&gt;&lt;/p&gt;
+&lt;li&gt;Add the trend line to your visual and you’re all done!&lt;/li&gt;
+&lt;p&gt;&lt;img src="{2}" alt="" title="" /&gt;&lt;/p&gt;&lt;/ol&gt;</value>
+  </data>
+  <data name="Article_Content_Step3_10" xml:space="preserve">
+    <value>&lt;h2&gt;Part 1: Creating a data story and publishing it to a web page&lt;/h2&gt;
+
+&lt;p&gt;You will need the following files:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;VotingData.xlsx&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;gz_2010_us_050_00_500k-wash-counties-only.json&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Embed in web page.htm&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3&gt;Step 1: Load data from an excel file&lt;/h3&gt;
+
+&lt;p&gt;Please refer to the documentation for more additional help/instructions
+if needed:&lt;/p&gt;
+
+&lt;p&gt;&lt;a href="{0}"&gt;{0}&lt;/a&gt;&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;Open &lt;strong&gt;Power BI Desktop&lt;/strong&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;On the Home Ribbon, press &lt;strong&gt;Get Data&lt;/strong&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Select &lt;strong&gt;Excel&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="{1}" alt="" title="" /&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;In the dialog, select the file &lt;strong&gt;VotingData.xlsx&lt;/strong&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;In the &lt;strong&gt;Navigator&lt;/strong&gt; dialog, check the box next to &lt;strong&gt;VotingData&lt;/strong&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Press &lt;strong&gt;Load&lt;/strong&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;img src="{2}" alt="" title="" /&gt;&lt;/p&gt;
+
+&lt;h3&gt;Step 2: Create calculated results&lt;/h3&gt;
+
+&lt;p&gt;Often when creating a data visualization, the raw data needs to be
+augmented with calculated values to achieve the visualization you
+desire. In this section, we create some calculations.&lt;/p&gt;
+
+&lt;p&gt;Note: this section introduces a new concept – DAX expressions. DAX is an
+expression language you can use to calculate data within your reports.
+More information can be found here: &lt;a href="{3}"&gt;DAX basics in Power BI
+Desktop&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Use the steps defined to create the following measures: &lt;a href="{4}"&gt;Tutorial:
+Create your own measures in Power BI
+Desktop&lt;/a&gt;&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;On the &lt;strong&gt;Modeling&lt;/strong&gt; ribbon, press new &lt;strong&gt;Measure&lt;/strong&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;A formula bar is displayed.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Type the expressions in the &lt;strong&gt;Measures to Create&lt;/strong&gt; section below
+into the bar and &lt;strong&gt;press the check mark&lt;/strong&gt; to ensure it works.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Repeat the process for the three measures identified below.&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;img src="{5}" alt="" title="" /&gt;&lt;/p&gt;
+
+&lt;p&gt;Measures to create:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;votes clinton = CALCULATE(sum(VotingData[Votes]), VotingData[Candidate] = "Clinton")&lt;/p&gt;
+
+&lt;p&gt;votes sanders = CALCULATE(sum(VotingData[Votes]), VotingData[Candidate] = "Sanders")&lt;/p&gt;
+
+&lt;p&gt;winner direction = if([votes clinton] &amp;gt; [votes sanders], -1, if(VotingData[votes clinton] = [votes sanders], 0, 1))&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Note: the first two measures filter values for Clinton and Sanders and
+enable us to build the winner direction measure which tells us whether
+the Clinton or Sanders had more votes in a given county. You’ll see when
+we build the map how this is useful.&lt;/p&gt;
+
+&lt;p&gt;After you complete this step, the fields list will look like below. The
+measures you created are added to the fields available for you to use in
+your data visualizations.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src="{6}" alt="" title="" /&gt;&lt;/p&gt;
+
+&lt;h3&gt;Step 3: Show results on a map&lt;/h3&gt;
+
+&lt;p&gt;Now, we’re ready to make the shape map&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Insert a &lt;strong&gt;ShapeMap&lt;/strong&gt; visual into the report.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;img src="{7}" alt="" title="" /&gt;&lt;/p&gt;
+
+&lt;p&gt;Note: at the time of writing the ShapeMap visual is in Preview. If you
+do not see the ShapeMap, you’ll need to enable it as a &lt;strong&gt;Preview
+Feature&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;File-&amp;gt; Options and Settings -&amp;gt; Options&lt;/strong&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;Global -&amp;gt; Preview Features&lt;/strong&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Check the box next to &lt;strong&gt;Shape Map Visual&lt;/strong&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Press &lt;strong&gt;OK&lt;/strong&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;After you insert the &lt;strong&gt;ShapeMap&lt;/strong&gt;, it will be blank. Perform the
+following steps:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;Select the &lt;strong&gt;map&lt;/strong&gt; by clicking on it.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;In the &lt;strong&gt;fields list&lt;/strong&gt; check the box next to the following fields:&lt;/p&gt;
+
+&lt;p&gt;a.  &lt;strong&gt;County Name&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;b.  &lt;strong&gt;*Winner Direction *&lt;/strong&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;The visuals’ data fields will look like this:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src="{8}" alt="" title="" /&gt;&lt;/p&gt;
+
+&lt;p&gt;The page will look roughly like this:&lt;/p&gt;
+
+&lt;p&gt;Note that the U.S. Map is shown by default. In the next steps, we will
+change the map shapes.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src="{9}" alt="" title="" /&gt;&lt;/p&gt;
+
+&lt;p&gt;You can use any &lt;strong&gt;TopoJSON file&lt;/strong&gt; with the &lt;strong&gt;ShapeMap&lt;/strong&gt; visual. The IDs
+of the TopoJSON shapes must match the names in your data set.&lt;/p&gt;
+
+&lt;p&gt;Let’s change the shapes to match the county names.&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;Select the &lt;strong&gt;ShapeMap&lt;/strong&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Switch to the &lt;strong&gt;Formatting Pane&lt;/strong&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Expand the &lt;strong&gt;Shape&lt;/strong&gt; options&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;</value>
+  </data>
+  <data name="Article_Content_Step4_7" xml:space="preserve">
+    <value>&lt;p&gt;The UI should now look like below:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src="{0}" alt="" title="" /&gt;&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;Press &lt;strong&gt;+ Add Map&lt;/strong&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;In the &lt;strong&gt;file&lt;/strong&gt; open dialog, select the file
+“&lt;strong&gt;gz_2010_us_050_00_500k-wash-counties-only.json&lt;/strong&gt;”&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Now the UI will look like this:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src="{1}" alt="" title="" /&gt;&lt;/p&gt;
+
+&lt;p&gt;Next, we will change the color to match the theme of the Democrats party
+in the United States.&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;In the &lt;strong&gt;formatting&lt;/strong&gt; pane, expand &lt;strong&gt;Data Colors&lt;/strong&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Place the &lt;strong&gt;Diverging&lt;/strong&gt; toggle into the &lt;strong&gt;On&lt;/strong&gt; position&lt;/p&gt;
+
+&lt;p&gt;You may choose colors from the provided UI options, or you can select
+&lt;strong&gt;Custom Color&lt;/strong&gt; to specify colors. The examples below uses the
+following colors:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Minimum - 0007FF&lt;/p&gt;
+
+&lt;p&gt;Center - B3B3B3&lt;/p&gt;
+
+&lt;p&gt;Maximum - 0055FF&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;/li&gt;
+
+&lt;li&gt;Set the &lt;strong&gt;Minimum&lt;/strong&gt;, &lt;strong&gt;Center&lt;/strong&gt;, and &lt;strong&gt;Maximum&lt;/strong&gt; to &lt;strong&gt;-1, 0, and
+1&lt;/strong&gt; respectively. In this way, you are defining the scale.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;img src="{2}" alt="" title="" /&gt;&lt;/p&gt;
+
+&lt;p&gt;We will improve readability by changing some of the map default values.
+When colors are on a gradient scale seeing color separations can be
+tricky, so we can make the county shapes easier to see by increasing the
+visibility of the boarders.&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;Expand &lt;strong&gt;Default Color&lt;/strong&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Set &lt;strong&gt;Color&lt;/strong&gt; select &lt;strong&gt;&lt;em&gt;white&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Set &lt;strong&gt;Border color&lt;/strong&gt; select &lt;strong&gt;&lt;em&gt;white&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Set &lt;strong&gt;Border thickness&lt;/strong&gt; to &lt;strong&gt;&lt;em&gt;4&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;img src="{3}" alt="" title="" /&gt;&lt;/p&gt;
+
+&lt;p&gt;Lastly, we provide a meaningful title for the map.&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;Expand &lt;strong&gt;Title&lt;/strong&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Set &lt;strong&gt;Title Text&lt;/strong&gt; to &lt;em&gt;“&lt;strong&gt;Election Results by county&lt;/strong&gt;”&lt;/em&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Set &lt;strong&gt;Text Size&lt;/strong&gt; to &lt;strong&gt;&lt;em&gt;14&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;img src="{4}" alt="" title="" /&gt;&lt;/p&gt;
+
+&lt;p&gt;Your map will now look as shown below. As you design visualizations,
+it’s important to check if they are ready for an audience or reader to
+understand. Notice the final map visual has clearly separate shapes, has
+a clear title, and the colors clearly contribute to understanding.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src="{5}" alt="" title="" /&gt;&lt;/p&gt;
+
+&lt;p&gt;Now that you have created the map, use the skills you learned to build a
+bar chart to show the overall results.&lt;/p&gt;
+
+&lt;p&gt;Use the data &lt;strong&gt;Fields&lt;/strong&gt;:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Select &lt;strong&gt;Candidate&lt;/strong&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Select &lt;strong&gt;Votes&lt;/strong&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Set colors to match the map’s colors, and set a good title.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src="{6}" alt="" title="" /&gt;&lt;/p&gt;</value>
+  </data>
+  <data name="Article_Content_Step5_9" xml:space="preserve">
+    <value>&lt;p&gt;Several additional capabilities you can use are:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;Data Labels&lt;/strong&gt;. You can find this in the formatting pane when the
+visual is enabled&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;Number Formatting&lt;/strong&gt;. Please see the number formatting section at
+the end of this tutorial for instructions&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;The final report should look as follows:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src="{0}" alt="" title="" /&gt;&lt;/p&gt;
+
+&lt;p&gt;Notice that clicking the map the bar chart is cross highlighted as
+illustrated below.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src="{1}" alt="" title="" /&gt;&lt;/p&gt;
+
+&lt;p&gt;This interaction is not the best interaction for this specific scenario.
+We can customize the visual interactions.&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;In the ribbon, select &lt;strong&gt;Format&lt;/strong&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Press the &lt;strong&gt;Edit Interactions&lt;/strong&gt; button in the interactions tab.&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;img src="{2}" alt="" title="" /&gt;&lt;/p&gt;
+
+&lt;p&gt;Now when you select the map, you will notice other visualizations have a
+new menu bar in the top right corner as illustrated below.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src="{3}" alt="" title="" /&gt;&lt;/p&gt;
+
+&lt;p&gt;The menu provides three options:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Filter – shows data only for the currently selected data points&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Cross highlight – show the contribution of the currently selected
+data points to the overall total&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;None – interacting with the selected visual will have no effect on
+this visual&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;Select the &lt;strong&gt;filter&lt;/strong&gt; option as shown above.&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Now click on the &lt;strong&gt;map&lt;/strong&gt; to see the bar chart show data specific to each
+county you click on or if you do not select any county, it shows state
+wide totals.&lt;/p&gt;
+
+&lt;p&gt;Now &lt;strong&gt;save&lt;/strong&gt; the report.&lt;/p&gt;
+
+&lt;h2&gt;Part 2: Publishing to the report to your Power BI account&lt;/h2&gt;
+
+&lt;p&gt;Now we can publish the report to your Power BI account, where you can
+share it securely with your colleagues.&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;In the &lt;strong&gt;Home&lt;/strong&gt; ribbon, select &lt;strong&gt;Publish&lt;/strong&gt; in the Share group
+
+
+&lt;p&gt;&lt;img src="{4}" alt="" title="" /&gt;&lt;/p&gt;
+
+&lt;p&gt;Note: to complete this step you must have a Power BI account. If you
+have not crated one, please go to
+&lt;a href="{5}"&gt;{6}&lt;/a&gt; and sign up for a free
+account.&lt;/p&gt;
+
+&lt;p&gt;Once publishing is successful you will see the following dialog:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src="{7}" alt="" title="" /&gt;&lt;/p&gt;
+
+&lt;/li&gt;
+&lt;li&gt;Press the “&lt;strong&gt;Open ‘VotingData Report.pbix&lt;/strong&gt;” in Power BI link to see
+the report in Power BI.com.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;img src="{8}" alt="" title="" /&gt;&lt;/p&gt;</value>
+  </data>
+  <data name="Article_Content_Step6_5" xml:space="preserve">
+    <value>&lt;h3&gt;Step 1: Publishing to the web&lt;/h3&gt;
+
+&lt;p&gt;You can follow the instruction provided on the below link to &lt;strong&gt;create a
+Power BI publish to web embed code&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href="{0}"&gt;{0}&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Your embed code will look like this:&lt;/p&gt;
+
+&lt;p&gt;&amp;lt;iframe width="800" height="600"
+src="{1}" frameborder="0"
+allowFullScreen="true"&amp;gt;&amp;lt;/iframe&amp;gt;&lt;/p&gt;
+
+&lt;p&gt;Notice that the embed code starts with ‘&amp;lt;iframe’. You will use the
+iFrame to embed the content in the web page.&lt;/p&gt;
+
+&lt;h3&gt;Step 2: Adding the embed code to a web page&lt;/h3&gt;
+
+&lt;p&gt;In this section, we will add the embed code for the report and add it to
+a web page.&lt;/p&gt;
+
+&lt;p&gt;You will need to &lt;strong&gt;copy the embed code&lt;/strong&gt; from the previous step into the
+provided web page. If didn’t copy it go back and copy it now.&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;Open the file &lt;strong&gt;Embed in web page.htm&lt;/strong&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Find the line “&amp;lt;!-- Step 1: Place your iFrame embed code below
+this line --&amp;gt;”&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;Paste&lt;/strong&gt; the embed code below that line&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Next adjust the height and width of the iframe. The defaults may not
+ensure a perfect fit. The size is based on your page size in your
+report. The default page size is a ratio 16:9. You should find the width
+and height based on your web page layout and this base dimension. Then
+ensure you add 56 to the height of the iFrame to accommodate the Power
+BI UI at the bottom of the iFrame.&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;Now set the width and height of the &lt;strong&gt;iframe&lt;/strong&gt; as follows:&lt;/p&gt;
+    &lt;ul&gt;
+&lt;li&gt;&lt;p&gt;width="1000"&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;height="618"&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;Save&lt;/strong&gt; the file&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;In &lt;strong&gt;Windows Explorer&lt;/strong&gt;, &lt;strong&gt;double click the file to open&lt;/strong&gt; it in
+your web browser.&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;You will see a page that looks like the below. If you were to publish to
+page on a web server, anyone viewing your page would be able to view the
+report. You can use these steps to add Power BI data visualizations to
+your blogs, news articles, or websites.&lt;/p&gt;
+
+&lt;h1&gt;&lt;img src="{2}" alt="" title="" /&gt;&lt;/h1&gt;
+
+&lt;h2&gt;Appendix: Formatting numbers in Power BI&lt;/h2&gt;
+
+&lt;p&gt;In this tutorial, if you worked with data labels, you will notice that
+by default the number is not formatted. Below are instructions for how
+to format numbers in Power BI.&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Select the &lt;strong&gt;field&lt;/strong&gt; you want format by clicking on it in the
+fields list. Hint: the field is selected when the yellow border is
+displayed as shown below.
+&lt;p&gt;&lt;img src="{3}" alt="" title="" /&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;With the field selected, in the ribbon select &lt;strong&gt;Modeling&lt;/strong&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Notice the &lt;strong&gt;Formatting&lt;/strong&gt; section.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;To add comma separators for large numbers, press the &lt;strong&gt;comma icon&lt;/strong&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Once this is done, whenever the field is used in a visualization, the
+formatting is applied.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src="{4}" alt="" title="" /&gt;&lt;/p&gt;</value>
+  </data>
+  <data name="Article_Continue_Step1_3" xml:space="preserve">
+    <value>&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;Navigate to your &lt;strong&gt;Temperature data&lt;/strong&gt; table, and select &lt;strong&gt;Merge
+Queries&lt;/strong&gt; in the &lt;strong&gt;Home&lt;/strong&gt; ribbon.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;In the editor, select &lt;strong&gt;Instrumental data&lt;/strong&gt; and the column &lt;strong&gt;year&lt;/strong&gt;
+of both tables. This is the column you want to match the tables on.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Because you want to end up with a table containing all rows of both
+tables (matching the ones that overlap), select &lt;strong&gt;Join Kind: Full
+Outer (all rows from both).&lt;/strong&gt; The editor should now show the number
+of matching rows.&lt;/p&gt;
+&lt;p&gt;&lt;img src="{0}" alt="" title="" /&gt;&lt;/p&gt;
+
+&lt;/li&gt;
+&lt;li&gt;After selecting &lt;strong&gt;OK&lt;/strong&gt;, expand the new columns (see icon below).
+&lt;p&gt;&lt;img src="{1}" alt="" title="" /&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;To create the new date column, select &lt;strong&gt;Add Index Column -&lt;/strong&gt; use the
+drop-down menu to create a custom index column - in the &lt;strong&gt;Add
+Column&lt;/strong&gt; tab. Start the index at 1000, and increment by 1.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;You should now have an index column ranging from 1000 to 1998.
+Change the type of this column to text.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Now delete both year columns and change the name of &lt;strong&gt;Index&lt;/strong&gt; to
+&lt;strong&gt;Year&lt;/strong&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Set the data type of &lt;strong&gt;Year&lt;/strong&gt; to &lt;strong&gt;date&lt;/strong&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;The last table to load contains the &lt;strong&gt;*Associated error bars. *&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;In the Query Editor, select &lt;strong&gt;Home&lt;/strong&gt; &amp;gt; &lt;strong&gt;New Source&lt;/strong&gt; &amp;gt;
+&lt;strong&gt;Web&lt;/strong&gt; and enter the URL of the table:
+&lt;a href="{2}"&gt;{2}&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Change the query name into &lt;strong&gt;Error bars&lt;/strong&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Change type of &lt;strong&gt;Year&lt;/strong&gt; into text&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Delete first and last column&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Change type of &lt;strong&gt;Year&lt;/strong&gt; into date&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Next, you can use the sigma from &lt;strong&gt;Error bars&lt;/strong&gt; to calculate the
+positive and negative variance of the reconstructed temperatures.&lt;/p&gt;</value>
+  </data>
+  <data name="Article_Start_Step2_3" xml:space="preserve">
+    <value>&lt;p&gt;&lt;img src="{0}" alt="" title="" /&gt;&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;Repeat this step to create &lt;strong&gt;Negative variance = [Reconstructed
+temp change] - [Sigma]&lt;/strong&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Change the data types of the new columns to decimal numbers.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Having loaded all the information into the table &lt;strong&gt;Temperature
+change&lt;/strong&gt; there is no need to load the other two tables into
+your report. To disable loading the other two tables, right click
+&lt;strong&gt;Instrumental data&lt;/strong&gt; and unselect &lt;strong&gt;Enable Load&lt;/strong&gt;, and do the same
+for &lt;strong&gt;Error bars&lt;/strong&gt;. The disables tables will show italic and
+greyed out.&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;img src="{1}" alt="" title="" /&gt;&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Now select &lt;strong&gt;Close and Apply&lt;/strong&gt; in the &lt;strong&gt;Home&lt;/strong&gt; ribbon.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3&gt;Step 2: Creating the visual&lt;/h3&gt;
+
+&lt;p&gt;After loading the data and having done most of the work in editing and
+merging the data, creating the line chart is just a few clicks away.&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;Create a new line chart in the report section&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Drag &lt;strong&gt;Year&lt;/strong&gt; on &lt;strong&gt;Axis&lt;/strong&gt; field and make sure the date is shown as
+Year in the drop-down menu&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;img src="{2}" alt="" title="" /&gt;&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;Drag &lt;strong&gt;Reconstructed Temp Change&lt;/strong&gt;, &lt;strong&gt;Instrumental Temp Change&lt;/strong&gt;,
+&lt;strong&gt;Positive Variance&lt;/strong&gt; and &lt;strong&gt;Negative Variance&lt;/strong&gt; on Values&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Change the colors of the lines in the &lt;strong&gt;Format&lt;/strong&gt; pane if you want
+the temperature changes to stand out from the variance.&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;</value>
+  </data>
+  <data name="Download_Resources" xml:space="preserve">
+    <value>Download all the resources needed for these tutorials</value>
+  </data>
+  <data name="Hero_Content" xml:space="preserve">
+    <value>This introductory course will teach you how to use graphics of different kinds to analyze and understand your own data and learn how to effectively communicate with your audience. Data visualization expert Alberto Cairo will walk you through the core principles of visualization such as understanding your data, choosing the appropriate graphic form and to arrange the composition to narrate or enable exploration. You will also learn more about how data visualization is based on the idea of visual encoding to transform data points into graphical features.</value>
+  </data>
+  <data name="Hero_Title" xml:space="preserve">
+    <value>Introduction to Visualization</value>
+  </data>
+  <data name="InThisArticle" xml:space="preserve">
+    <value>In this article:</value>
+  </data>
+  <data name="META_DESCRIPTION" xml:space="preserve">
+    <value />
+  </data>
+  <data name="META_KEYWORDS" xml:space="preserve">
+    <value />
+  </data>
+  <data name="META_PAGETITLE" xml:space="preserve">
+    <value>Data Journalism - Introduction to Visualization | Microsoft Power BI</value>
+  </data>
+  <data name="NextTopic" xml:space="preserve">
+    <value>Next Topic: Data Exploration</value>
+  </data>
+  <data name="RightNav_Link1" xml:space="preserve">
+    <value>World Temperature Change (Creating a Hockey Stick Chart in Power BI)</value>
+  </data>
+  <data name="RightNav_Link2" xml:space="preserve">
+    <value>Creating and Publishing Visualizations</value>
+  </data>
+  <data name="Start_Article_Content_4" xml:space="preserve">
+    <value>&lt;h2 id="world-temp-change"&gt;World Temperature Change (creating a Hockey Stick Chart in Power BI)&lt;/h2&gt;
+
+&lt;p&gt;One of the first examples used in the Data Visualization course is the
+analysis of global temperature by Michael Mann and Raymond Bradley.
+Rebuilding this visual touches upon a range of concepts that you will
+use most often when working with Microsoft Power BI. Starting with
+tables from several web pages, you will mash up the data, load it to
+your report, make some adjustments and create a calculated trend line.
+We are using the data from the original research that available here:
+&lt;a href="{0}"&gt;{0}&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3&gt;Step 1: Loading data&lt;/h3&gt;
+
+&lt;p&gt;The data needed to create this visual is contained in three tables:
+&lt;strong&gt;Reconstruction (AD 1000-1980)&lt;/strong&gt;, &lt;strong&gt;Associated Error bars&lt;/strong&gt;, and
+&lt;strong&gt;Instrumental series (1902-1998)&lt;/strong&gt;. In the example, we start by loading
+the reconstructed temperatures.&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;Open &lt;strong&gt;Reconstruction (AD 1000-1980)&lt;/strong&gt;:
+&lt;a href="{1}"&gt;{1}&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;In a new Power BI Desktop file, select &lt;strong&gt;get data&lt;/strong&gt; in the
+upper left.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;In the dropdown menu, select &lt;strong&gt;Web&lt;/strong&gt;, and paste link in the
+URL window. Power BI automatically suggests a data type for
+the data. As we want to edit the year column, we will disable
+that feature. Set &lt;strong&gt;Data type detection&lt;/strong&gt; to &lt;strong&gt;Do not detect data
+type&lt;/strong&gt; and select &lt;strong&gt;edit&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="{2}" alt="" title="" /&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;This opens the Query Editor. The first column is empty, so you can
+delete that one. Rename Column 2 to &lt;strong&gt;Year&lt;/strong&gt;, and column 3
+&lt;strong&gt;Reconstructed Temp Change&lt;/strong&gt;. Change the data type of this column
+to decimal number by selecting the data type icon shown in the
+image below.
+&lt;p&gt;&lt;img src="{3}" alt="" title="" /&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;Change query name to &lt;strong&gt;Temperature data&lt;/strong&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Using the same principles, you can load the instrumental temperature
+data and error bars.&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;Still in the Query Editor, select &lt;strong&gt;New Source&lt;/strong&gt; in the &lt;strong&gt;Home&lt;/strong&gt;
+ribbon and enter the URL of the &lt;strong&gt;Instrumental series&lt;/strong&gt; table.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;In the pop-up window, select &lt;strong&gt;do not detect data types&lt;/strong&gt;, and then
+&lt;strong&gt;edit&lt;/strong&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Delete column 1, and rename Column 2 to &lt;strong&gt;Year&lt;/strong&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Rename column 3 to &lt;strong&gt;Instrumental Temp Change&lt;/strong&gt; and change its data
+type to decimal number&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Change the query name to &lt;strong&gt;Instrumental data&lt;/strong&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;&lt;p&gt;Next, you want to create one year column that you can use for all data
+points from the year 1000 to 1998. To do so, you can merge the two
+tables in the Query Editor, and add a new column for year.&lt;/p&gt;</value>
+  </data>
+</root>

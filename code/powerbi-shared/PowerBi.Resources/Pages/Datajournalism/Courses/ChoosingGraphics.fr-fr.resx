@@ -1,0 +1,284 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" id="root">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="About_Content" xml:space="preserve">
+    <value>&lt;p&gt;Vous allez également découvrir une série de démonstrations Microsoft Power BI. Leurs thèmes sont les suivants&amp;#160;: &lt;ul&gt;&lt;li&gt;Découvrez comment utiliser une visualisation personnalisée de graphique à puces pour fusionner des données en temps que méthode efficace pour présenter des informations.&lt;/li&gt;
+&lt;li&gt;Voyez comment tracer des données géographiques à partir d’un jeu de données de développement urbain extraites de la Banque mondiale pour visualiser une carte de forme circulaire, une carte en forme de champ, et créer une carte à partir d’un script R. &lt;/li&gt;&lt;li&gt;Comprenez comment définir correctement des axes en regardant des démonstrations utilisant les données de la Banque mondiale relatives au changement climatique, ainsi qu’un didacticiel séparé sur la création par MSN d’une solution d’analyse des préférences de vote pour le cycle électoral.&lt;/li&gt;
+&lt;li&gt;Reconnaissez le moment approprié pour utiliser une combinaison de visualisations de données interactive via un didacticiel résultant d’une collaboration entre Microsoft et la Real Sociedad pour déterminer les éléments de données à communiquer.&lt;/li&gt;&lt;/ul&gt;&lt;/p&gt;</value>
+  </data>
+  <data name="Article_Content_10" xml:space="preserve">
+    <value>&lt;h2 id="creating-chart"&gt;Création d’un graphique à puces dans Power&amp;#160;BI&lt;/h2&gt;
+
+&lt;p&gt;Pour suivre les exemples présentés dans ce cours, vous devez&amp;#160;:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;Disposer d’un ordinateur exécutant Windows&amp;#160;7 ou version ultérieure&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Télécharger et installer &lt;a href="{0}"&gt;Power&amp;#160;BI&amp;#160;Desktop&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Ouvrir un compte Power BI (&lt;a href="{1}"&gt;{2}&lt;/a&gt;)&lt;/p&gt;
+
+&lt;p&gt;a. Notez que, pour vous inscrire, vous devez utiliser un compte de messagerie professionnel. Les comptes personnels (gmail, Hotmail, outlook.com, yahoo.com, etc.) ne sont pas pris en charge&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3&gt;Étape&amp;#160;1&amp;#160;: charger les fichiers exemple&lt;/h3&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;Ouvrez le fichier &lt;strong&gt;Brazil IDEB Scores_final.pbix&lt;/strong&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Ce didacticiel utilise le visuel personnalisé &lt;strong&gt;graphique à puces de SQLBI&lt;/strong&gt; que vous pouvez télécharger à partir du lien suivant&amp;#160;:&lt;/p&gt;
+&lt;p&gt;&lt;a href="{3}"&gt;{3}&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src="{4}" alt="" title="" /&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Plusieurs mesures ont été créées pour prendre en charge cette visualisation.&lt;/p&gt;
+
+&lt;p&gt;a. Remarque&amp;#160;: le didacticiel précédent couvrait la création de mesures. Ces étapes ne sont donc pas répétées ici.
+    &lt;blockquote&gt;
+  &lt;p&gt;Goal = 6.0&lt;/p&gt;
+
+&lt;p&gt;National Average = CALCULATE(MOYENNE(IDEB2009[score]); ALL(IDEB2009))&lt;/p&gt;
+&lt;/blockquote&gt;
+    &lt;/p&gt;
+    &lt;/li&gt;
+&lt;/ol&gt;
+
+
+
+&lt;h3&gt;Étape&amp;#160;2&amp;#160;: utiliser les données&lt;/h3&gt;
+
+&lt;p&gt;&lt;strong&gt;Remarque&lt;/strong&gt;&amp;#160;: les mesures d’Objectif montrent comment ajouter une valeur statique pour votre rapport sans devoir utiliser l’expérience Obtenir des données. La mesure Moyenne nationale montre comment calculer et agréger un ensemble des lignes de données, en ignorant les filtres appliqués. Cela permet d’obtenir une mesure Moyenne nationale constante dans toutes les catégories du jeu de données, ainsi que d’autoriser la mise à jour de la valeur à chaque actualisation des données.&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;Appuyez sur l’icône &lt;strong&gt;Graphique à puces&lt;/strong&gt; dans le volet &lt;strong&gt;Visualisations&lt;/strong&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Ajoutez le champ &lt;strong&gt;État&lt;/strong&gt; de la table &lt;strong&gt;Liste des États brésiliens&lt;/strong&gt; à &lt;strong&gt;Catégorie&lt;/strong&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Ajoutez &lt;strong&gt;Score&lt;/strong&gt; à &lt;strong&gt;Valeur&lt;/strong&gt;. Il s’affiche en tant que Moyenne de score&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Ajoutez &lt;strong&gt;Moyenne nationale&lt;/strong&gt; à &lt;strong&gt;Valeur de comparaison&lt;/strong&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Ajoutez &lt;strong&gt;Objectif&lt;/strong&gt; à &lt;strong&gt;Valeur cible&lt;/strong&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Ajoutez un filtre au champ &lt;strong&gt;État&lt;/strong&gt; pour supprimer les valeurs vides&lt;/p&gt;
+
+&lt;p&gt;a. Le champ État n’est pas (Vide)&lt;/p&gt;
+&lt;p&gt;&lt;img src="{5}" alt="" title="" /&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Le graphique à puces étant sélectionné, sélectionnez le volet &lt;strong&gt;Format&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;a. Définissez les couleurs comme indiqué ci-dessous&lt;/p&gt;
+
+&lt;p&gt;b. Mettez le bouton bascule pour l’option &lt;strong&gt;État 1&lt;/strong&gt; en position &lt;strong&gt;Désactivé&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;c. Répétez l’étape précédente pour les 4 champs État restants&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;img src="{6}" alt="" title="" /&gt;&lt;/p&gt;
+
+&lt;p&gt;Le visuel obtenu facilite la comparaison du score d’IDEB moyen de chaque État à la moyenne nationale, aux autres États, et à l’objectif national.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src="{7}" alt="" title="" /&gt;&lt;/p&gt;
+
+&lt;h2 id="creating-data-maps"&gt;Création de cartes de données (en utilisant le visuel R pour tracer une carte en pointillés)&lt;/h2&gt;
+
+&lt;p&gt;Pour suivre les exemples présentés dans ce cours, vous devez&amp;#160;:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;Disposer d’un ordinateur exécutant Windows&amp;#160;7 ou version ultérieure&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Télécharger et installer &lt;a href="{8}"&gt;&lt;em&gt;Power&amp;#160;BI&amp;#160;Desktop&lt;/em&gt;&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Ouvrir un compte Power BI (&lt;a href="{1}"&gt;&lt;em&gt;{2}&lt;/em&gt;&lt;/a&gt;)&lt;/p&gt;
+
+&lt;p&gt;a. Notez que, pour vous inscrire, vous devez utiliser un compte de messagerie professionnel. Les comptes personnels (gmail, Hotmail, outlook.com, yahoo.com, etc.) ne sont pas pris en charge&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Lorsque vous tracez des cartes prêtes à l’emploi dans Power&amp;#160;BI, vous pouvez apporter au résultat une touche personnelle, en combinant des cartes choroplèthes et en pointillés, en ajoutant des lignes incurvées, ou en agrandissant une zone spécifique. Les visuels R offrent une grande liberté d’expérimentation et de personnalisation de résultats visuels. Ce didacticiel explique comment prendre en main le &lt;strong&gt;visuel Script&amp;#160;R&lt;/strong&gt; pour créer une carte simple.&lt;/p&gt;
+
+&lt;h3&gt;Étape&amp;#160;1&amp;#160;: installer R et un éditeur R&lt;/h3&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;Assurez-vous que vous avez installé R sur votre ordinateur, ainsi qu’un éditeur R tel que RStudio&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Dans votre éditeur&amp;#160;R, installez les deux packages, «&amp;#160;maps&amp;#160;» et «&amp;#160;mapproj&amp;#160;» en exécutant les commandes &lt;strong&gt;install.packages(maps)&lt;/strong&gt; et &lt;strong&gt;install.packages(mapproj)&lt;/strong&gt;. Cela a pour effet d’installer les packages sur votre ordinateur. Vous installez les packages une seule fois sur votre ordinateur, mais vous avez devez activer la bibliothèque à partir de Power&amp;#160;BI chaque fois que vous utilisez un package.&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3&gt;Étape&amp;#160;2&amp;#160;: créer un visuel&amp;#160;R&lt;/h3&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;Utilisez à présent l’icône R dans le volet &lt;strong&gt;Visualisations&lt;/strong&gt; à droite de la zone de dessin pour créer un visuel&amp;#160;R&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Faites glisser &lt;strong&gt;lat&lt;/strong&gt; et &lt;strong&gt;lng&lt;/strong&gt; à partir du tableau &lt;strong&gt;Villes du monde&lt;/strong&gt; sur le champ Valeurs&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Une fois le jeu de données défini, l’éditeur de script&amp;#160;R s’affiche. Les premières lignes du script sont complétées automatiquement pour créer un jeu de données à partir des champs sélectionnés. Vous pouvez à présent commencer à créer le visuel en utilisant (ou en modifiant) le code suivant&amp;#160;:&lt;/p&gt;
+&lt;ol&gt;
+    &lt;li&gt;&lt;p&gt;Appelez les bibliothèques &lt;strong&gt;maps&lt;/strong&gt; et &lt;strong&gt;mapproj&lt;/strong&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;library(maps)&lt;/p&gt;
+
+&lt;p&gt;library(mapproj)&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Dessinez une carte du monde sans vous soucier des tracés des frontières&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;map('world', col=NA)&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;dessinez un point pour chaque ville dans le jeu de données. Pch définit la forme du point, et cex vous permet d’en définir la taille.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;points(mapprojecT(dataset\$lng; dataset\$lat); col="black"; pch=19; cex=.1)&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+
+
+
+&lt;p&gt;Ceci n’est qu’un exemple de type de carte utilisant R. Il existe de nombreuses autres formes d’expérimentation.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src="{9}" alt="" title="" /&gt;&lt;/p&gt;</value>
+  </data>
+  <data name="Download_Resources" xml:space="preserve">
+    <value>Téléchargez les ressources nécessaires pour ces didacticiels</value>
+  </data>
+  <data name="Hero_Subtitle" xml:space="preserve">
+    <value>Alberto Cairo vous explique comment choisir les graphiques appropriés pour vos données. Le cerveau humain perçoit mieux des tendances quand elles sont converties en graphiques à barres, graphiques en courbes, cartes de données, nuages de points et autres graphiques. Alberto fournit une série de thèmes et de questions à suivre pour déterminer la représentation graphique appropriée pour vos données. Vous allez accéder à une vue d’ensemble des types de graphiques permettant d’obtenir des estimations précises, et des types de visuels permettant des estimations générales.</value>
+  </data>
+  <data name="Hero_Title" xml:space="preserve">
+    <value>Choix des graphiques</value>
+  </data>
+  <data name="InThisArticle" xml:space="preserve">
+    <value>Contenu de cet article :</value>
+  </data>
+  <data name="META_DESCRIPTION" xml:space="preserve">
+    <value />
+  </data>
+  <data name="META_KEYWORDS" xml:space="preserve">
+    <value />
+  </data>
+  <data name="META_PAGETITLE" xml:space="preserve">
+    <value>Journalisme de données - Choix des graphiques | Microsoft Power BI</value>
+  </data>
+  <data name="NextTopic" xml:space="preserve">
+    <value>Nouvelle rubrique : Récit de la conception</value>
+  </data>
+  <data name="RightNav_Link1" xml:space="preserve">
+    <value>Création d’un graphique à puces dans Power BI</value>
+  </data>
+  <data name="RightNav_Link2" xml:space="preserve">
+    <value>Création de cartes de données (en utilisant le visuel R pour tracer une carte en pointillés)</value>
+  </data>
+  <data name="Meta_LocJobId" xml:space="preserve">
+    <value>159</value>
+  </data>
+</root>

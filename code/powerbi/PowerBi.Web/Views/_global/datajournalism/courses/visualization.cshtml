@@ -1,0 +1,135 @@
+﻿@model PowerBI.Web.Models.Pages.DataJournalism.Details
+@using Resources = PowerBI.Resources.Pages.Datajournalism.Courses.Visualization
+@using SharedLefty = PowerBI.Resources.Shared.Parts.LeftNavigation
+
+@{
+    Model.PageTitle = Resources.META_PAGETITLE;
+    Model.MetaDescription = Resources.META_DESCRIPTION;
+    Model.MetaKeywords = Resources.META_KEYWORDS;
+}
+
+<section class="section section-size5 section-palette02 section-heading-only">
+    <div class="row">
+        <div class="column medium-8 medium-centered">
+            <h2 class="text-heading1 text-center">@Resources.Hero_Title</h2>
+            <div class="row row-size2 column">
+                <p>@Resources.Hero_Content</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="section section-size3 section-slate06">
+    <div class="row">
+        <div class="column medium-8 medium-centered">
+            @Html.Raw(Resources.About_Content)
+        </div>
+    </div>
+</section>
+
+<section class="section section-size4">
+    <div class="row">
+        <div class="column large-2">
+            <div class="navigationLeft navigationLeft-moreless">
+                <ul>
+                    @LeftyLink("visualization", SharedLefty.Area_Visualizations )
+                    @LeftyLink("data-exploration", @SharedLefty.Area_DataExploration)
+                    @LeftyLink("truthful-visualizations", @SharedLefty.Area_TruthfulVisualizations)
+                    @LeftyLink("choosing-graphics", @SharedLefty.Area_ChoosingGraphics)
+                    @LeftyLink("design-and-narrative", @SharedLefty.Area_DesignNarrative)
+                </ul>
+            </div>
+        </div>
+        <div class="column large-8 articlebody" itemprop="articlebody">
+            <div class="wa-navigationScroll fixed-element force-static" data-top-spacing="100" data-resting-position="absolute">
+                <span>@Resources.InThisArticle</span>
+                <ul class="scrollspy">
+                    <li>
+                        <a href="#world-temp-change">@Resources.RightNav_Link1</a>
+                    </li>
+                    <li>
+                        <a href="#create-pub">@Resources.RightNav_Link2</a>
+                    </li>
+                </ul>
+            </div>
+            <video id="datajournalismvideo1" class="article-video azuremediaplayer amp-default-skin amp-big-play-centered" data-src="//bapimediacdn-bapisitesmedia.streaming.mediaservices.windows.net/de399772-67e0-4e37-a5ca-699993e922fb/powerbi-datajournalism-course1.ism/manifest"></video>
+            <p><a href="@CdnHelper.GetCdnUrl("/pictures/pages/datajournalism/courses/visualization/tutorial_1.zip")">@Resources.Download_Resources</a></p>
+            <div class="row row-size2 column">
+                @Html.RawFormatInvariant(Resources.Start_Article_Content_4,
+                "http://www.meteo.psu.edu/holocene/public_html/Mann/research/res_pages/old/mbh99.html",
+                "http://www.meteo.psu.edu/holocene/public_html/Mann/research/res_pages/ONLINE-PREPRINTS/Millennium/DATA/RECONS/nhem-recon.dat",
+               CdnHelper.GetCdnUrl("/pictures/pages/datajournalism/courses/visualization/image01.png"),
+               CdnHelper.GetCdnUrl("/pictures/pages/datajournalism/courses/visualization/image02.png"))
+                
+                @Html.RawFormatInvariant(Resources.Article_Continue_Step1_3,
+                CdnHelper.GetCdnUrl("/pictures/pages/datajournalism/courses/visualization/image03.png"),
+                CdnHelper.GetCdnUrl("/pictures/pages/datajournalism/courses/visualization/image04.png"),
+                "http://www.meteo.psu.edu/holocene/public_html/Mann/research/res_pages/ONLINE-PREPRINTS/Millennium/DATA/RECONS/nhem-standerr-labeled.dat")
+
+                @Html.RawFormatInvariant(Resources.Article_Content_Step2_2,
+                CdnHelper.GetCdnUrl("/pictures/pages/datajournalism/courses/visualization/image05.png"),
+                CdnHelper.GetCdnUrl("/pictures/pages/datajournalism/courses/visualization/image06.png"))
+
+                @Html.RawFormatInvariant(Resources.Article_Content_Step2_3,
+                CdnHelper.GetCdnUrl("/pictures/pages/datajournalism/courses/visualization/image07.png"),
+                CdnHelper.GetCdnUrl("/pictures/pages/datajournalism/courses/visualization/image08.png"),
+                CdnHelper.GetCdnUrl("/pictures/pages/datajournalism/courses/visualization/image09.png"))
+
+
+                @Html.RawFormatInvariant(Resources.ArticleContinue_Content2_3,
+                @Html.LocalizeUrl("/desktop/"),
+                Html.LocalizeUrl("/get-started/"),
+               "www.powerbi.com/get-started/")
+               
+                @Html.RawFormatInvariant(Resources.Article_Content_Step3_10,
+               Html.LocalizeUrl("article:powerbi-service-excel-workbook-files"),
+                CdnHelper.GetCdnUrl("/pictures/pages/datajournalism/courses/visualization/image1.png"),
+               CdnHelper.GetCdnUrl("/pictures/pages/datajournalism/courses/visualization/image2.png"),
+               Html.LocalizeUrl("article:powerbi-desktop-quickstart-learn-dax-basics"), Html.LocalizeUrl("article:powerbi-desktop-tutorial-create-measures"),
+               CdnHelper.GetCdnUrl("/pictures/pages/datajournalism/courses/visualization/image3.png"),
+                CdnHelper.GetCdnUrl("/pictures/pages/datajournalism/courses/visualization/image4.png"),
+               CdnHelper.GetCdnUrl("/pictures/pages/datajournalism/courses/visualization/image5.png"),
+               CdnHelper.GetCdnUrl("/pictures/pages/datajournalism/courses/visualization/image6.png"),
+               CdnHelper.GetCdnUrl("/pictures/pages/datajournalism/courses/visualization/image7.png"))
+
+                @Html.RawFormatInvariant(Resources.Article_Content_Step4_7,
+               CdnHelper.GetCdnUrl("/pictures/pages/datajournalism/courses/visualization/image8.png"),
+               CdnHelper.GetCdnUrl("/pictures/pages/datajournalism/courses/visualization/image9.png"),
+               CdnHelper.GetCdnUrl("/pictures/pages/datajournalism/courses/visualization/image10.png"),
+              CdnHelper.GetCdnUrl("/pictures/pages/datajournalism/courses/visualization/image11.png"),
+               CdnHelper.GetCdnUrl("/pictures/pages/datajournalism/courses/visualization/image12.png"),
+               CdnHelper.GetCdnUrl("/pictures/pages/datajournalism/courses/visualization/image13.png"),
+               CdnHelper.GetCdnUrl("/pictures/pages/datajournalism/courses/visualization/image14.png"))
+               
+                @Html.RawFormatInvariant(Resources.Article_Content_Step5_9,
+               CdnHelper.GetCdnUrl("/pictures/pages/datajournalism/courses/visualization/image15.png"),
+               CdnHelper.GetCdnUrl("/pictures/pages/datajournalism/courses/visualization/image16.png"),
+               CdnHelper.GetCdnUrl("/pictures/pages/datajournalism/courses/visualization/image17.png"),
+               CdnHelper.GetCdnUrl("/pictures/pages/datajournalism/courses/visualization/image18.png"),
+               CdnHelper.GetCdnUrl("/pictures/pages/datajournalism/courses/visualization/image19.png"),
+               "http://www.powerbi.com", 
+               "www.powerbi.com",
+               CdnHelper.GetCdnUrl("/pictures/pages/datajournalism/courses/visualization/image20.png"),
+               CdnHelper.GetCdnUrl("/pictures/pages/datajournalism/courses/visualization/image21.png"))
+
+                @Html.RawFormatInvariant(Resources.Article_Content_Step6_5,
+                Html.LocalizeUrl("article:powerbi-service-publish-to-web"), "https://app.powerbi.com/view?r=eyJrIjoiYjQ_snip",
+               CdnHelper.GetCdnUrl("/pictures/pages/datajournalism/courses/visualization/image22.png"),
+               CdnHelper.GetCdnUrl("/pictures/pages/datajournalism/courses/visualization/image23.png"),
+               CdnHelper.GetCdnUrl("/pictures/pages/datajournalism/courses/visualization/image24.png"))
+            </div>
+            <div class="row row-size2 column text-center">
+                <a href="@Html.LocalizeUrl("/datajournalism/courses/data-exploration/")" class="button button-featured button-block">@Resources.NextTopic</a>
+            </div>
+        </div>
+        <div class="column large-2 column-navigationScroll">
+        </div>
+    </div>
+</section>
+
+@helper LeftyLink(string link, string value)
+{
+    <li>
+         <a href="@Html.LocalizeUrl($"/datajournalism/courses/{link}/")" class="articles-clicked-link @(link == Model.ActiveSlug ? "active" : null)">@value</a>
+    </li>
+}

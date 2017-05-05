@@ -1,0 +1,457 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" id="root">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="CampaignAnalytics_Description" xml:space="preserve">
+    <value>&lt;ul&gt;
+&lt;li&gt;Analysez les campagnes en temps réel&lt;/li&gt;
+&lt;li&gt;Détectez les changements dans les tendances et les sentiments des clients&lt;/li&gt;
+&lt;li&gt;Comparez le chiffre d’affaires réel, les coûts et le retour sur investissement pour des segments, des campagnes, des canaux ou d’autres éléments&lt;/li&gt;
+&lt;/ul&gt;</value>
+  </data>
+  <data name="CampaignAnalytics_Tagline" xml:space="preserve">
+    <value>Convertissez les données marketing en informations concrètes grâce à des tableaux de bord interactifs qui rendent les résultats accessibles.</value>
+  </data>
+  <data name="CampaignAnalytics_Title" xml:space="preserve">
+    <value>Analyse des campagnes</value>
+  </data>
+  <data name="CapexManagement_Description" xml:space="preserve">
+    <value>&lt;ul&gt;
+&lt;li&gt;Détectez plus tôt les augmentations de coûts imprévues grâce aux mises à jour en temps réel&lt;/li&gt;
+&lt;li&gt;Réagissez rapidement aux changements et entreprenez des actions correctives&lt;/li&gt;
+&lt;li&gt;Partagez des rapports avec les équipes concernées en seulement quelques clics&lt;/li&gt;
+&lt;/ul&gt;</value>
+  </data>
+  <data name="CapexManagement_Tagline" xml:space="preserve">
+    <value>Gagnez du temps sur les analyses stratégiques : n’en perdez plus à rechercher les données.</value>
+  </data>
+  <data name="CapexManagement_Title" xml:space="preserve">
+    <value>Gestion des dépenses d’investissement</value>
+  </data>
+  <data name="ClaimsAnalysis_Description" xml:space="preserve">
+    <value>&lt;ul&gt;
+&lt;li&gt;Améliorez l’efficacité en analysant des métriques comme la demande totale antérieure, les quantités produites ou les délais d’expédition&lt;/li&gt;
+&lt;li&gt;Consultez vos données sur un tableau de bord avec des fonctionnalités de glisser-déposer et des visualisations attrayantes&lt;/li&gt;
+&lt;li&gt;Gérez une seule et même version de la réalité entre les différents services et exposez une vision plus claire&lt;/li&gt;
+&lt;/ul&gt;</value>
+  </data>
+  <data name="ClaimsAnalysis_Tagline" xml:space="preserve">
+    <value>Réagissez plus rapidement grâce à des alertes sur les délais de livraison, les ruptures de stock et d’autres éléments dont la chronologie est critique.</value>
+  </data>
+  <data name="ClaimsAnalysis_Title" xml:space="preserve">
+    <value>Analyse des demandes</value>
+  </data>
+  <data name="ComplianceTraining_Description" xml:space="preserve">
+    <value>&lt;ul&gt;
+&lt;li&gt;Suivez la progression et la croissance d’éléments individuels par rapport à des objectifs et des métriques basées sur des rôles&lt;/li&gt;
+&lt;li&gt;Faites des recherches en temps réel en accédant aux données sous-jacentes à l’aide de simples clics&lt;/li&gt;
+&lt;li&gt;Posez des questions en langage naturel à l’aide du format Questions et réponses intuitif de Power&amp;#160;BI&lt;/li&gt;
+&lt;/ul&gt;</value>
+  </data>
+  <data name="ComplianceTraining_Tagline" xml:space="preserve">
+    <value>Prenez des décisions en connaissance de cause avec des tableaux de bord interactifs qui vous permettent d’accéder aux données détaillées.</value>
+  </data>
+  <data name="ComplianceTraining_Title" xml:space="preserve">
+    <value>Formation à la conformité</value>
+  </data>
+  <data name="EmailAnalytics_Description" xml:space="preserve">
+    <value>&lt;ul&gt;
+&lt;li&gt;Tirez parti des tableaux de bord et des rapports prédéfinis pour comprendre rapidement les résultats des campagnes&lt;/li&gt;
+&lt;li&gt;Comparez les résultats entre des campagnes, des segments de clientèle et des régions géographiques&lt;/li&gt;
+&lt;li&gt;Découvrez comment mieux adapter votre approche marketing à des audiences spécifiques&lt;/li&gt;
+&lt;/ul&gt;</value>
+  </data>
+  <data name="EmailAnalytics_Tagline" xml:space="preserve">
+    <value>Livrez une bonne analyse avec des informations en temps réel qui communiquent des résultats importants, comme le retour sur investissement.</value>
+  </data>
+  <data name="EmailAnalytics_Title" xml:space="preserve">
+    <value>Analyse des e-mails</value>
+  </data>
+  <data name="ExpenseManagement_Description" xml:space="preserve">
+    <value>&lt;ul&gt;
+&lt;li&gt;Détectez tôt les dépenses hors norme et les anomalies grâce à des visualisations intuitives&lt;/li&gt;
+&lt;li&gt;Analysez les tendances et les répétitions de schémas pour rechercher de façon anticipée des indications de fraudes et d’abus&lt;/li&gt;
+&lt;li&gt;Bénéficiez de données toujours actualisées grâce aux mises à jour automatiques&lt;/li&gt;
+&lt;/ul&gt;</value>
+  </data>
+  <data name="ExpenseManagement_Tagline" xml:space="preserve">
+    <value>Obtenez une vue de vos finances sur un seul écran, avec toutes vos sources de données combinées en un seul modèle.</value>
+  </data>
+  <data name="ExpenseManagement_Title" xml:space="preserve">
+    <value>Gestion des dépenses</value>
+  </data>
+  <data name="Finance_Description" xml:space="preserve">
+    <value>Obtenez-vous les réponses dont vous avez besoin quant à vos performances financières ? Power BI facilite la collecte des données auprès de chaque source, qu’elle soit externe ou locale, et vous offre des outils de visualisation par glisser-déplacer pour analyser et explorer rapidement vos informations.</value>
+  </data>
+  <data name="Finance_DetailTagline" xml:space="preserve">
+    <value>Convertissez les résultats nets en stratégies de haut niveau</value>
+  </data>
+  <data name="Finance_IndexTagline" xml:space="preserve">
+    <value>Tirez de vos chiffres les réponses dont vous avez besoin</value>
+  </data>
+  <data name="Finance_Title" xml:space="preserve">
+    <value>Finance</value>
+  </data>
+  <data name="FinancialPerformance_Description" xml:space="preserve">
+    <value>&lt;ul&gt;
+&lt;li&gt;Consultez toutes vos données dans une seule et même vue, du solde global aux détails des comptes&lt;/li&gt;
+&lt;li&gt;Cliquez pour explorer des régions ou des segments spécifiques&lt;/li&gt;
+&lt;li&gt;Prenez des décisions plus rapidement avec des mises à jour en temps réel&lt;/li&gt;
+&lt;/ul&gt;</value>
+  </data>
+  <data name="FinancialPerformance_Tagline" xml:space="preserve">
+    <value>Obtenez une vision complète à travers différentes sources de données en quelques secondes.</value>
+  </data>
+  <data name="FinancialPerformance_Title" xml:space="preserve">
+    <value>Performances financières</value>
+  </data>
+  <data name="HeadcountSummary_Description" xml:space="preserve">
+    <value>&lt;ul&gt;
+&lt;li&gt;Obtenez des informations sur les dernières tendances de fidélisation et de renouvellement du personnel&lt;/li&gt;
+&lt;li&gt;Restez à jour en planifiant l’actualisation automatique des données&lt;/li&gt;
+&lt;li&gt;Activez des alertes mobiles pour être informé des changements dans votre pipeline de recrutement&lt;/li&gt;
+&lt;/ul&gt;</value>
+  </data>
+  <data name="HeadcountSummary_Tagline" xml:space="preserve">
+    <value>Planifiez de façon plus efficace en visualisant les besoins actuels et prévus à un seul et même endroit.</value>
+  </data>
+  <data name="HeadcountSummary_Title" xml:space="preserve">
+    <value>Résumé des informations sur les effectifs</value>
+  </data>
+  <data name="HelpDesk_Description" xml:space="preserve">
+    <value>&lt;ul&gt;
+&lt;li&gt;Simplifiez la résolution des tickets en optimisant les ressources du support technique en fonction des données de tendance&lt;/li&gt;
+&lt;li&gt;Utilisez des graphiques pour comparer des métriques clés en temps réel, notamment le trafic et les principaux problèmes du support technique&lt;/li&gt;
+&lt;li&gt;Bâtissez de meilleures relations avec vos clients en réduisant le besoin de tickets d’aide&lt;/li&gt;
+&lt;/ul&gt;</value>
+  </data>
+  <data name="HelpDesk_Tagline" xml:space="preserve">
+    <value>Identifiez les risques plus tôt en suivant des métriques clés en temps réel.</value>
+  </data>
+  <data name="HelpDesk_Title" xml:space="preserve">
+    <value>Support technique</value>
+  </data>
+  <data name="HumanResources_Description" xml:space="preserve">
+    <value>Vous devez savoir à tout moment où en sont vos initiatives ? Power BI propose des outils qui permettent de collecter et de surveiller facilement toutes vos données importantes. Protégez plus efficacement vos collègues et votre entreprise grâce à des tableaux de bord qui vous aident à gérer le suivi de la conformité, des effectifs ou d’autres éléments.</value>
+  </data>
+  <data name="HumanResources_DetailTagline" xml:space="preserve">
+    <value>Transformez vos données en nouvelles opportunités</value>
+  </data>
+  <data name="HumanResources_IndexTagline" xml:space="preserve">
+    <value>Définissez des stratégies pour votre organisation à partir de vos données</value>
+  </data>
+  <data name="HumanResources_Title" xml:space="preserve">
+    <value>Ressources humaines</value>
+  </data>
+  <data name="ITSpend_Description" xml:space="preserve">
+    <value>&lt;ul&gt;
+&lt;li&gt;Connectez facilement Power&amp;#160;BI à d’autres outils&lt;/li&gt;
+&lt;li&gt;Intégrez Power&amp;#160;BI à vos solutions existantes, afin d’obtenir une approche de bout en bout de l’analyse des données&lt;/li&gt;
+&lt;li&gt;Travaillez aussi bien avec des produits Microsoft, comme Azure Active Directory, qu’avec des produits non-Microsoft comme SAP&lt;/li&gt;
+&lt;/ul&gt;</value>
+  </data>
+  <data name="ITSpend_Tagline" xml:space="preserve">
+    <value>Tout ce dont vous avez besoin se trouve à un seul et même endroit, notamment les systèmes réseau, les services, les applications et les données de sécurité.</value>
+  </data>
+  <data name="ITSpend_Title" xml:space="preserve">
+    <value>Dépenses informatiques</value>
+  </data>
+  <data name="IT_Description" xml:space="preserve">
+    <value>Vous voulez améliorer la productivité d’une façon à la fois rapide et abordable ? Avec Power BI, vous pouvez créer en quelques secondes des tableaux de bord qui surveillent et analysent tout, d’Active Directory à Zendesk, puis les intégrer sans difficulté à SSAS quand vous avez besoin de solutions décisionnelles à l’échelle de l’entreprise.</value>
+  </data>
+  <data name="IT_DetailTagline" xml:space="preserve">
+    <value>Rendez le décisionnel plus accessible</value>
+  </data>
+  <data name="IT_IndexTagline" xml:space="preserve">
+    <value>Surveillez tous vos systèmes à partir d’un seul tableau de bord</value>
+  </data>
+  <data name="IT_Title" xml:space="preserve">
+    <value>Informatique</value>
+  </data>
+  <data name="Marketing_Description" xml:space="preserve">
+    <value>Êtes-vous submergé par les données provenant des différents outils que vous utilisez ? Simplifiez-vous la tâche : avec Power BI, vous pouvez facilement surveiller et analyser vos campagnes marketing et allouer efficacement vos ressources aux canaux appropriés, le tout au même endroit.</value>
+  </data>
+  <data name="Marketing_DetailTagline" xml:space="preserve">
+    <value>Développez des relations fructueuses avec vos clients</value>
+  </data>
+  <data name="Marketing_IndexTagline" xml:space="preserve">
+    <value>Suivez toutes vos campagnes à partir d’un seul tableau de bord</value>
+  </data>
+  <data name="Marketing_Title" xml:space="preserve">
+    <value>Marketing</value>
+  </data>
+  <data name="MarketShare_Description" xml:space="preserve">
+    <value>&lt;ul&gt;
+&lt;li&gt;Publiez et présentez vos parts de marché en tirant parti des visualisations interactives&lt;/li&gt;
+&lt;li&gt;Appliquez des actions correctives plus rapidement grâce à une visibilité améliorée de tous les aspects de la campagne&lt;/li&gt;
+&lt;li&gt;Partagez vos conclusions partout, y compris sur des appareils mobiles&lt;/li&gt;
+&lt;/ul&gt;</value>
+  </data>
+  <data name="MarketShare_Tagline" xml:space="preserve">
+    <value>Trouvez des informations exploitables et publiez-les instantanément dans des tableaux de bord interactifs accessibles depuis tous les appareils.</value>
+  </data>
+  <data name="MarketShare_Title" xml:space="preserve">
+    <value>Parts de marché</value>
+  </data>
+  <data name="Operations_Description" xml:space="preserve">
+    <value>Votre organisation est-elle réellement pilotée par les données ? Avec Power BI, vous pouvez rapidement suivre et étudier vos données, qu’elles viennent de classeurs Excel, de bases de données locales ou de services cloud. Recherchez de nouvelles informations pour votre production, les performances de vos points de vente, l’analyse des réclamations, et bien plus encore.</value>
+  </data>
+  <data name="Operations_DetailTagline" xml:space="preserve">
+    <value>Gardez une longueur d’avance sur la demande</value>
+  </data>
+  <data name="Operations_IndexTagline" xml:space="preserve">
+    <value>Investissez vos données et trouvez de nouvelles approches d’efficacité</value>
+  </data>
+  <data name="Operations_Title" xml:space="preserve">
+    <value>Opérations</value>
+  </data>
+  <data name="PipelineReports_Description" xml:space="preserve">
+    <value>&lt;ul&gt;
+&lt;li&gt;Suivez le pipeline de vos ventes en temps réel&lt;/li&gt;
+&lt;li&gt;Obtenez des informations précises pour alimenter vos prévisions et vos plans pour les ventes&lt;/li&gt;
+&lt;li&gt;Connectez et manipulez facilement les données à un seul endroit, pour des analyses plus complètes&lt;/li&gt;
+&lt;/ul&gt;</value>
+  </data>
+  <data name="PipelineReports_Tagline" xml:space="preserve">
+    <value>Décidez en étant mieux informé grâce à un accès rapide aux données détaillées des ventes.</value>
+  </data>
+  <data name="PipelineReports_Title" xml:space="preserve">
+    <value>Rapport sur le pipeline</value>
+  </data>
+  <data name="Production_Description" xml:space="preserve">
+    <value>&lt;ul&gt;
+&lt;li&gt;Organisez des réunions debout directement dans les ateliers ou les entrepôts, avec des tableaux de bord dynamiques&lt;/li&gt;
+&lt;li&gt;Optimisez les performances de la fabrication&lt;/li&gt;
+&lt;li&gt;Identifiez facilement les possibilités d’amélioration des processus&lt;/li&gt;
+&lt;/ul&gt;</value>
+  </data>
+  <data name="Production_Tagline" xml:space="preserve">
+    <value>Améliorez les informations en combinant les données de la production à la distribution.</value>
+  </data>
+  <data name="Production_Title" xml:space="preserve">
+    <value>Production</value>
+  </data>
+  <data name="QuotaManagement_Description" xml:space="preserve">
+    <value>&lt;ul&gt;
+&lt;li&gt;Obtenez des informations sur la progression des ventes par rapport aux prévisions&lt;/li&gt;
+&lt;li&gt;Analysez facilement les performances pour des zones géographiques spécifiques ou des gestionnaires de comptes individuels&lt;/li&gt;
+&lt;/ul&gt;</value>
+  </data>
+  <data name="QuotaManagement_Tagline" xml:space="preserve">
+    <value>Prenez des décisions pilotées par les données pour le futur, en fonction des informations du passé et du présent.</value>
+  </data>
+  <data name="QuotaManagement_Title" xml:space="preserve">
+    <value>Gestion des quotas</value>
+  </data>
+  <data name="RevenueProfitability_Description" xml:space="preserve">
+    <value>&lt;ul&gt;
+&lt;li&gt;Réagissez vite aux dernières données de chiffre d’affaires grâce aux rapports à la demande&lt;/li&gt;
+&lt;li&gt;Combinez les données pour identifier les écarts&lt;/li&gt;
+&lt;li&gt;Faites des prévisions avec suffisamment d’avance pour entreprendre les bonnes actions au bon moment&lt;/li&gt;
+&lt;/ul&gt;</value>
+  </data>
+  <data name="RevenueProfitability_Tagline" xml:space="preserve">
+    <value>Donnez des réponses rapides grâce à des tableaux de bord financiers destinés à la direction.</value>
+  </data>
+  <data name="RevenueProfitability_Title" xml:space="preserve">
+    <value>Chiffre d’affaires et rentabilité</value>
+  </data>
+  <data name="SalesPerformance_Description" xml:space="preserve">
+    <value>&lt;ul&gt;
+&lt;li&gt;Tirez parti des données dynamiques et des tableaux de bord en temps réel pour observer les performances des ventes actuelles&lt;/li&gt;
+&lt;li&gt;Identifiez facilement les secteurs de votre activité qui n’atteignent pas les objectifs&lt;/li&gt;
+&lt;li&gt;Déterminez l’écart entre le chiffre d’affaires réel et les objectifs de vente par segment&lt;/li&gt;
+&lt;/ul&gt;</value>
+  </data>
+  <data name="SalesPerformance_Tagline" xml:space="preserve">
+    <value>Obtenez une vision unique globale des performances de vos ventes sur les différents segments.</value>
+  </data>
+  <data name="SalesPerformance_Title" xml:space="preserve">
+    <value>Performances des ventes</value>
+  </data>
+  <data name="Sales_Description" xml:space="preserve">
+    <value>Vous voulez obtenir de meilleures prévisions de ventes, atteindre votre objectif de réaliser des ventes record ou améliorer la marge par vente ? Power BI vous permet de scruter les détails du pipeline des ventes de votre entreprise en quelques secondes, grâce à des tableaux de bord qui contiennent vos données Microsoft Dynamics CRM ou Salesforce.com.</value>
+  </data>
+  <data name="Sales_DetailTagline" xml:space="preserve">
+    <value>Convertissez les résultats nets en stratégies de haut niveau</value>
+  </data>
+  <data name="Sales_IndexTagline" xml:space="preserve">
+    <value>Affinez vos quotas et optimisez vos prévisions d’avenir</value>
+  </data>
+  <data name="Sales_Title" xml:space="preserve">
+    <value>Ventes</value>
+  </data>
+  <data name="SecurityCompliance_Description" xml:space="preserve">
+    <value>&lt;ul&gt;
+&lt;li&gt;Améliorez la sécurité réseau grâce à une détection précoce des risques liés à la conformité&lt;/li&gt;
+&lt;li&gt;Suivez en temps le respect de différentes normes, notamment en matière de sécurité et de logiciels&lt;/li&gt;
+&lt;li&gt;Rassemblez les données de sécurité, comme les journaux d’accès au réseau, et représentez-les graphiquement dans un même tableau de bord&lt;/li&gt;
+&lt;/ul&gt;</value>
+  </data>
+  <data name="SecurityCompliance_Tagline" xml:space="preserve">
+    <value>Donnez à vos utilisateurs une indépendance vis-à-vis des données via un développement plus facile des rapports, qui combine plusieurs sources en un même modèle.</value>
+  </data>
+  <data name="SecurityCompliance_Title" xml:space="preserve">
+    <value>Sécurité et conformité</value>
+  </data>
+  <data name="StorePerformance_Description" xml:space="preserve">
+    <value>&lt;ul&gt;
+&lt;li&gt;Maîtrisez l’allocation de vos ressources dans les différentes zones géographiques&lt;/li&gt;
+&lt;li&gt;Gérez de façon précise les chiffres de votre inventaire avec des métriques dynamiques qui vous donnent une vue d’ensemble de la situation&lt;/li&gt;
+&lt;li&gt;Détectez facilement les tendances pour mieux analyser à quels produits donner la priorité&lt;/li&gt;
+&lt;/ul&gt;</value>
+  </data>
+  <data name="StorePerformance_Tagline" xml:space="preserve">
+    <value>Informez vos équipes de façon similaire en partageant les données opérationnelles les plus récentes en quelques clics.</value>
+  </data>
+  <data name="StorePerformance_Title" xml:space="preserve">
+    <value>Performances des lieux de vente</value>
+  </data>
+  <data name="Trends_Description" xml:space="preserve">
+    <value>&lt;ul&gt;
+&lt;li&gt;Suivez les tendances des ventes pour optimiser les stratégies et fournir des informations pour les business plans à long terme&lt;/li&gt;
+&lt;li&gt;Partagez des informations avec les équipes commerciales&lt;/li&gt;
+&lt;li&gt;Ajustez dynamiquement vos tactiques et faites des mises à jour en temps réel sur tous les appareils&lt;/li&gt;
+&lt;/ul&gt;</value>
+  </data>
+  <data name="Trends_Tagline" xml:space="preserve">
+    <value>Tenez informée votre équipe en partageant rapidement des éléments visuels interactifs avec d’autres personnes.</value>
+  </data>
+  <data name="Trends_Title" xml:space="preserve">
+    <value>Tendances</value>
+  </data>
+  <data name="WebSocialAnalytics_Description" xml:space="preserve">
+    <value>&lt;ul&gt;
+&lt;li&gt;Suivez les sentiments des clients en temps réel&lt;/li&gt;
+&lt;li&gt;Adaptez vos campagnes sur le web et sur les réseaux sociaux en fonction des tendances émergentes&lt;/li&gt;
+&lt;li&gt;Surveillez les réactions des clients aux tactiques développées sur les médias sociaux&lt;/li&gt;
+&lt;/ul&gt;</value>
+  </data>
+  <data name="WebSocialAnalytics_Tagline" xml:space="preserve">
+    <value>Obtenez une vue globale en affichant les analyses du web, des e-mails et des réseaux sociaux à un seul et même endroit.</value>
+  </data>
+  <data name="WebSocialAnalytics_Title" xml:space="preserve">
+    <value>Analyse du web et des réseaux sociaux</value>
+  </data>
+  <data name="SubNavTitle" xml:space="preserve">
+    <value>Départements</value>
+  </data>
+  <data name="Meta_LocJobId" xml:space="preserve">
+    <value>71</value>
+  </data>
+</root>

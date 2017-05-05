@@ -1,0 +1,28 @@
+﻿@import (reference) '../../less/mixins.d.less';
+@import (reference) '../../less/variables.d.less';
+
+.video {
+    display: block;
+    position: relative;
+
+    .icon {
+        .center();
+        height: 15%;
+        width: 11%;
+    }
+
+    img {
+        width: 100%;
+    }
+}
+
+.inline-video-container {
+    .inline-video-wrapper {
+        width: 100%;
+
+        @media only screen and (min-width: @resolution-large) {
+            .transform-translate(0, -50%);
+            top: 50%;
+        }
+    }
+}

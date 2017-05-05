@@ -1,0 +1,47 @@
+﻿@import (reference) '../../../less/mixins.d.less';
+@import (reference) '../../../less/variables.d.less';
+
+@image-size: 62px;
+@bio-padding: 8px;
+
+.post-bio {
+    display: block;
+
+    .post-image {
+        display: inline-block;
+        height: @image-size;
+        width: @image-size;
+    }
+
+    .post-author-meta {
+        display: inline-block;
+        vertical-align: top;
+    }
+}
+
+@media only screen and (min-width: @resolution-medium) {
+    .post-bio {
+        height: @image-size - @bio-padding;
+        margin: @spacing-size4 0;
+        padding: @bio-padding 0 0 82px; // 20px more than the 62x62px image
+        position: relative;
+
+        .post-image {
+            left: 0;
+            position: absolute;
+            top: 0;
+        }
+
+        .post-date {
+            position: absolute;
+            right: 0;
+            top: 0;
+        }
+
+        .post-share {
+            position: absolute;
+            right: 0;
+            top: 30px;
+        }
+    }
+}

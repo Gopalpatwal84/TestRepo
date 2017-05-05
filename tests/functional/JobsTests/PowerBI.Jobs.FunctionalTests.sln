@@ -1,0 +1,94 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Shared", "Shared", "{5D4D99AA-E95F-4905-85B8-C0676CBA83B4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PowerBi.Messages", "..\..\..\code\powerbi-shared\PowerBi.Messages\PowerBi.Messages.csproj", "{77B602B1-6EF4-4849-A5DC-32B114C07073}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PowerBI.Data", "..\..\..\code\powerbi-jobs\PowerBI.Data\PowerBI.Data.csproj", "{13503D04-0A58-4F41-A23D-12957A8B36C0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PowerBI.Jobs.FunctionalTests", "PowerBI.Jobs.FunctionalTests\PowerBI.Jobs.FunctionalTests.csproj", "{3AF30E72-DA24-485B-86D4-9BEE1B90ACF0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PowerBI.Jobs.Forms.SignupRequests.FunctionalTests", "PowerBI.Jobs.Forms.SignupRequests.FunctionalTests\PowerBI.Jobs.Forms.SignupRequests.FunctionalTests.csproj", "{35F6A0BD-0DB4-44FF-B2D2-A72C4E284DB0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PowerBI.KuduServices", "PowerBI.KuduServices\PowerBI.KuduServices.csproj", "{BAD23935-04FE-457F-B8DB-FDEC0F0739AE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PowerBI.AzureManagementServices", "PowerBI.AzureManagementServices\PowerBI.AzureManagementServices.csproj", "{0131B3E1-776C-4FD8-AF27-BBB7E4FE7889}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PowerBI.Jobs.Forms.FunctionalTests", "PowerBI.Jobs.Forms.FunctionalTests\PowerBI.Jobs.Forms.FunctionalTests.csproj", "{95B93415-8FEB-4E1B-8AA4-8DBD5695EB68}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PowerBi.Entities", "..\..\..\code\powerbi-shared\PowerBi.Entities\PowerBi.Entities.csproj", "{6BEF81F7-93E6-4946-9473-6CDD72717496}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PowerBI.Jobs.Forms.Data", "..\..\..\code\powerbi-jobs\PowerBI.Jobs.Forms.Data\PowerBI.Jobs.Forms.Data.csproj", "{643E5DC8-BF14-4D52-8CCB-44616A0A88AE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PowerBI.Jobs.DocumentationFeedback.Data", "..\..\..\code\powerbi-jobs\PowerBI.Jobs.DocumentationFeedback.Data\PowerBI.Jobs.DocumentationFeedback.Data.csproj", "{C1EC4E84-01A4-4E76-8345-8EDE0AC9FC46}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PowerBI.Jobs.Forms.DocumentationFeedback.FunctionalTests", "PowerBI.Jobs.Forms.DocumentationFeedback.FunctionalTests\PowerBI.Jobs.Forms.DocumentationFeedback.FunctionalTests.csproj", "{B6E48C3E-6167-4917-AC08-FCBCB6AB45CF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{77B602B1-6EF4-4849-A5DC-32B114C07073}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{77B602B1-6EF4-4849-A5DC-32B114C07073}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{77B602B1-6EF4-4849-A5DC-32B114C07073}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{77B602B1-6EF4-4849-A5DC-32B114C07073}.Release|Any CPU.Build.0 = Release|Any CPU
+		{13503D04-0A58-4F41-A23D-12957A8B36C0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{13503D04-0A58-4F41-A23D-12957A8B36C0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{13503D04-0A58-4F41-A23D-12957A8B36C0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{13503D04-0A58-4F41-A23D-12957A8B36C0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3AF30E72-DA24-485B-86D4-9BEE1B90ACF0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3AF30E72-DA24-485B-86D4-9BEE1B90ACF0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3AF30E72-DA24-485B-86D4-9BEE1B90ACF0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3AF30E72-DA24-485B-86D4-9BEE1B90ACF0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{35F6A0BD-0DB4-44FF-B2D2-A72C4E284DB0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{35F6A0BD-0DB4-44FF-B2D2-A72C4E284DB0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{35F6A0BD-0DB4-44FF-B2D2-A72C4E284DB0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{35F6A0BD-0DB4-44FF-B2D2-A72C4E284DB0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BAD23935-04FE-457F-B8DB-FDEC0F0739AE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BAD23935-04FE-457F-B8DB-FDEC0F0739AE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BAD23935-04FE-457F-B8DB-FDEC0F0739AE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BAD23935-04FE-457F-B8DB-FDEC0F0739AE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0131B3E1-776C-4FD8-AF27-BBB7E4FE7889}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0131B3E1-776C-4FD8-AF27-BBB7E4FE7889}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0131B3E1-776C-4FD8-AF27-BBB7E4FE7889}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0131B3E1-776C-4FD8-AF27-BBB7E4FE7889}.Release|Any CPU.Build.0 = Release|Any CPU
+		{95B93415-8FEB-4E1B-8AA4-8DBD5695EB68}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{95B93415-8FEB-4E1B-8AA4-8DBD5695EB68}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{95B93415-8FEB-4E1B-8AA4-8DBD5695EB68}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{95B93415-8FEB-4E1B-8AA4-8DBD5695EB68}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6BEF81F7-93E6-4946-9473-6CDD72717496}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6BEF81F7-93E6-4946-9473-6CDD72717496}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6BEF81F7-93E6-4946-9473-6CDD72717496}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6BEF81F7-93E6-4946-9473-6CDD72717496}.Release|Any CPU.Build.0 = Release|Any CPU
+		{643E5DC8-BF14-4D52-8CCB-44616A0A88AE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{643E5DC8-BF14-4D52-8CCB-44616A0A88AE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{643E5DC8-BF14-4D52-8CCB-44616A0A88AE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{643E5DC8-BF14-4D52-8CCB-44616A0A88AE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C1EC4E84-01A4-4E76-8345-8EDE0AC9FC46}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C1EC4E84-01A4-4E76-8345-8EDE0AC9FC46}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C1EC4E84-01A4-4E76-8345-8EDE0AC9FC46}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C1EC4E84-01A4-4E76-8345-8EDE0AC9FC46}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B6E48C3E-6167-4917-AC08-FCBCB6AB45CF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B6E48C3E-6167-4917-AC08-FCBCB6AB45CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B6E48C3E-6167-4917-AC08-FCBCB6AB45CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B6E48C3E-6167-4917-AC08-FCBCB6AB45CF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{77B602B1-6EF4-4849-A5DC-32B114C07073} = {5D4D99AA-E95F-4905-85B8-C0676CBA83B4}
+		{13503D04-0A58-4F41-A23D-12957A8B36C0} = {5D4D99AA-E95F-4905-85B8-C0676CBA83B4}
+		{6BEF81F7-93E6-4946-9473-6CDD72717496} = {5D4D99AA-E95F-4905-85B8-C0676CBA83B4}
+		{643E5DC8-BF14-4D52-8CCB-44616A0A88AE} = {5D4D99AA-E95F-4905-85B8-C0676CBA83B4}
+		{C1EC4E84-01A4-4E76-8345-8EDE0AC9FC46} = {5D4D99AA-E95F-4905-85B8-C0676CBA83B4}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		EnterpriseLibraryConfigurationToolBinariesPathV6 = packages\EnterpriseLibrary.TransientFaultHandling.6.0.1304.0\lib\portable-net45+win+wp8;packages\EnterpriseLibrary.TransientFaultHandling.Data.6.0.1304.1\lib\NET45
+	EndGlobalSection
+EndGlobal

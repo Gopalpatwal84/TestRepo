@@ -1,0 +1,407 @@
+﻿@import (reference) '../../variables.d.less';
+@import (reference) '../../mixins.d.less';
+
+@navigation-height: 68px;
+
+/*
+Navigation
+
+Provides a consistent mobile-first header and footer navigation experience.
+
+Markup: navigation.html
+
+.navigation-themed - Uses the site's `@color-palette02` as a seed color for a themed navigation
+.navigation-transparent - Uses a transparent theme for the navigation
+.navigation-fixed - Adds a separator between self and row above
+
+Style guide: navigation
+*/
+
+.navigation {
+    background-color: #000;
+    color: #fff;
+    fill: #fff;
+    font-size: 15px;
+    height: @navigation-height;
+    padding: 24px 0;
+    position: relative;
+    width: 100%;
+
+    a,
+    a:hover {
+        color: inherit;
+        text-decoration: none;
+    }
+
+    a {
+        .transition(background-color .25s cubic-bezier(0, 0, 0, 1));
+    }
+
+    a:hover {
+        .transition(none);
+    }
+
+
+    ul {
+        .group();
+        display: inline-block;
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        position: relative;
+
+        li {
+            display: block;
+            float: left;
+            margin: 0;
+            position: relative;
+        }
+    }
+
+    .logos {
+        width: 100%;
+
+        .icon {
+            display: block;
+        }
+    }
+
+    .logo-microsoft {
+        border-right: 0 solid rgba(255, 255, 255, .3);
+        display: none;
+    }
+
+    .logo {
+        display: inline-block;
+        float: none;
+        font-size: 24px;
+        font-weight: @font-semibold;
+        margin-top: -10px;
+
+        .preview {
+            font-weight: @font-semilight;
+            margin-left: 6px;
+            opacity: .6;
+        }
+    }
+
+    @media only screen and (min-width: @resolution-medium) {
+        .logos {
+            float: left;
+            text-align: left;
+            width: auto;
+        }
+
+        .logo-microsoft {
+            border-right-width: 2px;
+            display: block;
+            margin-right: 20px;
+            padding: 2px 20px 2px 0;
+
+            .icon {
+                height: 17px;
+                width: 81px;
+            }
+        }
+
+        .logo {
+            font-size: 18px;
+            margin-top: -3px;
+        }
+    }
+
+    @media only screen and (min-width: @resolution-large) {
+        .logos {
+            margin-left: 0;
+            margin-right: 45px; // + 15px padding = 60px between brand and menu
+        }
+    }
+
+    ////////////////////
+    // Menu: Shared
+    ////////////////////
+    .menu-main,
+    .menu-secondary {
+        > li {
+            > a {
+                font-weight: @font-semibold;
+                opacity: .9;
+
+                &:hover,
+                &.active {
+                    background-color: #464646;
+                    opacity: 1;
+                }
+
+                &:active {
+                    background-color: #525252;
+                    opacity: 1;
+                }
+            }
+        }
+    }
+
+    ////////////////////
+    // Menu: Main
+    ////////////////////
+    .menu-main {
+        background-color: #333;
+        box-shadow: 0 2px 2px 0 rgba(0, 0, 0, .2);
+        display: none;
+        left: 0;
+        position: absolute;
+        right: 0;
+        top: @navigation-height;
+        width: 100%;
+        z-index: 9999;
+
+        a {
+            display: block;
+            padding: 23px 20px;
+            position: relative;
+        }
+
+        li {
+            border-bottom: 1px solid rgba(0, 0, 0, .1);
+            width: 100%;
+
+            &:last-child {
+                border-bottom: none;
+            }
+        }
+
+        .menu-drop-trigger:after {
+            .transform-translate(0, -50%);
+            .transition(transform .2s);
+            content: '\E972';
+            font-family: 'PowerBIMDL2';
+            font-size: 9px; // chevron sizing
+            height: 6px;
+            line-height: 9px;
+            opacity: .6;
+            position: absolute;
+            right: 20px;
+            text-align: center;
+            top: 50%;
+            width: 9px;
+        }
+
+        .menu-drop-trigger.active:after {
+            .transform(rotate(-180deg));
+        }
+
+        @media only screen and (min-width: @resolution-medium) {
+            left: initial;
+            top: @navigation-height;
+        }
+
+        @media only screen and (min-width: @resolution-large) {
+            background-color: transparent !important;
+            box-shadow: none;
+            display: block !important;
+            float: left;
+            margin-top: -6px;
+            position: static;
+            width: auto;
+
+            a {
+                display: block;
+                padding: 23px 20px;
+            }
+
+            li {
+                border-bottom: none;
+                margin-top: -18px;
+                width: auto;
+            }
+
+            .menu-drop-trigger:after {
+                display: none;
+            }
+
+            > li {
+                > a {
+                    height: @navigation-height;
+                    line-height: @navigation-height;
+                    padding: 0 15px;
+                }
+            }
+        }
+    }
+
+    ////////////////////
+    // Menu: Secondary
+    ////////////////////
+    .menu-secondary {
+        display: none;
+
+        @media only screen and (min-width: @resolution-medium) {
+            display: block;
+            float: right;
+            margin-top: -6px;
+            margin-right: 80px;
+
+            a {
+                display: block;
+                padding: 23px 20px;
+            }
+
+            li {
+                margin-top: -18px;
+            }
+
+            > li {
+                > a {
+                    height: @navigation-height;
+                    line-height: @navigation-height;
+                    padding: 0 15px;
+                }
+            }
+        }
+
+        @media only screen and (min-width: @resolution-large) {
+            margin-right: 0;
+
+            li:last-child {
+                margin-right: 0;
+            }
+        }
+    }
+
+    ////////////////////
+    // Menu: Drop
+    ////////////////////
+    .menu-drop {
+        background-color: #464646;
+        display: none;
+        padding: 0 15px 12px;
+        width: 100%;
+
+        a {
+            padding: 12px;
+
+            &:hover,
+            &.active {
+                background-color: #5e5e5e;
+            }
+
+            &:active {
+                background-color: #767676;
+            }
+        }
+
+        li {
+            border-bottom: none;
+            position: static;
+        }
+
+        @media only screen and (min-width: @resolution-large) {
+            box-shadow: 0 2px 2px 0 rgba(0, 0, 0, .1);
+            left: 0;
+            padding: 0;
+            position: absolute;
+            top: 100%;
+            width: 270px;
+            z-index: 1000;
+
+            li {
+                float: none;
+                margin: 0;
+            }
+
+            a {
+                height: auto;
+                line-height: 1;
+                padding: 14px 16px 15px;
+            }
+        }
+    }
+
+    ////////////////////
+    // Menu: Pop
+    ////////////////////
+    .menu-pop {
+        background-color: #5e5e5e;
+        box-shadow: 0 2px 2px 0 rgba(0, 0, 0, .2);
+        display: none;
+        padding: 0 12px 12px;
+        width: 100%;
+
+        a {
+            padding: 12px;
+
+            &:hover,
+            &.active {
+                background-color: #767676;
+            }
+
+            &:active {
+                background-color: #767676;
+            }
+        }
+
+        @media only screen and (min-width: @resolution-large) {
+            left: 100%;
+            padding: 0;
+            position: absolute;
+            top: 0;
+
+            a {
+                padding: 14px 16px 15px;
+            }
+        }
+    }
+}
+
+/*
+Navigation: Hamburger
+
+Description.
+
+Markup:
+<a href="" class="hamburger hamburger-deluxe">
+    <span class="fixin top-bun"></span>
+    <span class="fixin patty"></span>
+    <span class="fixin bottom-bun"></span>
+</a>
+
+Style guide: navigation.hamburger
+*/
+
+.hamburger {
+    border: 2px solid rgba(255, 255, 255, .3);
+    right: 15px;
+    padding: 13px 11px 12px;
+    position: absolute;
+    top: 12px;
+
+    .icon-hamburger {
+        .hamburger-helper(3px, 24px, #fff);
+    }
+}
+
+
+.hamburger-deluxe {
+    padding: 7px 11px;
+
+    .fixin {
+        .transition(all .5s);
+        background-color: #fff;
+        display: block;
+        height: 2px;
+        margin: 5px 0;
+        width: 26px;
+    }
+
+    &.active {
+        .top-bun {
+            .transform(rotate(45deg) translate(19%, 250%));
+        }
+        .patty {
+            opacity: 0;
+        }
+        .bottom-bun {
+            .transform(rotate(-45deg) translate(19%, -250%));
+        }
+    }
+}

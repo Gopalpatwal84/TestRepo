@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<appSettings>
+  <add key="Acom.Search.Client.AzureSearchConfiguration.ObsoleteIndexes" value="|" />
+  
+  <!-- Seq settings -->
+  <add key="SeqServer" value="http://localhost:5341/" />
+  <add key="SeqServerApiKey" value="#{keyvault:powerbi:jobs-seq-apikey}" />
+  <add key="SeqAllowFileBuffer" value="false" />
+
+  <!-- Redis -->
+  <add key="Acom.Redis.Configuration.KeyPrefix" value="" />
+  <add key="Acom.Configuration.DeploymentGroup" value="group-a" />
+</appSettings>

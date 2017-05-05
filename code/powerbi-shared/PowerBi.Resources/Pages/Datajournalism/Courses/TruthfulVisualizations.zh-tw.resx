@@ -1,0 +1,241 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" id="root">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="About_Content" xml:space="preserve">
+    <value>&lt;p&gt;本課使用 Microsoft Power BI 顯示示範，以了解如何忠實建立視覺效果： 
+&lt;ul&gt;&lt;li&gt;深入了解如何為 Real Sociedad 建立資料視覺效果，傳達社區對足球俱樂部成功的貢獻，而不隱匿資料或變更故事。&lt;/li&gt;
+&lt;li&gt;探索有關短期自然失業率的財務服務教學課程，該教學課程說明如何編輯圖形來忠實顯示趨勢線。&lt;/li&gt;
+&lt;li&gt;使用來自 The World Bank 的資料集，了解如何透過簡單計算來調整您的資料視覺效果，以產生更清楚的檢視。&lt;/li&gt;&lt;/ul&gt;&lt;/p&gt;</value>
+  </data>
+  <data name="Article_Content_10" xml:space="preserve">
+    <value>&lt;h2 id="examples-graphics"&gt;會產生誤導和不會產生誤導的圖形範例&lt;/h2&gt;
+
+&lt;p&gt;為了遵循本課所顯示的範例，您必須具備下列必要條件：&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;執行 Windows 7 或更新版本的電腦&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;下載及安裝 &lt;a href="{0}"&gt;Power BI Desktop&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;註冊 Power BI 帳戶 (&lt;a href="{1}"&gt;{2}&lt;/a&gt;)&lt;/p&gt;
+
+&lt;p&gt;a.請注意，您需要使用工作電子郵件帳戶進行註冊；不支援個人帳戶 (gmail、Hotmail、outlook.com、yahoo.com)&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3&gt;避免資料扭曲的教學課程&lt;/h3&gt;
+
+&lt;p&gt;有時，某個資料點會扭曲呈現的資料。本教學課程說明如何避免扭曲情況，同時仍可顯示所有資料。&lt;/p&gt;
+
+&lt;h3&gt;步驟 1：載入範例檔案&lt;/h3&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;開啟 Real Sociedad 範例檔案 &lt;strong&gt;Real Sociedad example.pbix&lt;/strong&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;按一下 [欄位] 清單中的 [City filter] (城市篩選)&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;請注意，運算式會如下所示，為 San Sebastian 提供一個不同的類別&lt;/p&gt;
+
+&lt;p&gt;城市篩選 = IF(data[City]="DONOSTIA-SAN SEBASTIÁN","Include SAN SEBASTIÁN","All except SAN SEBASTIÁN")&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;按一下 [城市篩選]&lt;strong&gt;&lt;/strong&gt; 視覺效果。請注意，這會使用 [城市篩選] 計算結果欄&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;在 [格式化]&lt;strong&gt;&lt;/strong&gt; 窗格中，展開 [選取控制項]&lt;strong&gt;&lt;/strong&gt;。&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;請注意，[單一選取]&lt;strong&gt;&lt;/strong&gt; 為 [關閉]&lt;strong&gt;&lt;/strong&gt;。這會允許使用者流暢地選取交叉分析篩選器中的值。&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;img src="{3}" alt="" title="" /&gt;&lt;/p&gt;
+
+&lt;h3&gt;步驟 2：顯示折線圖趨勢中的差異&lt;/h3&gt;
+
+&lt;p&gt;有時，折線圖上所顯示的資料是歷史和預測值的組合。顯示這類資料時，請務必清楚地向您的使用者顯示差異。&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;開啟檔案 &lt;strong&gt;Natural Rate of Unemployment.pbix&lt;/strong&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;按一下 [欄位] 清單中的 [資料點類型]&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;請注意，運算式會如下所示，提供未來值給 [預測]&lt;strong&gt;&lt;/strong&gt; 類別及歷史值給 [實際]&lt;strong&gt;&lt;/strong&gt; 類別。&lt;/p&gt;&lt;/li&gt;
+  &lt;p&gt;資料點類型 = If(NOW() &gt;= Data[Date],"Actual", "Forecast")&lt;/p&gt;
+&lt;li&gt;&lt;p&gt;按一下 [依日期顯示自然失業率 (短期)]&lt;strong&gt;&lt;/strong&gt; 折線圖視覺效果。請注意，這會使用 [圖例] 上的 [資料點類型]&lt;strong&gt;&lt;/strong&gt; 計算結果欄。&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;在 [格式化]&lt;strong&gt;&lt;/strong&gt; 窗格中，展開 [資料色彩]&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src="{4}" alt="" title="" /&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;請注意，使用不同的色彩可繪製不同類別的值之間的差異。另請注意，視覺效果左上角已啟用並顯示 [圖例]。這些設計決策的制定是為了吸引觀眾，注意到此單一序列中不同資料類別之間的差異。&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;img src="{5}" alt="" title="" /&gt;&lt;/p&gt;
+
+&lt;h2 id="visualization-examples"&gt;視覺效果範例 (索引圖和總計百分比)&lt;/h2&gt;
+
+&lt;p&gt;為了遵循本課所顯示的範例，您必須具備下列必要條件：&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;執行 Windows 7 或更新版本的電腦&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;下載及安裝 &lt;a href="{6}"&gt;&lt;em&gt;Power BI Desktop&lt;/em&gt;&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;註冊 Power BI 帳戶 (&lt;a href="{1}"&gt;&lt;em&gt;{2}&lt;/em&gt;&lt;/a&gt;)&lt;/p&gt;
+
+&lt;p&gt;a.請注意，您需要使用工作電子郵件帳戶進行註冊；不支援個人帳戶 (gmail、Hotmail、outlook.com、yahoo.com)&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3&gt;步驟 1：總計百分比&lt;/h3&gt;
+
+&lt;p&gt;在大多數情況下，如果值未放在內容中，則不太有用。在某些情況下，您可以假設讀者從之前的經驗累積足夠的背景資訊。例如，如果我閱讀一篇描述 800 萬荷蘭居民特徵的文章，大多數閱讀荷蘭報紙的人會知道這是指該國約一半的人口。不過，如果您無法預期所有讀者都有相同的背景知識，顯示總計百分比可能會很有用。在此範例中，我一開始並不清楚全球都市人口，因此與其指出印度有 3 億到 5 億都市居民，指出這代表全球所有都市人口的 3.5% 會更清楚。下列範例説明如何轉換總計百分比值，而不需要進行任何計算。&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;選取您要呈現總計百分比的視覺效果&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;從值欄位的下拉式功能表中，選取 [快速計算]&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;p&gt;&lt;img src="{7}" alt="" title="" /&gt;&lt;/p&gt;
+&lt;li&gt;在 [快速計算]&lt;strong&gt;&lt;/strong&gt; 編輯器中，將 [將值顯示為]&lt;strong&gt;&lt;/strong&gt; 設定為 [總計百分比]&lt;strong&gt;&lt;/strong&gt;。若要求得四個最大國家/地區的累積總計百分比，請在篩選方塊中輸入前四大國家/地區，然後將視覺效果從折線圖變更為堆疊區域圖。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;img src="{8}" alt="" title="" /&gt;&lt;/p&gt;
+&lt;h3&gt;步驟 2：索引圖&lt;/h3&gt;
+&lt;p&gt;建立內容的另一個方式是比較特定值在指定時間範圍內的相對成長。此範例示範如何建立索引圖，您可以在其中計算特定值相對於您定義的基準年份增加或減少的數量。&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;為索引值建立&lt;strong&gt;新量值&lt;/strong&gt;。在此公式中，您會擷取都市人口的總和，然後減去 2005 年的都市人口總和 (我在此使用此年份作為基準)。&lt;/li&gt;
+  &lt;p&gt;Indexed&amp;#160;Urban&amp;#160;Population&amp;#160;=\ SUM&amp;#160;(&amp;#160;'Urban&amp;#160;population'[Urban&amp;#160;Population]&amp;#160;)\ &amp;#160;&amp;#160;&amp;#160;&amp;#160;/&amp;#160;CALCULATE&amp;#160;(\ &amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;SUM&amp;#160;(&amp;#160;'Urban&amp;#160;population'[Urban&amp;#160;Population]&amp;#160;),\ &amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;'Urban&amp;#160;population'[Year]&amp;#160;=&amp;#160;2005\ &amp;#160;&amp;#160;&amp;#160;&amp;#160;)\ &amp;#160;&amp;#160;*&amp;#160;100&lt;/p&gt;
+&lt;li&gt;當您繪製實際值和索引量值時，您將會看到後者如何清楚地顯示自 2005 年以來成長最快速的地區。從第一張圖比較難取得此深入解析。&lt;img src="{9}" alt="" title="" /&gt;&lt;/li&gt;
+&lt;/ol&gt;</value>
+  </data>
+  <data name="Download_Resources" xml:space="preserve">
+    <value>下載這些教學課程所需的所有資源</value>
+  </data>
+  <data name="Hero_Subtitle" xml:space="preserve">
+    <value>視覺效果很容易產生誤導，因此能夠忠實呈現資訊至關重要。Alberto Cairo 將說明如何設定基準、為何您應該小心使用雙重比例尺圖，以及考慮觀眾的重要性。</value>
+  </data>
+  <data name="Hero_Title" xml:space="preserve">
+    <value>忠實呈現視覺效果</value>
+  </data>
+  <data name="InThisArticle" xml:space="preserve">
+    <value>本文內容：</value>
+  </data>
+  <data name="META_DESCRIPTION" xml:space="preserve">
+    <value />
+  </data>
+  <data name="META_KEYWORDS" xml:space="preserve">
+    <value />
+  </data>
+  <data name="META_PAGETITLE" xml:space="preserve">
+    <value>資料新聞學 - 忠實呈現視覺效果 | Microsoft Power BI</value>
+  </data>
+  <data name="NextTopic" xml:space="preserve">
+    <value>下一個主題：選擇圖形</value>
+  </data>
+  <data name="RightNav_Link1" xml:space="preserve">
+    <value>會產生誤導和不會產生誤導的圖形範例</value>
+  </data>
+  <data name="RightNav_Link2" xml:space="preserve">
+    <value>視覺效果範例 (索引圖和總計百分比)</value>
+  </data>
+  <data name="Meta_LocJobId" xml:space="preserve">
+    <value>159</value>
+  </data>
+</root>

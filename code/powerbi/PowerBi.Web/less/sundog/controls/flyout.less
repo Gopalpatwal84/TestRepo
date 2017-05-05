@@ -1,0 +1,110 @@
+@import (reference) '../variables.d.less';
+
+/*
+Flyout
+
+To make these amazing flyouts, follow these steps:
+
+1. Create a trigger item (HTML element), and give it an attribute of: `aria-describedby="flyout-{flyout-name}"`
+2. Create an HTML element for your flyout content with the folloing attributes: `id="flyout-{flyout-name}" role="tooltip" aria-hidden="true" class="sd-flyout"`
+3. Be sure to replace the references to `{flyout-name}` with a unique identifier!
+
+Markup:
+<a href="#" aria-describedby="flyout-test">Click on me!</a>
+<section id="flyout-test" role="tooltip" aria-hidden="true" class="section sd-flyout {{modifier_class}}">
+    <a href="#" class="close"></a>
+    <h3>Flyout heading</h3>
+    <p>Flyout content.</p>
+    <ul>
+        <li>Checkout all of the <a href="/framework/typography/">typography</a> that can be used!</li>
+    </ul>
+</section>
+
+.sd-flyout-left - Left positioning.
+.sd-flyout-corner.sd-flyout-sw - Description.
+.sd-flyout-corner.sd-flyout-ne - Description.
+.sd-flyout-corner.sd-flyout-se - Description.
+
+Styleguide flyout
+*/
+
+
+/*
+Flyout in SVG
+
+Flyout in an SVG.
+
+Markup: flyout.svg.html
+
+Styleguide flyout.svg
+*/
+
+[aria-describedby^="flyout"] {
+    display: inline-block;
+}
+
+.sd-flyout {
+    background-color: @color-palette01;
+    box-shadow: 6px 6px 12px 0 rgba(0, 0, 0, .4);
+    color: @color-slate01;
+    padding: @spacing-size1;
+    position: absolute;
+    max-width: 425px; // force paragraph wraps
+    width: auto;
+    z-index: 1;
+    transform: translate(0, -50%);
+
+    p {
+        margin: 0;
+    }
+
+    .close {
+        display: block;
+        width: 30px;
+        height: 30px;
+        font-size: @font-heading3;
+        color: @color-slate06;
+        line-height: 1;
+        text-align: center;
+        position: absolute;
+        top: 0;
+        right: 0;
+        z-index: 1;
+
+        &:after {
+            content: '\00d7';
+        }
+
+        &:hover {
+            color: @color-slate06;
+        }
+    }
+}
+
+[aria-hidden="true"] {
+    display: none;
+}
+
+[aria-hidden="false"] {
+    display: block;
+}
+
+.sd-flyout-left {
+    transform: translate(-100%, -50%);
+}
+
+.sd-flyout-corner {
+    transform: none;
+
+    &.sd-flyout-sw {
+        transform: translate(0, -100%);
+    }
+
+    &.sd-flyout-ne {
+        transform: translate(-100%, 0);
+    }
+
+    &.sd-flyout-se {
+        transform: translate(-100%, -100%);
+    }
+}

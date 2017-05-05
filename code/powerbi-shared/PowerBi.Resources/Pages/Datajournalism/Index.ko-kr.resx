@@ -1,0 +1,190 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" id="root">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="DataVisualization_Content" xml:space="preserve">
+    <value>대상 그룹이 깊이 몰입하고, 주의를 집중하며, 정보를 더 잘 이해하는 데 도움이 되는 호소력 있는 데이터 스토리를 만들겠다는 목표를 갖고 계신가요? Power BI는 흥미로운 데이터 스토리를 구성하는 데 도움이 되는 강력한 분석 도구를 제공하고, 저널리스트가 대화형 작업이 많은 데이터 시각화를 손쉽게 구축하고 공유할 수 있게 해줍니다.</value>
+  </data>
+  <data name="DataVisualization_Heading" xml:space="preserve">
+    <value>데이터 시각화를 통해 스토리 전달력 높이기</value>
+  </data>
+  <data name="Distribute_Content" xml:space="preserve">
+    <value>Power BI는 대상 그룹에게 스토리를 잘 전달할 수 있게 해줍니다. Microsoft Power BI 웹에 게시 기능을 사용하면 클릭 몇 번으로 블로그나 웹 사이트에 데이터 시각화를 포함하여 스토리를 공유할 수 있습니다. 어느 장치에서나 제한 없는 수의 뷰에 연결하세요. 어떤 콘텐츠를 게시하든 편집, 업데이트, 새로 고침, 관리가 수월합니다.</value>
+  </data>
+  <data name="Distribute_Heading" xml:space="preserve">
+    <value>Power BI로 대화형 시각화 배포</value>
+  </data>
+  <data name="Hero_Content" xml:space="preserve">
+    <value>&lt;p&gt;Microsoft Power BI를 사용하면 데이터 저널리즘이 단순한 데이터 탐색에서 탈피할 수 있고, 리포터, 블로거, 방송인, 분석가가 스토리텔링에 집중할 수 있습니다. 데이터 시각화 도구로, 몰입도가 높고 데이터가 풍부한 스토리를 통해 메시지를 부각시키고, 대상 그룹의 시선을 사로잡을 수 있습니다.&lt;/p&gt;
+&lt;p&gt;Power BI에서는, 최근 유명한 시각화 전문가인 Alberto Cairo와 함께 5가지 &lt;strong&gt;데이터 시각화 및 스토리텔링&lt;/strong&gt; 과정을 개발하여 그래픽 관련 방법과 데이터 스토리텔링을 지원하는 방법을 공유합니다. 위의 비디오를 시청하여 간략한 설명을 보고 아래 링크를 클릭하여 과정에 참여하세요.&lt;/p&gt;</value>
+  </data>
+  <data name="Hero_Cta" xml:space="preserve">
+    <value>과정 참여</value>
+  </data>
+  <data name="Hero_Heading" xml:space="preserve">
+    <value>데이터 시각화 및 스토리텔링</value>
+  </data>
+  <data name="King5_Content" xml:space="preserve">
+    <value>KING 5 뉴스에서는 방송, 데스크톱 및 모바일 장치에 데이터 시각화를 통합하는 고유한 기능을 제공하는 점 때문에 Microsoft Power BI를 선택했습니다. Microsoft는 시청자와 독자들이 데이터 스토리를 더 잘 이해하는 데 도움이 되는 기술을 데이터 저널리스트에게 제공하기 위한 많은 노력을 보여주었습니다.</value>
+  </data>
+  <data name="King5_Heading" xml:space="preserve">
+    <value>데이터 저널리스트들의 Power BI 이용 사례 보기</value>
+  </data>
+  <data name="LearnMore" xml:space="preserve">
+    <value>자세히 알아보기</value>
+  </data>
+  <data name="META_DESCRIPTION" xml:space="preserve">
+    <value />
+  </data>
+  <data name="META_KEYWORDS" xml:space="preserve">
+    <value>데이터 저널리즘, 데이터 시각화, 데이터 스토리텔링, 데이터 저널리즘 도구, Tableau, Tableau Public, Google Data Studio, Amazon QuickSight, Qlik, QlikView, 웹에 게시</value>
+  </data>
+  <data name="META_PAGETITLE" xml:space="preserve">
+    <value>데이터 저널리즘 | Microsoft Power BI</value>
+  </data>
+  <data name="Modal_Cta" xml:space="preserve">
+    <value>지금 보기</value>
+  </data>
+  <data name="Modal_Heading" xml:space="preserve">
+    <value>메일을 입력하고 자습서 보기</value>
+  </data>
+  <data name="PublishToWeb_Content" xml:space="preserve">
+    <value>가장 좋은 스토리는 자주 대화하고, 시각적으로 보기 편하며 풍부한 데이터를 포함하는 것입니다. Power BI 웹에 게시를 통해 코드를 작성할 필요 없이 대화형 데이터 시각화를 스토리에 쉽게 적용할 수 있습니다.</value>
+  </data>
+  <data name="PublishToWeb_Cta" xml:space="preserve">
+    <value>더 보기</value>
+  </data>
+  <data name="PublishToWeb_Heading" xml:space="preserve">
+    <value>스토리텔링을 위한 Power BI 웹에 게시에 대한 자세한 정보</value>
+  </data>
+  <data name="ReadMore" xml:space="preserve">
+    <value>자세한 내용 알아보기</value>
+  </data>
+  <data name="SeeMore" xml:space="preserve">
+    <value>더 보기</value>
+  </data>
+  <data name="TakeAdvantage" xml:space="preserve">
+    <value>Power BI를 활용해 보세요.</value>
+  </data>
+  <data name="UseItFree_Cta" xml:space="preserve">
+    <value>무료로 사용하기</value>
+  </data>
+  <data name="Meta_LocJobId" xml:space="preserve">
+    <value>159</value>
+  </data>
+</root>

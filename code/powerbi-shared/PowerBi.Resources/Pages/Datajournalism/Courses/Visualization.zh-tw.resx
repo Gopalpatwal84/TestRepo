@@ -1,0 +1,714 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" id="root">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="About_Content" xml:space="preserve">
+    <value>&lt;p&gt;本課將逐步引導您了解使用 Microsoft Power BI 的基本概念，其中說明：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;了解如何將資料載入視覺效果工具、編輯及新增額外的計算，建立知名的「曲棍球棍」圖表。&lt;/li&gt;
+&lt;li&gt;概要了解如何建立及發行具有當地實況主 KING 5 用來報導總統初選之選舉版圖的資料視覺效果。&lt;/li&gt;
+&lt;/ul&gt;
+</value>
+  </data>
+  <data name="ArticleContinue_Content2_3" xml:space="preserve">
+    <value>&lt;h2 id="create-pub"&gt;建立及發行資料視覺效果&lt;/h2&gt;
+&lt;p&gt;為了遵循本課所顯示的範例，您必須具備下列必要條件：&lt;/p&gt;&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;執行 Windows 7 或更新版本的電腦&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;下載及安裝 &lt;a href="{0}"&gt;Power BI Desktop&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;註冊 Power BI 帳戶 (&lt;a href="{1}"&gt;{2}&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;a.請注意，您需要使用工作電子郵件帳戶進行註冊；不支援個人帳戶 (gmail、Hotmail、outlook.com、yahoo.com)&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;</value>
+  </data>
+  <data name="ArticleThird_Continue_7" xml:space="preserve">
+    <value>&lt;p&gt;要建立的量值：&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;柯林頓票數 = CALCULATE(sum(VotingData[Votes]), VotingData[Candidate] = "Clinton")&lt;/p&gt;
+
+&lt;p&gt;桑德斯票數 = CALCULATE(sum(VotingData[Votes]), VotingData[Candidate] = "Sanders")&lt;/p&gt;
+
+&lt;p&gt;勝選趨勢 = if([柯林頓票數] &gt; [桑德斯票數], -1, if(VotingData[柯林頓票數] = [桑德斯票數], 0, 1))&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;注意：前兩個量值會篩選 Clinton 和 Sanders 值，並可讓我們建立贏家趨勢量值，指出是 Clinton 或 Sanders 在指定縣市擁有較多票數。您將發現，當我們建立此地圖時，該地圖會多有用。&lt;/p&gt;
+
+&lt;p&gt;完成此步驟之後，[欄位] 清單會如下所示。您建立的量值會新增至 [欄位]，以供您用於資料視覺效果。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src="{0}" alt="" title="" /&gt;&lt;/p&gt;
+
+&lt;h3&gt;步驟 3：在地圖上顯示結果&lt;/h3&gt;
+
+&lt;p&gt;現在，我們已準備好製作圖形地圖&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;將 [圖形地圖]&lt;strong&gt;&lt;/strong&gt; 視覺效果插入報表。&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;img src="{1}" alt="" title="" /&gt;&lt;/p&gt;
+
+&lt;p&gt;注意：撰寫本文時，[圖形地圖] 視覺效果處於預覽狀態。如果您看不到 [圖形地圖]，您必須將它啟用為 [預覽功能]&lt;strong&gt;&lt;/strong&gt;。&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;[檔案] -&gt; [選項及設定] -&gt; [選項]&lt;/strong&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;[全域] -&gt; [預覽功能]&lt;/strong&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;核取 [圖形地圖視覺效果]&lt;strong&gt;&lt;/strong&gt; 旁的方塊&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;按下 [確定]&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;插入 [圖形地圖]&lt;strong&gt;&lt;/strong&gt; 之後，它將是空白的。請執行下列步驟：&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;按一下並選取&lt;strong&gt;地圖&lt;/strong&gt;。&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;在 [欄位]&lt;strong&gt;&lt;/strong&gt; 清單中，核取下列欄位旁的方塊：&lt;/p&gt;
+
+&lt;p&gt;a.&lt;strong&gt;國家/地區名稱&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;b. &lt;em&gt;*勝選趨勢 *&lt;/em&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;視覺效果的資料欄位會如下所示：&lt;/p&gt;
+
+&lt;p&gt;&lt;img src="{2}" alt="" title="" /&gt;&lt;/p&gt;
+
+&lt;p&gt;此頁面大致上會如下所示：&lt;/p&gt;
+
+&lt;p&gt;請注意，預設會顯示美國地圖。在後續步驟中，我們將變更地圖圖形。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src="{3}" alt="" title="" /&gt;&lt;/p&gt;
+
+&lt;p&gt;您可以搭配 [圖形地圖]&lt;strong&gt;&lt;/strong&gt; 視覺效果使用任何 &lt;strong&gt;TopoJSON 檔案&lt;/strong&gt;。TopoJSON 圖形的識別碼必須符合您的資料集中的名稱。&lt;/p&gt;
+
+&lt;p&gt;讓我們變更圖形以符合國家/地區名稱。&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;選取 [圖形地圖]&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;切換至 [格式化]&lt;strong&gt;&lt;/strong&gt; 窗格&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;展開 [圖形]&lt;strong&gt;&lt;/strong&gt; 選項&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;UI 現在應如下所示：&lt;/p&gt;
+
+&lt;p&gt;&lt;img src="{4}" alt="" title="" /&gt;&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;按下 [+ 新增地圖]&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;在 [開啟檔案]&lt;strong&gt;&lt;/strong&gt; 對話方塊中，選取檔案 “&lt;strong&gt;gz_2010_us_050_00_500k-wash-counties-only.json&lt;/strong&gt;”&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;現在 UI 會如下所示：&lt;/p&gt;
+
+&lt;p&gt;&lt;img src="{5}" alt="" title="" /&gt;&lt;/p&gt;
+
+&lt;p&gt;接下來，我們將變更色彩以符合美國民主黨的佈景主題。&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;在 [格式化]&lt;strong&gt;&lt;/strong&gt; 窗格中，展開 [資料色彩]&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;將 [發散]&lt;strong&gt;&lt;/strong&gt; 切換至 [開啟]&lt;strong&gt;&lt;/strong&gt; 位置&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;您可以從提供的 UI 選項中選擇色彩，或選取 [自訂色彩]&lt;strong&gt;&lt;/strong&gt; 以指定色彩。以下範例使用下列色彩：&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;最小值 - 0007FF&lt;/p&gt;
+
+&lt;p&gt;中間值 - B3B3B3&lt;/p&gt;
+
+&lt;p&gt;最大值 - 0055FF&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;ol&gt;
+&lt;li&gt;將 [最小值]&lt;strong&gt;&lt;/strong&gt;、[中間值]&lt;strong&gt;&lt;/strong&gt; 和 [最大值]&lt;strong&gt;&lt;/strong&gt; 分別設定為 &lt;strong&gt;-1、0 和 1&lt;/strong&gt;。您可以透過此方式來定義色階。&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;img src="{6}" alt="" title="" /&gt;&lt;/p&gt;</value>
+  </data>
+  <data name="Article_Content_Step2_2" xml:space="preserve">
+    <value>&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;巡覽至您的 [溫度資料]&lt;strong&gt;&lt;/strong&gt; 資料表。在 [首頁]&lt;strong&gt;&lt;/strong&gt; 功能區中，選取 [合併查詢]&lt;strong&gt;&lt;/strong&gt;。選取 [誤差線]&lt;strong&gt;&lt;/strong&gt; 作為要比對的資料表，並選取 [年]&lt;strong&gt;&lt;/strong&gt; 作為要符合的資料行。此時我們知道誤差資料表中的資料只會落在重建溫度的年範圍內，因此您可以使用 [聯結種類: 左方外部]&lt;strong&gt;&lt;/strong&gt;。&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;只展開 [標準差]&lt;strong&gt;&lt;/strong&gt; 資料行&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;若要新增正數差異的資料行，請使用 [新增資料行]&lt;strong&gt;&lt;/strong&gt; 功能區中的 [新增自訂資料行]&lt;strong&gt;&lt;/strong&gt;。&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;命名 [正數差異]&lt;strong&gt;&lt;/strong&gt; 資料行，然後使用公式 &lt;strong&gt;[重建溫度變化] + [標準差]&lt;/strong&gt; 將 [標準差] 新增至重建溫度。您可以輸入或按兩下右側的資料行名稱。&lt;/p&gt;&lt;p&gt;&lt;img src="{0}" alt="" title="" /&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;重複此步驟，建立&lt;strong&gt;負數差異 = [重建溫度變化] - [標準差]&lt;/strong&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;將新資料行的資料類型變更為十進位數字。&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;將所有資訊載入 [溫度變化]&lt;strong&gt;&lt;/strong&gt; 資料表之後，不需要將其他兩個資料表載入報表。若要停止載入其他兩個資料表，請以滑鼠右鍵按一下 [儀器資料]&lt;strong&gt;&lt;/strong&gt; 並取消選取 [啟用載入]&lt;strong&gt;&lt;/strong&gt;，然後對 [誤差線]&lt;strong&gt;&lt;/strong&gt; 執行相同的動作。停用的資料表會以斜體和灰階顯示。&lt;/p&gt;
+&lt;p&gt;&lt;img src="{1}" alt="" title="" /&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;現在選取 [首頁]&lt;strong&gt;&lt;/strong&gt; 功能區中的 [關閉並套用]&lt;strong&gt;&lt;/strong&gt;。&lt;/li&gt;
+&lt;/ol&gt;</value>
+  </data>
+  <data name="Article_Content_Step2_3" xml:space="preserve">
+    <value>&lt;h3&gt;步驟 2：建立視覺效果&lt;/h3&gt;
+
+&lt;p&gt;載入資料並完成大部分編輯與合併資料的工作之後，只要按幾下，就可以建立折線圖。&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;在報表部分建立新的折線圖&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;拖曳 [軸]&lt;strong&gt;&lt;/strong&gt; 欄位上的 [年]&lt;strong&gt;&lt;/strong&gt;，並確定下拉式功能表中的日期以「年」顯示&lt;/p&gt;
+&lt;p&gt;&lt;img src="{0}" alt="" title="" /&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;拖曳 [值] 上的 [重建溫度變化]&lt;strong&gt;&lt;/strong&gt;、[儀器溫度變化]&lt;strong&gt;&lt;/strong&gt;、[正數差異]&lt;strong&gt;&lt;/strong&gt; 和 [負數差異]&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;如果您想要在差異中強調顯示溫度變化，請在 [格式]&lt;strong&gt;&lt;/strong&gt; 窗格中變更線條的色彩。&lt;/p&gt;&lt;p&gt;&lt;img src="{1}" alt="" title="" /&gt;&lt;/p&gt;
+&lt;/li&gt;&lt;/ol&gt;
+&lt;h3&gt;步驟 3：趨勢線&lt;/h3&gt;
+
+&lt;p&gt;重建知名曲棍球棍圖表的最後步驟是新增溫度變化的趨勢線。這會透過兩個 DAX 量值來完成。&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;由於有幾年會同時具有儀器溫度和重建溫度，因此您必須先建立一個資料行，在有兩個值的情況下，只取溫度平均值。使用下列公式建立&lt;strong&gt;新的資料行&lt;/strong&gt;：&lt;/li&gt;
+  &lt;p&gt;&lt;em&gt;溫度平均值 = IF(ISBLANK([儀器溫度變化]),[重建溫度變化],IF(ISBLANK([重建溫度變化]),[儀器溫度變化],([儀器溫度變化]+[重建溫度變化])/2))&lt;/em&gt;&lt;/p&gt;
+&lt;li&gt;現在針對該資料行建立&lt;strong&gt;新的量值&lt;/strong&gt;：&lt;/li&gt;
+  &lt;p&gt;&lt;em&gt;溫度變化 = SUM(Data[溫度平均值])&lt;/em&gt;&lt;/p&gt;
+&lt;li&gt;現在計算溫度變化的移動平均。您可以嘗試使用時間間隔；在此範例中，這會設定為 40 年：&lt;/li&gt;&lt;p&gt;&lt;em&gt;趨勢線 = AVERAGEX(DATESINPERIOD(Data[年],LASTDATE(Data[年]),-40,YEAR),[溫度變化])&lt;/em&gt;&lt;/p&gt;
+&lt;li&gt;將趨勢線新增至您的視覺效果，即大功告成！&lt;/li&gt;
+&lt;p&gt;&lt;img src="{2}" alt="" title="" /&gt;&lt;/p&gt;&lt;/ol&gt;</value>
+  </data>
+  <data name="Article_Content_Step3_10" xml:space="preserve">
+    <value>&lt;h2&gt;第 1 部分：建立資料故事並將它發行至網頁&lt;/h2&gt;
+
+&lt;p&gt;您將需要下列檔案：&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;VotingData.xlsx&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;gz_2010_us_050_00_500k-wash-counties-only.json&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Embed in web page.htm&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3&gt;步驟 1：從 Excel 檔案載入資料&lt;/h3&gt;
+
+&lt;p&gt;請參閱下列文件，以取得更多其他說明/指示 (如有需要)：&lt;/p&gt;
+
+&lt;p&gt;&lt;a href="{0}"&gt;{0}&lt;/a&gt;&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;開啟 &lt;strong&gt;Power BI Desktop&lt;/strong&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;在 [首頁] 功能區中，按下 [取得資料]&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;選取 [Excel]&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="{1}" alt="" title="" /&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;在對話方塊中，選取檔案 &lt;strong&gt;VotingData.xlsx&lt;/strong&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;在 [導覽器]&lt;strong&gt;&lt;/strong&gt; 對話方塊中，核取 [VotingData]&lt;strong&gt;&lt;/strong&gt; 旁的方塊&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;按下 [載入]&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;img src="{2}" alt="" title="" /&gt;&lt;/p&gt;
+
+&lt;h3&gt;步驟 2：建立計算結果&lt;/h3&gt;
+
+&lt;p&gt;建立資料視覺效果時，通常必須以計算值擴增未經處理資料，以達成所需的視覺效果。在本節中，我們會建立一些計算。&lt;/p&gt;
+
+&lt;p&gt;注意：本節介紹一個新概念 - DAX 運算式。DAX 是您可以在報表內用來計算資料的運算式語言。如需詳細資訊，請參閱：&lt;a href="{3}"&gt;Power BI Desktop 的 DAX 基本概念&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;使用定義的步驟來建立下列量值：&lt;a href="{4}"&gt;教學課程：在 Power BI Desktop 中建立您自己的量值&lt;/a&gt;&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;在 [模型]&lt;strong&gt;&lt;/strong&gt; 功能區中，按下新的&lt;strong&gt;量值&lt;/strong&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;公式列隨即顯示。&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;在公式列中輸入下面&lt;strong&gt;要建立的量值&lt;/strong&gt;一節中的運算式，然後&lt;strong&gt;按下核取記號&lt;/strong&gt;以確保其運作正常。&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;針對下面識別的三個量值重複此程序。&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;img src="{5}" alt="" title="" /&gt;&lt;/p&gt;
+
+&lt;p&gt;要建立的量值：&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;柯林頓票數 = CALCULATE(sum(VotingData[Votes]), VotingData[Candidate] = "Clinton")&lt;/p&gt;
+
+&lt;p&gt;桑德斯票數 = CALCULATE(sum(VotingData[Votes]), VotingData[Candidate] = "Sanders")&lt;/p&gt;
+
+&lt;p&gt;勝選趨勢 = if([柯林頓票數] &gt; [桑德斯票數], -1, if(VotingData[柯林頓票數] = [桑德斯票數], 0, 1))&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;注意：前兩個量值會篩選 Clinton 和 Sanders 值，並可讓我們建立贏家趨勢量值，指出是 Clinton 或 Sanders 在指定縣市擁有較多票數。您將發現，當我們建立此地圖時，該地圖會多有用。&lt;/p&gt;
+
+&lt;p&gt;完成此步驟之後，[欄位] 清單會如下所示。您建立的量值會新增至 [欄位]，以供您用於資料視覺效果。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src="{6}" alt="" title="" /&gt;&lt;/p&gt;
+
+&lt;h3&gt;步驟 3：在地圖上顯示結果&lt;/h3&gt;
+
+&lt;p&gt;現在，我們已準備好製作圖形地圖&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;將 [圖形地圖]&lt;strong&gt;&lt;/strong&gt; 視覺效果插入報表。&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;img src="{7}" alt="" title="" /&gt;&lt;/p&gt;
+
+&lt;p&gt;注意：撰寫本文時，[圖形地圖] 視覺效果處於預覽狀態。如果您看不到 [圖形地圖]，您必須將它啟用為 [預覽功能]&lt;strong&gt;&lt;/strong&gt;。&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;[檔案] -&gt; [選項及設定] -&gt; [選項]&lt;/strong&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;[全域] -&gt; [預覽功能]&lt;/strong&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;核取 [圖形地圖視覺效果]&lt;strong&gt;&lt;/strong&gt; 旁的方塊&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;按下 [確定]&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;插入 [圖形地圖]&lt;strong&gt;&lt;/strong&gt; 之後，它將是空白的。請執行下列步驟：&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;按一下並選取&lt;strong&gt;地圖&lt;/strong&gt;。&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;在 [欄位]&lt;strong&gt;&lt;/strong&gt; 清單中，核取下列欄位旁的方塊：&lt;/p&gt;
+
+&lt;p&gt;a.&lt;strong&gt;國家/地區名稱&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;b. &lt;strong&gt;*勝選趨勢 *&lt;/strong&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;視覺效果的資料欄位會如下所示：&lt;/p&gt;
+
+&lt;p&gt;&lt;img src="{8}" alt="" title="" /&gt;&lt;/p&gt;
+
+&lt;p&gt;此頁面大致上會如下所示：&lt;/p&gt;
+
+&lt;p&gt;請注意，預設會顯示美國地圖。在後續步驟中，我們將變更地圖圖形。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src="{9}" alt="" title="" /&gt;&lt;/p&gt;
+
+&lt;p&gt;您可以搭配 [圖形地圖]&lt;strong&gt;&lt;/strong&gt; 視覺效果使用任何 &lt;strong&gt;TopoJSON 檔案&lt;/strong&gt;。TopoJSON 圖形的識別碼必須符合您的資料集中的名稱。&lt;/p&gt;
+
+&lt;p&gt;讓我們變更圖形以符合國家/地區名稱。&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;選取 [圖形地圖]&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;切換至 [格式化]&lt;strong&gt;&lt;/strong&gt; 窗格&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;展開 [圖形]&lt;strong&gt;&lt;/strong&gt; 選項&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;</value>
+  </data>
+  <data name="Article_Content_Step4_7" xml:space="preserve">
+    <value>&lt;p&gt;UI 現在應如下所示：&lt;/p&gt;
+
+&lt;p&gt;&lt;img src="{0}" alt="" title="" /&gt;&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;按下 [+ 新增地圖]&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;在 [開啟檔案]&lt;strong&gt;&lt;/strong&gt; 對話方塊中，選取檔案 “&lt;strong&gt;gz_2010_us_050_00_500k-wash-counties-only.json&lt;/strong&gt;”&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;現在 UI 會如下所示：&lt;/p&gt;
+
+&lt;p&gt;&lt;img src="{1}" alt="" title="" /&gt;&lt;/p&gt;
+
+&lt;p&gt;接下來，我們將變更色彩以符合美國民主黨的佈景主題。&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;在 [格式化]&lt;strong&gt;&lt;/strong&gt; 窗格中，展開 [資料色彩]&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;將 [發散]&lt;strong&gt;&lt;/strong&gt; 切換至 [開啟]&lt;strong&gt;&lt;/strong&gt; 位置&lt;/p&gt;
+
+&lt;p&gt;您可以從提供的 UI 選項中選擇色彩，或選取 [自訂色彩]&lt;strong&gt;&lt;/strong&gt; 以指定色彩。以下範例使用下列色彩：&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;最小值 - 0007FF&lt;/p&gt;
+
+&lt;p&gt;中間值 - B3B3B3&lt;/p&gt;
+
+&lt;p&gt;最大值 - 0055FF&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;/li&gt;
+
+&lt;li&gt;將 [最小值]&lt;strong&gt;&lt;/strong&gt;、[中間值]&lt;strong&gt;&lt;/strong&gt; 和 [最大值]&lt;strong&gt;&lt;/strong&gt; 分別設定為 &lt;strong&gt;-1、0 和 1&lt;/strong&gt;。您可以透過此方式來定義色階。&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;img src="{2}" alt="" title="" /&gt;&lt;/p&gt;
+
+&lt;p&gt;我們將變更地圖的一些預設值，以增進可讀性。當色彩為灰階時，可能很難區分色彩，因此我們可以增加框線的可見度，以更輕鬆地檢視縣市圖形。&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;展開 [預設色彩]&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;設定 [色彩]&lt;strong&gt;&lt;/strong&gt; 並選取「白色」&lt;strong&gt;&lt;em&gt;&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;設定 [框線色彩]&lt;strong&gt;&lt;/strong&gt; 並選取「白色」&lt;strong&gt;&lt;em&gt;&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;將 [框線粗細]&lt;strong&gt;&lt;/strong&gt; 設定為 &lt;strong&gt;&lt;em&gt;4&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;img src="{3}" alt="" title="" /&gt;&lt;/p&gt;
+
+&lt;p&gt;最後，我們將提供有意義的地圖標題。&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;展開 [標題]&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;將 [標題文字]&lt;strong&gt;&lt;/strong&gt; 設定為「依縣市顯示選舉結果」&lt;em&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/em&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;將 [文字大小]&lt;strong&gt;&lt;/strong&gt; 設定為 &lt;strong&gt;&lt;em&gt;14&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;img src="{4}" alt="" title="" /&gt;&lt;/p&gt;
+
+&lt;p&gt;您的地圖現在會如下所示。當您設計視覺效果時，請務必檢查這些視覺效果是否可讓觀眾或讀者清楚了解。注意最後的地圖視覺效果可清楚地分隔圖形、具有清楚的標題，而且色彩有助於清楚了解。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src="{5}" alt="" title="" /&gt;&lt;/p&gt;
+
+&lt;p&gt;建立地圖之後，請使用您學到的技能來建立橫條圖，以顯示整體結果。&lt;/p&gt;
+
+&lt;p&gt;使用資料的 [欄位]&lt;strong&gt;&lt;/strong&gt;：&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;選取 [候選人]&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;選取 [票數]&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;設定符合地圖色彩的色彩，並設定適當的標題。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src="{6}" alt="" title="" /&gt;&lt;/p&gt;</value>
+  </data>
+  <data name="Article_Content_Step5_9" xml:space="preserve">
+    <value>&lt;p&gt;您可以使用幾個額外的功能：&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;資料標籤&lt;/strong&gt;：您可以在啟用視覺效果時，從 [格式化] 窗格中找到此功能&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;數字格式&lt;/strong&gt;：如需指示，請參閱本教學課程結尾的＜數字格式＞一節&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;最後報表應如下所示：&lt;/p&gt;
+
+&lt;p&gt;&lt;img src="{0}" alt="" title="" /&gt;&lt;/p&gt;
+
+&lt;p&gt;請注意，按下地圖即會交叉強調顯示橫條圖，如下所示。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src="{1}" alt="" title="" /&gt;&lt;/p&gt;
+
+&lt;p&gt;此互動不是此特定案例的最佳互動。我們可以自訂視覺互動。&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;在功能區中，選取 [格式]&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;在 [互動] 索引標籤中，按下 [編輯互動]&lt;strong&gt;&lt;/strong&gt; 按鈕。&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;img src="{2}" alt="" title="" /&gt;&lt;/p&gt;
+
+&lt;p&gt;現在當您選取地圖時，您將會發現其他視覺效果在右上角有一個新的功能表列，如下所示。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src="{3}" alt="" title="" /&gt;&lt;/p&gt;
+
+&lt;p&gt;此功能表提供三個選項：&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;篩選 - 只顯示目前所選資料點的資料&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;交叉強調顯示 - 顯示目前所選資料點佔整體總計的比重&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;無 - 與所選視覺效果的互動不會影響此視覺效果&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;如上所示選取 [篩選]&lt;strong&gt;&lt;/strong&gt; 選項。&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;現在按一下&lt;strong&gt;地圖&lt;/strong&gt;即可看到顯示您按下之每個縣市之特定資料的橫條圖，如果未選取任何縣市，則會顯示全州總計。&lt;/p&gt;
+
+&lt;p&gt;現在請&lt;strong&gt;儲存&lt;/strong&gt;報表。&lt;/p&gt;
+
+&lt;h2&gt;第 2 部分：將報表發行至您的 Power BI 帳戶&lt;/h2&gt;
+
+&lt;p&gt;現在我們可以將報表發行至您的 Power BI 帳戶，您可以在此與同事安全地共用報表。&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;在 [首頁]&lt;strong&gt;&lt;/strong&gt; 功能區中，選取 [共用] 群組中的 [發行]&lt;strong&gt;&lt;/strong&gt;
+
+
+&lt;p&gt;&lt;img src="{4}" alt="" title="" /&gt;&lt;/p&gt;
+
+&lt;p&gt;注意：若要完成此步驟，您必須具有 Power BI 帳戶。如果您尚未建立一個帳戶，請前往 &lt;a href="{5}"&gt;{6}&lt;/a&gt; 並註冊免費帳戶。&lt;/p&gt;
+
+&lt;p&gt;發行成功之後，您將會看到下列對話方塊：&lt;/p&gt;
+
+&lt;p&gt;&lt;img src="{7}" alt="" title="" /&gt;&lt;/p&gt;
+
+&lt;/li&gt;
+&lt;li&gt;按下 [在 Power BI 中開啟 ’VotingData Report.pbix’]&lt;strong&gt;&lt;/strong&gt; 連結，以查看 Power BI.com 中的報表。&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;img src="{8}" alt="" title="" /&gt;&lt;/p&gt;</value>
+  </data>
+  <data name="Article_Content_Step6_5" xml:space="preserve">
+    <value>&lt;h3&gt;步驟 1：發行至 Web&lt;/h3&gt;
+
+&lt;p&gt;您可以遵循下列連結所提供的指示，&lt;strong&gt;建立 Power BI 的 [發行至 Web] 內嵌程式碼&lt;/strong&gt;。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href="{0}"&gt;{0}&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;您的內嵌程式碼會如下所示：&lt;/p&gt;
+
+&lt;p&gt;&amp;lt;iframe width="800" height="600" src="{1}" frameborder="0" allowFullScreen="true"&gt;&amp;lt;/iframe&gt;&lt;/p&gt;
+
+&lt;p&gt;請注意，內嵌程式碼的開頭為 ‘&amp;lt;iframe’。您將使用 iFrame 將內容嵌入網頁。&lt;/p&gt;
+
+&lt;h3&gt;步驟 2：將內嵌程式碼新增至網頁&lt;/h3&gt;
+
+&lt;p&gt;在本節中，我們將新增報表的內嵌程式碼並將它新增至網頁。&lt;/p&gt;
+
+&lt;p&gt;您必須將上一個步驟中的&lt;strong&gt;內嵌程式碼&lt;/strong&gt;複製到所提供的網頁。如果尚未執行，請立即返回並加以複製。&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;開啟檔案 &lt;strong&gt;Embed in web page.htm&lt;/strong&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;找到此行 “&amp;lt;!-- Step 1: Place your iFrame embed code below this line --&gt;”&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;將內嵌程式碼&lt;strong&gt;貼到&lt;/strong&gt;該行下方&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;接著調整 iframe 的高度和寬度。預設值無法確保是最適大小。此大小取決於您報表中的頁面大小。預設頁面大小比例為 16:9。您應該根據網頁版面配置和此基本大小，進而求得寬度和高度。接著確定增加 56 至 iFrame 的高度，以在 iFrame 底部容納 Power BI UI。&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;現在設定 &lt;strong&gt;iframe&lt;/strong&gt; 的寬度和高度，如下所示：&lt;/p&gt;
+    &lt;ul&gt;
+&lt;li&gt;&lt;p&gt;寬度="1000"&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;高度="618"&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;儲存&lt;/strong&gt;檔案&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;在 &lt;strong&gt;Windows 檔案總管&lt;/strong&gt;中，&lt;strong&gt;按兩下檔案以在網頁瀏覽器中開啟&lt;/strong&gt;。&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;您將會看到如下所示的頁面。如果您發行至網頁伺服器上的頁面，檢視您頁面的任何人都能夠檢視報表。您可以使用下列步驟，將 Power BI 資料視覺效果新增至部落格、新聞文章或網站。&lt;/p&gt;
+
+&lt;h1&gt;&lt;img src="{2}" alt="" title="" /&gt;&lt;/h1&gt;
+
+&lt;h2&gt;附錄：在 Power BI 中設定數字格式&lt;/h2&gt;
+
+&lt;p&gt;在本教學課程中，如果您使用資料標籤，預設會看到數字未格式化。下列指示說明如何在 Power BI 中設定數字格式。&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;在 [欄位] 清單中按一下並選取您要設定格式的&lt;strong&gt;欄位&lt;/strong&gt;。提示：選取的欄位會顯示黃色框線，如下所示。
+&lt;p&gt;&lt;img src="{3}" alt="" title="" /&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;選取此欄位時，在功能區中選取 [模型]&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;注意 [格式化]&lt;strong&gt;&lt;/strong&gt; 區段。&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;若要針對大型數字新增逗號分隔符號，請按下&lt;strong&gt;逗號圖示&lt;/strong&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;完成此作業之後，每當在視覺效果中使用欄位，都會套用此格式。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src="{4}" alt="" title="" /&gt;&lt;/p&gt;</value>
+  </data>
+  <data name="Article_Continue_Step1_3" xml:space="preserve">
+    <value>&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;巡覽至您的 [溫度資料]&lt;strong&gt;&lt;/strong&gt; 資料表，然後選取 [首頁]&lt;strong&gt;&lt;/strong&gt; 功能區中的 [合併查詢]&lt;strong&gt;&lt;/strong&gt;。&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;在編輯器中，選取這兩個資料表的 [儀器資料]&lt;strong&gt;&lt;/strong&gt; 和資料行 [年]&lt;strong&gt;&lt;/strong&gt;。這是資料表要相符的資料行。&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;由於您最後想要有一個資料表，其中包含這兩個資料表的所有資料列 (符合重疊的資料行)，因此請選取 [聯結種類: 完整外部 (來自兩者的所有資料列)]&lt;strong&gt;&lt;/strong&gt;。 此編輯器現在應該會顯示相符的資料列數目。&lt;/p&gt;
+&lt;p&gt;&lt;img src="{0}" alt="" title="" /&gt;&lt;/p&gt;
+
+&lt;/li&gt;
+&lt;li&gt;選取 [確定]&lt;strong&gt;&lt;/strong&gt; 之後，展開新的資料行 (請參閱下面的圖示)。
+&lt;p&gt;&lt;img src="{1}" alt="" title="" /&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;若要建立新的資料行，請在 [新增資料行]&lt;strong&gt;&lt;/strong&gt; 索引標籤中選取 [新增索引資料行]&lt;strong&gt;&lt;/strong&gt;，以使用下拉式功能表來建立自訂索引資料行。從 1000 起始索引，並以 1 為增量。&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;您現在應該會有介於 1000 到 1998 之間的索引資料行。將此資料行的類型變更為文字。&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;現在刪除兩個 [年] 資料行，並將 [索引]&lt;strong&gt;&lt;/strong&gt; 的名稱變更為&lt;strong&gt;年&lt;/strong&gt;。&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;將 [年]&lt;strong&gt;&lt;/strong&gt; 的資料類型設定為 [日期]&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;最後一個要載入的資料表包含 &lt;strong&gt;*關聯的誤差線*&lt;/strong&gt;。&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;在查詢編輯器中，選取 [首頁]&lt;strong&gt;&lt;/strong&gt; &gt; [新來源]&lt;strong&gt;&lt;/strong&gt; &gt; [Web]&lt;strong&gt;&lt;/strong&gt;，然後輸入資料表的 URL：&lt;a href="{2}"&gt;{2}&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;將查詢名稱變更為&lt;strong&gt;誤差線&lt;/strong&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;將 [年]&lt;strong&gt;&lt;/strong&gt; 的類型變更為文字&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;刪除第一個和最後一個資料行&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;將 [年]&lt;strong&gt;&lt;/strong&gt; 的類型變更為日期&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;接下來，您可以使用&lt;strong&gt;誤差線&lt;/strong&gt;的標準差來計算重建溫度的正數和負數差異。&lt;/p&gt;</value>
+  </data>
+  <data name="Article_Start_Step2_3" xml:space="preserve">
+    <value>&lt;p&gt;&lt;img src="{0}" alt="" title="" /&gt;&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;重複此步驟，建立&lt;strong&gt;負數差異 = [重建溫度變化] - [標準差]&lt;/strong&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;將新資料行的資料類型變更為十進位數字。&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;將所有資訊載入 [溫度變化]&lt;strong&gt;&lt;/strong&gt; 資料表之後，不需要將其他兩個資料表載入報表。若要停止載入其他兩個資料表，請以滑鼠右鍵按一下 [儀器資料]&lt;strong&gt;&lt;/strong&gt; 並取消選取 [啟用載入]&lt;strong&gt;&lt;/strong&gt;，然後對 [誤差線]&lt;strong&gt;&lt;/strong&gt; 執行相同的動作。停用的資料表會以斜體和灰階顯示。&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;img src="{1}" alt="" title="" /&gt;&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;現在選取 [首頁]&lt;strong&gt;&lt;/strong&gt; 功能區中的 [關閉並套用]&lt;strong&gt;&lt;/strong&gt;。&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3&gt;步驟 2：建立視覺效果&lt;/h3&gt;
+
+&lt;p&gt;載入資料並完成大部分編輯與合併資料的工作之後，只要按幾下，就可以建立折線圖。&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;在報表部分建立新的折線圖&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;拖曳 [軸]&lt;strong&gt;&lt;/strong&gt; 欄位上的 [年]&lt;strong&gt;&lt;/strong&gt;，並確定下拉式功能表中的日期以「年」顯示&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;img src="{2}" alt="" title="" /&gt;&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;拖曳 [值] 上的 [重建溫度變化]&lt;strong&gt;&lt;/strong&gt;、[儀器溫度變化]&lt;strong&gt;&lt;/strong&gt;、[正數差異]&lt;strong&gt;&lt;/strong&gt; 和 [負數差異]&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;如果您想要在差異中強調顯示溫度變化，請在 [格式]&lt;strong&gt;&lt;/strong&gt; 窗格中變更線條的色彩。&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;</value>
+  </data>
+  <data name="Download_Resources" xml:space="preserve">
+    <value>下載這些教學課程所需的所有資源</value>
+  </data>
+  <data name="Hero_Content" xml:space="preserve">
+    <value>本簡介課程將指導您如何使用不同類型的圖形來分析及了解您自己的資料，並學習如何有效地與您的觀眾溝通。資料視覺效果專家 Alberto Cairo 將逐步說明視覺效果的核心原則，例如了解您的資料、選擇適當的圖形格式，以及安排構圖以敘述或啟用探索。您也將深入了解資料視覺效果如何依據視覺編碼概念，將資料點轉換成圖形功能。</value>
+  </data>
+  <data name="Hero_Title" xml:space="preserve">
+    <value>視覺效果簡介</value>
+  </data>
+  <data name="InThisArticle" xml:space="preserve">
+    <value>本文內容：</value>
+  </data>
+  <data name="META_DESCRIPTION" xml:space="preserve">
+    <value />
+  </data>
+  <data name="META_KEYWORDS" xml:space="preserve">
+    <value />
+  </data>
+  <data name="META_PAGETITLE" xml:space="preserve">
+    <value>資料新聞學 - 視覺效果簡介 | Microsoft Power BI</value>
+  </data>
+  <data name="NextTopic" xml:space="preserve">
+    <value>下一個主題：資料探索</value>
+  </data>
+  <data name="RightNav_Link1" xml:space="preserve">
+    <value>世界溫度變化 (在 Power BI 中建立曲棍球棍圖表)</value>
+  </data>
+  <data name="RightNav_Link2" xml:space="preserve">
+    <value>建立及發行視覺效果</value>
+  </data>
+  <data name="Start_Article_Content_4" xml:space="preserve">
+    <value>&lt;h2 id="world-temp-change"&gt;世界溫度變化 (在 Power BI 中建立曲棍球棍圖表)&lt;/h2&gt;
+
+&lt;p&gt;＜資料視覺效果＞課程中所使用的前幾個範例之一是 Michael Mann 和 Raymond Bradley 對全球溫度所做的分析。針對您在使用 Microsoft Power BI 時最常用的概念範圍，重建此視覺效果。從幾個網頁的資料表開始，您將結合資料、將資料載入報表、進行一些調整，然後計算趨勢線。我們將使用此處提供之原始研究中的資料：&lt;a href="{0}"&gt;{0}&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3&gt;步驟 1：載入資料&lt;/h3&gt;
+
+&lt;p&gt;建立此視覺效果所需的資料包含在下列三個資料表中：[Reconstruction (AD 1000-1980)] (重建 (西元 1000-1980 年))&lt;strong&gt;&lt;/strong&gt;、[Associated Error bars] (關聯的誤差線)&lt;strong&gt;&lt;/strong&gt; 和 [Instrumental series (1902-1998)] (儀器序列 (1902-1998 年))&lt;strong&gt;&lt;/strong&gt;。在此範例中，我們一開始會載入重建溫度。&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;開啟 [Reconstruction (AD 1000-1980)] (重建 (西元 1000-1980 年))&lt;strong&gt;&lt;/strong&gt;：&lt;a href="{1}"&gt;{1}&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;在新的 Power BI Desktop 檔案中，選取左上方的 [取得資料]&lt;strong&gt;&lt;/strong&gt;。&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;在下拉式功能表中，選取 [Web]&lt;strong&gt;&lt;/strong&gt;，然後將連結貼到 [URL] 視窗中。Power BI 會自動建議該資料的資料類型。由於我們想要編輯 [年] 資料行，因此我們將停用該功能。將 [資料類型偵測]&lt;strong&gt;&lt;/strong&gt; 設定為 [不要偵測資料類型]&lt;strong&gt;&lt;/strong&gt; 並選取 [編輯]&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="{2}" alt="" title="" /&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;這會開啟查詢編輯器。第一個資料行為空白，因此您可以刪除該資料行。將資料行 2 重新命名為&lt;strong&gt;年&lt;/strong&gt;，並將資料行 3 重新命名為&lt;strong&gt;重建溫度變化&lt;/strong&gt;。選取下圖所示的資料類型圖示，將此資料行的資料類型變更為十進位數字。
+&lt;p&gt;&lt;img src="{3}" alt="" title="" /&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;將查詢名稱變更為&lt;strong&gt;溫度資料&lt;/strong&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;您可以使用相同的原則，載入儀器溫度資料和誤差線。&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;仍在查詢編輯器中，選取 [首頁]&lt;strong&gt;&lt;/strong&gt; 功能區中的 [新來源]&lt;strong&gt;&lt;/strong&gt;，並輸入 [Instrumental series] (儀器序列)&lt;strong&gt;&lt;/strong&gt; 資料表的 URL。&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;在快顯視窗中，選取 [不要偵測資料類型]&lt;strong&gt;&lt;/strong&gt;，然後選取 [編輯]&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;刪除資料行 1，然後將資料行 2 重新命名為&lt;strong&gt;年&lt;/strong&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;將資料行 3 重新命名為&lt;strong&gt;儀器溫度變化&lt;/strong&gt;，並將其資料類型變更為十進位數字&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;將查詢名稱變更為&lt;strong&gt;儀器資料&lt;/strong&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;&lt;p&gt;接下來，您想要建立一個 [年] 資料行，以用於 1000 年到 1998 年的所有資料點。若要這樣做，您可以合併查詢編輯器中的兩個資料表，然後新增一個 [年] 資料行。&lt;/p&gt;</value>
+  </data>
+  <data name="Meta_LocJobId" xml:space="preserve">
+    <value>159</value>
+  </data>
+</root>

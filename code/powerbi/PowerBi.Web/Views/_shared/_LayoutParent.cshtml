@@ -1,0 +1,64 @@
+﻿@using Acom.Mvc.Bundles
+@using PowerBI.Web.DynamicContent
+@model PowerBI.Web.Models.Pages.ViewMetadataModel
+
+@{
+    Model.MetaCanonical = Model.MetaCanonical ?? string.Format("https://powerbi.microsoft.com{0}", this.Request.Url.AbsolutePath);
+
+    Html.GenerateMetaTags(Model);
+}
+
+<!DOCTYPE html>
+<html class="@CultureHelperBase.GetCurrentCulture()" lang="@CultureHelperBase.GetCurrentNeutralCulture()">
+<head>
+	<meta charset="utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<link href="@CdnHelper.GetCdnUrl("/pictures/favicon.ico")" rel="icon" type="image/png" />
+	<meta name="description" content="@Model.MetaDescription" />
+	<meta name="keywords" content="@Model.MetaKeywords" />
+	<link rel="canonical" href="@Model.MetaCanonical" />
+
+    @Html.Partial("layout/_wedcsTags")
+
+    @foreach (var metaTag in Model.AdditionalMetaTags)
+    {
+        <meta name="@metaTag.Key" property="@metaTag.Key" content="@metaTag.Value" />
+    }
+
+    <title>@Model.PageTitle</title>
+    <link rel="stylesheet" href="https://amp.azure.net/libs/amp/1.7.3/skins/amp-default/azuremediaplayer.min.css" />
+    @Html.ConditialRenderStyleBundle(CoreCss.Path)
+
+    <script>
+        function cdnfallback() {
+            if (window.location.search.indexOf('cdn=disable') === -1) {
+                window.location.href = '?cdn=disable';
+            }
+        }
+    </script>
+</head>
+<body>
+    <div class="container @ViewBag.Container" data-tag-area="content" data-tag-group="body">
+        @RenderBody()
+    </div>
+
+    <!--[if lt IE 9]>
+        <script src="@CdnHelper.GetCdnUrl("/scripts/sundog/lib/jquery-1.11.3.min.js")"></script>
+        <script src="@CdnHelper.GetCdnUrl("/scripts/sundog/lib/respond.min.js")"></script>
+    <![endif]-->
+    <!--[if gte IE 9]><!-->
+        <script src="@CdnHelper.GetCdnUrl("/scripts/sundog/lib/jquery-2.1.4.min.js")"></script>
+    <!--<![endif]-->
+    @Html.Partial("layout/_javascriptconstants")
+    @Html.Partial("layout/_wedcsInclude")
+    @Html.Partial("layout/_optimizelyInclude")
+    @Html.Partial("layout/_clicktaleInclude")
+    <script src="https://amp.azure.net/libs/amp/1.7.3/azuremediaplayer.min.js"></script>
+    @Html.ConditialRenderScriptBundle(CoreScripts.Path)
+    @RenderSection("foot", false)
+    @Html.Partial("layout/_googleAnalyticsInclude")
+    @Html.Partial("layout/_customOlarkChat")
+	@Html.Partial("layout/_olarkInclude")
+</body>
+</html>

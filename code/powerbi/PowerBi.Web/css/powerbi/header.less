@@ -1,0 +1,35 @@
+﻿@import '../../less/variables.d.less';
+@import '../../less/mixins.d.less';
+
+.container {
+    padding-top: 68px;
+    background-color: @color-palette02;
+}
+
+.logo-powerbi {
+    .icon {
+        height: 20px;
+        width: 92px;
+    }
+}
+
+.navigation {
+    &.navigation-absolute {
+        left: 0;
+        position: absolute;
+        right: 0;
+        top: 0;
+        z-index: 99999;
+    }
+}
+
+@media only screen and (min-width: @resolution-medium) {
+    .logo-powerbi {
+        margin-top: 3px;
+
+        .icon {
+            height: 14px;
+            width: 64px;
+        }
+    }
+}

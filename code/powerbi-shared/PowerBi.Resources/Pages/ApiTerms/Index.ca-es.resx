@@ -1,0 +1,986 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Content" xml:space="preserve">
+    <value>&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-top:71.25pt;margin-right:0in;margin-bottom:
+.05pt;margin-left:0in;line-height:normal&#39;&gt;&lt;span lang=&quot;CA&quot; style=&#39;font-size:21.0pt;
+font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;Termes de l&#39;API del
+Microsoft Power BI&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;line-height:normal&#39;&gt;&lt;span lang=&quot;CA&quot; style=&#39;font-size:
+12.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;Gr&#224;cies per utilitzar
+la interf&#237;cie de programaci&#243; d&#39;aplicacions (API) del Power BI. En aquestes
+condicions del servei, es fa refer&#232;ncia a l&#39;API del Power BI, junt amb les
+actualitzacions, les revisions, les substitucions i les c&#242;pies que pugueu fer
+v&#243;s o es puguin fer per a v&#243;s, com a “API del Microsoft Power BI”. Aquest
+document &#233;s un contracte entre v&#243;s i Microsoft Corporation (“Microsoft”). De
+vegades, es fa refer&#232;ncia a Microsoft com a “nosaltres”, “ens”, “nos” o
+“nostre”. En utilitzar l&#39;API del Power BI, accepteu aquests termes del servei
+(els “Termes de l&#39;API”) i el Contracte de Serveis del Power BI o altres
+contractes, segons escaigui (en conjunt, el “Contracte”) que regeixen l&#39;&#250;s del
+Power BI i les aplicacions complement&#224;ries (“Servei del Power BI”). En cas
+d&#39;incoher&#232;ncia entre aquests Termes de l&#39;API i el Contracte, s&#39;aplicaran
+aquests Termes de l&#39;API.&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;line-height:normal&#39;&gt;&lt;span lang=&quot;CA&quot; style=&#39;font-size:
+12.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;Microsoft es reserva
+el dret d&#39;actualitzar i modificar, ocasionalment, aquests Termes de l&#39;API o
+qualsevol altre document incorporat per refer&#232;ncia. Microsoft pot publicar una
+versi&#243; nova que modifiqui aquests Termes de l&#39;API. L&#39;&#250;s de l&#39;API del Power BI
+despr&#233;s d&#39;aquest canvi implica l&#39;acceptaci&#243; dels canvis.&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;line-height:normal&#39;&gt;&lt;b&gt;&lt;span lang=&quot;CA&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;Teniu
+en compte que no proporcionem cap garantia per a l&#39;API del Power BI. Els Termes
+de l&#39;API tamb&#233; limiten la nostra responsabilitat. Aquests termes s&#39;inclouen a
+les seccions 10 i 11. Us preguem que els llegiu amb deteniment.&lt;/span&gt;&lt;/b&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-bottom:.05pt;line-height:normal&#39;&gt;&lt;b&gt;&lt;span lang=&quot;CA&quot; style=&#39;font-size:18.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;1.
+Acc&#233;s a l&#39;API del Power BI.&lt;/span&gt;&lt;/b&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;line-height:normal&#39;&gt;&lt;span lang=&quot;CA&quot; style=&#39;font-size:
+12.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;Per tal d&#39;utilitzar
+l&#39;API del Power BI, necessiteu una subscripci&#243; al Power BI i registrar l&#39;aplicaci&#243;
+a l&#39;Azure Active Directory. El vostre servei ha de proporcionar l&#39;identificador
+de client que us va proporcionar l&#39;Azure Active Directory, com es descriu a la
+documentaci&#243; de l&#39;API del Power BI. Microsoft bloquejar&#224; les sol&#183;licituds amb
+identificadors de client inv&#224;lids. Microsoft tindr&#224; el control exclusiu i
+complet sobre les dades i el format del Power BI.&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;line-height:normal&#39;&gt;&lt;span lang=&quot;CA&quot; style=&#39;font-size:
+12.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;Microsoft tindr&#224; el
+dret, a la seva discreci&#243;, de rebutjar qualsevol sol&#183;licitud per utilitzar
+l&#39;API del Power BI en qualsevol moment i per qualsevol motiu. Microsoft no ser&#224;
+responsable per cap tipus de dany derivat de la seva decisi&#243; de rebutjar una
+sol&#183;licitud.&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-bottom:.05pt;line-height:normal&#39;&gt;&lt;b&gt;&lt;span lang=&quot;CA&quot; style=&#39;font-size:18.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;2.
+Restriccions i Usos Llicenciats.&lt;/span&gt;&lt;/b&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;line-height:normal&#39;&gt;&lt;span lang=&quot;CA&quot; style=&#39;font-size:
+12.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;L&#39;API del Power BI &#233;s
+propietat de Microsoft i se us llicencia de manera universal (a excepci&#243; dels
+l&#237;mits que s&#39;indiquen m&#233;s avall), no exclusiva i no subllicenciable, d&#39;acord
+amb els termes i les condicions que es descriuen aqu&#237;. Aquests Termes de l&#39;API
+defineixen l&#39;&#250;s legal de l&#39;API del Power BI, les actualitzacions, les
+revisions, les substitucions i les c&#242;pies de l&#39;API del Power BI que pugueu fer
+v&#243;s o es puguin fer per a v&#243;s. Microsoft es reserva tots els drets que no us
+atorga expressament.&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-left:.25in;text-indent:-.25in;line-height:
+normal&#39;&gt;&lt;span lang=&quot;PT-BR&quot; style=&#39;font-size:10.0pt;font-family:Symbol;color:#4B5C66&#39;&gt;&#183;&lt;span style=&#39;font:7.0pt &quot;Times New Roman&quot;&#39;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+&lt;/span&gt;&lt;/span&gt;&lt;span lang=&quot;CA&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;
+color:#4B5C66&#39;&gt;a.&amp;nbsp;Llic&#232;ncia. D&#39;acord amb els termes i les restriccions que
+es defineixen en aquests Termes de l&#39;API, Microsoft us atorga el dret no
+exclusiu i no subllicenciable d&#39;utilitzar l&#39;API del Power BI per desenvolupar,
+provar, distribuir i complementar la vostra aplicaci&#243;. &lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-left:.25in;text-indent:-.25in;line-height:
+normal&#39;&gt;&lt;span lang=&quot;PT-BR&quot; style=&#39;font-size:10.0pt;font-family:Symbol;color:#4B5C66&#39;&gt;&#183;&lt;span style=&#39;font:7.0pt &quot;Times New Roman&quot;&#39;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+&lt;/span&gt;&lt;/span&gt;&lt;span lang=&quot;CA&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;
+color:#4B5C66&#39;&gt;b.&amp;nbsp;Marques. No podreu utilitzar la marca ni els logotips
+del Power BI sense el consentiment per escrit expl&#237;cit de Microsoft. &lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;line-height:normal&#39;&gt;&lt;span lang=&quot;CA&quot; style=&#39;font-size:
+12.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;c.&amp;nbsp;L&#237;mits de
+Taxes i Restriccions de Camps de Dades. Compreneu que hi ha un l&#237;mit de taxes i
+una restricci&#243; pel que fa als camps de dades que es mostren per aplicaci&#243; o
+servei que utilitzi l&#39;API del Power BI i accepteu que sempre complireu les
+restriccions i el l&#237;mit de taxes dels camps de dades. Els l&#237;mits de taxes i les
+restriccions es descriuen a la Documentaci&#243; de l&#39;API del Power BI, disponible a&lt;/span&gt;&lt;span lang=&quot;CA&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#868F95&#39;&gt;&amp;nbsp;&lt;/span&gt;&lt;span lang=&quot;CA&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;dev.PowerBI.com&lt;/span&gt;&lt;span lang=&quot;CA&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#868F95&#39;&gt;.
+&lt;/span&gt;&lt;span lang=&quot;CA&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;
+color:#4B5C66&#39;&gt;Aquests l&#237;mits de taxes i restriccions poden canviar ocasionalment
+a discreci&#243; de Microsoft. Aquests canvis entraran en vigor immediatament
+despr&#233;s de la seva publicaci&#243;. Microsoft pot, a la seva discreci&#243;, limitar: (i)
+la freq&#252;&#232;ncia amb qu&#232; es pot invocar el servei o un subconjunt del servei, (ii)
+la quantitat d&#39;emmagatzematge disponible per a cada compte de servei i (iii) la
+longitud dels segments de contingut individuals que es poden carregar al servei
+o proporcionar des del servei. Tots els elements anteriors s&#243;n maneres de
+“Limitaci&#243;”. Microsoft pot portar a terme aquesta Limitaci&#243; de manera global a
+tota l&#39;API del Power BI, per usuari final, o en funci&#243; de qualsevol altre
+element. No intentareu evadir les mesures t&#232;cniques que puguem utilitzar per
+aplicar la Limitaci&#243; i compreneu i accepteu que els m&#232;todes de programaci&#243;
+pensats per trastocar la limitaci&#243; de taxes (incl&#242;s el manteniment d&#39;una
+mem&#242;ria cau de les dades) es consideren una infracci&#243; d&#39;aquests Termes de
+l&#39;API.&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;line-height:normal&#39;&gt;&lt;span lang=&quot;CA&quot; style=&#39;font-size:
+12.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;d.&amp;nbsp;Modificacions.
+Microsoft es reserva el dret de llan&#231;ar les versions subseg&#252;ents de l&#39;API del
+Power BI i requerir que obteniu i utilitzeu la versi&#243; m&#233;s recent. Si alguna
+modificaci&#243; &#233;s inacceptable per a v&#243;s, deixeu d&#39;utilitzar l&#39;API del Power BI.
+Si seguiu accedint a l&#39;API del Power BI, es considerar&#224; que heu acceptat les
+modificacions.&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;line-height:normal&#39;&gt;&lt;span lang=&quot;CA&quot; style=&#39;font-size:
+12.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;e.&amp;nbsp;Limitacions i
+Condicions del servei. Podem utilitzar tecnologia o altres mitjans per protegir
+l&#39;API del Power BI, protegir els nostres clients o impedir la infracci&#243; dels
+Termes de l&#39;API. Aquests mitjans poden incloure, per exemple, filtres per aturar
+el correu brossa o augmentar la seguretat. Aquests mitjans poden dificultar o
+interrompre el vostre &#250;s de l&#39;API del Power BI i no podeu evitar ni intentar
+boicotejar ni inhabilitar aquests mitjans t&#232;cnics o d&#39;altres.&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-bottom:.05pt;line-height:normal&#39;&gt;&lt;b&gt;&lt;span lang=&quot;CA&quot; style=&#39;font-size:18.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;3.
+Drets de Propietat.&lt;/span&gt;&lt;/b&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-left:.25in;text-indent:-.25in;line-height:
+normal&#39;&gt;&lt;span lang=&quot;CA&quot; style=&#39;font-size:10.0pt;font-family:Symbol;color:#4B5C66&#39;&gt;&#183;&lt;span style=&#39;font:7.0pt &quot;Times New Roman&quot;&#39;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+&lt;/span&gt;&lt;/span&gt;&lt;span lang=&quot;CA&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;
+color:#4B5C66&#39;&gt;a. Drets de Microsoft. Als efectes dels Termes de l&#39;API, “Drets
+de propietat intel&#183;lectual i industrial” s&#243;n tots els drets existents
+ocasionalment en virtut de les lleis de patents, propietat intel&#183;lectual,
+protecci&#243; de xips semiconductors, drets morals, secret empresarial, marca,
+compet&#232;ncia deslleial, drets de publicitat, drets de privacitat i qualsevol
+altre dret sobre la propietats i totes les aplicacions, renovacions, extensions
+i restauracions actuals o futures d&#39;aquestes lleis en vigor i a tot el m&#243;n.
+Entre v&#243;s i Microsoft, reconeixeu que Microsoft o els seus llicenciants s&#243;n els
+propietaris de tots els drets, titularitat i interessos, inclosos, sense
+limitaci&#243;, tots els Drets de Propietat Intel&#183;lectual i Industrial, respecte a
+l&#39;API del Power BI i tots els resultats de l&#39;API del Power BI (a excepci&#243; dels
+components de programari que desenvolupeu, que no s&#39;incorporen a l&#39;API del
+Power BI ni als resultats o els executables de l&#39;API del Power BI) i que no
+adquirireu cap dret, titularitat o inter&#232;s respecte a l&#39;API del Power BI, a
+excepci&#243; del que es defineix als Termes de l&#39;API.&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-left:.25in;text-indent:-.25in;line-height:
+normal&#39;&gt;&lt;span lang=&quot;FR&quot; style=&#39;font-size:10.0pt;font-family:Symbol;color:#4B5C66&#39;&gt;&#183;&lt;span style=&#39;font:7.0pt &quot;Times New Roman&quot;&#39;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+&lt;/span&gt;&lt;/span&gt;&lt;span lang=&quot;CA&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;
+color:#4B5C66&#39;&gt;b. Atribuci&#243;; Notificacions Legals. Les imatges que se us
+proporcionen a trav&#233;s de l&#39;API del Power BI poden incloure noms comercials,
+marques, marques de servei, logotips, noms de domini i altres caracter&#237;stiques
+de marca distintives de Microsoft i els seus associats. No podeu suprimir ni
+alterar de cap manera aquests noms comercials, marques, marques de servei,
+logotips, noms de domini i altres caracter&#237;stiques de marca distintives.
+Accepteu mantenir i no suprimir, modificar, ocultar ni alterar els enlla&#231;os o
+les notificacions que es mostren a les imatges que es proporcionen a trav&#233;s del
+Servei. Reconeixeu i accepteu que aquestes Notificacions Legals complementen
+els Termes de l&#39;API de l&#39;API del Power BI.&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-left:.25in;text-indent:-.25in;line-height:
+normal&#39;&gt;&lt;span lang=&quot;ES-AR&quot; style=&#39;font-size:10.0pt;font-family:Symbol;color:#4B5C66&#39;&gt;&#183;&lt;span style=&#39;font:7.0pt &quot;Times New Roman&quot;&#39;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+&lt;/span&gt;&lt;/span&gt;&lt;span lang=&quot;CA&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;
+color:#4B5C66&#39;&gt;c. Llei sobre la Propietat Intel&#183;lectual del Mil&#183;lenni Digital.
+D&#39;acord amb les normes de Microsoft, Microsoft respondr&#224; a les notificacions de
+presumpta infracci&#243; de drets que compleixin la Llei sobre la Propietat
+Intel&#183;lectual del Mil&#183;lenni Digital (“DMCA”). Per obtenir instruccions i m&#233;s
+informaci&#243;, vegeu la notificaci&#243; sobre la DMCA de les TOU.&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-bottom:.05pt;line-height:normal&#39;&gt;&lt;b&gt;&lt;span lang=&quot;CA&quot; style=&#39;font-size:18.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;4.
+Codi de Conducta.&lt;/span&gt;&lt;/b&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-left:.25in;text-indent:-.25in;line-height:
+normal&#39;&gt;&lt;span lang=&quot;FR&quot; style=&#39;font-size:10.0pt;font-family:Symbol;color:#4B5C66&#39;&gt;&#183;&lt;span style=&#39;font:7.0pt &quot;Times New Roman&quot;&#39;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+&lt;/span&gt;&lt;/span&gt;&lt;span lang=&quot;CA&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;
+color:#4B5C66&#39;&gt;Accepteu que sou el responsable de la vostra pr&#242;pia conducta i
+contingut en utilitzar l&#39;API del Power BI amb les seves possibles
+conseq&#252;&#232;ncies. Accepteu utilitzar l&#39;API del Power BI nom&#233;s amb finalitats
+legals, adequades i d&#39;acord amb aquests Termes de l&#39;API i les normes o
+instruccions aplicables.&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-left:.25in;text-indent:-.25in;line-height:
+normal&#39;&gt;&lt;span lang=&quot;ES-AR&quot; style=&#39;font-size:10.0pt;font-family:Symbol;color:#4B5C66&#39;&gt;&#183;&lt;span style=&#39;font:7.0pt &quot;Times New Roman&quot;&#39;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+&lt;/span&gt;&lt;/span&gt;&lt;span lang=&quot;CA&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;
+color:#4B5C66&#39;&gt;a. Conducta adequada. En utilitzar l&#39;API del Power BI i
+desenvolupar aplicacions, heu de:&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-left:.25in;text-indent:-.25in;line-height:
+normal&#39;&gt;&lt;span lang=&quot;EN&quot; style=&#39;font-size:10.0pt;font-family:Symbol;color:#4B5C66&#39;&gt;&#183;&lt;span style=&#39;font:7.0pt &quot;Times New Roman&quot;&#39;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+&lt;/span&gt;&lt;/span&gt;&lt;span lang=&quot;CA&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;
+color:#4B5C66&#39;&gt;Complir la llei;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-left:.25in;text-indent:-.25in;line-height:
+normal&#39;&gt;&lt;span lang=&quot;ES-AR&quot; style=&#39;font-size:10.0pt;font-family:Symbol;color:#4B5C66&#39;&gt;&#183;&lt;span style=&#39;font:7.0pt &quot;Times New Roman&quot;&#39;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+&lt;/span&gt;&lt;/span&gt;&lt;span lang=&quot;CA&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;
+color:#4B5C66&#39;&gt;Complir els codis de conducta o altres notificacions que
+proporcionem;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-left:.25in;text-indent:-.25in;line-height:
+normal&#39;&gt;&lt;span lang=&quot;IT&quot; style=&#39;font-size:10.0pt;font-family:Symbol;color:#4B5C66&#39;&gt;&#183;&lt;span style=&#39;font:7.0pt &quot;Times New Roman&quot;&#39;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+&lt;/span&gt;&lt;/span&gt;&lt;span lang=&quot;CA&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;
+color:#4B5C66&#39;&gt;Mantenir la confidencialitat de qualsevol contrasenya de compte
+de servei;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-left:.25in;text-indent:-.25in;line-height:
+normal&#39;&gt;&lt;span lang=&quot;ES-AR&quot; style=&#39;font-size:10.0pt;font-family:Symbol;color:#4B5C66&#39;&gt;&#183;&lt;span style=&#39;font:7.0pt &quot;Times New Roman&quot;&#39;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+&lt;/span&gt;&lt;/span&gt;&lt;span lang=&quot;CA&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;
+color:#4B5C66&#39;&gt;Notificar-nos immediatament si detecteu una infracci&#243; de
+seguretat en relaci&#243; amb el Servei del Power BI i l&#39;API del Power BI.&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-left:.25in;text-indent:-.25in;line-height:
+normal&#39;&gt;&lt;span lang=&quot;ES-AR&quot; style=&#39;font-size:10.0pt;font-family:Symbol;color:#4B5C66&#39;&gt;&#183;&lt;span style=&#39;font:7.0pt &quot;Times New Roman&quot;&#39;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+&lt;/span&gt;&lt;/span&gt;&lt;span lang=&quot;CA&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;
+color:#4B5C66&#39;&gt;b. Usos prohibits. En utilitzar l&#39;API del Power BI i
+desenvolupar aplicacions, no heu de:&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-left:.25in;text-indent:-.25in;line-height:
+normal&#39;&gt;&lt;span lang=&quot;ES-AR&quot; style=&#39;font-size:10.0pt;font-family:Symbol;color:#4B5C66&#39;&gt;&#183;&lt;span style=&#39;font:7.0pt &quot;Times New Roman&quot;&#39;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+&lt;/span&gt;&lt;/span&gt;&lt;span lang=&quot;CA&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;
+color:#4B5C66&#39;&gt;difamar, abusar, assetjar, perseguir, amena&#231;ar ni infringir
+d&#39;una altra manera els drets legals (per exemple, els drets de privacitat i
+publicitat) d&#39;altres persones;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-left:.25in;text-indent:-.25in;line-height:
+normal&#39;&gt;&lt;span lang=&quot;ES-AR&quot; style=&#39;font-size:10.0pt;font-family:Symbol;color:#4B5C66&#39;&gt;&#183;&lt;span style=&#39;font:7.0pt &quot;Times New Roman&quot;&#39;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+&lt;/span&gt;&lt;/span&gt;&lt;span lang=&quot;CA&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;
+color:#4B5C66&#39;&gt;carregar, publicar, enviar per correu electr&#242;nic ni transmetre o
+posar a disposici&#243; d&#39;altres d&#39;una altra manera cap contingut inadequat,
+difamatori, infractor, obsc&#232; o il&#183;legal;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-left:.25in;text-indent:-.25in;line-height:
+normal&#39;&gt;&lt;span lang=&quot;ES-AR&quot; style=&#39;font-size:10.0pt;font-family:Symbol;color:#4B5C66&#39;&gt;&#183;&lt;span style=&#39;font:7.0pt &quot;Times New Roman&quot;&#39;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+&lt;/span&gt;&lt;/span&gt;&lt;span lang=&quot;CA&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;
+color:#4B5C66&#39;&gt;carregar, publicar, enviar per correu electr&#242;nic ni transmetre o
+posar a disposici&#243; d&#39;altres d&#39;una altra manera cap contingut que infringeixi
+cap dret de patent, marca, propietat intel&#183;lectual, secret comercial o
+propietat d&#39;una altra entitat parcial, excepte si sou el propietari dels drets
+o teniu el perm&#237;s del propietari per publicar aquest contingut;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-left:.25in;text-indent:-.25in;line-height:
+normal&#39;&gt;&lt;span lang=&quot;ES-AR&quot; style=&#39;font-size:10.0pt;font-family:Symbol;color:#4B5C66&#39;&gt;&#183;&lt;span style=&#39;font:7.0pt &quot;Times New Roman&quot;&#39;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+&lt;/span&gt;&lt;/span&gt;&lt;span lang=&quot;CA&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;
+color:#4B5C66&#39;&gt;carregar, publicar, enviar per correu electr&#242;nic ni transmetre o
+posar a disposici&#243; d&#39;altres d&#39;una altra manera missatges que promoguin fraus
+piramidals, cartes en cadena ni anuncis o missatges comercials pertorbadors ni
+res que prohibeixi la llei, aquests Termes de l&#39;API o les normes o instruccions
+aplicables;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-left:.25in;text-indent:-.25in;line-height:
+normal&#39;&gt;&lt;span lang=&quot;ES-AR&quot; style=&#39;font-size:10.0pt;font-family:Symbol;color:#4B5C66&#39;&gt;&#183;&lt;span style=&#39;font:7.0pt &quot;Times New Roman&quot;&#39;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+&lt;/span&gt;&lt;/span&gt;&lt;span lang=&quot;CA&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;
+color:#4B5C66&#39;&gt;utilitzar l&#39;API del Power BI per a la promoci&#243; o connexi&#243; amb
+productes, serveis o materials que constitueixin, promoguin o s&#39;utilitzin principalment
+per a: els programes espia, la publicitat o altres programes o codi maliciosos;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-left:.25in;text-indent:-.25in;line-height:
+normal&#39;&gt;&lt;span lang=&quot;ES-AR&quot; style=&#39;font-size:10.0pt;font-family:Symbol;color:#4B5C66&#39;&gt;&#183;&lt;span style=&#39;font:7.0pt &quot;Times New Roman&quot;&#39;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+&lt;/span&gt;&lt;/span&gt;&lt;span lang=&quot;CA&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;
+color:#4B5C66&#39;&gt;baixar cap fitxer que publiqui una altra persona que sapigueu, o
+haur&#237;eu de saber raonablement, que no es pot distribuir legalment d&#39;aquesta
+manera;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-left:.25in;text-indent:-.25in;line-height:
+normal&#39;&gt;&lt;span lang=&quot;ES-AR&quot; style=&#39;font-size:10.0pt;font-family:Symbol;color:#4B5C66&#39;&gt;&#183;&lt;span style=&#39;font:7.0pt &quot;Times New Roman&quot;&#39;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+&lt;/span&gt;&lt;/span&gt;&lt;span lang=&quot;CA&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;
+color:#4B5C66&#39;&gt;suplantar la identitat d&#39;una altra persona o entitat, falsificar
+o suprimir notificacions d&#39;atribuci&#243; d&#39;autor, legals o d&#39;altre tipus ni les
+designacions o etiquetes de propietat que indiquin l&#39;origen del programari o
+d&#39;altres materials;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-left:.25in;text-indent:-.25in;line-height:
+normal&#39;&gt;&lt;span lang=&quot;ES-AR&quot; style=&#39;font-size:10.0pt;font-family:Symbol;color:#4B5C66&#39;&gt;&#183;&lt;span style=&#39;font:7.0pt &quot;Times New Roman&quot;&#39;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+&lt;/span&gt;&lt;/span&gt;&lt;span lang=&quot;CA&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;
+color:#4B5C66&#39;&gt;restringir ni inhibir a cap altre usuari perqu&#232; no pugui
+utilitzar i gaudir de l&#39;acc&#233;s a l&#39;API del Power BI;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-left:.25in;text-indent:-.25in;line-height:
+normal&#39;&gt;&lt;span lang=&quot;ES-AR&quot; style=&#39;font-size:10.0pt;font-family:Symbol;color:#4B5C66&#39;&gt;&#183;&lt;span style=&#39;font:7.0pt &quot;Times New Roman&quot;&#39;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+&lt;/span&gt;&lt;/span&gt;&lt;span lang=&quot;CA&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;
+color:#4B5C66&#39;&gt;utilitzar l&#39;API del Power BI amb una finalitat il&#183;legal o no
+autoritzada;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-left:.25in;text-indent:-.25in;line-height:
+normal&#39;&gt;&lt;span lang=&quot;EN&quot; style=&#39;font-size:10.0pt;font-family:Symbol;color:#4B5C66&#39;&gt;&#183;&lt;span style=&#39;font:7.0pt &quot;Times New Roman&quot;&#39;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+&lt;/span&gt;&lt;/span&gt;&lt;span lang=&quot;CA&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;
+color:#4B5C66&#39;&gt;suprimir les notificacions de propietat intel&#183;lectual, marca o
+altres drets de propietat inclosos amb l&#39;API del Power BI;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-left:.25in;text-indent:-.25in;line-height:
+normal&#39;&gt;&lt;span lang=&quot;FR&quot; style=&#39;font-size:10.0pt;font-family:Symbol;color:#4B5C66&#39;&gt;&#183;&lt;span style=&#39;font:7.0pt &quot;Times New Roman&quot;&#39;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+&lt;/span&gt;&lt;/span&gt;&lt;span lang=&quot;CA&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;
+color:#4B5C66&#39;&gt;interrompre ni interferir amb l&#39;API del Power BI o les xarxes o
+els servidors connectats als serveis del Power BI, ni desacatar els requisits,
+els procediments, les normes ni les normatives de les xarxes connectades a
+l&#39;API del Power BI;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-left:.25in;text-indent:-.25in;line-height:
+normal&#39;&gt;&lt;span lang=&quot;ES-AR&quot; style=&#39;font-size:10.0pt;font-family:Symbol;color:#4B5C66&#39;&gt;&#183;&lt;span style=&#39;font:7.0pt &quot;Times New Roman&quot;&#39;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+&lt;/span&gt;&lt;/span&gt;&lt;span lang=&quot;CA&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;
+color:#4B5C66&#39;&gt;utilitzar cap robot, aranya o aplicaci&#243; de cerca i recuperaci&#243;
+en relaci&#243; amb l&#39;API del Power BI ni recopilar informaci&#243; sobre els usuaris per
+a cap finalitat no autoritzada;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-left:.25in;text-indent:-.25in;line-height:
+normal&#39;&gt;&lt;span lang=&quot;ES-AR&quot; style=&#39;font-size:10.0pt;font-family:Symbol;color:#4B5C66&#39;&gt;&#183;&lt;span style=&#39;font:7.0pt &quot;Times New Roman&quot;&#39;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+&lt;/span&gt;&lt;/span&gt;&lt;span lang=&quot;CA&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;
+color:#4B5C66&#39;&gt;enviar contingut que expressi o impliqui falsament que el
+contingut compta amb el patrocini o l&#39;aprovaci&#243; de Microsoft;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-left:.25in;text-indent:-.25in;line-height:
+normal&#39;&gt;&lt;span lang=&quot;ES-AR&quot; style=&#39;font-size:10.0pt;font-family:Symbol;color:#4B5C66&#39;&gt;&#183;&lt;span style=&#39;font:7.0pt &quot;Times New Roman&quot;&#39;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+&lt;/span&gt;&lt;/span&gt;&lt;span lang=&quot;CA&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;
+color:#4B5C66&#39;&gt;crear comptes d&#39;usuari per mitjans automatitzats o amb pretexts
+falsos o fraudulents ni obtenir ni intentar obtenir diverses claus per a l&#39;API
+del Power BI;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-left:.25in;text-indent:-.25in;line-height:
+normal&#39;&gt;&lt;span lang=&quot;ES-AR&quot; style=&#39;font-size:10.0pt;font-family:Symbol;color:#4B5C66&#39;&gt;&#183;&lt;span style=&#39;font:7.0pt &quot;Times New Roman&quot;&#39;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+&lt;/span&gt;&lt;/span&gt;&lt;span lang=&quot;CA&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;
+color:#4B5C66&#39;&gt;promocionar o proporcionar instruccions sobre activitats il&#183;legals
+ni promoure els danys f&#237;sics ni les lesions contra cap grup o persona;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-left:.25in;text-indent:-.25in;line-height:
+normal&#39;&gt;&lt;span lang=&quot;EN&quot; style=&#39;font-size:10.0pt;font-family:Symbol;color:#4B5C66&#39;&gt;&#183;&lt;span style=&#39;font:7.0pt &quot;Times New Roman&quot;&#39;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+&lt;/span&gt;&lt;/span&gt;&lt;span lang=&quot;CA&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;
+color:#4B5C66&#39;&gt;transmetre virus, cucs, defectes, cavalls de Troia ni cap altre
+element amb una finalitat destructiva;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-left:.25in;text-indent:-.25in;line-height:
+normal&#39;&gt;&lt;span lang=&quot;IT&quot; style=&#39;font-size:10.0pt;font-family:Symbol;color:#4B5C66&#39;&gt;&#183;&lt;span style=&#39;font:7.0pt &quot;Times New Roman&quot;&#39;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+&lt;/span&gt;&lt;/span&gt;&lt;span lang=&quot;CA&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;
+color:#4B5C66&#39;&gt;vendre, llogar, compartir, transmetre ni subllicenciar l&#39;API del
+Power BI ni l&#39;acc&#233;s als seus codis amb una finalitat econ&#242;mica o comercial
+directa o d&#39;altre tipus, sense el previ consentiment expl&#237;cit per escrit de
+Microsoft;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-left:.25in;text-indent:-.25in;line-height:
+normal&#39;&gt;&lt;span lang=&quot;IT&quot; style=&#39;font-size:10.0pt;font-family:Symbol;color:#4B5C66&#39;&gt;&#183;&lt;span style=&#39;font:7.0pt &quot;Times New Roman&quot;&#39;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+&lt;/span&gt;&lt;/span&gt;&lt;span lang=&quot;CA&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;
+color:#4B5C66&#39;&gt;utilitzar l&#39;API del Power BI d&#39;una manera que superi el volum de
+sol&#183;licituds raonable, constitueixi un &#250;s excessiu o abusiu o no compleixi o
+sigui incoherent amb cap part de la documentaci&#243; de l&#39;API del Power BI
+disponible a&amp;nbsp;dev.PowerBI.com&amp;nbsp;segons ho determini Microsoft a la seva
+discreci&#243;;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-left:.25in;text-indent:-.25in;line-height:
+normal&#39;&gt;&lt;span lang=&quot;ES-AR&quot; style=&#39;font-size:10.0pt;font-family:Symbol;color:#4B5C66&#39;&gt;&#183;&lt;span style=&#39;font:7.0pt &quot;Times New Roman&quot;&#39;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+&lt;/span&gt;&lt;/span&gt;&lt;span lang=&quot;CA&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;
+color:#4B5C66&#39;&gt;sol&#183;licitar dades en nom d&#39;un altre usuari per mostrar,
+transmetre o lliurar aquestes dades a altres usuaris.&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-left:.25in;text-indent:-.25in;line-height:
+normal&#39;&gt;&lt;span lang=&quot;ES-AR&quot; style=&#39;font-size:10.0pt;font-family:Symbol;color:#4B5C66&#39;&gt;&#183;&lt;span style=&#39;font:7.0pt &quot;Times New Roman&quot;&#39;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+&lt;/span&gt;&lt;/span&gt;&lt;span lang=&quot;CA&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;
+color:#4B5C66&#39;&gt;Els usos prohibits anteriors s&#243;n un exemple, no una limitaci&#243;.
+Microsoft es reserva el dret, a la seva discreci&#243;, de determinar si el vostre
+&#250;s de l&#39;API del Power BI compleix aquests Termes de l&#39;API.&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-bottom:.05pt;line-height:normal&#39;&gt;&lt;b&gt;&lt;span lang=&quot;CA&quot; style=&#39;font-size:18.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;5.
+Privacitat.&lt;/span&gt;&lt;/b&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;line-height:normal&#39;&gt;&lt;span lang=&quot;CA&quot; style=&#39;font-size:
+12.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;Tots els accessos a
+l&#39;API del Power BI i els usos de l&#39;APi del Power BI estan subjectes a la
+Declaraci&#243; de Privacitat del Power BI, que est&#224; disponible &lt;/span&gt;&lt;span lang=&quot;CA&quot;&gt;&lt;a href=&quot;http://www.microsoft.com/privacystatement/en-us/OnlineServices/Default.aspx&quot;&gt;&lt;span style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif&#39;&gt;aqu&#237;&lt;/span&gt;&lt;/a&gt;&lt;/span&gt;&lt;span lang=&quot;CA&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;
+(es pot actualitzar ocasionalment). Cap part d&#39;aquests Termes de l&#39;APi permeten
+la recopilaci&#243; o transmissi&#243; d&#39;informaci&#243; personal d&#39;usuaris d&#39;Internet entre
+les entitats parcials. Heu de mantenir una norma de privacitat en l&#237;nia
+prominent per als vostres llocs web i les vostres aplicacions que accedeixen a
+l&#39;API del Power BI. Aquesta norma de privacitat ha d&#39;incloure, com a m&#237;nim, una
+revelaci&#243; clara sobre la ubicaci&#243;, l&#39;&#250;s i la lectura de galetes i altres
+tecnologies relacionades i la vostra recopilaci&#243; i &#250;s de dades en relaci&#243; amb
+l&#39;activitat dels usuaris dels vostres llocs web i les vostres aplicacions.&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-bottom:.05pt;line-height:normal&#39;&gt;&lt;b&gt;&lt;span lang=&quot;CA&quot; style=&#39;font-size:18.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;6.
+Autenticaci&#243; i Seguretat dels Usuaris.&lt;/span&gt;&lt;/b&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;line-height:normal&#39;&gt;&lt;span lang=&quot;CA&quot; style=&#39;font-size:
+12.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;Microsoft es pren
+molt seriosament la privacitat i la seguretat dels usuaris. Accepteu ajudar-nos
+en la mesura necess&#224;ria amb el funcionament de la vostra Aplicaci&#243; d&#39;acord amb
+aquests Termes de l&#39;API i les legislacions aplicables.&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;line-height:normal&#39;&gt;&lt;span lang=&quot;CA&quot; style=&#39;font-size:
+12.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;a. Obtenci&#243; del
+Consentiment de l&#39;Usuari. Sou l&#39;&#250;nic responsable de l&#39;obtenci&#243; del consentiment
+(clar i expl&#237;cit) de l&#39;usuari que us concedeixi perm&#237;s per accedir al compte
+del Power BI de l&#39;usuari, incloses, si escau, la recuperaci&#243; d&#39;informaci&#243;
+espec&#237;fica de l&#39;usuari o l&#39;escriptura d&#39;informaci&#243; al compte de l&#39;usuari.
+Complireu estrictament l&#39;&#224;mbit del consentiment expl&#237;cit que us atorguin en
+accedir al compte del Power BI de l&#39;usuari.&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;line-height:normal&#39;&gt;&lt;span lang=&quot;CA&quot; style=&#39;font-size:
+12.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;b. Contacte i
+Cooperaci&#243;. V&#243;s (o els contactes registrats a l&#39;Azure Active Directory amb
+l&#39;aplicaci&#243;) heu d&#39;estar sempre accessible per a q&#252;estions de seguretat. Per
+canviar aquest nom o contacte, actualitzeu les dades de l&#39;inquil&#237; de l&#39;Azure
+Active Directory.&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;line-height:normal&#39;&gt;&lt;span lang=&quot;CA&quot; style=&#39;font-size:
+12.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;c. Precaucions amb
+els virus. Tots els materials, inclosos el programari i els documents, que
+proporcioneu a Microsoft s&#39;han de comprovar amb programari antivirus i anticucs
+est&#224;ndard del sector d&#39;Internet actualitzat per determinar que no tenen virus
+ni cucs. Les dades que proporcioneu a Microsoft no han de contenir codi ni
+scripts destructius.&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;line-height:normal&#39;&gt;&lt;span lang=&quot;CA&quot; style=&#39;font-size:
+12.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;d. Est&#224;ndards del
+sector. Les xarxes, el sistema operatiu i el programari per a servidors web,
+encaminadors, bases de dades i sistemes inform&#224;tics (“Sistemes”) s&#39;han de
+configurar correctament d&#39;acord amb els est&#224;ndards del sector d&#39;Internet, com
+es requereixi per al funcionament segur de l&#39;Aplicaci&#243;. Si no controleu
+completament algun aspecte del Sistema, utilitzareu tot el control o influ&#232;ncia
+que tingueu sobre aquests Sistemes o selecci&#243; de Sistemes i no seleccionareu
+els Sistemes de manera que no es compleixi l&#39;obligaci&#243; anterior. Un exemple de
+servidor inacceptable &#233;s un que funciona com a proxy obert. Un exemple
+d&#39;arquitectura inacceptable seria la selecci&#243; d&#39;un servidor controlat per un
+prove&#239;dor amb pr&#224;ctiques de seguretat inferiors a les est&#224;ndards que us permeti
+afirmar que no controleu el servidor per tal d&#39;evitar haver de seleccionar un
+servidor acceptable.&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;line-height:normal&#39;&gt;&lt;span lang=&quot;CA&quot; style=&#39;font-size:
+12.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;e. Informes. Heu de
+notificar de seguida qualsevol defici&#232;ncia de seguretat o intrusi&#243; en els
+vostres Sistemes que descobriu a Microsoft per escrit a trav&#233;s d&#39;aquesta adre&#231;a
+electr&#242;nica:&amp;nbsp;&lt;/span&gt;&lt;span lang=&quot;CA&quot; style=&#39;font-size:12.0pt;font-family:
+&quot;Times New Roman&quot;,serif&#39;&gt;devpbi@microsoft.com&lt;span style=&#39;color:#4B5C66&#39;&gt;.
+Treballareu amb Microsoft per corregir immediatament qualsevol defici&#232;ncia de
+seguretat i desconnectareu immediatament qualsevol intrusi&#243; o intr&#250;s. En cas de
+defici&#232;ncia de seguretat o intrusi&#243;, no fareu declaracions p&#250;bliques (per
+exemple, a la premsa, els blogs, els taulers d&#39;anuncis electr&#242;nics, etc.) sense
+el previ consentiment expl&#237;cit i per escrit de Microsoft per a cada cas.&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;line-height:normal&#39;&gt;&lt;span lang=&quot;CA&quot; style=&#39;font-size:
+12.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;f. Control de l&#39;Acc&#233;s
+als Sistemes. En la mesura en qu&#232; tingueu control o influ&#232;ncia sobre els
+Sistemes, registrareu (amb data i hora) totes les inst&#224;ncies d&#39;acc&#233;s als
+Sistemes. Xifrareu els fitxers de contrasenya i nom d&#39;usuari per als Sistemes
+que emmagatzemin o processin dades d&#39;usuari del Power BI als quals Microsoft us
+permeti accedir. Les contrasenyes han de ser &#250;niques, no han de ser intu&#239;tives
+i s&#39;han de canviar sovint. Minimitzareu l&#39;&#250;s i l&#39;acc&#233;s a les contrasenyes. Si
+&#233;s possible, les ordres que requereixin privilegis addicionals s&#39;han de
+registrar de manera segura (amb data i hora) per permetre una auditoria
+completa de les activitats. Si una persona deixa de treballar amb v&#243;s, les
+seves contrasenyes i serveis de contrasenyes d&#39;acc&#233;s s&#39;han de cancel&#183;lar
+immediatament.&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;line-height:normal&#39;&gt;&lt;span lang=&quot;CA&quot; style=&#39;font-size:
+12.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;g. Revisions de
+Seguretat. Microsoft tindr&#224; el dret, per&#242; no l&#39;obligaci&#243;, al seu c&#224;rrec, que un
+tercer independent inspeccioni i revisi el vostre compliment d&#39;aquestes normes
+de seguretat. V&#243;s, al vostre c&#224;rrec, corregireu els errors de seguretat que
+pugui detectar aquesta revisi&#243; com m&#233;s aviat millor. A continuaci&#243;,
+certificareu aviat a Microsoft per escrit que l&#39;error de seguretat s&#39;ha corregit,
+junt amb una descripci&#243; de les accions correctives aplicades. Microsoft us
+proporcionar&#224; una notificaci&#243; amb 48 hores d&#39;antelaci&#243; abans de la revisi&#243;.
+Aquesta revisi&#243; es portar&#224; a terme durant l&#39;horari laboral d&#39;una manera que no
+interfereixi amb les activitats empresarials normals. Si una revisi&#243; revela una
+infracci&#243; considerable d&#39;aquestes cl&#224;usules de seguretat, reemborsareu a
+Microsoft els costs raonables de la revisi&#243;.&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;line-height:normal&#39;&gt;&lt;span lang=&quot;CA&quot; style=&#39;font-size:
+12.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;h. Tamb&#233; heu de
+complir amb els requisits i la documentaci&#243; que s&#39;inclouen als Requisits de
+Seguretat i Documentaci&#243; adjunts com a Prova documental A a aquests Termes de
+l&#39;API.&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-bottom:.05pt;line-height:normal&#39;&gt;&lt;b&gt;&lt;span lang=&quot;ES-AR&quot; style=&#39;font-size:18.0pt;font-family:&quot;Times New Roman&quot;,serif;
+color:#4B5C66&#39;&gt;&amp;nbsp;&lt;/span&gt;&lt;/b&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-bottom:.05pt;line-height:normal&#39;&gt;&lt;b&gt;&lt;span lang=&quot;CA&quot; style=&#39;font-size:18.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;7&lt;/span&gt;&lt;/b&gt;&lt;b&gt;&lt;span lang=&quot;CA&quot; style=&#39;font-size:18.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;.
+Suport T&#232;cnic i Disponibilitat.&lt;/span&gt;&lt;/b&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;line-height:normal&#39;&gt;&lt;span lang=&quot;CA&quot; style=&#39;font-size:
+12.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;Microsoft pot decidir
+proporcionar-vos suport t&#232;cnic o modificacions per a l&#39;API del Power BI (en
+conjunt, “Suport T&#232;cnic”), a la seva discreci&#243;. Microsoft pot canviar,
+suspendre o interrompre qualsevol aspecte de l&#39;API del Power BI en qualsevol
+moment, inclosa la disponibilitat de l&#39;API del Power BI. Microsoft tamb&#233; pot
+imposar l&#237;mits a determinades caracter&#237;stiques i serveis o restringir el vostre
+acc&#233;s a determinades parts o la totalitat de l&#39;API del Power BI o el lloc web
+del Power BI sense cap notificaci&#243; ni responsabilitat.&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-bottom:.05pt;line-height:normal&#39;&gt;&lt;b&gt;&lt;span lang=&quot;CA&quot; style=&#39;font-size:18.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;8&lt;/span&gt;&lt;/b&gt;&lt;b&gt;&lt;span lang=&quot;CA&quot; style=&#39;font-size:18.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;.
+Preus i Pagaments.&lt;/span&gt;&lt;/b&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;line-height:normal&#39;&gt;&lt;span lang=&quot;CA&quot; style=&#39;font-size:
+12.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;Microsoft es reserva
+el dret de cobrar un preu per l&#39;&#250;s o l&#39;acc&#233;s futurs a l&#39;API del Power BI a la
+seva discreci&#243;. Si Microsoft decideix cobrar un preu per l&#39;API del Power BI, se
+us notificaran els c&#224;rrecs a trav&#233;s d&#39;una notificaci&#243; escrita amb antelaci&#243;.&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-bottom:.05pt;line-height:normal&#39;&gt;&lt;b&gt;&lt;span lang=&quot;CA&quot; style=&#39;font-size:18.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;9&lt;/span&gt;&lt;/b&gt;&lt;b&gt;&lt;span lang=&quot;CA&quot; style=&#39;font-size:18.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;.&lt;/span&gt;&lt;/b&gt;&lt;span lang=&quot;CA&quot; style=&#39;font-size:18.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;
+&lt;b&gt;Av&#237;s d&#39;Exempci&#243; de Responsabilitat de Garantia.&lt;/b&gt;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;line-height:normal&#39;&gt;&lt;span lang=&quot;CA&quot; style=&#39;font-size:
+12.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;L&#39;API DEL POWER BI ES
+PROPORCIONA “TAL QUAL” I “SEGONS DISPONIBILITAT” SENSE CAP GARANTIA, EXPL&#205;CITA
+O IMPL&#205;CITA, DE CAP TIPUS. MICROSOFT EXCLOU EXPRESSAMENT TOTES LES GARANTIES I
+CONDICIONS, INCLOSES, SENSE LIMITACI&#211;, LES GARANTIES IMPL&#205;CITES DE
+COMERCIABILITAT, IDONE&#207;TAT PER A UNA FINALITAT ESPEC&#205;FICA, DISPONIBILITAT,
+SEGURETAT, TITULARITAT I NO INFRACCI&#211; DE DRETS.&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;line-height:normal&#39;&gt;&lt;span lang=&quot;CA&quot; style=&#39;font-size:
+12.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;MICROSOFT NO
+MANIFESTA NI GARANTEIX QUE L&#39;API DEL POWER BI NO TINGUI INEXACTITUDS, ERRORS O
+INTERRUPCIONS NI QUE SIGUI FIABLE, EXACTA, COMPLETA O V&#192;LIDA D&#39;ALGUNA ALTRA
+MANERA. MICROSOFT NO GARANTEIX QUE (i) L&#39;API DEL POWER BI COMPLEIXI ELS VOSTRES
+REQUISITS, (ii) L&#39;ACC&#201;S AL SERVEI DE L&#39;API DEL POWER BI NO TINGUI
+INTERRUPCIONS, (iii) ELS RESULTATS QUE ES PUGUIN OBTENIR DE L&#39;&#218;S DE L&#39;API DEL
+POWER BI SIGUIN PRECISOS O FIABLES, (iv) LA QUALITAT DELS PRODUCTES, ELS
+SERVEIS, LA INFORMACI&#211; O ALTRES MATERIALS QUE OBTENIU A TRAV&#201;S DE L&#39;API DEL
+POWER BI COMPLEIXI LES VOSTRES EXPECTATIVES, (v) ELS ERRORS DE L&#39;API DEL POWER
+BI ES CORREGEIXIN.&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;line-height:normal&#39;&gt;&lt;span lang=&quot;CA&quot; style=&#39;font-size:
+12.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;UTILITZEU L&#39;API DEL
+POWER BI A LA VOSTRA DISCRECI&#211; I ASSUMIU QUALSEVOL RISC POTENCIAL. SEREU L&#39;&#218;NIC
+RESPONSABLE DE QUALSEVOL DANY DERIVAT DE L&#39;&#218;S DE L&#39;API DEL POWER BI. &lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-bottom:.05pt;line-height:normal&#39;&gt;&lt;b&gt;&lt;span lang=&quot;CA&quot; style=&#39;font-size:18.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;10&lt;/span&gt;&lt;/b&gt;&lt;b&gt;&lt;span lang=&quot;CA&quot; style=&#39;font-size:18.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;.&lt;/span&gt;&lt;/b&gt;&lt;span lang=&quot;CA&quot; style=&#39;font-size:18.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;
+&lt;b&gt;Limitaci&#243; de responsabilitat&lt;/b&gt;.&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;line-height:normal&#39;&gt;&lt;span lang=&quot;CA&quot; style=&#39;font-size:
+12.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;AMB INDEPEND&#200;NCIA DE
+QUALSEVOL ALTRA CL&#192;USULA D&#39;AQUESTS TERMES DE L&#39;API, LA RESPONSABILITAT AGREGADA
+M&#192;XIMA DE MICROSOFT AMB V&#211;S PER A QUALSEVOL RECLAMACI&#211; DERIVADA DELS TERMES DE
+L&#39;API O RELACIONADA AMB AQUESTS, LA SEVA CANCEL&#183;LACI&#211; O CADUCITAT, INDEPENDENTMENT
+DE SI LA RESPONSABILITAT DERIVA D&#39;UNA RECLAMACI&#211; BASADA EN CONTRACTE, GARANTIA,
+RESPONSABILITAT EXTRACONTRACTUAL, DESVIACI&#211; DE L&#39;OBJECTIU ESSENCIAL, &#218;S
+COMERCIAL O D&#39;ALTRE TIPUS, EN CAP CAS SUPERAR&#192; LA QUANTITAT DE 10,00 USD. NO
+PODEU RECUPERAR CAP ALTRA P&#200;RDUA O DANYS, INCLOSOS, SENSE LIMITACI&#211;, ELS DANYS
+CONSEQ&#220;ENCIALS, ESPECIALS, INDIRECTES, INCIDENTALS O PUNITIUS I LA P&#200;RDUA DE
+BENEFICIS. AQUESTES LIMITACIONS I EXCLUSIONS S&#39;APLIQUEN SI AQUEST REMEI NO US
+COMPENSA COMPLETAMENT PER LES P&#200;RDUES O DERIVACIONS DEL SEU PROP&#210;SIT ESSENCIAL
+O SI CONEIX&#205;EM O HAUR&#205;EM D&#39;HAVER CONEGUT LA POSSIBILITAT QUE ES PRODU&#207;SSIN ELS
+DANYS. EN LA MESURA M&#192;XIMA EN QU&#200; HO PERMETI LA LLEI, AQUESTES LIMITACIONS I
+EXCLUSIONS S&#39;APLIQUEN A QUALSEVOL COSA RELACIONADA AMB AQUESTS TERMES DE L&#39;API,
+COM ARA LA P&#200;RDUA DE CONTINGUT, QUALSEVOL VIRUS QUE AFECTI EL VOSTRE &#218;S DE
+L&#39;API DEL POWER BI; ENDARRERIMENTS O ERRORS A L&#39;HORA D&#39;INICIAR O COMPLETAR
+TRANSMISSIONS O TRANSACCIONS; RECLAMACIONS PER INCOMPLIMENT DE CONTRACTE,
+GARANTIA O CONDICI&#211;; RESPONSABILITAT OBJECTIVA, NEGLIG&#200;NCIA, FALSA
+MANIFESTACI&#211;, O OMISSI&#211;; INFRACCI&#211; O ALTRA RESPONSABILITAT EXTRACONTRACTUAL;
+INFRACCI&#211; D&#39;ESTATUT O REGULACI&#211; O ENRIQUIMENT INJUST. POT SER QUE ALGUNES O
+TOTES AQUESTES LIMITACIONS O EXCLUSIONS NO SE US APLIQUIN SI EL VOSTRE ESTAT,
+PROV&#205;NCIA, PA&#205;S O REGI&#211; NO PERMET L&#39;EXCLUSI&#211; NI LA LIMITACI&#211; DE DANYS
+INCIDENTALS, CONSEQ&#220;ENCIALS O D&#39;ALTRE TIPUS. &lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-bottom:.05pt;line-height:normal&#39;&gt;&lt;b&gt;&lt;span lang=&quot;CA&quot; style=&#39;font-size:18.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;11&lt;/span&gt;&lt;/b&gt;&lt;b&gt;&lt;span lang=&quot;CA&quot; style=&#39;font-size:18.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;.&lt;/span&gt;&lt;/b&gt;&lt;span lang=&quot;CA&quot; style=&#39;font-size:18.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;
+&lt;b&gt;Indemnitzaci&#243;&lt;/b&gt;.&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;line-height:normal&#39;&gt;&lt;span lang=&quot;CA&quot; style=&#39;font-size:
+12.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;Indemnitzareu i
+eximireu a Microsoft (i els seus directors, empleats, filials i representants)
+de qualsevol p&#232;rdua, responsabilitat i despeses (inclosos els honoraris i costs
+raonables d’advocats) que es pateixin o en qu&#232; s&#39;incorri com a resultat d&#39;una
+reclamaci&#243;, demanda o procediment basat en o derivat de qualsevol infracci&#243; (o
+presumpta infracci&#243;) per la vostra part d&#39;aquest contracte o qualsevol part del
+contracte, relacionat amb els vostres llocs web, les vostres aplicacions o el
+vostre &#250;s de l&#39;API del Power BI. Sereu l&#39;&#250;nic responsable de la defensa
+d&#39;aquestes reclamacions a trav&#233;s d&#39;un advocat acordat m&#250;tuament, i d&#39;acord amb
+el dret de Microsoft de participar amb l&#39;advocat que seleccioni, i no
+publificareu cap reclamaci&#243; ni acord de liquidaci&#243; que imposi una obligaci&#243; o
+responsabilitat a Microsoft (o els seus directors, empleats, filials i representants)
+sense l&#39;anterior consentiment per escrit de Microsoft, consentiment que
+Microsoft pot proporcionar a la seva discreci&#243;.&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-bottom:.05pt;line-height:normal&#39;&gt;&lt;b&gt;&lt;span lang=&quot;CA&quot; style=&#39;font-size:18.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;12&lt;/span&gt;&lt;/b&gt;&lt;b&gt;&lt;span lang=&quot;CA&quot; style=&#39;font-size:18.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;.
+Per&#237;ode de Vig&#232;ncia i Cancel&#183;laci&#243;.&lt;/span&gt;&lt;/b&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;line-height:normal&#39;&gt;&lt;span lang=&quot;CA&quot; style=&#39;font-size:
+12.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;Aquests Termes de
+l&#39;API entraran en vigor despr&#233;s del primer &#250;s de l&#39;API del Power BI i seguiran
+en vigor fins que alguna entitat parcial els cancel&#183;li. Per cancel&#183;lar aquests
+Termes de l&#39;API, interrompeu l&#39;&#250;s de l&#39;API del Power BI. Microsoft pot
+cancel&#183;lar aquests Termes de l&#39;API en qualsevol moment i per qualsevol motiu.
+Aquests Termes de l&#39;API es cancel&#183;laran autom&#224;ticament si (i) infringiu algun
+terme d&#39;aquests Termes de l&#39;API o les TOU, (ii) Microsoft publica p&#250;blicament
+una notificaci&#243; escrita de cancel&#183;laci&#243; al lloc web del Power BI, (iii)
+Microsoft us envia una notificaci&#243; de cancel&#183;laci&#243; per escrit, o (iv) Microsoft
+deixa de proporcionar-vos acc&#233;s a l&#39;API del Power BI. Les obligacions de les
+entitats parcials que s&#39;indiquen a les seccions 3, 9, 10, 11, 12, 15, 16, 17,
+18 i 19 seguiran en vigor despr&#233;s de la cancel&#183;laci&#243; o la caducitat d&#39;aquests
+Termes de l&#39;API per qualsevol motiu.&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-bottom:.05pt;line-height:normal&#39;&gt;&lt;b&gt;&lt;span lang=&quot;CA&quot; style=&#39;font-size:18.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;13&lt;/span&gt;&lt;/b&gt;&lt;b&gt;&lt;span lang=&quot;CA&quot; style=&#39;font-size:18.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;.
+Cessi&#243;.&lt;/span&gt;&lt;/b&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;line-height:normal&#39;&gt;&lt;span lang=&quot;CA&quot; style=&#39;font-size:
+12.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;En qualsevol moment,
+podem cedir tot aquest contracte o una part sense notificar-vos-ho. No podeu
+cedir aquest contracte ni cap part del contracte a cap persona o entitat
+parcial sense el nostre previ consentiment per escrit, que no es retindr&#224; de
+manera desenraonada. Qualsevol intent per fer-ho per la vostra part ser&#224; nul.
+No podeu transferir a ning&#250;, de manera temporal o permanent, cap dret per
+utilitzar l&#39;API del Power BI o una part d&#39;aquesta.&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-bottom:.05pt;line-height:normal&#39;&gt;&lt;b&gt;&lt;span lang=&quot;CA&quot; style=&#39;font-size:18.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;14&lt;/span&gt;&lt;/b&gt;&lt;b&gt;&lt;span lang=&quot;CA&quot; style=&#39;font-size:18.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;.
+No hi ha Tercers Beneficiaris.&lt;/span&gt;&lt;/b&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;line-height:normal&#39;&gt;&lt;span lang=&quot;CA&quot; style=&#39;font-size:
+12.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;Aquest contracte &#233;s
+exclusivament per al vostre benefici i el de Microsoft. No &#233;s per al benefici
+de cap altra entitat parcial, excepte els successors i cessionaris permesos en
+virtut d&#39;aquest contracte.&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-bottom:.05pt;line-height:normal&#39;&gt;&lt;b&gt;&lt;span lang=&quot;CA&quot; style=&#39;font-size:18.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;15&lt;/span&gt;&lt;/b&gt;&lt;b&gt;&lt;span lang=&quot;CA&quot; style=&#39;font-size:18.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;.
+Conservaci&#243;.&lt;/span&gt;&lt;/b&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;line-height:normal&#39;&gt;&lt;span lang=&quot;CA&quot; style=&#39;font-size:
+12.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;Si algun tribunal
+d&#39;una jurisdicci&#243; competent determina que alguna cl&#224;usula d&#39;aquests Termes de
+l&#39;API &#233;s il&#183;legal, inv&#224;lida o inexigible, la resta de cl&#224;usules seguiran en
+vigor.&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-bottom:.05pt;line-height:normal&#39;&gt;&lt;b&gt;&lt;span lang=&quot;CA&quot; style=&#39;font-size:18.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;16&lt;/span&gt;&lt;/b&gt;&lt;b&gt;&lt;span lang=&quot;CA&quot; style=&#39;font-size:18.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;.
+Notificacions.&lt;/span&gt;&lt;/b&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;line-height:normal&#39;&gt;&lt;span lang=&quot;CA&quot; style=&#39;font-size:
+12.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;Accepteu que
+Microsoft us proporcioni notificacions sobre l&#39;API del Power BI o informaci&#243;
+que la legislaci&#243; ens exigeix proporcionar per correu electr&#242;nic a l&#39;adre&#231;a que
+vau especificar quan us vau registrar per a l&#39;API del Power BI. Les
+notificacions que se us envi&#239;n per correu electr&#242;nic es consideraran lliurades
+i rebudes en enviar el missatge. Si no accepteu la recepci&#243; de notificacions
+per mitjans electr&#242;nics, heu de deixar d&#39;accedir a l&#39;API del Power BI. &lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-bottom:.05pt;line-height:normal&#39;&gt;&lt;b&gt;&lt;span lang=&quot;CA&quot; style=&#39;font-size:18.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;17&lt;/span&gt;&lt;/b&gt;&lt;b&gt;&lt;span lang=&quot;CA&quot; style=&#39;font-size:18.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;.
+No hi ha Ren&#250;ncia de Drets per part de Microsoft.&lt;/span&gt;&lt;/b&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;line-height:normal&#39;&gt;&lt;span lang=&quot;CA&quot; style=&#39;font-size:
+12.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;Si Microsoft no
+aplica algun dret o cl&#224;usula dels Termes de l&#39;API, aix&#242; no implicar&#224; cap
+ren&#250;ncia del dret o la cl&#224;usula.&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-bottom:.05pt;line-height:normal&#39;&gt;&lt;b&gt;&lt;span lang=&quot;CA&quot; style=&#39;font-size:18.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;18&lt;/span&gt;&lt;/b&gt;&lt;b&gt;&lt;span lang=&quot;CA&quot; style=&#39;font-size:18.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;.
+Legislaci&#243; Aplicable; Jurisdicci&#243;.&lt;/span&gt;&lt;/b&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-top:6.0pt;margin-right:0in;margin-bottom:0in;
+margin-left:0in;margin-bottom:.0001pt;line-height:normal&#39;&gt;&lt;span lang=&quot;CA&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;Les
+lleis de l&#39;Estat de Washington regeixen aquests Termes de l&#39;API. Si hi ha
+jurisdicci&#243; federal, les entitats parcials accepten la jurisdicci&#243; exclusiva
+dels tribunals federals de King County, Washington. En cas contrari, les
+entitats parcials accepten la jurisdicci&#243; exclusiva del Tribunal Superior de
+King County, Washington. Si Microsoft o v&#243;s contracteu advocats per aplicar els
+drets derivats d&#39;aquest Termes de l&#39;API o relacionats amb aquests, l&#39;entitat
+parcial que prevalgui tindr&#224; dret a recuperar els honoraris, els costs i altres
+despeses raonables de l&#39;advocat, com ara els costs i els honoraris en qu&#232;
+s&#39;incorri en una apel&#183;laci&#243;, una fallida o una acci&#243; similar.&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-bottom:.05pt;line-height:normal&#39;&gt;&lt;b&gt;&lt;span lang=&quot;CA&quot; style=&#39;font-size:18.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;&amp;nbsp;&lt;/span&gt;&lt;/b&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-bottom:.05pt;line-height:normal&#39;&gt;&lt;b&gt;&lt;span lang=&quot;CA&quot; style=&#39;font-size:18.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;19&lt;/span&gt;&lt;/b&gt;&lt;b&gt;&lt;span lang=&quot;CA&quot; style=&#39;font-size:18.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;.
+Contracte Complet.&lt;/span&gt;&lt;/b&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-top:6.0pt;margin-right:0in;margin-bottom:0in;
+margin-left:0in;margin-bottom:.0001pt;line-height:normal&#39;&gt;&lt;span lang=&quot;CA&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;Aquests
+Termes de l&#39;API constitueixen el contracte complet entre Microsoft i v&#243;s
+respecte a les q&#252;estions que s&#39;hi inclouen.&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;line-height:normal&#39;&gt;&lt;span lang=&quot;CA&quot; style=&#39;font-size:
+12.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-bottom:.05pt;line-height:normal&#39;&gt;&lt;span lang=&quot;FR&quot; style=&#39;font-size:18.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-bottom:.05pt;line-height:normal&#39;&gt;&lt;span lang=&quot;FR&quot; style=&#39;font-size:18.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-bottom:.05pt;line-height:normal&#39;&gt;&lt;span lang=&quot;FR&quot; style=&#39;font-size:18.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-bottom:.05pt;line-height:normal&#39;&gt;&lt;span lang=&quot;FR&quot; style=&#39;font-size:18.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-bottom:.05pt;line-height:normal&#39;&gt;&lt;span lang=&quot;FR&quot; style=&#39;font-size:18.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-bottom:.05pt;line-height:normal&#39;&gt;&lt;span lang=&quot;FR&quot; style=&#39;font-size:18.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-bottom:.05pt;line-height:normal&#39;&gt;&lt;span lang=&quot;FR&quot; style=&#39;font-size:18.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-bottom:.05pt;line-height:normal&#39;&gt;&lt;span lang=&quot;FR&quot; style=&#39;font-size:18.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-bottom:.05pt;line-height:normal&#39;&gt;&lt;span lang=&quot;FR&quot; style=&#39;font-size:18.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-bottom:.05pt;line-height:normal&#39;&gt;&lt;span lang=&quot;FR&quot; style=&#39;font-size:18.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; align=&quot;center&quot; style=&#39;margin-bottom:.05pt;text-align:center;
+line-height:normal&#39;&gt;&lt;span lang=&quot;CA&quot; style=&#39;font-size:18.0pt;font-family:&quot;Times New Roman&quot;,serif;
+color:#4B5C66&#39;&gt;Prova documental A&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; align=&quot;center&quot; style=&#39;margin-bottom:.05pt;text-align:center;
+line-height:normal&#39;&gt;&lt;span lang=&quot;CA&quot; style=&#39;font-size:18.0pt;font-family:&quot;Times New Roman&quot;,serif;
+color:#4B5C66&#39;&gt;Requisits de Seguretat i Documentaci&#243;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-bottom:.05pt;line-height:normal&#39;&gt;&lt;b&gt;&lt;span lang=&quot;PT-BR&quot; style=&#39;font-size:18.0pt;font-family:&quot;Times New Roman&quot;,serif;
+color:#4B5C66&#39;&gt;&amp;nbsp;&lt;/span&gt;&lt;/b&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-bottom:.05pt;line-height:normal&#39;&gt;&lt;b&gt;&lt;span lang=&quot;CA&quot; style=&#39;font-size:18.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;Requisits
+de Seguretat:&lt;/span&gt;&lt;/b&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-left:.25in;text-indent:-.25in;line-height:
+normal&#39;&gt;&lt;span lang=&quot;IT&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;
+color:#4B5C66&#39;&gt;1.&lt;span style=&#39;font:7.0pt &quot;Times New Roman&quot;&#39;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+&lt;/span&gt;&lt;/span&gt;&lt;span lang=&quot;CA&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;
+color:#4B5C66&#39;&gt;L&#39;associat proporcionar&#224; a Microsoft tota la documentaci&#243; de
+seguretat rellevant (inclosa, sense limitaci&#243;, la norma de seguretat, la norma
+de resposta a incidents, avaluaci&#243; del risc, classificaci&#243; de dades, artefactes
+d&#39;an&#224;lisi din&#224;mic i est&#224;tic binari i de codi, resultats de proves de llapis,
+components de tercers utilitzats, etc.);&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-left:.25in;text-indent:-.25in;line-height:
+normal&#39;&gt;&lt;span lang=&quot;IT&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;
+color:#4B5C66&#39;&gt;2.&lt;span style=&#39;font:7.0pt &quot;Times New Roman&quot;&#39;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+&lt;/span&gt;&lt;/span&gt;&lt;span lang=&quot;CA&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;
+color:#4B5C66&#39;&gt;Proporcioneu documentaci&#243; expl&#237;cita sobre l&#39;&#250;s per part dels
+Associats de dades de clients del Power BI (finalitat d&#39;&#250;s, dades espec&#237;fiques
+del Power BI utilitzades, transmissi&#243;, emmagatzematge, etc.) i poseu-la a
+disposici&#243; dels usuaris;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-left:.25in;text-indent:-.25in;line-height:
+normal&#39;&gt;&lt;span lang=&quot;EN&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;
+color:#4B5C66&#39;&gt;3.&lt;span style=&#39;font:7.0pt &quot;Times New Roman&quot;&#39;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+&lt;/span&gt;&lt;/span&gt;&lt;span lang=&quot;CA&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;
+color:#4B5C66&#39;&gt;Indiqueu que les vulnerabilitats identificades que poden afectar
+els clients del Power BI es corregiran aviat;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-left:.25in;text-indent:-.25in;line-height:
+normal&#39;&gt;&lt;span lang=&quot;IT&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;
+color:#4B5C66&#39;&gt;4.&lt;span style=&#39;font:7.0pt &quot;Times New Roman&quot;&#39;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+&lt;/span&gt;&lt;/span&gt;&lt;span lang=&quot;CA&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;
+color:#4B5C66&#39;&gt;Indiqueu que Microsoft t&#233; autoritzaci&#243; per provar la seguretat
+de les ofertes de tercers, pr&#232;via coordinaci&#243; entre Microsoft i v&#243;s;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-left:.25in;text-indent:-.25in;line-height:
+normal&#39;&gt;&lt;span lang=&quot;PT-BR&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;
+color:#4B5C66&#39;&gt;5.&lt;span style=&#39;font:7.0pt &quot;Times New Roman&quot;&#39;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+&lt;/span&gt;&lt;/span&gt;&lt;span lang=&quot;CA&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;
+color:#4B5C66&#39;&gt;Nom&#233;s conservareu les dades necess&#224;ries per a l&#39;objectiu definit
+i suprimireu la informaci&#243; innecess&#224;ria i addicional com calgui;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-left:.25in;text-indent:-.25in;line-height:
+normal&#39;&gt;&lt;span lang=&quot;ES-AR&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;
+color:#4B5C66&#39;&gt;6.&lt;span style=&#39;font:7.0pt &quot;Times New Roman&quot;&#39;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+&lt;/span&gt;&lt;/span&gt;&lt;span lang=&quot;CA&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;
+color:#4B5C66&#39;&gt;Totes les dades de Microsoft es suprimiran o destruiran dels
+vostres sistemes en finalitzar la vostra relaci&#243; amb Microsoft.&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;line-height:normal&#39;&gt;&lt;span lang=&quot;CA&quot; style=&#39;font-size:
+12.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-bottom:.05pt;line-height:normal&#39;&gt;&lt;b&gt;&lt;span lang=&quot;CA&quot; style=&#39;font-size:18.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;Documentaci&#243;
+de Seguretat &lt;/span&gt;&lt;/b&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;line-height:normal&#39;&gt;&lt;span lang=&quot;CA&quot; style=&#39;font-size:
+12.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;Si la retenci&#243; de
+dades de client de Microsoft es considera necess&#224;ria per a la integraci&#243;, es proporcionar&#224;
+la seg&#252;ent documentaci&#243; de seguretat a trav&#233;s d&#39;una sol&#183;licitud:&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-left:.25in;text-indent:-.25in;line-height:
+normal&#39;&gt;&lt;span lang=&quot;ES-AR&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;
+color:#4B5C66&#39;&gt;1.&lt;span style=&#39;font:7.0pt &quot;Times New Roman&quot;&#39;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+&lt;/span&gt;&lt;/span&gt;&lt;span lang=&quot;CA&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;
+color:#4B5C66&#39;&gt;Descripci&#243; de l&#39;arquitectura del sistema (per exemple, la
+ubicaci&#243;, l&#39;objectiu dels components cr&#237;tics del sistema, els sistemes que
+accediran a les dades de clients del Power BI, procediment per emmagatzemar i
+transmetre les dades de Microsoft, etc.)&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-left:.25in;text-indent:-.25in;line-height:
+normal&#39;&gt;&lt;span lang=&quot;IT&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;
+color:#4B5C66&#39;&gt;2.&lt;span style=&#39;font:7.0pt &quot;Times New Roman&quot;&#39;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+&lt;/span&gt;&lt;/span&gt;&lt;span lang=&quot;CA&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;
+color:#4B5C66&#39;&gt;Informes o certificacions de seguretat (SSAE16, SOC2, ISO27001,
+etc.)&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-left:.25in;text-indent:-.25in;line-height:
+normal&#39;&gt;&lt;span lang=&quot;FR&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;
+color:#4B5C66&#39;&gt;3.&lt;span style=&#39;font:7.0pt &quot;Times New Roman&quot;&#39;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+&lt;/span&gt;&lt;/span&gt;&lt;span lang=&quot;CA&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;
+color:#4B5C66&#39;&gt;Mesures de seguretat f&#237;siques per a sistemes rellevants&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-left:.25in;text-indent:-.25in;line-height:
+normal&#39;&gt;&lt;span lang=&quot;EN&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;
+color:#4B5C66&#39;&gt;4.&lt;span style=&#39;font:7.0pt &quot;Times New Roman&quot;&#39;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+&lt;/span&gt;&lt;/span&gt;&lt;span lang=&quot;CA&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;
+color:#4B5C66&#39;&gt;Tots els tercers implicats al sistema produeixen contractes i
+informaci&#243; de seguretat rellevants&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-left:.25in;text-indent:-.25in;line-height:
+normal&#39;&gt;&lt;span lang=&quot;IT&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;
+color:#4B5C66&#39;&gt;5.&lt;span style=&#39;font:7.0pt &quot;Times New Roman&quot;&#39;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+&lt;/span&gt;&lt;/span&gt;&lt;span lang=&quot;CA&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;
+color:#4B5C66&#39;&gt;El vostre model de control d&#39;acc&#233;s&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-left:.25in;text-indent:-.25in;line-height:
+normal&#39;&gt;&lt;span lang=&quot;EN&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;
+color:#4B5C66&#39;&gt;6.&lt;span style=&#39;font:7.0pt &quot;Times New Roman&quot;&#39;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+&lt;/span&gt;&lt;/span&gt;&lt;span lang=&quot;CA&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;
+color:#4B5C66&#39;&gt;Sistemes de seguretat espec&#237;fics actius (IDS, HIDS, an&#224;lisi de
+vulnerabilitats)&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-left:.25in;text-indent:-.25in;line-height:
+normal&#39;&gt;&lt;span lang=&quot;EN&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;
+color:#4B5C66&#39;&gt;7.&lt;span style=&#39;font:7.0pt &quot;Times New Roman&quot;&#39;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+&lt;/span&gt;&lt;/span&gt;&lt;span lang=&quot;CA&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;
+color:#4B5C66&#39;&gt;Funcions responsables de la seguretat (equip i administraci&#243;)&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-left:.25in;text-indent:-.25in;line-height:
+normal&#39;&gt;&lt;span lang=&quot;ES-AR&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;
+color:#4B5C66&#39;&gt;8.&lt;span style=&#39;font:7.0pt &quot;Times New Roman&quot;&#39;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+&lt;/span&gt;&lt;/span&gt;&lt;span lang=&quot;CA&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;
+color:#4B5C66&#39;&gt;Protecci&#243; de les credencials dels comptes de sistema
+privilegiats&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-left:.25in;text-indent:-.25in;line-height:
+normal&#39;&gt;&lt;span lang=&quot;IT&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;
+color:#4B5C66&#39;&gt;9.&lt;span style=&#39;font:7.0pt &quot;Times New Roman&quot;&#39;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+&lt;/span&gt;&lt;/span&gt;&lt;span lang=&quot;CA&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;
+color:#4B5C66&#39;&gt;Aprovisionament, desaprovisionament i supervisi&#243; de l&#39;acc&#233;s als
+sistemes&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-left:.25in;text-indent:-.25in;line-height:
+normal&#39;&gt;&lt;span lang=&quot;FR&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;
+color:#4B5C66&#39;&gt;10.&lt;span style=&#39;font:7.0pt &quot;Times New Roman&quot;&#39;&gt;&amp;nbsp; &lt;/span&gt;&lt;/span&gt;&lt;span lang=&quot;CA&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;Funcions
+d&#39;empleat amb acc&#233;s als sistemes rellevants&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-left:.25in;text-indent:-.25in;line-height:
+normal&#39;&gt;&lt;span lang=&quot;IT&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;
+color:#4B5C66&#39;&gt;11.&lt;span style=&#39;font:7.0pt &quot;Times New Roman&quot;&#39;&gt;&amp;nbsp; &lt;/span&gt;&lt;/span&gt;&lt;span lang=&quot;CA&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;Sistemes
+d&#39;auditoria, supervisi&#243; i connexi&#243; actius&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-left:.25in;text-indent:-.25in;line-height:
+normal&#39;&gt;&lt;span lang=&quot;EN&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;
+color:#4B5C66&#39;&gt;12.&lt;span style=&#39;font:7.0pt &quot;Times New Roman&quot;&#39;&gt;&amp;nbsp; &lt;/span&gt;&lt;/span&gt;&lt;span lang=&quot;CA&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;Proc&#233;s
+de seguretat de l&#39;aplicaci&#243; (pr&#224;ctiques recomanades de desenvolupament segur,
+proves de seguretat, etc.)&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-left:.25in;text-indent:-.25in;line-height:
+normal&#39;&gt;&lt;span lang=&quot;ES-AR&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;
+color:#4B5C66&#39;&gt;13.&lt;span style=&#39;font:7.0pt &quot;Times New Roman&quot;&#39;&gt;&amp;nbsp; &lt;/span&gt;&lt;/span&gt;&lt;span lang=&quot;CA&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;Qualsevol
+procediment per a la resposta a incidents i la recuperaci&#243; de desastres&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-left:.25in;text-indent:-.25in;line-height:
+normal&#39;&gt;&lt;span lang=&quot;PT-BR&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;
+color:#4B5C66&#39;&gt;14.&lt;span style=&#39;font:7.0pt &quot;Times New Roman&quot;&#39;&gt;&amp;nbsp; &lt;/span&gt;&lt;/span&gt;&lt;span lang=&quot;CA&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;Proc&#233;s
+per incorporar peda&#231;os de seguretat&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-left:.25in;text-indent:-.25in;line-height:
+normal&#39;&gt;&lt;span lang=&quot;IT&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;
+color:#4B5C66&#39;&gt;15.&lt;span style=&#39;font:7.0pt &quot;Times New Roman&quot;&#39;&gt;&amp;nbsp; &lt;/span&gt;&lt;/span&gt;&lt;span lang=&quot;CA&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;Proc&#233;s
+per aplicar peda&#231;os de seguretat de tercers al sistema per als components de
+tercers que s&#39;utilitzen&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-left:.25in;text-indent:-.25in;line-height:
+normal&#39;&gt;&lt;span lang=&quot;IT&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;
+color:#4B5C66&#39;&gt;16.&lt;span style=&#39;font:7.0pt &quot;Times New Roman&quot;&#39;&gt;&amp;nbsp; &lt;/span&gt;&lt;/span&gt;&lt;span lang=&quot;CA&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;Protecci&#243;
+de les dades dels clients del Power BI a l&#39;emmagatzematge i mentre les utilitza
+l&#39;aplicaci&#243;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;line-height:normal&#39;&gt;&lt;span lang=&quot;CA&quot; style=&#39;font-size:
+12.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;</value>
+  </data>
+  <data name="Heading" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="META_DESCRIPTION" xml:space="preserve">
+    <value />
+  </data>
+  <data name="META_KEYWORDS" xml:space="preserve">
+    <value />
+  </data>
+  <data name="META_PAGETITLE" xml:space="preserve">
+    <value>Power BI API Terms of Service | Microsoft Power BI</value>
+  </data>
+</root>

@@ -1,0 +1,32 @@
+﻿@model PowerBI.Web.Models.Pages.ViewMetadataModel
+@using Resources = PowerBI.Resources.Pages.Newsletter
+
+@{
+    Model.PageTitle = Resources.META_PAGETITLE;
+    Model.MetaDescription = Resources.META_DESCRIPTION;
+    Model.MetaKeywords = Resources.META_KEYWORDS;
+}
+
+<section class="section section-palette02">
+    <div class="row">
+        <div class="column medium-8 large-6">
+            <h1>@Resources.Hero_Heading</h1>
+        </div>
+    </div>
+    <div class="row row-size1">
+        <div class="column">
+            @Html.Raw(Resources.Hero_Subheading)
+        </div>
+    </div>
+</section>
+
+<section class="section">
+    <div class="row">
+        <div class="column medium-8 large-6">
+            @Html.CreateForm("NewsletterFull", new Acom.Forms.Models.FormOptions
+            {
+                Slug = "newsletter-full",
+            })
+        </div>
+    </div>
+</section>

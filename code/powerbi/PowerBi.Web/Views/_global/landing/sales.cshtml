@@ -1,0 +1,188 @@
+﻿@model PowerBI.Web.Models.Pages.ViewMetadataModel
+@using Resources = PowerBI.Resources.Pages.Landing.Sales
+@using Forms = PowerBI.Resources.Shared.Forms.Form
+
+@{
+    Layout = "~/Views/_shared/_LayoutSimplified.cshtml";
+
+    Model.PageTitle = Resources.META_PAGETITLE;
+    Model.MetaDescription = Resources.META_DESCRIPTION;
+    Model.MetaKeywords = Resources.META_KEYWORDS;
+}
+
+<section class="section section-slate06 section-landing">
+    <div class="row">
+        <div class="column medium-10 medium-offset-1 large-6 large-offset-0">
+            <div class="row">
+                <div class="column">
+                    <h1>@Resources.Hero_Heading</h1>
+                    @Html.Raw(Resources.Hero_Content)
+                </div>
+            </div>
+            <div class="row row-size2">
+                <div class="column">
+                    @Html.CreateForm("Signup", new Acom.Forms.Models.FormOptions
+                       {
+                           Class = "form-email-only",
+                           Slug = "landing-sales",
+                           SubmitText = Resources.Form_Cta,
+                           SubmitRedirectUrl = "https://app.powerbi.com/signupredirect",
+                       })
+                    <p class="text-mini">@Html.RawFormatInvariant(Forms.Terms_UseItFree, Html.LocalizeUrl("/terms-of-service/"))</p>
+                </div>
+            </div>
+        </div>
+        <div class="column medium-10 medium-offset-1 end large-6 large-offset-0">
+            <div class="img-container">
+
+            <img src="@CdnHelper.GetCdnUrl("/pictures/pages/landing/sales/laptop_dashboard.png")" alt=""/>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="section section-slate01 section-size0">
+    <div class="row">
+        <div class="column owl-controls-vertical">
+            <a href="#" data-index="0" class="text-heading4">
+                <span class="icon icon-size3">@SvgHelper.GetSvg("search")</span>
+                <span class="dot-label show-for-medium">@Resources.Monitor_Heading</span>
+                <div class="underline"></div>
+            </a>
+            <a href="#" data-index="1" class="text-heading4">
+                <span class="icon icon-size3">@SvgHelper.GetSvg("extend")</span>
+                <span class="dot-label show-for-medium">@Resources.Analyze_Heading</span>
+                <div class="underline"></div>
+            </a>
+            <a href="#" data-index="2" class="text-heading4">
+                <span class="icon icon-size3">@SvgHelper.GetSvg("sales-combine")</span>
+                <span class="dot-label show-for-medium">@Resources.Combine_Heading</span>
+                <div class="underline"></div>
+            </a>
+            <a href="#" data-index="3" class="text-heading4">
+                <span class="icon icon-size3">@SvgHelper.GetSvg("sales-mobile")</span>
+                <span class="dot-label show-for-medium">@Resources.Mobile_Heading</span>
+                <div class="underline"></div>
+            </a>
+        </div>
+    </div>
+</section>
+
+<div class="owl-carousel-vertical">
+    <section class="section section-size3">
+        <div class="row">
+            <div class="column hide-for-medium large-0">
+                <p class="text-heading3">@Resources.Monitor_Heading</p>
+            </div>
+            <div class="column large-5">
+                <img alt="" src="@CdnHelper.GetCdnUrl("/pictures/pages/landing/sales/screenshot-monitor.png")" />
+            </div>
+            <div class="column large-7">
+                <h3>@Resources.Monitor_Subheading</h3>
+                @Html.Raw(Resources.Monitor_Content)
+            </div>
+        </div>
+    </section>
+    <section class="section section-size3">
+        <div class="row">
+            <div class="column hide-for-medium large-0">
+                <p class="text-heading3">@Resources.Analyze_Heading</p>
+            </div>
+            <div class="column large-5">
+                <img alt="" src="@CdnHelper.GetCdnUrl("/pictures/pages/landing/sales/screenshot-analyze.png")" />
+            </div>
+            <div class="column large-7">
+                <h3>@Resources.Analyze_Subheading</h3>
+                @Html.Raw(Resources.Analyze_Content)
+            </div>
+        </div>
+    </section>
+    <section class="section section-size3">
+        <div class="row">
+            <div class="column hide-for-medium large-0">
+                <p class="text-heading3">@Resources.Combine_Heading</p>
+            </div>
+            <div class="column large-5">
+                <img alt="" src="@CdnHelper.GetCdnUrl("/pictures/pages/landing/sales/screenshot-combine.png")" />
+            </div>
+            <div class="column large-7">
+                <h3>@Resources.Combine_Subheading</h3>
+                @Html.Raw(Resources.Combine_Content)
+            </div>
+        </div>
+    </section>
+    <section class="section section-size3">
+        <div class="row">
+            <div class="column hide-for-medium large-0">
+                <p class="text-heading3">@Resources.Mobile_Heading</p>
+            </div>
+            <div class="column medium-5 large-0">
+                <img alt="" src="@CdnHelper.GetCdnUrl("/pictures/pages/landing/sales/screenshot-mobile.png")" />
+            </div>
+            <div class="column medium-7">
+                <h3>@Resources.Mobile_Subheading</h3>
+                @Html.Raw(Resources.Mobile_Content)
+            </div>
+        </div>
+    </section>
+</div>
+
+<div class="border-bottom"></div>
+
+@Html.Action("IntegrationsSection", "Integrations", new { tag = "sales" })
+
+<section class="section section-slate01">
+    <div class="row">
+        <div class="column medium-8 medium-centered text-center">
+            <div class="row">
+                <div class="column">
+                    <h2 class="text-palette02">@Resources.TakeAdvantage_Heading</h2>
+                </div>
+            </div>
+            <div class="row row-size2">
+                <div class="column">
+                    @Html.CreateForm("Signup", new Acom.Forms.Models.FormOptions
+                    {
+                        Class = "form-email-only",
+                        Slug = "landing-sales",
+                        SubmitText = Resources.Form_Cta,
+                    })
+                    <p class="text-mini">@Html.RawFormatInvariant(Forms.Terms_UseItFree, Html.LocalizeUrl("/terms-of-service/"))</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+@section foot {
+    <script>
+        $(function () { 
+            var $carousel = $('.owl-carousel-vertical'),
+                $dots = $('.owl-controls-vertical a');
+
+            $carousel.owlCarousel({
+                autoplay: false,
+                items: 1,
+                loop: true,
+                animateOut: 'slideOutUp',
+                animateIn: 'slideInUp',
+                autoHeight: true,
+                mouseDrag: false,
+                touchDrag: false,
+                pullDrag:false
+            });
+
+            $dots.on('click', function (e) {
+                e.preventDefault();
+                var $dot = $(this);
+
+                $carousel.trigger('to.owl.carousel', $dot.data('index'));
+                $dots.removeClass('active');
+                $dot.addClass('active');
+            });
+
+            $dots.first().addClass('active');
+            $carousel.trigger('to.owl.carousel', $dots.first().data('index'));
+        });
+    </script>
+}

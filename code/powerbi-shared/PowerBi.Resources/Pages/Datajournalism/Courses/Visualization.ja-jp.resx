@@ -1,0 +1,714 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" id="root">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="About_Content" xml:space="preserve">
+    <value>&lt;p&gt;このクラスでは、Microsoft Power BI の基本的な使用方法のチュートリアルを示しながら、次の内容を説明します。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;有名な "ホッケー スティック" グラフを作成するために、データ視覚化ツールにデータをロードして編集し、特別な計算を追加する方法について説明します。&lt;/li&gt;
+&lt;li&gt;地域放送局である KING 5 が米国の大統領予備選の中継で利用した選挙区地図を用いて、データ ビジュアライゼーションの作成と公開の概要を示します。&lt;/li&gt;
+&lt;/ul&gt;
+</value>
+  </data>
+  <data name="ArticleContinue_Content2_3" xml:space="preserve">
+    <value>&lt;h2 id="create-pub"&gt;データ ビジュアライゼーションの作成と公開&lt;/h2&gt;
+&lt;p&gt;このコースで示すサンプルを実行するには、次の準備が必要です。&lt;/p&gt;&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;Windows 7 以降を実行するコンピューター&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href="{0}"&gt;Power BI Desktop&lt;/a&gt; のダウンロードおよびインストール&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Power BI アカウント (&lt;a href="{1}"&gt;{2}&lt;/a&gt;) への登録&lt;/p&gt;
+&lt;p&gt;a.職場の電子メール アカウントを使用して登録する必要があります。個人用のアカウント (gmail、Hotmail、outlook.com、yahoo.com) はサポートされていません。&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;</value>
+  </data>
+  <data name="ArticleThird_Continue_7" xml:space="preserve">
+    <value>&lt;p&gt;作成するメジャー:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;クリントンに投票 = CALCULATE(sum(投票データ[得票数]), 投票データ[候補者] = "クリントン")&lt;/p&gt;
+
+&lt;p&gt;サンダースに投票 = CALCULATE(sum(投票データ[得票数]), 投票データ[候補者] = "サンダース")&lt;/p&gt;
+
+&lt;p&gt;選挙動向 = if([クリントンに投票] &gt; [サンダースに投票], -1, if(投票データ[クリントンに投票] = [サンダースに投票], 0, 1))&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;注: 最初の 2 つのメジャーでクリントンおよびサンダースの値をフィルターし、特定の郡でクリントンとサンダースのどちらがより多く得票したかを示す選挙動向メジャーを構築できます。このメジャーは、地図を作成する際に非常に役立ちます。&lt;/p&gt;
+
+&lt;p&gt;この手順を完了すると、フィールド一覧の表示は以下のようになります。作成したメジャーはフィールドに追加され、データ視覚化で使用できるようになります。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src="{0}" alt="" title="" /&gt;&lt;/p&gt;
+
+&lt;h3&gt;手順 3: 地図での結果の表示&lt;/h3&gt;
+
+&lt;p&gt;これで、図形マップを作成する準備ができました。&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;ShapeMap&lt;/strong&gt; ビジュアルをレポートに挿入します。&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;img src="{1}" alt="" title="" /&gt;&lt;/p&gt;
+
+&lt;p&gt;注: 執筆時点では、ShapeMap ビジュアルはプレビューの段階です。この ShapeMap が表示されない場合は、&lt;strong&gt;プレビュー機能&lt;/strong&gt;として有効にする必要があります。&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;[ファイル] -&gt; [オプションと設定] -&gt; [オプション]&lt;/strong&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;[グローバル] -&gt; [プレビュー機能]&lt;/strong&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;[図形マップのビジュアル]&lt;/strong&gt; の横にあるボックスをオンにします。&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;[OK]&lt;/strong&gt; をクリックします。&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;strong&gt;ShapeMap&lt;/strong&gt; は、挿入すると空白になります。次の手順を実行します。&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;地図&lt;/strong&gt;をクリックして選択します。&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;[フィールド]&lt;/strong&gt; リストで、次のフィールドの横にあるボックスをオンにします。&lt;/p&gt;
+
+&lt;p&gt;a.&lt;strong&gt;郡の名前&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;b. &lt;em&gt;*選挙動向 *&lt;/em&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;ビジュアルのデータ フィールドは次のように表示されます。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src="{2}" alt="" title="" /&gt;&lt;/p&gt;
+
+&lt;p&gt;ページは、おおよそ次のように表示されます。&lt;/p&gt;
+
+&lt;p&gt;Note that the U.S.マップは既定で表示されます。次の手順では、地図のシェイプを変更します。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src="{3}" alt="" title="" /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;ShapeMap&lt;/strong&gt; ビジュアルでは、任意の &lt;strong&gt;TopoJSON ファイル&lt;/strong&gt;を使用できます。TopoJSON シェイプの ID は、データ セット内の名前と一致する必要があります。&lt;/p&gt;
+
+&lt;p&gt;郡の名前と一致するようにシェイプを変更してみましょう。&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;ShapeMap&lt;/strong&gt; を選択します。&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;[書式設定]&lt;/strong&gt; ペインに切り換えます。&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;[シェイプ]&lt;/strong&gt; オプションを展開します。&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;UI が以下のように表示されます。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src="{4}" alt="" title="" /&gt;&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;[+ マップの追加]&lt;/strong&gt; をクリックします。&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;[ファイルを開く]&lt;/strong&gt; ダイアログで、ファイル "&lt;strong&gt;gz_2010_us_050_00_500k-wash-counties-only.json&lt;/strong&gt;" を開きます。&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;これで、UI は次のように表示されます。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src="{5}" alt="" title="" /&gt;&lt;/p&gt;
+
+&lt;p&gt;次に、米国の民主党のテーマと一致するように色を変更します。&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;[書式設定]&lt;/strong&gt;ペインで、&lt;strong&gt;[データの色]&lt;/strong&gt; を展開します。&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;[左右逆方向]&lt;/strong&gt; のスライダーを &lt;strong&gt;[オン]&lt;/strong&gt; の位置に配置します。&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;表示されている UI オプションから色を選択するか、&lt;strong&gt;[ユーザー設定の色]&lt;/strong&gt; を選択して色を指定できます。以下の例では、次の色を使用します。&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;最小 - 0007FF&lt;/p&gt;
+
+&lt;p&gt;中央 - B3B3B3&lt;/p&gt;
+
+&lt;p&gt;最大 - 0055FF&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;[最小]&lt;/strong&gt;、&lt;strong&gt;[中央]&lt;/strong&gt;、&lt;strong&gt;[最大]&lt;/strong&gt; をそれぞれ &lt;strong&gt;-1、0、1&lt;/strong&gt; に設定します。これで、スケールが定義されます。&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;img src="{6}" alt="" title="" /&gt;&lt;/p&gt;</value>
+  </data>
+  <data name="Article_Content_Step2_2" xml:space="preserve">
+    <value>&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;気温データ&lt;/strong&gt;テーブルに移動します。&lt;strong&gt;[ホーム]&lt;/strong&gt; リボンで、&lt;strong&gt;[クエリのマージ]&lt;/strong&gt; を選択します。一致対象のテーブルとして&lt;strong&gt;エラー バー&lt;/strong&gt;を選択し、一致させる列として&lt;strong&gt;年&lt;/strong&gt;を選択します。ここでは、誤差のテーブルには、再構築された気温の年の範囲に該当するデータだけしか含まれていないことがわかっているので、&lt;strong&gt;[結合の種類: 左外部]&lt;/strong&gt; を使用できます。&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;シグマ&lt;/strong&gt; 列のみを展開します。&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;正の差異の列を追加するために、&lt;strong&gt;[列の追加]&lt;/strong&gt; リボンで &lt;strong&gt;[カスタム列の追加]&lt;/strong&gt; を使用します。&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;列に&lt;strong&gt;正の差異&lt;/strong&gt;という名前を付け、式 &lt;strong&gt;[再構築された気温変化] + [シグマ]&lt;/strong&gt; を使用して、再構築された気温にシグマを追加します。列名を入力するか、右側の列名をダブルクリックします。&lt;/p&gt;&lt;p&gt;&lt;img src="{0}" alt="" title="" /&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;このステップを繰り返して、&lt;strong&gt;負の差異 = [再構築された気温変化] - [シグマ]&lt;/strong&gt; を作成します。&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;新しい列のデータ タイプを 10 進数に変更します。&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;すべての情報をテーブル&lt;strong&gt;気温の変化&lt;/strong&gt;に読み込んでいるので、他の 2 つのテーブルをレポートに読み込む必要はありません。他の 2 つのテーブルの読み込みを無効にするために、&lt;strong&gt;[測定データ]&lt;/strong&gt; を右クリックし、&lt;strong&gt;[読み込みを有効にする]&lt;/strong&gt; をオフにします。&lt;strong&gt;[エラー バー]&lt;/strong&gt; に対しても同じ操作を行います。無効にしたテーブルは、グレーの斜体で表示されます。&lt;/p&gt;
+&lt;p&gt;&lt;img src="{1}" alt="" title="" /&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;strong&gt;[ホーム]&lt;/strong&gt; リボンで &lt;strong&gt;[閉じて適用]&lt;/strong&gt; をクリックします。&lt;/li&gt;
+&lt;/ol&gt;</value>
+  </data>
+  <data name="Article_Content_Step2_3" xml:space="preserve">
+    <value>&lt;h3&gt;手順 2: ビジュアルの作成&lt;/h3&gt;
+
+&lt;p&gt;データを読み込んで、データの編集とマージのほとんどを終了したら、後は数回クリックするだけで折れ線グラフを作成できます。&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;レポート セクションに新しい折れ線グラフを作成します。&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;年&lt;/strong&gt;を &lt;strong&gt;[軸]&lt;/strong&gt; フィールドにドラッグし、ドロップダウン メニューに日付が "年" として表示されていることを確認します。&lt;/p&gt;
+&lt;p&gt;&lt;img src="{0}" alt="" title="" /&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;再構築された気温変化&lt;/strong&gt;、&lt;strong&gt;測定気温変化&lt;/strong&gt;、&lt;strong&gt;正の差異&lt;/strong&gt;および&lt;strong&gt;負の差異&lt;/strong&gt;を [値] にドラッグします。&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;気温の変化を差異で目立たせるために、&lt;strong&gt;[書式]&lt;/strong&gt;ペインで折れ線の色を変更します。&lt;/p&gt;&lt;p&gt;&lt;img src="{1}" alt="" title="" /&gt;&lt;/p&gt;
+&lt;/li&gt;&lt;/ol&gt;
+&lt;h3&gt;手順 3: 傾向線&lt;/h3&gt;
+
+&lt;p&gt;有名なホッケー スティック グラフを再作成する最後の手順は、気温の変化全体に傾向線を追加することです。これは、いくつかの DAX メジャーを使用して行うことができます。&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;一部の年には、計器で測定された気温と再構築された気温の両方があるため、2 つの値がある場合の平均のみを求める列を最初に作成する必要があります。次の式を使用して、&lt;strong&gt;新しい列&lt;/strong&gt;を作成します。&lt;/li&gt;
+  &lt;p&gt;&lt;em&gt;Temp Average = IF(ISBLANK([Instrumental Temp.Change]),[Reconstructed Temp.Change],IF(ISBLANK([Reconstructed Temp.Change]),[Instrumental Temp.Change],([Instrumental Temp.Change]+[Reconstructed Temp.Change])/2))&lt;/em&gt;&lt;/p&gt;
+&lt;li&gt;この列に対して、次の&lt;strong&gt;新しいメジャー&lt;/strong&gt;を作成します。&lt;/li&gt;
+  &lt;p&gt;&lt;em&gt;気温変化 = SUM(データ[平均気温])&lt;/em&gt;&lt;/p&gt;
+&lt;li&gt;気温の変化の移動平均を計算します。さまざまな時間間隔を使用することができます。この例では、40 年に設定します。&lt;/li&gt;&lt;p&gt;&lt;em&gt;傾向線 = AVERAGEX(DATESINPERIOD(データ[年],LASTDATE(データ[年]),-40,YEAR),[気温変化])&lt;/em&gt;&lt;/p&gt;
+&lt;li&gt;傾向線をビジュアルに追加したら完成です。&lt;/li&gt;
+&lt;p&gt;&lt;img src="{2}" alt="" title="" /&gt;&lt;/p&gt;&lt;/ol&gt;</value>
+  </data>
+  <data name="Article_Content_Step3_10" xml:space="preserve">
+    <value>&lt;h2&gt;パート 1: データ ストーリーの作成と Web ページへの公開&lt;/h2&gt;
+
+&lt;p&gt;次のファイルが必要です。&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;投票データ.xlsx&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;gz_2010_us_050_00_500k-wash-counties-only.json&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Embed in web page.htm&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3&gt;手順 1: Excel ファイルからのデータの読み込み&lt;/h3&gt;
+
+&lt;p&gt;詳細なヘルプや手順については、必要に応じてドキュメントを参照してください。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href="{0}"&gt;{0}&lt;/a&gt;&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;Power BI Desktop&lt;/strong&gt; を開きます。&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;[ホーム] リボンの &lt;strong&gt;[データを取得]&lt;/strong&gt; をクリックします。&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;[Excel]&lt;/strong&gt; を選択します。&lt;/p&gt;
+&lt;p&gt;&lt;img src="{1}" alt="" title="" /&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;ダイアログ ボックスで、&lt;strong&gt;投票データ.xlsx&lt;/strong&gt; を選択します。&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;[ナビゲーター]&lt;/strong&gt; ダイアログ ボックスで、&lt;strong&gt;[投票データ]&lt;/strong&gt; の横にあるボックスをオンにします。&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;[読み込み]&lt;/strong&gt; をクリックします。&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;img src="{2}" alt="" title="" /&gt;&lt;/p&gt;
+
+&lt;h3&gt;手順 2: 計算結果の作成&lt;/h3&gt;
+
+&lt;p&gt;多くの場合、データ ビジュアライゼーションの作成では、目的の視覚化を実現するために、計算値で生データを補足する必要があります。このセクションでは、いくつかの計算を作成します。&lt;/p&gt;
+
+&lt;p&gt;注: このセクションでは、DAX 式という新しい概念を紹介します。DAX とは、レポート内でのデータの計算に使用する式言語です。詳細については、「&lt;a href="{3}"&gt;Power BI Desktop における DAX の基本事項&lt;/a&gt;」を参照してください。&lt;/p&gt;
+
+&lt;p&gt;以下のメジャーの作成では、「&lt;a href="{4}"&gt;チュートリアル: Power BI Desktop で独自のメジャーを作成する&lt;/a&gt;」で説明している手順を使用します。&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;[モデリング]&lt;/strong&gt; リボンで &lt;strong&gt;[新しいメジャー]&lt;/strong&gt; をクリックします。&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;数式バーが表示されます。&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;以下の「&lt;strong&gt;作成するメジャー&lt;/strong&gt;」セクションの式をバーに入力し、&lt;strong&gt;チェック マークをクリックして&lt;/strong&gt;式が機能することを確認します。&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;以下に示す 3 つのメジャーに対して、この手順を繰り返します。&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;img src="{5}" alt="" title="" /&gt;&lt;/p&gt;
+
+&lt;p&gt;作成するメジャー:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;クリントンに投票 = CALCULATE(sum(投票データ[得票数]), 投票データ[候補者] = "クリントン")&lt;/p&gt;
+
+&lt;p&gt;サンダースに投票 = CALCULATE(sum(投票データ[得票数]), 投票データ[候補者] = "サンダース")&lt;/p&gt;
+
+&lt;p&gt;選挙動向 = if([クリントンに投票] &gt; [サンダースに投票], -1, if(投票データ[クリントンに投票] = [サンダースに投票], 0, 1))&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;注: 最初の 2 つのメジャーでクリントンおよびサンダースの値をフィルターし、特定の郡でクリントンとサンダースのどちらがより多く得票したかを示す選挙動向メジャーを構築できます。このメジャーは、地図を作成する際に非常に役立ちます。&lt;/p&gt;
+
+&lt;p&gt;この手順を完了すると、フィールド一覧の表示は以下のようになります。作成したメジャーはフィールドに追加され、データ視覚化で使用できるようになります。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src="{6}" alt="" title="" /&gt;&lt;/p&gt;
+
+&lt;h3&gt;手順 3: 地図での結果の表示&lt;/h3&gt;
+
+&lt;p&gt;これで、図形マップを作成する準備ができました。&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;ShapeMap&lt;/strong&gt; ビジュアルをレポートに挿入します。&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;img src="{7}" alt="" title="" /&gt;&lt;/p&gt;
+
+&lt;p&gt;注: 執筆時点では、ShapeMap ビジュアルはプレビューの段階です。この ShapeMap が表示されない場合は、&lt;strong&gt;プレビュー機能&lt;/strong&gt;として有効にする必要があります。&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;[ファイル] -&gt; [オプションと設定] -&gt; [オプション]&lt;/strong&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;[グローバル] -&gt; [プレビュー機能]&lt;/strong&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;[図形マップのビジュアル]&lt;/strong&gt; の横にあるボックスをオンにします。&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;[OK]&lt;/strong&gt; をクリックします。&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;strong&gt;ShapeMap&lt;/strong&gt; は、挿入すると空白になります。次の手順を実行します。&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;地図&lt;/strong&gt;をクリックして選択します。&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;[フィールド]&lt;/strong&gt; リストで、次のフィールドの横にあるボックスをオンにします。&lt;/p&gt;
+
+&lt;p&gt;a.&lt;strong&gt;郡の名前&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;b. &lt;strong&gt;*選挙動向 *&lt;/strong&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;ビジュアルのデータ フィールドは次のように表示されます。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src="{8}" alt="" title="" /&gt;&lt;/p&gt;
+
+&lt;p&gt;ページは、おおよそ次のように表示されます。&lt;/p&gt;
+
+&lt;p&gt;Note that the U.S.マップは既定で表示されます。次の手順では、地図のシェイプを変更します。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src="{9}" alt="" title="" /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;ShapeMap&lt;/strong&gt; ビジュアルでは、任意の &lt;strong&gt;TopoJSON ファイル&lt;/strong&gt;を使用できます。TopoJSON シェイプの ID は、データ セット内の名前と一致する必要があります。&lt;/p&gt;
+
+&lt;p&gt;郡の名前と一致するようにシェイプを変更してみましょう。&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;ShapeMap&lt;/strong&gt; を選択します。&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;[書式設定]&lt;/strong&gt; ペインに切り換えます。&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;[シェイプ]&lt;/strong&gt; オプションを展開します。&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;</value>
+  </data>
+  <data name="Article_Content_Step4_7" xml:space="preserve">
+    <value>&lt;p&gt;UI が以下のように表示されます。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src="{0}" alt="" title="" /&gt;&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;[+ マップの追加]&lt;/strong&gt; をクリックします。&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;[ファイルを開く]&lt;/strong&gt; ダイアログで、ファイル "&lt;strong&gt;gz_2010_us_050_00_500k-wash-counties-only.json&lt;/strong&gt;" を開きます。&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;これで、UI は次のように表示されます。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src="{1}" alt="" title="" /&gt;&lt;/p&gt;
+
+&lt;p&gt;次に、米国の民主党のテーマと一致するように色を変更します。&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;[書式設定]&lt;/strong&gt;ペインで、&lt;strong&gt;[データの色]&lt;/strong&gt; を展開します。&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;[左右逆方向]&lt;/strong&gt; のスライダーを &lt;strong&gt;[オン]&lt;/strong&gt; の位置に配置します。&lt;/p&gt;
+
+&lt;p&gt;表示されている UI オプションから色を選択するか、&lt;strong&gt;[ユーザー設定の色]&lt;/strong&gt; を選択して色を指定できます。以下の例では、次の色を使用します。&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;最小 - 0007FF&lt;/p&gt;
+
+&lt;p&gt;中央 - B3B3B3&lt;/p&gt;
+
+&lt;p&gt;最大 - 0055FF&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;/li&gt;
+
+&lt;li&gt;&lt;strong&gt;[最小]&lt;/strong&gt;、&lt;strong&gt;[中央]&lt;/strong&gt;、&lt;strong&gt;[最大]&lt;/strong&gt; をそれぞれ &lt;strong&gt;-1、0、1&lt;/strong&gt; に設定します。これで、スケールが定義されます。&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;img src="{2}" alt="" title="" /&gt;&lt;/p&gt;
+
+&lt;p&gt;地図の既定値の一部を変更して、さらに見やすくしていきます。色がグラデーション スケールで表示されている場合、色の境界がわかりにくくなる場合があります。そこで、境界の可視性を高めることで、郡のシェイプを見やすくすることができます。&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;[既定色]&lt;/strong&gt; を展開します。&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;[色]&lt;/strong&gt; を&lt;strong&gt;&lt;em&gt;白&lt;/em&gt;&lt;/strong&gt; に設定します。&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;[枠線の色]&lt;/strong&gt; を &lt;strong&gt;&lt;em&gt;白&lt;/em&gt;&lt;/strong&gt; に設定します。&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;[枠線の太さ]&lt;/strong&gt; を &lt;strong&gt;&lt;em&gt;4&lt;/em&gt;&lt;/strong&gt; に設定します。&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;img src="{3}" alt="" title="" /&gt;&lt;/p&gt;
+
+&lt;p&gt;最後に、地図にわかりやすいタイトルを付けます。&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;[タイトル]&lt;/strong&gt; を展開します。&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;[タイトル テキスト]&lt;/strong&gt; を &lt;em&gt;"&lt;strong&gt;郡別の選挙結果&lt;/strong&gt;"&lt;/em&gt; に設定します。&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;[テキスト サイズ]&lt;/strong&gt; を &lt;strong&gt;&lt;em&gt;14&lt;/em&gt;&lt;/strong&gt; に設定します。&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;img src="{4}" alt="" title="" /&gt;&lt;/p&gt;
+
+&lt;p&gt;地図が以下のように表示されます。ビジュアライゼーションを設計するときに重要なのは、ビジュアライゼーションが対象者や読者にとってわかりやすいものかどうかを確認することです。最終的な地図のビジュアルでは、シェイプが明確に区別されて明瞭なタイトルがつけられており、明らかに色によってわかりやすくなっています。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src="{5}" alt="" title="" /&gt;&lt;/p&gt;
+
+&lt;p&gt;地図を作成したので、習得した横棒グラフを作成するスキルを使って、全体的な結果を表示します。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;[フィールド]&lt;/strong&gt; のデータを使用します。&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;[候補者]&lt;/strong&gt; をオンにします。&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;[得票数]&lt;/strong&gt; をオンにします。&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;地図の色と一致する色を設定し、適切なタイトルを設定します。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src="{6}" alt="" title="" /&gt;&lt;/p&gt;</value>
+  </data>
+  <data name="Article_Content_Step5_9" xml:space="preserve">
+    <value>&lt;p&gt;追加で使用できる機能には、次のものがあります。&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;データ ラベル&lt;/strong&gt;: ビジュアルを有効にすると、[書式設定] ペインに表示されます。&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;数値の書式設定&lt;/strong&gt;: 手順については、このチュートリアルの最後にある数値の書式設定に関するセクションを参照してください。&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;最終的なレポートは、次のように表示されます。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src="{0}" alt="" title="" /&gt;&lt;/p&gt;
+
+&lt;p&gt;以下の図のように、地図をクリックすると横棒グラフがクロス強調表示されます。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src="{1}" alt="" title="" /&gt;&lt;/p&gt;
+
+&lt;p&gt;こうした相互作用は、このシナリオに適したものではありません。ビジュアルの相互作用をカスタマイズしましょう。&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;リボンで、&lt;strong&gt;[書式]&lt;/strong&gt; を選択します。&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;[相互作用] タブの &lt;strong&gt;[相互作用を編集]&lt;/strong&gt; ボタンをクリックします。&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;img src="{2}" alt="" title="" /&gt;&lt;/p&gt;
+
+&lt;p&gt;これで、地図を選択すると、以下の図のように他の視覚化の右上隅に新しいメニュー バーが表示されるようになりました。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src="{3}" alt="" title="" /&gt;&lt;/p&gt;
+
+&lt;p&gt;このメニューでは、3 つのオプションが使用できます。&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;フィルター – 現在選択されているデータ ポイントのデータのみを表示する&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;クロス強調表示 – 全体の合計に対する、現在選択されているデータ ポイントの影響度を表示する&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;なし – このビジュアルに対して、選択されているビジュアルとの相互作用が影響しなくなります&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;上に示すように、&lt;strong&gt;フィルター&lt;/strong&gt; オプションを選択します。&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;これで、&lt;strong&gt;地図&lt;/strong&gt;をクリックすると、クリックした各郡のデータが横棒グラフに表示されるようになりました。郡を選択しない場合は、州全体の合計が表示されます。&lt;/p&gt;
+
+&lt;p&gt;レポートを&lt;strong&gt;保存&lt;/strong&gt;します。&lt;/p&gt;
+
+&lt;h2&gt;パート 2: Power BI アカウントへのレポートの発行&lt;/h2&gt;
+
+&lt;p&gt;Power BI アカウントにレポートを発行して、同僚と安全に共有することができます。&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;[ホーム]&lt;/strong&gt; リボンの [共有] グループで、&lt;strong&gt;[発行]&lt;/strong&gt; を選択します。
+
+
+&lt;p&gt;&lt;img src="{4}" alt="" title="" /&gt;&lt;/p&gt;
+
+&lt;p&gt;注: この手順を完了するには、Power BI アカウントが必要です。アカウントを作成していない場合は、&lt;a href="{5}"&gt;{6}&lt;/a&gt; にアクセスして、無料アカウントにサインアップしてください。&lt;/p&gt;
+
+&lt;p&gt;発行が完了すると、次のダイアログが表示されます。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src="{7}" alt="" title="" /&gt;&lt;/p&gt;
+
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;[Power BI で ‘投票データ レポート.pbix’ を開く]&lt;/strong&gt; リンクをクリックして、Power BI.com でレポートを表示します。&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;img src="{8}" alt="" title="" /&gt;&lt;/p&gt;</value>
+  </data>
+  <data name="Article_Content_Step6_5" xml:space="preserve">
+    <value>&lt;h3&gt;手順 1: Web への公開&lt;/h3&gt;
+
+&lt;p&gt;以下のリンクに記載されている手順に従って、&lt;strong&gt;Power BI から Web への公開埋め込みコードを作成&lt;/strong&gt;することができます。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href="{0}"&gt;{0}&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;埋め込みコードは、次のようになっています。&lt;/p&gt;
+
+&lt;p&gt;&amp;lt;iframe width="800" height="600" src="{1}" frameborder="0" allowFullScreen="true"&gt;&amp;lt;/iframe&gt;&lt;/p&gt;
+
+&lt;p&gt;埋め込みコードは ‘&amp;lt;iframe’ で始まることに注意してください。iFrame を使用して、Web ページにコンテンツを埋め込みます。&lt;/p&gt;
+
+&lt;h3&gt;手順 2: Web ページへの埋め込みコードの追加&lt;/h3&gt;
+
+&lt;p&gt;このセクションでは、レポートの埋め込みコードを追加し、そのコードを Web ページに追加します。&lt;/p&gt;
+
+&lt;p&gt;提供されている Web ページに、前の手順の&lt;strong&gt;埋め込みコードをコピー&lt;/strong&gt;します。コピーしていない場合は、ここで戻ってコピーしてください。&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;Embed in web page.htm&lt;/strong&gt; ファイルを開きます。&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;行 "&amp;lt;!-- Step 1: Place your iFrame embed code below this line --&gt;" を探します。&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;この行の下に、埋め込みコードを&lt;strong&gt;貼り付け&lt;/strong&gt;ます。&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;次に、iframe の高さと幅を調整します。既定値では、完全には合わない可能性があります。サイズは、レポートのページ サイズに基づいています。既定のページ サイズの比率は 16:9 です。Web ページのレイアウトとこの基本の寸法に基づいた幅と高さを確認する必要があります。その後、iFrame の高さに 56 を加算して、Power BI の UI を iFrame の最下部に合わせます。&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;次のように &lt;strong&gt;iframe&lt;/strong&gt; の幅と高さを設定します。&lt;/p&gt;
+    &lt;ul&gt;
+&lt;li&gt;&lt;p&gt;幅 = "1000"&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;高さ = "618"&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;ファイルを&lt;strong&gt;保存&lt;/strong&gt;します。&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;エクスプローラー&lt;/strong&gt;で&lt;strong&gt;ファイルをダブルクリックして&lt;/strong&gt;、ブラウザーで開きます。&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;以下のようなページが表示されます。Web サーバーにページを公開すると、そのページを閲覧するすべてのユーザーがレポートを表示できます。これらの手順によって、Power BI によるデータ ビジュアライゼーションをブログや、ニュース記事、Web サイトに追加できます。&lt;/p&gt;
+
+&lt;h1&gt;&lt;img src="{2}" alt="" title="" /&gt;&lt;/h1&gt;
+
+&lt;h2&gt;付録: Power BI での数値の書式設定&lt;/h2&gt;
+
+&lt;p&gt;このチュートリアルでは、データ ラベルを使用した場合に、既定では数値が書式設定されないことがわかります。以下に、Power BI で数値の書式を設定する手順を示します。&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;[フィールド] リストで、書式を設定する&lt;strong&gt;フィールド&lt;/strong&gt;をクリックして選択します。ヒント: フィールドが選択されると、以下のように黄色の枠線が表示されます。
+&lt;p&gt;&lt;img src="{3}" alt="" title="" /&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;フィールドを選択した状態で、リボンの &lt;strong&gt;[モデリング]&lt;/strong&gt; を選択します。&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;[書式設定]&lt;/strong&gt; セクションに注目してください。&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;大きな数値にコンマ区切り記号を追加するために、&lt;strong&gt;コンマ アイコン&lt;/strong&gt;をクリックします。&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;この操作が終了すると、視覚化でこのフィールドが使われるたびに、この書式設定が適用されます。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src="{4}" alt="" title="" /&gt;&lt;/p&gt;</value>
+  </data>
+  <data name="Article_Continue_Step1_3" xml:space="preserve">
+    <value>&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;気温データ&lt;/strong&gt;テーブルに移動し、&lt;strong&gt;[ホーム]&lt;/strong&gt; リボンで &lt;strong&gt;[クエリのマージ]&lt;/strong&gt; を選択します。&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;エディターで、&lt;strong&gt;[測定データ]&lt;/strong&gt; を選択し、両方のテーブルで列 &lt;strong&gt;[年]&lt;/strong&gt; を選択します。この列を使用して、テーブルを一致させます、&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;両方のテーブルの行をすべて含むテーブルが必要であるため (重複する行も一致させます)、&lt;strong&gt;[結合の種類: 完全外部 (両方の行すべて)]&lt;/strong&gt; を選択します。 エディターに、一致する行の数が表示されます。&lt;/p&gt;
+&lt;p&gt;&lt;img src="{0}" alt="" title="" /&gt;&lt;/p&gt;
+
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;[OK]&lt;/strong&gt; を選択し、新しい列を展開します (以下のアイコンを参照)。
+&lt;p&gt;&lt;img src="{1}" alt="" title="" /&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;新しい日付の列を作成するために、&lt;strong&gt;[列の追加]&lt;/strong&gt; タブで &lt;strong&gt;[インデックス列の追加]&lt;/strong&gt; を選択します (カスタムのインデックス列を作成するには、ドロップダウン メニューを使用します)。インデックスは 1000 から開始し、増分は 1 にします。&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;これで、範囲が 1000 から 1998 までのインデックス列が作成されます。この列の型をテキストに変更します。&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;年の列を両方とも削除し、&lt;strong&gt;インデックス&lt;/strong&gt;の名前を&lt;strong&gt;年&lt;/strong&gt;に変更します。&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;年&lt;/strong&gt; のデータ型を&lt;strong&gt;日付&lt;/strong&gt;に設定します。&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;最後に読み込むテーブルには、&lt;strong&gt;*関連するエラー バー*&lt;/strong&gt; が含まれています。&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;クエリ エディターで、&lt;strong&gt;[ホーム]&lt;/strong&gt; &gt; &lt;strong&gt;[新しいソース]&lt;/strong&gt; &gt; &lt;strong&gt;[Web]&lt;/strong&gt; の順に選択し、次のテーブルの URL を入力します: &lt;a href="{2}"&gt;{2}&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;クエリ名を&lt;strong&gt;エラー バー&lt;/strong&gt;に変更します。&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;年&lt;/strong&gt;の型をテキストに変更します。&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;最初と最後の列を削除します。&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;年&lt;/strong&gt;の型を日付に変更します。&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;次に、&lt;strong&gt;エラー バー&lt;/strong&gt;でシグマを使用して、再構築された気温の正の差異と負の差異を計算します。&lt;/p&gt;</value>
+  </data>
+  <data name="Article_Start_Step2_3" xml:space="preserve">
+    <value>&lt;p&gt;&lt;img src="{0}" alt="" title="" /&gt;&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;このステップを繰り返して、&lt;strong&gt;負の差異 = [再構築された気温変化] - [シグマ]&lt;/strong&gt; を作成します。&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;新しい列のデータ タイプを 10 進数に変更します。&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;すべての情報をテーブル&lt;strong&gt;気温の変化&lt;/strong&gt;に読み込んでいるので、他の 2 つのテーブルをレポートに読み込む必要はありません。他の 2 つのテーブルの読み込みを無効にするために、&lt;strong&gt;[測定データ]&lt;/strong&gt; を右クリックし、&lt;strong&gt;[読み込みを有効にする]&lt;/strong&gt; をオフにします。&lt;strong&gt;[エラー バー]&lt;/strong&gt; に対しても同じ操作を行います。無効にしたテーブルは、グレーの斜体で表示されます。&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;img src="{1}" alt="" title="" /&gt;&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;[ホーム]&lt;/strong&gt; リボンで &lt;strong&gt;[閉じて適用]&lt;/strong&gt; をクリックします。&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3&gt;手順 2: ビジュアルの作成&lt;/h3&gt;
+
+&lt;p&gt;データを読み込んで、データの編集とマージのほとんどを終了したら、後は数回クリックするだけで折れ線グラフを作成できます。&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;レポート セクションに新しい折れ線グラフを作成します。&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;年&lt;/strong&gt;を &lt;strong&gt;[軸]&lt;/strong&gt; フィールドにドラッグし、ドロップダウン メニューに日付が "年" として表示されていることを確認します。&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;img src="{2}" alt="" title="" /&gt;&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;再構築された気温変化&lt;/strong&gt;、&lt;strong&gt;測定気温変化&lt;/strong&gt;、&lt;strong&gt;正の差異&lt;/strong&gt;および&lt;strong&gt;負の差異&lt;/strong&gt;を [値] にドラッグします。&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;気温の変化を差異で目立たせるために、&lt;strong&gt;[書式]&lt;/strong&gt;ペインで折れ線の色を変更します。&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;</value>
+  </data>
+  <data name="Download_Resources" xml:space="preserve">
+    <value>これらのチュートリアルに必要なすべてのリソースをダウンロードする</value>
+  </data>
+  <data name="Hero_Content" xml:space="preserve">
+    <value>この入門コースでは、さまざまな種類のグラフィックスを使用して自身のデータを分析して理解する方法と、説明する相手に対して効果的に伝える方法を習得することができます。データ視覚化の専門家である Alberto Cairo が、データの理解、適切なグラフィック形式の選択、ナレーションや詳細説明のための構成の調整など、視覚化で中心となる原則について説明します。また、データ可視化の基礎である、データ ポイントをグラフィカルな特徴に変換する視覚記号化という考えついても詳しく説明します。</value>
+  </data>
+  <data name="Hero_Title" xml:space="preserve">
+    <value>可視化の概要</value>
+  </data>
+  <data name="InThisArticle" xml:space="preserve">
+    <value>この記事の内容:</value>
+  </data>
+  <data name="META_DESCRIPTION" xml:space="preserve">
+    <value />
+  </data>
+  <data name="META_KEYWORDS" xml:space="preserve">
+    <value />
+  </data>
+  <data name="META_PAGETITLE" xml:space="preserve">
+    <value>データ ジャーナリズム - 可視化の概要 | Microsoft Power BI</value>
+  </data>
+  <data name="NextTopic" xml:space="preserve">
+    <value>次のトピック: データの探索</value>
+  </data>
+  <data name="RightNav_Link1" xml:space="preserve">
+    <value>世界の気温の変化 (Power BI でのホッケー スティック グラフの作成)</value>
+  </data>
+  <data name="RightNav_Link2" xml:space="preserve">
+    <value>ビジュアライゼーションの作成と発行</value>
+  </data>
+  <data name="Start_Article_Content_4" xml:space="preserve">
+    <value>&lt;h2 id="world-temp-change"&gt;世界の気温の変化 (Power BI でのホッケー スティック グラフの作成)&lt;/h2&gt;
+
+&lt;p&gt;データ視覚化コースで使用される最初の例の 1 つに、Michael Mann と Raymond Bradley による世界の気温の分析があります。このビジュアルを再構築することで、Microsoft Power BI を操作するときに頻繁に使用する幅広い概念に触れることができます。いくつかの Web ページの表から始めて、データをマッシュ アップし、レポートに読み込んで、調整を加え、傾向線を計算して作成します。使用するのは、&lt;a href="{0}"&gt;{0}&lt;/a&gt; に掲載されている研究のデータです。&lt;/p&gt;
+
+&lt;h3&gt;手順 1: データの読み込み&lt;/h3&gt;
+
+&lt;p&gt;このビジュアルを作成するのに必要なデータは、&lt;strong&gt;再構築 (AD 1000-1980)&lt;/strong&gt;、&lt;strong&gt;関連するエラー バー&lt;/strong&gt;、および&lt;strong&gt;測定シリーズ (1902-1998)&lt;/strong&gt; という 3 つのテーブルに含まれています。この例では、まず再構築された気温を読み込みます。&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;再構築 (AD 1000-1980)&lt;/strong&gt; を開きます: &lt;a href="{1}"&gt;{1}&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;新しい Power BI Desktop ファイルで、左上の &lt;strong&gt;[データを取得]&lt;/strong&gt; をクリックします。&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;ドロップダウン メニューで &lt;strong&gt;[Web]&lt;/strong&gt; を選択し、URL ウィンドウにリンクを貼り付けます。Power BI では、自動的にデータのデータ型の候補が示されます。年の列を編集する必要があるので、この機能を無効にします。&lt;strong&gt;[データ型検出]&lt;/strong&gt; を &lt;strong&gt;[データ型を検出しない]&lt;/strong&gt; に設定し、&lt;strong&gt;[編集]&lt;/strong&gt; をクリックします。&lt;/p&gt;
+&lt;p&gt;&lt;img src="{2}" alt="" title="" /&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;クエリ エディターが開きます。最初の列は空なので、削除できます。列 2 の名前を &lt;strong&gt;年&lt;/strong&gt;に変更し、列 3 の名前を &lt;strong&gt;再構築された気温変化&lt;/strong&gt;に変更します。以下の画像に示すデータ型アイコンを選択して、この列のデータ型を 10 進数に変更します。
+&lt;p&gt;&lt;img src="{3}" alt="" title="" /&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;クエリ名を&lt;strong&gt;気温データ&lt;/strong&gt;に変更します。&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;同じ方法で、計器で計測された気温のデータと誤差範囲を読み込むことができます。&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;クエリ エディターで、&lt;strong&gt;[ホーム]&lt;/strong&gt; リボンの&lt;strong&gt;[新しいソース]&lt;/strong&gt; を選択し、&lt;strong&gt;測定シリーズ&lt;/strong&gt; テーブルの URL を入力します。&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;ポップアップ ウィンドウで、&lt;strong&gt;[データ型を検出しない]&lt;/strong&gt; を選択し、&lt;strong&gt;[編集]&lt;/strong&gt; をクリックします。&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;列 1 を削除し、列 2 の名前を &lt;strong&gt;年&lt;/strong&gt;に変更します。&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;列 3 の名前を&lt;strong&gt;測定温度変化&lt;/strong&gt;に変更し、データ型を 10 進数に変更します。&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;クエリ名を&lt;strong&gt;測定データ&lt;/strong&gt;に変更します。&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;&lt;p&gt;次に、1000 年から 1998 年までのすべてのデータ ポイントに使用する列を 1 つ作成します。そのために、クエリ エディターで 2 つのテーブルをマージし、年の新しい列を追加します。&lt;/p&gt;</value>
+  </data>
+  <data name="Meta_LocJobId" xml:space="preserve">
+    <value>159</value>
+  </data>
+</root>

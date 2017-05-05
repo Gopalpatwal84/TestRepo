@@ -1,0 +1,258 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" id="root">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AnalysisServicesConnector_Content" xml:space="preserve">
+    <value>El Conector de Analysis Services le permite conectarse y emitir consultas dinámicas en un servidor tabular de Analysis Services para su uso con paneles e informes de Power BI.</value>
+  </data>
+  <data name="AnalysisServicesConnector_Download_CTA" xml:space="preserve">
+    <value>Descargar</value>
+  </data>
+  <data name="AnalysisServicesConnector_Heading" xml:space="preserve">
+    <value>Conector de Analysis Services</value>
+  </data>
+  <data name="AnalysisServicesConnector_LearnMore_CTA" xml:space="preserve">
+    <value>Más información</value>
+  </data>
+  <data name="Content_Headline" xml:space="preserve">
+    <value>Elija la puerta de enlace que mejor se adapte a sus necesidades</value>
+  </data>
+  <data name="DownloadGateway" xml:space="preserve">
+    <value>Descargar puerta de enlace</value>
+  </data>
+  <data name="EasySetup_Content" xml:space="preserve">
+    <value>Descargue e instale la puerta de enlace con el mínimo de interacciones. Después, inicie sesión con la cuenta de su organización para registrar la puerta de enlace y que la usen los servicios en la nube.</value>
+  </data>
+  <data name="EasySetup_Heading" xml:space="preserve">
+    <value>Instalación sencilla</value>
+  </data>
+  <data name="EnterpriseDeployments_Content" xml:space="preserve">
+    <value>Las organizaciones usan esta puerta de enlace para atender a un gran número de usuarios. También permite a los administradores configurar el control de acceso para los orígenes de datos individuales y supervisar el uso.</value>
+  </data>
+  <data name="EnterpriseDeployments_Download_CTA" xml:space="preserve">
+    <value>Descargar</value>
+  </data>
+  <data name="EnterpriseDeployments_Heading" xml:space="preserve">
+    <value>Para implementaciones empresariales</value>
+  </data>
+  <data name="EnterpriseDeployments_Label" xml:space="preserve">
+    <value>Power BI Gateway - Enterprise</value>
+  </data>
+  <data name="EnterpriseDeployments_LearnMore_CTA" xml:space="preserve">
+    <value>Más información</value>
+  </data>
+  <data name="Features_ComingSoon" xml:space="preserve">
+    <value>Próximamente</value>
+  </data>
+  <data name="Features_LearnMore" xml:space="preserve">
+    <value>Más información</value>
+  </data>
+  <data name="Features_MSProducts" xml:space="preserve">
+    <value>Power BI, PowerApps, Azure Logic Apps (versión preliminar), Microsoft Flow</value>
+  </data>
+  <data name="Features_OnPremisesColumn_Heading" xml:space="preserve">
+    <value>Puerta de enlace de datos local</value>
+  </data>
+  <data name="Features_PersonalColumn_Heading" xml:space="preserve">
+    <value>Puerta de enlace personal</value>
+  </data>
+  <data name="Features_PowerBI" xml:space="preserve">
+    <value>Power BI</value>
+  </data>
+  <data name="Features_Row1" xml:space="preserve">
+    <value>Importar datos y configurar actualizaciones programadas</value>
+  </data>
+  <data name="Features_Row2" xml:space="preserve">
+    <value>Ejecución como una aplicación para usuarios que no son administradores del equipo</value>
+  </data>
+  <data name="Features_Row3" xml:space="preserve">
+    <value>Ejecución como un usuario único con sus credenciales</value>
+  </data>
+  <data name="Features_Row4" xml:space="preserve">
+    <value>Atender a varios usuarios con control de acceso por origen de datos</value>
+  </data>
+  <data name="Features_Row5" xml:space="preserve">
+    <value>Compatibilidad con DirectQuery en SQL Server</value>
+  </data>
+  <data name="Features_Row6" xml:space="preserve">
+    <value>Compatibilidad con una conexión dinámica con Analysis Services</value>
+  </data>
+  <data name="Features_Row7" xml:space="preserve">
+    <value>Supervisión y auditoría de los orígenes de datos y la puerta de enlace</value>
+  </data>
+  <data name="Features_CloudServices" xml:space="preserve">
+    <value>Servicios en la nube con los que funciona</value>
+  </data>
+  <data name="Hero_Content" xml:space="preserve">
+    <value>Con las puertas de enlace locales mantendrá sus datos actualizados, ya que se podrá conectar a las fuentes de datos locales sin necesidad de desplazarlos. Consulte grandes conjuntos de datos y aproveche sus inversiones. Las puertas de enlace proporcionan la flexibilidad que necesita para satisfacer sus necesidades y las de la organización.</value>
+  </data>
+  <data name="Hero_Heading" xml:space="preserve">
+    <value>Mantenga sus paneles e informes al día con los orígenes de datos locales</value>
+  </data>
+  <data name="Hero_LearnMore" xml:space="preserve">
+    <value>Más información</value>
+  </data>
+  <data name="META_DESCRIPTION" xml:space="preserve">
+    <value />
+  </data>
+  <data name="META_KEYWORDS" xml:space="preserve">
+    <value />
+  </data>
+  <data name="META_PAGETITLE" xml:space="preserve">
+    <value>Power BI Gateway | Microsoft Power BI</value>
+  </data>
+  <data name="OneGateway_Content" xml:space="preserve">
+    <value>Realice una instalación e implemente varias conexiones a datos locales en Power BI, PowerApps, Microsoft Flow y Azure Logic Apps con la misma puerta de enlace.</value>
+  </data>
+  <data name="OneGateway_Heading" xml:space="preserve">
+    <value>Una puerta de enlace para todos los servicios en la nube</value>
+  </data>
+  <data name="PersonalUse_Content" xml:space="preserve">
+    <value>Actualice sus datos locales rápidamente sin necesidad de contar con un administrador de TI. Esta puerta de enlace se ha diseñado para usarse con conjuntos de datos personales y no dispone de funcionalidades de supervisión centrales.</value>
+  </data>
+  <data name="PersonalUse_Download_CTA" xml:space="preserve">
+    <value>Descargar</value>
+  </data>
+  <data name="PersonalUse_Heading" xml:space="preserve">
+    <value>Para el uso personal</value>
+  </data>
+  <data name="PersonalUse_Label" xml:space="preserve">
+    <value>Power BI Gateway - Personal</value>
+  </data>
+  <data name="PersonalUse_LearnMore_CTA" xml:space="preserve">
+    <value>Más información</value>
+  </data>
+  <data name="SecureAccess_Content" xml:space="preserve">
+    <value>La transferencia de datos entre Power BI y la puerta de enlace se protege mediante Azure Service Bus. Las credenciales que proporcionan los administradores de la puerta de enlace se cifran para ayudar a proteger la información en la nube y solo se descifran en la máquina de la puerta de enlace.</value>
+  </data>
+  <data name="SecureAccess_Heading" xml:space="preserve">
+    <value>Acceso seguro a los datos</value>
+  </data>
+  <data name="SSRS_Content" xml:space="preserve">
+    <value>Con Reporting Services 2016, los usuarios pueden anclar una visualización de un informe a un panel en Power BI.</value>
+  </data>
+  <data name="SSRS_Heading" xml:space="preserve">
+    <value>SQL Server Reporting Services 2016</value>
+  </data>
+  <data name="SSRS_LearnMore_CTA" xml:space="preserve">
+    <value>Más información</value>
+  </data>
+  <data name="Meta_LocJobId" xml:space="preserve">
+    <value>151</value>
+  </data>
+</root>

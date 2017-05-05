@@ -1,0 +1,258 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" id="root">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AnalysisServicesConnector_Content" xml:space="preserve">
+    <value>Analysis Services Connector を使うと、Power BI ダッシュボードとレポートで使用できるようにライブ クエリを Analysis Services 表形式サーバーに接続し、発行できます。</value>
+  </data>
+  <data name="AnalysisServicesConnector_Download_CTA" xml:space="preserve">
+    <value>ダウンロード</value>
+  </data>
+  <data name="AnalysisServicesConnector_Heading" xml:space="preserve">
+    <value>Analysis Services コネクタ</value>
+  </data>
+  <data name="AnalysisServicesConnector_LearnMore_CTA" xml:space="preserve">
+    <value>詳細情報</value>
+  </data>
+  <data name="Content_Headline" xml:space="preserve">
+    <value>ニーズに最適なゲートウェイを選ぶ</value>
+  </data>
+  <data name="DownloadGateway" xml:space="preserve">
+    <value>ゲートウェイのダウンロード</value>
+  </data>
+  <data name="EasySetup_Content" xml:space="preserve">
+    <value>最小限の操作でゲートウェイをダウンロードしてインストールできます。次に、組織のアカウントでサインインし、クラウド サービスで使用するゲートウェイを登録します。</value>
+  </data>
+  <data name="EasySetup_Heading" xml:space="preserve">
+    <value>簡単なセットアップ</value>
+  </data>
+  <data name="EnterpriseDeployments_Content" xml:space="preserve">
+    <value>このゲートウェイは、組織で多数のユーザーを処理するために使用されます。管理者が個々のデータ ソースへのアクセス制御をセットアップし、利用状況を監視できるようにします。</value>
+  </data>
+  <data name="EnterpriseDeployments_Download_CTA" xml:space="preserve">
+    <value>ダウンロード</value>
+  </data>
+  <data name="EnterpriseDeployments_Heading" xml:space="preserve">
+    <value>エンタープライズのデプロイ用</value>
+  </data>
+  <data name="EnterpriseDeployments_Label" xml:space="preserve">
+    <value>Power BI Gateway - エンタープライズ版</value>
+  </data>
+  <data name="EnterpriseDeployments_LearnMore_CTA" xml:space="preserve">
+    <value>詳細情報</value>
+  </data>
+  <data name="Features_ComingSoon" xml:space="preserve">
+    <value>近日公開予定</value>
+  </data>
+  <data name="Features_LearnMore" xml:space="preserve">
+    <value>詳細情報</value>
+  </data>
+  <data name="Features_MSProducts" xml:space="preserve">
+    <value>Power BI、PowerApps、Azure Logic Apps (プレビュー)、Microsoft Flow</value>
+  </data>
+  <data name="Features_OnPremisesColumn_Heading" xml:space="preserve">
+    <value>オンプレミス データ ゲートウェイ</value>
+  </data>
+  <data name="Features_PersonalColumn_Heading" xml:space="preserve">
+    <value>Personal Gateway</value>
+  </data>
+  <data name="Features_PowerBI" xml:space="preserve">
+    <value>Power BI</value>
+  </data>
+  <data name="Features_Row1" xml:space="preserve">
+    <value>データをインポートし、スケジュールされた更新をセットアップする</value>
+  </data>
+  <data name="Features_Row2" xml:space="preserve">
+    <value>コンピューターの管理者ではないユーザーのためにアプリとして実行する</value>
+  </data>
+  <data name="Features_Row3" xml:space="preserve">
+    <value>証明書を使って単一ユーザーとして実行する</value>
+  </data>
+  <data name="Features_Row4" xml:space="preserve">
+    <value>データ ソースごとのアクセス制御で複数のユーザーを処理する</value>
+  </data>
+  <data name="Features_Row5" xml:space="preserve">
+    <value>SQL Server に対する DirectQuery のサポート</value>
+  </data>
+  <data name="Features_Row6" xml:space="preserve">
+    <value>Analysis Services に対するライブ接続のサポート</value>
+  </data>
+  <data name="Features_Row7" xml:space="preserve">
+    <value>ゲートウェイとデータ ソースの監視と監査</value>
+  </data>
+  <data name="Features_CloudServices" xml:space="preserve">
+    <value>機能するクラウド サービス</value>
+  </data>
+  <data name="Hero_Content" xml:space="preserve">
+    <value>オンプレミス ゲートウェイでは、オンプレミスのデータ ソースに接続することでデータを最新の状態に保つことができ、データを移動する必要はありません。大規模なデータセットを照会して、既存の投資を利用します。ゲートウェイは、個人のニーズと組織のニーズを満たすのに必要な柔軟性を提供します。</value>
+  </data>
+  <data name="Hero_Heading" xml:space="preserve">
+    <value>オンプレミス データ ソースを使用してダッシュボードやレポートを最新の状態に保つ</value>
+  </data>
+  <data name="Hero_LearnMore" xml:space="preserve">
+    <value>詳細情報</value>
+  </data>
+  <data name="META_DESCRIPTION" xml:space="preserve">
+    <value />
+  </data>
+  <data name="META_KEYWORDS" xml:space="preserve">
+    <value />
+  </data>
+  <data name="META_PAGETITLE" xml:space="preserve">
+    <value>Power BI Gateway | Microsoft Power BI</value>
+  </data>
+  <data name="OneGateway_Content" xml:space="preserve">
+    <value>一度インストールすると、同一のゲートウェイを使用して、Power BI、PowerApps、Microsoft Flow、および Azure Logic Apps で複数のオンプレミス データ接続を展開できます。</value>
+  </data>
+  <data name="OneGateway_Heading" xml:space="preserve">
+    <value>すべてのクラウド サービスで 1 つのゲートウェイ</value>
+  </data>
+  <data name="PersonalUse_Content" xml:space="preserve">
+    <value>IT 管理者を待つことなく、オンプレミスのデータをすばやく更新します。個人のデータ セット向けに設計されているため、このゲートウェイのための集中監視機能はありません。</value>
+  </data>
+  <data name="PersonalUse_Download_CTA" xml:space="preserve">
+    <value>ダウンロード</value>
+  </data>
+  <data name="PersonalUse_Heading" xml:space="preserve">
+    <value>個人用</value>
+  </data>
+  <data name="PersonalUse_Label" xml:space="preserve">
+    <value>Power BI Gateway - Personal</value>
+  </data>
+  <data name="PersonalUse_LearnMore_CTA" xml:space="preserve">
+    <value>詳細情報</value>
+  </data>
+  <data name="SecureAccess_Content" xml:space="preserve">
+    <value>Power BI とゲートウェイ間のデータ転送は、Azure Service Bus を介してセキュリティで保護されます。ゲートウェイ管理者から提供される資格情報は、クラウドの情報を保護するために暗号化され、ゲートウェイ コンピューターでのみ暗号化解除されます。</value>
+  </data>
+  <data name="SecureAccess_Heading" xml:space="preserve">
+    <value>データへの保護されたアクセス</value>
+  </data>
+  <data name="SSRS_Content" xml:space="preserve">
+    <value>Reporting Services 2016 を使うと、ユーザーは Power BI でレポートからダッシュボードに視覚エフェクトをピン留めできます。</value>
+  </data>
+  <data name="SSRS_Heading" xml:space="preserve">
+    <value>SQL Server Reporting Services 2016</value>
+  </data>
+  <data name="SSRS_LearnMore_CTA" xml:space="preserve">
+    <value>詳細情報</value>
+  </data>
+  <data name="Meta_LocJobId" xml:space="preserve">
+    <value>151</value>
+  </data>
+</root>

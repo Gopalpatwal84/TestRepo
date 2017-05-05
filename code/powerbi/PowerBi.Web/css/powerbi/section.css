@@ -1,0 +1,116 @@
+﻿.section [itemprop="articlebody"] a,
+.section [itemprop="articlebody"] a:hover,
+.section p a,
+.section p a:hover {
+  color: #967100;
+}
+.section .text-mini > a,
+.section .text-mini > a:hover,
+.section .text-micro > a,
+.section .text-micro > a:hover {
+  color: inherit;
+  text-decoration: underline;
+}
+.section .cta-secondary:hover {
+  color: #333333;
+}
+.section-palette02 p a,
+.section-slate01 p a,
+.section-slate06 p a,
+.section-palette02 p a:hover,
+.section-slate01 p a:hover,
+.section-slate06 p a:hover {
+  color: inherit;
+  text-decoration: underline;
+}
+.section-palette02 .cta-secondary,
+.section-slate01 .cta-secondary,
+.section-slate06 .cta-secondary {
+  color: inherit;
+}
+.section-palette02 .cta-secondary:hover,
+.section-slate01 .cta-secondary:hover,
+.section-slate06 .cta-secondary:hover {
+  color: #333333;
+}
+.section-slate01 .cta-secondary:hover {
+  color: #EAEAEA;
+}
+.section-heading-only {
+  padding-top: 0;
+}
+.section-app-devices {
+  background: #f2c811;
+  background-image: url(/pictures/pages/pbi-pattern-mobile.png), linear-gradient(to top, #ffd20d, #f2c811);
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  padding: 100px 0 0;
+  position: relative;
+}
+.section-app-devices .row-devices img {
+  display: block;
+}
+.section-learning {
+  border-top: 0;
+  background-image: url(/pictures/shared/section/learning-hero.png);
+  background-position: 30% 50%;
+}
+.section-featured-post {
+  background-image: url(/pictures/shared/section/featured-post.png);
+  border-top: none;
+}
+.section-developer {
+  background-image: url(/pictures/shared/section/developer.jpg);
+}
+.section-developers {
+  background-image: url(/pictures/shared/section/developers.jpg);
+}
+.section-conference-room {
+  background-image: url(/pictures/shared/section/conference-room.png);
+  border-top: none;
+}
+.section-showcase {
+  background-image: url(/pictures/shared/section/showcase.jpg);
+}
+.section-whiteboard {
+  background-image: url(/pictures/shared/section/whiteboard.jpg);
+}
+.section-roundtable {
+  background-image: url(/pictures/shared/section/roundtable.png);
+}
+.section-mobile-devices {
+  background-image: url(/pictures/shared/section/mobile-devices.jpg);
+  background-size: cover;
+  padding-bottom: 16.6%;
+}
+.section-showcase-solution-templates {
+  background-image: url(/pictures/shared/section/showcase-solution-templates.jpg);
+}
+.section-enterprise-ready {
+  background-image: url(/pictures/shared/section/enterprise-ready.png);
+}
+.section-germany-at-twilight {
+  background-image: url(/pictures/shared/section/germany-at-twilight.png);
+  min-height: 268px;
+}
+.section-laptop-dashboard {
+  background-image: url(/pictures/shared/section/laptop-dashboard.jpg);
+}
+.section-media-publishtoweb {
+  background-image: url(/pictures/shared/section/publishtoweb/media-publishtoweb-hero.jpg);
+}
+.section-businesses-publishtoweb {
+  background-image: url(/pictures/shared/section/publishtoweb/businesses-publishtoweb-hero.jpg);
+}
+.section-public-sector-publishtoweb {
+  background-image: url(/pictures/shared/section/publishtoweb/public-sector-publishtoweb-hero.jpg);
+}
+.section-nonprofits-publishtoweb {
+  background-image: url(/pictures/shared/section/publishtoweb/non-profit-publishtoweb-hero.jpg);
+}
+@media only screen and (min-width: 960px) {
+  .section-app-devices {
+    background-image: url(/pictures/pages/pbi-pattern.png), linear-gradient(to top, #ffd20d, #f2c811);
+    background-size: cover;
+  }
+}

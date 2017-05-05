@@ -1,0 +1,27 @@
+﻿@import (reference) '../../less/mixins.d.less';
+@import (reference) '../../less/variables.d.less';
+
+.integration {
+    color: @color-slate01 !important;
+    display: block;
+    height: 150px;
+    margin: 0 auto 20px;
+
+    &:hover {
+        text-decoration: none;
+
+        img {
+            opacity: .7;
+        }
+    }
+
+    img {
+        display: block;
+        margin: 0 auto;
+    }
+}
+
+.integration-all + .integration-all,
+.integration-featured + .integration-featured {
+    margin-top: 0;
+}		  

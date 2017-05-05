@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<appSettings>
+  <add key="Acom.Selenium.Tests.TestConfiguration.RootBranchName" value="powerbi" />
+  <add key="Acom.Selenium.Tests.TestConfiguration.EnvironmentUrl" value="http://powerbi-staging.microsoft.com" />
+
+  <add key="Acom.Selenium.Tests.TestConfiguration.BrowserStackUser" value="jamescon1" />
+  <add key="Acom.Selenium.Tests.TestConfiguration.BrowserStackKey" value="#{keyvault:powerbi:browser-stack-user-password}" />
+  <add key="Acom.Selenium.Tests.TestConfiguration.SeleniumServerHubUrl" value="http://hub.browserstack.com/wd/hub/" />
+
+  <add key="Acom.Selenium.Tests.TestConfiguration.Project" value="ACOM" />
+  <add key="Acom.Selenium.Tests.TestConfiguration.DefaultBatchName" value="PowerBI Deployment Tests" />
+
+  <add key="Acom.Selenium.Tests.TestConfiguration.AppliToolsKey" value="#{keyvault:powerbi:applitools-key}" />
+  <add key="Acom.Selenium.Tests.TestConfiguration.EnableAppliTools" value="True" />
+
+  <!-- Browser = "Local" for local Chrome Driver -->
+  <!--<add key="Acom.Selenium.Tests.TestConfiguration.Browser" value="Local"/>-->
+
+  <!-- Browser = "PhantomJS" for embedded headless PhantomJS Driver -->
+  <!--<add key="Acom.Selenium.Tests.TestConfiguration.Browser" value="PhantomJS" />-->
+
+  <!-- Browserstack Browsers -->
+  <!--<add key="Acom.Selenium.Tests.TestConfiguration.Browser" value="Firefox" />-->
+
+  <add key="Acom.Selenium.Tests.TestConfiguration.Browser" value="PhantomJS" />
+  <add key="Acom.Selenium.Tests.TestConfiguration.Os" value="Windows" />
+
+  <add key="Acom.Selenium.Tests.TestConfiguration.ScreenX" value="1280" />
+  <add key="Acom.Selenium.Tests.TestConfiguration.ScreenY" value="1024" />
+
+</appSettings>

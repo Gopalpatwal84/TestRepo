@@ -1,0 +1,222 @@
+﻿@model PowerBI.Web.Models.Pages.MobileIndexViewModel
+@using Resources = PowerBI.Resources.Pages.Mobile.Index
+@using Forms = PowerBI.Resources.Shared.Forms.Form
+@using AndroidApp = PowerBI.Resources.Shared.AndroidApp
+
+@{
+    Model.PageTitle = Resources.META_PAGETITLE;
+    Model.MetaDescription = Resources.META_DESCRIPTION;
+    Model.MetaKeywords = Resources.META_KEYWORDS;
+    
+    var isCloudChina = this.Context.Request.QueryString["cloud"]?.Equals(KnownClouds.China);
+}
+
+<section class="section section-size3 section-palette02">
+    <div class="row">
+        <div class="column large-5">
+            <h1>@Resources.Hero_Heading</h1>
+        </div>
+        <div class="column large-6 large-offset-1">
+            <div class="row">
+                <div class="column">
+                    <p>@Html.Raw(Resources.Hero_Content)</p>
+                </div>
+            </div>
+            <div class="row row-size2">
+                <div class="column">
+                    <ul class="linkList linkList-horizontal">
+                        <li>
+                            <a class="button-store" href="@Html.LocalizeUrl("go:526478")">
+                                <span class="icon">
+                                    <img src="@CdnHelper.GetCdnUrl("/pictures/shared/icons/windows-store.png")" alt="" />
+                                </span>
+                                <span class="top">@Resources.DownloadFrom</span>
+                                <span class="bottom">@Resources.WindowsStore</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a class="button-store" href="@Html.LocalizeUrl("go:526218")">
+                                <span class="icon">
+                                    <img src="@CdnHelper.GetCdnUrl("/pictures/shared/icons/apple-store.png")" alt="" />
+                                </span>
+                                <span class="top">@Resources.DownloadFrom</span>
+                                <span class="bottom">@Resources.AppStore</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a class="button-store" href="@Html.LocalizeUrl("go:544867")">
+                                <span class="icon">
+                                    <img src="@CdnHelper.GetCdnUrl("/pictures/shared/icons/google-store.png")" alt="" />
+                                </span>
+                                <span class="top">@Resources.DownloadFrom</span>
+                                <span class="bottom">@Resources.GooglePlay</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row row-size2 column">
+                <a href="#more-store-options" class="arrowLink">@Resources.Hero_MoreStoreOptions_Cta</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="section section-slate01 section-size2">
+    <div class="row">
+        <div class="column large-6">
+            <h2 class="text-heading3">@Resources.GetLink_Heading</h2>
+        </div>
+        <div class="column large-6">
+            @Html.CreateForm("Mobile", new Acom.Forms.Models.FormOptions
+       {
+           Class = "form-email-only",
+           Slug = "mobile-signup",
+           SubmitText = Resources.Form_Cta
+       })
+            <p class="text-mini">@Html.RawFormatInvariant(Forms.Terms_UseItFree, Html.LocalizeUrl("/terms-of-service/"))</p>
+        </div>
+    </div>
+</section>
+
+<section class="section section-slate02 section-mobile-devices"></section>
+
+<section class="section section-size6">
+    <div class="row">
+        <div class="column medium-4">
+            <div class="row">
+                <div class="column">
+                    <span class="icon icon-size3 icon-palette02">@SvgHelper.GetSvg("extend")</span>
+                </div>
+            </div>
+            <div class="row row-size3 sd-equalize">
+                <div class="column">
+                    <h3>@Resources.Visualize_Heading</h3>
+                    <p>@Resources.Visualize_Content</p>
+                </div>
+            </div>
+        </div>
+        <div class="column medium-4">
+            <div class="row">
+                <div class="column">
+                    <span class="icon icon-size3 icon-palette02">@SvgHelper.GetSvg("bell")</span>
+                </div>
+            </div>
+            <div class="row row-size3 sd-equalize">
+                <div class="column">
+                    <h3>@Resources.AlwaysKnow_Heading</h3>
+                    <p>@Resources.AlwaysKnow_Content</p>
+                </div>
+            </div>
+        </div>
+        <div class="column medium-4">
+            <div class="row">
+                <div class="column">
+                    <span class="icon icon-size3 icon-palette02">@SvgHelper.GetSvg("connect")</span>
+                </div>
+            </div>
+            <div class="row row-size3 sd-equalize">
+                <div class="column">
+                    <h3>@Resources.ShareDiscovers_Heading</h3>
+                    <p>@Resources.ShareDiscovers_Content</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="section section-slate01 section-size2">
+    <div class="row">
+        <div class="column large-5">
+            <h2 class="text-palette13 text-heading1">@Resources.DataOnGo</h2>
+            <p>@Resources.DemandWebinar</p>
+        </div>
+        <div class="column large-7">
+            <p>@Resources.DataOnGo_Content</p>
+            <a class="button button-featured" href="https://info.microsoft.com/CO-PowerBI-WBNR-FY16-08Oct15-PowerBIMobile-Register.html">@Resources.Register</a>
+        </div>
+    </div>
+</section>
+
+<section class="section section-size3 section-palette02" style="overflow: visible;">
+    <div class="row">
+        <div class="column large-5">
+            <h2 id="more-store-options">@Resources.MoreStoreOptions_Heading</h2>
+        </div>
+        <div class="column large-6 large-offset-1">
+            <div class="row row-size0 column">
+                <h3>@Resources.RegionCountry</h3>
+            </div>
+            <div class="row row-size2 column">
+                <select id="region-combo">
+                    <option value="global">@Resources.Region_Global</option>
+                    <option value="china" @( Model.IsChinaCloud ? "selected" : string.Empty )>@Resources.Region_China</option>
+                </select>
+            </div>
+            <div class="row row-size2 column">
+                <ul class="linkList linkList-horizontal">
+                    <li data-region="china" style="display:none">
+                        <a href="" class="toggler toggler-selector toggler-selector-slate01" data-set="android-apps">@Resources.Android</a>
+                        <ul class="toggled toggled-selector toggled-selector-slate01" data-set="android-apps">
+                            @foreach (var app in Model.AndroidApps)
+                            {
+                                <li>
+                                    <a href="@Html.LocalizeUrl(app.DownloadUrl)">
+                                        <span class="icon icon-size3">
+                                            @SvgHelper.GetSvg(app.SvgIconSlug)
+                                        </span>
+                                        @AndroidApp.ResourceManager.GetString(app.LocKey)
+                                    </a>
+                                </li>
+                            }
+                        </ul>
+                    </li>
+                    <li>
+                        <a class="button-store" href="@Html.LocalizeUrl("go:526478")">
+                            <span class="icon">
+                                <img src="@CdnHelper.GetCdnUrl("/pictures/shared/icons/windows-store.png")" alt="" />
+                            </span>
+                            <span class="top">@Resources.DownloadFrom</span>
+                            <span class="bottom">@Resources.WindowsStore</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="button-store" href="@Html.LocalizeUrl("go:526218")">
+                            <span class="icon">
+                                <img src="@CdnHelper.GetCdnUrl("/pictures/shared/icons/apple-store.png")" alt="" />
+                            </span>
+                            <span class="top">@Resources.DownloadFrom</span>
+                            <span class="bottom">@Resources.AppStore</span>
+                        </a>
+                    </li>
+                    <li data-region="global" style="display:none">
+                        <a class="button-store" href="@Html.LocalizeUrl("go:544867")">
+                            <span class="icon">
+                                <img src="@CdnHelper.GetCdnUrl("/pictures/shared/icons/google-store.png")" alt="" />
+                            </span>
+                            <span class="top">@Resources.DownloadFrom</span>
+                            <span class="bottom">@Resources.GooglePlay</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+
+@section foot {
+<script>
+    (function () {
+        @if (isCloudChina ?? false) {
+            @:window.location.href = '#more-store-options';
+        }
+
+        $('[data-region=' + $('#region-combo').val() + ']').show();
+        
+        $('body').on('change', '#region-combo', function (){
+            $('[data-region]').hide();
+            $('[data-region=' + $(this).val() + ']').show();
+        });
+    })();
+</script>
+}

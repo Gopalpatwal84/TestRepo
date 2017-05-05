@@ -1,0 +1,714 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" id="root">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="About_Content" xml:space="preserve">
+    <value>&lt;p&gt;本课程将引导你完成学习有关使用 Microsoft Power BI 展示以下内容的基础知识：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;学习如何将数据加载进可视化工具中、编辑和添加额外计算以创建著名的“曲棍球棒”图。&lt;/li&gt;
+&lt;li&gt;获取有关使用选举地图创建和发布数据可视化效果的概述，本地电视台 KING 5 利用该地图来播报总统初选的信息。&lt;/li&gt;
+&lt;/ul&gt;
+</value>
+  </data>
+  <data name="ArticleContinue_Content2_3" xml:space="preserve">
+    <value>&lt;h2 id="create-pub"&gt;创建和发布数据可视化效果&lt;/h2&gt;
+&lt;p&gt;若要按照本教程中展示的示例执行操作，需要以下先决条件：&lt;/p&gt;&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;运行 Windows 7 或更高版本的计算机&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;下载并安装 &lt;a href="{0}"&gt;Power BI Desktop&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;注册 Power BI 帐户 (&lt;a href="{1}"&gt;{2}&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;a.注意，需使用工作邮箱帐户进行注册；不支持个人帐户（gmail、Hotmail、outlook.com、yahoo.com）&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;</value>
+  </data>
+  <data name="ArticleThird_Continue_7" xml:space="preserve">
+    <value>&lt;p&gt;要创建的度量值：&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Clinton 得票数 = CALCULATE(sum(VotingData[得票数]), VotingData[候选人] = "Clinton")&lt;/p&gt;
+
+&lt;p&gt;Sanders 得票数 = CALCULATE(sum(VotingData[得票数]), VotingData[候选人] = "Sanders")&lt;/p&gt;
+
+&lt;p&gt;胜者方向 = if([clinton 得票数] &gt; [sanders 得票数], -1, if(VotingData[clinton 得票数] = [sanders 得票数], 0, 1))&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;注意：前两个度量值筛选 Clinton 和 Sanders 的值，可帮助生成胜者方向度量值，通过该值可知晓给定县内，Clinton 和 Sanders 哪个得票更多。在生成该地图时会看到这是如何发挥作用的。&lt;/p&gt;
+
+&lt;p&gt;完成此步骤后，字段列表将如下所示。所创建的度量值已添加到可供用于数据可视化效果的字段中。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src="{0}" alt="" title="" /&gt;&lt;/p&gt;
+
+&lt;h3&gt;第 3 步：在地图上显示结果&lt;/h3&gt;
+
+&lt;p&gt;现在，已准备好制作形状地图&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;在报表中插入一个“ShapeMap”&lt;strong&gt;&lt;/strong&gt;视觉对象。&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;img src="{1}" alt="" title="" /&gt;&lt;/p&gt;
+
+&lt;p&gt;注意：在写入时，ShapeMap 视觉对象处于预览状态。如果没有看到 ShapeMap，则需要将其作为“预览功能”&lt;strong&gt;&lt;/strong&gt;启用。&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;“文件”-&gt;“选项和设置”-&gt;“选项”&lt;/strong&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;“全局”-&gt;“预览功能”&lt;/strong&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;选中“形状地图视觉对象”&lt;strong&gt;&lt;/strong&gt;旁边的框&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;按“确定”&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;在插入“ShapeMap”&lt;strong&gt;&lt;/strong&gt;后，它将是空白的。执行下面的步骤：&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;单击“地图”&lt;strong&gt;&lt;/strong&gt;以选中。&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;在“字段列表”&lt;strong&gt;&lt;/strong&gt;中，选中以下字段旁边的框：&lt;/p&gt;
+
+&lt;p&gt;a.&lt;strong&gt;“县名”&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;b.“*胜者方向*”&lt;em&gt;&lt;/em&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;视觉对象的数据字段将如下所示：&lt;/p&gt;
+
+&lt;p&gt;&lt;img src="{2}" alt="" title="" /&gt;&lt;/p&gt;
+
+&lt;p&gt;页面将大致如下所示：&lt;/p&gt;
+
+&lt;p&gt;注意，将默认显示美国地图。在接下来的步骤中，将更改地图形状。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src="{3}" alt="" title="" /&gt;&lt;/p&gt;
+
+&lt;p&gt;可配合使用“ShapeMap”&lt;strong&gt;&lt;/strong&gt;视觉对象和任何“TopoJSON 文件”&lt;strong&gt;&lt;/strong&gt;。TopoJSON 形状的 ID 必须与数据集中的名称相匹配。&lt;/p&gt;
+
+&lt;p&gt;现在更改形状以与县名匹配。&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;选中“ShapeMap”&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;切换到“格式窗格”&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;展开“形状”&lt;strong&gt;&lt;/strong&gt;选项&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;UI 现在应如下所示：&lt;/p&gt;
+
+&lt;p&gt;&lt;img src="{4}" alt="" title="" /&gt;&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;按“+添加地图”&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;在打开的“文件”&lt;strong&gt;&lt;/strong&gt;对话框中，选择文件“gz_2010_us_050_00_500k-wash-counties-only.json”&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;现在，UI 会如下所示：&lt;/p&gt;
+
+&lt;p&gt;&lt;img src="{5}" alt="" title="" /&gt;&lt;/p&gt;
+
+&lt;p&gt;下一步，将更改颜色以匹配美国民主党的主题。&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;在“格式”&lt;strong&gt;&lt;/strong&gt;窗格上，展开“数据颜色”&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;将“散射”&lt;strong&gt;&lt;/strong&gt;切换到“开启”&lt;strong&gt;&lt;/strong&gt;位置&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;可从提供的 UI 选项中选择颜色，或可选择“自定义颜色”&lt;strong&gt;&lt;/strong&gt;以指定颜色。下面的示例使用以下颜色：&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;最小 - 0007FF&lt;/p&gt;
+
+&lt;p&gt;居中 - B3B3B3&lt;/p&gt;
+
+&lt;p&gt;最大 - 0055FF&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;ol&gt;
+&lt;li&gt;将“最小”&lt;strong&gt;&lt;/strong&gt;、“居中”&lt;strong&gt;&lt;/strong&gt;和“最大”&lt;strong&gt;&lt;/strong&gt;分别设置为“-1”、“0”和“1”&lt;strong&gt;&lt;/strong&gt;。正是通过这种方式定义刻度。&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;img src="{6}" alt="" title="" /&gt;&lt;/p&gt;</value>
+  </data>
+  <data name="Article_Content_Step2_2" xml:space="preserve">
+    <value>&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;导航到“温度数据”&lt;strong&gt;&lt;/strong&gt;表中。在“开始”&lt;strong&gt;&lt;/strong&gt;功能区中，选择“合并查询”&lt;strong&gt;&lt;/strong&gt;。选择“误差线”&lt;strong&gt;&lt;/strong&gt;作为要匹配的表，选择“年份”&lt;strong&gt;&lt;/strong&gt;作为要匹配的列。这一次，只具有错误表中位于重构温度年份范围内的数据，因此可使用“联接类型：左外部”&lt;strong&gt;&lt;/strong&gt;。&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;仅展开“sigma”&lt;strong&gt;&lt;/strong&gt;列&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;若要添加正差异列，可使用“添加列”&lt;strong&gt;&lt;/strong&gt;功能区中的“添加自定义列”&lt;strong&gt;&lt;/strong&gt;。&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;将列命名为“正差异”&lt;strong&gt;&lt;/strong&gt;，并通过使用公式“[重新构造的温度变化] + [Sigma]”&lt;strong&gt;&lt;/strong&gt;将 Sigma 添加到重新构造的温度中。可键入或双击右侧的列名。&lt;/p&gt;&lt;p&gt;&lt;img src="{0}" alt="" title="" /&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;重复此步骤以创建“负差异 = [重新构造的温度变化] - [Sigma]”&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;将新列的数据类型更改为十进制数。&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;已将所有信息加载到“温度变化”&lt;strong&gt;&lt;/strong&gt;表中，无需再将另外两个表加载到报表中。若要禁止加载另外两个表，右键单击“仪器数据”&lt;strong&gt;&lt;/strong&gt;并取消选择“启用加载”&lt;strong&gt;&lt;/strong&gt;，然后对“误差线”&lt;strong&gt;&lt;/strong&gt;执行相同的操作。禁用的表将显示为斜体和灰色。&lt;/p&gt;
+&lt;p&gt;&lt;img src="{1}" alt="" title="" /&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;现在选择“开始”&lt;strong&gt;&lt;/strong&gt;功能区中的“关闭并应用”&lt;strong&gt;&lt;/strong&gt;。&lt;/li&gt;
+&lt;/ol&gt;</value>
+  </data>
+  <data name="Article_Content_Step2_3" xml:space="preserve">
+    <value>&lt;h3&gt;第 2 步：创建视觉对象&lt;/h3&gt;
+
+&lt;p&gt;在加载完数据及已经完成编辑和合并数据的大部分工作之后，创建折线图只需几次单击就可完成。&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;在报表部分创建新的折线图&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;拖动“轴”&lt;strong&gt;&lt;/strong&gt;字段上的“年份”&lt;strong&gt;&lt;/strong&gt;，并确保日期在下拉菜单中显示为“年份”&lt;/p&gt;
+&lt;p&gt;&lt;img src="{0}" alt="" title="" /&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;拖动“值”上的“重新构造的温度变化”&lt;strong&gt;&lt;/strong&gt;、“仪器温度变化”&lt;strong&gt;&lt;/strong&gt;、“正差异”&lt;strong&gt;&lt;/strong&gt;和“负差异”&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;如果想要温度变化从差异中突出显示，则在“格式”&lt;strong&gt;&lt;/strong&gt;窗格中更改线的颜色。&lt;/p&gt;&lt;p&gt;&lt;img src="{1}" alt="" title="" /&gt;&lt;/p&gt;
+&lt;/li&gt;&lt;/ol&gt;
+&lt;h3&gt;第 3 步：走向线&lt;/h3&gt;
+
+&lt;p&gt;重新创建有名的“曲棍球棒”图的最后一步是添加温度变化的走向线。可以通过使用几个 DAX 度量值完成此操作。&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;因为某些年份同时具有仪器温度和重新构造的温度，首先需创建一个列，在存在两个值时，该列仅取二者的平均值。使用下面的公式创建“新列”&lt;strong&gt;&lt;/strong&gt;：&lt;/li&gt;
+  &lt;p&gt;&lt;em&gt;= IF(ISBLANK([仪器温度变化]),[重新构造的温度变化],IF(ISBLANK([重新构造的温度变化]),[仪器温度变化],([仪器温度变化]+[重新构造的温度变化])/2))&lt;/em&gt;&lt;/p&gt;
+&lt;li&gt;现在，在该列上面创建“新度量值”&lt;strong&gt;&lt;/strong&gt;：&lt;/li&gt;
+  &lt;p&gt;&lt;em&gt;温度变化 = SUM(Data[平均温度])&lt;/em&gt;&lt;/p&gt;
+&lt;li&gt;现在，计算温度变化的移动平均值。可对时间间隔进行试验；在此示例中，它设置为 40 年：&lt;/li&gt;&lt;p&gt;&lt;em&gt;= AVERAGEX(DATESINPERIOD(Data[年份],LASTDATE(Data[年份]),-40,YEAR),[温度变化])&lt;/em&gt;&lt;/p&gt;
+&lt;li&gt;将走向线添加到视觉对象中，就全部完成了！&lt;/li&gt;
+&lt;p&gt;&lt;img src="{2}" alt="" title="" /&gt;&lt;/p&gt;&lt;/ol&gt;</value>
+  </data>
+  <data name="Article_Content_Step3_10" xml:space="preserve">
+    <value>&lt;h2&gt;第 1 部分：创建数据经历并将其发布到网页中&lt;/h2&gt;
+
+&lt;p&gt;将需要以下文件：&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;VotingData.xlsx&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;gz_2010_us_050_00_500k-wash-counties-only.json&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Embed in web page.htm&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3&gt;第 1 步：从 Excel 文件加载数据&lt;/h3&gt;
+
+&lt;p&gt;请参阅文档获取更多帮助/说明（如果需要）：&lt;/p&gt;
+
+&lt;p&gt;&lt;a href="{0}"&gt;{0}&lt;/a&gt;&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;打开“Power BI Desktop”&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;在“开始”功能区中，按“获取数据”&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;选择“Excel”&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="{1}" alt="" title="" /&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;在对话框中，选择文件“VotingData.xlsx”&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;在“浏览器”&lt;strong&gt;&lt;/strong&gt;对话框中，选中“VotingData”&lt;strong&gt;&lt;/strong&gt;旁边的框&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;按“加载”&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;img src="{2}" alt="" title="" /&gt;&lt;/p&gt;
+
+&lt;h3&gt;第 2 步：创建计算结果&lt;/h3&gt;
+
+&lt;p&gt;通常在创建数据可视化效果时，需要用计算值增强原始数据以实现所需的可视化效果。在本部分中，将创建一些计算。&lt;/p&gt;
+
+&lt;p&gt;注意：本部分介绍一个新概念 – DAX 表达式。DAX 是一种可用于计算报表中数据的表达式语言。可参阅后列内容获取详细信息：&lt;a href="{3}"&gt;Power BI Desktop 中的 DAX 基础信息&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;使用定义的步骤创建以下度量值：&lt;a href="{4}"&gt;教程：在 Power BI Desktop 中创建自己的度量值&lt;/a&gt;&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;在“建模”&lt;strong&gt;&lt;/strong&gt;功能区中，按“新建度量值”&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;会显示一个编辑栏。&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;在下面的“要创建的度量值”&lt;strong&gt;&lt;/strong&gt;部分的编辑栏中键入表达式，然后“按复选标记”&lt;strong&gt;&lt;/strong&gt;以确保其生效。&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;为下面标识的三个度量值重复以上过程。&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;img src="{5}" alt="" title="" /&gt;&lt;/p&gt;
+
+&lt;p&gt;要创建的度量值：&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Clinton 得票数 = CALCULATE(sum(VotingData[得票数]), VotingData[候选人] = "Clinton")&lt;/p&gt;
+
+&lt;p&gt;Sanders 得票数 = CALCULATE(sum(VotingData[得票数]), VotingData[候选人] = "Sanders")&lt;/p&gt;
+
+&lt;p&gt;胜者方向 = if([clinton 得票数] &gt; [sanders 得票数], -1, if(VotingData[clinton 得票数] = [sanders 得票数], 0, 1))&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;注意：前两个度量值筛选 Clinton 和 Sanders 的值，可帮助生成胜者方向度量值，通过该值可知晓给定县内，Clinton 和 Sanders 哪个得票更多。在生成该地图时会看到这是如何发挥作用的。&lt;/p&gt;
+
+&lt;p&gt;完成此步骤后，字段列表将如下所示。所创建的度量值已添加到可供用于数据可视化效果的字段中。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src="{6}" alt="" title="" /&gt;&lt;/p&gt;
+
+&lt;h3&gt;第 3 步：在地图上显示结果&lt;/h3&gt;
+
+&lt;p&gt;现在，已准备好制作形状地图&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;在报表中插入一个“ShapeMap”&lt;strong&gt;&lt;/strong&gt;视觉对象。&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;img src="{7}" alt="" title="" /&gt;&lt;/p&gt;
+
+&lt;p&gt;注意：在写入时，ShapeMap 视觉对象处于预览状态。如果没有看到 ShapeMap，则需要将其作为“预览功能”&lt;strong&gt;&lt;/strong&gt;启用。&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;“文件”-&gt;“选项和设置”-&gt;“选项”&lt;/strong&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;“全局”-&gt;“预览功能”&lt;/strong&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;选中“形状地图视觉对象”&lt;strong&gt;&lt;/strong&gt;旁边的框&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;按“确定”&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;在插入“ShapeMap”&lt;strong&gt;&lt;/strong&gt;后，它将是空白的。执行下面的步骤：&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;单击“地图”&lt;strong&gt;&lt;/strong&gt;以选中。&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;在“字段列表”&lt;strong&gt;&lt;/strong&gt;中，选中以下字段旁边的框：&lt;/p&gt;
+
+&lt;p&gt;a.&lt;strong&gt;“县名”&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;b.“*胜者方向*”&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;视觉对象的数据字段将如下所示：&lt;/p&gt;
+
+&lt;p&gt;&lt;img src="{8}" alt="" title="" /&gt;&lt;/p&gt;
+
+&lt;p&gt;页面将大致如下所示：&lt;/p&gt;
+
+&lt;p&gt;注意，将默认显示美国地图。在接下来的步骤中，将更改地图形状。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src="{9}" alt="" title="" /&gt;&lt;/p&gt;
+
+&lt;p&gt;可配合使用“ShapeMap”&lt;strong&gt;&lt;/strong&gt;视觉对象和任何“TopoJSON 文件”&lt;strong&gt;&lt;/strong&gt;。TopoJSON 形状的 ID 必须与数据集中的名称相匹配。&lt;/p&gt;
+
+&lt;p&gt;现在更改形状以与县名匹配。&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;选中“ShapeMap”&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;切换到“格式窗格”&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;展开“形状”&lt;strong&gt;&lt;/strong&gt;选项&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;</value>
+  </data>
+  <data name="Article_Content_Step4_7" xml:space="preserve">
+    <value>&lt;p&gt;UI 现在应如下所示：&lt;/p&gt;
+
+&lt;p&gt;&lt;img src="{0}" alt="" title="" /&gt;&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;按“+添加地图”&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;在打开的“文件”&lt;strong&gt;&lt;/strong&gt;对话框中，选择文件“gz_2010_us_050_00_500k-wash-counties-only.json”&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;现在，UI 会如下所示：&lt;/p&gt;
+
+&lt;p&gt;&lt;img src="{1}" alt="" title="" /&gt;&lt;/p&gt;
+
+&lt;p&gt;下一步，将更改颜色以匹配美国民主党的主题。&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;在“格式”&lt;strong&gt;&lt;/strong&gt;窗格上，展开“数据颜色”&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;将“散射”&lt;strong&gt;&lt;/strong&gt;切换到“开启”&lt;strong&gt;&lt;/strong&gt;位置&lt;/p&gt;
+
+&lt;p&gt;可从提供的 UI 选项中选择颜色，或可选择“自定义颜色”&lt;strong&gt;&lt;/strong&gt;以指定颜色。下面的示例使用以下颜色：&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;最小 - 0007FF&lt;/p&gt;
+
+&lt;p&gt;居中 - B3B3B3&lt;/p&gt;
+
+&lt;p&gt;最大 - 0055FF&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;/li&gt;
+
+&lt;li&gt;将“最小”&lt;strong&gt;&lt;/strong&gt;、“居中”&lt;strong&gt;&lt;/strong&gt;和“最大”&lt;strong&gt;&lt;/strong&gt;分别设置为“-1”、“0”和“1”&lt;strong&gt;&lt;/strong&gt;。正是通过这种方式定义刻度。&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;img src="{2}" alt="" title="" /&gt;&lt;/p&gt;
+
+&lt;p&gt;现在将通过更改某些地图默认值来提高可读性。当颜色以渐变刻度呈现时，想看见分色会比较困难，所以可通过增加边框的可见性来使县的形状更易于辨识。&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;展开“默认颜色”&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;设置“颜色”&lt;strong&gt;&lt;/strong&gt;时选择“白色”&lt;strong&gt;&lt;em&gt;&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;设置“边框颜色”&lt;strong&gt;&lt;/strong&gt;时选择“白色”&lt;strong&gt;&lt;em&gt;&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;将“边框粗细”&lt;strong&gt;&lt;/strong&gt;设置为“4”&lt;strong&gt;&lt;em&gt;&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;img src="{3}" alt="" title="" /&gt;&lt;/p&gt;
+
+&lt;p&gt;最后，为地图提供一个有意义的标题。&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;展开“标题”&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;将“标题文本”&lt;strong&gt;&lt;/strong&gt;设置为“选举结果(按县)”&lt;em&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/em&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;将“文本大小”&lt;strong&gt;&lt;/strong&gt;设置为“14”&lt;strong&gt;&lt;em&gt;&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;img src="{4}" alt="" title="" /&gt;&lt;/p&gt;
+
+&lt;p&gt;地图现将如下所示。设计可视化效果时，检查其是否已可被受众或读者正常理解是很重要的。注意，最终的地图视觉对象具有分隔清晰的形状、明确的标题和有助于理解的清晰颜色。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src="{5}" alt="" title="" /&gt;&lt;/p&gt;
+
+&lt;p&gt;现已创建地图，可使用所学技巧构建条形图以展示总体结果。&lt;/p&gt;
+
+&lt;p&gt;使用数据“字段”&lt;strong&gt;&lt;/strong&gt;：&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;选择“候选人”&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;选择“票数”&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;设置颜色以匹配地图的颜色，并设置一个好的标题。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src="{6}" alt="" title="" /&gt;&lt;/p&gt;</value>
+  </data>
+  <data name="Article_Content_Step5_9" xml:space="preserve">
+    <value>&lt;p&gt;可以使用的几个其他功能是：&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;“数据标签”&lt;strong&gt;&lt;/strong&gt;。如果启用了视觉对象，可在格式窗格中找到此功能&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;“数字格式”&lt;strong&gt;&lt;/strong&gt;。请查看本教程结尾部分的数字格式部分以获取说明&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;最终的报表应如下所示：&lt;/p&gt;
+
+&lt;p&gt;&lt;img src="{0}" alt="" title="" /&gt;&lt;/p&gt;
+
+&lt;p&gt;注意，如果单击地图，条形图会交叉突出显示，如下图所示。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src="{1}" alt="" title="" /&gt;&lt;/p&gt;
+
+&lt;p&gt;此交互并非适用于此特定情况的最佳交互。可自定义视觉对象交互。&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;在功能区中，选择“格式”&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;按“交互”选项卡中的“编辑交互”&lt;strong&gt;&lt;/strong&gt;。&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;img src="{2}" alt="" title="" /&gt;&lt;/p&gt;
+
+&lt;p&gt;现在，当选择地图时，会看到其他可视化效果在右上角有一个新的菜单栏，如下图所示。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src="{3}" alt="" title="" /&gt;&lt;/p&gt;
+
+&lt;p&gt;该菜单提供三个选项：&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;筛选器 - 仅显示当前所选数据点的数据&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;交叉突出显示 - 显示当前所选数据点对整体的贡献度&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;无 - 与所选视觉对象的交互对该视觉对象没有影响&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;如上所示选择“筛选器”&lt;strong&gt;&lt;/strong&gt;选项。&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;现在，单击“地图”&lt;strong&gt;&lt;/strong&gt;以查看条形图，其中显示特定于单击的每个县的数据，或者如果未选择任何县，则它将显示州范围内的全部数据。&lt;/p&gt;
+
+&lt;p&gt;现在“保存”&lt;strong&gt;&lt;/strong&gt;该报表。&lt;/p&gt;
+
+&lt;h2&gt;第 2 部分：将报表发布到 Power BI 帐户&lt;/h2&gt;
+
+&lt;p&gt;现在，可将报表发布到 Power BI 帐户，并可在其中与同事安全共享此报表。&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;在“开始”&lt;strong&gt;&lt;/strong&gt;功能区中，选择“共享”组中的“发布”&lt;strong&gt;&lt;/strong&gt;
+
+
+&lt;p&gt;&lt;img src="{4}" alt="" title="" /&gt;&lt;/p&gt;
+
+&lt;p&gt;注意：必须拥有 Power BI 帐户才能完成此步骤。如果尚未创建帐户，请转到 &lt;a href="{5}"&gt;{6}&lt;/a&gt; 注册一个免费帐户。&lt;/p&gt;
+
+&lt;p&gt;发布成功后，会看到以下对话框：&lt;/p&gt;
+
+&lt;p&gt;&lt;img src="{7}" alt="" title="" /&gt;&lt;/p&gt;
+
+&lt;/li&gt;
+&lt;li&gt;按“打开 Power BI 链接中的 VotingData Report.pbix”&lt;strong&gt;&lt;/strong&gt;”以在 Power BI.com 中查看该报表。&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;img src="{8}" alt="" title="" /&gt;&lt;/p&gt;</value>
+  </data>
+  <data name="Article_Content_Step6_5" xml:space="preserve">
+    <value>&lt;h3&gt;第 1 步：发布到 Web&lt;/h3&gt;
+
+&lt;p&gt;可根据下面链接中提供的说明来“创建‘Power BI 发布到 Web’的嵌入代码”&lt;strong&gt;&lt;/strong&gt;。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href="{0}"&gt;{0}&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;嵌入代码将如下所示：&lt;/p&gt;
+
+&lt;p&gt;&amp;lt;iframe width="800" height="600" src="{1}" frameborder="0" allowFullScreen="true"&gt;&amp;lt;/iframe&gt;&lt;/p&gt;
+
+&lt;p&gt;注意，嵌入代码以“&amp;lt;iframe”开头。将使用 iFrame 将内容嵌入到网页中。&lt;/p&gt;
+
+&lt;h3&gt;第 2 步：将嵌入代码添加到网页中&lt;/h3&gt;
+
+&lt;p&gt;在此部分中，将添加报表的嵌入代码并将其添加到网页中。&lt;/p&gt;
+
+&lt;p&gt;需要从上一步中“复制嵌入代码”&lt;strong&gt;&lt;/strong&gt;到提供的网页中。如果未复制，需立即返回并复制。&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;打开文件“Embed in web page.htm”&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;找到行“&amp;lt;!-- 第 1 步：将 iFrame 嵌入代码放置在这一行下面--&gt;”&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;将嵌入代码“粘贴”&lt;strong&gt;&lt;/strong&gt;在那一行下面&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;接下来调整 iframe 的高度和宽度。默认值可能不能确保完全合适。其大小基于报表中的页面大小。默认页面大小的比例是 16:9。应基于网页布局和此基本比例来确定宽度和高度。然后，确保将 56 添加到 iFrame 的高度，以适应 iFrame 底部的 Power BI UI。&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;现在，如下所示设置“iframe”&lt;strong&gt;&lt;/strong&gt;的宽度和高度：&lt;/p&gt;
+    &lt;ul&gt;
+&lt;li&gt;&lt;p&gt;宽度="1000"&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;高度="618"&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;“保存”&lt;strong&gt;&lt;/strong&gt;该文件&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;在“Windows 资源管理器”&lt;strong&gt;&lt;/strong&gt;中，“双击该文件以在 Web 浏览器中打开它”&lt;strong&gt;&lt;/strong&gt;。&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;会看到如下所示的页面。如果要发布到 Web 服务器上的页，则任何正在查看该页面的人都将能查看该报表。可使用这些步骤将 Power BI 数据可视化效果添加到博客、新闻文章或网站。&lt;/p&gt;
+
+&lt;h1&gt;&lt;img src="{2}" alt="" title="" /&gt;&lt;/h1&gt;
+
+&lt;h2&gt;附录：在 Power BI 中设置数字格式&lt;/h2&gt;
+
+&lt;p&gt;在此教程中，如果使用数据标签，会注意到默认为数字不带格式。下面是有关如何在 Power BI 中设置数字格式的说明。&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;通过在字段列表中单击想要设置格式的“字段”&lt;strong&gt;&lt;/strong&gt;来选中它。提示：当如下所示显示黄色边框时，字段处于选中状态。
+&lt;p&gt;&lt;img src="{3}" alt="" title="" /&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;选中字段后，在功能区中选择“建模”&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;注意“格式”&lt;strong&gt;&lt;/strong&gt;部分。&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;若要为较大数字添加逗号分隔符，请按“逗号图标”&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;完成格式设置后，无论何时在可视化效果中使用字段，都会应用此格式。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src="{4}" alt="" title="" /&gt;&lt;/p&gt;</value>
+  </data>
+  <data name="Article_Continue_Step1_3" xml:space="preserve">
+    <value>&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;导航到“温度数据”&lt;strong&gt;&lt;/strong&gt;表，然后在“开始”&lt;strong&gt;&lt;/strong&gt;功能区中选择“合并查询”&lt;strong&gt;&lt;/strong&gt;。&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;在编辑器中，选择“仪器数据”&lt;strong&gt;&lt;/strong&gt;和两个表的“年份”&lt;strong&gt;&lt;/strong&gt;列。这是要在表之间匹配的列。&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;由于需要得到包含两个表的所有行（与重叠的匹配）的一个表，所以选择“联接种类：完全外部(两者中的所有行)”&lt;strong&gt;&lt;/strong&gt;。 编辑器现在应显示匹配的行数。&lt;/p&gt;
+&lt;p&gt;&lt;img src="{0}" alt="" title="" /&gt;&lt;/p&gt;
+
+&lt;/li&gt;
+&lt;li&gt;选择“确定”&lt;strong&gt;&lt;/strong&gt;后，展开新列（参见下面的图标）。
+&lt;p&gt;&lt;img src="{1}" alt="" title="" /&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;要创建新的日期列，在“添加列”&lt;strong&gt;&lt;/strong&gt;选项卡中选择“添加索引列”&lt;strong&gt;&lt;/strong&gt;，使用下拉菜单创建自定义索引列。索引的开始为 1000，增量为 1。&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;现在应具有范围从 1000 到 1998 的索引列。将此列的类型更改为文本。&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;现在，删除两个年份列，并将“索引”&lt;strong&gt;&lt;/strong&gt;名改为“年份”&lt;strong&gt;&lt;/strong&gt;。&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;将“年份”&lt;strong&gt;&lt;/strong&gt;的数据类型设置为“日期”&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;要加载的最后一个表包含“*关联误差线*”&lt;strong&gt;&lt;/strong&gt;。&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;在“查询编辑器”中，选择“开始”&lt;strong&gt;&lt;/strong&gt;&gt;“新建源”&lt;strong&gt;&lt;/strong&gt;&gt;“Web”&lt;strong&gt;&lt;/strong&gt;，然后输入表的 URL：&lt;a href="{2}"&gt;{2}&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;将查询名称更改为“误差线”&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;将“年份”&lt;strong&gt;&lt;/strong&gt;的类型更改为文本&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;删除第一列和最后一列&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;将“年份”&lt;strong&gt;&lt;/strong&gt;的类型更改为日期&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;接下来，可使用“误差线”&lt;strong&gt;&lt;/strong&gt;中的 Sigma 来计算重新构造的温度的正差异和负差异。&lt;/p&gt;</value>
+  </data>
+  <data name="Article_Start_Step2_3" xml:space="preserve">
+    <value>&lt;p&gt;&lt;img src="{0}" alt="" title="" /&gt;&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;重复此步骤以创建“负差异 = [重新构造的温度变化] - [Sigma]”&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;将新列的数据类型更改为十进制数。&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;已将所有信息加载到“温度变化”&lt;strong&gt;&lt;/strong&gt;表中，无需再将另外两个表加载到报表中。若要禁止加载另外两个表，右键单击“仪器数据”&lt;strong&gt;&lt;/strong&gt;并取消选择“启用加载”&lt;strong&gt;&lt;/strong&gt;，然后对“误差线”&lt;strong&gt;&lt;/strong&gt;执行相同的操作。禁用的表将显示为斜体和灰色。&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;img src="{1}" alt="" title="" /&gt;&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;现在选择“开始”&lt;strong&gt;&lt;/strong&gt;功能区中的“关闭并应用”&lt;strong&gt;&lt;/strong&gt;。&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3&gt;第 2 步：创建视觉对象&lt;/h3&gt;
+
+&lt;p&gt;在加载完数据及已经完成编辑和合并数据的大部分工作之后，创建折线图只需几次单击就可完成。&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;在报表部分创建新的折线图&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;拖动“轴”&lt;strong&gt;&lt;/strong&gt;字段上的“年份”&lt;strong&gt;&lt;/strong&gt;，并确保日期在下拉菜单中显示为“年份”&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;img src="{2}" alt="" title="" /&gt;&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;拖动“值”上的“重新构造的温度变化”&lt;strong&gt;&lt;/strong&gt;、“仪器温度变化”&lt;strong&gt;&lt;/strong&gt;、“正差异”&lt;strong&gt;&lt;/strong&gt;和“负差异”&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;如果想要温度变化从差异中突出显示，则在“格式”&lt;strong&gt;&lt;/strong&gt;窗格中更改线的颜色。&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;</value>
+  </data>
+  <data name="Download_Resources" xml:space="preserve">
+    <value>下载教程所需的全部资源</value>
+  </data>
+  <data name="Hero_Content" xml:space="preserve">
+    <value>本入门课程介绍如何使用不同类型的图形来分析和理解数据，及如何与受众有效沟通。数据可视化专家 Alberto Cairo 会引导用户了解可视化效果的核心原则，如理解数据、选择合适的图形形式以及组织旁白构成或实现浏览。还会介绍关于数据可视化是如何基于视觉对象编码的理念，将数据点转换为图形功能的详细信息。</value>
+  </data>
+  <data name="Hero_Title" xml:space="preserve">
+    <value>可视化简介</value>
+  </data>
+  <data name="InThisArticle" xml:space="preserve">
+    <value>在本文中：</value>
+  </data>
+  <data name="META_DESCRIPTION" xml:space="preserve">
+    <value />
+  </data>
+  <data name="META_KEYWORDS" xml:space="preserve">
+    <value />
+  </data>
+  <data name="META_PAGETITLE" xml:space="preserve">
+    <value>数据新闻 - 可视化简介 | Microsoft Power BI</value>
+  </data>
+  <data name="NextTopic" xml:space="preserve">
+    <value>下一主题：数据浏览</value>
+  </data>
+  <data name="RightNav_Link1" xml:space="preserve">
+    <value>全球气温变化（在 Power BI 中创建“曲棍球棒”图）</value>
+  </data>
+  <data name="RightNav_Link2" xml:space="preserve">
+    <value>创建和发布可视化效果</value>
+  </data>
+  <data name="Start_Article_Content_4" xml:space="preserve">
+    <value>&lt;h2 id="world-temp-change"&gt;全球气温变化（在 Power BI 中创建“曲棍球棒”图）&lt;/h2&gt;
+
+&lt;p&gt;“数据可视化”课程中使用的前几个例子的其中之一是由 Michael Mann 和 Raymond Bradley 所做的全球气温分析。重新构建此视觉对象会涉及使用 Microsoft Power BI 时最常用到的一系列概念。将从几个网页中的表开始，混合数据、将其加载进报表、进行一些调整并创建计算的走向线。将使用原始研究中的数据，这些数据可从后列位置获得：&lt;a href="{0}"&gt;{0}&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3&gt;第 1 步：加载数据&lt;/h3&gt;
+
+&lt;p&gt;创建此视觉对象所需的数据包含在三个表中：“重新构造(AD 1000-1980)”&lt;strong&gt;&lt;/strong&gt;、“关联误差线”&lt;strong&gt;&lt;/strong&gt;和“仪器系列(1902-1998)”&lt;strong&gt;&lt;/strong&gt;。在示例中，将从加载重构数据开始。&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;打开“重新构造(AD 1000-1980)”&lt;strong&gt;&lt;/strong&gt;：&lt;a href="{1}"&gt;{1}&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;在新的 Power BI Desktop 文件中，选择左上角的“获取数据”&lt;strong&gt;&lt;/strong&gt;。&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;在下拉菜单中，选择“Web”&lt;strong&gt;&lt;/strong&gt;，然后在 URL 窗口中粘贴链接。Power BI 会自动建议该数据的数据类型。由于需要编辑年份列，所以将禁用此功能。将“数据类型检测”&lt;strong&gt;&lt;/strong&gt;设置为“不检测数据类型”&lt;strong&gt;&lt;/strong&gt;，并选择“编辑”&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="{2}" alt="" title="" /&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;此操作会打开“查询编辑器”。第一列是空的，所以可以删除这一列。将第 2 列重命名为“年份”&lt;strong&gt;&lt;/strong&gt;，第 3 列重命名为“重新构造的温度变化”&lt;strong&gt;&lt;/strong&gt;。通过选择下图中所示的数据类型图标，将此列的数据类型更改为十进制数。
+&lt;p&gt;&lt;img src="{3}" alt="" title="" /&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;将查询名更改为“温度数据”&lt;strong&gt;&lt;/strong&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;可使用相同的原则，加载仪器温度数据和误差线。&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;仍然在“查询编辑器”中，在“开始”&lt;strong&gt;&lt;/strong&gt;功能区中选择“新建源”&lt;strong&gt;&lt;/strong&gt;，并输入“仪器系列”&lt;strong&gt;&lt;/strong&gt;表的 URL。&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;在弹出窗口中，选择“不检测数据类型”&lt;strong&gt;&lt;/strong&gt;，然后选择“编辑”&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;删除第 1 列，并将第 2 列重命名为“年份”&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;将第 3 列重命名为“仪器温度变化”&lt;strong&gt;&lt;/strong&gt;，并将其数据类型更改为十进制数&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;将查询名更改为“仪器数据”&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;&lt;p&gt;接下来，要创建一个可用于从 1000 年到 1998 年的所有数据点的年份列。要实现这一操作，可在“查询编辑器”中合并两个表，然后添加一个新的年份列。&lt;/p&gt;</value>
+  </data>
+  <data name="Meta_LocJobId" xml:space="preserve">
+    <value>162</value>
+  </data>
+</root>

@@ -1,0 +1,173 @@
+﻿@using Resources = PowerBI.Resources.Pages.Tour.Index;
+
+@{
+    Model.PageTitle = Resources.META_PAGETITLE;
+    Model.MetaKeywords = Resources.META_KEYWORDS;
+    Model.MetaDescription = Resources.META_DESCRIPTION;
+}
+
+<section class="section section-palette02 text-center">
+    <div class="row">
+        <div class="column">
+            <h1>@Resources.Hero_Heading</h1>
+        </div>
+    </div>
+    <div class="row">
+        <div class="column medium-10 medium-centered">
+            <a href="https://youtu.be/cHkMfPtmfyE?list=PL1N57mwBHtN0e-wvgVmrnn3Yd_WU7EHM-" data-event="tour-played-video" data-event-property="Focus on what matters most" class="video" data-pops-up="modal-video1">
+                <span class="icon">
+                    @SvgHelper.GetSvg("play-for-video")
+                </span>
+                <img alt="" src="@CdnHelper.GetCdnUrl("/pictures/pages/tour/tour.jpg")" />
+            </a>
+        </div>
+    </div>
+    <div class="row">
+        <div class="column medium-8 medium-centered">
+            <p>@Resources.Hero_Copy</p>
+        </div>
+    </div>
+</section>
+
+<section class="section">
+    <div class="row">
+        <div class="column">
+            <h2 class="text-heading1">@Resources.Introducing_Heading</h2>
+        </div>
+    </div>
+    <div class="row">
+        <div class="column medium-6">
+            <div class="row">
+                <div class="column">
+                    <a href="https://youtu.be/90sKw9K1OCY?list=PL1N57mwBHtN0e-wvgVmrnn3Yd_WU7EHM-" data-event="tour-played-video" data-event-property="See the full picture in one pane" class="video" data-pops-up="modal-video2">
+                        <span class="icon">
+                            @SvgHelper.GetSvg("play-for-video")
+                        </span>
+                        <img alt="" src="@CdnHelper.GetCdnUrl("/pictures/pages/tour/onepane.jpg")" />
+                    </a>
+                </div>
+            </div>
+            <div class="row row-size2">
+                <div class="column">
+                    <h3>@Resources.OnePane_Heading</h3>
+                    <p>@Resources.OnePane_Copy</p>
+                </div>
+            </div>
+        </div>
+        <div class="column medium-6">
+            <div class="row">
+                <div class="column">
+                    <a href="https://youtu.be/OPRIOUj8JYw?list=PL1N57mwBHtN0e-wvgVmrnn3Yd_WU7EHM-" data-event="tour-played-video" data-event-property="Bring details to life" class="video" data-pops-up="modal-video3">
+                        <span class="icon">
+                            @SvgHelper.GetSvg("play-for-video")
+                        </span>
+                        <img alt="" src="@CdnHelper.GetCdnUrl("/pictures/pages/tour/details.jpg")" />
+                    </a>
+                </div>
+            </div>
+            <div class="row row-size2">
+                <div class="column">
+                    <h3>@Resources.Details_Heading</h3>
+                    <p>@Resources.Details_Copy</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="column medium-6">
+            <div class="row">
+                <div class="column">
+                    <a href="https://youtu.be/nMyZATdlg48?list=PL1N57mwBHtN0e-wvgVmrnn3Yd_WU7EHM-" data-event="tour-played-video" data-event-property="Transform data into decisions" class="video" data-pops-up="modal-video4">
+                        <span class="icon">
+                            @SvgHelper.GetSvg("play-for-video")
+                        </span>
+                        <img alt="" src="@CdnHelper.GetCdnUrl("/pictures/pages/tour/decisions.jpg")" />
+                    </a>
+                </div>
+            </div>
+            <div class="row row-size2">
+                <div class="column">
+                    <h3>@Resources.Decisions_Heading</h3>
+                    <p>@Resources.Decisions_Copy</p>
+                </div>
+            </div>
+        </div>
+        <div class="column medium-6">
+            <div class="row">
+                <div class="column">
+                    <a href="https://youtu.be/ITAFPRs4S8I?list=PL1N57mwBHtN0e-wvgVmrnn3Yd_WU7EHM-" data-event="tour-played-video" data-event-property="Share a world of insight" class="video" data-pops-up="modal-video5">
+                        <span class="icon">
+                            @SvgHelper.GetSvg("play-for-video")
+                        </span>
+                        <img alt="" src="@CdnHelper.GetCdnUrl("/pictures/pages/tour/share.jpg")" />
+                    </a>
+                </div>
+            </div>
+            <div class="row row-size2">
+                <div class="column">
+                    <h3>@Resources.Share_Heading</h3>
+                    <p>@Resources.Share_Copy</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="column medium-6">
+            <div class="row">
+                <div class="column">
+                    <a href="https://youtu.be/S0FQTdZZ8Wc" data-event="tour-played-video" data-event-property="Share your insights on your website or blog" class="video" data-pops-up="modal-video6">
+                        <span class="icon">
+                            @SvgHelper.GetSvg("play-for-video")
+                        </span>
+                        <img alt="" src="@CdnHelper.GetCdnUrl("/pictures/pages/tour/shareweb.png")" />
+                    </a>
+                </div>
+            </div>
+            <div class="row row-size2">
+                <div class="column">
+                    <h3>@Resources.ShareWeb_Heading</h3>
+                    <p>@Html.RawFormatInvariant(Resources.ShareWeb_Copy, Html.LocalizeUrl("/publishtoweb/"))</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+@Html.Partial("section/_signup")
+
+<section class="section modal modal-large modal-video" id="modal-video1" data-video-embed="https://www.youtube.com/embed/cHkMfPtmfyE?list=PL1N57mwBHtN0e-wvgVmrnn3Yd_WU7EHM-&amp;showinfo=0&amp;autoplay=1">
+    <button class="close">&times;</button>
+    <div class="row column">
+        <iframe frameborder="0" allowfullscreen></iframe>
+    </div>
+</section>
+<section class="section modal modal-large modal-video" id="modal-video2" data-video-embed="https://www.youtube.com/embed/90sKw9K1OCY?list=PL1N57mwBHtN0e-wvgVmrnn3Yd_WU7EHM-&amp;showinfo=0&amp;autoplay=1">
+    <button class="close">&times;</button>
+    <div class="row column">
+        <iframe frameborder="0" allowfullscreen></iframe>
+    </div>
+</section>
+<section class="section modal modal-large modal-video" id="modal-video3" data-video-embed="https://www.youtube.com/embed/OPRIOUj8JYw?list=PL1N57mwBHtN0e-wvgVmrnn3Yd_WU7EHM-&amp;showinfo=0&amp;autoplay=1">
+    <button class="close">&times;</button>
+    <div class="row column">
+        <iframe frameborder="0" allowfullscreen></iframe>
+    </div>
+</section>
+<section class="section modal modal-large modal-video" id="modal-video4" data-video-embed="https://www.youtube.com/embed/nMyZATdlg48?list=PL1N57mwBHtN0e-wvgVmrnn3Yd_WU7EHM-&amp;showinfo=0&amp;autoplay=1">
+    <button class="close">&times;</button>
+    <div class="row column">
+        <iframe frameborder="0" allowfullscreen></iframe>
+    </div>
+</section>
+<section class="section modal modal-large modal-video" id="modal-video5" data-video-embed="https://www.youtube.com/embed/ITAFPRs4S8I?list=PL1N57mwBHtN0e-wvgVmrnn3Yd_WU7EHM-&amp;showinfo=0&amp;autoplay=1">
+    <button class="close">&times;</button>
+    <div class="row column">
+        <iframe frameborder="0" allowfullscreen></iframe>
+    </div>
+</section>
+<section class="section modal modal-large modal-video" id="modal-video6" data-video-embed="https://www.youtube.com/embed/S0FQTdZZ8Wc?showinfo=0&amp;autoplay=1">
+    <button class="close">&times;</button>
+    <div class="row column">
+        <iframe frameborder="0" allowfullscreen></iframe>
+    </div>
+</section>

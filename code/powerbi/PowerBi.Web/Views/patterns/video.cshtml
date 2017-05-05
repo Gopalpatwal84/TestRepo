@@ -1,0 +1,58 @@
+﻿<section class="section">
+    <div class="row">
+        <div class="column">
+            <h1>Video</h1>
+            <pre>@(@"
+<a href="""" class=""video"">
+    <span class=""icon"">
+        @SvgHelper.GetSvg(""play"")
+    </span>
+    <img alt="" src=""..."" />
+</a>")</pre>
+        </div>
+    </div>
+</section>
+<section class="section">
+    <div class="row">
+        <div class="column">
+            <a href="https://youtu.be/cHkMfPtmfyE?list=PL1N57mwBHtN0e-wvgVmrnn3Yd_WU7EHM-" class="video">
+                <span class="icon">
+                    @SvgHelper.GetSvg("play")
+                </span>
+                <img alt="" src="/pictures/pages/tour/tour.jpg" />
+            </a>
+        </div>
+    </div>
+</section>
+
+<section class="section">
+    <div class="row">
+        @for (var i = 0; i < 4; i++)
+        {
+            <div class="column medium-3">
+                <a href="https://youtu.be/cHkMfPtmfyE?list=PL1N57mwBHtN0e-wvgVmrnn3Yd_WU7EHM-" class="video">
+                    <span class="icon">
+                        @SvgHelper.GetSvg("play")
+                    </span>
+                    <img alt="" src="/pictures/pages/tour/tour.jpg" />
+                </a>
+            </div>
+        }
+    </div>
+</section>
+
+<section class="section">
+    <div class="row">
+        @for (var i = 0; i < 3; i++)
+        {
+            <div class="column medium-4">
+                <a href="https://youtu.be/cHkMfPtmfyE?list=PL1N57mwBHtN0e-wvgVmrnn3Yd_WU7EHM-" class="video">
+                    <span class="icon">
+                        @SvgHelper.GetSvg("play")
+                    </span>
+                    <img alt="" src="/pictures/pages/tour/tour.jpg" />
+                </a>
+            </div>
+        }
+    </div>
+</section>

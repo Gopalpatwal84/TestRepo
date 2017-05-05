@@ -1,0 +1,312 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" id="root">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="CapacityLimit_Heading" xml:space="preserve">
+    <value>資料容量限制的詳細資料</value>
+  </data>
+  <data name="CapacityLimit_Item1" xml:space="preserve">
+    <value>租用戶的整體限制 = 10 GB x 購買的 Power BI Pro 授權數</value>
+  </data>
+  <data name="CapacityLimit_Item2" xml:space="preserve">
+    <value>單一個人工作區限制 = 10 GB</value>
+  </data>
+  <data name="CapacityLimit_Item3" xml:space="preserve">
+    <value>單一群組限制 = 10 GB</value>
+  </data>
+  <data name="Collaboration" xml:space="preserve">
+    <value>共同作業</value>
+  </data>
+  <data name="ContentPacksFor" xml:space="preserve">
+    <value>使用 Dynamics、Salesforce 和 Google Analytics (分析) 等服務的策劃內容組件</value>
+  </data>
+  <data name="CreatePublishContentPacks" xml:space="preserve">
+    <value>建立、發行及檢視組織的內容組件</value>
+  </data>
+  <data name="CreateViewShare" xml:space="preserve">
+    <value>建立、檢視及與其他 Power BI 使用者分享您的個人儀表板與報表</value>
+  </data>
+  <data name="DashboardsOnMobile" xml:space="preserve">
+    <value>使用 iOS 版、Windows 版及 Android 版的原生應用程式，從行動裝置存取儀表板</value>
+  </data>
+  <data name="DataCapacityLimit" xml:space="preserve">
+    <value>資料容量限制</value>
+  </data>
+  <data name="DataManagementGateway" xml:space="preserve">
+    <value>使用資料連接閘道 (個人和資料管理) 存取內部部署資料</value>
+  </data>
+  <data name="DataRefresh" xml:space="preserve">
+    <value>資料重新整理</value>
+  </data>
+  <data name="ExporeDataNaturalLanguage" xml:space="preserve">
+    <value>使用自然語言探索資料 &lt;sup&gt;1&lt;/sup&gt;</value>
+  </data>
+  <data name="Hero_Content" xml:space="preserve">
+    <value>Power BI 可協助您花不到 5 分鐘的時間，就能開始評估企業的健全狀況。立即註冊並親自試用。</value>
+  </data>
+  <data name="Hero_Heading" xml:space="preserve">
+    <value>免費試用 Power BI 或購買 Power BI Pro</value>
+  </data>
+  <data name="ImportDataReportsFromExcel" xml:space="preserve">
+    <value>從 Excel、CSV 和 Power BI Desktop 檔案匯入資料和報表</value>
+  </data>
+  <data name="LiveInteractiveConnectivity" xml:space="preserve">
+    <value>在完整互動性支援下，使用即時資料來源</value>
+  </data>
+  <data name="LiveSources_Content" xml:space="preserve">
+    <value>Power BI 會直接連接資料來源，而不會將資料載入 Power BI 服務。例如 Power BI 會使用閘道直接連接到 SQL Server Analysis Services。</value>
+  </data>
+  <data name="LiveSources_Heading" xml:space="preserve">
+    <value>即時資料來源的詳細資料</value>
+  </data>
+  <data name="META_DESCRIPTION" xml:space="preserve">
+    <value>Power BI 會將您公司的資料轉換成各種視覺效果，方便您加以收集及編排，讓您可以將全部注意力放在您關注的事物上。隨時掌握最新資訊，找出進行中的趨勢，並進一步推動業務。</value>
+  </data>
+  <data name="META_KEYWORDS" xml:space="preserve">
+    <value />
+  </data>
+  <data name="META_PAGETITLE" xml:space="preserve">
+    <value>價格 | Microsoft Power BI</value>
+  </data>
+  <data name="PowerBiDesignerForAuthoring" xml:space="preserve">
+    <value>使用 Power BI Desktop 撰寫內容</value>
+  </data>
+  <data name="PowerBIFree" xml:space="preserve">
+    <value>POWER BI</value>
+  </data>
+  <data name="PowerBIPro" xml:space="preserve">
+    <value>POWER BI PRO</value>
+  </data>
+  <data name="Purchase_CTA" xml:space="preserve">
+    <value>購買</value>
+  </data>
+  <data name="Purchase_Heading" xml:space="preserve">
+    <value>購買 Power BI Pro</value>
+  </data>
+  <data name="Purchase_Myself" xml:space="preserve">
+    <value>自用</value>
+  </data>
+  <data name="Purchase_No" xml:space="preserve">
+    <value>否</value>
+  </data>
+  <data name="Purchase_NoUnsure" xml:space="preserve">
+    <value>不是或不確定</value>
+  </data>
+  <data name="Purchase_Question1" xml:space="preserve">
+    <value>您的組織使用 Office 365 嗎？</value>
+  </data>
+  <data name="Purchase_Question2" xml:space="preserve">
+    <value>您是組織之 Office 365 部署的系統管理員嗎？</value>
+  </data>
+  <data name="Purchase_Subheading1" xml:space="preserve">
+    <value>為能提供更好的服務，請與我們分享更多您的 Power BI 使用方式資訊。</value>
+  </data>
+  <data name="Purchase_Subheading4" xml:space="preserve">
+    <value>我們的銷售團隊可協助您選購 Power BI。只要在下方輸入資訊，即可開始與銷售團隊對談。</value>
+  </data>
+  <data name="Purchase_TeamOrOrg" xml:space="preserve">
+    <value>小組或組織</value>
+  </data>
+  <data name="Purchase_Yes" xml:space="preserve">
+    <value>是</value>
+  </data>
+  <data name="ScheduledDataRefresh" xml:space="preserve">
+    <value>使用已排程要進行重新整理的內容</value>
+  </data>
+  <data name="SharedDataQueriesDataCatalog" xml:space="preserve">
+    <value>透過資料目錄共用的資料查詢</value>
+  </data>
+  <data name="ShareRefreshable" xml:space="preserve">
+    <value>在 Power BI 中使用 Office 365 群組，與您的小組共同作業</value>
+  </data>
+  <data name="SignUp_CTA" xml:space="preserve">
+    <value>註冊</value>
+  </data>
+  <data name="SupportForStreamingData" xml:space="preserve">
+    <value>使用您儀表板和報表中的資料流</value>
+  </data>
+  <data name="Table_Caption" xml:space="preserve">
+    <value>&lt;p&gt;所有使用 Power BI Pro 內容的使用者皆需要 Power BI Pro 授權。&lt;a href="{0}"&gt;深入了解 Power BI Pro 的內容。&lt;/a&gt;&lt;p&gt;
+&lt;p&gt;&lt;sup&gt;1&lt;/sup&gt; 目前只支援以英文進行自然語言查詢。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;此處所示的價格是每位使用者每個月的價格，需要有年度訂閱。&lt;/li&gt;
+&lt;li&gt;目前提供學術、政府和非營利定價。&lt;/li&gt;
+&lt;li&gt;深入了解大量授權或尋找 Microsoft 專家。&lt;/li&gt;
+&lt;li&gt;此處所示的定價是透過 Microsoft 線上訂閱方案提供的商業 ERP 定價，以美金為單位。&lt;/li&gt;
+&lt;li&gt;租用戶可同時包含 Power BI (免費) 使用者與 Power BI Pro 授權使用者&lt;/li&gt;
+&lt;/ul&gt;</value>
+  </data>
+  <data name="UseActiveDirectory" xml:space="preserve">
+    <value>透過 Active Directory 群組管理存取控制和共用</value>
+  </data>
+  <data name="Daily" xml:space="preserve">
+    <value>每天</value>
+  </data>
+  <data name="Free" xml:space="preserve">
+    <value>免費</value>
+  </data>
+  <data name="Hourly" xml:space="preserve">
+    <value>每小時</value>
+  </data>
+  <data name="Rate_GBPerUser" xml:space="preserve">
+    <value>{0:N0} GB/使用者</value>
+  </data>
+  <data name="Rate_MillionsRowsPerHour" xml:space="preserve">
+    <value>{0:N0} 百萬列/小時</value>
+    <comment>M = million</comment>
+  </data>
+  <data name="Rate_ThousandsRowsPerHour" xml:space="preserve">
+    <value>{0:N0} 千列/小時</value>
+    <comment>K = thousand</comment>
+  </data>
+  <data name="Rate_PerUserPerMonth" xml:space="preserve">
+    <value>{0} /使用者/月</value>
+  </data>
+  <data name="Flyout_Capacity" xml:space="preserve">
+    <value>&lt;h3&gt;資料容量限制的詳細資料&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;租用戶的整體限制 = 10 GB x 購買的 Power BI Pro 授權數&lt;/li&gt;
+&lt;li&gt;單一個人工作區限制 = 10 GB&lt;/li&gt;
+&lt;li&gt;單一群組限制 = 10 GB&lt;/li&gt;
+&lt;/ul&gt;</value>
+  </data>
+  <data name="Flyout_LiveData" xml:space="preserve">
+    <value>&lt;h3&gt;即時資料來源的詳細資料&lt;/h3&gt;
+&lt;p&gt;Power BI 會直接連接資料來源，而不會將資料載入 Power BI 服務。例如 Power BI 會使用閘道直接連接到 SQL Server Analysis Services。&lt;/p&gt;</value>
+  </data>
+  <data name="Flyout_ConsumeStreaming" xml:space="preserve">
+    <value>&lt;h3&gt;Power BI REST API&lt;/h3&gt;
+&lt;p&gt;將資料從應用程式直接推送到 Power BI 資料集。如需詳細資訊，請查看 &lt;a href="{0}"&gt;Power BI 開發人員中心&lt;/a&gt;&lt;/p&gt;</value>
+  </data>
+  <data name="Flyout_MaxDataRate" xml:space="preserve">
+    <value>&lt;h3&gt;Power BI REST API 限制&lt;/h3&gt;
+&lt;p&gt;這是 Power BI REST API 的最大資料速率。如需詳細資訊，請參閱 &lt;a href="{0}"&gt;Power BI REST API 限制&lt;/a&gt;。&lt;/p&gt;</value>
+  </data>
+  <data name="PublishToWeb" xml:space="preserve">
+    <value>發佈至網路</value>
+  </data>
+  <data name="ControlDataAccess" xml:space="preserve">
+    <value>從資料列層級安全性控制使用者與群組的資料存取</value>
+  </data>
+  <data name="ChinaAvailability_Notification" xml:space="preserve">
+    <value>&lt;p&gt;Power BI 在 21Vianet 的營運下於中國推出。&lt;a class="arrowLink" href="{0}"&gt;深入了解&lt;/a&gt;&lt;/p&gt;</value>
+  </data>
+  <data name="Meta_LocJobId" xml:space="preserve">
+    <value>174</value>
+  </data>
+</root>

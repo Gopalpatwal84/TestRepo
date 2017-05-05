@@ -1,0 +1,194 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" id="root">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Analyze_Content" xml:space="preserve">
+    <value>&lt;p&gt;Power BI では、単純なドラッグ アンド ドロップ ジェスチャを使って、チームの主要なメトリックを分析するための対話型レポートを作成できます。可能な操作の例を挙げます。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;収益:&lt;/strong&gt; 最高のシナリオを探します。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;実売上:&lt;/strong&gt; 営業案件のステージに基づいて、より現実的な射影を作成します。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;営業案件数:&lt;/strong&gt; 販売チームで比較します。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;地理:&lt;/strong&gt; 最も強い地域と最も弱い地域はどこでしょうか。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;フィルター:&lt;/strong&gt; パイプラインのどこに営業案件があるのでしょうか。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;チャネルの有効性:&lt;/strong&gt; 直接および間接の売上実績を比較します。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;営業案件の売上傾向:&lt;/strong&gt; 収益は上昇と下降のどちらに向かっていますか。&lt;/li&gt;
+&lt;/ul&gt;</value>
+  </data>
+  <data name="Analyze_Heading" xml:space="preserve">
+    <value>分析</value>
+  </data>
+  <data name="Analyze_Subheading" xml:space="preserve">
+    <value>数秒で洞察を得る</value>
+  </data>
+  <data name="Combine_Content" xml:space="preserve">
+    <value>&lt;p&gt;ノルマ、市場のサイズ、営業案件、人口統計などの売上データをマーケティング、財務などの他の部署からのデータと合わせて、より多くの洞察を得て、ビジネスにおいてより多くの情報に基づいた決定をします。組織内のさまざまなシステムでサイロ化したデータの可能性を引き出します。&lt;/p&gt;</value>
+  </data>
+  <data name="Combine_Heading" xml:space="preserve">
+    <value>結合</value>
+  </data>
+  <data name="Combine_Subheading" xml:space="preserve">
+    <value>全体像を確認する</value>
+  </data>
+  <data name="Form_Cta" xml:space="preserve">
+    <value>無料で使用</value>
+  </data>
+  <data name="Hero_Content" xml:space="preserve">
+    <value>&lt;p&gt;ノルマ、市場のサイズ、営業案件など、チームの主要なメトリックの洞察が一目で確認でき、詳細をすばやく調べる機能を備えたダッシュボードを作成したいと思いますか。 売上データを、マーケティングや財務などの他の部署からのデータと合わせて、ビジネスの全体像を確認したいとお考えですか。&lt;/p&gt;
+&lt;p&gt;Power BI では、数秒でそれらのダッシュボードおよび対話型のレポートを作成し、チームにとって重要なメトリックを視覚化することができます。単純なドラッグ アンド ドロップ ジェスチャによって簡単にデータを調べ、成果、相関関係、および外れ値を特定できます。&lt;/p&gt;</value>
+  </data>
+  <data name="Hero_Heading" xml:space="preserve">
+    <value>すべてのユーザー向けの売上の分析</value>
+  </data>
+  <data name="META_DESCRIPTION" xml:space="preserve">
+    <value>Power BI は、会社のデータを豊かな視覚情報に変換して収集と整理を助け、重要な問題に取り組めるようにします。最新情報を取得し、動向の発生をつかみ、ビジネスをさらに推進します。</value>
+  </data>
+  <data name="META_KEYWORDS" xml:space="preserve">
+    <value />
+  </data>
+  <data name="META_PAGETITLE" xml:space="preserve">
+    <value>売上 | Microsoft Power BI</value>
+  </data>
+  <data name="Mobile_Content" xml:space="preserve">
+    <value>&lt;p&gt;Power BI では、傾向をタイムリーにつかんで変化をもたらすことができます。次のような質問に回答します。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;パイプラインでの営業案件の売上はどれほどですか。&lt;/li&gt;
+&lt;li&gt;実売上予測はどれほど正確でしたか。&lt;/li&gt;
+&lt;/ul&gt;</value>
+  </data>
+  <data name="Mobile_Heading" xml:space="preserve">
+    <value>モバイル</value>
+  </data>
+  <data name="Mobile_Subheading" xml:space="preserve">
+    <value>将来を文脈の中でとらえる</value>
+  </data>
+  <data name="Monitor_Content" xml:space="preserve">
+    <value>&lt;p&gt;Power BI では、すぐにダッシュボードを作成でき、チームの営業案件、結果、および全体的な効率性の監視を開始できます。さらに、成功率、成功した回数、収益、割引、および YTD 収益マップなどの主要なメトリックを監視できます。ダッシュボードは、最新の状態のデータによって自動的に更新され、いつでも必要な時に分かりやすい情報を提供します。&lt;/p&gt;</value>
+  </data>
+  <data name="Monitor_Heading" xml:space="preserve">
+    <value>監視</value>
+  </data>
+  <data name="Monitor_Subheading" xml:space="preserve">
+    <value>最新情報をすぐに入手する</value>
+  </data>
+  <data name="TakeAdvantage_Heading" xml:space="preserve">
+    <value>Power BI を活用する</value>
+  </data>
+  <data name="Meta_LocJobId" xml:space="preserve">
+    <value>69</value>
+  </data>
+</root>

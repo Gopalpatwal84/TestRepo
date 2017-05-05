@@ -1,0 +1,150 @@
+﻿@model PowerBI.Web.Models.Pages.ViewMetadataModel
+@using Resources = PowerBI.Resources.Pages.GetStarted.Index
+
+@{
+    Model.PageTitle = Resources.META_PAGETITLE;
+    Model.MetaDescription = Resources.META_DESCRIPTION;
+    Model.MetaKeywords = Resources.META_KEYWORDS;
+}
+
+
+@if (Request.QueryString["b"] == "16.21")
+{
+    <section class="section section-size0 section-palette02">
+        <div data-event="getstarted-mouseover-exitintentarea" class="exit-intent-area" data-pops-up="ebook-registration-modal">
+
+        </div>
+    </section>
+}
+else
+{
+
+}
+
+<section class="section section-size3 section-palette02">
+    <div class="row">
+        <div class="column text-center">
+            <h1>@Resources.GetStarted_Heading</h1>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="column large-10 large-offset-1">
+            <div class="row">
+                <div class="column large-6">
+                    <div class="tile">
+                        <div class="img-container text-center row">
+                            <div class="column">
+                                <img src="@CdnHelper.GetCdnUrl("/pictures/pages/get-started/powerbi-desktop-monitor-screenshot.png")" alt="" srcset="@CdnHelper.GetCdnUrl("/pictures/pages/get-started/powerbi-desktop-monitor-screenshot-2x.png") 2x" />
+                            </div>
+                        </div>
+
+                        <div class="sd-equalize row row-size3" data-set="choice-content">
+                            <div class="column">
+                                <div class="row">
+                                    <div class="column">
+                                        <h2>
+                                            @Resources.DesktopChoice_Heading
+                                        </h2>
+                                    </div>
+                                </div>
+
+                                <div class="row row-size1">
+                                    <div class="column">
+                                        <h5>@Resources.DesktopChoice_Subhead</h5>
+                                    </div>
+                                </div>
+
+                                <div class="row row-size1">
+                                    <div class="column">
+                                        <p>
+                                            @Resources.DesktopChoice_Content
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row row-size2">
+                            <div class="column">
+                                <a data-pops-up="modal-download" data-event="global-clicked-getstartedcta" data-event-property="download" id="download-desktop" href="@Html.LocalizeUrl("go:521662")" class="button button-featured">@Resources.DesktopChoice_Cta</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="column large-6">
+                    <div class="tile">
+                        <div class="img-container text-center row">
+                            <div class="column">
+                                <img src="@CdnHelper.GetCdnUrl("/pictures/pages/get-started/powerbi-service-monitor-screenshot.png")" alt="" srcset="@CdnHelper.GetCdnUrl("/pictures/pages/get-started/powerbi-service-monitor-screenshot-2x.png") 2x" />
+                            </div>
+                        </div>
+
+                        <div class="sd-equalize row row-size3" data-set="choice-content">
+                            <div class="column">
+                                <div class="row row-size3">
+                                    <div class="column">
+                                        <h2>@Resources.ServiceChoice_Heading</h2>
+                                    </div>
+                                </div>
+
+                                <div class="row row-size1">
+                                    <div class="column">
+                                        <h5>@Resources.ServiceChoice_Subhead</h5>
+                                    </div>
+                                </div>
+
+                                <div class="row row-size1">
+                                    <div class="column">
+                                        <p>
+                                            @Resources.ServiceChoice_Content
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row row-size2">
+                            <div class="column">
+                                <a data-event="global-clicked-getstartedcta" data-event-property="signup" id="free-sign-up" href="https://app.powerbi.com/signupredirect" class="button button-featured signup-link">@Resources.ServiceChoice_Cta</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="section section-slate01 section-size3">
+    <div class="row">
+        <div class="column medium-7">
+            <p>@Resources.NationalClouds_Content</p>
+        </div>
+        <div class="column medium-4 medium-offset-1">
+            <a href="@Html.LocalizeUrl("/clouds/")" class="button button-alt">@Resources.NationalClouds_Cta</a>
+        </div>
+    </div>
+</section>
+
+@Html.Partial("section/_modal-download-gated")
+@Html.Partial("section/_modal-ebook-registration")
+@Html.Partial("section/_modal-ebook-registration-thankyou")
+
+@section foot {
+    <script>
+        (function (global) {
+            $('.ebook-submit').on('click', function() {
+                $(global).on('form-submitted', function() {
+                    $('#ebook-registration-modal .close').trigger('click');
+                    $('[data-pops-up="ebook-thankyou-modal"]').trigger('click');
+                });
+            });
+            $('[data-pops-up = "modal-download"]').on('click', function () {
+                global.location = this.href;
+            });
+        })(window);
+    </script>
+}

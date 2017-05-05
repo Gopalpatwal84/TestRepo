@@ -1,0 +1,93 @@
+﻿@import (reference) '../../../less/mixins.d.less';
+@import (reference) '../../../less/variables.d.less';
+
+table {
+    border-top: 1px solid @color-slate04;
+    caption {
+        p {
+            font-size: inherit;
+        }
+    }
+}
+
+
+.table-features-header {
+    select {
+        margin-top: @spacing-size1;
+        width: 100%;
+        }
+
+    .price-data {
+        font-size: @font-heading3;
+        font-weight: @font-bold;
+        line-height: 1.2;
+        }
+    }
+
+.table-features {
+    tr {
+        border-bottom-color: @color-slate04;
+    }
+
+    th,
+    td {
+        &:nth-child(2) {
+            background-color: @color-slate06;
+        }
+
+        &:nth-child(3) {
+            background-color: @color-slate05;
+        }
+    }
+}
+
+
+.table-features,
+.table-features-header {
+    th,
+    td {
+        &:nth-child(1) {
+            width: 33.3333%;
+        }
+
+        &:nth-child(2) {
+            text-align: center;
+            width: 33.3333%;
+        }
+
+        &:nth-child(3) {
+            text-align: center;
+            width: 33.3333%;
+    }
+}
+}
+
+@media only screen and (min-width: @resolution-small) {
+.table-features-header {
+    select {
+        width: auto;
+    }
+    }
+}
+
+@media only screen and (min-width: @resolution-medium) {
+    .table-features,
+    .table-features-header {
+        th,
+        td {
+            &:nth-child(1) {
+                width: 64%;
+            }
+
+            &:nth-child(2) {
+                text-align: center;
+                width: 18%;
+            }
+
+            &:nth-child(3) {
+                text-align: center;
+                width: 18%;
+            }
+        }
+    }
+}

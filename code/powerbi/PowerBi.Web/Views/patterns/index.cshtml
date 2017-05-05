@@ -1,0 +1,42 @@
+﻿@model PowerBI.Web.Controllers.MenuModel
+
+<section class="section">
+    <div class="row">
+        <div class="column">
+            <h1>Patterns</h1>
+        </div>
+    </div>
+    <div class="row row-size2">
+        <div class="column">
+            <h3>controls</h3>
+            <ul class="linkList">
+                @foreach (var item in Model.Controls)
+                {
+                    <li><a href="@($"/patterns/controls/{item}/")">@item</a></li>
+                }
+            </ul>
+        </div>
+    </div>
+    <div class="row row-size2">
+        <div class="column">
+            <h3>framework</h3>
+            <ul class="linkList">
+                @foreach (var item in Model.Framework)
+                {
+                    <li><a href="@($"/patterns/framework/{item}/")">@item</a></li>
+                }
+            </ul>
+        </div>
+    </div>
+    <div class="row row-size2">
+        <div class="column">
+            <h3>misc</h3>
+            <ul class="linkList">
+                @foreach (var item in Model.Misc.Where(x => !x.Contains("index")))
+                {
+                    <li><a href="@($"/patterns/{item}/")">@item</a></li>
+                }
+            </ul>
+        </div>
+    </div>
+</section>

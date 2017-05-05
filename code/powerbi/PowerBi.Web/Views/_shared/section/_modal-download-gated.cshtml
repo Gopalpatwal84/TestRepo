@@ -1,0 +1,21 @@
+﻿@using Resources = PowerBI.Resources.Shared.Section.ModalDownload
+
+<section id="modal-download" class="section section-size3 modal text-center">
+    <a href="#" class="close">&times;</a>
+    <div class="row">
+        <div class="column large-10 large-centered">
+            <p class="text-heading1 text-center">@Resources.Download_Heading</p>
+            <p>@Html.Raw(Resources.Download_Content)</p>
+        </div>
+    </div>
+    <div class="row row-size2">
+        <div class="column large-10 large-centered">
+            @Html.CreateForm("DownloadGated", new Acom.Forms.Models.FormOptions
+            {
+                Slug = "powerbi-desktop-download-gated",
+                Class = "consent-form",
+                SubmitRedirectUrl = Html.LocalizeUrl("/desktop-thank-you/?gated=0").ToString(),
+            })
+        </div>
+    </div>
+</section>

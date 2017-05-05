@@ -1,0 +1,127 @@
+﻿@model PowerBI.Web.Models.Pages.ViewMetadataModel
+@using Resources = PowerBI.Resources.Pages.EnterpriseReady.Index
+@using Forms = PowerBI.Resources.Shared.Forms.Form
+
+@{
+    Model.PageTitle = Resources.META_PAGETITLE;
+    Model.MetaDescription = Resources.META_DESCRIPTION;
+}
+
+<section class="section section-size3 section-palette02">
+    <div class="row">
+        <div class="column medium-5">
+            <h1>@Resources.EnterpriseReady_Heading</h1>
+        </div>
+        <div class="column medium-7">
+            <p>@Html.Raw(Resources.EnterpriseReady_IntroContent)</p>
+        </div>
+    </div>
+</section>
+
+<section class="section section-size6">
+    <div class="row">
+        <div class="column medium-4">
+            <div class="row">
+                <div class="column medium-9 small-7 xsmall-9 xsmall-centered medium-uncentered">
+                    <img src="@CdnHelper.GetCdnUrl("/pictures/pages/enterprise-ready/available.svg")" alt="" />
+                </div>
+            </div>
+            <div class="row row-size2">
+                <div class="column">
+                    <h3>@Resources.Available_Heading</h3>
+                    <p>@Resources.Available_Content</p>
+                </div>
+            </div>
+        </div>
+        <div class="column medium-4">
+            <div class="row">
+                <div class="column medium-9 small-7 xsmall-9 xsmall-centered medium-uncentered">
+                    <img src="@CdnHelper.GetCdnUrl("/pictures/pages/enterprise-ready/scalable.svg")" alt="" />
+                </div>
+            </div>
+            <div class="row row-size2">
+                <div class="column">
+                    <h3>@Resources.Scalable_Heading</h3>
+                    <p>@Resources.Scalable_Content</p>
+                </div>
+            </div>
+        </div>
+        <div class="column medium-4">
+            <div class="row">
+                <div class="column medium-9 small-7 xsmall-9 xsmall-centered medium-uncentered">
+                    <img src="@CdnHelper.GetCdnUrl("/pictures/pages/enterprise-ready/always-up-to-date.svg")" alt="" />
+                </div>
+            </div>
+            <div class="row row-size2">
+                <div class="column">
+                    <h3>@Resources.Flexible_Heading</h3>
+                    <p>@Html.Raw(Resources.Flexible_Content)</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="section section-size3 section-enterprise-ready section-slate01">
+    <div class="row">
+        <div class="column text-center medium-10 medium-centered">
+            <div class="row">
+                <div class="column">
+                    <h2>@Resources.MSTrust_Heading</h2>
+                    <p>@Resources.MSTrust_Content</p>
+                </div>
+            </div>
+            <div class="row row-size2">
+                <div class="column">
+                    <a href="http://www.microsoft.com/trustcenter" class="button button-featured">@Resources.MSTrust_Cta</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="section">
+    <div class="row">
+        <div class="column text-center">
+            <h2>@Resources.EasyOnAdmin_Heading</h2>
+        </div>
+    </div>
+    <div class="row row-size3">
+        <div class="column medium-3">
+            <span class="icon icon-size3">@SvgHelper.GetSvg("cloud")</span>
+            <p>@Resources.Cloud_Content</p>
+        </div>
+        <div class="column medium-3">
+            <span class="icon icon-size3 icon-palette02">@SvgHelper.GetSvg("people")</span>
+            <p>@Html.Raw(Resources.People_Content)</p>
+        </div>
+        <div class="column medium-3">
+            <span class="icon icon-size3">@SvgHelper.GetSvg("connect")</span>
+            <p>@Resources.Connect_Content</p>
+        </div>
+        <div class="column medium-3">
+            <span class="icon icon-size3">@SvgHelper.GetSvg("dashboard")</span>
+            <p>@Resources.Dashboard_Content</p>
+        </div>
+    </div>
+</section>
+
+<section class="section section-slate01 section-size3">
+    <div class="row">
+        <div class="column text-center">
+            <h2 class="text-palette02">@Resources.TakeAdvantage_Heading</h2>
+        </div>
+    </div>
+    <div class="row row-size2">
+        <div class="column medium-8 medium-centered">
+            @Html.CreateForm("Signup", new Acom.Forms.Models.FormOptions
+            {
+                Class = "form-email-only",
+                Slug = "signup",
+                SubmitRedirectUrl = "https://app.powerbi.com/signupredirect",
+            })
+            <p class="text-mini text-center">@Html.RawFormatInvariant(Forms.Terms_UseItFree, Html.LocalizeUrl("/terms-of-service/"))</p>
+        </div>
+    </div>
+
+</section>

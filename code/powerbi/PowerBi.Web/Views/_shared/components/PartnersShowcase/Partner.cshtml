@@ -1,0 +1,15 @@
+﻿@model PowerBI.Web.Models.Pages.PartnerShowcases.PartnerShowcaseSearchViewModel
+@using Resources = PowerBI.Resources.Pages.PartnerShowcase.Index
+
+<div class="column medium-6">
+    <div class="column row">
+        <div class="logo-container">
+            <img class="logo" src="@CdnHelper.GetCdnUrl(Model.LogoUrl)" alt="@Model.Name"/>
+        </div>
+        <h3>@Model.Name</h3>
+        <p>@Model.ShortDescription</p>
+    </div>
+    <div class="column row row-size2">
+        <a class="button" href="@Html.LocalizeUrl(Model.Entry.Url)" data-event="partnershowcase-clicked-learnmorecta" data-event-property="@Model.Name">@Resources.LearnMore_Cta</a>
+    </div>
+</div>

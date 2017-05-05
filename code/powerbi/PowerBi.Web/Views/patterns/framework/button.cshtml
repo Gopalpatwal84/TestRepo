@@ -1,0 +1,76 @@
+﻿<section class="section">
+    <div class="row">
+        <div class="column">
+            <h1>Button</h1>
+        </div>
+    </div>
+</section>
+
+<section class="section">
+    <div class="row">
+        <div class="column">
+            <h3>Button (default)</h3>
+            <ul>
+                <li><code>.button</code></li>
+                <li>text: 18px, segoe ui semibold</li>
+                <li>background: none</li>
+                <li>border: 2px, #000000</li>
+                <li>height: 44px</li>
+            </ul>
+            <a href="#" class="button">Button</a>
+            <a href="#" class="button">
+                <span class="icon">@SvgHelper.GetSvg("twitter")</span>
+                Button with icon
+            </a>
+        </div>
+    </div>
+    <div class="row">
+        <div class="column">
+            <h3>Featured Button</h3>
+            <ul>
+                <li><code>.button.button-featured</code></li>
+                <li>text: 18px, segoe ui semibold</li>
+                <li>background: #F2C812</li>
+                <li>border: 2px, #F2C812</li>
+                <li>height: 44px</li>
+            </ul>
+            <a href="#" class="button button-featured">
+                Button that's clear
+            </a>
+            <a href="#" class="button button-featured">
+                <span class="icon">@SvgHelper.GetSvg("twitter")</span>
+                Button with icon
+            </a>
+
+        </div>
+    </div>
+    <div class="row">
+        <div class="column">
+            <h3>Store Button</h3>
+            <ul>
+                <li><code>.button-store</code></li>
+            </ul>
+            <a href="#" class="button-store">
+                <span class="icon">
+                    <img src="@CdnHelper.GetCdnUrl("/pictures/shared/icons/google-store.png")" alt="" />
+                </span>
+                <span class="top">Download from</span>
+                <span class="bottom">Google Play</span>
+            </a>
+        </div>
+    </div>
+    <div class="row column">
+        <h3>Linked list buttons</h3>
+        <ul class="linkList linkList-horizontal">
+            <li>
+                <a href="#" class="button button-featured">
+                    <span class="icon">@SvgHelper.GetSvg("twitter")</span>
+                    Button with icon
+                </a>
+            </li>
+            <li>
+                <a class="cta-secondary" href="#">Secondary cta<span class="glyphicon glyph-micro pbi-glyph-chevronrightmedium"></span></a>
+            </li>
+        </ul>
+    </div>
+</section>

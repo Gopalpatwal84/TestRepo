@@ -1,0 +1,42 @@
+﻿@model PowerBI.Web.Models.Parts.Disqus
+
+<script>
+    var disqus_config = function () {
+        this.language = 'en';
+        this.discovery.disable_all = true;
+    },
+        disqus_shortname = "@Model.Shortname",
+        disqus_url = "@Model.Url";
+
+    $('#disqus-container').html('<a id="comments"></a><div id="disqus_thread"></div>');
+
+    // The following variables should not be defined if they are not included in the Disqus model.
+    @if (Model.Identifier != null)
+    {
+        @: var disqus_identifier = "@Model.Identifier";
+    }
+    
+    @if (Model.Title != null)
+    {
+        @: var disqus_title = "@Model.Title";
+    }
+
+    (function () {
+
+        function init() {
+            // disqus functionality and widget script list
+            var dsqScripts = ['embed.js', 'count.js'];
+
+            // add identifiers for count.js to utilize
+            $('.wa-navigationScroll li:last-child a')
+                    .addClass('disqus-comment-count')
+                    .attr('data-disqus-identifier', '@Model.Identifier');
+
+            for (var i = 0; i < dsqScripts.length; i++) {
+                $.getScript('//' + disqus_shortname + '.disqus.com/' + dsqScripts[i]);
+            }
+        }
+
+        init();
+    })();
+</script>

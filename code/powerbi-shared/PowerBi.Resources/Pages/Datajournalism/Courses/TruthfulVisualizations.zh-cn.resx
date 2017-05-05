@@ -1,0 +1,241 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" id="root">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="About_Content" xml:space="preserve">
+    <value>&lt;p&gt;本课程使用 Microsoft Power BI 展示多个演示示例，探索如何创建真实的可视化： 
+&lt;ul&gt;&lt;li&gt;详细了解如何创建 Real Sociedad 的数据可视化，通过此数据可视化，在不隐藏数据或更改故事的情况下，交流社区对足球俱乐部的成功所做的贡献。&lt;/li&gt;
+&lt;li&gt;浏览短期自然失业率的金融服务教程，展示如何编辑图形，显示真实的趋势线。&lt;/li&gt;
+&lt;li&gt;使用世界银行提供的数据集，了解如何通过简单的计算来调整数据可视化，生成更清晰的视图。&lt;/li&gt;&lt;/ul&gt;&lt;/p&gt;</value>
+  </data>
+  <data name="Article_Content_10" xml:space="preserve">
+    <value>&lt;h2 id="examples-graphics"&gt;会产生误导的图形示例以及不会误导的图形示例&lt;/h2&gt;
+
+&lt;p&gt;若要按照本教程中展示的示例执行操作，需要以下先决条件：&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;运行 Windows 7 或更高版本的计算机&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;下载并安装 &lt;a href="{0}"&gt;Power BI Desktop&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;注册 Power BI 帐户 (&lt;a href="{1}"&gt;{2}&lt;/a&gt;)&lt;/p&gt;
+
+&lt;p&gt;a.注意，需使用工作邮箱帐户进行注册；不支持个人帐户（gmail、Hotmail、outlook.com、yahoo.com）&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3&gt;避免数据倾斜的教程&lt;/h3&gt;
+
+&lt;p&gt;有时候数据点会造成数据显示发生倾斜。本教程演示如何在显示所有数据的情况下避免数据倾斜。&lt;/p&gt;
+
+&lt;h3&gt;步骤 1：加载示例文件&lt;/h3&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;打开 Real Sociedad 示例文件&lt;strong&gt;Real Sociedad example.pbix&lt;/strong&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;在字段列表中单击“城市筛选器”&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;注意，此表达式如下所示，为圣赛瓦斯蒂安指定单独的类别&lt;/p&gt;
+
+&lt;p&gt;城市筛选器 = IF(data[城市]="圣赛瓦斯蒂安","包括圣赛瓦斯蒂安","除圣赛瓦斯蒂安外的所有城市")&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;单击“城市筛选器”&lt;strong&gt;&lt;/strong&gt;视觉对象。注意，它使用的是“城市筛选器”计算列&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;在“格式设置”&lt;strong&gt;&lt;/strong&gt;窗格上，展开“选择控件”&lt;strong&gt;&lt;/strong&gt;。&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;注意，“单项选择”&lt;strong&gt;&lt;/strong&gt;处于“关闭”&lt;strong&gt;&lt;/strong&gt;状态。这使得用户可以流畅地选择切片器中的值。&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;img src="{3}" alt="" title="" /&gt;&lt;/p&gt;
+
+&lt;h3&gt;步骤 2：通过折线图趋势显示差异&lt;/h3&gt;
+
+&lt;p&gt;有时候，折线图上显示的数据是历史值和预测值的组合。显示这类数据时，向用户清楚地展示差异尤为重要。&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;打开文件 &lt;strong&gt;Natural Rate of Unemployment.pbix&lt;/strong&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;在字段列表中单击“数据点类型”&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;注意，此表达式如下所示，为未来值指定&lt;strong&gt;预测&lt;/strong&gt;类别，为历史值指定&lt;strong&gt;实际&lt;/strong&gt;类别。&lt;/p&gt;&lt;/li&gt;
+  &lt;p&gt;数据点类型 = If(NOW() &gt;= Data[日期],"实际", "预测")&lt;/p&gt;
+&lt;li&gt;&lt;p&gt;单击“按日期显示自然失业率(短期)”&lt;strong&gt;&lt;/strong&gt;折线图视觉对象。注意，它使用的是图例上的“数据点类型”&lt;strong&gt;&lt;/strong&gt;计算列。&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;在“格式设置”&lt;strong&gt;&lt;/strong&gt;窗格上，展开“数据颜色”&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src="{4}" alt="" title="" /&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;注意，两种类别的值之间的差异采用不同的颜色进行绘制。同时，注意已启用图例，并显示在视觉对象左上角。这些设计决策旨在提醒查看者注意一个系列中两种类别的数据之间的差异。&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;img src="{5}" alt="" title="" /&gt;&lt;/p&gt;
+
+&lt;h2 id="visualization-examples"&gt;可视化示例（索引图和总计百分比）&lt;/h2&gt;
+
+&lt;p&gt;若要按照本教程中展示的示例执行操作，需要以下先决条件：&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;运行 Windows 7 或更高版本的计算机&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;下载并安装 &lt;a href="{6}"&gt;&lt;em&gt;Power BI Desktop&lt;/em&gt;&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;注册 Power BI 帐户 (&lt;a href="{1}"&gt;&lt;em&gt;{2}&lt;/em&gt;&lt;/a&gt;)&lt;/p&gt;
+
+&lt;p&gt;a.注意，需使用工作邮箱帐户进行注册；不支持个人帐户（gmail、Hotmail、outlook.com、yahoo.com）&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3&gt;步骤 1：总计百分比&lt;/h3&gt;
+
+&lt;p&gt;大多数情况下，一个值仅在上下文中时才有用。某些情况下，可以假设读者根据之前的经验获得了足够的上下文。例如，阅读一篇描述 800 万荷兰居民特征的文章时，大多数荷兰报纸的读者都知道这个数字代表这个国家近一半的人口数。但是，如果并不指望所有读者都具有相同的背景知识，那么展示总计百分比将非常有用。本示例中，在不清楚全球城市人口数量的前提下，无论印度城市居民数是 3 亿还是 5 亿，都如同显示其代表了全世界 3.5% 的城市人口一样，无法从这个数据中获得更多信息。下面的示例展示了如何不进行任何计算，将值转换成总计百分比。&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;选择要在其中显示总计百分比的视觉对象&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;在值字段的下拉列表中选择“快速计算”&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;p&gt;&lt;img src="{7}" alt="" title="" /&gt;&lt;/p&gt;
+&lt;li&gt;在“快速计算”&lt;strong&gt;&lt;/strong&gt;编辑器中，将“显示值为”&lt;strong&gt;&lt;/strong&gt;设置为“总计百分比”&lt;strong&gt;&lt;/strong&gt;。若要查找最大的四个国家/地区的累积总计百分比，请在筛选框中键入前 4 个国家/地区，并将视觉对象从折线图更改为堆积区域图。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;img src="{8}" alt="" title="" /&gt;&lt;/p&gt;
+&lt;h3&gt;步骤 2：索引图&lt;/h3&gt;
+&lt;p&gt;创建上下文的另一种方法是，比较特定时间范围内某些值的相对增长情况。本实例展示了如何创建索引图，以及在何处计算相对于定义的基准年特定值的增减量。&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;为索引值创建&lt;strong&gt;新度量&lt;/strong&gt;。在此公式中，仅计算城市人口的总和并除以 2005 年城市人口的总和（此处选用 2005 年作为基准年）。&lt;/li&gt;
+  &lt;p&gt;索引城市人口&amp;#160;=\ SUM&amp;#160;(&amp;#160;'Urban&amp;#160;population'[城市人口]&amp;#160;)\ &amp;#160;&amp;#160;&amp;#160;&amp;#160;/&amp;#160;CALCULATE&amp;#160;(\ &amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;SUM&amp;#160;(&amp;#160;'Urban&amp;#160;population'[城市人口]&amp;#160;),\ &amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;'Urban&amp;#160;population'[年份]&amp;#160;=&amp;#160;2005\ &amp;#160;&amp;#160;&amp;#160;&amp;#160;)\ &amp;#160;&amp;#160;*&amp;#160;100&lt;/p&gt;
+&lt;li&gt;绘制实际值和索引度量后，将看到后者如何清楚地显示自 2005 年以来人口增长最快的地区。这是在第一张图中很难观察到的。&lt;img src="{9}" alt="" title="" /&gt;&lt;/li&gt;
+&lt;/ol&gt;</value>
+  </data>
+  <data name="Download_Resources" xml:space="preserve">
+    <value>下载教程所需的全部资源</value>
+  </data>
+  <data name="Hero_Subtitle" xml:space="preserve">
+    <value>可视化很容易产生误导，因此真实地展示信息是关键。Alberto Cairo 将讲解如何设置基准、谨慎处理双比例图表的原因以及考虑受众的重要性。</value>
+  </data>
+  <data name="Hero_Title" xml:space="preserve">
+    <value>真实可视化</value>
+  </data>
+  <data name="InThisArticle" xml:space="preserve">
+    <value>在本文中：</value>
+  </data>
+  <data name="META_DESCRIPTION" xml:space="preserve">
+    <value />
+  </data>
+  <data name="META_KEYWORDS" xml:space="preserve">
+    <value />
+  </data>
+  <data name="META_PAGETITLE" xml:space="preserve">
+    <value>数据新闻 - 真实可视化 | Microsoft Power BI</value>
+  </data>
+  <data name="NextTopic" xml:space="preserve">
+    <value>下一主题：选择图形</value>
+  </data>
+  <data name="RightNav_Link1" xml:space="preserve">
+    <value>会产生误导的图形示例以及不会误导的图形示例</value>
+  </data>
+  <data name="RightNav_Link2" xml:space="preserve">
+    <value>可视化示例（索引图和总计百分比）</value>
+  </data>
+  <data name="Meta_LocJobId" xml:space="preserve">
+    <value>162</value>
+  </data>
+</root>

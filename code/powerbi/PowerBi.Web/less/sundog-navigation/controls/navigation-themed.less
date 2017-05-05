@@ -1,0 +1,131 @@
+@import (reference) '../../variables.d.less';
+@import (reference) '../../mixins.d.less';
+
+// Text color
+.theme-color-helper(@color) when (lightness(@color) < @color-threshold) {
+    color: #fff;
+}
+.theme-color-helper(@color) when (lightness(@color) >= @color-threshold) {
+    color: #000;
+}
+
+// Background color
+.theme-background-helper(@color) when (lightness(@color) < @color-threshold) {
+    background-color: #fff;
+}
+.theme-background-helper(@color) when (lightness(@color) >= @color-threshold) {
+    background-color: #000;
+}
+
+// Link background color
+.theme-link-helper(@color, @percent) when (lightness(@color) < @color-threshold) {
+    background-color: shade(@color-palette02, @percent);
+}
+.theme-link-helper(@color, @percent) when (lightness(@color) >= @color-threshold) {
+    background-color: tint(@color-palette02, @percent);
+}
+
+// Border color
+.theme-divider-helper() {
+    border-color: rgba(0,0,0,.1);
+}
+
+// Fill color
+.theme-fill-helper(@color) when (lightness(@color) < @color-threshold) {
+    fill: #fff;
+}
+.theme-fill-helper(@color) when (lightness(@color) >= @color-threshold) {
+    fill: #000;
+}
+
+////////////////////
+// Navigation
+////////////////////
+.navigation.navigation-themed {
+    .theme-color-helper(@color-palette02);
+    .theme-fill-helper(@color-palette02);
+    background-color: @color-palette02;
+
+    .logo-microsoft {
+        .theme-divider-helper();
+    }
+
+    ////////////////////
+    // Menu: Shared
+    ////////////////////
+    .menu-main,
+    .menu-secondary {
+        > li {
+            > a {
+                &:hover,
+                &.active {
+                    .theme-link-helper(@color-palette02, 20%);
+                }
+
+                &:active {
+                    .theme-link-helper(@color-palette02, 30%);
+                }
+            }
+        }
+    }
+
+    ////////////////////
+    // Menu: Main
+    ////////////////////
+    .menu-main {
+        .theme-link-helper(@color-palette02, 10%);
+    }
+
+    ////////////////////
+    // Menu: Drop
+    ////////////////////
+    .menu-drop {
+        .theme-link-helper(@color-palette02, 20%);
+
+        a {
+            &:hover,
+            &.active {
+                .theme-link-helper(@color-palette02, 30%);
+            }
+
+            &:active {
+                .theme-link-helper(@color-palette02, 40%);
+            }
+        }
+    }
+
+    ////////////////////
+    // Menu: Pop
+    ////////////////////
+    .menu-pop {
+        .theme-link-helper(@color-palette02, 30%);
+
+        a {
+            &:hover,
+            &.active {
+                .theme-link-helper(@color-palette02, 40%);
+            }
+
+            &:active {
+                .theme-link-helper(@color-palette02, 40%);
+            }
+        }
+    }
+
+    ////////////////////
+    // Hamburger
+    ////////////////////
+    .hamburger {
+        .theme-divider-helper();
+
+        .icon-hamburger {
+            .theme-divider-helper();
+        }
+    }
+
+    .hamburger-deluxe {
+        .fixin {
+            .theme-background-helper(@color-palette02);
+        }
+    }
+}

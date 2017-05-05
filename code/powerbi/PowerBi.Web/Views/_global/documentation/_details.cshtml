@@ -1,0 +1,128 @@
+﻿@model PowerBI.Web.Models.Pages.Documentation.Details
+
+@using Acom.Forms.Models
+@using PowerBI.Web.Features.Forms.Models
+@using Resources = PowerBI.Resources.Pages.Documentation.Details;
+
+@{
+    Model.PageTitle = $"{Model.Article.Title} | {Resources.META_PAGETITLE}";
+    var configuration = DependencyResolver.Current.GetService<PowerBI.Web.Configuration.PowerBIConfiguration>();
+}
+
+<section class="section section-size2 section-palette02 section-heading-only">
+    <div class="row">
+        <div class="column">
+            <h2 class="text-heading1">@Resources.Heading</h2>
+        </div>
+    </div>
+</section>
+
+<section class="section section-size1 section-slate01 subnav-collapse">
+    <div class="row">
+        <div class="column">
+            <div class="subnavMenuToggle">
+                <span class="subnavMenuExpandIcon">
+                    <span class="icon-bar bar1"></span>
+                    <span class="icon-bar bar2"></span>
+                    <span class="icon-bar bar3"></span>
+                </span>
+                <span class="subnavMenuText text-heading5">@Resources.DocumentationCategories</span>
+            </div>
+            <a href="#" class="icon icon-size2 icon-palette01 toggler hide-for-large pull-right" data-set="search">
+                @SvgHelper.GetSvg("search")
+            </a>
+        </div>
+        <div class="subnavMenuLinks">
+            <div class="column medium-9">
+                <ul class="linkList linkList-horizontal">
+                    <li class="subnavLink">@MiniMenuLink("Power BI Service", "article:powerbi-service-get-started", Resources.Menu_Service, Model?.LeftNavigation?.Lefty?.Slug == "service")</li>
+                    <li class="subnavLink">@MiniMenuLink("Power BI Desktop", "article:powerbi-desktop-get-the-desktop", Resources.Menu_Desktop, Model?.LeftNavigation?.Lefty?.Slug == "desktop")</li>
+                    <li class="subnavLink">@MiniMenuLink("Power BI Mobile Apps", "article:powerbi-power-bi-apps-for-mobile-devices", Resources.Menu_Mobile, Model?.LeftNavigation?.Lefty?.Slug == "mobile")</li>
+                    <li class="subnavLink">@MiniMenuLink("Power BI Developer", "article:powerbi-developer-overview-of-power-bi-rest-api", Resources.Menu_Dev, Model?.LeftNavigation?.Lefty?.Slug == "developer")</li>
+                </ul>
+            </div>
+            <div class="column medium-3 show-for-large">
+                @SearchBox()
+            </div>
+        </div>
+    </div>
+    <div class="row row-size1 column hide-for-large toggled" data-animation="slide" data-set="search">
+        @SearchBox()
+    </div>
+</section>
+
+<section class="section section-size3" itemscope="itemscope" itemtype="http://schema.org/TechArticle">
+    <div class="row">
+        <div class="column large-7 large-offset-3 article-header">
+            <h1 itemprop="headline">@Model.Article.Title</h1>
+            @if (Model?.Contributors?.Any() == true)
+            {
+                <div class="author-meta">
+                    <img src="@Model.GitHubAvatarUrl" alt=""/>
+                    <p>@Html.RawFormatInvariant(Resources.AuthorCredit, Model.GitHubProfileUrl, Model.Contributors.First().Name)</p>
+                    <p class="article-date">@Model.LastModified.ToString("D")</p>
+                </div>
+            }
+        </div>
+    </div>
+    <div class="row row-size1">
+        <div class="column large-3">
+            @if (Model.LeftNavigation?.Lefty != null)
+            {
+                @Html.Partial("parts/_leftnavigation", Model.LeftNavigation)
+            }
+        </div>
+        <div class="column large-7 articlebody" itemprop="articlebody">
+            @Html.Raw(Model.Content)
+        </div>
+        <div class="column large-2 column-navigationScroll">
+        </div>
+    </div>
+</section>
+
+@if (Model.FeedbackEnabled)
+{
+    <div class="docsFeedback" data-control="feedback-vote-container" data-vote-slug="@(Model.Article.Slug + "-" + Model.LastModified.ToString("yyyy-MM-dd"))" style="display: none;">
+        <section class="section section-size3 section-slate05 docsFeedback">
+            <div class="row">
+                <div class="column large-9 large-offset-3 form-replace">
+                    @Html.CreateForm("Feedback", (FormOptions)new FeedbackFormOptions
+                    {
+                        Class = "form-feedback",
+                        Slug = Model.Article.Slug,
+                        SubmitView = "form/submitviews/_feedbackthanks",
+                        ArticleModified = Model.LastModified
+                    })
+                </div>
+            </div>
+        </section>
+    </div>
+}
+
+@helper MiniMenuLink(string eventProperty, string url, string text, bool isActive)
+{
+    <a data-event="doc-clicked-menu" data-event-property="@eventProperty" href="@Html.LocalizeUrl(url)" class="@(isActive ? "active" : "")">
+        @text
+    </a>
+}
+
+@helper SearchBox()
+{
+    using (Html.BeginForm("Documentation", "Search", FormMethod.Get, new { onsubmit = "event.stopPropagation();" }))
+    {
+        <div class="search-input search-input-small">
+            @Html.TextBox("q", null, new { placeholder = Resources.SearchPlaceholder })
+            <button type="submit" class="icon">@SvgHelper.GetSvg("search")</button>
+        </div>
+    }
+}
+
+@section foot {
+    <script>
+        (function () {     
+            $(document).ready(function () {
+                MscomCustomEvent.apply($('body'), ['wcs.cid=power-bi-page-loaded']);
+            });
+        })();
+    </script>
+}

@@ -1,0 +1,20 @@
+﻿@model PowerBI.Web.Models.Pages.ViewMetadataModel
+@using Resources = PowerBI.Resources.Pages.Android3rdParty.Index
+
+@{
+    Model.PageTitle = Resources.META_PAGETITLE;
+    Model.MetaDescription = Resources.META_DESCRIPTION;
+    Model.MetaKeywords = Resources.META_KEYWORDS;
+}
+
+<section class="section section-size2 section-palette02 section-heading-only">
+    <div class="row column">
+        @Html.Raw(Resources.Heading)
+    </div>
+</section>
+
+<section class="section">
+    <div class="row column">
+        @Html.Raw(Resources.Content)
+    </div>
+</section>

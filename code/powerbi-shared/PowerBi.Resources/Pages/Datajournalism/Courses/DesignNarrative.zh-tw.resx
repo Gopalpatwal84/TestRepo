@@ -1,0 +1,294 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" id="root">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="About_Content" xml:space="preserve">
+    <value>&lt;p&gt;您也將收看強調下列資訊的 Microsoft Power BI 示範： &lt;ul&gt;
+    &lt;li&gt;逐步說明如何將設計不良的圓形圖改造成外觀整齊精簡的樹狀圖與橫條圖，讓觀眾可以獲得重要深入解析。&lt;/li&gt;
+    &lt;li&gt;收看有關如何將 Alberto 的設計原則應用至值得在部落格或線上文章中發行的互動式資料視覺效果。&lt;/li&gt;
+    &lt;li&gt;探索如何將靜態散佈圖重新建立為互動式資料視覺效果，以便使用動畫、互動和旁白。&lt;/li&gt;
+    &lt;li&gt;了解如何與圖示影像建立關聯，並將它連結至您的資料。這包括有關如何使用 Synoptic Panel 的概觀，您可以使用此工具在任何地圖影像上繪製自訂區域，並將它以 SVG 檔案形式匯出至 Power BI，以根據該資料為不同的區域著色。&lt;/li&gt;
+    &lt;li&gt;更深入了解 SandDance，這是視覺化以取得立體資料外觀的新方法。&lt;/li&gt;
+    &lt;li&gt;探索擴增實境示範的未來資料視覺效果。了解使用者如何取得資料並將它與實體空間合併。&lt;/li&gt;
+&lt;/ul&gt;&lt;/p&gt;</value>
+  </data>
+  <data name="Article_Content_26" xml:space="preserve">
+    <value>&lt;h2 id="synoptic-panel"&gt;Synoptic Panel&lt;/h2&gt;
+
+&lt;p&gt;為了遵循本課所顯示的範例，您必須具備下列必要條件：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;執行 Windows 7 或更新版本的電腦&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;下載及安裝 &lt;a href="{0}"&gt;Power BI Desktop&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;註冊 Power BI 帳戶 (&lt;a href="{1}"&gt;{1}&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;a.請注意，您需要使用工作電子郵件帳戶進行註冊；不支援個人帳戶 (gmail、Hotmail、outlook.com、yahoo.com)&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;互動式影像利用相當不同的方式來加強您的資料故事。不論是使用您剛才分解的汽車圖片，還是太陽能的圖形表示&lt;/p&gt;
+&lt;h3&gt;步驟 1：從平面影像建立新的地圖&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;開啟新的瀏覽器視窗，然後前往 &lt;a href="{2}"&gt;{2}&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;將檔案 &lt;strong&gt;solar.png&lt;/strong&gt; 拖曳至畫布上方&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;選取影像中的其中一個圓形&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;如下圖所示，您應該會看到圓形受到自動追蹤，並標示為右窗格中的區域 1。您可以將名稱變更為&lt;strong&gt;太陽&lt;/strong&gt;。如果您不想要在地圖上顯示區域名稱，請在 [(要顯示的) 區域名稱]&lt;strong&gt;&lt;/strong&gt; 方塊中輸入一個空格字元。&lt;/p&gt;
+&lt;p&gt;&lt;img src="{3}" alt="" title="" /&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;繼續選取並命名其他行星。&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;當您完成地圖時，選取右下角的 [匯出至 Power BI]&lt;strong&gt;&lt;/strong&gt;。這會開始下載您新建立的地圖。&lt;/p&gt;
+&lt;p&gt;&lt;img src="{4}" alt="" title="" /&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;在 Power BI Desktop 中開啟 &lt;strong&gt;solar.pbix&lt;/strong&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;從視覺效果資源庫下載 &lt;a href="{5}"&gt;Synoptic Panel 視覺效果&lt;/a&gt;，然後使用 [視覺效果] 窗格中的三個點將它匯入您的報表中。Synoptic Panel 現在將會顯示為視覺效果集合中的一個新圖示。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src="{6}" alt="" title="" /&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;使用此圖示可建立新的視覺效果，並將 [行星]&lt;strong&gt;&lt;/strong&gt; 從 [資料]&lt;strong&gt;&lt;/strong&gt; 資料表拖曳至 [圖例] 上方。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src="{7}" alt="" title="" /&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;使用 [選取地圖]&lt;strong&gt;&lt;/strong&gt; 載入您剛才下載的地圖。將值 (例如表面平均溫度) 拖曳至 [欄位] 面板中的 [值]&lt;strong&gt;&lt;/strong&gt; 上方。&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;此資料現在會連接到地圖中的圖形。您可以開始設計頁面的其餘部分，並嘗試地圖的各種互動功能和著色。&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3&gt;步驟 2：使用預先定義形狀的形狀檔&lt;/h3&gt;
+
+&lt;p&gt;您也可以針對已定義視覺效果圖層的檔案使用 Synoptic Panel。引導 Inkscape (免費工具) 或 Adobe Illustrator 等編輯器來命名您的圖形和圖層。儲存為 SVG 檔案可讓您存放此資訊。&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;若要使用相同的範例進行探索，請將 &lt;strong&gt;solar.svg&lt;/strong&gt; 拖曳到 Synoptic Designer 編輯器上方
+&lt;p&gt;&lt;img src="{8}" alt="" title="" /&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;載入此影像，即會辨識預先定義的圖形，並在右側的 [區域]&lt;strong&gt;&lt;/strong&gt; 窗格中顯示。您可以在此檢查定義的名稱，並視需要進行編輯。&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;之後的步驟會類似於以上所述的步驟。選取 [匯出至 Power BI]&lt;strong&gt;&lt;/strong&gt;，然後在 Power BI 的 Synoptic Panel 中開啟地圖。&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id="augmented-reality"&gt;使用 Power BI 擴增實境&lt;/h2&gt;
+
+&lt;p&gt;針對本教學課程，您需要：&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;Alberto Cairo Book Report.pbix&lt;/strong&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;PowerBI.com 帳戶 (註冊於 &lt;a href="{1}"&gt;{1}&lt;/a&gt;)&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3&gt;步驟 1：將報表發行至您的 Power BI.com 帳戶&lt;/h3&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;在 Power BI Desktop 中開啟檔案 &lt;strong&gt;Alberto Cairo Book Report.pbix&lt;/strong&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;使用 [首頁]&lt;strong&gt;&lt;/strong&gt; 功能區中的 [發行]&lt;strong&gt;&lt;/strong&gt;，將報表發行至您的 Power BI 帳戶&lt;/p&gt;
+&lt;p&gt;&lt;img src="{9}" alt="" title="" /&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;系統可能會提示您登入 Power BI
+&lt;p&gt;&lt;img src="{10}" alt="" title="" /&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;當您已登入且發行程序已完成時，會看到下列對話方塊。
+&lt;p&gt;&lt;img src="{11}" alt="" title="" /&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;按一下&lt;strong&gt;在 Power BI 中開啟 ‘Alberto Cairo Book Report.pbix’&lt;/strong&gt; 的連結。 瀏覽器視窗隨即開啟，您將看到報表。&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;按下 &lt;strong&gt;Alberto Cairo by the Numbers&lt;/strong&gt; 直條圖右上方的&lt;strong&gt;釘選&lt;/strong&gt;圖示。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src="{12}" alt="" title="" /&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;在 [釘選到儀表板]&lt;strong&gt;&lt;/strong&gt; 對話方塊中，選取 [新增儀表板]&lt;strong&gt;&lt;/strong&gt;，然後為您的儀表板提供名稱&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;按下 [釘選]&lt;strong&gt;&lt;/strong&gt;。&lt;/p&gt;
+&lt;p&gt;&lt;img src="{13}" alt="" title="" /&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;靠近右上角的成功訊息讓您知道，視覺效果已當成磚新增至儀表板。
+&lt;p&gt;&lt;img src="{14}" alt="" title="" /&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;開啟您剛才建立的儀表板。若要這樣做，請選取左功能窗格中 [儀表板]&lt;strong&gt;&lt;/strong&gt; 標題下的名稱。由於儀表板是新的，因此它會有黃色星號。
+&lt;p&gt;&lt;img src="{15}" alt="" title="" /&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;按下儀表板磚右上方的&lt;strong&gt;焦點模式&lt;/strong&gt;圖示 &lt;img src="{16}" alt="" title="" /&gt;。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src="{17}" alt="" title="" /&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;選取右上角的省略符號 (...)，然後選取 [產生 QR 代碼]&lt;strong&gt;&lt;/strong&gt;。
+&lt;p&gt;&lt;img src="{18}" alt="" title="" /&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;具有 QR 代碼的對話方塊隨即出現。
+&lt;p&gt;&lt;img src="{19}" alt="" title="" /&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;您可於此處掃描 QR 代碼，或下載並加以儲存，以：&lt;/p&gt;
+
+&lt;p&gt;a.將其新增至電子郵件或其他文件，或&lt;/p&gt;
+
+&lt;p&gt;b.列印出來，並將其置於特定位置。&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3&gt;步驟 2：列印 QR 代碼&lt;/h3&gt;
+
+&lt;p&gt;Power BI 會將 QR 代碼產生為 JPG 檔案，可供列印。&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;選取 [下載]&lt;strong&gt;&lt;/strong&gt;，然後在連接到印表機的電腦上開啟該 JPG 檔案。&lt;/li&gt;
+  &lt;p&gt;&lt;em&gt;&lt;strong&gt;提示&lt;/strong&gt;：JPG 檔案與磚同名。例如，"Opportunity Count - by Month, Sales Stage.jpg"&lt;/em&gt;&lt;/p&gt;
+&lt;li&gt;&lt;p&gt;以 100% 或「實際大小」列印檔案&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;沿著邊緣剪下 QR 代碼，並將其黏到與磚相關之處&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Power BI 中的 QR 代碼可以將真實世界中的任何項目直接連接到相關的 BI 資訊，而不需要進行瀏覽或搜尋。&lt;/p&gt;
+
+&lt;p&gt;假設有位同事針對儀表板中的某個報表或磚&lt;a href="{20}"&gt;使用 Power BI 服務建立 QR 代碼&lt;/a&gt;，並與您共用儀表板或報表，然後將 QR 代碼放在索引鍵位置 (例如電子郵件或特定項目)。&lt;/p&gt;
+
+&lt;p&gt;您可以使用 Power BI 應用程式中的掃描器，或安裝在手機上的任何其他掃描器，直接從手機掃描 QR 代碼，以立即存取相關的磚或報表。&lt;/p&gt;
+
+&lt;h3&gt;步驟 3：從手機上的外部掃描器掃描 QR 代碼&lt;/h3&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;從安裝在手機上的任何掃描器，將掃描器對準相關的 Power BI QR 代碼，以立即存取磚或報表。&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;如果未安裝 Power BI 應用程式，則會將您重新導向至 iPhone 上的 &lt;a href="{21}"&gt;Apple App Store 進行下載&lt;/a&gt;。&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3&gt;步驟 4：使用 Power BI 掃描器掃描 Power BI QR 代碼&lt;/h3&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;在 Power BI 行動裝置應用程式中，開啟全域導覽功能表 &lt;img src="{22}" alt="" title="" /&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;向下捲動至 [掃描器]&lt;strong&gt;&lt;/strong&gt; 並加以選取。&lt;/p&gt;
+&lt;p&gt;&lt;img src="{23}" alt="" title="" /&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;如果未啟用您的相機，您需要核准 Power BI 應用程式使用相機。您只需要核准一次。&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;將掃描器對準 Power BI QR 代碼。&lt;/p&gt;
+&lt;p&gt;&lt;img src="{24}" alt="" title="" /&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;此磚或報表似乎停留在擴增實境的背景上方。&lt;p&gt;&lt;img src="{25}" alt="" title="" /&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;您可以點選磚在焦點模式中開啟，或回到掃描器。&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;注意：已與其共用儀表板的同事，可以&lt;a href="{20}"&gt;直接從他們的手機掃描該 QR 代碼以存取磚&lt;/a&gt;。他們可以使用位於 Power BI 應用程式中的 QR 代碼掃描器或其手機所安裝的任何其他 QR 掃描器。深入了解&lt;a href="{26}"&gt;如何共用儀表板&lt;/a&gt;。&lt;/p&gt;</value>
+  </data>
+  <data name="Download_Resources" xml:space="preserve">
+    <value>下載這些教學課程所需的所有資源</value>
+  </data>
+  <data name="Hero_Subtitle" xml:space="preserve">
+    <value>在最後一課中，Alberto Cairo 將探討視覺化設計，包括印刷樣式、色彩、構圖、圖示元素、敘述中的圖形排列方式，以及未來預期看到的內容。Alberto 將討論視覺化設計之所以重要而不應事後再考慮的原因。</value>
+  </data>
+  <data name="Hero_Title" xml:space="preserve">
+    <value>設計與敘述</value>
+  </data>
+  <data name="InThisArticle" xml:space="preserve">
+    <value>本文內容：</value>
+  </data>
+  <data name="META_DESCRIPTION" xml:space="preserve">
+    <value />
+  </data>
+  <data name="META_KEYWORDS" xml:space="preserve">
+    <value />
+  </data>
+  <data name="META_PAGETITLE" xml:space="preserve">
+    <value>資料新聞學 - 設計與敘述 | Microsoft Power BI</value>
+  </data>
+  <data name="RightNav_Link1" xml:space="preserve">
+    <value>Synoptic Panel</value>
+  </data>
+  <data name="RightNav_Link2" xml:space="preserve">
+    <value>使用 Power BI 擴增實境</value>
+  </data>
+  <data name="Meta_LocJobId" xml:space="preserve">
+    <value>159</value>
+  </data>
+</root>

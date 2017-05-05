@@ -1,0 +1,241 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" id="root">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="About_Content" xml:space="preserve">
+    <value>&lt;p&gt;Ce cours utilise Microsoft Power BI pour afficher des démonstrations expliquant comment créer des visualisations précises&amp;#160;: 
+&lt;ul&gt;&lt;li&gt;Découvrez comment créer une visualisation de données pour la Real Sociedad afin de montrer comment la communauté a contribué au succès du club de football sans masquer de données ou en modifier l’interprétation.&lt;/li&gt;
+&lt;li&gt;Explorez un didacticiel de services financiers relatif au taux de chômage naturel à court terme, pour voir comment modifier un graphique afin d’afficher une courbe de tendance précise.&lt;/li&gt;
+&lt;li&gt;Utilisez un jeu de données de la Banque mondiale pour savoir comment ajuster vos visualisations de données à l’aide de calculs simples afin de générer une vue plus claire.&lt;/li&gt;&lt;/ul&gt;&lt;/p&gt;</value>
+  </data>
+  <data name="Article_Content_10" xml:space="preserve">
+    <value>&lt;h2 id="examples-graphics"&gt;Exemples de graphiques trompeurs et non trompeurs&lt;/h2&gt;
+
+&lt;p&gt;Pour suivre les exemples présentés dans ce cours, vous devez&amp;#160;:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;Disposer d’un ordinateur exécutant Windows&amp;#160;7 ou version ultérieure&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Télécharger et installer &lt;a href="{0}"&gt;Power&amp;#160;BI&amp;#160;Desktop&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Ouvrir un compte Power BI (&lt;a href="{1}"&gt;{2}&lt;/a&gt;)&lt;/p&gt;
+
+&lt;p&gt;a. Notez que, pour vous inscrire, vous devez utiliser un compte de messagerie professionnel. Les comptes personnels (gmail, Hotmail, outlook.com, yahoo.com, etc.) ne sont pas pris en charge&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3&gt;Didacticiel sur l’évitement de la déformation de données&lt;/h3&gt;
+
+&lt;p&gt;Parfois, un point de données déforme la présentation des données. Ce didacticiel montre comment éviter la déformation de données tout en permettant l’affichage de toutes les données.&lt;/p&gt;
+
+&lt;h3&gt;Étape&amp;#160;1&amp;#160;: charger le fichier exemple&lt;/h3&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;Ouvrez le fichier exemple de la Real Sociedad &lt;strong&gt;Real Sociedad example.pbix&lt;/strong&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Cliquez sur &lt;strong&gt;Filtre de ville&lt;/strong&gt; dans la liste de champs&lt;/p&gt;
+
+&lt;p&gt;Notez que l’expression se présente comme suit. Elle classe San Sebastian dans une catégorie distincte&lt;/p&gt;
+
+&lt;p&gt;City filter = IF(data[Ville]="DONOSTIA-SAN SEBASTIÁN";"Include SAN SEBASTIÁN";"All except SAN SEBASTIÁN")&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Cliquez sur le visuel &lt;strong&gt;Filtre de ville&lt;/strong&gt;. Notez qu’il utilise la colonne calculée Filtre de ville&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Dans le volet &lt;strong&gt;Format&lt;/strong&gt;, développez &lt;strong&gt;Contrôles de sélection&lt;/strong&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Notez que l’option &lt;strong&gt;Sélection simple&lt;/strong&gt; est &lt;strong&gt;Désactivée&lt;/strong&gt;. Cela permet à l’utilisateur de sélectionner avec fluidité les valeurs dans le curseur.&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;img src="{3}" alt="" title="" /&gt;&lt;/p&gt;
+
+&lt;h3&gt;Étape&amp;#160;2&amp;#160;: afficher une différence dans des graphiques en courbes&lt;/h3&gt;
+
+&lt;p&gt;Parfois, les données affichées sur un graphique en courbes sont une combinaison de valeurs historiques et prévisionnelles. Lors de l’affichage de ce genre de données, il est important de montrer clairement la différence aux utilisateurs.&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;Ouvrez le fichier &lt;strong&gt;Natural Rate of Unemployment.pbix&lt;/strong&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Cliquez sur &lt;strong&gt;Type de point de données&lt;/strong&gt; dans la liste Champ&lt;/p&gt;
+
+&lt;p&gt;Notez que l’expression se présente comme suit, ce qui classe les valeurs futures dans la catégorie &lt;strong&gt;Prévisions&lt;/strong&gt;, et les valeurs historiques dans la catégorie &lt;strong&gt;Réelles&lt;/strong&gt;.&lt;/p&gt;&lt;/li&gt;
+  &lt;p&gt;Type of Data Point = If(NOW() &gt;= Data[Date];"Réelles"; "Prévisions")&lt;/p&gt;
+&lt;li&gt;&lt;p&gt;Cliquez sur le visuel graphique en courbes &lt;strong&gt;Taux de chômage naturel (à court terme) par date&lt;/strong&gt;. Notez qu’il utilise la colonne calculée &lt;strong&gt;Type de point de données&lt;/strong&gt; sur la Légende.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Sous l’onglet &lt;strong&gt;Format&lt;/strong&gt;, développez &lt;strong&gt;Couleurs des données&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src="{4}" alt="" title="" /&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Notez que différentes couleurs sont utilisées pour marquer clairement la distinction entre les deux catégories de valeurs. Notez également que la Légende est activée et affichée dans l’angle supérieur gauche du visuel. Ces décisions de conception ont été prises pour attirer l’attention du lecteur sur la différence entre deux catégories de données dans cette série.&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;img src="{5}" alt="" title="" /&gt;&lt;/p&gt;
+
+&lt;h2 id="visualization-examples"&gt;Exemples de visualisation (Graphiques indexés et pourcentage du total)&lt;/h2&gt;
+
+&lt;p&gt;Pour suivre les exemples présentés dans ce cours, vous devez&amp;#160;:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;Disposer d’un ordinateur exécutant Windows&amp;#160;7 ou version ultérieure&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Télécharger et installer &lt;a href="{6}"&gt;&lt;em&gt;Power&amp;#160;BI&amp;#160;Desktop&lt;/em&gt;&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Ouvrir un compte Power BI (&lt;a href="{1}"&gt;&lt;em&gt;{2}&lt;/em&gt;&lt;/a&gt;)&lt;/p&gt;
+
+&lt;p&gt;a. Notez que, pour vous inscrire, vous devez utiliser un compte de messagerie professionnel. Les comptes personnels (gmail, Hotmail, outlook.com, yahoo.com, etc.) ne sont pas pris en charge&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3&gt;Étape&amp;#160;1&amp;#160;: pourcentage du total&lt;/h3&gt;
+
+&lt;p&gt;Le plus souvent, une valeur n’est pas très utile hors contexte. Parfois, vous pouvez penser que vos lecteurs ont suffisamment de contexte d’une expérience précédente. Par exemple, prenons un article évoquant une caractéristique de 8&amp;#160;millions de citoyens néerlandais. La plupart des lecteurs de journaux néerlandais savent qu’il s’agit d’environ la moitié de la population du pays. En revanche, s’il est improbable que vos lecteurs aient cette information en tête, il peut être utile d’afficher un pourcentage du total. Dans cet exemple, je n’ai pas d’idée claire de la population urbaine mondiale par laquelle commencer. Ainsi, savoir que l’Inde compte 300 ou 500 millions d’habitants urbains ne m’informera pas autant que de savoir qu’ils représentent 3,5&amp;#160;% de la population urbaine du monde. L’exemple ci-dessous montre comment convertir une valeur en pourcentage d’un total sans rien calculer.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;Sélectionnez le visuel dans lequel vous voulez présenter le pourcentage du total&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Sélectionnez &lt;strong&gt;Calcul rapide&lt;/strong&gt; dans le menu déroulant de votre champ de valeur&lt;/p&gt;&lt;/li&gt;
+&lt;p&gt;&lt;img src="{7}" alt="" title="" /&gt;&lt;/p&gt;
+&lt;li&gt;Dans l’éditeur &lt;strong&gt;Calcul rapide&lt;/strong&gt;, définissez &lt;strong&gt;Afficher la valeur comme&lt;/strong&gt; sur &lt;strong&gt;Pourcentage du total général&lt;/strong&gt;. Pour déterminer le pourcentage cumulé du total pour les quatre plus grands pays, tapez ceux-ci dans la zone de filtre, puis convertissez le visuel de graphique en courbes en Graphique de zone empilé.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;img src="{8}" alt="" title="" /&gt;&lt;/p&gt;
+&lt;h3&gt;Étape 2&amp;#160;: graphique indexé&lt;/h3&gt;
+&lt;p&gt;Une autre manière de créer un contexte consiste à comparer une croissance relative d’une valeur donnée sur une période spécifique. Cet exemple montre comment créer un graphique indexé dans lequel vous calculez dans quelle mesure une valeur spécifique a augmenté ou diminué par rapport à l’année de base que vous définissez.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Créez une &lt;strong&gt;Nouvelle mesure&lt;/strong&gt; pour la valeur indexée. Dans cette formule, vous prenez simplement le total de la population urbaine, que vous divisez par le total de la population urbaine de 2005, qui est ici ma ligne de base.&lt;/li&gt;
+  &lt;p&gt;Population urbaine indexée&amp;#160;=\ SUM&amp;#160;(&amp;#160;'Population urbaine'[Population urbaine]&amp;#160;)\ &amp;#160;&amp;#160;&amp;#160;&amp;#160;/&amp;#160;CALCULATE&amp;#160;(\ &amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;SUM&amp;#160;(&amp;#160;'Population urbaine'[Population urbaine]&amp;#160;);\ &amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;'Population urbaine'[Année]&amp;#160;=&amp;#160;2005\ &amp;#160;&amp;#160;&amp;#160;&amp;#160;)\ &amp;#160;&amp;#160;*&amp;#160;100&lt;/p&gt;
+&lt;li&gt;Lorsque vous tracez les valeurs réelles et la mesure indexée, vous voyez que celle-ci affiche clairement les régions dont la croissance a été la plus rapide depuis 2005. Il est beaucoup plus difficile de tirer cette information du premier graphique.&lt;img src="{9}" alt="" title="" /&gt;&lt;/li&gt;
+&lt;/ol&gt;</value>
+  </data>
+  <data name="Download_Resources" xml:space="preserve">
+    <value>Téléchargez les ressources nécessaires pour ces didacticiels</value>
+  </data>
+  <data name="Hero_Subtitle" xml:space="preserve">
+    <value>Il est facile de se fourvoyer dans les visualisations et la clé réside dans le fait de refléter fidèlement les informations. Alberto Cairo explique comment définir les lignes de base, pourquoi il faut être prudent avec les graphiques à double échelle, et l’importance de tenir compte de votre public.</value>
+  </data>
+  <data name="Hero_Title" xml:space="preserve">
+    <value>Visualisations précises</value>
+  </data>
+  <data name="InThisArticle" xml:space="preserve">
+    <value>Contenu de cet article :</value>
+  </data>
+  <data name="META_DESCRIPTION" xml:space="preserve">
+    <value />
+  </data>
+  <data name="META_KEYWORDS" xml:space="preserve">
+    <value />
+  </data>
+  <data name="META_PAGETITLE" xml:space="preserve">
+    <value>Journalisme de données - Visualisations précises | Microsoft Power BI</value>
+  </data>
+  <data name="NextTopic" xml:space="preserve">
+    <value>Nouvelle rubrique : Choix des graphiques</value>
+  </data>
+  <data name="RightNav_Link1" xml:space="preserve">
+    <value>Exemples de graphiques trompeurs et non trompeurs</value>
+  </data>
+  <data name="RightNav_Link2" xml:space="preserve">
+    <value>Exemples de visualisation (Graphiques indexés et pourcentages du total)</value>
+  </data>
+  <data name="Meta_LocJobId" xml:space="preserve">
+    <value>159</value>
+  </data>
+</root>

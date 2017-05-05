@@ -1,0 +1,457 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" id="root">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="CampaignAnalytics_Description" xml:space="preserve">
+    <value>&lt;ul&gt;
+&lt;li&gt;实时分析市场活动&lt;/li&gt;
+&lt;li&gt;判断消费者趋势和情绪的变化&lt;/li&gt;
+&lt;li&gt;对比不同细分市场、市场活动、渠道等的实际收入、成本和投资回报率&lt;/li&gt;
+&lt;/ul&gt;</value>
+  </data>
+  <data name="CampaignAnalytics_Tagline" xml:space="preserve">
+    <value>使用可以访问结果的交互式仪表板，将市场数据转变为切实可行的见解。</value>
+  </data>
+  <data name="CampaignAnalytics_Title" xml:space="preserve">
+    <value>市场活动分析</value>
+  </data>
+  <data name="CapexManagement_Description" xml:space="preserve">
+    <value>&lt;ul&gt;
+&lt;li&gt;通过实时更新更早地发现意外的成本增加&lt;/li&gt;
+&lt;li&gt;快速应对变化并采取纠正措施&lt;/li&gt;
+&lt;li&gt;只需单击几下即可与相关团队分享报表&lt;/li&gt;
+&lt;/ul&gt;</value>
+  </data>
+  <data name="CapexManagement_Tagline" xml:space="preserve">
+    <value>能够空出更多时间进行策略分析 - 不用再四处搜寻数据。</value>
+  </data>
+  <data name="CapexManagement_Title" xml:space="preserve">
+    <value>资本支出管理</value>
+  </data>
+  <data name="ClaimsAnalysis_Description" xml:space="preserve">
+    <value>&lt;ul&gt;
+&lt;li&gt;通过分析过去的总申报额、生产量或发货次数等指标来提高效率&lt;/li&gt;
+&lt;li&gt;仪表板具有拖放功能和令人惊叹的视觉对象，便于查看其上的数据&lt;/li&gt;
+&lt;li&gt;维护各部门之间的一致性，更易于管理&lt;/li&gt;
+&lt;/ul&gt;</value>
+  </data>
+  <data name="ClaimsAnalysis_Tagline" xml:space="preserve">
+    <value>通过对发货间隔、库存不足和其他具有时效性需求的移动提醒，做出更快速的反应。</value>
+  </data>
+  <data name="ClaimsAnalysis_Title" xml:space="preserve">
+    <value>申报额分析</value>
+  </data>
+  <data name="ComplianceTraining_Description" xml:space="preserve">
+    <value>&lt;ul&gt;
+&lt;li&gt;根据目标和基于角色的指标，监督个人进步和成长&lt;/li&gt;
+&lt;li&gt;通过单击进入基础数据，进行实时调查&lt;/li&gt;
+&lt;li&gt;使用 Power BI 直观的问答格式，以自然语言进行提问&lt;/li&gt;
+&lt;/ul&gt;</value>
+  </data>
+  <data name="ComplianceTraining_Tagline" xml:space="preserve">
+    <value>使用可访问详细数据的交互式仪表板，做出周全的决定。</value>
+  </data>
+  <data name="ComplianceTraining_Title" xml:space="preserve">
+    <value>合规性训练</value>
+  </data>
+  <data name="EmailAnalytics_Description" xml:space="preserve">
+    <value>&lt;ul&gt;
+&lt;li&gt;利用新颖的仪表板和报表，快速了解市场活动成果&lt;/li&gt;
+&lt;li&gt;对比不同市场活动、客户群和地区的结果&lt;/li&gt;
+&lt;li&gt;探索如何让你的市场营销方法更好地适应特定用户&lt;/li&gt;
+&lt;/ul&gt;</value>
+  </data>
+  <data name="EmailAnalytics_Tagline" xml:space="preserve">
+    <value>利用实时信息正确地传递投资回报率等重要的结果。</value>
+  </data>
+  <data name="EmailAnalytics_Title" xml:space="preserve">
+    <value>电子邮件分析</value>
+  </data>
+  <data name="ExpenseManagement_Description" xml:space="preserve">
+    <value>&lt;ul&gt;
+&lt;li&gt;使用直观的可视化效果，及早发现费用异常和异常状况&lt;/li&gt;
+&lt;li&gt;分析趋势和模式，主动寻找欺诈与滥用的迹象&lt;/li&gt;
+&lt;li&gt;使用自动更新，确保数据永远保持为最新&lt;/li&gt;
+&lt;/ul&gt;</value>
+  </data>
+  <data name="ExpenseManagement_Tagline" xml:space="preserve">
+    <value>以单一窗格视图查看财务数据，且将所有数据源集中在单一模式中。</value>
+  </data>
+  <data name="ExpenseManagement_Title" xml:space="preserve">
+    <value>费用管理</value>
+  </data>
+  <data name="Finance_Description" xml:space="preserve">
+    <value>有关财务业绩方面，你是否得到了需要的答案？ Power BI 能够从外部和本地的每个来源搜集数据，提供拖放的可视化工具快速分析和探索见解，让你可以轻松得到需要的答案。</value>
+  </data>
+  <data name="Finance_DetailTagline" xml:space="preserve">
+    <value>将基本论点转变为高级策略</value>
+  </data>
+  <data name="Finance_IndexTagline" xml:space="preserve">
+    <value>从数字中得出所需答案</value>
+  </data>
+  <data name="Finance_Title" xml:space="preserve">
+    <value>财务</value>
+  </data>
+  <data name="FinancialPerformance_Description" xml:space="preserve">
+    <value>&lt;ul&gt;
+&lt;li&gt;在单一视图中就能查看从概要陈述到帐户等级详细信息的所有数据&lt;/li&gt;
+&lt;li&gt;单击即可深入研究具体区域或细分市场&lt;/li&gt;
+&lt;li&gt;实时更新的数据有助于更快速地做出决定&lt;/li&gt;
+&lt;/ul&gt;</value>
+  </data>
+  <data name="FinancialPerformance_Tagline" xml:space="preserve">
+    <value>可以快速将各种数据来源汇集成完整信息。</value>
+  </data>
+  <data name="FinancialPerformance_Title" xml:space="preserve">
+    <value>财务业绩</value>
+  </data>
+  <data name="HeadcountSummary_Description" xml:space="preserve">
+    <value>&lt;ul&gt;
+&lt;li&gt;深入了解员工留任和离职的最新趋势&lt;/li&gt;
+&lt;li&gt;通过安排自动数据刷新，让数据保持为最新&lt;/li&gt;
+&lt;li&gt;开启手机提醒功能，在招聘渠道发生变动时提醒你&lt;/li&gt;
+&lt;/ul&gt;</value>
+  </data>
+  <data name="HeadcountSummary_Tagline" xml:space="preserve">
+    <value>在同一位置查看当前情况并预测需求，更有效地制定计划。</value>
+  </data>
+  <data name="HeadcountSummary_Title" xml:space="preserve">
+    <value>员工人数摘要</value>
+  </data>
+  <data name="HelpDesk_Description" xml:space="preserve">
+    <value>&lt;ul&gt;
+&lt;li&gt;根据趋势数据优化技术支持资源，简化票证解决方案&lt;/li&gt;
+&lt;li&gt;以可视化方式实时对比关键指标，包括技术支持流量和首要问题&lt;/li&gt;
+&lt;li&gt;提高帮助票证满意度，与客户建立更好的关系&lt;/li&gt;
+&lt;/ul&gt;</value>
+  </data>
+  <data name="HelpDesk_Tagline" xml:space="preserve">
+    <value>实时跟踪关键指标，更早发现风险。</value>
+  </data>
+  <data name="HelpDesk_Title" xml:space="preserve">
+    <value>技术支持</value>
+  </data>
+  <data name="HumanResources_Description" xml:space="preserve">
+    <value>需要掌握你的方案的最新进度吗？ Power BI 的工具可以轻松收集和监视所有重要数据。强大的仪表板可以跟踪合规性、员工人数和其他信息，更好地保护你的同事和组织。</value>
+  </data>
+  <data name="HumanResources_DetailTagline" xml:space="preserve">
+    <value>将数据转变为新的机遇</value>
+  </data>
+  <data name="HumanResources_IndexTagline" xml:space="preserve">
+    <value>让组织以数据为导向进行决策制定</value>
+  </data>
+  <data name="HumanResources_Title" xml:space="preserve">
+    <value>人力资源</value>
+  </data>
+  <data name="ITSpend_Description" xml:space="preserve">
+    <value>&lt;ul&gt;
+&lt;li&gt;将 Power BI 轻松连接到其他工具&lt;/li&gt;
+&lt;li&gt;将 Power BI 与现有解决方案集成，进行端对端的数据分析&lt;/li&gt;
+&lt;li&gt;能够与 Microsoft 产品（如 Azure Active Directory）和非 Microsoft 产品（如 SAP）都很好地结合使用&lt;/li&gt;
+&lt;/ul&gt;</value>
+  </data>
+  <data name="ITSpend_Tagline" xml:space="preserve">
+    <value>在一个位置就可以查看所有内容，包括网络系统、服务、应用程序和安全数据。</value>
+  </data>
+  <data name="ITSpend_Title" xml:space="preserve">
+    <value>IT 支出</value>
+  </data>
+  <data name="IT_Description" xml:space="preserve">
+    <value>想以快速且经济实惠的方式提高生产效率吗？ 使用 Power BI 可以快速创建仪表板，从而监视并分析从 Active Directory 到 Zendesk 的所有内容。如果需要企业级别的 BI 解决方案，它还能与 SSAS 无缝集成。</value>
+  </data>
+  <data name="IT_DetailTagline" xml:space="preserve">
+    <value>让商业智能更加唾手可得</value>
+  </data>
+  <data name="IT_IndexTagline" xml:space="preserve">
+    <value>在一个仪表板中监视所有系统</value>
+  </data>
+  <data name="IT_Title" xml:space="preserve">
+    <value>IT</value>
+  </data>
+  <data name="Marketing_Description" xml:space="preserve">
+    <value>面对来自你使用的不同工具的数据，你经常感到不知所措吗？ 将事情变得简单：借助 Power BI，你可以轻松监控和分析你的市场营销活动并有效地将资源分配到正确的渠道，所有这些操作均可在一个位置实现。</value>
+  </data>
+  <data name="Marketing_DetailTagline" xml:space="preserve">
+    <value>建立盈利性客户关系</value>
+  </data>
+  <data name="Marketing_IndexTagline" xml:space="preserve">
+    <value>在一个仪表板中监视所有市场活动</value>
+  </data>
+  <data name="Marketing_Title" xml:space="preserve">
+    <value>市场营销</value>
+  </data>
+  <data name="MarketShare_Description" xml:space="preserve">
+    <value>&lt;ul&gt;
+&lt;li&gt;利用交互式可视化发布并呈现出市场占有率&lt;/li&gt;
+&lt;li&gt;能够更好地观察市场活动的方方面面，从而能更快地采取纠正措施&lt;/li&gt;
+&lt;li&gt;使用任何设备（包括移动设备）随时随地共享你的发现&lt;/li&gt;
+&lt;/ul&gt;</value>
+  </data>
+  <data name="MarketShare_Tagline" xml:space="preserve">
+    <value>找到可行的见解，并立即将其发布到能从所有设备进行访问的交互式仪表板上。</value>
+  </data>
+  <data name="MarketShare_Title" xml:space="preserve">
+    <value>市场占有率</value>
+  </data>
+  <data name="Operations_Description" xml:space="preserve">
+    <value>你的组织是否真的是以数据为导向？ Power BI 让你可以快速监视所有来源（包括 Excel 工作簿、本地数据库和云服务）的数据并对其加以利用。在生产、商店业绩、申报额分析和其他方面发现新的见解。</value>
+  </data>
+  <data name="Operations_DetailTagline" xml:space="preserve">
+    <value>领先需求一步</value>
+  </data>
+  <data name="Operations_IndexTagline" xml:space="preserve">
+    <value>利用数据并找到新的效益</value>
+  </data>
+  <data name="Operations_Title" xml:space="preserve">
+    <value>操作</value>
+  </data>
+  <data name="PipelineReports_Description" xml:space="preserve">
+    <value>&lt;ul&gt;
+&lt;li&gt;实时跟踪销售渠道&lt;/li&gt;
+&lt;li&gt;准确传达销售预测和计划&lt;/li&gt;
+&lt;li&gt;在一个位置轻松连接和操作数据，进行更全面的分析&lt;/li&gt;
+&lt;/ul&gt;</value>
+  </data>
+  <data name="PipelineReports_Tagline" xml:space="preserve">
+    <value>通过快速访问详细的销售数据制定更周全的决策。</value>
+  </data>
+  <data name="PipelineReports_Title" xml:space="preserve">
+    <value>渠道报表</value>
+  </data>
+  <data name="Production_Description" xml:space="preserve">
+    <value>&lt;ul&gt;
+&lt;li&gt;现场直播仪表板让你可以在工厂车间召开站立会议&lt;/li&gt;
+&lt;li&gt;优化制造绩效&lt;/li&gt;
+&lt;li&gt;轻松找出流程中需要改善的地方&lt;/li&gt;
+&lt;/ul&gt;</value>
+  </data>
+  <data name="Production_Tagline" xml:space="preserve">
+    <value>结合从生产到经销的数据，加深了解。</value>
+  </data>
+  <data name="Production_Title" xml:space="preserve">
+    <value>生产</value>
+  </data>
+  <data name="QuotaManagement_Description" xml:space="preserve">
+    <value>&lt;ul&gt;
+&lt;li&gt;深入了解相对于预测的销售进度&lt;/li&gt;
+&lt;li&gt;轻松分析特定地区或个人帐户所有者的绩效&lt;/li&gt;
+&lt;/ul&gt;</value>
+  </data>
+  <data name="QuotaManagement_Tagline" xml:space="preserve">
+    <value>根据过去和现在的信息对将来制定以数据为导向的决策。</value>
+  </data>
+  <data name="QuotaManagement_Title" xml:space="preserve">
+    <value>定额管理</value>
+  </data>
+  <data name="RevenueProfitability_Description" xml:space="preserve">
+    <value>&lt;ul&gt;
+&lt;li&gt;使用按需报表对最新的收入数据做出快速反应&lt;/li&gt;
+&lt;li&gt;集合数据，找出差异&lt;/li&gt;
+&lt;li&gt;用足够的时间进行预测，以便在必要时进行纠正&lt;/li&gt;
+&lt;/ul&gt;</value>
+  </data>
+  <data name="RevenueProfitability_Tagline" xml:space="preserve">
+    <value>使用执行级财务仪表板快速得出答案。</value>
+  </data>
+  <data name="RevenueProfitability_Title" xml:space="preserve">
+    <value>收入和盈利率</value>
+  </data>
+  <data name="SalesPerformance_Description" xml:space="preserve">
+    <value>&lt;ul&gt;
+&lt;li&gt;利用实时数据和实时仪表板查看当前销售业绩&lt;/li&gt;
+&lt;li&gt;轻松找出公司中业绩不佳的区域&lt;/li&gt;
+&lt;li&gt;确定各细分市场实际收入和销售目标之间的差异&lt;/li&gt;
+&lt;/ul&gt;</value>
+  </data>
+  <data name="SalesPerformance_Tagline" xml:space="preserve">
+    <value>统一全面地查看各细分市场的销售业绩。</value>
+  </data>
+  <data name="SalesPerformance_Title" xml:space="preserve">
+    <value>销售业绩</value>
+  </data>
+  <data name="Sales_Description" xml:space="preserve">
+    <value>想要更准确地预测销售额、达到销售目标记录和增加每笔销售的利润吗？ Power BI 利用仪表板，让你能够更全面详细地了解你公司的销售渠道。这些仪表板包括 Microsoft Dynamics CRM 或 Salesforce.com 数据。</value>
+  </data>
+  <data name="Sales_DetailTagline" xml:space="preserve">
+    <value>将基本论点转变为高级策略</value>
+  </data>
+  <data name="Sales_IndexTagline" xml:space="preserve">
+    <value>深入分析配额并更好地预测未来</value>
+  </data>
+  <data name="Sales_Title" xml:space="preserve">
+    <value>销售</value>
+  </data>
+  <data name="SecurityCompliance_Description" xml:space="preserve">
+    <value>&lt;ul&gt;
+&lt;li&gt;及早发现合规性风险，加强网络安全&lt;/li&gt;
+&lt;li&gt;实时跟踪是否遵从安全性、软件和其他标准&lt;/li&gt;
+&lt;li&gt;集中网络访问日志等安全数据，并在单个仪表板上以可视化方式显示&lt;/li&gt;
+&lt;/ul&gt;</value>
+  </data>
+  <data name="SecurityCompliance_Tagline" xml:space="preserve">
+    <value>将多个来源合并为单一模型，更方便地生成报表，从而让用户能更独立地使用数据。</value>
+  </data>
+  <data name="SecurityCompliance_Title" xml:space="preserve">
+    <value>安全性和合规性</value>
+  </data>
+  <data name="StorePerformance_Description" xml:space="preserve">
+    <value>&lt;ul&gt;
+&lt;li&gt;始终了解不同地区的分配&lt;/li&gt;
+&lt;li&gt;使用能反映全局的实时指标严密管理库存数量&lt;/li&gt;
+&lt;li&gt;轻松找出趋势，更好地分析出优先发展哪个产品&lt;/li&gt;
+&lt;/ul&gt;</value>
+  </data>
+  <data name="StorePerformance_Tagline" xml:space="preserve">
+    <value>单击几下即可分享最新运营数据，让团队达成共识。</value>
+  </data>
+  <data name="StorePerformance_Title" xml:space="preserve">
+    <value>商店业绩</value>
+  </data>
+  <data name="Trends_Description" xml:space="preserve">
+    <value>&lt;ul&gt;
+&lt;li&gt;跟踪销售趋势，以优化策略并通知长期业务计划&lt;/li&gt;
+&lt;li&gt;与销售团队分享见解&lt;/li&gt;
+&lt;li&gt;动态调整策略并在所有设备上实时更新&lt;/li&gt;
+&lt;/ul&gt;</value>
+  </data>
+  <data name="Trends_Tagline" xml:space="preserve">
+    <value>通过与他人快速共享互动式视觉对象，让团队成员掌握最新信息。</value>
+  </data>
+  <data name="Trends_Title" xml:space="preserve">
+    <value>趋势</value>
+  </data>
+  <data name="WebSocialAnalytics_Description" xml:space="preserve">
+    <value>&lt;ul&gt;
+&lt;li&gt;实时跟踪客户感受&lt;/li&gt;
+&lt;li&gt;根据新兴趋势调整网络和社会市场活动&lt;/li&gt;
+&lt;li&gt;监视客户对社会媒体策略的反应&lt;/li&gt;
+&lt;/ul&gt;</value>
+  </data>
+  <data name="WebSocialAnalytics_Tagline" xml:space="preserve">
+    <value>在同一位置查看 Web、电子邮件和社交分析，了解整体状况。</value>
+  </data>
+  <data name="WebSocialAnalytics_Title" xml:space="preserve">
+    <value>Web 和社交分析</value>
+  </data>
+  <data name="SubNavTitle" xml:space="preserve">
+    <value>部门</value>
+  </data>
+  <data name="Meta_LocJobId" xml:space="preserve">
+    <value>104</value>
+  </data>
+</root>

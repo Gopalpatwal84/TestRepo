@@ -1,0 +1,119 @@
+﻿@model PowerBI.Web.Models.Pages.ViewMetadataModel
+@using Resources = PowerBI.Resources.Pages.Downloads.Index
+@{
+    Model.PageTitle = Resources.META_PAGETITLE;
+    Model.MetaDescription = Resources.META_DESCRIPTION;
+    Model.MetaKeywords = Resources.META_KEYWORDS;
+}
+<section class="section section-size3 section-palette02">
+    <div class="row">
+        <div class="column large-5">
+            <h1>@Resources.Hero_Heading</h1>
+        </div>
+        <div class="column large-6 large-offset-1">
+            @Html.Raw(Resources.Hero_Copy)
+        </div>
+    </div>
+</section>
+
+<section class="section">
+    <div class="row">
+        <div class="column large-6">
+            <div class="row">
+                <div class="column">
+                    <span class="icon icon-wide">@SvgHelper.GetSvg("pbiplusdesktop")</span>
+                </div>
+            </div>
+            <div class="row row-size3 sd-equalize" data-set="desktop-mobile">
+                <div class="column">
+                    <h3>@Resources.Desktop_Heading</h3>
+                    <p>@Resources.Desktop_Copy</p>
+                </div>
+            </div>
+            <div class="row row-size2">
+                <div class="column">
+                    <p><a class="button" href="@Html.LocalizeUrl("go:521662")" data-event="global-clicked-getstartedcta" data-event-property="download">@Resources.Download</a></p>
+                    <p><a href="http://www.microsoft.com/en-us/download/details.aspx?id=45331">@Resources.AdvancedDownloadOptions</a></p>
+                </div>
+            </div>
+        </div>
+        <div class="column large-6">
+            <div class="row">
+                <div class="column">
+                    <span class="icon icon-wide">@SvgHelper.GetSvg("pbiplusmobile")</span>
+                </div>
+            </div>
+            <div class="row row-size3 sd-equalize" data-set="desktop-mobile">
+                <div class="column">
+                    <h3>@Resources.Mobile_Heading</h3>
+                    <p>@Resources.Mobile_Copy</p>
+                </div>
+            </div>
+            <div class="row row-size2">
+                <div class="column">
+                    <ul class="linkList linkList-horizontal">
+                        <li>
+                            <a class="button-store" href="@Html.LocalizeUrl("go:526478")" data-event="global-clicked-getstartedcta" data-event-property="download">
+                                <span class="icon"><img src="@CdnHelper.GetCdnUrl("/pictures/shared/icons/windows-store.png")" alt="" /></span>
+                                <span class="top">@Resources.DownloadFrom</span>
+                                <span class="bottom">@Resources.WindowsStore</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a class="button-store" href="@Html.LocalizeUrl("go:526218")" data-event="global-clicked-getstartedcta" data-event-property="download">
+                                <span class="icon"><img src="@CdnHelper.GetCdnUrl("/pictures/shared/icons/apple-store.png")" alt="" /></span>
+                                <span class="top">@Resources.DownloadFrom</span>
+                                <span class="bottom">@Resources.AppStore</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a class="button-store" href="@Html.LocalizeUrl("go:544867")" data-event="global-clicked-getstartedcta" data-event-property="download">
+                                <span class="icon"><img src="@CdnHelper.GetCdnUrl("/pictures/shared/icons/google-store.png")" alt="" /></span>
+                                <span class="top">@Resources.DownloadFrom</span>
+                                <span class="bottom">@Resources.GooglePlay</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="column large-6">
+            <div class="row">
+                <div class="column">
+                    <span class="icon icon-wide">@SvgHelper.GetSvg("pbiplusgateway")</span>
+                </div>
+            </div>
+            <div class="row row-size3 sd-equalize" data-set="desktop-mobile">
+                <div class="column">
+                    <h3>@Resources.Gateway_Heading</h3>
+                    <p>@Resources.Gateway_Copy</p>
+                </div>
+            </div>
+            <div class="row row-size2">
+                <div class="column">
+                    <p><a class="button" href="@Html.LocalizeUrl("go:820925")" data-event="global-clicked-getstartedcta" data-event-property="download">@Resources.Download</a></p>
+                </div>
+            </div>
+        </div>
+        <div class="column large-6">
+            <div class="row">
+                <div class="column">
+                    <span class="icon icon-wide">@SvgHelper.GetSvg("pbiplusexcel")</span>
+                </div>
+            </div>
+            <div class="row row-size3 sd-equalize" data-set="gateway">
+                <div class="column">
+                    <h3>@Resources.Publisher_Heading</h3>
+                    <p>@Resources.Publisher_Copy</p>
+                </div>
+            </div>
+            <div class="row row-size2">
+                <div class="column">
+                    <p><a class="button" href="@Html.LocalizeUrl("/excel-dashboard-publisher/")" data-event="global-clicked-getstartedcta" data-event-property="download">@Resources.Download</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

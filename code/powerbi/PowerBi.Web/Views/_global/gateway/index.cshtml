@@ -1,0 +1,138 @@
+﻿@model PowerBI.Web.Models.Pages.ViewMetadataModel
+@using Resources = PowerBI.Resources.Pages.Gateway.Index
+
+
+@{
+    Model.PageTitle = Resources.META_PAGETITLE;
+    Model.MetaDescription = Resources.META_DESCRIPTION;
+    Model.MetaKeywords = Resources.META_KEYWORDS;
+}
+
+<section class="section section-size3 section-palette02">
+    <div class="row">
+        <div class="column large-5">
+            <h1>@Resources.Hero_Heading</h1>
+        </div>
+        <div class="column large-6 large-offset-1">
+            <div class="row column">
+                <p>@Resources.Hero_Content</p>
+            </div>
+            <div class="row row-size2">
+                <div class="column">
+                    <ul class="linkList linkList-horizontal">
+                        <li><a id="gateway-download" href="@Html.LocalizeUrl("go:820925")" class="button">@Resources.DownloadGateway</a></li>
+                        <li><a id="gateway-learn-more" href="@Html.LocalizeUrl("/documentation/powerbi-gateway-onprem/", isFullyQualified: true)" class="cta-secondary">@Resources.Hero_LearnMore<span class="glyphicon glyph-micro pbi-glyph-chevronrightmedium"></span></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="section">
+    <div class="row column">
+        <div class="column medium-4">
+            <div class="row column">
+                <div class="icon icon-palette02 icon-size3">
+                    @SvgHelper.GetSvg("gateway-cloud")
+                </div>
+            </div>
+            <div class="row row-size2">
+                <div class="column">
+                    <h3>@Resources.OneGateway_Heading</h3>
+                    <p>@Resources.OneGateway_Content</p>
+                </div>
+            </div>
+        </div>
+        <div class="column medium-4">
+            <div class="row column">
+                <div class="icon icon-palette02 icon-size3">
+                    @SvgHelper.GetSvg("gear-filled")
+                </div>
+            </div>
+            <div class="row row-size2">
+                <div class="column">
+                    <h3>@Resources.EasySetup_Heading</h3>
+                    <p>@Resources.EasySetup_Content</p>
+                </div>
+            </div>
+        </div>
+        <div class="column medium-4">
+            <div class="row column">
+                <div class="icon icon-palette02 icon-size3">
+                    @SvgHelper.GetSvg("lock")
+                </div>
+            </div>
+            <div class="row row-size2">
+                <div class="column">
+                    <h3>@Resources.SecureAccess_Heading</h3>
+                    <p>@Resources.SecureAccess_Content</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="section">
+    <div class="row">   
+        <div class="column">
+            <table class="table-naked table-features-header">
+                <thead>
+                    <tr>
+                        <th></th>
+                        <th>
+                            <h3 class="no-text-transform">@Resources.Features_PersonalColumn_Heading</h3>
+                        </th>
+                        <th>
+                            <h3 class="no-text-transform">@Resources.Features_OnPremisesColumn_Heading</h3>
+                        </th>
+                    </tr>
+                </thead>
+            </table>
+            <table class="table-features">
+                <tbody>
+                    <tr>
+                        <td>@Resources.Features_CloudServices</td>
+                        <td>@Resources.Features_PowerBI</td>
+                        <td>@Resources.Features_MSProducts</td>
+                    </tr>
+                    <tr>
+                        <td>@Resources.Features_Row1</td>
+                        <td>&bull;</td>
+                        <td>&bull;</td>
+                    </tr>
+                    <tr>
+                        <td>@Resources.Features_Row2</td>
+                        <td>&bull;</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>@Resources.Features_Row3</td>
+                        <td>&bull;</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>@Resources.Features_Row4</td>
+                        <td></td>
+                        <td>&bull;</td>
+                    </tr>
+                    <tr>
+                        <td>@Resources.Features_Row5</td>
+                        <td></td>
+                        <td>&bull;</td>
+                    </tr>
+                    <tr>
+                        <td>@Resources.Features_Row6</td>
+                        <td></td>
+                        <td>&bull;</td>
+                    </tr>
+                    <tr>
+                        <td>@Resources.Features_Row7</td>
+                        <td></td>
+                        <td>@Resources.Features_ComingSoon</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</section>

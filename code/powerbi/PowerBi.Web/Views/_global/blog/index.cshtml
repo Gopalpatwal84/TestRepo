@@ -1,0 +1,39 @@
+﻿@model PowerBI.Web.Models.Pages.Blog.Index
+@using Resources = PowerBI.Resources.Pages.Blog.Index
+@using Shared = PowerBI.Resources.Shared.Blog
+
+@{
+    Model.PageTitle = Resources.META_PAGETITLE;
+    Model.MetaDescription = Resources.META_DESCRIPTION;
+    Model.MetaKeywords = Resources.META_KEYWORDS;
+}
+
+<section class="section section-size2 section-palette02 section-heading-only">
+    <div class="row">
+        <div class="column">
+            <h1><a href="@Html.LocalizeUrl("/blog/")">@Shared.Hero_Heading</a></h1>
+        </div>
+    </div>
+</section>
+
+@if (Model.FeaturedPost != null)
+{
+    <section class="section section-slate02 section-featured-post">
+        <div class="row">
+            <div class="column large-6">
+                @Html.Partial("blog/_postFeatured", Model.FeaturedPost)
+            </div>
+        </div>
+    </section>
+}
+
+<section class="section">
+    <div class="row">
+        <div class="column large-7">
+            @Html.Partial("blog/_postsList", Model.BlogPostsList)
+        </div>
+        <div class="column large-4 large-offset-1">
+            @Html.Partial("blog/_sidebar", Model.BlogPostsList.Categories)
+        </div>
+    </div>
+</section>

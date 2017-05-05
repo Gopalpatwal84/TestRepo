@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<appSettings>
+  <!-- General -->
+  <add key="RetryCount" value="10" />
+  <add key="RetryBackoffSpan" value="P0Y0M0DT0H0M5S" />
+  <add key="DoCleanUp" value="true" />
+  <!-- So the queue name is resolved based on the slot (uses static closed class KnownSlots) -->
+  <add key="ACOM.Web.Configuration.AcomConfiguration.SlotName" value="unknown" />
+  <!-- Global Fixture Settings -->
+  <add key="MessageDiagnosticsInfoTable" value="MessageDiagnosticsInfoUnknown" />
+  <!-- Articles Feedback Fixture -->
+  <add key="ArticlesFeedbackWebJobName" value="PowerBI-Jobs-Form" />
+
+  <!-- Marketo -->
+  <add key="marketo.identityPattern" value="https://157-GQE-382.mktorest.com/identity/oauth/token?grant_type=client_credentials&amp;client_id={client_id}&amp;client_secret={client_secret}" />
+  <add key="marketo.restPattern" value="https://157-GQE-382.mktorest.com/rest/{0}" />
+  <add key="marketo.clientId" value="99c7b3d4-67ea-4674-9ba7-d9578a630e00" />
+  <add key="marketo.clientSecret" value="#{keyvault:powerbi:dps-storage-connection-string}" />
+</appSettings>

@@ -1,0 +1,54 @@
+﻿@import (reference) '../powerbi/helpers/mixins.d.less';
+@import (reference) '../../less/mixins.d.less';
+@import (reference) '../../less/variables.d.less';
+
+.integration-logo {
+    position: relative;
+
+    .logo {
+        .drop-shadow();
+        .transform-translate(-10px, -40%);
+        border: 5px solid @color-palette01;
+        left: 0;
+        position: absolute;
+        top: 50%;
+        width: 35%;
+        height: 40%;
+        background-color: @color-palette01;
+
+        img {
+            max-height: 100%;
+        }
+    }
+}
+
+.integration-logos {
+    height: 90px;
+   .logo-powerbi,
+   .glyphicon,
+   .integration-logo {
+       height: 90px;
+       float: left;
+       line-height: 90px;
+   }
+   .logo-powerbi {
+       margin-right: 25px;
+       margin-top: 0;
+   }
+   .glyphicon {
+       margin-right: 15px;
+   }
+   .logo {
+        display: inline-block;
+        height: 28px;
+        margin-right: 6px;
+        max-width: 28px;
+        width: 25%;
+   }
+   .powerbi {
+        display: inline-block;
+        height: 28px;
+        max-width: 75px;
+        width: 78%;
+   }
+}

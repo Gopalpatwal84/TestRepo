@@ -1,0 +1,94 @@
+@import (reference) '../../variables.d.less';
+@import (reference) '../../mixins.d.less';
+
+/*
+Toggle
+
+Use `.toggler` to act as the trigger for a toggle element.
+
+- Optional `data-set=""` to identify the set of items to toggle, otherwise a sibling `.toggled` will be used.
+- Optional `data-force=""` to force open/close, or toggle by default ("open" or "close").
+
+Use `.toggled` to act as the togglable element.
+
+- Optional `data-set=""` to identify the set the item is part of.
+- Optional `data-animation=""` to set animation (default or "slide").
+- Optional `data-single-only=""` to ensure that only one pane stays open at a time. Opening one pane closes all other ones. Same value must be applied to all `.toggled` elements that are part of the relevant group of `.toggleds`.
+
+Markup:
+<a href="#" class="toggler">Click me!</a>
+<div class="toggled">
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam in fermentum tortor. Nulla at justo lacus. Donec gravida finibus lacus id suscipit. In hac habitasse platea dictumst.</p>
+    <p>Lorem ipsum dolor sit amet, <a href="#cool">consectetur adipiscing elit</a>. Nullam in fermentum tortor. Nulla at justo lacus. Donec gravida finibus lacus id suscipit. In hac habitasse platea dictumst.</p>
+</div>
+
+Styleguide toggle
+*/
+
+/*
+Toggle: SVG
+
+Description.
+
+Markup: toggle.svg.html
+
+Styleguide toggle.svg
+*/
+
+/*
+Toggle: Slide
+
+Description.
+
+Markup: toggle.slide.html
+
+Styleguide toggle.slide
+*/
+
+/*
+Toggle: FAQ Demo
+
+Description.
+
+Markup: toggle.faq.html
+
+Styleguide toggle.faq
+*/
+
+/*
+Toggle: Nested
+
+Description.
+
+Markup: toggle.nested.html
+
+Styleguide toggle.nested
+*/
+
+/*
+Toggle: Single-only
+
+Description.
+
+Markup: toggle.single.html
+
+Styleguide toggle.single
+*/
+
+/*
+Toggle: Hide-toggler
+
+To hide the toggler element after toggling, place the attribute `data-hide-toggler="true"` on the same element with the toggler class. Note that `data-hide-toggler` will not work with any other value besides true.
+
+Markup: toggle.hide-toggler.html
+
+Styleguide toggle.hide-toggler
+*/
+
+.toggled {
+    display: none;
+}
+
+.toggled.open {
+    display: block;
+}

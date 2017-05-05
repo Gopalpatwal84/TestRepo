@@ -1,0 +1,17 @@
+﻿@using Newtonsoft.Json
+@using Acom.IO.Json
+@using PowerBI.Entities
+
+@{ 
+    var currencies = DependencyResolver.Current.GetService<JsonLoader<Currency>>()
+        .Data.Value.ToDictionary(x => x.Slug, x => x);
+    var culture = new CultureHelper().GetCurrentCultureObj() as Culture;
+}
+
+<script>
+    (function (global) {
+        global.currentCulture = "@System.Globalization.CultureInfo.CurrentUICulture.ToString().ToLower()";
+        global.defaultCurrency = "@(culture?.DefaultCurrency)";
+        global.rawCurrencyData = @Html.Raw(JsonConvert.SerializeObject(currencies));
+    })(window);
+</script>

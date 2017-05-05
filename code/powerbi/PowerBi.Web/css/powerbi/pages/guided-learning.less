@@ -1,0 +1,210 @@
+﻿@import (reference) '../../../less/variables.d.less';
+
+#guided-learning-content {
+    .wa-navigationScroll,
+    .navigationScroll {
+        display: none;
+    }
+}
+
+/*Details pages*/
+#guided-learning-nav {
+    .pbi-glyph-checkmark {
+        color: @color-success;
+        opacity: 0;
+        font-weight: @font-bold;
+    }
+
+    .category {
+        > a {
+            padding-right: @spacing-size1;
+        }
+
+        .pbi-glyph-checkmark {
+            float: right;
+            padding-top: 6px;
+        }
+
+        &.completed {
+            .pbi-glyph-checkmark {
+                opacity: 1;
+            }
+        }
+    }
+
+    .lesson {
+        margin-left: @spacing-size1;
+
+        .pbi-glyph-checkmark {
+            float: left;
+            padding: 6px 8px 0 0;
+        }
+
+        &.completed {
+            .pbi-glyph-checkmark {
+                opacity: 1;
+            }
+        }
+    }
+
+    li {
+        position: relative;
+
+        a {
+            overflow: hidden;
+            padding-right: @spacing-size5;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+        }
+
+        .duration {
+            position: absolute;
+            right: 0;
+        }
+    }
+
+    .navigationLeft.show .title {
+        .glyphicon {
+            &:before {
+                content: "\E971";
+            }
+        }
+    }
+
+    .title .glyphicon {
+        margin-right: @spacing-size1;
+    }
+
+    .track-progress {
+        padding-top: @spacing-size2;
+    }
+}
+
+#guided-learning-content {
+    .next-button {
+        margin: @spacing-size6 0;
+    }
+
+    .video-container {
+        position: relative;
+        display: inline-block;
+        margin: @spacing-size2 0;
+    }
+
+    .video-overlay {
+        display: none;
+        position: absolute;
+        height: 100%;
+        width: 100%;
+        background-color: rgba(0,0,0,0.8);
+        padding: 20%;
+        color: @color-palette01;
+
+        h4 {
+            color: @color-palette01;
+        }
+    }
+
+    .watch-again-container {
+        background-color: @color-slate02;
+        padding: 20px 0;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+
+        h4 {
+            margin-bottom: 0;
+            font-size: @font-heading6;
+            display: inline-block;
+        }
+
+        icon {
+            margin-right: 5px;
+        }
+    }
+}
+
+@media only screen and (min-width: @resolution-large) {
+    #guided-learning-nav {
+        .navigationLeft .title {
+            display: none;
+        }
+    }
+}
+
+/*Landing page*/
+.guided-learning-index {
+    .pbi-glyph-checkmark {
+        color: @color-success;
+        opacity: 0;
+        font-weight: @font-bold;
+        float: left;
+        top: 7px;
+        left: 32px;
+
+        @media only screen and (max-width: @resolution-medium) {
+            left: 0;
+        }
+    }
+
+    .lesson.completed {
+        .pbi-glyph-checkmark {
+            opacity: 1;
+        }
+    }
+
+    .progress {
+        width: 100px;
+        height: 8px;
+        background-color: @color-slate06;
+        display: inline-block;
+
+        .progress-bar {
+            display: block;
+            width: 0;
+            height: 8px;
+            background-color: @color-palette02;
+
+            &.done {
+                background-color: @color-success;
+            }
+        }
+    }
+
+    .percentage {
+        display: inline-block;
+        padding-left: @spacing-size2;
+    }
+}
+
+a.learning-item:hover {
+    .learning-title {
+        text-decoration: underline;
+    }
+}
+
+.guided-learning.toggler {
+    h3 {
+        display: inline-block;
+    }
+
+    .glyphicon {
+        margin-right: @spacing-size2;
+    }
+}
+
+.learning-title {
+    margin-left: 54px;
+    margin-top: 0;
+}
+
+.icon-selected {
+    color: @color-palette02;
+}
+
+@media only screen and (max-width: @resolution-medium) {
+    .learning-title {
+        margin-left: 20px;
+    }
+}

@@ -1,0 +1,235 @@
+@import (reference) '../../variables.d.less';
+@import (reference) '../../mixins.d.less';
+
+@table-border: 2px solid @color-slate08;
+
+/*
+Table
+
+Description.
+
+Markup:
+<table class="{{modifier_class}}" data-unavailable-message="Not available">
+    <caption>Recent Major Volcanic Eruptions in the Pacific Northwest</caption>
+    <thead>
+        <tr>
+            <th>Volcano Name</th>
+            <th>Location</th>
+            <th>Last Major Eruption</th>
+            <th>Type of Eruption</th>
+        </tr>
+    </thead>
+    <tr>
+        <td>Mt. Lassen</td>
+        <td>California</td>
+        <td>1914-17</td>
+        <td>Explosive Eruption</td>
+    </tr>
+    <tr>
+        <td>Mt. Hood</td>
+        <td>Oregon</td>
+        <td>1790s</td>
+        <td>Pyroclastic flows and Mudflows</td>
+    </tr>
+    <tr>
+        <td>Mt. St. Helens</td>
+        <td>Washington</td>
+        <td>1980</td>
+        <td><img src="http://placehold.it/50/00abec/ffffff?text=WOW" /></td>
+    </tr>
+</table>
+
+.table-width-auto - Description.
+.table-width-even - Description.
+.table-naked - Description.
+.table-middled - Description.
+
+Style guide: table
+*/
+
+.sd-table-container {
+    width: 100%;
+    overflow-x: scroll;
+
+    table.sd-table {
+        table-layout: fixed;
+        width: 100%;
+
+        th,
+        td {
+            display: none;
+            width: 130px;
+
+            &.column-1 {
+                width: 175px;
+            }
+
+            &.show-small {
+                display: table-cell;
+            }
+        }
+    }
+}
+
+table {
+    background-color: @color-palette01;
+    border-collapse: collapse;
+    border-spacing: 0;
+    border-top: @table-border;
+    margin: @spacing-size1 0;
+    padding: 0;
+    text-align: left;
+    width: 100%;
+
+    caption {
+        caption-side: bottom;
+        color: @color-slate07;
+        font-size: @font-mini;
+        line-height: 1.5;
+        margin-top: @spacing-size1;
+        padding: 0;
+        text-align: left;
+
+        li {
+            margin-bottom: 0;
+        }
+    }
+
+    thead {
+        border-bottom: @table-border;
+    }
+
+    tfoot {
+        border-bottom: @table-border;
+        border-top: @table-border;
+    }
+
+    tr {
+        border-bottom: 1px solid @color-slate08;
+    }
+
+    th {
+        font-size: @font-mini;
+        font-weight: 700;
+        text-align: inherit;
+        text-transform: uppercase;
+    }
+
+    td,
+    th {
+        padding: @spacing-size1 (@spacing-size1 / 2); // tables on small screens minimize padding between cells
+        vertical-align: top;
+    }
+}
+
+.table-width-auto {
+    width: auto;
+}
+
+.table-width-even {
+    table-layout: fixed;
+
+    td,
+    th {
+        &:nth-child(1):nth-last-child(2),
+        &:nth-child(2):nth-last-child(1) {
+            width: 50%;
+        }
+
+        &:nth-child(1):nth-last-child(3),
+        &:nth-child(2):nth-last-child(2),
+        &:nth-child(3):nth-last-child(1) {
+            width: 33.333%;
+        }
+
+        &:nth-child(1):nth-last-child(4),
+        &:nth-child(2):nth-last-child(3),
+        &:nth-child(3):nth-last-child(2),
+        &:nth-child(4):nth-last-child(1) {
+            width: 25%;
+        }
+
+        &:nth-child(1):nth-last-child(5),
+        &:nth-child(2):nth-last-child(4),
+        &:nth-child(3):nth-last-child(3),
+        &:nth-child(4):nth-last-child(2),
+        &:nth-child(5):nth-last-child(1) {
+            width: 20%;
+        }
+
+        &:nth-child(1):nth-last-child(6),
+        &:nth-child(2):nth-last-child(5),
+        &:nth-child(3):nth-last-child(4),
+        &:nth-child(4):nth-last-child(3),
+        &:nth-child(5):nth-last-child(2),
+        &:nth-child(6):nth-last-child(1) {
+            width: 16.667%;
+        }
+
+        &:nth-child(1):nth-last-child(7),
+        &:nth-child(2):nth-last-child(6),
+        &:nth-child(3):nth-last-child(5),
+        &:nth-child(4):nth-last-child(4),
+        &:nth-child(5):nth-last-child(3),
+        &:nth-child(6):nth-last-child(2),
+        &:nth-child(7):nth-last-child(1) {
+            width: 14.286%;
+        }
+
+        &:nth-child(1):nth-last-child(8),
+        &:nth-child(2):nth-last-child(7),
+        &:nth-child(3):nth-last-child(6),
+        &:nth-child(4):nth-last-child(5),
+        &:nth-child(5):nth-last-child(4),
+        &:nth-child(6):nth-last-child(3),
+        &:nth-child(7):nth-last-child(2),
+        &:nth-child(8):nth-last-child(1) {
+            width: 12.5%;
+        }
+    }
+}
+
+.table-naked {
+    border: none;
+    border-collapse: separate;
+    background-color: transparent;
+
+    td,
+    tfoot,
+    th,
+    thead,
+    tr {
+        border: none;
+        padding: 0;
+        }
+}
+
+tr.no-border {
+    border: none;
+}
+
+.table-middled {
+    td, th {
+    vertical-align: middle;
+    }
+}
+
+@media only screen and (min-width: @resolution-small) {
+    .sd-table-container {
+        table.sd-table {
+            th,
+            td {
+                display: table-cell;
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: @resolution-large) {
+    table {
+        td,
+        th {
+            padding: @spacing-size1;
+        }
+    }
+}

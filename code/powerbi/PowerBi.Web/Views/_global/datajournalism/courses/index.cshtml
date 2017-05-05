@@ -1,0 +1,53 @@
+﻿@model PowerBI.Web.Models.Pages.ViewMetadataModel
+@using Resources = PowerBI.Resources.Pages.Datajournalism.Courses.Index
+
+@{
+    Model.PageTitle = Resources.META_PAGETITLE;
+    Model.MetaDescription = Resources.META_DESCRIPTION;
+    Model.MetaKeywords = Resources.META_KEYWORDS;
+}
+
+<section class="section section-palette02">
+    <div class="row">
+        <div class="column medium-9 medium-centered">
+            <h1 class="text-center">@Resources.Hero_Title</h1>
+            <div class="row row-size2 column">
+                @Html.RawFormatInvariant(Resources.Hero_Content, "http://albertocairo.com/")
+            </div>
+            <div class="row row-size2 column text-center">
+                <a href="@Html.LocalizeUrl("/datajournalism/courses/visualization/")" class="button">@Resources.Hero_Cta</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="section">
+    <div class="row column">
+        <div class="row">
+            @courseContainer("visualization", Resources.IntroToVisualization_Heading, Resources.IntroToVisualization_Content, "53:39", "row1")
+            @courseContainer("data-exploration", Resources.DataExploration_Heading, Resources.DataExploration_Content, "1:07:00", "row1")
+        </div>
+        <div class="row">
+            @courseContainer("truthful-visualizations", Resources.TruthfulVisualizations_Heading, Resources.TruthfulVisualizations_Content, "45:49", "row2")
+            @courseContainer("choosing-graphics", Resources.ChoosingGraphics_Heading, Resources.ChoosingGraphics_Content, "1:04:31", "row2")
+        </div>
+        <div class="row">
+            @courseContainer("design-and-narrative", Resources.DesignNarrative_Heading, Resources.DesignNarrative_Content, "1:24:26", "row3")
+        </div>
+    </div>
+</section>
+
+@helper courseContainer(string slug, string heading, string content, string videoLength, string dataset)
+{
+    <div class="column medium-6 end">
+        <a href="@Html.LocalizeUrl($"/datajournalism/courses/{slug}/")"><img src="@CdnHelper.GetCdnUrl($"/pictures/pages/datajournalism/courses/{slug}.png")" class="border" alt="" /></a>
+        <div class="row row-size2 column">
+            <h3>@heading</h3>
+            <p class="sd-equalize" data-set="@dataset">@content</p>
+        </div>
+        <div class="row row-size2 column">
+            <a href="@Html.LocalizeUrl($"/datajournalism/courses/{slug}/")" class="button">@Resources.WatchNow_Cta</a>
+            <span class="pull-right">@videoLength</span>
+        </div>
+    </div>
+}

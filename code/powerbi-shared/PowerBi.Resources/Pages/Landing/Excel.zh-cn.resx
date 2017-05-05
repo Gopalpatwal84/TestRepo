@@ -1,0 +1,177 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" id="root">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Content1_Content" xml:space="preserve">
+    <value>厌倦了用乱七八糟的公式来合并数据？ 使用 Power BI 以可视方式创建联系，将繁琐的工作交给我们即可。</value>
+  </data>
+  <data name="Content1_Heading" xml:space="preserve">
+    <value>以可视方式合并数据</value>
+  </data>
+  <data name="Content2_Content" xml:space="preserve">
+    <value>Power BI 包含了一种公式语言，工作原理与 Excel 类似，所以你可以快速上手，并且能实现超乎你想像的效果。</value>
+  </data>
+  <data name="Content2_Heading" xml:space="preserve">
+    <value>强化公式</value>
+  </data>
+  <data name="Content3_Content" xml:space="preserve">
+    <value>从无尽的报表请求中解脱。使用 Power BI 建立分析后，你会惊奇地发现，让他人自己获取其所需答案要轻松得多。</value>
+  </data>
+  <data name="Content3_Heading" xml:space="preserve">
+    <value>让独自工作变成团队合作</value>
+  </data>
+  <data name="Content4_Quote" xml:space="preserve">
+    <value>[Power BI] 解放了团队，让团队可以进行更多思考和沟通，而不仅仅是提取和发送数据。</value>
+  </data>
+  <data name="Content4_QuoteSource" xml:space="preserve">
+    <value>Jeff Petrusa，康泰纳仕集团，市场营销和分析团队成员</value>
+  </data>
+  <data name="Download_Content" xml:space="preserve">
+    <value>只需下载一次，即可获取所有 Power BI 工具。包括上述所有功能，并且还有令人惊叹的视觉对象，让你可以将你的分析展示给他人并与之共享。</value>
+  </data>
+  <data name="Download_Cta_Download" xml:space="preserve">
+    <value>下载</value>
+  </data>
+  <data name="Download_Heading" xml:space="preserve">
+    <value>只需轻松下载一次即可开始使用</value>
+  </data>
+  <data name="Download_SubHeading" xml:space="preserve">
+    <value>下载 Power BI Desktop</value>
+  </data>
+  <data name="Hero_Content" xml:space="preserve">
+    <value>Excel 研发人员让 Power BI 带给你全新的工作方式。简化复杂的公式并强化你的 Pivot 表。</value>
+  </data>
+  <data name="Hero_Cta_Download" xml:space="preserve">
+    <value>下载</value>
+  </data>
+  <data name="Hero_Heading" xml:space="preserve">
+    <value>使用 VLOOKUP 吗？ 你会爱上 Power BI。</value>
+  </data>
+  <data name="META_DESCRIPTION" xml:space="preserve">
+    <value>Power BI 可将你公司的数据转换为丰富的视觉对象，你可以对这些视觉对象进行收集和组织，从而将注意力集中于重要的内容。始终获悉最新信息、掌握即时趋势并进一步推动你的业务。</value>
+  </data>
+  <data name="META_KEYWORDS" xml:space="preserve">
+    <value />
+  </data>
+  <data name="META_PAGETITLE" xml:space="preserve">
+    <value>Excel | Microsoft Power BI</value>
+  </data>
+  <data name="Meta_LocJobId" xml:space="preserve">
+    <value>97</value>
+  </data>
+</root>

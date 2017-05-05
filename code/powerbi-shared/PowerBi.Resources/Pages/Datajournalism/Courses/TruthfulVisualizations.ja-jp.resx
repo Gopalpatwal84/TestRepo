@@ -1,0 +1,241 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" id="root">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="About_Content" xml:space="preserve">
+    <value>&lt;p&gt;このコースでは、Microsoft Power BI を使用して、データに即した視覚エフェクトの作成する方法についてのデモを示します。 
+&lt;ul&gt;&lt;li&gt;Real Sociedad 向けに、データを隠したりストーリーを変えたりせずにデータ ビジュアライゼーションを作成して、このサッカー クラブの成功に対するコミュニティの貢献を示す方法について紹介します。&lt;/li&gt;
+&lt;li&gt;短期自然失業率に関する金融サービス向けのチュートリアルを紹介し、グラフィックスを編集して正しい傾向線を表示する方法について説明します。&lt;/li&gt;
+&lt;li&gt;世界銀行のデータ セットを使用して、簡単な計算でデータ可視化を調整し、より分かりやすいビューを作成する方法について説明します。&lt;/li&gt;&lt;/ul&gt;&lt;/p&gt;</value>
+  </data>
+  <data name="Article_Content_10" xml:space="preserve">
+    <value>&lt;h2 id="examples-graphics"&gt;誤解を招くグラフィックスと誤解を招かないグラフィックスの例&lt;/h2&gt;
+
+&lt;p&gt;このコースで示すサンプルを実行するには、次の準備が必要です。&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;Windows 7 以降を実行するコンピューター&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href="{0}"&gt;Power BI Desktop&lt;/a&gt; のダウンロードおよびインストール&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Power BI アカウント (&lt;a href="{1}"&gt;{2}&lt;/a&gt;) への登録&lt;/p&gt;
+
+&lt;p&gt;a.職場の電子メール アカウントを使用して登録する必要があります。個人用のアカウント (gmail、Hotmail、outlook.com、yahoo.com) はサポートされていません。&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3&gt;データの歪みを避けるためのチュートリアル&lt;/h3&gt;
+
+&lt;p&gt;1 つのデータ ポイントによってデータの表示が歪むことがあります。このチュートリアルでは、すべてのデータが表示されるようにしながら歪みを避ける方法について説明します。&lt;/p&gt;
+
+&lt;h3&gt;手順 1: サンプル ファイルの読み込み&lt;/h3&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;Real Sociedad のサンプル ファイル &lt;strong&gt;Real Sociedad example.pbix&lt;/strong&gt; を開きます。&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;[フィールド] リストの &lt;strong&gt;[都市フィルター]&lt;/strong&gt; をクリックします。&lt;/p&gt;
+
+&lt;p&gt;式では、次のように San Sebastian が個別のカテゴリとして指定されています。&lt;/p&gt;
+
+&lt;p&gt;都市フィルター = IF(データ[都市]="DONOSTIA-SAN SEBASTIÁN","SAN SEBASTIÁN を含む","SAN SEBASTIÁN 以外のすべて")&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;[都市フィルター]&lt;/strong&gt; のビジュアルをクリックします。このビジュアルでは、都市フィルターの計算後の列が使用されています。&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;[書式設定]&lt;/strong&gt; ウィンドウで、&lt;strong&gt;[選択範囲のコントロール]&lt;/strong&gt; を展開します。&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;[単一選択]&lt;/strong&gt; が &lt;strong&gt;[オフ]&lt;/strong&gt; になっています。これにより、スライサーで流動的に値を選択できます。&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;img src="{3}" alt="" title="" /&gt;&lt;/p&gt;
+
+&lt;h3&gt;手順 2: 折れ線グラフの傾向での差異の表示&lt;/h3&gt;
+
+&lt;p&gt;折れ線グラフに、履歴値と予測値を組み合わせたデータを示すことがあります。このような種類のデータを表示する場合、ユーザーに違いを明白に示すことが重要になります。&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;自然失業率.pbix&lt;/strong&gt; ファイルを開きます。&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;[フィールド] リストで &lt;strong&gt;[データ ポイントのタイプ]&lt;/strong&gt; をクリックします。&lt;/p&gt;
+
+&lt;p&gt;式では次のように、将来の値を &lt;strong&gt;予測&lt;/strong&gt;のカテゴリに、履歴値を &lt;strong&gt;実績&lt;/strong&gt;のカテゴリに指定しています。&lt;/p&gt;&lt;/li&gt;
+  &lt;p&gt;データ ポイントのタイプ = If(NOW() &gt;= データ[日付],"実績", "予測")&lt;/p&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;[日付別自然失業率 (短期)]&lt;/strong&gt; 折れ線グラフ ビジュアルをクリックします。このビジュアルでは、凡例に &lt;strong&gt;データ ポイントのタイプ&lt;/strong&gt;の計算後の列が使用されています。&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;[書式設定]&lt;/strong&gt;ウィンドウで、&lt;strong&gt;[データの色]&lt;/strong&gt; を展開します。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src="{4}" alt="" title="" /&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;値の 2 つのカテゴリを区別して描画するため、異なる色が使用されています。さらに、凡例が有効化され、ビジュアルの左上隅に表示されています。デザインに関するこれらの決定は、閲覧者の注目をこの単一系列のデータに含まれる 2 つのカテゴリの違いに集めるためのものです。&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;img src="{5}" alt="" title="" /&gt;&lt;/p&gt;
+
+&lt;h2 id="visualization-examples"&gt;可視化の例 (インデックス付きグラフおよび合計の割合)&lt;/h2&gt;
+
+&lt;p&gt;このコースで示すサンプルを実行するには、次の準備が必要です。&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;Windows 7 以降を実行するコンピューター&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href="{6}"&gt;&lt;em&gt;Power BI Desktop&lt;/em&gt;&lt;/a&gt; のダウンロードおよびインストール&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Power BI アカウント (&lt;a href="{1}"&gt;&lt;em&gt;{2}&lt;/em&gt;&lt;/a&gt;) への登録&lt;/p&gt;
+
+&lt;p&gt;a.職場の電子メール アカウントを使用して登録する必要があります。個人用のアカウント (gmail、Hotmail、outlook.com、yahoo.com) はサポートされていません。&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3&gt;手順 1: 合計の割合&lt;/h3&gt;
+
+&lt;p&gt;多くの場合、値は状況に応じて配置しない限りあまり役に立ちません。閲覧者が以前の経験からコンテキストを十分に把握しているとみなすことのできる場合があります。たとえば、800 万人のオランダ人居住者の特徴について述べている記事を読む場合、オランダの新聞を読んでいる人のほとんどは、それが国全体の人口の約半分であることを知っています。ただし、すべての閲覧者が同じ予備知識を持っていると期待できない場合は、合計の割合を表示すると役に立ちます。この例では、前提としてグローバル都市人口に関する明確な見通しがないため、インドの都市居住者が 3 億人か 5 億人かということからは、これが世界中のすべての都市人口の 3.5% を占めるということしかわかりません。以下の例では、何も計算せずに、ある値を全体に対する割合に変換する方法について示します。&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;全体に対する割合を表示するビジュアルを選択します。&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;値フィールドのドロップダウン メニューから &lt;strong&gt;[簡単な計算]&lt;/strong&gt; を選択します。&lt;/p&gt;&lt;/li&gt;
+&lt;p&gt;&lt;img src="{7}" alt="" title="" /&gt;&lt;/p&gt;
+&lt;li&gt;&lt;strong&gt;[簡単な計算]&lt;/strong&gt; エディターで、&lt;strong&gt;[値の表示方法] &lt;/strong&gt; を &lt;strong&gt;[総計のパーセント]&lt;/strong&gt; に設定します。最も大きな 4 つの国の合計に対する累積パーセントを確認するために、これら上位 4 か国をフィルター ボックスに入力してビジュアルを折れ線グラフから積み上げ領域面グラフに変更します。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;img src="{8}" alt="" title="" /&gt;&lt;/p&gt;
+&lt;h3&gt;手順 2: インデックス付きグラフ&lt;/h3&gt;
+&lt;p&gt;コンテキストを作成する別の方法として、特定の時間枠における特定の値の相対成長を比較するというものがあります。この例では、定義した基準年と比較して特定の値がどのくらい増加または減少したかを計算する、インデックス付きグラフの作成方法を示します。&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;インデックス付きの値について、&lt;strong&gt;[新しいメジャー]&lt;/strong&gt; を作成します。次の数式では、都市人口の和を取って 2005 年の都市人口の集計で割っています。この 2005 年はベースラインとして使用しています。&lt;/li&gt;
+  &lt;p&gt;インデックス付き都市人口 =\ SUM ( '都市人口'[都市人口])\     / CALCULATE (\         SUM ( '都市人口'[都市人口] ),\         '都市人口'[年] = 2005\     )\   *100&lt;/p&gt;
+&lt;li&gt;実際の値とインデックス付きメジャーをプロットすると、後者の方が、どの地域が 2005 年以降最も急速に増加しているかがより明確にわかります。こうした洞察を最初のグラフから得るのは大変です。&lt;img src="{9}" alt="" title="" /&gt;&lt;/li&gt;
+&lt;/ol&gt;</value>
+  </data>
+  <data name="Download_Resources" xml:space="preserve">
+    <value>これらのチュートリアルに必要なすべてのリソースをダウンロードする</value>
+  </data>
+  <data name="Hero_Subtitle" xml:space="preserve">
+    <value>視覚エフェクトは誤解を招きやすいため、情報を正確に提示することが重要になります。Alberto Cairo が、ベースラインの設定方法、二重スケール グラフに注意する必要がある理由、および対象ユーザーを考慮する重要性について説明します。</value>
+  </data>
+  <data name="Hero_Title" xml:space="preserve">
+    <value>実際の視覚エフェクト</value>
+  </data>
+  <data name="InThisArticle" xml:space="preserve">
+    <value>この記事の内容:</value>
+  </data>
+  <data name="META_DESCRIPTION" xml:space="preserve">
+    <value />
+  </data>
+  <data name="META_KEYWORDS" xml:space="preserve">
+    <value />
+  </data>
+  <data name="META_PAGETITLE" xml:space="preserve">
+    <value>データ ジャーナリズム - 実際の視覚エフェクト | Microsoft Power BI</value>
+  </data>
+  <data name="NextTopic" xml:space="preserve">
+    <value>次のトピック: グラフィックスの選択</value>
+  </data>
+  <data name="RightNav_Link1" xml:space="preserve">
+    <value>誤解を招くグラフィックスと誤解を招かないグラフィックスの例</value>
+  </data>
+  <data name="RightNav_Link2" xml:space="preserve">
+    <value>視覚エフェクトの例 (インデックス付きグラフおよび合計の割合)</value>
+  </data>
+  <data name="Meta_LocJobId" xml:space="preserve">
+    <value>159</value>
+  </data>
+</root>

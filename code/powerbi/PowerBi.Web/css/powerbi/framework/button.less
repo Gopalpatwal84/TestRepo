@@ -1,0 +1,60 @@
+﻿@import (reference) '../../../less/mixins.d.less';
+@import (reference) '../../../less/variables.d.less';
+
+// PBI-363
+.button {
+    background-color: transparent;
+    border: 2px solid @color-slate01;
+    color: @color-slate01 !important;
+    fill: @color-slate01;
+    font-size: 18px;
+    font-weight: @font-semibold;
+    padding: 6px 20px 7px;
+
+    &:hover {
+        background-color: @color-slate01;
+        color: @color-font-light !important;
+        fill: @color-font-light;
+        text-decoration: none;
+    }
+
+    .icon {
+        height: 18px;
+        width: 18px;
+    }
+
+}
+
+button,
+[type='submit'],
+[type='button'] {
+    &[disabled], &[disabled]:hover {
+        color: rgba(0, 0, 0, .2);
+        background-color: rgba(0, 0, 0, .2);
+        cursor: not-allowed;
+    }
+}
+
+// PBI-363
+.button-featured {
+    background-color: @color-palette02;
+    border: 2px solid @color-palette02;
+
+    &:hover {
+        background-color: @color-palette04;
+        border: 2px solid @color-palette04;
+        color: @color-slate01 !important;
+        fill: @color-slate01;
+    }
+}
+
+
+.button-alt {
+    border: 2px solid @color-palette01;
+    color: @color-font-light !important;
+
+    &:hover {
+        background-color: @color-palette01;
+        color: @color-slate01 !important;
+    }
+}

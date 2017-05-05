@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<appSettings>
+  <!-- Seq settings -->
+  <add key="SeqServer" value="http://localhost:5341/" />
+  <add key="SeqServerApiKey" value="#{keyvault:powerbi:jobs-seq-apikey}" />
+  <add key="SeqAllowFileBuffer" value="false" />
+
+  <!-- Redis -->
+  <add key="Acom.Redis.Configuration.KeyPrefix" value="" />
+  <add key="Acom.Configuration.DeploymentGroup" value="group-a" />
+  
+  <!-- Support Api -->
+    <add key="PowerBI.Jobs.SupportTopicsPump.Configuration.SupportServicesUrl" value="https://products.support.services.microsoft.com/api/{0}/products/{1}/topics" />
+    <add key="PowerBI.Jobs.SupportTopicsPump.Configuration.ProductId" value="16126" />
+</appSettings>

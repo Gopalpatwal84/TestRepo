@@ -1,0 +1,187 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" id="root">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AdvancedDownloadOptions" xml:space="preserve">
+    <value>高级下载选项</value>
+  </data>
+  <data name="AppStore" xml:space="preserve">
+    <value>应用商店</value>
+  </data>
+  <data name="Desktop_Copy" xml:space="preserve">
+    <value>借助 Microsoft Power BI Desktop，你可以通过自由地拖放画布并借助海量的现代数据可视化对象以及易于使用的报告创作体验，直观地浏览你的数据。</value>
+  </data>
+  <data name="Desktop_Heading" xml:space="preserve">
+    <value>Microsoft Power BI Desktop</value>
+  </data>
+  <data name="Download" xml:space="preserve">
+    <value>下载</value>
+  </data>
+  <data name="DownloadFrom" xml:space="preserve">
+    <value>从</value>
+  </data>
+  <data name="EnterpriseGateway_Copy" xml:space="preserve">
+    <value>组织使用此网关来服务众多用户。通过此网关，管理员能够对单个数据源设置访问控制并监视使用情况。</value>
+  </data>
+  <data name="EnterpriseGateway_Heading" xml:space="preserve">
+    <value>Microsoft Power BI Enterprise Gateway</value>
+  </data>
+  <data name="GooglePlay" xml:space="preserve">
+    <value>Google Play</value>
+  </data>
+  <data name="Hero_Copy" xml:space="preserve">
+    <value>&lt;p&gt;无论你是在旅途中还是需要创建丰富的交互式报告，Power BI 都可以为你提供所需的工具。借助我们的应用套件，随时随地保持连接到你的数据。&lt;/p&gt;
+&lt;p&gt;在旅途中，你只需动动手指即可获取业务数据的全方位视图，并且可以通过 Power BI 快速连接、塑造、可视化和共享数据洞察力。&lt;/p&gt;</value>
+  </data>
+  <data name="Hero_Heading" xml:space="preserve">
+    <value>从任何位置生成报告并监视你的数据</value>
+  </data>
+  <data name="META_DESCRIPTION" xml:space="preserve">
+    <value>Power BI 可将你公司的数据转换为丰富的视觉对象，你可以对这些视觉对象进行收集和组织，从而将注意力集中于重要的内容。始终获悉最新信息、掌握即时趋势并进一步推动你的业务。</value>
+  </data>
+  <data name="META_KEYWORDS" xml:space="preserve">
+    <value />
+  </data>
+  <data name="META_PAGETITLE" xml:space="preserve">
+    <value>下载 | Microsoft Power BI</value>
+  </data>
+  <data name="Mobile_Copy" xml:space="preserve">
+    <value>随时随地访问你的数据。通过这些本机应用，你可以实时地、以交互方式随处访问你的重要业务信息。</value>
+  </data>
+  <data name="Mobile_Heading" xml:space="preserve">
+    <value>Microsoft Power BI Mobile</value>
+  </data>
+  <data name="PersonalGateway_Copy" xml:space="preserve">
+    <value>是否仍只有部分数据在云中？ 请在桌面上安装 Power BI 个人网关，使仪表板和报告与本地数据保持自动同步。</value>
+  </data>
+  <data name="PersonalGateway_Heading" xml:space="preserve">
+    <value>Microsoft Power BI 个人网关</value>
+  </data>
+  <data name="Publisher_Copy" xml:space="preserve">
+    <value>只需点击几次便可将重要的数据透视表、图表、单元格区域以及 Excel 电子表格的其他所有内容的快照保存到 Power BI Web 仪表板。</value>
+  </data>
+  <data name="Publisher_Heading" xml:space="preserve">
+    <value>Microsoft Power BI publisher for Excel</value>
+  </data>
+  <data name="WindowsStore" xml:space="preserve">
+    <value>Windows 应用商店下载</value>
+  </data>
+  <data name="Meta_LocJobId" xml:space="preserve">
+    <value>85</value>
+  </data>
+</root>

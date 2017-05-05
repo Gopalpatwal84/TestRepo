@@ -1,0 +1,146 @@
+﻿@model PowerBI.Web.Models.Pages.Departments.DepartmentDetailsViewModel
+@using Resources = PowerBI.Resources.Pages.Departments.Details;
+@using Departments = PowerBI.Resources.Shared.Departments;
+
+@{
+    Model.PageTitle = string.Format(Resources.META_PAGETITLE, Departments.ResourceManager.GetString(Model.Department.TitleLockey));
+    Model.MetaKeywords = Resources.META_KEYWORDS;
+    Model.MetaDescription = Resources.META_DESCRIPTION;
+}
+
+<section class="section section-palette02">
+    <div class="row">
+        <div class="column medium-5">
+            <h1>@Departments.ResourceManager.GetString(Model.Department.DetailTaglineLockey)</h1>
+        </div>
+        <div class="column medium-7">
+            <p>@Departments.ResourceManager.GetString(Model.Department.DescriptionLockey)</p>
+        </div>
+    </div>
+</section>
+
+<section class="section section-size1 section-slate01 subnav-collapse">
+    <div class="row">
+        <div class="column">
+            <div class="subnavMenuToggle">
+                <span class="subnavMenuExpandIcon">
+                    <span class="icon-bar bar1"></span>
+                    <span class="icon-bar bar2"></span>
+                    <span class="icon-bar bar3"></span>
+                </span>
+                <span class="subnavMenuText text-heading5">@Departments.SubNavTitle</span>
+            </div>
+        </div>
+        <div class="subnavMenuLinks">
+            <div class="column">
+                <ul class="linkList linkList-horizontal">
+                    @foreach (var department in Model.Departments)
+                    {
+                        <li class="subnavLink">
+                            <a href="@Html.LocalizeUrl(department.Url)" class="@(Model.Department.Slug == department.Slug ? "active" : null)">
+                                @Departments.ResourceManager.GetString(department.TitleLockey)
+                            </a>
+                        </li>
+                    }
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+<div class="owl-carousel-vertical">
+    @{int j = 0;}
+    @foreach (var scenario in Model.Department.Scenarios)
+    {
+        <section class="section section-size6">
+            <div class="row">
+                <div class="column medium-5 text-center">
+                    <a class="img-wrapper show-for-medium" data-pops-up="modal-video@(j)" href="@scenario.EmbededReport">
+                        <img class="img-frame" src="@CdnHelper.GetCdnUrl(scenario.Screenshot)" alt="" />
+                    </a>
+                    <a class="img-wrapper hide-for-medium" target="_blank" href="@scenario.EmbededReport">
+                        <img class="img-frame" src="@CdnHelper.GetCdnUrl(scenario.Screenshot)" alt="" />
+                    </a>
+                    <p>
+                        <a href="@scenario.EmbededReport" class="button button-featured show-for-medium" data-pops-up="modal-video@(j)" data-video-embed="@scenario.EmbededReport">
+                            <span class="icon">@SvgHelper.GetSvg("report")</span>
+                            @Resources.ViewReport_Cta
+                        </a>
+                        <a href="@scenario.EmbededReport" class="button button-featured hide-for-medium" target="_blank">
+                            <span class="icon">@SvgHelper.GetSvg("report")</span>
+                            @Resources.ViewReport_Cta
+                        </a>
+                    </p>
+                </div>
+                <div class="column medium-6 medium-offset-1">
+                    <h3>@Departments.ResourceManager.GetString(scenario.TitleLockey)</h3>
+                    <p>@Departments.ResourceManager.GetString(scenario.TaglineLockey)</p>
+                    @Html.Raw(Departments.ResourceManager.GetString(scenario.DescriptionLockey))
+                </div>
+            </div>
+        </section>
+        j++;
+    }
+</div>
+@{int k = 0;}
+@foreach (var scenario in Model.Department.Scenarios)
+{
+    <section class="section modal modal-video modal-large" id="modal-video@(k)" data-video-embed="@scenario.EmbededReport">
+        <button class="close">&times;</button>
+        <div class="row column">
+            <iframe frameborder="0"></iframe>
+        </div>
+    </section>
+    k++;
+}
+
+<span style="display:none; visibility:hidden;">@SvgHelper.GetSvg("computer")</span> @* styling the def when repeating was weird *@
+
+<section class="section section-slate01 section-size0" style="overflow: visible;">
+    <div class="row">
+        <div class="column owl-controls-vertical">
+            @foreach (var scenario in Model.Department.Scenarios.Select((x, i) => new { data = x, index = i++ }))
+            {
+                <a href="#" data-index="@scenario.index" class="text-heading4">
+                    <span class="icon icon-size3"><span class="glyphicon glyph-med pbi-glyph-@scenario.data.Icon"></span></span>
+                    <span class="dot-label show-for-medium">@Departments.ResourceManager.GetString(scenario.data.TitleLockey)</span>
+                    <div class="underline"></div>
+                </a>
+            }
+        </div>
+    </div>
+</section>
+
+@section foot {
+    <script>
+        $(function () {
+            var $carousel = $('.owl-carousel-vertical'),
+                $dots = $('.owl-controls-vertical a');
+
+            $carousel.owlCarousel({
+                autoplay: false,
+                items: 1,
+                loop: true,
+                animateOut: 'slideOutUp',
+                animateIn: 'slideInUp',
+                autoHeight: true,
+                mouseDrag: false,
+                touchDrag: false,
+                pullDrag:false
+            });
+
+            $dots.on('click', function (e) {
+                e.preventDefault();
+                var $dot = $(this);
+
+                $carousel.trigger('to.owl.carousel', $dot.data('index'));
+                $dots.removeClass('active');
+                $dot.addClass('active');
+            });
+
+            $dots.first().addClass('active');
+        });
+    </script>
+}

@@ -1,0 +1,23 @@
+﻿@model PowerBI.Web.Features.Forms.Models.SimpleRegistrationFormViewModel
+
+@using Form = PowerBI.Resources.Shared.Forms.Form
+
+@{
+    OnyxForms.SetupForms();
+    var formClass = Model.FormOptions.Class ?? string.Empty;
+    var submitText = Model.FormOptions.SubmitText ?? Form.TrackProgress;
+}
+
+@using (var f = Html.BeginChameleonForm(Html.LocalizeUrl("/forms/submit-track-progress/").ToString(), method: FormMethod.Post, htmlAttributes: Html.Attrs().AddClass(formClass).Attr("data-form-type", "track-progress")))
+{
+    using (var s = f.BeginSection())
+    {
+        @f.FormOptions(Model.FormOptions)
+        @s.FieldFor(m => m.Email).Placeholder(Form.Email_Placeholder).WithoutLabel().Label(string.Empty);
+    }
+    using (var n = f.BeginNavigation())
+    {
+        @n.Submit(submitText).AddClass("button-featured button-block")
+    }
+}
+    <p class="text-left text-mini row column row-size1">@Form.Terms_TrackProgress</p>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<serviceSettings>
+  <services>
+    <group name="functional-tests" default="true">
+      <documentdb>
+        <connectionInfo region="West US" default="true" host="https://pwrbi-westus-int-01.documents.azure.com" key="#{keyvault:powerbi:services-documentdb-forms-westus-key}" />
+      </documentdb>
+    </group>
+  </services>
+</serviceSettings>

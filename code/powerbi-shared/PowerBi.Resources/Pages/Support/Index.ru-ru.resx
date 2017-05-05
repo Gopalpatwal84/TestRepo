@@ -1,0 +1,312 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" id="root">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="BecomePro_1" xml:space="preserve">
+    <value>&lt;a href="{0}"&gt;Станьте пользователем уровня Pro&lt;/a&gt;, чтобы получать поддержку бесплатно</value>
+    <comment>0 is url</comment>
+  </data>
+  <data name="Community_Content" xml:space="preserve">
+    <value>Загляните в сообщество Power BI, чтобы получить ответы и советы непосредственно от других пользователей Power BI.</value>
+  </data>
+  <data name="Community_Heading" xml:space="preserve">
+    <value>Задайте вопрос сообществу</value>
+  </data>
+  <data name="CreateSupportTicket" xml:space="preserve">
+    <value>Создайте обращение в службу поддержки</value>
+  </data>
+  <data name="Documentation_Content" xml:space="preserve">
+    <value>Читайте подробные статьи обо всех инструментах и функциях Power BI — от руководств для начала работы до профессиональных техник.</value>
+  </data>
+  <data name="Documentation_Heading" xml:space="preserve">
+    <value>Документация</value>
+  </data>
+  <data name="Faq1_Answer" xml:space="preserve">
+    <value>&lt;p&gt;Если на панелях мониторинга или в отчетах отображаются не актуальные данные, проверьте следующее:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Настроено ли обновление?&lt;/strong&gt;&lt;br /&gt;
+&lt;a href="{0}"&gt;Выполните эти инструкции&lt;/a&gt;, чтобы настроить обновление по расписанию или однократно применить функцию "Обновить сейчас".&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Хранятся ли ваши данные в OneDrive?&lt;/strong&gt;&lt;br /&gt;
+Power BI проверяет OneDrive на изменения в данных каждый час. Если данные нужны вам раньше, щелкните "ОБНОВИТЬ СЕЙЧАС", но не делайте это чаще, чем раз в пять минут. Дополнительные сведения об &lt;a href="{1}"&gt;обновлении данных в OneDrive&lt;/a&gt;.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Не устарели ли плитки?&lt;/strong&gt;&lt;br /&gt;
+Плитки для источников данных с прямыми запросами обновляются каждые десять минут.&lt;/p&gt;
+&lt;/li&gt;</value>
+    <comment>0 is url
+1 is url</comment>
+  </data>
+  <data name="Faq1_Question" xml:space="preserve">
+    <value>Что делать, если мои данные устарели?</value>
+  </data>
+  <data name="Faq2_Answer" xml:space="preserve">
+    <value>&lt;p&gt;Ознакомьтесь с &lt;a href="{0}"&gt;руководством по устранению неполадок соединителя служб Analysis&lt;/a&gt;.&lt;/p&gt;</value>
+    <comment>0 is url</comment>
+  </data>
+  <data name="Faq2_Question" xml:space="preserve">
+    <value>Невозможно установить соединитель AS или не удается подключиться к данным.</value>
+  </data>
+  <data name="Faq3_Answer" xml:space="preserve">
+    <value>&lt;p&gt;Дополнительные сведения см. в нашем &lt;a href="{0}"&gt;руководстве по устранению неполадок личных шлюзов&lt;/a&gt;.&lt;/p&gt;</value>
+    <comment>0 is url</comment>
+  </data>
+  <data name="Faq3_Question" xml:space="preserve">
+    <value>Возникает ошибка при обновлении данных через личный шлюз Power BI.</value>
+  </data>
+  <data name="Faq4_Answer" xml:space="preserve">
+    <value>&lt;p&gt;Если при регистрации в Power BI вы получаете сообщение об ошибке, ознакомьтесь с &lt;a href="{0}"&gt;распространенными ошибками и способами их устранения&lt;/a&gt;.&lt;/p&gt;</value>
+    <comment>0 is url</comment>
+  </data>
+  <data name="Faq4_Question" xml:space="preserve">
+    <value>Мне нужна помощь с регистрацией в Power BI.</value>
+  </data>
+  <data name="GuidedLearning_Content" xml:space="preserve">
+    <value>Серии видео и статей содержат инструкции по выполнению стандартных задач.</value>
+  </data>
+  <data name="GuidedLearning_Heading" xml:space="preserve">
+    <value>Направляемое обучение</value>
+  </data>
+  <data name="Hero_Heading" xml:space="preserve">
+    <value>Поддержка по Power BI</value>
+  </data>
+  <data name="LoadingServiceStatusFailed" xml:space="preserve">
+    <value>Не удалось загрузить состояние службы Power BI.</value>
+  </data>
+  <data name="META_DESCRIPTION" xml:space="preserve">
+    <value>Power BI преобразует данные вашей организации в привлекательные визуальные представления с широкими возможностями по сбору и упорядочению данных, позволяя сконцентрироваться на важнейших задачах. Будьте в курсе дел, отслеживайте тенденции по мере их возникновения и продвигайте ваш бизнес вперед.</value>
+  </data>
+  <data name="META_KEYWORDS" xml:space="preserve">
+    <value />
+  </data>
+  <data name="META_PAGETITLE" xml:space="preserve">
+    <value>Поддержка | Microsoft Power BI</value>
+  </data>
+  <data name="ModalAdminSupport_Content1" xml:space="preserve">
+    <value>Для доступа к этому варианту поддержки обратитесь к системному администратору. Он может отправить запрос службы через Портал администрирования Office 365.</value>
+  </data>
+  <data name="ModalAdminSupport_Cta" xml:space="preserve">
+    <value>Отправить запрос администратору</value>
+  </data>
+  <data name="ModalAdminSupport_Heading" xml:space="preserve">
+    <value>Администратор</value>
+  </data>
+  <data name="ModalAdminSupport_SubHeading" xml:space="preserve">
+    <value>Оплата и техническая поддержка для администраторов.</value>
+  </data>
+  <data name="ModalCommunitySupport_Content" xml:space="preserve">
+    <value>&lt;p&gt;Получите ответы от опытных специалистов из сообщества Power BI в дружеской атмосфере обсуждения. Наши форумы доступны круглосуточно. Также к вашим услугам архив вопросов службе поддержки с возможностью поиска.&lt;/p&gt;</value>
+  </data>
+  <data name="ModalCommunitySupport_Cta" xml:space="preserve">
+    <value>Посетите сообщество</value>
+  </data>
+  <data name="ModalCommunitySupport_Heading" xml:space="preserve">
+    <value>Сообщество</value>
+  </data>
+  <data name="ModalCommunitySupport_SubHeading" xml:space="preserve">
+    <value>Бесплатная поддержка от сообщества.</value>
+  </data>
+  <data name="ModalFooter_BasicSupport" xml:space="preserve">
+    <value>Ответ нужен не срочно? &lt;a href="{0}"&gt;Отправьте базовый запрос&lt;/a&gt; на получение информации о платформах и службах по электронной почте.  
+</value>
+  </data>
+  <data name="ModalFooter_BasicSupport2" xml:space="preserve">
+    <value>Только на английском языке, с 9:00 до 21:00. (Восточноевропейское время), с понедельника по пятницу, срок ожидания ответа не определен.</value>
+  </data>
+  <data name="ModalPrioritySupport_Content" xml:space="preserve">
+    <value>Создавайте запросы, используя платные &lt;a href={0}&gt;варианты поддержки&lt;/a&gt; при наличии проблем с платформой, панелями мониторинга, созданием и конфигурациями. &amp;#160;Запросы будут обрабатываться специалистами Майкрософт в индивидуальном порядке.</value>
+    <comment>link</comment>
+  </data>
+  <data name="ModalPrioritySupport_Cta" xml:space="preserve">
+    <value>Отправить приоритетный запрос</value>
+  </data>
+  <data name="ModalPrioritySupport_Heading" xml:space="preserve">
+    <value>Priority</value>
+  </data>
+  <data name="ModalPrioritySupport_SubHeading" xml:space="preserve">
+    <value>Платная приоритетная поддержка.</value>
+  </data>
+  <data name="ModalProSupport_Content2" xml:space="preserve">
+    <value>&lt;p&gt;&lt;strong&gt;Вы — администратор Power BI Pro?&lt;/strong&gt;&lt;br /&gt;
+&lt;a href="{0}" target="_blank"&gt;Отправьте обращение на портале администрирования Office 365.&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Вы — владелец контракта на услуги Premier Services или хотите заплатить за обращение в службу поддержки?&lt;/strong&gt;&lt;br /&gt;
+&lt;a href="{1}" target="_blank"&gt;Перейдите к отправке обращения в службу поддержки версии Pro.&lt;/a&gt;&lt;/p&gt;</value>
+    <comment>0 is URL
+1 is URL</comment>
+  </data>
+  <data name="NationalClouds_Content_1" xml:space="preserve">
+    <value>Если вы используете национальные облачные службы, ознакомьтесь с информацией и рекомендациями по поводу них на странице &lt;a href="{0}" target="_blank"&gt;Сообщества Power BI community.&lt;/a&gt;</value>
+    <comment>0 is url</comment>
+  </data>
+  <data name="NationalClouds_Cta" xml:space="preserve">
+    <value>Поддержка</value>
+  </data>
+  <data name="NationalClouds_Cta2" xml:space="preserve">
+    <value>Дополнительные сведения  </value>
+  </data>
+  <data name="NationalClouds_Heading" xml:space="preserve">
+    <value>Национальные облачные службы</value>
+  </data>
+  <data name="ReportIssue_Content" xml:space="preserve">
+    <value>Нашли ошибку? Расскажите нам о ней как можно подробнее, чтобы мы смогли исправить ее в следующих выпусках Power BI.</value>
+  </data>
+  <data name="ReportIssue_Heading" xml:space="preserve">
+    <value>Сообщить о проблеме</value>
+  </data>
+  <data name="Samples_Content" xml:space="preserve">
+    <value>Ознакомьтесь с примерами панелей мониторинга, отчетов и файлов для классической версии программы. Узнайте, как наши партнеры используют Power BI.</value>
+  </data>
+  <data name="Samples_Heading" xml:space="preserve">
+    <value>Примеры</value>
+  </data>
+  <data name="SearchSupport" xml:space="preserve">
+    <value>Поддержка</value>
+  </data>
+  <data name="SearchSupport_Cta" xml:space="preserve">
+    <value>Поиск по поддержке</value>
+  </data>
+  <data name="SearchSupport_Placeholder" xml:space="preserve">
+    <value>Как мы можем помочь?</value>
+  </data>
+  <data name="StillHavingIssues_Content" xml:space="preserve">
+    <value>Пользователи уровня Pro получают поддержку бесплатно. Заполните форму обращения в службу поддержки, и мы вскоре свяжемся с вами.</value>
+  </data>
+  <data name="StillHavingIssues_Heading" xml:space="preserve">
+    <value>По-прежнему есть проблемы?</value>
+  </data>
+  <data name="SubmitAnIdea_Content" xml:space="preserve">
+    <value>У вас возникла отличная идея, которая позволит сделать Power BI еще лучше? Мы хотели бы узнать о ней!</value>
+  </data>
+  <data name="SubmitAnIdea_Heading" xml:space="preserve">
+    <value>Отправка идеи</value>
+  </data>
+  <data name="SupportModal_Heading" xml:space="preserve">
+    <value>Выберите вариант поддержки для Power BI</value>
+  </data>
+  <data name="SupportOptions" xml:space="preserve">
+    <value>Варианты поддержки</value>
+  </data>
+  <data name="TopIssuesAndQuestions" xml:space="preserve">
+    <value>Вопросы и основные проблемы</value>
+  </data>
+  <data name="Meta_LocJobId" xml:space="preserve">
+    <value>199</value>
+  </data>
+</root>

@@ -1,0 +1,176 @@
+﻿/*
+Article
+
+Full article layout.
+
+Markup: article.html
+
+Style guide: article
+*/
+.article-header {
+  border-bottom: 1px solid #dedede;
+}
+.article-header .author-meta {
+  margin: 25px 0;
+}
+.article-header .author-meta img {
+  border-radius: 15px;
+  display: inline-block;
+  height: 30px;
+  width: 30px;
+}
+.article-header .author-meta p {
+  display: inline-block;
+  line-height: 10px;
+  padding-left: 10px;
+  vertical-align: top;
+}
+.article-header .author-meta p.article-date {
+  float: right;
+}
+[itemprop="articlebody"] img {
+  margin: 10px 0;
+  vertical-align: middle;
+}
+/*
+Navigation Left
+
+Description.
+
+Markup: navigationLeft.html
+
+Style guide: navigationleft
+*/
+.navigationLeft {
+  display: block;
+  width: 100%;
+}
+.navigationLeft .title {
+  background-color: #f4f4f4;
+  cursor: pointer;
+  display: block;
+  padding: 10px;
+}
+.navigationLeft.show > ul {
+  display: block;
+}
+.navigationLeft > ul {
+  display: none;
+}
+.navigationLeft ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.navigationLeft li {
+  margin: 0;
+  padding: 0 10px;
+}
+.navigationLeft li li {
+  margin-left: 25px;
+}
+.navigationLeft li li a {
+  padding: 0 0 10px;
+}
+.navigationLeft a {
+  color: #333333;
+  display: block;
+  padding: 10px 0 10px 20px;
+  position: relative;
+}
+.navigationLeft a:hover,
+.navigationLeft a.active {
+  color: #000000;
+  font-weight: 600;
+}
+@media only screen and (min-width: 960px) {
+  .navigationLeft {
+    margin-right: 30px;
+  }
+  .navigationLeft li {
+    padding: 0 10px 0 0;
+  }
+  .navigationLeft a {
+    padding: 10px 0;
+  }
+  .navigationLeft > ul {
+    display: block;
+  }
+  .navigationLeft .title {
+    background-color: transparent;
+    cursor: auto;
+    padding: 0;
+  }
+}
+/*
+Navigation Scroll
+
+Description.
+
+Markup: navigationScroll.html
+
+Style guide: navigationscroll
+*/
+[itemprop="articlebody"] .navigationScroll {
+  background-color: #f4f4f4;
+  padding: 10px;
+  margin-bottom: 25px;
+  position: static !important;
+}
+[itemprop="articlebody"] .navigationScroll span {
+  display: block;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+[itemprop="articlebody"] .navigationScroll ul {
+  margin: 0;
+  max-width: 100%;
+}
+[itemprop="articlebody"] .navigationScroll li {
+  margin-top: 10px;
+}
+[itemprop="articlebody"] .navigationScroll li:first-child {
+  margin-top: 0;
+}
+.column-navigationScroll .navigationScroll {
+  display: none;
+}
+@media only screen and (min-width: 960px) {
+  [itemprop="articlebody"] .navigationScroll {
+    display: none;
+  }
+  .column-navigationScroll .navigationScroll {
+    -webkit-transition: opacity 0.5s ease-out;
+    transition: opacity 0.5s ease-out;
+    display: block;
+    opacity: 1;
+    position: fixed;
+  }
+  .column-navigationScroll .navigationScroll.hidden {
+    opacity: 0;
+  }
+  .column-navigationScroll .navigationScroll a {
+    color: #000000;
+  }
+  .column-navigationScroll .navigationScroll a:hover {
+    color: #000000;
+    font-weight: 600;
+  }
+  .column-navigationScroll .navigationScroll ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  .column-navigationScroll .navigationScroll ul li {
+    border-left: 3px solid #ffffff;
+    line-height: 1.2;
+    margin: 10px 0;
+    padding-left: 6px;
+  }
+  .column-navigationScroll .navigationScroll ul li.active {
+    border-left-color: #f2c811;
+  }
+  .column-navigationScroll .navigationScroll ul li.active a {
+    font-weight: 600;
+  }
+}

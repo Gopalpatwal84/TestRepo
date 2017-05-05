@@ -1,0 +1,126 @@
+﻿@model PowerBI.Web.Models.Pages.PartnerShowcases.PartnerShowcaseDetailsViewModel
+@using Resources = PowerBI.Resources.Pages.PartnerShowcase.Details;
+
+@{
+    Model.PageTitle = Resources.META_PAGETITLE;
+    Model.MetaDescription = Resources.META_DESCRIPTION;
+    Model.MetaKeywords = Resources.META_KEYWORDS;
+
+    var partner = Model.Partner;
+    var profile = partner.Profiles.FirstOrDefault(x => x.Culture == KnownCultures.Current) ??
+                            partner.Profiles.FirstOrDefault(x => x.Culture == KnownCultures.Default) ??
+                            partner.Profiles.FirstOrDefault(x => x.Culture.StartsWith(KnownCultures.DefaultLanguage)) ??
+                            partner.Profiles.First();
+
+    var reportUrl = $"https://app.powerbi.com/view?r={profile.ReportId}";
+    var imageUrl = "/mediahandler/partnersv2/partnerfiles/{0}";
+
+    var contactUrl = !string.IsNullOrWhiteSpace(profile.ContactUrl) ? profile.ContactUrl : $"mailto:{profile.ContactEmail}";
+    var thumbnailUrl = !string.IsNullOrWhiteSpace(profile.ThumbnailUrl) ? profile.ThumbnailUrl : profile.Screenshots.FirstOrDefault();
+}
+
+@if (Model.InPreview)
+{
+    <section class="section section-slate01 section-size1">
+        <div class="row column">
+            @Resources.Preview
+        </div>
+    </section>
+}
+
+<section class="section">
+    <div class="row">
+        <div class="column medium-6 text-center">
+            <a href="@reportUrl" class="show-for-medium" data-pops-up="modal-video-report">
+                <img class="img-frame" alt="" src="@CdnHelper.GetCdnUrl(string.Format(imageUrl, thumbnailUrl))" />
+            </a>
+            <a href="@reportUrl" class="hide-for-medium" target="_blank">
+                <img class="img-frame" alt="" src="@CdnHelper.GetCdnUrl(string.Format(imageUrl, thumbnailUrl))" />
+            </a>
+
+            <a class="button button-featured show-for-medium" href="@reportUrl" data-pops-up="modal-video-report" data-event="partnershowcasedetails-clicked-viewreportcta" data-event-property="@profile.Name">
+                <span class="icon">@SvgHelper.GetSvg("report")</span>
+                @Resources.ViewReport_Cta
+            </a>
+            <a class="button button-featured hide-for-medium" href="@reportUrl" target="_blank" data-event="partnershowcasedetails-clicked-viewreportcta" data-event-property="@profile.Name">
+                <span class="icon">@SvgHelper.GetSvg("report")</span>
+                @Resources.ViewReport_Cta
+            </a>
+        </div>
+        <div class="column medium-6">
+            <div class="row">
+                <div class="column">
+                    <div class="logo-container">
+                        <img class="logo" alt="@profile.Name" src="@CdnHelper.GetCdnUrl(string.Format(imageUrl, profile.LogoUrl))" />
+                    </div>
+                    <h3>@profile.Name - @profile.SolutionName</h3>
+                    <p>@profile.ShortDescription</p>
+                    <a class="button" href="@contactUrl" data-event="partnershowcasedetails-clicked-contactpartnercta" data-event-property="@profile.Name">@Resources.ContactPartner_Cta</a>
+                    @if (!string.IsNullOrEmpty(profile.SolutionDescriptionVideo) && !profile.SolutionDescriptionVideo.Contains("hidethesolutionshowcasevideobutton"))
+                    {
+                        <a class="button" href="@profile.SolutionDescriptionVideo" data-pops-up="modal-video-solution"  data-event="partnershowcasedetails-clicked-watchvideocta" data-event-property="@profile.Name">
+                            <span class="icon">@SvgHelper.GetSvg("play")</span>
+                            @Resources.WatchVideo_Cta
+                        </a>
+                    }
+                </div>
+            </div>
+            @if (profile.Competencies.Any())
+            {
+                <div class="row row-flex">
+                    <div class="column xsmall-4">
+                        <img class="logo" alt="" src="@CdnHelper.GetCdnUrl("/pictures/shared/partners/microsoft-partner-badge.png")" />
+                    </div>
+                    <div class="column xsmall-8">
+                        <div class="competencies row column">
+                            <ul class="linkList">
+                                @foreach (var competency in profile.Competencies.Take(5))
+                                {
+                                    <li class="text-mini text-semibold competency competency-@competency.Level.ToLower()">@competency.Level @competency.Competency</li>
+                                }
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            }
+        </div>
+    </div>
+</section>
+
+<section class="section section-slate06">
+    <div class="row">
+        <div class="column medium-6 text-center">
+            @foreach (var image in profile.Screenshots)
+            {
+                <img alt="" src="@CdnHelper.GetCdnUrl(string.Format(imageUrl, image))" />
+            }
+        </div>
+        <div class="column medium-6">
+            @Html.Raw(profile.LongDescription)
+        </div>
+    </div>
+</section>
+
+<section class="section section-slate01">
+    <div class="row">
+        <div class="column medium-8 medium-centered text-center">
+            <h2>@Resources.BecomePartner_Heading</h2>
+            <p>@Resources.BecomePartner_Content</p>
+            <a class="button button-featured" href="https://profile.microsoft.com/RegSysProfileCenter/wizardnp.aspx?wizid=43313430-fcea-481c-9a54-a0f5106f29f4&lcid=1033">@Resources.BecomePartner_Cta</a>
+            @Html.RawFormatInvariant(Resources.BecomePartner_Content2, "pbiptnr@microsoft.com")
+        </div>
+    </div>
+</section>
+
+<section class="section modal modal-large modal-video" id="modal-video-report" data-video-embed="@reportUrl">
+    <button class="close">&times;</button>
+    <div class="row column">
+        <iframe frameborder="0"></iframe>
+    </div>
+</section>
+<section class="section modal modal-large modal-video" id="modal-video-solution" data-video-embed="@profile.SolutionDescriptionVideo">
+    <button class="close">&times;</button>
+    <div class="row column">
+        <iframe frameborder="0"></iframe>
+    </div>
+</section>

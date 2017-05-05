@@ -1,0 +1,294 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" id="root">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="About_Content" xml:space="preserve">
+    <value>&lt;p&gt;También recibirá demos de Microsoft Power BI que resaltan los siguientes temas: &lt;ul&gt;
+    &lt;li&gt;Aprenda paso a paso cómo retocar un gráfico circular con un diseño deficiente para convertirlo en un gráfico de rectángulos y un gráfico de barras con un aspecto limpio y conciso que permita a la audiencia captar la idea fundamental. &lt;/li&gt;
+    &lt;li&gt;Reciba una demo de cómo aplicar los principios de diseño de Alberto Cairo a una visualización de datos interactiva que merezca la pena publicar en un blog o en un artículo de Internet. &lt;/li&gt;
+    &lt;li&gt;Descubra cómo usar la animación, la interacción y la narración mediante la conversión de un gráfico de dispersión estático en una visualización interactiva de datos. &lt;/li&gt;
+    &lt;li&gt;Vea cómo relacionar una imagen pictórica y vincularla a sus datos. Se incluirá una introducción al uso de un panel sinóptico para dibujar áreas personalizadas sobre la imagen de cualquier mapa y exportarlo como archivo SVG a Power BI para poder aplicar color a las diferentes áreas en función de los datos.&lt;/li&gt;
+    &lt;li&gt;Aprenda más sobre SandDance, la nueva forma de dar un aspecto 3D a los datos. &lt;/li&gt;
+    &lt;li&gt;Explore el futuro de la visualización de datos con una demostración de realidad aumentada. Vea a alguien combinar datos con espacios físicos.&lt;/li&gt;
+&lt;/ul&gt;&lt;/p&gt;</value>
+  </data>
+  <data name="Article_Content_26" xml:space="preserve">
+    <value>&lt;h2 id="synoptic-panel"&gt;Panel sinóptico&lt;/h2&gt;
+
+&lt;p&gt;Para seguir los ejemplos de este curso, necesita cumplir los siguientes requisitos previos:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;Un equipo con Windows 7, o cualquier versión posterior&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Descargar e instalar &lt;a href="{0}"&gt;Power BI Desktop&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Registrarse para obtener una cuenta de Power BI (&lt;a href="{1}"&gt;{1}&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;a. Tendrá que registrarse con una cuenta de correo electrónico profesional. No se admiten cuentas personales (gmail, Hotmail, outlook.com, yahoo.com)&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Las imágenes interactivas pueden reforzar cualquier historia de datos de varias formas, que van desde el uso de una fotografía de un coche a una representación gráfica del sistema solar&lt;/p&gt;
+&lt;h3&gt;Paso 1: Creación de un mapa nuevo a partir de una imagen plana&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;Abra una nueva ventana del explorador y vaya a &lt;a href="{2}"&gt;{2}&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Arrastre el archivo &lt;strong&gt;solar.png&lt;/strong&gt; hasta el lienzo&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Seleccione uno de los círculos de la imagen&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Como en la imagen siguiente, debería ver que se realiza un seguimiento automático del círculo y que se marca como área 1 en el panel derecho. Puede cambiarle el nombre por &lt;strong&gt;Sol&lt;/strong&gt;. Si no desea que el nombre del área aparezca en el mapa, escriba un espacio en el cuadro &lt;strong&gt;Nombre de área (que se muestra)&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;img src="{3}" alt="" title="" /&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Siga seleccionando y asignando nombres a los restantes planetas.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Cuando haya terminado con el mapa, seleccione ‘&lt;strong&gt;Exportar a Power BI&lt;/strong&gt;’ en la esquina inferior derecha. Comenzará la descarga del mapa que acaba de crear.&lt;/p&gt;
+&lt;p&gt;&lt;img src="{4}" alt="" title="" /&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Abra &lt;strong&gt;solar.pbix&lt;/strong&gt; en Power BI Desktop&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Descargue el &lt;a href="{5}"&gt;objeto visual Panel sinóptico&lt;/a&gt; de la Galería de elementos visuales e impórtelo en su informe mediante los tres puntos del panel de visualización. El panel sinóptico aparecerá como un icono nuevo en la colección de objetos visuales.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src="{6}" alt="" title="" /&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Use este icono para crear un nuevo objeto visual y arrastre &lt;strong&gt;Planeta&lt;/strong&gt; de la tabla &lt;strong&gt;Datos&lt;/strong&gt; a la leyenda.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src="{7}" alt="" title="" /&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Use &lt;strong&gt;Seleccionar mapa&lt;/strong&gt; para cargar el mapa que acaba de cargar. Arrastre un valor, como Temperatura media en la superficie, a &lt;strong&gt;Valores&lt;/strong&gt; en el panel Campos.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Los datos ya están conectados a las formas del mapa. Puede empezar a diseñar el resto de la página y experimente con la interactividad y los colores del mapa.&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3&gt;Paso 2: Uso de archivos de forma con formas predefinidas&lt;/h3&gt;
+
+&lt;p&gt;El panel sinóptico también se puede usar para archivos que ya tienen capas de objetos visuales definidas. Editores vectoriales como Inkscape (una herramienta gratuita) o Adobe Illustrator para asignar nombres a las formas y capas. Para almacenar esta información, guárdela en forma de archivo SVG.&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Para explorar este concepto con el mismo ejemplo, arrastre &lt;strong&gt;solar.svg&lt;/strong&gt; al editor de Synoptic Designer
+&lt;p&gt;&lt;img src="{8}" alt="" title="" /&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Al cargar esta imagen, se reconocen las formas predefinidas, que aparecen en el panel &lt;strong&gt;Áreas&lt;/strong&gt; de la derecha. En dicho panel puede comprobar los nombres definidos y editarlos, en caso de que sea necesario.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;A partir de este momento, los pasos son similares a los que se acaban de describir. Seleccione &lt;strong&gt;Exportar a Power BI&lt;/strong&gt; y abra el mapa en el panel sinóptico en Power BI.&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id="augmented-reality"&gt;Realidad aumentada con Power BI&lt;/h2&gt;
+
+&lt;p&gt;Para este tutorial se necesitan:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;Alberto Cairo Book Report.pbix&lt;/strong&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Una cuenta de PowerBI.com (regístrese en &lt;a href="{1}"&gt;{1}&lt;/a&gt; )&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3&gt;Paso 1: Publicar un informe en su cuenta de Power BI.com&lt;/h3&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;Abra el archivo &lt;strong&gt;Alberto Cairo Book Report.pbix&lt;/strong&gt; en Power BI Desktop&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Use la opción &lt;strong&gt;Publicar&lt;/strong&gt; de la cinta &lt;strong&gt;Inicio&lt;/strong&gt; para publicar el informe en su cuenta de Power BI&lt;/p&gt;
+&lt;p&gt;&lt;img src="{9}" alt="" title="" /&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;Se le puede pedir que inicie sesión en Power BI
+&lt;p&gt;&lt;img src="{10}" alt="" title="" /&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;Cuando haya iniciado sesión y el proceso de publicación se haya completado, verá el siguiente cuadro de diálogo.
+&lt;p&gt;&lt;img src="{11}" alt="" title="" /&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Haga clic en el vínculo &lt;strong&gt;Abrir ‘Alberto Cairo Book Report.pbix’ en Power BI&lt;/strong&gt;. Se abrirá una ventana del explorador y verá el informe.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Pulse el icono de &lt;strong&gt;anclar&lt;/strong&gt; de la parte superior derecha del gráfico de columnas &lt;strong&gt;Alberto Cairo y los números&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src="{12}" alt="" title="" /&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;En el cuadro de diálogo &lt;strong&gt;Anclar al panel&lt;/strong&gt;, seleccione &lt;strong&gt;Nuevo panel&lt;/strong&gt; y escriba un nombre para el panel&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Presione &lt;strong&gt;Anclar&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;img src="{13}" alt="" title="" /&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;Un mensaje de operación correcta (cerca de la esquina superior derecha) le permite saber que la visualización se ha agregado al panel en forma de icono.
+&lt;p&gt;&lt;img src="{14}" alt="" title="" /&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;Abra el panel que acaba de crear. Para ello, seleccione el nombre que aparece debajo del título &lt;strong&gt;Paneles&lt;/strong&gt; del panel de navegación izquierdo. Al ser nuevo, el panel tendrá un asterisco amarillo.
+&lt;p&gt;&lt;img src="{15}" alt="" title="" /&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Pulse el icono &lt;strong&gt;Modo enfocado&lt;/strong&gt; &lt;img src="{16}" alt="" title="" /&gt; de la parte superior derecha del icono en el panel.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src="{17}" alt="" title="" /&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;Seleccione los puntos suspensivos (...) de la esquina superior derecha y elija &lt;strong&gt;Generar código QR&lt;/strong&gt;.
+&lt;p&gt;&lt;img src="{18}" alt="" title="" /&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;Aparece un cuadro de diálogo con el código QR.
+&lt;p&gt;&lt;img src="{19}" alt="" title="" /&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Desde aquí puede escanear el código QR o descargarlo y guardarlo para poder:&lt;/p&gt;
+
+&lt;p&gt;a. Agregarlo a un correo electrónico o a otro documento, o bien&lt;/p&gt;
+
+&lt;p&gt;b. Imprimirlo y colocarlo en una ubicación específica.&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3&gt;Paso 2: Imprimir el código QR&lt;/h3&gt;
+
+&lt;p&gt;Power BI genera el código QR como archivo JPG, listo para imprimir.&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Seleccione &lt;strong&gt;Descargar&lt;/strong&gt; y abra el archivo JPG en un equipo conectado a una impresora.&lt;/li&gt;
+  &lt;p&gt;&lt;em&gt;&lt;strong&gt;Sugerencia:&lt;/strong&gt; El archivo JPG se llama igual que el icono. Por ejemplo, "Recuento de oportunidades por mes, etapa de ventas.jpg"&lt;/em&gt;&lt;/p&gt;
+&lt;li&gt;&lt;p&gt;Imprima el archivo al 100&amp;#160;% o en "tamaño real"&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Recorte el código QR por su borde y péguelo en un lugar relevante del icono&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Los códigos QR de Power BI pueden conectar cualquier elemento del mundo real directamente con información de BI relacionada (no es necesario realizar ninguna navegación o búsqueda).&lt;/p&gt;
+
+&lt;p&gt;Suponga que un compañero &lt;a href="{20}"&gt;ha creado un código QR en el servicio Power BI&lt;/a&gt; para un informe o un icono de un panel, ha compartido el panel o informe con usted, y ha colocado dicho código en una ubicación clave (por ejemplo, en un correo electrónico o en una ubicación concreta).&lt;/p&gt;
+
+&lt;p&gt;Puede escanear el código QR para acceder de forma inmediata al icono o informe relevantes, directamente desde un teléfono, mediante el escáner de la aplicación Power BI o cualquier otro escáner instalado en el teléfono.&lt;/p&gt;
+
+&lt;h3&gt;Paso 3: Escanear un código QR desde un escáner externo a un teléfono&lt;/h3&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;Desde cualquier escáner instalado en el teléfono, apunte el escáner al código QR de Power BI relevante para acceder de inmediato al icono o informe.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Si no tiene instalada la aplicación Power BI, se le redirigirá a la &lt;a href="{21}"&gt;App Store de Apple para descargarla&lt;/a&gt; en el iPhone.&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3&gt;Paso 4: Escanear un código QR de Power BI con el escáner de Power BI&lt;/h3&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;En la aplicación móvil de Power BI, abra el menú de navegación global &lt;img src="{22}" alt="" title="" /&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Desplácese hacia abajo hasta &lt;strong&gt;Escáner&lt;/strong&gt; y selecciónelo.&lt;/p&gt;
+&lt;p&gt;&lt;img src="{23}" alt="" title="" /&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Si la cámara no está habilitada, es preciso aprobar que la aplicación Power BI use la cámara. Se trata de una aprobación que se realiza una sola vez.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Seleccione el escáner en el código QR de Power BI.&lt;/p&gt;
+&lt;p&gt;&lt;img src="{24}" alt="" title="" /&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;El icono o informe parecen flotar sobre el fondo en realidad aumentada.&lt;p&gt;&lt;img src="{25}" alt="" title="" /&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;Puede pulsar el icono para abrirlo en modo enfocado, o bien vuelva al escáner.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Nota: Los compañeros con los que ha compartido el panel pueden &lt;a href="{20}"&gt;escanear el código QR para acceder al icono desde su teléfono&lt;/a&gt;. Puede usar el escáner de código QR ubicado en la aplicación Power BI o cualquier otro escáner QR instalado en su teléfono. Más información acerca de &lt;a href="{26}"&gt;cómo compartir paneles&lt;/a&gt;.&lt;/p&gt;</value>
+  </data>
+  <data name="Download_Resources" xml:space="preserve">
+    <value>Descargue todos los recursos necesarios para estos tutoriales</value>
+  </data>
+  <data name="Hero_Subtitle" xml:space="preserve">
+    <value>En el último curso, Alberto Cairo cubrirá el diseño de objetos visuales, que incluye la tipografía, el color, la composición, los elementos pictóricos, la organización de elementos gráficos en narrativas y las expectativas futuras. Alberto Cairo explicará por qué importa el diseño de objetos visuales y no debe ser algo secundario.</value>
+  </data>
+  <data name="Hero_Title" xml:space="preserve">
+    <value>Diseño y narrativa</value>
+  </data>
+  <data name="InThisArticle" xml:space="preserve">
+    <value>En este artículo:</value>
+  </data>
+  <data name="META_DESCRIPTION" xml:space="preserve">
+    <value />
+  </data>
+  <data name="META_KEYWORDS" xml:space="preserve">
+    <value />
+  </data>
+  <data name="META_PAGETITLE" xml:space="preserve">
+    <value>Periodismo de datos: diseño y narrativa | Microsoft Power BI</value>
+  </data>
+  <data name="RightNav_Link1" xml:space="preserve">
+    <value>Panel sinóptico</value>
+  </data>
+  <data name="RightNav_Link2" xml:space="preserve">
+    <value>Realidad aumentada con Power BI</value>
+  </data>
+  <data name="Meta_LocJobId" xml:space="preserve">
+    <value>159</value>
+  </data>
+</root>

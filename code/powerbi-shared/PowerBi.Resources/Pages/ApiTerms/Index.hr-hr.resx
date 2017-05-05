@@ -1,0 +1,996 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Content" xml:space="preserve">
+    <value>&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-top:71.25pt;margin-right:0in;margin-bottom:
+.05pt;margin-left:0in;line-height:normal&#39;&gt;&lt;span lang=&quot;HR&quot; style=&#39;font-size:21.0pt;
+font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;Uvjeti usluge Microsoft
+Power BI&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;line-height:normal&#39;&gt;&lt;span lang=&quot;HR&quot; style=&#39;font-size:
+12.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;Zahvaljujemo na
+korištenju aplikacijskog su&amp;#269;elja za programiranje (API) za Power BI. API
+za Power BI zajedno sa svim ažuriranjima, revizijama, zamjenama i svim kopijama
+koje ste vi izradili ili koje su izra&amp;#273;ene za vas u ovim se uvjetima
+pružanja usluge navode kao “API za Power BI„ tvrtke Microsoft. Ovaj Ugovor
+sklapa se izme&amp;#273;u vas i društva Microsoft („Microsoft“). Umjesto naziva
+Microsoft ponekad se koriste izrazi „mi“, „nas“ ili „naš“. Korištenjem API-ja
+za Power prihva&amp;#263;ate ove Uvjete pružanja usluge („Uvjeti za API“) i Ugovor
+o usluzi Power BI ili druge ugovore, kako je primjenjivo, (zajedni&amp;#269;ki
+„Ugovor“) koji reguliraju korištenje usluge Power BI i prate&amp;#263;ih aplikacija
+(„Usluga Power BI“). U slu&amp;#269;aju neuskla&amp;#273;enosti izme&amp;#273;u ovih Uvjeta
+za API i Ugovora, ovi Uvjeti za API imaju prednost.&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;line-height:normal&#39;&gt;&lt;span lang=&quot;HR&quot; style=&#39;font-size:
+12.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;Microsoft zadržava
+pravo da povremeno ažurira i izmjenjuje Uvjete za API ili bilo koje dokumente
+koji se smatraju njihovim sastavnim dijelom na temelju ove odredbe. Microsoft
+može izmijeniti ove Uvjete za API objavljivanjem nove verzije. Korištenje
+usluge API za Power BI nakon takve izmjene podrazumijeva prihva&amp;#263;anje
+izmjena.&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;line-height:normal&#39;&gt;&lt;b&gt;&lt;span lang=&quot;HR&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;Napominjemo
+da ne dajemo jamstva za API za Power BI. Uvjeti za API tako&amp;#273;er
+ograni&amp;#269;avaju i našu odgovornost. Ti uvjeti nalaze se u &amp;#269;lancima 10 i
+11 te ih svakako pažljivo pro&amp;#269;itajte.&lt;/span&gt;&lt;/b&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-bottom:.05pt;line-height:normal&#39;&gt;&lt;b&gt;&lt;span lang=&quot;HR&quot; style=&#39;font-size:18.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;1. Pristup
+API-ju za Power BI.&lt;/span&gt;&lt;/b&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;line-height:normal&#39;&gt;&lt;span lang=&quot;HR&quot; style=&#39;font-size:
+12.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;Za upotrebu API-ja za
+Power morate imati pretplatu na Power BI i registrirati svoju aplikaciju na
+usluzi Azure Active Directory. Vaša usluga mora imati ID klijenta koji daje
+Azure Active Directory, kako je opisano u dokumentaciji API-ja za Power BI, a
+Microsoft &amp;#263;e blokirati sve zahtjeve s nevaže&amp;#263;im ID-om klijenta.
+Microsoft ima isklju&amp;#269;ivu i potpunu kontrolu nad podacima i formatom usluge
+Power BI.&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;line-height:normal&#39;&gt;&lt;span lang=&quot;HR&quot; style=&#39;font-size:
+12.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;Microsoft pridržava
+pravo prema vlastitom naho&amp;#273;enju odbaciti bilo koji zahtjev za upotrebu
+API-ja za Power BI, bilo kada i iz bilo kojeg razloga. Microsoft nije odgovoran
+za štetu bilo koje vrste nastalu kao posljedicu odbijanja predmetnog zahtjeva.&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-bottom:.05pt;line-height:normal&#39;&gt;&lt;b&gt;&lt;span lang=&quot;HR&quot; style=&#39;font-size:18.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;2. Licencirane
+upotrebe i ograni&amp;#269;enja.&lt;/span&gt;&lt;/b&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;line-height:normal&#39;&gt;&lt;span lang=&quot;HR&quot; style=&#39;font-size:
+12.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;API za Power BI u vlasništvu
+je Microsofta, a vi imate neisklju&amp;#269;ivu licencu na razini svijeta (uz dolje
+navedena ograni&amp;#269;enja) koju ne možete podlicencirati, na temelju ovdje
+navedenih uvjeta i odredbi. Ovi Uvjeti za API definiraju pravnu upotrebu API-ja
+za Power BI, sva ažuriranja, revizije, zamjene i kopije API-ja za Power BI koje
+ste sami izradili ili su izra&amp;#273;ene za vas. Microsoft pridržava sva prava
+koja vam nisu izri&amp;#269;ito dodijeljena.&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-left:.25in;text-indent:-.25in;line-height:
+normal&#39;&gt;&lt;span lang=&quot;EN&quot; style=&#39;font-size:10.0pt;font-family:Symbol;color:#4B5C66&#39;&gt;&#183;&lt;span style=&#39;font:7.0pt &quot;Times New Roman&quot;&#39;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+&lt;/span&gt;&lt;/span&gt;&lt;span lang=&quot;HR&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;
+color:#4B5C66&#39;&gt;a.&amp;nbsp;Licenca. U skladu s uvjetima i ograni&amp;#269;enjima
+iznesenim u ovim Uvjetima za API, Microsoft vam dodjeljuje neisklju&amp;#269;ivo
+pravo upotrebe bez mogu&amp;#263;nosti podlicenciranja za upotrebu API-ja za Power
+BI za razvoj, testiranje, distribuciju vaše aplikacije i radi pružanja podrške
+vašoj aplikaciji. &lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-left:.25in;text-indent:-.25in;line-height:
+normal&#39;&gt;&lt;span lang=&quot;EN&quot; style=&#39;font-size:10.0pt;font-family:Symbol;color:#4B5C66&#39;&gt;&#183;&lt;span style=&#39;font:7.0pt &quot;Times New Roman&quot;&#39;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+&lt;/span&gt;&lt;/span&gt;&lt;span lang=&quot;HR&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;
+color:#4B5C66&#39;&gt;b.&amp;nbsp;Robne marke. Ne smijete koristiti robnu marku i logotip
+Power Bi bez izri&amp;#269;itog pisanog pristanka tvrtke Microsoft. &lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;line-height:normal&#39;&gt;&lt;span lang=&quot;HR&quot; style=&#39;font-size:
+12.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;c.&amp;nbsp;Ograni&amp;#269;enja
+brzine i ograni&amp;#269;enja podatkovnih polja. Razumijete da postoji
+ograni&amp;#269;enje brzine i ograni&amp;#269;enje za podatkovna polja prikazana u
+aplikaciji ili usluzi koja koristi API za Power BI i slažete se da &amp;#263;ete
+djelovati u skladu s navedenim ograni&amp;#269;enjem brzine i ograni&amp;#269;enjem
+podatkovnih polja. Ograni&amp;#269;enja brzine i ograni&amp;#269;enja podatkovnih polja
+opisana su u dokumentaciji API-ja za Power BI koja je dostupna na&lt;/span&gt;&lt;span lang=&quot;HR&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#868F95&#39;&gt;&amp;nbsp;&lt;/span&gt;&lt;span lang=&quot;HR&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;dev.PowerBI.com&lt;/span&gt;&lt;span lang=&quot;HR&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#868F95&#39;&gt;.
+&lt;/span&gt;&lt;span lang=&quot;HR&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;
+color:#4B5C66&#39;&gt;Ova ograni&amp;#269;enja podložna su povremenim promjenama prema
+vlastitom naho&amp;#273;enju Microsofta i stupaju na snagu odmah nakon objave.
+Microsoft ima pravo prema vlastitom naho&amp;#273;enju ograni&amp;#269;iti: (i)
+u&amp;#269;estalost kojom se usluga, ili njezina podusluga, može pozivati, (ii)
+koli&amp;#269;inu pohrane dostupnu svakom ra&amp;#269;unu usluge i/ili (iii) dužinu
+individualnih segmenata sadržaja u koje se može prenositi ili s kojih se usluga
+može posluživati (sve navedeno oblici su „Usporavanja“). Microsoft može
+Usporavanje izvoditi globalno u cijelom API-ju za Power BI, po krajnjem
+korisniku, ili na nekoj drugoj osnovi. Ne&amp;#263;ete poduzimati korake kako biste
+zaobišli tehni&amp;#269;ke mjere koje implementiramo u cilju provedbe Usporavanja
+te razumijete i slažete se da se programske metode koje djeluju kao protumjera
+ograni&amp;#269;avanju propusnosti (uklju&amp;#269;uju&amp;#263;i održavanje podataka u
+predmemoriji) smatraju kršenjem ovih Uvjeta za API.&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;line-height:normal&#39;&gt;&lt;span lang=&quot;HR&quot; style=&#39;font-size:
+12.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;d&amp;nbsp;Izmjene.
+Microsoft pridržava pravo izdavanja naknadnih verzija API-ja za Power BI te da
+od vas zahtijeva da nabavite i koristite najnoviju verziju. Ako vam izmjena
+nije prihvatljiva, prestanite koristiti API za Power BI. Ako nastavite
+pristupati API-ju za Power BI, smatrat &amp;#263;e se da ste prihvatili izmjene.&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;line-height:normal&#39;&gt;&lt;span lang=&quot;HR&quot; style=&#39;font-size:
+12.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;e.&amp;nbsp;Ograni&amp;#269;enja
+i uvjeti usluge. Ovlašteni smo koristiti tehnologiju ili druga sredstva u svrhu
+zaštite API-ja za Power BI, zaštite klijenata ili kako bismo vas
+sprije&amp;#269;ili u kršenju ovih Uvjeta za API. Te mjere, na primjer,
+uklju&amp;#269;uju filtriranje radi blokiranja neželjene pošte ili poboljšanja
+sigurnosti. Ta sredstva mogu ometati ili prekinuti vašu upotrebu API-ja za
+Power BI, no nije vam dopušteno tražiti zaobilazne metode ili pokušavati
+sprije&amp;#269;iti ili onemogu&amp;#263;iti bilo koje od predmetnih tehni&amp;#269;kih ili
+drugih sredstava.&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-bottom:.05pt;line-height:normal&#39;&gt;&lt;b&gt;&lt;span lang=&quot;HR&quot; style=&#39;font-size:18.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;3. Vlasni&amp;#269;ka
+prava.&lt;/span&gt;&lt;/b&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-left:.25in;text-indent:-.25in;line-height:
+normal&#39;&gt;&lt;span lang=&quot;HR&quot; style=&#39;font-size:10.0pt;font-family:Symbol;color:#4B5C66&#39;&gt;&#183;&lt;span style=&#39;font:7.0pt &quot;Times New Roman&quot;&#39;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+&lt;/span&gt;&lt;/span&gt;&lt;span lang=&quot;HR&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;
+color:#4B5C66&#39;&gt;a. Microsoftova prava. Za potrebe ovih Uvjeta za API „Prava
+intelektualne imovine“ zna&amp;#269;e bilo koje i sva prava koja se javljaju s
+vremena na vrijeme u okviru patentnog zakona, zakona o autorskim pravima,
+zakona o zaštiti poluvodi&amp;#269;kih &amp;#269;ipova, zakona o moralnim pravima,
+zakona o poslovnoj tajni, zakona o robnim markama, zakona o nepoštenom
+natjecanju, zakona o pravu objave, zakona o pravima privatnosti te sva druga
+vlasni&amp;#269;ka prava i sve druge primjene, obnove, produženja i povrate, sada i
+ubudu&amp;#263;e, na snazi bilo gdje u svijetu. U pogledu odnosa izme&amp;#273;u vas i
+Microsofta, potvr&amp;#273;ujete da Microsoft ili njegovi davatelji licence
+posjeduju sva prava, pravni temelj i udjel, uklju&amp;#269;uju&amp;#263;i bez
+ograni&amp;#269;enja prava intelektualne imovine, u pogledu API-ja za Power BI i
+sve proizvode API-ja za Power BI (isklju&amp;#269;uju&amp;#263;i softverske komponente
+koje ste sami razvili koji nisu dio API-ja za Power BI ili bilo koje proizvode
+ili izvršne programe API-ja za Power BI) te da ne dobivate nikakva prava,
+pravni temelj ili udjel u API-ju za Power BI, osim kako je izri&amp;#269;ito
+navedeno u Uvjetima za API.&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-left:.25in;text-indent:-.25in;line-height:
+normal&#39;&gt;&lt;span lang=&quot;HR&quot; style=&#39;font-size:10.0pt;font-family:Symbol;color:#4B5C66&#39;&gt;&#183;&lt;span style=&#39;font:7.0pt &quot;Times New Roman&quot;&#39;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+&lt;/span&gt;&lt;/span&gt;&lt;span lang=&quot;HR&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;
+color:#4B5C66&#39;&gt;b. Atribucija, pravne napomene. Slike koje ste dobili putem
+API-ja za Power BI mogu sadržavati nazive robnih marki, robne marke, servisne
+oznake, logotipe, nazive domena i druge specifi&amp;#269;ne zna&amp;#269;ajke robne
+marke Microsoft i njegovih partnera. Ne smijete izbrisati ili na bilo koji
+na&amp;#269;in izmijeniti te nazive robnih marki, robne marke, servisne oznake,
+logotipe, nazive domena i druge specifi&amp;#269;ne zna&amp;#269;ajke robne marke.
+Slažete se zadržati i ne uklanjati, mijenjati, skrivati ili modificirati veze
+ili obavijesti koje se pojavljuju na bilo kojoj od slika dobivenoj putem
+usluge. Potvr&amp;#273;ujete i slažete se da ove Pravne napomene upotpunjuju Uvjete
+za API za API za Power BI.&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-left:.25in;text-indent:-.25in;line-height:
+normal&#39;&gt;&lt;span lang=&quot;HR&quot; style=&#39;font-size:10.0pt;font-family:Symbol;color:#4B5C66&#39;&gt;&#183;&lt;span style=&#39;font:7.0pt &quot;Times New Roman&quot;&#39;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+&lt;/span&gt;&lt;/span&gt;&lt;span lang=&quot;HR&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;
+color:#4B5C66&#39;&gt;c. Zakon o autorskim pravima u digitalnom tisu&amp;#263;lje&amp;#263;u.
+Microsoftovo je pravilo da odgovara na obavijesti o navodnom kršenju u skladu
+sa Zakonom o autorskim pravima u digitalnom tisu&amp;#263;lje&amp;#263;u („DMCA“). Za
+upute i više informacije pogledajte odjeljak Obavijesti o DMCA Uvjeta
+korištenja.&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-bottom:.05pt;line-height:normal&#39;&gt;&lt;b&gt;&lt;span lang=&quot;HR&quot; style=&#39;font-size:18.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;4. Pravila
+ponašanja.&lt;/span&gt;&lt;/b&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-left:.25in;text-indent:-.25in;line-height:
+normal&#39;&gt;&lt;span lang=&quot;HR&quot; style=&#39;font-size:10.0pt;font-family:Symbol;color:#4B5C66&#39;&gt;&#183;&lt;span style=&#39;font:7.0pt &quot;Times New Roman&quot;&#39;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+&lt;/span&gt;&lt;/span&gt;&lt;span lang=&quot;HR&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;
+color:#4B5C66&#39;&gt;Slažete se da ste odgovorni za svoje ponašanje i sadržaj tijekom
+upotrebe API-ja za Power BI i za sve posljedice koje iz toga proizlaze. Slažete
+se koristiti API za Power BI samo u svrhe koje se zakonite, ispravne i u skladu
+s ovim Uvjetima za API te svim primjenjivim pravilima ili smjernicama.&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-left:.25in;text-indent:-.25in;line-height:
+normal&#39;&gt;&lt;span lang=&quot;HR&quot; style=&#39;font-size:10.0pt;font-family:Symbol;color:#4B5C66&#39;&gt;&#183;&lt;span style=&#39;font:7.0pt &quot;Times New Roman&quot;&#39;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+&lt;/span&gt;&lt;/span&gt;&lt;span lang=&quot;HR&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;
+color:#4B5C66&#39;&gt;a. Prikladno ponašanje. Pri korištenju API-ja za Power BI i
+razvoju aplikacija morate:&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-left:.25in;text-indent:-.25in;line-height:
+normal&#39;&gt;&lt;span lang=&quot;EN&quot; style=&#39;font-size:10.0pt;font-family:Symbol;color:#4B5C66&#39;&gt;&#183;&lt;span style=&#39;font:7.0pt &quot;Times New Roman&quot;&#39;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+&lt;/span&gt;&lt;/span&gt;&lt;span lang=&quot;HR&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;
+color:#4B5C66&#39;&gt;poštivati zakon;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-left:.25in;text-indent:-.25in;line-height:
+normal&#39;&gt;&lt;span lang=&quot;PT-BR&quot; style=&#39;font-size:10.0pt;font-family:Symbol;color:#4B5C66&#39;&gt;&#183;&lt;span style=&#39;font:7.0pt &quot;Times New Roman&quot;&#39;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+&lt;/span&gt;&lt;/span&gt;&lt;span lang=&quot;HR&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;
+color:#4B5C66&#39;&gt;pridržavati se svih pravila ponašanja te drugih obavijesti koje
+dobijete od nas;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-left:.25in;text-indent:-.25in;line-height:
+normal&#39;&gt;&lt;span lang=&quot;PT-BR&quot; style=&#39;font-size:10.0pt;font-family:Symbol;color:#4B5C66&#39;&gt;&#183;&lt;span style=&#39;font:7.0pt &quot;Times New Roman&quot;&#39;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+&lt;/span&gt;&lt;/span&gt;&lt;span lang=&quot;HR&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;
+color:#4B5C66&#39;&gt;&amp;#269;uvati tajnost lozinke svog ra&amp;#269;una;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-left:.25in;text-indent:-.25in;line-height:
+normal&#39;&gt;&lt;span lang=&quot;PT-BR&quot; style=&#39;font-size:10.0pt;font-family:Symbol;color:#4B5C66&#39;&gt;&#183;&lt;span style=&#39;font:7.0pt &quot;Times New Roman&quot;&#39;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+&lt;/span&gt;&lt;/span&gt;&lt;span lang=&quot;HR&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;
+color:#4B5C66&#39;&gt;odmah nas obavijestiti o povredi sigurnosti usluge u vezi s
+uslugom Power BI i API-jem za Power BI.&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-left:.25in;text-indent:-.25in;line-height:
+normal&#39;&gt;&lt;span lang=&quot;PT-BR&quot; style=&#39;font-size:10.0pt;font-family:Symbol;color:#4B5C66&#39;&gt;&#183;&lt;span style=&#39;font:7.0pt &quot;Times New Roman&quot;&#39;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+&lt;/span&gt;&lt;/span&gt;&lt;span lang=&quot;HR&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;
+color:#4B5C66&#39;&gt;b. Zabranjene upotrebe. Pri korištenju API-ja za Power BI i
+razvoju aplikacija ne&amp;#263;ete:&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-left:.25in;text-indent:-.25in;line-height:
+normal&#39;&gt;&lt;span lang=&quot;PT-BR&quot; style=&#39;font-size:10.0pt;font-family:Symbol;color:#4B5C66&#39;&gt;&#183;&lt;span style=&#39;font:7.0pt &quot;Times New Roman&quot;&#39;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+&lt;/span&gt;&lt;/span&gt;&lt;span lang=&quot;HR&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;
+color:#4B5C66&#39;&gt;klevetati, zlostavljati, maltretirati, uhoditi, prijetiti ili na
+drugi na&amp;#269;in kršiti zakonska prava drugih osoba (primjerice pravo na
+privatnost i publicitet);&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-left:.25in;text-indent:-.25in;line-height:
+normal&#39;&gt;&lt;span lang=&quot;PT-BR&quot; style=&#39;font-size:10.0pt;font-family:Symbol;color:#4B5C66&#39;&gt;&#183;&lt;span style=&#39;font:7.0pt &quot;Times New Roman&quot;&#39;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+&lt;/span&gt;&lt;/span&gt;&lt;span lang=&quot;HR&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;
+color:#4B5C66&#39;&gt;u&amp;#269;itavati, objavljivati, slati e-poštom, prenositi ili na
+drugi na&amp;#269;in raspa&amp;#269;avati neprimjerene, profane, krše&amp;#263;e, opscene,
+neprili&amp;#269;ne ili protupravne sadržaje;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-left:.25in;text-indent:-.25in;line-height:
+normal&#39;&gt;&lt;span lang=&quot;PT-BR&quot; style=&#39;font-size:10.0pt;font-family:Symbol;color:#4B5C66&#39;&gt;&#183;&lt;span style=&#39;font:7.0pt &quot;Times New Roman&quot;&#39;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+&lt;/span&gt;&lt;/span&gt;&lt;span lang=&quot;HR&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;
+color:#4B5C66&#39;&gt;u&amp;#269;itavati, objavljivati ili prenositi, ili na bilo koji
+drugi na&amp;#269;in stavljati na raspolaganje bilo kakav sadržaj koji krši neki
+patent, pravo robne marke, autorsko pravo, poslovnu tajnu ili drugo
+vlasni&amp;#269;ko pravo bilo koje strane, osim ako niste vlasnik tih prava ili
+imate dopuštenje vlasnika za objavljivanje takvog sadržaja;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-left:.25in;text-indent:-.25in;line-height:
+normal&#39;&gt;&lt;span lang=&quot;PT-BR&quot; style=&#39;font-size:10.0pt;font-family:Symbol;color:#4B5C66&#39;&gt;&#183;&lt;span style=&#39;font:7.0pt &quot;Times New Roman&quot;&#39;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+&lt;/span&gt;&lt;/span&gt;&lt;span lang=&quot;HR&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;
+color:#4B5C66&#39;&gt;u&amp;#269;itavati, objavljivati, slati e-poštom, prenositi ili na
+drugi na&amp;#269;in stavljati na raspolaganje poruke koje promi&amp;#269;u piramidalne
+sheme, lan&amp;#269;ana pisma ili ometaju&amp;#263;e komercijalne poruke ili oglase,
+ili bilo što drugo zabranjeno zakonom, ovim Uvjetima za API ili bilo kojim
+drugim primjenjivim pravilima ili smjernicama;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-left:.25in;text-indent:-.25in;line-height:
+normal&#39;&gt;&lt;span lang=&quot;PT-BR&quot; style=&#39;font-size:10.0pt;font-family:Symbol;color:#4B5C66&#39;&gt;&#183;&lt;span style=&#39;font:7.0pt &quot;Times New Roman&quot;&#39;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+&lt;/span&gt;&lt;/span&gt;&lt;span lang=&quot;HR&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;
+color:#4B5C66&#39;&gt;koristiti API za Power BI u vezi s promicanjem ili radi
+promicanja proizvoda, usluga ili materijala koji &amp;#269;ine, promi&amp;#269;u ili
+služe kao: špijunski softver, softver za neželjene oglase i drugi potencijalno
+neželjeni softver ili kod;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-left:.25in;text-indent:-.25in;line-height:
+normal&#39;&gt;&lt;span lang=&quot;PT-BR&quot; style=&#39;font-size:10.0pt;font-family:Symbol;color:#4B5C66&#39;&gt;&#183;&lt;span style=&#39;font:7.0pt &quot;Times New Roman&quot;&#39;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+&lt;/span&gt;&lt;/span&gt;&lt;span lang=&quot;HR&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;
+color:#4B5C66&#39;&gt;preuzeti bilo koju datoteku koju je postavio drugi korisnik, za
+koju znate ili biste razumno trebali znati da je nije dopušteno legalno
+distribuirati na takav na&amp;#269;in;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-left:.25in;text-indent:-.25in;line-height:
+normal&#39;&gt;&lt;span lang=&quot;PT-BR&quot; style=&#39;font-size:10.0pt;font-family:Symbol;color:#4B5C66&#39;&gt;&#183;&lt;span style=&#39;font:7.0pt &quot;Times New Roman&quot;&#39;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+&lt;/span&gt;&lt;/span&gt;&lt;span lang=&quot;HR&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;
+color:#4B5C66&#39;&gt;falsificirati drugu osobu ili entitet, ili brisati oznake
+autorstva, pravne ili druge valjane obavijesti ili vlasni&amp;#269;ka obilježja ili
+oznake porijekla ili izvora softvera ili drugog materijala;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-left:.25in;text-indent:-.25in;line-height:
+normal&#39;&gt;&lt;span lang=&quot;PT-BR&quot; style=&#39;font-size:10.0pt;font-family:Symbol;color:#4B5C66&#39;&gt;&#183;&lt;span style=&#39;font:7.0pt &quot;Times New Roman&quot;&#39;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+&lt;/span&gt;&lt;/span&gt;&lt;span lang=&quot;HR&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;
+color:#4B5C66&#39;&gt;ograni&amp;#269;avati ili zabraniti bilo kojem korisniku uporabu
+pristupa i uživanje u pristupu API-ju za Power BI;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-left:.25in;text-indent:-.25in;line-height:
+normal&#39;&gt;&lt;span lang=&quot;PT-BR&quot; style=&#39;font-size:10.0pt;font-family:Symbol;color:#4B5C66&#39;&gt;&#183;&lt;span style=&#39;font:7.0pt &quot;Times New Roman&quot;&#39;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+&lt;/span&gt;&lt;/span&gt;&lt;span lang=&quot;HR&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;
+color:#4B5C66&#39;&gt;koristiti API za Power BI u bilo kakve nezakonite ili
+neovlaštene svrhe;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-left:.25in;text-indent:-.25in;line-height:
+normal&#39;&gt;&lt;span lang=&quot;PT-BR&quot; style=&#39;font-size:10.0pt;font-family:Symbol;color:#4B5C66&#39;&gt;&#183;&lt;span style=&#39;font:7.0pt &quot;Times New Roman&quot;&#39;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+&lt;/span&gt;&lt;/span&gt;&lt;span lang=&quot;HR&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;
+color:#4B5C66&#39;&gt;ukloniti obavijesti o autorskom pravu, robnoj marci ili drugim
+vlasni&amp;#269;kim pravima sadržanim u API-ju ili na API-ju za Power BI;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-left:.25in;text-indent:-.25in;line-height:
+normal&#39;&gt;&lt;span lang=&quot;PT-BR&quot; style=&#39;font-size:10.0pt;font-family:Symbol;color:#4B5C66&#39;&gt;&#183;&lt;span style=&#39;font:7.0pt &quot;Times New Roman&quot;&#39;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+&lt;/span&gt;&lt;/span&gt;&lt;span lang=&quot;HR&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;
+color:#4B5C66&#39;&gt;ometati ili prekinuti API za Power BI ili poslužitelje ili mreže
+povezane s uslugama Power BI, ili se oglušiti o bilo kakve zahtjeve, procedure,
+pravila ili propise mreža povezanih s API-jem za Power BI;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-left:.25in;text-indent:-.25in;line-height:
+normal&#39;&gt;&lt;span lang=&quot;PT-BR&quot; style=&#39;font-size:10.0pt;font-family:Symbol;color:#4B5C66&#39;&gt;&#183;&lt;span style=&#39;font:7.0pt &quot;Times New Roman&quot;&#39;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+&lt;/span&gt;&lt;/span&gt;&lt;span lang=&quot;HR&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;
+color:#4B5C66&#39;&gt;koristiti bilo kakav robot, pauk, pretraživanje
+web-mjesta/aplikacija za pozivanje u vezi s API-jem za Power BI ili prikupljati
+informacije o korisnicima u bilo kakve neovlaštene svrhe;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-left:.25in;text-indent:-.25in;line-height:
+normal&#39;&gt;&lt;span lang=&quot;PT-BR&quot; style=&#39;font-size:10.0pt;font-family:Symbol;color:#4B5C66&#39;&gt;&#183;&lt;span style=&#39;font:7.0pt &quot;Times New Roman&quot;&#39;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+&lt;/span&gt;&lt;/span&gt;&lt;span lang=&quot;HR&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;
+color:#4B5C66&#39;&gt;slati sadržaj koji lažno izri&amp;#269;i ili podrazumijeva da ga
+Microsoft sponzorira ili podržava;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-left:.25in;text-indent:-.25in;line-height:
+normal&#39;&gt;&lt;span lang=&quot;PT-BR&quot; style=&#39;font-size:10.0pt;font-family:Symbol;color:#4B5C66&#39;&gt;&#183;&lt;span style=&#39;font:7.0pt &quot;Times New Roman&quot;&#39;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+&lt;/span&gt;&lt;/span&gt;&lt;span lang=&quot;HR&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;
+color:#4B5C66&#39;&gt;izra&amp;#273;ivati korisni&amp;#269;ke ra&amp;#269;une automatiziranim
+sredstvima ili pod lažnim ili prijevarnim izlikama, te nabavljati ili pokušati
+nabaviti više klju&amp;#269;eva za API za Power BI;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-left:.25in;text-indent:-.25in;line-height:
+normal&#39;&gt;&lt;span lang=&quot;PT-BR&quot; style=&#39;font-size:10.0pt;font-family:Symbol;color:#4B5C66&#39;&gt;&#183;&lt;span style=&#39;font:7.0pt &quot;Times New Roman&quot;&#39;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+&lt;/span&gt;&lt;/span&gt;&lt;span lang=&quot;HR&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;
+color:#4B5C66&#39;&gt;promicati ili davati instrukcijske informacije o nezakonitim
+aktivnostima ili promicati fizi&amp;#269;ko nasilje ili ozlje&amp;#273;ivanje bilo koje
+skupine ili pojedinca; ili&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-left:.25in;text-indent:-.25in;line-height:
+normal&#39;&gt;&lt;span lang=&quot;PT-BR&quot; style=&#39;font-size:10.0pt;font-family:Symbol;color:#4B5C66&#39;&gt;&#183;&lt;span style=&#39;font:7.0pt &quot;Times New Roman&quot;&#39;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+&lt;/span&gt;&lt;/span&gt;&lt;span lang=&quot;HR&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;
+color:#4B5C66&#39;&gt;prenositi bilo kakve viruse, crve, nedostatke, trojanske konje
+ili druge stavke destruktivne prirode.&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-left:.25in;text-indent:-.25in;line-height:
+normal&#39;&gt;&lt;span lang=&quot;PT-BR&quot; style=&#39;font-size:10.0pt;font-family:Symbol;color:#4B5C66&#39;&gt;&#183;&lt;span style=&#39;font:7.0pt &quot;Times New Roman&quot;&#39;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+&lt;/span&gt;&lt;/span&gt;&lt;span lang=&quot;HR&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;
+color:#4B5C66&#39;&gt;prodavati, unajmljivati, dijeliti, prenositi ili podlicencirati
+API za Power BI ili pristup API-ju, bilo radi izravne komercijalne ili
+nov&amp;#269;ane dobiti ili drugog, bez prethodnog Microsoftova izri&amp;#269;itog
+pisanog dopuštenja ili&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-left:.25in;text-indent:-.25in;line-height:
+normal&#39;&gt;&lt;span lang=&quot;PT-BR&quot; style=&#39;font-size:10.0pt;font-family:Symbol;color:#4B5C66&#39;&gt;&#183;&lt;span style=&#39;font:7.0pt &quot;Times New Roman&quot;&#39;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+&lt;/span&gt;&lt;/span&gt;&lt;span lang=&quot;HR&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;
+color:#4B5C66&#39;&gt;koristiti API za Power BI na na&amp;#269;in koji premašuje razumni
+opseg upotrebe, &amp;#269;ini pretjeranu ili zlonamjernu upotrebu ili se na drugi
+na&amp;#269;in protivi dokumentaciji, odnosno nije u skladu s bilo kojim dijelom
+dokumentacije API-ja za Power BI sadržane na&amp;nbsp;dev.PowerBI.com&amp;nbsp;kako je
+definirao Microsoft prema vlastitom naho&amp;#273;enju;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-left:.25in;text-indent:-.25in;line-height:
+normal&#39;&gt;&lt;span lang=&quot;PT-BR&quot; style=&#39;font-size:10.0pt;font-family:Symbol;color:#4B5C66&#39;&gt;&#183;&lt;span style=&#39;font:7.0pt &quot;Times New Roman&quot;&#39;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+&lt;/span&gt;&lt;/span&gt;&lt;span lang=&quot;HR&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;
+color:#4B5C66&#39;&gt;zahtijevati podatke u ime jednog korisnika kako biste takve
+podatke prikazali, pokazali, prenijeli ili isporu&amp;#269;ili drugim korisnicima.&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-left:.25in;text-indent:-.25in;line-height:
+normal&#39;&gt;&lt;span lang=&quot;HR&quot; style=&#39;font-size:10.0pt;font-family:Symbol;color:#4B5C66&#39;&gt;&#183;&lt;span style=&#39;font:7.0pt &quot;Times New Roman&quot;&#39;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+&lt;/span&gt;&lt;/span&gt;&lt;span lang=&quot;HR&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;
+color:#4B5C66&#39;&gt;Prethodno navedene zabranjene upotrebe služe kao primjer, a ne
+kao ograni&amp;#269;enje. Microsoft pridržava pravo da prema vlastitom
+naho&amp;#273;enju odredi je li vaša upotreba API-ja za Power BI u skladu s ovim
+Uvjetima za API.&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-bottom:.05pt;line-height:normal&#39;&gt;&lt;b&gt;&lt;span lang=&quot;HR&quot; style=&#39;font-size:18.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;5. Privatnost.&lt;/span&gt;&lt;/b&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;line-height:normal&#39;&gt;&lt;span lang=&quot;HR&quot; style=&#39;font-size:
+12.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;Na sav pristup i
+upotrebu API-ju za Power BI primjenjuje se Izjava o zaštiti privatnosti za
+Power BI koja je dostupna &lt;/span&gt;&lt;span lang=&quot;HR&quot;&gt;&lt;a href=&quot;http://www.microsoft.com/privacystatement/en-us/OnlineServices/Default.aspx&quot;&gt;&lt;span style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif&#39;&gt;ovdje&lt;/span&gt;&lt;/a&gt;&lt;/span&gt;&lt;span lang=&quot;HR&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;
+(koja se povremeno ažurira).&amp;nbsp;Ništa u ovim Uvjetima za API ne odnosi se na
+prikupljanje ili prijenos informacija koje otkrivaju identitet internetskih
+korisnika izme&amp;#273;u strana.&amp;nbsp;Na svojim web-mjestima i u aplikacijama koje
+imaju pristup API-ju za Power BI morate održavati jasno vidljiva pravila o
+zaštiti privatnosti online.&amp;nbsp;Ova pravila o zaštiti privatnosti moraju
+sadržavati pune, to&amp;#269;ne i jasne informacije u vezi sa smještajem, potrebom
+i &amp;#269;itanjem kola&amp;#269;i&amp;#263;a i povezanih tehnologija, te vašim prikupljanjem
+i upotrebom podataka u vezi s aktivnostima korisnika vaših web-mjesta i
+aplikacija.&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-bottom:.05pt;line-height:normal&#39;&gt;&lt;b&gt;&lt;span lang=&quot;HR&quot; style=&#39;font-size:18.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;6. Provjera
+autenti&amp;#269;nosti korisnika i sigurnost.&lt;/span&gt;&lt;/b&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;line-height:normal&#39;&gt;&lt;span lang=&quot;HR&quot; style=&#39;font-size:
+12.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;Microsoft vrlo
+ozbiljno shva&amp;#263;a sigurnost i privatnost krajnjeg korisnika, a vi nam
+pristajete pružiti svu neophodnu pomo&amp;#263; za rad vaše Aplikacije u skladu s
+ovim Uvjetima za API i primjenjivim zakonima.&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;line-height:normal&#39;&gt;&lt;span lang=&quot;HR&quot; style=&#39;font-size:
+12.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;a. Dobivanje
+pristanka korisnika. Odgovorni ste pribaviti jasan i izri&amp;#269;it pristanak
+korisnika kojim vam daje dozvolu za pristup svom korisni&amp;#269;kom ra&amp;#269;unu
+za Power BI, uklju&amp;#269;uju&amp;#263;i, ako je primjenjivo, dobivanje informacija o
+korisniku ili pisanje informacija na ra&amp;#269;un takvog korisnika. Strogo
+&amp;#263;ete se pridržavati opsega izri&amp;#269;itog pristanka koji vam je korisnik
+dao kada pristupate ra&amp;#269;unu za Power BI takvog korisnika.&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;line-height:normal&#39;&gt;&lt;span lang=&quot;HR&quot; style=&#39;font-size:
+12.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;b. Kontakt i
+suradnja. Vi (ili kontakti koje ste registrirali na usluzi Azure Active
+Directory zajedno sa svojom aplikacijom) morate biti dostupni u svako doba radi
+sigurnosnih pitanja ili problema. To ime ili kontakt možete promijeniti
+ažuriranjem informacija korisnika na usluzi Azure Active Directory.&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;line-height:normal&#39;&gt;&lt;span lang=&quot;HR&quot; style=&#39;font-size:
+12.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;c. Sigurnosne mjere
+protiv virusa. Svi materijali, uklju&amp;#269;uju&amp;#263;i softver i dokumente, koje
+dajete Microsoftu, moraju biti provjereni ažurnim antivirusnim ili softverom
+protiv crva u skladu s internetskim standardom te se mora pokazati da su bez
+virusa i crva. Podaci dostavljeni Microsoftu ne smiju sadržavati štetne skripte
+ili k&#244;d.&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;line-height:normal&#39;&gt;&lt;span lang=&quot;HR&quot; style=&#39;font-size:
+12.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;d. Industrijski
+standardi. Vaše mreže, operacijski sustavi i softver za web-poslužitelj(e),
+usmjeriva&amp;#269;e, baze podataka i ra&amp;#269;unalne sustave („Sustavi“) moraju
+biti ispravno konfigurirani prema internetskim industrijskim standardima, kakve
+zahtijeva sigurno izvo&amp;#273;enje vaše Aplikacije. Ako nemate potpuni nadzor nad
+bilo kojim aspektom Sustava, iskoristit &amp;#263;ete svu kontrolu ili utjecaj koji
+imate nad takvim Sustavima i/ili izborom Sustava, te ne&amp;#263;ete strukturirati
+ili birati Sustave na na&amp;#269;in da izbjegnete gorenavedene obaveze. Primjer
+neprihvatljivog poslužitelja je poslužitelj koji radi kao otvoreni proxy.
+Primjer neprihvatljive arhitekture bio bi odabir poslužitelja kojim upravlja
+dobavlja&amp;#269; sa sigurnosnom praksom koja ne odgovara standardu, tako da
+možete tvrditi da ne kontrolirate takav poslužitelj kako biste izbjegli odabir
+prihvatljivog poslužitelja.&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;line-height:normal&#39;&gt;&lt;span lang=&quot;HR&quot; style=&#39;font-size:
+12.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;e.
+Izvješ&amp;#263;ivanje. Dužni ste Microsoftu pisanim putem e-poštom smjesta
+prijaviti otkrivene sigurnosne propuste ili provale u vaš Sustav
+na&amp;nbsp;devpbi@microsoft.com. Sura&amp;#273;ivat &amp;#263;ete s Microsoftom kako bi se
+smjesta ispravila bilo kakva sigurnosna manjkavost te &amp;#263;ete smjesta
+prekinuti vezu s bilo kakvim provalom ili provalnikom. U slu&amp;#269;aju takvog
+sigurnosne manjkavosti ili provale, ne&amp;#263;ete davati javne izjave (npr. u
+tisku, na blogu, na informativnoj plo&amp;#269;i itd.) bez prethodnog pisanog i
+izri&amp;#269;itog dopuštenja tvrtke Microsoft za svaki pojedina&amp;#269;ni slu&amp;#269;aj.&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;line-height:normal&#39;&gt;&lt;span lang=&quot;HR&quot; style=&#39;font-size:
+12.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;f. Kontrola pristupa
+sustavima. U mjeri u kojoj imate nadzor nad Sustavima ili utje&amp;#269;ete na
+njih, bilježit &amp;#263;ete (s datumom i vremenom) sve pristupe Sustavu. Šifrirat
+&amp;#263;ete datoteke s lozinkama i korisni&amp;#269;kim imenima za Sustave koji
+pohranjuju ili obra&amp;#273;uju korisni&amp;#269;ke podatke za Power BI, a kojima vam
+je Microsoft odobrio pristup. Lozinke moraju biti jedinstvene, neintuitivne i
+&amp;#269;esto mijenjane. Pristup lozinkama i upotrebu lozinki smanjit &amp;#263;ete na
+najmanju mogu&amp;#263;u mjeru. Kad je to mogu&amp;#263;e, naredbe koje zahtijevaju
+dodatne ovlasti trebaju se sigurno zabilježiti (s datumom i vremenom) kako bi
+se omogu&amp;#263;ilo revizijsko pra&amp;#263;enje aktivnosti. Kada neka osoba prekine
+radni odnos kod vas, njihove lozinke i resursi koji ih sadrže moraju se smjesta
+ukloniti.&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;line-height:normal&#39;&gt;&lt;span lang=&quot;HR&quot; style=&#39;font-size:
+12.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;g. Revizije
+sigurnosti. Microsoft ima pravo, ali nije obavezan, o vlastitom trošku
+angažirati tre&amp;#263;u stranu radi provjere i revizije vaše uskla&amp;#273;enosti sa
+sigurnosnim odredbama. Dužni ste &amp;#269;im prije (o vlastitom trošku) ispraviti
+sve sigurnosne mane uo&amp;#269;ene takvim revizijama. Zatim &amp;#263;ete promptno
+pisanim putem Microsoftu potvrditi da su sigurnosne mane ispravljene,
+uklju&amp;#269;ivši opis poduzetih korektivnih radnji. Microsoft &amp;#263;e vas
+obavijestiti 48 h prije o namjeri provedbe takve revizije. Revizija &amp;#263;e se
+provoditi tijekom redovnog radnog vremena na na&amp;#269;in da ne ometa normalne
+poslovne aktivnosti. Ako revizija otkrije kršenje bilo koje od sigurnosnih
+odredbi, dužni ste Microsoftu nadoknaditi razumne troškove revizije.&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;line-height:normal&#39;&gt;&lt;span lang=&quot;HR&quot; style=&#39;font-size:
+12.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;h. Tako&amp;#273;er ste
+dužni pridržavati se zahtjeva i dokumentacije opisanih u Sigurnosnim zahtjevima
+i dokumentaciji priloženim u Dodatku A ovim Uvjetima za API.&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-bottom:.05pt;line-height:normal&#39;&gt;&lt;b&gt;&lt;span lang=&quot;HR&quot; style=&#39;font-size:18.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;&amp;nbsp;&lt;/span&gt;&lt;/b&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-bottom:.05pt;line-height:normal&#39;&gt;&lt;b&gt;&lt;span lang=&quot;HR&quot; style=&#39;font-size:18.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;7&lt;/span&gt;&lt;/b&gt;&lt;b&gt;&lt;span lang=&quot;HR&quot; style=&#39;font-size:18.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;. Podrška
+i dostupnost.&lt;/span&gt;&lt;/b&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;line-height:normal&#39;&gt;&lt;span lang=&quot;HR&quot; style=&#39;font-size:
+12.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;Microsoft može
+odlu&amp;#269;iti ponuditi vam podršku ili promjene u API-ju za Power BI
+(zajedni&amp;#269;ki naziv „Podrška“), prema vlastitom naho&amp;#273;enju. Microsoft
+može promijeniti, obustaviti ili prekinuti bilo koji aspekt API-ja za Power BI
+u bilo kojem trenutku, uklju&amp;#269;ivo i dostupnost API-ja za Power BI.
+Microsoft može nametnuti ograni&amp;#269;enja na odre&amp;#273;ene zna&amp;#269;ajke i
+usluge ili ograni&amp;#269;iti vaš pristup dijelovima ili &amp;#269;itavom API-ju za Power
+BI ili web-mjestu API-ja za Power BI bez prethodne obavijesti ili odgovornosti.&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-bottom:.05pt;line-height:normal&#39;&gt;&lt;b&gt;&lt;span lang=&quot;HR&quot; style=&#39;font-size:18.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;8&lt;/span&gt;&lt;/b&gt;&lt;b&gt;&lt;span lang=&quot;HR&quot; style=&#39;font-size:18.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;. Naknade
+i pla&amp;#263;anja.&lt;/span&gt;&lt;/b&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;line-height:normal&#39;&gt;&lt;span lang=&quot;HR&quot; style=&#39;font-size:
+12.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;Microsoft pridržava
+pravo naplatiti naknade za budu&amp;#263;u upotrebu ii pristup API-ju za Power BI,
+prema vlastitom naho&amp;#273;enju. Ako Microsoft odlu&amp;#269;i napla&amp;#263;ivati API
+za Power BI, o takvim &amp;#263;e vas troškovima prethodno obavijestiti pisanim
+putem.&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-bottom:.05pt;line-height:normal&#39;&gt;&lt;b&gt;&lt;span lang=&quot;HR&quot; style=&#39;font-size:18.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;9&lt;/span&gt;&lt;/b&gt;&lt;b&gt;&lt;span lang=&quot;HR&quot; style=&#39;font-size:18.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;.&lt;/span&gt;&lt;/b&gt;&lt;span lang=&quot;HR&quot; style=&#39;font-size:18.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt; &lt;b&gt;Isklju&amp;#269;enje
+bilo kakvog jamstva.&lt;/b&gt;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;line-height:normal&#39;&gt;&lt;span lang=&quot;HR&quot; style=&#39;font-size:
+12.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;API ZA POWER BI PRUŽA
+SE „KAKAV JEST“ I NA OSNOVI „DOSTUPNOSTI“ BEZ JAMSTVA BILO KOJE VRSTE,
+IZRI&amp;#268;ITOG ILI PREŠUTNOG. MICROSOFT IZRIJEKOM ISKLJU&amp;#268;UJE SVA JAMSTVA I
+UVJETE, UKLJU&amp;#268;UJU&amp;#262;I, ALI NE OGRANI&amp;#268;IVŠI SE SAMO NA, PREŠUTNO
+JAMSTVO ZA POTREBNA SVOJSTVA ZA REDOVITU UPORABU ILI ZA PROMET, PRIKLADNOST ZA
+ODRE&amp;#272;ENU UPOTREBU, DOSTUPNOST, SIGURNOST, PRAVNI TEMELJ I NEKRŠENJE.&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;line-height:normal&#39;&gt;&lt;span lang=&quot;HR&quot; style=&#39;font-size:
+12.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;MICROSOFT NE
+IZJAVLJUJE NI NE JAM&amp;#268;I DA JE API ZA POWER BI BEZ NETO&amp;#268;NOSTI,
+POGREŠAKA, PROGRAMSKIH POGREŠAKA ILI PREKIDA, ILI DA JE POUZDAN, TO&amp;#268;AN,
+POTPUN ILI NA DRUGI NA&amp;#268;IN VALJAN. MICROSOFT NE JAM&amp;#268;I (i) DA API ZA
+POWER BI ISPUNJAVA VAŠE ZAHTJEVE, (ii) DA &amp;#262;E PRISTUP USLUZI API ZA POWER
+BI BITI NEOMETAN, (iii) DA &amp;#262;E REZULTATI UPOTREBE API-JA ZA POWER BI BITI
+TO&amp;#268;NI ILI POUZDANI, (iv) DA &amp;#262;E KVALITETA PROIZVODA, USLUGA,
+INFORMACIJA ILI DRUGOG MATERIJALA DOBIVENOG PUTEM API-JA ZA POWER BI ISPUNITI
+VAŠA O&amp;#268;EKIVANJA I (v) DA &amp;#262;E POGREŠKE U API-JU ZA POWER BI BITI
+ISPRAVLJENE.&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;line-height:normal&#39;&gt;&lt;span lang=&quot;HR&quot; style=&#39;font-size:
+12.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;API ZA POWER BI
+KORISTITE NA VLASTITU ODGOVORNOST I RIZIK, I SAMI STE ODGOVORNI ZA ŠTETU KOJA
+REZULTIRA UPOTREBOM API-JA ZA POWER BI. &lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-bottom:.05pt;line-height:normal&#39;&gt;&lt;b&gt;&lt;span lang=&quot;HR&quot; style=&#39;font-size:18.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;10&lt;/span&gt;&lt;/b&gt;&lt;b&gt;&lt;span lang=&quot;HR&quot; style=&#39;font-size:18.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;.&lt;/span&gt;&lt;/b&gt;&lt;span lang=&quot;HR&quot; style=&#39;font-size:18.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt; &lt;b&gt;Ograni&amp;#269;enje
+odgovornosti.&lt;/b&gt;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;line-height:normal&#39;&gt;&lt;span lang=&quot;HR&quot; style=&#39;font-size:
+12.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;BEZ OBZIRA NA DRUGE
+ODREDBE SADRŽANE U OVIM UVJETIMA ZA API, MICROSOFTOVA MAKSIMALNA KUMULATIVNA
+ODGOVORNOST PREMA VAMA ZA BILO KAKVE TUŽBE PROIZAŠLE IZ OVIH UVJETA ZA API ILI
+U VEZI S NJIMA, NJIHOV PREKID, ISTEK, BILO DA PREDMETNA ODGOVORNOST PROIZLAZI
+IZ TUŽBE TEMELJENE NA UGOVORU, JAMSTVA, NEMARA, NEISPUNJAVANJA OSNOVNE SVRHE,
+TRGOVA&amp;#268;KE UPOTREBE ILI DRUGOG, NI U KOM SLU&amp;#268;AJU NE MOŽE PREMAŠITI
+10,00 USD. NE MOŽETE DOBITI NAKNADU ZA BILO KAKVU DRUGU ŠTETU ILI GUBITKE,
+UKLJU&amp;#268;UJU&amp;#262;I BEZ OGRANI&amp;#268;ENJA, POSLJEDI&amp;#268;NU ŠTETU, IZMAKLU
+DOBIT, POSEBNU NEIZRAVNU, POVEZANU ILI KAZNENU ŠTETU. TA OGRANI&amp;#268;ENJA I
+ISKLJU&amp;#268;ENJA VRIJEDE &amp;#268;AK I AKO OVO PRAVNO SREDSTVO U POTPUNOSTI NE
+NADOKNA&amp;#272;UJE SVE GUBITKE ILI NE ISPUNJAVA SVOJU OSNOVNU SVRHU ILI AKO SMO
+ZNALI ILI TREBALI ZNATI O MOGU&amp;#262;NOSTI NASTANKA ŠTETE. U NAJVE&amp;#262;OJ MJERI
+DOPUŠTENOJ PREMA MJERODAVNOM ZAKONU, OVA OGRANI&amp;#268;ENJA I ISKLJU&amp;#268;ENJA
+PRIMJENJUJU SE NA SVE VEZANO UZ OVAJ UGOVOR KAO ŠTO SU GUBITAK SADRŽAJA; BILO
+KAKAV VIRUS KOJI UTJE&amp;#268;E NA VAŠE KORIŠTENJE USLUGA; ODGODE ILI NEUSPJELA
+POKRETANJA ILI DOVRŠAVANJA PRIJENOSA ILI TRANSAKCIJA; POTRAŽIVANJA ZBOG POVREDE
+UGOVORA, JAMSTVA ILI UVJETA; OBJEKTIVNA ODGOVORNOST; NEPAŽNJA; POGREŠNO
+PREDSTAVLJANJE ILI PROPUST; PREKORA&amp;#268;ENJE; KRŠENJE ZAKONA ILI ODREDBI; ILI
+NEOPRAVDANO BOGA&amp;#262;ENJE. NEKA OD OVIH ILI SVA OVA OGRANI&amp;#268;ENJA ILI
+ISKLJU&amp;#268;ENJA NE ODNOSE SE NA VAS AKO PREMA ZAKONIMA VAŠE SAVEZNE DRŽAVE,
+PROVINCIJE ILI DRŽAVE NIJE DOPUŠTENO OGRANI&amp;#268;ENJE ILI IZUZIMANJE OD
+ODGOVORNOSTI ZA SLU&amp;#268;AJNU, POSLJEDI&amp;#268;NU ILI DRUGU VRSTU ŠTETE. &lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-bottom:.05pt;line-height:normal&#39;&gt;&lt;b&gt;&lt;span lang=&quot;HR&quot; style=&#39;font-size:18.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;11&lt;/span&gt;&lt;/b&gt;&lt;b&gt;&lt;span lang=&quot;HR&quot; style=&#39;font-size:18.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;.&lt;/span&gt;&lt;/b&gt;&lt;span lang=&quot;HR&quot; style=&#39;font-size:18.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt; &lt;b&gt;Obešte&amp;#263;enje.&lt;/b&gt;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;line-height:normal&#39;&gt;&lt;span lang=&quot;HR&quot; style=&#39;font-size:
+12.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;Suglasni ste tvrtku
+Microsoft obeštetiti, braniti i smatrati nedužnom (i njezine direktore,
+službenike, povezane tvrtke i agente) u vezi sa svim gubicima, odgovornosti i
+troškovima (uklju&amp;#269;uju&amp;#263;i razumne odvjetni&amp;#269;ke naknade i troškove)
+koje ste pretrpili ili za koje ste tere&amp;#263;eni temeljem bilo kakve tužbe,
+sudskog procesa ili postupaka koji se temelje ili su proizašli iz bilo kakvog
+oblika kršenja (ili navodnog kršenja) ovog ugovora s vaše strane, ili bilo
+kojeg dijela ugovora, a koje se odnosi na vaša web-mjesta, vaše aplikacije ili
+upotreba API-ja za Power BI.&amp;nbsp;Vaša je isklju&amp;#269;iva odgovornost obrane od
+takvih tužbi angažiranjem zajedni&amp;#269;ki odabranog odvjetnika, na što se
+primjenjuje Microsoftovo pravo da sudjeluje s odvjetnikom po vlastitom odabiru;
+te ne&amp;#263;ete objaviti bilo kakvu tužbu ili pristati na nagodbu koja
+Microsoftu name&amp;#263;e bilo kakvu obavezu ili odgovornost (ili njegovim
+direktorima, službenicima, povezanim tvrtkama i agentima) bez prethodnog
+pisanog pristanka tvrtke Microsoft, koje Microsoft daje prema vlastitom
+naho&amp;#273;enju.&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-bottom:.05pt;line-height:normal&#39;&gt;&lt;b&gt;&lt;span lang=&quot;HR&quot; style=&#39;font-size:18.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;12&lt;/span&gt;&lt;/b&gt;&lt;b&gt;&lt;span lang=&quot;HR&quot; style=&#39;font-size:18.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;. Prestanak/Raskid.&lt;/span&gt;&lt;/b&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;line-height:normal&#39;&gt;&lt;span lang=&quot;HR&quot; style=&#39;font-size:
+12.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;Ovi Uvjeti za API
+stupaju na snagu s prvom upotrebom API-ja za Power BI i traju dok ih ne raskine
+bilo koja od strana. Uvjete za API možete prekinuti prestankom upotrebe API-ja
+za Power BI. Microsoft može prekinuti ove Uvjete za API u bilo kojem trenutku i
+iz bilo kojeg razloga. Ovi Uvjeti za API automatski prestaju biti važe&amp;#263;i
+ako (i) prekršite bilo koji od uvjeta iz Uvjeta za API ili Uvjeta korištenja
+usluge, (ii) ako Microsoft javno objavi pisanu obavijest o prekidu na
+web-mjestu usluge Power BI, (iii) ako vam Microsoft pošalje pisanu obavijest o
+prekidu ili (iv) vam Microsoft prestane davati pristup API-ju za Power
+BI.&amp;nbsp;Obaveze strana prema &amp;#269;lancima 3, 9, 10, 11, 12, 15, 16, 17, 18 i
+19 ostaju na snazi i nakon prekida ili isteka ovih Uvjeta za API iz bilo kojeg
+razloga.&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-bottom:.05pt;line-height:normal&#39;&gt;&lt;b&gt;&lt;span lang=&quot;HR&quot; style=&#39;font-size:18.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;13&lt;/span&gt;&lt;/b&gt;&lt;b&gt;&lt;span lang=&quot;HR&quot; style=&#39;font-size:18.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;. Prijenos
+Sporazuma.&lt;/span&gt;&lt;/b&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;line-height:normal&#39;&gt;&lt;span lang=&quot;HR&quot; style=&#39;font-size:
+12.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;Mi možemo prenijeti
+ovaj ugovor, u cijelosti ili djelomi&amp;#269;no, u bilo kojem trenutku i bez
+prethodne obavijesti. Ne smijete ovaj ugovor, bilo koji njegov dio, prenijeti
+na drugu osobu ili stranu bez našeg pismenog pristanka, a taj pristanak
+ne&amp;#263;e biti uskra&amp;#263;en bez valjanog razloga. Svaki pokušaj da to
+u&amp;#269;inite je ništetan. Ne smijete na bilo koga drugog prenijeti, ni
+privremeno ni stalno, nikakva prava na uporabu API-ja za Power BI ili bilo
+kojeg dijela API-ja za Power BI.&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-bottom:.05pt;line-height:normal&#39;&gt;&lt;b&gt;&lt;span lang=&quot;HR&quot; style=&#39;font-size:18.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;14&lt;/span&gt;&lt;/b&gt;&lt;b&gt;&lt;span lang=&quot;HR&quot; style=&#39;font-size:18.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;. Bez
+tre&amp;#263;ih osoba koje su nositelji prava.&lt;/span&gt;&lt;/b&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;line-height:normal&#39;&gt;&lt;span lang=&quot;HR&quot; style=&#39;font-size:
+12.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;Ovaj Ugovor postoji
+jedino za vašu i Microsoftovu korist. Nije u korist bilo koje druge strane osim
+ovlaštenih sljednika i nositelja prava na temelju ovog ugovora.&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-bottom:.05pt;line-height:normal&#39;&gt;&lt;b&gt;&lt;span lang=&quot;HR&quot; style=&#39;font-size:18.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;15&lt;/span&gt;&lt;/b&gt;&lt;b&gt;&lt;span lang=&quot;HR&quot; style=&#39;font-size:18.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;. Djelomi&amp;#269;na
+nevaljanost.&lt;/span&gt;&lt;/b&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;line-height:normal&#39;&gt;&lt;span lang=&quot;HR&quot; style=&#39;font-size:
+12.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;Ako bilo koji
+nadležni sud utvrdi da neka odredba ovih Uvjeta za API nije zakonita, valjana
+ili provediva, ostale odredbe ostaju valjane i imaju punu pravnu snagu i
+u&amp;#269;inak.&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-bottom:.05pt;line-height:normal&#39;&gt;&lt;span lang=&quot;HR&quot; style=&#39;font-size:18.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-bottom:.05pt;line-height:normal&#39;&gt;&lt;b&gt;&lt;span lang=&quot;HR&quot; style=&#39;font-size:18.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;16&lt;/span&gt;&lt;/b&gt;&lt;b&gt;&lt;span lang=&quot;HR&quot; style=&#39;font-size:18.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;. Obavijesti.
+&lt;/span&gt;&lt;/b&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;line-height:normal&#39;&gt;&lt;span lang=&quot;HR&quot; style=&#39;font-size:
+12.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;Suglasni ste da vam
+Microsoft šalje obavijesti o API-ju za Power BI ili informacije na &amp;#269;ije
+nas slanje obavezuje zakon putem poruka e-pošte na adrese koje ste naveli kada
+ste se prijavili za API za Power BI. Obavijesti poslane e -poštom smatrat &amp;#263;e
+se poslanima i primljenima na datum slanja poruke e-pošte. Ako ne pristanete na
+elektronsko primanje ovih obavijesti, morate prestati koristiti API za Power
+BI. &lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-bottom:.05pt;line-height:normal&#39;&gt;&lt;b&gt;&lt;span lang=&quot;HR&quot; style=&#39;font-size:18.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;17&lt;/span&gt;&lt;/b&gt;&lt;b&gt;&lt;span lang=&quot;HR&quot; style=&#39;font-size:18.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;. Bez
+Microsoftovih odricanja od prava.&lt;/span&gt;&lt;/b&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;line-height:normal&#39;&gt;&lt;span lang=&quot;HR&quot; style=&#39;font-size:
+12.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;Ako Microsoft ne
+iskoristi ili provede neko od prava ili odredbi ovih Uvjeta za API, to se
+ne&amp;#263;e smatrati njegovim odricanjem od toga prava ili odredbe.&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-bottom:.05pt;line-height:normal&#39;&gt;&lt;b&gt;&lt;span lang=&quot;HR&quot; style=&#39;font-size:18.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;18&lt;/span&gt;&lt;/b&gt;&lt;b&gt;&lt;span lang=&quot;HR&quot; style=&#39;font-size:18.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;. Mjerodavno
+pravo, sudska nadležnost.&lt;/span&gt;&lt;/b&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-top:6.0pt;margin-right:0in;margin-bottom:0in;
+margin-left:0in;margin-bottom:.0001pt;line-height:normal&#39;&gt;&lt;span lang=&quot;HR&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;Zakoni
+savezne države Washington mjerodavni su za ove Uvjete za API. Ako postoji
+federalna nadležnost, stranke pristaju na isklju&amp;#269;ivu nadležnost federalnih
+sudova Okruga King u Washingtonu. Ako ne postoji federalna nadležnost, stranke
+pristaju na isklju&amp;#269;ivu nadležnost Višeg suda Okruga King u Washingtonu.
+Ako Microsoft ili vi angažirate odvjetnike radi ostvarivanja bilo kakvih prava
+proisteklih iz ovih Uvjeta za API ili u vezi s njima, strana koja dobije spor
+ima pravo na nadoknadu opravdanih odvjetni&amp;#269;kih naknada i drugih troškova,
+uklju&amp;#269;uju&amp;#263;i troškove i pristojbe priziva, pokretanja ste&amp;#269;aja i
+sli&amp;#269;nih radnji.&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-bottom:.05pt;line-height:normal&#39;&gt;&lt;b&gt;&lt;span lang=&quot;HR&quot; style=&#39;font-size:18.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;&amp;nbsp;&lt;/span&gt;&lt;/b&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-bottom:.05pt;line-height:normal&#39;&gt;&lt;b&gt;&lt;span lang=&quot;HR&quot; style=&#39;font-size:18.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;19&lt;/span&gt;&lt;/b&gt;&lt;b&gt;&lt;span lang=&quot;HR&quot; style=&#39;font-size:18.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;. Cjelovitost
+ugovora.&lt;/span&gt;&lt;/b&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-top:6.0pt;margin-right:0in;margin-bottom:0in;
+margin-left:0in;margin-bottom:.0001pt;line-height:normal&#39;&gt;&lt;span lang=&quot;HR&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;Ovi
+Uvjeti za API &amp;#269;ine cjeloviti ugovor izme&amp;#273;u Microsofta i vas u pogledu
+predmeta ugovora.&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;line-height:normal&#39;&gt;&lt;span lang=&quot;HR&quot; style=&#39;font-size:
+12.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-bottom:.05pt;line-height:normal&#39;&gt;&lt;span lang=&quot;HR&quot; style=&#39;font-size:18.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-bottom:.05pt;line-height:normal&#39;&gt;&lt;span lang=&quot;HR&quot; style=&#39;font-size:18.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-bottom:.05pt;line-height:normal&#39;&gt;&lt;span lang=&quot;HR&quot; style=&#39;font-size:18.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-bottom:.05pt;line-height:normal&#39;&gt;&lt;span lang=&quot;HR&quot; style=&#39;font-size:18.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-bottom:.05pt;line-height:normal&#39;&gt;&lt;span lang=&quot;HR&quot; style=&#39;font-size:18.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-bottom:.05pt;line-height:normal&#39;&gt;&lt;span lang=&quot;HR&quot; style=&#39;font-size:18.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-bottom:.05pt;line-height:normal&#39;&gt;&lt;span lang=&quot;HR&quot; style=&#39;font-size:18.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-bottom:.05pt;line-height:normal&#39;&gt;&lt;span lang=&quot;HR&quot; style=&#39;font-size:18.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-bottom:.05pt;line-height:normal&#39;&gt;&lt;span lang=&quot;HR&quot; style=&#39;font-size:18.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-bottom:.05pt;line-height:normal&#39;&gt;&lt;span lang=&quot;HR&quot; style=&#39;font-size:18.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-bottom:.05pt;line-height:normal&#39;&gt;&lt;span lang=&quot;HR&quot; style=&#39;font-size:18.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-bottom:.05pt;line-height:normal&#39;&gt;&lt;span lang=&quot;HR&quot; style=&#39;font-size:18.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-bottom:.05pt;line-height:normal&#39;&gt;&lt;span lang=&quot;HR&quot; style=&#39;font-size:18.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-bottom:.05pt;line-height:normal&#39;&gt;&lt;span lang=&quot;HR&quot; style=&#39;font-size:18.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-bottom:.05pt;line-height:normal&#39;&gt;&lt;span lang=&quot;HR&quot; style=&#39;font-size:18.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-top:0in;margin-right:0in;margin-bottom:.05pt;
+margin-left:2.5in;text-indent:22.5pt;line-height:normal&#39;&gt;&lt;span lang=&quot;HR&quot; style=&#39;font-size:18.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;Prilog
+A&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; align=&quot;center&quot; style=&#39;margin-bottom:.05pt;text-align:center;
+line-height:normal&#39;&gt;&lt;span lang=&quot;HR&quot; style=&#39;font-size:18.0pt;font-family:&quot;Times New Roman&quot;,serif;
+color:#4B5C66&#39;&gt;Sigurnosni zahtjevi i dokumentacija&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-bottom:.05pt;line-height:normal&#39;&gt;&lt;b&gt;&lt;span lang=&quot;PT-BR&quot; style=&#39;font-size:18.0pt;font-family:&quot;Times New Roman&quot;,serif;
+color:#4B5C66&#39;&gt;&amp;nbsp;&lt;/span&gt;&lt;/b&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-bottom:.05pt;line-height:normal&#39;&gt;&lt;b&gt;&lt;span lang=&quot;HR&quot; style=&#39;font-size:18.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;Sigurnosni
+zahtjevi:&lt;/span&gt;&lt;/b&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-left:.25in;text-indent:-.25in;line-height:
+normal&#39;&gt;&lt;span lang=&quot;EN&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;
+color:#4B5C66&#39;&gt;1.&lt;span style=&#39;font:7.0pt &quot;Times New Roman&quot;&#39;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+&lt;/span&gt;&lt;/span&gt;&lt;span lang=&quot;HR&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;
+color:#4B5C66&#39;&gt;Partner je dužan Microsoftu dostaviti svu relevantnu sigurnosnu
+dokumentaciju (uklju&amp;#269;uju&amp;#263;i, ali ne ograni&amp;#269;ivši se na sigurnosna
+pravila, pravila za postupanje u slu&amp;#269;aju incidenta, procjenu rizika,
+klasifikaciju podataka, statistiku koda i binarnu statistiku i artefakte za
+dinami&amp;#269;ku analizu, rezultate pen testa, korištene komponente tre&amp;#263;ih
+strana itd.);&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-left:.25in;text-indent:-.25in;line-height:
+normal&#39;&gt;&lt;span lang=&quot;EN&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;
+color:#4B5C66&#39;&gt;2.&lt;span style=&#39;font:7.0pt &quot;Times New Roman&quot;&#39;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+&lt;/span&gt;&lt;/span&gt;&lt;span lang=&quot;HR&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;
+color:#4B5C66&#39;&gt;Dostaviti jasnu dokumentaciju o Partnerovoj upotrebi
+korisni&amp;#269;kih podataka usluge Power BI (svrhu upotrebe, specifi&amp;#269;ne
+podatke usluge Power BI, prijenos, pohrana itd.) te u&amp;#269;initi je dostupnom
+korisnicima;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-left:.25in;text-indent:-.25in;line-height:
+normal&#39;&gt;&lt;span lang=&quot;EN&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;
+color:#4B5C66&#39;&gt;3.&lt;span style=&#39;font:7.0pt &quot;Times New Roman&quot;&#39;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+&lt;/span&gt;&lt;/span&gt;&lt;span lang=&quot;HR&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;
+color:#4B5C66&#39;&gt;Potvrditi da &amp;#263;e identificirane ranjivosti koje mogu
+utjecati na klijente usluge Power BI biti pravovremeno riješene;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-left:.25in;text-indent:-.25in;line-height:
+normal&#39;&gt;&lt;span lang=&quot;IT&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;
+color:#4B5C66&#39;&gt;4.&lt;span style=&#39;font:7.0pt &quot;Times New Roman&quot;&#39;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+&lt;/span&gt;&lt;/span&gt;&lt;span lang=&quot;HR&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;
+color:#4B5C66&#39;&gt;Potvrditi da je Microsoft ovlašten testirati sigurnost ponude
+tre&amp;#263;e strane kako je dogovoreno izme&amp;#273;u Microsofta i vas;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-left:.25in;text-indent:-.25in;line-height:
+normal&#39;&gt;&lt;span lang=&quot;IT&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;
+color:#4B5C66&#39;&gt;5.&lt;span style=&#39;font:7.0pt &quot;Times New Roman&quot;&#39;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+&lt;/span&gt;&lt;/span&gt;&lt;span lang=&quot;HR&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;
+color:#4B5C66&#39;&gt;Da &amp;#263;ete &amp;#269;uvati samo podatke neophodne za korištenje u
+svrhu za koju su namijenjeni te da &amp;#263;ete prema potrebi izbrisati nepotrebne
+i suvišne informacije;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-left:.25in;text-indent:-.25in;line-height:
+normal&#39;&gt;&lt;span lang=&quot;IT&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;
+color:#4B5C66&#39;&gt;6.&lt;span style=&#39;font:7.0pt &quot;Times New Roman&quot;&#39;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+&lt;/span&gt;&lt;/span&gt;&lt;span lang=&quot;HR&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;
+color:#4B5C66&#39;&gt;Svi Microsoftovi podaci bit &amp;#263;e izbrisani/uklonjeni s vaših
+sustava nakon prekida vašeg odnosa s Microsoftom.&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;line-height:normal&#39;&gt;&lt;span lang=&quot;HR&quot; style=&#39;font-size:
+12.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-bottom:.05pt;line-height:normal&#39;&gt;&lt;b&gt;&lt;span lang=&quot;HR&quot; style=&#39;font-size:18.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;Sigurnosna
+dokumentacija &lt;/span&gt;&lt;/b&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;line-height:normal&#39;&gt;&lt;span lang=&quot;HR&quot; style=&#39;font-size:
+12.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;Ako je radi
+integracije potrebno zadržati Microsoftove korisni&amp;#269;ke podatke, na zahtjev
+ste dužni dostaviti sljede&amp;#263;u sigurnosnu dokumentaciju:&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-left:.25in;text-indent:-.25in;line-height:
+normal&#39;&gt;&lt;span lang=&quot;IT&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;
+color:#4B5C66&#39;&gt;1.&lt;span style=&#39;font:7.0pt &quot;Times New Roman&quot;&#39;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+&lt;/span&gt;&lt;/span&gt;&lt;span lang=&quot;HR&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;
+color:#4B5C66&#39;&gt;Opis arhitekture sustava (uklju&amp;#269;uju&amp;#263;i lokaciju, svrhu
+klju&amp;#269;nih komponenti sustava, istaknuti sustave koji &amp;#263;e imati pristup
+korisni&amp;#269;kim podacima usluge Power BI, kako se Microsoftovi podaci
+pohranjuju i prenose itd.)&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-left:.25in;text-indent:-.25in;line-height:
+normal&#39;&gt;&lt;span lang=&quot;IT&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;
+color:#4B5C66&#39;&gt;2.&lt;span style=&#39;font:7.0pt &quot;Times New Roman&quot;&#39;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+&lt;/span&gt;&lt;/span&gt;&lt;span lang=&quot;HR&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;
+color:#4B5C66&#39;&gt;Sigurnosni certifikati ili izvješ&amp;#263;a (SSAE16, SOC2, ISO27001
+itd.)&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-left:.25in;text-indent:-.25in;line-height:
+normal&#39;&gt;&lt;span lang=&quot;IT&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;
+color:#4B5C66&#39;&gt;3.&lt;span style=&#39;font:7.0pt &quot;Times New Roman&quot;&#39;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+&lt;/span&gt;&lt;/span&gt;&lt;span lang=&quot;HR&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;
+color:#4B5C66&#39;&gt;Fizi&amp;#269;ke sigurnosne mjere za relevantne sustave&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-left:.25in;text-indent:-.25in;line-height:
+normal&#39;&gt;&lt;span lang=&quot;ES&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;
+color:#4B5C66&#39;&gt;4.&lt;span style=&#39;font:7.0pt &quot;Times New Roman&quot;&#39;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+&lt;/span&gt;&lt;/span&gt;&lt;span lang=&quot;HR&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;
+color:#4B5C66&#39;&gt;Sve tre&amp;#263;e strane uklju&amp;#269;ene u sustav dužne su osigurati
+relevantne ugovore i sigurnosne informacije&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-left:.25in;text-indent:-.25in;line-height:
+normal&#39;&gt;&lt;span lang=&quot;EN&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;
+color:#4B5C66&#39;&gt;5.&lt;span style=&#39;font:7.0pt &quot;Times New Roman&quot;&#39;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+&lt;/span&gt;&lt;/span&gt;&lt;span lang=&quot;HR&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;
+color:#4B5C66&#39;&gt;Vaši modeli kontrole pristupa&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-left:.25in;text-indent:-.25in;line-height:
+normal&#39;&gt;&lt;span lang=&quot;IT&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;
+color:#4B5C66&#39;&gt;6.&lt;span style=&#39;font:7.0pt &quot;Times New Roman&quot;&#39;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+&lt;/span&gt;&lt;/span&gt;&lt;span lang=&quot;HR&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;
+color:#4B5C66&#39;&gt;Postavljeni specifi&amp;#269;ni sigurnosni sistemi (IDS; HIDS;
+skeniranje ranjivosti)&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-left:.25in;text-indent:-.25in;line-height:
+normal&#39;&gt;&lt;span lang=&quot;IT&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;
+color:#4B5C66&#39;&gt;7.&lt;span style=&#39;font:7.0pt &quot;Times New Roman&quot;&#39;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+&lt;/span&gt;&lt;/span&gt;&lt;span lang=&quot;HR&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;
+color:#4B5C66&#39;&gt;Uloge odgovorne za sigurnost (tim i upravljanje)&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-left:.25in;text-indent:-.25in;line-height:
+normal&#39;&gt;&lt;span lang=&quot;IT&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;
+color:#4B5C66&#39;&gt;8.&lt;span style=&#39;font:7.0pt &quot;Times New Roman&quot;&#39;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+&lt;/span&gt;&lt;/span&gt;&lt;span lang=&quot;HR&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;
+color:#4B5C66&#39;&gt;Kako se štite vjerodajnice povlaštenih ra&amp;#269;una sustava&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-left:.25in;text-indent:-.25in;line-height:
+normal&#39;&gt;&lt;span lang=&quot;PT-BR&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;
+color:#4B5C66&#39;&gt;9.&lt;span style=&#39;font:7.0pt &quot;Times New Roman&quot;&#39;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+&lt;/span&gt;&lt;/span&gt;&lt;span lang=&quot;HR&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;
+color:#4B5C66&#39;&gt;Kako se pruža, oduzima i nadzire pristup sustavima&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-left:.25in;text-indent:-.25in;line-height:
+normal&#39;&gt;&lt;span lang=&quot;PT-BR&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;
+color:#4B5C66&#39;&gt;10.&lt;span style=&#39;font:7.0pt &quot;Times New Roman&quot;&#39;&gt;&amp;nbsp; &lt;/span&gt;&lt;/span&gt;&lt;span lang=&quot;HR&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;Koje
+uloge zaposlenika imaju pristup relevantnim sustavima&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-left:.25in;text-indent:-.25in;line-height:
+normal&#39;&gt;&lt;span lang=&quot;PT-BR&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;
+color:#4B5C66&#39;&gt;11.&lt;span style=&#39;font:7.0pt &quot;Times New Roman&quot;&#39;&gt;&amp;nbsp; &lt;/span&gt;&lt;/span&gt;&lt;span lang=&quot;HR&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;Implementirani
+postupci revizije, nadzora i bilježenja&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-left:.25in;text-indent:-.25in;line-height:
+normal&#39;&gt;&lt;span lang=&quot;PT-BR&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;
+color:#4B5C66&#39;&gt;12.&lt;span style=&#39;font:7.0pt &quot;Times New Roman&quot;&#39;&gt;&amp;nbsp; &lt;/span&gt;&lt;/span&gt;&lt;span lang=&quot;HR&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;Sigurnosni
+postupci aplikacija (najbolje prakse za implementaciju sigurnosti, sigurnosno
+testiranje itd.)&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-left:.25in;text-indent:-.25in;line-height:
+normal&#39;&gt;&lt;span lang=&quot;PT-BR&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;
+color:#4B5C66&#39;&gt;13.&lt;span style=&#39;font:7.0pt &quot;Times New Roman&quot;&#39;&gt;&amp;nbsp; &lt;/span&gt;&lt;/span&gt;&lt;span lang=&quot;HR&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;Procedure
+za reagiranje na incidente i oporavak od katastrofe&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-left:.25in;text-indent:-.25in;line-height:
+normal&#39;&gt;&lt;span lang=&quot;EN&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;
+color:#4B5C66&#39;&gt;14.&lt;span style=&#39;font:7.0pt &quot;Times New Roman&quot;&#39;&gt;&amp;nbsp; &lt;/span&gt;&lt;/span&gt;&lt;span lang=&quot;HR&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;Postupak
+za rješavanje sigurnosnih zakrpa&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-left:.25in;text-indent:-.25in;line-height:
+normal&#39;&gt;&lt;span lang=&quot;IT&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;
+color:#4B5C66&#39;&gt;15.&lt;span style=&#39;font:7.0pt &quot;Times New Roman&quot;&#39;&gt;&amp;nbsp; &lt;/span&gt;&lt;/span&gt;&lt;span lang=&quot;HR&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;Proces
+za primjenu sigurnosnih zakrpa tre&amp;#263;e strane na sustave za komponente
+tre&amp;#263;ih strana u upotrebi&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;margin-left:.25in;text-indent:-.25in;line-height:
+normal&#39;&gt;&lt;span lang=&quot;IT&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;
+color:#4B5C66&#39;&gt;16.&lt;span style=&#39;font:7.0pt &quot;Times New Roman&quot;&#39;&gt;&amp;nbsp; &lt;/span&gt;&lt;/span&gt;&lt;span lang=&quot;HR&quot; style=&#39;font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;Kako
+se korisni&amp;#269;ki podaci usluge Power BI zašti&amp;#263;eni u pohrani i prijenosu
+kada ih aplikacija koristi&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&#39;line-height:normal&#39;&gt;&lt;span lang=&quot;HR&quot; style=&#39;font-size:
+12.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot;&gt;&lt;span lang=&quot;IT&quot; style=&#39;font-size:12.0pt;line-height:107%;
+font-family:&quot;Times New Roman&quot;,serif;color:#4B5C66&#39;&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;</value>
+  </data>
+  <data name="Heading" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="META_DESCRIPTION" xml:space="preserve">
+    <value />
+  </data>
+  <data name="META_KEYWORDS" xml:space="preserve">
+    <value />
+  </data>
+  <data name="META_PAGETITLE" xml:space="preserve">
+    <value>Power BI API Terms of Service | Microsoft Power BI</value>
+  </data>
+</root>

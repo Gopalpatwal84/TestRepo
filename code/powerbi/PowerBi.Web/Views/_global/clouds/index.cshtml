@@ -1,0 +1,71 @@
+﻿@using Resources = PowerBI.Resources.Pages.Clouds.Index
+
+@{
+    Model.PageTitle = Resources.META_PAGETITLE;
+    Model.MetaDescription = Resources.META_DESCRIPTION;
+    Model.MetaKeywords = Resources.META_KEYWORDS;
+}
+
+<section class="section section-size3 section-palette02">
+    <div class="row">
+        <div class="column medium-5">
+            <h1>@Resources.SovereignClouds_MainHeading</h1>
+        </div>
+        <div class="column medium-6 medium-offset-1">
+            <p>@Resources.SovereignClouds_MainContent</p>
+        </div>
+    </div>
+</section>
+
+<section class="section">
+    <div class="row">
+        <div class="column medium-4">
+            <div class="row column sd-equalize">
+                <p class="text-heading3">@Resources.US_Government_Heading</p>
+                <p>@Resources.US_Government_Content</p>
+            </div>
+            <div class="row column">
+                 <a href=@Html.LocalizeUrl("article:powerbi-service-govus-overview") class="button">@Resources.SovereignClouds_Cta</a>
+            </div>
+        </div>
+        <div class="column medium-4">
+            <div class="row column sd-equalize">
+                <p class="text-heading3">@Resources.Germany_Heading</p>
+                <p>@Resources.Germany_Content</p>
+            </div>
+            <div class="row column">
+                <a href="@Html.LocalizeUrl("/power-bi-germany/")" class="button">@Resources.SovereignClouds_Cta</a>
+            </div>
+        </div>
+        <div class="column medium-4 ">
+            <div class="row column sd-equalize">
+                <p class="text-heading3">@Resources.China_Heading</p>
+                <p>@Resources.China_Content</p>
+            </div>
+            <div class="row column">
+                <a href="http://www.21vbluecloud.com/powerbi/" class="button">@Resources.SovereignClouds_Cta_China</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="section section-germany-at-twilight">
+</section>
+
+<section class="section section-slate01 section-size3" id="support" name="support">
+    <div class="row column"><p class="text-heading2">@Resources.Support_Heading</p></div>
+    <div class="row row-size2 column"><p>@Resources.Support_Content</p></div>
+    <div class="row row-size2">
+        <div class="column medium-4"><a href="https://portal.office.com" class="button button-alt">@Resources.US_Government_Cta</a></div>
+        <div class="column medium-4"><a href="https://portal.office.de" class="button button-alt">@Resources.Germany_Cta</a></div>
+        <div class="column medium-4"><a href="http://www.21vbluecloud.com/powerbi/usersupport.html" class="button button-alt">@Resources.China_Cta</a></div>
+    </div>
+    <div class="row column"><p>@Resources.Support_Content2</p></div>
+    <div class="row row-size2 column"><a href="http://community.powerbi.com/" class="button button-alt">@Resources.Community_Cta</a></div>
+</section>
+
+<section class="section section-size2 section-slate06">
+    <div class="row column">
+        <p>@Html.Raw(Resources.Terms_Conditions)</p>
+    </div>
+</section>

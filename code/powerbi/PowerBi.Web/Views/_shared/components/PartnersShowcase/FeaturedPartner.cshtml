@@ -1,0 +1,8 @@
+﻿@model PowerBI.Web.Models.Pages.PartnerShowcases.PartnerShowcaseSearchViewModel
+
+<div class="column small-6 medium-2 end">
+    <a href="@Html.LocalizeUrl(Model.Entry.Url)" class="partner-item">
+        <div class="partner-logo partner-logo-block" data-set="partner-logo"><img src="@CdnHelper.GetCdnUrl(Model.LogoUrl)" alt="@Model.Name" /></div>
+        <p class="partner-name text-heading6">@Model.Name</p>
+    </a>
+</div>

@@ -1,0 +1,291 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" id="root">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Area_Android" xml:space="preserve">
+    <value>Application Power BI pour les téléphones Android</value>
+  </data>
+  <data name="Area_GetStarted" xml:space="preserve">
+    <value>Commencer</value>
+  </data>
+  <data name="Area_iPad" xml:space="preserve">
+    <value>Application iPad (Power BI pour iOS)</value>
+  </data>
+  <data name="Area_iPhone" xml:space="preserve">
+    <value>Application iPhone (Power BI pour iOS)</value>
+  </data>
+  <data name="Area_Windows" xml:space="preserve">
+    <value>Application Power BI pour les appareils Windows 10</value>
+  </data>
+  <data name="Link_AndroidGetStarted" xml:space="preserve">
+    <value>Prise en main de l’application Power BI pour Android</value>
+  </data>
+  <data name="Link_AndroidShareTile" xml:space="preserve">
+    <value>Annoter et partager une vignette à partir de l’application Android</value>
+  </data>
+  <data name="Link_AndroidTiles" xml:space="preserve">
+    <value>Vignettes dans l’application Android</value>
+  </data>
+  <data name="Link_Apps" xml:space="preserve">
+    <value>Applications Power BI pour appareils mobiles</value>
+  </data>
+  <data name="Link_iPadGetStarted" xml:space="preserve">
+    <value>Prise en main de l’application iPad</value>
+  </data>
+  <data name="Link_iPadGroups" xml:space="preserve">
+    <value>Utiliser des espaces de travail de groupe dans les applications mobiles</value>
+  </data>
+  <data name="Link_iPadReports" xml:space="preserve">
+    <value>Rapports dans l’application iPad</value>
+  </data>
+  <data name="Link_iPadTiles" xml:space="preserve">
+    <value>Interagir avec des vignettes dans l’application iPad</value>
+  </data>
+  <data name="Link_iPhoneApps" xml:space="preserve">
+    <value>Power BI pour les applications iOS</value>
+  </data>
+  <data name="Link_iPhoneGetStarted" xml:space="preserve">
+    <value>Prise en main de l’application Power BI pour iOS sur un iPhone</value>
+  </data>
+  <data name="Link_iPhoneIssues" xml:space="preserve">
+    <value>Problèmes connus liés aux échecs de communication dans les applications mobiles iOS</value>
+  </data>
+  <data name="Link_iPhonePictureTiles" xml:space="preserve">
+    <value>Créer des vignettes d’image avec votre application iPhone</value>
+  </data>
+  <data name="Link_iPhoneQRCode" xml:space="preserve">
+    <value>Scanner un code QR Power BI à partir de votre téléphone</value>
+  </data>
+  <data name="Link_iPhoneReports" xml:space="preserve">
+    <value>Rapports dans l’application iPhone</value>
+  </data>
+  <data name="Link_iPhoneSetAlerts" xml:space="preserve">
+    <value>Définir des alertes de données dans l’application iPhone</value>
+  </data>
+  <data name="Link_iPhoneShareDashboard" xml:space="preserve">
+    <value>Partager un tableau de bord à partir des applications mobiles Power BI</value>
+  </data>
+  <data name="Link_iPhoneShareTiles" xml:space="preserve">
+    <value>Annoter et partager une vignette, un rapport ou un visuel sur les applications mobiles iOS</value>
+  </data>
+  <data name="Link_iPhoneTiles" xml:space="preserve">
+    <value>Interagir avec des vignettes dans l’application iPhone</value>
+  </data>
+  <data name="Link_iPhoneViewSQL" xml:space="preserve">
+    <value>Afficher les indicateurs de performance clés et les rapports mobiles SSRS dans les applications mobiles iOS</value>
+  </data>
+  <data name="Link_WhatsNew" xml:space="preserve">
+    <value>Nouveautés dans les applications mobiles pour Power BI</value>
+  </data>
+  <data name="Link_WindowsGetStarted" xml:space="preserve">
+    <value>Prise en main de l’application mobile Power BI pour Windows 10</value>
+  </data>
+  <data name="Link_WindowsPin" xml:space="preserve">
+    <value>Épingler une vignette ou un tableau de bord Power BI sur l’écran d’accueil</value>
+  </data>
+  <data name="Link_WindowsShareTile" xml:space="preserve">
+    <value>Partager une vignette à partir de l’application mobile Power BI pour Windows 10</value>
+  </data>
+  <data name="Link_WindowsTiles" xml:space="preserve">
+    <value>Vignettes dans l’application mobile Power BI pour Windows 10</value>
+  </data>
+  <data name="Title" xml:space="preserve">
+    <value>Applications mobiles Power BI</value>
+  </data>
+  <data name="Area_AllMobileApps" xml:space="preserve">
+    <value>Toutes les applications mobiles</value>
+  </data>
+  <data name="Link_AndroidKPIs" xml:space="preserve">
+    <value>Afficher les rapports mobiles Reporting Services et les indicateurs de performance clés dans l’application pour Android</value>
+  </data>
+  <data name="Link_AndroidReports" xml:space="preserve">
+    <value>Rapports dans l’application Android</value>
+  </data>
+  <data name="Link_AppleWatch" xml:space="preserve">
+    <value>Application Power BI pour Apple Watch</value>
+  </data>
+  <data name="Link_CreateDashboard" xml:space="preserve">
+    <value>Tableaux de bord pour la version mobile de Power BI</value>
+  </data>
+  <data name="Link_Intune" xml:space="preserve">
+    <value>Configurer des applications mobiles avec Intune</value>
+  </data>
+  <data name="Link_OfflineAndroid" xml:space="preserve">
+    <value>Affichage de vos données hors connexion dans les applications mobiles Power BI</value>
+  </data>
+  <data name="Link_Windows10KPIs" xml:space="preserve">
+    <value>Afficher les rapports mobiles Reporting Services et les indicateurs de performance clés dans l’application mobile Power BI pour Windows 10</value>
+  </data>
+  <data name="Link_WindowsReports" xml:space="preserve">
+    <value>Rapports dans l’application mobile Power BI pour Windows 10</value>
+  </data>
+  <data name="Link_Geofiltering" xml:space="preserve">
+    <value>Filtrez un rapport par emplacement dans les applications mobiles Power BI</value>
+  </data>
+  <data name="Link_iPhoneScanBarcode" xml:space="preserve">
+    <value>Scannez un code-barres depuis l’application Power BI sur votre iPhone</value>
+  </data>
+  <data name="Link_MobileRealWorld" xml:space="preserve">
+    <value>Obtenez des données Power BI réelles avec les applications mobiles</value>
+  </data>
+  <data name="Link_AndroidSetAlerts" xml:space="preserve">
+    <value>Définir des alertes dans l’application Power BI pour les téléphones Android</value>
+  </data>
+  <data name="Link_MobileNotificationCenter" xml:space="preserve">
+    <value>Obtenir des notifications dans les applications mobiles Power BI</value>
+  </data>
+  <data name="Link_WindowsPresentationMode" xml:space="preserve">
+    <value>Afficher Power BI en mode présentation dans Surface Hub</value>
+  </data>
+  <data name="Link_WindowsSetAlerts" xml:space="preserve">
+    <value>Définir des alertes dans l’application mobile Power BI pour Windows 10</value>
+  </data>
+  <data name="Link_ViewPhoneReport" xml:space="preserve">
+    <value>Afficher et interagir avec les rapports Power BI optimisés pour votre téléphone</value>
+  </data>
+  <data name="Link_Favorites" xml:space="preserve">
+    <value>Éléments favoris dans les applications mobiles Power BI</value>
+  </data>
+  <data name="Link_MobileDeepLink" xml:space="preserve">
+    <value>Créer un lien ciblé qui pointe vers un emplacement spécifique</value>
+  </data>
+  <data name="Area_AndroidTablet" xml:space="preserve">
+    <value>Application Power BI pour les tablettes Android</value>
+  </data>
+  <data name="Link_AndroidTabGetStarted" xml:space="preserve">
+    <value>Prise en main de l’application Power BI pour Android pour les tablettes</value>
+  </data>
+  <data name="Link_AndroidTabReports" xml:space="preserve">
+    <value>Rapports dans l’application Android pour les tablettes</value>
+  </data>
+  <data name="Link_AndroidTabSetAlerts" xml:space="preserve">
+    <value>Définir des alertes de données dans l’application Power BI pour les tablettes Android</value>
+  </data>
+  <data name="Link_AndroidTabTiles" xml:space="preserve">
+    <value>Vignettes dans l’application Android pour les tablettes</value>
+  </data>
+  <data name="Link_OAuthSSRS" xml:space="preserve">
+    <value>Utilisation de Oauth pour se connecter à Reporting Services</value>
+  </data>
+  <data name="Link_iosQnA" xml:space="preserve">
+    <value>Poser des questions sur vos données dans les applications mobiles iOS (didacticiel)</value>
+  </data>
+  <data name="Meta_LocJobId" xml:space="preserve">
+    <value>209</value>
+  </data>
+</root>

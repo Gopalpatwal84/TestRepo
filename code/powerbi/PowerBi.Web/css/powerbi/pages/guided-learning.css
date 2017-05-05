@@ -1,0 +1,150 @@
+﻿#guided-learning-content .wa-navigationScroll,
+#guided-learning-content .navigationScroll {
+  display: none;
+}
+/*Details pages*/
+#guided-learning-nav .pbi-glyph-checkmark {
+  color: #3bb44a;
+  opacity: 0;
+  font-weight: 700;
+}
+#guided-learning-nav .category > a {
+  padding-right: 10px;
+}
+#guided-learning-nav .category .pbi-glyph-checkmark {
+  float: right;
+  padding-top: 6px;
+}
+#guided-learning-nav .category.completed .pbi-glyph-checkmark {
+  opacity: 1;
+}
+#guided-learning-nav .lesson {
+  margin-left: 10px;
+}
+#guided-learning-nav .lesson .pbi-glyph-checkmark {
+  float: left;
+  padding: 6px 8px 0 0;
+}
+#guided-learning-nav .lesson.completed .pbi-glyph-checkmark {
+  opacity: 1;
+}
+#guided-learning-nav li {
+  position: relative;
+}
+#guided-learning-nav li a {
+  overflow: hidden;
+  padding-right: 60px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+#guided-learning-nav li .duration {
+  position: absolute;
+  right: 0;
+}
+#guided-learning-nav .navigationLeft.show .title .glyphicon:before {
+  content: "\E971";
+}
+#guided-learning-nav .title .glyphicon {
+  margin-right: 10px;
+}
+#guided-learning-nav .track-progress {
+  padding-top: 25px;
+}
+#guided-learning-content .next-button {
+  margin: 85px 0;
+}
+#guided-learning-content .video-container {
+  position: relative;
+  display: inline-block;
+  margin: 25px 0;
+}
+#guided-learning-content .video-overlay {
+  display: none;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.8);
+  padding: 20%;
+  color: #ffffff;
+}
+#guided-learning-content .video-overlay h4 {
+  color: #ffffff;
+}
+#guided-learning-content .watch-again-container {
+  background-color: #333333;
+  padding: 20px 0;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
+#guided-learning-content .watch-again-container h4 {
+  margin-bottom: 0;
+  font-size: 14px;
+  display: inline-block;
+}
+#guided-learning-content .watch-again-container icon {
+  margin-right: 5px;
+}
+@media only screen and (min-width: 960px) {
+  #guided-learning-nav .navigationLeft .title {
+    display: none;
+  }
+}
+/*Landing page*/
+.guided-learning-index .pbi-glyph-checkmark {
+  color: #3bb44a;
+  opacity: 0;
+  font-weight: 700;
+  float: left;
+  top: 7px;
+  left: 32px;
+}
+@media only screen and (max-width: 768px) {
+  .guided-learning-index .pbi-glyph-checkmark {
+    left: 0;
+  }
+}
+.guided-learning-index .lesson.completed .pbi-glyph-checkmark {
+  opacity: 1;
+}
+.guided-learning-index .progress {
+  width: 100px;
+  height: 8px;
+  background-color: #EAEAEA;
+  display: inline-block;
+}
+.guided-learning-index .progress .progress-bar {
+  display: block;
+  width: 0;
+  height: 8px;
+  background-color: #f2c811;
+}
+.guided-learning-index .progress .progress-bar.done {
+  background-color: #3bb44a;
+}
+.guided-learning-index .percentage {
+  display: inline-block;
+  padding-left: 25px;
+}
+a.learning-item:hover .learning-title {
+  text-decoration: underline;
+}
+.guided-learning.toggler h3 {
+  display: inline-block;
+}
+.guided-learning.toggler .glyphicon {
+  margin-right: 25px;
+}
+.learning-title {
+  margin-left: 54px;
+  margin-top: 0;
+}
+.icon-selected {
+  color: #f2c811;
+}
+@media only screen and (max-width: 768px) {
+  .learning-title {
+    margin-left: 20px;
+  }
+}

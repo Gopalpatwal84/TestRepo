@@ -1,0 +1,230 @@
+﻿@using Resources = PowerBI.Resources.Pages.Index
+@using Forms = PowerBI.Resources.Shared.Forms.Form
+
+@{
+    Model.PageTitle = Resources.META_PAGETITLE;
+    Model.MetaDescription = Resources.META_DESCRIPTION;
+    Model.MetaKeywords = Resources.META_KEYWORDS;
+    ViewBag.Container = "container-home";
+}
+
+<section class="section section-palette02 section-app-devices">
+    <div class="row text-center">
+        <div class="column large-8 large-centered">
+            <div class="row column">
+                <h1 class="text-super">@Resources.Hero_Heading2</h1>
+                <h3 class="text-normal">@Resources.Hero_Content2</h3>
+            </div>
+            <div class="row row-size2 column">
+                <span class="hide-for-medium"><a id="power-bi-get-started-free-home-header-button" href="@Html.LocalizeUrl("/mobile/")" class="button" data-event="home-clicked-primarycta">@Resources.Hero_Cta</a></span>
+                <span class="show-for-medium"><a id="power-bi-get-started-free-home-header-button" href="@Html.LocalizeUrl("/get-started/")" class="button" data-event="home-clicked-primarycta">@Resources.Hero_Cta</a></span>
+            </div>
+        </div>
+    </div>
+    <div class="row row-size6 column">
+        <img src="@CdnHelper.GetCdnUrl("/pictures/pages/powerbi-desktop.png")" alt="" style="display: block" />
+    </div>
+</section>
+
+<section class="section section-slate01 section-size2">
+    <div class="row text-center">
+        <div class="column medium-10 medium-offset-1">
+            <div class="text-announcement">
+                <div class="cubes">
+                    <div class="wrap">
+                        <div class="flip-chart">
+                            @cube("short")
+                            @cube("medium")
+                            @cube("tall")
+                        </div>
+                    </div>
+                </div>
+                <p class="display-inline">@Html.RawFormatInvariant(Resources.InsightsSummit_Content, "https://www.microsoft.com/en-us/datainsightssummit/default.aspx?wt.mc_id=AID603592_owned_PowerBIWebsite_Copy")</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="section section-slate02 section-conference-room text-center">
+    <div class="row">
+        <div class="column large-8 large-centered">
+            <h2 class="text-heading1">@Resources.WhatIsPowerBI_Heading</h2>
+            <p>@Resources.WhatIsPowerBI_Content</p>
+        </div>
+    </div>
+    <div class="row row-size2">
+        <div class="column">
+            <a href="@Html.LocalizeUrl("/what-is-power-bi/")" class="button button-featured">@Resources.WhatIsPowerBI_Cta</a>
+        </div>
+    </div>
+</section>
+
+@Html.Partial("section/_analytics-solutions")
+
+<section class="section section-slate06 text-center">
+    <div class="row">
+        <div class="column large-8 large-centered">
+            <h2 class="text-heading1">@Resources.NationalCloud_Heading</h2>
+            <p>@Html.RawFormatInvariant(Resources.NationalCloud_Content_1, "https://www.microsoft.com/en-us/trustcenter/CloudServices/NationalCloud")</p>
+        </div>
+    </div>
+    <div class="row row-size2 column">
+        <a href="@Html.LocalizeUrl("/clouds/")" class="button">@Resources.NationalCloud_Cta</a>
+    </div>
+</section>
+
+<section class="section section-slate01">
+    <div class="row">
+        <div class="column large-8 large-centered text-center">
+            <h2 class="text-heading1 text-palette02">@Resources.Visualize_Heading</h2>
+            <p>@Resources.Visualize_Content</p>
+        </div>
+    </div>
+    <div class="row row-size3">
+        <div class="column large-6 large-centered">
+            @Html.CreateForm("Signup", new Acom.Forms.Models.FormOptions
+       {
+           Class = "form-email-only",
+           Slug = "signup",
+           SubmitRedirectUrl = "https://app.powerbi.com/signupredirect",
+       })
+            <p class="text-mini text-center">@Html.RawFormatInvariant(Forms.Terms_UseItFree, Html.LocalizeUrl("/terms-of-service/"))</p>
+        </div>
+    </div>
+</section>
+
+<section class="section section-slate06 section-size6">
+    <div class="row">
+        <div class="column medium-4">
+            <div class="row">
+                <div class="column">
+                    <div class="icon icon-wide">
+                        @SvgHelper.GetSvg("pbiplusdesktop")
+                    </div>
+                </div>
+            </div>
+            <div class="row row-size2">
+                <div class="column sd-equalize" data-set="platforms">
+                    <h3>@Resources.Download_Desktop_Heading</h3>
+                    @Html.RawFormatInvariant(Resources.Download_Desktop_Content)
+                </div>
+            </div>
+            <div class="row row-size2">
+                <div class="column">
+                    <a href="@Html.LocalizeUrl("/desktop/")" class="button">@Resources.Download_Desktop_Cta</a>
+                </div>
+            </div>
+        </div>
+        <div class="column medium-4">
+            <div class="row">
+                <div class="column">
+                    <div class="icon icon-wide">
+                        @SvgHelper.GetSvg("pbiplusmobile")
+                    </div>
+                </div>
+            </div>
+            <div class="row row-size2">
+                <div class="column sd-equalize" data-set="platforms">
+                    <h3>@Resources.Download_Mobile_Heading</h3>
+                    @Html.RawFormatInvariant(Resources.Download_Mobile_Content)
+                </div>
+            </div>
+            <div class="row row-size2">
+                <div class="column">
+                    <a href="@Html.LocalizeUrl("/mobile/")" class="button">@Resources.Download_Mobile_Cta</a>
+                </div>
+            </div>
+        </div>
+        <div class="column medium-4">
+            <div class="row">
+                <div class="column">
+                    <div class="icon icon-wide">
+                        @SvgHelper.GetSvg("pbipluscube")
+                    </div>
+                </div>
+            </div>
+            <div class="row row-size2">
+                <div class="column sd-equalize" data-set="platforms">
+                    <h3>@Resources.Download_Gateway_Heading</h3>
+                    @Html.RawFormatInvariant(Resources.Download_Gateway_Content)
+                </div>
+            </div>
+            <div class="row row-size2">
+                <div class="column">
+                    <a href="@Html.LocalizeUrl("/gateway/")" class="button">@Resources.Download_Gateway_Cta</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+@Html.Action("IntegrationsSection", "Integrations")
+
+<section class="section section-slate06">
+    <div class="row">
+        <div class="column medium-8 medium-centered text-center">
+            <div class="row">
+                <div class="column">
+                    <h2 class="text-heading1">@Resources.Possibile_Heading</h2>
+                    <p>@Resources.Possibile_Content</p>
+                </div>
+            </div>
+            <div class="row row-size2">
+                <div class="column">
+                    <a href="@Html.LocalizeUrl("/departments/")" class="button">@Resources.Possibile_Cta</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="section section-palette02" style="padding-top: 50px;">
+    <div class="row">
+        <div class="column medium-10 medium-centered text-center">
+            <blockquote class="large-quote text-heading2">@Resources.Quote</blockquote>
+            <p>@Resources.Quote_Author</p>
+        </div>
+    </div>
+</section>
+
+<section class="section">
+    <div class="row">
+        <div class="column text-center">
+            <h2 class="text-heading1">@Resources.UsingPowerBi_Heading</h2>
+        </div>
+    </div>
+    <div class="row text-center">
+        <div class="column medium-2">
+            <img src="@CdnHelper.GetCdnUrl("/pictures/shared/customers/meijer.png")" alt="" />
+        </div>
+        <div class="column medium-2">
+            <img src="@CdnHelper.GetCdnUrl("/pictures/shared/customers/elizabeth-glaser.png")" alt="" />
+        </div>
+        <div class="column medium-2">
+            <img src="@CdnHelper.GetCdnUrl("/pictures/shared/customers/honeywell.png")" alt="" />
+        </div>
+        <div class="column medium-2">
+            <img src="@CdnHelper.GetCdnUrl("/pictures/shared/customers/johnson-controls.png")" alt="" />
+        </div>
+        <div class="column medium-2">
+            <img src="@CdnHelper.GetCdnUrl("/pictures/shared/customers/kennametal.png")" alt="" />
+        </div>
+        <div class="column medium-2">
+            <img src="@CdnHelper.GetCdnUrl("/pictures/shared/customers/metro-bank.png")" alt="" />
+        </div>
+    </div>
+</section>
+
+@Html.Partial("section/_signup-its-free")
+
+@helper cube(string size)
+{
+    <div class="cube-rotate @size">
+        <div class="cube">
+            <div class="front"></div>
+            <div class="back"></div>
+            <div class="left"></div>
+            <div class="right"></div>
+        </div>
+    </div>
+}

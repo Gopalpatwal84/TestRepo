@@ -1,0 +1,84 @@
+﻿@model PowerBI.Web.Models.Pages.DataJournalism.Details
+@using Resources = PowerBI.Resources.Pages.Datajournalism.Courses.TruthfulVisualizations
+@using SharedLefty = PowerBI.Resources.Shared.Parts.LeftNavigation
+
+@{
+    Model.PageTitle = Resources.META_PAGETITLE;
+    Model.MetaDescription = Resources.META_DESCRIPTION;
+    Model.MetaKeywords = Resources.META_KEYWORDS;
+}
+
+<section class="section section-size5 section-palette02 section-heading-only">
+    <div class="row">
+        <div class="column medium-8 medium-centered">
+            <h2 class="text-heading1 text-center">@Resources.Hero_Title</h2>
+            <div class="row row-size2 column">
+                <p>@Resources.Hero_Subtitle</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="section section-size3 section-slate06">
+    <div class="row">
+        <div class="column medium-8 medium-centered">
+            @Html.Raw(Resources.About_Content)
+        </div>
+    </div>
+</section>
+
+<section class="section section-size3">
+    <div class="row">
+        <div class="column large-2">
+            <div class="navigationLeft navigationLeft-moreless">
+                <ul>
+                    @LeftyLink("visualization", SharedLefty.Area_Visualizations)
+                    @LeftyLink("data-exploration", @SharedLefty.Area_DataExploration)
+                    @LeftyLink("truthful-visualizations", @SharedLefty.Area_TruthfulVisualizations)
+                    @LeftyLink("choosing-graphics", @SharedLefty.Area_ChoosingGraphics)
+                    @LeftyLink("design-and-narrative", @SharedLefty.Area_DesignNarrative)
+                </ul>
+            </div>
+        </div>
+        <div class="column large-8 articlebody" itemprop="articlebody">
+            <div class="wa-navigationScroll fixed-element force-static" data-top-spacing="100" data-resting-position="absolute">
+                <span>@Resources.InThisArticle</span>
+                <ul class="scrollspy">
+                    <li>
+                        <a href="#examples-graphics">@Resources.RightNav_Link1</a>
+                    </li>
+                    <li>
+                        <a href="#visualization-examples">@Resources.RightNav_Link2</a>
+                    </li>
+                </ul>
+            </div>
+            <video id="datajournalismvideo3" class="article-video azuremediaplayer amp-default-skin amp-big-play-centered" data-src="//bapimediacdn-bapisitesmedia.streaming.mediaservices.windows.net/077b8fd7-d0e6-4813-93b2-c03889fb34f5/powerbi-datajournalism-course3.ism/manifest"></video>
+            <p><a href="@CdnHelper.GetCdnUrl("/pictures/pages/datajournalism/courses/truthful-visualizations/tutorial_3.zip")">@Resources.Download_Resources</a></p>            
+            <div class="row row-size2 column">
+                @Html.RawFormatInvariant(Resources.Article_Content_10,
+                Html.LocalizeUrl("/desktop/"), 
+                Html.LocalizeUrl("/get-started/"), 
+                "www.powerbi.com/get-started/", 
+                CdnHelper.GetCdnUrl("/pictures/pages/datajournalism/courses/truthful-visualizations/image1.png"),
+                CdnHelper.GetCdnUrl("/pictures/pages/datajournalism/courses/truthful-visualizations/image2.png"),
+                CdnHelper.GetCdnUrl("/pictures/pages/datajournalism/courses/truthful-visualizations/image3.png"),
+                Html.LocalizeUrl("/desktop/"),
+                CdnHelper.GetCdnUrl("/pictures/pages/datajournalism/courses/truthful-visualizations/image4.png"),
+                CdnHelper.GetCdnUrl("/pictures/pages/datajournalism/courses/truthful-visualizations/image5.png"),
+                CdnHelper.GetCdnUrl("/pictures/pages/datajournalism/courses/truthful-visualizations/image6.png"))
+            </div>
+            <div class="row row-size2 column text-center">
+                <a href="@Html.LocalizeUrl("/datajournalism/courses/choosing-graphics/")" class="button button-featured button-block">@Resources.NextTopic</a>
+            </div>
+        </div>
+        <div class="column large-2 column-navigationScroll">
+        </div>
+    </div>
+</section>
+
+@helper LeftyLink(string link, string value)
+{
+    <li>
+        <a href="@Html.LocalizeUrl($"/datajournalism/courses/{link}/")" class="articles-clicked-link @(link == Model.ActiveSlug ? "active" : null)">@value</a>
+    </li>
+}

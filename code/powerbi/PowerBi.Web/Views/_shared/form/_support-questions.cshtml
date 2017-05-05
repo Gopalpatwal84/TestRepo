@@ -1,0 +1,80 @@
+﻿@model PowerBI.Entities.SupportProblemQuestions
+@using PowerBI.Entities;
+@using Questions = PowerBI.Resources.Shared.Forms.SupportQuestions;
+
+@{var index = 0;}
+@foreach (var question in Model.Questions)
+{
+    var attributes = new Dictionary<string, object>();
+    if (question.Required)
+    {
+        attributes.Add("data-val", "true");
+        attributes.Add("data-val-required", Questions.Question_Required_Error);
+    }
+    <div class="form-row">
+        <label for="">@Questions.ResourceManager.GetString(question.QuestionLockey)</label>
+        <span class="form-element">
+            @Html.Hidden($"Questions.Index", index)
+            @Html.Hidden($"Questions[{index}].Key", question.QuestionLockey)
+            @switch (question.QuestionType)
+            {
+                case SupportQuestionType.Dropdown:
+                    @RenderDropdown(question, attributes, index)
+                    break;
+
+                case SupportQuestionType.MultilineTextbox:
+                    @Html.TextArea($"Questions[{index}].Value", attributes)
+                    break;
+
+                case SupportQuestionType.Multiselect:
+                    @RenderMultiselect(question, attributes, index)
+                    break;
+
+                case SupportQuestionType.MultiselectWithOther:
+                    var otherAttributes = new Dictionary<string, object>(attributes);
+
+                    attributes.Add("class", "withOther");
+                    @RenderMultiselect(question, attributes, index)
+
+                    otherAttributes.Add("class", "otherValue");
+                    otherAttributes.Add("style", "display:none;");
+                    index++;
+                    @RenderOtherOption(question, otherAttributes, index)
+                    break;
+
+                case SupportQuestionType.Datetime:
+                case SupportQuestionType.Textbox:
+                default:
+                    @Html.TextBox($"Questions[{index}].Value", string.Empty, attributes)
+                    break;
+            }
+            @if (question.Required)
+            {
+                <span class="field-validation-valid" data-valmsg-for="@($"Questions[{index}].Value")" data-valmsg-replace="true"></span>
+            }
+        </span>
+    </div>
+    index++;
+}
+
+@helper RenderDropdown(SupportQuestion question, IDictionary<string, object> attributes, int index)
+{
+    var items = new List<SelectListItem>();
+    items.Add(new SelectListItem());
+    items.AddRange(question.PossibleAnswersLockeys.Select(a => new SelectListItem { Text = Questions.ResourceManager.GetString(a) } ));
+    @Html.DropDownList($"Questions[{index}].Value", items, attributes)
+}
+
+@helper RenderMultiselect(SupportQuestion question, IDictionary<string, object> attributes, int index)
+{
+    var items = new List<SelectListItem>();
+    items.AddRange(question.PossibleAnswersLockeys.Select(a => new SelectListItem { Text = Questions.ResourceManager.GetString(a) } ));
+    @Html.ListBox($"Questions[{index}].Value", items, attributes)
+}
+
+@helper RenderOtherOption(SupportQuestion question, IDictionary<string, object> attributes, int index)
+{
+    @Html.Hidden($"Questions.Index", index)
+    @Html.Hidden($"Questions[{index}].Key", $"{question.QuestionLockey}_Other")
+    @Html.TextBox($"Questions[{index}].Value", string.Empty, attributes)
+}

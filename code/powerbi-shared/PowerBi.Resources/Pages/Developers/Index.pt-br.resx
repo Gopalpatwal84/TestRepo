@@ -1,0 +1,325 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" id="root">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="API_Content" xml:space="preserve">
+    <value>Proporciona experiências de análise ininterruptas no aplicativo sem construí-las
+do zero.</value>
+  </data>
+  <data name="API_CTA_GetStartedNow" xml:space="preserve">
+    <value>Comece agora</value>
+  </data>
+  <data name="API_Heading" xml:space="preserve">
+    <value>Anunciando o Microsoft Power BI Embedded</value>
+  </data>
+  <data name="ClientApp_CTA_Documentation" xml:space="preserve">
+    <value>Documentação</value>
+  </data>
+  <data name="ClientApp_CTA_RegisterYourApp" xml:space="preserve">
+    <value>Registre seu aplicativo</value>
+  </data>
+  <data name="ClientApp_CTA_Sample" xml:space="preserve">
+    <value>Exemplo</value>
+  </data>
+  <data name="ClientApp_Heading" xml:space="preserve">
+    <value>Aplicativo do cliente</value>
+  </data>
+  <data name="Connectors_Content1" xml:space="preserve">
+    <value>Crie um pacote de conteúdo para fornecer informações instantâneas para seus usuários. Seu pacote de conteúdo incluirá um relatório, um painel e um modelo de dados personalizado que ajudam seus usuários a monitorar, explorar e compartilhar informações. O Power BI permite que seus usuários personalizem seus próprios painéis e relatórios começando com aqueles que você fornecer, portanto eles obtêm respostas mais rapidamente.</value>
+  </data>
+  <data name="Connectors_Content2" xml:space="preserve">
+    <value>Deseja criar seu próprio pacote de conteúdo?</value>
+  </data>
+  <data name="Connectors_CTA_ContactUs" xml:space="preserve">
+    <value>FALE CONOSCO</value>
+  </data>
+  <data name="Connectors_EnterEmail" xml:space="preserve">
+    <value>Insira seu endereço de email</value>
+  </data>
+  <data name="Connectors_Heading" xml:space="preserve">
+    <value>Pacotes de conteúdo do Power BI</value>
+  </data>
+  <data name="Connectors_MobileFormDownloadLinkSent" xml:space="preserve">
+    <value>Recebemos seu email.</value>
+  </data>
+  <data name="Connectors_MobileFormSuccess" xml:space="preserve">
+    <value>Êxito!</value>
+  </data>
+  <data name="Connectors_PrivacyDisclaimer" xml:space="preserve">
+    <value>A Microsoft respeita sua privacidade. Para saber mais, leia nossa online</value>
+  </data>
+  <data name="Connectors_PrivacyStatement" xml:space="preserve">
+    <value>Política de Privacidade</value>
+  </data>
+  <data name="Embed_Content" xml:space="preserve">
+    <value>Insira relatórios incríveis e totalmente interativos em
+seus aplicativos com o cliente sem o tempo e
+os gastos de construir os seus próprios controles
+do zero. Escolha um dos visuais integrados do Power BI
+ou construa alguns visuais personalizados para atender às
+necessidades exclusivas do seu aplicativo.</value>
+  </data>
+  <data name="Embed_CTA_GetStarted" xml:space="preserve">
+    <value>Comece agora</value>
+  </data>
+  <data name="Embed_Heading" xml:space="preserve">
+    <value>Insira relatórios interativos diretamente
+em seu aplicativo</value>
+  </data>
+  <data name="DevelopersBlog_CTA_ViewBlog" xml:space="preserve">
+    <value>Veja todas as postagens de blog</value>
+  </data>
+  <data name="DevelopersBlog_Heading" xml:space="preserve">
+    <value>Postagens recentes do Blog do Power BI</value>
+  </data>
+  <data name="Documentation_CTA_Documentation" xml:space="preserve">
+    <value>Documentação</value>
+  </data>
+  <data name="Documentation_CTA_GettingStarted" xml:space="preserve">
+    <value>Guia de introdução</value>
+  </data>
+  <data name="Documentation_CTA_PowerBiApiTerms" xml:space="preserve">
+    <value>Termos da API do Power BI</value>
+  </data>
+  <data name="Documentation_CTA_RegisterAnApp" xml:space="preserve">
+    <value>Registrar um aplicativo</value>
+  </data>
+  <data name="Documentation_CTA_StartingWithOauth" xml:space="preserve">
+    <value>Começando com o OAUTH</value>
+  </data>
+  <data name="Documentation_Heading" xml:space="preserve">
+    <value>Documentação</value>
+  </data>
+  <data name="ExtendPowerBi_CTA_CustomVisuals" xml:space="preserve">
+    <value>Elementos visuais personalizados</value>
+  </data>
+  <data name="ExtendPowerBi_CTA_Documentation" xml:space="preserve">
+    <value>Documentação</value>
+  </data>
+  <data name="ExtendPowerBi_CTA_SeeOnGithub" xml:space="preserve">
+    <value>Veja no GitHub</value>
+  </data>
+  <data name="ExtendPowerBi_Heading" xml:space="preserve">
+    <value>Estenda o Power BI
+</value>
+  </data>
+  <data name="Hero_Heading" xml:space="preserve">
+    <value>Central de desenvolvedores do Power BI</value>
+  </data>
+  <data name="Connect_Content" xml:space="preserve">
+    <value>Nossas poderosas APIs REST permitem que os seus usuários
+efetuem facilmente o pull de blocos, painéis e relatórios diretamente
+em seu aplicativo, façam mudanças e, depois, enviem os dados por push
+para o Power BI, tudo isso sem sair do
+seu aplicativo.</value>
+  </data>
+  <data name="Connect_CTA_LearnMore" xml:space="preserve">
+    <value>Saiba mais</value>
+  </data>
+  <data name="Integrate_EnterYourEmail" xml:space="preserve">
+    <value>Insira seu email</value>
+  </data>
+  <data name="Connect_Heading" xml:space="preserve">
+    <value>Conecte-se ao Power BI pelo seu
+aplicativo</value>
+  </data>
+  <data name="Integrate_PrivacyDisclaimer" xml:space="preserve">
+    <value>A Microsoft respeita sua privacidade. Para saber mais, leia nossa online</value>
+  </data>
+  <data name="Integrate_PrivacyStatement" xml:space="preserve">
+    <value>Política de Privacidade</value>
+  </data>
+  <data name="LearnMore_CTA_ApiReference" xml:space="preserve">
+    <value>Referência de API</value>
+  </data>
+  <data name="LearnMore_CTA_Community" xml:space="preserve">
+    <value>Comunidade</value>
+  </data>
+  <data name="LearnMore_CTA_DevBlog" xml:space="preserve">
+    <value>Blog de desenvolvedores</value>
+  </data>
+  <data name="LearnMore_CTA_Feedback" xml:space="preserve">
+    <value>Comentários</value>
+  </data>
+  <data name="LearnMore_CTA_Samples" xml:space="preserve">
+    <value>Exemplos</value>
+  </data>
+  <data name="LearnMore_Heading" xml:space="preserve">
+    <value>Saiba mais</value>
+  </data>
+  <data name="META_DESCRIPTION" xml:space="preserve">
+    <value />
+  </data>
+  <data name="META_KEYWORDS" xml:space="preserve">
+    <value />
+  </data>
+  <data name="META_PAGETITLE" xml:space="preserve">
+    <value>Central de Desenvolvedores | Microsoft Power BI</value>
+  </data>
+  <data name="RestApiRealTime_CTA_AzureStreamAnalytics" xml:space="preserve">
+    <value>Stream Analytics do Azure</value>
+  </data>
+  <data name="RestApiRealTime_CTA_Documentation" xml:space="preserve">
+    <value>Documentação</value>
+  </data>
+  <data name="RestApiRealTime_CTA_TryTheApi" xml:space="preserve">
+    <value>Experimente a API</value>
+  </data>
+  <data name="RestApiRealTime_Heading" xml:space="preserve">
+    <value>API REST e tempo real</value>
+  </data>
+  <data name="Extend_CTA_LearnMore" xml:space="preserve">
+    <value>Saiba mais</value>
+  </data>
+  <data name="Web_CTA_Documentation" xml:space="preserve">
+    <value>Documentação</value>
+  </data>
+  <data name="Web_CTA_RegisterYourApp" xml:space="preserve">
+    <value>Registre seu aplicativo</value>
+  </data>
+  <data name="Web_CTA_Sample" xml:space="preserve">
+    <value>Exemplo</value>
+  </data>
+  <data name="Web_Heading" xml:space="preserve">
+    <value>Web</value>
+  </data>
+  <data name="DevelopersPlaylist_CTA" xml:space="preserve">
+    <value>Veja mais vídeos</value>
+  </data>
+  <data name="DevelopersPlaylist_Heading" xml:space="preserve">
+    <value>Playlist de desenvolvedores do Power BI</value>
+  </data>
+  <data name="SearchPlaceholder" xml:space="preserve">
+    <value>Pesquisar</value>
+  </data>
+  <data name="ConnectAndAnalyze_Content" xml:space="preserve">
+    <value>Forneça aos seus usuários informações instantâneas com os pacotes de conteúdo do Power BI. Crie soluções personalizadas que habilitem milhões de usuários a analisarem os dados do seu aplicativo em segundos no Power BI.</value>
+  </data>
+  <data name="ConnectAndAnalyze_Heading" xml:space="preserve">
+    <value>Conecte e analise os dados do seu aplicativo com o Power BI</value>
+  </data>
+  <data name="Visualize_Content" xml:space="preserve">
+    <value>Crie experiências visuais personalizadas que atendam às necessidades dos seus usuários e correspondam ao design do seu aplicativo. Introdução rápida ao código livre de visualização de qualidade de produção da Microsoft no GitHub.</value>
+  </data>
+  <data name="Visualize_Heading" xml:space="preserve">
+    <value>Visualize seus dados da maneira que você quiser</value>
+  </data>
+  <data name="Meta_LocJobId" xml:space="preserve">
+    <value>87</value>
+  </data>
+</root>

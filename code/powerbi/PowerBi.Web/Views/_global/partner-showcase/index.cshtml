@@ -1,0 +1,103 @@
+﻿@model PowerBI.Web.Models.Pages.PartnerShowcases.PartnerShowcaseViewModel
+@using Resources = PowerBI.Resources.Pages.PartnerShowcase.Index
+@using Industries = PowerBI.Resources.Shared.ShowcaseIndustries
+@using Departments = PowerBI.Resources.Shared.ShowcaseDepartments
+@using Countries = PowerBI.Resources.Shared.Countries
+
+@{
+    Model.PageTitle = Resources.META_PAGETITLE;
+    Model.MetaDescription = Resources.META_DESCRIPTION;
+    Model.MetaKeywords = Resources.META_KEYWORDS;
+
+    var countries = Model.Countries.Select(x => new KeyValuePair<string, string>(x.Slug, Countries.ResourceManager.GetString(x.LocKey))).OrderBy(x => x.Value);
+    var industries = Model.Industries.Select(x => new KeyValuePair<string, string>(x.Slug, Industries.ResourceManager.GetString(x.LocKey))).OrderBy(x => x.Value);
+    var departments = Model.Departments.Select(x => new KeyValuePair<string, string>(x.Slug, Departments.ResourceManager.GetString(x.LocKey))).OrderBy(x => x.Value);
+}
+
+<section class="section section-palette02">
+    <div class="row">
+        <div class="column large-5">
+            <h1>@Resources.Hero_Heading</h1>
+        </div>
+        <div class="column large-6 large-offset-1">
+            @Html.Raw(Resources.Hero_Content)
+        </div>
+    </div>
+</section>
+
+<section class="section section-slate01 text-center">
+    <div class="row column">
+        <h3>@Resources.Solutions_Heading</h3>
+    </div>
+    <div class="row">
+        @if (Model.FeaturedPartners?.Any() == true)
+        {
+            foreach (var partner in Model.FeaturedPartners)
+            {
+                @Html.Partial("components/PartnersShowcase/FeaturedPartner", partner)
+            }
+        }
+    </div>
+</section>
+
+<section class="section section-slate09 section-size3">
+    @using (Html.BeginForm("Index", "PartnerShowcase", FormMethod.Get, new { onsubmit = "event.stopPropagation();" }))
+    {
+        <div class="row column">
+            <input type="text" name="term" placeholder="@Resources.Search_Partners" value="@Model.SearchTerm" />
+        </div>
+        <div class="row row-size2 column">
+            <ul class="linkList linkList-horizontal">
+                <li>
+                    <select name="country" onchange="this.form.submit()">
+                        <option value="">@Resources.Selector_Countries</option>
+                        @foreach (var item in countries)
+                        {
+                            <option @(Model.SelectedCountry.Equals(item.Key, StringComparison.InvariantCultureIgnoreCase) ? "selected='selected' " : string.Empty) value="@item.Key">@item.Value</option>
+                        }
+                    </select>
+                </li>
+                <li>
+                    <select name="industry" onchange="this.form.submit()">
+                        <option value="">@Resources.Selector_Industries</option>
+                        @foreach (var item in industries)
+                        {
+                            <option @(Model.SelectedIndustry.Equals(item.Key, StringComparison.InvariantCultureIgnoreCase) ? "selected='selected' " : string.Empty) value="@item.Key">@item.Value</option>
+                        }
+                    </select>
+                </li>
+                <li>
+                    <select name="department" onchange="this.form.submit()">
+                        <option value="">@Resources.Selector_Departments</option>
+                        @foreach (var item in departments)
+                        {
+                            <option @(Model.SelectedDepartment.Equals(item.Key, StringComparison.InvariantCultureIgnoreCase) ? "selected='selected' " : string.Empty) value="@item.Key">@item.Value</option>
+                        }
+                    </select>
+                </li>
+            </ul>
+        </div>
+    }
+</section>
+
+<section class="section">
+    @if (Model.Partners.Any())
+    {
+        foreach (var chunk in Model.Partners.Chunk(2))
+        {
+            <div class="row">
+                @foreach (var partner in chunk)
+                {
+                    @Html.Partial("components/PartnersShowcase/Partner", partner)
+                }
+            </div>
+        }
+    }
+    else
+    {
+        <div class="row row-size2 column">
+            <h3>@Resources.NoMatch_Heading</h3>
+            <p>@Resources.NoMatch_Content</p>
+        </div>
+    }
+</section>

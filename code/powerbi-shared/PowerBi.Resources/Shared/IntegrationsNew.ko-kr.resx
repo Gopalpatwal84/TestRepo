@@ -1,0 +1,224 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" id="root">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="acumatica_Content" xml:space="preserve">
+    <value>Power BI를 통해 Acumatica ERP 데이터(재무, 유통, 제조, 회계, CRM)와 기타 데이터 소스를 한 곳에 정리한 강력한 시각적 보고서를 개발할 수 있습니다. 사용이 간편하고 끌어서 놓기가 가능하며 사전 작성된 대시보드 및 보고서로 몇 분 안에 비즈니스를 전방위로 살펴볼 수 있습니다.</value>
+  </data>
+  <data name="acumatica_Heading" xml:space="preserve">
+    <value>몇 분 안에 다른 애플리케이션과 통합하여 Acumatica 데이터를 개선할 수 있습니다.</value>
+  </data>
+  <data name="acumatica_Name" xml:space="preserve">
+    <value>Acumatica</value>
+  </data>
+  <data name="acumatica_SubContent1" xml:space="preserve">
+    <value>Acumatica 데이터베이스에서 더 광범위한 상관관계를 쉽게 식별할 수 있습니다. Power BI의 유연성을 통해 데이터에 대한 정보를 쉽게 파악할 수 있어 생산성과 비즈니스 운영을 개선할 수 있는 새로운 기회로 직결되는 숨겨진 관계나 패턴을 발견할 수 있습니다.</value>
+  </data>
+  <data name="acumatica_SubContent2" xml:space="preserve">
+    <value>Acumatica CRM 데이터를 Marketo 마케팅 자동화와 같은 응용 프로그램 및 Google 애널리틱스 웹 사이트 데이터와 나란히 비교할 수 있습니다. 손쉬운 몇 단계로 수십 개의 다른 우수한 비즈니스 응용 프로그램에 연결하여 새로운 통찰력과 개선된 데이터 명확성을 찾아낼 수 있습니다.</value>
+  </data>
+  <data name="acumatica_SubContent3" xml:space="preserve">
+    <value>시각적으로 임팩트 있는 대시보드 및 보고서를 안전하게 작성하고 저장할 수 있습니다. 동료와 언제 어디서나 보고서를 공유할 수 있습니다. Microsoft 업계 최고의 클라우드 컴퓨팅 플랫폼을 통해 귀하의 데이터는 항상 안전합니다.</value>
+  </data>
+  <data name="adobe_analytics_Content" xml:space="preserve">
+    <value>Power BI를 통해 Adobe Analytics 디지털 마케팅 데이터와 다른 데이터 소스를 한 곳에 정리한 강력한 시각적 보고서를 개발할 수 있습니다. 사용이 간편하고 끌어서 놓기가 가능하며 사전 작성된 대시보드 및 보고서로 몇 분 안에 비즈니스를 전방위로 살펴볼 수 있습니다.</value>
+  </data>
+  <data name="adobe_analytics_Heading" xml:space="preserve">
+    <value>몇 분 안에 다른 애플리케이션과 통합하여 Adobe Analytics 데이터를 개선할 수 있습니다.</value>
+  </data>
+  <data name="adobe_analytics_Name" xml:space="preserve">
+    <value>Adobe Analytics</value>
+  </data>
+  <data name="adobe_analytics_SubContent1" xml:space="preserve">
+    <value>Adobe Analytics 마케팅 데이터에서 더 광범위한 상관관계를 쉽게 식별할 수 있습니다. Power BI의 유연성을 통해 데이터에 대한 정보를 쉽게 파악하여 새로운 기회, 혁신적인 마케팅으로 연계되고 새로운 고객을 유치할 수 있는 숨겨진 관계 또는 패턴을 발견할 수 있습니다.</value>
+  </data>
+  <data name="adobe_analytics_SubContent2" xml:space="preserve">
+    <value>Adobe Analytics 디지털 마케팅 데이터를 Salesforce CRM, Marketo 마케팅 자동화와 같은 응용 프로그램 및 Google 애널리틱스 웹 사이트 데이터와 나란히 비교할 수 있습니다. 손쉬운 몇 단계로 수십 개의 다른 우수한 비즈니스 응용 프로그램에 연결하여 새로운 통찰력과 개선된 데이터 명확성을 찾아낼 수 있습니다.</value>
+  </data>
+  <data name="adobe_analytics_SubContent3" xml:space="preserve">
+    <value>시각적으로 임팩트 있는 대시보드 및 보고서를 안전하게 작성하고 저장할 수 있습니다. 동료와 언제 어디서나 보고서를 공유할 수 있습니다. Microsoft 업계 최고의 클라우드 컴퓨팅 플랫폼을 통해 귀하의 데이터는 항상 안전합니다.</value>
+  </data>
+  <data name="default_Content" xml:space="preserve">
+    <value>대화형 작업이 많고 쉽게 공유할 수 있는 모든 시각적 보고서, 분석 및 대시보드를 데이터에서 빠르게 만들 수 있습니다.</value>
+  </data>
+  <data name="default_Heading" xml:space="preserve">
+    <value>데이터에 대한 더 효과적인 대시보드 및 보고서 가져오기</value>
+  </data>
+  <data name="default_SubContent1" xml:space="preserve">
+    <value>데이터에서 더 광범위한 상관관계를 쉽게 식별할 수 있습니다. Power BI의 유연성을 통해 데이터에 대한 정보를 쉽게 파악하여 새로운 기회, 혁신적인 마케팅으로 연계되고 새로운 고객을 유치할 수 있는 숨겨진 관계 또는 패턴을 발견할 수 있습니다.</value>
+  </data>
+  <data name="default_SubContent2" xml:space="preserve">
+    <value>데이터를 Salesforce CRM, Marketo 마케팅 자동화와 같은 응용 프로그램 및 Adobe 디지털 마케팅 데이터와 나란히 비교할 수 있습니다. 손쉬운 몇 단계로 수십 개의 다른 우수한 비즈니스 응용 프로그램에 연결하여 새로운 통찰력과 개선된 데이터 명확성을 찾아낼 수 있습니다.</value>
+  </data>
+  <data name="default_SubContent3" xml:space="preserve">
+    <value>시각적으로 임팩트 있는 대시보드 및 보고서를 안전하게 작성하고 저장할 수 있습니다. 동료와 언제 어디서나 보고서를 공유할 수 있습니다. Microsoft 업계 최고의 클라우드 컴퓨팅 플랫폼을 통해 귀하의 데이터는 항상 안전합니다.</value>
+  </data>
+  <data name="default_SubHeading1" xml:space="preserve">
+    <value>즉시 시각화 및 분석</value>
+  </data>
+  <data name="default_SubHeading2" xml:space="preserve">
+    <value>모든 앱 전반에서
+데이터 비교 및 대조</value>
+  </data>
+  <data name="default_SubHeading3" xml:space="preserve">
+    <value>완벽하게 공유</value>
+  </data>
+  <data name="default_Title" xml:space="preserve">
+    <value>{0} 통합</value>
+    <comment>Integration name</comment>
+  </data>
+  <data name="google_analytics_Content" xml:space="preserve">
+    <value>Power BI를 통해 Google 애널리틱스 웹 사이트 데이터와 다른 데이터 소스를 한 곳에 정리한 강력한 시각적 보고서를 개발할 수 있습니다. 사용이 간편하고 끌어서 놓기가 가능하며 사전 작성된 대시보드 및 보고서로 몇 분 안에 비즈니스를 전방위로 살펴볼 수 있습니다.</value>
+  </data>
+  <data name="google_analytics_Heading" xml:space="preserve">
+    <value>몇 분 안에 다른 애플리케이션과 통합하여 Google 애널리틱스 데이터를 개선할 수 있습니다.</value>
+  </data>
+  <data name="google_analytics_Name" xml:space="preserve">
+    <value>Google 분석</value>
+  </data>
+  <data name="google_analytics_SubContent1" xml:space="preserve">
+    <value>Google 애널리틱스 웹 사이트 데이터에서 더 광범위한 상관관계를 쉽게 식별할 수 있습니다. Power BI의 유연성을 통해 데이터에 대한 정보를 쉽게 파악하여 새로운 기회, 혁신적인 마케팅으로 연계되고 새로운 고객을 유치할 수 있는 숨겨진 관계 또는 패턴을 발견할 수 있습니다.</value>
+  </data>
+  <data name="google_analytics_SubContent2" xml:space="preserve">
+    <value>Google 애널리틱스 웹 사이트 데이터를 Salesforce CRM, Marketo 마케팅 자동화와 같은 응용 프로그램 및 Adobe 디지털 마케팅 데이터와 나란히 비교할 수 있습니다. 손쉬운 몇 단계로 수십 개의 다른 우수한 비즈니스 응용 프로그램에 연결하여 새로운 통찰력과 개선된 데이터 명확성을 찾아낼 수 있습니다.</value>
+  </data>
+  <data name="google_analytics_SubContent3" xml:space="preserve">
+    <value>시각적으로 임팩트 있는 대시보드 및 보고서를 안전하게 작성하고 저장할 수 있습니다. 동료와 언제 어디서나 보고서를 공유할 수 있습니다. Microsoft 업계 최고의 클라우드 컴퓨팅 플랫폼을 통해 귀하의 데이터는 항상 안전합니다.</value>
+  </data>
+  <data name="salesforce_Content" xml:space="preserve">
+    <value>Power BI를 통해 Salesforce CRM 데이터와 다른 데이터 소스를 한 곳에 정리한 강력한 시각적 보고서를 개발할 수 있습니다. 사용이 간편하고 끌어서 놓기가 가능하며 사전 작성된 대시보드 및 보고서로 몇 분 안에 비즈니스를 전방위로 살펴볼 수 있습니다.</value>
+  </data>
+  <data name="salesforce_Heading" xml:space="preserve">
+    <value>몇 분 안에 다른 애플리케이션과 통합하여 Salesforce Analytics 데이터를 개선할 수 있습니다.</value>
+  </data>
+  <data name="salesforce_Name" xml:space="preserve">
+    <value>Salesforce</value>
+  </data>
+  <data name="salesforce_SubContent1" xml:space="preserve">
+    <value>Salesforce CRM 데이터에서 더 광범위한 상관관계를 쉽게 식별할 수 있습니다. Power BI의 유연성을 통해 데이터에 대한 정보를 쉽게 파악하여 새로운 기회, 혁신적인 마케팅으로 연계되고 새로운 고객을 유치할 수 있는 숨겨진 관계 또는 패턴을 발견할 수 있습니다.</value>
+  </data>
+  <data name="salesforce_SubContent2" xml:space="preserve">
+    <value>Salesforce CRM 데이터를 Adobe Analytics 디지털 마케팅, Marketo 마케팅 자동화와 같은 응용 프로그램 및 Google 애널리틱스 웹 사이트 데이터와 나란히 비교할 수 있습니다. 손쉬운 몇 단계로 수십 개의 다른 우수한 비즈니스 응용 프로그램에 연결하여 새로운 통찰력과 개선된 데이터 명확성을 찾아낼 수 있습니다.</value>
+  </data>
+  <data name="salesforce_SubContent3" xml:space="preserve">
+    <value>시각적으로 임팩트 있는 대시보드 및 보고서를 안전하게 작성하고 저장할 수 있습니다. 동료와 언제 어디서나 보고서를 공유할 수 있습니다. Microsoft 업계 최고의 클라우드 컴퓨팅 플랫폼을 통해 귀하의 데이터는 항상 안전합니다.</value>
+  </data>
+  <data name="Meta_LocJobId" xml:space="preserve">
+    <value>74</value>
+  </data>
+</root>

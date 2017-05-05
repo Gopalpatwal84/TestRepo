@@ -1,0 +1,16 @@
+﻿@using PowerBI.Entities
+@using Acom.IO.Json
+@using Currencies = PowerBI.Resources.Shared.Currencies
+
+@{ 
+    var currencies = DependencyResolver.Current.GetService<JsonLoader<Currency>>().Data.Value;
+}
+
+<select class="currency-dropdown utility">
+    @foreach(var currency in currencies)
+    {
+        <option value="@currency.Slug">
+            @Currencies.ResourceManager.GetString(currency.LocKey)
+        </option>
+    }
+</select>

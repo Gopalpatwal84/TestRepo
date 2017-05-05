@@ -1,0 +1,171 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" id="root">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Decisions_Copy" xml:space="preserve">
+    <value>데이터는 과부하되면 안 되며 역량 강화에 활용되어야 합니다. Power BI에서는 간단한 끌어서 놓기 제스처로 추세를 파악하고 자연어 쿼리로 초고속 답변을 얻는 등 데이터를 쉽게 조작할 수 있습니다.</value>
+  </data>
+  <data name="Decisions_Heading" xml:space="preserve">
+    <value>데이터를 기반으로 의사 결정</value>
+  </data>
+  <data name="Details_Copy" xml:space="preserve">
+    <value>Power BI는 비즈니스에 대한 통합 라이브 보기를 제공하는 뛰어난 시각화 및 대화형 대시보드를 사용하여 여러분을 마스터 스토리 텔러로 만들어 줍니다. 분석을 핵심으로 하는 Power BI는 끌어서 놓기 데이터 탐색을 위한 자유 형식 캔버스뿐 아니라 광범위한 대화형 시각화 라이브러리, 간단한 보고서 작성 및 Power BI 서비스에 빠르게 게시와 같은 기능을 제공합니다.</value>
+  </data>
+  <data name="Details_Heading" xml:space="preserve">
+    <value>세부 정보에 활기 불어넣기</value>
+  </data>
+  <data name="Hero_Copy" xml:space="preserve">
+    <value>Power BI는 데이터를 원하는 방식으로 구성할 수 있는 다양한 시각적 개체로 변환하여 가장 중요한 문제에 집중할 수 있게 해 줍니다. 비즈니스를 진척시키는 데 도움이 되는 강력한 셀프 서비스 기능으로 발생하는 추세를 계속 신속히 파악하세요.</value>
+  </data>
+  <data name="Hero_Heading" xml:space="preserve">
+    <value>가장 중요한 문제에 집중</value>
+  </data>
+  <data name="Introducing_Heading" xml:space="preserve">
+    <value>Power BI 소개</value>
+  </data>
+  <data name="META_DESCRIPTION" xml:space="preserve">
+    <value>Power BI는 사용자가 중요한 내용에 집중할 수 있도록 회사의 데이터를 수집 및 구성이 가능한 풍부한 시각적 요소로 변환해 줍니다. 정보를 꾸준히 얻고 추세를 파악하여 비즈니스를 확장해 보세요.</value>
+  </data>
+  <data name="META_KEYWORDS" xml:space="preserve">
+    <value />
+  </data>
+  <data name="META_PAGETITLE" xml:space="preserve">
+    <value>둘러보기 | Microsoft Power BI</value>
+  </data>
+  <data name="OnePane_Copy" xml:space="preserve">
+    <value>Power BI는 모든 온-프레미스 및 클라우드 정보를 언제 어디서든 액세스할 수 있는 하나의 중앙 위치에 수집합니다. 또한 미리 패키지된 콘텐츠 팩 및 기본 제공 커넥터를 사용하여 Marketo, Salesforce, Google 분석 등과 같은 솔루션에서 데이터를 빠르게 가져올 수도 있습니다.</value>
+  </data>
+  <data name="OnePane_Heading" xml:space="preserve">
+    <value>하나의 창에서 전체 상황 확인</value>
+  </data>
+  <data name="ShareWeb_Copy" xml:space="preserve">
+    <value>Power BI 웹에 게시를 통해 데이터 스토리를 알리고 어디서나 모든 장치에서 수백만의 사용자와 연결하세요. 데이터 소스를 결합하고 뛰어난 시각화를 간단히 만들고, 몇 분 내에 웹 사이트에 스토리를 포함하세요.</value>
+  </data>
+  <data name="ShareWeb_Heading" xml:space="preserve">
+    <value>웹 사이트 또는 블로그에서 통찰력 공유</value>
+  </data>
+  <data name="Share_Copy" xml:space="preserve">
+    <value>Power BI에서는 어디에서든 원하는 사람과 대시보드 및 보고서를 공유할 수 있습니다. Windows, iOS 및 Android용 Power BI 앱으로 최신 정보를 항상 얻을 수 있습니다. 알림을 통해 데이터 변경 사항을 알려주므로 팀과 협력하여 신속하게 대처할 수 있습니다.</value>
+  </data>
+  <data name="Share_Heading" xml:space="preserve">
+    <value>다양한 정보 공유</value>
+  </data>
+  <data name="Meta_LocJobId" xml:space="preserve">
+    <value>6</value>
+  </data>
+</root>

@@ -1,0 +1,20 @@
+﻿@import (reference) '../../../less/mixins.d.less';
+@import (reference) '../../../less/variables.d.less';
+
+.large-quote {
+    font-style: normal;
+    font-weight: @font-bold;
+
+    &:before {
+        content: "“";
+        display: block;
+        font-size: 60px;
+    }
+
+    &:after {
+        content: "—";
+        display: block;
+        font-size: 45px;
+        font-weight: @font-light;
+    }
+}

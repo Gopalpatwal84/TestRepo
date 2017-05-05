@@ -1,0 +1,178 @@
+﻿@model PowerBI.Web.Models.Pages.ViewMetadataModel
+@using Resources = PowerBI.Resources.Pages.Pricing.IndexB
+@using PricingIndex = PowerBI.Resources.Pages.Pricing.Index;
+
+
+@{
+    Model.PageTitle = Resources.META_PAGETITLE;
+    Model.MetaKeywords = Resources.META_KEYWORDS;
+    Model.MetaDescription = Resources.META_DESCRIPTION;
+}
+
+<section class="section section-size3 section-palette02">
+    <div class="row">
+        <div class="column text-center small-centered small-8">
+            <h1 class="text-super">@Resources.Hero_Heading</h1>
+            <p>@Resources.Hero_Content</p>
+        </div>
+    </div>
+    <div class="row">
+        <div class="column small-10 small-centered">
+            <div class="row">
+                <div class="column medium-6">
+                    <div class="tile">
+                        <div class="sd-equalize">
+                            <div class="row column">
+                                <h4>@Resources.ForIndividuals</h4>
+                                <h2>@Resources.PowerBIFree</h2>
+                            </div>
+                            <div class="row row-divided column">
+                                <h2 class="text-super">@Resources.Free</h2>
+                                <h5 class="text-normal"><span class="glyphicon glyph-small pbi-glyph-checkmark success-icon"></span> @Resources.Free_ConnectCloud</h5>
+                                <h5 class="text-normal"><span class="glyphicon glyph-small pbi-glyph-checkmark success-icon"></span> @Resources.Free_SimpleShare</h5>
+                                <ul>
+                                    <li><h6 class="text-normal">@Resources.Free_Features_1GB</h6></li>
+                                    <li><h6 class="text-normal">@Resources.Free_Features_DailyRefresh</h6></li>
+                                    <li><h6 class="text-normal">@Resources.Free_Features_10kRows</h6></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="row column row-size2">
+                            <a class="button button-featured button-block signup-link" data-event="pricing-clicked-optionscta" data-event-property="PowerBI Free" href="https://app.powerbi.com/signupredirect">@Resources.UseItFree</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="column medium-6">
+                    <div class="tile">
+                        <div class="sd-equalize">
+                            <div class="row column">
+                                <h4>@Resources.ForBusinesses</h4>
+                                <h2>@Resources.PowerBIPro</h2>
+                            </div>
+                            <div class="row row-divided column">
+                                <h2 class="text-super">@Html.Price(new PriceViewModel { Amount = 9.99, RateFormat = Resources.Rate_PerUserPerMonth })</h2>
+                                <h5 class="text-normal"><span class="glyphicon glyph-small pbi-glyph-checkmark success-icon"></span> @Resources.Free_ConnectCloud</h5>
+                                <h5 class="text-normal"><span class="glyphicon glyph-small pbi-glyph-checkmark success-icon"></span> @Resources.Free_SimpleShare</h5>
+                                <ul>
+                                    <li><h6 class="text-normal">@Resources.Pro_Features_10GB <a href="#" class="icon icon-flyout icon-slate09" aria-describedby="flyout-capacity"> @SvgHelper.GetSvg("info")</a></h6></li>
+                                    <li><h6 class="text-normal">@Resources.Pro_Features_HourlyRefresh</h6></li>
+                                    <li><h6 class="text-normal">@Resources.Pro_Features_1MRows <a href="#" class="icon icon-flyout icon-slate09" aria-describedby="flyout-maxdatarate"> @SvgHelper.GetSvg("info")</a></h6></li>
+                                    <li><h6 class="text-normal">@Resources.Pro_Features_ConnectLive</h6></li>
+                                    <li><h6 class="text-normal">@Resources.Pro_Features_CollaborateOffice365</h6></li>
+                                    <li><h6 class="text-normal">@Resources.Pro_Features_ManageAccessSharing</h6></li>
+                                    <li><h6 class="text-normal">@Resources.Pro_Features_SharedDataQueries</h6></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="row column row-size2">
+                            <a class="button button-featured button-block" id="pro-sign-up" data-pops-up="modal-purchase-pro" data-event="pricing-clicked-optionscta" data-event-property="PowerBI Pro" href="#">@Resources.Purchase</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="section section-slate01">
+    <div class="row column">
+        <h4 class="text-palette01">@Resources.ForAuthoring</h4>
+    </div>
+    <div class="row row-size1">
+        <div class="column small-7">
+            <div class="row column">
+                <h2>@Resources.Desktop_Title</h2>
+                <h5 class="text-normal">@Resources.Desktop_Content</h5>
+            </div>
+            <div class="row column row-size2">
+                <ul class="linkList linkList-horizontal">
+                    <li>
+                        <a href="@Html.LocalizeUrl("go:521662")" id="desktop-download" class="button button-featured" data-pops-up="modal-download" data-event="global-clicked-getstartedcta" data-event-property="download">
+                            @Resources.DownloadFree
+                        </a>
+                    </li>
+                    <li><a class="cta-secondary" href="@Html.LocalizeUrl("/desktop/")">@Resources.LearnMore<span class="glyphicon glyph-micro pbi-glyph-chevronrightmedium"></span></a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="column small-5">
+            <h3>@Resources.Free</h3>
+            @Html.RawFormatCurrentUI(@Resources.Desktop_Free_Features)
+        </div>
+    </div>
+</section>
+
+<section class="section section-size3 section-slate08">
+    <div class="row column text-micro">
+        @Html.Raw(Resources.Other_Info)
+    </div>
+</section>
+
+@* modals *@
+
+<section class="section section-size3 modal" id="modal-purchase-pro">
+    <a href="#" class="close">&times;</a>
+    <div class="row text-center">
+        <div class="column">
+            <h2 class="text-center">@PricingIndex.Purchase_Heading</h2>
+            <p>@PricingIndex.Purchase_Subheading1</p>
+        </div>
+    </div>
+    <div class="row">
+        <div class="column small-11 small-offset-1">
+            <p class="text-bold">@PricingIndex.Purchase_Question1</p>
+            <ul class="linkList linkList-horizontal">
+                <li>
+                    <a href="#" id="purchase-wizard-existing-o365-yes" data-pops-up="modal-purchase-pro-admin" class="button button-featured">@PricingIndex.Purchase_Yes</a>
+                </li>
+                <li>
+                    <a href="https://portal.office.com/Signup/MainSignup15.aspx?OfferId=03fb6305-216a-410f-856b-fd6142d94604&amp;dl=POWER_BI_PRO&amp;ali=1" id="purchase-wizard-existing-o365-no" class="button">@PricingIndex.Purchase_NoUnsure</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</section>
+
+<section class="section section-size3 modal" id="modal-purchase-pro-admin">
+    <a href="#" class="close">&times;</a>
+    <div class="row text-center">
+        <div class="column">
+            <h2 class="text-center">@PricingIndex.Purchase_Heading</h2>
+            <p>@PricingIndex.Purchase_Subheading1</p>
+        </div>
+    </div>
+    <div class="row">
+        <div class="column small-11 small-offset-1">
+            <p class="text-bold">@PricingIndex.Purchase_Question2</p>
+            <ul class="linkList linkList-horizontal">
+                <li>
+                    <a id="purchase-wizard-o365-admin-yes" class="button button-featured" target="_blank" href="https://portal.office.com/Signup/MainSignup15.aspx?OfferId=03fb6305-216a-410f-856b-fd6142d94604&dl=POWER_BI_PRO&ali=1">@PricingIndex.Purchase_Yes</a>
+                </li>
+                <li>
+                    <a href="https://portal.office.com/Signup/MainSignup15.aspx?OfferId=03fb6305-216a-410f-856b-fd6142d94604&amp;dl=POWER_BI_PRO&amp;ali=1" id="purchase-wizard-o365-admin-no" class="button">@PricingIndex.Purchase_No</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</section>
+
+<section id="flyout-capacity" role="tooltip" aria-hidden="true" class="sd-flyout sd-flyout-left section">
+    @Html.Raw(Resources.Flyout_Capacity)
+</section>
+<section id="flyout-maxdatarate" role="tooltip" aria-hidden="true" class="sd-flyout sd-flyout-left section">
+    @Html.RawFormatInvariant(Resources.Flyout_MaxDataRate, Html.LocalizeUrl("msdn:dn950053"))
+</section>
+
+@Html.Partial("section/_modal-download-gated")
+@section foot {
+    <script>
+        (function () {
+            $('body').on('click', '[data-pops-up="modal-download"]', function () {
+                window.location = this.href;
+            });
+            $('body').on('click', '#modal-download .button', function () {
+                $('#modal-download .close').trigger('click');
+            });
+        })();
+    </script>
+}

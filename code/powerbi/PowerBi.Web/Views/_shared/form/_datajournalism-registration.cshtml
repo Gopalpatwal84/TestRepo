@@ -1,0 +1,33 @@
+﻿@model PowerBI.Web.Features.Forms.Models.DatajournalismRegistrationFormViewModel
+
+@using Form = PowerBI.Resources.Shared.Forms.Form
+
+@{
+    OnyxForms.SetupForms();
+    var formClass = Model.FormOptions.Class ?? string.Empty;
+    var submitText = Model.FormOptions.SubmitText ?? Form.StartDownload;
+}
+
+@using (var f = Html.BeginChameleonForm(Html.LocalizeUrl("/forms/submit-datajournalism-registration/").ToString(), method: FormMethod.Post, htmlAttributes: Html.Attrs().AddClass(formClass).AddClass("text-left")))
+{
+    using (var s = f.BeginSection())
+    {
+        @f.FormOptions(Model.FormOptions)
+        @s.FieldFor(m => m.FirstName).Placeholder(Form.FirstName_Placeholder).WithoutLabel().Label(string.Empty);
+        @s.FieldFor(m => m.LastName).Placeholder(Form.LastName_Placeholder).WithoutLabel().Label(string.Empty);
+        @s.FieldFor(m => m.Email).Placeholder(Form.Email_Placeholder_2).WithoutLabel().Label(string.Empty);
+        @s.FieldFor(m => m.Phone).Placeholder(Form.Phone_Placeholder).WithoutLabel().Label(string.Empty);
+        @s.FieldFor(m => m.Country).WithoutLabel().Label(string.Empty).WithNoneAs(Form.CountryRegion).Attr("data-dropdown-event", "global-selected-dropdown");
+        @s.FieldFor(m => m.Company).Placeholder(Form.Company_Placeholder).WithoutLabel().Label(string.Empty);
+        <p class="text-left text-mini form-row">@Html.RawFormatInvariant(@Form.Terms_MsUseInfo, Html.LocalizeUrl("go:521839"))</p>
+        <div class="country-consent" data-countries="@string.Join(" ", Model.CountriesRequiringContactConsent.Select(c => c.Slug))">
+            @s.FieldFor(m => m.Consent).WithoutLabel().Label(string.Empty).InlineLabel(Form.Accept)
+        </div>
+    }
+    using (var n = f.BeginNavigation())
+    {
+        <div class="text-center">
+            @n.Submit(submitText).AddClass("button-featured")
+        </div>
+    }
+}

@@ -1,0 +1,240 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ConnectData_Content" xml:space="preserve">
+    <value>Connect to multiple data sources with Power BI. Whether your data lives in a cloud service such as Marketo or Salesforce, or on-premises, Power BI enables you to connect, clean, shape, model, and visualize it with live reports and dashboards. Get started in minutes with Content Packs, pre-built dashboards, and reports for popular services.</value>
+  </data>
+  <data name="ConnectData_Cta1" xml:space="preserve">
+    <value>View list of content services you can connect to</value>
+  </data>
+  <data name="ConnectData_Cta2" xml:space="preserve">
+    <value>See iOS, Windows, and Android mobile apps</value>
+  </data>
+  <data name="ConnectData_Heading" xml:space="preserve">
+    <value>Any data, any way, anywhere</value>
+  </data>
+  <data name="Content1" xml:space="preserve">
+    <value>No need to write code or be a stats guru to get actionable insights. Power BI Q&amp;A allows you to ask questions and get super-fast answers in the form of charts and graphs ready for pinning to your dashboards. Cortana will answer your questions using Power BI, without leaving the Cortana panel.</value>
+  </data>
+  <data name="Customers_Content" xml:space="preserve">
+    <value>As of March 2016, 5 million subscribers and 200,000 organizations worldwide use Power BI.</value>
+  </data>
+  <data name="Customers_Cta" xml:space="preserve">
+    <value>Read customer stories</value>
+  </data>
+  <data name="CustomVisuals_Content" xml:space="preserve">
+    <value>Power BI is not limited to “what’s in the box”. With Custom visuals, Power BI allows you to have any visualization you can imagine.</value>
+  </data>
+  <data name="CustomVisuals_Cta" xml:space="preserve">
+    <value>Visit the Custom Visuals gallery</value>
+  </data>
+  <data name="CustomVisuals_Heading" xml:space="preserve">
+    <value>Custom visualizations</value>
+  </data>
+  <data name="Download_Content" xml:space="preserve">
+    <value>Unlike other interactive data visualization tools.</value>
+  </data>
+  <data name="Download_Cta" xml:space="preserve">
+    <value>Download Power BI Desktop</value>
+  </data>
+  <data name="Download_Heading" xml:space="preserve">
+    <value>Power BI Desktop is free</value>
+  </data>
+  <data name="EmbedReports_Content" xml:space="preserve">
+    <value>&lt;p&gt;Because Power BI is cloud-based, you can add or remove users anytime. Plus, it offers 99.9 percent uptime. You get scalable, highly secure, and reliable enterprise-grade IT with optimized costs that are based on the number of users and their specific data needs. You can also reduce your IT investment in your extract-transform-load infrastructure through built-in connectivity to a variety of data sources, both in the cloud and on-premises. And since Power BI is designed as an integral part of Microsoft enterprise offerings, you can get more out of your Azure and Office 365 investments and easily manage access using groups and row-level security.
+&lt;/p&gt;&lt;p&gt;
+What’s more, Power BI is open and extensible. It’s developer friendly and can be embedded into applications and portals.&lt;/p&gt;</value>
+  </data>
+  <data name="EmbedReports_Cta" xml:space="preserve">
+    <value>Learn more</value>
+  </data>
+  <data name="EmbedReports_Heading" xml:space="preserve">
+    <value>Enterprise-ready</value>
+  </data>
+  <data name="Heading1" xml:space="preserve">
+    <value>Experience your data in new ways</value>
+  </data>
+  <data name="Hero_Content" xml:space="preserve">
+    <value>Traditional BI tools, such as Tableau, Qlik, etc., are solutions for analysts that provide rearview mirror intelligence on what has happened. In contrast, Power BI is business analytics service that can empower everyone—not just data specialists—with real- time insight to what is happening. With Power BI, it takes five minutes to start creating personalized dashboards to find answers to the most important questions for your business.</value>
+  </data>
+  <data name="Hero_Cta" xml:space="preserve">
+    <value>Get started free</value>
+  </data>
+  <data name="Hero_Heading" xml:space="preserve">
+    <value>Looking for a modern data visualization tool?</value>
+  </data>
+  <data name="META_DESCRIPTION" xml:space="preserve">
+    <value>Power BI tranforms your company's data into rich visuals for you to collect and organize so you can focus on what matters to you. Stay in the know, spot trends as they happen, and push your business further.</value>
+  </data>
+  <data name="META_KEYWORDS" xml:space="preserve">
+    <value />
+  </data>
+  <data name="META_PAGETITLE" xml:space="preserve">
+    <value>Why Power BI | Microsoft Power BI</value>
+  </data>
+  <data name="MicrosoftIntegrations_Content" xml:space="preserve">
+    <value>Since the beginning, Power BI has been engineered so it can be easily used with Excel, Office 365, Azure, and SQL Server. Upload Excel reports to Power BI and pin items to a Power BI dashboard or use them as a data source. Take advantage of your current investments while empowering your people to find new actionable insights with familiar tools.</value>
+  </data>
+  <data name="MicrosoftIntegrations_Cta" xml:space="preserve">
+    <value>Download Power BI publisher for Excel</value>
+  </data>
+  <data name="MicrosoftIntegrations_Heading" xml:space="preserve">
+    <value>Easy to use with other Microsoft products and services</value>
+  </data>
+  <data name="PCmag_Content" xml:space="preserve">
+    <value>PC Magazine awarded Power BI its Editor’s Choice award in “The Best Self-Service Business Intelligence (BI) Tools of 2016” article.</value>
+  </data>
+  <data name="PCmag_Cta" xml:space="preserve">
+    <value>Read the article</value>
+  </data>
+  <data name="QandA_Content" xml:space="preserve">
+    <value>No need to write code or be a stats guru to get actionable insights. Power BI Q&amp;A allows you to ask questions and get super-fast answers in the form of charts and graphs ready for pinning to your dashboards. Through deep integration with Windows 10, Cortana makes BI as easy as search, right on your desktop.</value>
+  </data>
+  <data name="QandA_Heading" xml:space="preserve">
+    <value>Experience your data in new ways</value>
+  </data>
+  <data name="QuickInsights_Content" xml:space="preserve">
+    <value>Auto search datasets for hidden insights in seconds with Quick Insights: correlations, outliers, seasonality, change points in trends, and major factors, from specific dashboard tiles and its related data.</value>
+  </data>
+  <data name="QuickInsights_Heading" xml:space="preserve">
+    <value>Automatically search datasets for hidden insights</value>
+  </data>
+  <data name="Realtime_Content" xml:space="preserve">
+    <value>Rather than using traditional BI tools like Tableau or Qlik where you’re limited to historical analysis, Power BI lets you access real-time information to identify trends early. That way, you can head off potential issues and improve performance sooner rather than later. With advanced analytics integration through R scripts and visuals, Microsoft Azure Machine Learning, and Azure Stream Analytics, use your data to predict outcomes for your business. Predictive intelligence can help you take proactive action to course correct and stay on the right path to achieve your goals.</value>
+  </data>
+  <data name="Realtime_Heading" xml:space="preserve">
+    <value>Spot trends in real time and make better, more informed decisions</value>
+  </data>
+  <data name="Recommendations_Heading" xml:space="preserve">
+    <value>Don't just take our word for it</value>
+  </data>
+  <data name="Sanddance_Content" xml:space="preserve">
+    <value>&lt;p&gt;With Power BI, you get nonstop innovation to help you visualize and analyze data with greater speed, efficiency, and understanding. Our vibrant user community provides continuous feedback that helps guide weekly and monthly releases of Power BI—so your analytics tools just keep getting better and better. Because Power BI is cloud-based, you get the updates automatically—no software upgrades to worry about. &lt;/p&gt;
+&lt;p&gt;And Power BI offers an open strategy for users to create and share custom visualizations such as SandDance (a Microsoft Research data visualization project).&lt;/p&gt;</value>
+  </data>
+  <data name="Sanddance_Cta1" xml:space="preserve">
+    <value>Watch SandDance in action</value>
+  </data>
+  <data name="Sanddance_Cta2" xml:space="preserve">
+    <value>Read the Power BI blog about SandDance</value>
+  </data>
+  <data name="Sanddance_Heading" xml:space="preserve">
+    <value>User-driven innovation at cloud speed</value>
+  </data>
+</root>

@@ -1,0 +1,291 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" id="root">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Area_Android" xml:space="preserve">
+    <value>Android 電話用 Power BI アプリ</value>
+  </data>
+  <data name="Area_GetStarted" xml:space="preserve">
+    <value>作業の開始</value>
+  </data>
+  <data name="Area_iPad" xml:space="preserve">
+    <value>iPad アプリ (Power BI for iOS)</value>
+  </data>
+  <data name="Area_iPhone" xml:space="preserve">
+    <value>iPhone アプリ (Power BI for iOS)</value>
+  </data>
+  <data name="Area_Windows" xml:space="preserve">
+    <value>Windows 10 デバイス用の Power BI アプリ</value>
+  </data>
+  <data name="Link_AndroidGetStarted" xml:space="preserve">
+    <value>Power BI for Android アプリの概要</value>
+  </data>
+  <data name="Link_AndroidShareTile" xml:space="preserve">
+    <value>Android アプリからタイルの注釈設定と共有を行う</value>
+  </data>
+  <data name="Link_AndroidTiles" xml:space="preserve">
+    <value>Android アプリのタイル</value>
+  </data>
+  <data name="Link_Apps" xml:space="preserve">
+    <value>モバイル デバイス用の Power BI アプリ</value>
+  </data>
+  <data name="Link_iPadGetStarted" xml:space="preserve">
+    <value>iPad アプリを使ってみる</value>
+  </data>
+  <data name="Link_iPadGroups" xml:space="preserve">
+    <value>モバイル アプリでグループ ワークスペースを操作する</value>
+  </data>
+  <data name="Link_iPadReports" xml:space="preserve">
+    <value>iPad アプリ上のレポート</value>
+  </data>
+  <data name="Link_iPadTiles" xml:space="preserve">
+    <value>iPad アプリでのタイルの操作</value>
+  </data>
+  <data name="Link_iPhoneApps" xml:space="preserve">
+    <value>Power BI for iOS アプリ</value>
+  </data>
+  <data name="Link_iPhoneGetStarted" xml:space="preserve">
+    <value>iPhone で Power BI for iOS アプリの使用を開始する</value>
+  </data>
+  <data name="Link_iPhoneIssues" xml:space="preserve">
+    <value>iOS モバイル アプリでの ’通信エラー’ に関する既知の問題</value>
+  </data>
+  <data name="Link_iPhonePictureTiles" xml:space="preserve">
+    <value>IPhone アプリで画像タイルを作成する</value>
+  </data>
+  <data name="Link_iPhoneQRCode" xml:space="preserve">
+    <value>携帯電話から Power BI QR コードをスキャンする</value>
+  </data>
+  <data name="Link_iPhoneReports" xml:space="preserve">
+    <value>iPhone アプリでのレポート</value>
+  </data>
+  <data name="Link_iPhoneSetAlerts" xml:space="preserve">
+    <value>iPhone アプリでデータ アラートを設定する</value>
+  </data>
+  <data name="Link_iPhoneShareDashboard" xml:space="preserve">
+    <value>Power BI モバイル アプリからダッシュボードを共有する</value>
+  </data>
+  <data name="Link_iPhoneShareTiles" xml:space="preserve">
+    <value>iOS モバイル アプリでタイル、レポート、または視覚化に対してコメントと共有を行う</value>
+  </data>
+  <data name="Link_iPhoneTiles" xml:space="preserve">
+    <value>iPhone アプリ内のタイルの操作</value>
+  </data>
+  <data name="Link_iPhoneViewSQL" xml:space="preserve">
+    <value>iOS モバイル アプリで SSRS モバイル レポートと KPI を表示する</value>
+  </data>
+  <data name="Link_WhatsNew" xml:space="preserve">
+    <value>Power BI 用モバイル アプリの新機能</value>
+  </data>
+  <data name="Link_WindowsGetStarted" xml:space="preserve">
+    <value>Windows 10 用の Power BI モバイル アプリの概要</value>
+  </data>
+  <data name="Link_WindowsPin" xml:space="preserve">
+    <value>スタート画面に Power BI タイルまたはダッシュボードをピン留めする</value>
+  </data>
+  <data name="Link_WindowsShareTile" xml:space="preserve">
+    <value>Windows 10 用の Power BI モバイル アプリからタイルを共有する</value>
+  </data>
+  <data name="Link_WindowsTiles" xml:space="preserve">
+    <value>Windows 10 用の Power BI モバイル アプリでのタイル</value>
+  </data>
+  <data name="Title" xml:space="preserve">
+    <value>Power BI モバイル アプリ</value>
+  </data>
+  <data name="Area_AllMobileApps" xml:space="preserve">
+    <value>すべてのモバイル アプリ</value>
+  </data>
+  <data name="Link_AndroidKPIs" xml:space="preserve">
+    <value>Android アプリで Reporting Services のモバイル レポートと KPI を表示する</value>
+  </data>
+  <data name="Link_AndroidReports" xml:space="preserve">
+    <value>Android アプリのレポート</value>
+  </data>
+  <data name="Link_AppleWatch" xml:space="preserve">
+    <value>Power BI Apple Watch アプリ</value>
+  </data>
+  <data name="Link_CreateDashboard" xml:space="preserve">
+    <value>モバイル Power BI 用のダッシュボード</value>
+  </data>
+  <data name="Link_Intune" xml:space="preserve">
+    <value>Intune でモバイル アプリを構成する</value>
+  </data>
+  <data name="Link_OfflineAndroid" xml:space="preserve">
+    <value>Power BI モバイル アプリでデータをオフライン表示する</value>
+  </data>
+  <data name="Link_Windows10KPIs" xml:space="preserve">
+    <value>Windows 10 用の Power BI モバイル アプリで Reporting Services のモバイル レポートと KPI を表示する</value>
+  </data>
+  <data name="Link_WindowsReports" xml:space="preserve">
+    <value>Windows 10 用の Power BI モバイル アプリでのレポート</value>
+  </data>
+  <data name="Link_Geofiltering" xml:space="preserve">
+    <value>Power BI モバイル アプリで、場所別にレポートをフィルターする</value>
+  </data>
+  <data name="Link_iPhoneScanBarcode" xml:space="preserve">
+    <value>iPhone の Power BI アプリからバーコードをスキャンする</value>
+  </data>
+  <data name="Link_MobileRealWorld" xml:space="preserve">
+    <value>モバイル アプリで現実世界から Power BI データを取得する</value>
+  </data>
+  <data name="Link_AndroidSetAlerts" xml:space="preserve">
+    <value>Android フォン向けの Power BI アプリでデータ通知を設定する</value>
+  </data>
+  <data name="Link_MobileNotificationCenter" xml:space="preserve">
+    <value>Power BI モバイル アプリで通知を受信する</value>
+  </data>
+  <data name="Link_WindowsPresentationMode" xml:space="preserve">
+    <value>Surface Hub における Power BI のプレゼンテーション モードでの表示</value>
+  </data>
+  <data name="Link_WindowsSetAlerts" xml:space="preserve">
+    <value>Windows 10 向けの Power BI モバイル アプリでデータ通知を設定する</value>
+  </data>
+  <data name="Link_ViewPhoneReport" xml:space="preserve">
+    <value>電話向けに最適化された Power BI レポートの表示と操作</value>
+  </data>
+  <data name="Link_Favorites" xml:space="preserve">
+    <value>Power BI モバイル アプリのお気に入りアイテム</value>
+  </data>
+  <data name="Link_MobileDeepLink" xml:space="preserve">
+    <value>特定の場所に移動するディープ リンクを作成する</value>
+  </data>
+  <data name="Area_AndroidTablet" xml:space="preserve">
+    <value>Android タブレット用 Power BI アプリ</value>
+  </data>
+  <data name="Link_AndroidTabGetStarted" xml:space="preserve">
+    <value>Power BI for Android タブレット アプリの概要</value>
+  </data>
+  <data name="Link_AndroidTabReports" xml:space="preserve">
+    <value>Android タブレット アプリのレポート</value>
+  </data>
+  <data name="Link_AndroidTabSetAlerts" xml:space="preserve">
+    <value>Android タブレット向けの Power BI アプリでデータ通知を設定する</value>
+  </data>
+  <data name="Link_AndroidTabTiles" xml:space="preserve">
+    <value>Android タブレット アプリのタイル</value>
+  </data>
+  <data name="Link_OAuthSSRS" xml:space="preserve">
+    <value>OAuth を使用して Reporting Services に接続する</value>
+  </data>
+  <data name="Link_iosQnA" xml:space="preserve">
+    <value>iOS モバイル アプリのデータについて質問する (チュートリアル)</value>
+  </data>
+  <data name="Meta_LocJobId" xml:space="preserve">
+    <value>209</value>
+  </data>
+</root>
