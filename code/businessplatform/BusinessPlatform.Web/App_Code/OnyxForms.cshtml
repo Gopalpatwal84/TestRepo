@@ -1,0 +1,150 @@
+﻿@using Acom.Forms
+@using ChameleonForms
+@using ChameleonForms.Component.Config
+@using ChameleonForms.Enums
+@using System.Web.Mvc
+
+@* The @:'s are to stop compilation errors with the Razor engine due to unclosed HTML tags *@
+
+@helper EndForm() {
+@:    </form>
+}
+
+@helper BeginSection(IHtmlString heading, IHtmlString leadingHtml, HtmlAttributes htmlAttributes)
+{
+@:    <fieldset@(htmlAttributes)>
+    if (heading != null && !string.IsNullOrWhiteSpace(heading.ToString()))
+    {
+@:        <legend>@heading</legend>
+    }
+    if (leadingHtml != null && !string.IsNullOrWhiteSpace(leadingHtml.ToString()))
+    {
+@:        @leadingHtml
+    }
+}
+
+@helper EndSection() {
+@:    </fieldset>
+}
+
+@helper BeginNestedSection(IHtmlString heading, IHtmlString leadingHtml, HtmlAttributes htmlAttributes)
+{
+@:		<div class="form-row" @(htmlAttributes)>
+    if (heading != null && !string.IsNullOrWhiteSpace(heading.ToString()))
+    {
+@:			@heading
+    }
+
+    if (leadingHtml != null && !string.IsNullOrWhiteSpace(leadingHtml.ToString()))
+    {
+@:			@leadingHtml
+    }
+}
+
+@helper EndNestedSection() {
+@:		</div>
+}
+
+@helper GetPrependedHtml(IReadonlyFieldConfiguration fieldConfiguration) {
+    foreach (var html in fieldConfiguration.PrependedHtml) {@html}
+}
+
+@helper GetAppendedHtml(IReadonlyFieldConfiguration fieldConfiguration) {
+    foreach (var html in fieldConfiguration.AppendedHtml) {@html}
+}
+
+@helper GetHint(IReadonlyFieldConfiguration fieldConfiguration) {
+    if (fieldConfiguration.Hint != null) {<div class="hint">@fieldConfiguration.Hint</div>}
+}
+
+@helper BeginFieldInternal(IHtmlString labelHtml, IHtmlString elementHtml, IHtmlString validationHtml, IReadonlyFieldConfiguration fieldConfiguration, ModelMetadata fieldMetadata) {
+@:          <div class="form-row">
+@:              @labelHtml
+@:              <span class="form-element">
+@:                  @(RenderIfNotEmpty(fieldConfiguration.FieldContainerClasses,@<text> class="@fieldConfiguration.FieldContainerClasses"</text>))
+@:                  @GetPrependedHtml(fieldConfiguration)@elementHtml@GetAppendedHtml(fieldConfiguration)@GetHint(fieldConfiguration) @validationHtml
+@:              </span>
+}
+
+@helper Field(IHtmlString labelHtml, IHtmlString elementHtml, IHtmlString validationHtml, ModelMetadata fieldMetadata, IReadonlyFieldConfiguration fieldConfiguration, bool isValid)
+{
+@BeginFieldInternal(labelHtml, elementHtml, validationHtml, fieldConfiguration, fieldMetadata)
+@:          </div>
+}
+
+@helper BeginField(IHtmlString labelHtml, IHtmlString elementHtml, IHtmlString validationHtml, ModelMetadata fieldMetadata, IReadonlyFieldConfiguration fieldConfiguration, bool isValid)
+{
+@BeginFieldInternal(labelHtml, elementHtml, validationHtml, fieldConfiguration, fieldMetadata)
+@:                <dl>
+}
+
+@helper EndField() {
+@:                </dl>
+@:            </dd>
+}
+
+@helper RequiredDesignator(ModelMetadata fieldMetadata, IReadonlyFieldConfiguration fieldConfiguration, bool isValid)
+{
+<text> <em class="required">*</em></text>}
+
+@helper BeginNavigation() {
+@:        <div class="form-navigation">
+}
+
+@helper EndNavigation() {
+@:        </div>
+}
+
+@helper BeginMessage(MessageType messageType, IHtmlString heading) {
+@:      <div class="@string.Format("{0}{1}", messageType.ToString().ToLower(), "_message")">
+            if (!string.IsNullOrEmpty(heading.ToHtmlString()))
+            {
+@:          <h3>@heading</h3>
+            }
+@:          <div class="message">
+}
+
+@helper EndMessage() {
+@:          </div>
+@:      </div>
+}
+
+@helper MessageParagraph(IHtmlString paragraph) {
+@:    <p>
+@:        @paragraph
+@:    </p>
+}
+
+@helper RadioOrCheckboxList(IEnumerable<IHtmlString> list, bool isCheckbox)
+{
+@:    <ul>
+foreach(var i in list) {
+@:        <li>@i</li>
+}
+@:    </ul>
+}
+
+@* http://stackoverflow.com/questions/15160654/mvc-razor-helper-method-to-render-alternate-content-when-empty *@
+@helper RenderIfNotEmpty(string mayBeEmpty, Func<object, IHtmlString> template) {
+    if (!string.IsNullOrEmpty(mayBeEmpty)) {@template(null)}
+}
+
+@functions {
+    public static void SetupForms(){
+        OnyxDelegateFormTemplate.Instance.SetEndForm(OnyxForms.EndForm);
+        OnyxDelegateFormTemplate.Instance.SetBeginSection(OnyxForms.BeginSection);
+        OnyxDelegateFormTemplate.Instance.SetBeginNestedSection(OnyxForms.BeginNestedSection);
+        OnyxDelegateFormTemplate.Instance.SetEndSection(OnyxForms.EndSection);
+        OnyxDelegateFormTemplate.Instance.SetEndNestedSection(OnyxForms.EndNestedSection);
+        OnyxDelegateFormTemplate.Instance.SetField(OnyxForms.Field);
+        OnyxDelegateFormTemplate.Instance.SetBeginField(OnyxForms.BeginField);
+        OnyxDelegateFormTemplate.Instance.SetEndField(OnyxForms.EndField);
+        OnyxDelegateFormTemplate.Instance.SetRequiredDesignator(OnyxForms.RequiredDesignator);
+        OnyxDelegateFormTemplate.Instance.SetBeginNavigation(OnyxForms.BeginNavigation);
+        OnyxDelegateFormTemplate.Instance.SetEndNavigation(OnyxForms.EndNavigation);
+        OnyxDelegateFormTemplate.Instance.SetBeginMessage(OnyxForms.BeginMessage);
+        OnyxDelegateFormTemplate.Instance.SetEndMessage(OnyxForms.EndMessage);
+        OnyxDelegateFormTemplate.Instance.SetMessageParagraph(OnyxForms.MessageParagraph);
+        OnyxDelegateFormTemplate.Instance.SetRadioOrCheckboxList(OnyxForms.RadioOrCheckboxList);
+    }
+}

@@ -1,0 +1,99 @@
+@import (reference) '../../variables.d.less';
+@import (reference) '../../mixins.d.less';
+
+/*
+Pagination
+
+Description.
+
+Markup:
+<div class="pagination">
+    <ul class="controls-pages">
+        <li class="current"><a>1</a></li>
+        <li><a href="?page=2">2</a></li>
+        <li><a href="?page=3">3</a></li>
+        <li><a href="?page=4">4</a></li>
+        <li>&hellip;</li>
+    </ul>
+    <ul class="controls-nav">
+        <li><a class="prev disabled"></a></li>
+        <li><a href="?page=2" class="next"></a></li>
+    </ul>
+</div>
+
+Style guide: pagination
+*/
+
+.pagination {
+    .group();
+    border-top: 1px solid @color-slate01;
+    display: block;
+    margin-top: @spacing-size4;
+    padding-top: @spacing-size3;
+
+    ul {
+        .group();
+        display: inline-block;
+        list-style: none;
+        margin: 0;
+        padding: 0;
+    }
+
+    li {
+        float: left;
+        margin-bottom: 0;
+    }
+
+    a {
+        display: block;
+        height: 30px;
+    }
+
+    .current a {
+        color: @color-palette03;
+    }
+
+    .controls-pages {
+        li {
+            line-height: 30px;
+            margin-right: 8px;
+        }
+
+        a {
+            padding: 0 4px;
+        }
+    }
+
+    .controls-nav {
+        float: right;
+
+        li {
+            margin-left: 8px;
+        }
+
+        a {
+            background-color: @color-slate06;
+            color: @color-slate02;
+            content: '';
+            font-size: 26px;
+            line-height: 24px;
+            padding: 0 4px;
+
+            &:hover {
+                color: @color-slate02;
+            }
+        }
+
+        .next {
+            &:before {
+                content: '\203a';
+            }
+        }
+
+        .prev {
+            &:before {
+                content: '\2039';
+            }
+        }
+    }
+}

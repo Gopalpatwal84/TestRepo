@@ -1,0 +1,545 @@
+﻿.navigation.navigation-fixed {
+  left: 0;
+  position: fixed;
+  right: 0;
+  top: 0;
+  z-index: 88888;
+}
+.navigation.navigation-themed {
+  color: #fff;
+  fill: #fff;
+  background-color: #4252e2;
+}
+.navigation.navigation-themed .logo-microsoft {
+  border-color: rgba(0, 0, 0, 0.1);
+}
+.navigation.navigation-themed .menu-main > li > a:hover,
+.navigation.navigation-themed .menu-secondary > li > a:hover,
+.navigation.navigation-themed .menu-main > li > a.active,
+.navigation.navigation-themed .menu-secondary > li > a.active {
+  background-color: #3542b5;
+}
+.navigation.navigation-themed .menu-main > li > a:active,
+.navigation.navigation-themed .menu-secondary > li > a:active {
+  background-color: #2e399e;
+}
+.navigation.navigation-themed .menu-main {
+  background-color: #3b4acb;
+}
+.navigation.navigation-themed .menu-drop {
+  background-color: #3542b5;
+}
+.navigation.navigation-themed .menu-drop a:hover,
+.navigation.navigation-themed .menu-drop a.active {
+  background-color: #2e399e;
+}
+.navigation.navigation-themed .menu-drop a:active {
+  background-color: #283188;
+}
+.navigation.navigation-themed .menu-pop {
+  background-color: #2e399e;
+}
+.navigation.navigation-themed .menu-pop a:hover,
+.navigation.navigation-themed .menu-pop a.active {
+  background-color: #283188;
+}
+.navigation.navigation-themed .menu-pop a:active {
+  background-color: #283188;
+}
+.navigation.navigation-themed .hamburger {
+  border-color: rgba(0, 0, 0, 0.1);
+}
+.navigation.navigation-themed .hamburger .icon-hamburger {
+  border-color: rgba(0, 0, 0, 0.1);
+}
+.navigation.navigation-themed .hamburger-deluxe .fixin {
+  background-color: #fff;
+}
+.navigation.navigation-transparent {
+  color: #fff;
+  background-color: transparent;
+}
+.navigation.navigation-transparent .menu-main > li > a:hover,
+.navigation.navigation-transparent .menu-secondary > li > a:hover {
+  background-color: rgba(0, 0, 0, 0.2);
+}
+.navigation.navigation-transparent .menu-main > li > a:active,
+.navigation.navigation-transparent .menu-secondary > li > a:active {
+  background-color: rgba(0, 0, 0, 0.3);
+}
+.navigation.navigation-transparent .menu-main > li > a.active,
+.navigation.navigation-transparent .menu-secondary > li > a.active {
+  background-color: rgba(0, 0, 0, 0.4);
+}
+.navigation.navigation-transparent .menu-main {
+  background-color: rgba(0, 0, 0, 0.4);
+}
+.navigation.navigation-transparent .menu-drop {
+  background-color: rgba(0, 0, 0, 0.4);
+}
+.navigation.navigation-transparent .menu-drop a:hover,
+.navigation.navigation-transparent .menu-drop a:active,
+.navigation.navigation-transparent .menu-drop a.active {
+  background-color: rgba(0, 0, 0, 0.2);
+}
+.navigation.navigation-transparent .menu-pop {
+  background-color: rgba(0, 0, 0, 0.4);
+}
+.navigation.navigation-transparent .menu-pop a:hover,
+.navigation.navigation-transparent .menu-pop a:active,
+.navigation.navigation-transparent .menu-pop a.active {
+  background-color: rgba(0, 0, 0, 0.2);
+}
+.navigation.navigation-transparent .hamburger {
+  border-color: rgba(255, 255, 255, 0.3);
+}
+.navigation.navigation-transparent .hamburger .icon-hamburger {
+  border-color: rgba(255, 255, 255, 0.3);
+}
+/*
+Navigation
+
+Provides a consistent mobile-first header and footer navigation experience.
+
+Markup: navigation.html
+
+.navigation-themed - Uses the site's `@color-palette02` as a seed color for a themed navigation
+.navigation-transparent - Uses a transparent theme for the navigation
+.navigation-fixed - Adds a separator between self and row above
+
+Style guide: navigation
+*/
+.navigation {
+  background-color: #000;
+  color: #fff;
+  fill: #fff;
+  font-size: 15px;
+  height: 68px;
+  padding: 24px 0;
+  position: relative;
+  width: 100%;
+}
+.navigation a,
+.navigation a:hover {
+  color: inherit;
+  text-decoration: none;
+}
+.navigation a {
+  -webkit-transition: background-color 0.25s cubic-bezier(0, 0, 0, 1);
+  transition: background-color 0.25s cubic-bezier(0, 0, 0, 1);
+}
+.navigation a:hover {
+  -webkit-transition: none;
+  transition: none;
+}
+.navigation ul {
+  display: inline-block;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  position: relative;
+}
+.navigation ul:after {
+  clear: both;
+  content: '';
+  display: table;
+}
+.navigation ul li {
+  display: block;
+  float: left;
+  margin: 0;
+  position: relative;
+}
+.navigation .logos {
+  width: 100%;
+}
+.navigation .logos .icon {
+  display: block;
+}
+.navigation .logo-microsoft {
+  border-right: 0 solid rgba(255, 255, 255, 0.3);
+  display: none;
+}
+.navigation .logo {
+  display: inline-block;
+  float: none;
+  font-size: 24px;
+  font-weight: 600;
+  margin-top: -10px;
+}
+.navigation .logo .preview {
+  font-weight: 300;
+  margin-left: 6px;
+  opacity: .6;
+}
+@media only screen and (min-width: 768px) {
+  .navigation .logos {
+    float: left;
+    text-align: left;
+    width: auto;
+  }
+  .navigation .logo-microsoft {
+    border-right-width: 2px;
+    display: block;
+    margin-right: 20px;
+    padding: 2px 20px 2px 0;
+  }
+  .navigation .logo-microsoft .icon {
+    height: 17px;
+    width: 81px;
+  }
+  .navigation .logo {
+    font-size: 18px;
+    margin-top: -3px;
+  }
+}
+@media only screen and (min-width: 960px) {
+  .navigation .logos {
+    margin-left: 0;
+    margin-right: 45px;
+  }
+}
+.navigation .menu-main > li > a,
+.navigation .menu-secondary > li > a {
+  font-weight: 600;
+  opacity: .9;
+}
+.navigation .menu-main > li > a:hover,
+.navigation .menu-secondary > li > a:hover,
+.navigation .menu-main > li > a.active,
+.navigation .menu-secondary > li > a.active {
+  background-color: #464646;
+  opacity: 1;
+}
+.navigation .menu-main > li > a:active,
+.navigation .menu-secondary > li > a:active {
+  background-color: #525252;
+  opacity: 1;
+}
+.navigation .menu-main {
+  background-color: #333;
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.2);
+  display: none;
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 68px;
+  width: 100%;
+  z-index: 9999;
+}
+.navigation .menu-main a {
+  display: block;
+  padding: 23px 20px;
+  position: relative;
+}
+.navigation .menu-main li {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  width: 100%;
+}
+.navigation .menu-main li:last-child {
+  border-bottom: none;
+}
+.navigation .menu-main .menu-drop-trigger:after {
+  -ms-transform: translate(0, -50%);
+  -o-transform: translate(0, -50%);
+  -webkit-transform: translate(0, -50%);
+  transform: translate(0, -50%);
+  -webkit-transition: transform 0.2s;
+  transition: transform 0.2s;
+  content: '\E972';
+  font-family: 'PowerBIMDL2';
+  font-size: 9px;
+  height: 6px;
+  line-height: 9px;
+  opacity: .6;
+  position: absolute;
+  right: 20px;
+  text-align: center;
+  top: 50%;
+  width: 9px;
+}
+.navigation .menu-main .menu-drop-trigger.active:after {
+  -ms-transform: rotate(-180deg);
+  -o-transform: rotate(-180deg);
+  -webkit-transform: rotate(-180deg);
+  transform: rotate(-180deg);
+}
+@media only screen and (min-width: 768px) {
+  .navigation .menu-main {
+    left: initial;
+    top: 68px;
+  }
+}
+@media only screen and (min-width: 960px) {
+  .navigation .menu-main {
+    background-color: transparent !important;
+    box-shadow: none;
+    display: block !important;
+    float: left;
+    margin-top: -6px;
+    position: static;
+    width: auto;
+  }
+  .navigation .menu-main a {
+    display: block;
+    padding: 23px 20px;
+  }
+  .navigation .menu-main li {
+    border-bottom: none;
+    margin-top: -18px;
+    width: auto;
+  }
+  .navigation .menu-main .menu-drop-trigger:after {
+    display: none;
+  }
+  .navigation .menu-main > li > a {
+    height: 68px;
+    line-height: 68px;
+    padding: 0 15px;
+  }
+}
+.navigation .menu-secondary {
+  display: none;
+}
+@media only screen and (min-width: 768px) {
+  .navigation .menu-secondary {
+    display: block;
+    float: right;
+    margin-top: -6px;
+    margin-right: 80px;
+  }
+  .navigation .menu-secondary a {
+    display: block;
+    padding: 23px 20px;
+  }
+  .navigation .menu-secondary li {
+    margin-top: -18px;
+  }
+  .navigation .menu-secondary > li > a {
+    height: 68px;
+    line-height: 68px;
+    padding: 0 15px;
+  }
+}
+@media only screen and (min-width: 960px) {
+  .navigation .menu-secondary {
+    margin-right: 0;
+  }
+  .navigation .menu-secondary li:last-child {
+    margin-right: 0;
+  }
+}
+.navigation .menu-drop {
+  background-color: #464646;
+  display: none;
+  padding: 0 15px 12px;
+  width: 100%;
+}
+.navigation .menu-drop a {
+  padding: 12px;
+}
+.navigation .menu-drop a:hover,
+.navigation .menu-drop a.active {
+  background-color: #5e5e5e;
+}
+.navigation .menu-drop a:active {
+  background-color: #767676;
+}
+.navigation .menu-drop li {
+  border-bottom: none;
+  position: static;
+}
+@media only screen and (min-width: 960px) {
+  .navigation .menu-drop {
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.1);
+    left: 0;
+    padding: 0;
+    position: absolute;
+    top: 100%;
+    width: 270px;
+    z-index: 1000;
+  }
+  .navigation .menu-drop li {
+    float: none;
+    margin: 0;
+  }
+  .navigation .menu-drop a {
+    height: auto;
+    line-height: 1;
+    padding: 14px 16px 15px;
+  }
+}
+.navigation .menu-pop {
+  background-color: #5e5e5e;
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.2);
+  display: none;
+  padding: 0 12px 12px;
+  width: 100%;
+}
+.navigation .menu-pop a {
+  padding: 12px;
+}
+.navigation .menu-pop a:hover,
+.navigation .menu-pop a.active {
+  background-color: #767676;
+}
+.navigation .menu-pop a:active {
+  background-color: #767676;
+}
+@media only screen and (min-width: 960px) {
+  .navigation .menu-pop {
+    left: 100%;
+    padding: 0;
+    position: absolute;
+    top: 0;
+  }
+  .navigation .menu-pop a {
+    padding: 14px 16px 15px;
+  }
+}
+/*
+Navigation: Hamburger
+
+Description.
+
+Markup:
+<a href="" class="hamburger hamburger-deluxe">
+    <span class="fixin top-bun"></span>
+    <span class="fixin patty"></span>
+    <span class="fixin bottom-bun"></span>
+</a>
+
+Style guide: navigation.hamburger
+*/
+.hamburger {
+  border: 2px solid rgba(255, 255, 255, 0.3);
+  right: 15px;
+  padding: 13px 11px 12px;
+  position: absolute;
+  top: 12px;
+}
+.hamburger .icon-hamburger {
+  -moz-box-sizing: initial;
+  box-sizing: initial;
+  border-bottom: 9px double #fff;
+  border-top: 3px solid #fff;
+  display: block;
+  font-size: 0;
+  height: 3px;
+  width: 24px;
+}
+.hamburger-deluxe {
+  padding: 7px 11px;
+}
+.hamburger-deluxe .fixin {
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+  background-color: #fff;
+  display: block;
+  height: 2px;
+  margin: 5px 0;
+  width: 26px;
+}
+.hamburger-deluxe.active .top-bun {
+  -ms-transform: rotate(45deg) translate(19%, 250%);
+  -o-transform: rotate(45deg) translate(19%, 250%);
+  -webkit-transform: rotate(45deg) translate(19%, 250%);
+  transform: rotate(45deg) translate(19%, 250%);
+}
+.hamburger-deluxe.active .patty {
+  opacity: 0;
+}
+.hamburger-deluxe.active .bottom-bun {
+  -ms-transform: rotate(-45deg) translate(19%, -250%);
+  -o-transform: rotate(-45deg) translate(19%, -250%);
+  -webkit-transform: rotate(-45deg) translate(19%, -250%);
+  transform: rotate(-45deg) translate(19%, -250%);
+}
+/*
+Navigation: Footer
+
+Description.
+
+Markup: footer.html
+
+Style guide: navigation.footer
+*/
+.section-footer {
+  background-color: #f2f2f2;
+  color: #767676;
+  fill: #fff;
+}
+.section-footer select {
+  background-color: transparent;
+  border: none;
+  color: #000;
+  font-size: inherit;
+  font-weight: 400;
+  line-height: 1;
+  padding: 0;
+}
+.section-footer a:hover {
+  text-decoration: underline;
+}
+.section-footer .icon-microsoft {
+  fill: #969696;
+  height: 25px;
+  width: 87px;
+}
+.section-footer .list-heading {
+  font-size: 13px;
+}
+.section-footer .linkList a,
+.section-footer .linkList a:hover {
+  color: #000;
+}
+.section-footer .row-utility {
+  font-size: 13px;
+}
+.section-footer .row-utility a,
+.section-footer .row-utility a:hover {
+  color: #767676;
+}
+.section-footer .linkList-social li {
+  float: left;
+  margin-right: 10px;
+}
+.section-footer .linkList-social a {
+  fill: #fff;
+  background-color: #4252e2;
+  border-radius: 18px;
+  display: block;
+  height: 36px;
+  position: relative;
+  width: 36px;
+}
+.section-footer .linkList-social a:hover {
+  opacity: .9;
+}
+.section-footer .linkList-social .icon {
+  left: 50%;
+  position: absolute;
+  top: 50%;
+  -ms-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  height: 16px;
+  width: 16px;
+}
+.section-footer .separator {
+  width: 24px;
+  height: 1px;
+  border-bottom: 1px solid #dfdfdf;
+  margin: 24px 0;
+}
+@media only screen and (min-width: 768px) {
+  .section-footer .linkList-social {
+    margin-top: -9px;
+  }
+}
+@media only screen and (min-width: 960px) {
+  .section-footer .linkList-util {
+    float: right;
+  }
+}

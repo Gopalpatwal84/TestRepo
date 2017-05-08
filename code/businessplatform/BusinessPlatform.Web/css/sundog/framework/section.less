@@ -1,0 +1,124 @@
+@import (reference) '../../variables.d.less';
+@import (reference) '../../mixins.d.less';
+
+.font-color-helper(@color) when (lightness(@color) < @color-threshold) {
+    color: @color-font-light;
+
+    a {
+        color: @color-link-light;
+
+        &:hover {
+            color: @color-hover-light;
+        }
+    }
+}
+
+.svg-color-helper(@color) when (lightness(@color) < @color-threshold) {
+    svg {
+        fill: @color-link-light;
+    }
+}
+
+.section-helper(@color, @name) {
+    @escape-name: e(@name);
+
+    .section-@{escape-name}  {
+        .font-color-helper(@color);
+        .svg-color-helper(@color);
+        background-color: @color;
+    }
+}
+
+/*
+Grid: Section Color
+
+A section is the base layout component.
+
+Markup:
+<section class="section {{modifier_class}}">
+    <div class="row">
+        <div class="column">
+            <h3>Demo time!</h3>
+            <p>A paragraph of text with the {{modifier_class}} background modifier.</p>
+            <p><a href="#">Regular Link</a></p>
+            <p><a href="#" class="arrowLink">Arrow Link</a></p>
+            <p><a href="#" class="button">Button Link</a></p>
+        </div>
+    </div>
+</section>
+
+.section-palette02 - Description.
+.section-palette03 - Description.
+.section-palette04 - Description.
+.section-palette05 - Description.
+.section-palette06 - Description.
+.section-palette07 - Description.
+.section-palette08 - Description.
+.section-palette09 - Description.
+.section-palette10 - Description.
+.section-palette11 - Description.
+.section-palette12 - Description.
+.section-palette13 - Description.
+.section-slate01 - Description.
+.section-slate02 - Description.
+.section-slate03 - Description.
+.section-slate04 - Description.
+.section-slate05 - Description.
+.section-slate06 - Description.
+.section-slate07 - Description.
+.section-slate08 - Description.
+.section-slate09 - Description.
+
+Style guide: grid.sectioncolor
+*/
+
+.section {
+    background-color: @color-palette01;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: @color-font-standard;
+    overflow: hidden;
+    position: relative;
+
+    & + & {
+        border-top: 1px solid @color-slate09;
+    }
+
+    &[class*='section-palette'] + &,
+    &[class*='section-slate'] + &,
+    & + &[class*='section-palette'],
+    & + &[class*='section-slate'] {
+        border-top: none;
+    }
+
+    a {
+        color: @color-link-standard;
+
+        &:hover {
+            color: @color-hover-standard;
+        }
+    }
+}
+
+.section-helper(@color-palette02, 'palette02');
+.section-helper(@color-palette03, 'palette03');
+.section-helper(@color-palette04, 'palette04');
+.section-helper(@color-palette05, 'palette05');
+.section-helper(@color-palette06, 'palette06');
+.section-helper(@color-palette07, 'palette07');
+.section-helper(@color-palette08, 'palette08');
+.section-helper(@color-palette09, 'palette09');
+.section-helper(@color-palette10, 'palette10');
+.section-helper(@color-palette11, 'palette11');
+.section-helper(@color-palette12, 'palette12');
+
+.section-helper(@color-slate01, 'slate01');
+.section-helper(@color-slate02, 'slate02');
+.section-helper(@color-slate03, 'slate03');
+.section-helper(@color-slate04, 'slate04');
+.section-helper(@color-slate05, 'slate05');
+.section-helper(@color-slate06, 'slate06');
+.section-helper(@color-slate07, 'slate07');
+.section-helper(@color-slate08, 'slate08');
+.section-helper(@color-slate09, 'slate09');

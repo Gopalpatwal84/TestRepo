@@ -1,0 +1,181 @@
+﻿/*
+group()
+
+AKA clearfix.
+
+Style guide: mixins.group
+*/
+/*
+arrow(@size: 10px, @color: @color-slate02, @direction: 'up')
+
+CSS arrow.
+
+@size - size of arrow, default `10px`.
+@color - color of arrow, default `@color-slate02`.
+@direction - arrow direction, default 'up'.
+
+Style guide: mixins.arrow
+*/
+/*
+chevronRightCss()
+
+Chevron right using CSS
+
+@size - optional size in px to set both height and width
+@top-offset - optional size in px to move the chevron up or down
+*/
+/*
+animation(@value)
+
+CSS animation helper.
+
+@value - value of the animation.
+
+Style guide: mixins.animation
+*/
+/*
+backface(@value)
+
+CSS backface helper.
+
+@value - value of backface.
+
+Style guide: mixins.backface
+*/
+/*
+box-sizing(@value)
+
+CSS box-sizing helper.
+
+@value - value of box-sizing.
+
+Style guide: mixins.box-sizing
+*/
+/*
+center()
+
+CSS centering helper.
+
+Style guide: mixins.center
+*/
+/*
+circle-background(@diameter)
+
+CSS circle-background helper.
+
+@diameter - diameter of the circle.
+
+Style guide: mixins.circle-background
+*/
+/*
+disable-highlight()
+
+Disables highlighting on an element.
+
+Style guide: mixins.disable-highlight
+*/
+/*
+grayscale(@percent)
+
+Force grayscale on an element.
+
+@percent - grayscale percent.
+
+Style guide: mixins.grayscale
+*/
+/*
+hamburger-helper(@percent)
+
+Helper to build out hamburger CSS.
+
+@height - height of hamburger, default `4px`.
+@width - width of hamburger, default `25px`.
+@color - color of hamburger, default `@color-palette01`.
+
+Style guide: mixins.hamburger-helper
+*/
+/*
+hide-text()
+
+Accessibility-friendly text hiding.
+
+Style guide: mixins.hide-text
+*/
+/*
+placeholder-color(@color)
+
+Force the color of the placeholder.
+
+@color - color of the placeholder text.
+
+Style guide: mixins.placeholder-color
+*/
+/*
+section-image-cutoff(@imgHeight, @offset: 30px)
+
+The section below shows a common pattern that has the following features:
+
+- no padding on the bottom of the section
+- vertically centered content
+- image cutoff on the bottom
+
+Use mixin on section. Use classes `.column-image` and `.column-content` with `.row-middled`.
+
+@imgHeight - height of the image.
+@offset - image offset from the section, default `30px`.
+
+Style guide: mixins.placeholder-color
+*/
+/*
+show-text()
+
+Accessibility-friendly text showing.
+
+Style guide: mixins.show-text
+*/
+/*
+transition(@value)
+
+CSS transition helper.
+
+@value - value of the transition.
+
+Style guide: mixins.transition
+*/
+/*
+transition-hover()
+
+CSS transition-hover helper.
+
+Style guide: mixins.transition-hover
+*/
+/*
+transform(@value)
+
+CSS transform helper.
+
+@value - value of the transform.
+
+Style guide: mixins.transform
+*/
+/*
+truncate-text()
+
+CSS truncate-text helper.
+
+Style guide: mixins.truncate-text
+*/
+.section.section + .section.section {
+  border-top: 1px solid #f4f4f4;
+}
+.section.section + .section.section-gradient {
+  border-top: none;
+}
+.button {
+  border: 0;
+}
+@media only screen and (min-width: 540px) {
+  .linkList-horizontal li {
+    margin: 0 24px 0 0;
+  }
+}

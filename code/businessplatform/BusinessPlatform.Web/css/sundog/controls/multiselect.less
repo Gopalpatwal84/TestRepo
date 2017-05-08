@@ -1,0 +1,76 @@
+@import (reference) '../../variables.d.less';
+@import (reference) '../../mixins.d.less';
+
+.sd-multiselect {
+    display: inline-block;
+    float: right;
+    position: relative;
+
+    button {
+        background: none;
+        border: 1px solid @color-slate04;
+        display: inline-block;
+        padding: @spacing-size1 / 2 @spacing-size3 @spacing-size1 / 2 @spacing-size1;
+        position: relative;
+
+        &:after {
+            border-left: 1px solid @color-slate04;
+            border-top: 1px solid @color-slate04;
+            content: '';
+            display: block;
+            height: @spacing-size1;
+            position: absolute;
+            right: @spacing-size1;
+            top: 8px;
+            width: @spacing-size1;
+            .transform-rotate(225deg);
+        }
+
+        &.active {
+            &:after {
+                margin-top: 7px;
+                .transform-rotate(45deg);
+            }
+        }
+
+        &:focus,
+        &:hover,
+        &:active {
+            background-color: @color-slate09;
+
+            &.display-all {
+                background-color: darken(@color-palette03, 5%);
+            }
+        }
+    }
+
+    .sd-multiselect-options {
+        background-color: @color-palette01;
+        border: 1px solid @color-slate04;
+        display: none;
+        margin-top: -1px;
+        max-width: 200px;
+        padding: @spacing-size1 / 2 0;
+        position: absolute;
+        right: 0;
+        z-index: 1;
+
+        & > label {
+            display: block;
+            overflow: hidden;
+            padding: @spacing-size1 / 2 @spacing-size1;
+            text-overflow: ellipsis;
+            width: 100%;
+
+            & > input {
+                cursor: pointer;
+                margin-top: @spacing-size1 / 2;
+                position: absolute;
+            }
+
+            & > span {
+                margin-left: @spacing-size2;
+            }
+        }
+    }
+}

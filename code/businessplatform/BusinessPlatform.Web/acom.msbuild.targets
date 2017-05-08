@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <BuildDependsOn>
+      AcomGenerateMetadata;
+      $(BuildDependsOn)
+    </BuildDependsOn>
+    <MetadataOutputFilePath>$(MSBuildProjectDirectory)\views-metadata.json</MetadataOutputFilePath>
+    <ACOM_RunGenerateMetadataTask Condition="'$(ACOM_RunGenerateMetadataTask)' == ''">true</ACOM_RunGenerateMetadataTask>
+    <ACOM_DebugTask Condition="'$(ACOM_DebugTask)' == ''">false</ACOM_DebugTask>
+    <ACOM_TreatErrorsAsWarnings Condition="'$(ACOM_TreatErrorsAsWarnings)' == ''">false</ACOM_TreatErrorsAsWarnings>
+  </PropertyGroup>
+  <ItemGroup>
+    <ViewFilesToProcess Include="$(MSBuildProjectDirectory)\Views\**\*.cshtml" Exclude="$(MSBuildProjectDirectory)\Views\_shared\**\*.cshtml;$(MSBuildProjectDirectory)\Views\Diagnostics\**\*.cshtml;$(MSBuildProjectDirectory)\Views\Pattern\**\*.cshtml;$(MSBuildProjectDirectory)\Views\Debug\**\*.cshtml;$(MSBuildProjectDirectory)\Views\**\_*.cshtml;$(MSBuildProjectDirectory)\Views\*\errors\**\*.cshtml;$(MSBuildProjectDirectory)\Views\**\errors.cshtml;$(MSBuildProjectDirectory)\Views\**\robots.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <ViewPath Include="example\pageToOverride.cshtml">
+      <RelativeUrl>/example/pageWithNewName</RelativeUrl>
+    </ViewPath>
+  </ItemGroup>
+  <UsingTask TaskName="GenerateMetadata" AssemblyFile="..\..\packages\Onyx.PagesMetadataGenerator.MsBuild.1.0.19\tools\Onyx.PagesMetadataGenerator.MsBuild.dll" />
+  <Target Name="AcomGenerateMetadata">
+    <!--<Message Text="@(ViewFilesToProcess)"/>-->
+    <GenerateMetadata Condition="'$(ACOM_RunGenerateMetadataTask)' == 'true'" ViewFiles="@(ViewFilesToProcess)" MetadataOutputFilePath="$(MetadataOutputFilePath)" ResourcesProjectPath="$(MSBuildProjectDirectory)\..\RELATIVE_PATH_TO_RESOURCES_PROJECT\" ResourcesNamespace="RESOURCES_PROJECT_NAMESPACE" DiagnosticMode="false" DebugTask="$(ACOM_DebugTask)" CustomViewPathUrlRelationships="@(ViewPath)" ContinueOnError="$(ACOM_TreatErrorsAsWarnings)" />
+  </Target>
+</Project>

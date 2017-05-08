@@ -1,0 +1,24 @@
+@import (reference) '../../variables.d.less';
+@import (reference) '../../mixins.d.less';
+
+/*
+Fade Image
+
+Description.
+
+Markup: fadeImage.html
+
+Styleguide fadeimage
+*/
+
+.fade-img {
+	.transition(all .5s ease-in-out);
+	opacity: 0;
+	position: relative;
+	top: 200px;
+
+	&.fade-in {
+		opacity: 1;
+		top: 0;
+	}
+}

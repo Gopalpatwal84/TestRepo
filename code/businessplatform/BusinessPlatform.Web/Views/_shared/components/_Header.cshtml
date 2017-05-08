@@ -1,0 +1,16 @@
+﻿@using Resources = BusinessPlatform.Resources.Components.Header;
+
+<header data-tag-area="header" data-tag-group="header">
+    <nav class="navigation navigation-themed" role="navigation">
+        <div class="row column">
+            <ul class="logos">
+                <li class="logo-microsoft">
+                    <span class="icon">@SvgHelper.GetSvg("microsoft-color")</span>
+                </li>
+                <li class="logo">
+                    <a href="@Html.LocalizeUrl("/")">@Resources.BusinessApplicationPlatform</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+</header>

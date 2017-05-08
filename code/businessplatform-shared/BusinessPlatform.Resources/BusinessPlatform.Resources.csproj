@@ -1,0 +1,418 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{BD72AC3D-C76A-493B-9F63-6E7D7C7B206B}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>BusinessPlatform.Resources</RootNamespace>
+    <AssemblyName>BusinessPlatform.Resources</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Components\Footer.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Footer.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Components\Header.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Header.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Index.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Index.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\NotFound.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>NotFound.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Shared\Forms\Form.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Form.resx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Components\Footer.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>Footer.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Components\Footer.nb-no.resx">
+      <DependentUpon>Footer.resx</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Components\Footer.en-in.resx">
+      <DependentUpon>Footer.resx</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Components\Footer.en-gb.resx">
+      <DependentUpon>Footer.resx</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Components\Footer.zh-tw.resx">
+      <DependentUpon>Footer.resx</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Components\Footer.pt-pt.resx">
+      <DependentUpon>Footer.resx</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Components\Footer.zh-cn.resx">
+      <DependentUpon>Footer.resx</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Components\Footer.pt-br.resx">
+      <DependentUpon>Footer.resx</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Components\Footer.tr-tr.resx">
+      <DependentUpon>Footer.resx</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Components\Footer.pl-pl.resx">
+      <DependentUpon>Footer.resx</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Components\Footer.sv-se.resx">
+      <DependentUpon>Footer.resx</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Components\Footer.nl-nl.resx">
+      <DependentUpon>Footer.resx</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Components\Footer.ru-ru.resx">
+      <DependentUpon>Footer.resx</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Components\Footer.ko-kr.resx">
+    	<DependentUpon>Footer.resx</DependentUpon>
+   	</EmbeddedResource>
+    <EmbeddedResource Include="Components\Footer.fr-fr.resx">
+      <DependentUpon>Footer.resx</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Components\Footer.de-de.resx">
+      <DependentUpon>Footer.resx</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Components\Footer.ja-jp.resx">
+      <DependentUpon>Footer.resx</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Components\Footer.it-it.resx">
+      <DependentUpon>Footer.resx</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Components\Footer.hu-hu.resx">
+      <DependentUpon>Footer.resx</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Components\Footer.es-es.resx">
+      <DependentUpon>Footer.resx</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Components\Footer.da-dk.resx">
+      <DependentUpon>Footer.resx</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Components\Footer.cs-cz.resx">
+      <DependentUpon>Footer.resx</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Components\Header.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>Header.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Components\Header.nb-no.resx">
+      <DependentUpon>Header.resx</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Components\Header.en-in.resx">
+      <DependentUpon>Header.resx</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Components\Header.en-gb.resx">
+      <DependentUpon>Header.resx</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Components\Header.zh-tw.resx">
+      <DependentUpon>Header.resx</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Components\Header.pt-pt.resx">
+      <DependentUpon>Header.resx</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Components\Header.zh-cn.resx">
+      <DependentUpon>Header.resx</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Components\Header.pt-br.resx">
+      <DependentUpon>Header.resx</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Components\Header.tr-tr.resx">
+      <DependentUpon>Header.resx</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Components\Header.pl-pl.resx">
+      <DependentUpon>Header.resx</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Components\Header.sv-se.resx">
+      <DependentUpon>Header.resx</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Components\Header.nl-nl.resx">
+      <DependentUpon>Header.resx</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Components\Header.ru-ru.resx">
+      <DependentUpon>Header.resx</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Components\Header.fr-fr.resx">
+      <DependentUpon>Header.resx</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Components\Header.ko-kr.resx">
+      <DependentUpon>Header.resx</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Components\Header.de-de.resx">
+      <DependentUpon>Header.resx</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Components\Header.ja-jp.resx">
+      <DependentUpon>Header.resx</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Components\Header.it-it.resx">
+      <DependentUpon>Header.resx</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Components\Header.hu-hu.resx">
+      <DependentUpon>Header.resx</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Components\Header.es-es.resx">
+      <DependentUpon>Header.resx</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Components\Header.da-dk.resx">
+      <DependentUpon>Header.resx</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Components\Header.cs-cz.resx">
+      <DependentUpon>Header.resx</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pages\Index.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>Index.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pages\Index.nb-no.resx">
+      <DependentUpon>Index.resx</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pages\Index.en-in.resx">
+      <DependentUpon>Index.resx</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pages\Index.en-gb.resx">
+      <DependentUpon>Index.resx</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pages\Index.zh-tw.resx">
+      <DependentUpon>Index.resx</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pages\Index.pt-pt.resx">
+      <DependentUpon>Index.resx</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pages\Index.zh-cn.resx">
+      <DependentUpon>Index.resx</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pages\Index.pt-br.resx">
+      <DependentUpon>Index.resx</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pages\Index.tr-tr.resx">
+      <DependentUpon>Index.resx</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pages\Index.pl-pl.resx">
+      <DependentUpon>Index.resx</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pages\Index.sv-se.resx">
+      <DependentUpon>Index.resx</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pages\Index.nl-nl.resx">
+      <DependentUpon>Index.resx</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pages\Index.ru-ru.resx">
+      <DependentUpon>Index.resx</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pages\Index.fr-fr.resx">
+      <DependentUpon>Index.resx</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pages\Index.ko-kr.resx">
+      <DependentUpon>Index.resx</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pages\Index.de-de.resx">
+      <DependentUpon>Index.resx</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pages\Index.ja-jp.resx">
+      <DependentUpon>Index.resx</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pages\Index.it-it.resx">
+      <DependentUpon>Index.resx</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pages\Index.hu-hu.resx">
+      <DependentUpon>Index.resx</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pages\Index.es-es.resx">
+      <DependentUpon>Index.resx</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pages\Index.da-dk.resx">
+      <DependentUpon>Index.resx</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pages\Index.cs-cz.resx">
+      <DependentUpon>Index.resx</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pages\NotFound.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>NotFound.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pages\NotFound.nb-no.resx">
+      <DependentUpon>NotFound.resx</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pages\NotFound.en-in.resx">
+      <DependentUpon>NotFound.resx</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pages\NotFound.en-gb.resx">
+      <DependentUpon>NotFound.resx</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pages\NotFound.zh-tw.resx">
+      <DependentUpon>NotFound.resx</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pages\NotFound.pt-pt.resx">
+      <DependentUpon>NotFound.resx</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pages\NotFound.zh-cn.resx">
+      <DependentUpon>NotFound.resx</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pages\NotFound.pt-br.resx">
+      <DependentUpon>NotFound.resx</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pages\NotFound.tr-tr.resx">
+      <DependentUpon>NotFound.resx</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pages\NotFound.pl-pl.resx">
+      <DependentUpon>NotFound.resx</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pages\NotFound.sv-se.resx">
+      <DependentUpon>NotFound.resx</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pages\NotFound.nl-nl.resx">
+      <DependentUpon>NotFound.resx</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pages\NotFound.ru-ru.resx">
+      <DependentUpon>NotFound.resx</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pages\NotFound.fr-fr.resx">
+      <DependentUpon>NotFound.resx</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pages\NotFound.ko-kr.resx">
+      <DependentUpon>NotFound.resx</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pages\NotFound.de-de.resx">
+      <DependentUpon>NotFound.resx</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pages\NotFound.ja-jp.resx">
+      <DependentUpon>NotFound.resx</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pages\NotFound.it-it.resx">
+      <DependentUpon>NotFound.resx</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pages\NotFound.hu-hu.resx">
+      <DependentUpon>NotFound.resx</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pages\NotFound.es-es.resx">
+      <DependentUpon>NotFound.resx</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pages\NotFound.da-dk.resx">
+      <DependentUpon>NotFound.resx</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pages\NotFound.cs-cz.resx">
+      <DependentUpon>NotFound.resx</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Shared\Forms\Form.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>Form.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Shared\Forms\Form.nb-no.resx">
+      <DependentUpon>Form.resx</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Shared\Forms\Form.en-in.resx">
+      <DependentUpon>Form.resx</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Shared\Forms\Form.en-gb.resx">
+      <DependentUpon>Form.resx</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Shared\Forms\Form.zh-tw.resx">
+      <DependentUpon>Form.resx</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Shared\Forms\Form.pt-pt.resx">
+      <DependentUpon>Form.resx</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Shared\Forms\Form.zh-cn.resx">
+      <DependentUpon>Form.resx</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Shared\Forms\Form.pt-br.resx">
+      <DependentUpon>Form.resx</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Shared\Forms\Form.tr-tr.resx">
+      <DependentUpon>Form.resx</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Shared\Forms\Form.pl-pl.resx">
+      <DependentUpon>Form.resx</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Shared\Forms\Form.sv-se.resx">
+      <DependentUpon>Form.resx</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Shared\Forms\Form.nl-nl.resx">
+      <DependentUpon>Form.resx</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Shared\Forms\Form.ru-ru.resx">
+      <DependentUpon>Form.resx</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Shared\Forms\Form.fr-fr.resx">
+      <DependentUpon>Form.resx</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Shared\Forms\Form.ko-kr.resx">
+      <DependentUpon>Form.resx</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Shared\Forms\Form.de-de.resx">
+      <DependentUpon>Form.resx</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Shared\Forms\Form.ja-jp.resx">
+      <DependentUpon>Form.resx</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Shared\Forms\Form.it-it.resx">
+      <DependentUpon>Form.resx</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Shared\Forms\Form.hu-hu.resx">
+      <DependentUpon>Form.resx</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Shared\Forms\Form.es-es.resx">
+      <DependentUpon>Form.resx</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Shared\Forms\Form.da-dk.resx">
+      <DependentUpon>Form.resx</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Shared\Forms\Form.cs-cz.resx">
+      <DependentUpon>Form.resx</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<serviceSettings>
+  <services>
+    <group name="BusinessPlatform-jobs">
+      <storage>
+        <connectionInfo region="West US" default="true" accountName="bcpjobswestusint" key="#{keyvault:bcp:services-storage-jobs-westus-key}" />
+        <connectionInfo region="Unknown" accountName="bcpjobswestusint" key="#{keyvault:bcp:services-storage-jobs-westus-key}" />
+      </storage>
+    </group>
+  </services>
+</serviceSettings>

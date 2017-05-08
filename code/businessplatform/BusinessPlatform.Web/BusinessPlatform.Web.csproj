@@ -1,0 +1,646 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="..\..\packages\Microsoft.Net.Compilers.1.1.1\build\Microsoft.Net.Compilers.props" Condition="Exists('..\..\packages\Microsoft.Net.Compilers.1.1.1\build\Microsoft.Net.Compilers.props')" />
+  <Import Project="..\..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.0\build\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props" Condition="Exists('..\..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.0\build\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" />
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{8C0559FA-92B5-433B-AA20-5343CCB181E6}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>BusinessPlatform.Web</RootNamespace>
+    <AssemblyName>BusinessPlatform.Web</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <IISExpressSSLPort>44300</IISExpressSSLPort>
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <UseGlobalApplicationHostFile />
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+    <WebGreaseLibPath>..\..\packages\WebGrease.1.5.2\lib</WebGreaseLibPath>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Antlr3.Runtime, Version=3.4.1.9004, Culture=neutral, PublicKeyToken=eb42632606e9261f, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\Antlr.3.4.1.9004\lib\Antlr3.Runtime.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Autofac">
+      <HintPath>..\..\packages\Autofac.3.5.2\lib\net40\Autofac.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Autofac.Integration.Mvc, Version=3.3.0.0, Culture=neutral, PublicKeyToken=17863af14b0044da, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\Autofac.Mvc5.3.3.4\lib\net45\Autofac.Integration.Mvc.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="ChameleonForms, Version=1.2.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\ChameleonForms.1.2.0.16\lib\NET40\ChameleonForms.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevTrends.MvcDonutCaching, Version=1.3.0.0, Culture=neutral, PublicKeyToken=73c58d802958a09f, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\MvcDonutCaching.1.3.0\lib\net40\DevTrends.MvcDonutCaching.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="HtmlAgilityPack, Version=1.4.9.0, Culture=neutral, PublicKeyToken=bd319b19eaf3b43a, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\HtmlAgilityPack.1.4.9\lib\Net45\HtmlAgilityPack.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Humanizer, Version=1.28.0.0, Culture=neutral, PublicKeyToken=979442b78dfc278e, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\Humanizer.1.28.0\lib\portable-win+net40+sl50+wp8+wpa81\Humanizer.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.Azure.KeyVault.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\Microsoft.Azure.KeyVault.Core.1.0.0\lib\net40\Microsoft.Azure.KeyVault.Core.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.CodeDom.Providers.DotNetCompilerPlatform, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.0\lib\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="Microsoft.Data.Edm, Version=5.6.4.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\Microsoft.Data.Edm.5.6.4\lib\net40\Microsoft.Data.Edm.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.Data.OData, Version=5.6.4.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\Microsoft.Data.OData.5.6.4\lib\net40\Microsoft.Data.OData.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.Data.Services.Client, Version=5.6.4.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\Microsoft.Data.Services.Client.5.6.4\lib\net40\Microsoft.Data.Services.Client.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.IdentityModel.Clients.ActiveDirectory, Version=2.23.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\Microsoft.IdentityModel.Clients.ActiveDirectory.2.23.302261847\lib\net45\Microsoft.IdentityModel.Clients.ActiveDirectory.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.IdentityModel.Clients.ActiveDirectory.WindowsForms, Version=2.23.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\Microsoft.IdentityModel.Clients.ActiveDirectory.2.23.302261847\lib\net45\Microsoft.IdentityModel.Clients.ActiveDirectory.WindowsForms.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.IdentityModel.Protocol.Extensions, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\Microsoft.IdentityModel.Protocol.Extensions.1.0.0\lib\net45\Microsoft.IdentityModel.Protocol.Extensions.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.Owin, Version=3.0.1.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\Microsoft.Owin.3.0.1\lib\net45\Microsoft.Owin.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.Owin.Host.SystemWeb, Version=3.0.1.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\Microsoft.Owin.Host.SystemWeb.3.0.1\lib\net45\Microsoft.Owin.Host.SystemWeb.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.Owin.Security, Version=3.0.1.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\Microsoft.Owin.Security.3.0.1\lib\net45\Microsoft.Owin.Security.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.Owin.Security.ActiveDirectory, Version=3.0.1.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\Microsoft.Owin.Security.ActiveDirectory.3.0.1\lib\net45\Microsoft.Owin.Security.ActiveDirectory.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.Owin.Security.Cookies, Version=3.0.1.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\Microsoft.Owin.Security.Cookies.3.0.1\lib\net45\Microsoft.Owin.Security.Cookies.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.Owin.Security.Jwt, Version=3.0.1.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\Microsoft.Owin.Security.Jwt.3.0.1\lib\net45\Microsoft.Owin.Security.Jwt.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.Owin.Security.OAuth, Version=3.0.1.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\Microsoft.Owin.Security.OAuth.3.0.1\lib\net45\Microsoft.Owin.Security.OAuth.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.Owin.Security.OpenIdConnect, Version=3.0.1.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\Microsoft.Owin.Security.OpenIdConnect.3.0.1\lib\net45\Microsoft.Owin.Security.OpenIdConnect.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.WindowsAzure.Configuration, Version=1.8.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\Microsoft.WindowsAzure.ConfigurationManager.1.8.0.0\lib\net35-full\Microsoft.WindowsAzure.Configuration.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.WindowsAzure.Storage, Version=5.0.2.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\WindowsAzure.Storage.5.0.2\lib\net40\Microsoft.WindowsAzure.Storage.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Newtonsoft.Json, Version=9.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\Newtonsoft.Json.9.0.1\lib\net45\Newtonsoft.Json.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Onyx.Configuration, Version=1.0.139.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\Onyx.Configuration.1.0.139\lib\net45\Onyx.Configuration.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Onyx.Forms, Version=1.0.46.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\Onyx.Forms.1.0.46\lib\net452\Onyx.Forms.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Onyx.IO, Version=1.0.98.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\Onyx.IO.1.0.98\lib\net45\Onyx.IO.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Onyx.MediaHandler, Version=1.0.13.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\Onyx.MediaHandler.1.0.13\lib\net45\Onyx.MediaHandler.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Onyx.Mediation, Version=1.0.46.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\Onyx.Mediation.1.0.46\lib\net45\Onyx.Mediation.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Onyx.Mediation.Queues, Version=1.0.46.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\Onyx.Mediation.Queues.1.0.46\lib\net45\Onyx.Mediation.Queues.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Onyx.Mvc, Version=1.0.135.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\Onyx.Mvc.1.0.135\lib\net45\Onyx.Mvc.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Onyx.Sitemap, Version=1.0.22.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\Onyx.Sitemap.1.0.22\lib\net45\Onyx.Sitemap.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Owin, Version=1.0.0.0, Culture=neutral, PublicKeyToken=f0ebd12fd5e55cc5, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\Owin.1.0\lib\net40\Owin.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Serilog, Version=1.5.0.0, Culture=neutral, PublicKeyToken=24c2f752a8e58a10, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\Serilog.1.5.14\lib\net45\Serilog.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Serilog.FullNetFx, Version=1.5.0.0, Culture=neutral, PublicKeyToken=24c2f752a8e58a10, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\Serilog.1.5.14\lib\net45\Serilog.FullNetFx.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Serilog.Sinks.Seq, Version=1.5.0.0, Culture=neutral, PublicKeyToken=24c2f752a8e58a10, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\Serilog.Sinks.Seq.1.5.36\lib\net45\Serilog.Sinks.Seq.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.IdentityModel" />
+    <Reference Include="System.IdentityModel.Tokens.Jwt, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\System.IdentityModel.Tokens.Jwt.4.0.0\lib\net45\System.IdentityModel.Tokens.Jwt.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Net.Http.Formatting, Version=5.2.3.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\Microsoft.AspNet.WebApi.Client.5.2.3\lib\net45\System.Net.Http.Formatting.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Net.Http.WebRequest" />
+    <Reference Include="System.Runtime.Caching" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.ServiceModel" />
+    <Reference Include="System.Spatial, Version=5.6.4.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\System.Spatial.5.6.4\lib\net40\System.Spatial.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Web.Http, Version=5.2.3.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\Microsoft.AspNet.WebApi.Core.5.2.3\lib\net45\System.Web.Http.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Web.Http.WebHost, Version=5.2.3.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\Microsoft.AspNet.WebApi.WebHost.5.2.3\lib\net45\System.Web.Http.WebHost.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Web.Mvc, Version=5.2.3.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\Microsoft.AspNet.Mvc.5.2.3\lib\net45\System.Web.Mvc.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Web.Optimization, Version=1.1.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\Microsoft.AspNet.Web.Optimization.1.1.3\lib\net40\System.Web.Optimization.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="WebActivator, Version=1.5.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\WebActivator.1.5\lib\net40\WebActivator.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="WebActivatorEx, Version=2.0.0.0, Culture=neutral, PublicKeyToken=7b26dc2a43f6a0d4, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\WebActivatorEx.2.0\lib\net40\WebActivatorEx.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="WebGrease, Version=1.5.2.14234, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\WebGrease.1.5.2\lib\WebGrease.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="System.Web.Razor">
+      <HintPath>..\..\packages\Microsoft.AspNet.Razor.3.2.3\lib\net45\System.Web.Razor.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Webpages">
+      <HintPath>..\..\packages\Microsoft.AspNet.Webpages.3.2.3\lib\net45\System.Web.Webpages.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Webpages.Deployment">
+      <HintPath>..\..\packages\Microsoft.AspNet.Webpages.3.2.3\lib\net45\System.Web.Webpages.Deployment.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Webpages.Razor">
+      <HintPath>..\..\packages\Microsoft.AspNet.Webpages.3.2.3\lib\net45\System.Web.Webpages.Razor.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Helpers">
+      <HintPath>..\..\packages\Microsoft.AspNet.Webpages.3.2.3\lib\net45\System.Web.Helpers.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Web.Infrastructure">
+      <HintPath>..\..\packages\Microsoft.Web.Infrastructure.1.0.0.0\lib\net40\Microsoft.Web.Infrastructure.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="css\businessplatform\controls\navigation-themed.css">
+      <DependentUpon>navigation-themed.less</DependentUpon>
+    </Content>
+    <Content Include="css\businessplatform\framework\link.css">
+      <DependentUpon>link.less</DependentUpon>
+    </Content>
+    <Content Include="css\businessplatform\framework\section.css">
+      <DependentUpon>section.less</DependentUpon>
+    </Content>
+    <Content Include="css\businessplatform\framework\typography.css">
+      <DependentUpon>typography.less</DependentUpon>
+    </Content>
+    <Content Include="css\businessplatform\header.css">
+      <DependentUpon>header.less</DependentUpon>
+    </Content>
+    <Content Include="css\businessplatform\temporary.css">
+      <DependentUpon>temporary.less</DependentUpon>
+    </Content>
+    <Content Include="css\sundog-grid\sundog-grid.css">
+      <DependentUpon>sundog-grid.less</DependentUpon>
+    </Content>
+    <Content Include="css\sundog-navigation\controls\navigation.html" />
+    <Content Include="css\sundog-navigation\framework\footer.html" />
+    <Content Include="css\sundog-navigation\sundog-navigation.css">
+      <DependentUpon>sundog-navigation.less</DependentUpon>
+    </Content>
+    <Content Include="css\sundog-override.d.css">
+      <DependentUpon>sundog-override.d.less</DependentUpon>
+    </Content>
+    <Content Include="css\sundog\controls\backgroundVideo.html" />
+    <Content Include="css\sundog\controls\button-store.html" />
+    <Content Include="css\sundog\controls\equalize.html" />
+    <Content Include="css\sundog\controls\fadeImage.html" />
+    <Content Include="css\sundog\controls\flyout.svg.html" />
+    <Content Include="css\sundog\controls\multiselect.html" />
+    <Content Include="css\sundog\controls\playInSection.alt.html" />
+    <Content Include="css\sundog\controls\playInSection.background.html" />
+    <Content Include="css\sundog\controls\toggle.faq.html" />
+    <Content Include="css\sundog\controls\toggle.nested.html" />
+    <Content Include="css\sundog\controls\toggle.single.html" />
+    <Content Include="css\sundog\controls\toggle.slide.html" />
+    <Content Include="css\sundog\controls\toggle.svg.html" />
+    <Content Include="css\sundog\lib\owl.carousel.2.0.0.css" />
+    <Content Include="css\sundog\sundog.css">
+      <DependentUpon>sundog.less</DependentUpon>
+    </Content>
+    <Content Include="favicon.ico" />
+    <Content Include="fonts\powerbimdl2\normal\latest.svg" />
+    <Content Include="fonts\segoe-ui\bold\latest.svg" />
+    <Content Include="fonts\segoe-ui\light\latest.svg" />
+    <Content Include="fonts\segoe-ui\normal\latest.svg" />
+    <Content Include="fonts\segoe-ui\semibold\latest.svg" />
+    <Content Include="fonts\segoe-ui\semilight\latest.svg" />
+    <Content Include="Global.asax" />
+    <Content Include="images\pages\devices_appSource.png" />
+    <Content Include="images\pages\devices_connected.png" />
+    <Content Include="images\pages\devices_power.png" />
+    <Content Include="images\pages\build-on-common-framework.png" />
+    <Content Include="images\pages\devices_pro.png" />
+    <Content Include="images\pages\get-more-frmo-systems.png" />
+    <Content Include="google3316cbf173af0385.html" />
+    <Content Include="images\pages\innovate-faster2.png" />
+    <Content Include="scripts\analytics\controls\eventDispatcher.js" />
+    <Content Include="scripts\analytics\event-data\defaultEvents.js" />
+    <Content Include="scripts\analytics\helpers\googleAnalytics.js" />
+    <Content Include="scripts\analytics\helpers\mixpanel.js" />
+    <Content Include="scripts\analytics\libs\googleAnalyticsInclude.js" />
+    <Content Include="scripts\analytics\libs\mixpanelInclude.js" />
+    <Content Include="scripts\analytics\libs\mixpanelVwoInclude.js" />
+    <Content Include="scripts\analytics\config\analyticsConfig.js" />
+    <Content Include="scripts\analytics\event-data\events.js" />
+    <Content Include="scripts\analytics\event-data\pageList.js" />
+    <Content Include="scripts\form.js" />
+    <Content Include="scripts\jquery.validate.js" />
+    <Content Include="scripts\jquery.validate.unobtrusive.acom.js" />
+    <Content Include="scripts\jquery.validate.unobtrusive.chameleon.js" />
+    <Content Include="scripts\jquery.validate.unobtrusive.js" />
+    <Content Include="scripts\sundog-navigation\controls\navigation.js" />
+    <Content Include="scripts\sundog\controls\backgroundVideo.js" />
+    <Content Include="scripts\sundog\controls\button.js" />
+    <Content Include="scripts\sundog\controls\equalize.js" />
+    <Content Include="scripts\sundog\controls\fadeImage.js" />
+    <Content Include="scripts\sundog\controls\flyout.js" />
+    <Content Include="scripts\sundog\controls\modal.js" />
+    <Content Include="scripts\sundog\controls\multiselect.js" />
+    <Content Include="scripts\sundog\controls\playInSection.js" />
+    <Content Include="scripts\sundog\controls\scrollspy.js" />
+    <Content Include="scripts\sundog\controls\tabs.js" />
+    <Content Include="scripts\sundog\controls\toggle.js" />
+    <Content Include="scripts\sundog\framework\deeplink.js" />
+    <Content Include="scripts\sundog\framework\dropdownNavigation.js" />
+    <Content Include="scripts\sundog\framework\fixedelement.js" />
+    <Content Include="scripts\sundog\framework\formPersist.js" />
+    <Content Include="scripts\sundog\framework\localStorage.js" />
+    <Content Include="scripts\sundog\framework\scrollTo.js" />
+    <Content Include="scripts\sundog\framework\socialShare.js" />
+    <Content Include="scripts\sundog\framework\tables.js" />
+    <Content Include="scripts\sundog\framework\truncateText.js" />
+    <Content Include="scripts\sundog\helpers\breakpoints.js" />
+    <Content Include="scripts\sundog\helpers\debounce.js" />
+    <Content Include="scripts\sundog\helpers\qs2object.js" />
+    <Content Include="scripts\sundog\helpers\throttle.js" />
+    <Content Include="scripts\sundog\lib\html5shiv.min.js" />
+    <Content Include="scripts\sundog\lib\jquery-1.11.3.js" />
+    <Content Include="scripts\sundog\lib\jquery-1.11.3.min.js" />
+    <Content Include="scripts\sundog\lib\jquery-2.1.4.js" />
+    <Content Include="scripts\sundog\lib\jquery-2.1.4.min.js" />
+    <Content Include="scripts\sundog\lib\owl.carousel.2.0.0.min.js" />
+    <Content Include="scripts\sundog\lib\respond.min.js" />
+    <Content Include="scripts\sundog\lib\respond.src.js" />
+    <Content Include="scripts\utilities\cookieReader.js" />
+    <Content Include="scripts\utilities\debugger.js" />
+    <Content Include="scripts\utilities\viewport.js" />
+    <Content Include="svg\calendar.svg" />
+    <Content Include="svg\facebook.svg" />
+    <Content Include="svg\microsoft-color.svg" />
+    <Content Include="svg\microsoft.svg" />
+    <Content Include="svg\rss.svg" />
+    <Content Include="svg\twitter.svg" />
+    <Content Include="svg\world.svg" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="App_Start\BundleConfig.cs" />
+    <Compile Include="App_Start\ContainerConfig.cs" />
+    <Compile Include="App_Start\FilterConfig.cs" />
+    <Compile Include="App_Start\LoggerConfig.cs" />
+    <Compile Include="App_Start\OnyxConfig.cs" />
+    <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="App_Start\Startup.Auth.cs" />
+    <Compile Include="Configuration\BusinessPlatformConfiguration.cs" />
+    <Compile Include="Controllers\AuthController.cs" />
+    <Compile Include="Controllers\BaseController.cs" />
+    <Compile Include="Controllers\SiteController.cs" />
+    <Compile Include="Controllers\ErrorController.cs" />
+    <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\SitemapController.cs" />
+    <Compile Include="Controllers\VersionController.cs" />
+    <Compile Include="DynamicContent\CoreCss.cs" />
+    <Compile Include="DynamicContent\CoreScripts.cs" />
+    <Compile Include="Features\Forms\Models\SignupFormViewModel.cs" />
+    <Compile Include="Features\Sitemap\SitemapCollection.cs" />
+    <Compile Include="Features\UserInfoCookie\UserInfoCookieExtensions.cs" />
+    <Compile Include="Features\UserInfoCookie\UserInfoCookieFilter.cs" />
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="Infrastructure\Helpers\HttpRequestBaseExtensions.cs" />
+    <Compile Include="Infrastructure\Helpers\QueryStringHelper.cs" />
+    <Compile Include="Infrastructure\Helpers\CdnHelper.cs" />
+    <Compile Include="Infrastructure\Helpers\CultureHelper.cs" />
+    <Compile Include="Infrastructure\Helpers\HtmlHelpers.cs" />
+    <Compile Include="Infrastructure\Helpers\PageKeywordsHelper.cs" />
+    <Compile Include="Infrastructure\Modules\businessplatformModule.cs" />
+    <Compile Include="Infrastructure\Modules\SitemapModule.cs" />
+    <Compile Include="Infrastructure\Modules\MediatorModule.cs" />
+    <Compile Include="Infrastructure\Modules\ServiceSettingsModule.cs" />
+    <Compile Include="Models\Pages\ViewMetadataModel.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Startup.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Views\web.config" />
+    <Content Include="packages.config">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Views\_ViewStart.cshtml" />
+    <Content Include="Views\_shared\_Layout.cshtml" />
+    <Content Include="Views\_global\_404.cshtml" />
+    <Content Include="Views\_shared\_LayoutParent.cshtml" />
+    <Content Include="Views\_global\index.cshtml" />
+    <Content Include="Views\_shared\components\_Header.cshtml" />
+    <Content Include="Views\_shared\components\_Footer.cshtml" />
+    <Content Include="config\rewriteRules.config" />
+    <Content Include="config\rewriteMaps.config" />
+    <Content Include="App_Data\tenants.json" />
+    <Content Include="Views\_global\_unauthorized.cshtml" />
+    <Content Include="App_Code\OnyxForms.cshtml" />
+    <None Include="compilerconfig.json" />
+    <None Include="compilerconfig.json.defaults">
+      <DependentUpon>compilerconfig.json</DependentUpon>
+    </None>
+    <Content Include="Views\Sitemap\robots.cshtml" />
+    <Content Include="acom.msbuild.targets" />
+    <Content Include="views-metadata.json" />
+    <Content Include="scripts\analytics\README.md" />
+    <Content Include="css\sundog-override.d.less" />
+    <Content Include="css\businessplatform\framework\section.less" />
+    <Content Include="css\businessplatform\framework\typography.less" />
+    <Content Include="css\businessplatform\header.less" />
+    <Content Include="css\businessplatform\framework\link.less" />
+    <Content Include="Views\_shared\layout\_clicktaleInclude.cshtml" />
+    <Content Include="onyx.keyholdr.msbuild.targets" />
+    <None Include="config\appsettings.keyvault.template" />
+    <None Include="config\servicesettings.keyvault.template">
+      <SubType>Designer</SubType>
+    </None>
+    <Content Include="css\sundog-navigation\sundog-navigation.less" />
+    <Content Include="css\sundog-navigation\framework\footer.less" />
+    <Content Include="css\sundog-navigation\controls\navigation.less" />
+    <Content Include="css\sundog-navigation\controls\navigation-transparent.less" />
+    <Content Include="css\sundog-navigation\controls\navigation-themed.less" />
+    <Content Include="css\sundog-navigation\controls\navigation-fixed.less" />
+    <Content Include="css\variables.d.less" />
+    <Content Include="css\sundog-grid\sundog-grid.less" />
+    <Content Include="css\sundog-grid\lib\normalize.less" />
+    <Content Include="css\sundog-grid\lib\foundation-visibility.less" />
+    <Content Include="css\sundog-grid\lib\foundation-grid.less" />
+    <Content Include="css\sundog-grid\framework\utility.less" />
+    <Content Include="css\sundog-grid\framework\gridly-adams.less" />
+    <Content Include="css\sundog-grid\framework\base.less" />
+    <Content Include="css\mixins.d.less" />
+    <Content Include="fonts\segoe-ui\semilight\latest.woff" />
+    <Content Include="fonts\segoe-ui\semilight\latest.ttf" />
+    <Content Include="fonts\segoe-ui\semilight\latest.eot" />
+    <Content Include="fonts\segoe-ui\semibold\latest.woff" />
+    <Content Include="fonts\segoe-ui\semibold\latest.ttf" />
+    <Content Include="fonts\segoe-ui\semibold\latest.eot" />
+    <Content Include="fonts\segoe-ui\normal\latest.woff" />
+    <Content Include="fonts\segoe-ui\normal\latest.ttf" />
+    <Content Include="fonts\segoe-ui\normal\latest.eot" />
+    <Content Include="fonts\segoe-ui\light\latest.woff" />
+    <Content Include="fonts\segoe-ui\light\latest.ttf" />
+    <Content Include="fonts\segoe-ui\light\latest.eot" />
+    <Content Include="fonts\segoe-ui\bold\latest.woff" />
+    <Content Include="fonts\segoe-ui\bold\latest.ttf" />
+    <Content Include="fonts\segoe-ui\bold\latest.eot" />
+    <Content Include="fonts\powerbimdl2\normal\latest.woff" />
+    <Content Include="fonts\powerbimdl2\normal\latest.ttf" />
+    <Content Include="fonts\powerbimdl2\normal\latest.eot" />
+    <Content Include="css\sundog\sundog.less" />
+    <Content Include="css\sundog\helpers\font.d.less" />
+    <Content Include="css\sundog\helpers\font-face.less" />
+    <Content Include="css\sundog\framework\typography.less" />
+    <Content Include="css\sundog\framework\table.less" />
+    <Content Include="css\sundog\framework\section.less" />
+    <Content Include="css\sundog\framework\productPlacement.less" />
+    <Content Include="css\sundog\framework\pagination.less" />
+    <Content Include="css\sundog\framework\note.less" />
+    <Content Include="css\sundog\framework\linkList.less" />
+    <Content Include="css\sundog\framework\link.less" />
+    <Content Include="css\sundog\framework\icon.less" />
+    <Content Include="css\sundog\framework\form.less" />
+    <Content Include="css\sundog\framework\card.less" />
+    <Content Include="css\sundog\framework\breadcrumbs.less" />
+    <Content Include="css\sundog\framework\base.less" />
+    <Content Include="css\sundog\controls\toggle.less" />
+    <Content Include="css\sundog\controls\tabs.less" />
+    <Content Include="css\sundog\controls\playInSection.less" />
+    <Content Include="css\sundog\controls\multiselect.less" />
+    <Content Include="css\sundog\controls\modal.less" />
+    <Content Include="css\sundog\controls\flyout.less" />
+    <Content Include="css\sundog\controls\fadeImage.less" />
+    <Content Include="css\sundog\controls\equalize.less" />
+    <Content Include="css\sundog\controls\button.less" />
+    <Content Include="css\sundog\controls\backgroundVideo.less" />
+    <Content Include="css\sundog-navigation\sundog-navigation.less" />
+    <Content Include="css\sundog-navigation\framework\footer.less" />
+    <Content Include="css\sundog-override.d.less" />
+    <Content Include="css\sundog-navigation\controls\navigation-fixed.less" />
+    <Content Include="css\sundog-navigation\controls\navigation-themed.less" />
+    <Content Include="css\sundog-navigation\controls\navigation-transparent.less" />
+    <Content Include="css\sundog-navigation\controls\navigation.less" />
+    <Content Include="fonts\powerbimdl2\normal\latest.eot" />
+    <Content Include="fonts\powerbimdl2\normal\latest.ttf" />
+    <Content Include="fonts\powerbimdl2\normal\latest.woff" />
+    <Content Include="fonts\segoe-ui\bold\latest.eot" />
+    <Content Include="fonts\segoe-ui\bold\latest.ttf" />
+    <Content Include="fonts\segoe-ui\bold\latest.woff" />
+    <Content Include="fonts\segoe-ui\light\latest.eot" />
+    <Content Include="fonts\segoe-ui\light\latest.ttf" />
+    <Content Include="fonts\segoe-ui\light\latest.woff" />
+    <Content Include="fonts\segoe-ui\normal\latest.eot" />
+    <Content Include="fonts\segoe-ui\normal\latest.ttf" />
+    <Content Include="fonts\segoe-ui\normal\latest.woff" />
+    <Content Include="fonts\segoe-ui\semibold\latest.eot" />
+    <Content Include="fonts\segoe-ui\semibold\latest.ttf" />
+    <Content Include="fonts\segoe-ui\semibold\latest.woff" />
+    <Content Include="fonts\segoe-ui\semilight\latest.eot" />
+    <Content Include="fonts\segoe-ui\semilight\latest.ttf" />
+    <Content Include="fonts\segoe-ui\semilight\latest.woff" />
+    <Content Include="css\businessplatform\framework\section.less" />
+    <Content Include="css\businessplatform\framework\typography.less" />
+    <Content Include="css\businessplatform\header.less" />
+    <Content Include="css\businessplatform\framework\link.less" />
+    <Content Include="Views\_shared\layout\_clicktaleInclude.cshtml" />
+    <Content Include="onyx.keyholdr.msbuild.targets" />
+    <None Include="config\appsettings.keyvault.template" />
+    <None Include="config\servicesettings.keyvault.template">
+      <SubType>Designer</SubType>
+    </None>
+    <Content Include="css\businessplatform\controls\navigation-themed.less" />
+    <Content Include="css\businessplatform\temporary.less" />
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\businessplatform-shared\businessplatform.Entities\businessplatform.Entities.csproj">
+      <Project>{2ad725c2-1de0-42e9-9357-27cd3532d9d6}</Project>
+      <Name>BusinessPlatform.Entities</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\businessplatform-shared\businessplatform.Json\businessplatform.Json.csproj">
+      <Project>{5aac2ef6-d5db-42a3-b5dc-284a01adf2da}</Project>
+      <Name>BusinessPlatform.Json</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\businessplatform-shared\businessplatform.Messages\businessplatform.Messages.csproj">
+      <Project>{79f20fc9-1c9c-46ce-b6fe-477ba1405f18}</Project>
+      <Name>BusinessPlatform.Messages</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\businessplatform-shared\businessplatform.Resources\businessplatform.Resources.csproj">
+      <Project>{bd72ac3d-c76a-493b-9f63-6e7d7c7b206b}</Project>
+      <Name>BusinessPlatform.Resources</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup />
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>21517</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>https://localhost:44300/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.0\build\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" Text="$([System.String]::Format('$(ErrorText)', '..\..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.0\build\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props'))" />
+    <Error Condition="!Exists('..\..\packages\Microsoft.Net.Compilers.1.1.1\build\Microsoft.Net.Compilers.props')" Text="$([System.String]::Format('$(ErrorText)', '..\..\packages\Microsoft.Net.Compilers.1.1.1\build\Microsoft.Net.Compilers.props'))" />
+  </Target>
+  <Import Project="$(ProjectDir)\onyx.keyholdr.msbuild.targets" Condition="Exists('..\..\packages\Onyx.KeyholdR.MsBuild.1.0.46\tools\Onyx.KeyholdR.MsBuild.dll')" />
+  <Import Project="$(ProjectDir)\acom.msbuild.targets" Condition="Exists('..\..\packages\Onyx.PagesMetadataGenerator.MsBuild.1.0.19\tools\Onyx.PagesMetadataGenerator.MsBuild.dll')" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it.
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

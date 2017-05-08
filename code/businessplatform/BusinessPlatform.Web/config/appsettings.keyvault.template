@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<appSettings>
+  <add key="SeqServer" value="http://localhost:5341/" />
+  <add key="SeqServerApiKey" value="#{keyvault:bcp:frontend-seq-apikey}" />
+  <add key="SeqAllowFileBuffer" value="false" />
+
+  <!-- AAD settings -->
+  <add key="AuthEnabled" value="true" />
+  <add key="LockdownEnabled" value="false" />
+  <add key="StagingLockdownEnabled" value="false" />
+  <add key="ActiveDirectoryClientID" value="9efc2e37-129e-4669-a214-0e76e272c853" />
+  <add key="ActiveDirectoryAudience" value="https://bcpcom.onmicrosoft.com/bcp-frontend-westus-int-01" />
+  <add key="ActiveDirectoryPassword" value="#{keyvault:bcp:frontend-lockdown-app-password}" />
+  <add key="ActiveDirectoryTenant" value="bcpcom.onmicrosoft.com" />
+
+  <add key="ClientValidationEnabled" value="true" />
+  <add key="UnobtrusiveJavaScriptEnabled" value="true" />
+
+  <!-- BusinessPlatform Web SiteDeployment version -->
+  <add key="BusinessPlatform.Web.Configuration.BusinessPlatformConfiguration.DeploymentVersion" value="0" />
+  <add key="BusinessPlatform.Web.Configuration.BusinessPlatformConfiguration.BranchName" value="default" />
+  <add key="BusinessPlatform.Web.Configuration.BusinessPlatformConfiguration.CdnPrefix" value="/" />
+  <add key="BusinessPlatform.Web.Configuration.BusinessPlatformConfiguration.CdnPrefixStagingSlot" value="/" />
+  <add key="BusinessPlatform.Web.Configuration.BusinessPlatformConfiguration.ProductionDomain" value="https://businessplatform.microsoft.com/" />
+
+  <add key="BusinessPlatform.Web.Configuration.BusinessPlatformConfiguration.LoadBalancedDomain" value="" />
+</appSettings>

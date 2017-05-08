@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<appSettings>
+  <!-- Seq settings -->
+  <add key="SeqServer" value="http://localhost:5341/" />
+  <add key="SeqServerApiKey" value="#{keyvault:bcp:jobs-seq-apikey}" />
+  <add key="SeqAllowFileBuffer" value="false" />
+
+  <!-- Website Version -->
+  <add key="BusinessPlatform.Jobs.Configuration.BusinessPlatformConfiguration.DeploymentVersion" value="0" />
+  <add key="BusinessPlatform.Jobs.Configuration.BusinessPlatformConfiguration.BranchName" value="default" />
+
+  <!-- AAD settings -->
+  <add key="ActiveDirectoryClientID" value="d1563b99-8d21-4f76-9841-e1798266f0a2" />
+  <add key="ActiveDirectoryAudience" value="https://bcpcom.onmicrosoft.com/bcp-jobs-westus-int-01" />
+  <add key="ActiveDirectoryPassword" value="#{keyvault:bcp:jobs-lockdown-app-password}" />
+  <add key="ActiveDirectoryTenant" value="bcpcom.onmicrosoft.com" />
+  <add key="AuthEnabled" value="true" />
+  <add key="LockdownEnabled" value="true" />
+  <add key="StagingLockdownEnabled" value="true" />
+</appSettings>

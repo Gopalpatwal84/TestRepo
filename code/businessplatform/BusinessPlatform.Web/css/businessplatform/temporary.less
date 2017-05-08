@@ -1,0 +1,25 @@
+﻿@import '../variables.d.less';
+@import '../mixins.d.less';
+
+// Sundog nuget update 4/5/2017
+.section {
+    &.section + &.section {
+        border-top: 1px solid @color-slate09;
+    }
+    &.section + &.section-gradient{
+        border-top: none;
+    }
+}
+
+.button {
+    border: 0;
+}
+
+@media only screen and (min-width: @resolution-small) {
+	.linkList-horizontal {
+		li {
+			margin: 0 @spacing-size2 0 0;
+		}
+	}
+}
+// End Sundog update

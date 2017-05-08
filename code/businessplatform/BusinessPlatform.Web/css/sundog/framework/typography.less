@@ -1,0 +1,361 @@
+@import (reference) '../../variables.d.less';
+@import (reference) '../../mixins.d.less';
+
+.text-helper(@color, @name) {
+    @escape-name: e(@name);
+
+    .text-@{escape-name} {
+        color: @color;
+    }
+}
+
+/*
+Typography
+
+Use "auto" setting on leading. Use sentence casing site wide.
+
+Markup:
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+
+Style guide: typography
+*/
+
+body {
+    .font-regular();
+    color: @color-font-standard;
+    font-family: 'Segoe UI Condensed', 'Segoe UI', 'Segoe WP', Tahoma, Arial, sans-serif;
+}
+
+/*
+Typography: Links
+
+Description.
+
+Markup:
+<p><a href="">Lorem ipsum</a> dolor sit amet, consectetur adipiscing elit.</p>
+
+Style guide: typography.links
+*/
+
+a {
+    .transition(color .2s ease-in-out);
+    text-decoration: none;
+
+    &:hover {
+        text-decoration: none;
+    }
+}
+
+/*
+Typography: Paragraphs
+
+Description.
+
+Markup:
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus tincidunt ut elit a placerat. Nullam eu congue felis. Phasellus mattis, ipsum ut tincidunt pharetra, diam mi placerat lorem, eu porta magna erat quis sapien.</p>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus tincidunt ut elit a placerat. Nullam eu congue felis. Phasellus mattis, ipsum ut tincidunt pharetra, diam mi placerat lorem, eu porta magna erat quis sapien.</p>
+
+Style guide: typography.paragraphs
+*/
+
+p {
+    font-size: @font-regular;
+    margin: @spacing-size1 0;
+}
+/*
+Typography: Font
+
+Description.
+
+Markup:
+<p class="{{modifier_class}}">Lorem ipsum dolor sit amet</p>
+
+.text-super - Description.
+.text-heading1 - Description.
+.text-heading2 - Description.
+.text-heading3 - Description.
+.text-heading4 - Description.
+.text-heading5 - Description.
+.text-heading6 - Description.
+.text-regular - Description.
+.text-mini - Description.
+.text-micro - Description.
+.text-center - Description.
+.text-justify - Description.
+.text-left - Description.
+.text-right - Description.
+.text-bold - Description.
+.text-semibold - Description.
+.text-normal - Description.
+.text-semilight - Description.
+.text-light - Description.
+.text-uppercase - Description.
+.text-palette01 - Description.
+.text-palette02 - Description.
+.text-palette03 - Description.
+.text-palette04 - Description.
+.text-palette05 - Description.
+.text-palette06 - Description.
+.text-palette07 - Description.
+.text-palette08 - Description.
+.text-palette09 - Description.
+.text-palette10 - Description.
+.text-palette11 - Description.
+.text-palette12 - Description.
+.text-palette13 - Description.
+.text-slate01 - Description.
+.text-slate02 - Description.
+.text-slate03 - Description.
+.text-slate04 - Description.
+.text-slate05 - Description.
+.text-slate06 - Description.
+.text-slate07 - Description.
+.text-slate08 - Description.
+.text-slate09 - Description.
+
+Style guide: typography.font
+*/
+
+.text-regular {
+    .font-regular();
+}
+
+
+h1,
+.text-heading1 {
+    .font-heading2();
+    margin: 0 0 12px;
+}
+
+h2,
+.text-heading2 {
+    .font-heading3();
+    margin: 0 0 12px;
+}
+
+h3,
+.text-heading3 {
+    .font-heading4();
+    margin: 0 0 12px;
+    position: relative;
+}
+
+h4,
+.text-heading4 {
+    .font-heading5();
+    margin: 0 0 12px;
+}
+
+h5,
+.text-heading5 {
+    .font-heading6();
+    margin: 0 0 8px;
+}
+
+h6,
+.text-heading6 {
+    .font-heading6();
+    margin: 0 0 12px;
+}
+
+.text-super {
+    .font-heading1();
+    margin: 0 0 16px;
+}
+
+.text-mini {
+    font-size: @font-mini;
+}
+
+.text-micro {
+    font-size: @font-micro;
+}
+
+/*
+Typography: Blockqoute
+
+Description.
+
+Markup:
+<blockquote>"I quote: This is a blockquote. End quote."</blockquote>
+
+Style guide: typography.blockqoutes
+*/
+
+blockquote {
+    font-size: @font-mini;
+    font-style: italic;
+    margin: 0;
+}
+
+/*
+Typography: Lists
+
+Description.
+
+Markup:
+<ul>
+    <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec eleifend nunc non ultricies ornare. Pellentesque auctor tellus dolor, quis fringilla nunc mollis vel.</li>
+    <li>Morbi sit amet libero tellus. Etiam pretium lacus et nisl imperdiet mollis sed et odio. Cum sociis natoque penatibus et magnis dis parturient montes.</li>
+    <li>Ascetur ridiculus mus. Integer metus erat, porta eu sapien vitae, ullamcorper sagittis lacus. Aenean sodales turpis nec mi molestie commodo.</li>
+</ul>
+<ol>
+    <li>
+        Chapter One
+        <ol>
+            <li>Section One</li>
+            <li>Section Two </li>
+            <li>Section Three </li>
+        </ol>
+    </li>
+    <li>Chapter Two</li>
+    <li>Chapter Three  </li>
+</ol>
+
+Style guide: typography.lists
+*/
+
+ul,
+ol {
+    list-style-position: outside;
+    margin-bottom: 14px;
+    margin-left: 0;
+
+    ul,
+    ol {
+        margin: 0;
+        padding-bottom: 0;
+    }
+
+    li {
+        font-size: inherit;
+        margin-bottom: @spacing-size1;
+
+        &:last-child {
+            margin-bottom: 0;
+        }
+    }
+}
+
+ul {
+    list-style-type: disc;
+    padding-left: 17px;
+}
+
+ol {
+    list-style-type: decimal;
+    padding-left: 27px;
+
+    ol {
+        list-style-type: lower-alpha;
+
+        ol {
+            list-style-type: lower-roman;
+        }
+    }
+}
+
+.text-center {
+    text-align: center;
+}
+.text-justify {
+    text-align: justify;
+}
+.text-left {
+    text-align: left;
+}
+.text-right {
+    text-align: right;
+}
+
+b,
+strong,
+.text-bold {
+	font-weight: @font-bold;
+}
+.text-semibold {
+	font-weight: @font-semibold;
+}
+.text-normal {
+	font-weight: @font-normal;
+}
+.text-semilight {
+	font-weight: @font-semilight;
+}
+.text-light {
+	font-weight: @font-light;
+}
+
+.text-uppercase {
+    text-transform: uppercase;
+}
+.text-break-all {
+    word-break: break-all;
+}
+
+.text-helper(@color-palette01, 'palette01');
+.text-helper(@color-palette02, 'palette02');
+.text-helper(@color-palette03, 'palette03');
+.text-helper(@color-palette04, 'palette04');
+.text-helper(@color-palette05, 'palette05');
+.text-helper(@color-palette06, 'palette06');
+.text-helper(@color-palette07, 'palette07');
+.text-helper(@color-palette08, 'palette08');
+.text-helper(@color-palette09, 'palette09');
+.text-helper(@color-palette10, 'palette10');
+.text-helper(@color-palette11, 'palette11');
+.text-helper(@color-palette12, 'palette12');
+
+.text-helper(@color-slate01, 'slate01');
+.text-helper(@color-slate02, 'slate02');
+.text-helper(@color-slate03, 'slate03');
+.text-helper(@color-slate04, 'slate04');
+.text-helper(@color-slate05, 'slate05');
+.text-helper(@color-slate06, 'slate06');
+.text-helper(@color-slate07, 'slate07');
+.text-helper(@color-slate08, 'slate08');
+.text-helper(@color-slate09, 'slate09');
+
+@media only screen and (min-width: @resolution-medium) {
+    h1,
+    .text-heading1 {
+        .font-heading1();
+        margin: 0 0 12px;
+    }
+
+    h2,
+    .text-heading2 {
+        .font-heading2();
+        margin: 0 0 12px;
+    }
+
+    h3,
+    .text-heading3 {
+        .font-heading3();
+        margin: 0 0 12px;
+        position: relative;
+    }
+
+    h4,
+    .text-heading4 {
+        .font-heading4();
+        margin: 0 0 12px;
+    }
+
+    h5,
+    .text-heading5 {
+        .font-heading5();
+        margin: 0 0 8px;
+    }
+
+    h6,
+    .text-heading6 {
+        .font-heading6();
+        margin: 0 0 12px;
+    }
+
+    .text-super {
+        .font-super();
+        margin: 0 0 16px;
+    }
+}

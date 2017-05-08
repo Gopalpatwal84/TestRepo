@@ -1,0 +1,72 @@
+@import (reference) '../../variables.d.less';
+@import (reference) '../../mixins.d.less';
+
+/*
+Background Video
+
+Here we have some video content. These are examples of some of the styling and features that Sundog has created for adding videos on the site.
+
+Formats to include when embedding a video:
+- .mp4
+- .ogg
+- .webm
+
+Markup: backgroundVideo.html
+
+Styleguide backgroundvideo
+*/
+
+.background-video-holder {
+    height: 100%;
+    left: 0;
+    opacity: 0;
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 0;
+
+    video {
+        max-width: none;
+        width: 100%;
+        .center();
+    }
+
+    & ~ .row {
+        position: relative;
+        z-index: 500;
+    }
+
+    .background-video-controls {
+        bottom: @spacing-size1;
+        cursor: pointer;
+        height: @spacing-size3;
+        opacity: .6;
+        position: absolute;
+        right: @spacing-size1;
+        width: @spacing-size3;
+        z-index: 1;
+
+        &:hover {
+            opacity: 1;
+        }
+    }
+
+    .background-video-play {
+        display: none;
+    }
+
+    .background-video-pause {
+        display: block;
+    }
+
+    &.paused {
+        .background-video-play {
+            display: block;
+        }
+
+        .background-video-pause {
+            display: none;
+        }
+    }
+}

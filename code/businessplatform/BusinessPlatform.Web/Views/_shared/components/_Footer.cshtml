@@ -1,0 +1,58 @@
+﻿@using BusinessPlatform.Entities
+@using Acom.IO.Json
+
+@using Resources = BusinessPlatform.Resources.Components.Footer;
+
+@{
+    var cultures = DependencyResolver.Current.GetService<JsonLoader<Culture>>().Data.Value;
+}
+
+<footer class="section section-footer" data-tag-area="footer" data-tag-group="footer">
+    <div class="row">
+        <div class="column small-3">
+            <ul class="linkList">
+                <li><a href="https://businessplatform.microsoft.com/">@Resources.Overview</a></li>
+            </ul>
+        </div>
+        <div class="column small-3">
+            <ul class="linkList">
+                <li><a href="https://flow.microsoft.com/">Microsoft Flow</a></li>
+            </ul>
+        </div>
+        <div class="column small-3">
+            <ul class="linkList">
+                <li><a href="https://powerapps.microsoft.com/">PowerApps</a></li>
+            </ul>
+        </div>
+        <div class="column small-3">
+            <ul class="linkList">
+                <li><a href="https://powerbi.microsoft.com/">Power BI</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="row row-divided row-size6 row-utility">
+        <div class="column medium-4">
+            <ul class="linkList linkList-horizontal">
+                <li><span class="icon icon-microsoft">@SvgHelper.GetSvg("microsoft")</span></li>
+                <li>&copy; @DateTime.Now.Year Microsoft</li>
+            </ul>
+        </div>
+        <div class="column medium-7 medium-offset-1">
+            <ul class="linkList linkList-horizontal linkList-util">
+                <li><a href="https://www.microsoft.com/trademarks">@Resources.Trademarks</a></li>
+                <li><a href="@Html.LocalizeUrl("go:248681")">@Resources.PrivacyCookies</a></li>
+                <li><a href="https://www.microsoft.com/en-us/legal/intellectualproperty/copyright/default.aspx">@Resources.TermsOfUse</a></li>
+                <li>
+                    <select>
+                        @foreach (var culture in cultures.Where(x => x.IsDisplayed))
+                        {
+                            <option @(KnownCultures.Current == @culture.Slug ? "selected='selected' " : string.Empty) value="@culture.Slug">
+                                @CultureHelperBase.GetDisplayName(culture.Slug)
+                            </option>
+                        }
+                    </select>
+                </li>
+            </ul>
+        </div>
+    </div>
+</footer>

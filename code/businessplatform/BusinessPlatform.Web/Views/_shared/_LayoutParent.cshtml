@@ -1,0 +1,54 @@
+﻿@using Acom.Mvc.Bundles
+@using BusinessPlatform.Web.DynamicContent
+@model BusinessPlatform.Web.Models.Pages.ViewMetadataModel
+
+@{
+    Model.MetaCanonical = Model.MetaCanonical ?? string.Format("https://businessplatform.microsoft.com{0}", this.Request.Url.AbsolutePath);
+}
+
+<!DOCTYPE html>
+<html class="@CultureHelperBase.GetCurrentCulture()" lang="@CultureHelperBase.GetCurrentNeutralCulture()">
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="@Model.MetaDescription" />
+    <meta name="keywords" content="@Model.MetaKeywords" />
+    <link rel="canonical" href="@Model.MetaCanonical" />
+
+    @foreach (var metaTag in Model.AdditionalMetaTags)
+    {
+        <meta name="@metaTag.Key" content="@metaTag.Value" />
+    }
+
+    <title>@Model.PageTitle</title>
+    <link href="/favicon.ico" rel="icon" type="image/png">
+    @Html.ConditialRenderStyleBundle(CoreCss.Path)
+
+    <script>
+        function cdnfallback() {
+            if (window.location.search.indexOf('cdn=disable') === -1) {
+                window.location.href = '?cdn=disable';
+            }
+        }
+    </script>
+</head>
+<body>
+    <div class="container @ViewBag.Container" data-tag-area="content" data-tag-group="body">
+        @RenderBody()
+    </div>
+
+    <!--[if lt IE 9]>
+        <script src="@CdnHelper.GetCdnUrl("/scripts/sundog/lib/jquery-1.11.3.min.js")"></script>
+        <script src="@CdnHelper.GetCdnUrl("/scripts/sundog/lib/respond.min.js")"></script>
+    <![endif]-->
+    <!--[if gte IE 9]><!-->
+    <script src="@CdnHelper.GetCdnUrl("/scripts/sundog/lib/jquery-2.1.4.min.js")"></script>
+    <!--<![endif]-->
+
+    @Html.ConditialRenderScriptBundle(CoreScripts.Path)
+    @RenderSection("foot", false)
+    <script src="//cdn.optimizely.com/js/6444120103.js"></script>
+    @Html.Partial("layout/_clicktaleInclude")
+</body>
+</html>

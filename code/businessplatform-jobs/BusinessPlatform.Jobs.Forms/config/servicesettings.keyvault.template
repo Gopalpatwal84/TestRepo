@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<serviceSettings>
+  <services>
+    <group name="BusinessPlatform-jobs">
+      <storage>
+        <!-- 
+          <connectionInfo region="West US" default="true" accountName="bcpjobswestusint" key="#{keyvault:bcp:services-storage-jobs-westus-key}" />
+          <connectionInfo region="Unknown" accountName="bcpjobswestusint" key="#{keyvault:bcp:services-storage-jobs-westus-key}" />
+        -->
+        <connectionInfo region="West US" default="true" accountName="businessplatformjobswestusint" key="SkzKpagGtOrgOuWnQrQj2s9eFdiq98CA71diSQUCN25RqG600RlbA0UNztM8BVJUtwXtYCiyFZ4T4JL3SoRB9A==" />
+        <connectionInfo region="Unknown" accountName="businessplatformjobswestusint" key="SkzKpagGtOrgOuWnQrQj2s9eFdiq98CA71diSQUCN25RqG600RlbA0UNztM8BVJUtwXtYCiyFZ4T4JL3SoRB9A==" />
+      </storage>
+      <documentdb>
+        <connectionInfo region="West US" default="true" host="https://bcp-westus-int-01.documents.azure.com/" key="#{keyvault:bcp:services-documentdb-forms-westus-key}" />
+        <connectionInfo region="Unknown" host="https://bcp-westus-int-01.documents.azure.com/" key="#{keyvault:bcp:services-documentdb-forms-westus-key}" />
+      </documentdb>
+    </group>
+  </services>
+</serviceSettings>

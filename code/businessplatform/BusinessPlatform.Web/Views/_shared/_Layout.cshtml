@@ -1,0 +1,11 @@
+﻿@{
+    Layout = "~/Views/_shared/_LayoutParent.cshtml";
+}
+
+@Html.Partial("components/_Header")
+@RenderBody()
+@Html.Partial("components/_Footer")
+
+@section foot {
+    @RenderSection("foot", false)
+}

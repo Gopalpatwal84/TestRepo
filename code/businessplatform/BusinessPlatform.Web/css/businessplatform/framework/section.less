@@ -1,0 +1,22 @@
+﻿@import '../../variables.d.less';
+@import '../../mixins.d.less';
+
+.section-gradient {
+    background-image: linear-gradient(to top, #582BD2, @color-palette02);
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+}
+
+.section-padding-bottom-size0 {
+    padding-bottom: 0;
+
+    img {
+        display: block;
+    }
+}
+
+// DEBUG
+img[src=""],
+a[href=""] {
+    outline: 5px dashed red;
+}
